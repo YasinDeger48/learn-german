@@ -1,0 +1,56 @@
+name: iPhone IPA
+on:
+  push:
+    paths:
+      - '.github/workflows/ios.yml'
+      - 'Almanca.swift'
+      - 'Info.plist'
+      - 'lessons.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile and package
+        shell: bash
+        run: |
+          set -euo pipefail
+          app=Payload/Almanca.app
+          mkdir -p "$app"
+          plutil -lint Info.plist
+          cp Info.plist lessons.json "$app/"
+          swift_sdk="$(xcrun --sdk iphoneos --show-sdk-path)"
+          xcrun --sdk iphoneos swiftc -parse-as-library -O \
+            -target arm64-apple-ios16.0 -sdk "$swift_sdk" \
+            Almanca.swift -o "$app/Almanca"
+          swift -e '
+            import AppKit
+            for (name, size) in [("AppIcon@2x.png", 120), ("AppIcon@3x.png", 180)] {
+                let image = NSImage(size: NSSize(width: CGFloat(size), height: CGFloat(size)), flipped: false) { rect in
+                    NSColor(calibratedRed: 0.08, green: 0.17, blue: 0.15, alpha: 1).setFill()
+                    NSRectFill(rect)
+                    let colors: [NSColor] = [.black, .systemRed, .systemYellow]
+                    for (index, color) in colors.enumerated() {
+                        color.setFill()
+                        NSRectFill(NSRect(x: rect.width * 0.2, y: rect.height * (0.62 - CGFloat(index) * 0.12),
+                               width: rect.width * 0.6, height: rect.height * 0.12))
+                    }
+                    return true
+                }
+                let bitmap = NSBitmapImageRep(data: image.tiffRepresentation!)!
+                try bitmap.representation(using: .png, properties: [:])!.write(
+                    to: URL(fileURLWithPath: CommandLine.arguments[1]).appendingPathComponent(name))
+            }
+          ' "$app"
+          ditto -c -k --keepParent Payload Almanca-Derslerim.ipa
+          unzip -t Almanca-Derslerim.ipa
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Almanca-Derslerim-IPA
+          path: Almanca-Derslerim.ipa
+          if-no-files-found: error
