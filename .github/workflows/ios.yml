@@ -28,25 +28,8 @@ jobs:
           xcrun --sdk iphoneos swiftc -parse-as-library -O \
             -target arm64-apple-ios16.0 -sdk "$swift_sdk" \
             Almanca.swift -o "$app/Almanca"
-          swift -e '
-            import AppKit
-            for (name, size) in [("AppIcon@2x.png", 120), ("AppIcon@3x.png", 180)] {
-                let image = NSImage(size: NSSize(width: CGFloat(size), height: CGFloat(size)), flipped: false) { rect in
-                    NSColor(calibratedRed: 0.08, green: 0.17, blue: 0.15, alpha: 1).setFill()
-                    NSRectFill(rect)
-                    let colors: [NSColor] = [.black, .systemRed, .systemYellow]
-                    for (index, color) in colors.enumerated() {
-                        color.setFill()
-                        NSRectFill(NSRect(x: rect.width * 0.2, y: rect.height * (0.62 - CGFloat(index) * 0.12),
-                               width: rect.width * 0.6, height: rect.height * 0.12))
-                    }
-                    return true
-                }
-                let bitmap = NSBitmapImageRep(data: image.tiffRepresentation!)!
-                try bitmap.representation(using: .png, properties: [:])!.write(
-                    to: URL(fileURLWithPath: CommandLine.arguments[1]).appendingPathComponent(name))
-            }
-          ' "$app"
+          printf '%s' 'iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAACRUlEQVR4nO3SQU0EABAEwfOABl4ogAf+H4jACRig+e4kV5MSsMn24+XtFf70OL+AWeIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SANx2D8Th+XEYTlxWE4clhOH5cRhOXFYThyWE4flxGE5cVhOHJYTh+XEYTlxWE4clhOH5cRhOXFYThyWE4flnjyO7/dPijjufzBLHPc/mCWO+x/MEsf9D2aJ4/4Hs8Rx/4NZ4rj/wSxx3P9gljjufzBLHPc/mCWO+x/MEsf9D2aJ4/4Hs8Rx/4NZ4rj/wSxx3P9gljjufzBLHPc/mCWO+x/MEsf9D2Y9exw/Xx8Ucdz/YJY47n8wSxz3P5gljvsfzBLH/Q9mieP+B7PEcf+DWeK4/8Escdz/YJY47n8wSxz3P5gljvsfzBLH/Q9mieP+B7PEcf+DWeK4/8Escdz/YJY47n8wSxz3P5gljvsfzBLH/Q9mPXsczBIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQfoFBetg2ctDc6UAAAAASUVORK5CYII=' | base64 -D > "$app/AppIcon@3x.png"
+          sips -z 120 120 "$app/AppIcon@3x.png" --out "$app/AppIcon@2x.png"
           ditto -c -k --keepParent Payload Almanca-Derslerim.ipa
           unzip -t Almanca-Derslerim.ipa
       - uses: actions/upload-artifact@v4
