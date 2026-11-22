@@ -228,7 +228,55 @@ func a1GermanNumber(_ n: Int) -> String {
         let head = (hundreds == 1 ? "ein" : ones[hundreds]) + "hundert"
         return rest == 0 ? head : head + a1GermanNumber(rest)
     }
-    return "eintausend"
+    if n < 1_000_000 {
+        var head = a1GermanNumber(n / 1000)
+        if head.hasSuffix("eins") { head = String(head.dropLast()) }
+        let rest = n % 1000
+        head += "tausend"
+        return rest == 0 ? head : head + a1GermanNumber(rest)
+    }
+    return "\(n)"
+}
+
+/// 1998 → neunzehnhundertachtundneunzig, 2024 → zweitausendvierundzwanzig
+func a1Year(_ year: Int) -> String {
+    if year >= 1100 && year < 2000 {
+        let rest = year % 100
+        return a1GermanNumber(year / 100) + "hundert" + (rest == 0 ? "" : a1GermanNumber(rest))
+    }
+    return a1GermanNumber(year)
+}
+
+/// 3,50 € → drei Euro fünfzig
+func a1Price(_ euro: Int, _ cent: Int) -> String {
+    let e = euro == 1 ? "ein Euro" : "\(a1GermanNumber(euro)) Euro"
+    return cent == 0 ? e : "\(e) \(a1GermanNumber(cent))"
+}
+
+/// Building blocks of a number below 1000: 347 → drei · hundert · sieben · und · vierzig
+func a1NumberPieces(_ n: Int) -> [String] {
+    var pieces: [String] = []
+    let hundreds = n / 100
+    let rest = n % 100
+    if hundreds > 0 { pieces += [hundreds == 1 ? "ein" : a1GermanNumber(hundreds), "hundert"] }
+    if rest > 0 {
+        if rest < 20 || rest % 10 == 0 {
+            pieces.append(a1GermanNumber(rest))
+        } else {
+            let unit = rest % 10
+            pieces += [unit == 1 ? "ein" : a1GermanNumber(unit), "und", a1GermanNumber(rest - unit)]
+        }
+    }
+    if pieces.isEmpty { pieces = ["null"] }
+    return pieces
+}
+
+/// Accepted spellings: "hundert" for "einhundert", "tausend" for "eintausend".
+func a1NumberAlternatives(_ word: String) -> [String] {
+    var result: [String] = []
+    if word.hasPrefix("einhundert") { result.append(String(word.dropFirst(3))) }
+    if word.hasPrefix("eintausend") { result.append(String(word.dropFirst(3))) }
+    return result
 }
 
 private func a1Ordinal(_ n: Int) -> String {
@@ -715,11 +763,27 @@ struct A1BankBuilder {
             out.append(A1Question(id: "lnum-\(n)", mode: .listen, kind: .choice, label: "Zahlen", theme: 3, topic: 19,
                                   prompt: "Dinle: hangi sayı?", speakFirst: "\(n)",
                                   options: options("\(n)", wrongDigits), answer: "\(n)", explanation: "\(n) = \(word)"))
-            if n >= 13 && n % 3 == 1 {
-                out.append(A1Question(id: "wnum-\(n)", mode: .write, kind: .typing, label: "Zahlen", theme: 3, topic: 19,
-                                      prompt: "\(n)", detail: "Sayıyı Almanca yaz", speakAfter: word, answer: word, explanation: "\(n) = \(word)"))
+            out.append(A1Question(id: "wnum-\(n)", mode: .write, kind: .typing, label: "Zahlen", theme: 3, topic: 19,
+                                  prompt: "\(n)", detail: "Sayıyı Almanca yaz (bitişik)", speakAfter: word, answer: word,
+                                  accepted: a1NumberAlternatives(word), explanation: "\(n) = \(word)"))
+            out.append(A1Question(id: "numr-\(n)", mode: .numbers, kind: .choice, label: "Zahlen", theme: 3, topic: 19,
+                                  prompt: word, detail: "Bu hangi sayı?", speakAfter: word,
+                                  options: options("\(n)", wrongDigits), answer: "\(n)", explanation: "\(word) = \(n)"))
+            out.append(A1Question(id: "numd-\(n)", mode: .write, kind: .typing, label: "Zahlen", theme: 3, topic: 19,
+                                  prompt: "Dinle ve sayıyı rakamla yaz", detail: "Örnek: 347", speakFirst: word, answer: "\(n)",
+                                  explanation: "\(word) = \(n)"))
+            let pieces = a1NumberPieces(n)
+            if pieces.count >= 3 {
+                var shuffled = pieces.shuffled()
+                var tries = 0
+                while shuffled == pieces && tries < 5 { shuffled.shuffle(); tries += 1 }
+                out.append(A1Question(id: "nb-\(n)", mode: .numbers, kind: .order, label: "Zahlen bauen", theme: 3, topic: 19,
+                                      prompt: "\(n)", detail: "Parçaları sırala: önce yüzler, sonra birler + und + onlar",
+                                      speakAfter: word, options: shuffled, answer: pieces.joined(separator: " "),
+                                      explanation: "\(n) = \(word)\nAlmancada birler basamağı onlardan önce söylenir: 47 = sieben-und-vierzig."))
             }
         }
+        addBigNumbers()
         for h in 1...12 {
             for m in stride(from: 0, through: 55, by: 5) {
                 let correct = a1TimePhrase(h, m)
@@ -770,6 +834,54 @@ struct A1BankBuilder {
                                   prompt: "Ich habe am _____ \(month) Geburtstag.  (\(day).)", speakAfter: "Ich habe am \(dative) \(month) Geburtstag.",
                                   options: options(dative, distinct(dative, [correct, a1GermanNumber(day) + "en", a1Ordinal(day % 31 + 1) + "n", a1GermanNumber(day)])),
                                   answer: dative, explanation: "am + sıra sayısı -en: am \(dative) \(month)."))
+        }
+    }
+
+    private mutating func addBigNumbers() {
+        // Thousands: rents, prices, distances.
+        let samples = [1000, 1200, 1500, 2000, 2500, 3400, 5000, 7800, 10_000, 12_500, 15_000, 20_000, 25_000, 50_000,
+                       75_300, 100_000, 250_000, 1050, 1999, 4321, 6060, 8888, 9100, 11_111, 30_400, 64_000, 99_999]
+        for n in samples {
+            let word = a1GermanNumber(n)
+            let wrong = distinct(word, [n * 10, n / 10, n + 1000, n + 100, n - 100].filter { $0 > 0 && $0 < 1_000_000 }.map(a1GermanNumber))
+            guard wrong.count == 3 else { continue }
+            out.append(A1Question(id: "big-\(n)", mode: .numbers, kind: .choice, label: "Große Zahlen", theme: 3, topic: 19,
+                                  prompt: n.formatted(.number.locale(Locale(identifier: "de_DE"))), detail: "Almancası hangisi?", speakAfter: word,
+                                  options: options(word, wrong), answer: word, explanation: "\(n) = \(word)"))
+        }
+        // Years: Ich bin 1998 geboren.
+        for year in stride(from: 1950, through: 2030, by: 1) {
+            let word = a1Year(year)
+            let wrong = distinct(word, [a1GermanNumber(year), a1Year(year + 10), a1Year(year - 1), a1Year(year + 1), "tausend" + a1GermanNumber(year % 1000)])
+            guard wrong.count == 3 else { continue }
+            out.append(A1Question(id: "yr-\(year)", mode: .numbers, kind: .choice, label: "Jahreszahlen", theme: 3, topic: 19,
+                                  prompt: "Ich bin \(year) geboren.", detail: "Yıl nasıl okunur?", speakAfter: "Ich bin \(word) geboren.",
+                                  options: options(word, wrong), answer: word,
+                                  explanation: "\(year) = \(word). 1100–1999 arası yıllar „yüzler“le okunur (neunzehnhundert…), 2000'den sonrası normal sayı gibi."))
+            if year % 4 == 0 {
+                out.append(A1Question(id: "lyr-\(year)", mode: .listen, kind: .choice, label: "Jahreszahlen", theme: 3, topic: 19,
+                                      prompt: "Dinle: hangi yıl?", speakFirst: "Ich bin \(word) geboren.",
+                                      options: options("\(year)", distinct("\(year)", ["\(year + 1)", "\(year - 10)", "\(year + 20)", "\(year - 1)"])),
+                                      answer: "\(year)", explanation: "\(word) = \(year)"))
+            }
+        }
+        // Prices.
+        let cents = [0, 10, 20, 49, 50, 75, 80, 90, 95, 99]
+        for euro in 1...30 {
+            let cent = cents[(euro * 7) % cents.count]
+            let price = String(format: "%d,%02d €", euro, cent)
+            let word = a1Price(euro, cent)
+            let wrong = distinct(word, [a1Price(euro + 1, cent), a1Price(euro, (cent + 30) % 100), a1Price(cent > 0 && cent < 31 ? cent : euro + 10, euro % 100),
+                                        a1Price(max(1, euro - 1), cent)])
+            guard wrong.count == 3 else { continue }
+            out.append(A1Question(id: "pr-\(euro)", mode: .numbers, kind: .choice, label: "Preise", theme: 3, topic: 19,
+                                  prompt: "Das kostet \(price)", detail: "Fiyat nasıl söylenir?", speakAfter: "Das kostet \(word).",
+                                  options: options(word, wrong), answer: word, explanation: "\(price) = \(word)"))
+            let digits = distinct(price, [String(format: "%d,%02d €", euro + 1, cent), String(format: "%d,%02d €", euro, (cent + 30) % 100),
+                                          String(format: "%d,%02d €", max(1, euro - 1), cent)])
+            out.append(A1Question(id: "lpr-\(euro)", mode: .listen, kind: .choice, label: "Preise", theme: 3, topic: 19,
+                                  prompt: "Dinle: ne kadar?", speakFirst: "Das kostet \(word).",
+                                  options: options(price, digits), answer: price, explanation: "\(word) = \(price)"))
         }
     }
 
@@ -1108,6 +1220,7 @@ enum A1Route: Hashable {
     case texts
     case text(Int)
     case wordList
+    case numbersLearn
 }
 
 struct A1HomeView: View {
@@ -1175,6 +1288,9 @@ struct A1HomeView: View {
                         }
                         NavigationLink(value: A1Route.texts) {
                             Label("20 okuma metni", systemImage: "doc.richtext")
+                        }
+                        NavigationLink(value: A1Route.numbersLearn) {
+                            Label("Sayıları öğren (yazılış kuralları)", systemImage: "number.circle")
                         }
                     }
                 }
@@ -1275,6 +1391,8 @@ struct A1HomeView: View {
             A1TextView(textID: id)
         case .wordList:
             A1WordListView()
+        case .numbersLearn:
+            A1NumbersLearnView()
         }
     }
 }
@@ -2100,6 +2218,102 @@ struct A1WordRow: View {
                     A1SpeakButton(text: ex.de, slow: true)
                 }
             }
+        }
+    }
+}
+
+struct A1NumbersLearnView: View {
+    @State private var input = "347"
+
+    private var number: Int? {
+        guard let n = Int(input.filter(\.isNumber)), n < 1_000_000 else { return nil }
+        return n
+    }
+
+    var body: some View {
+        List {
+            Section {
+                TextField("Bir sayı yaz", text: $input)
+                    .keyboardType(.numberPad)
+                    .font(.title2.monospacedDigit())
+                if let n = number {
+                    HStack {
+                        Text(a1GermanNumber(n)).font(.title3.bold()).foregroundStyle(a1Accent)
+                        Spacer()
+                        A1SpeakButton(text: a1GermanNumber(n))
+                        A1SpeakButton(text: a1GermanNumber(n), slow: true)
+                    }
+                    if n < 1000 {
+                        Text(a1NumberPieces(n).joined(separator: " · ")).font(.callout).foregroundStyle(.secondary)
+                    }
+                    if n >= 1100 && n < 2000 {
+                        Text("Yıl olarak: \(a1Year(n))").font(.callout).foregroundStyle(.secondary)
+                    }
+                } else {
+                    Text("0 ile 999 999 arasında bir sayı yaz.").foregroundStyle(.secondary)
+                }
+            } header: {
+                Text("Sayı çevirici")
+            } footer: {
+                Text("Herhangi bir sayı yaz, Almancasını gör ve dinle.")
+            }
+            rule("1. 0–12: ezberle", "Bu sayılar özel kelimelerdir.", Array(0...12))
+            rule("2. 13–19: birler + zehn", "drei + zehn = dreizehn. Dikkat: sechzehn (sechs değil), siebzehn (sieben değil).", Array(13...19))
+            rule("3. Onlar: -zig", "zwanzig, vierzig, fünfzig … Dikkat: dreißig (-ßig), sechzig, siebzig.", [20, 30, 40, 50, 60, 70, 80, 90])
+            rule("4. 21–99: birler + und + onlar", "Türkçenin tersi! 47 = sieben-und-vierzig („yedi ve kırk“). 1 → ein: einundzwanzig.", [21, 34, 47, 58, 65, 76, 89, 99])
+            rule("5. Yüzler: … hundert …", "347 = dreihundert + siebenundvierzig. 100 = (ein)hundert. Hepsi bitişik yazılır.", [100, 101, 115, 230, 347, 508, 999])
+            rule("6. Binler: … tausend …", "2500 = zweitausend + fünfhundert. 1000 = (ein)tausend.", [1000, 2500, 10_000, 12_345, 100_000])
+            Section {
+                ForEach([1990, 1998, 2000, 2010, 2024], id: \.self) { year in
+                    row("\(year)", a1Year(year))
+                }
+            } header: {
+                Text("7. Yıllar")
+            } footer: {
+                Text("1100–1999: neunzehnhundert… (on dokuz yüz…). 2000'den sonra: zweitausend… „Ich bin 1998 geboren.“ – „in“ kullanılmaz.")
+            }
+            Section {
+                row("1,00 €", a1Price(1, 0))
+                row("3,50 €", a1Price(3, 50))
+                row("12,99 €", a1Price(12, 99))
+                row("0,80 €", "achtzig Cent")
+            } header: {
+                Text("8. Fiyatlar")
+            } footer: {
+                Text("Virgülden sonrası „Cent“ denmeden söylenir: drei Euro fünfzig.")
+            }
+            Section {
+                row("0171 345 682", "null eins sieben eins – drei vier fünf – sechs acht zwei")
+                row("030 12 34 56", "null drei null – zwölf vierunddreißig sechsundfünfzig")
+            } header: {
+                Text("9. Telefon numaraları")
+            } footer: {
+                Text("Genelde rakam rakam söylenir; bazen ikişer ikişer. „zwei“ yerine telefonda „zwo“ da denir.")
+            }
+        }
+        .navigationTitle("Sayıları öğren")
+        .navigationBarTitleDisplayMode(.inline)
+        .scrollDismissesKeyboard(.interactively)
+    }
+
+    private func rule(_ title: String, _ text: String, _ numbers: [Int]) -> some View {
+        Section {
+            ForEach(numbers, id: \.self) { n in
+                row(n.formatted(.number.locale(Locale(identifier: "de_DE"))), a1GermanNumber(n))
+            }
+        } header: {
+            Text(title)
+        } footer: {
+            Text(text)
+        }
+    }
+
+    private func row(_ left: String, _ right: String) -> some View {
+        HStack {
+            Text(left).font(.body.monospacedDigit()).frame(minWidth: 70, alignment: .leading)
+            Text(right).foregroundStyle(a1Accent)
+            Spacer()
+            A1SpeakButton(text: right)
         }
     }
 }
