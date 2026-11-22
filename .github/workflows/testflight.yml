@@ -19,6 +19,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Select newest Xcode (App Store needs the iOS 26 SDK or later)
+        shell: bash
+        run: |
+          set -euo pipefail
+          ls -d /Applications/Xcode*.app || true
+          newest=$(ls -d /Applications/Xcode_*.app | grep -E 'Xcode_[0-9]+(\.[0-9]+)*\.app$' | sort -V | tail -n 1)
+          echo "Using $newest"
+          sudo xcode-select -s "$newest/Contents/Developer"
+          xcodebuild -version
+          sdk=$(xcrun --sdk iphoneos --show-sdk-version)
+          major=${sdk%%.*}
+          if [ "$major" -lt 26 ]; then
+            echo "::error::Newest Xcode on this runner has iOS SDK $sdk. App Store Connect needs iOS 26 or later."
+            exit 1
+          fi
+
       - name: Check secrets
         shell: bash
         run: |
