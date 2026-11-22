@@ -5,6 +5,7 @@ on:
       - '.github/workflows/ios.yml'
       - '*.swift'
       - 'a1.json'
+      - 'AppIcon.png'
       - 'Info.plist'
       - 'lessons.json'
   workflow_dispatch:
@@ -29,8 +30,8 @@ jobs:
           xcrun --sdk iphoneos swiftc -parse-as-library -O \
             -target arm64-apple-ios16.0 -sdk "$swift_sdk" \
             Almanca.swift A1.swift -o "$app/Almanca"
-          printf '%s' 'iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAACRUlEQVR4nO3SQU0EABAEwfOABl4ogAf+H4jACRig+e4kV5MSsMn24+XtFf70OL+AWeIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SANx2D8Th+XEYTlxWE4clhOH5cRhOXFYThyWE4flxGE5cVhOHJYTh+XEYTlxWE4clhOH5cRhOXFYThyWE4flnjyO7/dPijjufzBLHPc/mCWO+x/MEsf9D2aJ4/4Hs8Rx/4NZ4rj/wSxx3P9gljjufzBLHPc/mCWO+x/MEsf9D2aJ4/4Hs8Rx/4NZ4rj/wSxx3P9gljjufzBLHPc/mCWO+x/MEsf9D2Y9exw/Xx8Ucdz/YJY47n8wSxz3P5gljvsfzBLH/Q9mieP+B7PEcf+DWeK4/8Escdz/YJY47n8wSxz3P5gljvsfzBLH/Q9mieP+B7PEcf+DWeK4/8Escdz/YJY47n8wSxz3P5gljvsfzBLH/Q9mPXsczBIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQfoFBetg2ctDc6UAAAAASUVORK5CYII=' | base64 -D > "$app/AppIcon@3x.png"
-          sips -z 120 120 "$app/AppIcon@3x.png" --out "$app/AppIcon@2x.png"
+          sips -z 180 180 AppIcon.png --out "$app/AppIcon@3x.png"
+          sips -z 120 120 AppIcon.png --out "$app/AppIcon@2x.png"
           ditto -c -k --keepParent Payload Almanca-Derslerim.ipa
           unzip -t Almanca-Derslerim.ipa
       - uses: actions/upload-artifact@v4
