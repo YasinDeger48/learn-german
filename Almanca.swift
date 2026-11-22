@@ -13,6 +13,7 @@ private struct StudyBackup: Codable {
     let watched: Set<Int>
     let favorites: Set<Int>
     let notes: [Int: String]
+    var a1: A1SavedState? = nil
 }
 
 private struct BackupDocument: FileDocument {
@@ -45,7 +46,14 @@ struct AlmancaApp: App {
     }()
 
     var body: some Scene {
-        WindowGroup { LessonsView(lessons: lessons) }
+        WindowGroup {
+            TabView {
+                A1HomeView()
+                    .tabItem { Label("A1 Hazırlık", systemImage: "graduationcap.fill") }
+                LessonsView(lessons: lessons)
+                    .tabItem { Label("Video dersler", systemImage: "play.rectangle.fill") }
+            }
+        }
     }
 }
 
@@ -314,7 +322,7 @@ struct LessonsView: View {
     }
 
     private func prepareBackup() {
-        let backup = StudyBackup(version: 1, watched: watched, favorites: favorites, notes: notes)
+        let backup = StudyBackup(version: 1, watched: watched, favorites: favorites, notes: notes, a1: A1SavedState.load())
         guard let data = try? JSONEncoder().encode(backup) else {
             backupStatus = "Yedek dosyası oluşturulamadı."
             return
@@ -340,6 +348,10 @@ struct LessonsView: View {
             storedProgress = restoredProgress
             storedFavorites = restoredFavorites
             storedNotes = restoredNotes
+            if let a1 = backup.a1 {
+                A1SavedState.load().merged(with: a1).save()
+                NotificationCenter.default.post(name: A1SavedState.changed, object: nil)
+            }
             backupStatus = "Yedek içe aktarıldı. Mevcut notlar korundu."
         } catch {
             backupStatus = "Yedek okunamadı. Bir Almancam yedek dosyası seç."

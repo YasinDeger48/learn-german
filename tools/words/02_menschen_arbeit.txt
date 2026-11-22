@@ -1,0 +1,193 @@
+# type|word|plural or verb forms|Türkçe|Beispielsatz|Türkçesi
+der|Ehemann|Ehemänner|koca|Ihr Ehemann ist Arzt.|Kocası doktor.
+die|Ehefrau|Ehefrauen|karı, eş|Seine Ehefrau kommt aus Polen.|Eşi Polonyalı.
+die|Ehe|Ehen|evlilik|Sie haben eine glückliche Ehe.|Mutlu bir evlilikleri var.
+die|Hochzeit|Hochzeiten|düğün|Die Hochzeit ist im Mai.|Düğün mayısta.
+der|Enkel|Enkel|erkek torun|Mein Enkel ist fünf Jahre alt.|Torunum beş yaşında.
+die|Enkelin|Enkelinnen|kız torun|Die Enkelin besucht die Oma.|Kız torun büyükannesini ziyaret ediyor.
+der|Cousin|Cousins|kuzen (erkek)|Mein Cousin wohnt in Wien.|Kuzenim Viyana'da oturuyor.
+die|Cousine|Cousinen|kuzen (kadın)|Meine Cousine studiert Jura.|Kuzenim hukuk okuyor.
+der|Neffe|Neffen|erkek yeğen|Mein Neffe spielt Fußball.|Yeğenim futbol oynuyor.
+die|Nichte|Nichten|kız yeğen|Meine Nichte hat heute Geburtstag.|Yeğenimin bugün doğum günü.
+die|Schwiegermutter|Schwiegermütter|kayınvalide|Meine Schwiegermutter kocht sehr gut.|Kayınvalidem çok iyi yemek yapar.
+die|Verwandten|-|akrabalar|Am Wochenende besuchen wir die Verwandten.|Hafta sonu akrabaları ziyaret ediyoruz.
+der|Erwachsene|Erwachsenen|yetişkin|Das Ticket für Erwachsene kostet zehn Euro.|Yetişkin bileti on euro.
+der|Jugendliche|Jugendlichen|genç|Viele Jugendliche haben ein Handy.|Birçok gencin cep telefonu var.
+die|Jugend|-|gençlik|In meiner Jugend habe ich viel Sport gemacht.|Gençliğimde çok spor yaptım.
+die|Kindheit|-|çocukluk|Ich hatte eine schöne Kindheit.|Güzel bir çocukluğum oldu.
+die|Person|Personen|kişi|Wir sind vier Personen.|Dört kişiyiz.
+die|Dame|Damen|hanımefendi|Die Dame am Schalter ist sehr nett.|Gişedeki hanım çok nazik.
+der|Gast|Gäste|misafir|-|-
+der|Bekannte|Bekannten|tanıdık|Er ist ein Bekannter von mir.|O benim bir tanıdığım.
+der|Mitbewohner|Mitbewohner|ev arkadaşı|Mein Mitbewohner kocht heute.|Ev arkadaşım bugün yemek yapıyor.
+der|Besuch|Besuche|ziyaret; misafir|Morgen bekommen wir Besuch.|Yarın misafirimiz geliyor.
+der|Geburtsort|Geburtsorte|doğum yeri|Mein Geburtsort ist Izmir.|Doğum yerim İzmir.
+das|Geburtsdatum|Geburtsdaten|doğum tarihi|Wie ist Ihr Geburtsdatum?|Doğum tarihiniz nedir?
+der|Wohnort|Wohnorte|ikamet yeri|Bitte schreiben Sie Ihren Wohnort.|Lütfen ikamet yerinizi yazın.
+die|Nationalität|Nationalitäten|uyruk|Welche Nationalität haben Sie?|Uyruğunuz nedir?
+die|Religion|Religionen|din|Hier sind Menschen aller Religionen.|Burada her dinden insan var.
+der|Ausländer|Ausländer|yabancı|-|-
+die|Arbeitsstelle|Arbeitsstellen|iş yeri, pozisyon|Ich suche eine neue Arbeitsstelle.|Yeni bir iş arıyorum.
+der|Arbeitsplatz|Arbeitsplätze|iş yeri|Mein Arbeitsplatz ist im zweiten Stock.|İş yerim ikinci katta.
+der|Arbeitgeber|Arbeitgeber|işveren|Mein Arbeitgeber ist sehr fair.|İşverenim çok adil.
+der|Arbeitnehmer|Arbeitnehmer|çalışan, işçi|Die Arbeitnehmer bekommen mehr Geld.|Çalışanlar daha fazla para alıyor.
+der|Mitarbeiter|Mitarbeiter|çalışan, personel|Die Firma hat 50 Mitarbeiter.|Firmanın 50 çalışanı var.
+die|Stelle|Stellen|pozisyon; yer|Ich bewerbe mich auf die Stelle.|Bu pozisyona başvuruyorum.
+die|Bewerbung|Bewerbungen|iş başvurusu|Ich schreibe eine Bewerbung.|Bir iş başvurusu yazıyorum.
+der|Lebenslauf|Lebensläufe|özgeçmiş|Schicken Sie uns Ihren Lebenslauf.|Bize özgeçmişinizi gönderin.
+das|Vorstellungsgespräch|Vorstellungsgespräche|iş görüşmesi|Morgen habe ich ein Vorstellungsgespräch.|Yarın iş görüşmem var.
+der|Vertrag|Verträge|sözleşme|Ich unterschreibe den Vertrag.|Sözleşmeyi imzalıyorum.
+der|Lohn|Löhne|ücret, maaş|Der Lohn kommt am Monatsende.|Maaş ay sonunda yatıyor.
+das|Gehalt|Gehälter|maaş|Das Gehalt ist gut.|Maaş iyi.
+die|Steuer|Steuern|vergi|Wir zahlen viele Steuern.|Çok vergi ödüyoruz.
+die|Überstunde|Überstunden|fazla mesai|Diese Woche mache ich Überstunden.|Bu hafta fazla mesai yapıyorum.
+die|Schicht|Schichten|vardiya|Heute habe ich Nachtschicht.|Bugün gece vardiyam var.
+der|Feierabend|Feierabende|mesai bitimi|Um fünf Uhr habe ich Feierabend.|Saat beşte mesaim bitiyor.
+die|Besprechung|Besprechungen|toplantı|Die Besprechung dauert eine Stunde.|Toplantı bir saat sürüyor.
+die|Sitzung|Sitzungen|oturum, toplantı|Der Chef ist in einer Sitzung.|Şef bir toplantıda.
+das|Projekt|Projekte|proje|Wir arbeiten an einem neuen Projekt.|Yeni bir proje üzerinde çalışıyoruz.
+die|Aufgabe|Aufgaben|görev; ödev|Das ist eine schwere Aufgabe.|Bu zor bir görev.
+das|Problem|Probleme|sorun|Kein Problem!|Sorun değil!
+die|Erfahrung|Erfahrungen|deneyim|Ich habe viel Erfahrung.|Çok deneyimim var.
+der|Kunde|Kunden|müşteri|-|-
+die|Kundin|Kundinnen|müşteri (kadın)|Die Kundin möchte zahlen.|Müşteri ödemek istiyor.
+der|Betrieb|Betriebe|işletme|Er arbeitet in einem kleinen Betrieb.|Küçük bir işletmede çalışıyor.
+die|Fabrik|Fabriken|fabrika|Mein Vater arbeitet in einer Fabrik.|Babam bir fabrikada çalışıyor.
+das|Unternehmen|Unternehmen|şirket|Das Unternehmen ist international.|Şirket uluslararası.
+die|Abteilung|Abteilungen|bölüm, departman|In welcher Abteilung arbeiten Sie?|Hangi bölümde çalışıyorsunuz?
+der|Termin|Termine|randevu|-|-
+der|Handwerker|Handwerker|zanaatkâr, usta|Der Handwerker repariert die Heizung.|Usta kaloriferi tamir ediyor.
+der|Mechaniker|Mechaniker|tamirci|Der Mechaniker repariert das Auto.|Tamirci arabayı tamir ediyor.
+der|Bäcker|Bäcker|fırıncı|Der Bäcker backt frisches Brot.|Fırıncı taze ekmek pişiriyor.
+der|Polizist|Polizisten|polis memuru|Der Polizist hilft mir.|Polis bana yardım ediyor.
+der|Rechtsanwalt|Rechtsanwälte|avukat|Ich brauche einen Rechtsanwalt.|Bir avukata ihtiyacım var.
+der|Zahnarzt|Zahnärzte|diş hekimi|Ich habe einen Termin beim Zahnarzt.|Diş hekiminde randevum var.
+der|Fahrer|Fahrer|şoför|-|-
+der|Pilot|Piloten|pilot|Der Pilot fliegt nach New York.|Pilot New York'a uçuyor.
+der|Bauer|Bauern|çiftçi|Der Bauer hat viele Kühe.|Çiftçinin çok ineği var.
+der|Friseur|Friseure|kuaför|-|-
+die|Hausfrau|Hausfrauen|ev hanımı|Meine Mutter ist Hausfrau.|Annem ev hanımı.
+der|Rentner|Rentner|emekli|Mein Opa ist Rentner.|Dedem emekli.
+die|Rente|Renten|emekli maaşı, emeklilik|Mit 67 geht man in Rente.|67 yaşında emekli olunur.
+der|Beamte|Beamten|memur|Der Beamte prüft den Pass.|Memur pasaportu kontrol ediyor.
+der|Verkäufer|Verkäufer|satıcı|-|-
+die|Verkäuferin|Verkäuferinnen|satıcı (kadın)|Die Verkäuferin ist freundlich.|Satıcı kadın güler yüzlü.
+der|Journalist|Journalisten|gazeteci|Der Journalist schreibt einen Artikel.|Gazeteci bir makale yazıyor.
+der|Künstler|Künstler|sanatçı|Der Künstler malt ein Bild.|Sanatçı bir resim yapıyor.
+der|Sänger|Sänger|şarkıcı|Der Sänger ist sehr bekannt.|Şarkıcı çok tanınmış.
+der|Schauspieler|Schauspieler|oyuncu (aktör)|Der Schauspieler spielt im Theater.|Aktör tiyatroda oynuyor.
+der|Programmierer|Programmierer|programcı|Er arbeitet als Programmierer.|Programcı olarak çalışıyor.
+der|Lehrling|Lehrlinge|çırak|Der Lehrling lernt viel.|Çırak çok şey öğreniyor.
+die|Schulklasse|Schulklassen|okul sınıfı|Die Schulklasse macht einen Ausflug.|Sınıf geziye gidiyor.
+der|Kindergarten|Kindergärten|anaokulu|Meine Tochter geht in den Kindergarten.|Kızım anaokuluna gidiyor.
+die|Grundschule|Grundschulen|ilkokul|Mein Sohn ist in der Grundschule.|Oğlum ilkokulda.
+das|Gymnasium|Gymnasien|lise (akademik)|Sie geht aufs Gymnasium.|Liseye gidiyor.
+das|Abitur|-|lise bitirme sınavı|Nach dem Abitur studiere ich.|Liseyi bitirdikten sonra üniversite okuyacağım.
+das|Studium|Studien|üniversite eğitimi|Das Studium dauert vier Jahre.|Üniversite eğitimi dört yıl sürüyor.
+die|Vorlesung|Vorlesungen|ders (üniversite)|Die Vorlesung beginnt um acht.|Ders sekizde başlıyor.
+das|Semester|Semester|dönem, sömestr|Ich bin im dritten Semester.|Üçüncü dönemdeyim.
+das|Fach|Fächer|ders, branş|Mein Lieblingsfach ist Mathe.|En sevdiğim ders matematik.
+die|Mathematik|-|matematik|Mathematik ist schwer für mich.|Matematik benim için zor.
+die|Geschichte|Geschichten|tarih; hikâye|Opa erzählt eine Geschichte.|Dede bir hikâye anlatıyor.
+die|Note|Noten|not|Ich habe eine gute Note bekommen.|İyi bir not aldım.
+das|Zeugnis|Zeugnisse|karne; belge|Heute gibt es Zeugnisse.|Bugün karneler veriliyor.
+das|Zertifikat|Zertifikate|sertifika|Ich brauche das Zertifikat A1.|A1 sertifikasına ihtiyacım var.
+die|Bibliothek|Bibliotheken|kütüphane|Ich lerne in der Bibliothek.|Kütüphanede çalışıyorum.
+die|Tafel|Tafeln|tahta (yazı)|Der Lehrer schreibt an die Tafel.|Öğretmen tahtaya yazıyor.
+der|Radiergummi|Radiergummis|silgi|Kann ich deinen Radiergummi haben?|Silgini alabilir miyim?
+der|Bleistift|Bleistifte|kurşun kalem|Schreiben Sie mit Bleistift.|Kurşun kalemle yazın.
+das|Wörterbuch|Wörterbücher|sözlük|Ich suche das Wort im Wörterbuch.|Kelimeyi sözlükte arıyorum.
+die|Übung|Übungen|alıştırma|Machen Sie die Übung zu Hause.|Alıştırmayı evde yapın.
+die|Grammatik|-|dilbilgisi|Die deutsche Grammatik ist nicht leicht.|Almanca dilbilgisi kolay değil.
+die|Aussprache|-|telaffuz|Deine Aussprache ist sehr gut.|Telaffuzun çok iyi.
+der|Fehler|Fehler|hata|Ich mache noch viele Fehler.|Hâlâ çok hata yapıyorum.
+die|Bedeutung|Bedeutungen|anlam|Was ist die Bedeutung von diesem Wort?|Bu kelimenin anlamı ne?
+die|Muttersprache|Muttersprachen|anadil|Meine Muttersprache ist Türkisch.|Anadilim Türkçe.
+die|Fremdsprache|Fremdsprachen|yabancı dil|Deutsch ist meine erste Fremdsprache.|Almanca benim ilk yabancı dilim.
+das|Wissen|-|bilgi|Wissen ist wichtig.|Bilgi önemlidir.
+die|Idee|Ideen|fikir|Das ist eine gute Idee!|Bu iyi bir fikir!
+die|Meinung|Meinungen|görüş, fikir|Was ist deine Meinung?|Senin fikrin ne?
+der|Grund|Gründe|sebep|Was ist der Grund?|Sebebi ne?
+das|Ziel|Ziele|hedef|Mein Ziel ist die Prüfung B1.|Hedefim B1 sınavı.
+der|Wunsch|Wünsche|dilek, istek|Hast du einen Wunsch?|Bir dileğin var mı?
+die|Hoffnung|Hoffnungen|umut|Ich habe große Hoffnung.|Büyük umudum var.
+die|Angst|Ängste|korku|Ich habe Angst vor Hunden.|Köpeklerden korkarım.
+die|Liebe|-|aşk, sevgi|Liebe ist das Wichtigste.|Sevgi en önemli şeydir.
+das|Glück|-|şans; mutluluk|Viel Glück bei der Prüfung!|Sınavda bol şans!
+das|Pech|-|şanssızlık|So ein Pech!|Ne şanssızlık!
+die|Freude|Freuden|sevinç|Das macht mir viel Freude.|Bu beni çok sevindiriyor.
+der|Ärger|-|öfke; sorun|Ich habe Ärger mit dem Vermieter.|Ev sahibiyle başım dertte.
+die|Sorge|Sorgen|endişe|Mach dir keine Sorgen!|Endişelenme!
+das|Gefühl|Gefühle|duygu, his|Ich habe ein gutes Gefühl.|İçimde iyi bir his var.
+der|Traum|Träume|rüya; hayal|Ich hatte einen schönen Traum.|Güzel bir rüya gördüm.
+der|Spaß|-|eğlence|-|-
+die|Lust|-|istek, heves|Hast du Lust auf Kino?|Sinemaya gitmek ister misin?
+die|Ruhe|-|sessizlik, huzur|Ich brauche jetzt Ruhe.|Şimdi sessizliğe ihtiyacım var.
+der|Stress|-|stres|Ich habe viel Stress bei der Arbeit.|İşte çok stresim var.
+die|Gesundheit|-|sağlık|-|-
+der|Schmerz|Schmerzen|ağrı|Ich habe starke Schmerzen.|Şiddetli ağrım var.
+der|Husten|-|öksürük|Ich habe Husten.|Öksürüğüm var.
+der|Schnupfen|-|nezle|Ich habe Schnupfen.|Nezleyim.
+die|Grippe|Grippen|grip|Er hat eine Grippe.|Grip olmuş.
+die|Krankheit|Krankheiten|hastalık|Die Krankheit ist nicht gefährlich.|Hastalık tehlikeli değil.
+die|Verletzung|Verletzungen|yaralanma|Die Verletzung ist nicht schlimm.|Yaralanma kötü değil.
+das|Blut|-|kan|Der Arzt nimmt Blut ab.|Doktor kan alıyor.
+das|Herz|Herzen|kalp|Mein Herz schlägt schnell.|Kalbim hızlı atıyor.
+der|Magen|Mägen|mide|Mein Magen tut weh.|Midem ağrıyor.
+der|Hals|Hälse|boğaz; boyun|Ich habe Halsschmerzen.|Boğazım ağrıyor.
+die|Schulter|Schultern|omuz|Meine Schulter tut weh.|Omzum ağrıyor.
+der|Finger|Finger|parmak|Ich habe mir in den Finger geschnitten.|Parmağımı kestim.
+das|Knie|Knie|diz|Mein Knie tut weh.|Dizim ağrıyor.
+das|Gesicht|Gesichter|yüz|Wasch dir das Gesicht.|Yüzünü yıka.
+die|Haut|-|cilt, deri|Die Sonne ist schlecht für die Haut.|Güneş cilde kötü gelir.
+der|Zahnschmerz|Zahnschmerzen|diş ağrısı|Ich habe Zahnschmerzen.|Dişim ağrıyor.
+die|Salbe|Salben|merhem|Die Salbe hilft gegen Schmerzen.|Merhem ağrıya iyi gelir.
+die|Spritze|Spritzen|iğne (enjeksiyon)|Der Arzt gibt mir eine Spritze.|Doktor bana iğne yapıyor.
+der|Notarzt|Notärzte|acil doktoru|Ruf schnell den Notarzt!|Hemen acil doktorunu ara!
+der|Krankenwagen|Krankenwagen|ambulans|Der Krankenwagen kommt sofort.|Ambulans hemen geliyor.
+die|Notaufnahme|Notaufnahmen|acil servis|Wir fahren in die Notaufnahme.|Acil servise gidiyoruz.
+der|Patient|Patienten|hasta (kişi)|Der Patient wartet im Wartezimmer.|Hasta bekleme odasında bekliyor.
+das|Wartezimmer|Wartezimmer|bekleme odası|Bitte nehmen Sie im Wartezimmer Platz.|Lütfen bekleme odasında oturun.
+die|Krankenkasse|Krankenkassen|sağlık sigortası|Welche Krankenkasse haben Sie?|Hangi sağlık sigortanız var?
+die|Versichertenkarte|Versichertenkarten|sigorta kartı|Haben Sie Ihre Versichertenkarte dabei?|Sigorta kartınız yanınızda mı?
+die|Diät|Diäten|diyet|Ich mache eine Diät.|Diyet yapıyorum.
+das|Gewicht|Gewichte|kilo, ağırlık|Wie ist Ihr Gewicht?|Kilonuz kaç?
+die|Brust|Brüste|göğüs|Ich habe Schmerzen in der Brust.|Göğsümde ağrı var.
+der|Zahn|Zähne|diş|-|-
+die|Zunge|Zungen|dil (organ)|Zeigen Sie mir bitte die Zunge.|Lütfen dilinizi gösterin.
+die|Lippe|Lippen|dudak|Meine Lippen sind trocken.|Dudaklarım kuru.
+das|Gehirn|Gehirne|beyin|Das Gehirn braucht Schlaf.|Beynin uykuya ihtiyacı var.
+der|Schlaf|-|uyku|Ich brauche mehr Schlaf.|Daha fazla uykuya ihtiyacım var.
+die|Polizei|-|polis|-|-
+der|Dieb|Diebe|hırsız|Der Dieb hat mein Fahrrad gestohlen.|Hırsız bisikletimi çaldı.
+die|Gefahr|Gefahren|tehlike|Achtung, Gefahr!|Dikkat, tehlike!
+das|Feuer|Feuer|ateş, yangın|Das Feuer ist sehr groß.|Yangın çok büyük.
+die|Feuerwehr|Feuerwehren|itfaiye|Ruf die Feuerwehr!|İtfaiyeyi ara!
+der|Ausweis|Ausweise|kimlik|-|-
+die|Behörde|Behörden|resmî daire|Ich muss zur Behörde.|Resmî daireye gitmeliyim.
+das|Amt|Ämter|daire, makam|Das Amt ist am Freitag nur bis zwölf offen.|Daire cuma günü sadece on ikiye kadar açık.
+das|Bürgeramt|Bürgerämter|nüfus müdürlüğü|Ich melde mich im Bürgeramt an.|Nüfus müdürlüğünde kayıt yaptırıyorum.
+die|Anmeldung|Anmeldungen|kayıt|Die Anmeldung ist im ersten Stock.|Kayıt birinci katta.
+der|Antrag|Anträge|başvuru (dilekçe)|Ich stelle einen Antrag.|Bir başvuru yapıyorum.
+die|Gebühr|Gebühren|harç, ücret|Die Gebühr beträgt 30 Euro.|Harç 30 euro.
+die|Wartenummer|Wartenummern|sıra numarası|Ziehen Sie bitte eine Wartenummer.|Lütfen bir sıra numarası alın.
+die|Aufenthaltserlaubnis|Aufenthaltserlaubnisse|oturma izni|Meine Aufenthaltserlaubnis ist bis 2028 gültig.|Oturma iznim 2028'e kadar geçerli.
+die|Regierung|Regierungen|hükümet|Die Regierung macht ein neues Gesetz.|Hükümet yeni bir yasa yapıyor.
+das|Gesetz|Gesetze|yasa|Das ist gegen das Gesetz.|Bu yasaya aykırı.
+die|Politik|-|siyaset|Ich interessiere mich nicht für Politik.|Siyasetle ilgilenmem.
+die|Wahl|Wahlen|seçim|Am Sonntag ist die Wahl.|Pazar günü seçim var.
+der|Staat|Staaten|devlet|Deutschland hat 16 Bundesländer.|Almanya'nın 16 eyaleti var.
+das|Bundesland|Bundesländer|eyalet|Bayern ist ein Bundesland.|Bavyera bir eyalet.
+die|Hauptstadt|Hauptstädte|başkent|Berlin ist die Hauptstadt von Deutschland.|Berlin Almanya'nın başkenti.
+die|Gesellschaft|Gesellschaften|toplum; şirket|Die Gesellschaft wird älter.|Toplum yaşlanıyor.
+die|Kultur|Kulturen|kültür|Ich mag die deutsche Kultur.|Alman kültürünü severim.
+die|Tradition|Traditionen|gelenek|Das ist eine alte Tradition.|Bu eski bir gelenek.
+das|Weihnachten|-|Noel|An Weihnachten ist die Familie zusammen.|Noel'de aile bir arada.
+das|Ostern|-|Paskalya|An Ostern haben die Kinder Ferien.|Paskalya'da çocukların tatili var.
+das|Silvester|-|yılbaşı gecesi|An Silvester feiern wir mit Freunden.|Yılbaşı gecesi arkadaşlarla kutlarız.
+der|Feiertag|Feiertage|bayram, resmî tatil|Morgen ist ein Feiertag.|Yarın resmî tatil.
+der|Krieg|Kriege|savaş|Mein Opa hat den Krieg erlebt.|Dedem savaşı yaşadı.
+der|Frieden|-|barış|Wir wünschen uns Frieden.|Barış diliyoruz.
+die|Zukunft|-|gelecek|In der Zukunft möchte ich in Berlin leben.|Gelecekte Berlin'de yaşamak istiyorum.
+die|Vergangenheit|-|geçmiş|Das ist Vergangenheit.|Bu geçmişte kaldı.
+die|Gegenwart|-|şimdiki zaman|Wir leben in der Gegenwart.|Şimdiki zamanda yaşıyoruz.

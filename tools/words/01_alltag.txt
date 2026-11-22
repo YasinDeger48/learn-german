@@ -1,0 +1,196 @@
+# type|word|plural or verb forms|Türkçe|Beispielsatz|Türkçesi
+der|Mittwochabend|Mittwochabende|çarşamba akşamı|Am Mittwochabend gehe ich zum Sport.|Çarşamba akşamı spora giderim.
+die|Wohnungstür|Wohnungstüren|daire kapısı|Die Wohnungstür ist abgeschlossen.|Daire kapısı kilitli.
+der|Boden|Böden|yer, zemin|Die Tasche liegt auf dem Boden.|Çanta yerde duruyor.
+die|Wand|Wände|duvar|An der Wand hängt ein Bild.|Duvarda bir resim asılı.
+die|Decke|Decken|battaniye; tavan|Mir ist kalt, ich brauche eine Decke.|Üşüyorum, bir battaniyeye ihtiyacım var.
+das|Dach|Dächer|çatı|Das Dach ist rot.|Çatı kırmızı.
+der|Flur|Flure|koridor, hol|Die Schuhe stehen im Flur.|Ayakkabılar koridorda duruyor.
+der|Teppich|Teppiche|halı|Der Teppich ist neu.|Halı yeni.
+das|Regal|Regale|raf|Die Bücher stehen im Regal.|Kitaplar rafta duruyor.
+der|Spiegel|Spiegel|ayna|Im Bad hängt ein Spiegel.|Banyoda bir ayna asılı.
+das|Kissen|Kissen|yastık|Das Kissen ist weich.|Yastık yumuşak.
+der|Sessel|Sessel|koltuk|Opa sitzt im Sessel.|Dede koltukta oturuyor.
+der|Vorhang|Vorhänge|perde|Mach bitte den Vorhang zu.|Lütfen perdeyi kapat.
+die|Steckdose|Steckdosen|priz|Wo ist die Steckdose?|Priz nerede?
+der|Schreibtisch|Schreibtische|çalışma masası|Ich arbeite am Schreibtisch.|Çalışma masasında çalışıyorum.
+das|Waschbecken|Waschbecken|lavabo|Das Waschbecken ist sauber.|Lavabo temiz.
+die|Badewanne|Badewannen|küvet|Das Kind sitzt in der Badewanne.|Çocuk küvette oturuyor.
+das|Handtuch|Handtücher|havlu|Hier ist ein frisches Handtuch.|İşte temiz bir havlu.
+die|Seife|Seifen|sabun|Wasch dir die Hände mit Seife.|Ellerini sabunla yıka.
+die|Zahnbürste|Zahnbürsten|diş fırçası|Ich brauche eine neue Zahnbürste.|Yeni bir diş fırçasına ihtiyacım var.
+das|Shampoo|Shampoos|şampuan|Das Shampoo riecht gut.|Şampuan güzel kokuyor.
+der|Müll|-|çöp|Bringst du bitte den Müll raus?|Çöpü dışarı çıkarır mısın lütfen?
+der|Mülleimer|Mülleimer|çöp kovası|Der Mülleimer ist voll.|Çöp kovası dolu.
+der|Ofen|Öfen|fırın; soba|Der Kuchen ist im Ofen.|Kek fırında.
+die|Mikrowelle|Mikrowellen|mikrodalga|Ich mache die Suppe in der Mikrowelle warm.|Çorbayı mikrodalgada ısıtıyorum.
+die|Spülmaschine|Spülmaschinen|bulaşık makinesi|Die Teller sind in der Spülmaschine.|Tabaklar bulaşık makinesinde.
+der|Topf|Töpfe|tencere|Der Topf steht auf dem Herd.|Tencere ocağın üstünde.
+die|Pfanne|Pfannen|tava|Ich brate die Eier in der Pfanne.|Yumurtaları tavada kızartıyorum.
+die|Schüssel|Schüsseln|kâse|Der Salat ist in der Schüssel.|Salata kâsede.
+der|Becher|Becher|bardak, kupa|Ein Becher Kaffee, bitte.|Bir bardak kahve, lütfen.
+die|Kanne|Kannen|demlik, sürahi|Die Kanne Tee ist heiß.|Demlikteki çay sıcak.
+die|Serviette|Servietten|peçete|Hast du eine Serviette?|Peçeten var mı?
+die|Dose|Dosen|kutu, teneke|Ich kaufe eine Dose Tomaten.|Bir kutu domates alıyorum.
+die|Packung|Packungen|paket|Eine Packung Reis kostet zwei Euro.|Bir paket pirinç iki euro.
+das|Paket|Pakete|koli, paket|Der Postbote bringt ein Paket.|Postacı bir koli getiriyor.
+die|Kiste|Kisten|kasa, sandık|In der Kiste sind Äpfel.|Kasada elmalar var.
+die|Uhr|Uhren|saat (alet)|Meine Uhr ist kaputt.|Saatim bozuk.
+der|Wecker|Wecker|çalar saat|Der Wecker klingelt um sechs.|Çalar saat altıda çalıyor.
+die|Brille|Brillen|gözlük|Ich kann ohne Brille nicht lesen.|Gözlüksüz okuyamam.
+der|Regenschirm|Regenschirme|şemsiye|Nimm einen Regenschirm mit!|Yanına bir şemsiye al!
+das|Portemonnaie|Portemonnaies|cüzdan|Mein Portemonnaie ist leer.|Cüzdanım boş.
+der|Rucksack|Rucksäcke|sırt çantası|Der Rucksack ist schwer.|Sırt çantası ağır.
+die|Mütze|Mützen|bere|Im Winter trage ich eine Mütze.|Kışın bere takarım.
+der|Hut|Hüte|şapka|Der Hut ist schick.|Şapka şık.
+der|Schal|Schals|atkı|Der Schal ist warm.|Atkı sıcak tutuyor.
+der|Handschuh|Handschuhe|eldiven|Ich habe meine Handschuhe vergessen.|Eldivenlerimi unuttum.
+der|Gürtel|Gürtel|kemer|Der Gürtel ist zu lang.|Kemer çok uzun.
+die|Socke|Socken|çorap|Ich brauche neue Socken.|Yeni çoraplara ihtiyacım var.
+der|Stiefel|Stiefel|bot, çizme|Die Stiefel sind aus Leder.|Botlar deriden.
+der|Anzug|Anzüge|takım elbise|Er trägt einen grauen Anzug.|Gri bir takım elbise giyiyor.
+die|Krawatte|Krawatten|kravat|Die Krawatte ist blau.|Kravat mavi.
+der|Schmuck|-|takı|Sie trägt keinen Schmuck.|Takı takmıyor.
+der|Ring|Ringe|yüzük|Der Ring ist aus Gold.|Yüzük altından.
+die|Kette|Ketten|kolye; zincir|Die Kette ist ein Geschenk.|Kolye bir hediye.
+das|Leder|-|deri|Die Tasche ist aus Leder.|Çanta deriden.
+die|Baumwolle|-|pamuk|Das T-Shirt ist aus Baumwolle.|Tişört pamuklu.
+der|Knopf|Knöpfe|düğme|An der Jacke fehlt ein Knopf.|Ceketin bir düğmesi eksik.
+die|Kabine|Kabinen|kabin|Die Kabine ist dort hinten.|Kabin arka tarafta.
+die|Mode|Moden|moda|Sie interessiert sich für Mode.|Modayla ilgileniyor.
+das|Fleisch|-|et|Ich esse kein Fleisch.|Et yemem.
+das|Rindfleisch|-|sığır eti|Das Rindfleisch ist teuer.|Sığır eti pahalı.
+das|Schweinefleisch|-|domuz eti|Ich esse kein Schweinefleisch.|Domuz eti yemem.
+das|Lamm|Lämmer|kuzu|Heute gibt es Lamm mit Reis.|Bugün pilavlı kuzu var.
+der|Joghurt|Joghurts|yoğurt|Ich esse Joghurt mit Honig.|Ballı yoğurt yerim.
+der|Honig|-|bal|Der Honig ist sehr süß.|Bal çok tatlı.
+die|Marmelade|Marmeladen|reçel|Ich esse Brot mit Marmelade.|Reçelli ekmek yerim.
+das|Mehl|-|un|Für den Kuchen brauche ich Mehl.|Kek için una ihtiyacım var.
+das|Öl|Öle|yağ|Ich koche mit Olivenöl.|Zeytinyağıyla yemek yaparım.
+der|Pfeffer|-|karabiber|Gib mir bitte den Pfeffer.|Lütfen biberi ver.
+die|Sahne|-|krema|Möchtest du Sahne zum Kuchen?|Kekin yanında krema ister misin?
+die|Zwiebel|Zwiebeln|soğan|Ich schneide die Zwiebel.|Soğanı doğruyorum.
+der|Knoblauch|-|sarımsak|Die Soße hat viel Knoblauch.|Sosta çok sarımsak var.
+die|Gurke|Gurken|salatalık|Die Gurke ist frisch.|Salatalık taze.
+die|Paprika|Paprikas|biber (dolmalık)|Ich kaufe eine rote Paprika.|Bir kırmızı biber alıyorum.
+die|Karotte|Karotten|havuç|Kaninchen essen gern Karotten.|Tavşanlar havucu sever.
+der|Kohl|-|lahana|Der Kohl kommt aus dem Garten.|Lahana bahçeden geliyor.
+die|Bohne|Bohnen|fasulye|Heute kochen wir Bohnen.|Bugün fasulye pişiriyoruz.
+die|Erdbeere|Erdbeeren|çilek|Im Juni gibt es Erdbeeren.|Haziranda çilek olur.
+die|Kirsche|Kirschen|kiraz|Die Kirschen sind süß.|Kirazlar tatlı.
+die|Birne|Birnen|armut|Die Birne ist reif.|Armut olgun.
+die|Traube|Trauben|üzüm|Ich esse gern Trauben.|Üzüm yemeyi severim.
+die|Zitrone|Zitronen|limon|Tee mit Zitrone, bitte.|Limonlu çay, lütfen.
+die|Melone|Melonen|kavun, karpuz|Im Sommer essen wir Melone.|Yazın kavun yeriz.
+die|Nuss|Nüsse|ceviz, fındık|Der Kuchen hat Nüsse.|Kekte ceviz var.
+die|Olive|Oliven|zeytin|Zum Frühstück esse ich Oliven.|Kahvaltıda zeytin yerim.
+der|Pilz|Pilze|mantar|Die Pizza hat Pilze.|Pizzada mantar var.
+die|Soße|Soßen|sos|Die Soße ist zu scharf.|Sos çok acı.
+die|Pommes|-|patates kızartması|Die Kinder möchten Pommes.|Çocuklar patates kızartması istiyor.
+die|Pizza|Pizzen|pizza|Wir bestellen eine Pizza.|Bir pizza sipariş ediyoruz.
+der|Keks|Kekse|bisküvi|Möchtest du einen Keks?|Bir bisküvi ister misin?
+das|Eis|-|dondurma; buz|Im Sommer esse ich gern Eis.|Yazın dondurma yemeyi severim.
+der|Nachtisch|Nachtische|tatlı (yemek sonrası)|Was gibt es zum Nachtisch?|Tatlı olarak ne var?
+die|Mahlzeit|Mahlzeiten|öğün|Das Frühstück ist die wichtigste Mahlzeit.|Kahvaltı en önemli öğündür.
+das|Gericht|Gerichte|yemek (tabak); mahkeme|Das ist mein Lieblingsgericht.|Bu benim en sevdiğim yemek.
+das|Rezept|Rezepte|tarif; reçete|Hast du ein Rezept für Kuchen?|Kek tarifin var mı?
+die|Limonade|Limonaden|limonata, gazoz|Eine Limonade, bitte.|Bir limonata, lütfen.
+der|Sprudel|-|maden suyu|Ich trinke Wasser mit Sprudel.|Gazlı su içerim.
+der|Alkohol|-|alkol|Ich trinke keinen Alkohol.|Alkol içmem.
+die|Bäckerei|Bäckereien|fırın (dükkân)|Die Bäckerei öffnet um sechs.|Fırın altıda açılıyor.
+die|Metzgerei|Metzgereien|kasap|Fleisch kaufe ich in der Metzgerei.|Eti kasaptan alırım.
+die|Kantine|Kantinen|kantin, yemekhane|Mittags esse ich in der Kantine.|Öğlen kantinde yerim.
+die|Imbissbude|Imbissbuden|büfe|An der Imbissbude gibt es Döner.|Büfede döner var.
+der|Gast|Gäste|misafir|Wir haben heute Gäste.|Bugün misafirimiz var.
+das|Trinkgeld|-|bahşiş|Wir geben fünf Euro Trinkgeld.|Beş euro bahşiş veriyoruz.
+die|Quittung|Quittungen|makbuz, fiş|Kann ich bitte eine Quittung haben?|Fiş alabilir miyim lütfen?
+der|Kassenzettel|Kassenzettel|kasa fişi|Den Kassenzettel brauche ich nicht.|Kasa fişine ihtiyacım yok.
+das|Sonderangebot|Sonderangebote|özel indirim|Die Äpfel sind im Sonderangebot.|Elmalar indirimde.
+der|Rabatt|Rabatte|indirim|Gibt es einen Rabatt für Studenten?|Öğrenciler için indirim var mı?
+die|Kreditkarte|Kreditkarten|kredi kartı|Kann ich mit Kreditkarte zahlen?|Kredi kartıyla ödeyebilir miyim?
+das|Kleingeld|-|bozuk para|Ich habe kein Kleingeld.|Bozuk param yok.
+der|Schein|Scheine|banknot; belge|Ich habe nur einen Zwanzig-Euro-Schein.|Sadece yirmi euroluk banknotum var.
+die|Münze|Münzen|madeni para|Der Automat nimmt nur Münzen.|Otomat sadece madeni para alıyor.
+das|Konto|Konten|banka hesabı|Ich möchte ein Konto eröffnen.|Hesap açmak istiyorum.
+der|Geldautomat|Geldautomaten|ATM|Wo ist der nächste Geldautomat?|En yakın ATM nerede?
+die|Öffnungszeit|Öffnungszeiten|açılış saati|Wie sind die Öffnungszeiten?|Açılış saatleri nasıl?
+die|Werbung|-|reklam|Im Fernsehen gibt es viel Werbung.|Televizyonda çok reklam var.
+das|Kaufhaus|Kaufhäuser|büyük mağaza|Im Kaufhaus gibt es alles.|Büyük mağazada her şey var.
+die|Buchhandlung|Buchhandlungen|kitapçı|Ich kaufe das Buch in der Buchhandlung.|Kitabı kitapçıdan alıyorum.
+die|Drogerie|Drogerien|kozmetik/temizlik mağazası|Shampoo gibt es in der Drogerie.|Şampuan kozmetik mağazasında var.
+der|Friseur|Friseure|kuaför, berber|Ich gehe morgen zum Friseur.|Yarın kuaföre gidiyorum.
+die|Reinigung|Reinigungen|kuru temizleme|Ich bringe den Mantel in die Reinigung.|Paltoyu kuru temizlemeye götürüyorum.
+die|Tankstelle|Tankstellen|benzinlik|Die Tankstelle ist an der Ecke.|Benzinlik köşede.
+die|Werkstatt|Werkstätten|atölye, tamirhane|Das Auto ist in der Werkstatt.|Araba tamirhanede.
+der|Parkplatz|Parkplätze|otopark, park yeri|Ich finde keinen Parkplatz.|Park yeri bulamıyorum.
+die|Garage|Garagen|garaj|Das Auto steht in der Garage.|Araba garajda.
+der|Führerschein|Führerscheine|ehliyet|Hast du einen Führerschein?|Ehliyetin var mı?
+die|Autobahn|Autobahnen|otoyol|Auf der Autobahn fahre ich schnell.|Otoyolda hızlı giderim.
+der|Stau|Staus|trafik sıkışıklığı|Wir stehen im Stau.|Trafikte kaldık.
+der|Verkehr|-|trafik|Am Morgen gibt es viel Verkehr.|Sabah çok trafik oluyor.
+die|Kreuzung|Kreuzungen|kavşak|An der Kreuzung links abbiegen.|Kavşakta sola dönün.
+der|Fußgänger|Fußgänger|yaya|Hier dürfen nur Fußgänger gehen.|Burada sadece yayalar yürüyebilir.
+der|Bürgersteig|Bürgersteige|kaldırım|Die Kinder gehen auf dem Bürgersteig.|Çocuklar kaldırımda yürüyor.
+die|Richtung|Richtungen|yön|In welche Richtung fährt der Bus?|Otobüs hangi yöne gidiyor?
+der|Plan|Pläne|plan; harita|Hast du einen Stadtplan?|Şehir haritan var mı?
+die|Karte|Karten|harita; kart; bilet|Ich schaue auf die Karte.|Haritaya bakıyorum.
+die|Fahrt|Fahrten|yolculuk|Gute Fahrt!|İyi yolculuklar!
+der|Fahrplan|Fahrpläne|sefer tarifesi|Der Fahrplan hängt an der Haltestelle.|Sefer tarifesi durakta asılı.
+der|Bahnsteig|Bahnsteige|peron|Der Zug kommt auf Bahnsteig drei.|Tren üçüncü perona geliyor.
+der|Schalter|Schalter|gişe; düğme|Tickets gibt es am Schalter.|Biletler gişede var.
+die|Durchsage|Durchsagen|anons|Hast du die Durchsage gehört?|Anonsu duydun mu?
+der|Anschluss|Anschlüsse|aktarma; bağlantı|Ich habe meinen Anschluss verpasst.|Aktarmamı kaçırdım.
+der|Platz|Plätze|yer, koltuk; meydan|Ist der Platz frei?|Bu yer boş mu?
+der|Sitzplatz|Sitzplätze|oturacak yer|Im Zug gibt es keinen Sitzplatz.|Trende oturacak yer yok.
+die|Reservierung|Reservierungen|rezervasyon|Ich habe eine Reservierung.|Rezervasyonum var.
+der|Schiff|-|gemi|-|-
+das|Schiff|Schiffe|gemi|Wir fahren mit dem Schiff nach Italien.|Gemiyle İtalya'ya gidiyoruz.
+das|Boot|Boote|tekne|Das Boot ist klein.|Tekne küçük.
+der|Hafen|Häfen|liman|Das Schiff ist im Hafen.|Gemi limanda.
+das|Motorrad|Motorräder|motosiklet|Mein Bruder fährt Motorrad.|Kardeşim motosiklet kullanıyor.
+der|Lastwagen|Lastwagen|kamyon|Der Lastwagen ist sehr groß.|Kamyon çok büyük.
+der|Fahrer|Fahrer|şoför|Der Fahrer wartet.|Şoför bekliyor.
+der|Pass|Pässe|pasaport|Mein Pass ist abgelaufen.|Pasaportumun süresi doldu.
+das|Visum|Visa|vize|Brauche ich ein Visum?|Vizeye ihtiyacım var mı?
+die|Grenze|Grenzen|sınır|Wir sind an der Grenze.|Sınırdayız.
+der|Zoll|-|gümrük|Am Zoll müssen wir warten.|Gümrükte beklemek zorundayız.
+das|Reisebüro|Reisebüros|seyahat acentesi|Ich buche die Reise im Reisebüro.|Seyahati acenteden ayarlıyorum.
+die|Pension|Pensionen|pansiyon; emeklilik|Wir wohnen in einer kleinen Pension.|Küçük bir pansiyonda kalıyoruz.
+die|Jugendherberge|Jugendherbergen|gençlik hosteli|Die Jugendherberge ist billig.|Gençlik hosteli ucuz.
+die|Rezeption|Rezeptionen|resepsiyon|Den Schlüssel bekommen Sie an der Rezeption.|Anahtarı resepsiyondan alırsınız.
+das|Doppelzimmer|Doppelzimmer|çift kişilik oda|Wir möchten ein Doppelzimmer.|Çift kişilik oda istiyoruz.
+das|Einzelzimmer|Einzelzimmer|tek kişilik oda|Ein Einzelzimmer kostet 60 Euro.|Tek kişilik oda 60 euro.
+die|Übernachtung|Übernachtungen|konaklama (gece)|Eine Übernachtung mit Frühstück, bitte.|Kahvaltı dahil bir gece, lütfen.
+die|Sehenswürdigkeit|Sehenswürdigkeiten|görülecek yer|Berlin hat viele Sehenswürdigkeiten.|Berlin'de görülecek çok yer var.
+der|Tourist|Touristen|turist|Im Sommer kommen viele Touristen.|Yazın çok turist geliyor.
+die|Führung|Führungen|rehberli tur|Die Führung beginnt um zehn.|Rehberli tur onda başlıyor.
+die|Landschaft|Landschaften|manzara, doğa|Die Landschaft ist wunderschön.|Manzara harika.
+der|Strand|Strände|plaj|Wir liegen am Strand.|Plajda uzanıyoruz.
+die|Insel|Inseln|ada|Mallorca ist eine Insel.|Mallorca bir ada.
+der|Fluss|Flüsse|nehir|Der Rhein ist ein langer Fluss.|Ren uzun bir nehir.
+der|Wald|Wälder|orman|Wir gehen im Wald spazieren.|Ormanda yürüyüş yapıyoruz.
+das|Feld|Felder|tarla|Auf dem Feld wächst Weizen.|Tarlada buğday yetişiyor.
+die|Wiese|Wiesen|çayır|Die Kühe stehen auf der Wiese.|İnekler çayırda duruyor.
+der|Stein|Steine|taş|Das Haus ist aus Stein.|Ev taştan.
+die|Erde|-|toprak; dünya|Die Erde ist nass.|Toprak ıslak.
+die|Welt|Welten|dünya|Ich möchte die Welt sehen.|Dünyayı görmek istiyorum.
+der|Mond|Monde|ay (gök cismi)|Heute Nacht scheint der Mond.|Bu gece ay parlıyor.
+der|Stern|Sterne|yıldız|Am Himmel sind viele Sterne.|Gökyüzünde çok yıldız var.
+das|Gewitter|Gewitter|fırtına (gök gürültülü)|Heute Abend gibt es ein Gewitter.|Bu akşam fırtına var.
+der|Nebel|-|sis|Am Morgen ist viel Nebel.|Sabah çok sis var.
+das|Eis|-|buz|-|-
+die|Hitze|-|sıcaklık (aşırı)|Bei dieser Hitze bleibe ich zu Hause.|Bu sıcakta evde kalıyorum.
+die|Kälte|-|soğuk|Ich mag die Kälte nicht.|Soğuğu sevmem.
+die|Jahreszeit|Jahreszeiten|mevsim|Welche Jahreszeit magst du?|Hangi mevsimi seversin?
+die|Kuh|Kühe|inek|Die Kuh gibt Milch.|İnek süt verir.
+das|Schwein|Schweine|domuz|Auf dem Bauernhof gibt es Schweine.|Çiftlikte domuzlar var.
+das|Huhn|Hühner|tavuk|Das Huhn legt Eier.|Tavuk yumurta yumurtlar.
+das|Schaf|Schafe|koyun|Die Schafe sind auf der Wiese.|Koyunlar çayırda.
+die|Maus|Mäuse|fare|Die Katze fängt eine Maus.|Kedi bir fare yakalıyor.
+der|Fisch|Fische|balık|Im See schwimmen Fische.|Gölde balıklar yüzüyor.
+das|Kaninchen|Kaninchen|tavşan|Mein Kind hat ein Kaninchen.|Çocuğumun bir tavşanı var.
+die|Pflanze|Pflanzen|bitki|Die Pflanze braucht Wasser.|Bitkinin suya ihtiyacı var.
+das|Gras|Gräser|çimen|Das Gras ist grün.|Çimen yeşil.
+das|Blatt|Blätter|yaprak; sayfa|Im Herbst fallen die Blätter.|Sonbaharda yapraklar düşer.
+der|Bauernhof|Bauernhöfe|çiftlik|Meine Tante lebt auf einem Bauernhof.|Teyzem bir çiftlikte yaşıyor.
+die|Umwelt|-|çevre|Wir müssen die Umwelt schützen.|Çevreyi korumalıyız.

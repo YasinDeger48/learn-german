@@ -1,0 +1,253 @@
+# type|word|plural or verb forms|Türkçe|Beispielsatz|Türkçesi
+v|sich setzen|er setzt sich · hat sich gesetzt|oturmak|-|-
+v|erinnern|er erinnert · hat erinnert|hatırlatmak|Erinnere mich bitte an den Termin.|Lütfen bana randevuyu hatırlat.
+v|ausfallen|es fällt aus · ist ausgefallen|iptal olmak|Der Unterricht fällt heute aus.|Ders bugün yapılmıyor.
+v|ausgehen|er geht aus · ist ausgegangen|dışarı çıkmak (eğlence)|Am Samstag gehen wir aus.|Cumartesi dışarı çıkıyoruz.
+v|aufräumen|er räumt auf · hat aufgeräumt|toplamak, düzenlemek|-|-
+v|wegwerfen|er wirft weg · hat weggeworfen|atmak (çöpe)|Wirf das alte Brot nicht weg!|Bayat ekmeği atma!
+v|aufheben|er hebt auf · hat aufgehoben|yerden almak; saklamak|Heb bitte das Papier auf.|Lütfen kâğıdı yerden al.
+v|hinlegen|er legt hin · hat hingelegt|yere/bir yere koymak|Leg das Buch dort hin.|Kitabı oraya koy.
+v|sich hinlegen|er legt sich hin · hat sich hingelegt|uzanmak|Ich lege mich kurz hin.|Biraz uzanıyorum.
+v|aufmachen|er macht auf · hat aufgemacht|açmak|-|-
+v|anziehen|er zieht an · hat angezogen|giymek|-|-
+v|kochen|er kocht · hat gekocht|pişirmek|-|-
+v|schälen|er schält · hat geschält|soymak|Ich schäle die Kartoffeln.|Patatesleri soyuyorum.
+v|rühren|er rührt · hat gerührt|karıştırmak|Rühr die Suppe um!|Çorbayı karıştır!
+v|einpacken|er packt ein · hat eingepackt|paketlemek|Soll ich das als Geschenk einpacken?|Hediye paketi yapayım mı?
+v|auspacken|er packt aus · hat ausgepackt|paketi açmak|Die Kinder packen die Geschenke aus.|Çocuklar hediyeleri açıyor.
+v|einsteigen|er steigt ein · ist eingestiegen|binmek|-|-
+v|ausfüllen|er füllt aus · hat ausgefüllt|doldurmak (form)|-|-
+v|unterschreiben|er unterschreibt · hat unterschrieben|imzalamak|-|-
+v|ankommen|er kommt an · ist angekommen|varmak|-|-
+v|wegfahren|er fährt weg · ist weggefahren|uzağa gitmek|Am Wochenende fahren wir weg.|Hafta sonu bir yerlere gidiyoruz.
+v|mitfahren|er fährt mit · ist mitgefahren|birlikte gitmek (araçla)|Kann ich bei dir mitfahren?|Seninle gelebilir miyim?
+v|nachfragen|er fragt nach · hat nachgefragt|sormak, bilgi almak|Ich frage morgen noch mal nach.|Yarın bir daha sorarım.
+v|nachsehen|er sieht nach · hat nachgesehen|bakmak, kontrol etmek|Ich sehe im Kalender nach.|Takvime bakıyorum.
+v|nachdenken|er denkt nach · hat nachgedacht|düşünmek (üzerinde)|Ich muss darüber nachdenken.|Bunun üzerine düşünmem lazım.
+v|ausprobieren|er probiert aus · hat ausprobiert|denemek|Ich probiere das neue Rezept aus.|Yeni tarifi deniyorum.
+v|anfangen|er fängt an · hat angefangen|başlamak|-|-
+v|zuschauen|er schaut zu · hat zugeschaut|seyretmek|Ich schaue beim Fußball zu.|Futbolu seyrediyorum.
+v|weiterfahren|er fährt weiter · ist weitergefahren|yola devam etmek|Nach der Pause fahren wir weiter.|Moladan sonra yola devam ediyoruz.
+v|umsteigen|er steigt um · ist umgestiegen|aktarma yapmak|-|-
+v|erzählen|er erzählt · hat erzählt|anlatmak|-|-
+v|sich freuen|er freut sich · hat sich gefreut|sevinmek|-|-
+v|sich langweilen|er langweilt sich · hat sich gelangweilt|sıkılmak|Ich langweile mich.|Sıkılıyorum.
+v|sich verletzen|er verletzt sich · hat sich verletzt|yaralanmak|Er hat sich beim Sport verletzt.|Sporda yaralandı.
+v|sich erkälten|er erkältet sich · hat sich erkältet|üşütmek|Ich habe mich erkältet.|Üşüttüm.
+v|sich informieren|er informiert sich · hat sich informiert|bilgi edinmek|Ich informiere mich im Internet.|İnternetten bilgi ediniyorum.
+v|sich entspannen|er entspannt sich · hat sich entspannt|rahatlamak|Beim Yoga entspanne ich mich.|Yogada rahatlıyorum.
+v|sich vorstellen|er stellt sich vor · hat sich vorgestellt|kendini tanıtmak; hayal etmek|-|-
+v|sich beschäftigen|er beschäftigt sich · hat sich beschäftigt|uğraşmak|Ich beschäftige mich mit Musik.|Müzikle uğraşıyorum.
+v|sich verspäten|er verspätet sich · hat sich verspätet|gecikmek|Der Zug verspätet sich.|Tren gecikiyor.
+v|sich verlaufen|er verläuft sich · hat sich verlaufen|yolunu kaybetmek|Ich habe mich verlaufen.|Yolumu kaybettim.
+v|sich verfahren|er verfährt sich · hat sich verfahren|(araçla) yolu şaşırmak|Wir haben uns verfahren.|Yolu şaşırdık.
+v|sich irren|er irrt sich · hat sich geirrt|yanılmak|Sie irren sich.|Yanılıyorsunuz.
+v|sich wohlfühlen|er fühlt sich wohl · hat sich wohlgefühlt|kendini rahat hissetmek|Ich fühle mich hier wohl.|Burada kendimi rahat hissediyorum.
+v|sich Sorgen machen|er macht sich Sorgen · hat sich Sorgen gemacht|endişelenmek|Meine Mutter macht sich Sorgen.|Annem endişeleniyor.
+v|recht haben|er hat recht · hat recht gehabt|haklı olmak|Du hast recht.|Haklısın.
+v|Angst haben|er hat Angst · hat Angst gehabt|korkmak|Ich habe Angst vor der Prüfung.|Sınavdan korkuyorum.
+v|Bescheid sagen|er sagt Bescheid · hat Bescheid gesagt|haber vermek|Sag mir bitte Bescheid.|Lütfen bana haber ver.
+v|Platz nehmen|er nimmt Platz · hat Platz genommen|oturmak (resmî)|Bitte nehmen Sie Platz.|Lütfen oturun.
+v|Rad fahren|er fährt Rad · ist Rad gefahren|bisiklete binmek|Ich fahre gern Rad.|Bisiklete binmeyi severim.
+v|Ski fahren|er fährt Ski · ist Ski gefahren|kayak yapmak|Im Winter fahren wir Ski.|Kışın kayak yaparız.
+v|Auto fahren|er fährt Auto · ist Auto gefahren|araba kullanmak|Kannst du Auto fahren?|Araba kullanabiliyor musun?
+v|kennen|er kennt · hat gekannt|tanımak, bilmek|-|-
+v|meinen|er meint · hat gemeint|düşünmek, kastetmek|-|-
+v|finden|er findet · hat gefunden|bulmak; düşünmek|-|-
+v|gefallen|er gefällt · hat gefallen|hoşuna gitmek|-|-
+v|gehören|er gehört · hat gehört|ait olmak|-|-
+v|mögen|er mag · hat gemocht|sevmek, hoşlanmak|-|-
+w|vegetarisch||vejetaryen|Ich esse vegetarisch.|Vejetaryen besliyorum.
+w|vegan||vegan|Das Restaurant hat auch vegane Gerichte.|Restoranda vegan yemekler de var.
+w|warm||sıcak, ılık|-|-
+w|lauwarm||ılık|Der Kaffee ist nur lauwarm.|Kahve sadece ılık.
+w|eiskalt||buz gibi|Das Wasser ist eiskalt.|Su buz gibi.
+w|sonnig||güneşli|Morgen wird es sonnig.|Yarın güneşli olacak.
+w|bewölkt||bulutlu|Heute ist es bewölkt.|Bugün hava bulutlu.
+w|windig||rüzgârlı|Am Meer ist es windig.|Deniz kenarında rüzgârlı.
+w|neblig||sisli|Am Morgen ist es neblig.|Sabah sisli.
+w|regnerisch||yağmurlu|Der Herbst ist oft regnerisch.|Sonbahar çoğu zaman yağmurludur.
+w|mild||ılıman|Der Winter war mild.|Kış ılıman geçti.
+w|leer||boş|-|-
+w|voll||dolu|-|-
+w|ausgebucht||dolu (rezervasyon)|Das Hotel ist ausgebucht.|Otel dolu.
+w|ausverkauft||tükendi|Das Konzert ist ausverkauft.|Konserin biletleri tükendi.
+w|gültig||geçerli|Der Pass ist noch gültig.|Pasaport hâlâ geçerli.
+w|ungültig||geçersiz|Das Ticket ist ungültig.|Bilet geçersiz.
+w|pünktlich||zamanında|-|-
+w|verspätet||gecikmeli|Der Zug kommt verspätet.|Tren gecikmeli geliyor.
+w|geschlossen||kapalı|-|-
+w|zentral||merkezi|Die Wohnung liegt zentral.|Daire merkezi bir yerde.
+w|ländlich||kırsal|Wir wohnen ländlich.|Kırsalda oturuyoruz.
+w|hoch||yüksek|-|-
+w|steil||dik|Der Weg ist sehr steil.|Yol çok dik.
+w|flach||düz|Das Land ist flach.|Arazi düz.
+w|sauber||temiz|-|-
+w|schmutzig||kirli|-|-
+w|kaputt||bozuk|-|-
+w|gebraucht||ikinci el|Ich kaufe ein gebrauchtes Auto.|İkinci el bir araba alıyorum.
+w|preiswert||uygun fiyatlı|Das Essen ist preiswert.|Yemek uygun fiyatlı.
+w|möbliert||mobilyalı|Die Wohnung ist möbliert.|Daire mobilyalı.
+w|hell||aydınlık|-|-
+w|dunkel||karanlık|-|-
+w|laut||gürültülü|-|-
+w|kompliziert||karmaşık|Das Formular ist kompliziert.|Form karmaşık.
+w|leicht||kolay; hafif|-|-
+w|schwierig||zor|Die Aufgabe ist schwierig.|Görev zor.
+w|einfach||kolay; basit|-|-
+w|möglich||mümkün|-|-
+w|unmöglich||imkânsız|Das ist unmöglich!|Bu imkânsız!
+w|ideal||ideal|Das Wetter ist ideal zum Wandern.|Hava yürüyüş için ideal.
+w|beliebt||sevilen, popüler|Das Café ist sehr beliebt.|Kafe çok popüler.
+w|neugierig||meraklı|Sei nicht so neugierig!|Bu kadar meraklı olma!
+w|schüchtern||utangaç|Das Kind ist schüchtern.|Çocuk utangaç.
+w|mutig||cesur|Das war sehr mutig.|Bu çok cesurcaydı.
+w|ängstlich||korkak, ürkek|Der Hund ist ängstlich.|Köpek ürkek.
+w|großzügig||cömert|Er ist sehr großzügig.|Çok cömerttir.
+w|ruhig||sessiz|-|-
+w|still||sessiz, durgun|Im Wald ist es still.|Ormanda her yer sessiz.
+w|offen||açık|-|-
+w|gesperrt||kapalı (yol)|Die Straße ist gesperrt.|Yol kapalı.
+w|kostenpflichtig||ücretli|Das Parken ist kostenpflichtig.|Park etmek ücretli.
+w|inklusive||dahil|Das Frühstück ist inklusive.|Kahvaltı dahil.
+w|extra||ayrıca, ek olarak|Das Getränk kostet extra.|İçecek ayrıca ücretli.
+w|zusätzlich||ek olarak|Wir brauchen zusätzlich zwei Stühle.|Ek olarak iki sandalyeye ihtiyacımız var.
+w|ungefähr||yaklaşık|-|-
+w|genauso||aynı şekilde|Ich sehe das genauso.|Ben de aynı şekilde düşünüyorum.
+w|ebenfalls||aynen, size de|Schönen Tag! – Danke, ebenfalls!|İyi günler! – Teşekkürler, size de!
+w|gleichfalls||size de|Guten Appetit! – Danke, gleichfalls!|Afiyet olsun! – Teşekkürler, size de!
+w|übrigens||bu arada|Übrigens, morgen ist Feiertag.|Bu arada, yarın tatil.
+w|einmal||bir kez|Ich war einmal in Paris.|Bir kez Paris'teydim.
+w|zweimal||iki kez|Ich gehe zweimal pro Woche schwimmen.|Haftada iki kez yüzmeye giderim.
+w|noch einmal||bir kez daha|Sagen Sie das bitte noch einmal.|Lütfen bunu bir kez daha söyleyin.
+w|pro||başına|Das kostet zehn Euro pro Person.|Kişi başı on euro.
+w|ohne||-sız|-|-
+w|mit||ile|-|-
+w|per||ile (aracılığıyla)|Ich schicke es per E-Mail.|E-postayla gönderiyorum.
+w|unterwegs||yolda|Ich bin gerade unterwegs.|Şu an yoldayım.
+w|zu Hause||evde|-|-
+w|nach Hause||eve|Ich gehe jetzt nach Hause.|Şimdi eve gidiyorum.
+w|bergauf||yokuş yukarı|Der Weg geht bergauf.|Yol yokuş yukarı gidiyor.
+w|rückwärts||geriye doğru|Fahr bitte rückwärts.|Lütfen geri git.
+w|vorwärts||ileriye doğru|Geh vorwärts!|İleri yürü!
+w|tagsüber||gündüzleri|Tagsüber arbeite ich.|Gündüzleri çalışırım.
+w|rechtzeitig||zamanında|Bitte kommen Sie rechtzeitig.|Lütfen zamanında gelin.
+w|bisher||şimdiye kadar|Bisher war alles gut.|Şimdiye kadar her şey iyiydi.
+w|neulich||geçenlerde|Neulich habe ich Anna getroffen.|Geçenlerde Anna'yla karşılaştım.
+w|demnächst||yakında|Demnächst ziehe ich um.|Yakında taşınıyorum.
+w|ab und zu||ara sıra|Ab und zu gehe ich ins Kino.|Ara sıra sinemaya giderim.
+w|jedes Mal||her seferinde|Jedes Mal vergesse ich den Schirm.|Her seferinde şemsiyeyi unutuyorum.
+w|ständig||sürekli|Das Telefon klingelt ständig.|Telefon sürekli çalıyor.
+w|sicherlich||kesinlikle|Er hat sicherlich recht.|Kesinlikle haklı.
+w|vielleicht||belki|-|-
+w|gar nicht||hiç (değil)|Das weiß ich gar nicht.|Bunu hiç bilmiyorum.
+w|überhaupt nicht||hiç de değil|Das ist überhaupt nicht teuer.|Hiç de pahalı değil.
+w|ganz||tamamen; oldukça|-|-
+w|total||tamamen|Das ist total einfach.|Bu çok basit.
+w|ziemlich||epey|-|-
+w|kaum||neredeyse hiç|Ich habe kaum geschlafen.|Neredeyse hiç uyumadım.
+w|nur||sadece|-|-
+w|auch||de, da|-|-
+w|zwar … aber||gerçi … ama|Das Auto ist zwar alt, aber gut.|Araba gerçi eski ama iyi.
+w|je … desto||ne kadar … o kadar|Je mehr ich lerne, desto besser spreche ich.|Ne kadar çok çalışırsam o kadar iyi konuşuyorum.
+w|um … zu||-mek için|Ich lerne Deutsch, um in Deutschland zu arbeiten.|Almanya'da çalışmak için Almanca öğreniyorum.
+w|ohne … zu||-meden|Er geht, ohne Tschüss zu sagen.|Hoşça kal demeden gidiyor.
+w|darum||bu yüzden|Ich habe Hunger, darum esse ich jetzt.|Açım, bu yüzden şimdi yiyorum.
+w|dafür||bunun için; buna karşın|Dafür habe ich keine Zeit.|Buna vaktim yok.
+w|dagegen||buna karşı|Hast du etwas dagegen?|Buna itirazın var mı?
+w|darauf||bunun üzerine|Ich freue mich darauf.|Bunu dört gözle bekliyorum.
+w|davon||bundan|Ich habe davon gehört.|Bunu duydum.
+w|damit||bununla|Was machst du damit?|Bununla ne yapıyorsun?
+w|dabei||yanında; bu sırada|Hast du deinen Pass dabei?|Pasaportun yanında mı?
+w|danach||ondan sonra|-|-
+w|vorbei sein||bitmiş olmak|Die Ferien sind vorbei.|Tatil bitti.
+w|los||haydi; neler oluyor|Was ist los?|Ne oldu?
+w|na||eee, peki|Na, wie geht's?|Eee, nasılsın?
+w|oh||ah, oh|Oh, wie schön!|Ah, ne güzel!
+w|aha||hı, anladım|Aha, jetzt verstehe ich.|Hı, şimdi anlıyorum.
+w|pst||şşş|Pst, das Baby schläft!|Şşş, bebek uyuyor!
+der|Schnee|-|kar|-|-
+der|Frost|-|don, ayaz|In der Nacht gibt es Frost.|Gece don olacak.
+das|Wetter|-|hava|-|-
+die|Wettervorhersage|Wettervorhersagen|hava tahmini|Die Wettervorhersage sagt Regen.|Hava tahmini yağmur diyor.
+der|Grad|-|derece|-|-
+der|Schatten|Schatten|gölge|Wir sitzen im Schatten.|Gölgede oturuyoruz.
+die|Sonne|-|güneş|-|-
+die|Frühlingszeit|-|bahar zamanı|-|-
+der|Schmetterling|Schmetterlinge|kelebek|Ein Schmetterling sitzt auf der Blume.|Bir kelebek çiçeğin üstünde.
+der|Igel|Igel|kirpi|Im Garten wohnt ein Igel.|Bahçede bir kirpi yaşıyor.
+die|Spinne|Spinnen|örümcek|Ich habe Angst vor Spinnen.|Örümceklerden korkarım.
+die|Mücke|Mücken|sivrisinek|Im Sommer gibt es viele Mücken.|Yazın çok sivrisinek olur.
+der|Hase|Hasen|tavşan (yabani)|Der Hase läuft schnell.|Tavşan hızlı koşar.
+die|Ziege|Ziegen|keçi|Die Ziege gibt Milch.|Keçi süt verir.
+der|Papagei|Papageien|papağan|Der Papagei kann sprechen.|Papağan konuşabiliyor.
+der|Hamster|Hamster|hamster|Mein Kind wünscht sich einen Hamster.|Çocuğum bir hamster istiyor.
+das|Aquarium|Aquarien|akvaryum|Im Aquarium sind bunte Fische.|Akvaryumda renkli balıklar var.
+der|Tierarzt|Tierärzte|veteriner|Wir gehen mit dem Hund zum Tierarzt.|Köpekle veterinere gidiyoruz.
+das|Futter|-|yem, mama|Das Futter für die Katze ist alle.|Kedinin maması bitti.
+die|Leine|Leinen|tasma|Hunde müssen an die Leine.|Köpekler tasmalı olmalı.
+das|Frühstücksei|Frühstückseier|kahvaltı yumurtası|Ich koche ein Frühstücksei.|Kahvaltı için yumurta haşlıyorum.
+das|Spiegelei|Spiegeleier|sahanda yumurta|Ich mache ein Spiegelei.|Sahanda yumurta yapıyorum.
+das|Rührei|-|çırpılmış yumurta, menemen tarzı|Zum Frühstück gibt es Rührei.|Kahvaltıda çırpılmış yumurta var.
+der|Toast|Toasts|tost ekmeği|Ich esse Toast mit Butter.|Tereyağlı tost ekmeği yiyorum.
+das|Müsli|Müslis|müsli|Zum Frühstück esse ich Müsli.|Kahvaltıda müsli yerim.
+der|Quark|-|lor peyniri|Der Quark ist frisch.|Lor taze.
+die|Brezel|Brezeln|pretzel|Eine Brezel, bitte.|Bir pretzel, lütfen.
+der|Döner|Döner|döner|Ich esse einen Döner.|Bir döner yiyorum.
+das|Würstchen|Würstchen|sosis|Die Kinder essen Würstchen.|Çocuklar sosis yiyor.
+der|Braten|Braten|kızartma (et)|Am Sonntag gibt es Braten.|Pazar günü et kızartması var.
+das|Schnitzel|Schnitzel|şinitzel|Ich nehme ein Schnitzel mit Pommes.|Patates kızartmalı bir şinitzel alıyorum.
+der|Kakao|-|kakao|Die Kinder trinken Kakao.|Çocuklar kakao içiyor.
+der|Sekt|-|köpüklü şarap|An Silvester trinken wir Sekt.|Yılbaşında köpüklü şarap içeriz.
+die|Cola|Colas|kola|Eine Cola, bitte.|Bir kola, lütfen.
+das|Mineralwasser|-|maden suyu|Ich trinke Mineralwasser.|Maden suyu içiyorum.
+der|Orangensaft|Orangensäfte|portakal suyu|Ein Glas Orangensaft, bitte.|Bir bardak portakal suyu, lütfen.
+der|Apfelsaft|Apfelsäfte|elma suyu|Die Kinder trinken Apfelsaft.|Çocuklar elma suyu içiyor.
+der|Hackfleisch|-|kıyma|-|-
+das|Hackfleisch|-|kıyma|Ich kaufe ein Kilo Hackfleisch.|Bir kilo kıyma alıyorum.
+der|Lachs|Lachse|somon|Heute gibt es Lachs.|Bugün somon var.
+der|Thunfisch|Thunfische|ton balığı|Ich esse Salat mit Thunfisch.|Ton balıklı salata yiyorum.
+das|Gewürz|Gewürze|baharat|Welche Gewürze brauchst du?|Hangi baharatlara ihtiyacın var?
+der|Essig|-|sirke|Salat mit Öl und Essig, bitte.|Zeytinyağı ve sirkeli salata, lütfen.
+der|Senf|-|hardal|Möchtest du Senf zur Wurst?|Sosisin yanında hardal ister misin?
+der|Ketchup|-|ketçap|Pommes mit Ketchup, bitte.|Ketçaplı patates, lütfen.
+die|Schlagsahne|-|krem şanti|Kuchen mit Schlagsahne, bitte.|Krem şantili kek, lütfen.
+das|Lebensmittel|Lebensmittel|gıda maddesi|Lebensmittel sind teurer geworden.|Gıdalar pahalandı.
+die|Portion|Portionen|porsiyon|Eine Portion Pommes, bitte.|Bir porsiyon patates kızartması, lütfen.
+die|Scheibe|Scheiben|dilim|Eine Scheibe Käse, bitte.|Bir dilim peynir, lütfen.
+das|Stück|-|parça|-|-
+das|Pfund|Pfunde|yarım kilo|Ein Pfund Tomaten, bitte.|Yarım kilo domates, lütfen.
+der|Becher|-|bardak|-|-
+das|Brett|Bretter|tahta, kesme tahtası|Ich schneide das Brot auf dem Brett.|Ekmeği tahtanın üstünde kesiyorum.
+der|Deckel|Deckel|kapak|Wo ist der Deckel vom Topf?|Tencerenin kapağı nerede?
+der|Korb|Körbe|sepet|Die Äpfel sind im Korb.|Elmalar sepette.
+der|Einkaufswagen|Einkaufswagen|alışveriş arabası|Ich nehme einen Einkaufswagen.|Bir alışveriş arabası alıyorum.
+die|Einkaufsliste|Einkaufslisten|alışveriş listesi|Ich schreibe eine Einkaufsliste.|Alışveriş listesi yazıyorum.
+die|Abteilung|-|reyon|-|-
+das|Regal|-|raf|-|-
+der|Verkauf|Verkäufe|satış|Der Verkauf beginnt um neun.|Satış dokuzda başlıyor.
+der|Schlussverkauf|Schlussverkäufe|sezon sonu indirimi|Im Schlussverkauf ist alles billig.|Sezon sonu indiriminde her şey ucuz.
+die|Garantie|Garantien|garanti|Das Handy hat zwei Jahre Garantie.|Telefonun iki yıl garantisi var.
+die|Größe|-|beden|-|-
+die|Nummer|-|numara|-|-
+das|Muster|Muster|desen; örnek|Das Hemd hat ein schönes Muster.|Gömleğin güzel bir deseni var.
+der|Stoff|Stoffe|kumaş|Der Stoff ist sehr weich.|Kumaş çok yumuşak.
+die|Unterwäsche|-|iç çamaşırı|Ich kaufe neue Unterwäsche.|Yeni iç çamaşırı alıyorum.
+der|Schlafanzug|Schlafanzüge|pijama|Das Kind trägt einen Schlafanzug.|Çocuk pijama giyiyor.
+die|Sandale|Sandalen|sandalet|Im Sommer trage ich Sandalen.|Yazın sandalet giyerim.
+der|Turnschuh|Turnschuhe|spor ayakkabı|Ich brauche neue Turnschuhe.|Yeni spor ayakkabılara ihtiyacım var.
+die|Jeans|Jeans|kot pantolon|Ich trage gern Jeans.|Kot giymeyi severim.
+die|Kapuze|Kapuzen|kapüşon|Die Jacke hat eine Kapuze.|Ceketin kapüşonu var.
+die|Tasche|-|çanta|-|-
+die|Handtasche|Handtaschen|el çantası|Ihre Handtasche ist rot.|El çantası kırmızı.
+der|Koffer|-|bavul|-|-
+der|Lippenstift|Lippenstifte|ruj|Sie kauft einen Lippenstift.|Bir ruj alıyor.
+das|Parfüm|Parfüms|parfüm|Das Parfüm riecht gut.|Parfüm güzel kokuyor.
+der|Kamm|Kämme|tarak|Hast du einen Kamm?|Tarağın var mı?
+die|Zahnpasta|Zahnpasten|diş macunu|Die Zahnpasta ist alle.|Diş macunu bitti.
+das|Toilettenpapier|-|tuvalet kâğıdı|Wir brauchen Toilettenpapier.|Tuvalet kâğıdına ihtiyacımız var.
+das|Taschentuch|Taschentücher|mendil|Hast du ein Taschentuch?|Mendilin var mı?
+das|Pflaster|-|yara bandı|-|-
+die|Creme|Cremes|krem|Die Creme ist gut für die Haut.|Krem cilde iyi gelir.
+die|Bürste|Bürsten|fırça|Ich brauche eine Bürste.|Bir fırçaya ihtiyacım var.
+der|Föhn|Föhne|saç kurutma makinesi|Gibt es im Hotel einen Föhn?|Otelde saç kurutma makinesi var mı?

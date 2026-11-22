@@ -2,6 +2,24 @@
 
 SwiftUI ile hazırlanmış kişisel iPhone uygulaması. iOS 16 veya üstünü gerektirir. A1–C1 arasındaki 298 ders cihazda listelenir. Videolar YouTube’da açılır ve izlenme işaretleri cihazda saklanır.
 
+## A1 Hazırlık sekmesi
+
+`a1.json`, „Almanca A1 Kelimeler, Gramer ve Sınav Hazırlık“ PDF'inden üretilir (`tools/`):
+
+- 693 A1 kelimesi, 1386 örnek cümle, okunuşlar, 22 gramer konusu, 20 okuma metni
+- Ek olarak sık kullanılan ~1390 kelime (`tools/words/*.txt`): artikel, okunuş, Türkçe, 1 örnek cümle
+- Oyunlar: artikel, kelime ↔ Türkçe, cümle anlamı, boşluk doldurma, cümle kurma, dinleme, yazma/dikte, çoğul, fiiller/Perfekt, gramer, sayı-saat-tarih, okuma, „Ne dersin?“ / „Hatayı bul“, artikel yarışı, eşleştirme, 30 soruluk sınav provası
+- Görülen soru tekrar sorulmaz; yanlışlar „Hatalarım“da toplanır. İlerleme yedek dosyasına da yazılır.
+
+Veriyi yeniden üretmek için (Windows, Python 3 + pdftotext):
+
+```
+pdftotext -enc UTF-8 Almanca_A1_Kelimeler_Gramer_ve_Sinav_Hazirlik.pdf a1raw.txt
+python -X utf8 tools/parse_a1_pdf.py a1raw.txt a1_base.json
+python -X utf8 tools/a1_extras.py a1_base.json a1.json
+python -X utf8 tools/build_core.py a1.json
+```
+
 ## IPA dosyasını indir
 
 1. GitHub deposunda **Actions → iPhone IPA** öğesini aç.

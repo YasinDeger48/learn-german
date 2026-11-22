@@ -1,0 +1,357 @@
+# type|word|er-Form · Perfekt|Türkçe|Beispielsatz|Türkçesi
+v|essen gehen|er geht essen · ist essen gegangen|yemeğe çıkmak|Heute Abend gehen wir essen.|Bu akşam yemeğe çıkıyoruz.
+v|backen|er backt · hat gebacken|fırında pişirmek|Ich backe einen Kuchen.|Bir kek pişiriyorum.
+v|braten|er brät · hat gebraten|kızartmak|Er brät Fleisch.|Et kızartıyor.
+v|schneiden|er schneidet · hat geschnitten|kesmek|Ich schneide das Brot.|Ekmeği kesiyorum.
+v|probieren|er probiert · hat probiert|tadına bakmak, denemek|Probier mal den Kuchen!|Keki bir tadına bak!
+v|anprobieren|er probiert an · hat anprobiert|(giysi) denemek|Kann ich die Hose anprobieren?|Pantolonu deneyebilir miyim?
+v|ausziehen|er zieht aus · hat ausgezogen|çıkarmak (giysi); taşınmak|Zieh bitte die Schuhe aus.|Lütfen ayakkabılarını çıkar.
+v|sich umziehen|er zieht sich um · hat sich umgezogen|üstünü değiştirmek|Ich ziehe mich schnell um.|Hızlıca üstümü değiştiriyorum.
+v|zahlen|er zahlt · hat gezahlt|ödemek|Wir möchten zahlen, bitte.|Ödemek istiyoruz, lütfen.
+v|ausgeben|er gibt aus · hat ausgegeben|harcamak|Ich gebe viel Geld für Bücher aus.|Kitaplara çok para harcıyorum.
+v|sparen|er spart · hat gespart|biriktirmek, tasarruf etmek|Ich spare für ein Auto.|Bir araba için para biriktiriyorum.
+v|leihen|er leiht · hat geliehen|ödünç vermek/almak|Kannst du mir dein Fahrrad leihen?|Bisikletini bana ödünç verebilir misin?
+v|tauschen|er tauscht · hat getauscht|değiştirmek (takas)|Kann ich die Hose tauschen?|Pantolonu değiştirebilir miyim?
+v|umtauschen|er tauscht um · hat umgetauscht|(mağazada) değiştirmek|Ich möchte die Schuhe umtauschen.|Ayakkabıları değiştirmek istiyorum.
+v|bestellen|er bestellt · hat bestellt|sipariş etmek|-|-
+v|liefern|er liefert · hat geliefert|teslim etmek|Wir liefern die Möbel am Montag.|Mobilyaları pazartesi teslim ediyoruz.
+v|packen|er packt · hat gepackt|toplamak (bavul)|Ich packe meinen Koffer.|Bavulumu topluyorum.
+v|tragen|er trägt · hat getragen|taşımak; giymek|-|-
+v|heben|er hebt · hat gehoben|kaldırmak|Ich kann den Koffer nicht heben.|Bavulu kaldıramıyorum.
+v|ziehen|er zieht · hat gezogen|çekmek|Bitte die Tür ziehen.|Lütfen kapıyı çekin.
+v|drücken|er drückt · hat gedrückt|itmek; basmak|Drücken Sie den grünen Knopf.|Yeşil düğmeye basın.
+v|werfen|er wirft · hat geworfen|atmak|Wirf den Ball!|Topu at!
+v|fangen|er fängt · hat gefangen|yakalamak|Der Hund fängt den Ball.|Köpek topu yakalıyor.
+v|fallen|er fällt · ist gefallen|düşmek|Das Glas ist auf den Boden gefallen.|Bardak yere düştü.
+v|hinfallen|er fällt hin · ist hingefallen|yere düşmek|Das Kind ist hingefallen.|Çocuk düştü.
+v|springen|er springt · ist gesprungen|atlamak|Die Katze springt auf den Tisch.|Kedi masaya atlıyor.
+v|rennen|er rennt · ist gerannt|koşmak|Er rennt zum Bus.|Otobüse koşuyor.
+v|steigen|er steigt · ist gestiegen|çıkmak, tırmanmak|Wir steigen auf den Berg.|Dağa tırmanıyoruz.
+v|klettern|er klettert · ist geklettert|tırmanmak|Die Kinder klettern auf den Baum.|Çocuklar ağaca tırmanıyor.
+v|segeln|er segelt · ist gesegelt|yelkenliyle gitmek|Im Sommer segeln wir auf dem See.|Yazın gölde yelken yapıyoruz.
+v|joggen|er joggt · ist gejoggt|koşu yapmak|Ich jogge jeden Morgen.|Her sabah koşu yaparım.
+v|trainieren|er trainiert · hat trainiert|antrenman yapmak|Wir trainieren zweimal pro Woche.|Haftada iki kez antrenman yapıyoruz.
+v|gewinnen|er gewinnt · hat gewonnen|kazanmak|Unsere Mannschaft hat gewonnen.|Takımımız kazandı.
+v|verlieren|er verliert · hat verloren|kaybetmek|Ich habe meinen Schlüssel verloren.|Anahtarımı kaybettim.
+v|zeichnen|er zeichnet · hat gezeichnet|çizmek|Das Kind zeichnet ein Haus.|Çocuk bir ev çiziyor.
+v|basteln|er bastelt · hat gebastelt|el işi yapmak|Wir basteln einen Stern.|Bir yıldız yapıyoruz.
+v|lesen|er liest · hat gelesen|okumak|-|-
+v|erzählen|er erzählt · hat erzählt|anlatmak|Erzähl mal, wie war der Urlaub?|Anlatsana, tatil nasıldı?
+v|berichten|er berichtet · hat berichtet|haber vermek, anlatmak|Die Zeitung berichtet über den Unfall.|Gazete kazayı haber yapıyor.
+v|beschreiben|er beschreibt · hat beschrieben|tarif etmek, betimlemek|Beschreiben Sie das Bild.|Resmi betimleyin.
+v|diskutieren|er diskutiert · hat diskutiert|tartışmak|Wir diskutieren über Politik.|Siyaset hakkında tartışıyoruz.
+v|sich unterhalten|er unterhält sich · hat sich unterhalten|sohbet etmek|Wir unterhalten uns über den Film.|Film hakkında sohbet ediyoruz.
+v|reden|er redet · hat geredet|konuşmak|Wir müssen reden.|Konuşmamız lazım.
+v|rufen|er ruft · hat gerufen|çağırmak, seslenmek|Die Mutter ruft die Kinder.|Anne çocukları çağırıyor.
+v|schreien|er schreit · hat geschrien|bağırmak|Bitte schrei nicht so!|Lütfen öyle bağırma!
+v|flüstern|er flüstert · hat geflüstert|fısıldamak|Sie flüstert mir etwas ins Ohr.|Kulağıma bir şey fısıldıyor.
+v|grüßen|er grüßt · hat gegrüßt|selamlamak|Grüß deine Eltern von mir!|Annene babana benden selam söyle!
+v|begrüßen|er begrüßt · hat begrüßt|karşılamak, selamlamak|Der Chef begrüßt die Gäste.|Şef misafirleri karşılıyor.
+v|sich verabschieden|er verabschiedet sich · hat sich verabschiedet|vedalaşmak|Ich verabschiede mich jetzt.|Şimdi vedalaşıyorum.
+v|danken|er dankt · hat gedankt|teşekkür etmek|Ich danke Ihnen für die Hilfe.|Yardımınız için teşekkür ederim.
+v|sich bedanken|er bedankt sich · hat sich bedankt|teşekkür etmek|Ich bedanke mich für das Geschenk.|Hediye için teşekkür ederim.
+v|sich entschuldigen|er entschuldigt sich · hat sich entschuldigt|özür dilemek|Er entschuldigt sich für den Fehler.|Hata için özür diliyor.
+v|bitten|er bittet · hat gebeten|rica etmek|Ich bitte Sie um Hilfe.|Sizden yardım rica ediyorum.
+v|empfehlen|er empfiehlt · hat empfohlen|tavsiye etmek|Was empfehlen Sie mir?|Bana ne tavsiye edersiniz?
+v|vorschlagen|er schlägt vor · hat vorgeschlagen|önermek|Ich schlage vor, wir gehen ins Kino.|Sinemaya gitmeyi öneriyorum.
+v|erlauben|er erlaubt · hat erlaubt|izin vermek|Rauchen ist hier nicht erlaubt.|Burada sigara içmek yasak.
+v|verbieten|er verbietet · hat verboten|yasaklamak|Parken ist hier verboten.|Burada park etmek yasak.
+v|versprechen|er verspricht · hat versprochen|söz vermek|Ich verspreche es dir.|Sana söz veriyorum.
+v|lügen|er lügt · hat gelogen|yalan söylemek|Er lügt nie.|Asla yalan söylemez.
+v|antworten|er antwortet · hat geantwortet|cevap vermek|-|-
+v|beantworten|er beantwortet · hat beantwortet|cevaplamak|Bitte beantworten Sie die Fragen.|Lütfen soruları cevaplayın.
+v|übersetzen|er übersetzt · hat übersetzt|çevirmek (dil)|Kannst du das übersetzen?|Bunu çevirebilir misin?
+v|aussprechen|er spricht aus · hat ausgesprochen|telaffuz etmek|Wie spricht man das aus?|Bu nasıl telaffuz edilir?
+v|buchstabieren|er buchstabiert · hat buchstabiert|harf harf söylemek|-|-
+v|bedeuten|er bedeutet · hat bedeutet|anlamına gelmek|Was bedeutet das?|Bu ne demek?
+v|üben|er übt · hat geübt|alıştırma yapmak|Ich übe jeden Tag Deutsch.|Her gün Almanca alıştırma yapıyorum.
+v|wiederholen|er wiederholt · hat wiederholt|tekrarlamak|-|-
+v|korrigieren|er korrigiert · hat korrigiert|düzeltmek|Die Lehrerin korrigiert die Tests.|Öğretmen sınavları düzeltiyor.
+v|prüfen|er prüft · hat geprüft|kontrol etmek, sınamak|Bitte prüfen Sie die Rechnung.|Lütfen faturayı kontrol edin.
+v|bestehen|er besteht · hat bestanden|(sınavı) geçmek|Ich habe die Prüfung bestanden.|Sınavı geçtim.
+v|wissen|er weiß · hat gewusst|bilmek|-|-
+v|lehren|er lehrt · hat gelehrt|öğretmek|Sie lehrt Deutsch an der Uni.|Üniversitede Almanca öğretiyor.
+v|unterrichten|er unterrichtet · hat unterrichtet|ders vermek|Er unterrichtet Mathematik.|Matematik dersi veriyor.
+v|sich erinnern|er erinnert sich · hat sich erinnert|hatırlamak|Ich erinnere mich an den Urlaub.|Tatili hatırlıyorum.
+v|vergessen|er vergisst · hat vergessen|unutmak|-|-
+v|verstehen|er versteht · hat verstanden|anlamak|-|-
+v|lernen|er lernt · hat gelernt|öğrenmek|-|-
+v|sich interessieren|er interessiert sich · hat sich interessiert|ilgilenmek|Ich interessiere mich für Kunst.|Sanatla ilgileniyorum.
+v|sich ärgern|er ärgert sich · hat sich geärgert|sinirlenmek|Ich ärgere mich über den Stau.|Trafiğe sinirleniyorum.
+v|sich wundern|er wundert sich · hat sich gewundert|şaşırmak|Ich wundere mich über das Wetter.|Havaya şaşırıyorum.
+v|sich fühlen|er fühlt sich · hat sich gefühlt|kendini hissetmek|Ich fühle mich nicht gut.|Kendimi iyi hissetmiyorum.
+v|sich beeilen|er beeilt sich · hat sich beeilt|acele etmek|Beeil dich, der Bus kommt!|Acele et, otobüs geliyor!
+v|sich ausruhen|er ruht sich aus · hat sich ausgeruht|dinlenmek|Am Sonntag ruhe ich mich aus.|Pazar günü dinlenirim.
+v|sich erholen|er erholt sich · hat sich erholt|dinlenmek, iyileşmek|Im Urlaub erhole ich mich.|Tatilde dinlenirim.
+v|sich setzen|er setzt sich · hat sich gesetzt|oturmak (yerine)|Setzen Sie sich bitte.|Lütfen oturun.
+v|sich treffen|er trifft sich · hat sich getroffen|buluşmak|Wir treffen uns um acht.|Sekizde buluşuyoruz.
+v|sich anmelden|er meldet sich an · hat sich angemeldet|kayıt olmak|Ich melde mich für den Kurs an.|Kursa kayıt oluyorum.
+v|sich bewerben|er bewirbt sich · hat sich beworben|başvurmak|Sie bewirbt sich bei einer Bank.|Bir bankaya başvuruyor.
+v|sich kümmern|er kümmert sich · hat sich gekümmert|ilgilenmek, bakmak|Ich kümmere mich um die Kinder.|Çocuklarla ben ilgileniyorum.
+v|sich verlieben|er verliebt sich · hat sich verliebt|âşık olmak|Er hat sich in sie verliebt.|Ona âşık oldu.
+v|sich streiten|er streitet sich · hat sich gestritten|kavga etmek|Die Kinder streiten sich oft.|Çocuklar sık sık kavga ediyor.
+v|sich waschen|er wäscht sich · hat sich gewaschen|yıkanmak|Ich wasche mich am Morgen.|Sabah yıkanırım.
+v|sich kämmen|er kämmt sich · hat sich gekämmt|saç taramak|Sie kämmt sich die Haare.|Saçlarını tarıyor.
+v|sich rasieren|er rasiert sich · hat sich rasiert|tıraş olmak|Er rasiert sich jeden Morgen.|Her sabah tıraş oluyor.
+v|sich schminken|er schminkt sich · hat sich geschminkt|makyaj yapmak|Sie schminkt sich vor der Party.|Partiden önce makyaj yapıyor.
+v|sich anziehen|er zieht sich an · hat sich angezogen|giyinmek|Zieh dich warm an!|Sıkı giyin!
+v|aufwachen|er wacht auf · ist aufgewacht|uyanmak|Ich wache um sechs Uhr auf.|Saat altıda uyanırım.
+v|einschlafen|er schläft ein · ist eingeschlafen|uykuya dalmak|Das Baby schläft schnell ein.|Bebek hızlıca uykuya dalıyor.
+v|träumen|er träumt · hat geträumt|rüya görmek; hayal etmek|Ich träume von einem Haus am Meer.|Deniz kenarında bir ev hayal ediyorum.
+v|leben|er lebt · hat gelebt|yaşamak|-|-
+v|sterben|er stirbt · ist gestorben|ölmek|Seine Oma ist letztes Jahr gestorben.|Büyükannesi geçen yıl öldü.
+v|wachsen|er wächst · ist gewachsen|büyümek|Die Kinder wachsen so schnell.|Çocuklar çok hızlı büyüyor.
+v|heiraten|er heiratet · hat geheiratet|evlenmek|Wir heiraten im Sommer.|Yazın evleniyoruz.
+v|sich trennen|er trennt sich · hat sich getrennt|ayrılmak|Sie haben sich getrennt.|Ayrıldılar.
+v|kennenlernen|er lernt kennen · hat kennengelernt|tanışmak|-|-
+v|vorstellen|er stellt vor · hat vorgestellt|tanıştırmak|Darf ich vorstellen? Das ist Anna.|Tanıştırayım: Bu Anna.
+v|einziehen|er zieht ein · ist eingezogen|(eve) taşınmak|Wir ziehen am Montag ein.|Pazartesi taşınıyoruz.
+v|vermieten|er vermietet · hat vermietet|kiraya vermek|Er vermietet seine Wohnung.|Dairesini kiraya veriyor.
+v|bauen|er baut · hat gebaut|inşa etmek|Sie bauen ein neues Haus.|Yeni bir ev inşa ediyorlar.
+v|einrichten|er richtet ein · hat eingerichtet|döşemek|Wir richten die Wohnung ein.|Daireyi döşüyoruz.
+v|aufhängen|er hängt auf · hat aufgehängt|asmak|Ich hänge das Bild auf.|Resmi asıyorum.
+v|hängen|er hängt · hat gehangen|asılı olmak; asmak|Das Bild hängt an der Wand.|Resim duvarda asılı.
+v|stecken|er steckt · hat gesteckt|sokmak; takılı olmak|Der Schlüssel steckt in der Tür.|Anahtar kapıda takılı.
+v|setzen|er setzt · hat gesetzt|oturtmak, koymak|Ich setze das Kind auf den Stuhl.|Çocuğu sandalyeye oturtuyorum.
+v|decken|er deckt · hat gedeckt|(sofra) kurmak|Kannst du bitte den Tisch decken?|Sofrayı kurabilir misin lütfen?
+v|spülen|er spült · hat gespült|bulaşık yıkamak|Wer spült heute?|Bugün bulaşığı kim yıkıyor?
+v|abwaschen|er wäscht ab · hat abgewaschen|bulaşık yıkamak|Ich wasche das Geschirr ab.|Bulaşıkları yıkıyorum.
+v|staubsaugen|er staubsaugt · hat gestaubsaugt|süpürmek (elektrikli)|Am Samstag staubsauge ich.|Cumartesi süpürge yaparım.
+v|bügeln|er bügelt · hat gebügelt|ütülemek|Ich bügle meine Hemden.|Gömleklerimi ütülüyorum.
+v|gießen|er gießt · hat gegossen|sulamak|Bitte gieß die Blumen.|Lütfen çiçekleri sula.
+v|füttern|er füttert · hat gefüttert|(hayvan) beslemek|Ich füttere die Katze.|Kediyi besliyorum.
+v|ausmachen|er macht aus · hat ausgemacht|kapatmak (ışık)|Mach bitte das Licht aus.|Lütfen ışığı kapat.
+v|anmachen|er macht an · hat angemacht|açmak (ışık)|Mach bitte das Licht an.|Lütfen ışığı aç.
+v|einschalten|er schaltet ein · hat eingeschaltet|açmak (cihaz)|Ich schalte den Fernseher ein.|Televizyonu açıyorum.
+v|ausschalten|er schaltet aus · hat ausgeschaltet|kapatmak (cihaz)|Schalten Sie bitte das Handy aus.|Lütfen cep telefonunu kapatın.
+v|laden|er lädt · hat geladen|şarj etmek; yüklemek|Ich muss mein Handy laden.|Telefonumu şarj etmeliyim.
+v|herunterladen|er lädt herunter · hat heruntergeladen|indirmek|Ich lade die App herunter.|Uygulamayı indiriyorum.
+v|drucken|er druckt · hat gedruckt|yazdırmak|Kannst du das Ticket drucken?|Bileti yazdırabilir misin?
+v|speichern|er speichert · hat gespeichert|kaydetmek|Vergiss nicht, die Datei zu speichern.|Dosyayı kaydetmeyi unutma.
+v|löschen|er löscht · hat gelöscht|silmek|Ich lösche die alten Fotos.|Eski fotoğrafları siliyorum.
+v|tippen|er tippt · hat getippt|yazmak (klavye)|Sie tippt sehr schnell.|Çok hızlı yazıyor.
+v|klicken|er klickt · hat geklickt|tıklamak|Klicken Sie auf den Link.|Bağlantıya tıklayın.
+v|chatten|er chattet · hat gechattet|sohbet etmek (internette)|Ich chatte mit meiner Freundin.|Kız arkadaşımla yazışıyorum.
+v|posten|er postet · hat gepostet|paylaşmak (internette)|Sie postet viele Fotos.|Çok fotoğraf paylaşıyor.
+v|surfen|er surft · hat gesurft|internette gezinmek; sörf yapmak|Ich surfe im Internet.|İnternette geziniyorum.
+v|anklicken|er klickt an · hat angeklickt|tıklamak|Bitte das Feld anklicken.|Lütfen alana tıklayın.
+v|ausdrucken|er druckt aus · hat ausgedruckt|çıktı almak|Ich drucke den Brief aus.|Mektubun çıktısını alıyorum.
+v|anschauen|er schaut an · hat angeschaut|bakmak, izlemek|Wir schauen uns die Stadt an.|Şehri geziyoruz.
+v|schauen|er schaut · hat geschaut|bakmak|Schau mal, ein Vogel!|Bak, bir kuş!
+v|gucken|er guckt · hat geguckt|bakmak (konuşma dili)|Wir gucken einen Film.|Bir film izliyoruz.
+v|beobachten|er beobachtet · hat beobachtet|gözlemlemek|Ich beobachte die Vögel.|Kuşları gözlemliyorum.
+v|bemerken|er bemerkt · hat bemerkt|fark etmek|Hast du das bemerkt?|Bunu fark ettin mi?
+v|erkennen|er erkennt · hat erkannt|tanımak, fark etmek|Ich habe dich nicht erkannt.|Seni tanıyamadım.
+v|riechen|er riecht · hat gerochen|koklamak; kokmak|Das riecht gut!|Bu güzel kokuyor!
+v|fühlen|er fühlt · hat gefühlt|hissetmek|Ich fühle die Sonne.|Güneşi hissediyorum.
+v|berühren|er berührt · hat berührt|dokunmak|Bitte nicht berühren!|Lütfen dokunmayın!
+v|anfassen|er fasst an · hat angefasst|dokunmak, ellemek|Fass das nicht an, es ist heiß!|Ona dokunma, sıcak!
+v|halten|er hält · hat gehalten|tutmak; durmak|Der Bus hält hier.|Otobüs burada duruyor.
+v|anhalten|er hält an · hat angehalten|durdurmak, durmak|Bitte halten Sie hier an.|Lütfen burada durun.
+v|stoppen|er stoppt · hat gestoppt|durdurmak|Die Polizei stoppt das Auto.|Polis arabayı durduruyor.
+v|abbiegen|er biegt ab · ist abgebogen|dönmek (yönde)|Biegen Sie links ab.|Sola dönün.
+v|überqueren|er überquert · hat überquert|karşıdan karşıya geçmek|Wir überqueren die Straße.|Caddeyi geçiyoruz.
+v|folgen|er folgt · ist gefolgt|takip etmek|Folgen Sie mir bitte.|Lütfen beni takip edin.
+v|führen|er führt · hat geführt|götürmek, yönetmek|Die Straße führt zum Bahnhof.|Yol istasyona çıkıyor.
+v|erreichen|er erreicht · hat erreicht|ulaşmak|Ich habe den Zug noch erreicht.|Trene yetiştim.
+v|verpassen|er verpasst · hat verpasst|kaçırmak|Ich habe den Bus verpasst.|Otobüsü kaçırdım.
+v|buchen|er bucht · hat gebucht|rezervasyon yapmak|Ich buche ein Hotel.|Bir otel ayırtıyorum.
+v|reservieren|er reserviert · hat reserviert|rezerve etmek|Ich möchte einen Tisch reservieren.|Bir masa ayırtmak istiyorum.
+v|übernachten|er übernachtet · hat übernachtet|geceyi geçirmek|Wir übernachten in einem Hotel.|Bir otelde geceliyoruz.
+v|landen|er landet · ist gelandet|iniş yapmak|Das Flugzeug landet um zehn.|Uçak onda iniyor.
+v|starten|er startet · ist gestartet|kalkmak; başlamak|Das Flugzeug startet pünktlich.|Uçak zamanında kalkıyor.
+v|zurückkommen|er kommt zurück · ist zurückgekommen|geri gelmek|Wann kommst du zurück?|Ne zaman geri geliyorsun?
+v|zurückgeben|er gibt zurück · hat zurückgegeben|geri vermek|Ich gebe dir das Buch morgen zurück.|Kitabı sana yarın geri veririm.
+v|weggehen|er geht weg · ist weggegangen|uzaklaşmak, gitmek|Geh nicht weg!|Gitme!
+v|losgehen|er geht los · ist losgegangen|yola çıkmak|Wann gehen wir los?|Ne zaman yola çıkıyoruz?
+v|losfahren|er fährt los · ist losgefahren|hareket etmek (araçla)|Wir fahren um acht los.|Sekizde yola çıkıyoruz.
+v|vorbeikommen|er kommt vorbei · ist vorbeigekommen|uğramak|Komm doch morgen vorbei!|Yarın bir uğrasana!
+v|hereinkommen|er kommt herein · ist hereingekommen|içeri girmek|Kommen Sie bitte herein!|Lütfen içeri girin!
+v|betreten|er betritt · hat betreten|girmek (bir yere)|Betreten verboten!|Girmek yasak!
+v|verlassen|er verlässt · hat verlassen|terk etmek, çıkmak|Er verlässt das Haus um sieben.|Evden yedide çıkıyor.
+v|wechseln|er wechselt · hat gewechselt|değiştirmek, bozdurmak|Können Sie zehn Euro wechseln?|On euro bozabilir misiniz?
+v|ändern|er ändert · hat geändert|değiştirmek|Ich möchte den Termin ändern.|Randevuyu değiştirmek istiyorum.
+v|absagen|er sagt ab · hat abgesagt|iptal etmek|Ich muss den Termin absagen.|Randevuyu iptal etmem gerek.
+v|verschieben|er verschiebt · hat verschoben|ertelemek|Wir verschieben das Treffen auf Freitag.|Buluşmayı cumaya erteliyoruz.
+v|vereinbaren|er vereinbart · hat vereinbart|kararlaştırmak|Wir vereinbaren einen Termin.|Bir randevu kararlaştırıyoruz.
+v|planen|er plant · hat geplant|planlamak|Wir planen eine Reise.|Bir seyahat planlıyoruz.
+v|organisieren|er organisiert · hat organisiert|organize etmek|Wer organisiert die Party?|Partiyi kim organize ediyor?
+v|vorbereiten|er bereitet vor · hat vorbereitet|hazırlamak|Ich bereite das Essen vor.|Yemeği hazırlıyorum.
+v|sich vorbereiten|er bereitet sich vor · hat sich vorbereitet|hazırlanmak|Ich bereite mich auf die Prüfung vor.|Sınava hazırlanıyorum.
+v|teilnehmen|er nimmt teil · hat teilgenommen|katılmak|Ich nehme am Kurs teil.|Kursa katılıyorum.
+v|mitmachen|er macht mit · hat mitgemacht|katılmak|Machst du mit?|Sen de katılıyor musun?
+v|anmelden|er meldet an · hat angemeldet|kaydettirmek|Ich melde mein Kind in der Schule an.|Çocuğumu okula kaydettiriyorum.
+v|abmelden|er meldet ab · hat abgemeldet|kaydını sildirmek|Ich melde mich vom Kurs ab.|Kurstan kaydımı sildiriyorum.
+v|kündigen|er kündigt · hat gekündigt|istifa etmek; feshetmek|Er hat seine Arbeit gekündigt.|İşinden istifa etti.
+v|bewerben|er bewirbt · hat beworben|başvurmak|-|-
+v|einstellen|er stellt ein · hat eingestellt|işe almak; ayarlamak|Die Firma stellt neue Mitarbeiter ein.|Firma yeni çalışanlar alıyor.
+v|leiten|er leitet · hat geleitet|yönetmek|Sie leitet die Abteilung.|Bölümü yönetiyor.
+v|entscheiden|er entscheidet · hat entschieden|karar vermek|Ich kann mich nicht entscheiden.|Karar veremiyorum.
+v|beschließen|er beschließt · hat beschlossen|karar almak|Wir haben beschlossen, nach Berlin zu ziehen.|Berlin'e taşınmaya karar verdik.
+v|versuchen|er versucht · hat versucht|denemek|Ich versuche es noch einmal.|Bir kez daha deniyorum.
+v|schaffen|er schafft · hat geschafft|başarmak|Du schaffst das!|Sen bunu başarırsın!
+v|gelingen|es gelingt · ist gelungen|başarılı olmak|Der Kuchen ist gut gelungen.|Kek güzel oldu.
+v|helfen|er hilft · hat geholfen|yardım etmek|-|-
+v|unterstützen|er unterstützt · hat unterstützt|desteklemek|Meine Eltern unterstützen mich.|Annem babam beni destekliyor.
+v|retten|er rettet · hat gerettet|kurtarmak|Der Arzt hat ihn gerettet.|Doktor onu kurtardı.
+v|schützen|er schützt · hat geschützt|korumak|Die Jacke schützt vor Regen.|Ceket yağmurdan korur.
+v|aufpassen|er passt auf · hat aufgepasst|dikkat etmek; göz kulak olmak|Pass auf, das Auto!|Dikkat et, araba!
+v|achten|er achtet · hat geachtet|dikkat etmek|Achten Sie auf die Stufe.|Basamağa dikkat edin.
+v|warnen|er warnt · hat gewarnt|uyarmak|Ich warne dich!|Seni uyarıyorum!
+v|stehlen|er stiehlt · hat gestohlen|çalmak (hırsızlık)|Jemand hat mein Handy gestohlen.|Biri telefonumu çaldı.
+v|verletzen|er verletzt · hat verletzt|yaralamak|Ich habe mich am Fuß verletzt.|Ayağımı yaraladım.
+v|bluten|er blutet · hat geblutet|kanamak|Der Finger blutet.|Parmak kanıyor.
+v|husten|er hustet · hat gehustet|öksürmek|Das Kind hustet die ganze Nacht.|Çocuk bütün gece öksürüyor.
+v|niesen|er niest · hat geniest|hapşırmak|Gesundheit! Du hast geniest.|Çok yaşa! Hapşırdın.
+v|weinen|er weint · hat geweint|ağlamak|Das Baby weint.|Bebek ağlıyor.
+v|lächeln|er lächelt · hat gelächelt|gülümsemek|Sie lächelt immer.|Hep gülümser.
+v|hoffen|er hofft · hat gehofft|ummak|Ich hoffe, du kommst.|Umarım gelirsin.
+v|fürchten|er fürchtet · hat gefürchtet|korkmak|Ich fürchte, es regnet morgen.|Korkarım yarın yağmur yağacak.
+v|vermissen|er vermisst · hat vermisst|özlemek|Ich vermisse dich.|Seni özlüyorum.
+v|hassen|er hasst · hat gehasst|nefret etmek|Ich hasse Montage.|Pazartesilerden nefret ederim.
+v|genießen|er genießt · hat genossen|tadını çıkarmak|Wir genießen die Sonne.|Güneşin tadını çıkarıyoruz.
+v|lieben|er liebt · hat geliebt|sevmek|-|-
+v|küssen|er küsst · hat geküsst|öpmek|Er küsst seine Frau.|Karısını öpüyor.
+v|umarmen|er umarmt · hat umarmt|sarılmak|Sie umarmt ihre Mutter.|Annesine sarılıyor.
+v|besitzen|er besitzt · hat besessen|sahip olmak|Er besitzt zwei Autos.|İki arabası var.
+v|enthalten|er enthält · hat enthalten|içermek|Der Preis enthält das Frühstück.|Fiyata kahvaltı dahil.
+v|fehlen|er fehlt · hat gefehlt|eksik olmak|Wer fehlt heute?|Bugün kim yok?
+v|reichen|er reicht · hat gereicht|yetmek; uzatmak|Das Geld reicht nicht.|Para yetmiyor.
+v|brauchen|er braucht · hat gebraucht|ihtiyacı olmak|-|-
+v|benötigen|er benötigt · hat benötigt|gerek duymak|Wir benötigen Ihre Unterschrift.|İmzanıza ihtiyacımız var.
+v|bekommen|er bekommt · hat bekommen|almak (elde etmek)|-|-
+v|erhalten|er erhält · hat erhalten|almak (resmî)|Sie erhalten die Antwort per Post.|Cevabı posta ile alacaksınız.
+v|senden|er sendet · hat gesendet|göndermek|Ich sende dir die Fotos.|Fotoğrafları sana gönderiyorum.
+v|zuschicken|er schickt zu · hat zugeschickt|göndermek (birine)|Wir schicken Ihnen die Rechnung zu.|Faturayı size gönderiyoruz.
+v|abschicken|er schickt ab · hat abgeschickt|yollamak|Hast du den Brief abgeschickt?|Mektubu yolladın mı?
+v|ausmachen|er macht aus · hat ausgemacht|kapatmak|-|-
+v|klingeln|er klingelt · hat geklingelt|çalmak (zil)|Das Telefon klingelt.|Telefon çalıyor.
+v|klopfen|er klopft · hat geklopft|kapıyı çalmak|Jemand klopft an die Tür.|Biri kapıyı çalıyor.
+v|zuhören|er hört zu · hat zugehört|dinlemek (dikkatle)|Hör mir bitte zu!|Lütfen beni dinle!
+v|aufschreiben|er schreibt auf · hat aufgeschrieben|not etmek|Ich schreibe die Nummer auf.|Numarayı not ediyorum.
+v|notieren|er notiert · hat notiert|not almak|Bitte notieren Sie die Adresse.|Lütfen adresi not alın.
+v|markieren|er markiert · hat markiert|işaretlemek|Markieren Sie die richtige Antwort.|Doğru cevabı işaretleyin.
+v|ergänzen|er ergänzt · hat ergänzt|tamamlamak|Ergänzen Sie die Sätze.|Cümleleri tamamlayın.
+v|zuordnen|er ordnet zu · hat zugeordnet|eşleştirmek|Ordnen Sie die Bilder zu.|Resimleri eşleştirin.
+v|vergleichen|er vergleicht · hat verglichen|karşılaştırmak|Vergleichen Sie die Preise.|Fiyatları karşılaştırın.
+v|zählen|er zählt · hat gezählt|saymak|Das Kind zählt bis zehn.|Çocuk ona kadar sayıyor.
+v|rechnen|er rechnet · hat gerechnet|hesap yapmak|Ich rechne die Kosten aus.|Masrafları hesaplıyorum.
+v|messen|er misst · hat gemessen|ölçmek|Der Arzt misst das Fieber.|Doktor ateşi ölçüyor.
+v|wiegen|er wiegt · hat gewogen|tartmak; ağırlığında olmak|Das Paket wiegt zwei Kilo.|Koli iki kilo geliyor.
+v|wählen|er wählt · hat gewählt|seçmek; numara çevirmek|-|-
+v|aussuchen|er sucht aus · hat ausgesucht|seçmek|Such dir ein Eis aus!|Kendine bir dondurma seç!
+v|sammeln|er sammelt · hat gesammelt|toplamak, biriktirmek|Mein Sohn sammelt Briefmarken.|Oğlum pul biriktiriyor.
+v|teilen|er teilt · hat geteilt|paylaşmak, bölmek|Wir teilen die Pizza.|Pizzayı paylaşıyoruz.
+v|mischen|er mischt · hat gemischt|karıştırmak|Mischen Sie Mehl und Zucker.|Unu ve şekeri karıştırın.
+v|verbinden|er verbindet · hat verbunden|bağlamak|Ich verbinde Sie mit dem Chef.|Sizi şefe bağlıyorum.
+v|trennen|er trennt · hat getrennt|ayırmak|Wir trennen den Müll.|Çöpü ayırıyoruz.
+v|schmecken|er schmeckt · hat geschmeckt|tadı olmak|-|-
+v|frieren|er friert · hat gefroren|üşümek; donmak|Ich friere, mach das Fenster zu.|Üşüyorum, pencereyi kapat.
+v|schwitzen|er schwitzt · hat geschwitzt|terlemek|Im Sommer schwitze ich viel.|Yazın çok terlerim.
+v|brennen|er brennt · hat gebrannt|yanmak|Das Licht brennt noch.|Işık hâlâ yanıyor.
+v|scheinen|er scheint · hat geschienen|parlamak; görünmek|-|-
+v|blühen|er blüht · hat geblüht|çiçek açmak|Im Frühling blühen die Bäume.|İlkbaharda ağaçlar çiçek açar.
+v|funktionieren|er funktioniert · hat funktioniert|çalışmak (cihaz)|Die Heizung funktioniert nicht.|Kalorifer çalışmıyor.
+v|klappen|es klappt · hat geklappt|yolunda gitmek|Hat alles geklappt?|Her şey yolunda gitti mi?
+v|gehen|er geht · ist gegangen|gitmek; olmak (iyi gitmek)|-|-
+v|kosten|er kostet · hat gekostet|tutmak (fiyat)|-|-
+v|gelten|er gilt · hat gegolten|geçerli olmak|Das Ticket gilt einen Tag.|Bilet bir gün geçerli.
+v|aussehen|er sieht aus · hat ausgesehen|görünmek|Du siehst müde aus.|Yorgun görünüyorsun.
+v|klingen|er klingt · hat geklungen|kulağa gelmek|Das klingt gut!|Kulağa hoş geliyor!
+v|scheitern|er scheitert · ist gescheitert|başarısız olmak|Der Plan ist gescheitert.|Plan suya düştü.
+v|passen|er passt · hat gepasst|uymak, olmak|-|-
+v|gratulieren|er gratuliert · hat gratuliert|tebrik etmek|Ich gratuliere dir zum Geburtstag!|Doğum gününü kutlarım!
+v|feiern|er feiert · hat gefeiert|kutlamak|-|-
+v|einkaufen|er kauft ein · hat eingekauft|alışveriş yapmak|-|-
+v|bedienen|er bedient · hat bedient|hizmet etmek; kullanmak|Werden Sie schon bedient?|Size bakılıyor mu?
+v|bezahlen|er bezahlt · hat bezahlt|ödemek|-|-
+v|überweisen|er überweist · hat überwiesen|havale etmek|Ich überweise das Geld morgen.|Parayı yarın havale ediyorum.
+v|abheben|er hebt ab · hat abgehoben|(para) çekmek|Ich hebe Geld am Automaten ab.|ATM'den para çekiyorum.
+v|verdienen|er verdient · hat verdient|kazanmak (para)|-|-
+v|mitteilen|er teilt mit · hat mitgeteilt|bildirmek|Bitte teilen Sie uns Ihre Adresse mit.|Lütfen bize adresinizi bildirin.
+v|informieren|er informiert · hat informiert|bilgilendirmek|Wir informieren Sie per E-Mail.|Sizi e-postayla bilgilendiriyoruz.
+v|erklären|er erklärt · hat erklärt|açıklamak|-|-
+v|zeigen|er zeigt · hat gezeigt|göstermek|-|-
+v|abgeben|er gibt ab · hat abgegeben|teslim etmek|Geben Sie den Test bitte ab.|Lütfen sınavı teslim edin.
+v|ausleihen|er leiht aus · hat ausgeliehen|ödünç almak|Ich leihe mir ein Buch aus.|Bir kitap ödünç alıyorum.
+v|benutzen|er benutzt · hat benutzt|kullanmak|-|-
+v|verwenden|er verwendet · hat verwendet|kullanmak|Verwenden Sie einen Kuli.|Tükenmez kalem kullanın.
+v|brechen|er bricht · hat gebrochen|kırmak|Er hat sich das Bein gebrochen.|Bacağını kırdı.
+v|kaputtmachen|er macht kaputt · hat kaputtgemacht|bozmak, kırmak|Wer hat die Vase kaputtgemacht?|Vazoyu kim kırdı?
+v|aufmachen|er macht auf · hat aufgemacht|açmak|-|-
+v|abschließen|er schließt ab · hat abgeschlossen|kilitlemek; bitirmek|Hast du die Tür abgeschlossen?|Kapıyı kilitledin mi?
+v|klauen|er klaut · hat geklaut|çalmak (konuşma dili)|Mein Fahrrad wurde geklaut.|Bisikletim çalındı.
+v|regnen|es regnet · hat geregnet|yağmur yağmak|-|-
+v|donnern|es donnert · hat gedonnert|gök gürlemek|Es blitzt und donnert.|Şimşek çakıyor ve gök gürlüyor.
+v|blitzen|es blitzt · hat geblitzt|şimşek çakmak|Draußen blitzt es.|Dışarıda şimşek çakıyor.
+v|tanken|er tankt · hat getankt|benzin almak|Ich muss noch tanken.|Benzin almam lazım.
+v|parken|er parkt · hat geparkt|park etmek|-|-
+v|reparieren|er repariert · hat repariert|tamir etmek|-|-
+v|putzen|er putzt · hat geputzt|temizlemek|-|-
+v|rauchen|er raucht · hat geraucht|sigara içmek|-|-
+v|wohnen|er wohnt · hat gewohnt|oturmak, ikamet etmek|-|-
+v|bleiben|er bleibt · ist geblieben|kalmak|-|-
+v|passieren|es passiert · ist passiert|olmak (olay)|-|-
+v|geschehen|es geschieht · ist geschehen|olmak, meydana gelmek|Was ist geschehen?|Ne oldu?
+v|stattfinden|es findet statt · hat stattgefunden|gerçekleşmek|Das Konzert findet im Park statt.|Konser parkta yapılıyor.
+v|dauern|es dauert · hat gedauert|sürmek|-|-
+v|enden|es endet · hat geendet|bitmek|Der Film endet um zehn.|Film onda bitiyor.
+v|aufhören|er hört auf · hat aufgehört|bırakmak, durmak|-|-
+v|weitermachen|er macht weiter · hat weitergemacht|devam etmek|Mach weiter so!|Böyle devam et!
+v|fortsetzen|er setzt fort · hat fortgesetzt|sürdürmek|Wir setzen den Kurs im Januar fort.|Kursa ocakta devam ediyoruz.
+v|öffnen|er öffnet · hat geöffnet|açmak|-|-
+v|schließen|er schließt · hat geschlossen|kapatmak|-|-
+v|bemühen|er bemüht sich · hat sich bemüht|çabalamak|Ich bemühe mich sehr.|Çok çabalıyorum.
+v|gewöhnen|er gewöhnt sich · hat sich gewöhnt|alışmak|Ich gewöhne mich an das Wetter.|Havaya alışıyorum.
+v|verabreden|er verabredet sich · hat sich verabredet|sözleşmek (buluşmak için)|Ich habe mich mit Anna verabredet.|Anna ile sözleştim.
+v|einladen|er lädt ein · hat eingeladen|davet etmek|-|-
+v|abholen|er holt ab · hat abgeholt|almak (gidip)|-|-
+v|begleiten|er begleitet · hat begleitet|eşlik etmek|Ich begleite dich zum Bahnhof.|Sana istasyona kadar eşlik ediyorum.
+v|mitbringen|er bringt mit · hat mitgebracht|yanında getirmek|-|-
+v|schenken|er schenkt · hat geschenkt|hediye etmek|-|-
+v|erleben|er erlebt · hat erlebt|yaşamak (deneyim)|Wir haben viel erlebt.|Çok şey yaşadık.
+v|entdecken|er entdeckt · hat entdeckt|keşfetmek|Wir entdecken die Stadt.|Şehri keşfediyoruz.
+v|besichtigen|er besichtigt · hat besichtigt|gezmek (görmek)|Wir besichtigen das Schloss.|Sarayı geziyoruz.
+v|erfahren|er erfährt · hat erfahren|öğrenmek (haber)|Ich habe es gestern erfahren.|Bunu dün öğrendim.
+v|vermuten|er vermutet · hat vermutet|tahmin etmek|Ich vermute, er kommt später.|Sanırım daha geç gelecek.
+v|glauben|er glaubt · hat geglaubt|inanmak, sanmak|-|-
+v|zweifeln|er zweifelt · hat gezweifelt|şüphe etmek|Ich zweifle daran.|Bundan şüpheliyim.
+v|bestätigen|er bestätigt · hat bestätigt|onaylamak|Bitte bestätigen Sie den Termin.|Lütfen randevuyu onaylayın.
+v|akzeptieren|er akzeptiert · hat akzeptiert|kabul etmek|Wir akzeptieren keine Kreditkarten.|Kredi kartı kabul etmiyoruz.
+v|ablehnen|er lehnt ab · hat abgelehnt|reddetmek|Er hat das Angebot abgelehnt.|Teklifi reddetti.
+v|annehmen|er nimmt an · hat angenommen|kabul etmek; varsaymak|Ich nehme die Stelle an.|Pozisyonu kabul ediyorum.
+v|erwarten|er erwartet · hat erwartet|beklemek (ummak)|Wir erwarten Gäste.|Misafir bekliyoruz.
+v|erledigen|er erledigt · hat erledigt|halletmek|Ich muss noch etwas erledigen.|Halletmem gereken bir şey var.
+v|kontrollieren|er kontrolliert · hat kontrolliert|kontrol etmek|-|-
+v|melden|er meldet · hat gemeldet|bildirmek|Melden Sie den Unfall der Polizei.|Kazayı polise bildirin.
+v|sich melden|er meldet sich · hat sich gemeldet|haber vermek, ses vermek|Melde dich, wenn du da bist!|Geldiğinde haber ver!
+v|sich beschweren|er beschwert sich · hat sich beschwert|şikâyet etmek|Ich beschwere mich über den Lärm.|Gürültüden şikâyet ediyorum.
+v|kritisieren|er kritisiert · hat kritisiert|eleştirmek|Er kritisiert immer alles.|Her şeyi eleştirir.
+v|loben|er lobt · hat gelobt|övmek|Die Lehrerin lobt den Schüler.|Öğretmen öğrenciyi övüyor.
+v|ausruhen|er ruht aus · hat ausgeruht|dinlenmek|-|-
+v|spazieren|er spaziert · ist spaziert|gezinmek|Wir spazieren durch den Park.|Parkta geziniyoruz.
+v|wandern|er wandert · ist gewandert|doğa yürüyüşü yapmak|-|-
+v|baden|er badet · hat gebadet|banyo yapmak; denize girmek|Die Kinder baden im See.|Çocuklar gölde yüzüyor.
+v|sonnen|er sonnt sich · hat sich gesonnt|güneşlenmek|Wir sonnen uns am Strand.|Plajda güneşleniyoruz.
+v|campen|er campt · hat gecampt|kamp yapmak|Im Sommer campen wir.|Yazın kamp yaparız.
+v|grillen|er grillt · hat gegrillt|mangal yapmak|Am Wochenende grillen wir.|Hafta sonu mangal yapıyoruz.
+v|stricken|er strickt · hat gestrickt|örgü örmek|Oma strickt einen Pullover.|Nine bir kazak örüyor.
+v|nähen|er näht · hat genäht|dikmek|Meine Mutter näht ein Kleid.|Annem bir elbise dikiyor.
+v|üben|er übt · hat geübt|alıştırma yapmak|-|-
+v|tun|er tut · hat getan|yapmak|-|-
+v|lassen|er lässt · hat gelassen|bırakmak; yaptırmak|Lass mich in Ruhe!|Beni rahat bırak!
+v|kriegen|er kriegt · hat gekriegt|almak (konuşma dili)|Ich kriege eine Erkältung.|Soğuk algınlığı oluyorum.
+v|nennen|er nennt · hat genannt|adlandırmak|Wir nennen ihn Max.|Ona Max diyoruz.
+v|bilden|er bildet · hat gebildet|oluşturmak|Bilden Sie Sätze.|Cümleler kurun.
+v|entwickeln|er entwickelt · hat entwickelt|geliştirmek|Die Firma entwickelt eine neue App.|Firma yeni bir uygulama geliştiriyor.
+v|produzieren|er produziert · hat produziert|üretmek|Die Fabrik produziert Autos.|Fabrika araba üretiyor.
+v|herstellen|er stellt her · hat hergestellt|üretmek|Hier stellt man Schokolade her.|Burada çikolata üretiliyor.
+v|steigen|er steigt · ist gestiegen|artmak|-|-
+v|sinken|er sinkt · ist gesunken|düşmek, azalmak|Die Preise sinken.|Fiyatlar düşüyor.
+v|zunehmen|er nimmt zu · hat zugenommen|kilo almak; artmak|Ich habe zwei Kilo zugenommen.|İki kilo aldım.
+v|abnehmen|er nimmt ab · hat abgenommen|kilo vermek; (telefon) açmak|Ich möchte fünf Kilo abnehmen.|Beş kilo vermek istiyorum.
+v|wecken|er weckt · hat geweckt|uyandırmak|-|-
+v|anbieten|er bietet an · hat angeboten|sunmak, ikram etmek|Darf ich Ihnen etwas anbieten?|Size bir şey ikram edebilir miyim?
+v|bieten|er bietet · hat geboten|sunmak|Die Stadt bietet viel.|Şehir çok şey sunuyor.
+v|suchen|er sucht · hat gesucht|aramak|-|-
+v|beginnen|er beginnt · hat begonnen|başlamak|-|-

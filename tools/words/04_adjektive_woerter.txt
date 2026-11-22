@@ -1,0 +1,332 @@
+# type|word||Türkçe|Beispielsatz|Türkçesi
+w|stark||güçlü|Er ist sehr stark.|O çok güçlü.
+w|schwach||zayıf, güçsüz|Nach der Grippe bin ich noch schwach.|Gripten sonra hâlâ halsizim.
+w|dick||şişman; kalın|Das Buch ist sehr dick.|Kitap çok kalın.
+w|dünn||ince; zayıf|Die Wand ist sehr dünn.|Duvar çok ince.
+w|schlank||ince, zayıf (vücut)|Sie ist groß und schlank.|Uzun ve ince.
+w|hübsch||güzel, hoş|Das Kleid ist hübsch.|Elbise hoş.
+w|hässlich||çirkin|Das Bild finde ich hässlich.|Resmi çirkin buluyorum.
+w|weich||yumuşak|Das Bett ist schön weich.|Yatak güzel yumuşak.
+w|hart||sert|Das Brot ist hart.|Ekmek sert.
+w|nass||ıslak|Meine Schuhe sind nass.|Ayakkabılarım ıslak.
+w|trocken||kuru|Die Wäsche ist trocken.|Çamaşırlar kuru.
+w|kühl||serin|Am Abend ist es kühl.|Akşam hava serin.
+w|frisch||taze; serin|-|-
+w|sauer||ekşi; kızgın|Die Zitrone ist sauer.|Limon ekşi.
+w|bitter||acı (tat)|Der Kaffee ist bitter.|Kahve acı.
+w|salzig||tuzlu|Die Suppe ist zu salzig.|Çorba fazla tuzlu.
+w|scharf||acı (baharatlı); keskin|Das Essen ist sehr scharf.|Yemek çok acı.
+w|roh||çiğ|Das Fleisch ist noch roh.|Et hâlâ çiğ.
+w|reif||olgun|Die Bananen sind reif.|Muzlar olgun.
+w|tief||derin|Der See ist sehr tief.|Göl çok derin.
+w|niedrig||alçak, düşük|Die Preise sind niedrig.|Fiyatlar düşük.
+w|breit||geniş|Die Straße ist breit.|Cadde geniş.
+w|eng||dar|Die Hose ist zu eng.|Pantolon çok dar.
+w|weit||uzak; bol|-|-
+w|nah||yakın|-|-
+w|lang||uzun|-|-
+w|rund||yuvarlak|Der Tisch ist rund.|Masa yuvarlak.
+w|eckig||köşeli|Das Fenster ist eckig.|Pencere köşeli.
+w|bunt||renkli|Die Blumen sind bunt.|Çiçekler rengârenk.
+w|rosa||pembe|Sie trägt ein rosa Kleid.|Pembe bir elbise giyiyor.
+w|lila||mor|Meine Lieblingsfarbe ist Lila.|En sevdiğim renk mor.
+w|orange||turuncu|Die Jacke ist orange.|Ceket turuncu.
+w|hellblau||açık mavi|Das Hemd ist hellblau.|Gömlek açık mavi.
+w|dunkelgrün||koyu yeşil|Das Auto ist dunkelgrün.|Araba koyu yeşil.
+w|golden||altın renkli|Die Uhr ist golden.|Saat altın renkli.
+w|silbern||gümüş renkli|Sie hat ein silbernes Handy.|Gümüş renkli bir telefonu var.
+w|alt||yaşlı, eski|-|-
+w|jung||genç|-|-
+w|neu||yeni|-|-
+w|modern||modern|-|-
+w|altmodisch||demode|Der Mantel ist altmodisch.|Palto demode.
+w|berühmt||ünlü|Er ist ein berühmter Sänger.|O ünlü bir şarkıcı.
+w|bekannt||tanınmış|Der Dom ist sehr bekannt.|Katedral çok tanınmış.
+w|fremd||yabancı|Ich bin fremd hier.|Buranın yabancısıyım.
+w|eigen||kendi, öz|Ich habe ein eigenes Zimmer.|Kendi odam var.
+w|privat||özel|Das ist privat.|Bu özel.
+w|öffentlich||kamuya açık|Öffentliche Verkehrsmittel sind praktisch.|Toplu taşıma pratik.
+w|praktisch||pratik|Die Tasche ist sehr praktisch.|Çanta çok pratik.
+w|nützlich||yararlı|Das Wörterbuch ist sehr nützlich.|Sözlük çok yararlı.
+w|nötig||gerekli|Das ist nicht nötig.|Buna gerek yok.
+w|notwendig||zorunlu, gerekli|Eine Anmeldung ist notwendig.|Kayıt gerekli.
+w|richtig||doğru|-|-
+w|falsch||yanlış|-|-
+w|klar||açık, net|Alles klar!|Her şey tamam!
+w|deutlich||açık, belirgin|Sprechen Sie bitte deutlich.|Lütfen açık konuşun.
+w|leise||sessiz, alçak sesle|Bitte sprich leise.|Lütfen sessiz konuş.
+w|ruhig||sakin|-|-
+w|gefährlich||tehlikeli|Der Weg ist gefährlich.|Yol tehlikeli.
+w|sicher||güvenli; emin|-|-
+w|vorsichtig||dikkatli|Fahr vorsichtig!|Dikkatli sür!
+w|gesund||sağlıklı|-|-
+w|schlimm||kötü, vahim|Das ist nicht so schlimm.|O kadar kötü değil.
+w|fit||formda|Ich bin heute nicht fit.|Bugün formda değilim.
+w|wach||uyanık|Bist du schon wach?|Uyandın mı?
+w|hungrig||aç|Die Kinder sind hungrig.|Çocuklar aç.
+w|durstig||susamış|Ich bin durstig.|Susadım.
+w|krank||hasta|-|-
+w|verletzt||yaralı|Er ist am Bein verletzt.|Bacağından yaralı.
+w|schwanger||hamile|Sie ist im fünften Monat schwanger.|Beş aylık hamile.
+w|tot||ölü|Der Vogel ist tot.|Kuş ölü.
+w|lebendig||canlı|Der Fisch ist noch lebendig.|Balık hâlâ canlı.
+w|froh||memnun, sevinçli|Ich bin froh, dass du da bist.|Burada olduğuna sevindim.
+w|zufrieden||memnun|Ich bin mit dem Hotel zufrieden.|Otelden memnunum.
+w|unzufrieden||memnuniyetsiz|Der Kunde ist unzufrieden.|Müşteri memnun değil.
+w|böse||kötü; kızgın|Bist du mir böse?|Bana kızgın mısın?
+w|wütend||öfkeli|Er ist sehr wütend.|Çok öfkeli.
+w|nervös||gergin|Vor der Prüfung bin ich nervös.|Sınavdan önce gerginim.
+w|aufgeregt||heyecanlı|Die Kinder sind aufgeregt.|Çocuklar heyecanlı.
+w|überrascht||şaşırmış|Ich bin sehr überrascht.|Çok şaşırdım.
+w|enttäuscht||hayal kırıklığına uğramış|Ich bin enttäuscht.|Hayal kırıklığına uğradım.
+w|einsam||yalnız|Er fühlt sich einsam.|Kendini yalnız hissediyor.
+w|verliebt||âşık|Sie ist verliebt.|O âşık.
+w|stolz||gururlu|Ich bin stolz auf dich.|Seninle gurur duyuyorum.
+w|ehrlich||dürüst|Sei ehrlich!|Dürüst ol!
+w|höflich||kibar|Er ist immer höflich.|Her zaman kibar.
+w|unhöflich||kaba|Das war unhöflich.|Bu kabaydı.
+w|lieb||sevimli, iyi kalpli|Das ist lieb von dir.|Bu çok naziksin.
+w|sympathisch||sempatik|Der neue Kollege ist sympathisch.|Yeni iş arkadaşı sempatik.
+w|komisch||tuhaf; komik|Das ist komisch.|Bu tuhaf.
+w|witzig||esprili|Der Film ist witzig.|Film komik.
+w|fleißig||çalışkan|Sie ist eine fleißige Schülerin.|Çalışkan bir öğrenci.
+w|faul||tembel|Heute bin ich faul.|Bugün tembelim.
+w|klug||akıllı|Das Kind ist sehr klug.|Çocuk çok akıllı.
+w|dumm||aptal|Das war eine dumme Idee.|Bu aptalca bir fikirdi.
+w|intelligent||zeki|Sie ist sehr intelligent.|Çok zeki.
+w|geduldig||sabırlı|Bitte sei geduldig.|Lütfen sabırlı ol.
+w|ungeduldig||sabırsız|Er ist oft ungeduldig.|Sık sık sabırsızdır.
+w|pünktlich||dakik|-|-
+w|zuverlässig||güvenilir|Er ist sehr zuverlässig.|Çok güvenilir biridir.
+w|hilfsbereit||yardımsever|Meine Nachbarin ist hilfsbereit.|Komşum yardımseverdir.
+w|ordentlich||düzenli|Sein Zimmer ist ordentlich.|Odası düzenli.
+w|kreativ||yaratıcı|Sie ist sehr kreativ.|Çok yaratıcı.
+w|ernst||ciddi|Das ist ein ernstes Problem.|Bu ciddi bir sorun.
+w|gemütlich||rahat, samimi|Das Café ist gemütlich.|Kafe çok rahat.
+w|schick||şık|Du siehst schick aus.|Şık görünüyorsun.
+w|elegant||zarif|Das Kleid ist elegant.|Elbise zarif.
+w|bequem||rahat|-|-
+w|teuer||pahalı|-|-
+w|günstig||uygun (fiyat)|Das Hotel ist günstig.|Otel uygun fiyatlı.
+w|kostenlos||ücretsiz|Der Eintritt ist kostenlos.|Giriş ücretsiz.
+w|reich||zengin|Er ist sehr reich.|Çok zengin.
+w|arm||fakir|Die Familie ist arm.|Aile fakir.
+w|fertig||hazır; bitmiş|-|-
+w|bereit||hazır|Bist du bereit?|Hazır mısın?
+w|beschäftigt||meşgul|Ich bin heute sehr beschäftigt.|Bugün çok meşgulüm.
+w|erlaubt||izinli|Hunde sind hier erlaubt.|Burada köpeklere izin var.
+w|verboten||yasak|Rauchen ist verboten.|Sigara içmek yasak.
+w|geöffnet||açık|-|-
+w|zu||kapalı|Die Tür ist zu.|Kapı kapalı.
+w|auf||açık (konuşma dili)|Das Fenster ist auf.|Pencere açık.
+w|kaputt||bozuk|-|-
+w|aktuell||güncel|Das ist die aktuelle Liste.|Bu güncel liste.
+w|letzte||son; geçen|Letzte Woche war ich krank.|Geçen hafta hastaydım.
+w|nächste||gelecek; en yakın|Nächste Woche habe ich Urlaub.|Gelecek hafta iznim var.
+w|vorige||önceki|Im vorigen Jahr war ich in Rom.|Geçen yıl Roma'daydım.
+w|ganze||bütün|Ich habe den ganzen Tag gearbeitet.|Bütün gün çalıştım.
+w|halbe||yarım|Ich warte eine halbe Stunde.|Yarım saat bekliyorum.
+w|einzige||tek|Das ist meine einzige Chance.|Bu benim tek şansım.
+w|verschieden||farklı|Wir haben verschiedene Meinungen.|Farklı fikirlerimiz var.
+w|ähnlich||benzer|Die Schwestern sind sich ähnlich.|Kız kardeşler birbirine benziyor.
+w|gleich||aynı; hemen|-|-
+w|normal||normal|Das ist ganz normal.|Bu çok normal.
+w|typisch||tipik|Das ist typisch deutsch.|Bu tipik Alman işi.
+w|besonders||özellikle; özel|Das Essen ist besonders gut.|Yemek özellikle iyi.
+w|wunderbar||harika|Das Wetter ist wunderbar.|Hava harika.
+w|fantastisch||muhteşem|Der Urlaub war fantastisch.|Tatil muhteşemdi.
+w|furchtbar||korkunç|Das Wetter ist furchtbar.|Hava berbat.
+w|schrecklich||korkunç|Das war ein schrecklicher Unfall.|Korkunç bir kazaydı.
+w|perfekt||mükemmel|Dein Deutsch ist perfekt.|Almancan mükemmel.
+w|prima||harika|Das ist prima!|Bu harika!
+w|herrlich||nefis, harika|Was für ein herrlicher Tag!|Ne harika bir gün!
+w|angenehm||hoş, rahat|Angenehm, Sie kennenzulernen.|Tanıştığımıza memnun oldum.
+w|unangenehm||hoş olmayan|Das ist mir unangenehm.|Bu beni rahatsız ediyor.
+w|anstrengend||yorucu|Die Arbeit ist anstrengend.|İş yorucu.
+w|spannend||heyecanlı, sürükleyici|Das Buch ist sehr spannend.|Kitap çok sürükleyici.
+w|wichtig||önemli|-|-
+w|egal||fark etmez|Das ist mir egal.|Benim için fark etmez.
+w|schade||yazık|Schade, dass du nicht kommst.|Gelmemen yazık.
+w|wahr||doğru, gerçek|Das ist nicht wahr!|Bu doğru değil!
+w|echt||gerçek; gerçekten|Das ist echt toll!|Bu gerçekten harika!
+w|falsch||sahte; yanlış|-|-
+w|direkt||doğrudan|Der Zug fährt direkt nach Berlin.|Tren doğrudan Berlin'e gidiyor.
+w|international||uluslararası|Die Firma ist international.|Firma uluslararası.
+w|ausländisch||yabancı|Er hat ein ausländisches Auto.|Yabancı bir arabası var.
+w|türkisch||Türk, Türkçe|Ich koche gern türkisch.|Türk yemeği yapmayı severim.
+w|englisch||İngiliz, İngilizce|Er liest eine englische Zeitung.|İngilizce bir gazete okuyor.
+w|europäisch||Avrupalı|Das ist eine europäische Stadt.|Bu bir Avrupa şehri.
+w|staatlich||devlete ait|Die Schule ist staatlich.|Okul devlet okulu.
+w|ledig||bekâr|-|-
+w|allein||yalnız|-|-
+w|zusammen||birlikte|-|-
+w|gemeinsam||ortak, birlikte|Wir kochen gemeinsam.|Birlikte yemek yapıyoruz.
+w|selten||nadiren|Ich gehe selten ins Kino.|Nadiren sinemaya giderim.
+w|meistens||çoğunlukla|Meistens fahre ich mit dem Rad.|Çoğunlukla bisikletle giderim.
+w|häufig||sık|Das passiert häufig.|Bu sık olur.
+w|regelmäßig||düzenli olarak|Ich mache regelmäßig Sport.|Düzenli spor yaparım.
+w|täglich||günlük, her gün|Ich lese täglich Zeitung.|Her gün gazete okurum.
+w|wöchentlich||haftalık|Der Kurs ist wöchentlich.|Kurs haftalık.
+w|jährlich||yıllık|Die Miete steigt jährlich.|Kira her yıl artıyor.
+w|sofort||hemen|Komm sofort!|Hemen gel!
+w|gleich||birazdan|Ich komme gleich.|Birazdan geliyorum.
+w|später||daha sonra|Bis später!|Sonra görüşürüz!
+w|vorher||önceden|Ruf mich vorher an.|Beni önceden ara.
+w|nachher||sonradan|Wir sehen uns nachher.|Sonra görüşürüz.
+w|inzwischen||bu arada; şimdiye kadar|Inzwischen spreche ich gut Deutsch.|Artık iyi Almanca konuşuyorum.
+w|plötzlich||aniden|Plötzlich fing es an zu regnen.|Aniden yağmur başladı.
+w|endlich||nihayet|Endlich ist Wochenende!|Nihayet hafta sonu!
+w|zuletzt||en son|Zuletzt war ich 2020 in Berlin.|En son 2020'de Berlin'deydim.
+w|anfangs||başlangıçta|Anfangs war es schwer.|Başta zordu.
+w|damals||o zamanlar|Damals hatte ich kein Auto.|O zamanlar arabam yoktu.
+w|heutzutage||günümüzde|Heutzutage hat jeder ein Handy.|Günümüzde herkesin telefonu var.
+w|übermorgen||öbür gün|Übermorgen fliege ich nach Hause.|Öbür gün eve uçuyorum.
+w|vorgestern||evvelsi gün|Vorgestern war ich beim Arzt.|Evvelsi gün doktordaydım.
+w|abends||akşamları|Abends sehe ich fern.|Akşamları televizyon izlerim.
+w|morgens||sabahları|Morgens trinke ich Kaffee.|Sabahları kahve içerim.
+w|mittags||öğlenleri|Mittags esse ich in der Kantine.|Öğlenleri kantinde yerim.
+w|nachts||geceleri|Nachts schlafe ich.|Geceleri uyurum.
+w|montags||pazartesileri|Montags habe ich Kurs.|Pazartesileri kursum var.
+w|lange||uzun süre|Ich habe lange gewartet.|Uzun süre bekledim.
+w|kurz||kısa|-|-
+w|schon||zaten, çoktan|-|-
+w|erst||ancak, henüz|Ich bin erst seit einer Woche hier.|Sadece bir haftadır buradayım.
+w|noch nicht||henüz değil|Ich bin noch nicht fertig.|Henüz bitirmedim.
+w|nicht mehr||artık değil|Ich rauche nicht mehr.|Artık sigara içmiyorum.
+w|fast||neredeyse|Ich bin fast fertig.|Neredeyse bitirdim.
+w|genug||yeterli|Ich habe genug Geld.|Yeterince param var.
+w|ziemlich||oldukça|Es ist ziemlich kalt.|Hava oldukça soğuk.
+w|zu||fazla, çok (aşırı)|Die Hose ist zu teuer.|Pantolon çok pahalı.
+w|so||öyle, böyle; bu kadar|Das ist so schön!|Bu çok güzel!
+w|etwa||yaklaşık|Das dauert etwa eine Stunde.|Bu yaklaşık bir saat sürer.
+w|mindestens||en az|Ich schlafe mindestens sieben Stunden.|En az yedi saat uyurum.
+w|höchstens||en fazla|Das kostet höchstens zehn Euro.|En fazla on euro tutar.
+w|besonders||özellikle|-|-
+w|vor allem||özellikle, her şeyden önce|Ich mag Obst, vor allem Äpfel.|Meyve severim, özellikle elma.
+w|sogar||hatta|Er spricht sogar Japanisch.|Hatta Japonca bile konuşuyor.
+w|eigentlich||aslında|Eigentlich habe ich keine Zeit.|Aslında vaktim yok.
+w|wirklich||gerçekten|Das ist wirklich gut.|Bu gerçekten iyi.
+w|bestimmt||kesinlikle|Er kommt bestimmt.|O kesinlikle gelir.
+w|wahrscheinlich||muhtemelen|Wahrscheinlich regnet es morgen.|Muhtemelen yarın yağmur yağacak.
+w|hoffentlich||inşallah, umarım|Hoffentlich klappt es!|Umarım olur!
+w|leider||maalesef|-|-
+w|zum Glück||neyse ki|Zum Glück war ich nicht krank.|Neyse ki hasta değildim.
+w|natürlich||tabii ki|-|-
+w|gern||memnuniyetle|-|-
+w|lieber||tercihen, daha çok|Ich trinke lieber Tee.|Çayı tercih ederim.
+w|am liebsten||en çok (severek)|Am liebsten esse ich Pizza.|En çok pizza yemeyi severim.
+w|besser||daha iyi|Heute geht es mir besser.|Bugün daha iyiyim.
+w|am besten||en iyisi|Am besten fährst du mit dem Zug.|En iyisi trenle git.
+w|mehr||daha fazla|Ich möchte mehr Zeit.|Daha fazla zaman istiyorum.
+w|weniger||daha az|Ich esse weniger Zucker.|Daha az şeker yiyorum.
+w|als||-den (karşılaştırma); olarak|Er ist größer als ich.|Benden uzun.
+w|wie||gibi; nasıl|Sie ist so groß wie ich.|Benim kadar uzun.
+w|dass||-dığı (bağlaç)|Ich weiß, dass du recht hast.|Haklı olduğunu biliyorum.
+w|weil||çünkü (yan cümle)|Ich komme nicht, weil ich krank bin.|Gelmiyorum çünkü hastayım.
+w|wenn||eğer; -dığında|Wenn es regnet, bleibe ich zu Hause.|Yağmur yağarsa evde kalırım.
+w|ob||-ip -mediği|Ich weiß nicht, ob er kommt.|Gelip gelmeyeceğini bilmiyorum.
+w|obwohl||-e rağmen|Ich gehe spazieren, obwohl es regnet.|Yağmur yağmasına rağmen yürüyüşe çıkıyorum.
+w|als||-dığında (geçmiş)|Als ich Kind war, wohnte ich in Ankara.|Çocukken Ankara'da oturuyordum.
+w|bevor||-meden önce|Bevor ich esse, wasche ich die Hände.|Yemekten önce ellerimi yıkarım.
+w|nachdem||-dikten sonra|Nachdem ich gegessen habe, gehe ich spazieren.|Yemek yedikten sonra yürüyüşe çıkarım.
+w|während||sırasında; iken|Während des Essens sehe ich nicht fern.|Yemek sırasında televizyon izlemem.
+w|damit||-sın diye|Ich lerne, damit ich die Prüfung bestehe.|Sınavı geçmek için çalışıyorum.
+w|deshalb||bu yüzden|Ich bin krank, deshalb bleibe ich zu Hause.|Hastayım, bu yüzden evde kalıyorum.
+w|trotzdem||yine de|Es regnet, trotzdem gehe ich raus.|Yağmur yağıyor, yine de dışarı çıkıyorum.
+w|sonst||yoksa; başka|Beeil dich, sonst kommst du zu spät!|Acele et, yoksa geç kalırsın!
+w|also||yani, öyleyse|Also, was machen wir jetzt?|Peki, şimdi ne yapıyoruz?
+w|zum Beispiel||örneğin|Ich mag Obst, zum Beispiel Bananen.|Meyve severim, örneğin muz.
+w|außerdem||ayrıca|Außerdem brauche ich Milch.|Ayrıca süte ihtiyacım var.
+w|entweder … oder||ya … ya da|Entweder Tee oder Kaffee.|Ya çay ya kahve.
+w|sowohl … als auch||hem … hem de|Ich spreche sowohl Deutsch als auch Englisch.|Hem Almanca hem İngilizce konuşuyorum.
+w|weder … noch||ne … ne de|Ich trinke weder Bier noch Wein.|Ne bira ne şarap içerim.
+w|nicht nur … sondern auch||sadece … değil, aynı zamanda|Er ist nicht nur nett, sondern auch klug.|Sadece nazik değil, aynı zamanda akıllı.
+w|sondern||bilakis, aksine|Nicht heute, sondern morgen.|Bugün değil, yarın.
+w|durch||içinden, -den geçerek|Wir gehen durch den Park.|Parkın içinden yürüyoruz.
+w|gegen||-e karşı; civarında (saat)|Ich komme gegen acht Uhr.|Saat sekiz gibi gelirim.
+w|um … herum||etrafında|Wir gehen um den See herum.|Gölün etrafında yürüyoruz.
+w|bis||-e kadar|-|-
+w|ab||-den itibaren|Ab Montag habe ich Urlaub.|Pazartesiden itibaren izindeyim.
+w|innerhalb||içinde (zaman/yer)|Innerhalb einer Woche bekommen Sie Post.|Bir hafta içinde posta alırsınız.
+w|außerhalb||dışında|Wir wohnen außerhalb der Stadt.|Şehir dışında oturuyoruz.
+w|statt||yerine|Statt Kaffee trinke ich Tee.|Kahve yerine çay içiyorum.
+w|trotz||-e rağmen|Trotz des Regens gehen wir spazieren.|Yağmura rağmen yürüyüşe çıkıyoruz.
+w|wegen||yüzünden|Wegen des Staus komme ich zu spät.|Trafik yüzünden geç kalıyorum.
+w|entlang||boyunca|Gehen Sie die Straße entlang.|Cadde boyunca yürüyün.
+w|vorbei||geçmiş, bitmiş; yanından|Der Sommer ist vorbei.|Yaz bitti.
+w|hinein||içeri (oraya)|Geh hinein!|İçeri gir!
+w|heraus||dışarı (buraya)|Komm heraus!|Dışarı çık!
+w|drinnen||içeride|Bei Regen spielen wir drinnen.|Yağmurda içeride oynarız.
+w|vorne||önde|Bitte vorne einsteigen.|Lütfen önden binin.
+w|hinten||arkada|Hinten im Bus ist noch Platz.|Otobüsün arkasında hâlâ yer var.
+w|überall||her yerde|Ich habe überall gesucht.|Her yerde aradım.
+w|irgendwo||bir yerde|Mein Schlüssel ist irgendwo hier.|Anahtarım burada bir yerde.
+w|nirgends||hiçbir yerde|Ich finde meine Brille nirgends.|Gözlüğümü hiçbir yerde bulamıyorum.
+w|woanders||başka yerde|Wir essen heute woanders.|Bugün başka yerde yiyoruz.
+w|da||orada; burada|Ist Peter da?|Peter burada mı?
+w|daneben||yanında|Die Bank ist gleich daneben.|Banka hemen yanında.
+w|dorthin||oraya|Wie komme ich dorthin?|Oraya nasıl giderim?
+w|hierher||buraya|Komm hierher!|Buraya gel!
+w|nach oben||yukarı|Wir gehen nach oben.|Yukarı çıkıyoruz.
+w|nach unten||aşağı|Der Aufzug fährt nach unten.|Asansör aşağı iniyor.
+w|jemand||birisi|Jemand hat angerufen.|Biri aradı.
+w|niemand||hiç kimse|Niemand ist zu Hause.|Evde kimse yok.
+w|jeder||herkes|Jeder kennt ihn.|Herkes onu tanıyor.
+w|alles||her şey|Alles ist gut.|Her şey yolunda.
+w|beide||ikisi de|Beide Kinder gehen zur Schule.|İki çocuk da okula gidiyor.
+w|einige||birkaç, bazı|Ich habe einige Fragen.|Birkaç sorum var.
+w|mehrere||birkaç (çok sayıda)|Ich habe mehrere Bücher gelesen.|Birkaç kitap okudum.
+w|viele||birçok|Viele Leute sprechen Englisch.|Birçok insan İngilizce konuşur.
+w|wenige||az sayıda|Nur wenige Leute sind gekommen.|Sadece birkaç kişi geldi.
+w|manche||bazıları|Manche Leute mögen keinen Käse.|Bazı insanlar peynir sevmez.
+w|irgendetwas||herhangi bir şey|Möchtest du irgendetwas trinken?|Bir şey içmek ister misin?
+w|ein bisschen||biraz|Ich spreche ein bisschen Deutsch.|Biraz Almanca konuşuyorum.
+w|ein paar||birkaç|Ich bleibe ein paar Tage.|Birkaç gün kalıyorum.
+w|dieser||bu|Dieser Film ist gut.|Bu film iyi.
+w|welcher||hangi|-|-
+w|solcher||böyle bir|Solche Schuhe trage ich nicht.|Böyle ayakkabılar giymem.
+w|unser||bizim|Das ist unser Haus.|Bu bizim evimiz.
+w|euer||sizin (samimi)|Ist das euer Auto?|Bu sizin arabanız mı?
+w|ihr||onun (kadın); onların|Das ist ihr Fahrrad.|Bu onun bisikleti.
+w|Ihr||sizin (resmî)|Ist das Ihr Koffer?|Bu sizin bavulunuz mu?
+w|selbst||kendisi; bizzat|Ich habe den Kuchen selbst gebacken.|Keki kendim pişirdim.
+w|einander||birbirini|Wir helfen einander.|Birbirimize yardım ederiz.
+w|wieso||neden|Wieso kommst du nicht?|Neden gelmiyorsun?
+w|weshalb||niçin|Weshalb fragst du?|Neden soruyorsun?
+w|wofür||ne için|Wofür brauchst du das Geld?|Parayı ne için istiyorsun?
+w|womit||ne ile|Womit fährst du zur Arbeit?|İşe neyle gidiyorsun?
+w|worüber||ne hakkında|Worüber sprecht ihr?|Ne hakkında konuşuyorsunuz?
+w|wovon||neden (ne hakkında)|Wovon träumst du?|Neyin hayalini kuruyorsun?
+w|wie oft||ne sıklıkla|Wie oft gehst du schwimmen?|Ne sıklıkla yüzmeye gidersin?
+w|wie alt||kaç yaşında|Wie alt bist du?|Kaç yaşındasın?
+w|wie spät||saat kaç|Wie spät ist es?|Saat kaç?
+w|was für ein||ne tür bir|Was für ein Auto hast du?|Ne tür bir araban var?
+w|okay||tamam|Okay, bis morgen!|Tamam, yarın görüşürüz!
+w|na ja||eh, şey|Na ja, es geht.|Eh, idare eder.
+w|genau||aynen, tam olarak|-|-
+w|stimmt||doğru|Das stimmt!|Bu doğru!
+w|klar||elbette|Klar, ich helfe dir!|Elbette, sana yardım ederim!
+w|prost||şerefe|Prost! Auf dich!|Şerefe! Senin için!
+w|herzlich willkommen||hoş geldiniz|Herzlich willkommen in Berlin!|Berlin'e hoş geldiniz!
+w|alles Gute||her şey gönlünce olsun|Alles Gute zum Geburtstag!|Doğum günün kutlu olsun!
+w|herzlichen Glückwunsch||tebrikler|Herzlichen Glückwunsch zur Hochzeit!|Evliliğinizi tebrik ederim!
+w|viel Glück||bol şans|Viel Glück bei der Prüfung!|Sınavda bol şans!
+w|viel Spaß||iyi eğlenceler|Viel Spaß im Urlaub!|Tatilde iyi eğlenceler!
+w|gute Reise||iyi yolculuklar|Gute Reise und bis bald!|İyi yolculuklar, görüşmek üzere!
+w|guten Appetit||afiyet olsun|Guten Appetit!|Afiyet olsun!
+w|Gesundheit||çok yaşa (hapşırınca)|Hatschi! – Gesundheit!|Hapşu! – Çok yaşa!
+w|bitte schön||buyurun, rica ederim|Hier, bitte schön.|Buyurun.
+w|danke schön||çok teşekkürler|Danke schön für die Blumen!|Çiçekler için çok teşekkürler!
+w|gern geschehen||rica ederim|Danke! – Gern geschehen.|Teşekkürler! – Rica ederim.
+w|kein Problem||sorun değil|Kein Problem, ich mache das.|Sorun değil, ben yaparım.
+w|tut mir leid||üzgünüm|Tut mir leid, ich habe keine Zeit.|Üzgünüm, vaktim yok.
+w|macht nichts||önemli değil|Macht nichts, das passiert.|Önemli değil, olur böyle şeyler.
+w|wie bitte||efendim? (anlamadım)|Wie bitte? Können Sie das wiederholen?|Efendim? Tekrar edebilir misiniz?
+w|keine Ahnung||hiçbir fikrim yok|Keine Ahnung, wo er ist.|Nerede olduğu hakkında hiçbir fikrim yok.
+w|bis morgen||yarın görüşürüz|Tschüss, bis morgen!|Hoşça kal, yarın görüşürüz!
+w|bis später||sonra görüşürüz|Bis später im Büro!|Ofiste görüşürüz!
+w|schönes Wochenende||iyi hafta sonları|Schönes Wochenende!|İyi hafta sonları!
+w|frohe Weihnachten||mutlu Noeller|Frohe Weihnachten und ein gutes neues Jahr!|Mutlu Noeller ve iyi yıllar!
+w|Achtung||dikkat|Achtung, der Zug fährt ab!|Dikkat, tren kalkıyor!
+w|Vorsicht||dikkat, ihtiyat|Vorsicht, Stufe!|Dikkat, basamak!
+w|Hilfe||imdat; yardım|Hilfe! Ich brauche einen Arzt!|İmdat! Doktora ihtiyacım var!
