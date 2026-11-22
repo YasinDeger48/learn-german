@@ -70,6 +70,19 @@ struct A1GrammarItem: Codable {
     let why: String
 }
 
+struct A1Line: Codable {
+    let s: Int
+    let t: String
+}
+
+struct A1Hoeren: Codable {
+    let part: Int
+    let lines: [A1Line]
+    let q: String
+    let options: [String]
+    let tr: String
+}
+
 struct A1Mistake: Codable {
     let wrong: String
     let right: String
@@ -84,6 +97,7 @@ struct A1Content: Codable {
     let grammarItems: [A1GrammarItem]
     let mistakes: [A1Mistake]
     let situations: [A1Choice]
+    let hoeren: [A1Hoeren]
 
     static func load() -> A1Content? {
         guard let url = Bundle.main.url(forResource: "a1", withExtension: "json"),
@@ -95,7 +109,7 @@ struct A1Content: Codable {
 // MARK: - Questions
 
 enum A1Mode: String, CaseIterable, Identifiable, Hashable {
-    case artikel, wordToTr, trToWord, sentence, cloze, order, listen, write, plural, verbs, grammar, numbers, reading, daily
+    case artikel, wordToTr, trToWord, sentence, cloze, order, listen, hoeren, write, plural, verbs, grammar, numbers, reading, daily
 
     var id: String { rawValue }
 
@@ -108,6 +122,7 @@ enum A1Mode: String, CaseIterable, Identifiable, Hashable {
         case .cloze: return "Boşluk doldur"
         case .order: return "Cümle kur"
         case .listen: return "Dinle ve seç (Hören)"
+        case .hoeren: return "Sınav dinlemesi (Hören 1–3)"
         case .write: return "Yaz (Schreiben)"
         case .plural: return "Çoğul halleri"
         case .verbs: return "Fiiller ve Perfekt"
@@ -126,7 +141,8 @@ enum A1Mode: String, CaseIterable, Identifiable, Hashable {
         case .sentence: return "Almanca cümlenin Türkçesi"
         case .cloze: return "Cümledeki eksik kelime"
         case .order: return "Kelimeleri doğru sıraya diz"
-        case .listen: return "Duyduğunu anla"
+        case .listen: return "Kelime, cümle, sayı ve saat dinle"
+        case .hoeren: return "Diyalog, anons, telefon mesajı · 2 kez"
         case .write: return "Kelime, dikte ve düzeltme yaz"
         case .plural: return "die … hangi çoğul?"
         case .verbs: return "er-formu, haben / sein + Partizip II"
@@ -146,6 +162,7 @@ enum A1Mode: String, CaseIterable, Identifiable, Hashable {
         case .cloze: return "square.dashed"
         case .order: return "square.stack.3d.up"
         case .listen: return "ear"
+        case .hoeren: return "headphones"
         case .write: return "pencil"
         case .plural: return "square.on.square"
         case .verbs: return "clock.arrow.circlepath"
@@ -175,6 +192,7 @@ struct A1Question: Identifiable {
     var context: String? = nil
     var speakFirst: String? = nil
     var speakAfter: String? = nil
+    var dialog: [A1Line]? = nil
     var options: [String] = []
     let answer: String
     var accepted: [String] = []
@@ -316,7 +334,22 @@ struct A1BankBuilder {
         addNumbers()
         addReading()
         addDaily()
+        addHoeren()
         return out
+    }
+
+    private mutating func addHoeren() {
+        let parts = [1: "Teil 1 · Kısa diyalog", 2: "Teil 2 · Anons", 3: "Teil 3 · Telefon mesajı"]
+        let names = [0: "Kadın", 1: "Erkek", 2: "Anons"]
+        for (index, item) in content.hoeren.enumerated() {
+            guard let correct = item.options.first else { continue }
+            let isTrueFalse = Set(item.options) == ["Richtig", "Falsch"]
+            let transcript = item.lines.map { "\(names[$0.s] ?? "–"): \($0.t)" }.joined(separator: "\n")
+            out.append(A1Question(id: "hr-\(index)", mode: .hoeren, kind: .choice, label: "Hören Teil \(item.part)", topic: nil,
+                                  prompt: item.q, detail: parts[item.part], dialog: item.lines,
+                                  options: isTrueFalse ? ["Richtig", "Falsch"] : item.options.shuffled(), answer: correct,
+                                  explanation: "\(transcript)\n\nTürkçesi: \(item.tr)"))
+        }
     }
 
     // MARK: words
@@ -963,7 +996,8 @@ final class A1Model: ObservableObject {
             let any = pool.shuffled()
             return Array((unseen.count >= n ? unseen : any).prefix(n))
         }
-        return take(.listen, 6) + take(.reading, 6) + take(.write, 4) + take(.grammar, 6) + take(.cloze, 3) + take(.daily, 3) + take(.sentence, 2)
+        return take(.hoeren, 6) + take(.listen, 3) + take(.reading, 6) + take(.write, 4) + take(.grammar, 5) +
+            take(.cloze, 2) + take(.daily, 2) + take(.sentence, 2)
     }
 }
 
@@ -973,15 +1007,58 @@ final class A1Speaker {
     static let shared = A1Speaker()
     private let synth = AVSpeechSynthesizer()
 
-    func say(_ text: String, slow: Bool = false) {
+    /// German voices, best quality first (enhanced/premium voices if the user downloaded them).
+    private lazy var germanVoices: [AVSpeechSynthesisVoice] = AVSpeechSynthesisVoice.speechVoices()
+        .filter { $0.language.hasPrefix("de") }
+        .sorted { $0.quality.rawValue > $1.quality.rawValue }
+
+    /// Speaker -1 = default voice, 0 = woman, 1 = man, 2 = announcer.
+    /// Without a second voice on the device, the pitch tells the speakers apart.
+    private func voice(for speaker: Int) -> (AVSpeechSynthesisVoice?, Float) {
+        let fallback = AVSpeechSynthesisVoice(language: "de-DE")
+        let female = germanVoices.first { $0.gender == .female }
+        let male = germanVoices.first { $0.gender == .male }
+        switch speaker {
+        case 0:
+            if let female { return (female, 1.0) }
+            return (fallback, 1.15)
+        case 1:
+            if let male { return (male, 1.0) }
+            return (fallback, 0.8)
+        case 2:
+            if let male { return (male, 0.9) }
+            return (fallback, 0.7)
+        default:
+            return (fallback, 1.0)
+        }
+    }
+
+    func say(_ text: String, slow: Bool = false, times: Int = 1) {
+        play([A1Line(s: -1, t: text)], slow: slow, times: times)
+    }
+
+    /// Plays the lines in order; `times: 2` repeats everything like in the exam.
+    func play(_ lines: [A1Line], slow: Bool = false, times: Int = 1) {
         let session = AVAudioSession.sharedInstance()
         try? session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
         try? session.setActive(true)
         synth.stopSpeaking(at: .immediate)
-        let utterance = AVSpeechUtterance(string: text)
-        utterance.voice = AVSpeechSynthesisVoice(language: "de-DE")
-        utterance.rate = slow ? 0.32 : 0.46
-        synth.speak(utterance)
+        for round in 0..<max(1, times) {
+            for (index, line) in lines.enumerated() {
+                let utterance = AVSpeechUtterance(string: line.t)
+                let (chosenVoice, pitch) = voice(for: line.s)
+                utterance.voice = chosenVoice
+                utterance.pitchMultiplier = pitch
+                utterance.rate = slow ? 0.32 : 0.46
+                let lastLine = index == lines.count - 1
+                utterance.postUtteranceDelay = lastLine ? (round < times - 1 ? 2.0 : 0) : 0.5
+                synth.speak(utterance)
+            }
+        }
+    }
+
+    func stop() {
+        synth.stopSpeaking(at: .immediate)
     }
 }
 
@@ -1249,6 +1326,7 @@ struct A1QuizView: View {
         }
         .navigationTitle(title)
         .navigationBarTitleDisplayMode(.inline)
+        .onDisappear { A1Speaker.shared.stop() }
         .onAppear {
             if !started {
                 session = makeSession()
@@ -1341,8 +1419,19 @@ struct A1QuizView: View {
     }
 
     private func playIfNeeded() {
-        guard index < session.count, let text = session[index].speakFirst else { return }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) { A1Speaker.shared.say(text) }
+        guard index < session.count else { return }
+        let q = session[index]
+        guard q.dialog != nil || q.speakFirst != nil else { return }
+        let times = q.mode == .listen || q.mode == .hoeren ? 2 : 1
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) { play(q, times: times) }
+    }
+
+    private func play(_ q: A1Question, slow: Bool = false, times: Int = 1) {
+        if let dialog = q.dialog {
+            A1Speaker.shared.play(dialog, slow: slow, times: times)
+        } else if let text = q.speakFirst {
+            A1Speaker.shared.say(text, slow: slow, times: times)
+        }
     }
 
     private func question(_ q: A1Question) -> some View {
@@ -1379,20 +1468,25 @@ struct A1QuizView: View {
                 }
                 .onAppear { showText = true }
             }
-            if let speak = q.speakFirst {
+            if q.dialog != nil || q.speakFirst != nil {
                 HStack {
                     Button {
-                        A1Speaker.shared.say(speak)
+                        play(q)
                     } label: {
                         Label("Dinle", systemImage: "speaker.wave.2.fill")
                     }
                     .buttonStyle(.borderedProminent)
                     Button {
-                        A1Speaker.shared.say(speak, slow: true)
+                        play(q, slow: true)
                     } label: {
                         Label("Yavaş", systemImage: "tortoise.fill")
                     }
                     .buttonStyle(.bordered)
+                }
+                if q.mode == .listen || q.mode == .hoeren {
+                    Text("Sınavdaki gibi ses otomatik olarak iki kez çalınır.")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
                 }
             }
             Text(q.prompt)
@@ -1547,15 +1641,20 @@ struct A1QuizView: View {
                 Text(explanation).font(.callout).foregroundStyle(.secondary)
             }
             HStack {
-                if let speak = q.speakAfter ?? q.speakFirst {
+                if q.dialog != nil || q.speakAfter != nil || q.speakFirst != nil {
                     Button {
-                        A1Speaker.shared.say(speak)
+                        if let speak = q.speakAfter {
+                            A1Speaker.shared.say(speak)
+                        } else {
+                            play(q)
+                        }
                     } label: {
                         Label("Dinle", systemImage: "speaker.wave.2.fill")
                     }
                     .buttonStyle(.bordered)
                 }
                 Button {
+                    A1Speaker.shared.stop()
                     index += 1
                     resetAnswer()
                     playIfNeeded()

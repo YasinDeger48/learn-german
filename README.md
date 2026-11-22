@@ -8,7 +8,7 @@ SwiftUI ile hazırlanmış kişisel iPhone uygulaması. iOS 16 veya üstünü ge
 
 - 693 A1 kelimesi, 1386 örnek cümle, okunuşlar, 22 gramer konusu, 20 okuma metni
 - Ek olarak sık kullanılan ~1390 kelime (`tools/words/*.txt`): artikel, okunuş, Türkçe, 1 örnek cümle
-- Oyunlar: artikel, kelime ↔ Türkçe, cümle anlamı, boşluk doldurma, cümle kurma, dinleme, yazma/dikte, çoğul, fiiller/Perfekt, gramer, sayı-saat-tarih, okuma, „Ne dersin?“ / „Hatayı bul“, artikel yarışı, eşleştirme, 30 soruluk sınav provası
+- Oyunlar: artikel, kelime ↔ Türkçe, cümle anlamı, boşluk doldurma, cümle kurma, dinleme, sınav dinlemesi (47 diyalog, anons ve telefon mesajı; kadın, erkek ve anons sesi; sınavdaki gibi 2 kez), yazma/dikte, çoğul, fiiller/Perfekt, gramer, sayı-saat-tarih, okuma, „Ne dersin?“ / „Hatayı bul“, artikel yarışı, eşleştirme, 30 soruluk sınav provası
 - Görülen soru tekrar sorulmaz; yanlışlar „Hatalarım“da toplanır. İlerleme yedek dosyasına da yazılır.
 
 Veriyi yeniden üretmek için (Windows, Python 3 + pdftotext):
