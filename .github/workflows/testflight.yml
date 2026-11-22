@@ -1,0 +1,90 @@
+name: TestFlight
+# Builds, signs (cloud signing with an App Store Connect API key) and uploads to TestFlight.
+# Run it from GitHub: Actions → TestFlight → Run workflow.
+# Needed repository secrets: ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8, APPLE_TEAM_ID
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: macos-15
+    env:
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+      APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check secrets
+        shell: bash
+        run: |
+          missing=0
+          for name in ASC_KEY_ID ASC_ISSUER_ID ASC_KEY_P8 APPLE_TEAM_ID; do
+            if [ -z "${!name}" ]; then echo "::error::GitHub secret $name is missing"; missing=1; fi
+          done
+          exit $missing
+
+      - name: Prepare Xcode project
+        shell: bash
+        run: |
+          set -euo pipefail
+          brew install xcodegen
+          icons=Assets.xcassets/AppIcon.appiconset
+          mkdir -p "$icons"
+          echo '{"info":{"author":"xcode","version":1}}' > Assets.xcassets/Contents.json
+          # App Store needs a 1024 px icon without transparency.
+          sips -z 1024 1024 AppIcon.png --out /tmp/icon1024.png
+          sips -s format jpeg /tmp/icon1024.png --out /tmp/icon1024.jpg
+          sips -s format png /tmp/icon1024.jpg --out "$icons/icon-1024.png"
+          cat > "$icons/Contents.json" <<'JSON'
+          {"images":[{"filename":"icon-1024.png","idiom":"universal","platform":"ios","size":"1024x1024"}],"info":{"author":"xcode","version":1}}
+          JSON
+          plist=Info.plist
+          /usr/libexec/PlistBuddy -c "Delete :CFBundleIcons" "$plist" || true
+          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" "$plist"
+          /usr/libexec/PlistBuddy -c "Add :ITSAppUsesNonExemptEncryption bool false" "$plist"
+          /usr/libexec/PlistBuddy -c "Add :UISupportedInterfaceOrientations array" "$plist"
+          /usr/libexec/PlistBuddy -c "Add :UISupportedInterfaceOrientations:0 string UIInterfaceOrientationPortrait" "$plist"
+          plutil -lint "$plist"
+          xcodegen generate
+
+      - name: Install API key
+        shell: bash
+        run: |
+          mkdir -p ~/.appstoreconnect/private_keys
+          printf '%s\n' "$ASC_KEY_P8" > ~/.appstoreconnect/private_keys/AuthKey_$ASC_KEY_ID.p8
+
+      - name: Archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          xcodebuild archive \
+            -project Almanca.xcodeproj -scheme Almanca -configuration Release \
+            -destination 'generic/platform=iOS' -archivePath build/Almanca.xcarchive \
+            DEVELOPMENT_TEAM="$APPLE_TEAM_ID" CODE_SIGNING_ALLOWED=NO
+
+      - name: Sign and upload to TestFlight
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > ExportOptions.plist <<PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+            <key>method</key><string>app-store-connect</string>
+            <key>destination</key><string>upload</string>
+            <key>teamID</key><string>$APPLE_TEAM_ID</string>
+            <key>signingStyle</key><string>automatic</string>
+            <key>manageAppVersionAndBuildNumber</key><false/>
+          </dict></plist>
+          PLIST
+          xcodebuild -exportArchive \
+            -archivePath build/Almanca.xcarchive -exportOptionsPlist ExportOptions.plist -exportPath build/export \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath ~/.appstoreconnect/private_keys/AuthKey_$ASC_KEY_ID.p8 \
+            -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+          echo "Uploaded build ${{ github.run_number }}. It appears in App Store Connect → TestFlight after processing (10–30 min)."

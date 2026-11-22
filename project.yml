@@ -1,0 +1,29 @@
+# XcodeGen project, generated on the macOS runner by .github/workflows/testflight.yml
+name: Almanca
+options:
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  Almanca:
+    type: application
+    platform: iOS
+    sources:
+      - path: Almanca.swift
+      - path: A1.swift
+      - path: lessons.json
+        buildPhase: resources
+      - path: a1.json
+        buildPhase: resources
+      - path: Assets.xcassets
+    settings:
+      base:
+        PRODUCT_NAME: Almanca
+        PRODUCT_BUNDLE_IDENTIFIER: com.yasindeger48.almancaderslerim
+        INFOPLIST_FILE: Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_BITCODE: NO
+    scheme: {}
