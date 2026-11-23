@@ -1,0 +1,200 @@
+die|Abholstation|die Abholstationen|paket teslim noktası|Das Paket liegt in der Abholstation neben dem Bahnhof und wartet dort bis Dienstag auf mich.|Paket istasyonun yanındaki teslim noktasında, salıya kadar oradan alabilirim.
+der|Abholtermin|die Abholtermine|teslim alma randevusu|Für den alten Kühlschrank habe ich einen Abholtermin am Freitag vereinbart.|Eski buzdolabının alınması için cumaya randevu ayarladım.
+v|ablegen|er legt ab · hat abgelegt|paltoyu çıkarmak|Am Eingang zum Schwimmbad legen wir die Jacken ab und hängen sie an die Haken.|Havuz girişinde ceketlerimizi çıkarıp askılara asıyoruz.
+v|ablesen|er liest ab · hat abgelesen|sayacı okumak|Am Monatsende lese ich die Zahl am Stromzähler ab.|Ay sonunda elektrik sayacındaki rakamı okuyorum.
+v|abschalten|er schaltet ab · hat abgeschaltet|cihazı kapatmak|Nach dem Kochen schalte ich die Herdplatte ab und lasse den Topf noch stehen.|Yemek piştikten sonra ocağı kapatıp tencereyi bir süre daha üzerinde bırakıyorum.
+v|abschreiben|er schreibt ab · hat abgeschrieben|cümleyi aynen yazmak|Den Satz über meinen Arbeitsweg habe ich von der Tafel abgeschrieben.|İşe gidiş yolumla ilgili cümleyi tahtadan defterime geçirdim.
+v|abstellen|er stellt ab · hat abgestellt|çantayı yere koymak|Stell die heiße Pfanne nicht direkt auf dem Holztisch ab.|Sıcak tavayı doğrudan ahşap masanın üzerine bırakma.
+w|abwaschbar|-|yıkanabilir|Die Farbe auf dem Tischtuch ist abwaschbar, du brauchst es also nicht in die Maschine zu tun.|Masa örtüsündeki boya silinebiliyor, örtüyü makineye atmana gerek yok.
+v|abziehen|er zieht ab · hat abgezogen|koruyucu filmi sökmek|Zieh die Schutzfolie erst ab, wenn der Bildschirm sauber ist.|Koruyucu filmi ancak ekran temizlendikten sonra çıkar.
+v|anfahren|er fährt an · ist angefahren|yavaşça hareket etmek|Der Bus fährt langsam an, weil vorne noch jemand steht.|Ön tarafta hâlâ biri ayakta olduğu için otobüs yavaşça kalkıyor.
+v|angeben|er gibt an · hat angegeben|posta kodunu belirtmek|Bei der Anmeldung soll ich auch meine Postleitzahl angeben.|Kayıt sırasında posta kodumu da belirtmem gerekiyor.
+v|anhängen|er hängt an · hat angehängt|bir not iliştirmek|Häng bitte das Foto vom Schaden an die Nachricht für die Werkstatt an.|Hasarın fotoğrafını lütfen tamirciye göndereceğin mesaja ekle.
+die|Anlaufstelle|die Anlaufstellen|başvuru noktası|Das Büro im Erdgeschoss ist die erste Anlaufstelle für neue Schüler.|Giriş kattaki büro yeni öğrencilerin ilk başvuru noktası.
+v|anlegen|er legt an · hat angelegt|yeni klasör açmak|Für meine Bewerbungen habe ich auf dem Rechner einen eigenen Ordner angelegt.|İş başvurularım için bilgisayarda ayrı bir klasör oluşturdum.
+der|Anmeldeschluss|die Anmeldeschlüsse|kaydın kapanış tarihi|Bis zum Anmeldeschluss morgen Mittag kannst du dich noch für das Turnier eintragen.|Yarın öğlen kayıtlar kapanana kadar turnuvaya yazılabilirsin.
+v|ansagen|er sagt an · hat angesagt|sonraki istasyonu anons etmek|Im Zug sagt eine Stimme die nächste Haltestelle an.|Trende bir ses sıradaki durağı anons ediyor.
+v|anschieben|er schiebt an · hat angeschoben|arabayı iterek hareket ettirmek|Mein Vater hat das Auto ein Stück angeschoben, weil es nicht ansprang.|Araba çalışmayınca babam onu biraz itti.
+die|Arbeitsjacke|die Arbeitsjacken|iş ceketi|Meine Arbeitsjacke hängt im Spind neben den Handschuhen.|İş ceketim kilitli dolapta, eldivenlerin yanında asılı.
+die|Arbeitswoche|die Arbeitswochen|çalışma haftası|Am Ende einer langen Arbeitswoche bestelle ich manchmal Pizza für uns alle.|Uzun bir çalışma haftasının sonunda bazen hepimize pizza sipariş ediyorum.
+v|aufdrehen|er dreht auf · hat aufgedreht|şişenin kapağını çevirip açmak|Hilfst du mir, diese Flasche aufzudrehen? Der Deckel sitzt sehr fest.|Bu şişeyi açmama yardım eder misin? Kapağı çok sıkı.
+der|Aufenthaltsraum|die Aufenthaltsräume|dinlenme odası|Wer sein Essen von zu Hause mitbringt, kann im Aufenthaltsraum zu Mittag essen.|Yemeğini evden getirenler öğle yemeğini dinlenme odasında yiyebilir.
+die|Aufgabenliste|die Aufgabenlisten|görev listesi|Auf meiner Aufgabenliste für Samstag steht nur eins: das Fahrrad reparieren.|Cumartesi yapılacaklar listemde tek bir iş var: bisikleti tamir etmek.
+v|aufgeben|er gibt auf · hat aufgegeben|paketi postaya vermek|Ich gebe das Paket nach der Arbeit bei der Post auf.|İşten sonra paketi postaneden göndereceğim.
+w|aufgeräumt|-|toplu|Seit gestern ist der Keller endlich aufgeräumt, und ich finde mein Werkzeug wieder.|Dünden beri bodrum nihayet düzenli, aletlerimi tekrar bulabiliyorum.
+v|aufkleben|er klebt auf · hat aufgeklebt|pulu yapıştırmak|Kleb die Briefmarke oben rechts auf den Umschlag auf.|Pulu zarfın sağ üst köşesine yapıştır.
+v|aufnehmen|er nimmt auf · hat aufgenommen|şarkıyı kaydetmek|Für den Kurs habe ich eine kurze Sprachnachricht über mein Wochenende aufgenommen.|Kurs için hafta sonum hakkında kısa bir sesli mesaj kaydettim.
+v|aufstellen|er stellt auf · hat aufgestellt|sandalyeleri yerleştirmek|Für den Flohmarkt stellen wir die Tische morgens um sieben im Hof auf.|Bit pazarı için masaları sabah yedide avluya kuruyoruz.
+die|Auftragsnummer|die Auftragsnummern|iş emri numarası|Am Telefon wollte der Handwerker zuerst die Auftragsnummer wissen.|Usta telefonda önce iş emri numarasını öğrenmek istedi.
+v|aufziehen|er zieht auf · hat aufgezogen|perdeleri açmak|Morgens zieht meine Tochter die Vorhänge auf und schaut nach dem Wetter.|Kızım sabah perdeleri açıp havaya bakıyor.
+w|ausführlich|-|ayrıntılı|Die Lehrerin hat ausführlich erklärt, warum zwei Antworten möglich sind.|Öğretmen iki yanıtın neden mümkün olduğunu ayrıntılı biçimde açıkladı.
+w|ausgeschlafen|-|uykusunu almış|Nach der ersten Nacht im Urlaub war ich endlich wieder ausgeschlafen.|Tatildeki ilk geceden sonra sonunda uykumu alabildim.
+v|aushängen|er hängt aus · hat ausgehängt|planı herkesin göreceği yere asmak|Die Hausverwaltung hängt den neuen Putzplan morgen an der Eingangstür aus.|Bina yönetimi yeni temizlik çizelgesini yarın giriş kapısına asacak.
+v|auskommen|er kommt aus · ist ausgekommen|arabasız idare etmek|Bis zum Wochenende müssen wir mit den Lebensmitteln im Kühlschrank auskommen.|Hafta sonuna kadar buzdolabındaki yiyeceklerle idare etmeliyiz.
+v|auslegen|er legt aus · hat ausgelegt|broşürleri sergilemek|Vor dem Konzert legt die Musikschule am Eingang kostenlose Programme aus.|Konserden önce müzik okulu girişe ücretsiz programlar koyuyor.
+v|ausstellen|er stellt aus · hat ausgestellt|bir resmi sergilemek|Die Schule stellt nächste Woche die Bilder aus dem Zeichenkurs aus.|Okul gelecek hafta çizim kursundaki resimleri sergileyecek.
+v|auszahlen|er zahlt aus · hat ausgezahlt|parayı ödemek|Das Pfandgeld zahlt mir die Kasse auch ohne Einkauf aus.|Alışveriş yapmasam da kasa depozito parasını bana ödüyor.
+w|autofrei|-|araç trafiğine kapalı|Die Innenstadt bleibt am Sonntag autofrei, damit Familien dort Rad fahren können.|Aileler bisiklete binebilsin diye pazar günü şehir merkezi araç trafiğine kapalı kalacak.
+das|Badetuch|die Badetücher|banyo havlusu|Das gestreifte Badetuch erkenne ich auch zwischen all den anderen Tüchern am Strand.|Çizgili banyo havlumu sahildeki diğer havluların arasında bile tanıyorum.
+der|Bauernmarkt|die Bauernmärkte|üretici pazarı|Die Frau auf dem Bauernmarkt hat mir erklärt, warum ihre Äpfel so klein sind.|Üretici pazarındaki kadın elmalarının neden bu kadar küçük olduğunu anlattı.
+die|Bearbeitungsgebühr|die Bearbeitungsgebühren|işlem bedeli|Für den neuen Ausweis musste ich am Schalter eine Bearbeitungsgebühr zahlen.|Yeni kimlik için gişede işlem ücreti ödemem gerekti.
+v|beilegen|er legt bei · hat beigelegt|mektuba bir kopya eklemek|Vergiss nicht, dem Brief eine Kopie vom Vertrag beizulegen.|Mektuba sözleşmenin bir kopyasını eklemeyi unutma.
+der|Beipackzettel|die Beipackzettel|ilaç prospektüsü|Auf dem Beipackzettel steht, ob man die Tablette zum Essen nehmen soll.|İlaç prospektüsünde tableti yemekle birlikte alıp almamak gerektiği yazıyor.
+w|beleuchtet|-|aydınlatılmış|Der Weg am Fluss ist abends nur bis zur alten Brücke beleuchtet.|Nehir kenarındaki yol akşamları yalnızca eski köprüye kadar aydınlatılıyor.
+v|bereitstellen|er stellt bereit · hat bereitgestellt|aletleri hazır etmek|Die Bibliothek stellt für Gruppen einen Tisch und sechs Stühle bereit.|Kütüphane gruplar için bir masa ve altı sandalye hazırlıyor.
+w|bestätigt|-|onaylanmış|Mein Termin ist jetzt bestätigt, morgen kann ich direkt zur Praxis gehen.|Randevum onaylandı, yarın doğrudan muayenehaneye gidebilirim.
+die|Bildschirmgröße|die Bildschirmgrößen|ekran boyutu|Welche Bildschirmgröße ist für dich angenehm, wenn du viele Stunden am Computer arbeitest?|Bilgisayar başında saatlerce çalışırken hangi ekran boyutu sana rahat geliyor?
+der|Bioladen|die Bioläden|organik ürün dükkânı|Der Bioladen verkauft samstags Brot von einer kleinen Bäckerei aus dem Nachbardorf.|Organik ürün dükkânı cumartesileri komşu köydeki küçük bir fırının ekmeğini satıyor.
+der|Blumenstand|die Blumenstände|çiçek tezgâhı|Am Blumenstand habe ich drei gelbe Tulpen für meine Nachbarin gekauft.|Çiçek tezgâhından komşuma üç sarı lale aldım.
+das|Bremslicht|die Bremslichter|fren lambası|Der Wagen vor mir hat gebremst, aber nur ein Bremslicht ist angegangen.|Önümdeki araba fren yaptı ama yalnızca bir fren lambası yandı.
+der|Brotkorb|die Brotkörbe|ekmek sepeti|Im Brotkorb liegen noch zwei Scheiben, nimm sie ruhig für dein Frühstück.|Ekmek sepetinde iki dilim daha var, kahvaltın için alabilirsin.
+die|Buchbestellung|die Buchbestellungen|kitap siparişi|Meine Buchbestellung ist gestern im Laden angekommen, aber ich kann sie erst morgen abholen.|Kitap siparişim dün dükkâna ulaştı ama ancak yarın alabilirim.
+der|Buchladen|die Buchläden|kitapçı|Der Buchladen an der Ecke lädt am Freitag Kinder zum Vorlesen ein.|Köşedeki kitapçı cuma günü çocukları sesli okuma etkinliğine davet ediyor.
+die|Büroarbeit|die Büroarbeiten|ofis işi|Nach zwei Stunden Büroarbeit gehe ich kurz nach draußen und bewege mich.|İki saat ofiste çalıştıktan sonra kısa süre dışarı çıkıp hareket ediyorum.
+die|Campingmatte|die Campingmatten|kamp matı|Auf der dünnen Campingmatte habe ich jede Unebenheit unter dem Zelt gespürt.|İnce kamp matında çadırın altındaki her tümseği hissettim.
+die|Dachwohnung|die Dachwohnungen|çatı katı dairesi|In unserer Dachwohnung wird es im Juli schon am Vormittag warm.|Çatı katı dairemiz temmuzda daha öğle olmadan ısınıyor.
+v|dazugeben|er gibt dazu · hat dazugegeben|biraz tuz eklemek|Wenn die Tomatensoße zu dick ist, gebe ich etwas Nudelwasser dazu.|Domates sosu çok koyuysa biraz makarna suyu ekliyorum.
+v|dazukommen|er kommt dazu · ist dazugekommen|sonradan katılmak|Wir beginnen um sechs mit dem Essen, du kannst später dazukommen.|Yemeğe altıda başlıyoruz, sen daha sonra katılabilirsin.
+v|dazuschreiben|er schreibt dazu · hat dazugeschrieben|yanına bir telefon numarası yazmak|Kannst du deine Handynummer dazuschreiben, falls die Werkstatt Fragen hat?|Tamircinin sorusu olursa ulaşabilmesi için cep telefonu numaranı da yazar mısın?
+der|Dorfplatz|die Dorfplätze|köy meydanı|Auf dem Dorfplatz steht jeden Donnerstag ein Wagen mit frischem Fisch.|Köy meydanında her perşembe taze balık satan bir araç duruyor.
+w|dringend|-|acil|Vor der Fahrt brauche ich dringend eine neue Brille, mit der alten sehe ich kaum etwas.|Yolculuktan önce acilen yeni gözlüğe ihtiyacım var, eskisiyle neredeyse hiçbir şey göremiyorum.
+v|durchfahren|er fährt durch · ist durchgefahren|Berlin'e kadar durmadan gitmek|Von hier aus können wir bis Leipzig durchfahren und müssen nicht umsteigen.|Buradan Leipzig'e kadar aktarma yapmadan gidebiliyoruz.
+v|durchgehen|er geht durch · ist durchgegangen|formu gözden geçirmek|Können wir die Einkaufsliste noch einmal durchgehen, bevor wir losfahren?|Yola çıkmadan alışveriş listesini bir kez daha gözden geçirebilir miyiz?
+v|durchlesen|er liest durch · hat durchgelesen|e-postayı baştan sona okumak|Lies bitte die ganze Nachricht durch, bevor du auf den Link klickst.|Bağlantıya tıklamadan önce lütfen mesajın tamamını oku.
+die|Eingabetaste|die Eingabetasten|giriş tuşu|Das Suchergebnis erscheint erst, wenn du die Eingabetaste drückst.|Arama sonucu ancak giriş tuşuna basınca görünüyor.
+v|eingeben|er gibt ein · hat eingegeben|kodu girmek|Auf dem Display kann ich meine Zimmernummer eingeben und ein Handtuch bestellen.|Ekrana oda numaramı yazıp havlu isteyebiliyorum.
+v|eingehen|er geht ein · ist eingegangen|öneriye yanıt vermek|Im Gespräch ist die Chefin auf meine Frage zur Arbeitszeit eingegangen.|Müdür görüşmede çalışma saatleriyle ilgili sorumu yanıtladı.
+v|einhalten|er hält ein · hat eingehalten|mesafeyi korumak|Bitte halt auf dem Radweg genug Abstand zum Kind vor dir ein.|Bisiklet yolunda önündeki çocukla aranda yeterince mesafe bırak.
+das|Einladungsschreiben|die Einladungsschreiben|davet yazısı|Für den Besuch habe ich ein Einladungsschreiben mit meiner Anschrift vorbereitet.|Ziyaret için adresimin yazılı olduğu bir davet mektubu hazırladım.
+v|einlegen|er legt ein · hat eingelegt|pili yerleştirmek|Bevor du die Speicherkarte einlegst, musst du die Kamera ausschalten.|Hafıza kartını takmadan önce kamerayı kapatmalısın.
+v|einnehmen|er nimmt ein · hat eingenommen|tableti içmek|Die Tablette nehme ich morgens nach dem Frühstück ein.|Tableti sabah kahvaltıdan sonra alıyorum.
+v|einzahlen|er zahlt ein · hat eingezahlt|hesaba para yatırmak|Ich zahle einen Teil vom Geburtstagsgeld auf mein Konto ein.|Doğum günü paramın bir kısmını hesabıma yatırıyorum.
+v|entgegenkommen|er kommt entgegen · ist entgegengekommen|konuğu karşılamaya gitmek|Komm mir bitte ein Stück entgegen, ich trage zwei schwere Einkaufstaschen.|Beni karşılamak için biraz yürür müsün, iki ağır alışveriş çantası taşıyorum.
+v|entgegennehmen|er nimmt entgegen · hat entgegengenommen|teslimatı kabul etmek|Kannst du morgen mein Paket entgegennehmen, wenn ich noch bei der Arbeit bin?|Yarın ben hâlâ işteysem paketimi teslim alabilir misin?
+das|Ersatzgerät|die Ersatzgeräte|yedek cihaz|Solange mein Handy in der Werkstatt ist, benutze ich das Ersatzgerät von meiner Schwester.|Telefonum tamirdeyken kız kardeşimin yedek telefonunu kullanıyorum.
+der|Erste-Hilfe-Kasten|die Erste-Hilfe-Kästen|ilk yardım çantası|Der Erste-Hilfe-Kasten im Auto liegt gleich unter dem Beifahrersitz.|Arabadaki ilk yardım çantası ön yolcu koltuğunun hemen altında.
+die|Essensbox|die Essensboxen|yemek kutusu|Pack den Salat in die kleine Essensbox, dann bleibt Platz für das Brot.|Salatayı küçük yemek kabına koy, böylece ekmeğe yer kalır.
+der|Essensplan|die Essenspläne|yemek planı|Für den Essensplan der Woche sammelt jeder in der Familie zwei Ideen.|Haftalık yemek planı için ailede herkes iki fikir öneriyor.
+der|Fahrradanhänger|die Fahrradanhänger|bisiklet römorku|Im Fahrradanhänger kann mein Sohn sitzen und aus dem Fenster schauen.|Oğlum bisiklet römorkunda oturup pencereden bakabiliyor.
+der|Fahrradständer|die Fahrradständer|bisiklet park demiri|Am Fahrradständer vor der Schule ist morgens kaum ein Platz frei.|Sabahları okulun önündeki bisiklet parkında neredeyse hiç boş yer olmuyor.
+der|Fernzug|die Fernzüge|uzun mesafe treni|Im Fernzug nach München haben wir einen Tisch für vier Personen gefunden.|Münih'e giden uzak mesafe treninde dört kişilik bir masa bulduk.
+v|festlegen|er legt fest · hat festgelegt|bir tarih belirlemek|Wir haben den Termin für das Klassentreffen auf den ersten Samstag im Mai festgelegt.|Sınıf buluşmasını mayısın ilk cumartesisine aldık.
+v|feststellen|er stellt fest · hat festgestellt|bir hata tespit etmek|Beim Auspacken habe ich festgestellt, dass ein Teller fehlt.|Paketi açarken bir tabağın eksik olduğunu fark ettim.
+v|festziehen|er zieht fest · hat festgezogen|vidayı sıkmak|Zieh die Schraube am Sattel fest, bevor du mit dem Rad losfährst.|Bisikletle yola çıkmadan selenin vidasını sık.
+der|Fischmarkt|die Fischmärkte|balık pazarı|Auf dem Fischmarkt sind wir früh dran, bevor die Stände voll werden.|Tezgâhlar kalabalıklaşmadan balık pazarına erken gidiyoruz.
+der|Folgetermin|die Folgetermine|sonraki randevu|Beim Folgetermin möchte die Ärztin wissen, ob ich wieder ohne Schmerzen laufen kann.|Kontrol randevusunda doktor ağrısız yürüyüp yürüyemediğimi öğrenmek istiyor.
+der|Fotokurs|die Fotokurse|fotoğraf kursu|Im Fotokurs habe ich gelernt, wie ich auch bei wenig Licht gute Bilder mache.|Fotoğrafçılık kursunda az ışıkta da iyi fotoğraf çekmeyi öğrendim.
+v|freigeben|er gibt frei · hat freigegeben|dosyayı erişime açmak|Meine Kollegin hat mir die Datei freigegeben, jetzt kann ich den Plan lesen.|İş arkadaşım dosyayı benimle paylaştı, artık planı okuyabiliyorum.
+v|freischalten|er schaltet frei · hat freigeschaltet|erişimi etkinleştirmek|Die Bücherei schaltet meinen neuen Zugang morgen frei.|Kütüphane yeni erişimimi yarın açacak.
+w|freiwillig|-|isteğe bağlı|Meine Schwester hilft freiwillig jeden Freitag bei der Hausaufgabenbetreuung.|Kız kardeşim her cuma çocukların ödevlerine gönüllü olarak yardım ediyor.
+das|Gastgeschenk|die Gastgeschenke|ev sahibine verilen hediye|Als Gastgeschenk bringe ich ein Glas Marmelade aus unserem Garten mit.|Ev sahibine bahçemizden yapılmış bir kavanoz reçel götürüyorum.
+der|Gemüseladen|die Gemüseläden|sebze dükkânı|Vor dem Gemüseladen verkauft eine Frau im Frühling auch Tomatenpflanzen.|İlkbaharda sebze dükkânının önünde bir kadın domates fidesi de satıyor.
+die|Gemüsesuppe|die Gemüsesuppen|sebze çorbası|Für die Gemüsesuppe schneidet Mia die Möhren besonders klein, damit sie schneller gar sind.|Mia sebze çorbası için havuçları çabuk pişsin diye küçük küçük doğruyor.
+w|geräumig|-|ferah|Der neue Aufzug ist so geräumig, dass zwei Kinderwagen hineinpassen.|Yeni asansör o kadar geniş ki içine iki bebek arabası sığıyor.
+der|Getränkemarkt|die Getränkemärkte|içecek marketi|Beim Getränkemarkt gebe ich zuerst die leeren Kisten ab und kaufe dann Wasser.|İçecek marketinde önce boş kasaları teslim edip sonra su alıyorum.
+das|Gewürzregal|die Gewürzregale|baharat rafı|Im Gewürzregal steht der Zimt ganz hinten bei den Sachen fürs Backen.|Tarçın baharat rafının en arkasında, kek yapmak için kullanılan malzemelerin yanında.
+die|Glastür|die Glastüren|cam kapı|Auf die Glastür im Büro haben wir einen Aufkleber geklebt, damit man sie besser sieht.|Daha iyi görülsün diye ofisteki cam kapıya bir etiket yapıştırdık.
+die|Gürteltasche|die Gürteltaschen|kemer çantası|Beim Stadtfest trage ich mein Geld lieber in einer Gürteltasche.|Şehir şenliğinde paramı bel çantasında taşımayı tercih ediyorum.
+die|Haarbürste|die Haarbürsten|saç fırçası|Die kleine Haarbürste nehme ich zum Sport mit, weil sie in jedes Seitenfach passt.|Küçük saç fırçasını spora götürüyorum çünkü her yan göze sığıyor.
+das|Handschuhfach|die Handschuhfächer|torpido gözü|Die Parkscheibe steckt im Handschuhfach zwischen zwei Stadtplänen.|Park diski torpido gözünde, iki şehir haritasının arasında.
+der|Hauseingang|die Hauseingänge|bina girişi|Bitte stell dein Fahrrad heute nicht vor den Hauseingang, wir bekommen eine Lieferung.|Bugün bisikletini lütfen bina girişinin önüne koyma, teslimatımız var.
+die|Heimarbeit|die Heimarbeiten|evden çalışma|Für die Heimarbeit habe ich im Schlafzimmer eine kleine Ecke mit Tisch eingerichtet.|Evden çalışmak için yatak odasında masalı küçük bir köşe hazırladım.
+v|herausnehmen|er nimmt heraus · hat herausgenommen|kartı çıkarmak|Vor der Wäsche nehme ich immer alles aus den Hosentaschen heraus.|Çamaşır yıkamadan önce pantolon ceplerindeki her şeyi çıkarıyorum.
+w|hilfreich|-|yararlı|Für meine erste Zugreise allein waren deine Tipps sehr hilfreich.|Tek başıma ilk tren yolculuğum için tavsiyelerin çok işe yaradı.
+v|hineingehen|er geht hinein · ist hineingegangen|odanın içine girmek|Geh ruhig schon in den Kursraum hinein, die Lehrerin wartet dort.|Dersliğe şimdiden girebilirsin, öğretmen orada bekliyor.
+v|hinkommen|er kommt hin · ist hingekommen|kursa zamanında ulaşmak|Wie kann ich zum neuen Schwimmbad hinkommen, wenn heute keine Busse fahren?|Bugün otobüsler çalışmıyorsa yeni yüzme havuzuna nasıl giderim?
+v|hinschreiben|er schreibt hin · hat hingeschrieben|adı oraya yazmak|Schreib die neue Hausnummer gut lesbar auf den Zettel hin.|Yeni kapı numarasını kâğıda okunaklı bir şekilde yaz.
+v|hinstellen|er stellt hin · hat hingestellt|koliyi oraya koymak|Wo soll ich die Kiste mit den Winterjacken hinstellen?|Kışlık ceketlerin olduğu koliyi nereye koyayım?
+das|Hinweisschild|die Hinweisschilder|bilgilendirme levhası|Das Hinweisschild am Aufzug erklärt, wo sich die Treppe befindet.|Asansörün yanındaki bilgilendirme levhası merdivenin nerede olduğunu gösteriyor.
+der|Impftermin|die Impftermine|aşı randevusu|Nach meinem Impftermin habe ich mich im Wartezimmer noch zehn Minuten ausgeruht.|Aşı randevumdan sonra bekleme odasında on dakika daha dinlendim.
+das|Insektennetz|die Insektennetze|sineklik|Seit wir ein Insektennetz am Fenster haben, lassen wir es abends länger offen.|Pencereye sineklik taktığımızdan beri akşamları pencereyi daha uzun süre açık tutuyoruz.
+die|Jahreskarte|die Jahreskarten|yıllık bilet|Mit der Jahreskarte bin ich diesen Monat schon dreimal in den Zoo gegangen.|Yıllık kartımla bu ay üç kez hayvanat bahçesine gittim.
+die|Jeanshose|die Jeanshosen|kot pantolon|Die alte Jeanshose ist am Knie kaputt, ich ziehe sie nur noch im Garten an.|Eski kot pantolonun dizi yırtık, artık onu yalnızca bahçede giyiyorum.
+die|Jogginghose|die Jogginghosen|eşofman altı|Für die lange Autofahrt ziehe ich eine bequeme Jogginghose an.|Uzun araba yolculuğu için rahat bir eşofman altı giyiyorum.
+der|Kartenleser|die Kartenleser|kart okuyucu|Ich musste die Karte aus der Hülle nehmen, damit der Kartenleser sie erkennt.|Kart okuyucu kartı algılasın diye kartı kılıfından çıkardım.
+das|Kellerregal|die Kellerregale|bodrum rafı|Auf dem Kellerregal stehen noch drei Gläser von der Marmelade aus dem letzten Sommer.|Bodrum rafında geçen yazdan kalan üç kavanoz reçel var.
+die|Kellertür|die Kellertüren|bodrum kapısı|Die Kellertür hat geklemmt, deshalb musste ich den Nachbarn um Hilfe bitten.|Bodrum kapısı sıkıştığı için komşudan yardım istemek zorunda kaldım.
+der|Kinderpreis|die Kinderpreise|çocuk fiyatı|Den Kinderpreis bekommen auch die älteren Geschwister, wenn sie noch keine zwölf sind.|On iki yaşını doldurmamış büyük kardeşler de çocuk fiyatından yararlanıyor.
+die|Kleinanzeige|die Kleinanzeigen|küçük ilan|Über eine Kleinanzeige habe ich ein gebrauchtes Bett für das Gästezimmer gefunden.|Bir küçük ilan sayesinde misafir odası için ikinci el yatak buldum.
+w|knapp|-|kısa|Meine Zeit ist heute knapp, deshalb esse ich erst nach dem Kurs.|Bugün vaktim kısıtlı, o yüzden ancak kurstan sonra yemek yiyeceğim.
+der|Kontrolltermin|die Kontrolltermine|kontrol randevusu|Den nächsten Kontrolltermin für meine Brille habe ich im Herbst.|Gözlüğüm için bir sonraki kontrol randevum sonbaharda.
+die|Kundenkarte|die Kundenkarten|müşteri kartı|Meine Kundenkarte bleibt zu Hause, wenn ich nur schnell Milch holen will.|Yalnızca çabucak süt almaya gidiyorsam müşteri kartımı evde bırakıyorum.
+die|Kürbissuppe|die Kürbissuppen|balkabağı çorbası|Die Kürbissuppe vom Vortag schmeckt mit frischem Brot besonders gut.|Dünden kalan balkabağı çorbası taze ekmekle çok güzel oluyor.
+die|Lehrstelle|die Lehrstellen|mesleki eğitim pozisyonu|Mein Cousin hat eine Lehrstelle in der Werkstatt neben dem Bahnhof gefunden.|Kuzenim istasyonun yanındaki atölyede mesleki eğitim yeri buldu.
+die|Lerngruppe|die Lerngruppen|çalışma grubu|Unsere Lerngruppe trifft sich vor der Prüfung noch einmal in der Bücherei.|Çalışma grubumuz sınavdan önce kütüphanede bir kez daha buluşuyor.
+die|Leselampe|die Leselampen|okuma lambası|Für das untere Bett im Zug gibt es eine Leselampe mit eigener Taste.|Trendeki alt yatakta kendi düğmesi olan bir okuma lambası var.
+der|Lieferhinweis|die Lieferhinweise|teslimat notu|Im Lieferhinweis habe ich geschrieben, dass der Hund im Garten ist.|Teslimat notuna köpeğin bahçede olduğunu yazdım.
+v|loskommen|er kommt los · ist losgekommen|işten çıkabilmek|Heute komme ich vor halb sechs nicht von der Arbeit los.|Bugün beş buçuktan önce işten çıkamam.
+die|Mahngebühr|die Mahngebühren|gecikme bedeli|Die Bibliothek verlangt eine Mahngebühr, weil ich den Roman zu spät zurückgebracht habe.|Romanı geç iade ettiğim için kütüphane gecikme ücreti istiyor.
+die|Medikamentenliste|die Medikamentenlisten|ilaç listesi|Die Ärztin hat mich gebeten, die Medikamentenliste zum nächsten Besuch mitzubringen.|Doktor bir sonraki muayeneye ilaç listemi getirmemi istedi.
+die|Mietbescheinigung|die Mietbescheinigungen|kiracı belgesi|Die Mietbescheinigung kann ich morgen direkt beim Vermieter abholen.|Kiracı belgesini yarın doğrudan ev sahibinden alabilirim.
+v|mitgeben|er gibt mit · hat mitgegeben|çocuğun yanına yemek vermek|Meine Mutter hat mir für die lange Fahrt ein belegtes Brot mitgegeben.|Annem uzun yol için yanıma bir sandviç verdi.
+v|mitlaufen|er läuft mit · ist mitgelaufen|grupla birlikte koşmak|Beim Lauf im Park bin ich die ersten zwei Runden mitgelaufen.|Parktaki koşunun ilk iki turuna ben de katıldım.
+v|mitlesen|er liest mit · hat mitgelesen|alıştırmada okumayı takip etmek|Wenn ich meinem Sohn vorlese, liest er einzelne Wörter schon mit.|Oğluma sesli okuduğumda bazı kelimeleri o da benimle birlikte okuyabiliyor.
+v|mitschreiben|er schreibt mit · hat mitgeschrieben|derste not tutmak|Im Kurs schreibe ich nur die neuen Wörter mit und höre sonst zu.|Kursta yalnızca yeni kelimeleri not alıyorum, geri kalan zamanda dinliyorum.
+der|Müllkorb|die Müllkörbe|çöp sepeti|Unter der Bank ist ein Müllkorb für leere Becher.|Bankın altında boş bardaklar için bir çöp kutusu var.
+die|Nachbarschaftshilfe|die Nachbarschaftshilfen|komşuluk yardımı|Bei der Nachbarschaftshilfe kann ich jeden Montag jemanden zum Einkaufen begleiten.|Komşuluk yardımı kapsamında her pazartesi birinin alışverişine eşlik edebilirim.
+die|Nachfüllpackung|die Nachfüllpackungen|yedek dolum paketi|Mit einer Nachfüllpackung brauche ich für die Seife keine neue Flasche zu kaufen.|Yedek dolum paketiyle sabun için yeni şişe almam gerekmiyor.
+v|nachlegen|er legt nach · hat nachgelegt|sobaya odun eklemek|Die Flammen sind klein geworden, deshalb legt mein Vater noch ein Stück Holz nach.|Alevler küçüldüğü için babam ateşe bir parça odun daha koyuyor.
+v|nachlesen|er liest nach · hat nachgelesen|kuralları açıp okumak|Die Öffnungszeiten kannst du auf der Webseite vom Rathaus nachlesen.|Çalışma saatlerine belediyenin internet sitesinden bakabilirsin.
+v|nachstellen|er stellt nach · hat nachgestellt|saatin ayarını düzeltmek|Meine Armbanduhr geht fünf Minuten nach, ich muss sie nachstellen.|Kol saatim beş dakika geri, ayarlamam gerekiyor.
+der|Notfallplan|die Notfallpläne|acil durum planı|In unserem Notfallplan steht, dass sich alle vor der Turnhalle treffen.|Acil durum planımıza göre herkes spor salonunun önünde buluşuyor.
+der|Notizzettel|die Notizzettel|not kâğıdı|Auf meinem Notizzettel habe ich mir den Namen des neuen Nachbarn aufgeschrieben.|Not kâğıdıma yeni komşunun adını yazdım.
+die|Paketabgabe|die Paketabgaben|paket bırakma işlemi|Die Paketabgabe im Laden endet eine Viertelstunde vor Ladenschluss.|Dükkânda paket kabulü, kapanıştan on beş dakika önce bitiyor.
+die|Papiertonne|die Papiertonnen|atık kâğıt kutusu|Leere Schachteln falte ich klein, damit sie in die Papiertonne passen.|Boş kutuları kâğıt kutusuna sığacak şekilde katlıyorum.
+der|Pausenraum|die Pausenräume|mola odası|Im Pausenraum gibt es einen Wasserkocher, aber die Tassen bringen wir selbst mit.|Mola odasında su ısıtıcısı var, fincanları kendimiz getiriyoruz.
+die|Personalnummer|die Personalnummern|personel numarası|Meine Personalnummer brauche ich, wenn ich online Urlaub beantrage.|İnternetten izin başvurusu yaparken personel numaram gerekiyor.
+das|Pfandgeld|-|depozito parası|Vom Pfandgeld haben wir nach dem Grillfest zwei Brote gekauft.|Mangal partisinden sonra depozitodan gelen parayla iki ekmek aldık.
+die|Picknickdecke|die Picknickdecken|piknik örtüsü|Breite die Picknickdecke unter dem Baum aus, dort ist der Boden trocken.|Piknik örtüsünü ağacın altına ser, orada zemin kuru.
+das|Postfach|die Postfächer|posta gözü|Ich prüfe mein Postfach erst in der Pause, sonst werde ich mit der Arbeit nicht fertig.|Gelen kutuma ancak molada bakıyorum, yoksa işimi bitiremiyorum.
+die|Praktikumsstelle|die Praktikumsstellen|staj yeri|Für eine Praktikumsstelle im Hotel muss ich einen kurzen Lebenslauf schicken.|Otelde staj yapabilmek için kısa bir özgeçmiş göndermeliyim.
+die|Prüfungsgebühr|die Prüfungsgebühren|sınav ücreti|Kann ich die Prüfungsgebühr am Tag der Anmeldung bar bezahlen?|Sınav ücretini kayıt günü nakit ödeyebilir miyim?
+der|Putzschrank|die Putzschränke|temizlik malzemesi dolabı|Im Putzschrank stehen die Reinigungsmittel ganz oben, damit die Kinder nicht drankommen.|Temizlik malzemeleri çocuklar ulaşamasın diye temizlik dolabının en üstünde duruyor.
+der|Rastplatz|die Rastplätze|mola yeri|Am nächsten Rastplatz machen wir eine Pause und essen unsere Brote.|Bir sonraki dinlenme yerinde mola verip sandviçlerimizi yiyeceğiz.
+die|Reisekasse|die Reisekassen|seyahat bütçesi|Für die Reisekasse legt jeder vor dem Urlaub fünfzig Euro zur Seite.|Tatil bütçesi için herkes önceden elli avro ayırıyor.
+das|Rückgeld|-|para üstü|Mir ist erst draußen aufgefallen, dass ich zu wenig Rückgeld bekommen habe.|Eksik para üstü aldığımı ancak dışarı çıkınca fark ettim.
+die|Ruhepause|die Ruhepausen|dinlenme arası|Nach den ersten fünf Kilometern brauchen die Kinder eine kurze Ruhepause.|İlk beş kilometreden sonra çocukların kısa bir dinlenme molasına ihtiyacı oluyor.
+w|übersichtlich|-|düzenli ve kolay anlaşılır|Der neue Fahrplan ist übersichtlich, weil jede Linie eine eigene Farbe hat.|Yeni sefer çizelgesi kolay okunuyor, çünkü her hattın ayrı rengi var.
+v|umdrehen|er dreht um · hat umgedreht|kâğıdı ters çevirmek|Dreh das Blatt um, auf der Rückseite steht die zweite Aufgabe.|Kâğıdı çevir, ikinci soru arka yüzünde yazıyor.
+v|umschreiben|er schreibt um · hat umgeschrieben|mesajı başka türlü yazmak|Die erste Nachricht klang zu streng, deshalb habe ich sie umgeschrieben.|İlk mesaj fazla sert geldiği için onu başka türlü yazdım.
+v|umstellen|er stellt um · hat umgestellt|masanın yerini değiştirmek|Wir stellen das Sofa um, weil die Sonne am alten Platz direkt ins Gesicht scheint.|Eski yerinde güneş tam yüzümüze vurduğu için kanepenin yerini değiştiriyoruz.
+das|USB-Kabel|die USB-Kabel|USB kablosu|Mit dem USB-Kabel vom Drucker kann ich mein Tablet nicht laden.|Yazıcının USB kablosuyla tabletimi şarj edemiyorum.
+die|Versandadresse|die Versandadressen|gönderim adresi|Als Versandadresse habe ich das Büro angegeben, weil dort immer jemand da ist.|Orada hep biri bulunduğu için gönderim adresi olarak ofisi verdim.
+pl|Versandkosten|-|gönderim masrafları|Ab drei Büchern fallen bei diesem Laden keine Versandkosten an.|Bu dükkânda üç kitap ve üzerindeki siparişlerde gönderim ücreti yok.
+die|Videokonferenz|die Videokonferenzen|görüntülü toplantı|Während der Videokonferenz hat es an der Tür geklingelt, und ich habe das Mikrofon ausgeschaltet.|Görüntülü toplantı sırasında kapı çaldı, ben de mikrofonu kapattım.
+die|Vollzeitstelle|die Vollzeitstellen|tam zamanlı pozisyon|Seit die Kinder zur Schule gehen, sucht mein Bruder wieder eine Vollzeitstelle.|Çocuklar okula başladığından beri kardeşim yeniden tam zamanlı iş arıyor.
+v|vorbeigehen|er geht vorbei · ist vorbeigegangen|okulun önünden geçmek|Wenn du an der Bäckerei vorbeigehst, bring bitte zwei Brötchen mit.|Fırının önünden geçersen lütfen iki küçük ekmek getir.
+v|vorlegen|er legt vor · hat vorgelegt|kimliğini göstermek|Beim Abholen vom Paket musste ich meinen Ausweis vorlegen.|Paketi teslim alırken kimliğimi göstermem gerekti.
+v|vorlesen|er liest vor · hat vorgelesen|çocuklara sesli okumak|Heute möchte meine Tochter ihrer Oma die Geschichte mit dem Hund vorlesen.|Kızım bugün büyükannesine köpekli hikâyeyi sesli okumak istiyor.
+der|Wanderweg|die Wanderwege|yürüyüş yolu|Der Wanderweg ist nach der Brücke so schmal, dass wir hintereinander gehen müssen.|Köprüden sonra yürüyüş yolu o kadar dar ki tek sıra yürümemiz gerekiyor.
+die|Warteliste|die Wartelisten|bekleme listesi|Der Kochkurs war schon voll, aber ich habe mich auf die Warteliste setzen lassen.|Yemek kursu doluydu ama adımı bekleme listesine yazdırdım.
+die|Wartezeit|die Wartezeiten|bekleme süresi|Die Wartezeit am Schalter habe ich genutzt, um meiner Mutter zu schreiben.|Gişede beklerken anneme mesaj yazdım.
+der|Wäschekorb|die Wäschekörbe|çamaşır sepeti|Im Wäschekorb liegt ein rotes Tuch, das ich getrennt waschen möchte.|Çamaşır sepetinde ayrı yıkamak istediğim kırmızı bir bez var.
+das|Wechselgeld|-|para üstü|Am Flohmarkt hatte ich zuerst kein Wechselgeld für die Kundin mit dem Zehner.|Bit pazarında on avro veren müşteriye başta para üstü veremedim.
+die|Wegbeschreibung|die Wegbeschreibungen|yol tarifi|Dank deiner Wegbeschreibung habe ich den Hintereingang beim ersten Versuch gefunden.|Tarifin sayesinde arka girişi ilk denemede buldum.
+v|weglegen|er legt weg · hat weggelegt|telefonu kenara koymak|Beim Abendessen legen wir die Handys weg, damit wir miteinander reden können.|Akşam yemeğinde sohbet edebilmek için telefonlarımızı bir kenara koyuyoruz.
+v|wegnehmen|er nimmt weg · hat weggenommen|boş kâseyi kaldırmak|Nimm bitte den leeren Karton weg, ich brauche Platz für das Frühstück.|Lütfen boş koliyi kaldır, kahvaltı için yere ihtiyacım var.
+v|wegstellen|er stellt weg · hat weggestellt|bisikleti kenara kaldırmak|Stell den Eimer bitte weg, damit niemand im Flur darüber fällt.|Koridorda kimse takılıp düşmesin diye kovayı kenara kaldır.
+v|weitergeben|er gibt weiter · hat weitergegeben|mesajı iletmek|Gib die neue Uhrzeit bitte auch an die anderen aus dem Kurs weiter.|Yeni saati lütfen kurstaki diğer kişilere de bildir.
+v|weiterkommen|er kommt weiter · ist weitergekommen|görevde ilerlemek|Mit diesem Beispiel komme ich bei der Matheaufgabe endlich weiter.|Bu örnekle matematik sorusunda sonunda ilerleyebiliyorum.
+v|weiterlesen|er liest weiter · hat weitergelesen|romanı okumaya devam etmek|An der Haltestelle konnte ich nicht weiterlesen, weil der Wind die Seiten umblätterte.|Rüzgâr sayfaları çevirdiği için durakta okumaya devam edemedim.
+der|Wochenmarkt|die Wochenmärkte|semt pazarı|Die Erdbeeren auf dem Wochenmarkt riechen so gut, dass ich gleich zwei Schalen kaufe.|Semt pazarındaki çilekler öyle güzel kokuyor ki hemen iki kâse alıyorum.
+w|wohnlich|-|yaşamaya elverişli|Mit der kleinen Lampe und den Pflanzen wirkt der Flur viel wohnlicher.|Küçük lamba ve bitkilerle koridor çok daha sıcak görünüyor.
+die|Wohnungsbesichtigung|die Wohnungsbesichtigungen|ev görme randevusu|Zur Wohnungsbesichtigung nehme ich ein Maßband für das Bett mit.|Daireyi görmeye giderken yatağın ölçüsü için mezura götürüyorum.
+der|Zahnarzttermin|die Zahnarzttermine|dişçi randevusu|Vor dem Zahnarzttermin putzt Emil sich noch einmal gründlich die Zähne.|Dişçi randevusundan önce Emil dişlerini bir kez daha iyice fırçalıyor.
+der|Zeitplan|die Zeitpläne|zaman çizelgesi|Im Zeitplan für den Ausflug fehlt eine Pause für die Rückfahrt.|Gezi programında dönüş yolculuğu için bir mola eksik.
+v|zubinden|er bindet zu · hat zugebunden|ayakkabıların bağcığını bağlamak|Bind dir die Schuhe zu, bevor du die Treppe hinuntergehst.|Merdivenden inmeden ayakkabılarının bağcıklarını bağla.
+v|zudrehen|er dreht zu · hat zugedreht|musluğu çevirip kapatmak|Hast du nach dem Gießen den Wasserhahn im Garten zugedreht?|Sulamadan sonra bahçedeki musluğu kapattın mı?
+v|zugeben|er gibt zu · hat zugegeben|hatayı kabul etmek|Ich muss zugeben, dass ich den Namen von unserem neuen Lehrer vergessen habe.|Yeni öğretmenimizin adını unuttuğumu itiraf etmeliyim.
+die|Zugnummer|die Zugnummern|tren numarası|Auf der Anzeige steht dieselbe Zugnummer wie auf unserer Fahrkarte.|Panoda biletimizdekiyle aynı tren numarası yazıyor.
+v|zurückgehen|er geht zurück · ist zurückgegangen|girişe geri dönmek|Ich muss noch einmal zum Tisch zurückgehen, dort liegt meine Brille.|Masaya geri dönmem gerekiyor, gözlüğüm orada duruyor.
+v|zurücklegen|er legt zurück · hat zurückgelegt|kitabı yerine koymak|Leg die Schere nach dem Basteln bitte wieder in die Schublade zurück.|El işi bitince makası lütfen çekmeceye geri koy.
+v|zurücknehmen|er nimmt zurück · hat zurückgenommen|söylediğini geri almak|Die Verkäuferin nimmt die Schuhe zurück, weil ich den Kassenbon noch habe.|Kasa fişim durduğu için satış görevlisi ayakkabıları geri alıyor.
+v|zurückrufen|er ruft zurück · hat zurückgerufen|sonra geri aramak|Ich rufe die Werkstatt zurück, sobald ich zu Hause bin.|Eve varır varmaz tamirciyi geri arayacağım.
+v|zurückschreiben|er schreibt zurück · hat zurückgeschrieben|komşuya yazılı cevap vermek|Ich habe dem Hotel gleich zurückgeschrieben, weil ich das Zimmer behalten wollte.|Odayı tutmak istediğim için otele hemen yanıt yazdım.
+v|zurückstellen|er stellt zurück · hat zurückgestellt|sandalyeyi yerine koymak|Stell die Bücher ins Regal zurück, wenn du sie nicht mitnehmen möchtest.|Kitapları almak istemiyorsan rafa geri koy.
+v|zurückzahlen|er zahlt zurück · hat zurückgezahlt|ödünç alınan parayı geri ödemek|Das geliehene Geld kann ich dir nächsten Monat zurückzahlen.|Ödünç aldığım parayı sana gelecek ay geri ödeyebilirim.
+v|zusagen|er sagt zu · hat zugesagt|buluşmaya katılacağını bildirmek|Hast du für das Abendessen am Samstag schon zugesagt?|Cumartesi akşam yemeğine geleceğini söyledin mi?
+v|zusammenkommen|er kommt zusammen · ist zusammengekommen|avluda bir araya gelmek|Am ersten Sonntag im Monat kommt unsere Familie bei den Großeltern zusammen.|Ailemiz her ayın ilk pazar günü büyükannemle büyükbabamın evinde toplanıyor.
+die|Zutatenliste|die Zutatenlisten|malzeme listesi|Wenn ich für meine Freundin koche, prüfe ich die Zutatenliste auf Nüsse.|Arkadaşıma yemek yaparken malzeme listesinde kuruyemiş olup olmadığına bakıyorum.
+v|zuziehen|er zieht zu · hat zugezogen|perdeleri çekip kapatmak|Zieh die Vorhänge bitte zu, die Sonne scheint direkt auf den Fernseher.|Perdeleri lütfen kapat, güneş doğrudan televizyona vuruyor.
