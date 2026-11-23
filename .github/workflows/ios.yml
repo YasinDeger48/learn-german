@@ -26,7 +26,7 @@ jobs:
           plutil -lint Info.plist
           cp Info.plist "$app/"
           # Resources are copied flat into the bundle, like Xcode does for groups.
-          find Resources -type f \( -name '*.json' -o -name '*.ttf' -o -name '*.png' \) -exec cp {} "$app/" \;
+          find Resources -type f \( -name '*.json' -o -name '*.ttf' -o -name '*.png' -o -name '*.jpg' \) -exec cp {} "$app/" \;
           swift_sdk="$(xcrun --sdk iphoneos --show-sdk-path)"
           find Sources -name '*.swift' -print0 | xargs -0 xcrun --sdk iphoneos swiftc -parse-as-library -O \
             -target arm64-apple-ios16.0 -sdk "$swift_sdk" -o "$app/Almanca"

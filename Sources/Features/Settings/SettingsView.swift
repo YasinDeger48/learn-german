@@ -69,7 +69,7 @@ struct SettingsView: View {
                     Text(t("settings.backupFooter"))
                 }
                 Section(t("settings.about")) {
-                    Link(t("settings.privacy"), destination: URL(string: "https://github.com/YasinDeger48/learn-german/blob/master/PRIVACY.md")!)
+                    Link(t("settings.privacy"), destination: URL(string: "https://yasindeger48.github.io/deschly-site/")!)
                     HStack {
                         Text(t("settings.version"))
                         Spacer()

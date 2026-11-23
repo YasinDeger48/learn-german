@@ -94,6 +94,9 @@ struct TodayView: View {
         if let text = daily.today {
             Button { open(.reading(text.id)) } label: {
                 VStack(alignment: .leading, spacing: 14) {
+                    if let cover = Covers.image(text.id) {
+                        CoverImage(image: cover, height: 160, radius: 18)
+                    }
                     Text(t("today.dailyMeta", text.level, text.minutes)).font(DS.text(13)).foregroundColor(DS.onNightMuted)
                     Text(text.title)
                         .font(DS.display(34, heavy: false))

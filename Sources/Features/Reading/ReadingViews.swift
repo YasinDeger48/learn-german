@@ -55,6 +55,9 @@ struct DailyReadingView: View {
         ZStack(alignment: .bottom) {
             ScrollView {
                 VStack(alignment: .leading, spacing: 0) {
+                    if let cover = Covers.image(text.id) {
+                        CoverImage(image: cover, height: 220).padding(.bottom, 16)
+                    }
                     Text("\(text.level) · \(text.topic) · \(text.minutes) min")
                         .font(DS.text(13))
                         .foregroundColor(DS.muted)
@@ -310,6 +313,10 @@ struct ReadingHomeView: View {
 
     private func row(_ text: DailyText, note: String, highlight: Bool) -> some View {
         HStack(spacing: 14) {
+            if let cover = Covers.image(text.id) {
+                CoverImage(image: cover, height: highlight ? 72 : 56, radius: 14)
+                    .frame(width: highlight ? 96 : 76)
+            }
             VStack(alignment: .leading, spacing: 4) {
                 Text(note).font(DS.text(12)).foregroundColor(highlight ? DS.onNightMuted : DS.muted)
                 Text(text.title).font(DS.display(highlight ? 24 : 18, heavy: false)).foregroundColor(highlight ? DS.onNight : DS.ink)

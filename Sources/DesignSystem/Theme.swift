@@ -72,6 +72,30 @@ struct LinaAvatar: View {
     }
 }
 
+/// Cover illustration of a daily text (Resources/Covers/<id>.jpg). Nothing is shown when a text has no cover yet.
+enum Covers {
+    static func image(_ id: String) -> UIImage? {
+        guard let path = Bundle.main.path(forResource: id, ofType: "jpg") else { return nil }
+        return UIImage(contentsOfFile: path)
+    }
+}
+
+struct CoverImage: View {
+    let image: UIImage
+    var height: CGFloat = 200
+    var radius: CGFloat = DS.radius
+
+    var body: some View {
+        Image(uiImage: image)
+            .resizable()
+            .scaledToFill()
+            .frame(maxWidth: .infinity)
+            .frame(height: height)
+            .clipShape(RoundedRectangle(cornerRadius: radius, style: .continuous))
+            .accessibilityHidden(true)
+    }
+}
+
 /// "deschly." wordmark.
 struct Wordmark: View {
     var size: CGFloat = 22
