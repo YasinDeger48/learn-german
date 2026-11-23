@@ -1,0 +1,740 @@
+Dativ|Ich zeige ___ Nachbarn den Plan.|dem|der;die;den|Alıcı Dativ alır: dem Nachbarn.|Ben komşuya planı gösteriyorum.
+Dativ|Ich gebe ___ Nachbarn einen Stift.|dem|der;die;den|Alıcı Dativ alır: dem Nachbarn.|Ben komşuya bir kalem veriyorum.
+Dativ|Ich schicke ___ Nachbarn eine Nachricht.|dem|der;die;den|Alıcı Dativ alır: dem Nachbarn.|Ben komşuya bir mesaj gönderiyorum.
+Dativ|Ich bringe ___ Nachbarn ein Glas Wasser.|dem|der;die;den|Alıcı Dativ alır: dem Nachbarn.|Ben komşuya bir bardak su getiriyorum.
+Dativ|Ich erkläre ___ Nachbarn die Regel.|dem|der;die;den|Alıcı Dativ alır: dem Nachbarn.|Ben komşuya kuralı açıklıyorum.
+Dativ|Ich zeige ___ Kollegin den Plan.|der|dem;die;den|Alıcı Dativ alır: der Kollegin.|Ben iş arkadaşıma planı gösteriyorum.
+Dativ|Ich gebe ___ Kollegin einen Stift.|der|dem;die;den|Alıcı Dativ alır: der Kollegin.|Ben iş arkadaşıma bir kalem veriyorum.
+Dativ|Ich schicke ___ Kollegin eine Nachricht.|der|dem;die;den|Alıcı Dativ alır: der Kollegin.|Ben iş arkadaşıma bir mesaj gönderiyorum.
+Dativ|Ich bringe ___ Kollegin ein Glas Wasser.|der|dem;die;den|Alıcı Dativ alır: der Kollegin.|Ben iş arkadaşıma bir bardak su getiriyorum.
+Dativ|Ich erkläre ___ Kollegin die Regel.|der|dem;die;den|Alıcı Dativ alır: der Kollegin.|Ben iş arkadaşıma kuralı açıklıyorum.
+Dativ|Ich zeige ___ Kind den Plan.|dem|der;die;den|Alıcı Dativ alır: dem Kind.|Ben çocuğa planı gösteriyorum.
+Dativ|Ich gebe ___ Kind einen Stift.|dem|der;die;den|Alıcı Dativ alır: dem Kind.|Ben çocuğa bir kalem veriyorum.
+Dativ|Ich schicke ___ Kind eine Nachricht.|dem|der;die;den|Alıcı Dativ alır: dem Kind.|Ben çocuğa bir mesaj gönderiyorum.
+Dativ|Ich bringe ___ Kind ein Glas Wasser.|dem|der;die;den|Alıcı Dativ alır: dem Kind.|Ben çocuğa bir bardak su getiriyorum.
+Dativ|Ich erkläre ___ Kind die Regel.|dem|der;die;den|Alıcı Dativ alır: dem Kind.|Ben çocuğa kuralı açıklıyorum.
+Dativ|Ich zeige ___ Kunden den Plan.|dem|der;die;den|Alıcı Dativ alır: dem Kunden.|Ben müşteriye planı gösteriyorum.
+Dativ|Ich gebe ___ Kunden einen Stift.|dem|der;die;den|Alıcı Dativ alır: dem Kunden.|Ben müşteriye bir kalem veriyorum.
+Dativ|Ich schicke ___ Kunden eine Nachricht.|dem|der;die;den|Alıcı Dativ alır: dem Kunden.|Ben müşteriye bir mesaj gönderiyorum.
+Dativ|Ich bringe ___ Kunden ein Glas Wasser.|dem|der;die;den|Alıcı Dativ alır: dem Kunden.|Ben müşteriye bir bardak su getiriyorum.
+Dativ|Ich erkläre ___ Kunden die Regel.|dem|der;die;den|Alıcı Dativ alır: dem Kunden.|Ben müşteriye kuralı açıklıyorum.
+Dativ|Ich zeige ___ Lehrerin den Plan.|der|dem;die;den|Alıcı Dativ alır: der Lehrerin.|Ben öğretmene planı gösteriyorum.
+Dativ|Ich gebe ___ Lehrerin einen Stift.|der|dem;die;den|Alıcı Dativ alır: der Lehrerin.|Ben öğretmene bir kalem veriyorum.
+Dativ|Ich schicke ___ Lehrerin eine Nachricht.|der|dem;die;den|Alıcı Dativ alır: der Lehrerin.|Ben öğretmene bir mesaj gönderiyorum.
+Dativ|Ich bringe ___ Lehrerin ein Glas Wasser.|der|dem;die;den|Alıcı Dativ alır: der Lehrerin.|Ben öğretmene bir bardak su getiriyorum.
+Dativ|Ich erkläre ___ Lehrerin die Regel.|der|dem;die;den|Alıcı Dativ alır: der Lehrerin.|Ben öğretmene kuralı açıklıyorum.
+Dativ|Ich zeige ___ Team den Plan.|dem|der;die;den|Alıcı Dativ alır: dem Team.|Ben ekibe planı gösteriyorum.
+Dativ|Ich gebe ___ Team einen Stift.|dem|der;die;den|Alıcı Dativ alır: dem Team.|Ben ekibe bir kalem veriyorum.
+Dativ|Ich schicke ___ Team eine Nachricht.|dem|der;die;den|Alıcı Dativ alır: dem Team.|Ben ekibe bir mesaj gönderiyorum.
+Dativ|Ich bringe ___ Team ein Glas Wasser.|dem|der;die;den|Alıcı Dativ alır: dem Team.|Ben ekibe bir bardak su getiriyorum.
+Dativ|Ich erkläre ___ Team die Regel.|dem|der;die;den|Alıcı Dativ alır: dem Team.|Ben ekibe kuralı açıklıyorum.
+Dativ|Ich zeige ___ Hausmeister den Plan.|dem|der;die;den|Alıcı Dativ alır: dem Hausmeister.|Ben apartman görevlisine planı gösteriyorum.
+Dativ|Ich gebe ___ Hausmeister einen Stift.|dem|der;die;den|Alıcı Dativ alır: dem Hausmeister.|Ben apartman görevlisine bir kalem veriyorum.
+Dativ|Ich schicke ___ Hausmeister eine Nachricht.|dem|der;die;den|Alıcı Dativ alır: dem Hausmeister.|Ben apartman görevlisine bir mesaj gönderiyorum.
+Dativ|Ich bringe ___ Hausmeister ein Glas Wasser.|dem|der;die;den|Alıcı Dativ alır: dem Hausmeister.|Ben apartman görevlisine bir bardak su getiriyorum.
+Dativ|Ich erkläre ___ Hausmeister die Regel.|dem|der;die;den|Alıcı Dativ alır: dem Hausmeister.|Ben apartman görevlisine kuralı açıklıyorum.
+Dativ|Ich zeige ___ Ärztin den Plan.|der|dem;die;den|Alıcı Dativ alır: der Ärztin.|Ben doktora planı gösteriyorum.
+Dativ|Ich gebe ___ Ärztin einen Stift.|der|dem;die;den|Alıcı Dativ alır: der Ärztin.|Ben doktora bir kalem veriyorum.
+Dativ|Ich schicke ___ Ärztin eine Nachricht.|der|dem;die;den|Alıcı Dativ alır: der Ärztin.|Ben doktora bir mesaj gönderiyorum.
+Dativ|Ich bringe ___ Ärztin ein Glas Wasser.|der|dem;die;den|Alıcı Dativ alır: der Ärztin.|Ben doktora bir bardak su getiriyorum.
+Dativ|Ich erkläre ___ Ärztin die Regel.|der|dem;die;den|Alıcı Dativ alır: der Ärztin.|Ben doktora kuralı açıklıyorum.
+Dativ|Ich zeige ___ Mädchen den Plan.|dem|der;die;den|Alıcı Dativ alır: dem Mädchen.|Ben kız çocuğuna planı gösteriyorum.
+Dativ|Ich gebe ___ Mädchen einen Stift.|dem|der;die;den|Alıcı Dativ alır: dem Mädchen.|Ben kız çocuğuna bir kalem veriyorum.
+Dativ|Ich schicke ___ Mädchen eine Nachricht.|dem|der;die;den|Alıcı Dativ alır: dem Mädchen.|Ben kız çocuğuna bir mesaj gönderiyorum.
+Dativ|Ich bringe ___ Mädchen ein Glas Wasser.|dem|der;die;den|Alıcı Dativ alır: dem Mädchen.|Ben kız çocuğuna bir bardak su getiriyorum.
+Dativ|Ich erkläre ___ Mädchen die Regel.|dem|der;die;den|Alıcı Dativ alır: dem Mädchen.|Ben kız çocuğuna kuralı açıklıyorum.
+Dativ|Ich zeige ___ Besucherin den Plan.|der|dem;die;den|Alıcı Dativ alır: der Besucherin.|Ben ziyaretçiye planı gösteriyorum.
+Dativ|Ich gebe ___ Besucherin einen Stift.|der|dem;die;den|Alıcı Dativ alır: der Besucherin.|Ben ziyaretçiye bir kalem veriyorum.
+Dativ|Ich schicke ___ Besucherin eine Nachricht.|der|dem;die;den|Alıcı Dativ alır: der Besucherin.|Ben ziyaretçiye bir mesaj gönderiyorum.
+Dativ|Ich bringe ___ Besucherin ein Glas Wasser.|der|dem;die;den|Alıcı Dativ alır: der Besucherin.|Ben ziyaretçiye bir bardak su getiriyorum.
+Dativ|Ich erkläre ___ Besucherin die Regel.|der|dem;die;den|Alıcı Dativ alır: der Besucherin.|Ben ziyaretçiye kuralı açıklıyorum.
+Wechselpräpositionen – Ort|Das Buch liegt auf ___ Tisch.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Kitap masanın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Buch auf ___ Tisch.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Kitabı masanın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handy liegt auf ___ Tisch.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Telefon masanın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handy auf ___ Tisch.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Telefonı masanın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handtuch liegt auf ___ Tisch.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Havlu masanın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handtuch auf ___ Tisch.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Havluyu masanın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Heft liegt auf ___ Tisch.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Defter masanın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Heft auf ___ Tisch.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Defteri masanın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Glas steht auf ___ Tisch.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Bardak masanın üstünde.
+Wechselpräpositionen – Richtung|Ich stelle das Glas auf ___ Tisch.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Bardağı masanın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Buch liegt auf ___ Bank.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Kitap bankın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Buch auf ___ Bank.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Kitabı bankın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handy liegt auf ___ Bank.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Telefon bankın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handy auf ___ Bank.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Telefonı bankın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handtuch liegt auf ___ Bank.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Havlu bankın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handtuch auf ___ Bank.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Havluyu bankın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Heft liegt auf ___ Bank.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Defter bankın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Heft auf ___ Bank.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Defteri bankın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Glas steht auf ___ Bank.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Bardak bankın üstünde.
+Wechselpräpositionen – Richtung|Ich stelle das Glas auf ___ Bank.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Bardağı bankın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Buch liegt auf ___ Regal.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Kitap rafın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Buch auf ___ Regal.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Kitabı rafın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handy liegt auf ___ Regal.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Telefon rafın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handy auf ___ Regal.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Telefonı rafın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handtuch liegt auf ___ Regal.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Havlu rafın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handtuch auf ___ Regal.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Havluyu rafın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Heft liegt auf ___ Regal.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Defter rafın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Heft auf ___ Regal.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Defteri rafın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Glas steht auf ___ Regal.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Bardak rafın üstünde.
+Wechselpräpositionen – Richtung|Ich stelle das Glas auf ___ Regal.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Bardağı rafın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Buch liegt auf ___ Schrank.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Kitap dolabın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Buch auf ___ Schrank.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Kitabı dolabın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handy liegt auf ___ Schrank.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Telefon dolabın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handy auf ___ Schrank.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Telefonı dolabın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handtuch liegt auf ___ Schrank.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Havlu dolabın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handtuch auf ___ Schrank.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Havluyu dolabın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Heft liegt auf ___ Schrank.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Defter dolabın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Heft auf ___ Schrank.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Defteri dolabın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Glas steht auf ___ Schrank.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Bardak dolabın üstünde.
+Wechselpräpositionen – Richtung|Ich stelle das Glas auf ___ Schrank.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Bardağı dolabın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Buch liegt auf ___ Ablage.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Kitap dosya rafının üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Buch auf ___ Ablage.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Kitabı dosya rafının üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handy liegt auf ___ Ablage.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Telefon dosya rafının üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handy auf ___ Ablage.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Telefonı dosya rafının üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handtuch liegt auf ___ Ablage.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Havlu dosya rafının üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handtuch auf ___ Ablage.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Havluyu dosya rafının üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Heft liegt auf ___ Ablage.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Defter dosya rafının üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Heft auf ___ Ablage.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Defteri dosya rafının üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Glas steht auf ___ Ablage.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Bardak dosya rafının üstünde.
+Wechselpräpositionen – Richtung|Ich stelle das Glas auf ___ Ablage.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Bardağı dosya rafının üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Buch liegt auf ___ Bett.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Kitap yatağın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Buch auf ___ Bett.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Kitabı yatağın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handy liegt auf ___ Bett.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Telefon yatağın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handy auf ___ Bett.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Telefonı yatağın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handtuch liegt auf ___ Bett.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Havlu yatağın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handtuch auf ___ Bett.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Havluyu yatağın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Heft liegt auf ___ Bett.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Defter yatağın üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Heft auf ___ Bett.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Defteri yatağın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Glas steht auf ___ Bett.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Bardak yatağın üstünde.
+Wechselpräpositionen – Richtung|Ich stelle das Glas auf ___ Bett.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Bardağı yatağın üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Buch liegt auf ___ Nachttisch.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Kitap komodinin üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Buch auf ___ Nachttisch.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Kitabı komodinin üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handy liegt auf ___ Nachttisch.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Telefon komodinin üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handy auf ___ Nachttisch.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Telefonı komodinin üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handtuch liegt auf ___ Nachttisch.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Havlu komodinin üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handtuch auf ___ Nachttisch.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Havluyu komodinin üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Heft liegt auf ___ Nachttisch.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Defter komodinin üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Heft auf ___ Nachttisch.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Defteri komodinin üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Glas steht auf ___ Nachttisch.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Bardak komodinin üstünde.
+Wechselpräpositionen – Richtung|Ich stelle das Glas auf ___ Nachttisch.|den|die;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Bardağı komodinin üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Buch liegt auf ___ Kommode.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Kitap şifonyerin üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Buch auf ___ Kommode.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Kitabı şifonyerin üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handy liegt auf ___ Kommode.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Telefon şifonyerin üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handy auf ___ Kommode.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Telefonı şifonyerin üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handtuch liegt auf ___ Kommode.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Havlu şifonyerin üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handtuch auf ___ Kommode.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Havluyu şifonyerin üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Heft liegt auf ___ Kommode.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Defter şifonyerin üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Heft auf ___ Kommode.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Defteri şifonyerin üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Glas steht auf ___ Kommode.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Bardak şifonyerin üstünde.
+Wechselpräpositionen – Richtung|Ich stelle das Glas auf ___ Kommode.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Bardağı şifonyerin üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Buch liegt auf ___ Sideboard.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Kitap konsolun üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Buch auf ___ Sideboard.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Kitabı konsolun üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handy liegt auf ___ Sideboard.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Telefon konsolun üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handy auf ___ Sideboard.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Telefonı konsolun üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handtuch liegt auf ___ Sideboard.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Havlu konsolun üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handtuch auf ___ Sideboard.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Havluyu konsolun üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Heft liegt auf ___ Sideboard.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Defter konsolun üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Heft auf ___ Sideboard.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Defteri konsolun üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Glas steht auf ___ Sideboard.|dem|der;den;das|Wo? Konum bildirirken auf + Dativ.|Bardak konsolun üstünde.
+Wechselpräpositionen – Richtung|Ich stelle das Glas auf ___ Sideboard.|das|den;die;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Bardağı konsolun üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Buch liegt auf ___ Fensterbank.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Kitap pencere pervazının üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Buch auf ___ Fensterbank.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Kitabı pencere pervazının üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handy liegt auf ___ Fensterbank.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Telefon pencere pervazının üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handy auf ___ Fensterbank.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Telefonı pencere pervazının üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Handtuch liegt auf ___ Fensterbank.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Havlu pencere pervazının üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Handtuch auf ___ Fensterbank.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Havluyu pencere pervazının üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Heft liegt auf ___ Fensterbank.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Defter pencere pervazının üstünde.
+Wechselpräpositionen – Richtung|Ich lege das Heft auf ___ Fensterbank.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Defteri pencere pervazının üstüne koyuyorum.
+Wechselpräpositionen – Ort|Das Glas steht auf ___ Fensterbank.|der|dem;den;das|Wo? Konum bildirirken auf + Dativ.|Bardak pencere pervazının üstünde.
+Wechselpräpositionen – Richtung|Ich stelle das Glas auf ___ Fensterbank.|die|den;das;dem|Wohin? Hedef bildirirken auf + Akkusativ.|Bardağı pencere pervazının üstüne koyuyorum.
+Perfekt|Mina ___ gestern den Bus genommen.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + genommen.|Mina dün otobüse bindi.
+Perfekt|Emre ___ gestern den Bus genommen.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + genommen.|Emre dün otobüse bindi.
+Perfekt|Mina ___ gestern Brot gekauft.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gekauft.|Mina dün ekmek aldı.
+Perfekt|Emre ___ gestern Brot gekauft.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gekauft.|Emre dün ekmek aldı.
+Perfekt|Mina ___ gestern die Tür geöffnet.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + geöffnet.|Mina dün kapıyı açtı.
+Perfekt|Emre ___ gestern die Tür geöffnet.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + geöffnet.|Emre dün kapıyı açtı.
+Perfekt|Mina ___ gestern die E-Mail gelesen.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gelesen.|Mina dün e-postayı okudu.
+Perfekt|Emre ___ gestern die E-Mail gelesen.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gelesen.|Emre dün e-postayı okudu.
+Perfekt|Mina ___ gestern einen Kollegen angerufen.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + angerufen.|Mina dün bir iş arkadaşını aradı.
+Perfekt|Emre ___ gestern einen Kollegen angerufen.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + angerufen.|Emre dün bir iş arkadaşını aradı.
+Perfekt|Mina ___ gestern das Formular ausgefüllt.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + ausgefüllt.|Mina dün formu doldurdu.
+Perfekt|Emre ___ gestern das Formular ausgefüllt.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + ausgefüllt.|Emre dün formu doldurdu.
+Perfekt|Mina ___ gestern ein Paket abgeholt.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + abgeholt.|Mina dün paketi teslim aldı.
+Perfekt|Emre ___ gestern ein Paket abgeholt.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + abgeholt.|Emre dün paketi teslim aldı.
+Perfekt|Mina ___ gestern in Berlin gewohnt.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gewohnt.|Mina dün Berlin'de oturdu.
+Perfekt|Emre ___ gestern in Berlin gewohnt.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gewohnt.|Emre dün Berlin'de oturdu.
+Perfekt|Mina ___ gestern im Laden gearbeitet.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gearbeitet.|Mina dün dükkânda çalıştı.
+Perfekt|Emre ___ gestern im Laden gearbeitet.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gearbeitet.|Emre dün dükkânda çalıştı.
+Perfekt|Mina ___ gestern den Schlüssel vergessen.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + vergessen.|Mina dün anahtarı unuttu.
+Perfekt|Emre ___ gestern den Schlüssel vergessen.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + vergessen.|Emre dün anahtarı unuttu.
+Perfekt|Mina ___ gestern nach Hause gefahren.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + gefahren.|Mina dün eve araçla gitti.
+Perfekt|Emre ___ gestern nach Hause gefahren.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + gefahren.|Emre dün eve araçla gitti.
+Perfekt|Mina ___ gestern zum Bahnhof gegangen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + gegangen.|Mina dün istasyona gitti.
+Perfekt|Emre ___ gestern zum Bahnhof gegangen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + gegangen.|Emre dün istasyona gitti.
+Perfekt|Mina ___ gestern früh aufgestanden.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + aufgestanden.|Mina dün erken kalktı.
+Perfekt|Emre ___ gestern früh aufgestanden.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + aufgestanden.|Emre dün erken kalktı.
+Perfekt|Mina ___ gestern ins Taxi eingestiegen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + eingestiegen.|Mina dün taksiye bindi.
+Perfekt|Emre ___ gestern ins Taxi eingestiegen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + eingestiegen.|Emre dün taksiye bindi.
+Perfekt|Mina ___ gestern vor dem Haus ausgestiegen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + ausgestiegen.|Mina dün evin önünde araçtan indi.
+Perfekt|Emre ___ gestern vor dem Haus ausgestiegen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + ausgestiegen.|Emre dün evin önünde araçtan indi.
+Perfekt|Mina ___ gestern zu Hause geblieben.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + geblieben.|Mina dün evde kaldı.
+Perfekt|Emre ___ gestern zu Hause geblieben.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + geblieben.|Emre dün evde kaldı.
+Perfekt|Mina ___ gestern am Schalter gewartet.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gewartet.|Mina dün gişede bekledi.
+Perfekt|Emre ___ gestern am Schalter gewartet.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gewartet.|Emre dün gişede bekledi.
+Perfekt|Mina ___ gestern den Ausweis gezeigt.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gezeigt.|Mina dün kimliğini gösterdi.
+Perfekt|Emre ___ gestern den Ausweis gezeigt.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + gezeigt.|Emre dün kimliğini gösterdi.
+Perfekt|Mina ___ gestern pünktlich angekommen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + angekommen.|Mina dün zamanında vardı.
+Perfekt|Emre ___ gestern pünktlich angekommen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + angekommen.|Emre dün zamanında vardı.
+Perfekt|Mina ___ gestern nach Köln umgezogen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + umgezogen.|Mina dün Köln'e taşındı.
+Perfekt|Emre ___ gestern nach Köln umgezogen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + umgezogen.|Emre dün Köln'e taşındı.
+Perfekt|Mina ___ gestern mit dem Rad gekommen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + gekommen.|Mina dün bisikletle geldi.
+Perfekt|Emre ___ gestern mit dem Rad gekommen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + gekommen.|Emre dün bisikletle geldi.
+Perfekt|Mina ___ gestern das Essen bezahlt.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + bezahlt.|Mina dün yemeğin parasını ödedi.
+Perfekt|Emre ___ gestern das Essen bezahlt.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + bezahlt.|Emre dün yemeğin parasını ödedi.
+Perfekt|Mina ___ gestern mit dem Kurs angefangen.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + angefangen.|Mina dün kursa başladı.
+Perfekt|Emre ___ gestern mit dem Kurs angefangen.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + angefangen.|Emre dün kursa başladı.
+Perfekt|Mina ___ gestern im Hof gelaufen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + gelaufen.|Mina dün avluda koştu.
+Perfekt|Emre ___ gestern im Hof gelaufen.|ist|hat;hast;bist|Bu cümlenin Perfekt yapısı: ist + gelaufen.|Emre dün avluda koştu.
+Perfekt|Mina ___ gestern den Termin verschoben.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + verschoben.|Mina dün randevuyu erteledi.
+Perfekt|Emre ___ gestern den Termin verschoben.|hat|ist;hast;bist|Bu cümlenin Perfekt yapısı: hat + verschoben.|Emre dün randevuyu erteledi.
+Nebensatz mit weil|Heute bleibe ich zu Hause, ___ ich krank bin.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bugün evde kalıyorum çünkü hastayım.
+Nebensatz mit weil|Am Montag bleibe ich zu Hause, ___ ich krank bin.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Pazartesi evde kalıyorum çünkü hastayım.
+Nebensatz mit weil|Diese Woche bleibe ich zu Hause, ___ ich krank bin.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bu hafta evde kalıyorum çünkü hastayım.
+Nebensatz mit weil|Morgen bleibe ich zu Hause, ___ ich krank bin.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Yarın evde kalıyorum çünkü hastayım.
+Nebensatz mit weil|Am Freitag bleibe ich zu Hause, ___ ich krank bin.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Cuma evde kalıyorum çünkü hastayım.
+Nebensatz mit weil|Heute nehmen wir den Bus, ___ es stark regnet.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bugün otobüse biniyoruz çünkü şiddetli yağmur yağıyor.
+Nebensatz mit weil|Am Montag nehmen wir den Bus, ___ es stark regnet.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Pazartesi otobüse biniyoruz çünkü şiddetli yağmur yağıyor.
+Nebensatz mit weil|Diese Woche nehmen wir den Bus, ___ es stark regnet.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bu hafta otobüse biniyoruz çünkü şiddetli yağmur yağıyor.
+Nebensatz mit weil|Morgen nehmen wir den Bus, ___ es stark regnet.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Yarın otobüse biniyoruz çünkü şiddetli yağmur yağıyor.
+Nebensatz mit weil|Am Freitag nehmen wir den Bus, ___ es stark regnet.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Cuma otobüse biniyoruz çünkü şiddetli yağmur yağıyor.
+Nebensatz mit weil|Heute rufe ich dich an, ___ ich eine Frage habe.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bugün seni arıyorum çünkü bir sorum var.
+Nebensatz mit weil|Am Montag rufe ich dich an, ___ ich eine Frage habe.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Pazartesi seni arıyorum çünkü bir sorum var.
+Nebensatz mit weil|Diese Woche rufe ich dich an, ___ ich eine Frage habe.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bu hafta seni arıyorum çünkü bir sorum var.
+Nebensatz mit weil|Morgen rufe ich dich an, ___ ich eine Frage habe.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Yarın seni arıyorum çünkü bir sorum var.
+Nebensatz mit weil|Am Freitag rufe ich dich an, ___ ich eine Frage habe.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Cuma seni arıyorum çünkü bir sorum var.
+Nebensatz mit weil|Heute öffnen wir das Fenster, ___ es im Zimmer warm ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bugün pencereyi açıyoruz çünkü oda sıcak.
+Nebensatz mit weil|Am Montag öffnen wir das Fenster, ___ es im Zimmer warm ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Pazartesi pencereyi açıyoruz çünkü oda sıcak.
+Nebensatz mit weil|Diese Woche öffnen wir das Fenster, ___ es im Zimmer warm ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bu hafta pencereyi açıyoruz çünkü oda sıcak.
+Nebensatz mit weil|Morgen öffnen wir das Fenster, ___ es im Zimmer warm ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Yarın pencereyi açıyoruz çünkü oda sıcak.
+Nebensatz mit weil|Am Freitag öffnen wir das Fenster, ___ es im Zimmer warm ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Cuma pencereyi açıyoruz çünkü oda sıcak.
+Nebensatz mit weil|Heute hole ich dich ab, ___ dein Zug spät ankommt.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bugün seni almaya geliyorum çünkü trenin geç geliyor.
+Nebensatz mit weil|Am Montag hole ich dich ab, ___ dein Zug spät ankommt.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Pazartesi seni almaya geliyorum çünkü trenin geç geliyor.
+Nebensatz mit weil|Diese Woche hole ich dich ab, ___ dein Zug spät ankommt.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bu hafta seni almaya geliyorum çünkü trenin geç geliyor.
+Nebensatz mit weil|Morgen hole ich dich ab, ___ dein Zug spät ankommt.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Yarın seni almaya geliyorum çünkü trenin geç geliyor.
+Nebensatz mit weil|Am Freitag hole ich dich ab, ___ dein Zug spät ankommt.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Cuma seni almaya geliyorum çünkü trenin geç geliyor.
+Nebensatz mit weil|Heute gehen wir zu Fuß, ___ die Straße gesperrt ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bugün yürüyerek gidiyoruz çünkü yol kapalı.
+Nebensatz mit weil|Am Montag gehen wir zu Fuß, ___ die Straße gesperrt ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Pazartesi yürüyerek gidiyoruz çünkü yol kapalı.
+Nebensatz mit weil|Diese Woche gehen wir zu Fuß, ___ die Straße gesperrt ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bu hafta yürüyerek gidiyoruz çünkü yol kapalı.
+Nebensatz mit weil|Morgen gehen wir zu Fuß, ___ die Straße gesperrt ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Yarın yürüyerek gidiyoruz çünkü yol kapalı.
+Nebensatz mit weil|Am Freitag gehen wir zu Fuß, ___ die Straße gesperrt ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Cuma yürüyerek gidiyoruz çünkü yol kapalı.
+Nebensatz mit weil|Heute kaufe ich Brot, ___ wir kein Brot mehr haben.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bugün ekmek alıyorum çünkü ekmeğimiz kalmadı.
+Nebensatz mit weil|Am Montag kaufe ich Brot, ___ wir kein Brot mehr haben.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Pazartesi ekmek alıyorum çünkü ekmeğimiz kalmadı.
+Nebensatz mit weil|Diese Woche kaufe ich Brot, ___ wir kein Brot mehr haben.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bu hafta ekmek alıyorum çünkü ekmeğimiz kalmadı.
+Nebensatz mit weil|Morgen kaufe ich Brot, ___ wir kein Brot mehr haben.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Yarın ekmek alıyorum çünkü ekmeğimiz kalmadı.
+Nebensatz mit weil|Am Freitag kaufe ich Brot, ___ wir kein Brot mehr haben.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Cuma ekmek alıyorum çünkü ekmeğimiz kalmadı.
+Nebensatz mit weil|Heute stehen wir früh auf, ___ der Kurs um acht beginnt.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bugün erken kalkıyoruz çünkü kurs sekizde başlıyor.
+Nebensatz mit weil|Am Montag stehen wir früh auf, ___ der Kurs um acht beginnt.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Pazartesi erken kalkıyoruz çünkü kurs sekizde başlıyor.
+Nebensatz mit weil|Diese Woche stehen wir früh auf, ___ der Kurs um acht beginnt.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bu hafta erken kalkıyoruz çünkü kurs sekizde başlıyor.
+Nebensatz mit weil|Morgen stehen wir früh auf, ___ der Kurs um acht beginnt.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Yarın erken kalkıyoruz çünkü kurs sekizde başlıyor.
+Nebensatz mit weil|Am Freitag stehen wir früh auf, ___ der Kurs um acht beginnt.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Cuma erken kalkıyoruz çünkü kurs sekizde başlıyor.
+Nebensatz mit weil|Heute schreibe ich eine Nachricht, ___ ich nicht telefonieren kann.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bugün mesaj yazıyorum çünkü telefonla konuşamıyorum.
+Nebensatz mit weil|Am Montag schreibe ich eine Nachricht, ___ ich nicht telefonieren kann.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Pazartesi mesaj yazıyorum çünkü telefonla konuşamıyorum.
+Nebensatz mit weil|Diese Woche schreibe ich eine Nachricht, ___ ich nicht telefonieren kann.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bu hafta mesaj yazıyorum çünkü telefonla konuşamıyorum.
+Nebensatz mit weil|Morgen schreibe ich eine Nachricht, ___ ich nicht telefonieren kann.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Yarın mesaj yazıyorum çünkü telefonla konuşamıyorum.
+Nebensatz mit weil|Am Freitag schreibe ich eine Nachricht, ___ ich nicht telefonieren kann.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Cuma mesaj yazıyorum çünkü telefonla konuşamıyorum.
+Nebensatz mit weil|Heute warten wir draußen, ___ der Laden noch zu ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bugün dışarıda bekliyoruz çünkü dükkân henüz kapalı.
+Nebensatz mit weil|Am Montag warten wir draußen, ___ der Laden noch zu ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Pazartesi dışarıda bekliyoruz çünkü dükkân henüz kapalı.
+Nebensatz mit weil|Diese Woche warten wir draußen, ___ der Laden noch zu ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Bu hafta dışarıda bekliyoruz çünkü dükkân henüz kapalı.
+Nebensatz mit weil|Morgen warten wir draußen, ___ der Laden noch zu ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Yarın dışarıda bekliyoruz çünkü dükkân henüz kapalı.
+Nebensatz mit weil|Am Freitag warten wir draußen, ___ der Laden noch zu ist.|weil|denn;deshalb;trotzdem|Sebep bildiren weil yan cümlesinde çekimli fiil sonda yer alır.|Cuma dışarıda bekliyoruz çünkü dükkân henüz kapalı.
+Trennbare Verben|(aufstehen) Ich stehe um sieben Uhr ___.|auf|ab;aus;ein|aufstehen ayrılabilir. Ana cümlede auf sona gider.|Saat yedide kalkıyorum.
+Trennbare Verben|(aufstehen) Du stehst um sieben Uhr ___.|auf|ab;aus;ein|aufstehen ayrılabilir. Ana cümlede auf sona gider.|Saat yedide kalkıyorsun.
+Trennbare Verben|(aufstehen) Er steht um sieben Uhr ___.|auf|ab;aus;ein|aufstehen ayrılabilir. Ana cümlede auf sona gider.|Saat yedide kalkıyor.
+Trennbare Verben|(aufstehen) Wir stehen um sieben Uhr ___.|auf|ab;aus;ein|aufstehen ayrılabilir. Ana cümlede auf sona gider.|Saat yedide kalkıyoruz.
+Trennbare Verben|(aufstehen) Ihr steht um sieben Uhr ___.|auf|ab;aus;ein|aufstehen ayrılabilir. Ana cümlede auf sona gider.|Saat yedide kalkıyorsunuz.
+Trennbare Verben|(abfahren) Ich fahre um acht Uhr ___.|ab|auf;aus;ein|abfahren ayrılabilir. Ana cümlede ab sona gider.|Saat sekizde yola çıkıyorum.
+Trennbare Verben|(abfahren) Du fährst um acht Uhr ___.|ab|auf;aus;ein|abfahren ayrılabilir. Ana cümlede ab sona gider.|Saat sekizde yola çıkıyorsun.
+Trennbare Verben|(abfahren) Er fährt um acht Uhr ___.|ab|auf;aus;ein|abfahren ayrılabilir. Ana cümlede ab sona gider.|Saat sekizde yola çıkıyor.
+Trennbare Verben|(abfahren) Wir fahren um acht Uhr ___.|ab|auf;aus;ein|abfahren ayrılabilir. Ana cümlede ab sona gider.|Saat sekizde yola çıkıyoruz.
+Trennbare Verben|(abfahren) Ihr fahrt um acht Uhr ___.|ab|auf;aus;ein|abfahren ayrılabilir. Ana cümlede ab sona gider.|Saat sekizde yola çıkıyorsunuz.
+Trennbare Verben|(anrufen) Ich rufe heute beim Arzt ___.|an|auf;ab;aus|anrufen ayrılabilir. Ana cümlede an sona gider.|Bugün doktoru arıyorum.
+Trennbare Verben|(anrufen) Du rufst heute beim Arzt ___.|an|auf;ab;aus|anrufen ayrılabilir. Ana cümlede an sona gider.|Bugün doktoru arıyorsun.
+Trennbare Verben|(anrufen) Er ruft heute beim Arzt ___.|an|auf;ab;aus|anrufen ayrılabilir. Ana cümlede an sona gider.|Bugün doktoru arıyor.
+Trennbare Verben|(anrufen) Wir rufen heute beim Arzt ___.|an|auf;ab;aus|anrufen ayrılabilir. Ana cümlede an sona gider.|Bugün doktoru arıyoruz.
+Trennbare Verben|(anrufen) Ihr ruft heute beim Arzt ___.|an|auf;ab;aus|anrufen ayrılabilir. Ana cümlede an sona gider.|Bugün doktoru arıyorsunuz.
+Trennbare Verben|(einkaufen) Ich kaufe auf dem Markt ___.|ein|auf;ab;aus|einkaufen ayrılabilir. Ana cümlede ein sona gider.|Pazarda alışveriş yapıyorum.
+Trennbare Verben|(einkaufen) Du kaufst auf dem Markt ___.|ein|auf;ab;aus|einkaufen ayrılabilir. Ana cümlede ein sona gider.|Pazarda alışveriş yapıyorsun.
+Trennbare Verben|(einkaufen) Er kauft auf dem Markt ___.|ein|auf;ab;aus|einkaufen ayrılabilir. Ana cümlede ein sona gider.|Pazarda alışveriş yapıyor.
+Trennbare Verben|(einkaufen) Wir kaufen auf dem Markt ___.|ein|auf;ab;aus|einkaufen ayrılabilir. Ana cümlede ein sona gider.|Pazarda alışveriş yapıyoruz.
+Trennbare Verben|(einkaufen) Ihr kauft auf dem Markt ___.|ein|auf;ab;aus|einkaufen ayrılabilir. Ana cümlede ein sona gider.|Pazarda alışveriş yapıyorsunuz.
+Trennbare Verben|(mitkommen) Ich komme heute ___.|mit|auf;ab;aus|mitkommen ayrılabilir. Ana cümlede mit sona gider.|Bugün ben de geliyorum.
+Trennbare Verben|(mitkommen) Du kommst heute ___.|mit|auf;ab;aus|mitkommen ayrılabilir. Ana cümlede mit sona gider.|Bugün sen de geliyorsun.
+Trennbare Verben|(mitkommen) Er kommt heute ___.|mit|auf;ab;aus|mitkommen ayrılabilir. Ana cümlede mit sona gider.|Bugün o da geliyor.
+Trennbare Verben|(mitkommen) Wir kommen heute ___.|mit|auf;ab;aus|mitkommen ayrılabilir. Ana cümlede mit sona gider.|Bugün biz de geliyoruz.
+Trennbare Verben|(mitkommen) Ihr kommt heute ___.|mit|auf;ab;aus|mitkommen ayrılabilir. Ana cümlede mit sona gider.|Bugün siz de geliyorsunuz.
+Trennbare Verben|(aussteigen) Ich steige an der nächsten Haltestelle ___.|aus|auf;ab;ein|aussteigen ayrılabilir. Ana cümlede aus sona gider.|Bir sonraki durakta iniyorum.
+Trennbare Verben|(aussteigen) Du steigst an der nächsten Haltestelle ___.|aus|auf;ab;ein|aussteigen ayrılabilir. Ana cümlede aus sona gider.|Bir sonraki durakta iniyorsun.
+Trennbare Verben|(aussteigen) Er steigt an der nächsten Haltestelle ___.|aus|auf;ab;ein|aussteigen ayrılabilir. Ana cümlede aus sona gider.|Bir sonraki durakta iniyor.
+Trennbare Verben|(aussteigen) Wir steigen an der nächsten Haltestelle ___.|aus|auf;ab;ein|aussteigen ayrılabilir. Ana cümlede aus sona gider.|Bir sonraki durakta iniyoruz.
+Trennbare Verben|(aussteigen) Ihr steigt an der nächsten Haltestelle ___.|aus|auf;ab;ein|aussteigen ayrılabilir. Ana cümlede aus sona gider.|Bir sonraki durakta iniyorsunuz.
+Trennbare Verben|(zurückkommen) Ich komme am Montag ___.|zurück|auf;ab;aus|zurückkommen ayrılabilir. Ana cümlede zurück sona gider.|Pazartesi geri geliyorum.
+Trennbare Verben|(zurückkommen) Du kommst am Montag ___.|zurück|auf;ab;aus|zurückkommen ayrılabilir. Ana cümlede zurück sona gider.|Pazartesi geri geliyorsun.
+Trennbare Verben|(zurückkommen) Er kommt am Montag ___.|zurück|auf;ab;aus|zurückkommen ayrılabilir. Ana cümlede zurück sona gider.|Pazartesi geri geliyor.
+Trennbare Verben|(zurückkommen) Wir kommen am Montag ___.|zurück|auf;ab;aus|zurückkommen ayrılabilir. Ana cümlede zurück sona gider.|Pazartesi geri geliyoruz.
+Trennbare Verben|(zurückkommen) Ihr kommt am Montag ___.|zurück|auf;ab;aus|zurückkommen ayrılabilir. Ana cümlede zurück sona gider.|Pazartesi geri geliyorsunuz.
+Trennbare Verben|(zuhören) Ich höre hier genau ___.|zu|auf;ab;aus|zuhören ayrılabilir. Ana cümlede zu sona gider.|Burada dikkatle dinliyorum.
+Trennbare Verben|(zuhören) Du hörst hier genau ___.|zu|auf;ab;aus|zuhören ayrılabilir. Ana cümlede zu sona gider.|Burada dikkatle dinliyorsun.
+Trennbare Verben|(zuhören) Er hört hier genau ___.|zu|auf;ab;aus|zuhören ayrılabilir. Ana cümlede zu sona gider.|Burada dikkatle dinliyor.
+Trennbare Verben|(zuhören) Wir hören hier genau ___.|zu|auf;ab;aus|zuhören ayrılabilir. Ana cümlede zu sona gider.|Burada dikkatle dinliyoruz.
+Trennbare Verben|(zuhören) Ihr hört hier genau ___.|zu|auf;ab;aus|zuhören ayrılabilir. Ana cümlede zu sona gider.|Burada dikkatle dinliyorsunuz.
+Trennbare Verben|(vorlesen) Ich lese jetzt die erste Seite ___.|vor|auf;ab;aus|vorlesen ayrılabilir. Ana cümlede vor sona gider.|Şimdi ilk sayfayı sesli okuyorum.
+Trennbare Verben|(vorlesen) Du liest jetzt die erste Seite ___.|vor|auf;ab;aus|vorlesen ayrılabilir. Ana cümlede vor sona gider.|Şimdi ilk sayfayı sesli okuyorsun.
+Trennbare Verben|(vorlesen) Er liest jetzt die erste Seite ___.|vor|auf;ab;aus|vorlesen ayrılabilir. Ana cümlede vor sona gider.|Şimdi ilk sayfayı sesli okuyor.
+Trennbare Verben|(vorlesen) Wir lesen jetzt die erste Seite ___.|vor|auf;ab;aus|vorlesen ayrılabilir. Ana cümlede vor sona gider.|Şimdi ilk sayfayı sesli okuyoruz.
+Trennbare Verben|(vorlesen) Ihr lest jetzt die erste Seite ___.|vor|auf;ab;aus|vorlesen ayrılabilir. Ana cümlede vor sona gider.|Şimdi ilk sayfayı sesli okuyorsunuz.
+Trennbare Verben|(wegwerfen) Ich werfe jetzt das alte Papier ___.|weg|auf;ab;aus|wegwerfen ayrılabilir. Ana cümlede weg sona gider.|Şimdi eski kâğıdı atıyorum.
+Trennbare Verben|(wegwerfen) Du wirfst jetzt das alte Papier ___.|weg|auf;ab;aus|wegwerfen ayrılabilir. Ana cümlede weg sona gider.|Şimdi eski kâğıdı atıyorsun.
+Trennbare Verben|(wegwerfen) Er wirft jetzt das alte Papier ___.|weg|auf;ab;aus|wegwerfen ayrılabilir. Ana cümlede weg sona gider.|Şimdi eski kâğıdı atıyor.
+Trennbare Verben|(wegwerfen) Wir werfen jetzt das alte Papier ___.|weg|auf;ab;aus|wegwerfen ayrılabilir. Ana cümlede weg sona gider.|Şimdi eski kâğıdı atıyoruz.
+Trennbare Verben|(wegwerfen) Ihr werft jetzt das alte Papier ___.|weg|auf;ab;aus|wegwerfen ayrılabilir. Ana cümlede weg sona gider.|Şimdi eski kâğıdı atıyorsunuz.
+Reflexivpronomen|Ich ruhe ___ nach dem Essen aus.|mich|dich;sich;uns|sich ausruhen dönüşlüdür. Ich için zamir mich olur.|Yemekten sonra dinleniyorum.
+Reflexivpronomen|Du ruhst ___ nach dem Essen aus.|dich|mich;sich;uns|sich ausruhen dönüşlüdür. Du için zamir dich olur.|Yemekten sonra dinleniyorsun.
+Reflexivpronomen|Er ruht ___ nach dem Essen aus.|sich|mich;dich;uns|sich ausruhen dönüşlüdür. Er için zamir sich olur.|Yemekten sonra dinleniyor.
+Reflexivpronomen|Wir ruhen ___ nach dem Essen aus.|uns|mich;dich;sich|sich ausruhen dönüşlüdür. Wir için zamir uns olur.|Yemekten sonra dinleniyoruz.
+Reflexivpronomen|Ihr ruht ___ nach dem Essen aus.|euch|mich;dich;sich|sich ausruhen dönüşlüdür. Ihr için zamir euch olur.|Yemekten sonra dinleniyorsunuz.
+Reflexivpronomen|Ich setze ___ auf die Bank.|mich|dich;sich;uns|sich setzen dönüşlüdür. Ich için zamir mich olur.|Banka oturuyorum.
+Reflexivpronomen|Du setzt ___ auf die Bank.|dich|mich;sich;uns|sich setzen dönüşlüdür. Du için zamir dich olur.|Banka oturuyorsun.
+Reflexivpronomen|Er setzt ___ auf die Bank.|sich|mich;dich;uns|sich setzen dönüşlüdür. Er için zamir sich olur.|Banka oturuyor.
+Reflexivpronomen|Wir setzen ___ auf die Bank.|uns|mich;dich;sich|sich setzen dönüşlüdür. Wir için zamir uns olur.|Banka oturuyoruz.
+Reflexivpronomen|Ihr setzt ___ auf die Bank.|euch|mich;dich;sich|sich setzen dönüşlüdür. Ihr için zamir euch olur.|Banka oturuyorsunuz.
+Reflexivpronomen|Ich melde ___ für den Kurs an.|mich|dich;sich;uns|sich anmelden dönüşlüdür. Ich için zamir mich olur.|Kursa kaydoluyorum.
+Reflexivpronomen|Du meldest ___ für den Kurs an.|dich|mich;sich;uns|sich anmelden dönüşlüdür. Du için zamir dich olur.|Kursa kaydoluyorsun.
+Reflexivpronomen|Er meldet ___ für den Kurs an.|sich|mich;dich;uns|sich anmelden dönüşlüdür. Er için zamir sich olur.|Kursa kaydoluyor.
+Reflexivpronomen|Wir melden ___ für den Kurs an.|uns|mich;dich;sich|sich anmelden dönüşlüdür. Wir için zamir uns olur.|Kursa kaydoluyoruz.
+Reflexivpronomen|Ihr meldet ___ für den Kurs an.|euch|mich;dich;sich|sich anmelden dönüşlüdür. Ihr için zamir euch olur.|Kursa kaydoluyorsunuz.
+Reflexivpronomen|Ich beeile ___ am Morgen.|mich|dich;sich;uns|sich beeilen dönüşlüdür. Ich için zamir mich olur.|Sabah acele ediyorum.
+Reflexivpronomen|Du beeilst ___ am Morgen.|dich|mich;sich;uns|sich beeilen dönüşlüdür. Du için zamir dich olur.|Sabah acele ediyorsun.
+Reflexivpronomen|Er beeilt ___ am Morgen.|sich|mich;dich;uns|sich beeilen dönüşlüdür. Er için zamir sich olur.|Sabah acele ediyor.
+Reflexivpronomen|Wir beeilen ___ am Morgen.|uns|mich;dich;sich|sich beeilen dönüşlüdür. Wir için zamir uns olur.|Sabah acele ediyoruz.
+Reflexivpronomen|Ihr beeilt ___ am Morgen.|euch|mich;dich;sich|sich beeilen dönüşlüdür. Ihr için zamir euch olur.|Sabah acele ediyorsunuz.
+Reflexivpronomen|Ich ziehe ___ vor dem Frühstück an.|mich|dich;sich;uns|sich anziehen dönüşlüdür. Ich için zamir mich olur.|Kahvaltıdan önce giyiniyorum.
+Reflexivpronomen|Du ziehst ___ vor dem Frühstück an.|dich|mich;sich;uns|sich anziehen dönüşlüdür. Du için zamir dich olur.|Kahvaltıdan önce giyiniyorsun.
+Reflexivpronomen|Er zieht ___ vor dem Frühstück an.|sich|mich;dich;uns|sich anziehen dönüşlüdür. Er için zamir sich olur.|Kahvaltıdan önce giyiniyor.
+Reflexivpronomen|Wir ziehen ___ vor dem Frühstück an.|uns|mich;dich;sich|sich anziehen dönüşlüdür. Wir için zamir uns olur.|Kahvaltıdan önce giyiniyoruz.
+Reflexivpronomen|Ihr zieht ___ vor dem Frühstück an.|euch|mich;dich;sich|sich anziehen dönüşlüdür. Ihr için zamir euch olur.|Kahvaltıdan önce giyiniyorsunuz.
+Reflexivpronomen|Ich erhole ___ am Wochenende.|mich|dich;sich;uns|sich erholen dönüşlüdür. Ich için zamir mich olur.|Hafta sonu dinleniyorum.
+Reflexivpronomen|Du erholst ___ am Wochenende.|dich|mich;sich;uns|sich erholen dönüşlüdür. Du için zamir dich olur.|Hafta sonu dinleniyorsun.
+Reflexivpronomen|Er erholt ___ am Wochenende.|sich|mich;dich;uns|sich erholen dönüşlüdür. Er için zamir sich olur.|Hafta sonu dinleniyor.
+Reflexivpronomen|Wir erholen ___ am Wochenende.|uns|mich;dich;sich|sich erholen dönüşlüdür. Wir için zamir uns olur.|Hafta sonu dinleniyoruz.
+Reflexivpronomen|Ihr erholt ___ am Wochenende.|euch|mich;dich;sich|sich erholen dönüşlüdür. Ihr için zamir euch olur.|Hafta sonu dinleniyorsunuz.
+Reflexivpronomen|Ich entspanne ___ auf dem Balkon.|mich|dich;sich;uns|sich entspannen dönüşlüdür. Ich için zamir mich olur.|Balkonda rahatlıyorum.
+Reflexivpronomen|Du entspannst ___ auf dem Balkon.|dich|mich;sich;uns|sich entspannen dönüşlüdür. Du için zamir dich olur.|Balkonda rahatlıyorsun.
+Reflexivpronomen|Er entspannt ___ auf dem Balkon.|sich|mich;dich;uns|sich entspannen dönüşlüdür. Er için zamir sich olur.|Balkonda rahatlıyor.
+Reflexivpronomen|Wir entspannen ___ auf dem Balkon.|uns|mich;dich;sich|sich entspannen dönüşlüdür. Wir için zamir uns olur.|Balkonda rahatlıyoruz.
+Reflexivpronomen|Ihr entspannt ___ auf dem Balkon.|euch|mich;dich;sich|sich entspannen dönüşlüdür. Ihr için zamir euch olur.|Balkonda rahatlıyorsunuz.
+Reflexivpronomen|Ich konzentriere ___ auf die Aufgabe.|mich|dich;sich;uns|sich konzentrieren dönüşlüdür. Ich için zamir mich olur.|Göreve odaklanıyorum.
+Reflexivpronomen|Du konzentrierst ___ auf die Aufgabe.|dich|mich;sich;uns|sich konzentrieren dönüşlüdür. Du için zamir dich olur.|Göreve odaklanıyorsun.
+Reflexivpronomen|Er konzentriert ___ auf die Aufgabe.|sich|mich;dich;uns|sich konzentrieren dönüşlüdür. Er için zamir sich olur.|Göreve odaklanıyor.
+Reflexivpronomen|Wir konzentrieren ___ auf die Aufgabe.|uns|mich;dich;sich|sich konzentrieren dönüşlüdür. Wir için zamir uns olur.|Göreve odaklanıyoruz.
+Reflexivpronomen|Ihr konzentriert ___ auf die Aufgabe.|euch|mich;dich;sich|sich konzentrieren dönüşlüdür. Ihr için zamir euch olur.|Göreve odaklanıyorsunuz.
+Reflexivpronomen|Ich verspäte ___ heute.|mich|dich;sich;uns|sich verspäten dönüşlüdür. Ich için zamir mich olur.|Bugün gecikiyorum.
+Reflexivpronomen|Du verspätest ___ heute.|dich|mich;sich;uns|sich verspäten dönüşlüdür. Du için zamir dich olur.|Bugün gecikiyorsun.
+Reflexivpronomen|Er verspätet ___ heute.|sich|mich;dich;uns|sich verspäten dönüşlüdür. Er için zamir sich olur.|Bugün gecikiyor.
+Reflexivpronomen|Wir verspäten ___ heute.|uns|mich;dich;sich|sich verspäten dönüşlüdür. Wir için zamir uns olur.|Bugün gecikiyoruz.
+Reflexivpronomen|Ihr verspätet ___ heute.|euch|mich;dich;sich|sich verspäten dönüşlüdür. Ihr için zamir euch olur.|Bugün gecikiyorsunuz.
+Reflexivpronomen|Ich freue ___ auf den Urlaub.|mich|dich;sich;uns|sich freuen dönüşlüdür. Ich için zamir mich olur.|Tatili dört gözle bekliyorum.
+Reflexivpronomen|Du freust ___ auf den Urlaub.|dich|mich;sich;uns|sich freuen dönüşlüdür. Du için zamir dich olur.|Tatili dört gözle bekliyorsun.
+Reflexivpronomen|Er freut ___ auf den Urlaub.|sich|mich;dich;uns|sich freuen dönüşlüdür. Er için zamir sich olur.|Tatili dört gözle bekliyor.
+Reflexivpronomen|Wir freuen ___ auf den Urlaub.|uns|mich;dich;sich|sich freuen dönüşlüdür. Wir için zamir uns olur.|Tatili dört gözle bekliyoruz.
+Reflexivpronomen|Ihr freut ___ auf den Urlaub.|euch|mich;dich;sich|sich freuen dönüşlüdür. Ihr için zamir euch olur.|Tatili dört gözle bekliyorsunuz.
+Akkusativ|Ich suche ___ Zug.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Zug.|Treni arıyorum.
+Akkusativ|Ich sehe ___ Zug.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Zug.|Treni görüyorum.
+Akkusativ|Ich brauche ___ Zug.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Zug.|Treni istiyorum.
+Akkusativ|Ich fotografiere ___ Zug.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Zug.|Treni fotoğraflıyorum.
+Akkusativ|Ich nehme ___ Zug.|den|die;das;dem|Nehmen fiilinin doğrudan nesnesi Akkusativ alır.|Trene biniyorum.
+Akkusativ|Ich suche ___ Tasche.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Tasche.|Çantayı arıyorum.
+Akkusativ|Ich sehe ___ Tasche.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Tasche.|Çantayı görüyorum.
+Akkusativ|Ich brauche ___ Tasche.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Tasche.|Çantayı istiyorum.
+Akkusativ|Ich fotografiere ___ Tasche.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Tasche.|Çantayı fotoğraflıyorum.
+Akkusativ|Ich prüfe ___ Tasche.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Tasche.|Çantayı kontrol ediyorum.
+Akkusativ|Ich suche ___ Ticket.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Ticket.|Bileti arıyorum.
+Akkusativ|Ich sehe ___ Ticket.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Ticket.|Bileti görüyorum.
+Akkusativ|Ich brauche ___ Ticket.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Ticket.|Bileti istiyorum.
+Akkusativ|Ich fotografiere ___ Ticket.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Ticket.|Bileti fotoğraflıyorum.
+Akkusativ|Ich prüfe ___ Ticket.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Ticket.|Bileti kontrol ediyorum.
+Akkusativ|Ich suche ___ Schlüssel.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Schlüssel.|Anahtarı arıyorum.
+Akkusativ|Ich sehe ___ Schlüssel.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Schlüssel.|Anahtarı görüyorum.
+Akkusativ|Ich brauche ___ Schlüssel.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Schlüssel.|Anahtarı istiyorum.
+Akkusativ|Ich fotografiere ___ Schlüssel.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Schlüssel.|Anahtarı fotoğraflıyorum.
+Akkusativ|Ich prüfe ___ Schlüssel.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Schlüssel.|Anahtarı kontrol ediyorum.
+Akkusativ|Ich suche ___ Rechnung.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Rechnung.|Faturayı arıyorum.
+Akkusativ|Ich sehe ___ Rechnung.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Rechnung.|Faturayı görüyorum.
+Akkusativ|Ich brauche ___ Rechnung.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Rechnung.|Faturayı istiyorum.
+Akkusativ|Ich fotografiere ___ Rechnung.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Rechnung.|Faturayı fotoğraflıyorum.
+Akkusativ|Ich prüfe ___ Rechnung.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Rechnung.|Faturayı kontrol ediyorum.
+Akkusativ|Ich suche ___ Handy.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Handy.|Telefonu arıyorum.
+Akkusativ|Ich sehe ___ Handy.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Handy.|Telefonu görüyorum.
+Akkusativ|Ich brauche ___ Handy.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Handy.|Telefonu istiyorum.
+Akkusativ|Ich fotografiere ___ Handy.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Handy.|Telefonu fotoğraflıyorum.
+Akkusativ|Ich prüfe ___ Handy.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Handy.|Telefonu kontrol ediyorum.
+Akkusativ|Ich suche ___ Kalender.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Kalender.|Takvimi arıyorum.
+Akkusativ|Ich sehe ___ Kalender.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Kalender.|Takvimi görüyorum.
+Akkusativ|Ich brauche ___ Kalender.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Kalender.|Takvimi istiyorum.
+Akkusativ|Ich fotografiere ___ Kalender.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Kalender.|Takvimi fotoğraflıyorum.
+Akkusativ|Ich prüfe ___ Kalender.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Kalender.|Takvimi kontrol ediyorum.
+Akkusativ|Ich suche ___ Einladung.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Einladung.|Daveti arıyorum.
+Akkusativ|Ich sehe ___ Einladung.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Einladung.|Daveti görüyorum.
+Akkusativ|Ich brauche ___ Einladung.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Einladung.|Daveti istiyorum.
+Akkusativ|Ich fotografiere ___ Einladung.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Einladung.|Daveti fotoğraflıyorum.
+Akkusativ|Ich prüfe ___ Einladung.|die|den;das;dem|Doğrudan nesne Akkusativ alır: die Einladung.|Daveti kontrol ediyorum.
+Akkusativ|Ich suche ___ Formular.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Formular.|Formu arıyorum.
+Akkusativ|Ich sehe ___ Formular.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Formular.|Formu görüyorum.
+Akkusativ|Ich brauche ___ Formular.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Formular.|Formu istiyorum.
+Akkusativ|Ich fotografiere ___ Formular.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Formular.|Formu fotoğraflıyorum.
+Akkusativ|Ich prüfe ___ Formular.|das|den;die;dem|Doğrudan nesne Akkusativ alır: das Formular.|Formu kontrol ediyorum.
+Akkusativ|Ich suche ___ Plan.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Plan.|Planı arıyorum.
+Akkusativ|Ich sehe ___ Plan.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Plan.|Planı görüyorum.
+Akkusativ|Ich brauche ___ Plan.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Plan.|Planı istiyorum.
+Akkusativ|Ich fotografiere ___ Plan.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Plan.|Planı fotoğraflıyorum.
+Akkusativ|Ich prüfe ___ Plan.|den|die;das;dem|Doğrudan nesne Akkusativ alır: den Plan.|Planı kontrol ediyorum.
+Nebensatz mit dass|Ich weiß, ___ der Laden heute länger offen ist.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Dükkânın bugün daha uzun süre açık olduğunu biliyorum.
+Nebensatz mit dass|Sie sagt, ___ der Laden heute länger offen ist.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Dükkânın bugün daha uzun süre açık olduğunu söylüyor.
+Nebensatz mit dass|Er schreibt, ___ der Laden heute länger offen ist.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Dükkânın bugün daha uzun süre açık olduğunu yazıyor.
+Nebensatz mit dass|Wir hören, ___ der Laden heute länger offen ist.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Dükkânın bugün daha uzun süre açık olduğunu duyuyoruz.
+Nebensatz mit dass|Ihr glaubt, ___ der Laden heute länger offen ist.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Dükkânın bugün daha uzun süre açık olduğunu sanıyorsunuz.
+Nebensatz mit dass|Ich weiß, ___ der Bus gleich kommt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Otobüsün birazdan geleceğini biliyorum.
+Nebensatz mit dass|Sie sagt, ___ der Bus gleich kommt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Otobüsün birazdan geleceğini söylüyor.
+Nebensatz mit dass|Er schreibt, ___ der Bus gleich kommt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Otobüsün birazdan geleceğini yazıyor.
+Nebensatz mit dass|Wir hören, ___ der Bus gleich kommt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Otobüsün birazdan geleceğini duyuyoruz.
+Nebensatz mit dass|Ihr glaubt, ___ der Bus gleich kommt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Otobüsün birazdan geleceğini sanıyorsunuz.
+Nebensatz mit dass|Ich weiß, ___ die Karte nicht mehr gilt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kartın artık geçerli olmadığını biliyorum.
+Nebensatz mit dass|Sie sagt, ___ die Karte nicht mehr gilt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kartın artık geçerli olmadığını söylüyor.
+Nebensatz mit dass|Er schreibt, ___ die Karte nicht mehr gilt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kartın artık geçerli olmadığını yazıyor.
+Nebensatz mit dass|Wir hören, ___ die Karte nicht mehr gilt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kartın artık geçerli olmadığını duyuyoruz.
+Nebensatz mit dass|Ihr glaubt, ___ die Karte nicht mehr gilt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kartın artık geçerli olmadığını sanıyorsunuz.
+Nebensatz mit dass|Ich weiß, ___ heute kein Unterricht stattfindet.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Bugün ders olmadığını biliyorum.
+Nebensatz mit dass|Sie sagt, ___ heute kein Unterricht stattfindet.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Bugün ders olmadığını söylüyor.
+Nebensatz mit dass|Er schreibt, ___ heute kein Unterricht stattfindet.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Bugün ders olmadığını yazıyor.
+Nebensatz mit dass|Wir hören, ___ heute kein Unterricht stattfindet.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Bugün ders olmadığını duyuyoruz.
+Nebensatz mit dass|Ihr glaubt, ___ heute kein Unterricht stattfindet.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Bugün ders olmadığını sanıyorsunuz.
+Nebensatz mit dass|Ich weiß, ___ das Paket schon am Empfang liegt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Paketin resepsiyonda olduğunu biliyorum.
+Nebensatz mit dass|Sie sagt, ___ das Paket schon am Empfang liegt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Paketin resepsiyonda olduğunu söylüyor.
+Nebensatz mit dass|Er schreibt, ___ das Paket schon am Empfang liegt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Paketin resepsiyonda olduğunu yazıyor.
+Nebensatz mit dass|Wir hören, ___ das Paket schon am Empfang liegt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Paketin resepsiyonda olduğunu duyuyoruz.
+Nebensatz mit dass|Ihr glaubt, ___ das Paket schon am Empfang liegt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Paketin resepsiyonda olduğunu sanıyorsunuz.
+Nebensatz mit dass|Ich weiß, ___ die Kundin morgen wiederkommt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Müşterinin yarın tekrar geleceğini biliyorum.
+Nebensatz mit dass|Sie sagt, ___ die Kundin morgen wiederkommt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Müşterinin yarın tekrar geleceğini söylüyor.
+Nebensatz mit dass|Er schreibt, ___ die Kundin morgen wiederkommt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Müşterinin yarın tekrar geleceğini yazıyor.
+Nebensatz mit dass|Wir hören, ___ die Kundin morgen wiederkommt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Müşterinin yarın tekrar geleceğini duyuyoruz.
+Nebensatz mit dass|Ihr glaubt, ___ die Kundin morgen wiederkommt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Müşterinin yarın tekrar geleceğini sanıyorsunuz.
+Nebensatz mit dass|Ich weiß, ___ die Kollegin heute im Homeoffice arbeitet.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|İş arkadaşının bugün evden çalıştığını biliyorum.
+Nebensatz mit dass|Sie sagt, ___ die Kollegin heute im Homeoffice arbeitet.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|İş arkadaşının bugün evden çalıştığını söylüyor.
+Nebensatz mit dass|Er schreibt, ___ die Kollegin heute im Homeoffice arbeitet.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|İş arkadaşının bugün evden çalıştığını yazıyor.
+Nebensatz mit dass|Wir hören, ___ die Kollegin heute im Homeoffice arbeitet.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|İş arkadaşının bugün evden çalıştığını duyuyoruz.
+Nebensatz mit dass|Ihr glaubt, ___ die Kollegin heute im Homeoffice arbeitet.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|İş arkadaşının bugün evden çalıştığını sanıyorsunuz.
+Nebensatz mit dass|Ich weiß, ___ der Kurs am Abend beginnt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kursun akşam başladığını biliyorum.
+Nebensatz mit dass|Sie sagt, ___ der Kurs am Abend beginnt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kursun akşam başladığını söylüyor.
+Nebensatz mit dass|Er schreibt, ___ der Kurs am Abend beginnt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kursun akşam başladığını yazıyor.
+Nebensatz mit dass|Wir hören, ___ der Kurs am Abend beginnt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kursun akşam başladığını duyuyoruz.
+Nebensatz mit dass|Ihr glaubt, ___ der Kurs am Abend beginnt.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kursun akşam başladığını sanıyorsunuz.
+Nebensatz mit dass|Ich weiß, ___ das Zimmer noch frei ist.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Odanın hâlâ boş olduğunu biliyorum.
+Nebensatz mit dass|Sie sagt, ___ das Zimmer noch frei ist.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Odanın hâlâ boş olduğunu söylüyor.
+Nebensatz mit dass|Er schreibt, ___ das Zimmer noch frei ist.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Odanın hâlâ boş olduğunu yazıyor.
+Nebensatz mit dass|Wir hören, ___ das Zimmer noch frei ist.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Odanın hâlâ boş olduğunu duyuyoruz.
+Nebensatz mit dass|Ihr glaubt, ___ das Zimmer noch frei ist.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Odanın hâlâ boş olduğunu sanıyorsunuz.
+Nebensatz mit dass|Ich weiß, ___ wir die Karte am Eingang zeigen müssen.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kartı girişte göstermemiz gerektiğini biliyorum.
+Nebensatz mit dass|Sie sagt, ___ wir die Karte am Eingang zeigen müssen.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kartı girişte göstermemiz gerektiğini söylüyor.
+Nebensatz mit dass|Er schreibt, ___ wir die Karte am Eingang zeigen müssen.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kartı girişte göstermemiz gerektiğini yazıyor.
+Nebensatz mit dass|Wir hören, ___ wir die Karte am Eingang zeigen müssen.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kartı girişte göstermemiz gerektiğini duyuyoruz.
+Nebensatz mit dass|Ihr glaubt, ___ wir die Karte am Eingang zeigen müssen.|dass|denn;deshalb;trotzdem|Bir bilgiyi aktaran dass yan cümlesinde çekimli fiil sona gider.|Kartı girişte göstermemiz gerektiğini sanıyorsunuz.
+Modalverben – müssen|Ich ___ heute den Ausweis mitbringen.|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Ben bugün kimliği yanımda getirmek zorundayım.
+Modalverben – müssen|Du ___ heute den Ausweis mitbringen.|musst|muss;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Sen bugün kimliği yanında getirmek zorundasın.
+Modalverben – müssen|Sie ___ heute den Ausweis mitbringen. (sie = eine Person)|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|O bugün kimliği yanında getirmek zorunda.
+Modalverben – müssen|Wir ___ heute den Ausweis mitbringen.|müssen|muss;musst;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Biz bugün kimliği yanımızda getirmek zorundayız.
+Modalverben – müssen|Ihr ___ heute den Ausweis mitbringen.|müsst|muss;musst;müssen|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Siz bugün kimliği yanınızda getirmek zorundasınız.
+Modalverben – müssen|Ich ___ heute die Datei speichern.|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Ben bugün dosyayı kaydetmek zorundayım.
+Modalverben – müssen|Du ___ heute die Datei speichern.|musst|muss;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Sen bugün dosyayı kaydetmek zorundasın.
+Modalverben – müssen|Sie ___ heute die Datei speichern. (sie = eine Person)|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|O bugün dosyayı kaydetmek zorunda.
+Modalverben – müssen|Wir ___ heute die Datei speichern.|müssen|muss;musst;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Biz bugün dosyayı kaydetmek zorundayız.
+Modalverben – müssen|Ihr ___ heute die Datei speichern.|müsst|muss;musst;müssen|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Siz bugün dosyayı kaydetmek zorundasınız.
+Modalverben – müssen|Ich ___ heute früher losfahren.|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Ben bugün daha erken yola çıkmak zorundayım.
+Modalverben – müssen|Du ___ heute früher losfahren.|musst|muss;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Sen bugün daha erken yola çıkmak zorundasın.
+Modalverben – müssen|Sie ___ heute früher losfahren. (sie = eine Person)|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|O bugün daha erken yola çıkmak zorunda.
+Modalverben – müssen|Wir ___ heute früher losfahren.|müssen|muss;musst;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Biz bugün daha erken yola çıkmak zorundayız.
+Modalverben – müssen|Ihr ___ heute früher losfahren.|müsst|muss;musst;müssen|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Siz bugün daha erken yola çıkmak zorundasınız.
+Modalverben – müssen|Ich ___ heute die Jacke mitnehmen.|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Ben bugün ceketi yanıma almak zorundayım.
+Modalverben – müssen|Du ___ heute die Jacke mitnehmen.|musst|muss;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Sen bugün ceketi yanına almak zorundasın.
+Modalverben – müssen|Sie ___ heute die Jacke mitnehmen. (sie = eine Person)|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|O bugün ceketi yanına almak zorunda.
+Modalverben – müssen|Wir ___ heute die Jacke mitnehmen.|müssen|muss;musst;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Biz bugün ceketi yanımıza almak zorundayız.
+Modalverben – müssen|Ihr ___ heute die Jacke mitnehmen.|müsst|muss;musst;müssen|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Siz bugün ceketi yanınıza almak zorundasınız.
+Modalverben – müssen|Ich ___ heute einen Termin machen.|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Ben bugün randevu almak zorundayım.
+Modalverben – müssen|Du ___ heute einen Termin machen.|musst|muss;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Sen bugün randevu almak zorundasın.
+Modalverben – müssen|Sie ___ heute einen Termin machen. (sie = eine Person)|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|O bugün randevu almak zorunda.
+Modalverben – müssen|Wir ___ heute einen Termin machen.|müssen|muss;musst;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Biz bugün randevu almak zorundayız.
+Modalverben – müssen|Ihr ___ heute einen Termin machen.|müsst|muss;musst;müssen|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Siz bugün randevu almak zorundasınız.
+Modalverben – müssen|Ich ___ heute die Nachricht lesen.|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Ben bugün mesajı okumak zorundayım.
+Modalverben – müssen|Du ___ heute die Nachricht lesen.|musst|muss;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Sen bugün mesajı okumak zorundasın.
+Modalverben – müssen|Sie ___ heute die Nachricht lesen. (sie = eine Person)|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|O bugün mesajı okumak zorunda.
+Modalverben – müssen|Wir ___ heute die Nachricht lesen.|müssen|muss;musst;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Biz bugün mesajı okumak zorundayız.
+Modalverben – müssen|Ihr ___ heute die Nachricht lesen.|müsst|muss;musst;müssen|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Siz bugün mesajı okumak zorundasınız.
+Modalverben – müssen|Ich ___ heute eine Pause machen.|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Ben bugün mola vermek zorundayım.
+Modalverben – müssen|Du ___ heute eine Pause machen.|musst|muss;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Sen bugün mola vermek zorundasın.
+Modalverben – müssen|Sie ___ heute eine Pause machen. (sie = eine Person)|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|O bugün mola vermek zorunda.
+Modalverben – müssen|Wir ___ heute eine Pause machen.|müssen|muss;musst;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Biz bugün mola vermek zorundayız.
+Modalverben – müssen|Ihr ___ heute eine Pause machen.|müsst|muss;musst;müssen|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Siz bugün mola vermek zorundasınız.
+Modalverben – müssen|Ich ___ heute die Adresse prüfen.|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Ben bugün adresi kontrol etmek zorundayım.
+Modalverben – müssen|Du ___ heute die Adresse prüfen.|musst|muss;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Sen bugün adresi kontrol etmek zorundasın.
+Modalverben – müssen|Sie ___ heute die Adresse prüfen. (sie = eine Person)|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|O bugün adresi kontrol etmek zorunda.
+Modalverben – müssen|Wir ___ heute die Adresse prüfen.|müssen|muss;musst;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Biz bugün adresi kontrol etmek zorundayız.
+Modalverben – müssen|Ihr ___ heute die Adresse prüfen.|müsst|muss;musst;müssen|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Siz bugün adresi kontrol etmek zorundasınız.
+Modalverben – müssen|Ich ___ heute das Fenster schließen.|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Ben bugün pencereyi kapatmak zorundayım.
+Modalverben – müssen|Du ___ heute das Fenster schließen.|musst|muss;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Sen bugün pencereyi kapatmak zorundasın.
+Modalverben – müssen|Sie ___ heute das Fenster schließen. (sie = eine Person)|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|O bugün pencereyi kapatmak zorunda.
+Modalverben – müssen|Wir ___ heute das Fenster schließen.|müssen|muss;musst;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Biz bugün pencereyi kapatmak zorundayız.
+Modalverben – müssen|Ihr ___ heute das Fenster schließen.|müsst|muss;musst;müssen|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Siz bugün pencereyi kapatmak zorundasınız.
+Modalverben – müssen|Ich ___ heute das Paket abholen.|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Ben bugün paketi teslim almak zorundayım.
+Modalverben – müssen|Du ___ heute das Paket abholen.|musst|muss;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Sen bugün paketi teslim almak zorundasın.
+Modalverben – müssen|Sie ___ heute das Paket abholen. (sie = eine Person)|muss|musst;müssen;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|O bugün paketi teslim almak zorunda.
+Modalverben – müssen|Wir ___ heute das Paket abholen.|müssen|muss;musst;müsst|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Biz bugün paketi teslim almak zorundayız.
+Modalverben – müssen|Ihr ___ heute das Paket abholen.|müsst|muss;musst;müssen|Müssen özneye göre çekimlenir. Asıl fiil sonda mastar hâlindedir.|Siz bugün paketi teslim almak zorundasınız.
+Präteritum|Ich ___ gestern krank.|war|hatte;waren;wart|Sein fiilinin ich biçimi war olur.|Dün hastaydım.
+Präteritum|Im Deutschkurs sagt Deniz: „Ich ___ gestern krank.“|war|hatte;waren;wart|Sein fiilinin ich biçimi war olur.|Almanca kursunda Deniz şöyle diyor: “Dün hastaydım.”
+Präteritum|Im Chat steht: „Ich ___ gestern krank.“|war|hatte;waren;wart|Sein fiilinin ich biçimi war olur.|Sohbette şu yazıyor: “Dün hastaydım.”
+Präteritum|Wir ___ keine Fahrkarten.|hatten|waren;hatte;hattet|Haben, wir ile hatten olur.|Biletimiz yoktu.
+Präteritum|Aus Leas Sprachnachricht: „Wir ___ keine Fahrkarten.“|hatten|waren;hatte;hattet|Haben, wir ile hatten olur.|Lea’nın sesli mesajından: “Biletimiz yoktu.”
+Präteritum|Im Übungsdialog hört man: „Wir ___ keine Fahrkarten.“|hatten|waren;hatte;hattet|Haben, wir ile hatten olur.|Alıştırma diyaloğunda şu duyuluyor: “Biletimiz yoktu.”
+Präteritum|Du ___ früher im Büro.|warst|war;hattest;wart|Du ile sein → warst.|Daha önce ofisteydin.
+Präteritum|Beim Essen erzählt Ada: „Du ___ früher im Büro.“|warst|war;hattest;wart|Du ile sein → warst.|Ada sofrada şöyle anlatıyor: “Daha önce ofisteydin.”
+Präteritum|Im Kurs liest Ali vor: „Du ___ früher im Büro.“|warst|war;hattest;wart|Du ile sein → warst.|Ali kursta sesli okuyor: “Daha önce ofisteydin.”
+Präteritum|Emre ___ sein Handy nicht dabei.|hatte|war;hatten;hattest|Yanında bir şey bulunması burada haben ile anlatılır.|Emre'nin telefonu yanında değildi.
+Präteritum|Im Chat steht: „Emre ___ sein Handy nicht dabei.“|hatte|war;hatten;hattest|Yanında bir şey bulunması burada haben ile anlatılır.|Sohbette şu yazıyor: “Emre'nin telefonu yanında değildi.”
+Präteritum|Auf der Karte steht: „Emre ___ sein Handy nicht dabei.“|hatte|war;hatten;hattest|Yanında bir şey bulunması burada haben ile anlatılır.|Kartta şunlar yazıyor: “Emre'nin telefonu yanında değildi.”
+Präteritum|Ihr ___ schon im Zug.|wart|warst;waren;hattet|Ihr ile sein → wart.|Siz zaten trendeydiniz.
+Präteritum|Im Übungsdialog hört man: „Ihr ___ schon im Zug.“|wart|warst;waren;hattet|Ihr ile sein → wart.|Alıştırma diyaloğunda şu duyuluyor: “Siz zaten trendeydiniz.”
+Präteritum|Im Deutschkurs sagt Deniz: „Ihr ___ schon im Zug.“|wart|warst;waren;hattet|Ihr ile sein → wart.|Almanca kursunda Deniz şöyle diyor: “Siz zaten trendeydiniz.”
+Präteritum|Die Kinder ___ am Samstag bei Oma.|waren|war;wart;hatten|Çoğul özneyle waren kullanılır.|Çocuklar cumartesi büyükannelerindeydi.
+Präteritum|Im Kurs liest Ali vor: „Die Kinder ___ am Samstag bei Oma.“|waren|war;wart;hatten|Çoğul özneyle waren kullanılır.|Ali kursta sesli okuyor: “Çocuklar cumartesi büyükannelerindeydi.”
+Präteritum|Aus Leas Sprachnachricht: „Die Kinder ___ am Samstag bei Oma.“|waren|war;wart;hatten|Çoğul özneyle waren kullanılır.|Lea’nın sesli mesajından: “Çocuklar cumartesi büyükannelerindeydi.”
+Präteritum|Ich ___ am Abend noch arbeiten: Die Schicht war noch nicht zu Ende.|musste|musstet;mussten;müssen|Zorunluluk için müssen → musste.|Vardiya bitmediği için akşam hâlâ çalışmak zorundaydım.
+Präteritum|Auf der Karte steht: „Ich ___ am Abend noch arbeiten: Die Schicht war noch nicht zu Ende.“|musste|musstet;mussten;müssen|Zorunluluk için müssen → musste.|Kartta şunlar yazıyor: “Vardiya bitmediği için akşam hâlâ çalışmak zorundaydım.”
+Präteritum|Beim Essen erzählt Ada: „Ich ___ am Abend noch arbeiten: Die Schicht war noch nicht zu Ende.“|musste|musstet;mussten;müssen|Zorunluluk için müssen → musste.|Ada sofrada şöyle anlatıyor: “Vardiya bitmediği için akşam hâlâ çalışmak zorundaydım.”
+Präteritum|Meine Eltern ___ wegen des Schnees nicht kommen.|konnten|konnte;konntet;könnt|Können, çoğul özneyle konnten olur.|Annemle babam kar yüzünden gelemedi.
+Präteritum|Im Deutschkurs sagt Deniz: „Meine Eltern ___ wegen des Schnees nicht kommen.“|konnten|konnte;konntet;könnt|Können, çoğul özneyle konnten olur.|Almanca kursunda Deniz şöyle diyor: “Annemle babam kar yüzünden gelemedi.”
+Präteritum|Im Chat steht: „Meine Eltern ___ wegen des Schnees nicht kommen.“|konnten|konnte;konntet;könnt|Können, çoğul özneyle konnten olur.|Sohbette şu yazıyor: “Annemle babam kar yüzünden gelemedi.”
+Präteritum|Du ___ hier als Kind nicht allein schwimmen.|durftest|durfte;durftet;darfst|Geçmişte izin bildiren dürfen, du ile durftest olur.|Çocukken burada tek başına yüzmene izin yoktu.
+Präteritum|Aus Leas Sprachnachricht: „Du ___ hier als Kind nicht allein schwimmen.“|durftest|durfte;durftet;darfst|Geçmişte izin bildiren dürfen, du ile durftest olur.|Lea’nın sesli mesajından: “Çocukken burada tek başına yüzmene izin yoktu.”
+Präteritum|Im Übungsdialog hört man: „Du ___ hier als Kind nicht allein schwimmen.“|durftest|durfte;durftet;darfst|Geçmişte izin bildiren dürfen, du ile durftest olur.|Alıştırma diyaloğunda şu duyuluyor: “Çocukken burada tek başına yüzmene izin yoktu.”
+Präteritum|Die Ärztin hat uns gesagt: Wir ___ mehr Wasser trinken.|sollten|sollte;solltet;sollt|Aktarılan öneri için wir sollten kullanılır.|Doktor bize daha çok su içmemiz gerektiğini söyledi.
+Präteritum|Beim Essen erzählt Ada: „Die Ärztin hat uns gesagt: Wir ___ mehr Wasser trinken.“|sollten|sollte;solltet;sollt|Aktarılan öneri için wir sollten kullanılır.|Ada sofrada şöyle anlatıyor: “Doktor bize daha çok su içmemiz gerektiğini söyledi.”
+Präteritum|Im Kurs liest Ali vor: „Die Ärztin hat uns gesagt: Wir ___ mehr Wasser trinken.“|sollten|sollte;solltet;sollt|Aktarılan öneri için wir sollten kullanılır.|Ali kursta sesli okuyor: “Doktor bize daha çok su içmemiz gerektiğini söyledi.”
+Präteritum|Ich ___ einen Tee bestellen, aber es gab keinen.|wollte|wolltest;wolltet;willst|Geçmişteki niyet için ich wollte kullanılır.|Bir çay sipariş etmek istedim ama yoktu.
+Präteritum|Im Chat steht: „Ich ___ einen Tee bestellen, aber es gab keinen.“|wollte|wolltest;wolltet;willst|Geçmişteki niyet için ich wollte kullanılır.|Sohbette şu yazıyor: “Bir çay sipariş etmek istedim ama yoktu.”
+Präteritum|Auf der Karte steht: „Ich ___ einen Tee bestellen, aber es gab keinen.“|wollte|wolltest;wolltet;willst|Geçmişteki niyet için ich wollte kullanılır.|Kartta şunlar yazıyor: “Bir çay sipariş etmek istedim ama yoktu.”
+Präteritum|Die Tür ___ offen, als ich ankam.|war|waren;hatte;hatten|Durum bildiren offen, sein ile kullanılır.|Vardığımda kapı açıktı.
+Präteritum|Im Übungsdialog hört man: „Die Tür ___ offen, als ich ankam.“|war|waren;hatte;hatten|Durum bildiren offen, sein ile kullanılır.|Alıştırma diyaloğunda şu duyuluyor: “Vardığımda kapı açıktı.”
+Präteritum|Im Deutschkurs sagt Deniz: „Die Tür ___ offen, als ich ankam.“|war|waren;hatte;hatten|Durum bildiren offen, sein ile kullanılır.|Almanca kursunda Deniz şöyle diyor: “Vardığımda kapı açıktı.”
+Präteritum|Am Montag ___ ihr frei.|hattet|hatte;hattest;hatten|Ihr ile haben → hattet.|Pazartesi izniniz vardı.
+Präteritum|Im Kurs liest Ali vor: „Am Montag ___ ihr frei.“|hattet|hatte;hattest;hatten|Ihr ile haben → hattet.|Ali kursta sesli okuyor: “Pazartesi izniniz vardı.”
+Präteritum|Vor dem Kurs ___ ich noch eine Frage.|hatte|waren;hattest;habt|Eine Frage haben geçmişte eine Frage hatte olur.|Kurstan önce bir sorum daha vardı.
+Präteritum|Auf der Karte steht: „Vor dem Kurs ___ ich noch eine Frage.“|hatte|waren;hattest;habt|Eine Frage haben geçmişte eine Frage hatte olur.|Kartta şunlar yazıyor: “Kurstan önce bir sorum daha vardı.”
+Komparativ/Superlativ|Mina läuft ___ als ihr Bruder.|schneller|schnell;am schnellsten;schnelle|Als ile karşılaştırmada schneller kullanılır.|Mina erkek kardeşinden daha hızlı koşuyor.
+Komparativ/Superlativ|Im Deutschkurs sagt Deniz: „Mina läuft ___ als ihr Bruder.“|schneller|schnell;am schnellsten;schnelle|Als ile karşılaştırmada schneller kullanılır.|Almanca kursunda Deniz şöyle diyor: “Mina erkek kardeşinden daha hızlı koşuyor.”
+Komparativ/Superlativ|Im Chat steht: „Mina läuft ___ als ihr Bruder.“|schneller|schnell;am schnellsten;schnelle|Als ile karşılaştırmada schneller kullanılır.|Sohbette şu yazıyor: “Mina erkek kardeşinden daha hızlı koşuyor.”
+Komparativ/Superlativ|Im Januar war es hier ___ als im Dezember.|kälter|kalt;am kältesten;kälteste|Kalt sözcüğü Komparativ'de kälter olur.|Burası ocakta aralıktan daha soğuktu.
+Komparativ/Superlativ|Aus Leas Sprachnachricht: „Im Januar war es hier ___ als im Dezember.“|kälter|kalt;am kältesten;kälteste|Kalt sözcüğü Komparativ'de kälter olur.|Lea’nın sesli mesajından: “Burası ocakta aralıktan daha soğuktu.”
+Komparativ/Superlativ|Im Übungsdialog hört man: „Im Januar war es hier ___ als im Dezember.“|kälter|kalt;am kältesten;kälteste|Kalt sözcüğü Komparativ'de kälter olur.|Alıştırma diyaloğunda şu duyuluyor: “Burası ocakta aralıktan daha soğuktu.”
+Komparativ/Superlativ|Die grüne Tasche ist nicht so ___ wie die braune.|schwer|schwerer;am schwersten;schwere|So … wie yapısında sıfat temel biçimdedir.|Yeşil çanta kahverengi çanta kadar ağır değil.
+Komparativ/Superlativ|Beim Essen erzählt Ada: „Die grüne Tasche ist nicht so ___ wie die braune.“|schwer|schwerer;am schwersten;schwere|So … wie yapısında sıfat temel biçimdedir.|Ada sofrada şöyle anlatıyor: “Yeşil çanta kahverengi çanta kadar ağır değil.”
+Komparativ/Superlativ|Im Kurs liest Ali vor: „Die grüne Tasche ist nicht so ___ wie die braune.“|schwer|schwerer;am schwersten;schwere|So … wie yapısında sıfat temel biçimdedir.|Ali kursta sesli okuyor: “Yeşil çanta kahverengi çanta kadar ağır değil.”
+Komparativ/Superlativ|Von allen Tischen ist dieser ___.|am kleinsten|kleiner;kleineren;kleinste|Von allen grubunda en küçük olanı am kleinsten ile belirtirsin.|Bütün masalar arasında en küçüğü bu.
+Komparativ/Superlativ|Im Chat steht: „Von allen Tischen ist dieser ___.“|am kleinsten|kleiner;kleineren;kleinste|Von allen grubunda en küçük olanı am kleinsten ile belirtirsin.|Sohbette şu yazıyor: “Bütün masalar arasında en küçüğü bu.”
+Komparativ/Superlativ|Auf der Karte steht: „Von allen Tischen ist dieser ___.“|am kleinsten|kleiner;kleineren;kleinste|Von allen grubunda en küçük olanı am kleinsten ile belirtirsin.|Kartta şunlar yazıyor: “Bütün masalar arasında en küçüğü bu.”
+Komparativ/Superlativ|Ich trinke ___ Tee als Kaffee.|lieber|gern;am liebsten;liebe|Gern sözcüğünün Komparativ biçimi lieber olur.|Çay içmeyi kahveye tercih ederim.
+Komparativ/Superlativ|Im Übungsdialog hört man: „Ich trinke ___ Tee als Kaffee.“|lieber|gern;am liebsten;liebe|Gern sözcüğünün Komparativ biçimi lieber olur.|Alıştırma diyaloğunda şu duyuluyor: “Çay içmeyi kahveye tercih ederim.”
+Komparativ/Superlativ|Im Deutschkurs sagt Deniz: „Ich trinke ___ Tee als Kaffee.“|lieber|gern;am liebsten;liebe|Gern sözcüğünün Komparativ biçimi lieber olur.|Almanca kursunda Deniz şöyle diyor: “Çay içmeyi kahveye tercih ederim.”
+Komparativ/Superlativ|Heute habe ich ___ Zeit als gestern.|mehr|viel;am meisten;meiste|Viel sözcüğünün karşılaştırması mehr olur.|Bugün dünden daha çok vaktim var.
+Komparativ/Superlativ|Im Kurs liest Ali vor: „Heute habe ich ___ Zeit als gestern.“|mehr|viel;am meisten;meiste|Viel sözcüğünün karşılaştırması mehr olur.|Ali kursta sesli okuyor: “Bugün dünden daha çok vaktim var.”
+Komparativ/Superlativ|Aus Leas Sprachnachricht: „Heute habe ich ___ Zeit als gestern.“|mehr|viel;am meisten;meiste|Viel sözcüğünün karşılaştırması mehr olur.|Lea’nın sesli mesajından: “Bugün dünden daha çok vaktim var.”
+Komparativ/Superlativ|Am Mittwoch ist unser Büro ___ geöffnet: bis 20 Uhr.|am längsten|länger als;längste;lange als|Zarf görevindeki Superlativ, am längsten biçimindedir.|Ofisimiz çarşamba günü en uzun süre, saat 20'ye kadar açık.
+Komparativ/Superlativ|Auf der Karte steht: „Am Mittwoch ist unser Büro ___ geöffnet: bis 20 Uhr.“|am längsten|länger als;längste;lange als|Zarf görevindeki Superlativ, am längsten biçimindedir.|Kartta şunlar yazıyor: “Ofisimiz çarşamba günü en uzun süre, saat 20'ye kadar açık.”
+Komparativ/Superlativ|Beim Essen erzählt Ada: „Am Mittwoch ist unser Büro ___ geöffnet: bis 20 Uhr.“|am längsten|länger als;längste;lange als|Zarf görevindeki Superlativ, am längsten biçimindedir.|Ada sofrada şöyle anlatıyor: “Ofisimiz çarşamba günü en uzun süre, saat 20'ye kadar açık.”
+Komparativ/Superlativ|Das ist der ___ Weg zum Bahnhof.|kürzeste|kürzer;am kürzesten;kurzer|Der ile isimden önce Superlativ: der kürzeste Weg.|İstasyona giden en kısa yol bu.
+Komparativ/Superlativ|Im Deutschkurs sagt Deniz: „Das ist der ___ Weg zum Bahnhof.“|kürzeste|kürzer;am kürzesten;kurzer|Der ile isimden önce Superlativ: der kürzeste Weg.|Almanca kursunda Deniz şöyle diyor: “İstasyona giden en kısa yol bu.”
+Komparativ/Superlativ|Im Chat steht: „Das ist der ___ Weg zum Bahnhof.“|kürzeste|kürzer;am kürzesten;kurzer|Der ile isimden önce Superlativ: der kürzeste Weg.|Sohbette şu yazıyor: “İstasyona giden en kısa yol bu.”
+Komparativ/Superlativ|Für diese Stelle spricht sie Deutsch ___ als ich.|besser|gut;am besten;beste|Gut sözcüğünün Komparativ biçimi besser olur.|Bu pozisyon için o benden daha iyi Almanca konuşuyor.
+Komparativ/Superlativ|Aus Leas Sprachnachricht: „Für diese Stelle spricht sie Deutsch ___ als ich.“|besser|gut;am besten;beste|Gut sözcüğünün Komparativ biçimi besser olur.|Lea’nın sesli mesajından: “Bu pozisyon için o benden daha iyi Almanca konuşuyor.”
+Komparativ/Superlativ|Im Übungsdialog hört man: „Für diese Stelle spricht sie Deutsch ___ als ich.“|besser|gut;am besten;beste|Gut sözcüğünün Komparativ biçimi besser olur.|Alıştırma diyaloğunda şu duyuluyor: “Bu pozisyon için o benden daha iyi Almanca konuşuyor.”
+Komparativ/Superlativ|Meine Wohnung liegt näher am Park ___ deine.|als|wie;denn;ob|Fark bildiren Komparativ'den sonra als gelir.|Evim parka seninkinden daha yakın.
+Komparativ/Superlativ|Beim Essen erzählt Ada: „Meine Wohnung liegt näher am Park ___ deine.“|als|wie;denn;ob|Fark bildiren Komparativ'den sonra als gelir.|Ada sofrada şöyle anlatıyor: “Evim parka seninkinden daha yakın.”
+Komparativ/Superlativ|Im Kurs liest Ali vor: „Meine Wohnung liegt näher am Park ___ deine.“|als|wie;denn;ob|Fark bildiren Komparativ'den sonra als gelir.|Ali kursta sesli okuyor: “Evim parka seninkinden daha yakın.”
+Komparativ/Superlativ|Ich finde, diese Übung ist ___ als die vorige.|einfacher|einfach;am einfachsten;einfache|Einfach → einfacher + als.|Bence bu alıştırma öncekinden daha kolay.
+Komparativ/Superlativ|Im Chat steht: „Ich finde, diese Übung ist ___ als die vorige.“|einfacher|einfach;am einfachsten;einfache|Einfach → einfacher + als.|Sohbette şu yazıyor: “Bence bu alıştırma öncekinden daha kolay.”
+Komparativ/Superlativ|Auf der Karte steht: „Ich finde, diese Übung ist ___ als die vorige.“|einfacher|einfach;am einfachsten;einfache|Einfach → einfacher + als.|Kartta şunlar yazıyor: “Bence bu alıştırma öncekinden daha kolay.”
+Komparativ/Superlativ|Im Team kommt Lea morgens ___ ins Büro: schon um sechs.|am frühesten|früher als;früheste;frühe|Zaman zarfı olarak Superlativ am frühesten olur.|Ekipte ofise en erken Lea geliyor, saat altıda.
+Komparativ/Superlativ|Im Übungsdialog hört man: „Im Team kommt Lea morgens ___ ins Büro: schon um sechs.“|am frühesten|früher als;früheste;frühe|Zaman zarfı olarak Superlativ am frühesten olur.|Alıştırma diyaloğunda şu duyuluyor: “Ekipte ofise en erken Lea geliyor, saat altıda.”
+Komparativ/Superlativ|Im Deutschkurs sagt Deniz: „Im Team kommt Lea morgens ___ ins Büro: schon um sechs.“|am frühesten|früher als;früheste;frühe|Zaman zarfı olarak Superlativ am frühesten olur.|Almanca kursunda Deniz şöyle diyor: “Ekipte ofise en erken Lea geliyor, saat altıda.”
+Komparativ/Superlativ|Ruf mich bitte ___ an als gestern.|später|spät;am spätesten;späte|Als ile fark bildirirken später kullanılır.|Lütfen beni dünkünden daha geç ara.
+Komparativ/Superlativ|Im Kurs liest Ali vor: „Ruf mich bitte ___ an als gestern.“|später|spät;am spätesten;späte|Als ile fark bildirirken später kullanılır.|Ali kursta sesli okuyor: “Lütfen beni dünkünden daha geç ara.”
+Komparativ/Superlativ|Das rote Rad fährt genauso ___ wie das blaue.|gut|besser;am besten;beste|Genauso … wie eşitlik bildirir.|Kırmızı bisiklet mavi bisiklet kadar iyi gidiyor.
+Komparativ/Superlativ|Auf der Karte steht: „Das rote Rad fährt genauso ___ wie das blaue.“|gut|besser;am besten;beste|Genauso … wie eşitlik bildirir.|Kartta şunlar yazıyor: “Kırmızı bisiklet mavi bisiklet kadar iyi gidiyor.”
+Adjektivdeklination|Ich kaufe einen ___ Mantel.|warmen|warmer;warmes;warme|Einen sonrası eril Akkusativ sıfat eki -en olur.|Sıcak tutan bir palto alıyorum.
+Adjektivdeklination|Im Deutschkurs sagt Deniz: „Ich kaufe einen ___ Mantel.“|warmen|warmer;warmes;warme|Einen sonrası eril Akkusativ sıfat eki -en olur.|Almanca kursunda Deniz şöyle diyor: “Sıcak tutan bir palto alıyorum.”
+Adjektivdeklination|Im Chat steht: „Ich kaufe einen ___ Mantel.“|warmen|warmer;warmes;warme|Einen sonrası eril Akkusativ sıfat eki -en olur.|Sohbette şu yazıyor: “Sıcak tutan bir palto alıyorum.”
+Adjektivdeklination|Nimm bitte die ___ Tasse.|blaue|blauer;blaues;blauem|Die + dişil Akkusativ ile sıfat -e alır.|Lütfen mavi fincanı al.
+Adjektivdeklination|Aus Leas Sprachnachricht: „Nimm bitte die ___ Tasse.“|blaue|blauer;blaues;blauem|Die + dişil Akkusativ ile sıfat -e alır.|Lea’nın sesli mesajından: “Lütfen mavi fincanı al.”
+Adjektivdeklination|Im Übungsdialog hört man: „Nimm bitte die ___ Tasse.“|blaue|blauer;blaues;blauem|Die + dişil Akkusativ ile sıfat -e alır.|Alıştırma diyaloğunda şu duyuluyor: “Lütfen mavi fincanı al.”
+Adjektivdeklination|Sie wohnt in einem ___ Haus.|alten|alter;altem;altes|Einem + Dativ sonrası sıfat -en alır.|Eski bir evde oturuyor.
+Adjektivdeklination|Beim Essen erzählt Ada: „Sie wohnt in einem ___ Haus.“|alten|alter;altem;altes|Einem + Dativ sonrası sıfat -en alır.|Ada sofrada şöyle anlatıyor: “Eski bir evde oturuyor.”
+Adjektivdeklination|Im Kurs liest Ali vor: „Sie wohnt in einem ___ Haus.“|alten|alter;altem;altes|Einem + Dativ sonrası sıfat -en alır.|Ali kursta sesli okuyor: “Eski bir evde oturuyor.”
+Adjektivdeklination|Ein ___ Paket liegt vor der Tür.|kleines|kleinen;kleine;kleiner|Ein + nötr Nominativ ile sıfat -es alır.|Kapının önünde küçük bir paket var.
+Adjektivdeklination|Im Chat steht: „Ein ___ Paket liegt vor der Tür.“|kleines|kleinen;kleine;kleiner|Ein + nötr Nominativ ile sıfat -es alır.|Sohbette şu yazıyor: “Kapının önünde küçük bir paket var.”
+Adjektivdeklination|Auf der Karte steht: „Ein ___ Paket liegt vor der Tür.“|kleines|kleinen;kleine;kleiner|Ein + nötr Nominativ ile sıfat -es alır.|Kartta şunlar yazıyor: “Kapının önünde küçük bir paket var.”
+Adjektivdeklination|Wir waschen die ___ Gläser.|schmutzigen|schmutzige;schmutziges;schmutzigem|Die + çoğul Akkusativ ile sıfat -en alır.|Kirli bardakları yıkıyoruz.
+Adjektivdeklination|Im Übungsdialog hört man: „Wir waschen die ___ Gläser.“|schmutzigen|schmutzige;schmutziges;schmutzigem|Die + çoğul Akkusativ ile sıfat -en alır.|Alıştırma diyaloğunda şu duyuluyor: “Kirli bardakları yıkıyoruz.”
+Adjektivdeklination|Im Deutschkurs sagt Deniz: „Wir waschen die ___ Gläser.“|schmutzigen|schmutzige;schmutziges;schmutzigem|Die + çoğul Akkusativ ile sıfat -en alır.|Almanca kursunda Deniz şöyle diyor: “Kirli bardakları yıkıyoruz.”
+Adjektivdeklination|Morgen kommt ein ___ Kollege.|neuer|neue;neues;neuem|Ein + eril Nominativ ile sıfat -er alır.|Yarın yeni bir iş arkadaşı geliyor.
+Adjektivdeklination|Im Kurs liest Ali vor: „Morgen kommt ein ___ Kollege.“|neuer|neue;neues;neuem|Ein + eril Nominativ ile sıfat -er alır.|Ali kursta sesli okuyor: “Yarın yeni bir iş arkadaşı geliyor.”
+Adjektivdeklination|Aus Leas Sprachnachricht: „Morgen kommt ein ___ Kollege.“|neuer|neue;neues;neuem|Ein + eril Nominativ ile sıfat -er alır.|Lea’nın sesli mesajından: “Yarın yeni bir iş arkadaşı geliyor.”
+Adjektivdeklination|Zum Frühstück gibt es ___ Brot.|frisches|frischer;frische;frischem|Artikelsiz nötr Akkusativ'de sıfat -es alır.|Kahvaltıda taze ekmek var.
+Adjektivdeklination|Auf der Karte steht: „Zum Frühstück gibt es ___ Brot.“|frisches|frischer;frische;frischem|Artikelsiz nötr Akkusativ'de sıfat -es alır.|Kartta şunlar yazıyor: “Kahvaltıda taze ekmek var.”
+Adjektivdeklination|Beim Essen erzählt Ada: „Zum Frühstück gibt es ___ Brot.“|frisches|frischer;frische;frischem|Artikelsiz nötr Akkusativ'de sıfat -es alır.|Ada sofrada şöyle anlatıyor: “Kahvaltıda taze ekmek var.”
+Adjektivdeklination|Er sitzt neben einer ___ Frau.|netten|netter;nette;nettem|Einer + Dativ sonrası sıfat -en alır.|Nazik bir kadının yanında oturuyor.
+Adjektivdeklination|Im Deutschkurs sagt Deniz: „Er sitzt neben einer ___ Frau.“|netten|netter;nette;nettem|Einer + Dativ sonrası sıfat -en alır.|Almanca kursunda Deniz şöyle diyor: “Nazik bir kadının yanında oturuyor.”
+Adjektivdeklination|Im Chat steht: „Er sitzt neben einer ___ Frau.“|netten|netter;nette;nettem|Einer + Dativ sonrası sıfat -en alır.|Sohbette şu yazıyor: “Nazik bir kadının yanında oturuyor.”
+Adjektivdeklination|Welche ___ Jacke ist deine?|rote|roten;roter;rotem|Welche + dişil Nominativ ile sıfat -e alır.|Hangi kırmızı ceket senin?
+Adjektivdeklination|Aus Leas Sprachnachricht: „Welche ___ Jacke ist deine?“|rote|roten;roter;rotem|Welche + dişil Nominativ ile sıfat -e alır.|Lea’nın sesli mesajından: “Hangi kırmızı ceket senin?”
+Adjektivdeklination|Im Übungsdialog hört man: „Welche ___ Jacke ist deine?“|rote|roten;roter;rotem|Welche + dişil Nominativ ile sıfat -e alır.|Alıştırma diyaloğunda şu duyuluyor: “Hangi kırmızı ceket senin?”
+Adjektivdeklination|Der ___ Koffer steht im Flur.|schwere|schweren;schweres;schwerem|Der + eril Nominativ ile sıfat -e alır.|Ağır bavul koridorda duruyor.
+Adjektivdeklination|Beim Essen erzählt Ada: „Der ___ Koffer steht im Flur.“|schwere|schweren;schweres;schwerem|Der + eril Nominativ ile sıfat -e alır.|Ada sofrada şöyle anlatıyor: “Ağır bavul koridorda duruyor.”
+Adjektivdeklination|Im Kurs liest Ali vor: „Der ___ Koffer steht im Flur.“|schwere|schweren;schweres;schwerem|Der + eril Nominativ ile sıfat -e alır.|Ali kursta sesli okuyor: “Ağır bavul koridorda duruyor.”
+Adjektivdeklination|Kannst du mir mit den ___ Kisten helfen?|großen|große;großes;großem|Den + çoğul Dativ sonrası sıfat -en alır.|Büyük kasalar konusunda bana yardım edebilir misin?
+Adjektivdeklination|Im Chat steht: „Kannst du mir mit den ___ Kisten helfen?“|großen|große;großes;großem|Den + çoğul Dativ sonrası sıfat -en alır.|Sohbette şu yazıyor: “Büyük kasalar konusunda bana yardım edebilir misin?”
+Adjektivdeklination|Auf der Karte steht: „Kannst du mir mit den ___ Kisten helfen?“|großen|große;großes;großem|Den + çoğul Dativ sonrası sıfat -en alır.|Kartta şunlar yazıyor: “Büyük kasalar konusunda bana yardım edebilir misin?”
+Adjektivdeklination|Wir haben keine ___ Handtücher mehr.|sauberen|saubere;sauberer;sauberem|Keine + çoğul Akkusativ sonrası sıfat -en alır.|Artık temiz havlumuz kalmadı.
+Adjektivdeklination|Im Übungsdialog hört man: „Wir haben keine ___ Handtücher mehr.“|sauberen|saubere;sauberer;sauberem|Keine + çoğul Akkusativ sonrası sıfat -en alır.|Alıştırma diyaloğunda şu duyuluyor: “Artık temiz havlumuz kalmadı.”
+Adjektivdeklination|Im Deutschkurs sagt Deniz: „Wir haben keine ___ Handtücher mehr.“|sauberen|saubere;sauberer;sauberem|Keine + çoğul Akkusativ sonrası sıfat -en alır.|Almanca kursunda Deniz şöyle diyor: “Artık temiz havlumuz kalmadı.”
+Adjektivdeklination|Draußen weht ___ Wind.|kalter|kalte;kalten;kaltem|Artikelsiz eril Nominativ'de sıfat -er alır.|Dışarıda soğuk rüzgâr esiyor.
+Adjektivdeklination|Im Kurs liest Ali vor: „Draußen weht ___ Wind.“|kalter|kalte;kalten;kaltem|Artikelsiz eril Nominativ'de sıfat -er alır.|Ali kursta sesli okuyor: “Dışarıda soğuk rüzgâr esiyor.”
+Adjektivdeklination|Ich esse gern ___ Suppe.|warme|warmen;warmem;warmes|Artikelsiz dişil Akkusativ ile sıfat -e alır.|Ilık çorba içmeyi severim.
+Adjektivdeklination|Auf der Karte steht: „Ich esse gern ___ Suppe.“|warme|warmen;warmem;warmes|Artikelsiz dişil Akkusativ ile sıfat -e alır.|Kartta şunlar yazıyor: “Ilık çorba içmeyi severim.”
+Nebensatz mit wenn/als|___ ich zum ersten Mal nach Köln gefahren bin, war ich 20.|Als|Wenn;Denn;Ob|Geçmişte bir kez yaşanan olay için als kullanılır.|Köln'e ilk gittiğimde yirmi yaşındaydım.
+Nebensatz mit wenn/als|Im Deutschkurs sagt Deniz: „___ ich zum ersten Mal nach Köln gefahren bin, war ich 20.“|Als|Wenn;Denn;Ob|Geçmişte bir kez yaşanan olay için als kullanılır.|Almanca kursunda Deniz şöyle diyor: “Köln'e ilk gittiğimde yirmi yaşındaydım.”
+Nebensatz mit wenn/als|Im Chat steht: „___ ich zum ersten Mal nach Köln gefahren bin, war ich 20.“|Als|Wenn;Denn;Ob|Geçmişte bir kez yaşanan olay için als kullanılır.|Sohbette şu yazıyor: “Köln'e ilk gittiğimde yirmi yaşındaydım.”
+Nebensatz mit wenn/als|Ruf mich an, ___ du morgen am Bahnhof bist.|wenn|als;denn;deshalb|Gelecekteki bir zaman veya koşul için wenn kullanılır.|Yarın istasyonda olduğunda beni ara.
+Nebensatz mit wenn/als|Aus Leas Sprachnachricht: „Ruf mich an, ___ du morgen am Bahnhof bist.“|wenn|als;denn;deshalb|Gelecekteki bir zaman veya koşul için wenn kullanılır.|Lea’nın sesli mesajından: “Yarın istasyonda olduğunda beni ara.”
+Nebensatz mit wenn/als|Im Übungsdialog hört man: „Ruf mich an, ___ du morgen am Bahnhof bist.“|wenn|als;denn;deshalb|Gelecekteki bir zaman veya koşul için wenn kullanılır.|Alıştırma diyaloğunda şu duyuluyor: “Yarın istasyonda olduğunda beni ara.”
+Nebensatz mit wenn/als|Immer ___ ich als Kind krank war, hat Oma Tee gekocht.|wenn|als;denn;deshalb|Geçmişte tekrar eden olaylarda immer wenn kullanılır.|Çocukken ne zaman hastalansam büyükannem çay yapardı.
+Nebensatz mit wenn/als|Beim Essen erzählt Ada: „Immer ___ ich als Kind krank war, hat Oma Tee gekocht.“|wenn|als;denn;deshalb|Geçmişte tekrar eden olaylarda immer wenn kullanılır.|Ada sofrada şöyle anlatıyor: “Çocukken ne zaman hastalansam büyükannem çay yapardı.”
+Nebensatz mit wenn/als|Im Kurs liest Ali vor: „Immer ___ ich als Kind krank war, hat Oma Tee gekocht.“|wenn|als;denn;deshalb|Geçmişte tekrar eden olaylarda immer wenn kullanılır.|Ali kursta sesli okuyor: “Çocukken ne zaman hastalansam büyükannem çay yapardı.”
+Nebensatz mit wenn/als|___ wir 2024 umgezogen sind, hatten wir nur zwei Kisten.|Als|Wenn;Ob;Denn|Tarihi belli tek bir geçmiş olay için als kullanılır.|2024'te taşındığımızda yalnızca iki kolimiz vardı.
+Nebensatz mit wenn/als|Im Chat steht: „___ wir 2024 umgezogen sind, hatten wir nur zwei Kisten.“|Als|Wenn;Ob;Denn|Tarihi belli tek bir geçmiş olay için als kullanılır.|Sohbette şu yazıyor: “2024'te taşındığımızda yalnızca iki kolimiz vardı.”
+Nebensatz mit wenn/als|Auf der Karte steht: „___ wir 2024 umgezogen sind, hatten wir nur zwei Kisten.“|Als|Wenn;Ob;Denn|Tarihi belli tek bir geçmiş olay için als kullanılır.|Kartta şunlar yazıyor: “2024'te taşındığımızda yalnızca iki kolimiz vardı.”
+Nebensatz mit wenn/als|___ es heute Abend regnet, bleiben wir zu Hause.|Wenn|Als;Denn;Ob|Bugün için geçerli koşul wenn ile kurulur.|Bu akşam yağmur yağarsa evde kalırız.
+Nebensatz mit wenn/als|Im Übungsdialog hört man: „___ es heute Abend regnet, bleiben wir zu Hause.“|Wenn|Als;Denn;Ob|Bugün için geçerli koşul wenn ile kurulur.|Alıştırma diyaloğunda şu duyuluyor: “Bu akşam yağmur yağarsa evde kalırız.”
+Nebensatz mit wenn/als|Im Deutschkurs sagt Deniz: „___ es heute Abend regnet, bleiben wir zu Hause.“|Wenn|Als;Denn;Ob|Bugün için geçerli koşul wenn ile kurulur.|Almanca kursunda Deniz şöyle diyor: “Bu akşam yağmur yağarsa evde kalırız.”
+Nebensatz mit wenn/als|Ich habe einmal im Bus geweint, ___ mein Handy kaputtging.|als|wenn;denn;deshalb|O tek geçmiş olayın zamanını als belirtir.|Telefonum bozulduğunda bir keresinde otobüste ağladım.
+Nebensatz mit wenn/als|Im Kurs liest Ali vor: „Ich habe einmal im Bus geweint, ___ mein Handy kaputtging.“|als|wenn;denn;deshalb|O tek geçmiş olayın zamanını als belirtir.|Ali kursta sesli okuyor: “Telefonum bozulduğunda bir keresinde otobüste ağladım.”
+Nebensatz mit wenn/als|Aus Leas Sprachnachricht: „Ich habe einmal im Bus geweint, ___ mein Handy kaputtging.“|als|wenn;denn;deshalb|O tek geçmiş olayın zamanını als belirtir.|Lea’nın sesli mesajından: “Telefonum bozulduğunda bir keresinde otobüste ağladım.”
+Nebensatz mit wenn/als|___ du Brot brauchst, kann ich auf dem Heimweg welches kaufen.|Wenn|Als;Denn;Ob|Şimdiki zamandaki koşul için wenn kullanılır.|Ekmeğe ihtiyacın varsa eve dönerken alabilirim.
+Nebensatz mit wenn/als|Auf der Karte steht: „___ du Brot brauchst, kann ich auf dem Heimweg welches kaufen.“|Wenn|Als;Denn;Ob|Şimdiki zamandaki koşul için wenn kullanılır.|Kartta şunlar yazıyor: “Ekmeğe ihtiyacın varsa eve dönerken alabilirim.”
+Nebensatz mit wenn/als|Beim Essen erzählt Ada: „___ du Brot brauchst, kann ich auf dem Heimweg welches kaufen.“|Wenn|Als;Denn;Ob|Şimdiki zamandaki koşul için wenn kullanılır.|Ada sofrada şöyle anlatıyor: “Ekmeğe ihtiyacın varsa eve dönerken alabilirim.”
+Nebensatz mit wenn/als|___ er zum ersten Mal allein gekocht hat, ist der Reis angebrannt.|Als|Wenn;Denn;Ob|Zum ersten Mal, yaşanmış tek olayı işaret ediyor.|İlk kez tek başına yemek yaptığında pilav yandı.
+Nebensatz mit wenn/als|Im Deutschkurs sagt Deniz: „___ er zum ersten Mal allein gekocht hat, ist der Reis angebrannt.“|Als|Wenn;Denn;Ob|Zum ersten Mal, yaşanmış tek olayı işaret ediyor.|Almanca kursunda Deniz şöyle diyor: “İlk kez tek başına yemek yaptığında pilav yandı.”
+Nebensatz mit wenn/als|Im Chat steht: „___ er zum ersten Mal allein gekocht hat, ist der Reis angebrannt.“|Als|Wenn;Denn;Ob|Zum ersten Mal, yaşanmış tek olayı işaret ediyor.|Sohbette şu yazıyor: “İlk kez tek başına yemek yaptığında pilav yandı.”
+Nebensatz mit wenn/als|Wir machen eine Pause, ___ die Kinder müde werden.|wenn|als;denn;deshalb|Henüz gerçekleşmemiş koşul için wenn kullanılır.|Çocuklar yorulursa mola veririz.
+Nebensatz mit wenn/als|Aus Leas Sprachnachricht: „Wir machen eine Pause, ___ die Kinder müde werden.“|wenn|als;denn;deshalb|Henüz gerçekleşmemiş koşul için wenn kullanılır.|Lea’nın sesli mesajından: “Çocuklar yorulursa mola veririz.”
+Nebensatz mit wenn/als|Im Übungsdialog hört man: „Wir machen eine Pause, ___ die Kinder müde werden.“|wenn|als;denn;deshalb|Henüz gerçekleşmemiş koşul için wenn kullanılır.|Alıştırma diyaloğunda şu duyuluyor: “Çocuklar yorulursa mola veririz.”
+Nebensatz mit wenn/als|Jedes Mal, ___ der alte Drucker Papier brauchte, hat er laut gepiepst.|wenn|als;denn;deshalb|Jedes Mal, tekrar anlamı verir ve wenn ile kullanılır.|Eski yazıcı her kâğıda ihtiyaç duyduğunda yüksek sesle ötüyordu.
+Nebensatz mit wenn/als|Beim Essen erzählt Ada: „Jedes Mal, ___ der alte Drucker Papier brauchte, hat er laut gepiepst.“|wenn|als;denn;deshalb|Jedes Mal, tekrar anlamı verir ve wenn ile kullanılır.|Ada sofrada şöyle anlatıyor: “Eski yazıcı her kâğıda ihtiyaç duyduğunda yüksek sesle ötüyordu.”
+Nebensatz mit wenn/als|Im Kurs liest Ali vor: „Jedes Mal, ___ der alte Drucker Papier brauchte, hat er laut gepiepst.“|wenn|als;denn;deshalb|Jedes Mal, tekrar anlamı verir ve wenn ile kullanılır.|Ali kursta sesli okuyor: “Eski yazıcı her kâğıda ihtiyaç duyduğunda yüksek sesle ötüyordu.”
+Nebensatz mit wenn/als|___ mein Sohn auf die Welt gekommen ist, war überall Schnee.|Als|Wenn;Denn;Ob|Bir kez yaşanan doğum gibi geçmiş olaylarda als kullanılır.|Oğlum dünyaya geldiğinde her yer karla kaplıydı.
+Nebensatz mit wenn/als|Im Chat steht: „___ mein Sohn auf die Welt gekommen ist, war überall Schnee.“|Als|Wenn;Denn;Ob|Bir kez yaşanan doğum gibi geçmiş olaylarda als kullanılır.|Sohbette şu yazıyor: “Oğlum dünyaya geldiğinde her yer karla kaplıydı.”
+Nebensatz mit wenn/als|Auf der Karte steht: „___ mein Sohn auf die Welt gekommen ist, war überall Schnee.“|Als|Wenn;Denn;Ob|Bir kez yaşanan doğum gibi geçmiş olaylarda als kullanılır.|Kartta şunlar yazıyor: “Oğlum dünyaya geldiğinde her yer karla kaplıydı.”
+Nebensatz mit wenn/als|Ich kann dir helfen, ___ du mir die Adresse schickst.|wenn|als;denn;deshalb|Yardım, adresi gönderme koşuluna bağlıdır.|Bana adresi gönderirsen sana yardım edebilirim.
+Nebensatz mit wenn/als|Im Übungsdialog hört man: „Ich kann dir helfen, ___ du mir die Adresse schickst.“|wenn|als;denn;deshalb|Yardım, adresi gönderme koşuluna bağlıdır.|Alıştırma diyaloğunda şu duyuluyor: “Bana adresi gönderirsen sana yardım edebilirim.”
+Nebensatz mit wenn/als|Im Deutschkurs sagt Deniz: „Ich kann dir helfen, ___ du mir die Adresse schickst.“|wenn|als;denn;deshalb|Yardım, adresi gönderme koşuluna bağlıdır.|Almanca kursunda Deniz şöyle diyor: “Bana adresi gönderirsen sana yardım edebilirim.”
+Nebensatz mit wenn/als|Ich war allein im Büro, ___ gestern plötzlich das Licht ausging.|als|wenn;denn;deshalb|Dünkü tek elektrik kesintisi als ile anlatılır.|Dün elektrik kesildiğinde ofiste yalnızdım.
+Nebensatz mit wenn/als|Im Kurs liest Ali vor: „Ich war allein im Büro, ___ gestern plötzlich das Licht ausging.“|als|wenn;denn;deshalb|Dünkü tek elektrik kesintisi als ile anlatılır.|Ali kursta sesli okuyor: “Dün elektrik kesildiğinde ofiste yalnızdım.”
+Nebensatz mit wenn/als|___ ich nicht schlafen kann, lese ich ein paar Seiten.|Wenn|Als;Denn;Ob|Tekrar eden bir durumda wenn kullanılır.|Uyuyamadığımda birkaç sayfa okurum.
+Nebensatz mit wenn/als|Auf der Karte steht: „___ ich nicht schlafen kann, lese ich ein paar Seiten.“|Wenn|Als;Denn;Ob|Tekrar eden bir durumda wenn kullanılır.|Kartta şunlar yazıyor: “Uyuyamadığımda birkaç sayfa okurum.”
+Imperativ|Timo, ___ mir bitte den Schlüssel!|gib|gebt;geben;gibst|Geben fiilinin du emir biçimi gib olur.|Timo, lütfen anahtarı bana ver!
+Imperativ|Im Deutschkurs sagt Deniz: „Timo, ___ mir bitte den Schlüssel!“|gib|gebt;geben;gibst|Geben fiilinin du emir biçimi gib olur.|Almanca kursunda Deniz şöyle diyor: “Timo, lütfen anahtarı bana ver!”
+Imperativ|Im Chat steht: „Timo, ___ mir bitte den Schlüssel!“|gib|gebt;geben;gibst|Geben fiilinin du emir biçimi gib olur.|Sohbette şu yazıyor: “Timo, lütfen anahtarı bana ver!”
+Imperativ|Kinder, ___ eure Jacken an!|zieht|ziehst;ziehen;zieh|Birden fazla kişiye ihr emir biçimiyle seslenilir.|Çocuklar, ceketlerinizi giyin!
+Imperativ|Aus Leas Sprachnachricht: „Kinder, ___ eure Jacken an!“|zieht|ziehst;ziehen;zieh|Birden fazla kişiye ihr emir biçimiyle seslenilir.|Lea’nın sesli mesajından: “Çocuklar, ceketlerinizi giyin!”
+Imperativ|Im Übungsdialog hört man: „Kinder, ___ eure Jacken an!“|zieht|ziehst;ziehen;zieh|Birden fazla kişiye ihr emir biçimiyle seslenilir.|Alıştırma diyaloğunda şu duyuluyor: “Çocuklar, ceketlerinizi giyin!”
+Imperativ|Frau Klein, ___ Sie bitte hier!|warten|warte;wartest;wartet|Kibar emir biçimi fiil + Sie şeklindedir.|Bayan Klein, lütfen burada bekleyin!
+Imperativ|Beim Essen erzählt Ada: „Frau Klein, ___ Sie bitte hier!“|warten|warte;wartest;wartet|Kibar emir biçimi fiil + Sie şeklindedir.|Ada sofrada şöyle anlatıyor: “Bayan Klein, lütfen burada bekleyin!”
+Imperativ|Im Kurs liest Ali vor: „Frau Klein, ___ Sie bitte hier!“|warten|warte;wartest;wartet|Kibar emir biçimi fiil + Sie şeklindedir.|Ali kursta sesli okuyor: “Bayan Klein, lütfen burada bekleyin!”
+Imperativ|Mina, ___ vorsichtig, der Boden ist nass!|sei|seid;sind;bist|Sein, du emir biçiminde sei olur.|Mina, dikkatli ol, zemin ıslak!
+Imperativ|Im Chat steht: „Mina, ___ vorsichtig, der Boden ist nass!“|sei|seid;sind;bist|Sein, du emir biçiminde sei olur.|Sohbette şu yazıyor: “Mina, dikkatli ol, zemin ıslak!”
+Imperativ|Auf der Karte steht: „Mina, ___ vorsichtig, der Boden ist nass!“|sei|seid;sind;bist|Sein, du emir biçiminde sei olur.|Kartta şunlar yazıyor: “Mina, dikkatli ol, zemin ıslak!”
+Imperativ|Leute, ___ bitte leiser!|sprecht|sprichst;sprechen;sprich|Sprechen fiilinin ihr emir biçimi sprecht olur.|Arkadaşlar, lütfen daha sessiz konuşun!
+Imperativ|Im Übungsdialog hört man: „Leute, ___ bitte leiser!“|sprecht|sprichst;sprechen;sprich|Sprechen fiilinin ihr emir biçimi sprecht olur.|Alıştırma diyaloğunda şu duyuluyor: “Arkadaşlar, lütfen daha sessiz konuşun!”
+Imperativ|Im Deutschkurs sagt Deniz: „Leute, ___ bitte leiser!“|sprecht|sprichst;sprechen;sprich|Sprechen fiilinin ihr emir biçimi sprecht olur.|Almanca kursunda Deniz şöyle diyor: “Arkadaşlar, lütfen daha sessiz konuşun!”
+Imperativ|Herr Öz, ___ Sie die Unterlagen zum Termin mit!|bringen|bring;bringt;bringst|Mitbringen fiilinde mit cümlenin sonuna gider.|Bay Öz, belgeleri randevuya yanınızda getirin!
+Imperativ|Im Kurs liest Ali vor: „Herr Öz, ___ Sie die Unterlagen zum Termin mit!“|bringen|bring;bringt;bringst|Mitbringen fiilinde mit cümlenin sonuna gider.|Ali kursta sesli okuyor: “Bay Öz, belgeleri randevuya yanınızda getirin!”
+Imperativ|Aus Leas Sprachnachricht: „Herr Öz, ___ Sie die Unterlagen zum Termin mit!“|bringen|bring;bringt;bringst|Mitbringen fiilinde mit cümlenin sonuna gider.|Lea’nın sesli mesajından: “Bay Öz, belgeleri randevuya yanınızda getirin!”
+Imperativ|Elif, ___ den Text erst leise und dann laut!|lies|lest;lesen;liest|Lesen, du emir biçiminde lies olur.|Elif, metni önce içinden sonra sesli oku!
+Imperativ|Auf der Karte steht: „Elif, ___ den Text erst leise und dann laut!“|lies|lest;lesen;liest|Lesen, du emir biçiminde lies olur.|Kartta şunlar yazıyor: “Elif, metni önce içinden sonra sesli oku!”
+Imperativ|Beim Essen erzählt Ada: „Elif, ___ den Text erst leise und dann laut!“|lies|lest;lesen;liest|Lesen, du emir biçiminde lies olur.|Ada sofrada şöyle anlatıyor: “Elif, metni önce içinden sonra sesli oku!”
+Imperativ|Ihr beiden, ___ den Ball nicht auf die Straße!|werft|wirf;werfen;wirfst|Werfen fiilinin ihr emir biçimi werft olur.|Siz ikiniz, topu yola atmayın!
+Imperativ|Im Deutschkurs sagt Deniz: „Ihr beiden, ___ den Ball nicht auf die Straße!“|werft|wirf;werfen;wirfst|Werfen fiilinin ihr emir biçimi werft olur.|Almanca kursunda Deniz şöyle diyor: “Siz ikiniz, topu yola atmayın!”
+Imperativ|Im Chat steht: „Ihr beiden, ___ den Ball nicht auf die Straße!“|werft|wirf;werfen;wirfst|Werfen fiilinin ihr emir biçimi werft olur.|Sohbette şu yazıyor: “Siz ikiniz, topu yola atmayın!”
+Imperativ|___ Sie im Flur rechts, Herr Maier!|Gehen|geht;gehst;ging|Resmî hitapta gehen Sie kullanılır.|Bay Maier, koridorda sağa dönün!
+Imperativ|Aus Leas Sprachnachricht: „___ Sie im Flur rechts, Herr Maier!“|Gehen|geht;gehst;ging|Resmî hitapta gehen Sie kullanılır.|Lea’nın sesli mesajından: “Bay Maier, koridorda sağa dönün!”
+Imperativ|Im Übungsdialog hört man: „___ Sie im Flur rechts, Herr Maier!“|Gehen|geht;gehst;ging|Resmî hitapta gehen Sie kullanılır.|Alıştırma diyaloğunda şu duyuluyor: “Bay Maier, koridorda sağa dönün!”
+Imperativ|Arda, ___ bitte dein Fahrrad vor dem Haus ab!|stell|stellt;stellen;stellst|Abstellen, du ile stell … ab olur.|Arda, lütfen bisikletini binanın önüne park et!
+Imperativ|Beim Essen erzählt Ada: „Arda, ___ bitte dein Fahrrad vor dem Haus ab!“|stell|stellt;stellen;stellst|Abstellen, du ile stell … ab olur.|Ada sofrada şöyle anlatıyor: “Arda, lütfen bisikletini binanın önüne park et!”
+Imperativ|Im Kurs liest Ali vor: „Arda, ___ bitte dein Fahrrad vor dem Haus ab!“|stell|stellt;stellen;stellst|Abstellen, du ile stell … ab olur.|Ali kursta sesli okuyor: “Arda, lütfen bisikletini binanın önüne park et!”
+Imperativ|Ihr beiden, ___ bitte pünktlich!|seid|sei;sind;wart|Sein, ihr emir biçiminde seid olur.|Siz ikiniz, lütfen zamanında gelin!
+Imperativ|Im Chat steht: „Ihr beiden, ___ bitte pünktlich!“|seid|sei;sind;wart|Sein, ihr emir biçiminde seid olur.|Sohbette şu yazıyor: “Siz ikiniz, lütfen zamanında gelin!”
+Imperativ|Auf der Karte steht: „Ihr beiden, ___ bitte pünktlich!“|seid|sei;sind;wart|Sein, ihr emir biçiminde seid olur.|Kartta şunlar yazıyor: “Siz ikiniz, lütfen zamanında gelin!”
+Imperativ|Frau Aydin, ___ Sie sich gern ans Fenster!|setzen|setzt;setz;setzst|Kibar emir biçiminde setzen Sie sich kullanılır.|Bayan Aydın, dilerseniz pencerenin yanına oturun!
+Imperativ|Im Übungsdialog hört man: „Frau Aydin, ___ Sie sich gern ans Fenster!“|setzen|setzt;setz;setzst|Kibar emir biçiminde setzen Sie sich kullanılır.|Alıştırma diyaloğunda şu duyuluyor: “Bayan Aydın, dilerseniz pencerenin yanına oturun!”
+Imperativ|Im Deutschkurs sagt Deniz: „Frau Aydin, ___ Sie sich gern ans Fenster!“|setzen|setzt;setz;setzst|Kibar emir biçiminde setzen Sie sich kullanılır.|Almanca kursunda Deniz şöyle diyor: “Bayan Aydın, dilerseniz pencerenin yanına oturun!”
+Imperativ|Mein Sohn, ___ langsam, die Suppe ist noch heiß!|iss|esst;essen;isst|Essen, du emir biçiminde iss olur.|Oğlum, yavaş iç, çorba hâlâ sıcak!
+Imperativ|Im Kurs liest Ali vor: „Mein Sohn, ___ langsam, die Suppe ist noch heiß!“|iss|esst;essen;isst|Essen, du emir biçiminde iss olur.|Ali kursta sesli okuyor: “Oğlum, yavaş iç, çorba hâlâ sıcak!”
+Imperativ|Kinder, ___ euch nach dem Spielen die Hände!|wascht|wäscht;wachsen;wäschst|Waschen, ihr emir biçiminde wascht olur.|Çocuklar, oyundan sonra ellerinizi yıkayın!
+Imperativ|Auf der Karte steht: „Kinder, ___ euch nach dem Spielen die Hände!“|wascht|wäscht;wachsen;wäschst|Waschen, ihr emir biçiminde wascht olur.|Kartta şunlar yazıyor: “Çocuklar, oyundan sonra ellerinizi yıkayın!”
+zu + Infinitiv|Ich versuche, leiser ___.|zu sprechen|sprechen zu;gesprochen;zu spricht|Versuchen'dan sonra zu + mastar kullanılır.|Daha sessiz konuşmaya çalışıyorum.
+zu + Infinitiv|Im Deutschkurs sagt Deniz: „Ich versuche, leiser ___.“|zu sprechen|sprechen zu;gesprochen;zu spricht|Versuchen'dan sonra zu + mastar kullanılır.|Almanca kursunda Deniz şöyle diyor: “Daha sessiz konuşmaya çalışıyorum.”
+zu + Infinitiv|Im Chat steht: „Ich versuche, leiser ___.“|zu sprechen|sprechen zu;gesprochen;zu spricht|Versuchen'dan sonra zu + mastar kullanılır.|Sohbette şu yazıyor: “Daha sessiz konuşmaya çalışıyorum.”
+zu + Infinitiv|Deniz hat vergessen, das Licht ___.|auszumachen|zu ausmachen;ausgemacht zu;ausmacht|Ayrılabilir fiilde zu önek ile kök arasına gelir.|Deniz ışığı kapatmayı unuttu.
+zu + Infinitiv|Aus Leas Sprachnachricht: „Deniz hat vergessen, das Licht ___.“|auszumachen|zu ausmachen;ausgemacht zu;ausmacht|Ayrılabilir fiilde zu önek ile kök arasına gelir.|Lea’nın sesli mesajından: “Deniz ışığı kapatmayı unuttu.”
+zu + Infinitiv|Im Übungsdialog hört man: „Deniz hat vergessen, das Licht ___.“|auszumachen|zu ausmachen;ausgemacht zu;ausmacht|Ayrılabilir fiilde zu önek ile kök arasına gelir.|Alıştırma diyaloğunda şu duyuluyor: “Deniz ışığı kapatmayı unuttu.”
+zu + Infinitiv|Es ist einfach, die App ___.|zu öffnen|öffnen zu;zu öffnet;geöffnet|Es ist einfach yapısında eylem zu + mastarla ifade edilir.|Uygulamayı açmak kolay.
+zu + Infinitiv|Beim Essen erzählt Ada: „Es ist einfach, die App ___.“|zu öffnen|öffnen zu;zu öffnet;geöffnet|Es ist einfach yapısında eylem zu + mastarla ifade edilir.|Ada sofrada şöyle anlatıyor: “Uygulamayı açmak kolay.”
+zu + Infinitiv|Im Kurs liest Ali vor: „Es ist einfach, die App ___.“|zu öffnen|öffnen zu;zu öffnet;geöffnet|Es ist einfach yapısında eylem zu + mastarla ifade edilir.|Ali kursta sesli okuyor: “Uygulamayı açmak kolay.”
+zu + Infinitiv|Wir haben vor, morgen früh ___.|aufzustehen|aufstehen zu;zu aufstehen;aufgestanden|Aufstehen fiilinde zu, auf ve stehen arasına gelir.|Yarın erken kalkmayı planlıyoruz.
+zu + Infinitiv|Im Chat steht: „Wir haben vor, morgen früh ___.“|aufzustehen|aufstehen zu;zu aufstehen;aufgestanden|Aufstehen fiilinde zu, auf ve stehen arasına gelir.|Sohbette şu yazıyor: “Yarın erken kalkmayı planlıyoruz.”
+zu + Infinitiv|Auf der Karte steht: „Wir haben vor, morgen früh ___.“|aufzustehen|aufstehen zu;zu aufstehen;aufgestanden|Aufstehen fiilinde zu, auf ve stehen arasına gelir.|Kartta şunlar yazıyor: “Yarın erken kalkmayı planlıyoruz.”
+zu + Infinitiv|Bitte denk daran, den Termin ___.|abzusagen|zu absagen;abgesagt zu;absagst|Absagen ayrılabilir. Doğru mastar abzusagen olur.|Lütfen randevuyu iptal etmeyi unutma.
+zu + Infinitiv|Im Übungsdialog hört man: „Bitte denk daran, den Termin ___.“|abzusagen|zu absagen;abgesagt zu;absagst|Absagen ayrılabilir. Doğru mastar abzusagen olur.|Alıştırma diyaloğunda şu duyuluyor: “Lütfen randevuyu iptal etmeyi unutma.”
+zu + Infinitiv|Im Deutschkurs sagt Deniz: „Bitte denk daran, den Termin ___.“|abzusagen|zu absagen;abgesagt zu;absagst|Absagen ayrılabilir. Doğru mastar abzusagen olur.|Almanca kursunda Deniz şöyle diyor: “Lütfen randevuyu iptal etmeyi unutma.”
+zu + Infinitiv|Sie hat keine Lust, allein ___.|zu kochen|kochen zu;gekocht;zu kocht|Lust haben yapısından sonra zu + mastar gelebilir.|Tek başına yemek yapmak istemiyor.
+zu + Infinitiv|Im Kurs liest Ali vor: „Sie hat keine Lust, allein ___.“|zu kochen|kochen zu;gekocht;zu kocht|Lust haben yapısından sonra zu + mastar gelebilir.|Ali kursta sesli okuyor: “Tek başına yemek yapmak istemiyor.”
+zu + Infinitiv|Aus Leas Sprachnachricht: „Sie hat keine Lust, allein ___.“|zu kochen|kochen zu;gekocht;zu kocht|Lust haben yapısından sonra zu + mastar gelebilir.|Lea’nın sesli mesajından: “Tek başına yemek yapmak istemiyor.”
+zu + Infinitiv|Ich hoffe, bald Antwort ___.|zu bekommen|bekommen zu;zu bekommt;bekomme|Hoffen + zu, özne iki eylemde de aynıysa kullanılabilir.|Yakında yanıt almayı umuyorum.
+zu + Infinitiv|Auf der Karte steht: „Ich hoffe, bald Antwort ___.“|zu bekommen|bekommen zu;zu bekommt;bekomme|Hoffen + zu, özne iki eylemde de aynıysa kullanılabilir.|Kartta şunlar yazıyor: “Yakında yanıt almayı umuyorum.”
+zu + Infinitiv|Beim Essen erzählt Ada: „Ich hoffe, bald Antwort ___.“|zu bekommen|bekommen zu;zu bekommt;bekomme|Hoffen + zu, özne iki eylemde de aynıysa kullanılabilir.|Ada sofrada şöyle anlatıyor: “Yakında yanıt almayı umuyorum.”
+zu + Infinitiv|Omar fängt an, die Kisten ___.|einzupacken|zu einpacken;einpacken zu;eingepackt|Ayrılabilir einpacken fiilinde zu araya girer.|Omar kasaları paketlemeye başlıyor.
+zu + Infinitiv|Im Deutschkurs sagt Deniz: „Omar fängt an, die Kisten ___.“|einzupacken|zu einpacken;einpacken zu;eingepackt|Ayrılabilir einpacken fiilinde zu araya girer.|Almanca kursunda Deniz şöyle diyor: “Omar kasaları paketlemeye başlıyor.”
+zu + Infinitiv|Im Chat steht: „Omar fängt an, die Kisten ___.“|einzupacken|zu einpacken;einpacken zu;eingepackt|Ayrılabilir einpacken fiilinde zu araya girer.|Sohbette şu yazıyor: “Omar kasaları paketlemeye başlıyor.”
+zu + Infinitiv|Mina hat beschlossen, das Rad selbst ___.|zu reparieren|reparieren zu;repariert zu;zu repariert|Beschließen + zu, karar verilen eylemi belirtir.|Mina bisikleti kendisi tamir etmeye karar verdi.
+zu + Infinitiv|Aus Leas Sprachnachricht: „Mina hat beschlossen, das Rad selbst ___.“|zu reparieren|reparieren zu;repariert zu;zu repariert|Beschließen + zu, karar verilen eylemi belirtir.|Lea’nın sesli mesajından: “Mina bisikleti kendisi tamir etmeye karar verdi.”
+zu + Infinitiv|Im Übungsdialog hört man: „Mina hat beschlossen, das Rad selbst ___.“|zu reparieren|reparieren zu;repariert zu;zu repariert|Beschließen + zu, karar verilen eylemi belirtir.|Alıştırma diyaloğunda şu duyuluyor: “Mina bisikleti kendisi tamir etmeye karar verdi.”
+zu + Infinitiv|Es ist schwer, den Straßennamen ___.|auszusprechen|zu aussprechen;aussprechen zu;ausgesprochen|Aussprechen ayrılabilir. Zu, aus ve sprechen arasına gelir.|Sokak adını telaffuz etmek zor.
+zu + Infinitiv|Beim Essen erzählt Ada: „Es ist schwer, den Straßennamen ___.“|auszusprechen|zu aussprechen;aussprechen zu;ausgesprochen|Aussprechen ayrılabilir. Zu, aus ve sprechen arasına gelir.|Ada sofrada şöyle anlatıyor: “Sokak adını telaffuz etmek zor.”
+zu + Infinitiv|Im Kurs liest Ali vor: „Es ist schwer, den Straßennamen ___.“|auszusprechen|zu aussprechen;aussprechen zu;ausgesprochen|Aussprechen ayrılabilir. Zu, aus ve sprechen arasına gelir.|Ali kursta sesli okuyor: “Sokak adını telaffuz etmek zor.”
+zu + Infinitiv|Arda hat heute keine Zeit, dich ___.|anzurufen|zu anrufen;anrufen zu;angerufen zu|Anrufen fiilinin zu biçimi anzurufen olur.|Arda'nın bugün seni aramaya vakti yok.
+zu + Infinitiv|Im Chat steht: „Arda hat heute keine Zeit, dich ___.“|anzurufen|zu anrufen;anrufen zu;angerufen zu|Anrufen fiilinin zu biçimi anzurufen olur.|Sohbette şu yazıyor: “Arda'nın bugün seni aramaya vakti yok.”
+zu + Infinitiv|Auf der Karte steht: „Arda hat heute keine Zeit, dich ___.“|anzurufen|zu anrufen;anrufen zu;angerufen zu|Anrufen fiilinin zu biçimi anzurufen olur.|Kartta şunlar yazıyor: “Arda'nın bugün seni aramaya vakti yok.”
+zu + Infinitiv|Ich bitte dich, auf dem Flur ___.|zu warten|warten zu;zu wartest;gewartet|Bitten + zu yapısı, birinden bir şey istemeyi ifade eder.|Koridorda beklemeni rica ediyorum.
+zu + Infinitiv|Im Übungsdialog hört man: „Ich bitte dich, auf dem Flur ___.“|zu warten|warten zu;zu wartest;gewartet|Bitten + zu yapısı, birinden bir şey istemeyi ifade eder.|Alıştırma diyaloğunda şu duyuluyor: “Koridorda beklemeni rica ediyorum.”
+zu + Infinitiv|Im Deutschkurs sagt Deniz: „Ich bitte dich, auf dem Flur ___.“|zu warten|warten zu;zu wartest;gewartet|Bitten + zu yapısı, birinden bir şey istemeyi ifade eder.|Almanca kursunda Deniz şöyle diyor: “Koridorda beklemeni rica ediyorum.”
+zu + Infinitiv|Sie lernt, mit dem neuen Programm ___.|zu arbeiten|arbeiten zu;zu arbeitet;gearbeitet zu|Bu kullanımda lernen + zu, öğrenilen eylemi belirtir.|Yeni programla çalışmayı öğreniyor.
+zu + Infinitiv|Im Kurs liest Ali vor: „Sie lernt, mit dem neuen Programm ___.“|zu arbeiten|arbeiten zu;zu arbeitet;gearbeitet zu|Bu kullanımda lernen + zu, öğrenilen eylemi belirtir.|Ali kursta sesli okuyor: “Yeni programla çalışmayı öğreniyor.”
+zu + Infinitiv|Er hat versprochen, am Sonntag ___.|vorbeizukommen|zu vorbeikommen;vorbeikommen zu;vorbeigekommen zu|Vorbeikommen ayrılabilir. Doğru biçim vorbeizukommen.|Pazar günü uğrayacağına söz verdi.
+zu + Infinitiv|Auf der Karte steht: „Er hat versprochen, am Sonntag ___.“|vorbeizukommen|zu vorbeikommen;vorbeikommen zu;vorbeigekommen zu|Vorbeikommen ayrılabilir. Doğru biçim vorbeizukommen.|Kartta şunlar yazıyor: “Pazar günü uğrayacağına söz verdi.”

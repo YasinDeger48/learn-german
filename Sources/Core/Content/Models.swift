@@ -117,7 +117,7 @@ struct A1Content: Codable {
     let situations: [A1Situation]
     let hoeren: [A1Hoeren]
 
-    static func load() -> A1Content? { Bundled.decode(A1Content.self, "a1") }
+    static func load(_ level: String = "A1") -> A1Content? { Bundled.decode(A1Content.self, level.lowercased()) }
 }
 
 // MARK: - Daily reading (daily_a1.json, …)

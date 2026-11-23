@@ -37,11 +37,13 @@ def load_translations():
 def main():
     src, out = sys.argv[1], sys.argv[2]
     missing_lang = sys.argv[sys.argv.index('--missing') + 1] if '--missing' in sys.argv else None
+    prefix = sys.argv[sys.argv.index('--prefix') + 1] if '--prefix' in sys.argv else ''
     raw = json.load(open(src, encoding='utf-8'))
     trans = load_translations()
     source = {}
 
     def loc(key, tr_text):
+        key = prefix + key
         source[key] = tr_text
         obj = {'tr': tr_text}
         for lang in LANGS[1:]:
@@ -92,7 +94,7 @@ def main():
                 for i, m in enumerate(raw['mistakes'])]
     situations = [{'q': loc(f'sit.{i}', s['q']), 'options': s['options']} for i, s in enumerate(raw['situations'])]
 
-    packed = {'version': 2, 'level': 'A1', 'themes': themes, 'words': words, 'texts': texts, 'hoeren': hoeren,
+    packed = {'version': 2, 'level': (prefix.rstrip('.') or 'a1').upper(), 'themes': themes, 'words': words, 'texts': texts, 'hoeren': hoeren,
               'grammar': grammar, 'grammarItems': items, 'mistakes': mistakes, 'situations': situations}
     json.dump(packed, open(out, 'w', encoding='utf-8', newline='\n'), ensure_ascii=False, separators=(',', ':'))
 
@@ -100,7 +102,7 @@ def main():
     print(f'{len(source)} texts; translated: ' + ', '.join(f'{k} {v}' for k, v in done.items()))
     if missing_lang:
         missing = {k: v for k, v in source.items() if not trans[missing_lang].get(k)}
-        path = os.path.join(HERE, 'i18n', f'missing_{missing_lang}.json')
+        path = os.path.join(HERE, 'i18n', f'missing_{prefix}{missing_lang}.json')
         json.dump(missing, open(path, 'w', encoding='utf-8', newline='\n'), ensure_ascii=False, indent=0)
         print(f'{len(missing)} missing → {path}')
 

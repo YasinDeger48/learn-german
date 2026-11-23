@@ -2,7 +2,7 @@ import SwiftUI
 
 @main
 struct DeschlyApp: App {
-    @StateObject private var a1 = A1Model()
+    @StateObject private var levels = LevelModels()
     @StateObject private var daily = DailyModel()
     @ObservedObject private var localizer = Localizer.shared
     @Environment(\.scenePhase) private var scenePhase
@@ -20,7 +20,8 @@ struct DeschlyApp: App {
             }
             // Rebuild every screen in the new language.
             .id(localizer.language)
-            .environmentObject(a1)
+            .environmentObject(levels)
+            .environmentObject(levels.a1)
             .environmentObject(daily)
             .environmentObject(localizer)
             .tint(DS.accent)
@@ -104,6 +105,7 @@ extension View {
 struct AppDestination: View {
     @EnvironmentObject private var daily: DailyModel
     @EnvironmentObject private var a1: A1Model
+    @EnvironmentObject private var levels: LevelModels
     let route: AppRoute
 
     var body: some View {
@@ -119,7 +121,11 @@ struct AppDestination: View {
                 }
             }
         case .practice(let level):
-            if level == "A1" { PracticeHomeView() } else { ComingSoonView(level: level) }
+            if levels.hasPractice(level) {
+                PracticeHomeView().environmentObject(levels.model(level))
+            } else {
+                ComingSoonView(level: level)
+            }
         }
     }
 }

@@ -64,8 +64,12 @@ struct A1BankBuilder {
     private let allExampleTr: [String]
     private var out: [A1Question] = []
 
-    init(content: A1Content) {
+    /// Level-specific generators (numbers, conjugation tables, case drills) only run for A1.
+    let level: String
+
+    init(content: A1Content, level: String = "A1") {
         self.content = content
+        self.level = level
         allExampleTr = content.words.flatMap { $0.ex.map { $0.mean.text } }
     }
 
@@ -120,13 +124,19 @@ struct A1BankBuilder {
         addWords()
         addSentences()
         addVerbs()
-        addConjugation()
-        addCaseDrills()
+        if level == "A1" {
+            addConjugation()
+            addCaseDrills()
+        }
         addGrammarItems()
-        addNumbers()
+        if level == "A1" { addNumbers() }
         addReading()
         addDaily()
         addHoeren()
+        if level != "A1" {
+            // Word questions carry A1 topic numbers; only grammar items belong to this level's topics.
+            for i in out.indices where !out[i].id.hasPrefix("gr-") { out[i].topic = nil }
+        }
         return out
     }
 

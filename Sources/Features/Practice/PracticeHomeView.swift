@@ -62,15 +62,26 @@ struct A1Destination: View {
     }
 }
 
-extension View {
-    func withA1Routes() -> some View {
-        navigationDestination(for: A1Route.self) { A1Destination(route: $0) }
+/// Practice screens get the model of the level that is open (A1, A2, …).
+struct A1RouteDestinations: ViewModifier {
+    @EnvironmentObject private var levels: LevelModels
+
+    func body(content: Content) -> some View {
+        content.navigationDestination(for: A1Route.self) { route in
+            A1Destination(route: route).environmentObject(levels.current)
+        }
     }
+}
+
+extension View {
+    func withA1Routes() -> some View { modifier(A1RouteDestinations()) }
 }
 
 /// A1 level home as a native grouped list: progress, quick starts, every game and the workbook.
 struct PracticeHomeView: View {
     @EnvironmentObject private var model: A1Model
+    @EnvironmentObject private var levels: LevelModels
+    private var isA1: Bool { model.level == "A1" }
 
     var body: some View {
         List {
@@ -91,7 +102,7 @@ struct PracticeHomeView: View {
                         .disabled(model.state.wrong.isEmpty)
                 }
                 Section {
-                    ForEach(A1Mode.allCases) { mode in
+                    ForEach(A1Mode.allCases.filter { model.totalFor($0) > 0 }) { mode in
                         link(.mode(mode), mode.title, "\(model.seenCount(mode))/\(model.totalFor(mode))",
                              mode.icon, color(mode))
                     }
@@ -106,17 +117,24 @@ struct PracticeHomeView: View {
                 }
                 Section(t("practice.workbook")) {
                     link(.wordList, t("practice.wordList"), "\(model.content?.words.count ?? 0)", "textformat.abc", .blue)
-                    link(.themeQuiz(A1BankBuilder.coreTheme), t("practice.coreQuiz"), "\(model.coreLearned)/\(model.coreTotal)",
-                         "play.circle.fill", .green)
+                    if isA1 {
+                        link(.themeQuiz(A1BankBuilder.coreTheme), t("practice.coreQuiz"), "\(model.coreLearned)/\(model.coreTotal)",
+                             "play.circle.fill", .green)
+                    }
                     link(.themes, t("practice.themes"), nil, "list.bullet.rectangle.fill", .brown)
                     link(.grammarList, t("practice.grammarTopics", model.content?.grammar.count ?? 0), nil, "books.vertical.fill", .purple)
-                    link(.texts, t("practice.texts", model.content?.texts.count ?? 0), nil, "doc.richtext.fill", .cyan)
-                    link(.numbersLearn, t("practice.numbers"), nil, "number", .mint)
+                    if !(model.content?.texts.isEmpty ?? true) {
+                        link(.texts, t("practice.texts", model.content?.texts.count ?? 0), nil, "doc.richtext.fill", .cyan)
+                    }
+                    if isA1 {
+                        link(.numbersLearn, t("practice.numbers"), nil, "number", .mint)
+                    }
                 }
             }
         }
         .listStyle(.insetGrouped)
-        .navigationTitle("A1 · " + t("level.a1.name"))
+        .navigationTitle("\(model.level) · " + t("level.\(model.level.lowercased()).name"))
+        .onAppear { levels.active = model.level }
     }
 
     private var overview: some View {

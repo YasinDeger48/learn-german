@@ -26,6 +26,7 @@ struct StudyBackup: Codable {
     let favorites: Set<Int>
     let notes: [Int: String]
     var a1: A1SavedState? = nil
+    var a2: A1SavedState? = nil
     var daily: DailySavedState? = nil
 }
 
@@ -51,7 +52,8 @@ enum BackupService {
                                  watched: LessonStore.load(LessonStore.watchedKey) ?? [],
                                  favorites: LessonStore.load(LessonStore.favoritesKey) ?? [],
                                  notes: LessonStore.load(LessonStore.notesKey) ?? [:],
-                                 a1: A1SavedState.load(),
+                                 a1: A1SavedState.load("A1"),
+                                 a2: A1SavedState.load("A2"),
                                  daily: DailySavedState.load())
         guard let data = try? JSONEncoder().encode(backup) else { return nil }
         return BackupDocument(data: data)
@@ -70,8 +72,11 @@ enum BackupService {
         LessonStore.save(watched.union(backup.watched), LessonStore.watchedKey)
         LessonStore.save(favorites.union(backup.favorites), LessonStore.favoritesKey)
         LessonStore.save(notes.merging(backup.notes) { current, _ in current }, LessonStore.notesKey)
+        if let a2 = backup.a2 {
+            A1SavedState.load("A2").merged(with: a2).save("A2")
+        }
         if let a1 = backup.a1 {
-            A1SavedState.load().merged(with: a1).save()
+            A1SavedState.load("A1").merged(with: a1).save("A1")
             NotificationCenter.default.post(name: A1SavedState.changed, object: nil)
         }
         if let daily = backup.daily {

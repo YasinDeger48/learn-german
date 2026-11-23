@@ -4,6 +4,7 @@ import SwiftUI
 struct TodayView: View {
     @EnvironmentObject private var a1: A1Model
     @EnvironmentObject private var daily: DailyModel
+    @EnvironmentObject private var levels: LevelModels
     let open: (AppRoute) -> Void
 
     var body: some View {
@@ -20,6 +21,7 @@ struct TodayView: View {
         }
         .deschlyPage()
         .navigationTitle(t("tab.today"))
+        .onAppear { levels.active = "A1" }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack(spacing: 4) {

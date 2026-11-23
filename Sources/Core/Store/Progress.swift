@@ -13,18 +13,20 @@ struct A1SavedState: Codable {
     var lastDay = ""
     var today = 0
 
-    static let key = "a1Progress"
     static let changed = Notification.Name("A1ProgressChanged")
 
-    static func load() -> A1SavedState {
-        guard let data = UserDefaults.standard.data(forKey: key),
+    /// One saved state per level: "a1Progress", "a2Progress", …
+    static func key(_ level: String) -> String { "\(level.lowercased())Progress" }
+
+    static func load(_ level: String = "A1") -> A1SavedState {
+        guard let data = UserDefaults.standard.data(forKey: key(level)),
               let state = try? JSONDecoder().decode(A1SavedState.self, from: data) else { return A1SavedState() }
         return state
     }
 
-    func save() {
+    func save(_ level: String = "A1") {
         if let data = try? JSONEncoder().encode(self) {
-            UserDefaults.standard.set(data, forKey: A1SavedState.key)
+            UserDefaults.standard.set(data, forKey: A1SavedState.key(level))
         }
     }
 
@@ -52,10 +54,15 @@ final class A1Model: ObservableObject {
 
     private var languageWatch: AnyCancellable?
 
-    init() {
-        state = A1SavedState.load()
+    /// "A1", "A2", … Each level has its own content file and saved progress.
+    let level: String
+
+    init(level: String = "A1") {
+        self.level = level
+        state = A1SavedState.load(level)
         observer = NotificationCenter.default.addObserver(forName: A1SavedState.changed, object: nil, queue: .main) { [weak self] _ in
-            self?.state = A1SavedState.load()
+            guard let self else { return }
+            self.state = A1SavedState.load(self.level)
         }
         // Question texts are in the learner's language: build them again when it changes. Ids stay the same.
         languageWatch = Localizer.shared.$language.dropFirst().removeDuplicates().sink { [weak self] _ in
@@ -68,10 +75,10 @@ final class A1Model: ObservableObject {
         ready = false
         let cached = content
         DispatchQueue.global(qos: .userInitiated).async {
-            let loaded = cached ?? A1Content.load()
+            let loaded = cached ?? A1Content.load(self.level)
             var built: [A1Question] = []
             if let loaded {
-                var builder = A1BankBuilder(content: loaded)
+                var builder = A1BankBuilder(content: loaded, level: self.level)
                 built = builder.build()
             }
             var map: [String: A1Question] = [:]
@@ -154,18 +161,18 @@ final class A1Model: ObservableObject {
             s.wrong.append(q.id)
         }
         state = s
-        s.save()
+        s.save(level)
     }
 
     func saveSprint(_ score: Int) {
         guard score > state.bestSprint else { return }
         state.bestSprint = score
-        state.save()
+        state.save(level)
     }
 
     func saveExam(_ score: Int) {
         state.exams.append(score)
-        state.save()
+        state.save(level)
     }
 
     func reset(_ mode: A1Mode) {
@@ -174,7 +181,7 @@ final class A1Model: ObservableObject {
         s.correct = s.correct.filter { byID[$0]?.mode != mode }
         s.wrong.removeAll { byID[$0]?.mode == mode }
         state = s
-        s.save()
+        s.save(level)
     }
 
     /// Never-seen questions only, so the same question is not asked twice.
@@ -211,5 +218,50 @@ final class A1Model: ObservableObject {
         }
         return take(.hoeren, 6) + take(.listen, 3) + take(.reading, 6) + take(.write, 4) + take(.grammar, 5) +
             take(.cloze, 2) + take(.daily, 2) + take(.sentence, 2)
+    }
+}
+
+// MARK: - Levels
+
+/// Progress models for every level with practice content. `active` is the level whose practice screens are open.
+final class LevelModels: ObservableObject {
+    let a1 = A1Model(level: "A1")
+    let a2 = A1Model(level: "A2")
+    @Published var active = "A1"
+
+    func model(_ level: String) -> A1Model { level == "A2" ? a2 : a1 }
+    var current: A1Model { model(active) }
+    func hasPractice(_ level: String) -> Bool { level == "A1" || level == "A2" }
+}
+
+// MARK: - Grammar topic badges
+
+enum TopicStatus {
+    /// Not finished yet.
+    case open
+    /// Has mistakes that are not corrected yet.
+    case mistakes
+    /// Finished, no open mistakes.
+    case done
+}
+
+extension A1Model {
+    /// Questions answered, questions in the topic, open mistakes.
+    func topicProgress(_ topic: Int) -> (seen: Int, total: Int, wrong: Int) {
+        var seen = 0, total = 0
+        for q in questions where q.topic == topic {
+            total += 1
+            if state.seen.contains(q.id) { seen += 1 }
+        }
+        let wrong = state.wrong.filter { byID[$0]?.topic == topic }.count
+        return (seen, total, wrong)
+    }
+
+    /// A topic counts as finished after all its questions, or 30 of them for very large topics.
+    func topicStatus(_ topic: Int) -> TopicStatus {
+        let p = topicProgress(topic)
+        if p.wrong > 0 { return .mistakes }
+        if p.total > 0 && p.seen >= min(p.total, 30) { return .done }
+        return .open
     }
 }

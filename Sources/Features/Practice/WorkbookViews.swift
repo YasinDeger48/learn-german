@@ -79,21 +79,79 @@ struct A1GrammarListView: View {
     @EnvironmentObject private var model: A1Model
 
     var body: some View {
-        List(model.content?.grammar ?? []) { topic in
-            NavigationLink(value: A1Route.grammar(topic.id)) {
-                HStack {
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text("\(topic.id). \(topic.de)")
-                        Text(topic.name.text).font(.caption).foregroundStyle(.secondary)
+        List {
+            Section {
+                ForEach(model.content?.grammar ?? []) { topic in
+                    NavigationLink(value: A1Route.grammar(topic.id)) {
+                        let p = model.topicProgress(topic.id)
+                        HStack(spacing: 12) {
+                            TopicBadge(status: model.topicStatus(topic.id), number: topic.id)
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(topic.de)
+                                Text(topic.name.text).font(.caption).foregroundStyle(.secondary)
+                                if p.wrong > 0 {
+                                    Text(t("grammar.openMistakes", p.wrong)).font(.caption2.weight(.semibold)).foregroundColor(.orange)
+                                }
+                            }
+                            Spacer()
+                            Text("\(min(p.seen, p.total))/\(p.total)")
+                                .font(.caption.monospacedDigit())
+                                .foregroundStyle(.secondary)
+                        }
                     }
-                    Spacer()
-                    Text("\(model.questions.filter { $0.topic == topic.id }.count)")
-                        .font(.caption.monospacedDigit())
-                        .foregroundStyle(.secondary)
+                }
+            } footer: {
+                HStack(spacing: 14) {
+                    legend(.done, t("grammar.legendDone"))
+                    legend(.mistakes, t("grammar.legendMistakes"))
+                    legend(.open, t("grammar.legendOpen"))
                 }
             }
         }
+        .listStyle(.insetGrouped)
         .navigationTitle(t("workbook.grammarTitle"))
+    }
+
+    private func legend(_ status: TopicStatus, _ text: String) -> some View {
+        HStack(spacing: 4) {
+            Circle().fill(TopicBadge.color(status)).frame(width: 8, height: 8)
+            Text(text)
+        }
+    }
+}
+
+/// Grammar topic badge: green = finished without open mistakes, yellow = open mistakes, grey = not finished.
+struct TopicBadge: View {
+    let status: TopicStatus
+    let number: Int
+
+    static func color(_ status: TopicStatus) -> Color {
+        switch status {
+        case .done: return DS.success
+        case .mistakes: return Color(red: 0.95, green: 0.70, blue: 0.10)
+        case .open: return Color(UIColor.systemGray3)
+        }
+    }
+
+    private var icon: String? {
+        switch status {
+        case .done: return "checkmark"
+        case .mistakes: return "exclamationmark"
+        case .open: return nil
+        }
+    }
+
+    var body: some View {
+        ZStack {
+            Circle().fill(TopicBadge.color(status))
+            if let icon {
+                Image(systemName: icon).font(.system(size: 13, weight: .bold)).foregroundColor(.white)
+            } else {
+                Text("\(number)").font(.system(size: 12, weight: .semibold)).foregroundColor(.white)
+            }
+        }
+        .frame(width: 30, height: 30)
+        .accessibilityLabel(status == .done ? t("grammar.legendDone") : (status == .mistakes ? t("grammar.legendMistakes") : t("grammar.legendOpen")))
     }
 }
 
