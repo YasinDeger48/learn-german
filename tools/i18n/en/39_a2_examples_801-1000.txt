@@ -1,0 +1,200 @@
+a2.w.801.ex.0 :: Throw the empty can in the bin next to the bench.
+a2.w.802.ex.0 :: The drop-off point only accepts winter jackets two days a week.
+a2.w.803.ex.0 :: The room was darkened for the film, only a small light was on by the door.
+a2.w.804.ex.0 :: Our collection time at the furniture store is half past three, then the van is free.
+a2.w.805.ex.0 :: At the hut we have to boil the tap water before drinking it.
+a2.w.806.ex.0 :: Please cut off a piece of wrapping paper that's longer than the box.
+a2.w.807.ex.0 :: Rinse the knife quickly with water before you cut the bread with it.
+a2.w.808.ex.0 :: The ditch smells of waste water, so we're walking on the other side.
+a2.w.809.ex.0 :: Without an adapter cable I can't connect my laptop to the screen in the classroom.
+a2.w.810.ex.0 :: In my aluminium bottle the water stays nice and cool on the bike tour.
+a2.w.811.ex.0 :: The child wanted pineapple juice but got apple juice by mistake.
+a2.w.812.ex.0 :: The collection point for old furniture closes at three on Fridays.
+a2.w.813.ex.0 :: The connecting journey to Celle only starts twenty minutes after we arrive.
+a2.w.814.ex.0 :: We'll only cut the birthday cake when all the children are here.
+a2.w.815.ex.0 :: Just before training an app notification came with the new meeting point.
+a2.w.816.ex.0 :: Before my shift I shook a small stone out of my work shoe.
+a2.w.817.ex.0 :: This T-shirt is breathable, so I like wearing it for running.
+a2.w.818.ex.0 :: We're crisping up yesterday's rolls in the oven for breakfast.
+a2.w.819.ex.0 :: For the biscuits I use a storage container with a tight lid.
+a2.w.820.ex.0 :: Roll up the extension cable neatly again after the party.
+a2.w.821.ex.0 :: Open the school's page in the browser and click on the timetable.
+a2.w.822.ex.0 :: I wanted to put off the call, but the garage closes early today.
+a2.w.823.ex.0 :: Cut the roll open carefully, I want to put cheese in it.
+a2.w.824.ex.0 :: At the distribution point all the children get a glass of water first.
+a2.w.825.ex.0 :: Lunch was balanced: there was fish, potatoes and vegetables.
+a2.w.826.ex.0 :: During the loan period I can also keep the bike overnight.
+a2.w.827.ex.0 :: Rinse out the water bottle thoroughly after the juice.
+a2.w.828.ex.0 :: I'm trying to wash out the coffee stain with cold water.
+a2.w.829.ex.0 :: I'm baking banana bread with the brown bananas from the fruit basket.
+a2.w.830.ex.0 :: For the craft course my daughter needs scissors and coloured paper.
+a2.w.831.ex.0 :: The battery indicator is flashing red, so I'm taking a second lamp on the hike.
+a2.w.832.ex.0 :: The processing time for the ID card is two weeks, so I'm applying today.
+a2.w.833.ex.0 :: Push the box aside a little so I can open the door.
+a2.w.834.ex.0 :: During payment the machine asked for the PIN twice.
+a2.w.835.ex.0 :: The flat will be ready to move into from May, then all the walls will be dry.
+a2.w.836.ex.0 :: The empty beer bottle rolled next to the crate.
+a2.w.837.ex.0 :: I make the bean salad in the evening because it tastes better the next day.
+a2.w.838.ex.0 :: The pen in my chest pocket left a blue stain on the shirt.
+a2.w.839.ex.0 :: The eleven o'clock tour can only be booked again tomorrow.
+a2.w.840.ex.0 :: The bill shows a booking fee of three euros on top of the ticket price.
+a2.w.841.ex.0 :: On the oven's digital display I can see how much longer the cake needs.
+a2.w.842.ex.0 :: The dark blue backpack next to the window belongs to my brother.
+a2.w.843.ex.0 :: Leave your shoes outside the shower room, the floor is wet.
+a2.w.844.ex.0 :: My son sticks the photo of his dog in the front of his exercise book.
+a2.w.845.ex.0 :: In summer my parents preserve tomatoes for the winter.
+a2.w.846.ex.0 :: My father had a second bowl of the pea soup straight away.
+a2.w.847.ex.0 :: At the food counter we wait until it's our class's turn.
+a2.w.848.ex.0 :: My mother transfers the school lunch money on the first day of the month.
+a2.w.849.ex.0 :: I still need money for the bus fare because I forgot my monthly ticket.
+a2.w.850.ex.0 :: Did you charge the bike lamp before we ride through the tunnel?
+a2.w.851.ex.0 :: After three attempts my son wrote the short message without mistakes.
+a2.w.852.ex.0 :: For the sauce I take low-fat yoghurt from the fridge.
+a2.w.853.ex.0 :: There were also potatoes in the fish soup from the little restaurant.
+a2.w.854.ex.0 :: My fleece jacket was light enough for the backpack but warm enough for the evening.
+a2.w.855.ex.0 :: In the advanced course we often keep speaking German during the break.
+a2.w.856.ex.0 :: At the photo shop I'm having two pictures from the class trip printed.
+a2.w.857.ex.0 :: The garden plant with the white flowers grows next to the bench.
+a2.w.858.ex.0 :: After the rain there are lots of little puddles on the garden path.
+a2.w.859.ex.0 :: With the hotel's guest card I can travel into town for free in the morning.
+a2.w.860.ex.0 :: I like the carrot and tomato juice better than the beetroot one.
+a2.w.861.ex.0 :: Before I take a photo of the label, I smooth out the paper on the table.
+a2.w.862.ex.0 :: With washing powder I compare the basic price per litre, not just the bottle prices.
+a2.w.863.ex.0 :: The cucumber salad needs a bit more salt, don't you think?
+a2.w.864.ex.0 :: After the class I roll up the exercise mat and take it with me again.
+a2.w.865.ex.0 :: The small camera is handy, I can even hold it with one hand.
+a2.w.866.ex.0 :: In the phone holder I can see the map without holding the phone.
+a2.w.867.ex.0 :: The phone insurance contract says what is paid for a broken screen.
+a2.w.868.ex.0 :: Before we change the lamp, the caretaker turns off the main switch.
+a2.w.869.ex.0 :: According to the homework diary my daughter has to read two pages by Thursday.
+a2.w.870.ex.0 :: A plant has been climbing up the wall facing the street for years.
+a2.w.871.ex.0 :: Our flat has such thin walls that I can hear the music from upstairs.
+a2.w.872.ex.0 :: On the train you can fold down the little table if you want to eat.
+a2.w.873.ex.0 :: The delivery driver uses the back door because the stairs at the front are too narrow.
+a2.w.874.ex.0 :: On the way there the road was still clear, on the way back we had to wait.
+a2.w.875.ex.0 :: When someone in our family is ill, my father makes chicken soup.
+a2.w.876.ex.0 :: After the walk I warm my hands on a cup of ginger tea.
+a2.w.877.ex.0 :: My grandma lets the camomile tea brew for a long time and drinks it without sugar.
+a2.w.878.ex.0 :: My father puts on his checked shirt for the garden party.
+a2.w.879.ex.0 :: The card slot in my wallet is so tight that I can hardly get my ID out.
+a2.w.880.ex.0 :: In the checkout area there's a little bench for people who have to wait.
+a2.w.881.ex.0 :: There's snow in front of the cellar entrance, so I'm getting the shovel first.
+a2.w.882.ex.0 :: Today the children's group is drawing on the ground in the courtyard with chalk.
+a2.w.883.ex.0 :: I found the left child's shoe under the bench at the playground.
+a2.w.884.ex.0 :: For the salad Ece chops the cucumber while I wash the tomatoes.
+a2.w.885.ex.0 :: The carrots are still crunchy because I only boiled them briefly.
+a2.w.886.ex.0 :: The shirt came out of the suitcase almost crease-free.
+a2.w.887.ex.0 :: For the small kitchen we bought a compact coffee machine.
+a2.w.888.ex.0 :: The woman in the café explained to me which herbal tea has mint in it.
+a2.w.889.ex.0 :: The chiller compartment in the hotel room is big enough for milk and some fruit.
+a2.w.890.ex.0 :: For the picnic the cheese stays in the cool bag until the last moment.
+a2.w.891.ex.0 :: The road to the lake is winding, so the bus drives slowly there.
+a2.w.892.ex.0 :: Since the move our cost of living has been lower, mainly because of the rent.
+a2.w.893.ex.0 :: I'll return the loan device as soon as my own laptop works again.
+a2.w.894.ex.0 :: Your name on the envelope is easy to read, but the house number is missing.
+a2.w.895.ex.0 :: Tomorrow our reading group is talking about the end of chapter three.
+a2.w.896.ex.0 :: If the delivery time is longer than a week, I'd rather pick up the shelf myself.
+a2.w.897.ex.0 :: Today the lentil soup comes with a slice of bread and butter.
+a2.w.898.ex.0 :: The brushes are missing from the list of materials for the course.
+a2.w.899.ex.0 :: I put the glass milk bottle on the bottom shelf because it's heavy.
+a2.w.900.ex.0 :: At the bakery I buy half a mixed-grain loaf for the next two days.
+a2.w.901.ex.0 :: The monthly gym price is lower if I train in the morning.
+a2.w.902.ex.0 :: In the morning course there are only six of us and we all get to speak often.
+a2.w.903.ex.0 :: On days with the morning shift I set the alarm for five o'clock.
+a2.w.904.ex.0 :: At the music shop I can try out the guitar before I buy it.
+a2.w.905.ex.0 :: On the night journey my brother slept almost the whole way.
+a2.w.906.ex.0 :: The radio isn't working because the power cable is still in the cupboard.
+a2.w.907.ex.0 :: For the pasta salad for the school fair I need a bowl with a lid.
+a2.w.908.ex.0 :: The vegetables in the bowl of noodle soup were still really hot.
+a2.w.909.ex.0 :: For the fruit cake I lay the plums open side up.
+a2.w.910.ex.0 :: In the online course I only switch on my camera when we work in small groups.
+a2.w.911.ex.0 :: Please edit the copy, I still need the original file for printing.
+a2.w.912.ex.0 :: Behind the town sign the path to the campsite starts on the left.
+a2.w.913.ex.0 :: My packing list for the trip now also includes an umbrella.
+a2.w.914.ex.0 :: The parcel locker was too small for the box with the winter boots.
+a2.w.915.ex.0 :: We waited in the car park until the breakdown service came.
+a2.w.916.ex.0 :: At the parking meter I paid by card and put the ticket in the car.
+a2.w.917.ex.0 :: Tomorrow we're meeting at the park entrance under the big clock.
+a2.w.918.ex.0 :: You'll find the passport number at the top of the page with your photo.
+a2.w.919.ex.0 :: Save the bill as a PDF file, then you can open it later without internet.
+a2.w.920.ex.0 :: After the winter we fill the window boxes with fresh potting soil.
+a2.w.921.ex.0 :: The two plates and the bread just fit in the picnic basket.
+a2.w.922.ex.0 :: At the post office counter the assistant gave me a bigger envelope.
+a2.w.923.ex.0 :: The workshop has a price list for simple repairs to the door.
+a2.w.924.ex.0 :: The price tag on the coat said sixty euros, but at the till it was only forty.
+a2.w.925.ex.0 :: On the test ride I noticed that the saddle is too high.
+a2.w.926.ex.0 :: In the programme booklet the break is planned after the third song.
+a2.w.927.ex.0 :: Our project group has planned three new benches for the schoolyard.
+a2.w.928.ex.0 :: According to the cleaning rota it's my turn to do the stairs on Tuesday.
+a2.w.929.ex.0 :: Behind the bridge the cycle path ends, so I push my bike there.
+a2.w.930.ex.0 :: I keep last year's invoice folder in the cupboard above the printer.
+a2.w.931.ex.0 :: Without rain trousers I was soaked on my bike after only five minutes.
+a2.w.932.ex.0 :: The cleaning company comes into the office when the last meeting is over.
+a2.w.933.ex.0 :: The bathroom has just been renovated and now has a shower instead of a bath.
+a2.w.934.ex.0 :: There's a small repair point at the station for the broken light.
+a2.w.935.ex.0 :: The handle is broken, but according to the repair shop the suitcase can be repaired.
+a2.w.936.ex.0 :: These shoes are sturdy enough for the stony path to the lake.
+a2.w.937.ex.0 :: When brushing their teeth the children turn over a three-minute hourglass.
+a2.w.938.ex.0 :: My pyjama bottoms are still drying on the balcony, so I'm putting on shorts.
+a2.w.939.ex.0 :: In her exercise book Lina leaves a line free after each exercise.
+a2.w.940.ex.0 :: With the shoe brush I get the dry mud off the boots.
+a2.w.941.ex.0 :: Put the wet boots on the balcony first before you put them in the shoe cupboard.
+a2.w.942.ex.0 :: Today I'm taking the school folder with the old homework to the course.
+a2.w.943.ex.0 :: It was so muggy on the bus that the driver opened a window at the front.
+a2.w.944.ex.0 :: The water bottle goes in the side pocket so it doesn't squash the sandwiches.
+a2.w.945.ex.0 :: The fuse box is to the left of the front door, behind the small white flap.
+a2.w.946.ex.0 :: In the new bus the seat pitch is big enough for my long legs.
+a2.w.947.ex.0 :: Early in the morning my summer jacket is enough when I walk quickly to the train.
+a2.w.948.ex.0 :: In the playroom there's a box of big wooden blocks for small children.
+a2.w.949.ex.0 :: After training my sports jacket hangs on the fence because it's all damp inside.
+a2.w.950.ex.0 :: At the edge of the sports ground we put the bags on a dry bench.
+a2.w.951.ex.0 :: Our parking space is next to the tree, where the car stays in the shade in the afternoon.
+a2.w.952.ex.0 :: We cancelled the room on Monday and didn't have to pay a cancellation fee.
+a2.w.953.ex.0 :: From the electricity consumption I can tell that the old fridge uses a lot of energy.
+a2.w.954.ex.0 :: On my daily plan I've left an hour free of appointments in the afternoon.
+a2.w.955.ex.0 :: During the tea break our neighbour showed us a photo of her new dog.
+a2.w.956.ex.0 :: I put the phone appointment in my lunch break because it's quieter in the office then.
+a2.w.957.ex.0 :: There's still a portion of soup from last weekend in the freezer compartment.
+a2.w.958.ex.0 :: There are now two red tomatoes on the smallest tomato plant.
+a2.w.959.ex.0 :: Before I go away, I take the potted plant to my neighbour.
+a2.w.960.ex.0 :: The first bus was overcrowded, so I stayed at the stop for another ten minutes.
+a2.w.961.ex.0 :: On Friday in the practice group we're acting out a conversation at the doctor's.
+a2.w.962.ex.0 :: In her exercise book my daughter explained the sum with a picture.
+a2.w.963.ex.0 :: To thank my friends for helping with the move on Saturday, I'm taking them out to eat afterwards.
+a2.w.964.ex.0 :: The room is unfurnished, but I can bring a bed from home.
+a2.w.965.ex.0 :: I thought his joke at the farewell was out of place because everyone was sad.
+a2.w.966.ex.0 :: We changed the holiday plan because the children have a sports day in August.
+a2.w.967.ex.0 :: At the sales counter I can see which bread is just coming out of the oven.
+a2.w.968.ex.0 :: The traffic sign behind the school shows that cars must drive slowly here.
+a2.w.969.ex.0 :: With the extension cable I can also put the lamp on the other side of the table.
+a2.w.970.ex.0 :: Our match has been postponed to Sunday because the pitch is too wet today.
+a2.w.971.ex.0 :: The taxi should pull up right in front of the door because Grandma can't walk far.
+a2.w.972.ex.0 :: The forest path is full of wet leaves, so we're walking especially slowly here.
+a2.w.973.ex.0 :: The hiking group takes its first break at the little bridge.
+a2.w.974.ex.0 :: The wall shelf for the books now hangs right above my desk.
+a2.w.975.ex.0 :: The wall clock in the hallway is slow, on my phone it's already half past seven.
+a2.w.976.ex.0 :: Because of the wet floor the cleaner put a warning sign in front of the door.
+a2.w.977.ex.0 :: In the practice's waiting area there's a water dispenser and three chairs.
+a2.w.978.ex.0 :: We stood in the bus shelter when it started to rain.
+a2.w.979.ex.0 :: Fill your bottle at the water dispenser before the bus comes.
+a2.w.980.ex.0 :: At the Christmas market we ate hot chestnuts for the first time.
+a2.w.981.ex.0 :: Please pass me the red screwdriver from the toolbox.
+a2.w.982.ex.0 :: Here the empty can goes in the recycling bin.
+a2.w.983.ex.0 :: There's an inside pocket for the key sewn into the winter jacket.
+a2.w.984.ex.0 :: On Sunday my daughter enters all her training times in her weekly plan.
+a2.w.985.ex.0 :: The flat advert says that small pets are allowed.
+a2.w.986.ex.0 :: The size of the flat suits us, but we still need a cellar.
+a2.w.987.ex.0 :: I'm taking a wool blanket for the cool night in the tent.
+a2.w.988.ex.0 :: In my vocabulary book every new verb gets an example sentence.
+a2.w.989.ex.0 :: In the word list I mark the words I still forget when speaking.
+a2.w.990.ex.0 :: A new bike light has been on his wish list for months.
+a2.w.991.ex.0 :: The host sent me the number code for the garden gate in the morning.
+a2.w.992.ex.0 :: At the campsite we're looking for a spot that gets sun in the morning.
+a2.w.993.ex.0 :: The houseplant is getting a bigger pot because the roots are coming out at the bottom.
+a2.w.994.ex.0 :: During the train journey my sister shows the children where we are on the map.
+a2.w.995.ex.0 :: Only close the laptop when the file has been saved.
+a2.w.996.ex.0 :: Seal the envelope before you put it in the letterbox.
+a2.w.997.ex.0 :: Please get back to me after the appointment so I know whether everything went well.
+a2.w.998.ex.0 :: The small table folds up and then fits behind the door.
+a2.w.999.ex.0 :: Can you roll up the rug? I want to mop the floor underneath.
+a2.w.1000.ex.0 :: When the bus pulled away, Grandpa waved to the children from the pavement.
