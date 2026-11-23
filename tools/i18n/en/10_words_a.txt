@@ -1,0 +1,700 @@
+w.1 :: hello
+w.2 :: good afternoon, hello
+w.3 :: good morning
+w.4 :: good evening
+w.5 :: good night
+w.6 :: bye (informal)
+w.7 :: goodbye
+w.8 :: see you soon
+w.9 :: thank you
+w.10 :: please; you're welcome
+w.11 :: excuse me, sorry
+w.12 :: yes
+w.13 :: no
+w.14 :: yes (to a negative question); still
+w.15 :: to be called
+w.16 :: name
+w.17 :: first name
+w.18 :: surname
+w.19 :: Mr
+w.20 :: Mrs, Ms; woman; wife
+w.21 :: to speak
+w.22 :: to understand
+w.23 :: to ask
+w.24 :: to answer
+w.25 :: to say
+w.26 :: to spell
+w.27 :: to repeat
+w.28 :: language
+w.29 :: word
+w.30 :: sentence
+w.31 :: question
+w.32 :: answer
+w.33 :: how are you?
+w.34 :: gladly; with pleasure
+w.35 :: unfortunately
+w.36 :: maybe
+w.37 :: okay, all right
+w.38 :: to get to know, to meet
+w.39 :: to introduce oneself
+w.40 :: welcome
+w.41 :: man; husband
+w.42 :: child
+w.43 :: baby
+w.44 :: boy
+w.45 :: girl
+w.46 :: parents
+w.47 :: father
+w.48 :: mother
+w.49 :: son
+w.50 :: daughter
+w.51 :: brother
+w.52 :: sister
+w.53 :: siblings
+w.54 :: grandparents
+w.55 :: grandma
+w.56 :: grandpa
+w.57 :: family
+w.58 :: friend (male); boyfriend
+w.59 :: friend (female); girlfriend
+w.60 :: partner
+w.61 :: people
+w.62 :: human being, person
+w.63 :: married
+w.64 :: single
+w.65 :: divorced
+w.66 :: age
+w.67 :: old Comparative: älter
+w.68 :: young Comparative: jünger
+w.69 :: birthday
+w.70 :: born
+w.71 :: colleague (male)
+w.72 :: colleague (female)
+w.73 :: neighbour
+w.74 :: aunt
+w.75 :: uncle
+w.76 :: to love
+w.77 :: to come
+w.78 :: to live (reside)
+w.79 :: to live
+w.80 :: country; countryside
+w.81 :: city, town
+w.82 :: village
+w.83 :: address
+w.84 :: street
+w.85 :: house number
+w.86 :: postcode
+w.87 :: phone number
+w.88 :: email
+w.89 :: abroad
+w.90 :: foreigner
+w.91 :: home, homeland
+w.92 :: form
+w.93 :: to fill in (a form)
+w.94 :: to sign
+w.95 :: signature
+w.96 :: sex, gender
+w.97 :: male
+w.98 :: female
+w.99 :: nationality, citizenship
+w.100 :: marital status
+w.101 :: job, profession
+w.102 :: Germany
+w.103 :: Turkey
+w.104 :: German
+w.105 :: 0 – 3 4 vier · 5 fünf · 6 sechs
+w.106 :: 7 – 12 11 elf · 12 zwölf
+w.107 :: 13 – 19 16 sechzehn · 17 siebzehn
+w.108 :: 20, 30, 40 … 21 einundzwanzig · 50 fünfzig
+w.109 :: hundred, thousand 200 zweihundert · 1000 tausend
+w.110 :: number
+w.111 :: number (ticket, phone)
+w.112 :: first, second, third
+w.113 :: clock, watch; o'clock
+w.114 :: time (of day)
+w.115 :: hour; lesson
+w.116 :: minute
+w.117 :: half (past)
+w.118 :: quarter
+w.119 :: time
+w.120 :: today
+w.121 :: tomorrow
+w.122 :: yesterday
+w.123 :: morning
+w.124 :: late morning
+w.125 :: midday, noon
+w.126 :: afternoon
+w.127 :: evening
+w.128 :: night
+w.129 :: day
+w.130 :: week
+w.131 :: weekend
+w.132 :: Monday, Tuesday, Wednesday
+w.133 :: Thursday, Friday
+w.134 :: Saturday, Sunday
+w.135 :: month
+w.136 :: January, February, March (to June) April · Mai · Juni
+w.137 :: July, August, September (to December) Oktober · November · Dezember
+w.138 :: year
+w.139 :: spring
+w.140 :: summer
+w.141 :: autumn
+w.142 :: winter
+w.143 :: date
+w.144 :: appointment
+w.145 :: calendar
+w.146 :: now
+w.147 :: soon
+w.148 :: then
+w.149 :: after that
+w.150 :: early
+w.151 :: late
+w.152 :: punctual, on time
+w.153 :: always
+w.154 :: often
+w.155 :: sometimes
+w.156 :: never
+w.157 :: already
+w.158 :: still; more
+w.159 :: again
+w.160 :: since, for
+w.161 :: ago; in front of
+w.162 :: after; to (direction)
+w.163 :: until
+w.164 :: at (clock time)
+w.165 :: to last, to take (time)
+w.166 :: to begin
+w.167 :: to start
+w.168 :: to stop
+w.169 :: food, meal
+w.170 :: to eat
+w.171 :: to drink
+w.172 :: breakfast
+w.173 :: to have breakfast
+w.174 :: lunch
+w.175 :: dinner
+w.176 :: hunger
+w.177 :: thirst
+w.178 :: bread
+w.179 :: bread roll
+w.180 :: butter
+w.181 :: cheese
+w.182 :: sausage, cold meat
+w.183 :: meat
+w.184 :: fish
+w.185 :: chicken
+w.186 :: egg
+w.187 :: vegetables
+w.188 :: fruit
+w.189 :: apple
+w.190 :: banana
+w.191 :: orange
+w.192 :: potato
+w.193 :: tomato
+w.194 :: salad; lettuce
+w.195 :: rice
+w.196 :: pasta, noodles
+w.197 :: soup
+w.198 :: cake
+w.199 :: chocolate
+w.200 :: sugar
+w.201 :: salt
+w.202 :: milk
+w.203 :: water
+w.204 :: coffee
+w.205 :: tea
+w.206 :: juice
+w.207 :: beer
+w.208 :: wine
+w.209 :: drink
+w.210 :: to taste
+w.211 :: delicious
+w.212 :: to cook
+w.213 :: restaurant
+w.214 :: café
+w.215 :: menu
+w.216 :: to order
+w.217 :: to pay
+w.218 :: bill
+w.219 :: glass
+w.220 :: bottle
+w.221 :: cup
+w.222 :: plate
+w.223 :: knife
+w.224 :: fork
+w.225 :: spoon
+w.226 :: kilo
+w.227 :: gram
+w.228 :: litre
+w.229 :: piece, slice
+w.230 :: sweet
+w.231 :: fresh
+w.232 :: full (not hungry)
+w.233 :: to buy
+w.234 :: to go shopping
+w.235 :: to sell
+w.236 :: shop
+w.237 :: shop, store
+w.238 :: supermarket
+w.239 :: market
+w.240 :: bakery
+w.241 :: kiosk
+w.242 :: price
+w.243 :: to cost
+w.244 :: euro
+w.245 :: cent
+w.246 :: money
+w.247 :: expensive
+w.248 :: cheap
+w.249 :: offer
+w.250 :: to need
+w.251 :: to look for
+w.252 :: to find; to think (opinion)
+w.253 :: to take
+w.254 :: checkout, till
+w.255 :: card; ticket; map
+w.256 :: cash
+w.257 :: bag; pocket
+w.258 :: (plastic) bag
+w.259 :: customer
+w.260 :: size; height
+w.261 :: colour
+w.262 :: red, blue, green
+w.263 :: yellow, white, black
+w.264 :: grey, brown
+w.265 :: clothes
+w.266 :: trousers
+w.267 :: shirt
+w.268 :: blouse
+w.269 :: dress
+w.270 :: skirt
+w.271 :: jacket
+w.272 :: coat
+w.273 :: jumper, sweater
+w.274 :: T-shirt
+w.275 :: shoe
+w.276 :: to wear; to carry
+w.277 :: to put on, to get dressed
+w.278 :: to like (please someone)
+w.279 :: to fit
+w.280 :: house
+w.281 :: flat, apartment
+w.282 :: room
+w.283 :: kitchen
+w.284 :: bathroom
+w.285 :: toilet
+w.286 :: bedroom
+w.287 :: living room
+w.288 :: balcony
+w.289 :: garden
+w.290 :: basement, cellar
+w.291 :: stairs
+w.292 :: floor, storey
+w.293 :: lift, elevator
+w.294 :: window
+w.295 :: door
+w.296 :: furniture
+w.297 :: table
+w.298 :: chair
+w.299 :: bed
+w.300 :: cupboard, wardrobe
+w.301 :: sofa
+w.302 :: lamp
+w.303 :: fridge
+w.304 :: cooker
+w.305 :: shower
+w.306 :: washing machine
+w.307 :: to shower
+w.308 :: to wash
+w.309 :: to clean
+w.310 :: to tidy up
+w.311 :: rent
+w.312 :: to rent
+w.313 :: landlord
+w.314 :: to move (house)
+w.315 :: heating
+w.316 :: light
+w.317 :: key
+w.318 :: bright; light (colour)
+w.319 :: dark
+w.320 :: quiet, calm
+w.321 :: loud, noisy
+w.322 :: modern
+w.323 :: comfortable
+w.324 :: (train) station
+w.325 :: train, railway
+w.326 :: train
+w.327 :: bus
+w.328 :: stop (bus, tram)
+w.329 :: underground, subway
+w.330 :: suburban train
+w.331 :: tram
+w.332 :: taxi
+w.333 :: car
+w.334 :: bicycle
+w.335 :: airport
+w.336 :: plane
+w.337 :: to fly
+w.338 :: to go (by vehicle), to drive
+w.339 :: to depart
+w.340 :: to arrive
+w.341 :: to change (trains)
+w.342 :: to get on
+w.343 :: to get off
+w.344 :: ticket (transport)
+w.345 :: ticket
+w.346 :: (ticket) machine
+w.347 :: platform, track
+w.348 :: departure
+w.349 :: arrival
+w.350 :: delay
+w.351 :: way, path
+w.352 :: left
+w.353 :: right
+w.354 :: straight on
+w.355 :: traffic lights
+w.356 :: corner
+w.357 :: square; seat, place
+w.358 :: near
+w.359 :: far
+w.360 :: here
+w.361 :: there
+w.362 :: centre
+w.363 :: church
+w.364 :: museum
+w.365 :: post office
+w.366 :: bank
+w.367 :: hospital
+w.368 :: town hall
+w.369 :: police
+w.370 :: hotel
+w.371 :: park
+w.372 :: swimming pool
+w.373 :: cinema
+w.374 :: theatre
+w.375 :: journey, trip
+w.376 :: to travel
+w.377 :: holiday, vacation
+w.378 :: luggage
+w.379 :: suitcase
+w.380 :: passport
+w.381 :: ID card
+w.382 :: information
+w.383 :: entrance
+w.384 :: exit
+w.385 :: to park
+w.386 :: on foot
+w.387 :: to go, to walk
+w.388 :: to run, to walk
+w.389 :: to visit
+w.390 :: bridge
+w.391 :: work
+w.392 :: to work
+w.393 :: job
+w.394 :: company
+w.395 :: office
+w.396 :: boss
+w.397 :: teacher (male)
+w.398 :: teacher (female)
+w.399 :: doctor (male)
+w.400 :: doctor (female)
+w.401 :: sales assistant
+w.402 :: (university) student
+w.403 :: pupil
+w.404 :: school
+w.405 :: course
+w.406 :: lessons, teaching
+w.407 :: to learn, to study
+w.408 :: to study (at university)
+w.409 :: university
+w.410 :: exam
+w.411 :: homework
+w.412 :: test
+w.413 :: class
+w.414 :: book
+w.415 :: exercise book
+w.416 :: ballpoint pen
+w.417 :: pen, pencil
+w.418 :: paper
+w.419 :: page; side
+w.420 :: computer
+w.421 :: mobile phone
+w.422 :: internet
+w.423 :: telephone
+w.424 :: to talk on the phone
+w.425 :: to call
+w.426 :: to write
+w.427 :: to read
+w.428 :: letter
+w.429 :: message; news
+w.430 :: newspaper
+w.431 :: text
+w.432 :: break
+w.433 :: to earn
+w.434 :: internship
+w.435 :: vocational training
+w.436 :: engineer
+w.437 :: cook, chef
+w.438 :: waiter
+w.439 :: nurse
+w.440 :: unemployed
+w.441 :: example
+w.442 :: to explain
+w.443 :: to tick, to mark with a cross
+w.444 :: solution, answer
+w.445 :: right, correct
+w.446 :: wrong
+w.447 :: hobby
+w.448 :: free time
+w.449 :: sport
+w.450 :: football; football (ball)
+w.451 :: to play
+w.452 :: to swim
+w.453 :: to dance
+w.454 :: to sing
+w.455 :: music
+w.456 :: to hear, to listen
+w.457 :: to see
+w.458 :: to watch TV
+w.459 :: television (set)
+w.460 :: film
+w.461 :: photo
+w.462 :: to take photos
+w.463 :: party
+w.464 :: to celebrate
+w.465 :: festival, celebration
+w.466 :: invitation
+w.467 :: to invite
+w.468 :: present, gift
+w.469 :: to give (as a gift)
+w.470 :: to meet
+w.471 :: fun
+w.472 :: trip, outing
+w.473 :: to go for a walk
+w.474 :: to hike
+w.475 :: concert
+w.476 :: (school) holidays
+w.477 :: sea
+w.478 :: lake
+w.479 :: mountain
+w.480 :: game, match
+w.481 :: song
+w.482 :: club, association
+w.483 :: guitar
+w.484 :: to paint
+w.485 :: picture
+w.486 :: body
+w.487 :: head
+w.488 :: eye
+w.489 :: ear
+w.490 :: nose
+w.491 :: mouth
+w.492 :: tooth
+w.493 :: hand
+w.494 :: arm
+w.495 :: leg
+w.496 :: foot
+w.497 :: stomach
+w.498 :: back
+w.499 :: hair
+w.500 :: ill, sick
+w.501 :: healthy
+w.502 :: health
+w.503 :: pain
+w.504 :: to hurt
+w.505 :: fever
+w.506 :: cold (illness)
+w.507 :: doctor's practice
+w.508 :: surgery hours
+w.509 :: medicine
+w.510 :: tablet, pill
+w.511 :: pharmacy
+w.512 :: prescription; recipe
+w.513 :: insurance
+w.514 :: help
+w.515 :: to help
+w.516 :: accident
+w.517 :: tired
+w.518 :: to sleep
+w.519 :: to lie
+w.520 :: emergency call (112)
+w.521 :: get well soon
+w.522 :: weather
+w.523 :: sun
+w.524 :: to shine
+w.525 :: rain
+w.526 :: to rain
+w.527 :: snow
+w.528 :: to snow
+w.529 :: wind
+w.530 :: cloud
+w.531 :: sky
+w.532 :: warm Comparative: wärmer
+w.533 :: cold Comparative: kälter
+w.534 :: hot
+w.535 :: degree
+w.536 :: temperature
+w.537 :: nature
+w.538 :: flower
+w.539 :: tree
+w.540 :: animal
+w.541 :: dog
+w.542 :: cat
+w.543 :: horse
+w.544 :: bird
+w.545 :: air
+w.546 :: outside
+w.547 :: to be
+w.548 :: to have
+w.549 :: to become
+w.550 :: to do, to make
+w.551 :: to do
+w.552 :: to give
+w.553 :: to get, to receive
+w.554 :: would like
+w.555 :: can, to be able to
+w.556 :: must, to have to
+w.557 :: to want
+w.558 :: may, to be allowed to
+w.559 :: should, to be supposed to
+w.560 :: to like
+w.561 :: to know (a fact)
+w.562 :: to know (be familiar with)
+w.563 :: to believe, to think
+w.564 :: to think
+w.565 :: to mean, to think
+w.566 :: to stand; to be written
+w.567 :: to sit
+w.568 :: to lay, to put (flat)
+w.569 :: to put (upright)
+w.570 :: to open
+w.571 :: to open
+w.572 :: to close
+w.573 :: to close
+w.574 :: to stay
+w.575 :: to wait
+w.576 :: to show
+w.577 :: to bring
+w.578 :: to fetch
+w.579 :: to pick up
+w.580 :: to send
+w.581 :: to bring along
+w.582 :: to come along
+w.583 :: to take along
+w.584 :: to get up
+w.585 :: to belong
+w.586 :: to happen
+w.587 :: to be right
+w.588 :: to wish
+w.589 :: to be happy, to look forward
+w.590 :: to laugh
+w.591 :: to forget
+w.592 :: to choose; to dial
+w.593 :: to repair
+w.594 :: to use
+w.595 :: to smoke
+w.596 :: to wake (someone)
+w.597 :: to check
+w.598 :: good besser · am besten
+w.599 :: bad
+w.600 :: beautiful, nice
+w.601 :: big, tall Comparative: größer
+w.602 :: small Comparative: kleiner
+w.603 :: long Comparative: länger
+w.604 :: short Comparative: kürzer
+w.605 :: new
+w.606 :: easy; light
+w.607 :: difficult; heavy
+w.608 :: simple, easy
+w.609 :: fast
+w.610 :: slow
+w.611 :: full
+w.612 :: empty
+w.613 :: open
+w.614 :: open (shop)
+w.615 :: closed
+w.616 :: broken
+w.617 :: important
+w.618 :: interesting
+w.619 :: boring
+w.620 :: great
+w.621 :: super
+w.622 :: nice, kind
+w.623 :: friendly
+w.624 :: happy
+w.625 :: sad
+w.626 :: alone
+w.627 :: together
+w.628 :: ready, finished
+w.629 :: free; off (work)
+w.630 :: occupied, busy
+w.631 :: possible
+w.632 :: same; right away
+w.633 :: different
+w.634 :: clean
+w.635 :: dirty
+w.636 :: high Comparative: höher
+w.637 :: funny
+w.638 :: sure; safe
+w.639 :: of course; natural
+w.640 :: exact; exactly
+w.641 :: much, a lot mehr · am meisten
+w.642 :: little, few Comparative: weniger
+w.643 :: very
+w.644 :: quite, completely
+w.645 :: who?
+w.646 :: what?
+w.647 :: where?
+w.648 :: where from?
+w.649 :: where to?
+w.650 :: when?
+w.651 :: how?
+w.652 :: how much? / how many?
+w.653 :: how long?
+w.654 :: why?
+w.655 :: which?
+w.656 :: to whom? / whom?
+w.657 :: and
+w.658 :: or
+w.659 :: but
+w.660 :: because
+w.661 :: in; into
+w.662 :: at, on (beside/vertical); to
+w.663 :: on (top of); onto
+w.664 :: with
+w.665 :: without
+w.666 :: for
+w.667 :: at (someone's place), near
+w.668 :: from; of
+w.669 :: to (a person/place); too
+w.670 :: out of; from
+w.671 :: next to
+w.672 :: between
+w.673 :: under
+w.674 :: above, over; about
+w.675 :: behind
+w.676 :: opposite
+w.677 :: also, too
+w.678 :: only
+w.679 :: not
+w.680 :: no, not a
+w.681 :: all, everyone
+w.682 :: something; a little
+w.683 :: nothing
+w.684 :: one, you (general subject)
+w.685 :: every, each
+w.686 :: my / your
+w.687 :: his / her
+w.688 :: upstairs, above
+w.689 :: downstairs, below
+w.690 :: back
+w.691 :: about, approximately
+w.692 :: first, at first
+w.693 :: there is / there are
+w.694 :: Wednesday evening
+w.695 :: front door (of a flat)
+w.696 :: floor, ground
+w.697 :: wall
+w.698 :: blanket; ceiling
+w.699 :: roof
+w.700 :: hallway, corridor

@@ -1,0 +1,678 @@
+w.1408.ex.0 :: The bird is dead.
+w.1409.ex.0 :: The fish is still alive.
+w.1410.ex.0 :: I'm glad you're here.
+w.1411.ex.0 :: I'm happy with the hotel.
+w.1412.ex.0 :: The customer is dissatisfied.
+w.1413.ex.0 :: Are you angry with me?
+w.1414.ex.0 :: He is very angry.
+w.1415.ex.0 :: I'm nervous before the exam.
+w.1416.ex.0 :: The children are excited.
+w.1417.ex.0 :: I'm very surprised.
+w.1418.ex.0 :: I'm disappointed.
+w.1419.ex.0 :: He feels lonely.
+w.1420.ex.0 :: She is in love.
+w.1421.ex.0 :: I'm proud of you.
+w.1422.ex.0 :: Be honest!
+w.1423.ex.0 :: He is always polite.
+w.1424.ex.0 :: That was rude.
+w.1425.ex.0 :: That's kind of you.
+w.1426.ex.0 :: The new colleague is nice.
+w.1427.ex.0 :: That's strange.
+w.1428.ex.0 :: The film is funny.
+w.1429.ex.0 :: She is a hard-working pupil.
+w.1430.ex.0 :: I'm lazy today.
+w.1431.ex.0 :: The child is very clever.
+w.1432.ex.0 :: That was a stupid idea.
+w.1433.ex.0 :: She is very intelligent.
+w.1434.ex.0 :: Please be patient.
+w.1435.ex.0 :: He is often impatient.
+w.1436.ex.0 :: He is very reliable.
+w.1437.ex.0 :: My neighbour is helpful.
+w.1438.ex.0 :: His room is tidy.
+w.1439.ex.0 :: She is very creative.
+w.1440.ex.0 :: That's a serious problem.
+w.1441.ex.0 :: The café is cosy.
+w.1442.ex.0 :: You look smart.
+w.1443.ex.0 :: The dress is elegant.
+w.1444.ex.0 :: The hotel is good value.
+w.1445.ex.0 :: Admission is free.
+w.1446.ex.0 :: He is very rich.
+w.1447.ex.0 :: Are you ready?
+w.1448.ex.0 :: I'm very busy today.
+w.1449.ex.0 :: Dogs are allowed here.
+w.1450.ex.0 :: Smoking is forbidden.
+w.1451.ex.0 :: This is the current list.
+w.1452.ex.0 :: Last week I was ill.
+w.1453.ex.0 :: Next week I'm on holiday.
+w.1454.ex.0 :: The year before last I was in Rome.
+w.1455.ex.0 :: I worked all day.
+w.1456.ex.0 :: I'll wait half an hour.
+w.1457.ex.0 :: That's my only chance.
+w.1458.ex.0 :: We have different opinions.
+w.1459.ex.0 :: The sisters are alike.
+w.1460.ex.0 :: That's completely normal.
+w.1461.ex.0 :: That's typically German.
+w.1462.ex.0 :: The food is especially good.
+w.1463.ex.0 :: The weather is wonderful.
+w.1464.ex.0 :: The holiday was fantastic.
+w.1465.ex.0 :: The weather is terrible.
+w.1466.ex.0 :: That was a terrible accident.
+w.1467.ex.0 :: Your German is perfect.
+w.1468.ex.0 :: That's great!
+w.1469.ex.0 :: What a glorious day!
+w.1470.ex.0 :: Pleased to meet you.
+w.1471.ex.0 :: That's embarrassing for me.
+w.1472.ex.0 :: The work is tiring.
+w.1473.ex.0 :: The book is very exciting.
+w.1474.ex.0 :: I don't care.
+w.1475.ex.0 :: It's a pity you're not coming.
+w.1476.ex.0 :: That's not true!
+w.1477.ex.0 :: That's really great!
+w.1478.ex.0 :: The train goes direct to Berlin.
+w.1479.ex.0 :: The company is international.
+w.1480.ex.0 :: He has a foreign car.
+w.1481.ex.0 :: I like cooking Turkish food.
+w.1482.ex.0 :: He reads an English newspaper.
+w.1483.ex.0 :: That's a European city.
+w.1484.ex.0 :: The school is state-run.
+w.1485.ex.0 :: We cook together.
+w.1486.ex.0 :: I rarely go to the cinema.
+w.1487.ex.0 :: I mostly go by bike.
+w.1488.ex.0 :: That happens frequently.
+w.1489.ex.0 :: I do sport regularly.
+w.1490.ex.0 :: I read the newspaper daily.
+w.1491.ex.0 :: The course is weekly.
+w.1492.ex.0 :: The rent goes up every year.
+w.1493.ex.0 :: Come at once!
+w.1494.ex.0 :: See you later!
+w.1495.ex.0 :: Call me beforehand.
+w.1496.ex.0 :: See you afterwards.
+w.1497.ex.0 :: By now I speak good German.
+w.1498.ex.0 :: Suddenly it started to rain.
+w.1499.ex.0 :: Finally it's the weekend!
+w.1500.ex.0 :: The last time I was in Berlin was 2020.
+w.1501.ex.0 :: At first it was hard.
+w.1502.ex.0 :: Back then I didn't have a car.
+w.1503.ex.0 :: Nowadays everyone has a phone.
+w.1504.ex.0 :: The day after tomorrow I'm flying home.
+w.1505.ex.0 :: The day before yesterday I was at the doctor's.
+w.1506.ex.0 :: In the evenings I watch TV.
+w.1507.ex.0 :: In the mornings I drink coffee.
+w.1508.ex.0 :: At midday I eat in the canteen.
+w.1509.ex.0 :: At night I sleep.
+w.1510.ex.0 :: On Mondays I have a course.
+w.1511.ex.0 :: I waited a long time.
+w.1512.ex.0 :: I've only been here for a week.
+w.1513.ex.0 :: I'm not finished yet.
+w.1514.ex.0 :: I don't smoke any more.
+w.1515.ex.0 :: I'm almost finished.
+w.1516.ex.0 :: I have enough money.
+w.1517.ex.0 :: It's quite cold.
+w.1518.ex.0 :: That's so beautiful!
+w.1519.ex.0 :: That takes about an hour.
+w.1520.ex.0 :: I sleep at least seven hours.
+w.1521.ex.0 :: That costs ten euros at most.
+w.1522.ex.0 :: I like fruit, especially apples.
+w.1523.ex.0 :: He even speaks Japanese.
+w.1524.ex.0 :: Actually I don't have time.
+w.1525.ex.0 :: That's really good.
+w.1526.ex.0 :: He'll definitely come.
+w.1527.ex.0 :: It will probably rain tomorrow.
+w.1528.ex.0 :: Hopefully it works out!
+w.1529.ex.0 :: Luckily I wasn't ill.
+w.1530.ex.0 :: I prefer to drink tea.
+w.1531.ex.0 :: Most of all I like eating pizza.
+w.1532.ex.0 :: I feel better today.
+w.1533.ex.0 :: It's best to go by train.
+w.1534.ex.0 :: I'd like more time.
+w.1535.ex.0 :: I eat less sugar.
+w.1536.ex.0 :: He is taller than me.
+w.1537.ex.0 :: She is as tall as me.
+w.1538.ex.0 :: I know that you're right.
+w.1539.ex.0 :: I'm not coming because I'm ill.
+w.1540.ex.0 :: If it rains, I'll stay at home.
+w.1541.ex.0 :: I don't know whether he's coming.
+w.1542.ex.0 :: I go for a walk although it's raining.
+w.1543.ex.0 :: Before I eat, I wash my hands.
+w.1544.ex.0 :: After I've eaten, I go for a walk.
+w.1545.ex.0 :: I don't watch TV during meals.
+w.1546.ex.0 :: I study so that I pass the exam.
+w.1547.ex.0 :: I'm ill, so I'm staying at home.
+w.1548.ex.0 :: It's raining, but I'm going out anyway.
+w.1549.ex.0 :: Hurry up, otherwise you'll be late!
+w.1550.ex.0 :: So, what do we do now?
+w.1551.ex.0 :: I like fruit, for example bananas.
+w.1552.ex.0 :: I also need milk.
+w.1553.ex.0 :: Either tea or coffee.
+w.1554.ex.0 :: I speak both German and English.
+w.1555.ex.0 :: I drink neither beer nor wine.
+w.1556.ex.0 :: He is not only nice but also clever.
+w.1557.ex.0 :: Not today but tomorrow.
+w.1558.ex.0 :: We walk through the park.
+w.1559.ex.0 :: I'll come at around eight.
+w.1560.ex.0 :: We walk around the lake.
+w.1561.ex.0 :: From Monday I'm on holiday.
+w.1562.ex.0 :: You'll receive post within a week.
+w.1563.ex.0 :: We live outside the city.
+w.1564.ex.0 :: Instead of coffee I drink tea.
+w.1565.ex.0 :: Despite the rain we go for a walk.
+w.1566.ex.0 :: Because of the traffic jam I'm late.
+w.1567.ex.0 :: Walk along the street.
+w.1568.ex.0 :: Summer is over.
+w.1569.ex.0 :: Go in!
+w.1570.ex.0 :: Come out!
+w.1571.ex.0 :: When it rains, we play inside.
+w.1572.ex.0 :: Please board at the front.
+w.1573.ex.0 :: There's still room at the back of the bus.
+w.1574.ex.0 :: I've looked everywhere.
+w.1575.ex.0 :: My key is somewhere here.
+w.1576.ex.0 :: I can't find my glasses anywhere.
+w.1577.ex.0 :: We're eating somewhere else today.
+w.1578.ex.0 :: Is Peter there?
+w.1579.ex.0 :: The bank is right next to it.
+w.1580.ex.0 :: How do I get there?
+w.1581.ex.0 :: Come here!
+w.1582.ex.0 :: We go upstairs.
+w.1583.ex.0 :: The lift is going down.
+w.1584.ex.0 :: Someone called.
+w.1585.ex.0 :: Nobody is at home.
+w.1586.ex.0 :: Everybody knows him.
+w.1587.ex.0 :: Everything is fine.
+w.1588.ex.0 :: Both children go to school.
+w.1589.ex.0 :: I have a few questions.
+w.1590.ex.0 :: I've read several books.
+w.1591.ex.0 :: Many people speak English.
+w.1592.ex.0 :: Only a few people came.
+w.1593.ex.0 :: Some people don't like cheese.
+w.1594.ex.0 :: Would you like anything to drink?
+w.1595.ex.0 :: I speak a little German.
+w.1596.ex.0 :: I'm staying a few days.
+w.1597.ex.0 :: This film is good.
+w.1598.ex.0 :: I don't wear shoes like that.
+w.1599.ex.0 :: That is our house.
+w.1600.ex.0 :: Is that your car?
+w.1601.ex.0 :: That is her bike.
+w.1602.ex.0 :: I baked the cake myself.
+w.1603.ex.0 :: We help each other.
+w.1604.ex.0 :: Why aren't you coming?
+w.1605.ex.0 :: Why do you ask?
+w.1606.ex.0 :: What do you need the money for?
+w.1607.ex.0 :: How do you get to work?
+w.1608.ex.0 :: What are you talking about?
+w.1609.ex.0 :: What do you dream of?
+w.1610.ex.0 :: How often do you go swimming?
+w.1611.ex.0 :: How old are you?
+w.1612.ex.0 :: What time is it?
+w.1613.ex.0 :: What kind of car do you have?
+w.1614.ex.0 :: Okay, see you tomorrow!
+w.1615.ex.0 :: Well, it's okay.
+w.1616.ex.0 :: That's right!
+w.1617.ex.0 :: Cheers! To you!
+w.1618.ex.0 :: Welcome to Berlin!
+w.1619.ex.0 :: Happy birthday!
+w.1620.ex.0 :: Congratulations on your wedding!
+w.1621.ex.0 :: Good luck in the exam!
+w.1622.ex.0 :: Have fun on holiday!
+w.1623.ex.0 :: Have a good trip and see you soon!
+w.1624.ex.0 :: Enjoy your meal!
+w.1625.ex.0 :: Here you are.
+w.1626.ex.0 :: Thank you very much for the flowers!
+w.1627.ex.0 :: Thanks! – You're welcome.
+w.1628.ex.0 :: No problem, I'll do it.
+w.1629.ex.0 :: I'm sorry, I don't have time.
+w.1630.ex.0 :: Never mind, it happens.
+w.1631.ex.0 :: Pardon? Could you repeat that?
+w.1632.ex.0 :: No idea where he is.
+w.1633.ex.0 :: Bye, see you tomorrow!
+w.1634.ex.0 :: See you later at the office!
+w.1635.ex.0 :: Have a nice weekend!
+w.1636.ex.0 :: Merry Christmas and a happy New Year!
+w.1637.ex.0 :: Attention, the train is leaving!
+w.1638.ex.0 :: Careful, step!
+w.1639.ex.0 :: What kind of thing is that?
+w.1640.ex.0 :: Pack your things!
+w.1641.ex.0 :: Describe the object.
+w.1642.ex.0 :: A part is missing.
+w.1643.ex.0 :: What kind of music do you like?
+w.1644.ex.0 :: Which kind of bread would you like?
+w.1645.ex.0 :: A large crowd of people is waiting.
+w.1646.ex.0 :: Half is for you.
+w.1647.ex.0 :: I'm buying a pair of shoes.
+w.1648.ex.0 :: There's twenty percent off.
+w.1649.ex.0 :: The room is four metres long.
+w.1650.ex.0 :: It's ten kilometres to work.
+w.1651.ex.0 :: The table is in the middle.
+w.1652.ex.0 :: At the beginning everything was new.
+w.1653.ex.0 :: At the end of the film she cries.
+w.1654.ex.0 :: We'll eat the rest tomorrow.
+w.1655.ex.0 :: Don't write in the margin.
+w.1656.ex.0 :: Take line 5.
+w.1657.ex.0 :: I have 80 points.
+w.1658.ex.0 :: The cake is heart-shaped.
+w.1659.ex.0 :: There are many possibilities.
+w.1660.ex.0 :: That's a good opportunity.
+w.1661.ex.0 :: Give me a chance.
+w.1662.ex.0 :: That has many advantages.
+w.1663.ex.0 :: The disadvantage is the price.
+w.1664.ex.0 :: What's the cause of the problem?
+w.1665.ex.0 :: Have you seen the new episode?
+w.1666.ex.0 :: The result comes next week.
+w.1667.ex.0 :: Good luck!
+w.1668.ex.0 :: Can you give me some advice?
+w.1669.ex.0 :: Thanks for the tip!
+w.1670.ex.0 :: I need some information.
+w.1671.ex.0 :: You need your parents' permission.
+w.1672.ex.0 :: Smoking is banned here.
+w.1673.ex.0 :: That's the most important rule.
+w.1674.ex.0 :: Everything is in order here.
+w.1675.ex.0 :: Safety is important.
+w.1676.ex.0 :: Freedom is important to me.
+w.1677.ex.0 :: Tell me the truth!
+w.1678.ex.0 :: That's a lie!
+w.1679.ex.0 :: That's a secret.
+w.1680.ex.0 :: What a surprise!
+w.1681.ex.0 :: Tell me a joke!
+w.1682.ex.0 :: They're arguing.
+w.1683.ex.0 :: Thank you very much!
+w.1684.ex.0 :: Best wishes to your family!
+w.1685.ex.0 :: I have a date today.
+w.1686.ex.0 :: The conversation was very pleasant.
+w.1687.ex.0 :: The discussion goes on for a long time.
+w.1688.ex.0 :: The programme starts at eight.
+w.1689.ex.0 :: What's on today?
+w.1690.ex.0 :: I watch the news every evening.
+w.1691.ex.0 :: I listen to the radio in the car.
+w.1692.ex.0 :: I'm reading a magazine.
+w.1693.ex.0 :: Have you read the article?
+w.1694.ex.0 :: I saw the ad in the newspaper.
+w.1695.ex.0 :: There's a poster on the wall.
+w.1696.ex.0 :: I'm reading a novel.
+w.1697.ex.0 :: On Sunday I watch a crime show.
+w.1698.ex.0 :: The series is exciting.
+w.1699.ex.0 :: Watch the video!
+w.1700.ex.0 :: I'm learning German with an app.
+w.1701.ex.0 :: My laptop is new.
+w.1702.ex.0 :: The screen is too small.
+w.1703.ex.0 :: The keyboard is German.
+w.1704.ex.0 :: The printer isn't working.
+w.1705.ex.0 :: I'll send you the file.
+w.1706.ex.0 :: I've forgotten my password.
+w.1707.ex.0 :: I have no signal here.
+w.1708.ex.0 :: Is there Wi-Fi here?
+w.1709.ex.0 :: Do you have a charger?
+w.1710.ex.0 :: The camera takes good photos.
+w.1711.ex.0 :: The battery is dead.
+w.1712.ex.0 :: I'm waiting for a call.
+w.1713.ex.0 :: Leave a message on my voicemail.
+w.1714.ex.0 :: What's the area code for Berlin?
+w.1715.ex.0 :: I need a stamp.
+w.1716.ex.0 :: The letter is in the envelope.
+w.1717.ex.0 :: I'll write you a postcard.
+w.1718.ex.0 :: The sender goes at the top left.
+w.1719.ex.0 :: Who is the recipient?
+w.1720.ex.0 :: I put the letter in the letterbox.
+w.1721.ex.0 :: The doorbell is broken.
+w.1722.ex.0 :: We live on the ground floor.
+w.1723.ex.0 :: The office is on the third floor.
+w.1724.ex.0 :: The children are playing in the courtyard.
+w.1725.ex.0 :: The building is very tall.
+w.1726.ex.0 :: We live in a high-rise.
+w.1727.ex.0 :: The castle is very old.
+w.1728.ex.0 :: The tower is 100 metres high.
+w.1729.ex.0 :: Cologne Cathedral is famous.
+w.1730.ex.0 :: There's a mosque in our town.
+w.1731.ex.0 :: The cemetery is behind the church.
+w.1732.ex.0 :: The monument stands in the square.
+w.1733.ex.0 :: The exhibition is very interesting.
+w.1734.ex.0 :: There are pictures in the gallery.
+w.1735.ex.0 :: We're going to the opera.
+w.1736.ex.0 :: The children are going to the circus.
+w.1737.ex.0 :: There are elephants at the zoo.
+w.1738.ex.0 :: The children are at the playground.
+w.1739.ex.0 :: The stadium is full.
+w.1740.ex.0 :: We play in the sports hall.
+w.1741.ex.0 :: I'm going to the gym.
+w.1742.ex.0 :: Our team is good.
+w.1743.ex.0 :: He scored a goal.
+w.1744.ex.0 :: The ball is round.
+w.1745.ex.0 :: Do you like playing tennis?
+w.1746.ex.0 :: The player is injured.
+w.1747.ex.0 :: Do you play an instrument?
+w.1748.ex.0 :: She plays the piano.
+w.1749.ex.0 :: The band is playing tonight.
+w.1750.ex.0 :: I'm interested in art.
+w.1751.ex.0 :: I have two tickets.
+w.1752.ex.0 :: Admission costs eight euros.
+w.1753.ex.0 :: There's a long queue at the ticket office.
+w.1754.ex.0 :: I'm sitting in the first row.
+w.1755.ex.0 :: We sleep in a tent.
+w.1756.ex.0 :: The campsite is by the lake.
+w.1757.ex.0 :: I need sunglasses.
+w.1758.ex.0 :: Don't forget the sun cream!
+w.1759.ex.0 :: I've forgotten my swimsuit.
+w.1760.ex.0 :: I'm buying a souvenir.
+w.1761.ex.0 :: We're sending a picture postcard.
+w.1762.ex.0 :: The parcel is going within the country.
+w.1763.ex.0 :: Hamburg is in the north.
+w.1764.ex.0 :: Munich is in the south.
+w.1765.ex.0 :: Dresden is in the east.
+w.1766.ex.0 :: Cologne is in the west.
+w.1767.ex.0 :: I like travelling around Europe.
+w.1768.ex.0 :: Vienna is in Austria.
+w.1769.ex.0 :: I'm going to Switzerland.
+w.1770.ex.0 :: In summer we go to Italy.
+w.1771.ex.0 :: Paris is in France.
+w.1772.ex.0 :: It's warm in Spain.
+w.1773.ex.0 :: We're on holiday in Greece.
+w.1774.ex.0 :: My brother lives in England.
+w.1775.ex.0 :: My colleague comes from Poland.
+w.1776.ex.0 :: Russia is very big.
+w.1777.ex.0 :: He comes from Syria.
+w.1778.ex.0 :: She's flying to the USA.
+w.1779.ex.0 :: He speaks Arabic.
+w.1780.ex.0 :: He is German.
+w.1781.ex.0 :: My neighbour is Turkish.
+w.1782.ex.0 :: She is Turkish.
+w.1783.ex.0 :: That costs ten dollars.
+w.1784.ex.0 :: Wait a second!
+w.1785.ex.0 :: One moment, please.
+w.1786.ex.0 :: Just a moment!
+w.1787.ex.0 :: The church dates from the 12th century.
+w.1788.ex.0 :: Delivery takes three working days.
+w.1789.ex.0 :: My everyday life is quiet.
+w.1790.ex.0 :: That's a bad habit.
+w.1791.ex.0 :: I do the housework.
+w.1792.ex.0 :: I do the laundry.
+w.1793.ex.0 :: The dishes are dirty.
+w.1794.ex.0 :: There's dust on the shelf.
+w.1795.ex.0 :: The vacuum cleaner is loud.
+w.1796.ex.0 :: The bucket is full of water.
+w.1797.ex.0 :: I need tools.
+w.1798.ex.0 :: Please pass me the hammer.
+w.1799.ex.0 :: Where are the scissors?
+w.1800.ex.0 :: I need glue.
+w.1801.ex.0 :: There are seven candles on the cake.
+w.1802.ex.0 :: The flowers are in the vase.
+w.1803.ex.0 :: Do you have a lighter?
+w.1804.ex.0 :: He smokes ten cigarettes a day.
+w.1805.ex.0 :: The child has lots of toys.
+w.1806.ex.0 :: The doll's name is Lisa.
+w.1807.ex.0 :: The baby is sleeping in the pram.
+w.1808.ex.0 :: I'm buying nappies.
+w.1809.ex.0 :: Do you have a pet?
+w.1810.ex.0 :: The elephant is big.
+w.1811.ex.0 :: The lion is sleeping.
+w.1812.ex.0 :: The monkey is eating a banana.
+w.1813.ex.0 :: A bear lives in the forest.
+w.1814.ex.0 :: Ducks are swimming on the lake.
+w.1815.ex.0 :: The bee makes honey.
+w.1816.ex.0 :: There's a fly in the room.
+w.1817.ex.0 :: The wolf lives in the forest.
+w.1818.ex.0 :: The fox is red.
+w.1819.ex.0 :: The donkey carries sacks.
+w.1820.ex.0 :: He gives her red roses.
+w.1821.ex.0 :: The tulips bloom in spring.
+w.1822.ex.0 :: The children are playing in the sand.
+w.1823.ex.0 :: We're going to the coast.
+w.1824.ex.0 :: The Atlantic is an ocean.
+w.1825.ex.0 :: The waves are high.
+w.1826.ex.0 :: The village is in the valley.
+w.1827.ex.0 :: There's a house on the hill.
+w.1828.ex.0 :: The Alps are a mountain range.
+w.1829.ex.0 :: The area is very beautiful.
+w.1830.ex.0 :: There are many lakes in the surrounding area.
+w.1831.ex.0 :: The climate is mild.
+w.1832.ex.0 :: We have to save energy.
+w.1833.ex.0 :: Electricity is expensive.
+w.1834.ex.0 :: We cook with gas.
+w.1835.ex.0 :: Petrol has become more expensive.
+w.1836.ex.0 :: The engine is broken.
+w.1837.ex.0 :: The car has four wheels.
+w.1838.ex.0 :: The tyre is flat.
+w.1839.ex.0 :: I wear a helmet when cycling.
+w.1840.ex.0 :: We broke down on the motorway.
+w.1841.ex.0 :: The damage isn't big.
+w.1842.ex.0 :: The fine is 50 euros.
+w.1843.ex.0 :: I'm doing a first-aid course.
+w.1844.ex.0 :: I need a plaster.
+w.1845.ex.0 :: The doctor puts on a bandage.
+w.1846.ex.0 :: The thermometer shows 39 degrees.
+w.1847.ex.0 :: I have a headache.
+w.1848.ex.0 :: The child has a stomach ache.
+w.1849.ex.0 :: I'm allergic to nuts.
+w.1850.ex.0 :: The operation was successful.
+w.1851.ex.0 :: The examination takes ten minutes.
+w.1852.ex.0 :: I need a sick note.
+w.1853.ex.0 :: Looking after Grandma is tiring.
+w.1854.ex.0 :: My grandpa lives in an old people's home.
+w.1855.ex.0 :: My son goes to nursery.
+w.1856.ex.0 :: Today is parents' evening at school.
+w.1857.ex.0 :: Tomorrow we have a written test.
+w.1858.ex.0 :: The school bag is heavy.
+w.1859.ex.0 :: The school trip is to Hamburg.
+w.1860.ex.0 :: The additional costs are 150 euros.
+w.1861.ex.0 :: The deposit is two months' rent.
+w.1862.ex.0 :: The tenant pays on time.
+w.1863.ex.0 :: The caretaker is repairing the door.
+w.1864.ex.0 :: Read the house rules.
+w.1865.ex.0 :: The noise bothers me.
+w.1866.ex.0 :: We have a nice neighbourhood.
+w.1867.ex.0 :: Which district do you live in?
+w.1868.ex.0 :: We live in a suburb.
+w.1869.ex.0 :: There are many shops in the city centre.
+w.1870.ex.0 :: No cars drive in the pedestrian zone.
+w.1871.ex.0 :: There's a café on the market square.
+w.1872.ex.0 :: The alley is very narrow.
+w.1873.ex.0 :: We get off at the next stop.
+w.1874.ex.0 :: The bus goes to the terminus.
+w.1875.ex.0 :: I have a monthly ticket.
+w.1876.ex.0 :: A return ticket to Cologne, please.
+w.1877.ex.0 :: The flight takes three hours.
+w.1878.ex.0 :: Departure is at 9 o'clock.
+w.1879.ex.0 :: Please show your boarding pass.
+w.1880.ex.0 :: Please fasten your seat belt.
+w.1881.ex.0 :: The pay is good.
+w.1882.ex.0 :: I have 30 days' holiday.
+w.1883.ex.0 :: He got his notice.
+w.1884.ex.0 :: Unemployment has fallen.
+w.1885.ex.0 :: I have an appointment at the job centre.
+w.1886.ex.0 :: Industry needs workers.
+w.1887.ex.0 :: The economy is growing.
+w.1888.ex.0 :: He works in retail.
+w.1889.ex.0 :: The goods arrive tomorrow.
+w.1890.ex.0 :: The product is new.
+w.1891.ex.0 :: The quality is very good.
+w.1892.ex.0 :: What brand is that?
+w.1893.ex.0 :: Please transfer the amount.
+w.1894.ex.0 :: The payment has been received.
+w.1895.ex.0 :: We're looking for accommodation.
+w.1896.ex.0 :: It rains on the day we leave.
+w.1897.ex.0 :: The journey there takes six hours.
+w.1898.ex.0 :: Please remind me of the appointment.
+w.1899.ex.0 :: There are no lessons today.
+w.1900.ex.0 :: On Saturday we're going out.
+w.1901.ex.0 :: Don't throw the old bread away!
+w.1902.ex.0 :: Please pick up the paper.
+w.1903.ex.0 :: Put the book over there.
+w.1904.ex.0 :: I'll lie down for a bit.
+w.1905.ex.0 :: I'm peeling the potatoes.
+w.1906.ex.0 :: Stir the soup!
+w.1907.ex.0 :: Shall I gift-wrap it?
+w.1908.ex.0 :: The children unwrap the presents.
+w.1909.ex.0 :: At the weekend we're going away.
+w.1910.ex.0 :: Can I get a lift with you?
+w.1911.ex.0 :: I'll ask again tomorrow.
+w.1912.ex.0 :: I'll check the calendar.
+w.1913.ex.0 :: I have to think about it.
+w.1914.ex.0 :: I'm trying out the new recipe.
+w.1915.ex.0 :: I'm watching the football.
+w.1916.ex.0 :: After the break we'll drive on.
+w.1917.ex.0 :: I'm bored.
+w.1918.ex.0 :: He hurt himself doing sport.
+w.1919.ex.0 :: I've caught a cold.
+w.1920.ex.0 :: I find out about it online.
+w.1921.ex.0 :: I relax doing yoga.
+w.1922.ex.0 :: I spend my time on music.
+w.1923.ex.0 :: The train is running late.
+w.1924.ex.0 :: I've got lost.
+w.1925.ex.0 :: We've taken a wrong turn.
+w.1926.ex.0 :: You're mistaken.
+w.1927.ex.0 :: I feel at home here.
+w.1928.ex.0 :: My mother is worried.
+w.1929.ex.0 :: You're right.
+w.1930.ex.0 :: I'm afraid of the exam.
+w.1931.ex.0 :: Please let me know.
+w.1932.ex.0 :: Please take a seat.
+w.1933.ex.0 :: I like cycling.
+w.1934.ex.0 :: In winter we go skiing.
+w.1935.ex.0 :: Can you drive?
+w.1936.ex.0 :: I'm vegetarian.
+w.1937.ex.0 :: The restaurant also has vegan dishes.
+w.1938.ex.0 :: The coffee is only lukewarm.
+w.1939.ex.0 :: The water is ice-cold.
+w.1940.ex.0 :: Tomorrow it will be sunny.
+w.1941.ex.0 :: It's cloudy today.
+w.1942.ex.0 :: It's windy by the sea.
+w.1943.ex.0 :: It's foggy in the morning.
+w.1944.ex.0 :: Autumn is often rainy.
+w.1945.ex.0 :: The winter was mild.
+w.1946.ex.0 :: The hotel is fully booked.
+w.1947.ex.0 :: The concert is sold out.
+w.1948.ex.0 :: The passport is still valid.
+w.1949.ex.0 :: The ticket is invalid.
+w.1950.ex.0 :: The train is arriving late.
+w.1951.ex.0 :: The flat is centrally located.
+w.1952.ex.0 :: We live in the country.
+w.1953.ex.0 :: The path is very steep.
+w.1954.ex.0 :: The land is flat.
+w.1955.ex.0 :: I'm buying a used car.
+w.1956.ex.0 :: The food is good value.
+w.1957.ex.0 :: The flat is furnished.
+w.1958.ex.0 :: The form is complicated.
+w.1959.ex.0 :: The task is difficult.
+w.1960.ex.0 :: That's impossible!
+w.1961.ex.0 :: The weather is ideal for hiking.
+w.1962.ex.0 :: The café is very popular.
+w.1963.ex.0 :: Don't be so nosy!
+w.1964.ex.0 :: The child is shy.
+w.1965.ex.0 :: That was very brave.
+w.1966.ex.0 :: The dog is timid.
+w.1967.ex.0 :: He is very generous.
+w.1968.ex.0 :: It's quiet in the forest.
+w.1969.ex.0 :: The road is closed.
+w.1970.ex.0 :: Parking is subject to a charge.
+w.1971.ex.0 :: Breakfast is included.
+w.1972.ex.0 :: The drink costs extra.
+w.1973.ex.0 :: We need two extra chairs.
+w.1974.ex.0 :: I see it the same way.
+w.1975.ex.0 :: Have a nice day! – Thanks, you too!
+w.1976.ex.0 :: Enjoy your meal! – Thanks, same to you!
+w.1977.ex.0 :: By the way, tomorrow is a holiday.
+w.1978.ex.0 :: I've been to Paris once.
+w.1979.ex.0 :: I go swimming twice a week.
+w.1980.ex.0 :: Please say that again.
+w.1981.ex.0 :: That costs ten euros per person.
+w.1982.ex.0 :: I'll send it by email.
+w.1983.ex.0 :: I'm out and about right now.
+w.1984.ex.0 :: I'm going home now.
+w.1985.ex.0 :: The path goes uphill.
+w.1986.ex.0 :: Please reverse.
+w.1987.ex.0 :: Go forwards!
+w.1988.ex.0 :: I work during the day.
+w.1989.ex.0 :: Please arrive in good time.
+w.1990.ex.0 :: So far everything was fine.
+w.1991.ex.0 :: I recently met Anna.
+w.1992.ex.0 :: I'm moving soon.
+w.1993.ex.0 :: Now and then I go to the cinema.
+w.1994.ex.0 :: Every time I forget my umbrella.
+w.1995.ex.0 :: The phone rings constantly.
+w.1996.ex.0 :: He's certainly right.
+w.1997.ex.0 :: I don't know that at all.
+w.1998.ex.0 :: That's not expensive at all.
+w.1999.ex.0 :: That's totally easy.
+w.2000.ex.0 :: I hardly slept.
+w.2001.ex.0 :: The car is old, but it's good.
+w.2002.ex.0 :: The more I study, the better I speak.
+w.2003.ex.0 :: I'm learning German in order to work in Germany.
+w.2004.ex.0 :: He leaves without saying goodbye.
+w.2005.ex.0 :: I'm hungry, that's why I'm eating now.
+w.2006.ex.0 :: I don't have time for that.
+w.2007.ex.0 :: Do you mind?
+w.2008.ex.0 :: I'm looking forward to it.
+w.2009.ex.0 :: I've heard about it.
+w.2010.ex.0 :: Do you have your passport with you?
+w.2011.ex.0 :: The holidays are over.
+w.2012.ex.0 :: What's up?
+w.2013.ex.0 :: So, how are you?
+w.2014.ex.0 :: Oh, how lovely!
+w.2015.ex.0 :: Aha, now I understand.
+w.2016.ex.0 :: Shh, the baby is sleeping!
+w.2017.ex.0 :: There will be frost tonight.
+w.2018.ex.0 :: The weather forecast says rain.
+w.2019.ex.0 :: We're sitting in the shade.
+w.2020.ex.0 :: A butterfly is sitting on the flower.
+w.2021.ex.0 :: A hedgehog lives in the garden.
+w.2022.ex.0 :: I'm afraid of spiders.
+w.2023.ex.0 :: There are lots of mosquitoes in summer.
+w.2024.ex.0 :: The hare runs fast.
+w.2025.ex.0 :: The goat gives milk.
+w.2026.ex.0 :: The parrot can talk.
+w.2027.ex.0 :: My child wants a hamster.
+w.2028.ex.0 :: There are colourful fish in the aquarium.
+w.2029.ex.0 :: We take the dog to the vet.
+w.2030.ex.0 :: The cat food has run out.
+w.2031.ex.0 :: Dogs must be kept on a lead.
+w.2032.ex.0 :: I'm boiling an egg for breakfast.
+w.2033.ex.0 :: I'm making a fried egg.
+w.2034.ex.0 :: There are scrambled eggs for breakfast.
+w.2035.ex.0 :: I eat toast with butter.
+w.2036.ex.0 :: I eat muesli for breakfast.
+w.2037.ex.0 :: The quark is fresh.
+w.2038.ex.0 :: A pretzel, please.
+w.2039.ex.0 :: I'm eating a doner kebab.
+w.2040.ex.0 :: The children are eating sausages.
+w.2041.ex.0 :: I'll have a schnitzel with chips.
+w.2042.ex.0 :: The children drink cocoa.
+w.2043.ex.0 :: On New Year's Eve we drink sparkling wine.
+w.2044.ex.0 :: A cola, please.
+w.2045.ex.0 :: I drink mineral water.
+w.2046.ex.0 :: A glass of orange juice, please.
+w.2047.ex.0 :: The children drink apple juice.
+w.2048.ex.0 :: I'm buying a kilo of minced meat.
+w.2049.ex.0 :: Today there's salmon.
+w.2050.ex.0 :: I eat salad with tuna.
+w.2051.ex.0 :: Which spices do you need?
+w.2052.ex.0 :: Salad with oil and vinegar, please.
+w.2053.ex.0 :: Would you like mustard with your sausage?
+w.2054.ex.0 :: Chips with ketchup, please.
+w.2055.ex.0 :: Cake with whipped cream, please.
+w.2056.ex.0 :: Food has become more expensive.
+w.2057.ex.0 :: A portion of chips, please.
+w.2058.ex.0 :: A slice of cheese, please.
+w.2059.ex.0 :: A pound of tomatoes, please.
+w.2060.ex.0 :: I cut the bread on the board.
+w.2061.ex.0 :: Where is the lid of the pot?
+w.2062.ex.0 :: The apples are in the basket.
+w.2063.ex.0 :: I take a shopping trolley.
+w.2064.ex.0 :: I'm writing a shopping list.
+w.2065.ex.0 :: The sale starts at nine.
+w.2066.ex.0 :: Everything is cheap in the end-of-season sale.
+w.2067.ex.0 :: The phone has a two-year guarantee.
+w.2068.ex.0 :: The shirt has a nice pattern.
+w.2069.ex.0 :: The fabric is very soft.
+w.2070.ex.0 :: I'm buying new underwear.
+w.2071.ex.0 :: The child is wearing pyjamas.
+w.2072.ex.0 :: In summer I wear sandals.
+w.2073.ex.0 :: I need new trainers.
+w.2074.ex.0 :: I like wearing jeans.
+w.2075.ex.0 :: The jacket has a hood.
+w.2076.ex.0 :: Her handbag is red.
+w.2077.ex.0 :: She buys a lipstick.
+w.2078.ex.0 :: The perfume smells good.
+w.2079.ex.0 :: Do you have a comb?
+w.2080.ex.0 :: The toothpaste has run out.
+w.2081.ex.0 :: We need toilet paper.
+w.2082.ex.0 :: Do you have a tissue?
+w.2083.ex.0 :: The cream is good for your skin.
+w.2084.ex.0 :: I need a brush.
+w.2085.ex.0 :: Is there a hairdryer in the hotel?

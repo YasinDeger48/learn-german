@@ -11,6 +11,7 @@ back to English, then Turkish.
 `--missing en` also writes tools/i18n/missing_en.json: every key without an
 English text, with the Turkish source, ready to be translated.
 """
+import glob
 import json
 import os
 import sys
@@ -23,10 +24,13 @@ def load_translations():
     table = {}
     for lang in LANGS[1:]:
         path = os.path.join(HERE, 'i18n', f'{lang}.json')
-        if os.path.exists(path):
-            table[lang] = json.load(open(path, encoding='utf-8'))
-        else:
-            table[lang] = {}
+        table[lang] = json.load(open(path, encoding='utf-8')) if os.path.exists(path) else {}
+        # Hand-written translations: tools/i18n/<lang>/*.txt, one "key :: text" per line.
+        for src in sorted(glob.glob(os.path.join(HERE, 'i18n', lang, '*.txt'))):
+            for line in open(src, encoding='utf-8'):
+                key, sep, text = line.rstrip('\n').partition(' :: ')
+                if sep and text.strip():
+                    table[lang][key.strip()] = text.strip()
     return table
 
 

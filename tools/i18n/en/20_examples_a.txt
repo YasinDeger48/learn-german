@@ -1,0 +1,700 @@
+w.1.ex.0 :: Hello, I'm Anna.
+w.1.ex.1 :: Hello, how are you?
+w.2.ex.0 :: Good afternoon, Mrs Müller!
+w.2.ex.1 :: I always say "Guten Tag".
+w.3.ex.0 :: Good morning, Dad!
+w.3.ex.1 :: Good morning, did you sleep well?
+w.4.ex.0 :: Good evening, Mr Weber.
+w.4.ex.1 :: In the evening we say "Guten Abend".
+w.5.ex.0 :: Good night, sleep well!
+w.5.ex.1 :: I say "Gute Nacht" to my child.
+w.6.ex.0 :: Bye, see you tomorrow!
+w.6.ex.1 :: I'm going now. Bye!
+w.7.ex.0 :: Goodbye, Mr Klein!
+w.7.ex.1 :: Thank you and goodbye.
+w.8.ex.0 :: See you soon, Maria!
+w.8.ex.1 :: We'll see each other soon.
+w.9.ex.0 :: Thanks for the coffee.
+w.9.ex.1 :: Thank you very much for your help!
+w.10.ex.0 :: A water, please.
+w.10.ex.1 :: "Thank you!" – "You're welcome!"
+w.11.ex.0 :: Excuse me, where is the station?
+w.11.ex.1 :: Sorry, I'm late.
+w.12.ex.0 :: Yes, I'd love to come.
+w.12.ex.1 :: Yes, that's right.
+w.13.ex.0 :: No, I don't have time.
+w.13.ex.1 :: No, that's wrong.
+w.14.ex.0 :: Aren't you coming? – Yes, I am!
+w.14.ex.1 :: Aren't you hungry? – Yes, I am hungry.
+w.15.ex.0 :: My name is Ali.
+w.15.ex.1 :: What is your name?
+w.16.ex.0 :: My name is Lena Schmidt.
+w.16.ex.1 :: What is your name?
+w.17.ex.0 :: My first name is Peter.
+w.17.ex.1 :: Please write your first name.
+w.18.ex.0 :: My surname is Yılmaz.
+w.18.ex.1 :: What is your surname?
+w.19.ex.0 :: This is Mr Becker.
+w.19.ex.1 :: Mr Braun works here.
+w.20.ex.0 :: Ms Wagner is my teacher.
+w.20.ex.1 :: The woman is drinking tea.
+w.21.ex.0 :: I speak Turkish and German.
+w.21.ex.1 :: Please speak slowly.
+w.22.ex.0 :: I don't understand that.
+w.22.ex.1 :: Do you understand me?
+w.23.ex.0 :: I ask the teacher.
+w.23.ex.1 :: May I ask something?
+w.24.ex.0 :: Please answer quickly.
+w.24.ex.1 :: He doesn't answer.
+w.25.ex.0 :: What are you saying?
+w.25.ex.1 :: She said "yes".
+w.26.ex.0 :: Could you spell that, please?
+w.26.ex.1 :: I spell my name.
+w.27.ex.0 :: Could you repeat that, please?
+w.27.ex.1 :: We are revising the words.
+w.28.ex.0 :: German is a beautiful language.
+w.28.ex.1 :: Which languages do you speak?
+w.29.ex.0 :: This word is new.
+w.29.ex.1 :: I learn ten words every day.
+w.30.ex.0 :: Write a sentence.
+w.30.ex.1 :: The sentence is very short.
+w.31.ex.0 :: I have a question.
+w.31.ex.1 :: The question is easy.
+w.32.ex.0 :: The answer is correct.
+w.32.ex.1 :: I'm waiting for your answer.
+w.33.ex.0 :: How are you? – Fine, thanks.
+w.33.ex.1 :: How are you? (formal)
+w.34.ex.0 :: I like drinking tea.
+w.34.ex.1 :: Are you coming along? – Yes, gladly!
+w.35.ex.0 :: Unfortunately I don't have time.
+w.35.ex.1 :: Unfortunately the shop is closed.
+w.36.ex.0 :: Maybe I'll come tomorrow.
+w.36.ex.1 :: Maybe it will rain today.
+w.37.ex.0 :: At eight? All right.
+w.37.ex.1 :: Is everything okay?
+w.38.ex.0 :: I'd like to get to know you.
+w.38.ex.1 :: We met on the course.
+w.39.ex.0 :: Please introduce yourself.
+w.39.ex.1 :: I'll briefly introduce myself.
+w.40.ex.0 :: Welcome to Berlin!
+w.40.ex.1 :: Welcome to the German course!
+w.41.ex.0 :: The man is reading a newspaper.
+w.41.ex.1 :: This is my husband Tom.
+w.42.ex.0 :: The child is playing in the garden.
+w.42.ex.1 :: We have two children.
+w.43.ex.0 :: The baby is sleeping.
+w.43.ex.1 :: My sister has a baby.
+w.44.ex.0 :: The boy is ten years old.
+w.44.ex.1 :: The boy plays football.
+w.45.ex.0 :: The girl's name is Lisa.
+w.45.ex.1 :: The girl likes singing.
+w.46.ex.0 :: My parents live in Izmir.
+w.46.ex.1 :: I visit my parents.
+w.47.ex.0 :: My father is a doctor.
+w.47.ex.1 :: The father is cooking today.
+w.48.ex.0 :: My mother's name is Ayşe.
+w.48.ex.1 :: The mother is drinking coffee.
+w.49.ex.0 :: My son goes to school.
+w.49.ex.1 :: Your son is very nice.
+w.50.ex.0 :: My daughter is five.
+w.50.ex.1 :: His daughter studies in Cologne.
+w.51.ex.0 :: My brother lives in Berlin.
+w.51.ex.1 :: Do you have a brother?
+w.52.ex.0 :: My sister is a teacher.
+w.52.ex.1 :: I have two sisters.
+w.53.ex.0 :: Do you have brothers and sisters?
+w.53.ex.1 :: My siblings are younger.
+w.54.ex.0 :: My grandparents are old.
+w.54.ex.1 :: On Sunday we visit our grandparents.
+w.55.ex.0 :: My grandma is baking a cake.
+w.55.ex.1 :: Grandma likes reading.
+w.56.ex.0 :: My grandpa is 80 years old.
+w.56.ex.1 :: Grandpa goes for a walk.
+w.57.ex.0 :: My family is big.
+w.57.ex.1 :: How is your family?
+w.58.ex.0 :: My friend's name is Max.
+w.58.ex.1 :: I'm meeting my friends today.
+w.59.ex.0 :: My girlfriend comes from Spain.
+w.59.ex.1 :: She goes to the cinema with her friend.
+w.60.ex.0 :: My partner works a lot.
+w.60.ex.1 :: Is your partner coming too?
+w.61.ex.0 :: The people here are nice.
+w.61.ex.1 :: Many people are waiting for the bus.
+w.62.ex.0 :: He is a good person.
+w.62.ex.1 :: Many people live in Berlin.
+w.63.ex.0 :: I'm married.
+w.63.ex.1 :: Are you married?
+w.64.ex.0 :: He is single.
+w.64.ex.1 :: I'm single and have no children.
+w.65.ex.0 :: My aunt is divorced.
+w.65.ex.1 :: Are you married or divorced?
+w.66.ex.0 :: Age: 25.
+w.66.ex.1 :: Please write your age.
+w.67.ex.0 :: How old are you?
+w.67.ex.1 :: I'm 30 years old.
+w.68.ex.0 :: My teacher is young.
+w.68.ex.1 :: My brother is younger than me.
+w.69.ex.0 :: Today is my birthday.
+w.69.ex.1 :: When is your birthday?
+w.70.ex.0 :: I was born in 1995.
+w.70.ex.1 :: Where were you born?
+w.71.ex.0 :: My colleague is ill.
+w.71.ex.1 :: The colleagues are very nice.
+w.72.ex.0 :: My colleague's name is Sara.
+w.72.ex.1 :: I eat with my colleague.
+w.73.ex.0 :: My neighbour has a dog.
+w.73.ex.1 :: The neighbours are very loud.
+w.74.ex.0 :: My aunt lives in Munich.
+w.74.ex.1 :: The aunt brings a present.
+w.75.ex.0 :: My uncle has a car.
+w.75.ex.1 :: We visit our uncle.
+w.76.ex.0 :: I love my family.
+w.76.ex.1 :: She loves music.
+w.77.ex.0 :: I come from Turkey.
+w.77.ex.1 :: Where do you come from?
+w.78.ex.0 :: I live in Hamburg.
+w.78.ex.1 :: Where do you live?
+w.79.ex.0 :: We have been living here for two years.
+w.79.ex.1 :: My grandma lives alone.
+w.80.ex.0 :: Germany is a beautiful country.
+w.80.ex.1 :: My parents live in the countryside.
+w.81.ex.0 :: Cologne is a big city.
+w.81.ex.1 :: I live in the city.
+w.82.ex.0 :: The village is small and quiet.
+w.82.ex.1 :: My grandpa lives in a village.
+w.83.ex.0 :: What is your address?
+w.83.ex.1 :: I write down the address.
+w.84.ex.0 :: I live on Goethestraße.
+w.84.ex.1 :: The street is very long.
+w.85.ex.0 :: My house number is 12.
+w.85.ex.1 :: The house number is missing.
+w.86.ex.0 :: The postcode is 10115.
+w.86.ex.1 :: What is the postcode of Bonn?
+w.87.ex.0 :: What is your phone number?
+w.87.ex.1 :: I'll give you my phone number.
+w.88.ex.0 :: I'll write you an email.
+w.88.ex.1 :: Have you read my email?
+w.89.ex.0 :: My brother works abroad.
+w.89.ex.1 :: We are going abroad.
+w.90.ex.0 :: Many foreigners live in the city.
+w.90.ex.1 :: He is a foreigner and is learning German.
+w.91.ex.0 :: My home country is Turkey.
+w.91.ex.1 :: I miss my home country.
+w.92.ex.0 :: Please fill in the form.
+w.92.ex.1 :: The form is in German.
+w.93.ex.0 :: I'm filling in the form.
+w.93.ex.1 :: Have you filled everything in?
+w.94.ex.0 :: Please sign here.
+w.94.ex.1 :: I have signed the contract.
+w.95.ex.0 :: Your signature is missing here.
+w.95.ex.1 :: The signature goes at the bottom.
+w.96.ex.0 :: Sex: male or female?
+w.96.ex.1 :: Tick your sex.
+w.97.ex.0 :: The word "Tisch" is masculine.
+w.97.ex.1 :: Sex: male.
+w.98.ex.0 :: The word "Lampe" is feminine.
+w.98.ex.1 :: Sex: female.
+w.99.ex.0 :: My nationality is Turkish.
+w.99.ex.1 :: Write your nationality.
+w.100.ex.0 :: Marital status: married.
+w.100.ex.1 :: What is your marital status?
+w.101.ex.0 :: What do you do for a living?
+w.101.ex.1 :: I'm an engineer by profession.
+w.102.ex.0 :: I'm learning German in Germany.
+w.102.ex.1 :: Germany is big.
+w.103.ex.0 :: I come from Turkey.
+w.103.ex.1 :: In summer we go to Turkey.
+w.104.ex.0 :: I'm reading a German book.
+w.104.ex.1 :: That is a German car.
+w.105.ex.0 :: I have two brothers.
+w.105.ex.1 :: We are three people.
+w.106.ex.0 :: The course starts at eight.
+w.106.ex.1 :: My son is ten years old.
+w.107.ex.0 :: I'm nineteen years old.
+w.107.ex.1 :: Bus number 17 is coming.
+w.108.ex.0 :: That costs twenty euros.
+w.108.ex.1 :: My mother is forty.
+w.109.ex.0 :: The bike costs a hundred euros.
+w.109.ex.1 :: The flat costs a thousand euros.
+w.110.ex.0 :: Write the number.
+w.110.ex.1 :: Seven is my lucky number.
+w.111.ex.0 :: What number is the bus?
+w.111.ex.1 :: My number is 0176 12345.
+w.112.ex.0 :: I live on the first floor.
+w.112.ex.1 :: Today is the third of May.
+w.113.ex.0 :: What time is it?
+w.113.ex.1 :: It's eight o'clock.
+w.114.ex.0 :: What time is it?
+w.114.ex.1 :: Write down the time.
+w.115.ex.0 :: The course lasts two hours.
+w.115.ex.1 :: I've been waiting for an hour already.
+w.116.ex.0 :: The bus is coming in five minutes.
+w.116.ex.1 :: Please wait a minute!
+w.117.ex.0 :: It's half past eight.
+w.117.ex.1 :: We're meeting at half past two.
+w.118.ex.0 :: It's a quarter past two.
+w.118.ex.1 :: It's a quarter to eight.
+w.119.ex.0 :: Do you have time today?
+w.119.ex.1 :: I don't have time.
+w.120.ex.0 :: Today is Monday.
+w.120.ex.1 :: What are you doing today?
+w.121.ex.0 :: Tomorrow I'm off.
+w.121.ex.1 :: See you tomorrow!
+w.122.ex.0 :: Yesterday I was at the cinema.
+w.122.ex.1 :: It rained yesterday.
+w.123.ex.0 :: In the morning I drink coffee.
+w.123.ex.1 :: Every morning I go jogging.
+w.124.ex.0 :: I work in the morning.
+w.124.ex.1 :: The course is in the morning.
+w.125.ex.0 :: For lunch I eat soup.
+w.125.ex.1 :: At midday I take a break.
+w.126.ex.0 :: In the afternoon I play tennis.
+w.126.ex.1 :: Are you coming in the afternoon?
+w.127.ex.0 :: In the evening I watch TV.
+w.127.ex.1 :: The evening was nice.
+w.128.ex.0 :: At night I sleep.
+w.128.ex.1 :: The night was cold.
+w.129.ex.0 :: A day has 24 hours.
+w.129.ex.1 :: I work every day.
+w.130.ex.0 :: A week has seven days.
+w.130.ex.1 :: Next week I'm on holiday.
+w.131.ex.0 :: At the weekend I sleep late.
+w.131.ex.1 :: Have a nice weekend!
+w.132.ex.0 :: On Monday I'm going to the doctor.
+w.132.ex.1 :: The course is on Tuesday and Wednesday.
+w.133.ex.0 :: On Thursday I go shopping.
+w.133.ex.1 :: On Friday we go dancing.
+w.134.ex.0 :: I don't work on Saturday.
+w.134.ex.1 :: On Sunday the shops are closed.
+w.135.ex.0 :: A year has twelve months.
+w.135.ex.1 :: I've been learning German for three months.
+w.136.ex.0 :: It's cold in January.
+w.136.ex.1 :: My birthday is in March.
+w.137.ex.0 :: In August I'm on holiday.
+w.137.ex.1 :: In December we celebrate.
+w.138.ex.0 :: A year has 365 days.
+w.138.ex.1 :: I've lived here for a year.
+w.139.ex.0 :: In spring the flowers bloom.
+w.139.ex.1 :: Spring starts in March.
+w.140.ex.0 :: It's hot in summer.
+w.140.ex.1 :: In summer we go to the seaside.
+w.141.ex.0 :: It often rains in autumn.
+w.141.ex.1 :: Autumn is colourful.
+w.142.ex.0 :: It snows in winter.
+w.142.ex.1 :: I don't like winter.
+w.143.ex.0 :: What's the date today?
+w.143.ex.1 :: Write the date.
+w.144.ex.0 :: I have a doctor's appointment.
+w.144.ex.1 :: The appointment is on Friday.
+w.145.ex.0 :: I write the appointment in the calendar.
+w.145.ex.1 :: The calendar hangs in the kitchen.
+w.146.ex.0 :: I have time now.
+w.146.ex.1 :: Where are you now?
+w.147.ex.0 :: I'm coming soon.
+w.147.ex.1 :: It will soon be summer.
+w.148.ex.0 :: First I eat, then I go.
+w.148.ex.1 :: You don't have time? Then tomorrow.
+w.149.ex.0 :: After that we drink coffee.
+w.149.ex.1 :: I work until five, then I go home.
+w.150.ex.0 :: I get up early.
+w.150.ex.1 :: It's still early.
+w.151.ex.0 :: What time is it?
+w.151.ex.1 :: I'm coming late today.
+w.152.ex.0 :: The train is on time.
+w.152.ex.1 :: Please be punctual.
+w.153.ex.0 :: I always drink tea.
+w.153.ex.1 :: He is always tired.
+w.154.ex.0 :: We often go to the cinema.
+w.154.ex.1 :: It often rains.
+w.155.ex.0 :: Sometimes I cook.
+w.155.ex.1 :: I'm sometimes tired.
+w.156.ex.0 :: I never smoke.
+w.156.ex.1 :: He never has time.
+w.157.ex.0 :: I'm already here.
+w.157.ex.1 :: Have you eaten yet?
+w.158.ex.0 :: I'm still sleeping.
+w.158.ex.1 :: Would you like more coffee?
+w.159.ex.0 :: Come back soon!
+w.159.ex.1 :: It's raining again.
+w.160.ex.0 :: I've been learning German for a year.
+w.160.ex.1 :: I've been ill since Monday.
+w.161.ex.0 :: I was in Bonn two days ago.
+w.161.ex.1 :: It's ten to eight.
+w.162.ex.0 :: After the course I go home.
+w.162.ex.1 :: It's five past three.
+w.163.ex.0 :: I work until 5 pm.
+w.163.ex.1 :: See you on Friday!
+w.164.ex.0 :: The film starts at eight o'clock.
+w.164.ex.1 :: What time are you coming?
+w.165.ex.0 :: How long does the course last?
+w.165.ex.1 :: The journey takes an hour.
+w.166.ex.0 :: Lessons start at nine.
+w.166.ex.1 :: When does the film start?
+w.167.ex.0 :: We're starting now.
+w.167.ex.1 :: Work starts at eight.
+w.168.ex.0 :: The rain is stopping.
+w.168.ex.1 :: Please stop!
+w.169.ex.0 :: The food is very tasty.
+w.169.ex.1 :: Dinner is ready!
+w.170.ex.0 :: I like eating pizza.
+w.170.ex.1 :: What do you eat for breakfast?
+w.171.ex.0 :: I'm drinking water.
+w.171.ex.1 :: Would you like something to drink?
+w.172.ex.0 :: Breakfast is at seven.
+w.172.ex.1 :: For breakfast I eat bread.
+w.173.ex.0 :: We have breakfast together.
+w.173.ex.1 :: Have you had breakfast yet?
+w.174.ex.0 :: Lunch is at twelve.
+w.174.ex.1 :: What's for lunch?
+w.175.ex.0 :: There's soup for dinner.
+w.175.ex.1 :: I'm cooking dinner.
+w.176.ex.0 :: I'm hungry.
+w.176.ex.1 :: Are you hungry?
+w.177.ex.0 :: I'm thirsty.
+w.177.ex.1 :: When I'm thirsty, I drink water.
+w.178.ex.0 :: I'm buying a loaf of bread.
+w.178.ex.1 :: The bread is fresh.
+w.179.ex.0 :: I eat two rolls.
+w.179.ex.1 :: The rolls are still warm.
+w.180.ex.0 :: I eat bread and butter.
+w.180.ex.1 :: The butter is in the fridge.
+w.181.ex.0 :: I like cheese.
+w.181.ex.1 :: A cheese roll, please.
+w.182.ex.0 :: He likes eating sausage.
+w.182.ex.1 :: The sausage is made of beef.
+w.183.ex.0 :: I don't eat meat.
+w.183.ex.1 :: Meat is expensive.
+w.184.ex.0 :: On Friday we eat fish.
+w.184.ex.1 :: The fish is fresh.
+w.185.ex.0 :: I order chicken with rice.
+w.185.ex.1 :: The chicken tastes good.
+w.186.ex.0 :: I eat an egg for breakfast.
+w.186.ex.1 :: We need six eggs.
+w.187.ex.0 :: Vegetables are healthy.
+w.187.ex.1 :: I buy vegetables at the market.
+w.188.ex.0 :: I eat fruit every day.
+w.188.ex.1 :: The fruit is very sweet.
+w.189.ex.0 :: I'm eating an apple.
+w.189.ex.1 :: A kilo of apples, please.
+w.190.ex.0 :: The banana is yellow.
+w.190.ex.1 :: The child is eating a banana.
+w.191.ex.0 :: I'm drinking orange juice.
+w.191.ex.1 :: The oranges come from Spain.
+w.192.ex.0 :: We eat meat with potatoes.
+w.192.ex.1 :: Potatoes are cheap.
+w.193.ex.0 :: I need three tomatoes.
+w.193.ex.1 :: The tomatoes are red.
+w.194.ex.0 :: I'm eating a salad.
+w.194.ex.1 :: The salad is fresh.
+w.195.ex.0 :: I'm cooking rice.
+w.195.ex.1 :: Rice with vegetables is delicious.
+w.196.ex.0 :: The children like eating pasta.
+w.196.ex.1 :: I'm cooking pasta today.
+w.197.ex.0 :: The soup is hot.
+w.197.ex.1 :: I'd like a tomato soup.
+w.198.ex.0 :: My grandma is baking a cake.
+w.198.ex.1 :: Would you like a piece of cake?
+w.199.ex.0 :: Children love chocolate.
+w.199.ex.1 :: I'm buying a bar of chocolate.
+w.200.ex.0 :: I drink coffee without sugar.
+w.200.ex.1 :: Would you like sugar?
+w.201.ex.0 :: The soup needs salt.
+w.201.ex.1 :: Please pass me the salt.
+w.202.ex.0 :: I'm drinking milk.
+w.202.ex.1 :: The milk is in the fridge.
+w.203.ex.0 :: A glass of water, please.
+w.203.ex.1 :: The water is cold.
+w.204.ex.0 :: I drink coffee in the morning.
+w.204.ex.1 :: Two coffees, please.
+w.205.ex.0 :: Would you like some tea?
+w.205.ex.1 :: The tea is too hot.
+w.206.ex.0 :: I'm drinking an apple juice.
+w.206.ex.1 :: The juice is sweet.
+w.207.ex.0 :: He is drinking a beer.
+w.207.ex.1 :: I don't drink beer.
+w.208.ex.0 :: A glass of red wine, please.
+w.208.ex.1 :: The wine comes from Italy.
+w.209.ex.0 :: What drinks do you have?
+w.209.ex.1 :: The drinks are cold.
+w.210.ex.0 :: That tastes very good!
+w.210.ex.1 :: Did you enjoy your meal?
+w.211.ex.0 :: The cake is delicious.
+w.211.ex.1 :: The food was very tasty.
+w.212.ex.0 :: I like cooking.
+w.212.ex.1 :: What are you cooking today?
+w.213.ex.0 :: We're going to a restaurant.
+w.213.ex.1 :: The restaurant is very good.
+w.214.ex.0 :: We're meeting at the café.
+w.214.ex.1 :: The café is next to the bank.
+w.215.ex.0 :: The menu, please.
+w.215.ex.1 :: The menu is in German.
+w.216.ex.0 :: I'm ordering a pizza.
+w.216.ex.1 :: Have you ordered yet?
+w.217.ex.0 :: I'd like to pay, please.
+w.217.ex.1 :: Can I pay by card?
+w.218.ex.0 :: The bill, please!
+w.218.ex.1 :: The bill is very high.
+w.219.ex.0 :: A glass of juice, please.
+w.219.ex.1 :: The glass is empty.
+w.220.ex.0 :: I'm buying a bottle of water.
+w.220.ex.1 :: The bottle is full.
+w.221.ex.0 :: A cup of coffee, please.
+w.221.ex.1 :: The cup is pretty.
+w.222.ex.0 :: The plate is on the table.
+w.222.ex.1 :: I need another plate.
+w.223.ex.0 :: The knife is sharp.
+w.223.ex.1 :: Please give me a knife.
+w.224.ex.0 :: I eat with a fork.
+w.224.ex.1 :: The fork is next to the plate.
+w.225.ex.0 :: I need a spoon for the soup.
+w.225.ex.1 :: The spoon is clean.
+w.226.ex.0 :: A kilo of tomatoes costs two euros.
+w.226.ex.1 :: I'll take two kilos of potatoes.
+w.227.ex.0 :: 200 grams of cheese, please.
+w.227.ex.1 :: I need 500 grams of flour.
+w.228.ex.0 :: A litre of milk costs one euro.
+w.228.ex.1 :: I drink two litres of water a day.
+w.229.ex.0 :: A piece of cake, please.
+w.229.ex.1 :: The rolls cost 50 cents each.
+w.230.ex.0 :: The cake is very sweet.
+w.230.ex.1 :: I like sweet things.
+w.231.ex.0 :: The bread is fresh.
+w.231.ex.1 :: We buy fresh fruit.
+w.232.ex.0 :: Thanks, I'm full.
+w.232.ex.1 :: Are you full already?
+w.233.ex.0 :: I'm buying bread and milk.
+w.233.ex.1 :: What did you buy?
+w.234.ex.0 :: On Saturday I go shopping.
+w.234.ex.1 :: We're going shopping.
+w.235.ex.0 :: He is selling his car.
+w.235.ex.1 :: They sell fruit here.
+w.236.ex.0 :: The shop opens at nine.
+w.236.ex.1 :: The shop is closed on Sunday.
+w.237.ex.0 :: The shop is on the corner.
+w.237.ex.1 :: There is bread in the shop.
+w.238.ex.0 :: I'm going to the supermarket.
+w.238.ex.1 :: The supermarket is big.
+w.239.ex.0 :: On Saturday I go to the market.
+w.239.ex.1 :: The fruit at the market is fresh.
+w.240.ex.0 :: I buy rolls at the bakery.
+w.240.ex.1 :: The bakery opens early.
+w.241.ex.0 :: I buy a newspaper at the kiosk.
+w.241.ex.1 :: The kiosk is at the station.
+w.242.ex.0 :: The price is good.
+w.242.ex.1 :: How high is the price?
+w.243.ex.0 :: How much is that?
+w.243.ex.1 :: The jacket costs 50 euros.
+w.244.ex.0 :: That costs ten euros.
+w.244.ex.1 :: Do you have five euros?
+w.245.ex.0 :: The roll costs 40 cents.
+w.245.ex.1 :: I only have 80 cents.
+w.246.ex.0 :: I have no money.
+w.246.ex.1 :: He earns a lot of money.
+w.247.ex.0 :: The car is very expensive.
+w.247.ex.1 :: Berlin isn't that expensive.
+w.248.ex.0 :: The tomatoes are cheap.
+w.248.ex.1 :: I'm looking for a cheap hotel.
+w.249.ex.0 :: Coffee is on offer today.
+w.249.ex.1 :: That's a good offer.
+w.250.ex.0 :: I need a pen.
+w.250.ex.1 :: Do you need help?
+w.251.ex.0 :: I'm looking for a flat.
+w.251.ex.1 :: What are you looking for?
+w.252.ex.0 :: I can't find my key.
+w.252.ex.1 :: I think the dress is nice.
+w.253.ex.0 :: I'll take the coffee.
+w.253.ex.1 :: Please take the book.
+w.254.ex.0 :: Please pay at the checkout.
+w.254.ex.1 :: Many people are waiting at the checkout.
+w.255.ex.0 :: Can I pay by card?
+w.255.ex.1 :: I'm buying two cinema tickets.
+w.256.ex.0 :: I'm paying cash.
+w.256.ex.1 :: Are you paying cash or by card?
+w.257.ex.0 :: My bag is heavy.
+w.257.ex.1 :: The phone is in the bag.
+w.258.ex.0 :: Do you need a bag?
+w.258.ex.1 :: The bag costs 20 cents.
+w.259.ex.0 :: The customer is king.
+w.259.ex.1 :: Many customers are waiting.
+w.260.ex.0 :: What size are you?
+w.260.ex.1 :: I'm a size 38.
+w.261.ex.0 :: Which colour do you like?
+w.261.ex.1 :: The colour is very nice.
+w.262.ex.0 :: My car is red.
+w.262.ex.1 :: The sky is blue.
+w.263.ex.0 :: The banana is yellow.
+w.263.ex.1 :: I'm wearing black trousers.
+w.264.ex.0 :: The sky is grey.
+w.264.ex.1 :: He has brown eyes.
+w.265.ex.0 :: I'm buying new clothes.
+w.265.ex.1 :: The clothes are in the wardrobe.
+w.266.ex.0 :: The trousers are too long.
+w.266.ex.1 :: I'm wearing blue trousers.
+w.267.ex.0 :: He is wearing a white shirt.
+w.267.ex.1 :: The shirt is new.
+w.268.ex.0 :: The blouse is very pretty.
+w.268.ex.1 :: I'm looking for a red blouse.
+w.269.ex.0 :: She is wearing a long dress.
+w.269.ex.1 :: The dress costs 60 euros.
+w.270.ex.0 :: The skirt is short.
+w.270.ex.1 :: I'm buying a skirt.
+w.271.ex.0 :: Take a jacket with you!
+w.271.ex.1 :: My jacket is warm.
+w.272.ex.0 :: In winter I wear a coat.
+w.272.ex.1 :: The coat is too big.
+w.273.ex.0 :: The jumper is warm.
+w.273.ex.1 :: I'm wearing a green jumper.
+w.274.ex.0 :: In summer I wear T-shirts.
+w.274.ex.1 :: The T-shirt is white.
+w.275.ex.0 :: I need new shoes.
+w.275.ex.1 :: The shoes are too small.
+w.276.ex.0 :: She wears glasses.
+w.276.ex.1 :: I'm carrying the bag.
+w.277.ex.0 :: I put on a jacket.
+w.277.ex.1 :: Get dressed quickly!
+w.278.ex.0 :: I like the dress.
+w.278.ex.1 :: Do you like the city?
+w.279.ex.0 :: The trousers don't fit me.
+w.279.ex.1 :: Does Monday suit you?
+w.280.ex.0 :: The house has a garden.
+w.280.ex.1 :: I'm going home.
+w.281.ex.0 :: The flat has three rooms.
+w.281.ex.1 :: I'm looking for a new flat.
+w.282.ex.0 :: My room is small.
+w.282.ex.1 :: The room has a big window.
+w.283.ex.0 :: The kitchen is modern.
+w.283.ex.1 :: I cook in the kitchen.
+w.284.ex.0 :: The bathroom is next to the bedroom.
+w.284.ex.1 :: The flat has a bathroom.
+w.285.ex.0 :: Where is the toilet, please?
+w.285.ex.1 :: The toilet is on the left.
+w.286.ex.0 :: There is a bed in the bedroom.
+w.286.ex.1 :: The bedroom is quiet.
+w.287.ex.0 :: We watch TV in the living room.
+w.287.ex.1 :: The living room is bright.
+w.288.ex.0 :: The flat has a balcony.
+w.288.ex.1 :: We have breakfast on the balcony.
+w.289.ex.0 :: The children are playing in the garden.
+w.289.ex.1 :: The garden is very beautiful.
+w.290.ex.0 :: The bike is in the cellar.
+w.290.ex.1 :: The cellar is dark.
+w.291.ex.0 :: The stairs are on the right.
+w.291.ex.1 :: I go up the stairs.
+w.292.ex.0 :: I live on the third floor.
+w.292.ex.1 :: Which floor do you live on?
+w.293.ex.0 :: The building has no lift.
+w.293.ex.1 :: The lift is broken.
+w.294.ex.0 :: Please open the window.
+w.294.ex.1 :: The window is closed.
+w.295.ex.0 :: The door is open.
+w.295.ex.1 :: Please close the door.
+w.296.ex.0 :: The furniture is new.
+w.296.ex.1 :: We're buying furniture.
+w.297.ex.0 :: The book is on the table.
+w.297.ex.1 :: We need a big table.
+w.298.ex.0 :: The chair is comfortable.
+w.298.ex.1 :: We have four chairs.
+w.299.ex.0 :: I'm going to bed.
+w.299.ex.1 :: The bed is too small.
+w.300.ex.0 :: The clothes are in the wardrobe.
+w.300.ex.1 :: The wardrobe is big.
+w.301.ex.0 :: I'm sitting on the sofa.
+w.301.ex.1 :: The sofa is grey.
+w.302.ex.0 :: The lamp is new.
+w.302.ex.1 :: Please switch on the lamp.
+w.303.ex.0 :: The milk is in the fridge.
+w.303.ex.1 :: The fridge is empty.
+w.304.ex.0 :: The cooker is new.
+w.304.ex.1 :: The soup is on the cooker.
+w.305.ex.0 :: The bathroom has a shower.
+w.305.ex.1 :: The shower is broken.
+w.306.ex.0 :: The washing machine is in the bathroom.
+w.306.ex.1 :: The washing machine is broken.
+w.307.ex.0 :: I shower in the morning.
+w.307.ex.1 :: He is taking a shower.
+w.308.ex.0 :: I wash my hands.
+w.308.ex.1 :: She is doing the laundry.
+w.309.ex.0 :: On Saturday I clean the flat.
+w.309.ex.1 :: I brush my teeth.
+w.310.ex.0 :: Please tidy your room!
+w.310.ex.1 :: I've tidied the kitchen.
+w.311.ex.0 :: The rent is 800 euros.
+w.311.ex.1 :: The rent is too high.
+w.312.ex.0 :: We're renting a flat.
+w.312.ex.1 :: I'd like to rent a car.
+w.313.ex.0 :: The landlord is nice.
+w.313.ex.1 :: I'm calling the landlord.
+w.314.ex.0 :: We're moving next week.
+w.314.ex.1 :: I've moved to Berlin.
+w.315.ex.0 :: The heating is broken.
+w.315.ex.1 :: Please turn on the heating.
+w.316.ex.0 :: Please turn off the light.
+w.316.ex.1 :: The light is on.
+w.317.ex.0 :: Where is my key?
+w.317.ex.1 :: I've forgotten the key.
+w.318.ex.0 :: The flat is bright.
+w.318.ex.1 :: I like light colours.
+w.319.ex.0 :: In winter it gets dark early.
+w.319.ex.1 :: The room is dark.
+w.320.ex.0 :: The street is quiet.
+w.320.ex.1 :: Please be quiet!
+w.321.ex.0 :: The music is too loud.
+w.321.ex.1 :: Please speak loudly.
+w.322.ex.0 :: The kitchen is very modern.
+w.322.ex.1 :: The house is modern.
+w.323.ex.0 :: The sofa is comfortable.
+w.323.ex.1 :: The shoes are comfortable.
+w.324.ex.0 :: The station isn't far.
+w.324.ex.1 :: Where is the station?
+w.325.ex.0 :: I'm going by train.
+w.325.ex.1 :: The train is on time.
+w.326.ex.0 :: The train leaves at 8 o'clock.
+w.326.ex.1 :: The train is delayed.
+w.327.ex.0 :: I take the bus to work.
+w.327.ex.1 :: The bus is coming in a moment.
+w.328.ex.0 :: The stop is in front of the house.
+w.328.ex.1 :: I'm waiting at the stop.
+w.329.ex.0 :: I take the underground.
+w.329.ex.1 :: The underground is fast.
+w.330.ex.0 :: The S-Bahn goes to the airport.
+w.330.ex.1 :: I take the S-Bahn.
+w.331.ex.0 :: The tram stops here.
+w.331.ex.1 :: I take the tram.
+w.332.ex.0 :: We're taking a taxi.
+w.332.ex.1 :: The taxi is expensive.
+w.333.ex.0 :: I don't have a car.
+w.333.ex.1 :: The car is new.
+w.334.ex.0 :: I like cycling.
+w.334.ex.1 :: My bike is broken.
+w.335.ex.0 :: The airport is far away.
+w.335.ex.1 :: I'm going to the airport.
+w.336.ex.0 :: The plane lands at ten.
+w.336.ex.1 :: I travel by plane.
+w.337.ex.0 :: We're flying to Istanbul.
+w.337.ex.1 :: I flew to Rome.
+w.338.ex.0 :: I'm going to Berlin.
+w.338.ex.1 :: He drives very fast.
+w.339.ex.0 :: The train leaves at 9 o'clock.
+w.339.ex.1 :: The bus has already left.
+w.340.ex.0 :: When does the train arrive?
+w.340.ex.1 :: I arrived safely.
+w.341.ex.0 :: You have to change in Cologne.
+w.341.ex.1 :: I change at the station.
+w.342.ex.0 :: All aboard, please!
+w.342.ex.1 :: I get on the bus.
+w.343.ex.0 :: I'm getting off here.
+w.343.ex.1 :: Where do I have to get off?
+w.344.ex.0 :: I'm buying a ticket.
+w.344.ex.1 :: The ticket costs three euros.
+w.345.ex.0 :: Do you have a ticket?
+w.345.ex.1 :: I buy the ticket online.
+w.346.ex.0 :: The ticket machine is over there.
+w.346.ex.1 :: The machine is broken.
+w.347.ex.0 :: The train leaves from platform 3.
+w.347.ex.1 :: Which platform?
+w.348.ex.0 :: Departure is at 10 o'clock.
+w.348.ex.1 :: When is the departure?
+w.349.ex.0 :: Arrival is at 12 o'clock.
+w.349.ex.1 :: When do we arrive in Vienna?
+w.350.ex.0 :: The train is 20 minutes late.
+w.350.ex.1 :: Sorry for the delay.

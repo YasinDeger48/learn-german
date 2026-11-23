@@ -1,0 +1,120 @@
+h.0 :: – Excuse me, when does the next bus home leave? – The next bus leaves at 14:20. – At 14:20? Thank you very much!
+h.1 :: – Hello, I'd like a kilo of tomatoes and two cucumbers. – Of course. That's three fifty. – Here you are.
+h.2 :: – Hi Tom, are you coming to the cinema tonight? – Not today, I have to work. But I have time tomorrow. – Okay, tomorrow then!
+h.3 :: – Excuse me, where is the pharmacy? – Go straight on, then take the second street on the left. – Straight on and then left. Thank you very much!
+h.4 :: – Dr Müller's practice, good morning. – Good morning, I need an appointment. Is Thursday possible? – Thursday isn't possible, but Friday at nine is. – Friday at nine is fine.
+h.5 :: – What would you like to drink? Coffee or tea? – No coffee, please. I'll have water. – Okay, one water.
+h.6 :: – What's your phone number? – 0171 345 682. – Thanks, I'll call you.
+h.7 :: – How much is the jacket? – The jacket is 79 euros. Today there's ten percent off. – Great, I'll take it.
+h.8 :: – Where do you live now? – Now I live at Gartenstraße 12, on the third floor. – Oh, that's not far from me.
+h.9 :: – When does the German course start? – The course starts on Monday at half past six. – Half past six in the evening? – Yes, exactly.
+h.10 :: – What did you do at the weekend? – On Saturday I played football, and on Sunday I was at my parents'.
+h.11 :: – I have a headache. Do you have a tablet? – Sorry, no. But the pharmacy is just round the corner.
+h.12 :: – Hello, I'm looking for shoes in size 39. – Women's shoes are on the first floor, right next to the stairs.
+h.13 :: – How do I get to the station? – Take tram number 4. It's only three stops.
+h.14 :: – What are you cooking today? – I'm making pasta with tomato sauce and a salad. – Delicious!
+h.15 :: – What will the weather be like tomorrow? – Rain in the morning, but sun in the afternoon.
+h.16 :: – Hello, I'm Maria. I come from Spain. – Hello Maria, I'm Ali. I'm from Turkey, but I've been living in Cologne for ten years.
+h.17 :: – A ticket to Hamburg, please. Return. – That's 89 euros. Would you like to pay by card? – Yes, by card, please.
+h.18 :: – What time do you get up? – On weekdays at half past five, at the weekend not until nine.
+h.19 :: – What's your hobby? – I like reading, and I swim twice a week.
+h.20 :: Attention on platform 5: the ICE to Munich is 20 minutes late today.
+h.21 :: Dear customers, apples are on offer today: only 1.49 euros a kilo.
+h.22 :: Dear passengers, the train to Cologne leaves today from platform 7, not platform 3.
+h.23 :: Dear customers, our shop closes in ten minutes. Please come to the checkout.
+h.24 :: Little Paul is looking for his mother. He is waiting at the information desk on the ground floor.
+h.25 :: Flight LH 342 to Istanbul: please go to gate B 12 now.
+h.26 :: And now the weather: tomorrow it will be warm, up to 25 degrees. In the evening there will be thunderstorms.
+h.27 :: Attention, passengers on line 8: because of roadworks the tram only runs as far as the main station today.
+h.28 :: In the restaurant on the third floor there is fish with potatoes for 8.90 euros at lunchtime today.
+h.29 :: The swimming pool is closed on Monday. Tuesday to Sunday it is open from 8 am to 8 pm.
+h.30 :: Next stop: Town Hall. Change here for underground line 2.
+h.31 :: Dear guests, breakfast is served in the restaurant today from seven to half past ten.
+h.32 :: Attention: bus number 12 is not running today. Please take bus number 14.
+h.33 :: At Frischmarkt supermarket: this week coffee is only 4.99 euros. The offer is valid until Saturday.
+h.34 :: Hi Peter, it's Anna. Unfortunately I can't come today, I'm ill. Can we meet on Thursday? Please call me. Bye!
+h.35 :: Hello Mrs Kaya. This is Dr Lang's practice. Unfortunately your appointment on Monday at ten isn't possible. Could you come on Tuesday at eleven?
+h.36 :: Hi darling, I'm still at the office. Could you buy bread, milk and cheese, please? I'll be home at seven.
+h.37 :: Hi Elif, it's Murat. The party is on Saturday at eight at my place. My address is Bergstraße 5. Please bring a salad!
+h.38 :: Hello, this is Becker car repairs. Your car is ready. You can pick it up today until 6 pm.
+h.39 :: Hi Lisa, it's Dad. I'm picking you up from school at five today, not at four. Please wait in the library.
+h.40 :: Hello, this is Ms Schmidt from the language school. The course on Wednesday is cancelled. See you on Friday as usual.
+h.41 :: Hi Ayşe, it's Tom. I'm stuck in traffic and will be 30 minutes late. Order a pizza for me already!
+h.42 :: Hello, this is the library. Your book has arrived. You can pick it up from tomorrow. We are open from 10 to 7.
+h.43 :: Hi Sara, it's your neighbour Mr Wagner. I have a parcel for you. I'm at home this evening. Just ring the bell!
+h.44 :: Hi Mehmet, it's Julia. Tomorrow we're meeting in front of the cinema, not at the station. At half past seven. See you tomorrow!
+h.45 :: Hello, this is Hotel Seeblick. Your room is available. A double room with breakfast costs 95 euros a night.
+h.46 :: Hi Max, it's Mum. Grandma's birthday is on Sunday. We're leaving at ten. Please be on time!
+h.47 :: – Excuse me, is this seat free? – I'm afraid not. But there's a free seat at the back by the window.
+h.48 :: – How old is your daughter? – Eight. And my son is already twelve.
+h.49 :: – How much is a coffee? – A coffee is 2.80 euros, with milk 3.20 euros.
+h.50 :: – When is your birthday? – The third of March. And yours? – My birthday is in July.
+h.51 :: – Hello, I'd like a room for two nights. – Single or double? – A single, please.
+h.52 :: – Do you drive to work? – No, I cycle. It's healthy and cheap.
+h.53 :: – I'd like a loaf of bread and six rolls. – Anything else? – No, thank you. That's all.
+h.54 :: – Where do you work? – I work in a hospital. I'm a nurse.
+h.55 :: – Do you have time on Saturday? We're having a barbecue in the garden. – On Saturday I work until three. After that I'd love to come.
+h.56 :: – Excuse me, what time is it? – It's a quarter past eleven.
+h.57 :: – Can I pay by card? – I'm afraid not, cash only. But there's a cash machine opposite.
+h.58 :: – Which languages do you speak? – Turkish, English and a little German. Now I'm learning French too.
+h.59 :: – Where is the toilet, please? – In the basement. Down the stairs, then on the right.
+h.60 :: – Would you like soup or salad? – Salad, please. And then the fish.
+h.61 :: – How many people live in your flat? – There are four of us: my wife, our two children and me.
+h.62 :: – Shall we walk? – No, it's raining. Let's take a taxi.
+h.63 :: – When is the bank open? – Monday to Friday from nine to four. On Thursday until six.
+h.64 :: – My washing machine is broken. – Why don't you call the caretaker? He'll definitely help.
+h.65 :: – What colour is your new car? – Dark blue. The red one was too expensive.
+h.66 :: – How long is the flight to Antalya? – About three hours and twenty minutes.
+h.67 :: – I'm looking for a flat with a balcony. – We have a three-room flat with a balcony for 900 euros including heating.
+h.68 :: – What are you doing tonight? – I'm staying at home and studying for the exam.
+h.69 :: – Excuse me, does this bus go to the airport? – No, take the S-Bahn. The S8 goes straight to the airport.
+h.70 :: – The trousers are too small. Do you have them one size bigger? – Yes, we still have size 34 in black.
+h.71 :: – How was your holiday? – Great! We were in Spain for ten days. The weather was nice every day.
+h.72 :: Dear passengers, because of an accident underground line 3 is not running today. Please use the buses.
+h.73 :: Dear customers, in our bakery every roll costs only 30 cents today.
+h.74 :: The regional express to Frankfurt, scheduled to leave at 10:15, will leave about 15 minutes late today.
+h.75 :: Attention, a message for Mr Schulz: please come to the information desk on the ground floor. Your wife is waiting there.
+h.76 :: The weather: today sunny, up to 30 degrees in the afternoon. Tomorrow rain across the whole country.
+h.77 :: Dear visitors, our museum closes at 4 pm today. Tomorrow we'll be open again from 10 am.
+h.78 :: Flight TK 1524 to Ankara is unfortunately one hour late. The new departure time is 15:40.
+h.79 :: Next stop: Main station. Please exit on the right.
+h.80 :: Dear customers, on offer today: bananas for only 99 cents a kilo. In the fruit section by the entrance.
+h.81 :: Attention on platform 2: please do not board. This train terminates here.
+h.82 :: Welcome to Kaufhaus Zentral. On the second floor all children's shoes are twenty percent cheaper today.
+h.83 :: Dear passengers, we will shortly arrive in Hamburg. You can connect to the ICE to Kiel, departing at 13:05 from platform 8.
+h.84 :: The city library is closed from 24 December to 1 January.
+h.85 :: Attention, drivers: on the A3 between Cologne and Bonn there is an eight-kilometre traffic jam.
+h.86 :: Dear parents, the school summer party is on Friday at 3 pm in the schoolyard. Please bring a cake.
+h.87 :: From today bus number 7 towards the centre runs every ten minutes.
+h.88 :: Ladies and gentlemen, the concert starts at 8 pm, not at 7 pm.
+h.89 :: Today in our canteen there is chicken with rice or vegetable soup. The canteen is open until 2 pm.
+h.90 :: Attention: the lift is out of order today. Please use the stairs.
+h.91 :: Dear customers, our new opening hours from Monday: Monday to Saturday from 8 am to 8 pm.
+h.92 :: Platform 4, please take care as the train arrives. The train to Dresden is now arriving.
+h.93 :: Tomorrow is a public holiday. Buses run as on a Sunday.
+h.94 :: Dear guests, the hotel pool is closed today for cleaning. The sauna is open.
+h.95 :: Attention, passengers to Berlin: please change in Hanover. The train to Berlin is waiting on platform 11.
+h.96 :: Hi Jonas, it's Lena. I have two tickets for the concert on Friday. Would you like to come? The concert starts at eight.
+h.97 :: Hello, this is Mr Klein from the Weber company. I'd like to invite you to a job interview. Please call me back.
+h.98 :: Hi Ben, it's Grandma. On Sunday I'm coming by bus, not by train. I'll be at the bus station at three.
+h.99 :: Hi, it's Karim. I left my key at the office. Are you at home this evening? Please text me.
+h.100 :: Good morning, this is the practice of dentist Dr Wolf. Please don't forget your appointment tomorrow at 8:30.
+h.101 :: Hi Nina, it's Paul. The weather is bad, so we're not going hiking tomorrow. We could go to the swimming pool. What do you think?
+h.102 :: Hello, this is your landlady, Mrs Berger. On Wednesday at ten a tradesman is coming to repair the heating. Please be at home.
+h.103 :: Hi darling, I'm at the supermarket. We're out of eggs, aren't we? Do we need coffee too? Give me a quick call.
+h.104 :: Hello, this is the city library. We still have two of your books outstanding. Please bring them back by Friday.
+h.105 :: Hi Emma, it's your brother. I have a new phone number: 0152 739 041. Bye!
+h.106 :: Hello Mr Demir, this is Ms Koch from the nursery. Your son has a temperature. Could you please pick him up soon?
+h.107 :: Hi, it's Stefan. I'm not coming to football today. My car has broken down. See you next week!
+h.108 :: Hi Lukas, it's Mum. The food is in the fridge. Please heat it up in the microwave. I'll be home at six.
+h.109 :: Hello, this is Sonne travel agency. Your trip to Mallorca is booked. You fly on 14 June at 6 am.
+h.110 :: Hi Tim, it's Sophie. I'm ill and can't come to the course tomorrow. Could you send me the homework, please?
+h.111 :: Hello, this is Pizza Roma delivery. Unfortunately your order will be 20 minutes late. We apologise!
+h.112 :: Hi Aylin, it's Clara. I'm at the café on the market square, sitting outside. Are you coming too?
+h.113 :: Hello, this is the post office. There's a parcel for you. You can pick it up from today at the branch on Bahnhofstraße.
+h.114 :: Hi Grandpa, it's Mia. Thank you for the present! The book is great. I'll visit you at the weekend.
+h.115 :: Hello Mrs Yılmaz, this is the garage. The repair costs only 180 euros, not 300.
+h.116 :: Hi David, it's Anna. The film starts at a quarter to eight. We're meeting in front of the cinema at half past seven.
+h.117 :: Hello, this is Mr Fischer from the second floor. Your window is open and it's raining. You might want to close it.
+h.118 :: Hello, this is Lingua language school. The new A1 course starts on 2 September. The course costs 350 euros.
+h.119 :: Hi Maria, it's Thomas. Tomorrow is my birthday and I'm having a small party. Can you come at seven? Bring your good mood!

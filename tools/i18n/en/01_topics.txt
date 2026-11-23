@@ -1,0 +1,184 @@
+theme.0 :: Greetings and communication
+theme.1 :: People and family
+theme.2 :: Home country and address
+theme.3 :: Numbers, time and calendar
+theme.4 :: Food and drink
+theme.5 :: Shopping and clothes
+theme.6 :: Home and living
+theme.7 :: City, transport and travel
+theme.8 :: Work, school and communication
+theme.9 :: Free time and hobbies
+theme.10 :: Body and health
+theme.11 :: Weather, nature and animals
+theme.12 :: Important verbs
+theme.13 :: Important adjectives
+theme.14 :: Question words and small words
+theme.15 :: Most frequent words (extra list)
+g.1.ex.0 :: I am a teacher.
+g.1.ex.1 :: We have two children.
+g.1.ex.2 :: Are you Mr Weber?
+g.1.name :: Personal pronouns, sein and haben
+g.1.rule :: ich bin / habe · du bist / hast · er-sie-es ist / hat · wir sind / haben · ihr seid / habt · sie-Sie sind / haben. Capital „Sie“ is the polite "you".
+g.2.ex.0 :: I live in Berlin.
+g.2.ex.1 :: He works at Siemens.
+g.2.ex.2 :: What's your name?
+g.2.name :: Regular verbs
+g.2.rule :: Endings: ich -e · du -st · er -t · wir -en · ihr -t · sie/Sie -en. If the stem ends in -t/-d, add -e- (du arbeitest). If it ends in -s/-ß/-z, du only takes -t (du heißt).
+g.3.ex.0 :: Do you speak German?
+g.3.ex.1 :: He is going to Hamburg.
+g.3.ex.2 :: She is reading a book.
+g.3.name :: Verbs with a vowel change
+g.3.rule :: Only du and er/sie/es change: e→i (sprichst, isst, nimmst), e→ie (liest, siehst), a→ä (fährst, schläfst), au→äu (läufst). ich, wir, ihr, sie stay regular.
+g.4.ex.0 :: That is a table. The table is new.
+g.4.ex.1 :: That is not a lamp.
+g.4.ex.2 :: The children are playing.
+g.4.name :: Definite, indefinite and negative articles
+g.4.rule :: der/ein/kein (masculine) · die/eine/keine (feminine) · das/ein/kein (neuter) · die/–/keine (plural). -ung, -heit, -keit, -ion → die · -chen, -lein → das · days, months, seasons → der.
+g.5.ex.0 :: I have two brothers.
+g.5.ex.1 :: The houses are old.
+g.5.ex.2 :: We are buying three apples.
+g.5.name :: Plurals
+g.5.rule :: The plural article is always „die“. Endings: -e, ¨e, -(e)n, -er, ¨er, -s or no change. Most feminine nouns take -(e)n; masculine nouns ending in -er/-el usually don't change.
+g.6.ex.0 :: The man buys an apple.
+g.6.ex.1 :: I don't have a dog.
+g.6.ex.2 :: I see the bus.
+g.6.name :: Subject and object (Akkusativ)
+g.6.rule :: Only the masculine changes: der → den, ein → einen, kein → keinen. These take the Akkusativ: haben, kaufen, brauchen, möchten, sehen, es gibt, für, ohne.
+g.7.ex.0 :: I go by bus.
+g.7.ex.1 :: I'm going to the doctor.
+g.7.ex.2 :: I like the dress.
+g.7.name :: The Dativ case
+g.7.rule :: dem/einem (masculine, neuter) · der/einer (feminine) · den + -n (plural). mit, bei, von, zu, aus, nach, seit, gegenüber always take the Dativ. zu+dem=zum, zu+der=zur, bei+dem=beim, von+dem=vom.
+g.8.ex.0 :: I love you.
+g.8.ex.1 :: Can you help me?
+g.8.ex.2 :: I'll call him tomorrow.
+g.8.name :: Me, you, him … (object pronouns)
+g.8.rule :: Akk: mich, dich, ihn, sie, es, uns, euch, sie/Sie · Dat: mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. helfen, gefallen, gehören, danken, schmecken, passen → Dativ.
+g.9.ex.0 :: This is my brother.
+g.9.ex.1 :: What is your address?
+g.9.ex.2 :: I'm visiting my parents.
+g.9.name :: Possessives: my, your …
+g.9.rule :: mein, dein, sein, ihr, unser, euer, ihr/Ihr. They change like „ein“: mein Bruder, meine Schwester, meinen Bruder (Akk.), meine Eltern.
+g.10.ex.0 :: On Monday I'm going to the doctor.
+g.10.ex.1 :: Where do you live?
+g.10.ex.2 :: Do you have time?
+g.10.name :: The verb is always in position 2
+g.10.rule :: In a statement the conjugated verb is in position 2. If a time or place comes first, the subject follows the verb: Heute lerne ich Deutsch. In yes/no questions the verb comes first. With modal and separable verbs the second part goes to the end.
+g.11.ex.0 :: I don't drink coffee.
+g.11.ex.1 :: He isn't working today.
+g.11.ex.2 :: Yes, I do!
+g.11.name :: Negation
+g.11.rule :: kein negates nouns with ein or without an article (kein Auto, keine Kinder). nicht negates verbs, adjectives, definite nouns, places and times. A "yes" to a negative question is „doch“.
+g.12.ex.0 :: I can cook well.
+g.12.ex.1 :: You have to study today.
+g.12.ex.2 :: You're not allowed to smoke here.
+g.12.name :: Modal verbs
+g.12.rule :: können, müssen, wollen, dürfen, sollen, möchten. The modal verb is in position 2, the main verb goes to the end as an infinitive. ich and er are the same and have no ending: ich kann, er kann.
+g.13.ex.0 :: I'd like to go shopping today.
+g.13.ex.1 :: I called you.
+g.13.ex.2 :: Please get up!
+g.13.name :: Separable verbs
+g.13.rule :: The prefix (an-, auf-, aus-, ein-, mit-, ab-, zu-, fern-) goes to the end of the sentence: Ich stehe um 6 Uhr auf. With modal verbs and in the Perfekt it stays joined: Ich möchte einkaufen. / Ich habe angerufen.
+g.14.ex.0 :: Please come tomorrow!
+g.14.ex.1 :: Please speak slowly.
+g.14.ex.2 :: Call me!
+g.14.name :: The imperative
+g.14.rule :: du: kommst → Komm! (e→i stays: Nimm!, a→ä is dropped: Fahr!) · ihr: Kommt! · Sie: Kommen Sie! „bitte“ makes it polite. sein: Sei! / Seid! / Seien Sie!
+g.15.ex.0 :: I ate pizza.
+g.15.ex.1 :: We went to Cologne.
+g.15.ex.2 :: What did you do yesterday?
+g.15.name :: The spoken past (Perfekt)
+g.15.rule :: haben/sein + Partizip II (at the end). ge-…-t (gemacht), ge-…-en (geschrieben), separable: ein-ge-kauft; -ieren and be-/ver-/er- verbs have no ge-. Movement/change and bleiben → sein.
+g.16.ex.0 :: Yesterday I was ill.
+g.16.ex.1 :: We had no time.
+g.16.ex.2 :: Where were you?
+g.16.name :: The past of sein and haben
+g.16.rule :: war, warst, war, waren, wart, waren · hatte, hattest, hatte, hatten, hattet, hatten. In speech people say „ich war“ rather than „ich bin gewesen“.
+g.17.ex.0 :: The course starts on Monday at 9.
+g.17.ex.1 :: In summer we go to the seaside.
+g.17.ex.2 :: I have been learning German for three months.
+g.17.name :: Prepositions of time
+g.17.rule :: um + clock time · am + day / part of the day / date · im + month / season · in der Nacht / Woche · von … bis · seit (still going on) · vor / nach. Years without a preposition: Ich bin 1998 geboren.
+g.18.ex.0 :: I live in Turkey.
+g.18.ex.1 :: We are going to Turkey.
+g.18.ex.2 :: I'm going to work.
+g.18.name :: Prepositions of place: wo? wohin? woher?
+g.18.rule :: wo? in/an/auf + Dativ (im Park) · wohin? in/an/auf + Akk. (in den Park) · cities/countries: nach Berlin · people/places: zum Arzt, zur Post · bei + person · aus/von = from · zu Hause (at home) ↔ nach Hause (home, direction).
+g.19.ex.0 :: It's half past two.
+g.19.ex.1 :: Today is the first of May.
+g.19.ex.2 :: My birthday is on 12 June.
+g.19.name :: Time and date
+g.19.rule :: Everyday: Viertel nach acht (8:15), halb neun (8:30!), Viertel vor neun (8:45), zehn vor neun (8:50). Official: acht Uhr dreißig. Ordinals: der erste, zweite, dritte, siebte, zwanzigste.
+g.20.ex.0 :: I'm tired, but I'm going to the cinema.
+g.20.ex.1 :: He studies a lot because he has an exam.
+g.20.ex.2 :: I don't drink tea but coffee.
+g.20.name :: Conjunctions and short answers
+g.20.rule :: und, oder, aber, denn, sondern don't change the verb position (position 0). sondern: "but rather", after nicht/kein. "Yes" to a negative question: doch.
+g.21.ex.0 :: I like tea, but I prefer coffee.
+g.21.ex.1 :: Most of all I like eating pizza.
+g.21.ex.2 :: My brother is older than me.
+g.21.name :: Preferences and comparison
+g.21.rule :: gern → lieber → am liebsten · gut → besser → am besten · viel → mehr → am meisten · groß → größer · alt → älter. Comparison with „als“, equality with „so … wie“.
+g.22.ex.0 :: Excuse me, is there a pharmacy here?
+g.22.ex.1 :: I'd like to make an appointment.
+g.22.ex.2 :: Could you repeat that, please?
+g.22.name :: Useful phrases for the exam
+g.22.rule :: Ich möchte … / Ich hätte gern … · Es gibt + Akk. · man + 3rd person singular · Können Sie …? · Wie viel kostet …? · Ich finde … + adjective. When you don't understand: Wie bitte? / Langsamer, bitte.
+mis.0 :: The verb must be in position 2.
+mis.1 :: möchten + Akk.; der Salat → einen.
+mis.2 :: Age: sein + … Jahre alt.
+mis.3 :: Nouns are written with a capital letter.
+mis.4 :: Noun without an article → kein.
+mis.5 :: die Schweiz is a country with an article.
+mis.6 :: The infinitive goes at the end.
+mis.7 :: The verb is in position 2.
+mis.8 :: Going home: nach Hause.
+mis.9 :: Nationality: Türke / Türkin; Türkisch is the language.
+mis.10 :: fahren → gefahren.
+mis.11 :: gehen → with sein.
+mis.12 :: er kann – no ending.
+mis.13 :: In a yes/no question the verb comes first.
+mis.14 :: die Türkei → in der Türkei.
+mis.15 :: der Bus → mit dem Bus.
+mis.16 :: Separable verb: stehe … auf.
+mis.17 :: helfen takes the Dativ.
+mis.18 :: haben + Akk.; der Bruder → einen.
+mis.19 :: For age, add „alt“.
+mis.20 :: Clock time: um.
+mis.21 :: Day: am.
+mis.22 :: die Schwester → meine.
+mis.23 :: der Arzt → zu dem = zum.
+mis.24 :: nicht comes before the word it negates.
+mis.25 :: Question: the verb comes first.
+mis.26 :: Comparison: als.
+mis.27 :: lesen → gelesen.
+mis.28 :: Perfekt: Partizip II (bezahlt).
+mis.29 :: geboren.
+sit.0 :: You see your neighbour in the morning.
+sit.1 :: Your friend is ill.
+sit.2 :: It's your friend's birthday.
+sit.3 :: The meal is starting.
+sit.4 :: Your friend is going on holiday.
+sit.5 :: You stepped on someone's foot.
+sit.6 :: You didn't understand what was said.
+sit.7 :: Someone thanked you.
+sit.8 :: You're saying goodbye to a friend.
+sit.9 :: In class you ask the teacher to speak slowly.
+sit.10 :: You want a loaf of bread at the bakery.
+sit.11 :: You ask for the bill in a restaurant.
+sit.12 :: You ask the price.
+sit.13 :: You ask the time.
+sit.14 :: You ask where the station is.
+sit.15 :: You ask what a word means.
+sit.16 :: You introduce yourself on the phone.
+sit.17 :: You ask the doctor for an appointment.
+sit.18 :: You formally ask how someone is.
+sit.19 :: You ask someone if they can help you.
+sit.20 :: You politely ask someone to open the window.
+sit.21 :: You tell someone you've just met that you're pleased to meet them.
+sit.22 :: You can't accept an invitation.
+sit.23 :: You want to pay by card at the checkout.
+sit.24 :: You ask someone to repeat something.
+sit.25 :: You invite your friend to the cinema.
+sit.26 :: You want to try on trousers in a shop.
+sit.27 :: You ask if the hotel has a free room.

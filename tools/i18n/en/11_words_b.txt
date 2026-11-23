@@ -1,0 +1,700 @@
+w.701 :: carpet, rug
+w.702 :: shelf
+w.703 :: mirror
+w.704 :: cushion, pillow
+w.705 :: armchair
+w.706 :: curtain
+w.707 :: socket
+w.708 :: desk
+w.709 :: washbasin
+w.710 :: bathtub
+w.711 :: towel
+w.712 :: soap
+w.713 :: toothbrush
+w.714 :: shampoo
+w.715 :: rubbish
+w.716 :: bin
+w.717 :: oven; stove
+w.718 :: microwave
+w.719 :: dishwasher
+w.720 :: pot
+w.721 :: pan
+w.722 :: bowl
+w.723 :: mug, cup
+w.724 :: pot, jug
+w.725 :: napkin
+w.726 :: can, tin
+w.727 :: packet
+w.728 :: parcel, package
+w.729 :: box, crate
+w.730 :: alarm clock
+w.731 :: glasses
+w.732 :: umbrella
+w.733 :: wallet, purse
+w.734 :: backpack
+w.735 :: woolly hat
+w.736 :: hat
+w.737 :: scarf
+w.738 :: glove
+w.739 :: belt
+w.740 :: sock
+w.741 :: boot
+w.742 :: suit
+w.743 :: tie
+w.744 :: jewellery
+w.745 :: ring
+w.746 :: necklace; chain
+w.747 :: leather
+w.748 :: cotton
+w.749 :: button
+w.750 :: changing room, cabin
+w.751 :: fashion
+w.752 :: beef
+w.753 :: pork
+w.754 :: lamb
+w.755 :: yoghurt
+w.756 :: honey
+w.757 :: jam
+w.758 :: flour
+w.759 :: oil
+w.760 :: pepper
+w.761 :: cream
+w.762 :: onion
+w.763 :: garlic
+w.764 :: cucumber
+w.765 :: pepper (vegetable)
+w.766 :: carrot
+w.767 :: cabbage
+w.768 :: bean
+w.769 :: strawberry
+w.770 :: cherry
+w.771 :: pear
+w.772 :: grape
+w.773 :: lemon
+w.774 :: melon
+w.775 :: nut
+w.776 :: olive
+w.777 :: mushroom
+w.778 :: sauce
+w.779 :: chips, fries
+w.780 :: pizza
+w.781 :: biscuit, cookie
+w.782 :: ice cream; ice
+w.783 :: dessert
+w.784 :: meal
+w.785 :: dish; court
+w.786 :: lemonade, soft drink
+w.787 :: sparkling water
+w.788 :: alcohol
+w.789 :: butcher's
+w.790 :: canteen
+w.791 :: snack bar
+w.792 :: guest
+w.793 :: tip
+w.794 :: receipt
+w.795 :: till receipt
+w.796 :: special offer
+w.797 :: discount
+w.798 :: credit card
+w.799 :: change, coins
+w.800 :: banknote; certificate
+w.801 :: coin
+w.802 :: bank account
+w.803 :: cash machine, ATM
+w.804 :: opening hours
+w.805 :: advertising
+w.806 :: department store
+w.807 :: bookshop
+w.808 :: chemist's, drugstore
+w.809 :: hairdresser
+w.810 :: dry cleaner's
+w.811 :: petrol station
+w.812 :: workshop, garage
+w.813 :: car park, parking space
+w.814 :: garage
+w.815 :: driving licence
+w.816 :: motorway
+w.817 :: traffic jam
+w.818 :: traffic
+w.819 :: crossroads
+w.820 :: pedestrian
+w.821 :: pavement
+w.822 :: direction
+w.823 :: plan; map
+w.824 :: journey, ride
+w.825 :: timetable
+w.826 :: platform
+w.827 :: counter; switch
+w.828 :: announcement
+w.829 :: connection
+w.830 :: seat
+w.831 :: reservation
+w.832 :: ship
+w.833 :: boat
+w.834 :: port, harbour
+w.835 :: motorbike
+w.836 :: lorry, truck
+w.837 :: driver
+w.838 :: visa
+w.839 :: border
+w.840 :: customs
+w.841 :: travel agency
+w.842 :: guesthouse; pension
+w.843 :: youth hostel
+w.844 :: reception
+w.845 :: double room
+w.846 :: single room
+w.847 :: overnight stay
+w.848 :: sight, attraction
+w.849 :: tourist
+w.850 :: guided tour
+w.851 :: landscape, scenery
+w.852 :: beach
+w.853 :: island
+w.854 :: river
+w.855 :: forest
+w.856 :: field
+w.857 :: meadow
+w.858 :: stone
+w.859 :: earth; soil
+w.860 :: world
+w.861 :: moon
+w.862 :: star
+w.863 :: thunderstorm
+w.864 :: fog
+w.865 :: heat
+w.866 :: cold
+w.867 :: season
+w.868 :: cow
+w.869 :: pig
+w.870 :: chicken, hen
+w.871 :: sheep
+w.872 :: mouse
+w.873 :: rabbit
+w.874 :: plant
+w.875 :: grass
+w.876 :: leaf; sheet
+w.877 :: farm
+w.878 :: environment
+w.879 :: husband
+w.880 :: wife
+w.881 :: marriage
+w.882 :: wedding
+w.883 :: grandson
+w.884 :: granddaughter
+w.885 :: cousin (male)
+w.886 :: cousin (female)
+w.887 :: nephew
+w.888 :: niece
+w.889 :: mother-in-law
+w.890 :: relatives
+w.891 :: adult
+w.892 :: young person, teenager
+w.893 :: youth
+w.894 :: childhood
+w.895 :: person
+w.896 :: lady
+w.897 :: acquaintance
+w.898 :: flatmate
+w.899 :: visit; visitors
+w.900 :: place of birth
+w.901 :: date of birth
+w.902 :: place of residence
+w.903 :: nationality
+w.904 :: religion
+w.905 :: job, position
+w.906 :: workplace
+w.907 :: employer
+w.908 :: employee
+w.909 :: employee, staff member
+w.910 :: position; place
+w.911 :: job application
+w.912 :: CV
+w.913 :: job interview
+w.914 :: contract
+w.915 :: wage
+w.916 :: salary
+w.917 :: tax
+w.918 :: overtime
+w.919 :: shift
+w.920 :: end of the working day
+w.921 :: meeting
+w.922 :: meeting, session
+w.923 :: project
+w.924 :: task; exercise
+w.925 :: problem
+w.926 :: experience
+w.927 :: customer (female)
+w.928 :: business, company
+w.929 :: factory
+w.930 :: company
+w.931 :: department
+w.932 :: tradesman, craftsman
+w.933 :: mechanic
+w.934 :: baker
+w.935 :: police officer
+w.936 :: lawyer
+w.937 :: dentist
+w.938 :: pilot
+w.939 :: farmer
+w.940 :: housewife
+w.941 :: pensioner
+w.942 :: pension
+w.943 :: civil servant
+w.944 :: sales assistant (female)
+w.945 :: journalist
+w.946 :: artist
+w.947 :: singer
+w.948 :: actor
+w.949 :: programmer
+w.950 :: apprentice
+w.951 :: school class
+w.952 :: nursery, kindergarten
+w.953 :: primary school
+w.954 :: grammar school
+w.955 :: school-leaving exam (A levels)
+w.956 :: university studies
+w.957 :: lecture
+w.958 :: semester
+w.959 :: subject
+w.960 :: mathematics
+w.961 :: history; story
+w.962 :: mark, grade
+w.963 :: school report; certificate
+w.964 :: certificate
+w.965 :: library
+w.966 :: board (blackboard)
+w.967 :: rubber, eraser
+w.968 :: pencil
+w.969 :: dictionary
+w.970 :: exercise
+w.971 :: grammar
+w.972 :: pronunciation
+w.973 :: mistake
+w.974 :: meaning
+w.975 :: mother tongue
+w.976 :: foreign language
+w.977 :: idea
+w.978 :: opinion
+w.979 :: reason
+w.980 :: goal
+w.981 :: wish
+w.982 :: hope
+w.983 :: fear
+w.984 :: love
+w.985 :: luck; happiness
+w.986 :: bad luck
+w.987 :: joy
+w.988 :: anger; trouble
+w.989 :: worry
+w.990 :: feeling
+w.991 :: dream
+w.992 :: desire, feeling like
+w.993 :: quiet, peace
+w.994 :: stress
+w.995 :: pain
+w.996 :: cough
+w.997 :: runny nose, head cold
+w.998 :: flu
+w.999 :: illness
+w.1000 :: injury
+w.1001 :: blood
+w.1002 :: heart
+w.1003 :: stomach
+w.1004 :: throat; neck
+w.1005 :: shoulder
+w.1006 :: finger
+w.1007 :: knee
+w.1008 :: face
+w.1009 :: skin
+w.1010 :: toothache
+w.1011 :: ointment
+w.1012 :: injection
+w.1013 :: emergency doctor
+w.1014 :: ambulance
+w.1015 :: A&E, emergency room
+w.1016 :: patient
+w.1017 :: waiting room
+w.1018 :: health insurance
+w.1019 :: health insurance card
+w.1020 :: diet
+w.1021 :: weight
+w.1022 :: chest
+w.1023 :: tongue
+w.1024 :: lip
+w.1025 :: brain
+w.1026 :: sleep
+w.1027 :: thief
+w.1028 :: danger
+w.1029 :: fire
+w.1030 :: fire brigade
+w.1031 :: authority, public office
+w.1032 :: office, authority
+w.1033 :: citizens' office
+w.1034 :: registration
+w.1035 :: application
+w.1036 :: fee
+w.1037 :: queue number
+w.1038 :: residence permit
+w.1039 :: government
+w.1040 :: law
+w.1041 :: politics
+w.1042 :: election
+w.1043 :: state
+w.1044 :: federal state
+w.1045 :: capital city
+w.1046 :: society; company
+w.1047 :: culture
+w.1048 :: tradition
+w.1049 :: Christmas
+w.1050 :: Easter
+w.1051 :: New Year's Eve
+w.1052 :: public holiday
+w.1053 :: war
+w.1054 :: peace
+w.1055 :: future
+w.1056 :: past
+w.1057 :: present
+w.1058 :: to eat out
+w.1059 :: to bake
+w.1060 :: to fry, to roast
+w.1061 :: to cut
+w.1062 :: to try, to taste
+w.1063 :: to try on
+w.1064 :: to take off (clothes); to move out
+w.1065 :: to get changed
+w.1066 :: to pay
+w.1067 :: to spend
+w.1068 :: to save
+w.1069 :: to lend, to borrow
+w.1070 :: to swap
+w.1071 :: to exchange (in a shop)
+w.1072 :: to deliver
+w.1073 :: to pack
+w.1074 :: to lift
+w.1075 :: to pull
+w.1076 :: to push; to press
+w.1077 :: to throw
+w.1078 :: to catch
+w.1079 :: to fall
+w.1080 :: to fall down
+w.1081 :: to jump
+w.1082 :: to run
+w.1083 :: to climb, to rise
+w.1084 :: to climb
+w.1085 :: to sail
+w.1086 :: to jog
+w.1087 :: to train
+w.1088 :: to win
+w.1089 :: to lose
+w.1090 :: to draw
+w.1091 :: to do crafts
+w.1092 :: to tell
+w.1093 :: to report
+w.1094 :: to describe
+w.1095 :: to discuss
+w.1096 :: to have a chat
+w.1097 :: to talk
+w.1098 :: to call, to shout
+w.1099 :: to scream
+w.1100 :: to whisper
+w.1101 :: to greet
+w.1102 :: to welcome
+w.1103 :: to say goodbye
+w.1104 :: to thank
+w.1105 :: to say thank you
+w.1106 :: to apologise
+w.1107 :: to ask (for), to request
+w.1108 :: to recommend
+w.1109 :: to suggest
+w.1110 :: to allow
+w.1111 :: to forbid
+w.1112 :: to promise
+w.1113 :: to lie
+w.1114 :: to answer
+w.1115 :: to translate
+w.1116 :: to pronounce
+w.1117 :: to mean
+w.1118 :: to practise
+w.1119 :: to correct
+w.1120 :: to check, to test
+w.1121 :: to pass (an exam)
+w.1122 :: to teach
+w.1123 :: to teach
+w.1124 :: to remember
+w.1125 :: to be interested
+w.1126 :: to get annoyed
+w.1127 :: to be surprised
+w.1128 :: to feel
+w.1129 :: to hurry
+w.1130 :: to rest
+w.1131 :: to recover, to relax
+w.1132 :: to sit down
+w.1133 :: to meet
+w.1134 :: to register, to sign up
+w.1135 :: to apply
+w.1136 :: to take care of
+w.1137 :: to fall in love
+w.1138 :: to argue
+w.1139 :: to wash (oneself)
+w.1140 :: to comb one's hair
+w.1141 :: to shave
+w.1142 :: to put on make-up
+w.1143 :: to get dressed
+w.1144 :: to wake up
+w.1145 :: to fall asleep
+w.1146 :: to dream
+w.1147 :: to die
+w.1148 :: to grow
+w.1149 :: to marry
+w.1150 :: to separate
+w.1151 :: to introduce
+w.1152 :: to move in
+w.1153 :: to let, to rent out
+w.1154 :: to build
+w.1155 :: to furnish
+w.1156 :: to hang up
+w.1157 :: to hang
+w.1158 :: to put (in); to be stuck
+w.1159 :: to set, to put
+w.1160 :: to lay (the table)
+w.1161 :: to wash up
+w.1162 :: to do the washing-up
+w.1163 :: to vacuum
+w.1164 :: to iron
+w.1165 :: to water (plants)
+w.1166 :: to feed (animals)
+w.1167 :: to switch off (light)
+w.1168 :: to switch on (light)
+w.1169 :: to switch on (device)
+w.1170 :: to switch off (device)
+w.1171 :: to download
+w.1172 :: to print
+w.1173 :: to save (data)
+w.1174 :: to delete
+w.1175 :: to type
+w.1176 :: to click
+w.1177 :: to chat (online)
+w.1178 :: to post (online)
+w.1179 :: to surf (the internet)
+w.1180 :: to click on
+w.1181 :: to print out
+w.1182 :: to look at, to watch
+w.1183 :: to look
+w.1184 :: to look (informal)
+w.1185 :: to observe
+w.1186 :: to notice
+w.1187 :: to recognise
+w.1188 :: to smell
+w.1189 :: to feel
+w.1190 :: to touch
+w.1191 :: to touch, to handle
+w.1192 :: to hold; to stop
+w.1193 :: to stop
+w.1194 :: to stop
+w.1195 :: to turn (left/right)
+w.1196 :: to cross
+w.1197 :: to follow
+w.1198 :: to lead, to guide
+w.1199 :: to reach
+w.1200 :: to miss
+w.1201 :: to book
+w.1202 :: to reserve
+w.1203 :: to stay overnight
+w.1204 :: to land
+w.1205 :: to take off; to start
+w.1206 :: to come back
+w.1207 :: to give back
+w.1208 :: to go away, to leave
+w.1209 :: to set off (on foot)
+w.1210 :: to set off (by vehicle)
+w.1211 :: to drop by
+w.1212 :: to come in
+w.1213 :: to enter
+w.1214 :: to leave
+w.1215 :: to change
+w.1216 :: to change
+w.1217 :: to cancel
+w.1218 :: to postpone
+w.1219 :: to agree on, to arrange
+w.1220 :: to plan
+w.1221 :: to organise
+w.1222 :: to prepare
+w.1223 :: to get ready
+w.1224 :: to take part
+w.1225 :: to join in
+w.1226 :: to register
+w.1227 :: to deregister
+w.1228 :: to resign; to cancel (a contract)
+w.1229 :: to hire; to adjust
+w.1230 :: to lead, to manage
+w.1231 :: to decide
+w.1232 :: to decide (formally)
+w.1233 :: to try
+w.1234 :: to manage, to achieve
+w.1235 :: to succeed
+w.1236 :: to support
+w.1237 :: to rescue
+w.1238 :: to protect
+w.1239 :: to pay attention; to look after
+w.1240 :: to pay attention
+w.1241 :: to warn
+w.1242 :: to steal
+w.1243 :: to injure
+w.1244 :: to bleed
+w.1245 :: to sneeze
+w.1246 :: to cry
+w.1247 :: to smile
+w.1248 :: to hope
+w.1249 :: to fear
+w.1250 :: to miss (someone)
+w.1251 :: to hate
+w.1252 :: to enjoy
+w.1253 :: to kiss
+w.1254 :: to hug
+w.1255 :: to own
+w.1256 :: to contain
+w.1257 :: to be missing
+w.1258 :: to be enough; to pass (hand)
+w.1259 :: to require
+w.1260 :: to receive
+w.1261 :: to send
+w.1262 :: to send (to someone)
+w.1263 :: to send off
+w.1264 :: to ring
+w.1265 :: to knock
+w.1266 :: to listen
+w.1267 :: to write down
+w.1268 :: to make a note
+w.1269 :: to mark
+w.1270 :: to complete
+w.1271 :: to match
+w.1272 :: to compare
+w.1273 :: to count
+w.1274 :: to calculate
+w.1275 :: to measure
+w.1276 :: to weigh
+w.1277 :: to choose
+w.1278 :: to collect
+w.1279 :: to share, to divide
+w.1280 :: to mix
+w.1281 :: to connect
+w.1282 :: to separate
+w.1283 :: to be cold; to freeze
+w.1284 :: to sweat
+w.1285 :: to burn
+w.1286 :: to bloom
+w.1287 :: to work (device)
+w.1288 :: to work out
+w.1289 :: to be valid
+w.1290 :: to look (appear)
+w.1291 :: to sound
+w.1292 :: to fail
+w.1293 :: to congratulate
+w.1294 :: to serve; to operate
+w.1295 :: to transfer (money)
+w.1296 :: to withdraw (money)
+w.1297 :: to inform, to tell
+w.1298 :: to inform
+w.1299 :: to hand in
+w.1300 :: to borrow
+w.1301 :: to use
+w.1302 :: to break
+w.1303 :: to break, to wreck
+w.1304 :: to lock; to finish
+w.1305 :: to steal (informal)
+w.1306 :: to thunder
+w.1307 :: to flash (lightning)
+w.1308 :: to fill up (fuel)
+w.1309 :: to happen
+w.1310 :: to take place
+w.1311 :: to end
+w.1312 :: to carry on
+w.1313 :: to continue
+w.1314 :: to make an effort
+w.1315 :: to get used to
+w.1316 :: to arrange to meet
+w.1317 :: to accompany
+w.1318 :: to experience
+w.1319 :: to discover
+w.1320 :: to visit (sights)
+w.1321 :: to find out
+w.1322 :: to suspect, to guess
+w.1323 :: to doubt
+w.1324 :: to confirm
+w.1325 :: to accept
+w.1326 :: to refuse
+w.1327 :: to accept; to assume
+w.1328 :: to expect
+w.1329 :: to deal with, to get done
+w.1330 :: to report
+w.1331 :: to get in touch
+w.1332 :: to complain
+w.1333 :: to criticise
+w.1334 :: to praise
+w.1335 :: to stroll
+w.1336 :: to bathe; to swim
+w.1337 :: to sunbathe
+w.1338 :: to camp
+w.1339 :: to have a barbecue
+w.1340 :: to knit
+w.1341 :: to sew
+w.1342 :: to let; to have something done
+w.1343 :: to get (informal)
+w.1344 :: to name
+w.1345 :: to form
+w.1346 :: to develop
+w.1347 :: to produce
+w.1348 :: to manufacture
+w.1349 :: to sink, to fall
+w.1350 :: to gain weight; to increase
+w.1351 :: to lose weight; to answer (the phone)
+w.1352 :: to offer
+w.1353 :: to offer
+w.1354 :: strong
+w.1355 :: weak
+w.1356 :: fat; thick
+w.1357 :: thin
+w.1358 :: slim
+w.1359 :: pretty
+w.1360 :: ugly
+w.1361 :: soft
+w.1362 :: hard
+w.1363 :: wet
+w.1364 :: dry
+w.1365 :: cool
+w.1366 :: sour; annoyed
+w.1367 :: bitter
+w.1368 :: salty
+w.1369 :: spicy; sharp
+w.1370 :: raw
+w.1371 :: ripe
+w.1372 :: deep
+w.1373 :: low
+w.1374 :: wide
+w.1375 :: narrow, tight
+w.1376 :: round
+w.1377 :: angular
+w.1378 :: colourful
+w.1379 :: pink
+w.1380 :: purple
+w.1381 :: light blue
+w.1382 :: dark green
+w.1383 :: golden
+w.1384 :: silver
+w.1385 :: old-fashioned
+w.1386 :: famous
+w.1387 :: well-known
+w.1388 :: foreign, strange
+w.1389 :: own
+w.1390 :: private
+w.1391 :: public
+w.1392 :: practical
+w.1393 :: useful
+w.1394 :: necessary
+w.1395 :: necessary, essential
+w.1396 :: clear
+w.1397 :: clear, distinct
+w.1398 :: quiet, softly
+w.1399 :: dangerous
+w.1400 :: careful

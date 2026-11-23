@@ -1,0 +1,169 @@
+text.1.title :: Introducing myself
+text.1.trans :: Hello! My name is Murat and I'm 32 years old. I come from Turkey, from Ankara. I've been living in Hamburg for a year. I'm married and have two children. I'm a mechanic and work in a car repair shop. I speak Turkish, English and a little German. In my free time I like playing football.
+text.2.title :: My family
+text.2.trans :: This is my family. My father's name is Ahmet; he is 60. My mother's name is Ayşe; she is a housewife. I have a brother and a sister. My brother is a teacher and lives in Istanbul. My sister studies medicine in Berlin. At the weekend we often talk on the phone together.
+text.3.title :: My day
+text.3.trans :: Every day I get up at half past six. First I take a shower, then I have breakfast. At eight I take the bus to work. I work in the office from nine to five. In the evening I cook and watch a bit of TV. I go to bed at eleven.
+text.4.title :: My flat
+text.4.trans :: I live in a small flat on the third floor. The flat has two rooms, a kitchen and a bathroom. The living room is bright and has a big balcony. In the bedroom there is a bed and a wardrobe. The rent is 650 euros a month. The flat isn't big, but it's very nice.
+text.5.title :: Breakfast
+text.5.trans :: In the morning I always have breakfast with my family. We eat bread, cheese, olives and eggs. I like drinking black tea with sugar. My children drink milk or orange juice. On Sunday we have lots of time. Then we have a long breakfast and also make pancakes.
+text.6.title :: At the supermarket
+text.6.trans :: Today is Saturday and I'm going to the supermarket. I need apples, tomatoes, rice and milk. Today a kilo of apples costs only 1.99 euros. I also buy a loaf of bread and a bottle of water. I pay by card at the checkout. Altogether it costs 18 euros 40.
+text.7.title :: My weekend
+text.7.trans :: On Saturday I slept for a long time. In the afternoon I went cycling with my girlfriend. We had a picnic in the park. In the evening we went to the cinema. The film was very funny. On Sunday I visited my parents.
+text.8.title :: The weather
+text.8.trans :: In Germany the weather is often different from at home. In spring it is mild, but it rains a lot. In summer the sun shines and sometimes it is very hot. In autumn it is cool and windy. In winter it is cold and sometimes it snows. My favourite month is June, because then it is warm.
+text.9.title :: At the doctor's
+text.9.trans :: I've been ill for two days. I have a headache and a fever. This morning I called the doctor. I got an appointment at ten. The doctor says: "You have the flu." I have to stay at home for three days and drink lots of tea. I get the medicine from the pharmacy.
+text.10.title :: My job
+text.10.trans :: My name is Lena and I'm a sales assistant. I work in a shop in the town centre. I work five days a week, Saturdays too. My work starts at nine. I help the customers and sell trousers, dresses and jackets. My colleagues are very nice. The work is sometimes tiring, but I enjoy it.
+text.11.title :: In the city
+text.11.trans :: I live in Cologne. Cologne is a big city. In the centre there are many shops, cafés and restaurants. The cathedral is very old and very famous. I like taking the tram because it's fast. The station is right next to the cathedral. You can take lovely walks along the Rhine.
+text.12.title :: Holiday by the sea
+text.12.trans :: In August I was on holiday for two weeks. I flew to Antalya with my family. We stayed in a hotel right by the sea. Every day we swam and ate ice cream. The weather was wonderful; it was always sunny. The holiday was very nice, but unfortunately too short.
+text.13.title :: The birthday
+text.13.trans :: Tomorrow is my daughter's birthday. She is turning seven. We're having a small party in the garden. I'm baking a chocolate cake. We're inviting her friends from school. As a present she's getting a bike.
+text.14.title :: My hobbies
+text.14.trans :: I have many hobbies. On Monday and Wednesday I play football in a club. I also like reading, crime novels most of all. I've been learning the guitar for a year. It's difficult but a lot of fun. At the weekend I often listen to music or meet friends.
+text.15.title :: At the restaurant
+text.15.trans :: On Friday my wife and I are going to a restaurant. The restaurant is Italian and very cosy. The waiter brings the menu. I order a pizza and a water. My wife has spaghetti with tomato sauce and a salad. The food is very good. We pay 38 euros and leave two euros as a tip.
+text.16.title :: At the hotel
+text.16.trans :: Mr Becker is travelling to Vienna. He is staying three nights in a hotel in the centre. His room is on the fourth floor and very quiet. Breakfast is from seven to ten. In the evening he asks at reception: "Where is there a good restaurant?" The woman at reception is very friendly and helps him.
+text.17.title :: My pet
+text.17.trans :: I have a dog. His name is Bello. Bello is three years old and very sweet. He is brown and white and has short legs. Every morning and every evening I go for a walk with him. Bello likes playing with other dogs in the park. My cat Mimi doesn't like Bello much.
+text.18.title :: In the German course
+text.18.trans :: I've been learning German for three months. The course is three times a week, from 6 to 8 pm. In my class there are twelve people from eight countries. Our teacher's name is Ms Schmidt. She explains everything very well. We read texts, listen to dialogues and speak a lot. In June I'm taking the A1 exam.
+text.19.title :: By train to Berlin
+text.19.trans :: Next week I'm going to Berlin by train. I've already bought the ticket online. The train leaves Munich at 7:15. The journey takes about four hours. In Berlin I'm visiting my friend Paul. We want to go to a museum together and take lots of photos.
+text.20.title :: My neighbour
+text.20.trans :: My neighbour's name is Mr Wagner. He is 75 and lives alone. He is very nice and often helps me. He often takes in my parcels. Sometimes I do the shopping for him because he can't walk well. On Sundays we drink coffee together.
+gi.0 :: mit + Dativ; der Bus → dem Bus.
+gi.1 :: zu for people and places; der Arzt → zu dem = zum.
+gi.2 :: die Post → zu der = zur.
+gi.3 :: der Supermarkt → von dem = vom.
+gi.4 :: Staying at someone's place: bei + Dativ.
+gi.5 :: mit + Dativ; die Lehrerin → der Lehrerin.
+gi.6 :: Dativ plural: den + -n (den Kindern).
+gi.7 :: A period that is still going on: seit + Dativ.
+gi.8 :: gefallen takes the Dativ: mir.
+gi.9 :: gegenüber + Dativ; der Bahnhof → dem Bahnhof.
+gi.10 :: Coming from a country: aus.
+gi.11 :: das Fahrrad → mit dem Fahrrad.
+gi.12 :: nach + Dativ; der Kurs → dem Kurs.
+gi.13 :: Being at the doctor's: bei dem = beim.
+gi.14 :: helfen takes the Dativ: mir.
+gi.15 :: lieben takes the Akkusativ: dich.
+gi.16 :: sehen + Akk.; er → ihn.
+gi.17 :: Writing to someone: Dativ; sie → ihr.
+gi.18 :: Polite Dativ: Ihnen.
+gi.19 :: besuchen + Akk.: dich.
+gi.20 :: gehören takes the Dativ.
+gi.21 :: To whom? → Dativ; er → ihm.
+gi.22 :: ihr → Akk. euch.
+gi.23 :: schmecken takes the Dativ: dir.
+gi.24 :: verstehen + Akk.; polite: Sie.
+gi.25 :: mit + Dativ; sie (plural) → ihnen.
+gi.26 :: When a time comes first, the verb is in position 2 and the subject follows.
+gi.27 :: Morgen fahre ich … – the verb is in position 2.
+gi.28 :: In a yes/no question the verb comes first.
+gi.29 :: W-question: question word + verb + subject.
+gi.30 :: Time first → verb in position 2.
+gi.31 :: Was bist du von Beruf? – What's your job?
+gi.32 :: After a modal verb the infinitive goes to the end.
+gi.33 :: Place first → verb in position 2: In Köln gibt es …
+gi.34 :: das Auto → kein Auto.
+gi.35 :: Plural → keine.
+gi.36 :: der Kaffee, Akk. → keinen.
+gi.37 :: Negating a verb: nicht.
+gi.38 :: Negating an adjective: nicht.
+gi.39 :: Definite or possessive noun: nicht.
+gi.40 :: "Yes" to a negative question: Doch.
+gi.41 :: Negating a place: nicht.
+gi.42 :: es gibt + Akk.; der Supermarkt → keinen.
+gi.43 :: die Zeit → keine Zeit.
+gi.44 :: I'm not coming → nein (confirms the negative).
+gi.45 :: aufstehen: the prefix goes to the end.
+gi.46 :: einkaufen → Wir kaufen … ein.
+gi.47 :: anrufen → Ich rufe dich an.
+gi.48 :: fernsehen → Er sieht fern.
+gi.49 :: mitkommen → Kommst du mit?
+gi.50 :: abfahren → Der Zug fährt ab.
+gi.51 :: With a modal verb the separable verb stays joined.
+gi.52 :: Perfekt: an-ge-rufen.
+gi.53 :: ankommen → kommt … an.
+gi.54 :: zumachen → Machen Sie zu.
+gi.55 :: du stehst … auf.
+gi.56 :: aufstehen → ist aufgestanden.
+gi.57 :: du kommst → Komm!
+gi.58 :: Sie form: Sprechen Sie!
+gi.59 :: e→i stays: Nimm!
+gi.60 :: a→ä is dropped: Fahr!
+gi.61 :: ihr form: Macht!
+gi.62 :: sein → du: Sei!
+gi.63 :: sein → Sie: Seien Sie!
+gi.64 :: Separable verb: Steh auf!
+gi.65 :: Ruf mich an!
+gi.66 :: e→ie stays: Lies!
+gi.67 :: sein → ihr: Seid!
+gi.68 :: e→i: Hilf!
+gi.69 :: Clock time: um.
+gi.70 :: Day: am.
+gi.71 :: Season: im.
+gi.72 :: Month: im.
+gi.73 :: Part of the day: am Abend.
+gi.74 :: Night: in der Nacht.
+gi.75 :: From … to: von … bis.
+gi.76 :: Still going on: seit.
+gi.77 :: Date: am.
+gi.78 :: Years are said without a preposition.
+gi.79 :: Before the meal: vor dem Essen.
+gi.80 :: After the course: nach dem Kurs.
+gi.81 :: am Wochenende.
+gi.82 :: Season: im Winter.
+gi.83 :: City: nach.
+gi.84 :: Country with an article: in die Türkei.
+gi.85 :: Where? Country with an article: in der Schweiz.
+gi.86 :: Going home: nach Hause.
+gi.87 :: Being at home: zu Hause.
+gi.88 :: wo? in + Dativ: im Park.
+gi.89 :: wohin? in + Akk.: in den Park.
+gi.90 :: wo? auf + Dativ.
+gi.91 :: die Arbeit → zur Arbeit.
+gi.92 :: At someone's place: bei.
+gi.93 :: From a country: aus.
+gi.94 :: der Bahnhof → zum Bahnhof.
+gi.95 :: wohin? in das = ins Kino.
+gi.96 :: Country without an article: in Deutschland.
+gi.97 :: Contrast: aber.
+gi.98 :: Reason: denn.
+gi.99 :: Choice: oder.
+gi.100 :: nicht … sondern.
+gi.101 :: Adding: und.
+gi.102 :: Contrast: aber.
+gi.103 :: Reason: denn.
+gi.104 :: nicht … sondern.
+gi.105 :: kein … sondern.
+gi.106 :: "Yes" to a positive question: Ja.
+gi.107 :: gern → lieber.
+gi.108 :: Most of all: am liebsten.
+gi.109 :: Comparison: als.
+gi.110 :: Equality: so … wie.
+gi.111 :: schnell → schneller.
+gi.112 :: gut → besser.
+gi.113 :: viel → mehr → am meisten.
+gi.114 :: groß → größer.
+gi.115 :: alt → am ältesten.
+gi.116 :: gut → besser.
+gi.117 :: Polite order: Ich hätte gern …
+gi.118 :: es gibt + Akk.: keinen Supermarkt.
+gi.119 :: General subject: man.
+gi.120 :: das Ticket → kostet.
+gi.121 :: Opinion: Ich finde … + adjective.
+gi.122 :: Polite request: Können Sie …?
+gi.123 :: ich möchte + infinitive.
+gi.124 :: Is there …? → Gibt es …?
+gi.125 :: Und dir? – And you?
+gi.126 :: When you don't understand: Wie bitte?
+gi.127 :: Was bedeutet …? – What does … mean?
+gi.128 :: man + 3rd person singular: darf.

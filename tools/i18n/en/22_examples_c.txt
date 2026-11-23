@@ -1,0 +1,700 @@
+w.708.ex.0 :: I work at the desk.
+w.709.ex.0 :: The washbasin is clean.
+w.710.ex.0 :: The child is sitting in the bathtub.
+w.711.ex.0 :: Here is a fresh towel.
+w.712.ex.0 :: Wash your hands with soap.
+w.713.ex.0 :: I need a new toothbrush.
+w.714.ex.0 :: The shampoo smells good.
+w.715.ex.0 :: Can you take the rubbish out, please?
+w.716.ex.0 :: The bin is full.
+w.717.ex.0 :: The cake is in the oven.
+w.718.ex.0 :: I'm heating up the soup in the microwave.
+w.719.ex.0 :: The plates are in the dishwasher.
+w.720.ex.0 :: The pot is on the cooker.
+w.721.ex.0 :: I fry the eggs in the pan.
+w.722.ex.0 :: The salad is in the bowl.
+w.723.ex.0 :: A mug of coffee, please.
+w.724.ex.0 :: The pot of tea is hot.
+w.725.ex.0 :: Do you have a napkin?
+w.726.ex.0 :: I'm buying a tin of tomatoes.
+w.727.ex.0 :: A packet of rice costs two euros.
+w.728.ex.0 :: The postman brings a parcel.
+w.729.ex.0 :: There are apples in the box.
+w.730.ex.0 :: The alarm clock goes off at six.
+w.731.ex.0 :: I can't read without glasses.
+w.732.ex.0 :: Take an umbrella with you!
+w.733.ex.0 :: My wallet is empty.
+w.734.ex.0 :: The backpack is heavy.
+w.735.ex.0 :: In winter I wear a woolly hat.
+w.736.ex.0 :: The hat is smart.
+w.737.ex.0 :: The scarf is warm.
+w.738.ex.0 :: I've forgotten my gloves.
+w.739.ex.0 :: The belt is too long.
+w.740.ex.0 :: I need new socks.
+w.741.ex.0 :: The boots are made of leather.
+w.742.ex.0 :: He is wearing a grey suit.
+w.743.ex.0 :: The tie is blue.
+w.744.ex.0 :: She doesn't wear any jewellery.
+w.745.ex.0 :: The ring is made of gold.
+w.746.ex.0 :: The necklace is a present.
+w.747.ex.0 :: The bag is made of leather.
+w.748.ex.0 :: The T-shirt is made of cotton.
+w.749.ex.0 :: A button is missing from the jacket.
+w.750.ex.0 :: The changing room is at the back.
+w.751.ex.0 :: She is interested in fashion.
+w.752.ex.0 :: Beef is expensive.
+w.753.ex.0 :: I don't eat pork.
+w.754.ex.0 :: Today there's lamb with rice.
+w.755.ex.0 :: I eat yoghurt with honey.
+w.756.ex.0 :: The honey is very sweet.
+w.757.ex.0 :: I eat bread with jam.
+w.758.ex.0 :: I need flour for the cake.
+w.759.ex.0 :: I cook with olive oil.
+w.760.ex.0 :: Please pass me the pepper.
+w.761.ex.0 :: Would you like cream with your cake?
+w.762.ex.0 :: I'm cutting the onion.
+w.763.ex.0 :: The sauce has a lot of garlic.
+w.764.ex.0 :: The cucumber is fresh.
+w.765.ex.0 :: I'm buying a red pepper.
+w.766.ex.0 :: Rabbits like eating carrots.
+w.767.ex.0 :: The cabbage comes from the garden.
+w.768.ex.0 :: Today we're cooking beans.
+w.769.ex.0 :: There are strawberries in June.
+w.770.ex.0 :: The cherries are sweet.
+w.771.ex.0 :: The pear is ripe.
+w.772.ex.0 :: I like eating grapes.
+w.773.ex.0 :: Tea with lemon, please.
+w.774.ex.0 :: In summer we eat melon.
+w.775.ex.0 :: The cake has nuts in it.
+w.776.ex.0 :: I eat olives for breakfast.
+w.777.ex.0 :: The pizza has mushrooms.
+w.778.ex.0 :: The sauce is too spicy.
+w.779.ex.0 :: The children want chips.
+w.780.ex.0 :: We're ordering a pizza.
+w.781.ex.0 :: Would you like a biscuit?
+w.782.ex.0 :: In summer I like eating ice cream.
+w.783.ex.0 :: What's for dessert?
+w.784.ex.0 :: Breakfast is the most important meal.
+w.785.ex.0 :: That's my favourite dish.
+w.786.ex.0 :: A lemonade, please.
+w.787.ex.0 :: I drink sparkling water.
+w.788.ex.0 :: I don't drink alcohol.
+w.789.ex.0 :: I buy meat at the butcher's.
+w.790.ex.0 :: At lunchtime I eat in the canteen.
+w.791.ex.0 :: The snack bar sells doner kebabs.
+w.792.ex.0 :: We have guests today.
+w.793.ex.0 :: We leave a five-euro tip.
+w.794.ex.0 :: Could I have a receipt, please?
+w.795.ex.0 :: I don't need the receipt.
+w.796.ex.0 :: The apples are on special offer.
+w.797.ex.0 :: Is there a student discount?
+w.798.ex.0 :: Can I pay by credit card?
+w.799.ex.0 :: I don't have any change.
+w.800.ex.0 :: I only have a twenty-euro note.
+w.801.ex.0 :: The machine only takes coins.
+w.802.ex.0 :: I'd like to open an account.
+w.803.ex.0 :: Where is the nearest cash machine?
+w.804.ex.0 :: What are the opening hours?
+w.805.ex.0 :: There's a lot of advertising on TV.
+w.806.ex.0 :: The department store sells everything.
+w.807.ex.0 :: I buy the book at the bookshop.
+w.808.ex.0 :: You can get shampoo at the chemist's.
+w.809.ex.0 :: I'm going to the hairdresser tomorrow.
+w.810.ex.0 :: I'm taking the coat to the dry cleaner's.
+w.811.ex.0 :: The petrol station is on the corner.
+w.812.ex.0 :: The car is at the garage.
+w.813.ex.0 :: I can't find a parking space.
+w.814.ex.0 :: The car is in the garage.
+w.815.ex.0 :: Do you have a driving licence?
+w.816.ex.0 :: I drive fast on the motorway.
+w.817.ex.0 :: We're stuck in a traffic jam.
+w.818.ex.0 :: There's a lot of traffic in the morning.
+w.819.ex.0 :: Turn left at the crossroads.
+w.820.ex.0 :: Only pedestrians are allowed here.
+w.821.ex.0 :: The children walk on the pavement.
+w.822.ex.0 :: Which direction is the bus going?
+w.823.ex.0 :: Do you have a city map?
+w.824.ex.0 :: Have a good journey!
+w.825.ex.0 :: The timetable is at the stop.
+w.826.ex.0 :: The train arrives on platform three.
+w.827.ex.0 :: You can get tickets at the counter.
+w.828.ex.0 :: Did you hear the announcement?
+w.829.ex.0 :: I missed my connection.
+w.830.ex.0 :: There are no seats on the train.
+w.831.ex.0 :: I have a reservation.
+w.832.ex.0 :: We're going to Italy by ship.
+w.833.ex.0 :: The boat is small.
+w.834.ex.0 :: The ship is in the harbour.
+w.835.ex.0 :: My brother rides a motorbike.
+w.836.ex.0 :: The lorry is very big.
+w.837.ex.0 :: The driver is waiting.
+w.838.ex.0 :: Do I need a visa?
+w.839.ex.0 :: We're at the border.
+w.840.ex.0 :: We have to wait at customs.
+w.841.ex.0 :: I'm booking the trip at the travel agency.
+w.842.ex.0 :: We're staying in a small guesthouse.
+w.843.ex.0 :: The youth hostel is cheap.
+w.844.ex.0 :: You'll get the key at reception.
+w.845.ex.0 :: We'd like a double room.
+w.846.ex.0 :: A single room costs 60 euros.
+w.847.ex.0 :: One night with breakfast, please.
+w.848.ex.0 :: Berlin has many sights.
+w.849.ex.0 :: Many tourists come in summer.
+w.850.ex.0 :: The guided tour starts at ten.
+w.851.ex.0 :: The scenery is beautiful.
+w.852.ex.0 :: We're lying on the beach.
+w.853.ex.0 :: Mallorca is an island.
+w.854.ex.0 :: The Rhine is a long river.
+w.855.ex.0 :: We go for a walk in the forest.
+w.856.ex.0 :: Wheat grows in the field.
+w.857.ex.0 :: The cows are standing in the meadow.
+w.858.ex.0 :: The house is made of stone.
+w.859.ex.0 :: The soil is wet.
+w.860.ex.0 :: I'd like to see the world.
+w.861.ex.0 :: The moon is shining tonight.
+w.862.ex.0 :: There are many stars in the sky.
+w.863.ex.0 :: There will be a thunderstorm tonight.
+w.864.ex.0 :: There's a lot of fog in the morning.
+w.865.ex.0 :: In this heat I'm staying at home.
+w.866.ex.0 :: I don't like the cold.
+w.867.ex.0 :: Which season do you like?
+w.868.ex.0 :: The cow gives milk.
+w.869.ex.0 :: There are pigs on the farm.
+w.870.ex.0 :: The hen lays eggs.
+w.871.ex.0 :: The sheep are in the meadow.
+w.872.ex.0 :: The cat catches a mouse.
+w.873.ex.0 :: My child has a rabbit.
+w.874.ex.0 :: The plant needs water.
+w.875.ex.0 :: The grass is green.
+w.876.ex.0 :: In autumn the leaves fall.
+w.877.ex.0 :: My aunt lives on a farm.
+w.878.ex.0 :: We have to protect the environment.
+w.879.ex.0 :: Her husband is a doctor.
+w.880.ex.0 :: His wife comes from Poland.
+w.881.ex.0 :: They have a happy marriage.
+w.882.ex.0 :: The wedding is in May.
+w.883.ex.0 :: My grandson is five years old.
+w.884.ex.0 :: The granddaughter visits her grandma.
+w.885.ex.0 :: My cousin lives in Vienna.
+w.886.ex.0 :: My cousin studies law.
+w.887.ex.0 :: My nephew plays football.
+w.888.ex.0 :: It's my niece's birthday today.
+w.889.ex.0 :: My mother-in-law cooks very well.
+w.890.ex.0 :: At the weekend we visit our relatives.
+w.891.ex.0 :: The adult ticket costs ten euros.
+w.892.ex.0 :: Many young people have a phone.
+w.893.ex.0 :: When I was young I did a lot of sport.
+w.894.ex.0 :: I had a happy childhood.
+w.895.ex.0 :: We are four people.
+w.896.ex.0 :: The lady at the counter is very nice.
+w.897.ex.0 :: He is an acquaintance of mine.
+w.898.ex.0 :: My flatmate is cooking today.
+w.899.ex.0 :: Tomorrow we're having visitors.
+w.900.ex.0 :: My place of birth is Izmir.
+w.901.ex.0 :: What is your date of birth?
+w.902.ex.0 :: Please write your place of residence.
+w.903.ex.0 :: What is your nationality?
+w.904.ex.0 :: There are people of all religions here.
+w.905.ex.0 :: I'm looking for a new job.
+w.906.ex.0 :: My workplace is on the second floor.
+w.907.ex.0 :: My employer is very fair.
+w.908.ex.0 :: The employees are getting more money.
+w.909.ex.0 :: The company has 50 employees.
+w.910.ex.0 :: I'm applying for the position.
+w.911.ex.0 :: I'm writing a job application.
+w.912.ex.0 :: Send us your CV.
+w.913.ex.0 :: Tomorrow I have a job interview.
+w.914.ex.0 :: I'm signing the contract.
+w.915.ex.0 :: The wages come at the end of the month.
+w.916.ex.0 :: The salary is good.
+w.917.ex.0 :: We pay a lot of taxes.
+w.918.ex.0 :: This week I'm doing overtime.
+w.919.ex.0 :: Today I'm on the night shift.
+w.920.ex.0 :: I finish work at five.
+w.921.ex.0 :: The meeting lasts an hour.
+w.922.ex.0 :: The boss is in a meeting.
+w.923.ex.0 :: We're working on a new project.
+w.924.ex.0 :: That's a difficult task.
+w.925.ex.0 :: No problem!
+w.926.ex.0 :: I have a lot of experience.
+w.927.ex.0 :: The customer would like to pay.
+w.928.ex.0 :: He works in a small business.
+w.929.ex.0 :: My father works in a factory.
+w.930.ex.0 :: The company is international.
+w.931.ex.0 :: Which department do you work in?
+w.932.ex.0 :: The tradesman is repairing the heating.
+w.933.ex.0 :: The mechanic is repairing the car.
+w.934.ex.0 :: The baker bakes fresh bread.
+w.935.ex.0 :: The police officer helps me.
+w.936.ex.0 :: I need a lawyer.
+w.937.ex.0 :: I have a dentist's appointment.
+w.938.ex.0 :: The pilot is flying to New York.
+w.939.ex.0 :: The farmer has many cows.
+w.940.ex.0 :: My mother is a housewife.
+w.941.ex.0 :: My grandpa is retired.
+w.942.ex.0 :: People retire at 67.
+w.943.ex.0 :: The official checks the passport.
+w.944.ex.0 :: The saleswoman is friendly.
+w.945.ex.0 :: The journalist is writing an article.
+w.946.ex.0 :: The artist is painting a picture.
+w.947.ex.0 :: The singer is very well known.
+w.948.ex.0 :: The actor performs at the theatre.
+w.949.ex.0 :: He works as a programmer.
+w.950.ex.0 :: The apprentice learns a lot.
+w.951.ex.0 :: The class is going on a trip.
+w.952.ex.0 :: My daughter goes to nursery.
+w.953.ex.0 :: My son is at primary school.
+w.954.ex.0 :: She goes to grammar school.
+w.955.ex.0 :: After my A levels I'll go to university.
+w.956.ex.0 :: The degree takes four years.
+w.957.ex.0 :: The lecture starts at eight.
+w.958.ex.0 :: I'm in my third semester.
+w.959.ex.0 :: My favourite subject is maths.
+w.960.ex.0 :: Mathematics is difficult for me.
+w.961.ex.0 :: Grandpa is telling a story.
+w.962.ex.0 :: I got a good mark.
+w.963.ex.0 :: Today we get our school reports.
+w.964.ex.0 :: I need the A1 certificate.
+w.965.ex.0 :: I study in the library.
+w.966.ex.0 :: The teacher writes on the board.
+w.967.ex.0 :: Can I borrow your rubber?
+w.968.ex.0 :: Write in pencil.
+w.969.ex.0 :: I look up the word in the dictionary.
+w.970.ex.0 :: Do the exercise at home.
+w.971.ex.0 :: German grammar isn't easy.
+w.972.ex.0 :: Your pronunciation is very good.
+w.973.ex.0 :: I still make a lot of mistakes.
+w.974.ex.0 :: What is the meaning of this word?
+w.975.ex.0 :: My mother tongue is Turkish.
+w.976.ex.0 :: German is my first foreign language.
+w.977.ex.0 :: That's a good idea!
+w.978.ex.0 :: What's your opinion?
+w.979.ex.0 :: What's the reason?
+w.980.ex.0 :: My goal is the B1 exam.
+w.981.ex.0 :: Do you have a wish?
+w.982.ex.0 :: I have high hopes.
+w.983.ex.0 :: I'm afraid of dogs.
+w.984.ex.0 :: Love is the most important thing.
+w.985.ex.0 :: Good luck in the exam!
+w.986.ex.0 :: What bad luck!
+w.987.ex.0 :: That gives me a lot of joy.
+w.988.ex.0 :: I'm having trouble with the landlord.
+w.989.ex.0 :: Don't worry!
+w.990.ex.0 :: I have a good feeling.
+w.991.ex.0 :: I had a nice dream.
+w.992.ex.0 :: Do you fancy the cinema?
+w.993.ex.0 :: I need some peace and quiet now.
+w.994.ex.0 :: I have a lot of stress at work.
+w.995.ex.0 :: I'm in a lot of pain.
+w.996.ex.0 :: I have a cough.
+w.997.ex.0 :: I have a runny nose.
+w.998.ex.0 :: He has the flu.
+w.999.ex.0 :: The illness isn't dangerous.
+w.1000.ex.0 :: The injury isn't serious.
+w.1001.ex.0 :: The doctor takes a blood sample.
+w.1002.ex.0 :: My heart is beating fast.
+w.1003.ex.0 :: My stomach hurts.
+w.1004.ex.0 :: I have a sore throat.
+w.1005.ex.0 :: My shoulder hurts.
+w.1006.ex.0 :: I've cut my finger.
+w.1007.ex.0 :: My knee hurts.
+w.1008.ex.0 :: Wash your face.
+w.1009.ex.0 :: The sun is bad for your skin.
+w.1010.ex.0 :: I have toothache.
+w.1011.ex.0 :: The ointment helps against pain.
+w.1012.ex.0 :: The doctor gives me an injection.
+w.1013.ex.0 :: Quick, call the emergency doctor!
+w.1014.ex.0 :: The ambulance is coming right away.
+w.1015.ex.0 :: We're going to A&E.
+w.1016.ex.0 :: The patient is waiting in the waiting room.
+w.1017.ex.0 :: Please take a seat in the waiting room.
+w.1018.ex.0 :: Which health insurance are you with?
+w.1019.ex.0 :: Do you have your insurance card with you?
+w.1020.ex.0 :: I'm on a diet.
+w.1021.ex.0 :: What is your weight?
+w.1022.ex.0 :: I have chest pains.
+w.1023.ex.0 :: Please show me your tongue.
+w.1024.ex.0 :: My lips are dry.
+w.1025.ex.0 :: The brain needs sleep.
+w.1026.ex.0 :: I need more sleep.
+w.1027.ex.0 :: The thief stole my bike.
+w.1028.ex.0 :: Warning, danger!
+w.1029.ex.0 :: The fire is very big.
+w.1030.ex.0 :: Call the fire brigade!
+w.1031.ex.0 :: I have to go to the authorities.
+w.1032.ex.0 :: The office is only open until twelve on Friday.
+w.1033.ex.0 :: I register at the citizens' office.
+w.1034.ex.0 :: Registration is on the first floor.
+w.1035.ex.0 :: I'm submitting an application.
+w.1036.ex.0 :: The fee is 30 euros.
+w.1037.ex.0 :: Please take a queue number.
+w.1038.ex.0 :: My residence permit is valid until 2028.
+w.1039.ex.0 :: The government is making a new law.
+w.1040.ex.0 :: That's against the law.
+w.1041.ex.0 :: I'm not interested in politics.
+w.1042.ex.0 :: The election is on Sunday.
+w.1043.ex.0 :: Germany has 16 federal states.
+w.1044.ex.0 :: Bavaria is a federal state.
+w.1045.ex.0 :: Berlin is the capital of Germany.
+w.1046.ex.0 :: Society is getting older.
+w.1047.ex.0 :: I like German culture.
+w.1048.ex.0 :: That's an old tradition.
+w.1049.ex.0 :: At Christmas the family is together.
+w.1050.ex.0 :: At Easter the children have holidays.
+w.1051.ex.0 :: On New Year's Eve we celebrate with friends.
+w.1052.ex.0 :: Tomorrow is a public holiday.
+w.1053.ex.0 :: My grandpa lived through the war.
+w.1054.ex.0 :: We wish for peace.
+w.1055.ex.0 :: In the future I'd like to live in Berlin.
+w.1056.ex.0 :: That's in the past.
+w.1057.ex.0 :: We live in the present.
+w.1058.ex.0 :: Tonight we're eating out.
+w.1059.ex.0 :: I'm baking a cake.
+w.1060.ex.0 :: He is frying meat.
+w.1061.ex.0 :: I'm cutting the bread.
+w.1062.ex.0 :: Try the cake!
+w.1063.ex.0 :: Can I try on the trousers?
+w.1064.ex.0 :: Please take off your shoes.
+w.1065.ex.0 :: I'll quickly get changed.
+w.1066.ex.0 :: We'd like to pay, please.
+w.1067.ex.0 :: I spend a lot of money on books.
+w.1068.ex.0 :: I'm saving for a car.
+w.1069.ex.0 :: Can you lend me your bike?
+w.1070.ex.0 :: Can I swap the trousers?
+w.1071.ex.0 :: I'd like to exchange the shoes.
+w.1072.ex.0 :: We'll deliver the furniture on Monday.
+w.1073.ex.0 :: I'm packing my suitcase.
+w.1074.ex.0 :: I can't lift the suitcase.
+w.1075.ex.0 :: Please pull the door.
+w.1076.ex.0 :: Press the green button.
+w.1077.ex.0 :: Throw the ball!
+w.1078.ex.0 :: The dog catches the ball.
+w.1079.ex.0 :: The glass fell on the floor.
+w.1080.ex.0 :: The child fell over.
+w.1081.ex.0 :: The cat jumps onto the table.
+w.1082.ex.0 :: He runs to the bus.
+w.1083.ex.0 :: We climb the mountain.
+w.1084.ex.0 :: The children climb the tree.
+w.1085.ex.0 :: In summer we sail on the lake.
+w.1086.ex.0 :: I jog every morning.
+w.1087.ex.0 :: We train twice a week.
+w.1088.ex.0 :: Our team won.
+w.1089.ex.0 :: I've lost my key.
+w.1090.ex.0 :: The child is drawing a house.
+w.1091.ex.0 :: We're making a star.
+w.1092.ex.0 :: Tell me, how was the holiday?
+w.1093.ex.0 :: The newspaper reports on the accident.
+w.1094.ex.0 :: Describe the picture.
+w.1095.ex.0 :: We're discussing politics.
+w.1096.ex.0 :: We're chatting about the film.
+w.1097.ex.0 :: We need to talk.
+w.1098.ex.0 :: The mother calls the children.
+w.1099.ex.0 :: Please don't shout like that!
+w.1100.ex.0 :: She whispers something in my ear.
+w.1101.ex.0 :: Say hello to your parents from me!
+w.1102.ex.0 :: The boss welcomes the guests.
+w.1103.ex.0 :: I'll say goodbye now.
+w.1104.ex.0 :: Thank you for your help.
+w.1105.ex.0 :: Thank you for the present.
+w.1106.ex.0 :: He apologises for the mistake.
+w.1107.ex.0 :: I'm asking you for help.
+w.1108.ex.0 :: What do you recommend?
+w.1109.ex.0 :: I suggest we go to the cinema.
+w.1110.ex.0 :: Smoking is not allowed here.
+w.1111.ex.0 :: Parking is forbidden here.
+w.1112.ex.0 :: I promise you.
+w.1113.ex.0 :: He never lies.
+w.1114.ex.0 :: Please answer the questions.
+w.1115.ex.0 :: Can you translate that?
+w.1116.ex.0 :: How do you pronounce that?
+w.1117.ex.0 :: What does that mean?
+w.1118.ex.0 :: I practise German every day.
+w.1119.ex.0 :: The teacher is marking the tests.
+w.1120.ex.0 :: Please check the bill.
+w.1121.ex.0 :: I passed the exam.
+w.1122.ex.0 :: She teaches German at the university.
+w.1123.ex.0 :: He teaches mathematics.
+w.1124.ex.0 :: I remember the holiday.
+w.1125.ex.0 :: I'm interested in art.
+w.1126.ex.0 :: The traffic jam annoys me.
+w.1127.ex.0 :: The weather surprises me.
+w.1128.ex.0 :: I don't feel well.
+w.1129.ex.0 :: Hurry up, the bus is coming!
+w.1130.ex.0 :: On Sunday I rest.
+w.1131.ex.0 :: On holiday I relax.
+w.1132.ex.0 :: Please sit down.
+w.1133.ex.0 :: We're meeting at eight.
+w.1134.ex.0 :: I'm signing up for the course.
+w.1135.ex.0 :: She is applying to a bank.
+w.1136.ex.0 :: I take care of the children.
+w.1137.ex.0 :: He fell in love with her.
+w.1138.ex.0 :: The children often argue.
+w.1139.ex.0 :: I wash in the morning.
+w.1140.ex.0 :: She combs her hair.
+w.1141.ex.0 :: He shaves every morning.
+w.1142.ex.0 :: She puts on make-up before the party.
+w.1143.ex.0 :: Dress warmly!
+w.1144.ex.0 :: I wake up at six o'clock.
+w.1145.ex.0 :: The baby falls asleep quickly.
+w.1146.ex.0 :: I dream of a house by the sea.
+w.1147.ex.0 :: His grandma died last year.
+w.1148.ex.0 :: The children are growing so fast.
+w.1149.ex.0 :: We're getting married in the summer.
+w.1150.ex.0 :: They have separated.
+w.1151.ex.0 :: May I introduce you? This is Anna.
+w.1152.ex.0 :: We're moving in on Monday.
+w.1153.ex.0 :: He is renting out his flat.
+w.1154.ex.0 :: They're building a new house.
+w.1155.ex.0 :: We're furnishing the flat.
+w.1156.ex.0 :: I'm hanging up the picture.
+w.1157.ex.0 :: The picture hangs on the wall.
+w.1158.ex.0 :: The key is in the door.
+w.1159.ex.0 :: I sit the child on the chair.
+w.1160.ex.0 :: Can you lay the table, please?
+w.1161.ex.0 :: Who's washing up today?
+w.1162.ex.0 :: I do the washing-up.
+w.1163.ex.0 :: On Saturday I vacuum.
+w.1164.ex.0 :: I iron my shirts.
+w.1165.ex.0 :: Please water the flowers.
+w.1166.ex.0 :: I feed the cat.
+w.1167.ex.0 :: Please switch off the light.
+w.1168.ex.0 :: Please switch on the light.
+w.1169.ex.0 :: I switch on the TV.
+w.1170.ex.0 :: Please switch off your phone.
+w.1171.ex.0 :: I'm downloading the app.
+w.1172.ex.0 :: Can you print the ticket?
+w.1173.ex.0 :: Don't forget to save the file.
+w.1174.ex.0 :: I'm deleting the old photos.
+w.1175.ex.0 :: She types very fast.
+w.1176.ex.0 :: Click on the link.
+w.1177.ex.0 :: I'm chatting with my friend.
+w.1178.ex.0 :: She posts lots of photos.
+w.1179.ex.0 :: I'm surfing the internet.
+w.1180.ex.0 :: Please click the box.
+w.1181.ex.0 :: I'm printing out the letter.
+w.1182.ex.0 :: We're looking around the city.
+w.1183.ex.0 :: Look, a bird!
+w.1184.ex.0 :: We're watching a film.
+w.1185.ex.0 :: I'm watching the birds.
+w.1186.ex.0 :: Did you notice that?
+w.1187.ex.0 :: I didn't recognise you.
+w.1188.ex.0 :: That smells good!
+w.1189.ex.0 :: I feel the sun.
+w.1190.ex.0 :: Please don't touch!
+w.1191.ex.0 :: Don't touch that, it's hot!
+w.1192.ex.0 :: The bus stops here.
+w.1193.ex.0 :: Please stop here.
+w.1194.ex.0 :: The police stop the car.
+w.1195.ex.0 :: Turn left.
+w.1196.ex.0 :: We cross the street.
+w.1197.ex.0 :: Please follow me.
+w.1198.ex.0 :: The street leads to the station.
+w.1199.ex.0 :: I just caught the train.
+w.1200.ex.0 :: I missed the bus.
+w.1201.ex.0 :: I'm booking a hotel.
+w.1202.ex.0 :: I'd like to reserve a table.
+w.1203.ex.0 :: We're staying the night in a hotel.
+w.1204.ex.0 :: The plane lands at ten.
+w.1205.ex.0 :: The plane takes off on time.
+w.1206.ex.0 :: When are you coming back?
+w.1207.ex.0 :: I'll give you the book back tomorrow.
+w.1208.ex.0 :: Don't go away!
+w.1209.ex.0 :: When are we setting off?
+w.1210.ex.0 :: We're leaving at eight.
+w.1211.ex.0 :: Why don't you drop by tomorrow!
+w.1212.ex.0 :: Please come in!
+w.1213.ex.0 :: No entry!
+w.1214.ex.0 :: He leaves the house at seven.
+w.1215.ex.0 :: Can you change ten euros?
+w.1216.ex.0 :: I'd like to change the appointment.
+w.1217.ex.0 :: I have to cancel the appointment.
+w.1218.ex.0 :: We're postponing the meeting to Friday.
+w.1219.ex.0 :: We arrange an appointment.
+w.1220.ex.0 :: We're planning a trip.
+w.1221.ex.0 :: Who is organising the party?
+w.1222.ex.0 :: I'm preparing the food.
+w.1223.ex.0 :: I'm preparing for the exam.
+w.1224.ex.0 :: I'm taking part in the course.
+w.1225.ex.0 :: Are you joining in?
+w.1226.ex.0 :: I'm registering my child at school.
+w.1227.ex.0 :: I'm withdrawing from the course.
+w.1228.ex.0 :: He quit his job.
+w.1229.ex.0 :: The company is hiring new staff.
+w.1230.ex.0 :: She manages the department.
+w.1231.ex.0 :: I can't decide.
+w.1232.ex.0 :: We've decided to move to Berlin.
+w.1233.ex.0 :: I'll try again.
+w.1234.ex.0 :: You can do it!
+w.1235.ex.0 :: The cake turned out well.
+w.1236.ex.0 :: My parents support me.
+w.1237.ex.0 :: The doctor saved him.
+w.1238.ex.0 :: The jacket protects against rain.
+w.1239.ex.0 :: Look out, the car!
+w.1240.ex.0 :: Mind the step.
+w.1241.ex.0 :: I'm warning you!
+w.1242.ex.0 :: Someone has stolen my phone.
+w.1243.ex.0 :: I've hurt my foot.
+w.1244.ex.0 :: The finger is bleeding.
+w.1245.ex.0 :: Bless you! You sneezed.
+w.1246.ex.0 :: The baby is crying.
+w.1247.ex.0 :: She always smiles.
+w.1248.ex.0 :: I hope you'll come.
+w.1249.ex.0 :: I'm afraid it will rain tomorrow.
+w.1250.ex.0 :: I miss you.
+w.1251.ex.0 :: I hate Mondays.
+w.1252.ex.0 :: We're enjoying the sun.
+w.1253.ex.0 :: He kisses his wife.
+w.1254.ex.0 :: She hugs her mother.
+w.1255.ex.0 :: He owns two cars.
+w.1256.ex.0 :: The price includes breakfast.
+w.1257.ex.0 :: Who is missing today?
+w.1258.ex.0 :: The money isn't enough.
+w.1259.ex.0 :: We need your signature.
+w.1260.ex.0 :: You'll receive the answer by post.
+w.1261.ex.0 :: I'm sending you the photos.
+w.1262.ex.0 :: We'll send you the bill.
+w.1263.ex.0 :: Have you sent the letter?
+w.1264.ex.0 :: The phone is ringing.
+w.1265.ex.0 :: Someone is knocking at the door.
+w.1266.ex.0 :: Please listen to me!
+w.1267.ex.0 :: I'll write down the number.
+w.1268.ex.0 :: Please note the address.
+w.1269.ex.0 :: Mark the correct answer.
+w.1270.ex.0 :: Complete the sentences.
+w.1271.ex.0 :: Match the pictures.
+w.1272.ex.0 :: Compare the prices.
+w.1273.ex.0 :: The child counts to ten.
+w.1274.ex.0 :: I'm working out the costs.
+w.1275.ex.0 :: The doctor takes the temperature.
+w.1276.ex.0 :: The parcel weighs two kilos.
+w.1277.ex.0 :: Pick an ice cream!
+w.1278.ex.0 :: My son collects stamps.
+w.1279.ex.0 :: We share the pizza.
+w.1280.ex.0 :: Mix the flour and sugar.
+w.1281.ex.0 :: I'll put you through to the boss.
+w.1282.ex.0 :: We separate the rubbish.
+w.1283.ex.0 :: I'm cold, close the window.
+w.1284.ex.0 :: I sweat a lot in summer.
+w.1285.ex.0 :: The light is still on.
+w.1286.ex.0 :: In spring the trees blossom.
+w.1287.ex.0 :: The heating isn't working.
+w.1288.ex.0 :: Did everything work out?
+w.1289.ex.0 :: The ticket is valid for one day.
+w.1290.ex.0 :: You look tired.
+w.1291.ex.0 :: That sounds good!
+w.1292.ex.0 :: The plan failed.
+w.1293.ex.0 :: Happy birthday!
+w.1294.ex.0 :: Are you being served?
+w.1295.ex.0 :: I'll transfer the money tomorrow.
+w.1296.ex.0 :: I withdraw money from the machine.
+w.1297.ex.0 :: Please let us know your address.
+w.1298.ex.0 :: We'll inform you by email.
+w.1299.ex.0 :: Please hand in the test.
+w.1300.ex.0 :: I'm borrowing a book.
+w.1301.ex.0 :: Use a ballpoint pen.
+w.1302.ex.0 :: He broke his leg.
+w.1303.ex.0 :: Who broke the vase?
+w.1304.ex.0 :: Did you lock the door?
+w.1305.ex.0 :: My bike was stolen.
+w.1306.ex.0 :: There's thunder and lightning.
+w.1307.ex.0 :: There's lightning outside.
+w.1308.ex.0 :: I still need to get petrol.
+w.1309.ex.0 :: What happened?
+w.1310.ex.0 :: The concert takes place in the park.
+w.1311.ex.0 :: The film ends at ten.
+w.1312.ex.0 :: Keep it up!
+w.1313.ex.0 :: We'll continue the course in January.
+w.1314.ex.0 :: I'm trying very hard.
+w.1315.ex.0 :: I'm getting used to the weather.
+w.1316.ex.0 :: I've arranged to meet Anna.
+w.1317.ex.0 :: I'll walk you to the station.
+w.1318.ex.0 :: We've experienced a lot.
+w.1319.ex.0 :: We're discovering the city.
+w.1320.ex.0 :: We're visiting the castle.
+w.1321.ex.0 :: I found out yesterday.
+w.1322.ex.0 :: I suspect he'll come later.
+w.1323.ex.0 :: I doubt it.
+w.1324.ex.0 :: Please confirm the appointment.
+w.1325.ex.0 :: We don't accept credit cards.
+w.1326.ex.0 :: He turned down the offer.
+w.1327.ex.0 :: I'll take the job.
+w.1328.ex.0 :: We're expecting guests.
+w.1329.ex.0 :: I still have something to do.
+w.1330.ex.0 :: Report the accident to the police.
+w.1331.ex.0 :: Let me know when you're there!
+w.1332.ex.0 :: I'm complaining about the noise.
+w.1333.ex.0 :: He always criticises everything.
+w.1334.ex.0 :: The teacher praises the pupil.
+w.1335.ex.0 :: We stroll through the park.
+w.1336.ex.0 :: The children are swimming in the lake.
+w.1337.ex.0 :: We sunbathe on the beach.
+w.1338.ex.0 :: In summer we go camping.
+w.1339.ex.0 :: At the weekend we have a barbecue.
+w.1340.ex.0 :: Grandma is knitting a jumper.
+w.1341.ex.0 :: My mother is sewing a dress.
+w.1342.ex.0 :: Leave me alone!
+w.1343.ex.0 :: I'm getting a cold.
+w.1344.ex.0 :: We call him Max.
+w.1345.ex.0 :: Make sentences.
+w.1346.ex.0 :: The company is developing a new app.
+w.1347.ex.0 :: The factory produces cars.
+w.1348.ex.0 :: Chocolate is made here.
+w.1349.ex.0 :: Prices are falling.
+w.1350.ex.0 :: I've put on two kilos.
+w.1351.ex.0 :: I'd like to lose five kilos.
+w.1352.ex.0 :: Can I offer you something?
+w.1353.ex.0 :: The city has a lot to offer.
+w.1354.ex.0 :: He is very strong.
+w.1355.ex.0 :: After the flu I'm still weak.
+w.1356.ex.0 :: The book is very thick.
+w.1357.ex.0 :: The wall is very thin.
+w.1358.ex.0 :: She is tall and slim.
+w.1359.ex.0 :: The dress is pretty.
+w.1360.ex.0 :: I think the picture is ugly.
+w.1361.ex.0 :: The bed is nice and soft.
+w.1362.ex.0 :: The bread is hard.
+w.1363.ex.0 :: My shoes are wet.
+w.1364.ex.0 :: The laundry is dry.
+w.1365.ex.0 :: It's cool in the evening.
+w.1366.ex.0 :: The lemon is sour.
+w.1367.ex.0 :: The coffee is bitter.
+w.1368.ex.0 :: The soup is too salty.
+w.1369.ex.0 :: The food is very spicy.
+w.1370.ex.0 :: The meat is still raw.
+w.1371.ex.0 :: The bananas are ripe.
+w.1372.ex.0 :: The lake is very deep.
+w.1373.ex.0 :: The prices are low.
+w.1374.ex.0 :: The street is wide.
+w.1375.ex.0 :: The trousers are too tight.
+w.1376.ex.0 :: The table is round.
+w.1377.ex.0 :: The window is square.
+w.1378.ex.0 :: The flowers are colourful.
+w.1379.ex.0 :: She is wearing a pink dress.
+w.1380.ex.0 :: My favourite colour is purple.
+w.1381.ex.0 :: The shirt is light blue.
+w.1382.ex.0 :: The car is dark green.
+w.1383.ex.0 :: The watch is golden.
+w.1384.ex.0 :: She has a silver phone.
+w.1385.ex.0 :: The coat is old-fashioned.
+w.1386.ex.0 :: He is a famous singer.
+w.1387.ex.0 :: The cathedral is very well known.
+w.1388.ex.0 :: I'm a stranger here.
+w.1389.ex.0 :: I have my own room.
+w.1390.ex.0 :: That's private.
+w.1391.ex.0 :: Public transport is practical.
+w.1392.ex.0 :: The bag is very practical.
+w.1393.ex.0 :: The dictionary is very useful.
+w.1394.ex.0 :: That's not necessary.
+w.1395.ex.0 :: Registration is required.
+w.1396.ex.0 :: All right!
+w.1397.ex.0 :: Please speak clearly.
+w.1398.ex.0 :: Please speak quietly.
+w.1399.ex.0 :: The path is dangerous.
+w.1400.ex.0 :: Drive carefully!
+w.1401.ex.0 :: That's not so bad.
+w.1402.ex.0 :: I'm not feeling fit today.
+w.1403.ex.0 :: Are you awake yet?
+w.1404.ex.0 :: The children are hungry.
+w.1405.ex.0 :: I'm thirsty.
+w.1406.ex.0 :: He has an injured leg.
+w.1407.ex.0 :: She is five months pregnant.
