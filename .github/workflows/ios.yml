@@ -1,13 +1,12 @@
 name: iPhone IPA
+# Manual only: macOS minutes are expensive. TestFlight is the normal way to install;
+# run this only when you need a sideload IPA or a quick compile check.
 on:
-  push:
-    paths:
-      - '.github/workflows/ios.yml'
-      - 'Sources/**'
-      - 'Resources/**'
-      - 'AppIcon.png'
-      - 'Info.plist'
   workflow_dispatch:
+
+concurrency:
+  group: ios-ipa
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -15,6 +14,7 @@ permissions:
 jobs:
   build:
     runs-on: macos-15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - name: Compile and package
