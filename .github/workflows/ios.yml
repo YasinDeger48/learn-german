@@ -1,7 +1,13 @@
 name: iPhone IPA
-# Manual only: macOS minutes are expensive. TestFlight is the normal way to install;
-# run this only when you need a sideload IPA or a quick compile check.
+# Compile check on every push. Free while the repository is public.
+# If the repository becomes private again, remove the "push" trigger: private macOS minutes count 10×.
 on:
+  push:
+    paths:
+      - '.github/workflows/ios.yml'
+      - 'Sources/**'
+      - 'Resources/**'
+      - 'Info.plist'
   workflow_dispatch:
 
 concurrency:
