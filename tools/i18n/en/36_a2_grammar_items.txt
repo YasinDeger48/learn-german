@@ -1,0 +1,584 @@
+a2.gi.0 :: The recipient takes the Dativ: dem Nachbarn.
+a2.gi.1 :: The recipient takes the Dativ: dem Nachbarn.
+a2.gi.2 :: The recipient takes the Dativ: dem Nachbarn.
+a2.gi.3 :: The recipient takes the Dativ: dem Nachbarn.
+a2.gi.4 :: The recipient takes the Dativ: dem Nachbarn.
+a2.gi.5 :: The recipient takes the Dativ: der Kollegin.
+a2.gi.6 :: The recipient takes the Dativ: der Kollegin.
+a2.gi.7 :: The recipient takes the Dativ: der Kollegin.
+a2.gi.8 :: The recipient takes the Dativ: der Kollegin.
+a2.gi.9 :: The recipient takes the Dativ: der Kollegin.
+a2.gi.10 :: The recipient takes the Dativ: dem Kind.
+a2.gi.11 :: The recipient takes the Dativ: dem Kind.
+a2.gi.12 :: The recipient takes the Dativ: dem Kind.
+a2.gi.13 :: The recipient takes the Dativ: dem Kind.
+a2.gi.14 :: The recipient takes the Dativ: dem Kind.
+a2.gi.15 :: The recipient takes the Dativ: dem Kunden.
+a2.gi.16 :: The recipient takes the Dativ: dem Kunden.
+a2.gi.17 :: The recipient takes the Dativ: dem Kunden.
+a2.gi.18 :: The recipient takes the Dativ: dem Kunden.
+a2.gi.19 :: The recipient takes the Dativ: dem Kunden.
+a2.gi.20 :: The recipient takes the Dativ: der Lehrerin.
+a2.gi.21 :: The recipient takes the Dativ: der Lehrerin.
+a2.gi.22 :: The recipient takes the Dativ: der Lehrerin.
+a2.gi.23 :: The recipient takes the Dativ: der Lehrerin.
+a2.gi.24 :: The recipient takes the Dativ: der Lehrerin.
+a2.gi.25 :: The recipient takes the Dativ: dem Team.
+a2.gi.26 :: The recipient takes the Dativ: dem Team.
+a2.gi.27 :: The recipient takes the Dativ: dem Team.
+a2.gi.28 :: The recipient takes the Dativ: dem Team.
+a2.gi.29 :: The recipient takes the Dativ: dem Team.
+a2.gi.30 :: The recipient takes the Dativ: dem Hausmeister.
+a2.gi.31 :: The recipient takes the Dativ: dem Hausmeister.
+a2.gi.32 :: The recipient takes the Dativ: dem Hausmeister.
+a2.gi.33 :: The recipient takes the Dativ: dem Hausmeister.
+a2.gi.34 :: The recipient takes the Dativ: dem Hausmeister.
+a2.gi.35 :: The recipient takes the Dativ: der Ärztin.
+a2.gi.36 :: The recipient takes the Dativ: der Ärztin.
+a2.gi.37 :: The recipient takes the Dativ: der Ärztin.
+a2.gi.38 :: The recipient takes the Dativ: der Ärztin.
+a2.gi.39 :: The recipient takes the Dativ: der Ärztin.
+a2.gi.40 :: The recipient takes the Dativ: dem Mädchen.
+a2.gi.41 :: The recipient takes the Dativ: dem Mädchen.
+a2.gi.42 :: The recipient takes the Dativ: dem Mädchen.
+a2.gi.43 :: The recipient takes the Dativ: dem Mädchen.
+a2.gi.44 :: The recipient takes the Dativ: dem Mädchen.
+a2.gi.45 :: The recipient takes the Dativ: der Besucherin.
+a2.gi.46 :: The recipient takes the Dativ: der Besucherin.
+a2.gi.47 :: The recipient takes the Dativ: der Besucherin.
+a2.gi.48 :: The recipient takes the Dativ: der Besucherin.
+a2.gi.49 :: The recipient takes the Dativ: der Besucherin.
+a2.gi.50 :: Wo? For a position: auf + Dativ.
+a2.gi.51 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.52 :: Wo? For a position: auf + Dativ.
+a2.gi.53 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.54 :: Wo? For a position: auf + Dativ.
+a2.gi.55 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.56 :: Wo? For a position: auf + Dativ.
+a2.gi.57 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.58 :: Wo? For a position: auf + Dativ.
+a2.gi.59 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.60 :: Wo? For a position: auf + Dativ.
+a2.gi.61 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.62 :: Wo? For a position: auf + Dativ.
+a2.gi.63 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.64 :: Wo? For a position: auf + Dativ.
+a2.gi.65 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.66 :: Wo? For a position: auf + Dativ.
+a2.gi.67 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.68 :: Wo? For a position: auf + Dativ.
+a2.gi.69 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.70 :: Wo? For a position: auf + Dativ.
+a2.gi.71 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.72 :: Wo? For a position: auf + Dativ.
+a2.gi.73 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.74 :: Wo? For a position: auf + Dativ.
+a2.gi.75 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.76 :: Wo? For a position: auf + Dativ.
+a2.gi.77 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.78 :: Wo? For a position: auf + Dativ.
+a2.gi.79 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.80 :: Wo? For a position: auf + Dativ.
+a2.gi.81 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.82 :: Wo? For a position: auf + Dativ.
+a2.gi.83 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.84 :: Wo? For a position: auf + Dativ.
+a2.gi.85 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.86 :: Wo? For a position: auf + Dativ.
+a2.gi.87 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.88 :: Wo? For a position: auf + Dativ.
+a2.gi.89 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.90 :: Wo? For a position: auf + Dativ.
+a2.gi.91 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.92 :: Wo? For a position: auf + Dativ.
+a2.gi.93 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.94 :: Wo? For a position: auf + Dativ.
+a2.gi.95 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.96 :: Wo? For a position: auf + Dativ.
+a2.gi.97 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.98 :: Wo? For a position: auf + Dativ.
+a2.gi.99 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.100 :: Wo? For a position: auf + Dativ.
+a2.gi.101 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.102 :: Wo? For a position: auf + Dativ.
+a2.gi.103 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.104 :: Wo? For a position: auf + Dativ.
+a2.gi.105 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.106 :: Wo? For a position: auf + Dativ.
+a2.gi.107 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.108 :: Wo? For a position: auf + Dativ.
+a2.gi.109 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.110 :: Wo? For a position: auf + Dativ.
+a2.gi.111 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.112 :: Wo? For a position: auf + Dativ.
+a2.gi.113 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.114 :: Wo? For a position: auf + Dativ.
+a2.gi.115 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.116 :: Wo? For a position: auf + Dativ.
+a2.gi.117 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.118 :: Wo? For a position: auf + Dativ.
+a2.gi.119 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.120 :: Wo? For a position: auf + Dativ.
+a2.gi.121 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.122 :: Wo? For a position: auf + Dativ.
+a2.gi.123 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.124 :: Wo? For a position: auf + Dativ.
+a2.gi.125 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.126 :: Wo? For a position: auf + Dativ.
+a2.gi.127 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.128 :: Wo? For a position: auf + Dativ.
+a2.gi.129 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.130 :: Wo? For a position: auf + Dativ.
+a2.gi.131 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.132 :: Wo? For a position: auf + Dativ.
+a2.gi.133 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.134 :: Wo? For a position: auf + Dativ.
+a2.gi.135 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.136 :: Wo? For a position: auf + Dativ.
+a2.gi.137 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.138 :: Wo? For a position: auf + Dativ.
+a2.gi.139 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.140 :: Wo? For a position: auf + Dativ.
+a2.gi.141 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.142 :: Wo? For a position: auf + Dativ.
+a2.gi.143 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.144 :: Wo? For a position: auf + Dativ.
+a2.gi.145 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.146 :: Wo? For a position: auf + Dativ.
+a2.gi.147 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.148 :: Wo? For a position: auf + Dativ.
+a2.gi.149 :: Wohin? For a direction: auf + Akkusativ.
+a2.gi.150 :: The Perfekt in this sentence: hat + genommen.
+a2.gi.151 :: The Perfekt in this sentence: hat + genommen.
+a2.gi.152 :: The Perfekt in this sentence: hat + gekauft.
+a2.gi.153 :: The Perfekt in this sentence: hat + gekauft.
+a2.gi.154 :: The Perfekt in this sentence: hat + geöffnet.
+a2.gi.155 :: The Perfekt in this sentence: hat + geöffnet.
+a2.gi.156 :: The Perfekt in this sentence: hat + gelesen.
+a2.gi.157 :: The Perfekt in this sentence: hat + gelesen.
+a2.gi.158 :: The Perfekt in this sentence: hat + angerufen.
+a2.gi.159 :: The Perfekt in this sentence: hat + angerufen.
+a2.gi.160 :: The Perfekt in this sentence: hat + ausgefüllt.
+a2.gi.161 :: The Perfekt in this sentence: hat + ausgefüllt.
+a2.gi.162 :: The Perfekt in this sentence: hat + abgeholt.
+a2.gi.163 :: The Perfekt in this sentence: hat + abgeholt.
+a2.gi.164 :: The Perfekt in this sentence: hat + gewohnt.
+a2.gi.165 :: The Perfekt in this sentence: hat + gewohnt.
+a2.gi.166 :: The Perfekt in this sentence: hat + gearbeitet.
+a2.gi.167 :: The Perfekt in this sentence: hat + gearbeitet.
+a2.gi.168 :: The Perfekt in this sentence: hat + vergessen.
+a2.gi.169 :: The Perfekt in this sentence: hat + vergessen.
+a2.gi.170 :: The Perfekt in this sentence: ist + gefahren.
+a2.gi.171 :: The Perfekt in this sentence: ist + gefahren.
+a2.gi.172 :: The Perfekt in this sentence: ist + gegangen.
+a2.gi.173 :: The Perfekt in this sentence: ist + gegangen.
+a2.gi.174 :: The Perfekt in this sentence: ist + aufgestanden.
+a2.gi.175 :: The Perfekt in this sentence: ist + aufgestanden.
+a2.gi.176 :: The Perfekt in this sentence: ist + eingestiegen.
+a2.gi.177 :: The Perfekt in this sentence: ist + eingestiegen.
+a2.gi.178 :: The Perfekt in this sentence: ist + ausgestiegen.
+a2.gi.179 :: The Perfekt in this sentence: ist + ausgestiegen.
+a2.gi.180 :: The Perfekt in this sentence: ist + geblieben.
+a2.gi.181 :: The Perfekt in this sentence: ist + geblieben.
+a2.gi.182 :: The Perfekt in this sentence: hat + gewartet.
+a2.gi.183 :: The Perfekt in this sentence: hat + gewartet.
+a2.gi.184 :: The Perfekt in this sentence: hat + gezeigt.
+a2.gi.185 :: The Perfekt in this sentence: hat + gezeigt.
+a2.gi.186 :: The Perfekt in this sentence: ist + angekommen.
+a2.gi.187 :: The Perfekt in this sentence: ist + angekommen.
+a2.gi.188 :: The Perfekt in this sentence: ist + umgezogen.
+a2.gi.189 :: The Perfekt in this sentence: ist + umgezogen.
+a2.gi.190 :: The Perfekt in this sentence: ist + gekommen.
+a2.gi.191 :: The Perfekt in this sentence: ist + gekommen.
+a2.gi.192 :: The Perfekt in this sentence: hat + bezahlt.
+a2.gi.193 :: The Perfekt in this sentence: hat + bezahlt.
+a2.gi.194 :: The Perfekt in this sentence: hat + angefangen.
+a2.gi.195 :: The Perfekt in this sentence: hat + angefangen.
+a2.gi.196 :: The Perfekt in this sentence: ist + gelaufen.
+a2.gi.197 :: The Perfekt in this sentence: ist + gelaufen.
+a2.gi.198 :: The Perfekt in this sentence: hat + verschoben.
+a2.gi.199 :: The Perfekt in this sentence: hat + verschoben.
+a2.gi.200 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.201 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.202 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.203 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.204 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.205 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.206 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.207 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.208 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.209 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.210 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.211 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.212 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.213 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.214 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.215 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.216 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.217 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.218 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.219 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.220 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.221 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.222 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.223 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.224 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.225 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.226 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.227 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.228 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.229 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.230 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.231 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.232 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.233 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.234 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.235 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.236 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.237 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.238 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.239 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.240 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.241 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.242 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.243 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.244 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.245 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.246 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.247 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.248 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.249 :: In a weil clause (reason) the conjugated verb goes to the end.
+a2.gi.250 :: aufstehen is separable. In a main clause auf goes to the end.
+a2.gi.251 :: aufstehen is separable. In a main clause auf goes to the end.
+a2.gi.252 :: aufstehen is separable. In a main clause auf goes to the end.
+a2.gi.253 :: aufstehen is separable. In a main clause auf goes to the end.
+a2.gi.254 :: aufstehen is separable. In a main clause auf goes to the end.
+a2.gi.255 :: abfahren is separable. In a main clause ab goes to the end.
+a2.gi.256 :: abfahren is separable. In a main clause ab goes to the end.
+a2.gi.257 :: abfahren is separable. In a main clause ab goes to the end.
+a2.gi.258 :: abfahren is separable. In a main clause ab goes to the end.
+a2.gi.259 :: abfahren is separable. In a main clause ab goes to the end.
+a2.gi.260 :: anrufen is separable. In a main clause an goes to the end.
+a2.gi.261 :: anrufen is separable. In a main clause an goes to the end.
+a2.gi.262 :: anrufen is separable. In a main clause an goes to the end.
+a2.gi.263 :: anrufen is separable. In a main clause an goes to the end.
+a2.gi.264 :: anrufen is separable. In a main clause an goes to the end.
+a2.gi.265 :: einkaufen is separable. In a main clause ein goes to the end.
+a2.gi.266 :: einkaufen is separable. In a main clause ein goes to the end.
+a2.gi.267 :: einkaufen is separable. In a main clause ein goes to the end.
+a2.gi.268 :: einkaufen is separable. In a main clause ein goes to the end.
+a2.gi.269 :: einkaufen is separable. In a main clause ein goes to the end.
+a2.gi.270 :: mitkommen is separable. In a main clause mit goes to the end.
+a2.gi.271 :: mitkommen is separable. In a main clause mit goes to the end.
+a2.gi.272 :: mitkommen is separable. In a main clause mit goes to the end.
+a2.gi.273 :: mitkommen is separable. In a main clause mit goes to the end.
+a2.gi.274 :: mitkommen is separable. In a main clause mit goes to the end.
+a2.gi.275 :: aussteigen is separable. In a main clause aus goes to the end.
+a2.gi.276 :: aussteigen is separable. In a main clause aus goes to the end.
+a2.gi.277 :: aussteigen is separable. In a main clause aus goes to the end.
+a2.gi.278 :: aussteigen is separable. In a main clause aus goes to the end.
+a2.gi.279 :: aussteigen is separable. In a main clause aus goes to the end.
+a2.gi.280 :: zurückkommen is separable. In a main clause zurück goes to the end.
+a2.gi.281 :: zurückkommen is separable. In a main clause zurück goes to the end.
+a2.gi.282 :: zurückkommen is separable. In a main clause zurück goes to the end.
+a2.gi.283 :: zurückkommen is separable. In a main clause zurück goes to the end.
+a2.gi.284 :: zurückkommen is separable. In a main clause zurück goes to the end.
+a2.gi.285 :: zuhören is separable. In a main clause zu goes to the end.
+a2.gi.286 :: zuhören is separable. In a main clause zu goes to the end.
+a2.gi.287 :: zuhören is separable. In a main clause zu goes to the end.
+a2.gi.288 :: zuhören is separable. In a main clause zu goes to the end.
+a2.gi.289 :: zuhören is separable. In a main clause zu goes to the end.
+a2.gi.290 :: vorlesen is separable. In a main clause vor goes to the end.
+a2.gi.291 :: vorlesen is separable. In a main clause vor goes to the end.
+a2.gi.292 :: vorlesen is separable. In a main clause vor goes to the end.
+a2.gi.293 :: vorlesen is separable. In a main clause vor goes to the end.
+a2.gi.294 :: vorlesen is separable. In a main clause vor goes to the end.
+a2.gi.295 :: wegwerfen is separable. In a main clause weg goes to the end.
+a2.gi.296 :: wegwerfen is separable. In a main clause weg goes to the end.
+a2.gi.297 :: wegwerfen is separable. In a main clause weg goes to the end.
+a2.gi.298 :: wegwerfen is separable. In a main clause weg goes to the end.
+a2.gi.299 :: wegwerfen is separable. In a main clause weg goes to the end.
+a2.gi.300 :: sich ausruhen is reflexive. For Ich the pronoun is mich.
+a2.gi.301 :: sich ausruhen is reflexive. For Du the pronoun is dich.
+a2.gi.302 :: sich ausruhen is reflexive. For Er the pronoun is sich.
+a2.gi.303 :: sich ausruhen is reflexive. For Wir the pronoun is uns.
+a2.gi.304 :: sich ausruhen is reflexive. For Ihr the pronoun is euch.
+a2.gi.305 :: sich setzen is reflexive. For Ich the pronoun is mich.
+a2.gi.306 :: sich setzen is reflexive. For Du the pronoun is dich.
+a2.gi.307 :: sich setzen is reflexive. For Er the pronoun is sich.
+a2.gi.308 :: sich setzen is reflexive. For Wir the pronoun is uns.
+a2.gi.309 :: sich setzen is reflexive. For Ihr the pronoun is euch.
+a2.gi.310 :: sich anmelden is reflexive. For Ich the pronoun is mich.
+a2.gi.311 :: sich anmelden is reflexive. For Du the pronoun is dich.
+a2.gi.312 :: sich anmelden is reflexive. For Er the pronoun is sich.
+a2.gi.313 :: sich anmelden is reflexive. For Wir the pronoun is uns.
+a2.gi.314 :: sich anmelden is reflexive. For Ihr the pronoun is euch.
+a2.gi.315 :: sich beeilen is reflexive. For Ich the pronoun is mich.
+a2.gi.316 :: sich beeilen is reflexive. For Du the pronoun is dich.
+a2.gi.317 :: sich beeilen is reflexive. For Er the pronoun is sich.
+a2.gi.318 :: sich beeilen is reflexive. For Wir the pronoun is uns.
+a2.gi.319 :: sich beeilen is reflexive. For Ihr the pronoun is euch.
+a2.gi.320 :: sich anziehen is reflexive. For Ich the pronoun is mich.
+a2.gi.321 :: sich anziehen is reflexive. For Du the pronoun is dich.
+a2.gi.322 :: sich anziehen is reflexive. For Er the pronoun is sich.
+a2.gi.323 :: sich anziehen is reflexive. For Wir the pronoun is uns.
+a2.gi.324 :: sich anziehen is reflexive. For Ihr the pronoun is euch.
+a2.gi.325 :: sich erholen is reflexive. For Ich the pronoun is mich.
+a2.gi.326 :: sich erholen is reflexive. For Du the pronoun is dich.
+a2.gi.327 :: sich erholen is reflexive. For Er the pronoun is sich.
+a2.gi.328 :: sich erholen is reflexive. For Wir the pronoun is uns.
+a2.gi.329 :: sich erholen is reflexive. For Ihr the pronoun is euch.
+a2.gi.330 :: sich entspannen is reflexive. For Ich the pronoun is mich.
+a2.gi.331 :: sich entspannen is reflexive. For Du the pronoun is dich.
+a2.gi.332 :: sich entspannen is reflexive. For Er the pronoun is sich.
+a2.gi.333 :: sich entspannen is reflexive. For Wir the pronoun is uns.
+a2.gi.334 :: sich entspannen is reflexive. For Ihr the pronoun is euch.
+a2.gi.335 :: sich konzentrieren is reflexive. For Ich the pronoun is mich.
+a2.gi.336 :: sich konzentrieren is reflexive. For Du the pronoun is dich.
+a2.gi.337 :: sich konzentrieren is reflexive. For Er the pronoun is sich.
+a2.gi.338 :: sich konzentrieren is reflexive. For Wir the pronoun is uns.
+a2.gi.339 :: sich konzentrieren is reflexive. For Ihr the pronoun is euch.
+a2.gi.340 :: sich verspäten is reflexive. For Ich the pronoun is mich.
+a2.gi.341 :: sich verspäten is reflexive. For Du the pronoun is dich.
+a2.gi.342 :: sich verspäten is reflexive. For Er the pronoun is sich.
+a2.gi.343 :: sich verspäten is reflexive. For Wir the pronoun is uns.
+a2.gi.344 :: sich verspäten is reflexive. For Ihr the pronoun is euch.
+a2.gi.345 :: sich freuen is reflexive. For Ich the pronoun is mich.
+a2.gi.346 :: sich freuen is reflexive. For Du the pronoun is dich.
+a2.gi.347 :: sich freuen is reflexive. For Er the pronoun is sich.
+a2.gi.348 :: sich freuen is reflexive. For Wir the pronoun is uns.
+a2.gi.349 :: sich freuen is reflexive. For Ihr the pronoun is euch.
+a2.gi.350 :: The direct object takes the Akkusativ: den Zug.
+a2.gi.351 :: The direct object takes the Akkusativ: den Zug.
+a2.gi.352 :: The direct object takes the Akkusativ: den Zug.
+a2.gi.353 :: The direct object takes the Akkusativ: den Zug.
+a2.gi.354 :: The direct object of nehmen takes the Akkusativ.
+a2.gi.355 :: The direct object takes the Akkusativ: die Tasche.
+a2.gi.356 :: The direct object takes the Akkusativ: die Tasche.
+a2.gi.357 :: The direct object takes the Akkusativ: die Tasche.
+a2.gi.358 :: The direct object takes the Akkusativ: die Tasche.
+a2.gi.359 :: The direct object takes the Akkusativ: die Tasche.
+a2.gi.360 :: The direct object takes the Akkusativ: das Ticket.
+a2.gi.361 :: The direct object takes the Akkusativ: das Ticket.
+a2.gi.362 :: The direct object takes the Akkusativ: das Ticket.
+a2.gi.363 :: The direct object takes the Akkusativ: das Ticket.
+a2.gi.364 :: The direct object takes the Akkusativ: das Ticket.
+a2.gi.365 :: The direct object takes the Akkusativ: den Schlüssel.
+a2.gi.366 :: The direct object takes the Akkusativ: den Schlüssel.
+a2.gi.367 :: The direct object takes the Akkusativ: den Schlüssel.
+a2.gi.368 :: The direct object takes the Akkusativ: den Schlüssel.
+a2.gi.369 :: The direct object takes the Akkusativ: den Schlüssel.
+a2.gi.370 :: The direct object takes the Akkusativ: die Rechnung.
+a2.gi.371 :: The direct object takes the Akkusativ: die Rechnung.
+a2.gi.372 :: The direct object takes the Akkusativ: die Rechnung.
+a2.gi.373 :: The direct object takes the Akkusativ: die Rechnung.
+a2.gi.374 :: The direct object takes the Akkusativ: die Rechnung.
+a2.gi.375 :: The direct object takes the Akkusativ: das Handy.
+a2.gi.376 :: The direct object takes the Akkusativ: das Handy.
+a2.gi.377 :: The direct object takes the Akkusativ: das Handy.
+a2.gi.378 :: The direct object takes the Akkusativ: das Handy.
+a2.gi.379 :: The direct object takes the Akkusativ: das Handy.
+a2.gi.380 :: The direct object takes the Akkusativ: den Kalender.
+a2.gi.381 :: The direct object takes the Akkusativ: den Kalender.
+a2.gi.382 :: The direct object takes the Akkusativ: den Kalender.
+a2.gi.383 :: The direct object takes the Akkusativ: den Kalender.
+a2.gi.384 :: The direct object takes the Akkusativ: den Kalender.
+a2.gi.385 :: The direct object takes the Akkusativ: die Einladung.
+a2.gi.386 :: The direct object takes the Akkusativ: die Einladung.
+a2.gi.387 :: The direct object takes the Akkusativ: die Einladung.
+a2.gi.388 :: The direct object takes the Akkusativ: die Einladung.
+a2.gi.389 :: The direct object takes the Akkusativ: die Einladung.
+a2.gi.390 :: The direct object takes the Akkusativ: das Formular.
+a2.gi.391 :: The direct object takes the Akkusativ: das Formular.
+a2.gi.392 :: The direct object takes the Akkusativ: das Formular.
+a2.gi.393 :: The direct object takes the Akkusativ: das Formular.
+a2.gi.394 :: The direct object takes the Akkusativ: das Formular.
+a2.gi.395 :: The direct object takes the Akkusativ: den Plan.
+a2.gi.396 :: The direct object takes the Akkusativ: den Plan.
+a2.gi.397 :: The direct object takes the Akkusativ: den Plan.
+a2.gi.398 :: The direct object takes the Akkusativ: den Plan.
+a2.gi.399 :: The direct object takes the Akkusativ: den Plan.
+a2.gi.400 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.401 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.402 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.403 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.404 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.405 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.406 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.407 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.408 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.409 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.410 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.411 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.412 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.413 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.414 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.415 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.416 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.417 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.418 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.419 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.420 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.421 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.422 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.423 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.424 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.425 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.426 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.427 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.428 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.429 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.430 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.431 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.432 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.433 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.434 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.435 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.436 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.437 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.438 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.439 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.440 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.441 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.442 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.443 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.444 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.445 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.446 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.447 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.448 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.449 :: In a dass clause the conjugated verb goes to the end.
+a2.gi.450 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.451 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.452 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.453 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.454 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.455 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.456 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.457 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.458 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.459 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.460 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.461 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.462 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.463 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.464 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.465 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.466 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.467 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.468 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.469 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.470 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.471 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.472 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.473 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.474 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.475 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.476 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.477 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.478 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.479 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.480 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.481 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.482 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.483 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.484 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.485 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.486 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.487 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.488 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.489 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.490 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.491 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.492 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.493 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.494 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.495 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.496 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.497 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.498 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.499 :: müssen agrees with the subject. The main verb goes to the end as an infinitive.
+a2.gi.500 :: The ich form of sein in the past is war.
+a2.gi.501 :: haben with wir becomes hatten.
+a2.gi.502 :: sein with du → warst.
+a2.gi.503 :: Having something with you is expressed with haben here.
+a2.gi.504 :: sein with ihr → wart.
+a2.gi.505 :: With a plural subject use waren.
+a2.gi.506 :: For an obligation: müssen → musste.
+a2.gi.507 :: können with a plural subject becomes konnten.
+a2.gi.508 :: dürfen (permission in the past) with du becomes durftest.
+a2.gi.509 :: For reported advice use wir sollten.
+a2.gi.510 :: For an intention in the past use ich wollte.
+a2.gi.511 :: offen describes a state and is used with sein.
+a2.gi.512 :: haben with ihr → hattet.
+a2.gi.513 :: eine Frage haben becomes eine Frage hatte in the past.
+a2.gi.514 :: In a comparison with als use schneller.
+a2.gi.515 :: kalt becomes kälter in the comparative.
+a2.gi.516 :: In so … wie the adjective stays in its basic form.
+a2.gi.517 :: For the smallest of all (von allen) use am kleinsten.
+a2.gi.518 :: The comparative of gern is lieber.
+a2.gi.519 :: The comparative of viel is mehr.
+a2.gi.520 :: As an adverb the superlative is am längsten.
+a2.gi.521 :: Superlative before a noun with der: der kürzeste Weg.
+a2.gi.522 :: The comparative of gut is besser.
+a2.gi.523 :: After a comparative of difference comes als.
+a2.gi.524 :: einfach → einfacher + als.
+a2.gi.525 :: As a time adverb the superlative is am frühesten.
+a2.gi.526 :: For a difference with als use später.
+a2.gi.527 :: genauso … wie expresses equality.
+a2.gi.528 :: After einen (masculine Akkusativ) the adjective ending is -en.
+a2.gi.529 :: With die + feminine Akkusativ the adjective takes -e.
+a2.gi.530 :: After einem (Dativ) the adjective takes -en.
+a2.gi.531 :: With ein + neuter Nominativ the adjective takes -es.
+a2.gi.532 :: With die + plural Akkusativ the adjective takes -en.
+a2.gi.533 :: With ein + masculine Nominativ the adjective takes -er.
+a2.gi.534 :: Without an article, neuter Akkusativ: the adjective takes -es.
+a2.gi.535 :: After einer (Dativ) the adjective takes -en.
+a2.gi.536 :: With welche + feminine Nominativ the adjective takes -e.
+a2.gi.537 :: With der + masculine Nominativ the adjective takes -e.
+a2.gi.538 :: After den (plural Dativ) the adjective takes -en.
+a2.gi.539 :: After keine (plural Akkusativ) the adjective takes -en.
+a2.gi.540 :: Without an article, masculine Nominativ: the adjective takes -er.
+a2.gi.541 :: Without an article, feminine Akkusativ: the adjective takes -e.
+a2.gi.542 :: For a single event in the past use als.
+a2.gi.543 :: For a future time or a condition use wenn.
+a2.gi.544 :: For repeated events in the past use immer wenn.
+a2.gi.545 :: For a single past event at a known time use als.
+a2.gi.546 :: A condition for today is formed with wenn.
+a2.gi.547 :: als gives the time of that single past event.
+a2.gi.548 :: For a condition in the present use wenn.
+a2.gi.549 :: zum ersten Mal points to a single event that happened.
+a2.gi.550 :: For a condition that has not happened yet use wenn.
+a2.gi.551 :: jedes Mal expresses repetition and is used with wenn.
+a2.gi.552 :: For one-time past events such as a birth use als.
+a2.gi.553 :: The help depends on the condition of sending the address.
+a2.gi.554 :: Yesterday's single power cut is described with als.
+a2.gi.555 :: For a repeated situation use wenn.
+a2.gi.556 :: The du imperative of geben is gib.
+a2.gi.557 :: Several people are addressed with the ihr imperative.
+a2.gi.558 :: The polite imperative is verb + Sie.
+a2.gi.559 :: The du imperative of sein is sei.
+a2.gi.560 :: The ihr imperative of sprechen is sprecht.
+a2.gi.561 :: With mitbringen, mit goes to the end of the sentence.
+a2.gi.562 :: The du imperative of lesen is lies.
+a2.gi.563 :: The ihr imperative of werfen is werft.
+a2.gi.564 :: In formal address use gehen Sie.
+a2.gi.565 :: abstellen with du becomes stell … ab.
+a2.gi.566 :: The ihr imperative of sein is seid.
+a2.gi.567 :: In the polite imperative use setzen Sie sich.
+a2.gi.568 :: The du imperative of essen is iss.
+a2.gi.569 :: The ihr imperative of waschen is wascht.
+a2.gi.570 :: After versuchen use zu + infinitive.
+a2.gi.571 :: With a separable verb, zu goes between the prefix and the stem.
+a2.gi.572 :: After es ist einfach the action is expressed with zu + infinitive.
+a2.gi.573 :: In aufstehen, zu goes between auf and stehen.
+a2.gi.574 :: absagen is separable. The correct form is abzusagen.
+a2.gi.575 :: After Lust haben you can use zu + infinitive.
+a2.gi.576 :: hoffen + zu works when the subject is the same for both actions.
+a2.gi.577 :: In the separable verb einpacken, zu goes in the middle.
+a2.gi.578 :: beschließen + zu names the action that was decided.
+a2.gi.579 :: aussprechen is separable. zu goes between aus and sprechen.
+a2.gi.580 :: The zu form of anrufen is anzurufen.
+a2.gi.581 :: bitten + zu expresses asking someone to do something.
+a2.gi.582 :: Here lernen + zu names the action being learned.
+a2.gi.583 :: vorbeikommen is separable. The correct form is vorbeizukommen.
