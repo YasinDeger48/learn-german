@@ -9,6 +9,7 @@ Sources (checked batches only):
 """
 import glob
 import json
+import re
 import os
 import sys
 
@@ -81,19 +82,43 @@ def main():
             wid += 1
 
     grammar, items, ids = [], [], {}
+    seen_items = set()
     gpath = os.path.join(src, 'grammar.txt')
     for line in open(gpath, encoding='utf-8'):
         if not line.strip():
             continue
         topic, q, answer, wrong, why, q_tr = [p.strip() for p in line.rstrip('\n').split('|')]
+        # Some sentences came wrapped in a frame ("Im Chat steht: „…“"): keep only the sentence itself.
+        m = re.match(r'^.{3,60}?: „(.*)“$', q)
+        if m:
+            q = m.group(1)
+            mt = re.match(r'^.{3,60}?: [“"](.*)[”"]$', q_tr)
+            q_tr = mt.group(1) if mt else q_tr
+        if (q, answer) in seen_items:
+            continue
+        seen_items.add((q, answer))
         if topic not in ids:
             ids[topic] = len(ids) + 1
             name, rule = TOPICS.get(topic, (topic, ''))
             grammar.append({'id': ids[topic], 'de': topic, 'tr': name, 'rule': rule, 'examples': []})
-        g = grammar[ids[topic] - 1]
-        if len(g['examples']) < 3:
-            g['examples'].append(f"{q.replace('___', answer)} – {q_tr}")
-        items.append({'topic': ids[topic], 'q': q, 'options': [answer] + wrong.split(';'), 'why': f'{why} {q_tr}'})
+        items.append({'topic': ids[topic], 'q': q, 'options': [answer] + wrong.split(';'), 'why': f'{why} {q_tr}', 'tr': q_tr})
+
+    # Three examples per topic, spread over the topic and from different sentence frames.
+    for g in grammar:
+        mine = [it for it in items if it['topic'] == g['id']]
+        picked, frames = [], set()
+        for idx in [0, len(mine) // 3, 2 * len(mine) // 3] + list(range(len(mine))):
+            it = mine[idx]
+            frame = ' '.join(it['q'].split()[:2])
+            if frame in frames or it in picked:
+                continue
+            frames.add(frame)
+            picked.append(it)
+            if len(picked) == 3:
+                break
+        g['examples'] = [f"{it['q'].replace('___', it['options'][0])} – {it['tr']}" for it in picked]
+        for it in mine:
+            del it['tr']
 
     raw = {'themes': THEMES, 'words': words, 'texts': [], 'hoeren': [], 'grammar': grammar,
            'grammarItems': items, 'mistakes': [], 'situations': []}

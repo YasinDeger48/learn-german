@@ -1,0 +1,81 @@
+a2.theme.0 :: Nouns
+a2.theme.1 :: Verbs
+a2.theme.2 :: Adjectives and small words
+a2.g.1.name :: Dativ (indirect object)
+a2.g.1.rule :: der/das → dem, die → der, plural → den + -n. It answers "to whom?": Ich gebe dem Kind ein Buch. Dativ prepositions: mit, bei, von, zu, aus, nach, seit. Dativ verbs: helfen, danken, gefallen, gehören, schmecken.
+a2.g.1.ex.0 :: I'm showing the neighbour the plan.
+a2.g.1.ex.1 :: I'm giving the customer a pen.
+a2.g.1.ex.2 :: I'm bringing the caretaker a glass of water.
+a2.g.2.name :: Two-way prepositions: where? (Dativ)
+a2.g.2.rule :: in, an, auf, unter, über, vor, hinter, neben, zwischen. For a position (wo?) they take the Dativ: Das Buch liegt auf dem Tisch. Verbs: liegen, stehen, sitzen, hängen.
+a2.g.2.ex.0 :: The book is on the table.
+a2.g.2.ex.1 :: The phone is on the cupboard.
+a2.g.2.ex.2 :: The exercise book is on the bedside table.
+a2.g.3.name :: Two-way prepositions: where to? (Akkusativ)
+a2.g.3.rule :: The same prepositions take the Akkusativ for a direction (wohin?): Ich lege das Buch auf den Tisch. Verbs: legen, stellen, setzen, hängen.
+a2.g.3.ex.0 :: I put the book on the table.
+a2.g.3.ex.1 :: I put the glass on the table.
+a2.g.4.name :: Perfekt (spoken past)
+a2.g.4.rule :: haben/sein + Partizip II (at the end). ge-…-t: gemacht · ge-…-en: gefahren · separable: eingekauft · -ieren: telefoniert. Verbs of movement or change, bleiben and passieren → sein.
+a2.g.4.ex.0 :: Mina took the bus yesterday.
+a2.g.4.ex.1 :: Emre waited at the counter yesterday.
+a2.g.5.name :: Subordinate clause: weil (because)
+a2.g.5.rule :: weil starts a subordinate clause and sends the conjugated verb to the end: Ich bleibe zu Hause, weil ich krank bin. Unlike denn, where the verb stays in position 2.
+a2.g.5.ex.0 :: I'm staying at home today because I'm ill.
+a2.g.5.ex.1 :: On Monday we open the window because the room is warm.
+a2.g.5.ex.2 :: Tomorrow I'm buying bread because we have no bread left.
+a2.g.6.name :: Separable verbs
+a2.g.6.rule :: In a main clause the prefix goes to the end: Ich rufe dich an. In a subordinate clause it stays joined at the end: …, weil ich dich anrufe. Perfekt: an-ge-rufen. With a modal verb: Ich muss dich anrufen.
+a2.g.6.ex.0 :: I get up at seven o'clock.
+a2.g.6.ex.1 :: You go shopping at the market.
+a2.g.6.ex.2 :: We're coming back on Monday.
+a2.g.7.name :: Reflexive pronouns
+a2.g.7.rule :: mich, dich, sich, uns, euch, sich: Ich freue mich. Du ärgerst dich. With a direct object they take the Dativ: Ich wasche mir die Hände.
+a2.g.7.ex.0 :: I rest after the meal.
+a2.g.7.ex.1 :: You hurry in the morning.
+a2.g.7.ex.2 :: We relax on the balcony.
+a2.g.8.name :: Akkusativ (direct object)
+a2.g.8.rule :: der → den, ein → einen, kein → keinen, mein → meinen. die, das and the plural stay the same. Verbs with the Akkusativ: haben, brauchen, kaufen, sehen, besuchen, finden; prepositions: für, ohne, durch, gegen, um.
+a2.g.8.ex.0 :: I'm looking for the train.
+a2.g.8.ex.1 :: I can see the key.
+a2.g.8.ex.2 :: I'm taking a photo of the calendar.
+a2.g.9.name :: Subordinate clause: dass (that)
+a2.g.9.rule :: Ich weiß, dass … / Ich glaube, dass … / Es ist wichtig, dass … The conjugated verb goes to the end: Ich hoffe, dass du morgen kommst.
+a2.g.9.ex.0 :: I know that the shop is open longer today.
+a2.g.9.ex.1 :: She says that there are no lessons today.
+a2.g.9.ex.2 :: We hear that the colleague is working from home today.
+a2.g.10.name :: Modal verbs: müssen, nicht müssen
+a2.g.10.rule :: müssen = must, have to; nicht müssen = don't have to (nicht dürfen = must not). ich muss, du musst, er muss. The main verb goes to the end as an infinitive.
+a2.g.10.ex.0 :: I have to bring my ID today.
+a2.g.10.ex.1 :: You have to take your jacket today.
+a2.g.10.ex.2 :: We have to take a break today.
+a2.g.11.name :: Präteritum: war, hatte, modal verbs
+a2.g.11.rule :: sein → war, haben → hatte, können → konnte, müssen → musste, wollen → wollte, dürfen → durfte. ich and er are the same: ich war, er war. In speech these verbs use the Präteritum instead of the Perfekt.
+a2.g.11.ex.0 :: I was ill yesterday.
+a2.g.11.ex.1 :: You were already on the train.
+a2.g.11.ex.2 :: The doctor told us we should drink more water.
+a2.g.12.name :: Comparative and superlative
+a2.g.12.rule :: Comparative: -er (+ als): schneller als. Superlative: am …sten / der …ste: am schnellsten. Irregular: gut – besser – am besten, viel – mehr – am meisten, gern – lieber – am liebsten. One syllable: alt → älter.
+a2.g.12.ex.0 :: Mina runs faster than her brother.
+a2.g.12.ex.1 :: I prefer tea to coffee.
+a2.g.12.ex.2 :: My flat is closer to the park than yours.
+a2.g.13.name :: Adjective endings
+a2.g.13.rule :: After der/die/das: -e (der neue Mantel); masculine Akkusativ, Dativ and plural: -en. After ein the adjective shows the gender: ein neuer Mantel, ein neues Auto, eine neue Jacke.
+a2.g.13.ex.0 :: I'm buying a warm coat.
+a2.g.13.ex.1 :: We're washing the dirty glasses.
+a2.g.13.ex.2 :: The heavy suitcase is in the hallway.
+a2.g.14.name :: Subordinate clauses: wenn and als
+a2.g.14.rule :: als: something that happened once in the past (Als ich Kind war, …). wenn: present/future, conditions and things that happened repeatedly in the past (Wenn es regnet, …; Immer wenn …). The verb goes to the end.
+a2.g.14.ex.0 :: When I went to Cologne for the first time, I was 20.
+a2.g.14.ex.1 :: If it rains this evening, we'll stay at home.
+a2.g.14.ex.2 :: Every time the old printer needed paper, it beeped loudly.
+a2.g.15.name :: The imperative
+a2.g.15.rule :: du: Komm! Nimm! Fahr! · ihr: Kommt! · Sie: Kommen Sie! Separable verb: Ruf an! sein: Sei! Seid! Seien Sie! bitte makes it polite.
+a2.g.15.ex.0 :: Timo, please give me the key!
+a2.g.15.ex.1 :: Guys, please speak more quietly!
+a2.g.15.ex.2 :: Arda, please park your bike in front of the house!
+a2.g.16.name :: zu + infinitive
+a2.g.16.rule :: Ich habe keine Zeit, … zu kommen. Es ist schwer, … zu lernen. Ich versuche, … zu schlafen. With separable verbs zu goes in the middle: anzurufen. No zu after modal verbs.
+a2.g.16.ex.0 :: I'm trying to speak more quietly.
+a2.g.16.ex.1 :: Please remember to cancel the appointment.
+a2.g.16.ex.2 :: It's hard to pronounce the street name.
