@@ -1,0 +1,170 @@
+# a1-031 | Einkaufen | Neue Schuhe
+DE: Anna braucht neue Sportschuhe. Ihre alten Schuhe sind kaputt. Am Samstag geht sie in die Stadt. Im ersten Geschäft sind die Schuhe zu teuer. ||| Im zweiten Geschäft findet sie ein schönes Paar in Blau. „Haben Sie die Schuhe in Größe 39?“, fragt sie die Verkäuferin. „Einen Moment, bitte.“ Anna probiert die Schuhe an. Sie passen gut und sind bequem. Sie kosten 69 Euro. Anna kauft sie und geht am Sonntag gleich joggen.
+TR: Anna'nın yeni spor ayakkabıya ihtiyacı var. Eski ayakkabıları yırtılmış. Cumartesi günü şehre gidiyor. İlk mağazada ayakkabılar çok pahalı. ||| İkinci mağazada mavi, güzel bir çift buluyor. "Bu ayakkabıların 39 numarası var mı?" diye satıcıya soruyor. "Bir dakika lütfen." Anna ayakkabıları deniyor. Tam oluyor ve rahatlar. Fiyatı 69 Euro. Anna onları alıyor ve pazar günü hemen koşuya çıkıyor.
+EN: Anna needs new trainers. Her old shoes are worn out. On Saturday she goes into town. In the first shop the shoes are too expensive. ||| In the second shop she finds a nice pair in blue. "Do you have these shoes in size 39?" she asks the saleswoman. "One moment, please." Anna tries on the shoes. They fit well and are comfortable. They cost 69 euros. Anna buys them and goes jogging straight away on Sunday.
+G: Sportschuhe | der | Sportschuh | Pl. die Sportschuhe | spor ayakkabı | trainer, sneaker
+G: Geschäft | das | Geschäft | Pl. die Geschäfte | mağaza, dükkân | shop
+G: Paar | das | Paar | Pl. die Paare | çift | pair
+G: Größe | die | Größe | Pl. die Größen | beden, numara | size
+G: passen | - | passen | es passt · hat gepasst | uymak, olmak (beden) | to fit
+G: bequem | - | bequem | - | rahat | comfortable
+Q: tf | Anna braucht neue Sportschuhe. | 0
+Q: tf | Im ersten Geschäft kauft sie die Schuhe. | 1
+Q: tf | Die Schuhe sind rot. | 1
+Q: mc | Welche Größe hat Anna? | 39 ; 37 ; 41 | 0
+Q: mc | Was macht Anna am Sonntag? | Sie geht wieder einkaufen. ; Sie geht joggen. ; Sie bleibt im Bett. | 1
+
+# a1-032 | Alltag | Der Wecker klingelt nicht
+DE: Heute klingelt Emmas Wecker nicht. Der Akku vom Handy ist leer. Emma wacht um acht Uhr auf, aber ihr Kurs beginnt um halb neun! ||| Sie springt aus dem Bett, putzt schnell die Zähne und zieht sich an. Für das Frühstück hat sie keine Zeit. Sie läuft zur Straßenbahn. Die Bahn ist gerade weg! Die nächste kommt in zehn Minuten. Emma kommt zwanzig Minuten zu spät. Die Lehrerin lächelt: „Kein Problem. Heute Abend laden Sie das Handy, ja?“
+TR: Bugün Emma'nın çalar saati çalmıyor. Telefonun şarjı bitmiş. Emma saat sekizde uyanıyor ama kursu sekiz buçukta başlıyor! ||| Yataktan fırlıyor, hızlıca dişlerini fırçalıyor ve giyiniyor. Kahvaltıya zamanı yok. Tramvaya koşuyor. Tramvay az önce gitmiş! Bir sonraki on dakika sonra geliyor. Emma yirmi dakika geç kalıyor. Öğretmen gülümsüyor: "Sorun değil. Bu akşam telefonu şarj edin, tamam mı?"
+EN: Today Emma's alarm doesn't go off. Her phone battery is dead. Emma wakes up at eight, but her course starts at half past eight! ||| She jumps out of bed, quickly brushes her teeth and gets dressed. She has no time for breakfast. She runs to the tram. The tram has just left! The next one comes in ten minutes. Emma arrives twenty minutes late. The teacher smiles: "No problem. Charge your phone tonight, okay?"
+G: Wecker | der | Wecker | Pl. die Wecker | çalar saat | alarm clock
+G: Akku | der | Akku | Pl. die Akkus | şarj, batarya | battery
+G: leer | - | leer | - | boş | empty, dead (battery)
+G: putzt | - | putzen | er putzt · hat geputzt | temizlemek, fırçalamak | to clean, to brush
+G: Zähne | der | Zahn | Pl. die Zähne | diş | tooth
+G: Straßenbahn | die | Straßenbahn | Pl. die Straßenbahnen | tramvay | tram
+G: spät | - | spät | - | geç | late
+Q: tf | Emmas Wecker klingelt um sieben Uhr. | 1
+Q: tf | Der Akku vom Handy ist leer. | 0
+Q: tf | Emma frühstückt in Ruhe. | 1
+Q: mc | Wann beginnt Emmas Kurs? | Um halb neun ; Um acht Uhr ; Um neun Uhr | 0
+Q: mc | Wie spät kommt Emma? | Zehn Minuten ; Zwanzig Minuten ; Eine Stunde | 1
+
+# a1-033 | Familie | Der neue Hund
+DE: Die Kinder von Familie Aydın wünschen sich schon lange einen Hund. Endlich ist es so weit: Am Wochenende holen sie einen kleinen Hund aus dem Tierheim. Er ist braun-weiß und heißt Bobo. ||| Bobo ist zwei Jahre alt und sehr lieb. Er spielt gern mit dem Ball. Jeden Morgen und jeden Abend gehen die Kinder mit ihm spazieren. Papa bezahlt das Futter, und Mama geht mit Bobo zum Tierarzt. Nur die Katze vom Nachbarn mag Bobo gar nicht.
+TR: Aydın ailesinin çocukları uzun zamandır bir köpek istiyor. Sonunda zamanı geldi: Hafta sonu hayvan barınağından küçük bir köpek alıyorlar. Kahverengi-beyaz ve adı Bobo. ||| Bobo iki yaşında ve çok tatlı. Topla oynamayı seviyor. Çocuklar her sabah ve her akşam onu gezdiriyor. Babası mamasını ödüyor, annesi de Bobo'yu veterinere götürüyor. Sadece komşunun kedisi Bobo'yu hiç sevmiyor.
+EN: The Aydın family's children have wanted a dog for a long time. Finally the day has come: at the weekend they get a small dog from the animal shelter. He is brown and white and is called Bobo. ||| Bobo is two years old and very sweet. He likes playing with his ball. Every morning and every evening the children take him for a walk. Dad pays for the food, and Mum takes Bobo to the vet. Only the neighbour's cat doesn't like Bobo at all.
+G: wünschen | - | sich wünschen | er wünscht sich · hat sich gewünscht | istemek, dilemek | to wish for
+G: Tierheim | das | Tierheim | Pl. die Tierheime | hayvan barınağı | animal shelter
+G: lieb | - | lieb | - | tatlı, uslu | sweet, kind
+G: Ball | der | Ball | Pl. die Bälle | top | ball
+G: Futter | das | Futter | - | mama, hayvan yemi | (animal) food
+G: Tierarzt | der | Tierarzt | Pl. die Tierärzte | veteriner | vet
+G: Katze | die | Katze | Pl. die Katzen | kedi | cat
+Q: tf | Die Familie kauft den Hund in einem Geschäft. | 1
+Q: tf | Bobo ist zwei Jahre alt. | 0
+Q: tf | Die Katze vom Nachbarn mag Bobo. | 1
+Q: mc | Welche Farbe hat Bobo? | Braun-weiß ; Schwarz ; Grau | 0
+Q: mc | Wer geht mit Bobo zum Tierarzt? | Papa ; Mama ; Die Kinder | 1
+
+# a1-034 | Technik | Videoanruf mit Oma
+DE: Omas Geburtstag ist am Sonntag, aber sie wohnt weit weg in Polen. Kasia möchte mit ihr per Video sprechen. Oma hat ein neues Tablet, aber sie kennt die App noch nicht. ||| Am Samstag ruft Kasia ihre Tante an. Die Tante zeigt Oma, wie es geht: „Hier drücken und dann grün!“ Am Sonntag klappt es. Oma sieht Kasia, ihren Mann und das Baby. Alle singen „Happy Birthday“. Oma weint ein bisschen vor Freude. „Das Tablet ist wunderbar“, sagt sie.
+TR: Nine'nin doğum günü pazar günü ama Polonya'da, çok uzakta yaşıyor. Kasia onunla görüntülü konuşmak istiyor. Ninenin yeni bir tableti var ama uygulamayı henüz bilmiyor. ||| Cumartesi günü Kasia teyzesini arıyor. Teyzesi nineye nasıl yapılacağını gösteriyor: "Buraya bas, sonra yeşile!" Pazar günü işe yarıyor. Nine Kasia'yı, kocasını ve bebeği görüyor. Herkes "Mutlu yıllar" şarkısını söylüyor. Nine sevinçten biraz ağlıyor. "Tablet harika," diyor.
+EN: Grandma's birthday is on Sunday, but she lives far away in Poland. Kasia wants to talk to her by video. Grandma has a new tablet, but she doesn't know the app yet. ||| On Saturday Kasia calls her aunt. The aunt shows Grandma how it works: "Press here and then green!" On Sunday it works. Grandma sees Kasia, her husband and the baby. Everyone sings "Happy Birthday". Grandma cries a little with joy. "The tablet is wonderful," she says.
+G: weit | - | weit | - | uzak | far
+G: kennt | - | kennen | er kennt · hat gekannt | tanımak, bilmek | to know
+G: Tante | die | Tante | Pl. die Tanten | teyze, hala | aunt
+G: drücken | - | drücken | er drückt · hat gedrückt | basmak | to press
+G: klappt | - | klappen | es klappt · hat geklappt | işe yaramak, olmak | to work out
+G: Baby | das | Baby | Pl. die Babys | bebek | baby
+G: weint | - | weinen | er weint · hat geweint | ağlamak | to cry
+Q: tf | Oma wohnt in Polen. | 0
+Q: tf | Oma kennt die App schon gut. | 1
+Q: tf | Am Sonntag funktioniert der Videoanruf. | 0
+Q: mc | Wer zeigt Oma die App? | Die Tante ; Das Baby ; Kasia | 0
+Q: mc | Warum weint Oma? | Sie ist traurig. ; Vor Freude ; Das Tablet ist kaputt. | 1
+
+# a1-035 | Stadt | Wo ist die Apotheke?
+DE: Rosa ist in Graz und sucht eine Apotheke. Sie fragt einen Mann auf der Straße: „Entschuldigung, wo ist hier eine Apotheke?“ ||| Der Mann antwortet: „Gehen Sie geradeaus bis zur Ampel. Dann links in die Annenstraße. Die Apotheke ist neben der Bank, gegenüber vom Supermarkt.“ Rosa sagt: „Vielen Dank!“ Sie geht geradeaus, dann links. Aber sie sieht keine Bank. Sie fragt noch einmal. Eine Frau zeigt ihr den Weg. Die Apotheke ist nur hundert Meter weiter.
+TR: Rosa Graz'da ve bir eczane arıyor. Sokakta bir adama soruyor: "Affedersiniz, buralarda eczane nerede?" ||| Adam cevap veriyor: "Trafik ışığına kadar dümdüz gidin. Sonra sola, Annenstraße'ye dönün. Eczane bankanın yanında, süpermarketin karşısında." Rosa "Çok teşekkürler!" diyor. Dümdüz gidiyor, sonra sola dönüyor. Ama hiç banka göremiyor. Bir kez daha soruyor. Bir kadın ona yolu gösteriyor. Eczane sadece yüz metre ileride.
+EN: Rosa is in Graz looking for a pharmacy. She asks a man in the street: "Excuse me, where is there a pharmacy around here?" ||| The man answers: "Go straight on to the traffic lights. Then turn left into Annenstraße. The pharmacy is next to the bank, opposite the supermarket." Rosa says: "Thank you very much!" She goes straight on, then left. But she doesn't see a bank. She asks again. A woman shows her the way. The pharmacy is only a hundred metres further on.
+G: Straße | die | Straße | Pl. die Straßen | sokak, cadde | street
+G: geradeaus | - | geradeaus | - | dümdüz | straight on
+G: Ampel | die | Ampel | Pl. die Ampeln | trafik ışığı | traffic lights
+G: links | - | links | - | sol(a) | left
+G: Bank | die | Bank | Pl. die Banken | banka | bank
+G: gegenüber | - | gegenüber | - | karşısında | opposite
+G: Weg | der | Weg | Pl. die Wege | yol | way
+Q: tf | Rosa sucht einen Supermarkt. | 1
+Q: tf | Die Apotheke ist neben der Bank. | 0
+Q: tf | Rosa findet die Apotheke sofort. | 1
+Q: mc | Wohin soll Rosa an der Ampel gehen? | Nach links ; Nach rechts ; Zurück | 0
+Q: mc | Wie weit ist die Apotheke am Ende noch? | Zwei Kilometer ; Hundert Meter ; Zehn Meter | 1
+
+# a1-036 | Arbeit | Schichtarbeit im Krankenhaus
+DE: Fatma ist Krankenpflegerin in einem Krankenhaus in Bremen. Sie arbeitet in drei Schichten: Frühschicht, Spätschicht und Nachtschicht. Diese Woche hat sie Nachtschicht, von 21 bis 6 Uhr. ||| In der Nacht ist es ruhig, aber manchmal kommt ein Notfall. Fatma misst Fieber, gibt Medikamente und spricht mit den Patienten. Um sechs Uhr fährt sie nach Hause. Am Tag schläft sie. Ihr Mann bringt die Kinder zur Schule. Fatma liebt ihren Beruf, aber die Nächte sind anstrengend.
+TR: Fatma Bremen'deki bir hastanede hemşire. Üç vardiya halinde çalışıyor: sabah, akşam ve gece vardiyası. Bu hafta gece vardiyasında, 21'den 6'ya kadar. ||| Gece sakin ama bazen acil bir durum oluyor. Fatma ateş ölçüyor, ilaç veriyor ve hastalarla konuşuyor. Saat altıda eve gidiyor. Gündüz uyuyor. Kocası çocukları okula götürüyor. Fatma mesleğini seviyor ama geceler yorucu.
+EN: Fatma is a nurse in a hospital in Bremen. She works three shifts: early, late and night. This week she is on nights, from 9 pm to 6 am. ||| At night it is quiet, but sometimes there is an emergency. Fatma takes temperatures, gives medicine and talks to the patients. At six she goes home. During the day she sleeps. Her husband takes the children to school. Fatma loves her job, but the nights are tiring.
+G: Krankenpflegerin | die | Krankenpflegerin | Pl. die Krankenpflegerinnen | (kadın) hemşire | (female) nurse
+G: Krankenhaus | das | Krankenhaus | Pl. die Krankenhäuser | hastane | hospital
+G: Nachtschicht | die | Nachtschicht | Pl. die Nachtschichten | gece vardiyası | night shift
+G: Notfall | der | Notfall | Pl. die Notfälle | acil durum | emergency
+G: Medikamente | das | Medikament | Pl. die Medikamente | ilaç | medicine
+G: Patienten | der | Patient | Pl. die Patienten | hasta | patient
+G: Beruf | der | Beruf | Pl. die Berufe | meslek | job, profession
+Q: tf | Fatma ist Ärztin. | 1
+Q: tf | Diese Woche arbeitet Fatma in der Nacht. | 0
+Q: tf | Fatma bringt am Morgen die Kinder zur Schule. | 1
+Q: mc | Wann endet die Nachtschicht? | Um sechs Uhr ; Um einundzwanzig Uhr ; Um Mitternacht | 0
+Q: mc | Was macht Fatma am Tag? | Sie arbeitet. ; Sie schläft. ; Sie geht einkaufen. | 1
+
+# a1-037 | Freizeit | Fußball am Sonntag
+DE: Jeden Sonntag spielt Tobias Fußball in einem Verein. Er ist zwölf Jahre alt und spielt im Tor. Heute ist ein wichtiges Spiel gegen eine Mannschaft aus der Nachbarstadt. ||| Es regnet, und der Platz ist nass. Nach dreißig Minuten steht es 0:1. Aber dann schießt Tobias' Freund Jan zwei Tore! Tobias hält einen Elfmeter. Am Ende gewinnt seine Mannschaft 2:1. Die Eltern jubeln. Danach essen alle zusammen Pommes. Tobias ist dreckig, aber stolz.
+TR: Tobias her pazar bir kulüpte futbol oynuyor. On iki yaşında ve kalecilik yapıyor. Bugün komşu şehirden bir takıma karşı önemli bir maç var. ||| Yağmur yağıyor ve saha ıslak. Otuz dakika sonra skor 0-1. Ama sonra Tobias'ın arkadaşı Jan iki gol atıyor! Tobias bir penaltı kurtarıyor. Sonunda takımı 2-1 kazanıyor. Aileler sevinçle bağırıyor. Ardından hep birlikte patates kızartması yiyorlar. Tobias çamur içinde ama gururlu.
+EN: Every Sunday Tobias plays football in a club. He is twelve years old and plays in goal. Today there is an important match against a team from the neighbouring town. ||| It's raining and the pitch is wet. After thirty minutes it's 0–1. But then Tobias's friend Jan scores two goals! Tobias saves a penalty. In the end his team wins 2–1. The parents cheer. Afterwards everyone eats chips together. Tobias is dirty but proud.
+G: Verein | der | Verein | Pl. die Vereine | kulüp, dernek | club
+G: Tor | das | Tor | Pl. die Tore | kale, gol | goal
+G: Spiel | das | Spiel | Pl. die Spiele | maç, oyun | match, game
+G: Mannschaft | die | Mannschaft | Pl. die Mannschaften | takım | team
+G: gewinnt | - | gewinnen | er gewinnt · hat gewonnen | kazanmak | to win
+G: dreckig | - | dreckig | - | kirli | dirty
+G: stolz | - | stolz | - | gururlu | proud
+Q: tf | Tobias spielt im Tor. | 0
+Q: tf | Das Wetter ist schön. | 1
+Q: tf | Tobias' Mannschaft verliert. | 1
+Q: mc | Wer schießt zwei Tore? | Jan ; Tobias ; Der Trainer | 0
+Q: mc | Was essen alle nach dem Spiel? | Pizza ; Pommes ; Kuchen | 1
+
+# a1-038 | Wohnen | Die Heizung ist kaputt
+DE: Es ist Dezember und draußen sind minus fünf Grad. In der Wohnung von Laura ist es auch kalt, denn die Heizung funktioniert nicht. ||| Laura schreibt dem Vermieter eine Nachricht: „Guten Tag, Herr Vogel, meine Heizung ist kaputt. Können Sie bitte schnell einen Handwerker schicken?“ Herr Vogel antwortet sofort: „Morgen um acht Uhr kommt ein Techniker.“ In der Nacht trägt Laura zwei Pullover und trinkt heißen Tee. Am nächsten Tag repariert der Techniker die Heizung in einer Stunde.
+TR: Aralık ayı ve dışarıda eksi beş derece. Laura'nın dairesi de soğuk, çünkü kalorifer çalışmıyor. ||| Laura ev sahibine bir mesaj yazıyor: "İyi günler Bay Vogel, kaloriferim bozuk. Lütfen hemen bir usta gönderebilir misiniz?" Bay Vogel hemen cevap veriyor: "Yarın saat sekizde bir teknisyen geliyor." Gece Laura iki kazak giyiyor ve sıcak çay içiyor. Ertesi gün teknisyen kaloriferi bir saatte tamir ediyor.
+EN: It is December and outside it's minus five degrees. Laura's flat is cold too, because the heating isn't working. ||| Laura writes the landlord a message: "Hello Mr Vogel, my heating is broken. Could you please send a tradesman quickly?" Mr Vogel replies at once: "A technician is coming tomorrow at eight." At night Laura wears two jumpers and drinks hot tea. The next day the technician repairs the heating in an hour.
+G: draußen | - | draußen | - | dışarıda | outside
+G: Heizung | die | Heizung | Pl. die Heizungen | kalorifer, ısıtma | heating
+G: Vermieter | der | Vermieter | Pl. die Vermieter | ev sahibi | landlord
+G: Handwerker | der | Handwerker | Pl. die Handwerker | usta, zanaatkâr | tradesman
+G: sofort | - | sofort | - | hemen | immediately
+G: Techniker | der | Techniker | Pl. die Techniker | teknisyen | technician
+G: repariert | - | reparieren | er repariert · hat repariert | tamir etmek | to repair
+Q: tf | Es ist Sommer. | 1
+Q: tf | Die Heizung funktioniert nicht. | 0
+Q: tf | Herr Vogel antwortet nach einer Woche. | 1
+Q: mc | Wann kommt der Techniker? | Morgen um acht Uhr ; Heute Abend ; In einer Woche | 0
+Q: mc | Was macht Laura in der Nacht? | Sie schläft bei einer Freundin. ; Sie trägt zwei Pullover. ; Sie geht ins Hotel. | 1
+
+# a1-039 | Essen | Frühstück im Hotel
+DE: Familie Nguyen macht Urlaub am Bodensee. Im Hotel gibt es von sieben bis zehn Uhr Frühstück. Das Buffet ist groß: Brötchen, Müsli, Joghurt, Obst, Käse, Wurst und Eier. ||| Der Sohn Minh isst drei Brötchen mit Marmelade. Die Tochter Lan nimmt nur Müsli mit Erdbeeren. Herr Nguyen trinkt zwei Tassen Kaffee, und Frau Nguyen bestellt ein Omelett. Nach dem Frühstück fahren sie mit dem Schiff auf die Insel Mainau. Dort gibt es viele Blumen.
+TR: Nguyen ailesi Bodensee'de tatil yapıyor. Otelde yediden ona kadar kahvaltı var. Açık büfe büyük: sandviç ekmeği, müsli, yoğurt, meyve, peynir, salam ve yumurta. ||| Oğulları Minh reçelli üç ekmek yiyor. Kızları Lan sadece çilekli müsli alıyor. Bay Nguyen iki fincan kahve içiyor, Bayan Nguyen de bir omlet sipariş ediyor. Kahvaltıdan sonra gemiyle Mainau adasına gidiyorlar. Orada çok çiçek var.
+EN: The Nguyen family is on holiday at Lake Constance. In the hotel there is breakfast from seven to ten. The buffet is big: rolls, muesli, yoghurt, fruit, cheese, cold meat and eggs. ||| Their son Minh eats three rolls with jam. Their daughter Lan just has muesli with strawberries. Mr Nguyen drinks two cups of coffee, and Mrs Nguyen orders an omelette. After breakfast they take the boat to the island of Mainau. There are lots of flowers there.
+G: Frühstück | das | Frühstück | - | kahvaltı | breakfast
+G: Buffet | das | Buffet | Pl. die Buffets | açık büfe | buffet
+G: Wurst | die | Wurst | Pl. die Würste | salam, sosis | sausage, cold meat
+G: Marmelade | die | Marmelade | Pl. die Marmeladen | reçel | jam
+G: Tochter | die | Tochter | Pl. die Töchter | kız evlat | daughter
+G: Tassen | die | Tasse | Pl. die Tassen | fincan | cup
+G: Schiff | das | Schiff | Pl. die Schiffe | gemi | boat, ship
+G: Insel | die | Insel | Pl. die Inseln | ada | island
+Q: tf | Das Frühstück ist von sieben bis zehn Uhr. | 0
+Q: tf | Lan isst drei Brötchen. | 1
+Q: tf | Frau Nguyen bestellt ein Omelett. | 0
+Q: mc | Was trinkt Herr Nguyen? | Zwei Tassen Kaffee ; Einen Tee ; Orangensaft | 0
+Q: mc | Wie fahren sie zur Insel Mainau? | Mit dem Bus ; Mit dem Schiff ; Mit dem Fahrrad | 1
+
+# a1-040 | Lernen | Die Prüfung
+DE: Heute ist Anas A1-Prüfung. Sie ist um acht Uhr in der Sprachschule. Zuerst kommt der Teil Hören. Ana hört kurze Gespräche und Durchsagen. Dann liest sie Texte und schreibt eine kurze E-Mail. ||| Am Nachmittag ist der Teil Sprechen. Ana stellt sich vor und spricht mit einer Partnerin über Essen und Freizeit. Sie ist nervös, aber sie spricht gut. Zwei Wochen später kommt ein Brief: Ana hat bestanden, mit 85 Punkten! Sie feiert mit ihren Freunden.
+TR: Bugün Ana'nın A1 sınavı. Saat sekizde dil okulunda. Önce dinleme bölümü geliyor. Ana kısa konuşmalar ve anonslar dinliyor. Sonra metinler okuyor ve kısa bir e-posta yazıyor. ||| Öğleden sonra konuşma bölümü var. Ana kendini tanıtıyor ve bir partnerle yemek ve boş zaman hakkında konuşuyor. Heyecanlı ama iyi konuşuyor. İki hafta sonra bir mektup geliyor: Ana 85 puanla geçti! Arkadaşlarıyla kutluyor.
+EN: Today is Ana's A1 exam. She is at the language school at eight o'clock. First comes the listening part. Ana listens to short conversations and announcements. Then she reads texts and writes a short email. ||| In the afternoon there is the speaking part. Ana introduces herself and talks with a partner about food and free time. She is nervous, but she speaks well. Two weeks later a letter arrives: Ana has passed, with 85 points! She celebrates with her friends.
+G: Sprachschule | die | Sprachschule | Pl. die Sprachschulen | dil okulu | language school
+G: Teil | der | Teil | Pl. die Teile | bölüm, kısım | part
+G: Gespräche | das | Gespräch | Pl. die Gespräche | konuşma, sohbet | conversation
+G: Partnerin | die | Partnerin | Pl. die Partnerinnen | (kadın) partner | (female) partner
+G: Brief | der | Brief | Pl. die Briefe | mektup | letter
+G: bestanden | - | bestehen | er besteht · hat bestanden | (sınavı) geçmek | to pass (an exam)
+G: Punkten | der | Punkt | Pl. die Punkte | puan, nokta | point
+G: feiert | - | feiern | er feiert · hat gefeiert | kutlamak | to celebrate
+Q: tf | Die Prüfung beginnt um acht Uhr. | 0
+Q: tf | Der Teil Sprechen ist am Morgen. | 1
+Q: tf | Ana hat die Prüfung nicht bestanden. | 1
+Q: mc | Was schreibt Ana in der Prüfung? | Eine kurze E-Mail ; Einen langen Brief ; Eine Geschichte | 0
+Q: mc | Wie viele Punkte hat Ana? | 58 ; 85 ; 100 | 1

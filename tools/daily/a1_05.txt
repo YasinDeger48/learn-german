@@ -1,0 +1,171 @@
+# a1-041 | Alltag | Am Geldautomaten
+DE: Julian braucht Bargeld für den Flohmarkt. Er geht zum Geldautomaten an der Ecke. Er steckt seine Karte in den Automaten und gibt die PIN ein. ||| Aber der Automat sagt: „Falsche PIN.“ Julian versucht es noch einmal. Wieder falsch! Jetzt hat er nur noch einen Versuch. Er denkt lange nach. Dann erinnert er sich: Die PIN ist der Geburtstag von seiner Mutter. Es klappt! Er hebt fünfzig Euro ab und kauft auf dem Flohmarkt eine alte Lampe.
+TR: Julian'ın bit pazarı için nakit paraya ihtiyacı var. Köşedeki bankamatiğe gidiyor. Kartını makineye takıyor ve şifresini giriyor. ||| Ama makine "Yanlış şifre" diyor. Julian bir kez daha deniyor. Yine yanlış! Artık sadece bir deneme hakkı kaldı. Uzun uzun düşünüyor. Sonra hatırlıyor: şifre annesinin doğum günü. Oluyor! Elli Euro çekiyor ve bit pazarından eski bir lamba alıyor.
+EN: Julian needs cash for the flea market. He goes to the cash machine on the corner. He puts his card into the machine and enters his PIN. ||| But the machine says: "Wrong PIN." Julian tries again. Wrong again! Now he only has one try left. He thinks for a long time. Then he remembers: the PIN is his mother's birthday. It works! He takes out fifty euros and buys an old lamp at the flea market.
+G: Bargeld | das | Bargeld | - | nakit para | cash
+G: Flohmarkt | der | Flohmarkt | Pl. die Flohmärkte | bit pazarı | flea market
+G: Geldautomaten | der | Geldautomat | Pl. die Geldautomaten | bankamatik | cash machine, ATM
+G: Versuch | der | Versuch | Pl. die Versuche | deneme | try, attempt
+G: erinnert | - | sich erinnern | er erinnert sich · hat sich erinnert | hatırlamak | to remember
+G: hebt | - | abheben | er hebt ab · hat abgehoben | (para) çekmek | to withdraw
+G: Lampe | die | Lampe | Pl. die Lampen | lamba | lamp
+Q: tf | Julian braucht Bargeld für den Supermarkt. | 1
+Q: tf | Die PIN ist zweimal falsch. | 0
+Q: tf | Julian kauft eine alte Uhr. | 1
+Q: mc | Was ist Julians PIN? | Der Geburtstag von seiner Mutter ; Seine Telefonnummer ; Seine Hausnummer | 0
+Q: mc | Wie viel Geld hebt Julian ab? | Zwanzig Euro ; Fünfzig Euro ; Hundert Euro | 1
+
+# a1-042 | Reisen | Im Flugzeug
+DE: Selin fliegt von Frankfurt nach Istanbul. Der Flug dauert drei Stunden. Sie hat einen Platz am Gang. Neben ihr sitzt ein älterer Herr. Er hat Angst vor dem Fliegen. ||| Selin erzählt ihm von ihrer Familie, und er zeigt ihr Fotos von seinen Enkeln. Die Zeit vergeht schnell. Die Flugbegleiterin bringt Getränke und ein Sandwich. Bei der Landung klatschen viele Leute. Der Herr sagt: „Danke für das nette Gespräch. Heute hatte ich keine Angst.“
+TR: Selin Frankfurt'tan İstanbul'a uçuyor. Uçuş üç saat sürüyor. Koridor tarafında bir koltuğu var. Yanında yaşlıca bir bey oturuyor. Uçmaktan korkuyor. ||| Selin ona ailesinden bahsediyor, o da torunlarının fotoğraflarını gösteriyor. Zaman çabuk geçiyor. Kabin görevlisi içecek ve sandviç getiriyor. İnişte birçok kişi alkışlıyor. Bey diyor ki: "Bu güzel sohbet için teşekkürler. Bugün hiç korkmadım."
+EN: Selin is flying from Frankfurt to Istanbul. The flight takes three hours. She has an aisle seat. An older gentleman is sitting next to her. He is afraid of flying. ||| Selin tells him about her family, and he shows her photos of his grandchildren. Time passes quickly. The flight attendant brings drinks and a sandwich. On landing many people clap. The gentleman says: "Thank you for the nice chat. Today I wasn't afraid."
+G: fliegt | - | fliegen | er fliegt · ist geflogen | uçmak | to fly
+G: Flug | der | Flug | Pl. die Flüge | uçuş | flight
+G: Gang | der | Gang | Pl. die Gänge | koridor | aisle
+G: Angst | die | Angst | Pl. die Ängste | korku | fear
+G: Flugbegleiterin | die | Flugbegleiterin | Pl. die Flugbegleiterinnen | (kadın) kabin görevlisi | flight attendant
+G: Getränke | das | Getränk | Pl. die Getränke | içecek | drink
+G: Landung | die | Landung | Pl. die Landungen | iniş | landing
+Q: tf | Der Flug dauert drei Stunden. | 0
+Q: tf | Selin sitzt am Fenster. | 1
+Q: tf | Der Herr hat Angst vor dem Fliegen. | 0
+Q: mc | Was zeigt der Herr Selin? | Fotos von seinen Enkeln ; Seinen Pass ; Eine Karte von Istanbul | 0
+Q: mc | Was bringt die Flugbegleiterin? | Nur Wasser ; Getränke und ein Sandwich ; Eine Decke | 1
+
+# a1-043 | Gesundheit | Beim Zahnarzt
+DE: Seit drei Tagen hat Thomas Zahnschmerzen. Er hat Angst vor dem Zahnarzt, aber die Schmerzen sind zu stark. Er ruft an und bekommt sofort einen Termin. ||| Die Zahnärztin schaut in seinen Mund. „Sie haben ein Loch im Zahn“, sagt sie. „Keine Sorge, das geht schnell.“ Sie gibt ihm eine Spritze. Thomas spürt nichts. Nach zwanzig Minuten ist alles fertig. „Zwei Stunden nichts essen“, sagt die Zahnärztin. Thomas ist erleichtert. Ab jetzt putzt er dreimal am Tag die Zähne.
+TR: Thomas'ın üç gündür dişi ağrıyor. Diş hekiminden korkuyor ama ağrı çok şiddetli. Arıyor ve hemen randevu alıyor. ||| Diş hekimi ağzına bakıyor. "Dişinizde bir çürük var," diyor. "Merak etmeyin, çabuk biter." Ona bir iğne yapıyor. Thomas hiçbir şey hissetmiyor. Yirmi dakika sonra her şey bitiyor. "İki saat hiçbir şey yemeyin," diyor diş hekimi. Thomas rahatlıyor. Artık günde üç kez dişlerini fırçalıyor.
+EN: Thomas has had toothache for three days. He is afraid of the dentist, but the pain is too strong. He calls and gets an appointment straight away. ||| The dentist looks in his mouth. "You have a hole in your tooth," she says. "Don't worry, it'll be quick." She gives him an injection. Thomas feels nothing. After twenty minutes everything is done. "Don't eat anything for two hours," says the dentist. Thomas is relieved. From now on he brushes his teeth three times a day.
+G: Zahnschmerzen | - | die Zahnschmerzen | nur Plural | diş ağrısı | toothache
+G: Zahnarzt | der | Zahnarzt | Pl. die Zahnärzte | diş hekimi | dentist
+G: Mund | der | Mund | Pl. die Münder | ağız | mouth
+G: Loch | das | Loch | Pl. die Löcher | delik, çürük | hole
+G: Sorge | die | Sorge | Pl. die Sorgen | endişe, kaygı | worry
+G: Spritze | die | Spritze | Pl. die Spritzen | iğne, enjeksiyon | injection
+G: erleichtert | - | erleichtert | - | rahatlamış | relieved
+Q: tf | Thomas hat seit drei Wochen Zahnschmerzen. | 1
+Q: tf | Thomas bekommt sofort einen Termin. | 0
+Q: tf | Die Behandlung dauert zwei Stunden. | 1
+Q: mc | Was hat Thomas? | Ein Loch im Zahn ; Eine Erkältung ; Kopfschmerzen | 0
+Q: mc | Wie lange soll Thomas nichts essen? | Zwanzig Minuten ; Zwei Stunden ; Einen Tag | 1
+
+# a1-044 | Arbeit | Das Vorstellungsgespräch
+DE: Pedro hat am Donnerstag ein Vorstellungsgespräch bei einer Bäckerei. Er möchte dort als Verkäufer arbeiten. Er zieht ein Hemd an und ist zehn Minuten zu früh da. ||| Die Chefin, Frau Brandt, fragt: „Haben Sie Erfahrung?“ Pedro sagt: „Ja, ich habe zwei Jahre in einem Café in Lissabon gearbeitet.“ Sie fragt auch: „Können Sie am Wochenende arbeiten?“ – „Ja, kein Problem.“ Frau Brandt lächelt. Am Freitag ruft sie an: Pedro bekommt die Stelle!
+TR: Pedro'nun perşembe günü bir fırında iş görüşmesi var. Orada satıcı olarak çalışmak istiyor. Bir gömlek giyiyor ve on dakika erken varıyor. ||| Şef Bayan Brandt soruyor: "Deneyiminiz var mı?" Pedro diyor ki: "Evet, Lizbon'da bir kafede iki yıl çalıştım." Kadın şunu da soruyor: "Hafta sonları çalışabilir misiniz?" – "Evet, sorun değil." Bayan Brandt gülümsüyor. Cuma günü arıyor: Pedro işi alıyor!
+EN: On Thursday Pedro has a job interview at a bakery. He wants to work there as a sales assistant. He puts on a shirt and arrives ten minutes early. ||| The boss, Ms Brandt, asks: "Do you have experience?" Pedro says: "Yes, I worked in a café in Lisbon for two years." She also asks: "Can you work at weekends?" – "Yes, no problem." Ms Brandt smiles. On Friday she calls: Pedro gets the job!
+G: Vorstellungsgespräch | das | Vorstellungsgespräch | Pl. die Vorstellungsgespräche | iş görüşmesi | job interview
+G: Bäckerei | die | Bäckerei | Pl. die Bäckereien | fırın, ekmekçi | bakery
+G: Verkäufer | der | Verkäufer | Pl. die Verkäufer | satıcı | sales assistant
+G: Hemd | das | Hemd | Pl. die Hemden | gömlek | shirt
+G: früh | - | früh | - | erken | early
+G: Erfahrung | die | Erfahrung | Pl. die Erfahrungen | deneyim | experience
+G: Stelle | die | Stelle | Pl. die Stellen | iş, pozisyon | job, position
+Q: tf | Pedro möchte als Bäcker arbeiten. | 1
+Q: tf | Pedro kommt zu früh. | 0
+Q: tf | Pedro kann nicht am Wochenende arbeiten. | 1
+Q: mc | Wo hat Pedro früher gearbeitet? | In einem Café in Lissabon ; In einem Hotel in Madrid ; In einer Bäckerei in Porto | 0
+Q: mc | Wann ruft Frau Brandt an? | Am Donnerstag ; Am Freitag ; Am Montag | 1
+
+# a1-045 | Freizeit | Der Flohmarkt
+DE: Am Sonntag verkaufen Mia und ihre Mutter alte Sachen auf dem Flohmarkt. Sie haben Kleidung, Bücher, Spielzeug und Geschirr. Sie stehen schon um sieben Uhr auf. ||| Viele Leute kommen und fragen: „Was kostet das?“ Ein Mann kauft fünf Bücher für zehn Euro. Eine Frau möchte eine Vase, aber sie findet sie zu teuer. Mia sagt: „Okay, für drei Euro.“ Am Ende haben sie 140 Euro verdient. Mit dem Geld gehen sie am Abend in ein schönes Restaurant.
+TR: Pazar günü Mia ve annesi eski eşyalarını bit pazarında satıyor. Giysi, kitap, oyuncak ve tabak çanakları var. Saat yedide kalkıyorlar. ||| Bir sürü insan gelip "Bu ne kadar?" diye soruyor. Bir adam on Euro'ya beş kitap alıyor. Bir kadın bir vazo istiyor ama onu çok pahalı buluyor. Mia "Tamam, üç Euro'ya," diyor. Sonunda 140 Euro kazanmış oluyorlar. Bu parayla akşam güzel bir restorana gidiyorlar.
+EN: On Sunday Mia and her mother are selling old things at the flea market. They have clothes, books, toys and dishes. They get up at seven o'clock. ||| Lots of people come and ask: "How much is this?" A man buys five books for ten euros. A woman wants a vase, but she thinks it's too expensive. Mia says: "Okay, three euros." In the end they have earned 140 euros. With the money they go to a nice restaurant in the evening.
+G: verkaufen | - | verkaufen | er verkauft · hat verkauft | satmak | to sell
+G: Sachen | die | Sache | Pl. die Sachen | eşya, şey | thing
+G: Kleidung | die | Kleidung | - | giysi, kıyafet | clothes
+G: Spielzeug | das | Spielzeug | Pl. die Spielzeuge | oyuncak | toy
+G: Geschirr | das | Geschirr | - | tabak çanak | dishes
+G: Vase | die | Vase | Pl. die Vasen | vazo | vase
+G: verdient | - | verdienen | er verdient · hat verdient | (para) kazanmak | to earn
+Q: tf | Mia verkauft alte Sachen mit ihrem Vater. | 1
+Q: tf | Ein Mann kauft fünf Bücher. | 0
+Q: tf | Am Ende haben sie 40 Euro verdient. | 1
+Q: mc | Was kostet die Vase am Ende? | Drei Euro ; Zehn Euro ; Fünf Euro | 0
+Q: mc | Was machen sie am Abend? | Sie gehen ins Kino. ; Sie gehen ins Restaurant. ; Sie kaufen neue Kleidung. | 1
+
+# a1-046 | Stadt | Mit dem Bus zum Flughafen
+DE: Ahmet muss heute zum Flughafen. Sein Flug geht um 14 Uhr. Er nimmt den Bus Nummer 100. Der Bus fährt alle fünfzehn Minuten. Eine Fahrkarte kostet 3,80 Euro. ||| Leider gibt es einen Stau auf der Autobahn. Der Bus steht zwanzig Minuten. Ahmet schaut nervös auf die Uhr. Um 12:30 Uhr ist er endlich am Flughafen. Er geht schnell zum Check-in und dann durch die Sicherheitskontrolle. Er hat noch Zeit für einen Tee. Glück gehabt!
+TR: Ahmet'in bugün havalimanına gitmesi gerekiyor. Uçağı saat 14'te kalkıyor. 100 numaralı otobüse biniyor. Otobüs her on beş dakikada bir geçiyor. Bir bilet 3,80 Euro. ||| Maalesef otoyolda trafik sıkışıklığı var. Otobüs yirmi dakika bekliyor. Ahmet gergin gergin saatine bakıyor. 12.30'da nihayet havalimanında. Hızla check-in'e, sonra da güvenlik kontrolüne gidiyor. Bir çay için hâlâ zamanı var. Şansı yaver gitti!
+EN: Ahmet has to go to the airport today. His flight leaves at 2 pm. He takes bus number 100. The bus runs every fifteen minutes. A ticket costs 3.80 euros. ||| Unfortunately there's a traffic jam on the motorway. The bus is stuck for twenty minutes. Ahmet looks nervously at his watch. At 12:30 he is finally at the airport. He goes quickly to check-in and then through security. He still has time for a tea. Lucky!
+G: Flughafen | der | Flughafen | Pl. die Flughäfen | havalimanı | airport
+G: Stau | der | Stau | Pl. die Staus | trafik sıkışıklığı | traffic jam
+G: Autobahn | die | Autobahn | Pl. die Autobahnen | otoyol | motorway
+G: Uhr | die | Uhr | Pl. die Uhren | saat | clock, watch
+G: endlich | - | endlich | - | nihayet | finally
+G: Sicherheitskontrolle | die | Sicherheitskontrolle | Pl. die Sicherheitskontrollen | güvenlik kontrolü | security check
+G: Glück | das | Glück | - | şans, mutluluk | luck
+Q: tf | Ahmet fährt mit dem Taxi zum Flughafen. | 1
+Q: tf | Der Bus fährt alle fünfzehn Minuten. | 0
+Q: tf | Ahmet verpasst seinen Flug. | 1
+Q: mc | Warum steht der Bus zwanzig Minuten? | Es gibt einen Stau. ; Der Bus ist kaputt. ; Der Fahrer macht Pause. | 0
+Q: mc | Was kostet eine Fahrkarte? | 8,30 Euro ; 3,80 Euro ; 1,80 Euro | 1
+
+# a1-047 | Familie | Hochzeit im Sommer
+DE: Im Juni heiraten Sarah und David. Die Hochzeit ist in einem alten Schloss am Rhein. Sie laden achtzig Gäste ein. Sarahs Schwester ist die Trauzeugin. ||| Am Morgen regnet es, aber am Nachmittag scheint die Sonne. Nach der Trauung gibt es Sekt und Kuchen im Garten. Am Abend essen alle zusammen, und dann tanzen sie bis zwei Uhr nachts. Davids Opa hält eine lustige Rede. Sarah sagt: „Das war der schönste Tag in meinem Leben.“
+TR: Haziranda Sarah ve David evleniyor. Düğün Ren kıyısındaki eski bir şatoda. Seksen misafir davet ediyorlar. Sarah'nın kız kardeşi nikâh şahidi. ||| Sabah yağmur yağıyor ama öğleden sonra güneş açıyor. Nikâhtan sonra bahçede köpüklü şarap ve pasta var. Akşam hep birlikte yemek yiyorlar, sonra gece saat ikiye kadar dans ediyorlar. David'in dedesi komik bir konuşma yapıyor. Sarah diyor ki: "Hayatımın en güzel günüydü."
+EN: In June Sarah and David are getting married. The wedding is in an old castle on the Rhine. They invite eighty guests. Sarah's sister is the maid of honour. ||| In the morning it rains, but in the afternoon the sun shines. After the ceremony there is sparkling wine and cake in the garden. In the evening everyone eats together, and then they dance until two in the morning. David's grandpa gives a funny speech. Sarah says: "That was the most beautiful day of my life."
+G: heiraten | - | heiraten | er heiratet · hat geheiratet | evlenmek | to get married
+G: Hochzeit | die | Hochzeit | Pl. die Hochzeiten | düğün | wedding
+G: Schloss | das | Schloss | Pl. die Schlösser | şato, saray | castle
+G: laden | - | einladen | er lädt ein · hat eingeladen | davet etmek | to invite
+G: tanzen | - | tanzen | er tanzt · hat getanzt | dans etmek | to dance
+G: lustige | - | lustig | - | komik, eğlenceli | funny
+G: Rede | die | Rede | Pl. die Reden | konuşma, nutuk | speech
+G: Leben | das | Leben | Pl. die Leben | hayat | life
+Q: tf | Die Hochzeit ist im Juli. | 1
+Q: tf | Am Nachmittag scheint die Sonne. | 0
+Q: tf | Sie laden achtzig Gäste ein. | 0
+Q: mc | Wer hält eine lustige Rede? | Davids Opa ; Sarahs Schwester ; Der Koch | 0
+Q: mc | Bis wann tanzen die Gäste? | Bis Mitternacht ; Bis zwei Uhr nachts ; Bis zum Morgen | 1
+
+# a1-048 | Natur | Mülltrennung
+DE: Kenji kommt aus Japan und wohnt seit einer Woche in Freiburg. In seinem Haus gibt es vier Mülltonnen: Gelb, Blau, Braun und Schwarz. Kenji weiß nicht, was wohin gehört. ||| Seine Nachbarin erklärt es ihm: „In die gelbe Tonne kommt Plastik, in die blaue Papier. In die braune kommt Bio-Müll, zum Beispiel Obst und Gemüse. Der Rest kommt in die schwarze.“ Glasflaschen bringt man zum Container an der Straße. Kenji lacht: „In Japan ist es noch komplizierter!“
+TR: Kenji Japon ve bir haftadır Freiburg'da yaşıyor. Binasında dört çöp kutusu var: sarı, mavi, kahverengi ve siyah. Kenji neyin nereye gittiğini bilmiyor. ||| Komşusu ona açıklıyor: "Sarı kutuya plastik, maviye kâğıt atılır. Kahverengiye organik atık gider, mesela meyve ve sebze. Gerisi siyaha gider." Cam şişeler sokaktaki konteynere götürülür. Kenji gülüyor: "Japonya'da daha da karmaşık!"
+EN: Kenji comes from Japan and has been living in Freiburg for a week. In his building there are four bins: yellow, blue, brown and black. Kenji doesn't know what goes where. ||| His neighbour explains: "Plastic goes in the yellow bin, paper in the blue one. Organic waste goes in the brown one, for example fruit and vegetables. The rest goes in the black one." Glass bottles are taken to the container on the street. Kenji laughs: "In Japan it's even more complicated!"
+G: Mülltonnen | die | Mülltonne | Pl. die Mülltonnen | çöp kutusu | bin
+G: gehört | - | gehören | es gehört · hat gehört | ait olmak | to belong
+G: erklärt | - | erklären | er erklärt · hat erklärt | açıklamak | to explain
+G: Plastik | das | Plastik | - | plastik | plastic
+G: Papier | das | Papier | Pl. die Papiere | kâğıt | paper
+G: Glasflaschen | die | Glasflasche | Pl. die Glasflaschen | cam şişe | glass bottle
+G: komplizierter | - | kompliziert | komplizierter | karmaşık | complicated
+Q: tf | Kenji wohnt seit einem Jahr in Freiburg. | 1
+Q: tf | Papier kommt in die blaue Tonne. | 0
+Q: tf | Glasflaschen kommen in die gelbe Tonne. | 1
+Q: mc | Was kommt in die braune Tonne? | Bio-Müll wie Obst und Gemüse ; Plastik ; Papier | 0
+Q: mc | Wer erklärt Kenji die Mülltrennung? | Sein Chef ; Seine Nachbarin ; Ein Freund aus Japan | 1
+
+# a1-049 | Einkaufen | Online oder im Laden?
+DE: Max kauft fast alles online: Kleidung, Bücher und sogar Lebensmittel. Das ist bequem, und er spart Zeit. Seine Freundin Nora kauft lieber im Laden. ||| Nora sagt: „Im Laden kann ich die Sachen anfassen und anprobieren. Und ich spreche mit den Verkäufern.“ Letzte Woche hat Max eine Hose bestellt, aber sie war zu klein. Er musste sie zurückschicken, das hat eine Woche gedauert. Jetzt sagt Max: „Kleidung kaufe ich ab jetzt im Laden. Aber Bücher bestelle ich weiter online.“
+TR: Max neredeyse her şeyi internetten alıyor: giysi, kitap ve hatta yiyecek. Bu rahat ve zaman kazandırıyor. Kız arkadaşı Nora ise mağazadan almayı tercih ediyor. ||| Nora diyor ki: "Mağazada eşyalara dokunabiliyor ve deneyebiliyorum. Satıcılarla da konuşuyorum." Geçen hafta Max bir pantolon sipariş etti ama küçük geldi. Geri göndermesi gerekti, bu bir hafta sürdü. Şimdi Max diyor ki: "Giysiyi bundan sonra mağazadan alacağım. Ama kitapları internetten sipariş etmeye devam edeceğim."
+EN: Max buys almost everything online: clothes, books and even groceries. It's convenient and saves time. His girlfriend Nora prefers to shop in stores. ||| Nora says: "In a shop I can touch things and try them on. And I talk to the sales staff." Last week Max ordered some trousers, but they were too small. He had to send them back; that took a week. Now Max says: "From now on I'll buy clothes in the shop. But I'll keep ordering books online."
+G: online | - | online | - | çevrimiçi, internetten | online
+G: Lebensmittel | das | Lebensmittel | Pl. die Lebensmittel | yiyecek, gıda | food, groceries
+G: Laden | der | Laden | Pl. die Läden | mağaza, dükkân | shop
+G: anprobieren | - | anprobieren | er probiert an · hat anprobiert | (giysi) denemek | to try on
+G: Hose | die | Hose | Pl. die Hosen | pantolon | trousers
+G: klein | - | klein | - | küçük | small
+G: zurückschicken | - | zurückschicken | er schickt zurück · hat zurückgeschickt | geri göndermek | to send back
+Q: tf | Max kauft fast alles online. | 0
+Q: tf | Nora kauft auch alles online. | 1
+Q: tf | Die Hose war zu groß. | 1
+Q: mc | Was kauft Max in Zukunft im Laden? | Kleidung ; Bücher ; Lebensmittel | 0
+Q: mc | Wie lange hat das Zurückschicken gedauert? | Einen Tag ; Eine Woche ; Einen Monat | 1
+
+# a1-050 | Lernen | In der Bibliothek
+DE: Jeden Dienstag geht Amir in die Stadtbibliothek. Die Bibliothek ist modern und hell. Man kann dort Bücher, Filme und Spiele ausleihen. Der Ausweis kostet nur zehn Euro im Jahr. ||| Heute leiht Amir ein Buch auf Deutsch für Anfänger aus. Es ist ein Krimi mit nur hundert Seiten. Er setzt sich in die Leseecke und liest das erste Kapitel. Er versteht nicht alle Wörter, aber die Geschichte ist spannend. In drei Wochen muss er das Buch zurückgeben.
+TR: Amir her salı şehir kütüphanesine gidiyor. Kütüphane modern ve aydınlık. Orada kitap, film ve oyun ödünç alınabiliyor. Kart yılda sadece on Euro. ||| Bugün Amir yeni başlayanlar için Almanca bir kitap ödünç alıyor. Sadece yüz sayfalık bir polisiye. Okuma köşesine oturup ilk bölümü okuyor. Bütün kelimeleri anlamıyor ama hikâye heyecanlı. Kitabı üç hafta içinde geri vermesi gerekiyor.
+EN: Every Tuesday Amir goes to the city library. The library is modern and bright. You can borrow books, films and games there. The library card costs only ten euros a year. ||| Today Amir borrows a book in German for beginners. It's a crime novel with only a hundred pages. He sits down in the reading corner and reads the first chapter. He doesn't understand every word, but the story is exciting. He has to return the book in three weeks.
+G: Stadtbibliothek | die | Stadtbibliothek | Pl. die Stadtbibliotheken | şehir kütüphanesi | city library
+G: ausleihen | - | ausleihen | er leiht aus · hat ausgeliehen | ödünç almak | to borrow
+G: Ausweis | der | Ausweis | Pl. die Ausweise | kart, kimlik | card, ID
+G: Anfänger | der | Anfänger | Pl. die Anfänger | yeni başlayan | beginner
+G: Krimi | der | Krimi | Pl. die Krimis | polisiye | crime novel
+G: Seiten | die | Seite | Pl. die Seiten | sayfa | page
+G: Kapitel | das | Kapitel | Pl. die Kapitel | bölüm | chapter
+G: zurückgeben | - | zurückgeben | er gibt zurück · hat zurückgegeben | geri vermek | to return
+Q: tf | Amir geht jeden Dienstag in die Bibliothek. | 0
+Q: tf | Der Ausweis kostet hundert Euro im Jahr. | 1
+Q: tf | Amir versteht alle Wörter. | 1
+Q: mc | Was für ein Buch leiht Amir aus? | Einen Krimi für Anfänger ; Ein Kochbuch ; Ein Wörterbuch | 0
+Q: mc | Wann muss Amir das Buch zurückgeben? | In einer Woche ; In drei Wochen ; In einem Monat | 1

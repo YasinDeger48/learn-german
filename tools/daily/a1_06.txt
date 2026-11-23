@@ -1,0 +1,169 @@
+# a1-051 | Alltag | Der Schlüssel
+DE: Am Freitagabend kommt Nina nach Hause. Sie sucht ihren Schlüssel in der Tasche. Er ist nicht da! Sie sucht in der Jacke und im Rucksack. Nichts. ||| Nina ruft ihren Mitbewohner an, aber er ist im Urlaub. Dann ruft sie den Schlüsseldienst an. Das kostet 150 Euro! Plötzlich klingelt ihr Handy. Es ist das Café von heute Mittag: „Wir haben Ihren Schlüssel gefunden.“ Nina sagt den Schlüsseldienst ab und holt den Schlüssel im Café ab. Sie bekommt sogar einen Tee.
+TR: Cuma akşamı Nina eve geliyor. Çantasında anahtarını arıyor. Yok! Montunda ve sırt çantasında arıyor. Hiçbir şey. ||| Nina ev arkadaşını arıyor ama o tatilde. Sonra çilingiri arıyor. Bu 150 Euro tutuyor! Birden telefonu çalıyor. Arayan, öğlen gittiği kafe: "Anahtarınızı bulduk." Nina çilingiri iptal ediyor ve anahtarı kafeden alıyor. Üstelik bir de çay ikram ediliyor.
+EN: On Friday evening Nina comes home. She looks for her key in her bag. It isn't there! She looks in her jacket and in her backpack. Nothing. ||| Nina calls her flatmate, but he is on holiday. Then she calls a locksmith. That costs 150 euros! Suddenly her phone rings. It's the café from lunchtime: "We've found your key." Nina cancels the locksmith and picks up the key at the café. She even gets a cup of tea.
+G: Schlüssel | der | Schlüssel | Pl. die Schlüssel | anahtar | key
+G: Rucksack | der | Rucksack | Pl. die Rucksäcke | sırt çantası | backpack
+G: Schlüsseldienst | der | Schlüsseldienst | Pl. die Schlüsseldienste | çilingir | locksmith
+G: plötzlich | - | plötzlich | - | birden | suddenly
+G: gefunden | - | finden | er findet · hat gefunden | bulmak | to find
+G: sagt | - | absagen | er sagt ab · hat abgesagt | iptal etmek | to cancel
+G: sogar | - | sogar | - | hatta, üstelik | even
+Q: tf | Nina findet den Schlüssel in der Jacke. | 1
+Q: tf | Der Mitbewohner ist im Urlaub. | 0
+Q: tf | Der Schlüssel ist im Café. | 0
+Q: mc | Was kostet der Schlüsseldienst? | 150 Euro ; 50 Euro ; 15 Euro | 0
+Q: mc | Was bekommt Nina im Café? | Einen Kuchen ; Einen Tee ; Eine Pizza | 1
+
+# a1-052 | Wetter | Der erste Schnee
+DE: Heute Morgen ist alles weiß. In der Nacht hat es zum ersten Mal geschneit. Die Kinder von Familie Kaya sind sehr glücklich. Sie ziehen schnell Mütze, Schal und Handschuhe an. ||| Im Garten bauen sie einen Schneemann. Er hat eine Karotte als Nase und zwei Steine als Augen. Dann machen sie eine Schneeballschlacht mit den Nachbarskindern. Papa muss den Weg vor dem Haus frei machen. Am Nachmittag trinken alle heiße Schokolade. Draußen schneit es weiter.
+TR: Bu sabah her yer bembeyaz. Gece ilk kez kar yağdı. Kaya ailesinin çocukları çok mutlu. Hemen bere, atkı ve eldivenlerini giyiyorlar. ||| Bahçede bir kardan adam yapıyorlar. Burnu bir havuç, gözleri iki taş. Sonra komşu çocuklarla kartopu savaşı yapıyorlar. Babaları evin önündeki yolu temizlemek zorunda. Öğleden sonra herkes sıcak çikolata içiyor. Dışarıda kar yağmaya devam ediyor.
+EN: This morning everything is white. During the night it snowed for the first time. The Kaya family's children are very happy. They quickly put on their hats, scarves and gloves. ||| In the garden they build a snowman. He has a carrot for a nose and two stones for eyes. Then they have a snowball fight with the neighbours' children. Dad has to clear the path in front of the house. In the afternoon everyone drinks hot chocolate. Outside it keeps snowing.
+G: geschneit | - | schneien | es schneit · hat geschneit | kar yağmak | to snow
+G: Mütze | die | Mütze | Pl. die Mützen | bere | hat, cap
+G: Schal | der | Schal | Pl. die Schals | atkı | scarf
+G: Handschuhe | der | Handschuh | Pl. die Handschuhe | eldiven | glove
+G: Schneemann | der | Schneemann | Pl. die Schneemänner | kardan adam | snowman
+G: Nase | die | Nase | Pl. die Nasen | burun | nose
+G: Augen | das | Auge | Pl. die Augen | göz | eye
+Q: tf | In der Nacht hat es geregnet. | 1
+Q: tf | Die Kinder bauen einen Schneemann. | 0
+Q: tf | Der Schneemann hat eine Tomate als Nase. | 1
+Q: mc | Was muss Papa machen? | Den Weg frei machen ; Kochen ; Einkaufen | 0
+Q: mc | Was trinken alle am Nachmittag? | Tee ; Heiße Schokolade ; Kaffee | 1
+
+# a1-053 | Arbeit | Mein Arbeitsweg
+DE: Ewa wohnt in Potsdam und arbeitet in Berlin. Jeden Morgen fährt sie zuerst zehn Minuten mit dem Fahrrad zum Bahnhof. Dann nimmt sie die S-Bahn. Die Fahrt dauert vierzig Minuten. ||| In der S-Bahn liest sie Nachrichten oder lernt mit einer App Spanisch. Manchmal trifft sie ihre Kollegin Anja. Dann reden sie über die Arbeit. Ewa findet den Arbeitsweg nicht schlimm. „Im Auto stehe ich nur im Stau“, sagt sie. „In der Bahn habe ich Zeit für mich.“
+TR: Ewa Potsdam'da yaşıyor ve Berlin'de çalışıyor. Her sabah önce on dakika bisikletle istasyona gidiyor. Sonra banliyö trenine biniyor. Yolculuk kırk dakika sürüyor. ||| Trende haberleri okuyor ya da bir uygulamayla İspanyolca öğreniyor. Bazen iş arkadaşı Anja ile karşılaşıyor. O zaman iş hakkında konuşuyorlar. Ewa iş yolunu kötü bulmuyor. "Arabada sadece trafikte beklerim," diyor. "Trende kendime vakit ayırıyorum."
+EN: Ewa lives in Potsdam and works in Berlin. Every morning she first cycles for ten minutes to the station. Then she takes the S-Bahn. The journey takes forty minutes. ||| On the train she reads the news or learns Spanish with an app. Sometimes she meets her colleague Anja. Then they talk about work. Ewa doesn't mind the commute. "In the car I just sit in traffic," she says. "On the train I have time for myself."
+G: Arbeitsweg | der | Arbeitsweg | Pl. die Arbeitswege | işe gidiş yolu | commute
+G: zuerst | - | zuerst | - | önce | first
+G: dauert | - | dauern | es dauert · hat gedauert | sürmek | to last, to take
+G: manchmal | - | manchmal | - | bazen | sometimes
+G: Kollegin | die | Kollegin | Pl. die Kolleginnen | (kadın) iş arkadaşı | (female) colleague
+G: reden | - | reden | er redet · hat geredet | konuşmak | to talk
+G: schlimm | - | schlimm | - | kötü | bad
+Q: tf | Ewa wohnt in Berlin. | 1
+Q: tf | Ewa fährt zuerst mit dem Fahrrad. | 0
+Q: tf | Die Fahrt mit der S-Bahn dauert zehn Minuten. | 1
+Q: mc | Was lernt Ewa in der S-Bahn? | Spanisch ; Englisch ; Französisch | 0
+Q: mc | Warum fährt Ewa nicht mit dem Auto? | Sie hat kein Auto. ; Im Auto steht sie im Stau. ; Das Auto ist kaputt. | 1
+
+# a1-054 | Freizeit | Der Kochkurs
+DE: Oliver kann nicht gut kochen. Er isst oft Fast Food. Seine Schwester schenkt ihm zum Geburtstag einen Kochkurs. Der Kurs ist an vier Abenden, immer mittwochs. ||| Am ersten Abend lernen sie Pasta mit Tomatensoße. Der Koch zeigt, wie man Knoblauch und Zwiebeln schneidet. Oliver schneidet sich fast in den Finger! Am letzten Abend kocht er ein ganzes Menü: Suppe, Fisch mit Reis und Obstsalat. Er lädt seine Schwester ein. Sie sagt: „Lecker! Du bist ein Profi.“
+TR: Oliver iyi yemek yapamıyor. Sık sık fast food yiyor. Kız kardeşi doğum gününde ona bir yemek kursu hediye ediyor. Kurs dört akşam, hep çarşamba günleri. ||| İlk akşam domates soslu makarna öğreniyorlar. Aşçı sarımsak ve soğanın nasıl doğrandığını gösteriyor. Oliver neredeyse parmağını kesiyor! Son akşam bütün bir menü pişiriyor: çorba, pilavlı balık ve meyve salatası. Kız kardeşini davet ediyor. Kardeşi diyor ki: "Çok lezzetli! Profesyonel olmuşsun."
+EN: Oliver can't cook very well. He often eats fast food. For his birthday his sister gives him a cooking course. The course is on four evenings, always on Wednesdays. ||| On the first evening they learn pasta with tomato sauce. The chef shows them how to chop garlic and onions. Oliver nearly cuts his finger! On the last evening he cooks a whole menu: soup, fish with rice and fruit salad. He invites his sister. She says: "Delicious! You're a pro."
+G: Kochkurs | der | Kochkurs | Pl. die Kochkurse | yemek kursu | cooking course
+G: schenkt | - | schenken | er schenkt · hat geschenkt | hediye etmek | to give (as a gift)
+G: Koch | der | Koch | Pl. die Köche | aşçı | cook, chef
+G: Knoblauch | der | Knoblauch | - | sarımsak | garlic
+G: Finger | der | Finger | Pl. die Finger | parmak | finger
+G: Reis | der | Reis | - | pirinç, pilav | rice
+G: lecker | - | lecker | - | lezzetli | delicious
+Q: tf | Oliver kocht sehr gut. | 1
+Q: tf | Der Kurs ist immer mittwochs. | 0
+Q: tf | Oliver schenkt sich den Kurs selbst. | 1
+Q: mc | Was lernen sie am ersten Abend? | Pasta mit Tomatensoße ; Fisch mit Reis ; Obstsalat | 0
+Q: mc | Wen lädt Oliver am Ende ein? | Seinen Chef ; Seine Schwester ; Den Koch | 1
+
+# a1-055 | Wohnen | Die WG-Besichtigung
+DE: Lucas sucht ein Zimmer in einer WG in Münster. Er findet eine Anzeige: „Zimmer frei, 18 Quadratmeter, 420 Euro warm.“ Am Montag besichtigt er das Zimmer. ||| In der WG wohnen schon zwei Personen: Hanna studiert Medizin, und Jakob ist Informatiker. Die Küche ist groß, aber das Bad ist klein. Sie fragen Lucas: „Kochst du gern? Bist du ordentlich?“ Lucas sagt: „Ja, ich koche gern, und ich putze regelmäßig.“ Am Abend schreibt Hanna: „Willkommen in der WG!“
+TR: Lucas Münster'de bir öğrenci evinde oda arıyor. Bir ilan buluyor: "Boş oda, 18 metrekare, 420 Euro (ısınma dahil)." Pazartesi günü odayı görmeye gidiyor. ||| Evde zaten iki kişi oturuyor: Hanna tıp okuyor, Jakob ise bilgisayar mühendisi. Mutfak büyük ama banyo küçük. Lucas'a soruyorlar: "Yemek yapmayı sever misin? Düzenli misin?" Lucas diyor ki: "Evet, yemek yapmayı severim ve düzenli temizlik yaparım." Akşam Hanna yazıyor: "Eve hoş geldin!"
+EN: Lucas is looking for a room in a shared flat in Münster. He finds an ad: "Room available, 18 square metres, 420 euros including bills." On Monday he views the room. ||| Two people already live in the flat: Hanna studies medicine, and Jakob is a computer scientist. The kitchen is big, but the bathroom is small. They ask Lucas: "Do you like cooking? Are you tidy?" Lucas says: "Yes, I like cooking, and I clean regularly." In the evening Hanna writes: "Welcome to the flat!"
+G: WG | die | WG | Pl. die WGs | öğrenci evi, paylaşımlı ev | shared flat
+G: Quadratmeter | der | Quadratmeter | Pl. die Quadratmeter | metrekare | square metre
+G: besichtigt | - | besichtigen | er besichtigt · hat besichtigt | gezmek, görmeye gitmek | to view, to visit
+G: studiert | - | studieren | er studiert · hat studiert | (üniversitede) okumak | to study
+G: Bad | das | Bad | Pl. die Bäder | banyo | bathroom
+G: ordentlich | - | ordentlich | - | düzenli | tidy
+G: regelmäßig | - | regelmäßig | - | düzenli olarak | regularly
+Q: tf | Das Zimmer hat 18 Quadratmeter. | 0
+Q: tf | In der WG wohnen schon drei Personen. | 1
+Q: tf | Das Bad ist groß. | 1
+Q: mc | Was studiert Hanna? | Medizin ; Informatik ; Deutsch | 0
+Q: mc | Was kostet das Zimmer? | 240 Euro ; 420 Euro ; 480 Euro | 1
+
+# a1-056 | Technik | Das WLAN funktioniert nicht
+DE: Am Montag möchte Jana von zu Hause arbeiten. Aber das WLAN funktioniert nicht. Der Router blinkt rot. Jana startet den Router neu. Es hilft nicht. ||| Sie ruft die Hotline an. Eine Stimme sagt: „Bitte warten Sie. Sie sind Nummer acht.“ Nach zwanzig Minuten spricht sie mit einem Mitarbeiter. Er sagt: „In Ihrer Straße gibt es eine Störung. Am Nachmittag ist alles wieder okay.“ Jana nimmt ihren Laptop und arbeitet im Café. Dort ist das WLAN kostenlos.
+TR: Pazartesi günü Jana evden çalışmak istiyor. Ama internet çalışmıyor. Modem kırmızı yanıp sönüyor. Jana modemi yeniden başlatıyor. İşe yaramıyor. ||| Müşteri hattını arıyor. Bir ses diyor ki: "Lütfen bekleyin. Sıranız sekiz." Yirmi dakika sonra bir çalışanla konuşuyor. Çalışan diyor ki: "Sokağınızda bir arıza var. Öğleden sonra her şey yine düzelecek." Jana dizüstü bilgisayarını alıp kafede çalışıyor. Orada internet ücretsiz.
+EN: On Monday Jana wants to work from home. But the Wi-Fi isn't working. The router is flashing red. Jana restarts the router. It doesn't help. ||| She calls the hotline. A voice says: "Please wait. You are number eight." After twenty minutes she talks to an employee. He says: "There is a fault in your street. Everything will be fine again in the afternoon." Jana takes her laptop and works in a café. There the Wi-Fi is free.
+G: WLAN | das | WLAN | - | kablosuz internet | Wi-Fi
+G: Router | der | Router | Pl. die Router | modem | router
+G: Hotline | die | Hotline | Pl. die Hotlines | müşteri hattı | hotline
+G: Stimme | die | Stimme | Pl. die Stimmen | ses | voice
+G: warten | - | warten | er wartet · hat gewartet | beklemek | to wait
+G: Störung | die | Störung | Pl. die Störungen | arıza | fault, outage
+G: kostenlos | - | kostenlos | - | ücretsiz | free
+Q: tf | Der Router blinkt grün. | 1
+Q: tf | Jana wartet zwanzig Minuten an der Hotline. | 0
+Q: tf | Das WLAN ist sofort wieder okay. | 1
+Q: mc | Was ist das Problem? | Eine Störung in der Straße ; Der Laptop ist kaputt. ; Jana hat nicht bezahlt. | 0
+Q: mc | Wo arbeitet Jana am Ende? | Im Büro ; Im Café ; In der Bibliothek | 1
+
+# a1-057 | Gesundheit | Mehr Wasser trinken
+DE: Paula hat oft Kopfschmerzen und ist müde. Ihre Ärztin fragt: „Wie viel Wasser trinken Sie am Tag?“ Paula überlegt: Morgens trinkt sie Kaffee, mittags eine Cola, abends Tee. Wasser trinkt sie fast nie. ||| Die Ärztin sagt: „Trinken Sie jeden Tag zwei Liter Wasser.“ Paula kauft eine große Flasche für das Büro. Auf dem Handy hat sie jetzt eine App. Jede Stunde erinnert die App sie: „Trink ein Glas Wasser!“ Nach zwei Wochen fühlt sich Paula viel besser.
+TR: Paula'nın sık sık başı ağrıyor ve yorgun oluyor. Doktoru soruyor: "Günde ne kadar su içiyorsunuz?" Paula düşünüyor: sabahları kahve, öğlen bir kola, akşam çay içiyor. Neredeyse hiç su içmiyor. ||| Doktor diyor ki: "Her gün iki litre su için." Paula ofis için büyük bir şişe alıyor. Telefonunda artık bir uygulama var. Uygulama her saat ona hatırlatıyor: "Bir bardak su iç!" İki hafta sonra Paula kendini çok daha iyi hissediyor.
+EN: Paula often has headaches and is tired. Her doctor asks: "How much water do you drink a day?" Paula thinks: in the morning she drinks coffee, at lunchtime a cola, in the evening tea. She almost never drinks water. ||| The doctor says: "Drink two litres of water every day." Paula buys a big bottle for the office. She now has an app on her phone. Every hour the app reminds her: "Drink a glass of water!" After two weeks Paula feels much better.
+G: Wasser | das | Wasser | - | su | water
+G: überlegt | - | überlegen | er überlegt · hat überlegt | düşünmek | to think about
+G: nie | - | nie | - | asla, hiç | never
+G: Liter | der | Liter | Pl. die Liter | litre | litre
+G: Flasche | die | Flasche | Pl. die Flaschen | şişe | bottle
+G: Stunde | die | Stunde | Pl. die Stunden | saat (süre) | hour
+G: Glas | das | Glas | Pl. die Gläser | bardak, cam | glass
+Q: tf | Paula trinkt viel Wasser. | 1
+Q: tf | Paula hat oft Kopfschmerzen. | 0
+Q: tf | Die App erinnert Paula jeden Tag einmal. | 1
+Q: mc | Wie viel Wasser soll Paula trinken? | Zwei Liter am Tag ; Einen Liter am Tag ; Ein Glas am Tag | 0
+Q: mc | Wie fühlt sich Paula nach zwei Wochen? | Schlechter ; Viel besser ; Genauso | 1
+
+# a1-058 | Reisen | Im Hotel einchecken
+DE: Herr und Frau Tanaka kommen um zweiundzwanzig Uhr im Hotel in Wien an. Sie sind müde nach der langen Reise. An der Rezeption sagt Herr Tanaka: „Guten Abend, wir haben ein Doppelzimmer für drei Nächte reserviert.“ ||| Der Rezeptionist sucht im Computer. „Ja, Familie Tanaka. Zimmer 412, im vierten Stock. Das Frühstück ist von 6:30 bis 10 Uhr.“ Er gibt ihnen zwei Karten für die Tür. Das Zimmer ist ruhig und hat einen Blick auf die Stadt. Frau Tanaka sagt: „Wunderbar!“
+TR: Bay ve Bayan Tanaka saat yirmi ikide Viyana'daki otele varıyor. Uzun yolculuktan sonra yorgunlar. Resepsiyonda Bay Tanaka diyor ki: "İyi akşamlar, üç gecelik bir çift kişilik oda ayırtmıştık." ||| Resepsiyonist bilgisayarda arıyor. "Evet, Tanaka ailesi. Dördüncü katta 412 numaralı oda. Kahvaltı 6.30'dan 10'a kadar." Onlara kapı için iki kart veriyor. Oda sessiz ve şehir manzaralı. Bayan Tanaka "Harika!" diyor.
+EN: Mr and Mrs Tanaka arrive at the hotel in Vienna at ten pm. They are tired after the long journey. At reception Mr Tanaka says: "Good evening, we have reserved a double room for three nights." ||| The receptionist searches on the computer. "Yes, the Tanaka family. Room 412, on the fourth floor. Breakfast is from 6:30 to 10." He gives them two key cards for the door. The room is quiet and has a view of the city. Mrs Tanaka says: "Wonderful!"
+G: Reise | die | Reise | Pl. die Reisen | yolculuk, seyahat | journey, trip
+G: Doppelzimmer | das | Doppelzimmer | Pl. die Doppelzimmer | çift kişilik oda | double room
+G: Nächte | die | Nacht | Pl. die Nächte | gece | night
+G: reserviert | - | reservieren | er reserviert · hat reserviert | rezervasyon yapmak | to reserve
+G: Tür | die | Tür | Pl. die Türen | kapı | door
+G: Blick | der | Blick | Pl. die Blicke | manzara, bakış | view
+G: wunderbar | - | wunderbar | - | harika | wonderful
+Q: tf | Die Tanakas kommen am Morgen an. | 1
+Q: tf | Sie haben ein Doppelzimmer reserviert. | 0
+Q: tf | Das Zimmer ist im zweiten Stock. | 1
+Q: mc | Wie lange bleiben die Tanakas? | Drei Nächte ; Eine Nacht ; Eine Woche | 0
+Q: mc | Was gibt der Rezeptionist ihnen? | Einen Schlüssel ; Zwei Karten für die Tür ; Einen Stadtplan | 1
+
+# a1-059 | Familie | Opa lernt das Smartphone
+DE: Opa Heinz ist 78 Jahre alt. Zu Weihnachten bekommt er ein Smartphone. Er findet es sehr kompliziert. Seine Enkelin Marie hilft ihm jeden Samstag. ||| Zuerst lernt er telefonieren und Fotos machen. Dann zeigt Marie ihm, wie man Nachrichten schreibt. Opa schreibt sehr langsam, mit einem Finger. Aber nach einem Monat schickt er jeden Tag Fotos von seinem Garten an die Familie. Jetzt fragt er Marie: „Wie funktioniert das mit den Videos?“
+TR: Heinz Dede 78 yaşında. Noel'de bir akıllı telefon hediye alıyor. Telefonu çok karmaşık buluyor. Torunu Marie her cumartesi ona yardım ediyor. ||| Önce telefon etmeyi ve fotoğraf çekmeyi öğreniyor. Sonra Marie ona mesaj yazmayı gösteriyor. Dede tek parmakla çok yavaş yazıyor. Ama bir ay sonra her gün bahçesinin fotoğraflarını aileye gönderiyor. Şimdi Marie'ye soruyor: "Videolar nasıl oluyor?"
+EN: Grandpa Heinz is 78 years old. For Christmas he gets a smartphone. He finds it very complicated. His granddaughter Marie helps him every Saturday. ||| First he learns to make calls and take photos. Then Marie shows him how to write messages. Grandpa types very slowly, with one finger. But after a month he sends photos of his garden to the family every day. Now he asks Marie: "How do videos work?"
+G: Weihnachten | das | Weihnachten | - | Noel | Christmas
+G: Smartphone | das | Smartphone | Pl. die Smartphones | akıllı telefon | smartphone
+G: Enkelin | die | Enkelin | Pl. die Enkelinnen | kız torun | granddaughter
+G: Fotos | das | Foto | Pl. die Fotos | fotoğraf | photo
+G: langsam | - | langsam | - | yavaş | slow(ly)
+G: Monat | der | Monat | Pl. die Monate | ay | month
+G: Videos | das | Video | Pl. die Videos | video | video
+Q: tf | Opa Heinz ist 87 Jahre alt. | 1
+Q: tf | Marie hilft ihm jeden Samstag. | 0
+Q: tf | Opa schreibt sehr schnell. | 1
+Q: mc | Was schickt Opa jeden Tag an die Familie? | Fotos von seinem Garten ; Lange Briefe ; Videos | 0
+Q: mc | Wann bekommt Opa das Smartphone? | Zum Geburtstag ; Zu Weihnachten ; Zu Ostern | 1
+
+# a1-060 | Lernen | Ein Jahr in Deutschland
+DE: Vor einem Jahr ist Lucía aus Mexiko nach Hannover gekommen. Am Anfang war alles neu: die Sprache, das Essen, das Wetter. Sie hat nur „Hallo“ und „Danke“ verstanden. ||| Dann hat sie einen Deutschkurs gemacht und viel geübt. Sie hat neue Freunde gefunden und arbeitet jetzt in einem Kindergarten. Das Wetter findet sie immer noch zu kalt, aber das Brot liebt sie. Heute spricht Lucía schon gut Deutsch. Ihr nächstes Ziel: die B1-Prüfung im Herbst.
+TR: Bir yıl önce Lucía Meksika'dan Hannover'e geldi. Başta her şey yeniydi: dil, yemek, hava. Sadece "Merhaba" ve "Teşekkürler"i anlıyordu. ||| Sonra bir Almanca kursuna gitti ve çok pratik yaptı. Yeni arkadaşlar edindi ve şimdi bir anaokulunda çalışıyor. Havayı hâlâ çok soğuk buluyor ama ekmeğe bayılıyor. Bugün Lucía artık iyi Almanca konuşuyor. Bir sonraki hedefi: sonbaharda B1 sınavı.
+EN: A year ago Lucía came to Hanover from Mexico. At first everything was new: the language, the food, the weather. She only understood "Hallo" and "Danke". ||| Then she took a German course and practised a lot. She has made new friends and now works in a nursery. She still finds the weather too cold, but she loves the bread. Today Lucía already speaks good German. Her next goal: the B1 exam in the autumn.
+G: Sprache | die | Sprache | Pl. die Sprachen | dil | language
+G: verstanden | - | verstehen | er versteht · hat verstanden | anlamak | to understand
+G: geübt | - | üben | er übt · hat geübt | pratik yapmak, alıştırma yapmak | to practise
+G: Kindergarten | der | Kindergarten | Pl. die Kindergärten | anaokulu | nursery, kindergarten
+G: liebt | - | lieben | er liebt · hat geliebt | sevmek | to love
+G: Ziel | das | Ziel | Pl. die Ziele | hedef | goal
+G: Herbst | der | Herbst | Pl. die Herbste | sonbahar | autumn
+Q: tf | Lucía kommt aus Spanien. | 1
+Q: tf | Am Anfang hat Lucía nur wenig verstanden. | 0
+Q: tf | Lucía findet das Wetter in Deutschland super. | 1
+Q: mc | Wo arbeitet Lucía jetzt? | In einem Kindergarten ; In einem Hotel ; In einer Bäckerei | 0
+Q: mc | Was ist Lucías nächstes Ziel? | Ein Urlaub in Mexiko ; Die B1-Prüfung ; Ein neuer Job | 1

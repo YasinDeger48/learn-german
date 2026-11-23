@@ -1,0 +1,170 @@
+# a1-021 | Freizeit | Ein Abend mit Serien
+DE: Am Sonntagabend bleibt Deniz zu Hause. Es ist kalt und dunkel. Er macht Popcorn und setzt sich auf das Sofa. Er schaut seine Lieblingsserie auf dem Tablet. ||| Die Serie ist spannend. Nach einer Folge schaut er noch eine und noch eine. Plötzlich ist es ein Uhr nachts! Am Montag muss er um sechs Uhr aufstehen. Morgens ist er sehr müde. Er sagt: „Heute Abend schaue ich nur eine Folge. Wirklich!“
+TR: Pazar akşamı Deniz evde kalıyor. Hava soğuk ve karanlık. Patlamış mısır yapıyor ve kanepeye oturuyor. Tabletinde en sevdiği diziyi izliyor. ||| Dizi heyecanlı. Bir bölümden sonra bir tane daha, bir tane daha izliyor. Birden saat gecenin biri oluyor! Pazartesi saat altıda kalkması gerekiyor. Sabah çok yorgun. "Bu akşam sadece bir bölüm izleyeceğim. Gerçekten!" diyor.
+EN: On Sunday evening Deniz stays at home. It is cold and dark. He makes popcorn and sits down on the sofa. He watches his favourite series on his tablet. ||| The series is exciting. After one episode he watches another and another. Suddenly it's one o'clock at night! On Monday he has to get up at six. In the morning he is very tired. He says: "Tonight I'll only watch one episode. Really!"
+G: dunkel | - | dunkel | - | karanlık | dark
+G: Sofa | das | Sofa | Pl. die Sofas | kanepe | sofa
+G: Lieblingsserie | die | Lieblingsserie | Pl. die Lieblingsserien | en sevilen dizi | favourite series
+G: Tablet | das | Tablet | Pl. die Tablets | tablet | tablet
+G: spannend | - | spannend | - | heyecanlı, sürükleyici | exciting
+G: Folge | die | Folge | Pl. die Folgen | bölüm | episode
+G: aufstehen | - | aufstehen | er steht auf · ist aufgestanden | kalkmak | to get up
+Q: tf | Deniz geht am Sonntagabend ins Kino. | 1
+Q: tf | Deniz schaut mehrere Folgen. | 0
+Q: tf | Am Montag ist Deniz sehr fit. | 1
+Q: mc | Wann muss Deniz am Montag aufstehen? | Um sechs Uhr ; Um acht Uhr ; Um ein Uhr | 0
+Q: mc | Wo schaut Deniz die Serie? | Im Fernsehen ; Auf dem Tablet ; Auf dem Handy | 1
+
+# a1-022 | Stadt | Mit dem Leihrad durch Berlin
+DE: Yasmin ist zum ersten Mal in Berlin. Sie möchte die Stadt mit dem Fahrrad sehen. An jeder Ecke stehen Leihräder. Sie lädt eine App herunter und mietet ein Rad für drei Stunden. ||| Zuerst fährt sie zum Brandenburger Tor, dann durch den Tiergarten. Dort macht sie eine Pause und isst ein Eis. Am Ende fährt sie zur East Side Gallery. Die Fahrt kostet nur neun Euro. Yasmin findet: Das Fahrrad ist das beste Verkehrsmittel in Berlin.
+TR: Yasmin ilk kez Berlin'de. Şehri bisikletle görmek istiyor. Her köşede kiralık bisikletler duruyor. Bir uygulama indiriyor ve üç saatliğine bir bisiklet kiralıyor. ||| Önce Brandenburg Kapısı'na, sonra Tiergarten'dan geçerek gidiyor. Orada mola verip dondurma yiyor. En sonunda East Side Gallery'ye gidiyor. Yolculuk sadece dokuz Euro tutuyor. Yasmin'e göre bisiklet Berlin'deki en iyi ulaşım aracı.
+EN: Yasmin is in Berlin for the first time. She wants to see the city by bike. There are rental bikes on every corner. She downloads an app and rents a bike for three hours. ||| First she rides to the Brandenburg Gate, then through the Tiergarten. There she takes a break and eats an ice cream. Finally she rides to the East Side Gallery. The ride costs only nine euros. Yasmin thinks the bike is the best way to get around Berlin.
+G: Fahrrad | das | Fahrrad | Pl. die Fahrräder | bisiklet | bicycle
+G: Ecke | die | Ecke | Pl. die Ecken | köşe | corner
+G: mietet | - | mieten | er mietet · hat gemietet | kiralamak | to rent
+G: Pause | die | Pause | Pl. die Pausen | mola, ara | break
+G: Eis | das | Eis | - | dondurma | ice cream
+G: Fahrt | die | Fahrt | Pl. die Fahrten | yolculuk, sürüş | ride, trip
+G: Verkehrsmittel | das | Verkehrsmittel | Pl. die Verkehrsmittel | ulaşım aracı | means of transport
+Q: tf | Yasmin wohnt schon lange in Berlin. | 1
+Q: tf | Sie mietet das Rad mit einer App. | 0
+Q: tf | Die Fahrt kostet neunzehn Euro. | 1
+Q: mc | Wo macht Yasmin eine Pause? | Im Tiergarten ; Am Brandenburger Tor ; In einem Museum | 0
+Q: mc | Wie lange mietet sie das Rad? | Eine Stunde ; Drei Stunden ; Einen Tag | 1
+
+# a1-023 | Essen | Wir kochen zusammen
+DE: Am Samstag kochen Lea und ihr Mitbewohner Omar zusammen. Omar kommt aus Marokko und kocht eine Tajine mit Gemüse und Hähnchen. Lea macht einen Salat und einen Nachtisch. ||| Zuerst gehen sie einkaufen. Sie brauchen Zwiebeln, Paprika, Zitronen und Gewürze. Zu Hause schneidet Lea das Gemüse. Omar zeigt ihr, wie man die Tajine macht. Das Essen braucht zwei Stunden, aber es riecht fantastisch. Um acht Uhr kommen drei Freunde. Alle essen viel und loben die Köche.
+TR: Cumartesi günü Lea ve ev arkadaşı Omar birlikte yemek yapıyor. Omar Faslı ve sebzeli tavuklu bir tajin pişiriyor. Lea bir salata ve bir tatlı yapıyor. ||| Önce alışverişe gidiyorlar. Soğan, biber, limon ve baharata ihtiyaçları var. Evde Lea sebzeleri doğruyor. Omar ona tajinin nasıl yapıldığını gösteriyor. Yemek iki saat sürüyor ama harika kokuyor. Saat sekizde üç arkadaş geliyor. Herkes bol bol yiyor ve aşçıları övüyor.
+EN: On Saturday Lea and her flatmate Omar cook together. Omar comes from Morocco and makes a tagine with vegetables and chicken. Lea makes a salad and a dessert. ||| First they go shopping. They need onions, peppers, lemons and spices. At home Lea cuts the vegetables. Omar shows her how to make the tagine. The meal takes two hours, but it smells fantastic. At eight o'clock three friends arrive. Everyone eats a lot and praises the cooks.
+G: Mitbewohner | der | Mitbewohner | Pl. die Mitbewohner | ev arkadaşı | flatmate
+G: Nachtisch | der | Nachtisch | Pl. die Nachtische | tatlı (yemek sonrası) | dessert
+G: Zwiebeln | die | Zwiebel | Pl. die Zwiebeln | soğan | onion
+G: Zitronen | die | Zitrone | Pl. die Zitronen | limon | lemon
+G: Gewürze | das | Gewürz | Pl. die Gewürze | baharat | spice
+G: schneidet | - | schneiden | er schneidet · hat geschnitten | kesmek, doğramak | to cut
+G: riecht | - | riechen | es riecht · hat gerochen | kokmak | to smell
+Q: tf | Omar kommt aus Marokko. | 0
+Q: tf | Lea kocht die Tajine. | 1
+Q: tf | Das Essen ist in zwanzig Minuten fertig. | 1
+Q: mc | Was macht Lea? | Einen Salat und einen Nachtisch ; Eine Tajine ; Eine Suppe | 0
+Q: mc | Wie viele Freunde kommen zum Essen? | Zwei ; Drei ; Acht | 1
+
+# a1-024 | Gesundheit | Ein Tag ohne Handy
+DE: Sophie benutzt ihr Handy jeden Tag fünf Stunden. Das ist ihr zu viel. Deshalb macht sie am Sonntag ein Experiment: einen Tag ohne Handy. ||| Am Morgen ist es schwer. Sie will immer wieder ihre Nachrichten lesen. Dann geht sie im Park spazieren und trifft eine alte Freundin. Am Nachmittag liest sie ein Buch und backt Brot. Am Abend schreibt sie in ihr Tagebuch: „Ich bin ruhig und entspannt. Das mache ich jetzt jeden Sonntag.“
+TR: Sophie her gün telefonunu beş saat kullanıyor. Bu ona fazla geliyor. Bu yüzden pazar günü bir deney yapıyor: telefonsuz bir gün. ||| Sabah zor geçiyor. Durmadan mesajlarını okumak istiyor. Sonra parkta yürüyüşe çıkıyor ve eski bir arkadaşıyla karşılaşıyor. Öğleden sonra kitap okuyor ve ekmek pişiriyor. Akşam günlüğüne yazıyor: "Sakin ve rahatım. Bunu artık her pazar yapacağım."
+EN: Sophie uses her phone five hours every day. That's too much for her. So on Sunday she tries an experiment: a day without her phone. ||| The morning is hard. She keeps wanting to read her messages. Then she goes for a walk in the park and meets an old friend. In the afternoon she reads a book and bakes bread. In the evening she writes in her diary: "I'm calm and relaxed. I'll do this every Sunday now."
+G: benutzt | - | benutzen | er benutzt · hat benutzt | kullanmak | to use
+G: Experiment | das | Experiment | Pl. die Experimente | deney | experiment
+G: schwer | - | schwer | - | zor, ağır | hard, heavy
+G: spazieren | - | spazieren gehen | er geht spazieren · ist spazieren gegangen | yürüyüşe çıkmak | to go for a walk
+G: trifft | - | treffen | er trifft · hat getroffen | buluşmak, karşılaşmak | to meet
+G: Tagebuch | das | Tagebuch | Pl. die Tagebücher | günlük | diary
+G: entspannt | - | entspannt | - | rahat, gevşemiş | relaxed
+Q: tf | Sophie benutzt ihr Handy jeden Tag fünf Stunden. | 0
+Q: tf | Der Morgen ohne Handy ist leicht. | 1
+Q: tf | Sophie möchte das Experiment wiederholen. | 0
+Q: mc | Wen trifft Sophie im Park? | Ihre Mutter ; Eine alte Freundin ; Ihren Chef | 1
+Q: mc | Was macht Sophie am Nachmittag? | Sie liest und backt Brot. ; Sie schläft. ; Sie geht einkaufen. | 0
+
+# a1-025 | Wohnen | Umzug am Samstag
+DE: Am Samstag zieht Felix um. Seine neue Wohnung ist nur zwei Kilometer entfernt, aber er hat viele Kisten. Er mietet einen Transporter und fragt seine Freunde: „Könnt ihr mir helfen?“ ||| Um neun Uhr kommen vier Freunde. Sie tragen das Bett, den Schrank und die Kisten. Leider gibt es im neuen Haus keinen Aufzug, und die Wohnung ist im dritten Stock. Um vier Uhr sind alle fertig und sehr müde. Felix bestellt Pizza für alle. Das ist sein Dankeschön.
+TR: Cumartesi günü Felix taşınıyor. Yeni dairesi sadece iki kilometre uzakta ama çok kolisi var. Bir kamyonet kiralıyor ve arkadaşlarına soruyor: "Bana yardım edebilir misiniz?" ||| Saat dokuzda dört arkadaş geliyor. Yatağı, dolabı ve kolileri taşıyorlar. Maalesef yeni binada asansör yok ve daire üçüncü katta. Saat dörtte herkes işi bitiriyor ve çok yorgun. Felix herkese pizza sipariş ediyor. Bu onun teşekkürü.
+EN: On Saturday Felix is moving. His new flat is only two kilometres away, but he has lots of boxes. He rents a van and asks his friends: "Can you help me?" ||| At nine o'clock four friends arrive. They carry the bed, the wardrobe and the boxes. Unfortunately there is no lift in the new building, and the flat is on the third floor. At four everyone is finished and very tired. Felix orders pizza for everyone. That's his way of saying thank you.
+G: zieht | - | umziehen | er zieht um · ist umgezogen | taşınmak | to move (house)
+G: entfernt | - | entfernt | - | uzak, uzaklıkta | away, distant
+G: Kisten | die | Kiste | Pl. die Kisten | koli, kasa | box
+G: Transporter | der | Transporter | Pl. die Transporter | kamyonet | van
+G: tragen | - | tragen | er trägt · hat getragen | taşımak | to carry
+G: Schrank | der | Schrank | Pl. die Schränke | dolap | wardrobe, cupboard
+G: leider | - | leider | - | maalesef | unfortunately
+Q: tf | Die neue Wohnung ist weit weg. | 1
+Q: tf | Felix mietet einen Transporter. | 0
+Q: tf | Im neuen Haus gibt es einen Aufzug. | 1
+Q: mc | In welchem Stock ist die neue Wohnung? | Im dritten Stock ; Im ersten Stock ; Im Erdgeschoss | 0
+Q: mc | Was bekommen die Freunde am Ende? | Geld ; Pizza ; Bier | 1
+
+# a1-026 | Arbeit | Krank bei der Arbeit melden
+DE: Am Dienstagmorgen wacht Ali mit Halsschmerzen auf. Er hat auch Husten und fühlt sich schlecht. Er kann heute nicht arbeiten. ||| Um halb acht ruft er seine Chefin an. „Guten Morgen, Frau Lehmann. Hier ist Ali. Ich bin leider krank. Ich gehe heute zum Arzt.“ Frau Lehmann antwortet: „Gute Besserung! Schicken Sie mir bitte die Krankmeldung.“ Der Arzt schreibt Ali bis Freitag krank. Ali schickt ein Foto von der Krankmeldung per E-Mail.
+TR: Salı sabahı Ali boğaz ağrısıyla uyanıyor. Öksürüğü de var ve kendini kötü hissediyor. Bugün çalışamaz. ||| Yedi buçukta şefini arıyor. "Günaydın Bayan Lehmann. Ben Ali. Maalesef hastayım. Bugün doktora gidiyorum." Bayan Lehmann cevap veriyor: "Geçmiş olsun! Lütfen bana hastalık raporunu gönderin." Doktor Ali'ye cumaya kadar rapor veriyor. Ali raporun fotoğrafını e-postayla gönderiyor.
+EN: On Tuesday morning Ali wakes up with a sore throat. He also has a cough and feels unwell. He can't work today. ||| At half past seven he calls his boss. "Good morning, Ms Lehmann. This is Ali. I'm afraid I'm ill. I'm going to the doctor today." Ms Lehmann replies: "Get well soon! Please send me the sick note." The doctor signs Ali off sick until Friday. Ali sends a photo of the sick note by email.
+G: wacht | - | aufwachen | er wacht auf · ist aufgewacht | uyanmak | to wake up
+G: Halsschmerzen | - | die Halsschmerzen | nur Plural | boğaz ağrısı | sore throat
+G: Husten | der | Husten | - | öksürük | cough
+G: schlecht | - | schlecht | - | kötü | bad, unwell
+G: Chefin | die | Chefin | Pl. die Chefinnen | (kadın) şef | (female) boss
+G: Besserung | die | Besserung | - | iyileşme | recovery
+G: schickt | - | schicken | er schickt · hat geschickt | göndermek | to send
+Q: tf | Ali hat Kopfschmerzen und Fieber. | 1
+Q: tf | Ali ruft um halb acht an. | 0
+Q: tf | Ali ist bis Freitag krank. | 0
+Q: mc | Was sagt Frau Lehmann? | Gute Besserung! ; Kommen Sie trotzdem! ; Viel Spaß! | 0
+Q: mc | Wie schickt Ali die Krankmeldung? | Per Post ; Per E-Mail ; Er bringt sie ins Büro. | 1
+
+# a1-027 | Freizeit | Das Konzert
+DE: Lisa hat zwei Tickets für ein Konzert in Düsseldorf. Ihre Lieblingsband spielt am Freitag um zwanzig Uhr. Sie nimmt ihren Bruder Max mit. ||| Die Halle ist voll, über zehntausend Menschen sind da. Lisa und Max stehen ganz vorne. Die Band spielt zwei Stunden lang, und alle singen mit. Nach dem Konzert ist Lisa heiser, aber sehr glücklich. Mit der letzten S-Bahn fahren sie nach Hause. Sie kommen um ein Uhr an.
+TR: Lisa'nın Düsseldorf'taki bir konser için iki bileti var. En sevdiği grup cuma günü saat yirmide çalıyor. Erkek kardeşi Max'i de yanında götürüyor. ||| Salon dolu, on binden fazla insan var. Lisa ve Max en önde duruyor. Grup iki saat boyunca çalıyor ve herkes eşlik ediyor. Konserden sonra Lisa'nın sesi kısılmış ama çok mutlu. Son banliyö treniyle eve dönüyorlar. Saat birde varıyorlar.
+EN: Lisa has two tickets for a concert in Düsseldorf. Her favourite band is playing on Friday at eight pm. She takes her brother Max with her. ||| The hall is full; more than ten thousand people are there. Lisa and Max stand right at the front. The band plays for two hours, and everyone sings along. After the concert Lisa is hoarse but very happy. They take the last S-Bahn home. They arrive at one o'clock.
+G: Tickets | das | Ticket | Pl. die Tickets | bilet | ticket
+G: Konzert | das | Konzert | Pl. die Konzerte | konser | concert
+G: Halle | die | Halle | Pl. die Hallen | salon, hol | hall
+G: Menschen | der | Mensch | Pl. die Menschen | insan | person, people
+G: vorne | - | vorne | - | önde | at the front
+G: heiser | - | heiser | - | sesi kısık | hoarse
+G: letzten | - | letzt- | - | son | last
+Q: tf | Das Konzert ist am Samstag. | 1
+Q: tf | Lisa geht mit ihrem Bruder zum Konzert. | 0
+Q: tf | Die Band spielt eine Stunde. | 1
+Q: mc | Wie viele Menschen sind in der Halle? | Über zehntausend ; Tausend ; Hundert | 0
+Q: mc | Wie fahren Lisa und Max nach Hause? | Mit dem Taxi ; Mit der S-Bahn ; Mit dem Auto | 1
+
+# a1-028 | Behörden | Termin im Bürgeramt
+DE: Mehmet ist neu in Stuttgart. Er muss seine Adresse beim Bürgeramt anmelden. Online bekommt er einen Termin für Donnerstag um 9:40 Uhr. ||| Er bringt seinen Pass und den Mietvertrag mit. Im Wartebereich zieht er eine Nummer. Nach zehn Minuten ist er dran. Die Beamtin ist nett und spricht langsam. Mehmet unterschreibt ein Formular. Nach zwanzig Minuten ist alles fertig. Er bekommt eine Meldebestätigung. „Das war einfacher als gedacht“, sagt er.
+TR: Mehmet Stuttgart'a yeni geldi. Adresini nüfus müdürlüğünde kaydettirmesi gerekiyor. İnternetten perşembe saat 9.40'a randevu alıyor. ||| Pasaportunu ve kira sözleşmesini yanında götürüyor. Bekleme alanında bir numara alıyor. On dakika sonra sıra ona geliyor. Memur kadın nazik ve yavaş konuşuyor. Mehmet bir formu imzalıyor. Yirmi dakika sonra her şey bitiyor. Bir ikamet belgesi alıyor. "Düşündüğümden kolaymış," diyor.
+EN: Mehmet is new in Stuttgart. He has to register his address at the citizens' office. Online he gets an appointment for Thursday at 9:40. ||| He brings his passport and his tenancy agreement. In the waiting area he takes a number. After ten minutes it's his turn. The official is nice and speaks slowly. Mehmet signs a form. After twenty minutes everything is done. He gets a registration certificate. "That was easier than I thought," he says.
+G: Bürgeramt | das | Bürgeramt | Pl. die Bürgerämter | nüfus müdürlüğü, vatandaşlık bürosu | citizens' office
+G: anmelden | - | anmelden | er meldet an · hat angemeldet | kaydettirmek | to register
+G: Pass | der | Pass | Pl. die Pässe | pasaport | passport
+G: Mietvertrag | der | Mietvertrag | Pl. die Mietverträge | kira sözleşmesi | tenancy agreement
+G: Nummer | die | Nummer | Pl. die Nummern | numara | number
+G: Beamtin | die | Beamtin | Pl. die Beamtinnen | (kadın) memur | (female) official
+G: unterschreibt | - | unterschreiben | er unterschreibt · hat unterschrieben | imzalamak | to sign
+G: Formular | das | Formular | Pl. die Formulare | form | form
+Q: tf | Mehmet wohnt schon lange in Stuttgart. | 1
+Q: tf | Der Termin ist am Donnerstag. | 0
+Q: tf | Mehmet wartet eine Stunde. | 1
+Q: mc | Was bringt Mehmet mit? | Pass und Mietvertrag ; Nur ein Foto ; Seine Bankkarte | 0
+Q: mc | Was bekommt Mehmet am Ende? | Einen neuen Pass ; Eine Meldebestätigung ; Einen Mietvertrag | 1
+
+# a1-029 | Lernen | Sprachtandem
+DE: Clara lernt Türkisch, und Burak lernt Deutsch. Sie treffen sich jeden Mittwoch in einem Café. Das nennt man Sprachtandem. ||| Zuerst sprechen sie eine halbe Stunde Deutsch. Clara korrigiert Buraks Fehler. Dann sprechen sie eine halbe Stunde Türkisch, und Burak hilft Clara. Heute erzählt Burak von seiner Familie in Antalya, und Clara erzählt von ihrem Urlaub in Istanbul. Sie lachen viel. Beide lernen schnell, und es kostet nichts.
+TR: Clara Türkçe, Burak ise Almanca öğreniyor. Her çarşamba bir kafede buluşuyorlar. Buna dil tandemi deniyor. ||| Önce yarım saat Almanca konuşuyorlar. Clara Burak'ın hatalarını düzeltiyor. Sonra yarım saat Türkçe konuşuyorlar, Burak da Clara'ya yardım ediyor. Bugün Burak Antalya'daki ailesinden, Clara da İstanbul tatilinden bahsediyor. Çok gülüyorlar. İkisi de hızlı öğreniyor ve bu hiçbir şeye mal olmuyor.
+EN: Clara is learning Turkish, and Burak is learning German. They meet every Wednesday in a café. This is called a language tandem. ||| First they speak German for half an hour. Clara corrects Burak's mistakes. Then they speak Turkish for half an hour, and Burak helps Clara. Today Burak talks about his family in Antalya, and Clara talks about her holiday in Istanbul. They laugh a lot. Both learn fast, and it costs nothing.
+G: Sprachtandem | das | Sprachtandem | Pl. die Sprachtandems | dil tandemi | language tandem
+G: halbe | - | halb | - | yarım | half
+G: korrigiert | - | korrigieren | er korrigiert · hat korrigiert | düzeltmek | to correct
+G: Fehler | der | Fehler | Pl. die Fehler | hata | mistake
+G: erzählt | - | erzählen | er erzählt · hat erzählt | anlatmak | to tell
+G: lachen | - | lachen | er lacht · hat gelacht | gülmek | to laugh
+G: schnell | - | schnell | - | hızlı | fast
+Q: tf | Clara lernt Deutsch. | 1
+Q: tf | Sie treffen sich jeden Mittwoch. | 0
+Q: tf | Das Sprachtandem ist teuer. | 1
+Q: mc | Wie lange sprechen sie Deutsch? | Eine halbe Stunde ; Eine Stunde ; Zehn Minuten | 0
+Q: mc | Woher kommt Buraks Familie? | Aus Istanbul ; Aus Antalya ; Aus Ankara | 1
+
+# a1-030 | Natur | Ein Ausflug an den See
+DE: Es ist Juli und sehr heiß, fast dreißig Grad. Familie Schneider fährt an einen See. Sie nehmen Brötchen, Obst, Wasser und eine Decke mit. ||| Die Kinder springen sofort ins Wasser. Das Wasser ist kalt, aber klar. Herr Schneider liest ein Buch, und Frau Schneider spielt mit dem Hund. Am Nachmittag ziehen dunkle Wolken auf. Dann donnert es! Schnell packen sie alles ein und laufen zum Auto. Gerade rechtzeitig: Dann beginnt das Gewitter.
+TR: Temmuz ayı ve hava çok sıcak, neredeyse otuz derece. Schneider ailesi bir göle gidiyor. Yanlarına sandviç ekmeği, meyve, su ve bir battaniye alıyorlar. ||| Çocuklar hemen suya atlıyor. Su soğuk ama berrak. Bay Schneider kitap okuyor, Bayan Schneider de köpekle oynuyor. Öğleden sonra kara bulutlar beliriyor. Sonra gök gürlüyor! Hemen her şeyi toplayıp arabaya koşuyorlar. Tam zamanında: sonra fırtına başlıyor.
+EN: It is July and very hot, almost thirty degrees. The Schneider family drives to a lake. They take bread rolls, fruit, water and a blanket. ||| The children jump straight into the water. The water is cold but clear. Mr Schneider reads a book, and Mrs Schneider plays with the dog. In the afternoon dark clouds gather. Then there's thunder! Quickly they pack everything up and run to the car. Just in time: then the storm begins.
+G: heiß | - | heiß | - | çok sıcak | hot
+G: See | der | See | Pl. die Seen | göl | lake
+G: Decke | die | Decke | Pl. die Decken | battaniye | blanket
+G: springen | - | springen | er springt · ist gesprungen | atlamak | to jump
+G: Hund | der | Hund | Pl. die Hunde | köpek | dog
+G: Wolken | die | Wolke | Pl. die Wolken | bulut | cloud
+G: Gewitter | das | Gewitter | Pl. die Gewitter | fırtına (gök gürültülü) | thunderstorm
+Q: tf | Es ist kalt. | 1
+Q: tf | Das Wasser im See ist klar. | 0
+Q: tf | Herr Schneider spielt mit dem Hund. | 1
+Q: mc | Was nimmt die Familie mit? | Brötchen, Obst, Wasser und eine Decke ; Nur Wasser ; Pizza und Cola | 0
+Q: mc | Warum fährt die Familie früh nach Hause? | Die Kinder sind müde. ; Ein Gewitter kommt. ; Das Wasser ist zu kalt. | 1
