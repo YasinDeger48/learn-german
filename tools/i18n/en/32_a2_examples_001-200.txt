@@ -1,0 +1,200 @@
+a2.w.1.ex.0 :: From now on the pharmacy also delivers on Saturdays.
+a2.w.2.ex.0 :: We're not going away after all, so I've cancelled the taxi.
+a2.w.3.ex.0 :: After work I go to an evening class for German on Tuesdays.
+a2.w.4.ex.0 :: On my evening shift I only call home during the break.
+a2.w.5.ex.0 :: Did you check the departure time? On Sundays the first bus leaves later.
+a2.w.6.ex.0 :: Can you compare the house number on the parcel with my address?
+a2.w.7.ex.0 :: Please file the tenancy agreement behind the letter from the landlord.
+a2.w.8.ex.0 :: Let the soup cool down a bit before you taste it.
+a2.w.9.ex.0 :: For the dough I first measure out 200 grams of flour.
+a2.w.10.ex.0 :: After the holiday the empty suitcases go into the storage room.
+a2.w.11.ex.0 :: The landlord showed me where I can leave my bike in the storeroom.
+a2.w.12.ex.0 :: I'm washing the cups, can you dry them?
+a2.w.13.ex.0 :: Mrs Kaya's new house number is still missing from the address list for the street party.
+a2.w.14.ex.0 :: At ten percent battery I save my ticket as a picture on my phone.
+a2.w.15.ex.0 :: The key for the filing cabinet is still in my jacket.
+a2.w.16.ex.0 :: I'll take the waste glass with me on the way to the supermarket.
+a2.w.17.ex.0 :: The pizza box is full of oil, so it doesn't go in the waste paper.
+a2.w.18.ex.0 :: In the beginners' group we play without a net for the first few weeks.
+a2.w.19.ex.0 :: Please send me your arrival time, then I'll pick you up from the airport.
+a2.w.20.ex.0 :: The registration deadline ends on Friday, but there are only two places left in the swimming course.
+a2.w.21.ex.0 :: If I pay the registration fee today, I can join in tomorrow.
+a2.w.22.ex.0 :: After the move I have to update my address in the delivery app.
+a2.w.23.ex.0 :: We take the children to school and then drive to the DIY store.
+a2.w.24.ex.0 :: We arrived late and missed the connecting train to Bonn.
+a2.w.25.ex.0 :: This evening we're toasting your new job with apple juice.
+a2.w.26.ex.0 :: If you tap the little bell, you'll get a message about the appointment.
+a2.w.27.ex.0 :: There's enough shade under the apple tree for our picnic table.
+a2.w.28.ex.0 :: For his birthday my nephew wanted apple cake instead of a gateau.
+a2.w.29.ex.0 :: Before starting work I always put on my apron in the shop.
+a2.w.30.ex.0 :: Our working group is collecting ideas for a quieter schoolyard.
+a2.w.31.ex.0 :: The work plan says I take over from Jana at the till on Wednesday.
+a2.w.32.ex.0 :: Since I started cycling, my commute only takes twenty minutes.
+a2.w.33.ex.0 :: For swimming I take off my watch and put it in the locker.
+a2.w.34.ex.0 :: Please tell me the item number of the red jumper in the photo.
+a2.w.35.ex.0 :: Can you pick up the children today? My doctor's appointment is taking longer than expected.
+a2.w.36.ex.0 :: The audio file is three minutes long and you can also listen to it without internet.
+a2.w.37.ex.0 :: We unfolded the city map on the park bench and looked for the way to the zoo.
+a2.w.38.ex.0 :: Only fold out the little table on the train once you've sat down.
+a2.w.39.ex.0 :: My phone is almost dead. May I charge it at your place for a moment?
+a2.w.40.ex.0 :: Don't hang up yet, I'm just looking for the note with your number.
+a2.w.41.ex.0 :: For the interview with Grandma I borrowed a small recorder.
+a2.w.42.ex.0 :: We split the taxi costs between the three of us.
+a2.w.43.ex.0 :: My aunt mended the hole in my favourite jacket with a piece of fabric.
+a2.w.44.ex.0 :: Before you sign the training contract, also read the page about holidays.
+a2.w.45.ex.0 :: Will you help me unload the crates of drinks from the car?
+a2.w.46.ex.0 :: The loan period ends tomorrow, so I'm taking the books back today.
+a2.w.47.ex.0 :: We measured the wall in the hallway before we ordered the shelf.
+a2.w.48.ex.0 :: As an exception you can sleep at my place today, because there are no more trams.
+a2.w.49.ex.0 :: After breakfast my son empties the dishwasher.
+a2.w.50.ex.0 :: The light on the bike doesn't work any more. Can you replace the battery?
+a2.w.51.ex.0 :: For your new profile you can choose one of these three photos.
+a2.w.52.ex.0 :: Oskar forgot his swimming trunks and couldn't swim in the lake.
+a2.w.53.ex.0 :: During the train journey we saw the first mountains out of the window.
+a2.w.54.ex.0 :: At the level crossing we had to wait until the freight train had passed.
+a2.w.55.ex.0 :: Please close the balcony door quietly, the baby is already asleep.
+a2.w.56.ex.0 :: In the café you can pay cashless, even if you only order a water.
+a2.w.57.ex.0 :: We're getting some more screws for the new kitchen shelf at the DIY store.
+a2.w.58.ex.0 :: Don't fasten the light to the basket, you can hardly see it there.
+a2.w.59.ex.0 :: The library notifies me when the book I ordered has arrived.
+a2.w.60.ex.0 :: Because the petrol price has gone up, we're taking the train at the weekend.
+a2.w.61.ex.0 :: At the advice centre a woman explained to me how to find a German course.
+a2.w.62.ex.0 :: When I opened the box, the frame was damaged at one corner.
+a2.w.63.ex.0 :: We label the jars with the date so that we eat the old jam first.
+a2.w.64.ex.0 :: At the viewing I wanted to know whether the flat has a cellar.
+a2.w.65.ex.0 :: It's too warm in the meeting room. Will you open the window?
+a2.w.66.ex.0 :: Without an order number the shop couldn't find my return.
+a2.w.67.ex.0 :: I was cold in the night, so I got a second duvet.
+a2.w.68.ex.0 :: The image file is too big for the email, so I'll send you a link.
+a2.w.69.ex.0 :: My father built me a wooden picture frame for the photo of our wedding.
+a2.w.70.ex.0 :: Banana peels go in the organic waste bin, the plastic bag doesn't.
+a2.w.71.ex.0 :: Herbs instead of flowers are now growing in the window box on the balcony.
+a2.w.72.ex.0 :: The flower shop was already closed, so I brought my mother chocolate.
+a2.w.73.ex.0 :: I'm not in town on election day, so I've applied for a postal vote.
+a2.w.74.ex.0 :: Will you get the bread out of the bread bin? I'll lay the table in the meantime.
+a2.w.75.ex.0 :: The dictionary is at the very bottom of the bookshelf next to the folders.
+a2.w.76.ex.0 :: At reception it was enough to show the booking number on my phone.
+a2.w.77.ex.0 :: We get paper for the printer at the office supplies shop opposite.
+a2.w.78.ex.0 :: The bus journey through the city takes longer in the morning because the roads are busy.
+a2.w.79.ex.0 :: I got on the right bus, but I only saw the bus number at the second stop.
+a2.w.80.ex.0 :: When it rains, we hear every drop on the skylight.
+a2.w.81.ex.0 :: With our season ticket we can go to the outdoor pool every day in summer.
+a2.w.82.ex.0 :: The lid isn't tight. Better keep the jar upright in your bag.
+a2.w.83.ex.0 :: Has anyone seen the new duty roster? I don't know who's working on Saturday.
+a2.w.84.ex.0 :: The red printer ink has run out, so the photos look different on the printout.
+a2.w.85.ex.0 :: Put the eggs on top in the shopping basket so they don't break.
+a2.w.86.ex.0 :: Apples were on my shopping list, but I bought bananas.
+a2.w.87.ex.0 :: The invitation link for the meeting only works for me in the browser.
+a2.w.88.ex.0 :: The school would like a copy of the report. Can you scan it for me?
+a2.w.89.ex.0 :: I typed in the code three times, but the door stays shut.
+a2.w.90.ex.0 :: For the hike I take my water bottle and don't buy a single-use bottle.
+a2.w.91.ex.0 :: On the way to the bus I'll drop the birthday card off at the post office.
+a2.w.92.ex.0 :: The tickets are cheaper if we buy them together rather than individually.
+a2.w.93.ex.0 :: I was able to remove the price sticker from the jar with warm water.
+a2.w.94.ex.0 :: My brother can unlock his phone with one finger.
+a2.w.95.ex.0 :: With my student card I get a discount at the museum.
+a2.w.96.ex.0 :: As the doctor is ill this week, I got an alternative appointment on Monday.
+a2.w.97.ex.0 :: I did the first-aid course before I started driving lessons.
+a2.w.98.ex.0 :: The luggage is already included in the taxi fare.
+a2.w.99.ex.0 :: Kaan had to continue on foot because his bike chain had snapped.
+a2.w.100.ex.0 :: My bike bell is so quiet that people can hardly hear me.
+a2.w.101.ex.0 :: For the trip we're collecting ten euros per person today for the travel costs.
+a2.w.102.ex.0 :: My uncle has been a fan of this football club since he was a child.
+a2.w.103.ex.0 :: When I wanted to buy the ticket, an error message with the number 403 appeared.
+a2.w.104.ex.0 :: For Grandma's celebration we booked the biggest table in the restaurant.
+a2.w.105.ex.0 :: Turn left at the end of the field path, that's where the forest begins.
+a2.w.106.ex.0 :: After the storm there was a long crack in the window pane.
+a2.w.107.ex.0 :: After the late shift I sometimes eat a ready meal because I'm too tired to cook.
+a2.w.108.ex.0 :: Hold on tight to the pole on the bus, there are no free seats.
+a2.w.109.ex.0 :: At the festival by the lake three bands from the city are playing on Sunday.
+a2.w.110.ex.0 :: I bought the blue bowl for two euros at a flea market.
+a2.w.111.ex.0 :: On the departures board I find the flight faster with the flight number.
+a2.w.112.ex.0 :: When I'm on the early shift, I have breakfast before six o'clock.
+a2.w.113.ex.0 :: Behind the football pitch there's a fountain where you can get water.
+a2.w.114.ex.0 :: There was a message from the neighbour under the doormat.
+a2.w.115.ex.0 :: Please also put your cousin on the guest list for Saturday.
+a2.w.116.ex.0 :: According to the instructions the pan mustn't go in the dishwasher.
+a2.w.117.ex.0 :: There's still room for a packet of peas in the freezer compartment.
+a2.w.118.ex.0 :: Please don't park the scooter in the middle of the pavement.
+a2.w.119.ex.0 :: If the garden is too wet, we'll celebrate downstairs in the common room.
+a2.w.120.ex.0 :: The small bag goes in the luggage rack above your seat.
+a2.w.121.ex.0 :: How much is the total price for the two rooms with breakfast?
+a2.w.122.ex.0 :: I don't need a big gift bag for the book, the small one is enough.
+a2.w.123.ex.0 :: The glass bottle fell on the tiles and broke.
+a2.w.124.ex.0 :: In the basic course we first learn how to introduce ourselves in German.
+a2.w.125.ex.0 :: In the group work Leo drew and I wrote the sentences.
+a2.w.126.ex.0 :: A long freight train often passes our house late in the evening.
+a2.w.127.ex.0 :: Since I've been using the yellow phone case, I find my phone faster in my bag.
+a2.w.128.ex.0 :: We're waiting at the main entrance of the stadium, right next to the big sign.
+a2.w.129.ex.0 :: I prefer to do the housework in the morning, then I'm free in the evening.
+a2.w.130.ex.0 :: After the operation a household help helped us with cleaning and shopping.
+a2.w.131.ex.0 :: My left slipper is under the sofa, but the right one is gone.
+a2.w.132.ex.0 :: If you're the last to leave, please lock the front door.
+a2.w.133.ex.0 :: On my way home from the course I'll pick up milk and bread.
+a2.w.134.ex.0 :: Don't put the wet jacket directly on the radiator.
+a2.w.135.ex.0 :: I only found the receipt in my trouser pocket when doing the washing.
+a2.w.136.ex.0 :: In the intensive course we have four hours of lessons every morning.
+a2.w.137.ex.0 :: I'll ask at reception for the password for the internet access.
+a2.w.138.ex.0 :: During the coffee break we go out into the courtyard for a bit if the sun is shining.
+a2.w.139.ex.0 :: I put the bottles on the checkout belt first so they don't end up on the fruit later.
+a2.w.140.ex.0 :: Only in the checkout queue did I notice that my wallet was still at home.
+a2.w.141.ex.0 :: During the power cut we played cards by candlelight.
+a2.w.142.ex.0 :: The clothes shop on the corner also has trousers in large sizes.
+a2.w.143.ex.0 :: The winter coats are hanging at the back on the right of the wardrobe.
+a2.w.144.ex.0 :: In the cooking course Cem showed us how to make rice with vegetables.
+a2.w.145.ex.0 :: I sent the sick note to the office straight away.
+a2.w.146.ex.0 :: Without kitchen scales I just use a big mug for the flour.
+a2.w.147.ex.0 :: The shopping list is stuck to the fridge door with a magnet.
+a2.w.148.ex.0 :: I can find my customer number at the top of the first bill.
+a2.w.149.ex.0 :: Can you lend me your charging cable? I'll be out for another hour.
+a2.w.150.ex.0 :: On the map we can see which cities are on the Rhine.
+a2.w.151.ex.0 :: My space bar sticks, so a few spaces are missing in the text.
+a2.w.152.ex.0 :: I need my reading glasses for the small numbers on the receipt.
+a2.w.153.ex.0 :: In the hallway the light switch is right behind the door.
+a2.w.154.ex.0 :: I chose Thursday as the delivery date because someone is at home then.
+a2.w.155.ex.0 :: The delivery time was given as three days, but the parcel only came after a week.
+a2.w.156.ex.0 :: The rent is low, but it takes a long time to get from there to the centre.
+a2.w.157.ex.0 :: If I don't find a lift for Friday, I'll take the train.
+a2.w.158.ex.0 :: In my lunch break I like to walk once around the block.
+a2.w.159.ex.0 :: On the public holiday the rubbish collection comes a day later than usual.
+a2.w.160.ex.0 :: The bin bag has torn at the bottom, please get a second one.
+a2.w.161.ex.0 :: At the neighbourhood party everyone brought something to eat from their kitchen.
+a2.w.162.ex.0 :: Since Lena has been getting maths tutoring, she understands the exercises better.
+a2.w.163.ex.0 :: After his first night shift he slept until the afternoon.
+a2.w.164.ex.0 :: At the entrance to the conference everyone gets a name badge to pin on.
+a2.w.165.ex.0 :: The delivery crates mustn't stand in front of the emergency exit.
+a2.w.166.ex.0 :: We made a small shelf for the balcony out of an old fruit crate.
+a2.w.167.ex.0 :: In the online form I can only give one phone number.
+a2.w.168.ex.0 :: Please throw the old newspaper in the wastepaper basket next to the door.
+a2.w.169.ex.0 :: You can also pay the parking fee at the machine by card.
+a2.w.170.ex.0 :: I put the parking ticket behind the windscreen before I leave.
+a2.w.171.ex.0 :: We collect the deposit bottles in a bag next to the door.
+a2.w.172.ex.0 :: At the office we collect plastic waste separately from paper.
+a2.w.173.ex.0 :: Without a seat reservation we had to stand on the train as far as Cologne.
+a2.w.174.ex.0 :: Above my desk there's a poster of the mountains from my last holiday.
+a2.w.175.ex.0 :: During the probation period I'd like to get to know every task in the shop once.
+a2.w.176.ex.0 :: In the furniture store's brochure I found a cheap bed for the guest room.
+a2.w.177.ex.0 :: I wrote my exam date on the calendar in the kitchen.
+a2.w.178.ex.0 :: At the end of the tour there's a little quiz about the animals in the park.
+a2.w.179.ex.0 :: Guess who I met in front of the station today!
+a2.w.180.ex.0 :: My daughter solved the riddle and was allowed to choose the next game.
+a2.w.181.ex.0 :: For the parents' evening we need a room with twenty chairs.
+a2.w.182.ex.0 :: Please write the invoice number in the box next to the amount.
+a2.w.183.ex.0 :: Luckily there was a raincoat in my backpack, so I arrived at school dry.
+a2.w.184.ex.0 :: According to the travel plan we have two hours for a break in Hamburg.
+a2.w.185.ex.0 :: I'm asking at the till about the right of return, because the jacket is a present.
+a2.w.186.ex.0 :: I gave the garage my mobile number for the call back.
+a2.w.187.ex.0 :: Because of the building site a yellow sign shows the way to the stop.
+a2.w.188.ex.0 :: The driver grumbled because someone had parked their car in front of the driveway.
+a2.w.189.ex.0 :: Our luggage stays in the locker at the station until the evening.
+a2.w.190.ex.0 :: Use the old chopping board for the onions, the new one is for bread.
+a2.w.191.ex.0 :: My grandma makes the font size on her phone bigger so she can read messages better.
+a2.w.192.ex.0 :: On the building site I had to wear a safety helmet, even for a short visit.
+a2.w.193.ex.0 :: With the tracking number I can see which shop my parcel is in.
+a2.w.194.ex.0 :: Whoever is on the late shift brings the key to the office the next morning.
+a2.w.195.ex.0 :: During the power cut we only found the torch in the second kitchen cupboard.
+a2.w.196.ex.0 :: When we go away in August, our neighbour feeds the cat.
+a2.w.197.ex.0 :: I like your suggestion: we'll cook at home and only go to the cinema afterwards.
+a2.w.198.ex.0 :: Our train has a carriage with space for bicycles.
+a2.w.199.ex.0 :: No water is coming out of the tap today because a water pipe in front of the house is broken.
+a2.w.200.ex.0 :: On the city's website I can see when the swimming pool opens.

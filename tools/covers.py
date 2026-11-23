@@ -56,6 +56,13 @@ def import_(folder):
         if ext.lower() not in ('.png', '.jpg', '.jpeg', '.webp') or name not in ids:
             continue
         img = Image.open(path).convert('RGB')
+        # Reject collages / strips: many empty rows mean the picture is not one full scene.
+        small = img.convert('L').resize((120, 80))
+        rows = [[small.getpixel((x, y)) for x in range(120)] for y in range(80)]
+        blank = sum(1 for r in rows if max(r) - min(r) < 12)
+        if blank > 16:
+            print(f'skipped {name}: {blank}/80 empty rows (collage or strip, please make it again)')
+            continue
         w, h = img.size
         target = 3 / 2
         if w / h > target:  # crop to 3:2 around the centre
