@@ -1,0 +1,288 @@
+abbiegen :: to turn
+abholen :: to pick up
+abkühlen :: to cool down
+abwaschbar :: washable
+anschließen :: to connect, to plug in
+ausdrucken :: to print out
+auseinanderhalten :: to tell apart
+ausleihen :: to borrow
+besetzt :: occupied, taken
+bremsen :: to brake
+das Band :: tape, ribbon
+das Brett :: board
+das Dach :: roof
+das Fensterbrett :: windowsill
+das Fieber :: fever
+das Fundbüro :: lost property office
+das Futter :: (animal) food
+das Gebäude :: building
+das Geräusch :: noise, sound
+das Gewürz :: spice
+das Glas :: jar, glass
+das Halsband :: collar
+das Handtuch :: towel
+das Holz :: wood
+das Hörbuch :: audiobook
+das Jugendzentrum :: youth centre
+das Kabel :: cable
+das Kapitel :: chapter
+das Kilo :: kilo
+das Kissen :: cushion
+das Klavier :: piano
+das Klebeband :: adhesive tape
+das Kleid :: dress
+das Knie :: knee
+das Konzert :: concert
+das Kursbuch :: course book
+das Lager :: storeroom, warehouse
+das Leihrad :: rental bike
+das Lied :: song
+das Lineal :: ruler
+das Pfand :: deposit
+das Pferd :: horse
+das Rezept :: recipe; prescription
+das Schachbrett :: chessboard
+das Schachturnier :: chess tournament
+das Sommerfest :: summer party
+das Spielfeld :: pitch, playing field
+das Taschentuch :: tissue, handkerchief
+das Tischbein :: table leg
+das Tragen :: carrying
+das Treppenhaus :: stairwell
+das Trikot :: shirt, jersey
+das Vorstellungsgespräch :: job interview
+das Wörterbuch :: dictionary
+das Zeichen :: sign
+der Abdruck :: print, mark
+der Abfluss :: drain
+der Advent :: Advent
+der Akku :: battery
+der Anbieter :: provider
+der Anhänger :: tag, pendant
+der Anleger :: landing stage, pier
+der Apfelbaum :: apple tree
+der Arbeitsweg :: commute
+der Artikel :: article
+der Aufkleber :: sticker
+der Ausgang :: exit
+der Bahnsteig :: platform
+der Bass :: bass
+der Beruf :: job, profession
+der Betrieb :: business, company
+der Bildschirm :: screen
+der Blumentopf :: flowerpot
+der Bogen :: sheet (of paper)
+der Busch :: bush
+der Container :: container
+der Deckel :: lid
+der Drachen :: kite
+der Eimer :: bucket
+der Einkaufskorb :: shopping basket
+der Empfang :: reception
+der Enkel :: grandson
+der Ersatzverkehr :: replacement service
+der Fahrstuhl :: lift, elevator
+der Fehler :: mistake
+der Finger :: finger
+der Fleck :: stain
+der Flohmarkt :: flea market
+der Flur :: hallway
+der Gehstock :: walking stick
+der Gemüsestand :: vegetable stall
+der Griff :: handle
+der Gutschein :: voucher
+der Haken :: hook
+der Handschuh :: glove
+der Hausflur :: hallway (of a building)
+der Hausmeister :: caretaker
+der Helm :: helmet
+der Hof :: courtyard
+der Händler :: dealer, trader
+der Hörer :: earpiece
+der Hügel :: hill
+der Innenhof :: inner courtyard
+der Kai :: quay
+der Kalender :: calendar
+der Karton :: cardboard box
+der Kinderwagen :: pram
+der Kopfhörer :: headphones
+der Korb :: basket
+der Käfer :: beetle
+der Kühlschrank :: fridge
+der Optiker :: optician
+der Pappbecher :: paper cup
+der Parkplatz :: car park, parking space
+der Pfandautomat :: bottle return machine
+der Pfiff :: whistle
+der Pokal :: cup, trophy
+der Rand :: edge
+der Regenschirm :: umbrella
+der Rest :: rest, leftover
+der Riemen :: strap
+der Sack :: sack
+der Schalter :: counter
+der Schatten :: shade, shadow
+der Schlüssel :: key
+der Schoß :: lap
+der Schreibtisch :: desk
+der Schritt :: step
+der Schuhkarton :: shoebox
+der Schwanz :: tail
+der Spiegel :: mirror
+der Spielplatz :: playground
+der Spielzug :: move (in a game)
+der Sprecher :: narrator, speaker
+der Stadtplan :: city map
+der Stern :: star
+der Stock :: stick
+der Stoff :: fabric
+der Streifen :: stripe
+der Teich :: pond
+der Teig :: dough
+der Ton :: sound
+der Topf :: pot
+der Treffpunkt :: meeting point
+der Tresen :: counter
+der Trockenraum :: drying room
+der Tänzer :: dancer
+der Umschlag :: envelope
+der Untertitel :: subtitle
+der Vorhang :: curtain
+der Wecker :: alarm clock
+der Weihnachtsmarkt :: Christmas market
+der Wetterbericht :: weather report
+der Zaun :: fence
+der Zeiger :: (clock) hand
+der Zimt :: cinnamon
+der Zweig :: branch, twig
+die Adresse :: address
+die Ankunft :: arrival
+die Anleitung :: instructions
+die Anzeige :: display
+die Apotheke :: pharmacy
+die Armbanduhr :: wristwatch
+die Bank :: bench
+die Besprechung :: meeting
+die Bestätigung :: confirmation
+die Bibliothekarin :: librarian
+die Birne :: pear
+die Box :: speaker
+die Breite :: width
+die Brezel :: pretzel
+die Brücke :: bridge
+die Datei :: file
+die Dose :: can, tin
+die Einladung :: invitation
+die Ente :: duck
+die Erdbeere :: strawberry
+die Erde :: soil, earth
+die Ersatzhaltestelle :: temporary stop
+die Fahrkarte :: ticket
+die Fahrradwerkstatt :: bike repair shop
+die Familie :: family
+die Feder :: spring
+die Fernbedienung :: remote control
+die Ferne :: distance
+die Figur :: piece, figure
+die Funktion :: function, feature
+die Fähre :: ferry
+die Führung :: guided tour
+die Geige :: violin
+die Gießkanne :: watering can
+die Glasur :: icing
+die Größe :: size
+die Halle :: hall, sports hall
+die Haltestelle :: stop
+die Hausverwaltung :: property management
+die Helferin :: helper (female)
+die Kanne :: jug, pot
+die Kasse :: checkout, till
+die Kerze :: candle
+die Kiste :: box, crate
+die Klingel :: doorbell
+die Kurve :: bend, curve
+die Küchenuhr :: kitchen clock
+die Leine :: lead, leash
+die Leinwand :: (cinema) screen
+die Leiterin :: manager (female)
+die Lesebrille :: reading glasses
+die Lichterkette :: fairy lights
+die Mappe :: folder
+die Matte :: mat
+die Meldung :: notification, report
+die Melodie :: melody
+die Mitarbeiterin :: employee (female)
+die Mitte :: middle
+die Nachricht :: message
+die Papiertüte :: paper bag
+die Pfütze :: puddle
+die Physiotherapie :: physiotherapy
+die Praxis :: doctor's practice
+die Prise :: pinch
+die Rampe :: ramp
+die Regenrinne :: gutter
+die Regentonne :: rain barrel
+die Reinigungskraft :: cleaner
+die Rezeption :: reception
+die Rutsche :: slide
+die Rückseite :: back
+die Schachtel :: box
+die Schale :: bowl
+die Schnur :: string, cord
+die Schraube :: screw
+die Schrift :: writing, font
+die Situation :: situation
+die Sporttasche :: sports bag
+die Stelle :: spot, place
+die Straßenbahn :: tram
+die Szene :: scene
+die Taschenlampe :: torch, flashlight
+die Tasse :: cup
+die Taste :: key, button
+die Teilnehmerin :: participant (female)
+die Trommel :: drum
+die Umleitung :: diversion
+die Untersuchung :: examination
+die Vase :: vase
+die Verpackung :: packaging
+die Waage :: scales
+die Ware :: goods
+die Waschmaschine :: washing machine
+die Wendung :: expression, phrase
+die Werkbank :: workbench
+die Wetter-App :: weather app
+die Wiese :: meadow
+die Wolke :: cloud
+die Zange :: tongs, pliers
+die Zeichnung :: drawing
+die Zutat :: ingredient
+einsteigen :: to get on
+eintragen :: to enter, to write in
+eng :: narrow, tight
+gegenüber :: opposite
+gesperrt :: closed (road)
+gießen :: to water
+hellbraun :: light brown
+höflich :: polite
+kaum :: hardly
+klatschen :: to clap
+kostenlos :: free (of charge)
+leise :: quiet, quietly
+leuchten :: to shine, to glow
+lieber :: rather, preferably
+parken :: to park
+sauer :: sour
+schieben :: to push
+schwarz :: black (coffee)
+seitdem :: since then
+tauschen :: to swap
+teilen :: to share
+trocken :: dry
+umrühren :: to stir
+unterscheiden :: to distinguish
+verschieden :: different
+vorsichtig :: carefully
+wiegen :: to weigh
+ziehen :: to brew, to steep
+zufällig :: by chance
+überreichen :: to hand over
