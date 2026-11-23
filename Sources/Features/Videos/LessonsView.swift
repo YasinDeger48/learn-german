@@ -99,7 +99,7 @@ struct LessonsView: View {
                 .navigationBarTitleDisplayMode(.inline)
             }
         }
-        .tint(DS.ink)
+        .tint(DS.accent)
         .alert(
             pendingChange?.isWatched == true ? t("videos.markWatched") : t("videos.unmarkWatched"),
             isPresented: Binding(get: { pendingChange != nil }, set: { if !$0 { pendingChange = nil } }),

@@ -12,15 +12,18 @@ enum DS {
         })
     }
 
-    static let ground = dynamic(0xF7F7F4, 0x0E0F0C)
-    static let surface = dynamic(0xFFFFFF, 0x1A1B17)
-    static let ink = dynamic(0x0E0F0C, 0xF2F2EE)
-    static let muted = dynamic(0x5E615A, 0xA9ABA3)
-    static let hairline = dynamic(0xE6E6E0, 0x2A2C27)
+    // Native iOS colours: grouped backgrounds, labels and separators follow light/dark mode automatically.
+    static let ground = Color(UIColor.systemGroupedBackground)
+    static let surface = Color(UIColor.secondarySystemGroupedBackground)
+    static let ink = Color(UIColor.label)
+    static let muted = Color(UIColor.secondaryLabel)
+    static let hairline = Color(UIColor.separator)
     /// Dark feature cards (daily text, feedback sheet). Slightly lifted in dark mode.
     static let night = dynamic(0x0E0F0C, 0x23251F)
     static let onNight = Color(red: 0.969, green: 0.969, blue: 0.957)
     static let onNightMuted = Color(red: 0.663, green: 0.671, blue: 0.639)
+    /// Tint for links, toggles and system buttons.
+    static let accent = dynamic(0x2F5BEA, 0x8FA9FF)
     static let gold = Color(red: 0.949, green: 0.761, blue: 0.188)
     static let goldDeep = dynamic(0x9A6F00, 0xF2C230)
     static let onGold = Color(red: 0.055, green: 0.059, blue: 0.047)
@@ -33,23 +36,22 @@ enum DS {
     static let errorSoft = dynamic(0xFBEAEA, 0x3A1C1D)
     static let chip = dynamic(0xEEEEE9, 0x23251F)
 
-    // Fonts are bundled in Resources/Fonts (OFL): DeschlyDisplay = Bricolage Grotesque, DeschlyText = Geist.
+    /// System font (SF Pro), like Apple's own apps. Sizes scale with Dynamic Type through `relativeTo`.
     static func display(_ size: CGFloat, heavy: Bool = true) -> Font {
-        .custom(heavy ? "DeschlyDisplay-ExtraBold" : "DeschlyDisplay-Bold", size: size, relativeTo: .title)
+        .system(size: size, weight: heavy ? .bold : .semibold, design: .default)
     }
 
     static func text(_ size: CGFloat, _ weight: Font.Weight = .regular) -> Font {
-        let name: String
-        switch weight {
-        case .semibold, .bold, .heavy, .black: name = "DeschlyText-SemiBold"
-        case .medium: name = "DeschlyText-Medium"
-        default: name = "DeschlyText-Regular"
-        }
-        return .custom(name, size: size, relativeTo: size >= 20 ? .title3 : (size >= 16 ? .body : .footnote))
+        .system(size: size, weight: weight)
+    }
+
+    /// Bundled brand face, used only for the "deschly." wordmark.
+    static func brand(_ size: CGFloat) -> Font {
+        .custom("DeschlyDisplay-ExtraBold", size: size)
     }
 
     static let radius: CGFloat = 22
-    static let gutter: CGFloat = 22
+    static let gutter: CGFloat = 16
 }
 
 // MARK: - Components
@@ -102,7 +104,7 @@ struct Wordmark: View {
 
     var body: some View {
         (Text("deschly").foregroundColor(DS.ink) + Text(".").foregroundColor(DS.goldDeep))
-            .font(DS.display(size))
+            .font(DS.brand(size))
             .tracking(-0.8)
             .accessibilityLabel("Deschly")
     }
@@ -230,4 +232,4 @@ extension View {
 }
 
 /// Shared accent for older practice screens.
-var a1Accent: Color { DS.ink }
+var a1Accent: Color { DS.accent }

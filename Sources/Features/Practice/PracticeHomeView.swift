@@ -68,188 +68,114 @@ extension View {
     }
 }
 
-/// A1 level home: progress, quick starts, all games and the workbook.
+/// A1 level home as a native grouped list: progress, quick starts, every game and the workbook.
 struct PracticeHomeView: View {
     @EnvironmentObject private var model: A1Model
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 22) {
-                header
-                if !model.ready {
-                    HStack(spacing: 12) {
-                        ProgressView()
-                        Text(t("practice.preparing")).font(DS.text(15)).foregroundColor(DS.muted)
+        List {
+            if !model.ready {
+                HStack(spacing: 12) {
+                    ProgressView()
+                    Text(t("practice.preparing")).foregroundStyle(.secondary)
+                }
+            } else if model.content == nil {
+                Text(t("practice.loadFailed"))
+            } else {
+                overview
+                Section {
+                    link(.mixed, t("practice.mixedTitle"), t("practice.mixedSub"), "shuffle", .orange)
+                    link(.exam, t("practice.exam"), t("practice.examSub"), "graduationcap.fill", .indigo)
+                    link(.mistakes, t("practice.mistakes"), t("practice.mistakesSub", model.state.wrong.count),
+                         "arrow.uturn.backward", .red)
+                        .disabled(model.state.wrong.isEmpty)
+                }
+                Section {
+                    ForEach(A1Mode.allCases) { mode in
+                        link(.mode(mode), mode.title, "\(model.seenCount(mode))/\(model.totalFor(mode))",
+                             mode.icon, color(mode))
                     }
-                } else if model.content == nil {
-                    Text(t("practice.loadFailed")).font(DS.text(15))
-                } else {
-                    quickStart
-                    games
-                    speedGames
-                    workbook
-                    Text(t("practice.footer")).font(DS.text(13)).foregroundColor(DS.muted)
+                } header: {
+                    Text(t("practice.games"))
+                } footer: {
+                    Text(t("practice.footer"))
+                }
+                Section(t("practice.speed")) {
+                    link(.sprint, t("practice.sprint"), t("practice.record", model.state.bestSprint), "timer", .pink)
+                    link(.match(nil), t("practice.match"), nil, "square.grid.2x2.fill", .teal)
+                }
+                Section(t("practice.workbook")) {
+                    link(.wordList, t("practice.wordList"), "\(model.content?.words.count ?? 0)", "textformat.abc", .blue)
+                    link(.themeQuiz(A1BankBuilder.coreTheme), t("practice.coreQuiz"), "\(model.coreLearned)/\(model.coreTotal)",
+                         "play.circle.fill", .green)
+                    link(.themes, t("practice.themes"), nil, "list.bullet.rectangle.fill", .brown)
+                    link(.grammarList, t("practice.grammarTopics", model.content?.grammar.count ?? 0), nil, "books.vertical.fill", .purple)
+                    link(.texts, t("practice.texts", model.content?.texts.count ?? 0), nil, "doc.richtext.fill", .cyan)
+                    link(.numbersLearn, t("practice.numbers"), nil, "number", .mint)
                 }
             }
-            .padding(.horizontal, DS.gutter)
-            .padding(.bottom, 120)
         }
-        .deschlyPage()
-        .navigationTitle("A1")
-        .navigationBarTitleDisplayMode(.inline)
+        .listStyle(.insetGrouped)
+        .navigationTitle("A1 · " + t("level.a1.name"))
     }
 
-    private var header: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            HStack(alignment: .lastTextBaseline) {
-                Text("A1").font(DS.display(52)).foregroundColor(DS.ink)
-                Text(t("level.a1.name")).font(DS.text(16, .medium)).foregroundColor(DS.muted)
-                Spacer()
-                Text("\(Int((model.readiness * 100).rounded()))%").font(DS.display(28, heavy: false)).foregroundColor(DS.ink)
-            }
-            GeometryReader { geo in
-                ZStack(alignment: .leading) {
-                    Capsule().fill(DS.hairline)
-                    Capsule().fill(DS.ink).frame(width: max(8, geo.size.width * model.readiness))
-                }
-            }
-            .frame(height: 8)
-            HStack(spacing: 0) {
-                stat("\(model.learned)", t("practice.statLearned", model.total))
-                stat("\(model.state.streak)", t("practice.statStreak"))
-                stat("\(model.todayCount)", t("practice.statToday"))
-                stat(model.state.exams.last.map { "\($0)" } ?? "–", t("practice.statExam"))
-            }
-        }
-        .padding(.top, 8)
-    }
-
-    private func stat(_ value: String, _ title: String) -> some View {
-        VStack(alignment: .leading, spacing: 2) {
-            Text(value).font(DS.display(20, heavy: false)).foregroundColor(DS.ink).monospacedDigit()
-            Text(title).font(DS.text(12)).foregroundColor(DS.muted).lineLimit(2)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-    }
-
-    private var quickStart: some View {
-        VStack(spacing: 10) {
-            NavigationLink(value: A1Route.mixed) {
-                HStack {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(t("practice.mixedTitle")).font(DS.display(22, heavy: false))
-                        Text(t("practice.mixedSub")).font(DS.text(13)).foregroundColor(DS.onNightMuted)
-                    }
+    private var overview: some View {
+        Section {
+            VStack(alignment: .leading, spacing: 10) {
+                HStack(alignment: .firstTextBaseline) {
+                    Text("\(Int((model.readiness * 100).rounded()))%").font(.largeTitle.bold()).monospacedDigit()
+                    Text(t("practice.statLearned", model.total)).font(.subheadline).foregroundStyle(.secondary)
                     Spacer()
-                    Image(systemName: "arrow.right")
-                        .font(.system(size: 16, weight: .bold))
-                        .foregroundColor(DS.onGold)
-                        .frame(width: 44, height: 44)
-                        .background(DS.gold, in: Circle())
                 }
-                .foregroundColor(DS.onNight)
-                .padding(18)
-                .background(DS.night, in: RoundedRectangle(cornerRadius: 26, style: .continuous))
+                ProgressView(value: model.readiness).tint(DS.das)
+                HStack {
+                    stat("\(model.state.streak)", t("practice.statStreak"), "flame.fill", .orange)
+                    stat("\(model.todayCount)", t("practice.statToday"), "checkmark.circle.fill", DS.das)
+                    stat(model.state.exams.last.map { "\($0)" } ?? "–", t("practice.statExam"), "graduationcap.fill", .indigo)
+                }
             }
-            .buttonStyle(.plain)
-            HStack(spacing: 10) {
-                NavigationLink(value: A1Route.exam) {
-                    smallCard(t("practice.exam"), t("practice.examSub"), "graduationcap")
-                }
-                NavigationLink(value: A1Route.mistakes) {
-                    smallCard(t("practice.mistakes"), t("practice.mistakesSub", model.state.wrong.count), "arrow.uturn.backward")
-                }
-                .disabled(model.state.wrong.isEmpty)
-            }
-            .buttonStyle(.plain)
+            .padding(.vertical, 6)
         }
     }
 
-    private func smallCard(_ title: String, _ sub: String, _ icon: String) -> some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Image(systemName: icon).font(.system(size: 17, weight: .semibold)).foregroundColor(DS.ink)
-            Text(title).font(DS.text(15, .semibold)).foregroundColor(DS.ink)
-            Text(sub).font(DS.text(12)).foregroundColor(DS.muted).lineLimit(2)
+    private func stat(_ value: String, _ title: String, _ icon: String, _ color: Color) -> some View {
+        HStack(spacing: 6) {
+            Image(systemName: icon).foregroundColor(color)
+            VStack(alignment: .leading, spacing: 0) {
+                Text(value).font(.headline).monospacedDigit()
+                Text(title).font(.caption2).foregroundStyle(.secondary).lineLimit(1)
+            }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
-        .deschlyCard(padding: 14)
     }
 
-    private var games: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            SectionTitle(title: t("practice.games"))
-            ForEach(Array(A1Mode.allCases.enumerated()), id: \.element) { index, mode in
-                NavigationLink(value: A1Route.mode(mode)) {
-                    ListRow(title: mode.title, note: "\(model.seenCount(mode))/\(model.totalFor(mode))",
-                            showsDivider: index < A1Mode.allCases.count - 1) {
-                        modeIcon(mode)
-                    }
-                }
-                .buttonStyle(.plain)
+    /// A row like the iOS Settings app: coloured icon square, title, value on the right.
+    private func link(_ route: A1Route, _ title: String, _ value: String?, _ icon: String, _ color: Color) -> some View {
+        NavigationLink(value: route) {
+            HStack(spacing: 12) {
+                Image(systemName: icon)
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundColor(.white)
+                    .frame(width: 30, height: 30)
+                    .background(color, in: RoundedRectangle(cornerRadius: 7, style: .continuous))
+                Text(title).lineLimit(2)
+                Spacer(minLength: 6)
+                if let value { Text(value).font(.subheadline.monospacedDigit()).foregroundStyle(.secondary).lineLimit(1) }
             }
         }
     }
 
-    @ViewBuilder
-    private func modeIcon(_ mode: A1Mode) -> some View {
-        if mode == .artikel {
-            ArticleBars()
-        } else {
-            Image(systemName: mode.icon).font(.system(size: 17, weight: .medium)).foregroundColor(DS.ink)
+    private func color(_ mode: A1Mode) -> Color {
+        switch mode {
+        case .artikel: return DS.die
+        case .wordToTr, .trToWord: return .blue
+        case .sentence, .cloze, .order: return .teal
+        case .listen, .hoeren: return .orange
+        case .write: return .pink
+        case .plural, .verbs: return .purple
+        case .grammar: return .indigo
+        case .numbers: return .mint
+        case .reading, .daily: return .green
         }
-    }
-
-    private var speedGames: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            SectionTitle(title: t("practice.speed"))
-            NavigationLink(value: A1Route.sprint) {
-                ListRow(title: t("practice.sprint"), note: t("practice.record", model.state.bestSprint)) {
-                    Image(systemName: "timer").font(.system(size: 17, weight: .medium)).foregroundColor(DS.ink)
-                }
-            }
-            NavigationLink(value: A1Route.match(nil)) {
-                ListRow(title: t("practice.match"), showsDivider: false) {
-                    Image(systemName: "square.grid.2x2").font(.system(size: 17, weight: .medium)).foregroundColor(DS.ink)
-                }
-            }
-        }
-        .buttonStyle(.plain)
-    }
-
-    private var workbook: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            SectionTitle(title: t("practice.workbook"))
-            NavigationLink(value: A1Route.wordList) {
-                ListRow(title: t("practice.wordList"), note: "\(model.content?.words.count ?? 0)") {
-                    Image(systemName: "textformat.abc").font(.system(size: 17, weight: .medium)).foregroundColor(DS.ink)
-                }
-            }
-            NavigationLink(value: A1Route.themeQuiz(A1BankBuilder.coreTheme)) {
-                ListRow(title: t("practice.coreQuiz"), note: "\(model.coreLearned)/\(model.coreTotal)") {
-                    Image(systemName: "play.circle").font(.system(size: 17, weight: .medium)).foregroundColor(DS.ink)
-                }
-            }
-            NavigationLink(value: A1Route.themes) {
-                ListRow(title: t("practice.themes")) {
-                    Image(systemName: "list.bullet.rectangle").font(.system(size: 17, weight: .medium)).foregroundColor(DS.ink)
-                }
-            }
-            NavigationLink(value: A1Route.grammarList) {
-                ListRow(title: t("practice.grammarTopics", model.content?.grammar.count ?? 0)) {
-                    Text("Aa").font(DS.display(15, heavy: false)).foregroundColor(DS.ink)
-                }
-            }
-            NavigationLink(value: A1Route.texts) {
-                ListRow(title: t("practice.texts", model.content?.texts.count ?? 0)) {
-                    Image(systemName: "doc.richtext").font(.system(size: 17, weight: .medium)).foregroundColor(DS.ink)
-                }
-            }
-            NavigationLink(value: A1Route.numbersLearn) {
-                ListRow(title: t("practice.numbers"), showsDivider: false) {
-                    Image(systemName: "number").font(.system(size: 17, weight: .medium)).foregroundColor(DS.ink)
-                }
-            }
-        }
-        .buttonStyle(.plain)
     }
 }

@@ -49,7 +49,7 @@ struct A1QuizView: View {
             }
         }
         .background(DS.ground.ignoresSafeArea())
-        .tint(DS.ink)
+        .tint(DS.accent)
         .navigationTitle(title)
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear { A1Speaker.shared.stop() }

@@ -5,40 +5,31 @@ struct TodayView: View {
     @EnvironmentObject private var a1: A1Model
     @EnvironmentObject private var daily: DailyModel
     let open: (AppRoute) -> Void
-    @State private var showSettings = false
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                topBar
-                greeting.padding(.top, 20)
+                greeting.padding(.top, 4)
                 levelTabs.padding(.top, 16)
                 dailyCard.padding(.top, 16)
                 if let word = wordOfDay { wordCard(word).padding(.top, 14) }
                 practice.padding(.top, 22)
             }
             .padding(.horizontal, DS.gutter)
-            .padding(.bottom, 120)
+            .padding(.bottom, 24)
         }
         .deschlyPage()
-        .toolbar(.hidden, for: .navigationBar)
-        .sheet(isPresented: $showSettings) { SettingsView() }
-    }
-
-    private var topBar: some View {
-        HStack {
-            Wordmark()
-            Spacer()
-            HStack(spacing: 5) {
-                Image(systemName: "flame.fill").foregroundColor(DS.gold)
-                Text("\(a1.state.streak)").font(DS.text(15, .semibold)).foregroundColor(DS.ink)
+        .navigationTitle(t("tab.today"))
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                HStack(spacing: 4) {
+                    Image(systemName: "flame.fill").foregroundColor(.orange)
+                    Text("\(a1.state.streak)").font(.subheadline.weight(.semibold)).monospacedDigit()
+                }
+                .accessibilityElement(children: .combine)
+                .accessibilityLabel(t("today.streak", a1.state.streak))
             }
-            .accessibilityElement(children: .combine)
-            .accessibilityLabel(t("today.streak", a1.state.streak))
-            CircleIconButton(systemName: "slider.horizontal.3", label: t("settings.title"), filled: true) { showSettings = true }
-                .padding(.leading, 10)
         }
-        .padding(.top, 8)
     }
 
     private var greeting: some View {
@@ -185,30 +176,47 @@ struct TodayView: View {
     }
 
     private var practice: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            SectionTitle(title: t("today.continue"),
-                         note: t("today.levelNote", Int((a1.readiness * 100).rounded()), a1.state.wrong.count))
-            NavigationLink(value: A1Route.mode(.artikel)) {
-                ListRow(title: "Artikel", note: t("today.left", max(0, a1.totalFor(.artikel) - a1.seenCount(.artikel)))) { ArticleBars() }
+        VStack(alignment: .leading, spacing: 8) {
+            HStack(alignment: .firstTextBaseline) {
+                Text(t("today.continue").uppercased()).font(.footnote).foregroundStyle(.secondary)
+                Spacer()
+                Text(t("today.levelNote", Int((a1.readiness * 100).rounded()), a1.state.wrong.count))
+                    .font(.footnote).foregroundStyle(.secondary)
             }
-            NavigationLink(value: A1Route.mode(.hoeren)) {
-                ListRow(title: "Hören", note: t("today.hoerenNote")) {
-                    Image(systemName: "waveform").font(.system(size: 18, weight: .semibold)).foregroundColor(DS.ink)
-                }
+            .padding(.horizontal, 16)
+            VStack(spacing: 0) {
+                row(.mode(.artikel), "Artikel", t("today.left", max(0, a1.totalFor(.artikel) - a1.seenCount(.artikel))), "textformat", DS.die)
+                Divider().padding(.leading, 58)
+                row(.mode(.hoeren), "Hören", t("today.hoerenNote"), "headphones", .orange)
+                Divider().padding(.leading, 58)
+                row(.grammarList, "Grammatik", t("today.grammarNote"), "books.vertical.fill", .indigo)
+                Divider().padding(.leading, 58)
+                row(.mistakes, t("practice.mistakes"), "\(a1.state.wrong.count)", "arrow.uturn.backward", .red)
+                    .disabled(a1.state.wrong.isEmpty)
             }
-            NavigationLink(value: A1Route.grammarList) {
-                ListRow(title: "Grammatik", note: t("today.grammarNote")) {
-                    Text("Aa").font(DS.display(15, heavy: false)).foregroundColor(DS.ink)
-                }
+            .background(DS.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+        }
+        .disabled(!a1.ready)
+    }
+
+    /// Settings-style row: coloured icon square, title, value, chevron.
+    private func row(_ route: A1Route, _ title: String, _ value: String, _ icon: String, _ color: Color) -> some View {
+        NavigationLink(value: route) {
+            HStack(spacing: 12) {
+                Image(systemName: icon)
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundColor(.white)
+                    .frame(width: 30, height: 30)
+                    .background(color, in: RoundedRectangle(cornerRadius: 7, style: .continuous))
+                Text(title).foregroundColor(DS.ink)
+                Spacer()
+                Text(value).font(.subheadline).foregroundStyle(.secondary).lineLimit(1)
+                Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(.tertiary)
             }
-            NavigationLink(value: A1Route.mistakes) {
-                ListRow(title: t("practice.mistakes"), note: "\(a1.state.wrong.count)", showsDivider: false) {
-                    Image(systemName: "arrow.uturn.backward").font(.system(size: 16, weight: .semibold)).foregroundColor(DS.ink)
-                }
-            }
-            .disabled(a1.state.wrong.isEmpty)
+            .padding(.horizontal, 16)
+            .frame(minHeight: 50)
+            .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
-        .disabled(!a1.ready)
     }
 }

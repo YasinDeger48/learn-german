@@ -23,7 +23,7 @@ struct DeschlyApp: App {
             .environmentObject(a1)
             .environmentObject(daily)
             .environmentObject(localizer)
-            .tint(DS.ink)
+            .tint(DS.accent)
             .onChange(of: scenePhase) { phase in
                 if phase == .active { Reminders.refresh(daily) }
             }
@@ -39,7 +39,7 @@ enum AppRoute: Hashable {
 }
 
 enum AppTab: Int, CaseIterable {
-    case today, levels, reading, videos
+    case today, levels, reading, videos, settings
 
     var titleKey: String {
         switch self {
@@ -47,48 +47,57 @@ enum AppTab: Int, CaseIterable {
         case .levels: return "tab.levels"
         case .reading: return "tab.reading"
         case .videos: return "tab.videos"
+        case .settings: return "tab.settings"
+        }
+    }
+
+    var icon: String {
+        switch self {
+        case .today: return "sun.max"
+        case .levels: return "chart.bar"
+        case .reading: return "book"
+        case .videos: return "play.rectangle"
+        case .settings: return "gearshape"
         }
     }
 }
 
+/// Standard iOS tab bar; every tab has its own navigation stack.
 struct RootView: View {
     let lessons: [Lesson]
     @State private var tab: AppTab = .today
-    @State private var paths: [AppTab: NavigationPath] = [:]
-
-    private func path(_ tab: AppTab) -> Binding<NavigationPath> {
-        Binding(get: { paths[tab] ?? NavigationPath() }, set: { paths[tab] = $0 })
-    }
+    @State private var todayPath = NavigationPath()
 
     var body: some View {
-        ZStack(alignment: .bottom) {
-            TabView(selection: $tab) {
-                stack(.today) { TodayView(open: open) }
-                stack(.levels) { LevelsView() }
-                stack(.reading) { ReadingHomeView() }
-                stack(.videos) { LessonsView(lessons: lessons) }
+        TabView(selection: $tab) {
+            NavigationStack(path: $todayPath) {
+                TodayView(open: { todayPath.append($0) }).appRoutes()
             }
-            if (paths[tab] ?? NavigationPath()).isEmpty {
-                FloatingTabBar(selection: $tab)
-                    .transition(.move(edge: .bottom).combined(with: .opacity))
-            }
-        }
-        .animation(.easeOut(duration: 0.2), value: (paths[tab] ?? NavigationPath()).isEmpty)
-    }
+            .tabItem { Label(t(AppTab.today.titleKey), systemImage: AppTab.today.icon) }
+            .tag(AppTab.today)
 
-    private func stack<Content: View>(_ tab: AppTab, @ViewBuilder _ content: () -> Content) -> some View {
-        NavigationStack(path: path(tab)) {
-            content()
-                .withA1Routes()
-                .navigationDestination(for: AppRoute.self) { AppDestination(route: $0) }
-        }
-        .toolbar(.hidden, for: .tabBar)
-        .tag(tab)
-    }
+            NavigationStack { LevelsView().appRoutes() }
+                .tabItem { Label(t(AppTab.levels.titleKey), systemImage: AppTab.levels.icon) }
+                .tag(AppTab.levels)
 
-    /// Lets the Today screen jump into other routes in its own stack.
-    private func open(_ route: AppRoute) {
-        paths[.today, default: NavigationPath()].append(route)
+            NavigationStack { ReadingHomeView().appRoutes() }
+                .tabItem { Label(t(AppTab.reading.titleKey), systemImage: AppTab.reading.icon) }
+                .tag(AppTab.reading)
+
+            NavigationStack { LessonsView(lessons: lessons) }
+                .tabItem { Label(t(AppTab.videos.titleKey), systemImage: AppTab.videos.icon) }
+                .tag(AppTab.videos)
+
+            NavigationStack { SettingsView() }
+                .tabItem { Label(t(AppTab.settings.titleKey), systemImage: AppTab.settings.icon) }
+                .tag(AppTab.settings)
+        }
+    }
+}
+
+extension View {
+    func appRoutes() -> some View {
+        withA1Routes().navigationDestination(for: AppRoute.self) { AppDestination(route: $0) }
     }
 }
 
@@ -112,38 +121,6 @@ struct AppDestination: View {
         case .practice(let level):
             if level == "A1" { PracticeHomeView() } else { ComingSoonView(level: level) }
         }
-    }
-}
-
-/// The black floating pill from the mockup.
-struct FloatingTabBar: View {
-    @Binding var selection: AppTab
-
-    var body: some View {
-        HStack(spacing: 4) {
-            ForEach(AppTab.allCases, id: \.self) { item in
-                let active = item == selection
-                Button {
-                    selection = item
-                } label: {
-                    Text(t(item.titleKey))
-                        .font(DS.text(14, active ? .semibold : .medium))
-                        .lineLimit(1)
-                        .minimumScaleFactor(0.8)
-                        .foregroundColor(active ? DS.ink : DS.onNightMuted)
-                        .padding(.horizontal, 14)
-                        .frame(maxWidth: .infinity, minHeight: 44)
-                        .background(active ? DS.ground : Color.clear, in: Capsule())
-                }
-                .buttonStyle(.plain)
-                .accessibilityAddTraits(active ? .isSelected : [])
-            }
-        }
-        .padding(8)
-        .background(DS.night, in: Capsule())
-        .shadow(color: .black.opacity(0.18), radius: 16, y: 8)
-        .padding(.horizontal, DS.gutter)
-        .padding(.bottom, 8)
     }
 }
 

@@ -269,71 +269,63 @@ struct DailyReadingView: View {
     }
 }
 
-/// Reading tab: today's text, the archive of earlier days and the A1 workbook texts.
+/// Reading tab: today's text, earlier days and the A1 workbook texts, as a native grouped list.
 struct ReadingHomeView: View {
     @EnvironmentObject private var daily: DailyModel
     @EnvironmentObject private var a1: A1Model
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 18) {
-                Text(t("reading.title")).font(DS.display(38)).tracking(-1.4).foregroundColor(DS.ink).padding(.top, 8)
-                if let today = daily.today {
-                    NavigationLink(value: AppRoute.reading(today.id)) {
-                        row(today, note: t("reading.today"), highlight: true)
-                    }
-                    .buttonStyle(.plain)
+        List {
+            if let today = daily.today {
+                Section(t("reading.today")) {
+                    NavigationLink(value: AppRoute.reading(today.id)) { row(today, note: nil, large: true) }
                 }
-                let archive = daily.archive()
-                if !archive.isEmpty {
-                    SectionTitle(title: t("reading.archive"))
-                    VStack(spacing: 0) {
-                        ForEach(Array(archive.enumerated()), id: \.offset) { _, item in
-                            NavigationLink(value: AppRoute.reading(item.text.id)) {
-                                row(item.text, note: item.date.formatted(.dateTime.day().month(.abbreviated)), highlight: false)
-                            }
-                            .buttonStyle(.plain)
+            }
+            let archive = daily.archive()
+            if !archive.isEmpty {
+                Section(t("reading.archive")) {
+                    ForEach(Array(archive.enumerated()), id: \.offset) { _, item in
+                        NavigationLink(value: AppRoute.reading(item.text.id)) {
+                            row(item.text, note: item.date.formatted(.dateTime.day().month(.abbreviated)), large: false)
                         }
                     }
                 }
-                SectionTitle(title: t("reading.more"))
-                NavigationLink(value: A1Route.texts) {
-                    ListRow(title: t("practice.texts", a1.content?.texts.count ?? 0), showsDivider: false) {
-                        Image(systemName: "doc.richtext").font(.system(size: 17, weight: .medium)).foregroundColor(DS.ink)
-                    }
-                }
-                .buttonStyle(.plain)
             }
-            .padding(.horizontal, DS.gutter)
-            .padding(.bottom, 120)
+            Section(t("reading.more")) {
+                NavigationLink(value: A1Route.texts) {
+                    Label(t("practice.texts", a1.content?.texts.count ?? 0), systemImage: "doc.richtext")
+                }
+            }
         }
-        .deschlyPage()
-        .toolbar(.hidden, for: .navigationBar)
+        .listStyle(.insetGrouped)
+        .navigationTitle(t("reading.title"))
     }
 
-    private func row(_ text: DailyText, note: String, highlight: Bool) -> some View {
-        HStack(spacing: 14) {
+    private func row(_ text: DailyText, note: String?, large: Bool) -> some View {
+        HStack(spacing: 12) {
             if let cover = Covers.image(text.id) {
-                CoverImage(image: cover, height: highlight ? 72 : 56, radius: 14)
-                    .frame(width: highlight ? 96 : 76)
+                CoverImage(image: cover, height: large ? 64 : 48, radius: 10).frame(width: large ? 96 : 72)
+            } else {
+                Image(systemName: "book.closed")
+                    .font(.title3)
+                    .foregroundColor(.white)
+                    .frame(width: large ? 64 : 48, height: large ? 64 : 48)
+                    .background(DS.accent, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
             }
-            VStack(alignment: .leading, spacing: 4) {
-                Text(note).font(DS.text(12)).foregroundColor(highlight ? DS.onNightMuted : DS.muted)
-                Text(text.title).font(DS.display(highlight ? 24 : 18, heavy: false)).foregroundColor(highlight ? DS.onNight : DS.ink)
-                Text("\(text.level) · \(text.topic) · \(text.minutes) min").font(DS.text(12)).foregroundColor(highlight ? DS.onNightMuted : DS.muted)
+            VStack(alignment: .leading, spacing: 3) {
+                Text(text.title).font(large ? .headline : .body)
+                Text([note, "\(text.level) · \(text.topic) · \(text.minutes) min"].compactMap { $0 }.joined(separator: " · "))
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(1)
             }
-            Spacer()
+            Spacer(minLength: 4)
             if let score = daily.quizScore(text) {
-                Text("\(score)%").font(DS.text(14, .semibold)).foregroundColor(highlight ? DS.gold : DS.success)
+                Text("\(score)%").font(.subheadline.weight(.semibold).monospacedDigit()).foregroundColor(DS.success)
             } else if daily.isRead(text) {
-                Image(systemName: "checkmark").foregroundColor(highlight ? DS.gold : DS.success)
+                Image(systemName: "checkmark.circle.fill").foregroundColor(DS.success)
             }
         }
-        .padding(highlight ? 18 : 0)
-        .padding(.vertical, highlight ? 0 : 12)
-        .background(highlight ? DS.night : Color.clear, in: RoundedRectangle(cornerRadius: 24, style: .continuous))
-        .overlay(alignment: .bottom) {
-            if !highlight { Rectangle().fill(DS.hairline).frame(height: 1) }
-        }
+        .padding(.vertical, large ? 4 : 0)
     }
 }

@@ -4,7 +4,6 @@ import SwiftUI
 struct SettingsView: View {
     @EnvironmentObject private var daily: DailyModel
     @EnvironmentObject private var localizer: Localizer
-    @Environment(\.dismiss) private var dismiss
     @State private var exporting = false
     @State private var importing = false
     @State private var document: BackupDocument?
@@ -34,14 +33,12 @@ struct SettingsView: View {
     }
 
     var body: some View {
-        NavigationStack {
-            Form {
+        Form {
                 Section(t("settings.language")) {
                     Picker(t("settings.language"), selection: Binding(get: { localizer.language }, set: { localizer.choose($0) })) {
                         ForEach(AppLanguage.allCases) { Text($0.nativeName).tag($0) }
                     }
-                    .pickerStyle(.inline)
-                    .labelsHidden()
+                    .pickerStyle(.navigationLink)
                 }
                 Section {
                     Toggle(t("settings.remind"), isOn: remindersBinding)
@@ -82,19 +79,12 @@ struct SettingsView: View {
             .scrollContentBackground(.hidden)
             .background(DS.ground.ignoresSafeArea())
             .navigationTitle(t("settings.title"))
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .confirmationAction) {
-                    Button(t("common.done")) { dismiss() }
-                }
-            }
             .fileExporter(isPresented: $exporting, document: document, contentType: .json, defaultFilename: "Deschly-Backup") { result in
                 if case .success = result { status = t("backup.saved") } else { status = t("backup.saveFailed") }
             }
             .fileImporter(isPresented: $importing, allowedContentTypes: [.json]) { result in
                 if case .success(let url) = result { status = t(BackupService.restore(from: url)) }
             }
-        }
-        .tint(DS.ink)
+        .tint(DS.accent)
     }
 }
