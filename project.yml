@@ -8,12 +8,11 @@ targets:
     type: application
     platform: iOS
     sources:
-      - path: Almanca.swift
-      - path: A1.swift
-      - path: lessons.json
+      - path: Sources
+      - path: Resources
         buildPhase: resources
-      - path: a1.json
-        buildPhase: resources
+        excludes:
+          - "**/*.txt"
       - path: Assets.xcassets
     settings:
       base:

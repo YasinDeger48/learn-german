@@ -3,11 +3,10 @@ on:
   push:
     paths:
       - '.github/workflows/ios.yml'
-      - '*.swift'
-      - 'a1.json'
+      - 'Sources/**'
+      - 'Resources/**'
       - 'AppIcon.png'
       - 'Info.plist'
-      - 'lessons.json'
   workflow_dispatch:
 
 permissions:
@@ -25,17 +24,18 @@ jobs:
           app=Payload/Almanca.app
           mkdir -p "$app"
           plutil -lint Info.plist
-          cp Info.plist lessons.json a1.json "$app/"
+          cp Info.plist "$app/"
+          # Resources are copied flat into the bundle, like Xcode does for groups.
+          find Resources -type f \( -name '*.json' -o -name '*.ttf' -o -name '*.png' \) -exec cp {} "$app/" \;
           swift_sdk="$(xcrun --sdk iphoneos --show-sdk-path)"
-          xcrun --sdk iphoneos swiftc -parse-as-library -O \
-            -target arm64-apple-ios16.0 -sdk "$swift_sdk" \
-            Almanca.swift A1.swift -o "$app/Almanca"
+          find Sources -name '*.swift' -print0 | xargs -0 xcrun --sdk iphoneos swiftc -parse-as-library -O \
+            -target arm64-apple-ios16.0 -sdk "$swift_sdk" -o "$app/Almanca"
           sips -z 180 180 AppIcon.png --out "$app/AppIcon@3x.png"
           sips -z 120 120 AppIcon.png --out "$app/AppIcon@2x.png"
-          ditto -c -k --keepParent Payload Almanca-Derslerim.ipa
-          unzip -t Almanca-Derslerim.ipa
+          ditto -c -k --keepParent Payload Deschly.ipa
+          unzip -t Deschly.ipa
       - uses: actions/upload-artifact@v4
         with:
-          name: Almanca-Derslerim-IPA
-          path: Almanca-Derslerim.ipa
+          name: Deschly-IPA
+          path: Deschly.ipa
           if-no-files-found: error

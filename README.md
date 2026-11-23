@@ -1,30 +1,29 @@
-# Almanca Derslerim
+# Deschly
 
-SwiftUI ile hazırlanmış kişisel iPhone uygulaması. iOS 16 veya üstünü gerektirir. A1–C1 arasındaki 298 ders cihazda listelenir. Videolar YouTube’da açılır ve izlenme işaretleri cihazda saklanır.
+Almanca öğrenme uygulaması (iPhone, SwiftUI, iOS 16+). Maskot: Lina. Slogan: „Deutsch lernen, leicht gemacht.“
+Arayüz ve içerik dilleri: Türkçe, English, Español, Français, Italiano. Hesap ve sunucu yok; ilerleme cihazda kalır.
 
-## A1 Hazırlık sekmesi
+- **Bugün:** Lina'nın selamı, günün okuma metni, günün kelimesi, hızlı pratik
+- **Günlük okuma:** her gün seviyeye uygun yeni metin, dokununca artikel/anlam, çeviri, sesli okuma, metinden quiz, yerel bildirim
+- **Seviyeler:** A1 (2.085 kelime, 22 gramer konusu, sınav provası, dinleme, sayılar); A2, B1, B2 sırada
+- **Videolar:** A1–C1 YouTube dersleri, izlenme ve not
 
-`a1.json`, „Almanca A1 Kelimeler, Gramer ve Sınav Hazırlık“ PDF'inden üretilir (`tools/`):
+Mimari ve veri akışı: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
-- 693 A1 kelimesi, 1386 örnek cümle, okunuşlar, 22 gramer konusu, 20 okuma metni
-- Ek olarak sık kullanılan ~1390 kelime (`tools/words/*.txt`): artikel, okunuş, Türkçe, 1 örnek cümle
-- Oyunlar: artikel, kelime ↔ Türkçe, cümle anlamı, boşluk doldurma, cümle kurma, dinleme, sınav dinlemesi (120 diyalog, anons ve telefon mesajı; kadın, erkek ve anons sesi; sınavdaki gibi 2 kez), yazma/dikte, çoğul, fiiller/Perfekt, gramer, sayı-saat-tarih (sayı yazma, sayı kurma, dikte, yıllar, fiyatlar; „Sayıları öğren“ kural sayfası ve sayı çevirici), okuma, „Ne dersin?“ / „Hatayı bul“, artikel yarışı, eşleştirme, 30 soruluk sınav provası
-- Görülen soru tekrar sorulmaz; yanlışlar „Hatalarım“da toplanır. İlerleme yedek dosyasına da yazılır.
-
-Veriyi yeniden üretmek için (Windows, Python 3 + pdftotext):
+İçeriği yeniden üretmek için:
 
 ```
-pdftotext -enc UTF-8 Almanca_A1_Kelimeler_Gramer_ve_Sinav_Hazirlik.pdf a1raw.txt
-python -X utf8 tools/parse_a1_pdf.py a1raw.txt a1_base.json
-python -X utf8 tools/a1_extras.py a1_base.json a1.json
-python -X utf8 tools/build_core.py a1.json
+python -X utf8 tools/a1_extras.py a1_base.json tools/data/a1_raw.json
+python -X utf8 tools/build_core.py tools/data/a1_raw.json
+python -I -X utf8 tools/pack_content.py tools/data/a1_raw.json Resources/content/a1.json
+python -I -X utf8 tools/build_daily.py a1
 ```
 
 ## IPA dosyasını indir
 
 1. GitHub deposunda **Actions → iPhone IPA** öğesini aç.
 2. Son başarılı çalıştırmayı aç. Gerekirse **Run workflow** ile bir derleme başlat.
-3. **Artifacts → Almanca-Derslerim-IPA** arşivini indir ve ZIP’ten `Almanca-Derslerim.ipa` dosyasını çıkar.
+3. **Artifacts → Deschly-IPA** arşivini indir ve ZIP’ten `Deschly.ipa` dosyasını çıkar.
 
 Bu dosya kişisel kurulum için hazırlanır. Telefonuna yüklerken Apple hesabınla imzalaman gerekir.
 
@@ -33,6 +32,6 @@ Bu dosya kişisel kurulum için hazırlanır. Telefonuna yüklerken Apple hesab�
 1. [AltStore Classic’in Windows kılavuzunu](https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows) takip ederek AltServer’ı bilgisayarına ve AltStore Classic’i iPhone’una kur.
 2. IPA dosyasını iCloud Drive veya başka bir dosya aktarım yöntemiyle iPhone’daki **Dosyalar** uygulamasına koy.
 3. iPhone’da **AltStore → My Apps → +** yolunu aç ve IPA dosyasını seç. AltServer bilgisayarda açık olmalı. Gerektiğinde telefonu USB ile bağla.
-4. Derleme kurulduğunda **Almanca Derslerim** simgesine dokun. Ücretsiz Apple hesabıyla uygulamayı yedi gün dolmadan AltStore üzerinden yenile. Bilgisayar, kurulum ve yenileme sırasında gerekir. Ders listesini kullanmak için bilgisayara bağlı olmak gerekmez.
+4. Derleme kurulduğunda **Deschly** simgesine dokun. Ücretsiz Apple hesabıyla uygulamayı yedi gün dolmadan AltStore üzerinden yenile. Bilgisayar, kurulum ve yenileme sırasında gerekir. Ders listesini kullanmak için bilgisayara bağlı olmak gerekmez.
 
 Apple hesabı bilgilerini yalnızca kullandığın imzalama aracına gir. GitHub’a yükleme.

@@ -1,0 +1,176 @@
+# a1-001 | Alltag | Mein neues E-Bike
+DE: Lena wohnt in Köln. Seit einem Monat fährt sie mit dem E-Bike zur Arbeit. Früher ist sie jeden Tag mit dem Bus gefahren. Aber der Bus war oft voll und hatte Verspätung. ||| Jetzt braucht sie nur zwanzig Minuten. Am Anfang war es anstrengend, aber jetzt macht es ihr Spaß. Sie spart Geld und ist morgens schon wach, wenn sie im Büro ankommt. Nur bei Regen nimmt sie noch den Bus.
+TR: Lena Köln'de yaşıyor. Bir aydır işe elektrikli bisikletle gidiyor. Eskiden her gün otobüsle gidiyordu. Ama otobüs çoğu zaman doluydu ve rötar yapıyordu. ||| Şimdi sadece yirmi dakikaya ihtiyacı var. Başta yorucuydu ama şimdi hoşuna gidiyor. Para biriktiriyor ve ofise vardığında sabahları çoktan uyanmış oluyor. Sadece yağmurda hâlâ otobüse biniyor.
+EN: Lena lives in Cologne. For a month she has been riding her e-bike to work. She used to take the bus every day. But the bus was often full and late. ||| Now she only needs twenty minutes. At first it was tiring, but now she enjoys it. She saves money and is already awake in the morning when she arrives at the office. She only takes the bus when it rains.
+G: E-Bike | das | E-Bike | Pl. die E-Bikes | elektrikli bisiklet | e-bike
+G: Bus | der | Bus | Pl. die Busse | otobüs | bus
+G: Verspätung | die | Verspätung | Pl. die Verspätungen | gecikme, rötar | delay
+G: anstrengend | - | anstrengend | - | yorucu | tiring
+G: spart | - | sparen | er spart · hat gespart | biriktirmek, tasarruf etmek | to save
+G: Büro | das | Büro | Pl. die Büros | ofis, büro | office
+G: Regen | der | Regen | - | yağmur | rain
+Q: tf | Lena wohnt in Hamburg. | 1
+Q: tf | Der Bus war oft voll. | 0
+Q: tf | Mit dem E-Bike braucht Lena eine Stunde. | 1
+Q: mc | Warum fährt Lena nicht mehr mit dem Bus? | Der Bus war oft voll und zu spät. ; Der Bus ist zu teuer. ; Sie hat keine Fahrkarte. | 0
+Q: mc | Wann nimmt Lena noch den Bus? | Am Wochenende ; Bei Regen ; Am Abend | 1
+
+# a1-002 | Wohnen | Die neue Wohnung
+DE: Murat und Ayşe haben eine neue Wohnung in Berlin. Die Wohnung hat drei Zimmer, eine Küche und einen kleinen Balkon. Sie liegt im vierten Stock, aber es gibt einen Aufzug. ||| Die Miete ist nicht billig: Sie kostet 1.100 Euro im Monat. Aber die Wohnung ist hell und ruhig. Der Supermarkt und die U-Bahn sind ganz nah. Am Samstag kommen die Freunde zur Party. Murat kocht, und Ayşe macht einen Kuchen.
+TR: Murat ve Ayşe'nin Berlin'de yeni bir dairesi var. Dairenin üç odası, bir mutfağı ve küçük bir balkonu var. Dördüncü katta ama asansör var. ||| Kira ucuz değil: ayda 1.100 Euro. Ama daire aydınlık ve sessiz. Süpermarket ve metro çok yakın. Cumartesi günü arkadaşlar partiye geliyor. Murat yemek yapıyor, Ayşe de kek yapıyor.
+EN: Murat and Ayşe have a new flat in Berlin. The flat has three rooms, a kitchen and a small balcony. It is on the fourth floor, but there is a lift. ||| The rent is not cheap: it costs 1,100 euros a month. But the flat is bright and quiet. The supermarket and the underground are very close. On Saturday their friends are coming to a party. Murat is cooking, and Ayşe is making a cake.
+G: Wohnung | die | Wohnung | Pl. die Wohnungen | daire, ev | flat, apartment
+G: Küche | die | Küche | Pl. die Küchen | mutfak | kitchen
+G: Balkon | der | Balkon | Pl. die Balkone | balkon | balcony
+G: Aufzug | der | Aufzug | Pl. die Aufzüge | asansör | lift, elevator
+G: Miete | die | Miete | Pl. die Mieten | kira | rent
+G: hell | - | hell | - | aydınlık | bright
+G: ruhig | - | ruhig | - | sessiz, sakin | quiet
+G: Kuchen | der | Kuchen | Pl. die Kuchen | kek, pasta | cake
+Q: tf | Die Wohnung hat zwei Zimmer. | 1
+Q: tf | Es gibt einen Aufzug. | 0
+Q: tf | Die Wohnung ist laut. | 1
+Q: mc | Wie viel kostet die Miete? | 1.100 Euro im Monat ; 1.100 Euro im Jahr ; 110 Euro im Monat | 0
+Q: mc | Was macht Ayşe für die Party? | Sie kocht. ; Sie macht einen Kuchen. ; Sie kauft Getränke. | 1
+
+# a1-003 | Arbeit | Homeoffice am Montag
+DE: Tom arbeitet bei einer Firma in München. Montags arbeitet er immer zu Hause. Er steht um sieben Uhr auf, trinkt einen Kaffee und macht um acht Uhr den Laptop an. ||| Um neun Uhr hat er eine Besprechung mit seinen Kollegen. Die Besprechung ist online. Mittags kocht Tom Nudeln. Am Nachmittag schreibt er E-Mails und telefoniert mit Kunden. Um fünf Uhr ist er fertig. Dann geht er joggen.
+TR: Tom Münih'te bir şirkette çalışıyor. Pazartesileri hep evden çalışıyor. Saat yedide kalkıyor, bir kahve içiyor ve saat sekizde dizüstü bilgisayarı açıyor. ||| Saat dokuzda iş arkadaşlarıyla bir toplantısı var. Toplantı çevrimiçi. Öğlen Tom makarna pişiriyor. Öğleden sonra e-posta yazıyor ve müşterilerle telefonda konuşuyor. Saat beşte işi bitiyor. Sonra koşuya gidiyor.
+EN: Tom works for a company in Munich. On Mondays he always works from home. He gets up at seven, drinks a coffee and turns on his laptop at eight. ||| At nine he has a meeting with his colleagues. The meeting is online. At lunchtime Tom cooks pasta. In the afternoon he writes emails and talks to customers on the phone. At five he is finished. Then he goes jogging.
+G: Firma | die | Firma | Pl. die Firmen | şirket, firma | company
+G: Laptop | der | Laptop | Pl. die Laptops | dizüstü bilgisayar | laptop
+G: Besprechung | die | Besprechung | Pl. die Besprechungen | toplantı | meeting
+G: Kollegen | der | Kollege | Pl. die Kollegen | iş arkadaşı | colleague
+G: Nudeln | - | die Nudeln | nur Plural | makarna | pasta, noodles
+G: Kunden | der | Kunde | Pl. die Kunden | müşteri | customer
+G: fertig | - | fertig | - | bitmiş, hazır | finished, ready
+Q: tf | Tom arbeitet montags im Büro. | 1
+Q: tf | Die Besprechung ist online. | 0
+Q: tf | Tom isst mittags im Restaurant. | 1
+Q: mc | Wann macht Tom den Laptop an? | Um sieben Uhr ; Um acht Uhr ; Um neun Uhr | 1
+Q: mc | Was macht Tom nach der Arbeit? | Er geht joggen. ; Er kocht Nudeln. ; Er schreibt E-Mails. | 0
+
+# a1-004 | Einkaufen | Im Supermarkt
+DE: Am Freitag geht Sara in den Supermarkt. Sie hat eine Einkaufsliste auf dem Handy. Sie braucht Milch, Brot, Tomaten, Käse und Äpfel. Die Äpfel sind heute im Angebot: Ein Kilo kostet nur 1,99 Euro. ||| An der Kasse ist eine lange Schlange. Sara bezahlt mit der Karte. Dann merkt sie: Sie hat die Eier vergessen! Sie geht noch einmal zurück. Zu Hause kocht sie eine Tomatensuppe.
+TR: Cuma günü Sara süpermarkete gidiyor. Telefonunda bir alışveriş listesi var. Süt, ekmek, domates, peynir ve elmaya ihtiyacı var. Elmalar bugün indirimde: bir kilosu sadece 1,99 Euro. ||| Kasada uzun bir kuyruk var. Sara kartla ödüyor. Sonra fark ediyor: yumurtaları unutmuş! Bir kez daha geri dönüyor. Evde domates çorbası pişiriyor.
+EN: On Friday Sara goes to the supermarket. She has a shopping list on her phone. She needs milk, bread, tomatoes, cheese and apples. The apples are on offer today: one kilo costs only 1.99 euros. ||| There is a long queue at the checkout. Sara pays by card. Then she notices: she has forgotten the eggs! She goes back once more. At home she cooks a tomato soup.
+G: Einkaufsliste | die | Einkaufsliste | Pl. die Einkaufslisten | alışveriş listesi | shopping list
+G: Handy | das | Handy | Pl. die Handys | cep telefonu | mobile phone
+G: Angebot | das | Angebot | Pl. die Angebote | indirim, teklif | offer
+G: Kasse | die | Kasse | Pl. die Kassen | kasa | checkout, till
+G: Schlange | die | Schlange | Pl. die Schlangen | kuyruk (sıra) | queue, line
+G: vergessen | - | vergessen | er vergisst · hat vergessen | unutmak | to forget
+G: Eier | das | Ei | Pl. die Eier | yumurta | egg
+Q: tf | Sara geht am Samstag einkaufen. | 1
+Q: tf | Die Äpfel sind heute billig. | 0
+Q: tf | Sara bezahlt bar. | 1
+Q: mc | Was hat Sara vergessen? | Die Milch ; Die Eier ; Den Käse | 1
+Q: mc | Was kocht Sara zu Hause? | Eine Tomatensuppe ; Nudeln ; Einen Kuchen | 0
+
+# a1-005 | Freizeit | Ein Wochenende in Hamburg
+DE: Am Wochenende fährt Jonas mit dem Zug nach Hamburg. Dort wohnt seine Schwester Mia. Am Samstag machen sie eine Hafenrundfahrt. Das Wetter ist schön, aber es ist windig. ||| Am Abend essen sie Fischbrötchen und gehen ins Kino. Am Sonntag frühstücken sie lange in einem Café. Dann besuchen sie ein Museum. Um sechs Uhr fährt Jonas wieder nach Hause. Er ist müde, aber glücklich.
+TR: Hafta sonu Jonas trenle Hamburg'a gidiyor. Kız kardeşi Mia orada yaşıyor. Cumartesi günü liman turu yapıyorlar. Hava güzel ama rüzgârlı. ||| Akşam balık sandviçi yiyorlar ve sinemaya gidiyorlar. Pazar günü bir kafede uzun uzun kahvaltı yapıyorlar. Sonra bir müzeyi geziyorlar. Saat altıda Jonas tekrar eve dönüyor. Yorgun ama mutlu.
+EN: At the weekend Jonas takes the train to Hamburg. His sister Mia lives there. On Saturday they take a harbour tour. The weather is nice, but it is windy. ||| In the evening they eat fish rolls and go to the cinema. On Sunday they have a long breakfast in a café. Then they visit a museum. At six Jonas goes back home. He is tired but happy.
+G: Zug | der | Zug | Pl. die Züge | tren | train
+G: Schwester | die | Schwester | Pl. die Schwestern | kız kardeş | sister
+G: Hafenrundfahrt | die | Hafenrundfahrt | Pl. die Hafenrundfahrten | liman turu | harbour tour
+G: windig | - | windig | - | rüzgârlı | windy
+G: Kino | das | Kino | Pl. die Kinos | sinema | cinema
+G: frühstücken | - | frühstücken | er frühstückt · hat gefrühstückt | kahvaltı yapmak | to have breakfast
+G: Museum | das | Museum | Pl. die Museen | müze | museum
+G: müde | - | müde | - | yorgun | tired
+Q: tf | Jonas fährt mit dem Auto nach Hamburg. | 1
+Q: tf | Mia ist die Schwester von Jonas. | 0
+Q: tf | Am Samstag regnet es. | 1
+Q: mc | Was machen sie am Samstagabend? | Sie gehen ins Kino. ; Sie besuchen ein Museum. ; Sie frühstücken. | 0
+Q: mc | Wie fühlt sich Jonas am Ende? | Traurig ; Müde, aber glücklich ; Krank | 1
+
+# a1-006 | Gesundheit | Beim Arzt
+DE: Emre ist seit zwei Tagen krank. Er hat Kopfschmerzen und Fieber. Am Morgen ruft er in der Praxis an und bekommt einen Termin um elf Uhr. ||| Die Ärztin untersucht ihn. „Sie haben eine Erkältung“, sagt sie. „Trinken Sie viel Tee und bleiben Sie drei Tage im Bett.“ Sie schreibt ein Rezept. In der Apotheke holt Emre die Tabletten. Für die Arbeit braucht er eine Krankmeldung.
+TR: Emre iki gündür hasta. Başı ağrıyor ve ateşi var. Sabah muayenehaneyi arıyor ve saat on bire randevu alıyor. ||| Doktor onu muayene ediyor. "Soğuk algınlığınız var," diyor. "Bol çay için ve üç gün yatakta kalın." Bir reçete yazıyor. Emre eczaneden ilaçları alıyor. İş için bir hastalık raporuna ihtiyacı var.
+EN: Emre has been ill for two days. He has a headache and a fever. In the morning he calls the doctor's office and gets an appointment at eleven. ||| The doctor examines him. "You have a cold," she says. "Drink lots of tea and stay in bed for three days." She writes a prescription. Emre gets the tablets at the pharmacy. For work he needs a sick note.
+G: Kopfschmerzen | - | die Kopfschmerzen | nur Plural | baş ağrısı | headache
+G: Fieber | das | Fieber | - | ateş | fever
+G: Praxis | die | Praxis | Pl. die Praxen | muayenehane | doctor's office
+G: Termin | der | Termin | Pl. die Termine | randevu | appointment
+G: Erkältung | die | Erkältung | Pl. die Erkältungen | soğuk algınlığı | cold
+G: Rezept | das | Rezept | Pl. die Rezepte | reçete | prescription
+G: Apotheke | die | Apotheke | Pl. die Apotheken | eczane | pharmacy
+G: Krankmeldung | die | Krankmeldung | Pl. die Krankmeldungen | hastalık raporu | sick note
+Q: tf | Emre hat Bauchschmerzen. | 1
+Q: tf | Der Termin ist um elf Uhr. | 0
+Q: tf | Emre soll drei Tage im Bett bleiben. | 0
+Q: mc | Was hat Emre? | Eine Erkältung ; Ein gebrochenes Bein ; Zahnschmerzen | 0
+Q: mc | Wo holt Emre die Tabletten? | Beim Arzt ; In der Apotheke ; Im Supermarkt | 1
+
+# a1-007 | Essen | Pizza bestellen
+DE: Heute Abend hat Clara keine Lust zu kochen. Sie bestellt eine Pizza mit einer App. Sie wählt eine Pizza mit Spinat und Käse und eine Cola. Das kostet zusammen 14,50 Euro. ||| Die App sagt: „Lieferung in 35 Minuten.“ Aber nach einer Stunde ist die Pizza noch nicht da. Clara ruft den Lieferdienst an. Der Fahrer hatte die falsche Adresse! Endlich klingelt es. Die Pizza ist leider kalt, aber Clara bekommt einen Gutschein.
+TR: Bu akşam Clara'nın yemek yapmaya hiç hevesi yok. Bir uygulamayla pizza sipariş ediyor. Ispanaklı ve peynirli bir pizza ile bir kola seçiyor. Hepsi birlikte 14,50 Euro tutuyor. ||| Uygulama "35 dakikada teslimat" diyor. Ama bir saat sonra pizza hâlâ gelmemiş. Clara kurye servisini arıyor. Sürücü yanlış adrese gitmiş! Sonunda kapı çalıyor. Pizza maalesef soğuk ama Clara bir indirim kuponu alıyor.
+EN: Tonight Clara doesn't feel like cooking. She orders a pizza with an app. She chooses a pizza with spinach and cheese and a cola. Together that costs 14.50 euros. ||| The app says: "Delivery in 35 minutes." But after an hour the pizza still isn't there. Clara calls the delivery service. The driver had the wrong address! Finally the doorbell rings. Sadly the pizza is cold, but Clara gets a voucher.
+G: Lust | die | Lust | - | istek, heves | desire, feeling like
+G: bestellt | - | bestellen | er bestellt · hat bestellt | sipariş etmek | to order
+G: App | die | App | Pl. die Apps | uygulama | app
+G: Lieferung | die | Lieferung | Pl. die Lieferungen | teslimat | delivery
+G: Fahrer | der | Fahrer | Pl. die Fahrer | sürücü | driver
+G: Adresse | die | Adresse | Pl. die Adressen | adres | address
+G: klingelt | - | klingeln | es klingelt · hat geklingelt | (zil) çalmak | to ring
+G: Gutschein | der | Gutschein | Pl. die Gutscheine | kupon, hediye çeki | voucher
+Q: tf | Clara kocht heute Abend. | 1
+Q: tf | Die Pizza kommt nach 35 Minuten. | 1
+Q: tf | Der Fahrer hatte die falsche Adresse. | 0
+Q: mc | Was kostet das Essen zusammen? | 14,50 Euro ; 35 Euro ; 4,50 Euro | 0
+Q: mc | Was bekommt Clara am Ende? | Eine neue Pizza ; Einen Gutschein ; Eine Cola | 1
+
+# a1-008 | Familie | Omas Geburtstag
+DE: Am Sonntag hat Oma Gül Geburtstag. Sie wird achtzig Jahre alt. Die ganze Familie kommt: ihre Kinder, ihre Enkel und sogar ihr Bruder aus Izmir. ||| Elif, die Enkelin, backt eine Torte. Ihr Bruder Can kauft Blumen. Am Nachmittag sitzen alle im Garten. Sie essen, trinken Tee und machen viele Fotos. Am Abend ruft Onkel Ali per Video aus Kanada an. Oma Gül ist sehr glücklich.
+TR: Pazar günü Gül Nine'nin doğum günü. Seksen yaşına giriyor. Bütün aile geliyor: çocukları, torunları ve hatta İzmir'den erkek kardeşi. ||| Torunu Elif bir pasta yapıyor. Erkek kardeşi Can çiçek alıyor. Öğleden sonra herkes bahçede oturuyor. Yiyorlar, çay içiyorlar ve bol bol fotoğraf çekiyorlar. Akşam Ali Amca Kanada'dan görüntülü arıyor. Gül Nine çok mutlu.
+EN: On Sunday it's Grandma Gül's birthday. She is turning eighty. The whole family is coming: her children, her grandchildren and even her brother from Izmir. ||| Elif, her granddaughter, bakes a cake. Her brother Can buys flowers. In the afternoon everyone sits in the garden. They eat, drink tea and take lots of photos. In the evening Uncle Ali calls by video from Canada. Grandma Gül is very happy.
+G: Geburtstag | der | Geburtstag | Pl. die Geburtstage | doğum günü | birthday
+G: Enkel | der | Enkel | Pl. die Enkel | torun | grandchild
+G: Bruder | der | Bruder | Pl. die Brüder | erkek kardeş | brother
+G: backt | - | backen | er backt · hat gebacken | (fırında) pişirmek | to bake
+G: Torte | die | Torte | Pl. die Torten | pasta, turta | cake, gateau
+G: Blumen | die | Blume | Pl. die Blumen | çiçek | flower
+G: Garten | der | Garten | Pl. die Gärten | bahçe | garden
+G: Onkel | der | Onkel | Pl. die Onkel | amca, dayı | uncle
+Q: tf | Oma Gül wird siebzig Jahre alt. | 1
+Q: tf | Can kauft Blumen. | 0
+Q: tf | Onkel Ali kommt aus Kanada zur Party. | 1
+Q: mc | Wer backt die Torte? | Oma Gül ; Elif ; Can | 1
+Q: mc | Wo sitzen alle am Nachmittag? | Im Garten ; Im Restaurant ; Im Wohnzimmer | 0
+
+# a1-009 | Reisen | Am Bahnhof
+DE: Paul möchte nach Frankfurt fahren. Er steht am Bahnhof und sucht sein Gleis. Auf der Anzeige steht: „ICE nach Frankfurt, Gleis 7, Abfahrt 10:15 Uhr.“ ||| Dann hört er eine Durchsage: „Der ICE nach Frankfurt hat zwanzig Minuten Verspätung und fährt heute von Gleis 9.“ Paul geht zu Gleis 9 und kauft einen Kaffee. Im Zug findet er einen Platz am Fenster. Seine Fahrkarte hat er auf dem Handy.
+TR: Paul Frankfurt'a gitmek istiyor. İstasyonda duruyor ve peronunu arıyor. Ekranda şöyle yazıyor: "Frankfurt'a ICE, peron 7, kalkış 10.15." ||| Sonra bir anons duyuyor: "Frankfurt'a giden ICE yirmi dakika rötarlı ve bugün 9. perondan kalkıyor." Paul 9. perona gidiyor ve bir kahve alıyor. Trende cam kenarında bir yer buluyor. Biletini telefonunda tutuyor.
+EN: Paul wants to go to Frankfurt. He is standing at the station looking for his platform. The board says: "ICE to Frankfurt, platform 7, departure 10:15." ||| Then he hears an announcement: "The ICE to Frankfurt is twenty minutes late and leaves from platform 9 today." Paul goes to platform 9 and buys a coffee. On the train he finds a window seat. He has his ticket on his phone.
+G: Bahnhof | der | Bahnhof | Pl. die Bahnhöfe | tren istasyonu | station
+G: Gleis | das | Gleis | Pl. die Gleise | peron | platform, track
+G: Anzeige | die | Anzeige | Pl. die Anzeigen | ekran, gösterge | display board
+G: Abfahrt | die | Abfahrt | Pl. die Abfahrten | kalkış | departure
+G: Durchsage | die | Durchsage | Pl. die Durchsagen | anons | announcement
+G: Platz | der | Platz | Pl. die Plätze | yer, koltuk | seat, place
+G: Fenster | das | Fenster | Pl. die Fenster | pencere | window
+G: Fahrkarte | die | Fahrkarte | Pl. die Fahrkarten | bilet | ticket
+Q: tf | Paul möchte nach Köln fahren. | 1
+Q: tf | Der Zug hat Verspätung. | 0
+Q: tf | Paul hat eine Fahrkarte aus Papier. | 1
+Q: mc | Von welchem Gleis fährt der Zug heute? | Gleis 7 ; Gleis 9 ; Gleis 10 | 1
+Q: mc | Wo sitzt Paul im Zug? | Am Fenster ; An der Tür ; Im Restaurant | 0
+
+# a1-010 | Lernen | Der Deutschkurs
+DE: Ana kommt aus Brasilien und lebt seit drei Monaten in Wien. Sie besucht einen Deutschkurs an der Volkshochschule. Der Kurs ist zweimal pro Woche, am Dienstag und am Donnerstag, von 18 bis 20 Uhr. ||| In der Klasse sind zwölf Leute aus acht Ländern. Die Lehrerin heißt Frau Berger und ist sehr nett. Ana lernt jeden Tag neue Wörter mit einer App. Im Juni macht sie die Prüfung für A1. Sie ist ein bisschen nervös.
+TR: Ana Brezilyalı ve üç aydır Viyana'da yaşıyor. Halk eğitim merkezinde bir Almanca kursuna gidiyor. Kurs haftada iki kez, salı ve perşembe günleri, 18'den 20'ye kadar. ||| Sınıfta sekiz ülkeden on iki kişi var. Öğretmenin adı Bayan Berger ve çok nazik. Ana her gün bir uygulamayla yeni kelimeler öğreniyor. Haziranda A1 sınavına giriyor. Biraz heyecanlı.
+EN: Ana comes from Brazil and has been living in Vienna for three months. She attends a German course at the adult education centre. The course is twice a week, on Tuesday and Thursday, from 6 to 8 pm. ||| There are twelve people from eight countries in the class. The teacher is called Ms Berger and she is very nice. Ana learns new words every day with an app. In June she is taking the A1 exam. She is a bit nervous.
+G: Deutschkurs | der | Deutschkurs | Pl. die Deutschkurse | Almanca kursu | German course
+G: Volkshochschule | die | Volkshochschule | Pl. die Volkshochschulen | halk eğitim merkezi | adult education centre
+G: Woche | die | Woche | Pl. die Wochen | hafta | week
+G: Klasse | die | Klasse | Pl. die Klassen | sınıf | class
+G: Lehrerin | die | Lehrerin | Pl. die Lehrerinnen | (kadın) öğretmen | (female) teacher
+G: Wörter | das | Wort | Pl. die Wörter | kelime | word
+G: Prüfung | die | Prüfung | Pl. die Prüfungen | sınav | exam
+G: nervös | - | nervös | - | heyecanlı, gergin | nervous
+Q: tf | Ana lebt seit drei Jahren in Wien. | 1
+Q: tf | Der Kurs ist am Dienstag und am Donnerstag. | 0
+Q: tf | Die Lehrerin ist unfreundlich. | 1
+Q: mc | Woher kommt Ana? | Aus Spanien ; Aus Brasilien ; Aus Portugal | 1
+Q: mc | Wann macht Ana die Prüfung? | Im Juni ; Im Januar ; Im Mai | 0

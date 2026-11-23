@@ -1,0 +1,362 @@
+import SwiftUI
+
+// MARK: - Workbook
+
+struct A1ThemesView: View {
+    @EnvironmentObject private var model: A1Model
+
+    var body: some View {
+        List(model.content?.themes ?? []) { theme in
+            NavigationLink(value: A1Route.theme(theme.id)) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(String(format: "%02d  ", theme.id + 1) + theme.de)
+                    Text("\(theme.name.text) · " + t("common.words", model.content?.words.filter { $0.theme == theme.id }.count ?? 0))
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+            }
+        }
+        .navigationTitle(t("practice.themes"))
+    }
+}
+
+struct A1ThemeView: View {
+    @EnvironmentObject private var model: A1Model
+    let themeID: Int
+
+    var body: some View {
+        let words = model.content?.words.filter { $0.theme == themeID } ?? []
+        List {
+            Section {
+                NavigationLink(value: A1Route.themeQuiz(themeID)) {
+                    Label(t("workbook.themeQuiz"), systemImage: "play.circle.fill")
+                }
+                NavigationLink(value: A1Route.match(themeID)) {
+                    Label(t("workbook.themeMatch"), systemImage: "square.grid.2x2")
+                }
+            }
+            Section(t("workbook.words")) {
+                ForEach(words) { word in
+                    DisclosureGroup {
+                        ForEach(Array(word.ex.enumerated()), id: \.offset) { item in
+                            HStack(alignment: .top) {
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(item.element.de)
+                                    if a1ShowsPron() {
+                                        Text("[\(item.element.pron)]").font(.caption).foregroundStyle(.secondary)
+                                    }
+                                    Text(item.element.mean.text).font(.caption).foregroundStyle(.secondary)
+                                }
+                                Spacer()
+                                A1SpeakButton(text: item.element.de)
+                            }
+                        }
+                        if let er = word.er {
+                            Text("\(er) · \(word.perfekt ?? "")").font(.caption)
+                        }
+                        if let pl = word.plural {
+                            Text(t("word.plural", pl)).font(.caption)
+                        }
+                    } label: {
+                        HStack {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(word.withArticle).font(.body.weight(.semibold)).foregroundStyle(a1ArticleColor(word.type))
+                                Text(a1PronLead(word.pron) + word.mean.text).font(.caption).foregroundStyle(.secondary)
+                            }
+                            Spacer()
+                            A1SpeakButton(text: word.withArticle)
+                        }
+                    }
+                }
+            }
+        }
+        .navigationTitle(model.content?.themes[themeID].de ?? "")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+struct A1GrammarListView: View {
+    @EnvironmentObject private var model: A1Model
+
+    var body: some View {
+        List(model.content?.grammar ?? []) { topic in
+            NavigationLink(value: A1Route.grammar(topic.id)) {
+                HStack {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("\(topic.id). \(topic.de)")
+                        Text(topic.name.text).font(.caption).foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                    Text("\(model.questions.filter { $0.topic == topic.id }.count)")
+                        .font(.caption.monospacedDigit())
+                        .foregroundStyle(.secondary)
+                }
+            }
+        }
+        .navigationTitle(t("workbook.grammarTitle"))
+    }
+}
+
+struct A1GrammarView: View {
+    @EnvironmentObject private var model: A1Model
+    let topicID: Int
+
+    var body: some View {
+        if let topic = model.content?.grammar.first(where: { $0.id == topicID }) {
+            List {
+                Section(t("workbook.rule")) {
+                    Text(topic.rule.text)
+                }
+                Section(t("workbook.examples")) {
+                    ForEach(topic.examples, id: \.self) { example in
+                        HStack {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(example.de)
+                                Text(example.mean.text).font(.caption).foregroundStyle(.secondary)
+                            }
+                            Spacer()
+                            A1SpeakButton(text: example.de)
+                        }
+                    }
+                }
+                Section {
+                    NavigationLink(value: A1Route.grammarQuiz(topicID)) {
+                        Label(t("workbook.topicQuiz", model.questions.filter { $0.topic == topicID }.count), systemImage: "play.circle.fill")
+                    }
+                }
+            }
+            .navigationTitle(topic.de)
+            .navigationBarTitleDisplayMode(.inline)
+        }
+    }
+}
+
+struct A1TextsView: View {
+    @EnvironmentObject private var model: A1Model
+
+    var body: some View {
+        List(model.content?.texts ?? []) { text in
+            NavigationLink(value: A1Route.text(text.id)) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Text \(text.id): \(text.title)")
+                    Text(text.titleL.text).font(.caption).foregroundStyle(.secondary)
+                }
+            }
+        }
+        .navigationTitle(t("workbook.textsTitle"))
+    }
+}
+
+struct A1TextView: View {
+    @EnvironmentObject private var model: A1Model
+    let textID: Int
+    @State private var showTurkish = false
+
+    var body: some View {
+        if let text = model.content?.texts.first(where: { $0.id == textID }) {
+            List {
+                Section {
+                    Button {
+                        A1Speaker.shared.say(text.de.joined(separator: " "))
+                    } label: {
+                        Label(t("workbook.listenAll"), systemImage: "speaker.wave.2.fill")
+                    }
+                    ForEach(Array(text.de.enumerated()), id: \.offset) { item in
+                        HStack {
+                            Text(item.element)
+                            Spacer()
+                            A1SpeakButton(text: item.element)
+                        }
+                    }
+                }
+                Section {
+                    Toggle(t("workbook.showTranslation"), isOn: $showTurkish)
+                    if showTurkish { Text(text.trans.text).foregroundStyle(.secondary) }
+                }
+                Section {
+                    NavigationLink(value: A1Route.mode(.reading)) {
+                        Label(t("workbook.readingQuiz"), systemImage: "play.circle.fill")
+                    }
+                }
+            }
+            .navigationTitle(text.title)
+            .navigationBarTitleDisplayMode(.inline)
+        }
+    }
+}
+
+struct A1WordListView: View {
+    @EnvironmentObject private var model: A1Model
+    @State private var search = ""
+    @State private var filter = "all"
+
+    var body: some View {
+        let words = filtered
+        List {
+            Picker(t("workbook.type"), selection: $filter) {
+                Text(t("workbook.all")).tag("all")
+                Text(t("workbook.noun")).tag("noun")
+                Text(t("workbook.verb")).tag("verb")
+                Text(t("workbook.other")).tag("word")
+            }
+            .pickerStyle(.segmented)
+            Section(t("common.words", words.count)) {
+                ForEach(words) { word in
+                    A1WordRow(word: word)
+                }
+            }
+        }
+        .searchable(text: $search, prompt: t("workbook.search"))
+        .navigationTitle(t("practice.wordList"))
+        .navigationBarTitleDisplayMode(.inline)
+    }
+
+    private var filtered: [A1Word] {
+        let query = search.trimmingCharacters(in: .whitespacesAndNewlines)
+        return (model.content?.words ?? [])
+            .filter { filter == "all" || $0.group == filter }
+            .filter { query.isEmpty || $0.de.localizedStandardContains(query) || $0.mean.contains(query) }
+            .sorted { $0.de.localizedCaseInsensitiveCompare($1.de) == .orderedAscending }
+    }
+}
+
+struct A1WordRow: View {
+    let word: A1Word
+
+    var body: some View {
+        HStack(alignment: .top) {
+            VStack(alignment: .leading, spacing: 3) {
+                HStack(spacing: 6) {
+                    Text(word.withArticle).font(.body.weight(.semibold)).foregroundStyle(a1ArticleColor(word.type))
+                    if word.theme != A1BankBuilder.coreTheme {
+                        Text("A1")
+                            .font(.caption2.bold())
+                            .padding(.horizontal, 5)
+                            .padding(.vertical, 1)
+                            .background(a1Accent.opacity(0.2), in: Capsule())
+                    }
+                }
+                Text(a1PronLead(word.pron) + word.mean.text).font(.caption).foregroundStyle(.secondary)
+                if let pl = word.plural {
+                    Text(t("word.plural", pl)).font(.caption2).foregroundStyle(.secondary)
+                }
+                if let er = word.er {
+                    Text("\(er) · \(word.perfekt ?? "")").font(.caption2).foregroundStyle(.secondary)
+                }
+                if let ex = word.ex.first {
+                    Text(ex.de).font(.callout).padding(.top, 2)
+                    if a1ShowsPron() {
+                        Text("[\(ex.pron)]").font(.caption2).foregroundStyle(.secondary)
+                    }
+                    Text(ex.mean.text).font(.caption).foregroundStyle(.secondary)
+                }
+            }
+            Spacer()
+            VStack {
+                A1SpeakButton(text: word.withArticle)
+                if let ex = word.ex.first {
+                    A1SpeakButton(text: ex.de, slow: true)
+                }
+            }
+        }
+    }
+}
+
+struct A1NumbersLearnView: View {
+    @State private var input = "347"
+
+    private var number: Int? {
+        guard let n = Int(input.filter(\.isNumber)), n < 1_000_000 else { return nil }
+        return n
+    }
+
+    var body: some View {
+        List {
+            Section {
+                TextField(t("numbers.input"), text: $input)
+                    .keyboardType(.numberPad)
+                    .font(.title2.monospacedDigit())
+                if let n = number {
+                    HStack {
+                        Text(a1GermanNumber(n)).font(.title3.bold()).foregroundStyle(a1Accent)
+                        Spacer()
+                        A1SpeakButton(text: a1GermanNumber(n))
+                        A1SpeakButton(text: a1GermanNumber(n), slow: true)
+                    }
+                    if n < 1000 {
+                        Text(a1NumberPieces(n).joined(separator: " · ")).font(.callout).foregroundStyle(.secondary)
+                    }
+                    if n >= 1100 && n < 2000 {
+                        Text(t("numbers.asYear", a1Year(n))).font(.callout).foregroundStyle(.secondary)
+                    }
+                } else {
+                    Text(t("numbers.range")).foregroundStyle(.secondary)
+                }
+            } header: {
+                Text(t("numbers.converter"))
+            } footer: {
+                Text(t("numbers.converterHint"))
+            }
+            rule(t("numbers.r1"), t("numbers.r1text"), Array(0...12))
+            rule(t("numbers.r2"), t("numbers.r2text"), Array(13...19))
+            rule(t("numbers.r3"), t("numbers.r3text"), [20, 30, 40, 50, 60, 70, 80, 90])
+            rule(t("numbers.r4"), t("numbers.r4text"), [21, 34, 47, 58, 65, 76, 89, 99])
+            rule(t("numbers.r5"), t("numbers.r5text"), [100, 101, 115, 230, 347, 508, 999])
+            rule(t("numbers.r6"), t("numbers.r6text"), [1000, 2500, 10_000, 12_345, 100_000])
+            Section {
+                ForEach([1990, 1998, 2000, 2010, 2024], id: \.self) { year in
+                    row("\(year)", a1Year(year))
+                }
+            } header: {
+                Text(t("numbers.r7"))
+            } footer: {
+                Text(t("numbers.r7text"))
+            }
+            Section {
+                row("1,00 €", a1Price(1, 0))
+                row("3,50 €", a1Price(3, 50))
+                row("12,99 €", a1Price(12, 99))
+                row("0,80 €", "achtzig Cent")
+            } header: {
+                Text(t("numbers.r8"))
+            } footer: {
+                Text(t("numbers.r8text"))
+            }
+            Section {
+                row("0171 345 682", "null eins sieben eins – drei vier fünf – sechs acht zwei")
+                row("030 12 34 56", "null drei null – zwölf vierunddreißig sechsundfünfzig")
+            } header: {
+                Text(t("numbers.r9"))
+            } footer: {
+                Text(t("numbers.r9text"))
+            }
+        }
+        .navigationTitle(t("practice.numbers"))
+        .navigationBarTitleDisplayMode(.inline)
+        .scrollDismissesKeyboard(.interactively)
+    }
+
+    private func rule(_ title: String, _ text: String, _ numbers: [Int]) -> some View {
+        Section {
+            ForEach(numbers, id: \.self) { n in
+                row(n.formatted(.number.locale(Locale(identifier: "de_DE"))), a1GermanNumber(n))
+            }
+        } header: {
+            Text(title)
+        } footer: {
+            Text(text)
+        }
+    }
+
+    private func row(_ left: String, _ right: String) -> some View {
+        HStack {
+            Text(left).font(.body.monospacedDigit()).frame(minWidth: 70, alignment: .leading)
+            Text(right).foregroundStyle(a1Accent)
+            Spacer()
+            A1SpeakButton(text: right)
+        }
+    }
+}
+
+/// "[pron] · " for Turkish speakers, nothing otherwise.
+func a1PronLead(_ p: String) -> String { a1ShowsPron() && !p.isEmpty ? "[\(p)] · " : "" }
