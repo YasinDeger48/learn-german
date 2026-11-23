@@ -1,6 +1,6 @@
 import Foundation
 
-private func a1Core(_ token: String) -> String {
+func a1Core(_ token: String) -> String {
     token.trimmingCharacters(in: CharacterSet(charactersIn: ".,!?;:„“\"()–…"))
 }
 
@@ -80,7 +80,7 @@ func a1NumberAlternatives(_ word: String) -> [String] {
     return result
 }
 
-private func a1Ordinal(_ n: Int) -> String {
+func a1Ordinal(_ n: Int) -> String {
     switch n {
     case 1: return "erste"
     case 3: return "dritte"
@@ -90,12 +90,12 @@ private func a1Ordinal(_ n: Int) -> String {
     }
 }
 
-private func a1HourWord(_ h: Int) -> String {
+func a1HourWord(_ h: Int) -> String {
     let hour = ((h - 1) % 12 + 12) % 12 + 1
     return hour == 1 ? "eins" : a1GermanNumber(hour)
 }
 
-private func a1TimePhrase(_ h: Int, _ m: Int) -> String {
+func a1TimePhrase(_ h: Int, _ m: Int) -> String {
     let now = a1HourWord(h)
     let next = a1HourWord(h + 1)
     switch m {

@@ -49,7 +49,7 @@ struct A1Destination: View {
         case .grammar(let id):
             A1GrammarView(topicID: id)
         case .grammarQuiz(let id):
-            A1QuizView(title: model.content?.grammar.first { $0.id == id }?.de ?? "Grammatik") { model.session(topic: id) }
+            A1QuizView(title: model.content?.grammar.first(where: { $0.id == id })?.de ?? "Grammatik") { model.session(topic: id) }
         case .texts:
             A1TextsView()
         case .text(let id):
