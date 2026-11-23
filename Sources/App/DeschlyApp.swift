@@ -37,6 +37,8 @@ enum AppRoute: Hashable {
     case reading(String)
     case readingQuiz(String)
     case practice(String)
+    case savedWords
+    case savedWordsQuiz
 }
 
 enum AppTab: Int, CaseIterable {
@@ -120,6 +122,10 @@ struct AppDestination: View {
                     ReadingQuiz.questions(for: text, words: a1.content?.words ?? [])
                 }
             }
+        case .savedWords:
+            SavedWordsView()
+        case .savedWordsQuiz:
+            A1QuizView(title: t("saved.title")) { daily.savedWordsQuiz() }
         case .practice(let level):
             if levels.hasPractice(level) {
                 PracticeHomeView().environmentObject(levels.model(level))

@@ -14,14 +14,15 @@ struct TodayView: View {
                 levelTabs.padding(.top, 16)
                 dailyCard.padding(.top, 16)
                 if let word = wordOfDay { wordCard(word).padding(.top, 14) }
-                practice.padding(.top, 22)
+                TodayPractice(model: practiceModel).padding(.top, 22)
             }
             .padding(.horizontal, DS.gutter)
             .padding(.bottom, 24)
         }
         .deschlyPage()
         .navigationTitle(t("tab.today"))
-        .onAppear { levels.active = "A1" }
+        .onAppear { levels.active = practiceModel.level }
+        .onChange(of: daily.level) { _ in levels.active = practiceModel.level }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack(spacing: 4) {
@@ -32,6 +33,11 @@ struct TodayView: View {
                 .accessibilityLabel(t("today.streak", a1.state.streak))
             }
         }
+    }
+
+    /// Quick practice follows the level chosen above (A1, A2 …); levels without practice fall back to A1.
+    private var practiceModel: A1Model {
+        levels.hasPractice(daily.level) ? levels.model(daily.level) : levels.a1
     }
 
     private var greeting: some View {
@@ -176,29 +182,38 @@ struct TodayView: View {
         }
         .deschlyCard(padding: 14)
     }
+}
 
-    private var practice: some View {
+/// "Keep going" rows for one level. Observes that level's model so the counts stay current.
+struct TodayPractice: View {
+    @ObservedObject var model: A1Model
+
+    var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack(alignment: .firstTextBaseline) {
-                Text(t("today.continue").uppercased()).font(.footnote).foregroundStyle(.secondary)
+                Text(t("today.continue").uppercased() + " · " + model.level).font(.footnote).foregroundStyle(.secondary)
                 Spacer()
-                Text(t("today.levelNote", Int((a1.readiness * 100).rounded()), a1.state.wrong.count))
+                Text(t("today.levelNote", Int((model.readiness * 100).rounded()), model.state.wrong.count))
                     .font(.footnote).foregroundStyle(.secondary)
             }
             .padding(.horizontal, 16)
             VStack(spacing: 0) {
-                row(.mode(.artikel), "Artikel", t("today.left", max(0, a1.totalFor(.artikel) - a1.seenCount(.artikel))), "textformat", DS.die)
+                row(.mode(.artikel), "Artikel", t("today.left", max(0, model.totalFor(.artikel) - model.seenCount(.artikel))), "textformat", DS.die)
                 Divider().padding(.leading, 58)
-                row(.mode(.hoeren), "Hören", t("today.hoerenNote"), "headphones", .orange)
+                if model.totalFor(.hoeren) > 0 {
+                    row(.mode(.hoeren), "Hören", t("today.hoerenNote"), "headphones", .orange)
+                } else {
+                    row(.mode(.cloze), t("mode.cloze.title"), t("today.left", max(0, model.totalFor(.cloze) - model.seenCount(.cloze))), "square.dashed", .teal)
+                }
                 Divider().padding(.leading, 58)
-                row(.grammarList, "Grammatik", t("today.grammarNote"), "books.vertical.fill", .indigo)
+                row(.grammarList, "Grammatik", t("practice.grammarTopics", model.content?.grammar.count ?? 0), "books.vertical.fill", .indigo)
                 Divider().padding(.leading, 58)
-                row(.mistakes, t("practice.mistakes"), "\(a1.state.wrong.count)", "arrow.uturn.backward", .red)
-                    .disabled(a1.state.wrong.isEmpty)
+                row(.mistakes, t("practice.mistakes"), "\(model.state.wrong.count)", "arrow.uturn.backward", .red)
+                    .disabled(model.state.wrong.isEmpty)
             }
             .background(DS.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
         }
-        .disabled(!a1.ready)
+        .disabled(!model.ready)
     }
 
     /// Settings-style row: coloured icon square, title, value, chevron.

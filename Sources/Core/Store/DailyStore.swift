@@ -113,6 +113,37 @@ final class DailyModel: ObservableObject {
         state.save()
     }
 
+    /// Saved words with their glossary entry and the text they come from (newest first).
+    var savedGlosses: [(gloss: DailyGloss, text: DailyText)] {
+        var index: [String: (DailyGloss, DailyText)] = [:]
+        for list in texts.values {
+            for text in list {
+                for g in text.glossary where index[g.display] == nil { index[g.display] = (g, text) }
+            }
+        }
+        return state.savedWords.reversed().compactMap { word in index[word].map { (gloss: $0.0, text: $0.1) } }
+    }
+
+    func removeSaved(_ display: String) {
+        state.savedWords.removeAll { $0 == display }
+        state.save()
+    }
+
+    /// Meaning quiz over the saved words; wrong options come from every glossary.
+    func savedWordsQuiz() -> [A1Question] {
+        let saved = savedGlosses
+        let allMeanings = Array(Set(texts.values.flatMap { $0 }.flatMap { $0.glossary.map { $0.mean.text } }))
+        return saved.shuffled().compactMap { item in
+            let correct = item.gloss.mean.text
+            let wrong = Array(allMeanings.filter { $0 != correct }.shuffled().prefix(3))
+            guard wrong.count == 3 else { return nil }
+            return A1Question(id: "sw-\(item.gloss.display)", mode: .wordToTr, kind: .choice, label: item.text.title,
+                              prompt: item.gloss.display, detail: a1PronDetail(item.gloss.pron ?? ""), speakAfter: item.gloss.display,
+                              options: ([correct] + wrong).shuffled(), answer: correct,
+                              explanation: "\(item.gloss.display) = \(correct)")
+        }
+    }
+
     func isSaved(_ gloss: DailyGloss) -> Bool { state.savedWords.contains(gloss.display) }
 
     func toggleSaved(_ gloss: DailyGloss) {

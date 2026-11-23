@@ -291,6 +291,15 @@ struct ReadingHomeView: View {
                     }
                 }
             }
+            Section {
+                NavigationLink(value: AppRoute.savedWords) {
+                    HStack {
+                        Label(t("saved.title"), systemImage: "bookmark.fill")
+                        Spacer()
+                        Text("\(daily.state.savedWords.count)").foregroundStyle(.secondary).monospacedDigit()
+                    }
+                }
+            }
             Section(t("reading.more")) {
                 NavigationLink(value: A1Route.texts) {
                     Label(t("practice.texts", a1.content?.texts.count ?? 0), systemImage: "doc.richtext")
@@ -327,5 +336,58 @@ struct ReadingHomeView: View {
             }
         }
         .padding(.vertical, large ? 4 : 0)
+    }
+}
+
+/// Words the learner saved while reading: listen, delete, quiz.
+struct SavedWordsView: View {
+    @EnvironmentObject private var daily: DailyModel
+
+    var body: some View {
+        let items = daily.savedGlosses
+        List {
+            if items.isEmpty {
+                Section {
+                    VStack(spacing: 12) {
+                        Image(systemName: "bookmark").font(.largeTitle).foregroundStyle(.secondary)
+                        Text(t("saved.empty")).multilineTextAlignment(.center).foregroundStyle(.secondary)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 24)
+                }
+            } else {
+                Section {
+                    NavigationLink(value: AppRoute.savedWordsQuiz) {
+                        Label(t("saved.quiz", items.count), systemImage: "play.circle.fill")
+                    }
+                    .disabled(items.count < 2)
+                }
+                Section {
+                    ForEach(items, id: \.gloss.display) { item in
+                        HStack(spacing: 12) {
+                            VStack(alignment: .leading, spacing: 3) {
+                                (Text(item.gloss.art.map { $0 + " " } ?? "").foregroundColor(item.gloss.art.map(a1ArticleColor) ?? DS.ink)
+                                    + Text(item.gloss.lemma))
+                                    .font(.body.weight(.semibold))
+                                Text(item.gloss.mean.text).font(.subheadline)
+                                Text([item.gloss.pron.flatMap { a1ShowsPron() ? "[\($0)]" : nil }, item.text.title]
+                                    .compactMap { $0 }.joined(separator: " · "))
+                                    .font(.caption).foregroundStyle(.secondary)
+                            }
+                            Spacer()
+                            A1SpeakButton(text: item.gloss.display)
+                        }
+                    }
+                    .onDelete { offsets in
+                        for i in offsets { daily.removeSaved(items[i].gloss.display) }
+                    }
+                } footer: {
+                    Text(t("saved.footer"))
+                }
+            }
+        }
+        .listStyle(.insetGrouped)
+        .navigationTitle(t("saved.title"))
+        .toolbar { if !items.isEmpty { EditButton() } }
     }
 }
