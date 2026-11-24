@@ -41,6 +41,27 @@ TOPICS = {
     'Adjektivdeklination': ('Sıfat çekimi', 'der/die/das sonrası: -e (der neue Mantel), Akkusativ eril ve Dativ/çoğul: -en. ein sonrası sıfat, artikelin göstermediği cinsiyeti gösterir: ein neuer Mantel, ein neues Auto, eine neue Jacke.'),
     'Imperativ': ('Emir kipi', 'du: Komm! Nimm! Fahr! · ihr: Kommt! · Sie: Kommen Sie! Ayrılan fiil: Ruf an! sein: Sei! Seid! Seien Sie! bitte cümleyi kibarlaştırır.'),
     'zu + Infinitiv': ('zu + mastar', 'Ich habe keine Zeit, … zu kommen. Es ist schwer, … zu lernen. Ich versuche, … zu schlafen. Ayrılan fiilde zu araya girer: anzurufen. Modal fiillerden sonra zu yok.'),
+    # B1
+    'Konjunktiv II – Wünsche/Ratschläge': ('Konjunktiv II: dilek, rica, tavsiye', 'Kibar rica: Könnten Sie …? Würden Sie …? Dilek: Ich hätte gern … / Ich wäre gern … Tavsiye: Du solltest … / An deiner Stelle würde ich … Çekim: ich/er würde, hätte, wäre, könnte, sollte · du würdest, hättest, wärst · wir/sie/Sie würden, hätten, wären · ihr würdet, hättet, wärt.'),
+    'Konjunktiv II – irreale Bedingung': ('Konjunktiv II: gerçek dışı koşul', 'Wenn ich Zeit hätte, würde ich kommen. (Zamanım yok.) Wenn-cümlesinde fiil sonda; wenn olmadan fiil başa gelir: Hätte ich Zeit, würde ich kommen. sein → wäre, haben → hätte, können → könnte, müssen → müsste; diğer fiiller çoğunlukla würde + mastar.'),
+    'Passiv Präsens': ('Edilgen (şimdiki zaman)', 'werden + Partizip II: Das Paket wird heute geliefert. Yapan önemli değilse kullanılır; söylenecekse von + Dativ: Die Briefe werden von der Post gebracht. ich werde, du wirst, er wird, wir/sie werden.'),
+    'Passiv Präteritum und Perfekt': ('Edilgen: geçmiş zaman', 'Präteritum: wurde + Partizip II: Das Haus wurde 1990 gebaut. Perfekt: ist + Partizip II + worden: Der Brief ist gestern verschickt worden. (geworden değil, worden!)'),
+    'Passiv mit Modalverben': ('Kip fiilleriyle edilgen', 'Modalverb + Partizip II + werden (sonda): Der Antrag muss bis Freitag abgegeben werden. Das Fenster kann nicht geöffnet werden. Geçmiş: Der Antrag musste … abgegeben werden.'),
+    'Relativsätze (der/die/das, Akk./Dat.)': ('İlgi cümleleri (der, die, das)', 'İlgi zamiri cinsiyet ve sayıyı isimden, hali yan cümledeki görevinden alır; fiil sonda. Nominativ: der/die/das/die · Akkusativ: den/die/das/die · Dativ: dem/der/dem/denen · Genitiv: dessen/deren. Der Mann, dem ich helfe, …'),
+    'Relativsätze mit Präposition / wo / was': ('Edatlı ilgi cümleleri, wo ve was', 'Edat ilgi zamirinin önüne gelir: die Kollegin, mit der ich arbeite · das Thema, über das wir sprechen. Yer için wo: die Stadt, wo ich wohne. alles, etwas, nichts, das sonrası was: Alles, was du sagst, …'),
+    'Präteritum (regelmäßig und unregelmäßig)': ('Präteritum (yazı dilinde geçmiş)', 'Düzenli: kök + -te: machte, wohnte, arbeitete. Düzensiz: ünlü değişir: gehen → ging, kommen → kam, sehen → sah, finden → fand. ich ve er/sie aynı, ek almaz: ich ging, er ging · du gingst, wir gingen.'),
+    'Plusquamperfekt und nachdem': ('Plusquamperfekt ve nachdem', 'hatte/war + Partizip II: geçmişteki bir olaydan daha önce olan olay. Nachdem ich gegessen hatte, ging ich spazieren. nachdem-cümlesi Plusquamperfekt, ana cümle Präteritum (veya Perfekt).'),
+    'Genitiv und Präpositionen (wegen, trotz, während, innerhalb)': ('Genitiv ve Genitiv edatları', 'des + -s/-es (eril, nötr), der (dişil, çoğul): das Auto des Nachbarn, die Tasche der Lehrerin. Genitiv edatları: wegen des Regens, trotz der Kälte, während des Kurses, innerhalb einer Woche, statt eines Briefes.'),
+    'Zweiteilige Konnektoren': ('İki parçalı bağlaçlar', 'sowohl … als auch (hem … hem de) · weder … noch (ne … ne de) · entweder … oder (ya … ya da) · nicht nur … sondern auch (sadece … değil … de) · zwar … aber (gerçi … ama) · je … desto (ne kadar … o kadar): Je früher wir fahren, desto weniger Verkehr gibt es.'),
+    'Nebensätze (obwohl, bevor, seitdem, bis, damit, falls, sodass)': ('Yan cümleler: obwohl, bevor, seitdem, bis, damit, falls, sodass', 'obwohl: -e rağmen · bevor: -den önce · seitdem: -den beri · bis: -e kadar · damit: -sın diye (amaç, iki farklı özne) · falls: eğer, olur da · sodass: böylece, o yüzden (sonuç). Çekimli fiil sona gider.'),
+    'um … zu / ohne … zu / statt … zu': ('um … zu, ohne … zu, statt … zu', 'um … zu: amaç, özne aynı: Ich lerne, um die Prüfung zu bestehen. ohne … zu: -meden: Er ging, ohne zu grüßen. statt … zu: -mek yerine: Statt zu arbeiten, schläft er. Ayrılan fiilde zu araya girer: anzurufen.'),
+    'Verben mit Präpositionen + da(r)-/wo(r)-': ('Edatlı fiiller, da(r)- ve wo(r)-', 'warten auf, sich freuen über/auf, denken an, sich kümmern um, sprechen über, Angst haben vor … Şey için: darauf, daran, darüber; soru: worauf? woran? worüber? Kişi için edat + zamir: auf ihn, mit ihr, an wen? Ünlüyle başlayan edatta -r- eklenir: dar-auf, wor-an.'),
+    'Indirekte Fragen (ob, wann, warum …)': ('Dolaylı sorular', 'Evet/hayır sorusu → ob: Ich weiß nicht, ob er kommt. Soru kelimesi kalır: Können Sie mir sagen, wann der Zug fährt? Çekimli fiil sona gider.'),
+    'lassen': ('lassen', 'Bir işi başkasına yaptırmak: Ich lasse mein Auto reparieren. İzin vermek: Lass mich bitte ausreden! Bırakmak: Ich habe den Schirm im Bus gelassen. ich lasse, du lässt, er lässt · Präteritum ließ.'),
+    'n-Deklination': ('n-çekimi', 'Bazı eril isimler Nominativ dışında -(e)n alır: der Kunde → den/dem/des Kunden, der Kollege, der Nachbar, der Student, der Mensch, der Junge, der Herr (dem Herrn). Ich helfe dem Nachbarn.'),
+    'Futur I': ('Futur I (gelecek zaman)', 'werden + mastar (sonda): Ich werde morgen anrufen. Tahmin için de kullanılır: Er wird wohl krank sein. Günlük konuşmada çoğu zaman şimdiki zaman + zaman zarfı yeterli: Morgen rufe ich an.'),
+    'Adjektivdeklination nach Artikel und ohne Artikel': ('Sıfat çekimi: artikelli ve artikelsiz', 'der/die/das sonrası çoğunlukla -e/-en; ein/kein/mein sonrası sıfat cinsiyeti gösterir: ein neuer Tisch, ein neues Bett. Artikelsiz sıfat artikelin ekini alır: frischer Kaffee, mit frischem Brot, kalte Milch, frische Eier.'),
+    'Reflexive Verben mit Dativ': ('Dativ ile dönüşlü fiiller', 'Cümlede ayrıca bir nesne varsa dönüşlü zamir Dativ olur: Ich wasche mir die Hände. Ich merke mir die Nummer. Ich stelle mir das vor. Du kaufst dir ein Buch. mir/dir sadece ich ve du için farklıdır; diğerleri: sich, uns, euch, sich.'),
 }
 
 
@@ -83,11 +104,15 @@ def main():
 
     grammar, items, ids = [], [], {}
     seen_items = set()
-    gpath = os.path.join(src, 'grammar.txt')
-    for line in open(gpath, encoding='utf-8'):
+    glines = []
+    for gpath in sorted(glob.glob(os.path.join(src, 'grammar*.txt'))):  # grammar.txt or grammar_01.txt, grammar_02.txt …
+        glines += open(gpath, encoding='utf-8').readlines()
+    for line in glines:
         if not line.strip():
             continue
         topic, q, answer, wrong, why, q_tr = [p.strip() for p in line.rstrip('\n').split('|')]
+        if topic not in TOPICS and topic.split(' (')[0] in TOPICS:  # "Zweiteilige Konnektoren (sowohl …)" → known name
+            topic = topic.split(' (')[0]
         # Some sentences came wrapped in a frame ("Im Chat steht: „…“"): keep only the sentence itself.
         m = re.match(r'^.{3,60}?: „(.*)“$', q)
         if m:
