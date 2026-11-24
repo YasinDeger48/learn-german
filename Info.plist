@@ -26,10 +26,10 @@
     <string>DeschlyText-Medium.ttf</string>
     <string>DeschlyText-SemiBold.ttf</string>
   </array>
-  <key>GADApplicationIdentifier</key><string>ca-app-pub-3940256099942544~1458002511</string>
-  <key>DeschlyAdBanner</key><string></string>
-  <key>DeschlyAdInterstitial</key><string></string>
-  <key>DeschlyAdRewarded</key><string></string>
+  <key>GADApplicationIdentifier</key><string>ca-app-pub-2051677494226499~9239410708</string>
+  <key>DeschlyAdBanner</key><string>ca-app-pub-2051677494226499/6330623448</string>
+  <key>DeschlyAdInterstitial</key><string>ca-app-pub-2051677494226499/4114563184</string>
+  <key>DeschlyAdRewarded</key><string>ca-app-pub-2051677494226499/8856267329</string>
   <key>NSUserTrackingUsageDescription</key>
   <string>Your choice decides whether ads in the free version can be personalised. Deschly works the same either way.</string>
   <key>SKAdNetworkItems</key>
