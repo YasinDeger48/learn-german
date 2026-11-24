@@ -10,6 +10,7 @@ Optional plurals / verb forms are taken from a word list in tools/words format (
 import glob
 import json
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -23,18 +24,92 @@ def core(token):
     return token.strip(PUNCT).lower()
 
 
-def find_form(text, lemma):
-    """The spelling of the glossary word in the text (exact, plural or inflected), or None."""
+SEP = sorted(['ab', 'an', 'auf', 'aus', 'bei', 'ein', 'mit', 'nach', 'vor', 'weg', 'zu', 'zurück', 'zusammen',
+               'durcheinander', 'fest', 'her', 'hin', 'los', 'um', 'weiter', 'dazu', 'teil', 'statt', 'kennen',
+               'herein', 'heraus', 'hinaus', 'vorbei', 'wieder', 'fort', 'heim', 'bereit', 'frei'], key=len, reverse=True)
+INSEP = ('be', 'ge', 'er', 'ver', 'zer', 'ent', 'emp', 'miss', 'wider', 'über', 'unter', 'hinter')
+
+
+def _common(a, b):
+    n = 0
+    while n < min(len(a), len(b)) and a[n] == b[n]:
+        n += 1
+    return n
+
+
+def _find_single(text, lemma):
     tokens = [t.strip(PUNCT) for t in text.split()]
     low = lemma.lower()
     for t in tokens:
         if t.lower() == low:
             return t
-    for t in tokens:  # plural / inflection: same start, at most 3 more letters
-        tl = t.lower()
-        stem = low[:-1] if low.endswith('e') and len(low) > 4 else low
+    plain = str.maketrans('äöü', 'aou')
+    for t in tokens:  # plural / inflection: same start, at most 3 more letters (Stellplatz → Stellplätze)
+        tl = t.lower().translate(plain)
+        stem = low.translate(plain)
+        stem = stem[:-1] if stem.endswith('e') and len(stem) > 4 else stem
         if tl.startswith(stem) and 0 < len(tl) - len(stem) <= 3:
             return t
+    if not (low.endswith('en') or low.endswith('ern') or low.endswith('eln')) or lemma[:1].isupper():
+        return None
+    for t in tokens:  # participle without prefix: ernten → geerntet, kennzeichnen → gekennzeichnet
+        if t.lower().startswith('ge' + low[:-3]) and len(low) > 5:
+            return t
+    for t in tokens:  # weak past: ernten → ernteten, vermuten → vermutete
+        tl = t.lower()
+        if len(low) > 5 and tl.startswith(low[:-2]) and 0 < len(tl) - len(low) + 2 <= 4:
+            return t
+    # Verbs: separable prefix forms (eingerichtet, aufzuschreiben, ablief, sprang … ein)
+    for p in SEP:
+        if not low.startswith(p) or len(low) - len(p) < 4:
+            continue
+        rest = low[len(p):]
+        for t in tokens:
+            tl = t.lower()
+            if tl == p + 'zu' + rest or tl.startswith(p + 'ge' + rest[0]) and len(tl) > len(p) + 4:
+                return t
+        for t in tokens:
+            tl = t.lower()
+            if tl.startswith(p + rest[0]) and len(tl) >= len(p) + 3 and _common(tl, low) >= len(p) + 1:
+                return t
+        for sentence in re.split(r'(?<=[.!?;:])\s+', text):
+            words = [w.strip(PUNCT) for w in re.split(r'[\s,]+', sentence) if w.strip(PUNCT)]
+            if p not in [w.lower() for w in words[1:]]:
+                continue
+            best = max((w for w in words if w.lower() != p and _common(w.lower(), rest) >= 3),
+                       key=lambda w: (w[:1].islower(), _common(w.lower(), rest)), default=None)
+            if best:
+                return best
+        break
+    # Strong past forms (widersprach, versprach): long shared start with the infinitive
+    need = max(6, len(low) - 5)
+    for t in tokens:
+        if t[:1].islower() and _common(t.lower(), low) >= need:
+            return t
+    for p in INSEP:  # strong participle with vowel change: verhelfen → verholfen
+        if low.startswith(p):
+            for t in tokens:
+                tl = t.lower()
+                if t[:1].islower() and _common(tl, low) >= len(p) + 1 and tl[-3:] == low[-3:] and abs(len(tl) - len(low)) <= 1:
+                    return t
+    return None
+
+
+def find_form(text, lemma):
+    """The spelling of the glossary word in the text (exact, plural, inflected, separable verb), or None.
+    Multi-word entries (sich absprechen, eine Rechnung ausstellen, bei Bedarf) are found by one of their words."""
+    words = lemma.split()
+    if words and words[0] == 'sich':
+        words = words[1:]
+    if len(words) == 1:
+        return _find_single(text, words[0])
+    small = ('ein', 'eine', 'einen', 'der', 'die', 'das', 'dem', 'den', 'bei', 'mit', 'von', 'zu', 'in', 'auf', 'aus')
+    for w in sorted(words, key=len, reverse=True):
+        if w.lower() in small:
+            continue
+        form = _find_single(text, w)
+        if form:
+            return form
     return None
 
 

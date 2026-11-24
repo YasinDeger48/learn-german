@@ -286,3 +286,40 @@ wiegen :: to weigh
 ziehen :: to brew, to steep
 zufällig :: by chance
 überreichen :: to hand over
+abgehen :: to come off
+ablegen :: to cast off (boat)
+absagen :: to cancel
+abschneiden :: to cut off
+abspielen :: to play (a recording)
+abstellen :: to park, to put down
+aufpassen :: to look after, to watch
+aus Spaß :: for fun
+aus Versehen :: by mistake
+ausfallen :: to go out, to fail
+berühren :: to touch
+bohren :: to drill
+das Blatt :: leaf
+das Stichwort :: keyword
+die saure Sahne :: sour cream
+einsammeln :: to collect
+falten :: to fold
+filmen :: to film
+folgen :: to follow
+hängen bleiben :: to get stuck
+kleben :: to stick, to glue
+klingeln :: to ring (the bell)
+mitschreiben :: to write down, to take notes
+mitsingen :: to sing along
+nachschauen :: to check, to look
+piepen :: to beep
+proben :: to rehearse
+reichen :: to be enough
+schützen :: to protect
+sich aufstellen :: to line up
+stehen bleiben :: to stop
+unscharf :: blurry
+von weitem :: from a distance
+zu Fuß :: on foot
+zur Seite :: aside
+zurückkommen :: to come back
+zusammenfalten :: to fold up
