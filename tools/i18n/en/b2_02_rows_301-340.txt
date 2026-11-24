@@ -1,0 +1,40 @@
+b2.w.399.ex.0 :: Before the agreement takes effect, all the groups affected will be informed of the changes once again.
+b2.w.400 :: to matter, to carry weight
+b2.w.400.ex.0 :: For a small order, shipping costs matter more than they do for a larger purchase.
+b2.w.401 :: adaptable
+b2.w.401.ex.0 :: An adaptable schedule is important when several orders depend on the same limited number of devices.
+b2.w.402 :: as a courtesy
+b2.w.402.ex.0 :: He informed the neighbours in person as a courtesy, although the date change had long been posted on the noticeboard.
+b2.w.403 :: persistent
+b2.w.403.ex.0 :: The group kept looking for a solution after the first two attempts came to nothing.
+b2.w.404 :: accompanying
+b2.w.404.ex.0 :: Alongside the exhibition, the museum organised discussions where local residents could share their own memories.
+b2.w.405 :: mutual, on both sides
+b2.w.405.ex.0 :: The agreement could not be changed without mutual consent, despite all the paperwork having been prepared.
+b2.w.406 :: unprecedented
+b2.w.406.ex.0 :: The unprecedented demand surprised the team even though it had expected more registrations than the year before.
+b2.w.407 :: in an advisory capacity
+b2.w.407.ex.0 :: The expert attended the meeting in an advisory capacity but was not allowed to vote on the proposals.
+b2.w.408 :: limited
+b2.w.408.ex.0 :: The limited number of available rooms forced the association to spread its classes over different days.
+b2.w.409 :: worrying
+b2.w.409.ex.0 :: The situation was especially worrying in areas with no alternative bus service.
+b2.w.410 :: committed
+b2.w.410.ex.0 :: Management is committed to making access easier without reducing the number of necessary checks.
+b2.w.411 :: previous, existing
+b2.w.411.ex.0 :: The existing procedure will remain in place until the new software has been tested at every site.
+b2.w.412 :: fragmentary
+b2.w.412.ex.0 :: Because the memories were fragmentary, the editorial team compared them with several accounts from the same period.
+b2.w.413 :: accordingly
+b2.w.413.ex.0 :: The deadline had been explicitly extended, so later applications were assessed accordingly.
+b2.w.414 :: helpful, conducive
+b2.w.414.ex.0 :: A simple sketch is often more helpful for understanding than a long list of technical details.
+b2.w.415 :: drastically
+b2.w.415.ex.0 :: The number of follow-up questions fell drastically after the notice included examples of complete applications.
+b2.w.416 :: consistently, throughout
+b2.w.416.ex.0 :: Every sample was handled using the same procedure so that the results remained comparable.
+b2.w.417 :: by hand
+b2.w.417.ex.0 :: The artist added the labels by hand to preserve the order of the pictures in the catalogue.
+b2.w.418 :: in detail, thoroughly
+b2.w.418.ex.0 :: Before making a recommendation, the commission examined in detail how the existing rule had been applied.
+b2.w.419 :: to agree to, to engage in

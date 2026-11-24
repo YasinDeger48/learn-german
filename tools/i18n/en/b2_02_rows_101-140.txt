@@ -1,0 +1,40 @@
+b2.w.299.ex.0 :: The needs assessment showed that smaller groups need more support in the evening than in the early afternoon.
+b2.w.300 :: to necessitate, to entail
+b2.w.300.ex.0 :: Changing locations means making new plans because the access road there is much narrower.
+b2.w.301 :: authority, power
+b2.w.301.ex.0 :: The person handling the case has the authority to change the data.
+b2.w.302 :: authorised
+b2.w.302.ex.0 :: While the manager is away, only two employees are authorised to amend the contracts.
+b2.w.303 :: to certify
+b2.w.303.ex.0 :: The employee could certify the document only after the original had been presented.
+b2.w.304 :: limit, restriction
+b2.w.304.ex.0 :: Limiting each group to three people makes it easier to supervise the practical exercises.
+b2.w.305 :: clarification of terms
+b2.w.305.ex.0 :: A brief clarification of terms prevented those involved from continuing to use the same words in different ways.
+b2.w.306 :: to insist
+b2.w.306.ex.0 :: Despite the objections, the chair insisted that a decision be made only after another survey.
+b2.w.307 :: to answer yes, to approve
+b2.w.307.ex.0 :: Asked about an extension, some answered hesitantly, while others approved it without further conditions.
+b2.w.308 :: control, combating
+b2.w.308.ex.0 :: To control the pest, the company initially used natural methods rather than chemicals.
+b2.w.309 :: stress test
+b2.w.309.ex.0 :: The stress test revealed that the bracket slowly deformed under a heavy load.
+b2.w.310 :: to disadvantage
+b2.w.310.ex.0 :: The new order must not disadvantage people who can submit applications only in person.
+b2.w.311 :: disadvantage, discrimination
+b2.w.311.ex.0 :: To avoid disadvantaging part-time staff, the same information was offered at different times.
+b2.w.312 :: approach to advising
+b2.w.312.ex.0 :: The new advisory approach begins by considering the situation of those affected, not just their paperwork.
+b2.w.313 :: to clean up, to remove
+b2.w.313.ex.0 :: Before the analysis, the team removed duplicate and accidentally created entries from the list.
+b2.w.314 :: work-related
+b2.w.314.ex.0 :: During the course, participants practised work-related conversations they might later have with customers or supervisors.
+b2.w.315 :: condition, composition
+b2.w.315.ex.0 :: The soil's composition determines which plants can thrive long term in the dry courtyard.
+b2.w.316 :: to seize, to confiscate
+b2.w.316.ex.0 :: The authorities seized the goods only after identifying several missing documents.
+b2.w.317 :: acceleration, speeding up
+b2.w.317.ex.0 :: Speeding up the process must not result in important information being accepted without verification.
+b2.w.318 :: adoption of a resolution
+b2.w.318.ex.0 :: Before the resolution was adopted, each group had the chance to comment on the revised proposals.
+b2.w.319 :: to sugar-coat, to gloss over

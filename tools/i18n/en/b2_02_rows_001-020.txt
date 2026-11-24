@@ -1,0 +1,20 @@
+b2.w.249.ex.0 :: The labour dispute ended only when both sides agreed on a gradual pay rise.
+b2.w.250 :: biodiversity
+b2.w.250.ex.0 :: By mowing meadows less often, the municipality hopes to promote biodiversity in the residential area.
+b2.w.251 :: to work through, to address
+b2.w.251.ex.0 :: The association addressed the conflicts from the previous season before putting together a new team.
+b2.w.252 :: review, examination
+b2.w.252.ex.0 :: People who had not filed an official report at the time were also interviewed as part of the review.
+b2.w.253 :: to protest, to rebel
+b2.w.253.ex.0 :: The employees protested only against the third change because it affected their days off as well.
+b2.w.254 :: to prepare, to present
+b2.w.254.ex.0 :: The editorial team presented the figures so people without specialist knowledge could follow the changes.
+b2.w.255 :: processing, preparation
+b2.w.255.ex.0 :: While preparing the data, the researcher removed details that could have identified individuals.
+b2.w.256 :: retention period
+b2.w.256.ex.0 :: After the retention period expires, old documents are destroyed unless they are to be archived permanently.
+b2.w.257 :: spirit of optimism
+b2.w.257.ex.0 :: Despite limited funds, there was a spirit of optimism in the team because several ideas could finally be tested in practice.
+b2.w.258 :: intrusiveness
+b2.w.258.ex.0 :: Because of the intrusive sales calls, the customer silenced unknown numbers on her phone.
+b2.w.259 :: to impose, to push on someone

@@ -1,0 +1,20 @@
+b2.w.1 :: dependence
+b2.w.1.ex.0 :: The municipality wants to reduce its dependence on a single energy provider.
+b2.w.2 :: turning away
+b2.w.2.ex.0 :: Moving away from cash makes shopping easier for some customers and harder for others.
+b2.w.3 :: deviation
+b2.w.3.ex.0 :: If the costs differ significantly from the estimate, please consult us in advance.
+b2.w.4 :: acceptance
+b2.w.4.ex.0 :: The new system became more widely accepted after employees had the chance to make suggestions.
+b2.w.5 :: initial phase
+b2.w.5.ex.0 :: During the initial phase of the project, we expected more questions than finished solutions.
+b2.w.6 :: incentive
+b2.w.6.ex.0 :: A cheaper fare would encourage many commuters to switch to the train.
+b2.w.7 :: claim, entitlement
+b2.w.7.ex.0 :: Whether you are entitled to a refund depends on the booking conditions.
+b2.w.8 :: insight
+b2.w.8.ex.0 :: The survey sheds light on why some families dropped out of the course.
+b2.w.9 :: improvement
+b2.w.9.ex.0 :: Improving the square brought more people to the neighbourhood, but rents also went up.
+b2.w.10 :: dispute, discussion
+b2.w.10.ex.0 :: Discussing the complaints showed that the real problem was a lack of information.

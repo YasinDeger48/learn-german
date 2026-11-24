@@ -1,0 +1,40 @@
+b2.w.899.ex.0 :: The adviser asked her questions tactfully because the topic was personal for some of those involved.
+b2.w.900 :: enclosed
+b2.w.900.ex.0 :: The enclosed plan shows which rooms can still be used while the work is underway.
+b2.w.901 :: almost
+b2.w.901.ex.0 :: The new agreement almost fell through because an important figure in the draft was wrong.
+b2.w.902 :: increase in dues
+b2.w.902.ex.0 :: The increase in dues was put to a vote only after the board presented all the alternatives.
+b2.w.903 :: insignificant
+b2.w.903.ex.0 :: The detail seemed insignificant at first but later turned out to be the key to understanding it.
+b2.w.904 :: insignificance
+b2.w.904.ex.0 :: A later review showed that the detail was less trivial than it had seemed.
+b2.w.905 :: assessment of the amount
+b2.w.905.ex.0 :: To determine the amount of aid, the office considered both income and fixed expenses.
+b2.w.906 :: duty to notify
+b2.w.906.ex.0 :: The duty to notify applied even when only one meeting was rescheduled.
+b2.w.907 :: justified
+b2.w.907.ex.0 :: The criticism was justified because the minutes had omitted two important limitations.
+b2.w.908 :: enriching
+b2.w.908.ex.0 :: She found the exchange enriching because different experiences were given equal weight in the discussion.
+b2.w.909 :: news coverage
+b2.w.909.ex.0 :: The coverage became more accurate after the newspaper examined several independent sources.
+b2.w.910 :: professional practice
+b2.w.910.ex.0 :: Having her qualification recognised considerably improved her opportunities to practise her profession.
+b2.w.911 :: quiet and peaceful
+b2.w.911.ex.0 :: Despite its location, the neighbourhood feels peaceful because so little traffic passes through its side streets.
+b2.w.912 :: symptom-free
+b2.w.912.ex.0 :: After a few weeks, she could do the exercises again without symptoms or assistance.
+b2.w.913 :: particularly worth highlighting
+b2.w.913.ex.0 :: The collaboration between groups that had previously barely spoken to one another deserves particular mention.
+b2.w.914 :: final and binding status
+b2.w.914.ex.0 :: Before the decision became final, it could still be reviewed and amended if necessary.
+b2.w.915 :: order quantity
+b2.w.915.ex.0 :: Because of the larger order quantity, the warehouse had to schedule more staff for the afternoon.
+b2.w.916 :: operating permit
+b2.w.916.ex.0 :: The operating permit was granted only after all access requirements had been met.
+b2.w.917 :: assessment criterion
+b2.w.917.ex.0 :: One additional assessment criterion was how easily individual components could be replaced.
+b2.w.918 :: vivid
+b2.w.918.ex.0 :: The author described the technical process vividly enough for younger readers to follow it too.
+b2.w.919 :: gap in education

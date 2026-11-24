@@ -1,0 +1,40 @@
+b1.gi.560 :: With a noun phrase, the adjective ending depends on the article, case, gender and number. Here it takes “-es”. Only ripe fruit goes into our fruit salad.
+b1.gi.561 :: With a noun phrase, the adjective ending depends on the article, case, gender and number. Here it takes “-e”. Today the landlord brought two interested people along to view the flat.
+b1.gi.562 :: With a noun phrase, the adjective ending depends on the article, case, gender and number. Here it takes “-en”. Ada sewed a bag from a piece of sturdy fabric.
+b1.gi.563 :: With a noun phrase, the adjective ending depends on the article, case, gender and number. Here it takes “-e”. This small plan shows only the rooms on the ground floor.
+b1.gi.564 :: With a noun phrase, the adjective ending depends on the article, case, gender and number. Here it takes “-en”. A sign with black lettering is hanging on the door.
+b1.gi.565 :: With a noun phrase, the adjective ending depends on the article, case, gender and number. Here it takes “-er”. The thick wool coat is intended for winter.
+b1.gi.566 :: With a noun phrase, the adjective ending depends on the article, case, gender and number. Here it takes “-es”. We still need a suitable board for the shelf.
+b1.gi.567 :: With a noun phrase, the adjective ending depends on the article, case, gender and number. Here it takes “-en”. The visitors waited in front of the locked door for the caretaker.
+b1.gi.568 :: With a noun phrase, the adjective ending depends on the article, case, gender and number. Here it takes “-em”. The market already smelled of fresh coffee early in the morning.
+b1.gi.569 :: With a noun phrase, the adjective ending depends on the article, case, gender and number. Here it takes “-en”. She went with her younger sister to the meeting at school.
+b1.gi.570 :: With “merken”, the reflexive pronoun is in the Dativ because a direct object is also given. I simply can't remember the new phone number.
+b1.gi.571 :: With “ansehen”, the reflexive pronoun is in the Dativ because a direct object is also given. You should take a close look at both models before buying.
+b1.gi.572 :: With “waschen”, the reflexive pronoun is in the Dativ because a direct object is also given. The cook washed his hands thoroughly after work.
+b1.gi.573 :: With “leihen”, the reflexive pronoun is in the Dativ because a direct object is also given. We borrowed two bikes at the station for the trip.
+b1.gi.574 :: With “vorstellen”, the reflexive pronoun is in the Dativ because a direct object is also given. Can you already imagine the courtyard without the construction work?
+b1.gi.575 :: With “besorgen”, the reflexive pronoun is in the Dativ because a direct object is also given. Do you still need to get an ID before your trip?
+b1.gi.576 :: With “notieren”, the reflexive pronoun is in the Dativ because a direct object is also given. After the conversation, I wrote the appointment down in my calendar.
+b1.gi.577 :: With “machen”, the reflexive pronoun is in the Dativ because a direct object is also given. Why are you so worried about the short delay?
+b1.gi.578 :: With “verletzen”, the reflexive pronoun is in the Dativ because a direct object is also given. In the mirror, Mia saw that she had injured her cheek.
+b1.gi.579 :: With “gönnen”, the reflexive pronoun is in the Dativ because a direct object is also given. After the last exam, we treated ourselves to a long, relaxing evening.
+b1.gi.580 :: With “suchen”, the reflexive pronoun is in the Dativ because a direct object is also given. Are you finding yourselves a place to wait right by the entrance?
+b1.gi.581 :: With “putzen”, the reflexive pronoun is in the Dativ because a direct object is also given. The children brushed their teeth before going to bed.
+b1.gi.582 :: With “ausdenken”, the reflexive pronoun is in the Dativ because a direct object is also given. Do I really have to think up a new password again?
+b1.gi.583 :: With “aufschreiben”, the reflexive pronoun is in the Dativ because a direct object is also given. Did you write down the workshop's address somewhere?
+b1.gi.584 :: With “anziehen”, the reflexive pronoun is in the Dativ because a direct object is also given. Ben put on a clean jacket before the recording.
+b1.gi.585 :: With “einpacken”, the reflexive pronoun is in the Dativ because a direct object is also given. Can we pack up the remaining slices of cake for ourselves at the end?
+b1.gi.586 :: With “wünschen”, the reflexive pronoun is in the Dativ because a direct object is also given. Would you like a new curtain for the room?
+b1.gi.587 :: With “reiben”, the reflexive pronoun is in the Dativ because a direct object is also given. Mr Peters rubbed his tired eyes after a long day at work.
+b1.gi.588 :: With “auftragen”, the reflexive pronoun is in the Dativ because a direct object is also given. I apply a thin layer of sunscreen in the morning to protect my skin.
+b1.gi.589 :: With “holen”, the reflexive pronoun is in the Dativ because a direct object is also given. Would you like to get yourself something hot to eat on the way?
+b1.gi.590 :: With “abtrocknen”, the reflexive pronoun is in the Dativ because a direct object is also given. The boy quickly dried his feet at the edge of the pool.
+b1.gi.591 :: With “reservieren”, the reflexive pronoun is in the Dativ because a direct object is also given. We reserved two seats for ourselves on the night train before the trip.
+b1.gi.592 :: With “freinehmen”, the reflexive pronoun is in the Dativ because a direct object is also given. Are you taking time off especially for Friday's appointment?
+b1.gi.593 :: With “schneiden lassen”, the reflexive pronoun is in the Dativ because a direct object is also given. The granddaughter had her hair cut on the way home.
+b1.gi.594 :: With “vorstellen”, the reflexive pronoun is in the Dativ because a direct object is also given. How can I imagine life in a big city?
+b1.gi.595 :: With “mitnehmen”, the reflexive pronoun is in the Dativ because a direct object is also given. If you like, you can take a book with you tomorrow.
+b1.gi.596 :: With “stoßen”, the reflexive pronoun is in the Dativ because a direct object is also given. The driver had banged his left knee when he fell.
+b1.gi.597 :: With “ansehen”, the reflexive pronoun is in the Dativ because a direct object is also given. We want to see the new exhibition this week.
+b1.gi.598 :: With “aufteilen”, the reflexive pronoun is in the Dativ because a direct object is also given. Would you like to divide up next week's tasks between yourselves now?
+b1.gi.599 :: With “kämmen”, the reflexive pronoun is in the Dativ because a direct object is also given. Lina carefully combed her wet hair in front of the mirror.

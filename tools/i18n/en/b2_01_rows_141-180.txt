@@ -1,0 +1,40 @@
+b2.w.69.ex.0 :: Structural change is visible in the neighbourhood: homes and offices are replacing old factories.
+b2.w.70 :: trend
+b2.w.70.ex.0 :: The trend towards later bookings makes it difficult for the association to plan rooms in advance.
+b2.w.71 :: load-bearing capacity
+b2.w.71.ex.0 :: Before putting more books on the shelf, we need to check its load-bearing capacity.
+b2.w.72 :: agreement
+b2.w.72.ex.0 :: There is broad agreement on costs, but differences remain over the schedule.
+b2.w.73 :: overload
+b2.w.73.ex.0 :: At the first signs of overload, employees should ask for support early.
+b2.w.74 :: feasibility
+b2.w.74.ex.0 :: The technical feasibility is established; it remains unclear who will carry out the work.
+b2.w.75 :: unequal treatment
+b2.w.75.ex.0 :: The association is checking whether the new registration deadline leads to unequal treatment.
+b2.w.76 :: procedure
+b2.w.76.ex.0 :: The simplified procedure is intended to reduce the number of documents families need to submit.
+b2.w.77 :: proportionality
+b2.w.77.ex.0 :: When introducing new rules, the proportionality of the measures must be reviewed.
+b2.w.78 :: reliability
+b2.w.78.ex.0 :: For passengers, the reliability of the service matters more than saving two minutes.
+b2.w.79 :: supply shortage
+b2.w.79.ex.0 :: Because of a supply shortage, the pharmacy will not receive the medication until next week.
+b2.w.80 :: use, recovery
+b2.w.80.ex.0 :: Better planning of quantities is the first step towards making use of leftover food.
+b2.w.81 :: reservation, concern
+b2.w.81.ex.0 :: Despite his reservations, the neighbour agreed to the trial of the new opening hours.
+b2.w.82 :: preliminary decision
+b2.w.82.ex.0 :: The vote was a preliminary decision. Final approval will not come until May.
+b2.w.83 :: perception
+b2.w.83.ex.0 :: People's perception of the neighbourhood has changed since the square was renovated.
+b2.w.84 :: appreciation
+b2.w.84.ex.0 :: Personal feedback often shows more appreciation than a general email.
+b2.w.85 :: effectiveness
+b2.w.85.ex.0 :: The measure's effectiveness was reviewed again after six months.
+b2.w.86 :: state of knowledge
+b2.w.86.ex.0 :: Given what is currently known, management does not expect any further delays.
+b2.w.87 :: conflicting objectives
+b2.w.87.ex.0 :: There is a conflict between short delivery times and lower travel costs.
+b2.w.88 :: proof of access
+b2.w.88.ex.0 :: For the first visit, the booking confirmation is sufficient proof of access.
+b2.w.89 :: reasonableness, acceptability

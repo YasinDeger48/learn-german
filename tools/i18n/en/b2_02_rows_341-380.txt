@@ -1,0 +1,40 @@
+b2.w.419.ex.0 :: After a long hesitation, the group agreed to a trial, though its duration was clearly limited.
+b2.w.420 :: to give in
+b2.w.420.ex.0 :: After the second offer, the landlord gave in and accepted a shorter contract term.
+b2.w.421 :: to settle, to level off
+b2.w.421.ex.0 :: After some initial fluctuations, the number of daily enquiries settled at a lower level.
+b2.w.422 :: to intervene, to step in
+b2.w.422.ex.0 :: The supervisory body intervened only after several visitors entered the restricted area despite the notices.
+b2.w.423 :: one-sided
+b2.w.423.ex.0 :: The account seemed one-sided because it considered only the experiences of people who took part in the project regularly.
+b2.w.424 :: to submit
+b2.w.424.ex.0 :: Anyone submitting a photograph should briefly say where and under what circumstances it was taken.
+b2.w.425 :: to be liable for, to stand surety for
+b2.w.425.ex.0 :: The group did not want to be liable for damage that had occurred before the room was handed over.
+b2.w.426 :: unanimous
+b2.w.426.ex.0 :: The meeting unanimously decided to make the rooms available to associations without their own office in future.
+b2.w.427 :: to be dropped, to no longer apply
+b2.w.427.ex.0 :: Registering together meant parents no longer had to register each child individually.
+b2.w.428 :: to counter, to object
+b2.w.428.ex.0 :: She countered the proposal by pointing out that many employees would not be able to catch the earlier train.
+b2.w.429 :: to stand in the way of, to preclude
+b2.w.429.ex.0 :: Two conditions set out explicitly in the original contract preclude the planned use.
+b2.w.430 :: discouraging
+b2.w.430.ex.0 :: The initial feedback was discouraging, but it also provided concrete pointers for a second attempt.
+b2.w.431 :: disappointing
+b2.w.431.ex.0 :: The first result was disappointing because, despite all the effort, it had reached only a few new participants.
+b2.w.432 :: to revoke, to withdraw
+b2.w.432.ex.0 :: The association revoked the team's eligibility to compete after reviewing several rule violations.
+b2.w.433 :: to consider, to deem
+b2.w.433.ex.0 :: The commission considered another survey necessary because so far it had reached only regular members.
+b2.w.434 :: to deliver, to provide
+b2.w.434.ex.0 :: Before the contract ends, the provider must prove that it has delivered all the agreed services.
+b2.w.435 :: to endure, to put up with
+b2.w.435.ex.0 :: The neighbours had put up with months of noise before looking for a solution together with the local authorities.
+b2.w.436 :: unsuccessful
+b2.w.436.ex.0 :: Two discussions went nowhere as long as neither side was willing to change its original conditions.
+b2.w.437 :: inconclusive
+b2.w.437.ex.0 :: The meeting ended without a result after the members could not even agree on the next date.
+b2.w.438 :: to investigate, to find out
+b2.w.438.ex.0 :: The researcher wanted to find out why the results differed so much despite similar conditions.
+b2.w.439 :: to levy, to collect

@@ -1,0 +1,50 @@
+b2.w.599.ex.0 :: The relevant office sent the results only after all personal information had been removed from the table.
+b2.w.600 :: surplus
+b2.w.600.ex.0 :: The association wants to set aside the surplus for equipment maintenance next year.
+b2.w.601 :: remedial measure
+b2.w.601.ex.0 :: The remedial measure worked only once clear arrangements had also been made for the handover.
+b2.w.602 :: buyer, customer
+b2.w.602.ex.0 :: The company looked for another buyer after the original order was cancelled.
+b2.w.603 :: secondment
+b2.w.603.ex.0 :: During her secondment, the specialist worked exclusively at the second branch.
+b2.w.604 :: file note
+b2.w.604.ex.0 :: The adviser recorded the outcome of the conversation in a brief note for the file.
+b2.w.605 :: purchase, acquisition
+b2.w.605.ex.0 :: A joint purchase seemed cheaper provided both workshops used the device regularly.
+b2.w.606 :: method of application
+b2.w.606.ex.0 :: The method was changed to make the results easier to reproduce.
+b2.w.607 :: species conservation
+b2.w.607.ex.0 :: Small spaces in densely built neighbourhoods also play a role in species conservation.
+b2.w.608 :: division of responsibilities
+b2.w.608.ex.0 :: The division of responsibilities worked better once one person kept a central record of queries.
+b2.w.609 :: design, detailed arrangement
+b2.w.609.ex.0 :: The team decided on the details only after the first trial run.
+b2.w.610 :: negotiation process
+b2.w.610.ex.0 :: The negotiations made it clear which concerns the two groups actually shared.
+b2.w.611 :: duty to provide information
+b2.w.611.ex.0 :: The duty to provide information applied only to details that were necessary for the procedure.
+b2.w.612 :: extent, scale
+b2.w.612.ex.0 :: The staff only realised the true extent of the damage the following morning.
+b2.w.613 :: field service, fieldwork
+b2.w.613.ex.0 :: While working in the field, she noticed that many spare parts were unavailable locally.
+b2.w.614 :: exemption from dues
+b2.w.614.ex.0 :: The exemption from dues was extended after the association reviewed the new documents.
+b2.w.615 :: load limit, limit of endurance
+b2.w.615.ex.0 :: The load limit was reached sooner because both devices were running at the same time.
+b2.w.616 :: rules of use
+b2.w.616.ex.0 :: After opening, the library added specific examples to its rules of use.
+b2.w.617 :: readiness, willingness
+b2.w.617.ex.0 :: She became more willing to cooperate after the team disclosed how much time would be needed.
+b2.w.618 :: professional association
+b2.w.618.ex.0 :: The workshop received guidance from the professional association on further training and networking with other businesses.
+b2.w.619 :: procurement
+b2.w.619.ex.0 :: Procurement was simplified when the sites started placing joint orders for supplies they needed regularly.
+b2.w.620 :: operational downtime
+b2.w.620.ex.0 :: The disruption meant that even previously confirmed appointments had to be reassigned.
+b2.w.621 :: dismay, emotional impact
+b2.w.621.ex.0 :: Those present were visibly moved when the former employee told her story.
+b2.w.622 :: field of applicants
+b2.w.622.ex.0 :: The pool of applicants was larger this time because career changers were eligible for the first time.
+b2.w.623 :: test, trial of ability
+b2.w.623.ex.0 :: The first week after the changeover put the team to the test.
+b2.w.624 :: binding effect

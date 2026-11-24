@@ -1,0 +1,3 @@
+b2.theme.0 :: Nouns
+b2.theme.1 :: Verbs
+b2.theme.2 :: Adjectives and small words

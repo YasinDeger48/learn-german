@@ -1,0 +1,50 @@
+b2.w.549.ex.0 :: The retailer introduced a temporary purchase limit to stop a few customers from buying up all the stock.
+b2.w.550 :: measurement error
+b2.w.550.ex.0 :: To rule out a measurement error, the class repeated the experiment with a second device that had already been checked.
+b2.w.551 :: to disregard
+b2.w.551.ex.0 :: The driver ignored the temporary closure even though several signs at the junction warned of it.
+b2.w.552 :: to disapprove of
+b2.w.552.ex.0 :: Several members disapproved of the way the proposal had been announced publicly without prior consultation.
+b2.w.553 :: problem, unacceptable situation
+b2.w.553.ex.0 :: The administration became aware of the problem only when several employees independently reported the same disadvantages.
+b2.w.554 :: right to have a say
+b2.w.554.ex.0 :: Having a real say requires that those affected can see the draft before a decision is made.
+b2.w.555 :: emphatic, emphatically
+b2.w.555.ex.0 :: The school administration stressed that the trial should remain voluntary and that no one should be put at a disadvantage.
+b2.w.556 :: to ease, to subside
+b2.w.556.ex.0 :: Demand eased only once extra early-evening appointments were offered.
+b2.w.557 :: carelessness
+b2.w.557.ex.0 :: A minor filing oversight meant the contract could not be found at first.
+b2.w.558 :: subsequent use, reuse
+b2.w.558.ex.0 :: The future use of the vacant hall was discussed after the last company left the site.
+b2.w.559 :: supplementary income
+b2.w.559.ex.0 :: She wanted to keep earning money on the side even though her new job initially took more hours than expected.
+b2.w.560 :: renegotiation
+b2.w.560.ex.0 :: Renegotiation seemed worthwhile after the conditions for using the room had changed fundamentally.
+b2.w.561 :: to be reflected in
+b2.w.561.ex.0 :: The extra work was reflected in the price even though the materials still came from the same warehouse.
+b2.w.562 :: emergency care
+b2.w.562.ex.0 :: Emergency care must still be available if roadworks make the main access route unusable.
+b2.w.563 :: staff development
+b2.w.563.ex.0 :: Staff development now includes having experienced employees regularly pass on their knowledge to new colleagues.
+b2.w.564 :: breach of duty
+b2.w.564.ex.0 :: The board wanted to hear from everyone involved before deciding whether there had been a breach of duty.
+b2.w.565 :: basis for planning
+b2.w.565.ex.0 :: The planning also drew on observations from months in which several rooms had been temporarily closed.
+b2.w.566 :: fixed pricing, price maintenance
+b2.w.566.ex.0 :: The fixed pricing arrangement was explained during the conversation because some customers had expected the offers to vary.
+b2.w.567 :: project duration
+b2.w.567.ex.0 :: The procedure could be adjusted several times during the project without changing its basic objectives.
+b2.w.568 :: to shape
+b2.w.568.ex.0 :: Years of working with volunteers shaped her understanding of how small groups make decisions.
+b2.w.569 :: accountability, accounting for one's actions
+b2.w.569.ex.0 :: The chair explained why some of the money had been used for a different purpose.
+b2.w.570 :: legal basis
+b2.w.570.ex.0 :: Without a clear legal basis, the authority was unwilling to ask applicants for additional information.
+b2.w.571 :: reach, range
+b2.w.571.ex.0 :: The initiative reached more people when the library brought in smaller institutions from the surrounding area.
+b2.w.572 :: resource conservation
+b2.w.572.ex.0 :: For the team, conserving resources also means removing parts that still work and reusing them in later repairs.
+b2.w.573 :: reversal of a transaction
+b2.w.573.ex.0 :: When the transaction is reversed, the payments are refunded and the devices already delivered are collected.
+b2.w.574 :: backing, support

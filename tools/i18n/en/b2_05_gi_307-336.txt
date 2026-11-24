@@ -1,0 +1,30 @@
+b2.gi.307 :: In this use, the preposition “angesichts” takes Genitiv. The practice opened an hour earlier than usual because of high demand.
+b2.gi.308 :: In this use, the preposition “aufgrund” takes Genitiv. All the samples had to be examined again because of the strong vibrations.
+b2.gi.309 :: In this use, the preposition “hinsichtlich” takes Genitiv. It remained unclear whether agreement had already been reached on the exact date.
+b2.gi.310 :: In this use, the preposition “mittels” takes Genitiv. The team checked the new information against the existing record.
+b2.gi.311 :: In this use, the preposition “angesichts” takes Genitiv. Given the discrepancies, the chair asked those involved for a second statement.
+b2.gi.312 :: In this use, the preposition “aufgrund” takes Genitiv. We were unable to check the devices because of the outage and lack of access.
+b2.gi.313 :: In this use, the preposition “hinsichtlich” takes Genitiv. The report provides little information about the impact on older people.
+b2.gi.314 :: In this use, the preposition “mittels” takes Genitiv. The temperature in the workshop was measured using a portable sensor.
+b2.gi.315 :: In this use, the preposition “angesichts” takes Genitiv. Given the short-notice changes, many parents stuck to their original plans for the time being.
+b2.gi.316 :: In this use, the preposition “aufgrund” takes Genitiv. Some pages were stored separately from the rest of the collection because of the high humidity.
+b2.gi.317 :: In this use, the preposition “hinsichtlich” takes Genitiv. Several municipalities agreed on what to do next.
+b2.gi.318 :: In this use, the preposition “mittels” takes Genitiv. An old dispatch list made it possible to establish where the recording came from.
+b2.gi.319 :: In this use, the preposition “angesichts” takes Genitiv. An alternative date was proposed at the meeting in view of the looming staff shortage.
+b2.gi.320 :: In this use, the preposition “aufgrund” takes Genitiv. The player did not get a place on the first course because she registered late.
+b2.gi.321 :: In this use, the preposition “hinsichtlich” takes Genitiv. The expert raised doubts about the actual range of the new installation.
+b2.gi.322 :: In this use, the preposition “mittels” takes Genitiv. She recorded the distances with a second measuring device as a check.
+b2.gi.323 :: In this use, the preposition “angesichts” takes Genitiv. Given the latest data, the committee ruled out an immediate vote.
+b2.gi.324 :: In this use, the preposition “aufgrund” takes Genitiv. The association postponed its decision because the expert report was still pending.
+b2.gi.325 :: In this use, the preposition “hinsichtlich” takes Genitiv. There is still no final assessment of the first trial.
+b2.gi.326 :: In this use, the preposition “mittels” takes Genitiv. The appointment could be reconfirmed online using a personal code.
+b2.gi.327 :: In this use, the preposition “angesichts” takes Genitiv. Given the uncertainty, both sides stuck to their original demands.
+b2.gi.328 :: In this use, the preposition “aufgrund” takes Genitiv. The son could collect the documents only because he had written authorisation.
+b2.gi.329 :: In this use, the preposition “hinsichtlich” takes Genitiv. The municipality hoped an independent report would clarify the financial implications.
+b2.gi.330 :: da introduces a clause giving the reason and puts the finite verb at the end. Since the entrance was closed, all guests had to use the side door.
+b2.gi.331 :: zumal adds or emphasises a reason and places the finite verb at the end of its clause. The workshop opened earlier, especially since several customers were already waiting outside the gate.
+b2.gi.332 :: obgleich introduces a fact despite which the main clause holds and places the finite verb at the end. Although the test was brief, the fault could be reliably demonstrated.
+b2.gi.333 :: dennoch signals an unexpected outcome. When it starts the clause, the finite verb follows immediately. The devices were old, yet they produced reliable readings in both trials.
+b2.gi.334 :: da introduces a clause giving the reason and puts the finite verb at the end. We skipped a second printout because the complete file was already available.
+b2.gi.335 :: zumal adds or emphasises a reason and places the finite verb at the end of its clause. An earlier date seems sensible, especially since the back room is inaccessible in the evening.
+b2.gi.336 :: obgleich introduces a fact despite which the main clause holds and places the finite verb at the end. The council stood by its decision even though several members later expressed doubts.

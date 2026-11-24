@@ -1,0 +1,100 @@
+b2.g.1.name :: Konjunktiv II in the past
+b2.g.1.rule :: Use hätte/wäre and Partizip II to describe an unreal past event: Hätte ich den Brief gelesen, wäre ich früher gekommen. With a modal verb, use two infinitives: Ich hätte früher anrufen sollen.
+b2.g.1.ex.0 :: If I had kept the old file, I would have found the error straight away.
+b2.g.1.ex.1 :: If the guests had arrived later, they would have missed the first talk.
+b2.g.1.ex.2 :: If just one of you had brought the key, the door would have opened.
+b2.g.2.name :: Reported speech with Konjunktiv I
+b2.g.2.rule :: Reported speech relays someone else's words: Er sagt, er sei krank. For the past, use the appropriate form of haben or sein and Partizip II: Sie sagt, sie habe den Brief gelesen.
+b2.g.2.ex.0 :: The spokesperson said that the senate had already reviewed the documents.
+b2.g.2.ex.1 :: Her colleague assured her that the missing document would be submitted that same day.
+b2.g.2.ex.2 :: The lawyer said her client wanted to wait for a written decision.
+b2.g.3.name :: Stative passive (Zustandspassiv)
+b2.g.3.rule :: sein + Partizip II describes the state that follows a completed action: Das Fenster ist geöffnet. Use war/waren in the past.
+b2.g.3.ex.0 :: When the first group arrived, all the chairs were already arranged in a semicircle.
+b2.g.3.ex.1 :: The two spare keys were safely stored in the office at the time of the move.
+b2.g.3.ex.2 :: The invoice was paid on Friday, although the reminder did not arrive until today.
+b2.g.4.name :: Alternatives to the passive
+b2.g.4.rule :: sich lassen + infinitive and adjectives ending in -bar express what can be done: Das lässt sich lesen, das ist lesbar. sein + zu + infinitive can express possibility or obligation: Das Formular ist einzureichen.
+b2.g.4.ex.0 :: The stain can be removed with warm water without much effort.
+b2.g.4.ex.1 :: These documents must be submitted to the relevant office by Friday.
+b2.g.4.ex.2 :: The coat is washable, so it can be cleaned at a low temperature.
+b2.g.5.name :: Participles used as adjectives
+b2.g.5.rule :: Before a noun, Partizip I describes an ongoing action and Partizip II a completed action or its result. Both take adjective endings: die wartende Frau, die reparierte Tür.
+b2.g.5.ex.0 :: The machine that has been standing in the courtyard since yesterday will be collected on Friday.
+b2.g.5.ex.1 :: Two children playing in the next room did not hear the announcement at all.
+b2.g.5.ex.2 :: Our team, which has been working on the solution for weeks, will present its initial findings tomorrow.
+b2.g.6.name :: Subjective uses of modal verbs
+b2.g.6.rule :: muss signals a strong inference, dürfte a likelihood, soll information from another source, and will a claim someone makes about themselves. To refer to the past, use Infinitiv Perfekt: Er muss angekommen sein.
+b2.g.6.ex.0 :: His coat is soaked and his umbrella has not been used. It must be raining heavily outside.
+b2.g.6.ex.1 :: According to the press, even specialists have yet to determine the cause.
+b2.g.6.ex.2 :: The door is bolted from the inside. Someone must still be in the building.
+b2.g.7.name :: Futur II (future perfect)
+b2.g.7.rule :: Use a conjugated form of werden + Partizip II + the infinitive haben or sein: Bis morgen werde ich fertig gearbeitet haben. The construction can also express a supposition about the past: Er wird schon angekommen sein.
+b2.g.7.ex.0 :: By the opening, the technician will have checked all the lines.
+b2.g.7.ex.1 :: The statement has already been approved. Both departments have probably reviewed it.
+b2.g.7.ex.2 :: Before making my next booking, I will have compared the two offers.
+b2.g.8.name :: Nominalisation
+b2.g.8.rule :: An action can be expressed using a derived noun or a capitalised infinitive: prüfen → die Prüfung, prüfen → das Prüfen. An infinitive used as a noun is neuter.
+b2.g.8.ex.0 :: Restoring the damaged books took longer than planned at the workshop.
+b2.g.8.ex.1 :: The team's final decision was confirmed in writing the next morning.
+b2.g.8.ex.2 :: Both devices suddenly stopped working, which could be explained by a break in the cable.
+b2.g.9.name :: Rephrasing nouns with verbs
+b2.g.9.rule :: Replace the noun describing an action with a verb that fits the context: nach der Prüfung der Unterlagen → nachdem wir die Unterlagen geprüft hatten. Conjugate the verb to match the subject and tense of the new clause.
+b2.g.9.ex.0 :: The meeting started later because the team was still waiting for the last group.
+b2.g.9.ex.1 :: Instead of simply replacing the old software, the library first tried an interim solution.
+b2.g.9.ex.2 :: The retailer refunded the amount after the customer reported the damage in writing.
+b2.g.10.name :: Noun–verb expressions
+b2.g.10.rule :: Some nouns form fixed expressions with particular verbs: eine Entscheidung treffen, Rücksicht nehmen, in Kraft treten. Learn the noun, the verb and any preposition together.
+b2.g.10.ex.0 :: The chair wanted to respond to the allegations before the vote.
+b2.g.10.ex.1 :: Management asked that part-time staff members' working hours be taken into account.
+b2.g.10.ex.2 :: The researchers also had to take note of the unusual readings for the final report.
+b2.g.11.name :: Prepositions that take Genitiv
+b2.g.11.rule :: aufgrund gives the reason, angesichts the circumstances a decision or response takes into account, hinsichtlich the matter under consideration, and mittels the means used: aufgrund des Streiks, mittels einer Skizze.
+b2.g.11.ex.0 :: Several teams were unable to arrive on time because of the unexpected strike.
+b2.g.11.ex.1 :: The team checked the new information against the existing record.
+b2.g.11.ex.2 :: The board is still waiting for the cost estimate for the planned expansion.
+b2.g.12.name :: Connectors for reasons and concessions
+b2.g.12.rule :: da introduces a reason, zumal adds a particularly relevant reason, and obgleich means “although”. These three put the finite verb at the end of the subordinate clause. dennoch introduces an unexpected outcome in a main clause: Es regnete; dennoch gingen wir los.
+b2.g.12.ex.0 :: Since the entrance was closed, all guests had to use the side door.
+b2.g.12.ex.1 :: Although the registration had arrived on time, the name was missing from the list.
+b2.g.12.ex.2 :: The building stayed closed because there was no spare key for the locked entrance.
+b2.g.13.name :: Connectors for means and results
+b2.g.13.rule :: indem explains the method: Sie spart Zeit, indem sie Anfragen bündelt. dadurch, dass explains what made the result possible. wodurch adds a consequence of the preceding event.
+b2.g.13.ex.0 :: The editors avoided misunderstandings by explicitly marking the preliminary figures as estimates.
+b2.g.13.ex.1 :: The workload fell mainly because all enquiries were collected in one place.
+b2.g.13.ex.2 :: An important piece of information was missing, which delayed registration for some families.
+b2.g.14.name :: Connectors for conditions and contrasts
+b2.g.14.rule :: sofern states a requirement, and falls introduces a possible condition. während expresses simultaneity or contrast, and wohingegen highlights a contrast. The finite verb goes at the end of the subordinate clause.
+b2.g.14.ex.0 :: You can use the room provided someone responsible stays until the end.
+b2.g.14.ex.1 :: The older edition explains only the result, whereas the newer one also documents every intermediate step.
+b2.g.14.ex.2 :: You may share the file provided you give the source and the date it was recorded.
+b2.g.15.name :: Unreal comparisons with als ob, als wenn and als
+b2.g.15.rule :: With als ob and als wenn, the finite verb goes at the end: Er tut so, als ob er nichts wüsste. With als alone, the finite verb follows als directly: Er tut so, als wüsste er nichts. Konjunktiv is common in these constructions.
+b2.g.15.ex.0 :: The spokesperson acted as if there were no other solution.
+b2.g.15.ex.1 :: Her message makes it sound as though she might not be able to come tomorrow.
+b2.g.15.ex.2 :: The square looked as if a festival had just ended.
+b2.g.16.name :: Clauses with ohne dass, statt dass and anstatt … zu
+b2.g.16.rule :: ohne dass introduces an accompanying event that does not occur. statt dass introduces an expected alternative that does not occur. With the same subject, you can use anstatt … zu: Sie ruft an, anstatt eine Nachricht zu schreiben.
+b2.g.16.ex.0 :: The meeting was moved to a smaller room without all the participants being informed beforehand.
+b2.g.16.ex.1 :: To the group's surprise, dismantling began instead of management answering questions.
+b2.g.16.ex.2 :: The mechanic replaced only the fuse instead of replacing the entire system.
+b2.g.17.name :: Perfect infinitive with zu haben or zu sein
+b2.g.17.rule :: Partizip II + zu haben/zu sein refers to an event that happened before the action in the main clause: Er behauptet, den Brief gelesen zu haben. Sie freut sich, rechtzeitig angekommen zu sein. Use the same auxiliary as in Perfekt.
+b2.g.17.ex.0 :: The customer claims to have already transferred the full amount on Monday.
+b2.g.17.ex.1 :: The researcher is certain that she also took the rare cases into account.
+b2.g.17.ex.2 :: Lea is proud to have spotted the differences without anyone else's help.
+b2.g.18.name :: Verbs and adjectives with prepositions
+b2.g.18.rule :: Some verbs and adjectives require a particular preposition and case: auf den Termin hinweisen, an der Angabe zweifeln, mit dem Ergebnis zufrieden sein. Learn the preposition and the case together.
+b2.g.18.ex.0 :: The workshop still relies on a dependable supplier for spare parts.
+b2.g.18.ex.1 :: Our group is responsible for reviewing newly received applications.
+b2.g.18.ex.2 :: During the conversation, Mara asked about the requirements for taking part.
+b2.g.19.name :: Relative clauses with wer, was, wo(r)- and Genitiv
+b2.g.19.rule :: In free relative clauses, wer/wen/wem refer to people and vary according to case. was follows indefinite expressions such as alles or nichts, and wo refers to a place. wodurch and worüber can refer to an earlier event. To express possession, use dessen for masculine or neuter singular antecedents and deren for feminine or plural antecedents.
+b2.g.19.ex.0 :: Anyone who submits their application on time receives written confirmation within a week.
+b2.g.19.ex.1 :: The company whose products we are comparing has since opened a second branch.
+b2.g.19.ex.2 :: The photographer whose name is missing from the catalogue got in touch with the museum.
+b2.g.20.name :: es as an anticipatory pronoun and placeholder
+b2.g.20.rule :: Placeholder es fills the first position: Es kamen viele Gäste. Anticipatory es points ahead to a later clause: Es freut mich, dass du kommst. es also occurs in impersonal expressions: Es regnet.
+b2.g.20.ex.0 :: I find it difficult to explain the differences without the original table.
+b2.g.20.ex.1 :: Why do so many enquiries relate to the same period?
+b2.g.20.ex.2 :: Does the change concern only the order of the work steps?

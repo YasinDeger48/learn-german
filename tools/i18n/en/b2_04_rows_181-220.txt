@@ -1,0 +1,40 @@
+b2.w.839.ex.0 :: The supervisory body ordered another inspection because two pieces of information did not match.
+b2.w.840 :: to count towards, to give credit for
+b2.w.840.ex.0 :: The university gave her credit for the internship even though she had completed it during an earlier training programme.
+b2.w.841 :: to cause, to inflict
+b2.w.841.ex.0 :: Water seeping into the basement caused more damage than it had the year before.
+b2.w.842 :: to take effect, to work
+b2.w.842.ex.0 :: After only a few days, it was too soon to tell whether the new rule was working.
+b2.w.843 :: start-up funding
+b2.w.843.ex.0 :: Limited start-up funding made it possible for the workshop to open in its first year.
+b2.w.844 :: to swell, to rise
+b2.w.844.ex.0 :: The stream swelled after the thunderstorm, so the lower path had to be closed.
+b2.w.845 :: to establish, to locate
+b2.w.845.ex.0 :: The municipality set up small businesses where there was already a shared access road.
+b2.w.846 :: tension
+b2.w.846.ex.0 :: The tension eased noticeably as soon as both sides spoke openly about their expectations.
+b2.w.847 :: to spur on, to encourage
+b2.w.847.ex.0 :: The first useful results encouraged the team to investigate the more difficult cases as well.
+b2.w.848 :: approachability, availability
+b2.w.848.ex.0 :: The supervisor's approachability was especially helpful to participants who rarely asked questions in public.
+b2.w.849 :: offensive
+b2.w.849.ex.0 :: Some people found the tone of the advert offensive, even though its content remained factual.
+b2.w.850 :: to encroach on, to undermine
+b2.w.850.ex.0 :: The new draft was intended to leave the groups' existing rights to have a say intact.
+b2.w.851 :: shareholder
+b2.w.851.ex.0 :: Before the meeting, the shareholders received an overview of the planned investments.
+b2.w.852 :: eligibility to apply
+b2.w.852.ex.0 :: How long the group has existed has no bearing on its eligibility to apply.
+b2.w.853 :: to apply, to use
+b2.w.853.ex.0 :: The students used the same method after checking the measuring instruments together.
+b2.w.854 :: example of practical use
+b2.w.854.ex.0 :: A practical example made it clear why the two terms were not interchangeable.
+b2.w.855 :: workload reduction
+b2.w.855.ex.0 :: The expected reduction in workload never materialised because the programme created new checks to carry out.
+b2.w.856 :: basis for work
+b2.w.856.ex.0 :: The team worked from a map showing all the access roads.
+b2.w.857 :: under employment law
+b2.w.857.ex.0 :: The association commissioned a review of the possible implications of the proposed change for part-time staff under employment law.
+b2.w.858 :: to breathe a sigh of relief
+b2.w.858.ex.0 :: The employees breathed a sigh of relief when the threatened cancellation of some shifts was averted.
+b2.w.859 :: to boost, to supplement

@@ -3,7 +3,7 @@
 Input line: {"id","level","topic","title","text","tr","en","glossary":[{"de":"die Besprechung","tr":"..."}],
              "questions":[{"type":"mc","q","options","answer":0} | {"type":"tf","q","answer":true}]}
 Optional English glossary meanings: tools/daily/<level>_glossary_en.txt, lines "die Besprechung :: meeting".
-Optional plurals / verb forms are taken from a word list in tools/words format (type|word|plural|...).
+Optional plurals / verb forms are taken from --words PATH or a glob of word lists (type|word|plural|...).
 
     python -I -X utf8 tools/import_daily_jsonl.py a2 ../icerik/a2_metinler_0*.jsonl --words ../icerik/a2_kelimeler.txt
 """
@@ -113,6 +113,10 @@ def find_form(text, lemma):
     return None
 
 
+def split_paragraphs(text):
+    return [' '.join(part.split()) for part in re.split(r'\n\s*\n', text.strip())]
+
+
 def main():
     args = sys.argv[1:]
     level = args.pop(0).lower()
@@ -123,8 +127,11 @@ def main():
         del args[i:i + 2]
     files = sorted(p for pattern in args for p in glob.glob(pattern))
     extras = {}
-    if words_path:
-        for line in open(words_path, encoding='utf-8'):
+    word_files = sorted(glob.glob(words_path)) if words_path else []
+    if words_path and not word_files:
+        raise SystemExit(f'No word lists match {words_path}')
+    for path in word_files:
+        for line in open(path, encoding='utf-8'):
             p = line.rstrip('\n').split('|')
             if len(p) >= 3 and p[2] not in ('', '-'):
                 key = (f'{p[0]} {p[1]}' if p[0] in ('der', 'die', 'das') else p[1]).lower()
@@ -159,6 +166,8 @@ def main():
                 mean = {'tr': g['tr']}
                 if g['de'] in en:
                     mean['en'] = en[g['de']]
+                elif g.get('en'):  # delivered with the text: {"de","tr","en"}
+                    mean['en'] = g['en']
                 else:
                     missing_en.add(g['de'])
                 item = {'form': form, 'lemma': lemma, 'mean': mean, 'pron': pron.pron(g['de'])}
@@ -174,11 +183,15 @@ def main():
                     questions.append({'type': 'tf', 'q': q['q'], 'answer': 0 if q['answer'] else 1})
                 else:
                     questions.append({'type': 'mc', 'q': q['q'], 'options': q['options'], 'answer': q['answer']})
-            trans = {'tr': ' '.join(t['tr'].split())}
-            if t.get('en'):
-                trans['en'] = ' '.join(t['en'].split())
+            translations = {lang: t[lang] for lang in ('tr', 'en') if t.get(lang)}
+            paragraphs = split_paragraphs(t['text'])
+            translated = {lang: split_paragraphs(value) for lang, value in translations.items()}
+            if any(len(parts) != len(paragraphs) for parts in translated.values()):
+                paragraphs = [text]
+                translated = {lang: [' '.join(value.split())] for lang, value in translations.items()}
+            trans = [{lang: parts[i] for lang, parts in translated.items()} for i in range(len(paragraphs))]
             out.append({'id': t['id'], 'level': level.upper(), 'topic': t['topic'], 'title': t['title'],
-                        'paragraphs': [text], 'trans': [trans], 'glossary': glossary, 'questions': questions})
+                        'paragraphs': paragraphs, 'trans': trans, 'glossary': glossary, 'questions': questions})
 
     dest = os.path.join(HERE, '..', 'Resources', 'content', f'daily_{level}.json')
     json.dump({'level': level.upper(), 'texts': out}, open(dest, 'w', encoding='utf-8', newline='\n'),

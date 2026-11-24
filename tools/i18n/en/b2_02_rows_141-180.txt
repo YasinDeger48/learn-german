@@ -1,0 +1,40 @@
+b2.w.319.ex.0 :: In her presentation, the manager did not gloss over the delay but openly explained what had caused it.
+b2.w.320 :: settlement
+b2.w.320.ex.0 :: The history of early settlement can be reconstructed only in broad outline from the finds.
+b2.w.321 :: calm, level-headed
+b2.w.321.ex.0 :: The employee reacted calmly even though several customers wanted to know at once why their bookings had disappeared.
+b2.w.322 :: inventory, stocktaking
+b2.w.322.ex.0 :: Taking stock helped the school administration distinguish between urgent repairs and long-term renovation needs.
+b2.w.323 :: at best
+b2.w.323.ex.0 :: With the materials available, we can paint at most the two smallest rooms by Friday.
+b2.w.324 :: durability
+b2.w.324.ex.0 :: The paint's durability was tested in direct sunlight and high humidity.
+b2.w.325 :: participation rate
+b2.w.325.ex.0 :: Since meetings have been held at different times, participation has risen, especially among younger parents.
+b2.w.326 :: to emphasise
+b2.w.326.ex.0 :: The speaker emphasised that the proposed schedule could be met only under certain conditions.
+b2.w.327 :: operating procedure
+b2.w.327.ex.0 :: The new employee first asked her night-shift colleagues how the operation worked.
+b2.w.328 :: operational, for business reasons
+b2.w.328.ex.0 :: No goods could be accepted into the warehouse that morning because of an operational interruption.
+b2.w.329 :: considerable
+b2.w.329.ex.0 :: The differences between the offers were considerable even though all the companies had received the same contract.
+b2.w.330 :: to assess
+b2.w.330.ex.0 :: Without the original readings, it was impossible to assess the actual size of the difference.
+b2.w.331 :: assessment
+b2.w.331.ex.0 :: The assessment became more nuanced after the experiences of younger participants were also taken into account.
+b2.w.332 :: population trends
+b2.w.332.ex.0 :: Population trends over recent years were an important reason for expanding the primary school.
+b2.w.333 :: telling, revealing
+b2.w.333.ex.0 :: It was telling that no one asked at the first meeting how the changes would affect volunteers.
+b2.w.334 :: to quantify
+b2.w.334.ex.0 :: The workshop could quantify the work involved only after the damage behind the panel became visible.
+b2.w.335 :: point of reference
+b2.w.335.ex.0 :: Without a shared point of reference, it is difficult to make meaningful comparisons between results from different neighbourhoods.
+b2.w.336 :: educational qualification
+b2.w.336.ex.0 :: The educational qualification required for the course depends on the chosen specialisation.
+b2.w.337 :: account, explanation
+b2.w.337.ex.0 :: To enable a factual discussion, the chair asked both sides to give a brief account of their reasons.
+b2.w.338 :: dataset
+b2.w.338.ex.0 :: The dataset could be supplemented without re-entering information that had already been checked.
+b2.w.339 :: funding gap

@@ -1,0 +1,40 @@
+b2.w.129.ex.0 :: The new procedure has proved particularly effective for requests made at short notice.
+b2.w.130 :: to be unnecessary
+b2.w.130.ex.0 :: If you submit the application online, there is no need to visit the office.
+b2.w.131 :: to increase, to become more frequent
+b2.w.131.ex.0 :: Complaints about the leaking roof increase when it rains.
+b2.w.132 :: to escalate
+b2.w.132.ex.0 :: The situation escalated when the replacement bus also broke down.
+b2.w.133 :: to outweigh
+b2.w.133.ex.0 :: For me, the advantages of a shorter commute outweigh the drawbacks.
+b2.w.134 :: to deal with
+b2.w.134.ex.0 :: In the course, we learn how to deal with complaints calmly.
+b2.w.135 :: to prevent, to stop
+b2.w.135.ex.0 :: The barrier is intended to prevent cars from entering the courtyard.
+b2.w.136 :: to be subject to
+b2.w.136.ex.0 :: Official documents are subject to special data protection rules.
+b2.w.137 :: to estimate, to budget
+b2.w.137.ex.0 :: The renovation was initially estimated to take three weeks.
+b2.w.138 :: to illustrate
+b2.w.138.ex.0 :: The chart illustrates the difference between the two rates.
+b2.w.139 :: to standardise
+b2.w.139.ex.0 :: The organisation wants to standardise the forms across all its sites.
+b2.w.140 :: to miss, to fail to meet
+b2.w.140.ex.0 :: Despite higher spending, the company failed to meet its target this year.
+b2.w.141 :: to verify
+b2.w.141.ex.0 :: The team must verify the figures before the report is published.
+b2.w.142 :: to resume
+b2.w.142.ex.0 :: Operations are to resume on Monday after the outage.
+b2.w.143 :: to assign, to allocate
+b2.w.143.ex.0 :: Management assigns each group its own table.
+b2.w.144 :: to attribute to
+b2.w.144.ex.0 :: The workshop attributes the damage to a faulty cable.
+b2.w.145 :: to doubt
+b2.w.145.ex.0 :: Some members doubt that the measure will work without additional staff.
+b2.w.146 :: detrimental
+b2.w.146.ex.0 :: Constant interruptions are detrimental to concentration.
+b2.w.147 :: partly, to some extent
+b2.w.147.ex.0 :: The letter only partly explains why the price changed.
+b2.w.148 :: decisive
+b2.w.148.ex.0 :: The decisive factor in the decision was that the site can be reached by bus.
+b2.w.149 :: based on need

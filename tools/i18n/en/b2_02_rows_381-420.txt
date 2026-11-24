@@ -1,0 +1,40 @@
+b2.w.439.ex.0 :: To avoid bias, the team collected the data on different days and at different times.
+b2.w.440 :: to admonish, to remind firmly
+b2.w.440.ex.0 :: The chair reminded everyone to raise their objections calmly and let others finish speaking.
+b2.w.441 :: to gauge, to assess
+b2.w.441.ex.0 :: When the decision was made, nobody could gauge how much the delay would affect other projects.
+b2.w.442 :: to authorise, to empower
+b2.w.442.ex.0 :: The board authorised two members to negotiate the rent with the owner under clearly defined conditions.
+b2.w.443 :: to try out, to pilot
+b2.w.443.ex.0 :: The school piloted the new course format in two classes before introducing it to more groups.
+b2.w.444 :: to spare, to save
+b2.w.444.ex.0 :: The joint review saved the project managers several separate conversations in which the same questions would have come up.
+b2.w.445 :: to grow stronger, to gain strength
+b2.w.445.ex.0 :: After several successful campaigns, the initiative gained strength. Until then, only a small group had supported it.
+b2.w.446 :: surprisingly
+b2.w.446.ex.0 :: Surprisingly, some experienced colleagues also chose the course aimed at newcomers.
+b2.w.447 :: demonstrably, as proven
+b2.w.447.ex.0 :: The material has been shown to last longer if it is kept dry and protected before installation.
+b2.w.448 :: stock shortage
+b2.w.448.ex.0 :: The retailer discovered the shortage only when several orders it had committed to could no longer be filled in full.
+b2.w.449 :: misconduct
+b2.w.449.ex.0 :: The misconduct was dealt with individually so the other employees would not all come under suspicion.
+b2.w.450 :: perceptive, subtle
+b2.w.450.ex.0 :: The review was perceptive and explained even small changes in the characters.
+b2.w.451 :: to keep away
+b2.w.451.ex.0 :: The low barrier keeps dogs away from the beds while leaving access open to visitors.
+b2.w.452 :: finding, determination
+b2.w.452.ex.0 :: The commission's main finding was that there had been no shared set of data before the decision was made.
+b2.w.453 :: affordable, financially manageable
+b2.w.453.ex.0 :: The facility remained affordable for families after the association introduced several discounts.
+b2.w.454 :: staff turnover
+b2.w.454.ex.0 :: High staff turnover meant experienced employees repeatedly had to set aside time to train new colleagues.
+b2.w.455 :: soil sealing
+b2.w.455.ex.0 :: To limit the amount of ground covered by paving, the city kept narrow strips of greenery between the new parking spaces.
+b2.w.456 :: cursory, fleeting
+b2.w.456.ex.0 :: Anyone who only skims the draft may miss the differences between the two stages of planning.
+b2.w.457 :: consequential, far-reaching
+b2.w.457.ex.0 :: The seemingly minor change had lasting effects because it made access easier for several groups.
+b2.w.458 :: formal, formally
+b2.w.458.ex.0 :: The decision is formally valid even though some of those involved are still adapting to it.
+b2.w.459 :: research commission, research assignment

@@ -41,6 +41,27 @@ TOPICS = {
     'Adjektivdeklination': ('Sıfat çekimi', 'der/die/das sonrası: -e (der neue Mantel), Akkusativ eril ve Dativ/çoğul: -en. ein sonrası sıfat, artikelin göstermediği cinsiyeti gösterir: ein neuer Mantel, ein neues Auto, eine neue Jacke.'),
     'Imperativ': ('Emir kipi', 'du: Komm! Nimm! Fahr! · ihr: Kommt! · Sie: Kommen Sie! Ayrılan fiil: Ruf an! sein: Sei! Seid! Seien Sie! bitte cümleyi kibarlaştırır.'),
     'zu + Infinitiv': ('zu + mastar', 'Ich habe keine Zeit, … zu kommen. Es ist schwer, … zu lernen. Ich versuche, … zu schlafen. Ayrılan fiilde zu araya girer: anzurufen. Modal fiillerden sonra zu yok.'),
+    # B2
+    'Konjunktiv II der Vergangenheit': ('Geçmişte Konjunktiv II', 'Gerçekleşmemiş bir geçmiş olayı hätte/wäre ve Partizip II ile anlatılır: Hätte ich den Brief gelesen, wäre ich früher gekommen. Modal fiille iki mastar kullanılır: Ich hätte früher anrufen sollen.'),
+    'Konjunktiv I – indirekte Rede': ('Konjunktiv I ile dolaylı anlatım', 'Dolaylı anlatım başkasının sözünü aktarır: Er sagt, er sei krank. Geçmiş için habe/sein çekimi ve Partizip II kullanılır: Sie sagt, sie habe den Brief gelesen.'),
+    'Passiv mit sein (Zustandspassiv)': ('Durum edilgeni', 'sein + Partizip II, tamamlanmış bir eylemin ardından süren durumu belirtir. Das Fenster ist geöffnet. Geçmişte war/waren kullanılır.'),
+    'Passiversatz (sich lassen, sein + zu, -bar)': ('Edilgen yerine kullanılan yapılar', 'sich lassen + mastar ve -bar sıfatı yapılabilirlik bildirir: Das lässt sich lesen, das ist lesbar. sein + zu + mastar bağlama göre yapılabilirlik veya zorunluluk bildirir: Das Formular ist einzureichen.'),
+    'Partizipialattribute (Partizip I und II)': ('Sıfat görevinde Partizip I ve II', 'İsimden önce Partizip I sürmekte olan eylemi, Partizip II tamamlanmış eylemi veya sonucunu anlatır. İkisi de sıfat gibi çekimlenir: die wartende Frau, die reparierte Tür.'),
+    'Modalverben – subjektive Bedeutung (muss, dürfte, soll, will)': ('Kip fiilleriyle çıkarım ve aktarma', 'muss güçlü çıkarım, dürfte olası tahmin, soll başka bir kaynağın aktardığı bilgi, will kişinin kendisi hakkında ileri sürdüğü iddiadır. Geçmişe ilişkin çıkarım veya iddiada Infinitiv Perfekt kullanılır: Er muss angekommen sein.'),
+    'Futur II': ('Futur II: gelecekte tamamlanmış eylem', 'werden çekimi + Partizip II + haben/sein mastarı kullanılır: Bis morgen werde ich fertig gearbeitet haben. Geçmiş hakkında tahmin de bildirir: Er wird schon angekommen sein.'),
+    'Nominalisierung': ('Fiili isimle ifade etme', 'Eylem türetilmiş bir isimle ya da büyük harfle yazılan mastarla anlatılabilir: prüfen → die Prüfung, prüfen → das Prüfen. İsimleşmiş mastar nötrdür.'),
+    'Verbalisierung': ('İsim yapısını fiille ifade etme', 'İsimle anlatılan eylem, bağlama uygun fiille yeniden kurulur: nach der Prüfung der Unterlagen → nachdem wir die Unterlagen geprüft hatten. Fiil çekimi yeni cümlenin öznesi ve zamanı ile uyumlu olmalıdır.'),
+    'Nomen-Verb-Verbindungen': ('Yerleşik isim–fiil birleşimleri', 'Bazı isimler belli fiillerle yerleşik bir ifade oluşturur: eine Entscheidung treffen, Rücksicht nehmen, in Kraft treten. İfadeyi isim, fiil ve varsa edatıyla birlikte öğren.'),
+    'Präpositionen mit Genitiv (aufgrund, angesichts, hinsichtlich, mittels)': ('Genitiv alan edatlar', 'aufgrund neden, angesichts karşı karşıya olunan durum, hinsichtlich ele alınan konu, mittels kullanılan araç bildirir: aufgrund des Streiks, mittels einer Skizze.'),
+    'Konnektoren – kausal und konzessiv (da, zumal, obgleich, dennoch)': ('Neden ve beklentiye aykırı sonuç', 'da neden, zumal özellikle önemli bir gerekçe, obgleich ise -e rağmen anlamı verir ve yan cümlenin fiilini sona gönderir. dennoch bağımsız cümlede beklenenin tersini bildirir: Es regnete; dennoch gingen wir los.'),
+    'Konnektoren – modal und instrumental (indem, dadurch dass, wodurch)': ('Yöntem ve araç bildiren bağlaçlar', 'indem yöntemi anlatır: Sie spart Zeit, indem sie Anfragen bündelt. dadurch, dass sonucun nasıl ortaya çıktığını açıklar; wodurch önceki olayın sonucunu ekler.'),
+    'Konnektoren – konditional und adversativ (sofern, falls, während, wohingegen)': ('Koşul ve karşıtlık bildiren bağlaçlar', 'sofern gereken koşulu, falls gerçekleşmesi olası bir koşulu bildirir. während eşzamanlılık veya karşıtlık, wohingegen doğrudan karşıtlık bildirir. Yan cümlenin çekimli fiili sona gider.'),
+    'Irreale Vergleichssätze (als ob, als wenn, als)': ('Gerçek dışı karşılaştırmalar', 'als ob ve als wenn ile çekimli fiil yan cümlenin sonunda yer alır: Er tut so, als ob er nichts wüsste. Yalın als ile fiil hemen ardından gelir: Er tut so, als wüsste er nichts. Bu yapılarda Konjunktiv sık kullanılır.'),
+    'ohne dass / statt dass / anstatt … zu': ('Yapılmayan eylem ve alternatif eylem', 'ohne dass gerçekleşmeyen bir eşlik eden durumu, statt dass ise beklenen ama yapılmayan bir eylemi bildirir. Aynı özneyle anstatt … zu kullanılabilir: Sie ruft an, anstatt eine Nachricht zu schreiben.'),
+    'Infinitiv Perfekt (zu haben / zu sein)': ('Geçmiş mastar: zu haben / zu sein', 'Partizip II + zu haben/zu sein, ana cümledeki eylemden önce gerçekleşen bir olayı anlatır: Er behauptet, den Brief gelesen zu haben. Sie freut sich, rechtzeitig angekommen zu sein. Yardımcı fiil, Perfekt çekimindekiyle aynıdır.'),
+    'Verben und Adjektive mit Präpositionen': ('Edat alan fiiller ve sıfatlar', 'Bazı fiiller ve sıfatlar belirli bir edat ve hâl ister: auf den Termin hinweisen, an der Angabe zweifeln, mit dem Ergebnis zufrieden sein. Edatı ve ismin hâlini birlikte öğren.'),
+    'Relativsätze mit wer, was, wo(r)- und Relativsatz mit Genitiv': ('İlgi cümleleri: wer, was, wo(r)- ve Genitiv', 'wer/wen/wem isimsiz ilgi cümlelerinde kişiyi hâline göre belirtir. was, alles veya nichts gibi belirsiz ifadelerden sonra gelir; wo yer bildirir. Önceki bir olaya wodurch veya worüber ile gönderme yapılabilir. Sahiplik: dessen (eril/nötr), deren (dişil/çoğul).'),
+    'es als Korrelat und Platzhalter': ('Es: yer tutucu ve yan cümleye gönderme', 'Yer tutucu es ilk konumu doldurur: Es kamen viele Gäste. Yan cümleye gönderme yapan es, cümlenin devamındaki içeriği duyurur: Es freut mich, dass du kommst. Kişisiz ifadelerde de kullanılır: Es regnet.'),
     # B1
     'Konjunktiv II – Wünsche/Ratschläge': ('Konjunktiv II: dilek, rica, tavsiye', 'Kibar rica: Könnten Sie …? Würden Sie …? Dilek: Ich hätte gern … / Ich wäre gern … Tavsiye: Du solltest … / An deiner Stelle würde ich … Çekim: ich/er würde, hätte, wäre, könnte, sollte · du würdest, hättest, wärst · wir/sie/Sie würden, hätten, wären · ihr würdet, hättet, wärt.'),
     'Konjunktiv II – irreale Bedingung': ('Konjunktiv II: gerçek dışı koşul', 'Wenn ich Zeit hätte, würde ich kommen. (Zamanım yok.) Wenn-cümlesinde fiil sonda; wenn olmadan fiil başa gelir: Hätte ich Zeit, würde ich kommen. sein → wäre, haben → hätte, können → könnte, müssen → müsste; diğer fiiller çoğunlukla würde + mastar.'),
@@ -105,7 +126,8 @@ def main():
     grammar, items, ids = [], [], {}
     seen_items = set()
     glines = []
-    for gpath in sorted(glob.glob(os.path.join(src, 'grammar*.txt'))):  # grammar.txt or grammar_01.txt, grammar_02.txt …
+    grammar_pattern = 'grammar_*.txt' if level == 'b2' else 'grammar*.txt'
+    for gpath in sorted(glob.glob(os.path.join(src, grammar_pattern))):
         glines += open(gpath, encoding='utf-8').readlines()
     for line in glines:
         if not line.strip():

@@ -1,0 +1,200 @@
+die|Abfolge|die Abfolgen|sıra, dizilim|Die Abfolge der Übungen änderte sich nach der ersten Pause.|İlk moladan sonra alıştırmaların sırası değişti.
+die|Abfuhr|die Abfuhren|toplanıp götürülme|Die Abfuhr der Gartenabfälle findet dieses Jahr erst im April statt.|Bahçe atıkları bu yıl ancak nisanda toplanacak.
+die|Abholung|die Abholungen|gidip teslim alma|Zur Abholung der bestellten Bücher braucht man nur seine Kundennummer.|Sipariş edilen kitapları almak için yalnızca müşteri numarası gerekiyor.
+die|Absprache|die Absprachen|önceden anlaşma|Ohne Absprache mit der anderen Gruppe blieb der Raum am Freitag leer.|Diğer grupla anlaşılmadığı için oda cuma günü boş kaldı.
+die|Altersgrenze|die Altersgrenzen|yaş sınırı|Für die Teilnahme am Wettbewerb beträgt die Altersgrenze diesmal sechzehn Jahre.|Yarışmaya katılım için yaş sınırı bu kez on altı.
+die|Anbindung|die Anbindungen|ulaşım bağlantısı|Wegen der guten Anbindung ziehen viele Studierende in diese Gegend.|İyi ulaşım bağlantısı nedeniyle birçok öğrenci bu bölgeye taşınıyor.
+der|Anhaltspunkt|die Anhaltspunkte|ipucu, dayanak|Der alte Stadtplan gab uns einen Anhaltspunkt für die weitere Suche.|Eski şehir haritası aramayı sürdürmek için bize bir ipucu verdi.
+die|Anlieferung|die Anlieferungen|teslimatın getirilmesi|Die Anlieferung der frischen Ware erfolgt meist vor sechs Uhr.|Taze ürünler genellikle saat altıdan önce getiriliyor.
+der|Anspruch|die Ansprüche|hak, talep|Nach dem Vertrag hat sie Anspruch auf zwei zusätzliche freie Tage.|Sözleşmeye göre iki gün daha izin hakkı var.
+die|Anteilnahme|-|duygudaşlık, taziye|Die Familie war dankbar für die Anteilnahme der vielen Nachbarn.|Aile çok sayıda komşunun taziyesi için minnettardı.
+der|Appetitverlust|-|iştah kaybı|Wegen des anhaltenden Appetitverlusts rief er schließlich in der Praxis an.|İştahsızlığı geçmeyince sonunda muayenehaneyi aradı.
+die|Arbeitserlaubnis|die Arbeitserlaubnisse|çalışma izni|Ihre Arbeitserlaubnis musste vor dem Stellenwechsel rechtzeitig verlängert werden.|İş değiştirmeden önce çalışma izninin zamanında uzatılması gerekiyordu.
+die|Arbeitsprobe|die Arbeitsproben|iş örneği|Zum Vorstellungsgespräch brachte sie zwei Arbeitsproben aus dem letzten Kurs mit.|İş görüşmesine son kurstan iki iş örneği getirdi.
+die|Auflage|die Auflagen|baskı, basım sayısı, koşul|In der neuen Auflage fehlen die veralteten Preise für Fahrkarten.|Yeni baskıda artık geçerli olmayan bilet fiyatları çıkarılmış.
+die|Aufnahmeprüfung|die Aufnahmeprüfungen|kabul sınavı|Für die Aufnahmeprüfung übte mein Bruder jeden Abend am Klavier.|Erkek kardeşim kabul sınavı için her akşam piyano çalıştı.
+die|Aufschrift|die Aufschriften|üzerindeki yazı|Die Aufschrift auf der Dose war nach dem Regen kaum lesbar.|Kutunun üzerindeki yazı yağmurdan sonra neredeyse okunmuyordu.
+der|Auftraggeber|die Auftraggeber|işi veren kişi|Der Auftraggeber bat vor dem Druck um ein letztes Foto.|İşi veren kişi baskıdan önce son bir fotoğraf istedi.
+die|Ausdauer|-|dayanıklılık|Für die lange Radtour braucht man mehr Ausdauer als Kraft.|Uzun bisiklet turu için güçten çok dayanıklılık gerekiyor.
+das|Ausflugsziel|die Ausflugsziele|gezi yeri|Bei Regen ist das Technikmuseum unser bevorzugtes Ausflugsziel für Familien.|Yağmurda ailece gitmeyi tercih ettiğimiz gezi yeri teknoloji müzesi.
+die|Auslastung|-|doluluk, kullanım oranı|Wegen der hohen Auslastung öffnete das Bad am Wochenende früher.|Yoğunluk nedeniyle havuz hafta sonu daha erken açıldı.
+die|Außenbeleuchtung|-|dış aydınlatma|Die Außenbeleuchtung am Eingang blieb nach dem Stromausfall zunächst aus.|Elektrik kesintisinden sonra girişteki dış aydınlatma başta yanmadı.
+der|Austausch|-|değişim, fikir alışverişi|Der Austausch mit anderen Eltern half uns bei der Entscheidung.|Diğer anne babalarla fikir alışverişi karar vermemize yardımcı oldu.
+die|Autobahnausfahrt|die Autobahnausfahrten|otoyol çıkışı|Hinter der nächsten Autobahnausfahrt beginnt eine längere Baustelle ohne Standstreifen.|Sıradaki otoyol çıkışından sonra emniyet şeridi olmayan uzun bir yol çalışması başlıyor.
+die|Backzeit|die Backzeiten|fırında pişirme süresi|Die Backzeit verkürzt sich, wenn man zwei kleine Formen benutzt.|İki küçük kalıp kullanıldığında pişirme süresi kısalıyor.
+die|Bastelanleitung|die Bastelanleitungen|el işi yönergesi|Mit der bebilderten Bastelanleitung konnten die Kinder selbstständig ein Windrad bauen.|Çocuklar resimli el işi yönergesiyle kendi başlarına bir rüzgârgülü yapabildi.
+die|Bauweise|die Bauweisen|inşa biçimi|Die offene Bauweise lässt viel Licht in das kleine Haus.|Açık yapı tarzı küçük eve bol ışık girmesini sağlıyor.
+die|Bedingung|die Bedingungen|koşul|Unter dieser Bedingung können wir den Raum auch im Winter nutzen.|Bu koşulla odayı kışın da kullanabiliriz.
+das|Bedürfnis|die Bedürfnisse|ihtiyaç|Die neue Regelung berücksichtigt das Bedürfnis der Anwohner nach Ruhe.|Yeni düzenleme çevre sakinlerinin sessizlik ihtiyacını dikkate alıyor.
+die|Begeisterung|-|coşku|Mit großer Begeisterung probierten die Kinder zum ersten Mal das neue Instrument.|Çocuklar yeni çalgıyı ilk kez büyük bir coşkuyla denedi.
+der|Behandlungsraum|die Behandlungsräume|tedavi odası|Im hellen Behandlungsraum standen zwei Stühle und ein kleiner Tisch.|Aydınlık tedavi odasında iki sandalye ve küçük bir masa vardı.
+der|Belag|die Beläge|kaplama, üst malzeme|Der neue Belag auf dem Weg wird bei Nässe weniger glatt.|Yolun yeni kaplaması ıslanınca daha az kaygan oluyor.
+die|Berufsschule|die Berufsschulen|meslek okulu|Zweimal in der Woche fährt Enes nach der Arbeit zur Berufsschule.|Enes haftada iki kez işten sonra meslek okuluna gidiyor.
+die|Betriebsferien|-|işletmenin toplu tatili|Wegen der Betriebsferien nehmen wir im August keine neuen Aufträge an.|İşletme tatili nedeniyle ağustosta yeni iş kabul etmiyoruz.
+die|Bibliothekarin|die Bibliothekarinnen|kadın kütüphaneci|Die Bibliothekarin zeigte uns leise den Weg zum hinteren Lesesaal.|Kütüphaneci arkadaki okuma salonunun yolunu bize alçak sesle gösterdi.
+das|Blech|die Bleche|sac levha, fırın tepsisi|Auf dem großen Blech war noch Platz für vier Brötchen.|Büyük fırın tepsisinde dört küçük ekmek için daha yer vardı.
+der|Blitzschlag|die Blitzschläge|yıldırım düşmesi|Nach dem Blitzschlag war die Beleuchtung in der ganzen Straße ausgefallen.|Yıldırım düşünce bütün sokağın aydınlatması kesilmişti.
+der|Bodenbelag|die Bodenbeläge|zemin kaplaması|Für die Küche wählten wir einen Bodenbelag, den man leicht reinigen kann.|Mutfak için kolay temizlenen bir zemin kaplaması seçtik.
+das|Bruchstück|die Bruchstücke|kırık parça|Unter der Kommode fanden die Kinder ein Bruchstück der alten Vase.|Çocuklar şifonyerin altında eski vazonun kırık bir parçasını buldu.
+die|Bühnenprobe|die Bühnenproben|sahne provası|Bei der letzten Bühnenprobe änderte der Regisseur den Eingang der Figuren.|Son sahne provasında yönetmen karakterlerin sahneye girişini değiştirdi.
+die|Bürgerinitiative|die Bürgerinitiativen|yurttaş girişimi|Eine Bürgerinitiative sammelt Unterschriften für einen sicheren Weg zur Schule.|Bir yurttaş girişimi güvenli bir okul yolu için imza topluyor.
+die|Dachluke|die Dachluken|çatı kapağı|Durch die geöffnete Dachluke ließ sich die warme Luft gut abführen.|Açık çatı kapağından sıcak hava kolayca dışarı çıkıyordu.
+die|Dichtung|die Dichtungen|conta, sızdırmaz parça|Dank der neuen Dichtung dringt kein Regen mehr durch das Fenster.|Yeni conta sayesinde pencereden artık yağmur girmiyor.
+die|Drehtür|die Drehtüren|döner kapı|Mit einer großen Tasche ist die Drehtür am Eingang schwer zu benutzen.|Büyük çantayla girişteki döner kapıyı kullanmak zor.
+die|Druckerei|die Druckereien|matbaa|Die Druckerei liefert die fertigen Programme noch am Freitag in den Saal.|Matbaa hazır programları daha cuma günü salona getiriyor.
+das|Eigentum|-|mülkiyet|Die Bücher bleiben auch während der Ausleihe Eigentum der Stadtbibliothek.|Kitaplar ödünçteyken de şehir kütüphanesinin mülkiyetinde kalır.
+v|einstufen|er stuft ein · hat eingestuft|seviyesini belirlemek|Nach dem Gespräch stufte die Lehrerin ihn als fortgeschritten ein.|Görüşmeden sonra öğretmen onun ileri seviyede olduğuna karar verdi.
+v|eintragen|er trägt ein · hat eingetragen|kaydını yazmak|Trag bitte die richtige Hausnummer in das zweite Feld ein.|Lütfen ikinci alana doğru kapı numarasını yaz.
+das|Eintrittsdatum|die Eintrittsdaten|işe giriş tarihi|Das genaue Eintrittsdatum steht im ersten Abschnitt des neuen Vertrags.|Kesin işe giriş tarihi yeni sözleşmenin ilk bölümünde yazıyor.
+v|empfangen|er empfängt · hat empfangen|karşılamak, almak|Am Eingang empfing uns eine Mitarbeiterin mit zwei kleinen Namensschildern.|Girişte bir görevli iki küçük isimlikle bizi karşıladı.
+der|Empfangsbereich|die Empfangsbereiche|karşılama alanı|Im Empfangsbereich lagen Broschüren über Kurse für die kommenden Monate.|Karşılama alanında önümüzdeki ayların kurslarıyla ilgili broşürler vardı.
+das|Endergebnis|die Endergebnisse|nihai sonuç|Am Endergebnis überraschte uns vor allem der geringe Unterschied zwischen den Gruppen.|Nihai sonuçta bizi en çok gruplar arasındaki farkın küçüklüğü şaşırttı.
+v|entladen|er entlädt · hat entladen|yükünü boşaltmak|Die Helfer entluden den Wagen hinter der Halle noch vor neun.|Gönüllüler daha saat dokuzdan önce salonun arkasında aracın yükünü boşalttı.
+v|entschärfen|er entschärft · hat entschärft|gerilimi azaltmak|Mit einer kurzen Pause konnte die Leiterin den Streit etwas entschärfen.|Yönetici kısa bir arayla tartışmanın gerilimini biraz azaltabildi.
+v|erfassen|er erfasst · hat erfasst|kayda geçirmek, algılamak|Am Empfang erfasst die Mitarbeiterin die Namen zuerst am Computer.|Resepsiyonda görevli adları önce bilgisayara kaydediyor.
+die|Erfrischung|die Erfrischungen|serinletici içecek, ferahlama|Nach dem Lauf gab es an der Theke eine kostenlose Erfrischung.|Koşudan sonra tezgahta ücretsiz bir serinletici içecek vardı.
+die|Erntezeit|die Erntezeiten|hasat zamanı|Während der Erntezeit halfen viele Nachbarn auf dem kleinen Hof mit.|Hasat zamanında birçok komşu küçük çiftlikte yardıma geldi.
+v|ertragen|er erträgt · hat ertragen|katlanmak|Im Sommer ertrage ich den Lärm bei geöffnetem Fenster kaum.|Yazın pencere açıkken gürültüye güçlükle katlanıyorum.
+v|erwähnen|er erwähnt · hat erwähnt|bahsetmek|Im Gespräch erwähnte Niko kurz den Vorschlag aus der letzten Sitzung.|Niko görüşmede son toplantıdaki öneriden kısaca bahsetti.
+die|Etikettierung|die Etikettierungen|etiketleme|Für die Etikettierung verwenden wir bei jeder Größe eine andere Farbe.|Etiketleme için her boyda farklı bir renk kullanıyoruz.
+die|Fahrspur|die Fahrspuren|trafik şeridi|Die rechte Fahrspur ist nach dem Sturm noch immer gesperrt.|Fırtınadan sonra sağ şerit hâlâ kapalı.
+der|Fensterrahmen|die Fensterrahmen|pencere çerçevesi|Am unteren Fensterrahmen sammelte sich nach dem Regen etwas Wasser.|Yağmurdan sonra pencere çerçevesinin alt kısmında biraz su birikti.
+die|Ferienbetreuung|die Ferienbetreuungen|tatilde çocuk bakımı|Für die Ferienbetreuung konnten Eltern ihre Kinder bis Ende Mai anmelden.|Anne babalar çocuklarını mayıs sonuna kadar tatil bakımına kaydettirebiliyordu.
+die|Fischzucht|die Fischzuchten|balık yetiştiriciliği|Die Fischzucht im Dorf wird seit Jahren ohne große Maschinen betrieben.|Köyde balık yetiştiriciliği yıllardır büyük makineler olmadan yapılıyor.
+der|Flaschenöffner|die Flaschenöffner|şişe açacağı|Mit dem kleinen Flaschenöffner am Schlüsselbund ließ sich die Flasche öffnen.|Anahtarlıktaki küçük açacakla şişe açılabildi.
+die|Flugverbindung|die Flugverbindungen|uçuş bağlantısı|Wegen der schlechten Flugverbindung reist unsere Gruppe diesmal mit dem Zug.|Elverişsiz uçuş bağlantısı yüzünden grubumuz bu kez trenle gidiyor.
+v|freihalten|er hält frei · hat freigehalten|boş tutmak|Haltet bei der Lieferung bitte den Weg zwischen den Eingangstüren frei.|Teslimat sırasında lütfen giriş kapılarının arasındaki yolu açık tutun.
+der|Freiraum|die Freiräume|serbest alan, hareket özgürlüğü|Der Kurs gibt den Teilnehmenden genug Freiraum für eigene Ideen.|Kurs katılımcılara kendi fikirleri için yeterince özgürlük veriyor.
+die|Freizeitanlage|die Freizeitanlagen|dinlence tesisi|Die neue Freizeitanlage am See ist auch an Werktagen gut besucht.|Göl kenarındaki yeni dinlence tesisi hafta içi de kalabalık.
+der|Frischkäse|-|taze krem peynir|In den warmen Teig mischte sie zum Schluss etwas Frischkäse.|Ilık hamura son olarak biraz taze krem peynir kattı.
+der|Fußgängerüberweg|die Fußgängerüberwege|yaya geçidi|Am Fußgängerüberweg vor dem Kindergarten blieben die Autos rechtzeitig stehen.|Anaokulunun önündeki yaya geçidinde arabalar zamanında durdu.
+die|Füllmenge|die Füllmengen|dolum miktarı|Die erlaubte Füllmenge steht auf der Flasche direkt unter dem Deckel.|İzin verilen dolum miktarı şişede kapağın hemen altında yazıyor.
+die|Gabelung|die Gabelungen|yol ayrımı|An der zweiten Gabelung nahmen die Wanderer den steileren Weg.|Yürüyüşçüler ikinci yol ayrımında daha dik yola saptı.
+der|Gasanschluss|die Gasanschlüsse|gaz bağlantısı|Vor dem Einzug prüfte eine Fachkraft den Gasanschluss in der Küche.|Taşınmadan önce bir uzman mutfaktaki gaz bağlantısını kontrol etti.
+der|Gebrauchtwagen|die Gebrauchtwagen|ikinci el otomobil|Den Gebrauchtwagen ließ er vor dem Kauf von einer Werkstatt prüfen.|İkinci el arabayı satın almadan önce bir servise kontrol ettirdi.
+der|Geburtstagsgruß|die Geburtstagsgrüße|doğum günü kutlama mesajı|Einen kurzen Geburtstagsgruß schrieb die Klasse auf die gemeinsame Karte.|Sınıf ortak karta kısa bir doğum günü mesajı yazdı.
+die|Geduld|-|sabır|Beim Aufbau des Regals brauchten wir mehr Geduld als Werkzeug.|Rafı kurarken aletten çok sabra ihtiyacımız oldu.
+die|Gegenleistung|die Gegenleistungen|karşılık|Als Gegenleistung half ich meinem Nachbarn später bei seinem Umzug.|Karşılık olarak daha sonra komşumun taşınmasına yardım ettim.
+das|Geldgeschenk|die Geldgeschenke|para hediyesi|Vom Geldgeschenk ihrer Tante kaufte sich Yasmin einen gebrauchten Schreibtisch.|Yasmin teyzesinin hediye ettiği parayla ikinci el çalışma masası aldı.
+der|Gemeindesaal|die Gemeindesäle|belediye veya cemaat salonu|Der Gemeindesaal war für das gemeinsame Essen am Sonntag bereits reserviert.|Pazar günkü ortak yemek için salon çoktan ayırtılmıştı.
+v|geraten|er gerät · ist geraten|bir duruma düşmek, bir yere girmek|Durch den starken Wind geriet unser kleines Boot ins Schilf.|Kuvvetli rüzgâr yüzünden küçük teknemiz sazlığa girdi.
+die|Geräuschkulisse|die Geräuschkulissen|arka plandaki sesler|Die Geräuschkulisse im Café war für die Aufnahme leider zu laut.|Kafedeki arka plan sesleri kayıt için ne yazık ki fazla yüksekti.
+die|Geschmacksrichtung|die Geschmacksrichtungen|tat çeşidi|Bei diesem Eis darf man zwei Geschmacksrichtungen im selben Becher kombinieren.|Bu dondurmada aynı kapta iki tat birleştirilebiliyor.
+der|Gesichtspunkt|die Gesichtspunkte|bakış noktası, ölçüt|Unter diesem Gesichtspunkt ist der kürzere Weg eine vernünftige Wahl.|Bu açıdan daha kısa yol mantıklı bir tercih.
+das|Gesundheitsamt|die Gesundheitsämter|yerel sağlık dairesi|Die Schule leitete das Schreiben direkt an das Gesundheitsamt weiter.|Okul yazıyı doğrudan yerel sağlık dairesine iletti.
+die|Gesundheitskarte|die Gesundheitskarten|sağlık sigortası kartı|Ihre Gesundheitskarte lag in der Tasche neben dem Impfpass.|Sağlık sigortası kartı çantada aşı kartının yanında duruyordu.
+das|Gewächshaus|die Gewächshäuser|sera|Im Gewächshaus konnten die kleinen Pflanzen auch kalte Nächte überstehen.|Küçük bitkiler serada soğuk geceleri de atlatabildi.
+v|gewähren|er gewährt · hat gewährt|tanımak, vermek|Der Anbieter gewährte der Gruppe einen Rabatt für die frühe Buchung.|Firma erken rezervasyon için gruba indirim yaptı.
+v|gleiten|er gleitet · ist geglitten|kayarak ilerlemek|Das kleine Boot glitt an diesem Morgen fast lautlos über den See.|Küçük tekne o sabah gölde neredeyse sessizce süzüldü.
+v|glätten|er glättet · hat geglättet|pürüzünü gidermek|Vor dem Streichen glättete der Handwerker die Kante mit feinem Schleifpapier.|Usta boyamadan önce kenarı ince zımparayla düzleştirdi.
+die|Grundfläche|die Grundflächen|taban alanı|Für die neue Hütte steht nur eine kleine Grundfläche zur Verfügung.|Yeni kulübe için yalnızca küçük bir taban alanı var.
+die|Größenangabe|die Größenangaben|boyut bilgisi|Bei der Bestellung half mir die genaue Größenangabe unter dem Foto.|Sipariş verirken fotoğrafın altındaki kesin ölçü bilgisi işime yaradı.
+der|Gummiring|die Gummiringe|lastik halka|Der lose Gummiring fiel beim Öffnen des Deckels auf den Boden.|Kapak açılırken gevşek lastik halka yere düştü.
+der|Hagelschaden|die Hagelschäden|dolu hasarı|Den Hagelschaden am Auto bemerkte ich erst am nächsten Morgen.|Arabada dolunun yol açtığı hasarı ancak ertesi sabah fark ettim.
+w|halbwegs|-|az çok|Nach zwei Stunden sah die unfertige Zeichnung schon halbwegs ordentlich aus.|İki saat sonra bitmemiş çizim az çok düzgün görünüyordu.
+das|Handwerk|die Handwerke|zanaat|Das alte Handwerk wird in dieser Familie seit mehreren Generationen ausgeübt.|Eski zanaat bu ailede birkaç kuşaktır sürdürülüyor.
+w|hauptsächlich|-|ağırlıklı olarak|Auf dem Markt verkauft meine Tante hauptsächlich Gemüse aus ihrem Garten.|Teyzem pazarda ağırlıklı olarak bahçesinde yetiştirdiği sebzeleri satıyor.
+die|Hauptursache|die Hauptursachen|ana neden|Als Hauptursache für die Verspätung nannte der Fahrer einen blockierten Bahnübergang.|Şoför gecikmenin ana nedeni olarak kapanan hemzemin geçidi gösterdi.
+w|heikel|-|hassas, zor|Die Frage nach der Miete war beim ersten Treffen besonders heikel.|İlk buluşmada kira sorusu özellikle hassas bir konuydu.
+die|Heizkostenabrechnung|die Heizkostenabrechnungen|ısıtma gideri dökümü|Die Heizkostenabrechnung für den letzten Winter kam erst im Sommer.|Geçen kışın ısıtma gideri dökümü ancak yazın geldi.
+w|hektisch|-|telaşlı|Am Bahnsteig wurde es hektisch, als das andere Gleis angezeigt wurde.|Başka bir peron gösterilince ortalık telaşlandı.
+v|herausheben|er hebt heraus · hat herausgehoben|kaldırıp çıkarmak, öne çıkarmak|Zu zweit hoben sie den schweren Topf aus dem Wagen heraus.|Ağır tencereyi araçtan iki kişi kaldırıp çıkardılar.
+der|Herkunftsort|die Herkunftsorte|geldiği yer|Am Stand wurde der Herkunftsort der Erdbeeren auf einem Schild angegeben.|Tezgahtaki bir levhada çileklerin geldiği yer belirtilmişti.
+w|herkömmlich|-|geleneksel, alışılmış|Die herkömmliche Lampe verbraucht mehr Strom als das kleine neue Modell.|Alışılmış türdeki lamba küçük yeni modelden daha fazla elektrik harcıyor.
+die|Hilfsaktion|die Hilfsaktionen|yardım kampanyası|Die Hilfsaktion für die betroffenen Familien begann direkt nach dem Sturm.|Etkilenen aileler için yardım kampanyası fırtınanın hemen ardından başladı.
+w|hin und wieder|-|ara sıra|Meine Nachbarin arbeitet hin und wieder am Wochenende in der Bücherei.|Komşum ara sıra hafta sonu kütüphanede çalışıyor.
+v|hinhören|er hört hin · hat hingehört|dikkatle dinlemek|Wenn du genau hinhörst, erkennst du im Hintergrund die Kirchenglocken.|Dikkatle dinlersen arka plandaki kilise çanlarını duyarsın.
+v|hinschauen|er schaut hin · hat hingeschaut|dikkatle bakmak|Beim zweiten Foto schaute Berrin genauer hin und erkannte das alte Schild.|Berrin ikinci fotoğrafa daha dikkatli bakınca eski tabelayı tanıdı.
+v|sich hinsetzen|er setzt sich hin · hat sich hingesetzt|oturmak, oturtmak|Nach dem langen Weg setzte sich Nele auf die erste freie Bank hin.|Nele uzun yoldan sonra bulduğu ilk boş banka oturdu.
+die|Hintergrundmusik|die Hintergrundmusiken|arka plan müziği|Während des Interviews störte die laute Hintergrundmusik aus dem Nachbarraum.|Röportaj sırasında yan odadan gelen yüksek arka plan müziği rahatsız etti.
+v|hinterlegen|er hinterlegt · hat hinterlegt|emanet bırakmak, kaydetmek|Den Ersatzschlüssel hinterlegte die Familie bei einer Nachbarin im Erdgeschoss.|Aile yedek anahtarı zemin kattaki bir komşuya bıraktı.
+w|hitzebeständig|-|ısıya dayanıklı|Für den heißen Topf brauchen wir eine hitzebeständige Unterlage aus Kork.|Sıcak tencere için mantardan yapılmış ısıya dayanıklı bir altlık gerekiyor.
+die|Ideensammlung|die Ideensammlungen|fikir derlemesi|Aus der Ideensammlung suchte jede Gruppe zwei Vorschläge für das Fest aus.|Her grup fikir derlemesinden şenlik için iki öneri seçti.
+w|identisch|-|tıpatıp aynı|Die beiden Formulare sind bis auf die Nummer unten fast identisch.|Alttaki numara dışında iki form neredeyse tıpatıp aynı.
+die|Informationsstelle|die Informationsstellen|danışma noktası|An der Informationsstelle bekamen wir einen Plan mit dem barrierefreien Weg.|Danışma noktasından engelsiz yolu gösteren bir harita aldık.
+der|Kabelbinder|die Kabelbinder|kablo bağı|Mit einem Kabelbinder befestigte Juri die Leitung am unteren Rahmen.|Juri kabloyu alt çerçeveye bir kablo bağıyla sabitledi.
+die|Kehrseite|die Kehrseiten|olumsuz yön, arka yüz|Die langen Wartezeiten waren die Kehrseite des besonders günstigen Angebots.|Uzun bekleme süreleri, çok uygun fiyatlı teklifin olumsuz yanıydı.
+der|Kleiderbügel|die Kleiderbügel|giysi askısı|Für die nassen Jacken brachte die Helferin noch drei Kleiderbügel.|Görevli ıslak ceketler için üç askı daha getirdi.
+v|klemmen|er klemmt · hat geklemmt|sıkışmak|Seit dem letzten Regen klemmt die Tür zum Gartenhaus wieder.|Son yağmurdan beri bahçe kulübesinin kapısı yine sıkışıyor.
+v|klären|er klärt · hat geklärt|açıklığa kavuşturmak|Vor der Buchung klärte das Paar die Frage nach dem Parkplatz.|Çift rezervasyondan önce park yeri konusunu netleştirdi.
+v|knicken|er knickt · hat geknickt|katlayıp iz yapmak|Bitte knick den Bogen erst entlang der dünnen grauen Linie.|Lütfen kâğıdı önce ince gri çizgi boyunca katla.
+die|Kochzeit|die Kochzeiten|pişirme süresi|Bei klein geschnittenen Kartoffeln ist die Kochzeit deutlich kürzer als sonst.|Küçük doğranan patatesler normalden çok daha kısa sürede pişiyor.
+der|Kreislauf|die Kreisläufe|dolaşım, döngü|In der Hitze machte ihm der Kreislauf beim langen Stehen Probleme.|Sıcakta uzun süre ayakta kalınca dolaşım sorunu yaşadı.
+w|kurzzeitig|-|kısa süreliğine|Wegen einer Störung war der Eingang am Mittag kurzzeitig gesperrt.|Arıza nedeniyle giriş öğle saatinde kısa süreliğine kapatıldı.
+die|Ladefläche|die Ladeflächen|yükleme alanı|Auf der Ladefläche des Wagens war nur noch Platz für einen Tisch.|Aracın yükleme bölümünde yalnızca bir masa için yer kalmıştı.
+v|lagern|er lagert · hat gelagert|depolamak|Im Sommer lagert der Verein seine Zelte in einem trockenen Kellerraum.|Dernek yazın çadırlarını kuru bir bodrum odasında depoluyor.
+w|landesweit|-|ülke genelinde|Die Ausstellung wurde nach ihrem großen Erfolg landesweit in mehreren Städten gezeigt.|Başarısından sonra sergi ülke genelinde birkaç şehirde gösterildi.
+die|Langzeitmiete|die Langzeitmieten|uzun süreli kiralama|Für eine Langzeitmiete bot der Fahrradladen einen niedrigeren Monatspreis an.|Bisikletçi uzun süreli kiralamada daha düşük bir aylık fiyat önerdi.
+w|lautlos|-|ses çıkarmadan|Die schwere Glastür schloss sich trotz ihrer Größe fast lautlos.|Ağır cam kapı büyüklüğüne rağmen neredeyse sessizce kapandı.
+w|lebensnah|-|günlük hayata yakın|Die Lehrerin suchte lebensnahe Beispiele für die Übungen zum Perfekt.|Öğretmen Perfekt alıştırmaları için hayata yakın örnekler aradı.
+das|Lehrmaterial|die Lehrmaterialien|ders materyali|Das Lehrmaterial für die erste Woche liegt bereits im gemeinsamen Ordner.|İlk haftanın ders materyali ortak klasörde hazır.
+w|leichtsinnig|-|düşüncesiz, tedbirsiz|Es wäre leichtsinnig, bei dieser Sicht ohne Licht weiterzufahren.|Bu görüş mesafesinde ışıksız devam etmek tedbirsizlik olur.
+w|leistungsfähig|-|verimli, güçlü|Der alte Rechner ist für einfache Bürotätigkeiten noch ausreichend leistungsfähig.|Eski bilgisayar basit ofis işleri için hâlâ yeterince güçlü.
+die|Lenkung|die Lenkungen|direksiyon sistemi, yönlendirme|Die Lenkung fühlte sich nach dem Wechsel der Reifen ungewohnt an.|Lastikler değiştirildikten sonra direksiyon alışılmadık geldi.
+der|Leserausweis|die Leserausweise|kütüphane üyelik kartı|Meinen Leserausweis musste ich für die Rückgabe am Automaten nicht zeigen.|Otomatta iade yaparken kütüphane kartımı göstermem gerekmedi.
+w|leserlich|-|okunaklı|Bitte schreiben Sie Ihren Wohnort so leserlich wie möglich in das Feld.|Lütfen yaşadığınız yeri alana mümkün olduğunca okunaklı yazın.
+die|Lieferbestätigung|die Lieferbestätigungen|teslimat onayı|Die Lieferbestätigung kam noch bevor der Bote den Hof verlassen hatte.|Kurye avludan ayrılmadan teslimat onayı geldi.
+w|lockig|-|kıvırcık|Auf dem alten Foto trug meine Tante ihre Haare noch lockig.|Eski fotoğrafta teyzemin saçları henüz kıvırcıktı.
+v|losbinden|er bindet los · hat losgebunden|bağını çözmek|Nachdem alle eingestiegen waren, band der Fahrer das Boot los.|Herkes bindikten sonra tekneyi kullanan adam ipini çözdü.
+v|loslassen|er lässt los · hat losgelassen|elinden bırakmak|Lass das Seil erst los, wenn die Kiste sicher unten steht.|Halatı ancak kasa aşağıda sağlam durduğunda bırak.
+w|lückenlos|-|eksiksiz, boşluksuz|Zum Termin brachte die Mieterin eine lückenlose Liste ihrer Zahlungen mit.|Kiracı randevuya ödemelerinin eksiksiz listesini getirdi.
+w|maßgeblich|-|belirleyici|Für die Wahl des Saals war vor allem die Lage maßgeblich.|Salonun seçiminde özellikle konum belirleyiciydi.
+w|mehrfach|-|birkaç kez|Die Lehrerin wies mehrfach auf die geänderte Uhrzeit der Prüfung hin.|Öğretmen sınav saatinin değiştiğini birkaç kez hatırlattı.
+w|mehrsprachig|-|çok dilli|Das mehrsprachige Schild am Eingang wurde von den Teilnehmenden gemeinsam gestaltet.|Girişteki çok dilli tabelayı katılımcılar birlikte tasarladı.
+der|Mindestabstand|die Mindestabstände|en az bırakılması gereken mesafe|Beim Aufstellen der Stühle achteten wir auf den vorgeschriebenen Mindestabstand.|Sandalyeleri yerleştirirken belirtilen en az mesafeye dikkat ettik.
+w|mittelfristig|-|orta vadede|Die Bücherei möchte mittelfristig zusätzliche ruhige Plätze zum Lernen schaffen.|Kütüphane orta vadede ders çalışmak için ek sessiz yerler açmak istiyor.
+die|Mittelstufe|die Mittelstufen|orta düzey|Die Bücher für die Mittelstufe stehen im Regal neben der Tür.|Orta düzey kitapları kapının yanındaki rafta duruyor.
+w|mühsam|-|zahmetli|Ohne Aufzug war es mühsam, die schweren Kisten nach oben zu tragen.|Asansör olmadan ağır kolileri yukarı taşımak zahmetliydi.
+v|nachahmen|er ahmt nach · hat nachgeahmt|taklit etmek|Die Kinder ahmten beim Spielen die Geräusche der alten Maschinen nach.|Çocuklar oynarken eski makinelerin seslerini taklit etti.
+v|nachbessern|er bessert nach · hat nachgebessert|sonradan düzeltmek|An der unteren Ecke musste der Maler nach dem Trocknen nachbessern.|Boyacı boya kuruduktan sonra alt köşeyi düzeltmek zorunda kaldı.
+w|nachdenklich|-|düşünceli|Nach dem Gespräch wirkte mein Bruder den ganzen Heimweg über nachdenklich.|Görüşmeden sonra erkek kardeşim eve dönerken hep düşünceli görünüyordu.
+v|nachholen|er holt nach · hat nachgeholt|telafi etmek|Wegen des Unwetters holte die Klasse den Ausflug im Mai nach.|Fırtına yüzünden yapılamayan geziyi sınıf mayısta telafi etti.
+w|nachweislich|-|kanıtlanabilir biçimde|Die Sendung wurde nachweislich erst am Freitag vom Lager abgeschickt.|Gönderinin depodan ancak cuma günü çıktığı kanıtlandı.
+v|nachzählen|er zählt nach · hat nachgezählt|yeniden saymak|Vor der Abfahrt zählte die Lehrerin alle Jungen und Mädchen nach.|Öğretmen hareket etmeden önce bütün çocukları yeniden saydı.
+w|naheliegend|-|akla ilk gelen, mantıklı|Bei der kurzen Strecke schien das Fahrrad die naheliegende Wahl.|Yol kısa olduğundan bisiklet en mantıklı seçenek gibi görünüyordu.
+w|nebensächlich|-|önemsiz, ikincil|Bei einer Reparatur ist für mich die Farbe der Schraube nebensächlich.|Bir onarımda vidanın rengi benim için ikincil önemde.
+das|Netzteil|die Netzteile|güç adaptörü|Ohne das passende Netzteil ließ sich der Bildschirm nicht einschalten.|Uygun güç adaptörü olmadan ekran açılamadı.
+der|Newsletter|die Newsletter|e-posta bülteni|Den Newsletter der Bibliothek lese ich meist auf dem Weg zur Arbeit.|Kütüphanenin e-posta bültenini çoğunlukla işe giderken okuyorum.
+v|niederlegen|er legt nieder · hat niedergelegt|bırakmak, görevden ayrılmak|Nach der Wahl legte der alte Vorsitzende sein Amt offiziell nieder.|Seçimden sonra eski başkan görevinden resmen ayrıldı.
+der|Notdienst|die Notdienste|acil servis, nöbetçi hizmet|Der Notdienst konnte uns am Abend nur eine kurze Zwischenlösung anbieten.|Nöbetçi servis akşam bize yalnızca geçici bir çözüm sunabildi.
+w|notfalls|-|gerekirse|Notfalls könnten wir die schweren Lautsprecher mit einem größeren Wagen abholen.|Gerekirse ağır hoparlörleri daha büyük bir araçla alabiliriz.
+die|Nutzung|die Nutzungen|kullanım|Für die Nutzung der Werkstatt müssen sich neue Mitglieder vorher anmelden.|Atölyeyi kullanmak için yeni üyelerin önceden kaydolması gerekiyor.
+w|nüchtern|-|aç karnına|Zur Blutabnahme am frühen Morgen sollte der Junge nüchtern in die Praxis kommen.|Oğlan sabah erken kan alımı için muayenehaneye aç karnına gelmeliydi.
+w|oberflächlich|-|yüzeysel|Das Gespräch blieb oberflächlich, weil die Gruppe nur wenig Zeit hatte.|Grubun az vakti olduğu için görüşme yüzeysel kaldı.
+v|ordnen|er ordnet · hat geordnet|düzenlemek|Für das Gespräch ordnete Lara ihre Belege nach dem Datum.|Lara görüşme için belgelerini tarihlerine göre düzenledi.
+der|Paketbote|die Paketboten|kargo görevlisi|Der Paketbote stellte die Kiste mit unserer Erlaubnis neben die Treppe.|Kargo görevlisi iznimizle koliyi merdivenin yanına bıraktı.
+die|Passform|die Passformen|beden uyumu|An der Passform der Hose störte ihn vor allem der enge Bund.|Pantolonun kalıbında onu en çok dar bel kısmı rahatsız etti.
+der|Pfandbon|die Pfandbons|depozito fişi|Den Pfandbon kannst du an derselben Kasse wie den Einkauf einlösen.|Depozito fişini alışveriş yaptığın kasada kullanabilirsin.
+v|pflücken|er pflückt · hat gepflückt|dalından toplamak|Bevor es regnete, pflückte mein Vater die reifen Birnen im Garten.|Yağmur yağmadan önce babam bahçedeki olgun armutları topladı.
+v|platzen|er platzt · ist geplatzt|patlamak|Beim Einladen des Gepäcks platzte plötzlich ein Reifen am Anhänger.|Bagaj yüklenirken römorkun bir lastiği aniden patladı.
+der|Posteingang|die Posteingänge|gelen kutusu|Im vollen Posteingang übersah die Kundin zuerst die wichtige Nachricht.|Müşteri kalabalık gelen kutusunda önemli mesajı önce gözden kaçırdı.
+v|protokollieren|er protokolliert · hat protokolliert|tutanağa kaydetmek|Die Sekretärin protokollierte die Entscheidung und schickte sie an alle Mitglieder.|Sekreter kararı tutanağa geçirip tüm üyelere gönderdi.
+w|punktuell|-|yer yer, belirli noktalarda|Durch das Unwetter waren einzelne Straßen im Dorf nur punktuell überflutet.|Fırtına nedeniyle köydeki bazı sokaklarda yer yer su baskını oluştu.
+v|quetschen|er quetscht · hat gequetscht|sıkıştırıp ezmek|Beim Tragen quetschte ich mir zwei Finger zwischen den Kartons.|Taşırken iki parmağımı kolilerin arasında sıkıştırdım.
+w|rechtmäßig|-|hukuka uygun|Ob der Zugang rechtmäßig gesperrt wurde, konnte die Mitarbeiterin nicht beurteilen.|Girişin hukuka uygun biçimde kapatılıp kapatılmadığını görevli değerlendiremedi.
+w|reibungslos|-|sorunsuz|Mit der neuen Liste verlief die Übergabe diesmal überraschend reibungslos.|Yeni listeyle teslim işlemi bu kez şaşırtıcı derecede sorunsuz geçti.
+w|restlos|-|tamamen, artıksız|Die erste Auflage des kleinen Buches war im Mai restlos verkauft.|Küçük kitabın ilk baskısı mayısta tamamen tükendi.
+w|rundum|-|her açıdan, her yanı|Nach der Reparatur war die Kundin mit dem Service rundum zufrieden.|Onarımdan sonra müşteri hizmetten her açıdan memnundu.
+w|rücksichtsvoll|-|saygılı, başkalarını gözeten|Die Jugendlichen blieben rücksichtsvoll und stellten ihre Musik frühzeitig leiser.|Gençler başkalarını gözeterek müziğin sesini erkenden kıstı.
+v|rütteln|er rüttelt · hat gerüttelt|sallamak|Der Sturm rüttelte nachts so heftig an den Läden, dass wir aufwachten.|Fırtına gece panjurları öyle şiddetli salladı ki uyandık.
+w|samt|-|ile birlikte|Der Hausmeister trug den alten Schirm samt Ständer in den Keller.|Görevli eski şemsiyeyi şemsiyeliğiyle birlikte bodruma taşıdı.
+w|schlagartig|-|birdenbire|Als das Licht ausging, wurde es im Saal schlagartig still.|Işık sönünce salon birdenbire sessizleşti.
+w|schlicht|-|sade|Für die Einladung hat er ein schlichtes Design mit wenig Text gewählt.|Davetiye için az yazılı, sade bir tasarım seçti.
+v|schlichten|er schlichtet · hat geschlichtet|anlaşmazlığı çözmek|Die Trainerin schlichtete den Streit zwischen den beiden jungen Spielern.|Antrenör iki genç oyuncunun arasındaki tartışmayı çözdü.
+v|schonen|er schont · hat geschont|yormamak, korumak|Nach dem langen Lauf schonte er sein schmerzendes Knie mehrere Tage.|Uzun koşudan sonra ağrıyan dizini birkaç gün yormadı.
+w|schonend|-|özenle, zarar vermeden|Mit kaltem Wasser lässt sich der empfindliche Stoff besonders schonend waschen.|Hassas kumaş soğuk suyla zarar vermeden yıkanabiliyor.
+v|schrumpfen|er schrumpft · ist geschrumpft|çekmek, küçülmek|Beim ersten Waschen ist das grüne Hemd leider deutlich geschrumpft.|Yeşil gömlek ilk yıkamada maalesef belirgin biçimde çekti.
+v|schwanken|er schwankt · hat geschwankt|sallanmak, değişkenlik göstermek|Der Preis für die Fahrkarten schwankte im Laufe des Monats erheblich.|Bilet fiyatı ay boyunca önemli ölçüde değişti.
+v|schweigen|er schweigt · hat geschwiegen|susmak|Zu dieser Frage schwieg Jonas während des gesamten Gesprächs.|Jonas tüm görüşme boyunca bu soru karşısında sessiz kaldı.
+v|schätzen|er schätzt · hat geschätzt|tahmin etmek, değer vermek|Die Fahrerin schätzte die Wartezeit auf ungefähr zwanzig Minuten.|Şoför bekleme süresini yaklaşık yirmi dakika olarak tahmin etti.
+w|selbstständig|-|kendi başına|Nach der Einführung füllten die meisten Teilnehmenden das Formular selbstständig aus.|Tanıtımdan sonra katılımcıların çoğu formu kendi başına doldurdu.
+v|senken|er senkt · hat gesenkt|indirmek, düşürmek|Um Energie zu sparen, senkte der Verein nachts die Temperatur im Saal.|Dernek enerji tasarrufu için gece salonun sıcaklığını düşürdü.
+v|spannen|er spannt · hat gespannt|germek|Vor dem Regen spannten die Helfer eine Plane über die Tische.|Gönüllüler yağmurdan önce masaların üzerine branda gerdi.
+v|stapeln|er stapelt · hat gestapelt|üst üste dizmek|Für den Transport stapelte Jana die flachen Kisten vorsichtig übereinander.|Jana taşıma için yassı kasaları dikkatlice üst üste dizdi.
+v|steigern|er steigert · hat gesteigert|artırmak|Durch einen längeren Kurs konnte er seine Ausdauer beim Laufen steigern.|Daha uzun bir kursla koşudaki dayanıklılığını artırabildi.
+v|stolpern|er stolpert · ist gestolpert|ayağı takılmak|Im dunklen Flur stolperte Cem beinahe über eine vergessene Tasche.|Cem karanlık koridorda unutulan bir çantaya neredeyse takılacaktı.
+v|stören|er stört · hat gestört|rahatsız etmek, çalışmasını bozmak|Das laute Telefon störte die anderen Gäste beim Lesen erheblich.|Yüksek sesli telefon diğer konukları okurken epey rahatsız etti.
+v|stürzen|er stürzt · ist gestürzt|düşmek|Auf dem nassen Weg stürzte die Läuferin kurz vor dem Ziel.|Koşucu hedefe varmadan hemen önce ıslak yolda düştü.
+v|säubern|er säubert · hat gesäubert|temizlemek|Mit einer weichen Bürste säuberte Lena die schmalen Fugen im Bad.|Lena banyodaki dar derzleri yumuşak bir fırçayla temizledi.
+v|sich täuschen|er täuscht sich · hat sich getäuscht|yanılmak|Beim Datum hatte ich mich um fast eine Woche getäuscht.|Tarihte neredeyse bir hafta yanılmışım.
+die|Ähnlichkeit|die Ähnlichkeiten|benzerlik|Die Ähnlichkeit zwischen den beiden Bildern fiel uns erst beim Vergleich auf.|İki resmin benzerliğini ancak karşılaştırınca fark ettik.

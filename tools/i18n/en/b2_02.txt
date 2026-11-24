@@ -1,0 +1,500 @@
+b2.w.249.ex.0 :: The labour dispute ended only when both sides agreed on a gradual pay rise.
+b2.w.250 :: biodiversity
+b2.w.250.ex.0 :: By mowing meadows less often, the municipality hopes to promote biodiversity in the residential area.
+b2.w.251 :: to work through, to address
+b2.w.251.ex.0 :: The association addressed the conflicts from the previous season before putting together a new team.
+b2.w.252 :: review, examination
+b2.w.252.ex.0 :: People who had not filed an official report at the time were also interviewed as part of the review.
+b2.w.253 :: to protest, to rebel
+b2.w.253.ex.0 :: The employees protested only against the third change because it affected their days off as well.
+b2.w.254 :: to prepare, to present
+b2.w.254.ex.0 :: The editorial team presented the figures so people without specialist knowledge could follow the changes.
+b2.w.255 :: processing, preparation
+b2.w.255.ex.0 :: While preparing the data, the researcher removed details that could have identified individuals.
+b2.w.256 :: retention period
+b2.w.256.ex.0 :: After the retention period expires, old documents are destroyed unless they are to be archived permanently.
+b2.w.257 :: spirit of optimism
+b2.w.257.ex.0 :: Despite limited funds, there was a spirit of optimism in the team because several ideas could finally be tested in practice.
+b2.w.258 :: intrusiveness
+b2.w.258.ex.0 :: Because of the intrusive sales calls, the customer silenced unknown numbers on her phone.
+b2.w.259 :: to impose, to push on someone
+b2.w.259.ex.0 :: The salesperson initially pressured the customer into buying an extra service she had not asked for.
+b2.w.260 :: noticeable, striking
+b2.w.260.ex.0 :: What stood out was that the people who had initially opposed the trial were the ones who spoke up.
+b2.w.261 :: open-minded
+b2.w.261.ex.0 :: The manager was open to criticism provided people gave specific examples that could be reviewed together.
+b2.w.262 :: open-mindedness
+b2.w.262.ex.0 :: Her openness to unfamiliar suggestions made it easier for the two very different groups to work together.
+b2.w.263 :: lifting, repeal
+b2.w.263.ex.0 :: The road reopened once the closure was lifted, but it remained poorly lit for the time being.
+b2.w.264 :: to clarify
+b2.w.264.ex.0 :: A second measurement clarified why readings from two rooms had seemed inconsistent.
+b2.w.265 :: clarification
+b2.w.265.ex.0 :: To clear up the misunderstanding, the museum displayed the original version of the letter alongside the translation.
+b2.w.266 :: to break up, to make more varied
+b2.w.266.ex.0 :: Short conversations between talks made the programme more varied without putting the schedule at risk.
+b2.w.267 :: dissolution
+b2.w.267.ex.0 :: After the working group was dissolved, the board took over the remaining tasks itself.
+b2.w.268 :: sincere
+b2.w.268.ex.0 :: His sincere apology made the conversation easier even though the damage had not yet been repaired.
+b2.w.269 :: to upgrade
+b2.w.269.ex.0 :: Instead of buying new computers, the library upgraded its existing devices with more memory.
+b2.w.270 :: revealing, informative
+b2.w.270.ex.0 :: The comparison with a group trying the procedure for the first time was particularly revealing.
+b2.w.271 :: to break down, to itemise
+b2.w.271.ex.0 :: The administration broke down the costs by building so unusual differences would be easier to examine.
+b2.w.272 :: postponement
+b2.w.272.ex.0 :: The requested postponement would have given the team time to obtain more renovation quotes.
+b2.w.273 :: upswing, recovery
+b2.w.273.ex.0 :: Businesses that had already invested in new technology benefited most from the economic recovery.
+b2.w.274 :: increase, expansion
+b2.w.274.ex.0 :: A temporary increase in staffing is intended to stop processing times from getting even longer in summer.
+b2.w.275 :: order situation, order book
+b2.w.275.ex.0 :: Despite a fluctuating order book, the workshop offered its apprentices permanent jobs after they passed their exams.
+b2.w.276 :: capable of further development
+b2.w.276.ex.0 :: The draft can be developed further because it already has a clear structure and several useful examples.
+b2.w.277 :: to fight out, to settle
+b2.w.277.ex.0 :: The two chairs did not want to fight out their dispute in front of the whole group, so they arranged a separate meeting.
+b2.w.278 :: feasible, executable
+b2.w.278.ex.0 :: Under the circumstances, the plan is feasible only if at least two more people help.
+b2.w.279 :: fully occupied
+b2.w.279.ex.0 :: Since the workshop is fully booked until the end of the month, urgent cases are referred to a partner company.
+b2.w.280 :: right to compensation
+b2.w.280.ex.0 :: Whether there was a right to compensation could be assessed only after reviewing all the documents.
+b2.w.281 :: to outsource
+b2.w.281.ex.0 :: The company outsourced maintenance after the number of internal jobs had fallen significantly.
+b2.w.282 :: to exclude, to marginalise
+b2.w.282.ex.0 :: The rules needed a complete overhaul so they would not exclude anyone because of their working hours.
+b2.w.283 :: exceptional case
+b2.w.283.ex.0 :: In exceptional cases, the deadline can be extended if the delay is adequately justified.
+b2.w.284 :: without exception
+b2.w.284.ex.0 :: Every measurement was taken at the same time, without exception, so the groups could compare their results.
+b2.w.285 :: meaningful, informative
+b2.w.285.ex.0 :: The findings would have been more meaningful if people from other age groups had also taken part in the survey.
+b2.w.286 :: exclusively
+b2.w.286.ex.0 :: Access is reserved exclusively for people who received written confirmation in advance.
+b2.w.287 :: committee
+b2.w.287.ex.0 :: The responsible committee postponed the vote to speak with the institutions affected first.
+b2.w.288 :: to make full use of
+b2.w.288.ex.0 :: Before requesting new funds, we should make full use of the current programme's resources.
+b2.w.289 :: full use
+b2.w.289.ex.0 :: Even if the entire budget were used, only two of the four rooms could be renovated at once.
+b2.w.290 :: extraordinary
+b2.w.290.ex.0 :: An extraordinary meeting was called after the chair unexpectedly announced his resignation.
+b2.w.291 :: suspension
+b2.w.291.ex.0 :: Operations were temporarily suspended because a technical fault could not be fixed immediately.
+b2.w.292 :: promising
+b2.w.292.ex.0 :: Of the three proposals, the smallest trial seemed the most promising because it required no renovation.
+b2.w.293 :: withdrawal, exit
+b2.w.293.ex.0 :: Management did not discuss a possible withdrawal from the project until it had received the second cost estimate.
+b2.w.294 :: selection criterion
+b2.w.294.ex.0 :: The main selection criterion was experience working with volunteer groups from different neighbourhoods.
+b2.w.295 :: to itemise, to show
+b2.w.295.ex.0 :: The statement lists material and labour costs in two separate columns.
+b2.w.296 :: building control authority
+b2.w.296.ex.0 :: The building control authority requested a new plan that also showed the accessible entrance.
+b2.w.297 :: to take, to require
+b2.w.297.ex.0 :: Reviewing old entries took longer because many changes had been recorded by hand only.
+b2.w.298 :: processing time
+b2.w.298.ex.0 :: Using a shared filing system shortened processing times, especially for requests with multiple attachments.
+b2.w.299 :: needs assessment
+b2.w.299.ex.0 :: The needs assessment showed that smaller groups need more support in the evening than in the early afternoon.
+b2.w.300 :: to necessitate, to entail
+b2.w.300.ex.0 :: Changing locations means making new plans because the access road there is much narrower.
+b2.w.301 :: authority, power
+b2.w.301.ex.0 :: The person handling the case has the authority to change the data.
+b2.w.302 :: authorised
+b2.w.302.ex.0 :: While the manager is away, only two employees are authorised to amend the contracts.
+b2.w.303 :: to certify
+b2.w.303.ex.0 :: The employee could certify the document only after the original had been presented.
+b2.w.304 :: limit, restriction
+b2.w.304.ex.0 :: Limiting each group to three people makes it easier to supervise the practical exercises.
+b2.w.305 :: clarification of terms
+b2.w.305.ex.0 :: A brief clarification of terms prevented those involved from continuing to use the same words in different ways.
+b2.w.306 :: to insist
+b2.w.306.ex.0 :: Despite the objections, the chair insisted that a decision be made only after another survey.
+b2.w.307 :: to answer yes, to approve
+b2.w.307.ex.0 :: Asked about an extension, some answered hesitantly, while others approved it without further conditions.
+b2.w.308 :: control, combating
+b2.w.308.ex.0 :: To control the pest, the company initially used natural methods rather than chemicals.
+b2.w.309 :: stress test
+b2.w.309.ex.0 :: The stress test revealed that the bracket slowly deformed under a heavy load.
+b2.w.310 :: to disadvantage
+b2.w.310.ex.0 :: The new order must not disadvantage people who can submit applications only in person.
+b2.w.311 :: disadvantage, discrimination
+b2.w.311.ex.0 :: To avoid disadvantaging part-time staff, the same information was offered at different times.
+b2.w.312 :: approach to advising
+b2.w.312.ex.0 :: The new advisory approach begins by considering the situation of those affected, not just their paperwork.
+b2.w.313 :: to clean up, to remove
+b2.w.313.ex.0 :: Before the analysis, the team removed duplicate and accidentally created entries from the list.
+b2.w.314 :: work-related
+b2.w.314.ex.0 :: During the course, participants practised work-related conversations they might later have with customers or supervisors.
+b2.w.315 :: condition, composition
+b2.w.315.ex.0 :: The soil's composition determines which plants can thrive long term in the dry courtyard.
+b2.w.316 :: to seize, to confiscate
+b2.w.316.ex.0 :: The authorities seized the goods only after identifying several missing documents.
+b2.w.317 :: acceleration, speeding up
+b2.w.317.ex.0 :: Speeding up the process must not result in important information being accepted without verification.
+b2.w.318 :: adoption of a resolution
+b2.w.318.ex.0 :: Before the resolution was adopted, each group had the chance to comment on the revised proposals.
+b2.w.319 :: to sugar-coat, to gloss over
+b2.w.319.ex.0 :: In her presentation, the manager did not gloss over the delay but openly explained what had caused it.
+b2.w.320 :: settlement
+b2.w.320.ex.0 :: The history of early settlement can be reconstructed only in broad outline from the finds.
+b2.w.321 :: calm, level-headed
+b2.w.321.ex.0 :: The employee reacted calmly even though several customers wanted to know at once why their bookings had disappeared.
+b2.w.322 :: inventory, stocktaking
+b2.w.322.ex.0 :: Taking stock helped the school administration distinguish between urgent repairs and long-term renovation needs.
+b2.w.323 :: at best
+b2.w.323.ex.0 :: With the materials available, we can paint at most the two smallest rooms by Friday.
+b2.w.324 :: durability
+b2.w.324.ex.0 :: The paint's durability was tested in direct sunlight and high humidity.
+b2.w.325 :: participation rate
+b2.w.325.ex.0 :: Since meetings have been held at different times, participation has risen, especially among younger parents.
+b2.w.326 :: to emphasise
+b2.w.326.ex.0 :: The speaker emphasised that the proposed schedule could be met only under certain conditions.
+b2.w.327 :: operating procedure
+b2.w.327.ex.0 :: The new employee first asked her night-shift colleagues how the operation worked.
+b2.w.328 :: operational, for business reasons
+b2.w.328.ex.0 :: No goods could be accepted into the warehouse that morning because of an operational interruption.
+b2.w.329 :: considerable
+b2.w.329.ex.0 :: The differences between the offers were considerable even though all the companies had received the same contract.
+b2.w.330 :: to assess
+b2.w.330.ex.0 :: Without the original readings, it was impossible to assess the actual size of the difference.
+b2.w.331 :: assessment
+b2.w.331.ex.0 :: The assessment became more nuanced after the experiences of younger participants were also taken into account.
+b2.w.332 :: population trends
+b2.w.332.ex.0 :: Population trends over recent years were an important reason for expanding the primary school.
+b2.w.333 :: telling, revealing
+b2.w.333.ex.0 :: It was telling that no one asked at the first meeting how the changes would affect volunteers.
+b2.w.334 :: to quantify
+b2.w.334.ex.0 :: The workshop could quantify the work involved only after the damage behind the panel became visible.
+b2.w.335 :: point of reference
+b2.w.335.ex.0 :: Without a shared point of reference, it is difficult to make meaningful comparisons between results from different neighbourhoods.
+b2.w.336 :: educational qualification
+b2.w.336.ex.0 :: The educational qualification required for the course depends on the chosen specialisation.
+b2.w.337 :: account, explanation
+b2.w.337.ex.0 :: To enable a factual discussion, the chair asked both sides to give a brief account of their reasons.
+b2.w.338 :: dataset
+b2.w.338.ex.0 :: The dataset could be supplemented without re-entering information that had already been checked.
+b2.w.339 :: funding gap
+b2.w.339.ex.0 :: The association was able to close the funding gap only after several local businesses pledged their support.
+b2.w.340 :: way of thinking
+b2.w.340.ex.0 :: The team's way of thinking changed when it looked at the same task from the users' perspective.
+b2.w.341 :: in this regard
+b2.w.341.ex.0 :: It is still unclear whether extra costs will arise because there is no written commitment in this regard.
+b2.w.342 :: basis for discussion
+b2.w.342.ex.0 :: Participants received an overview of costs, time requirements and possible consequences of the reform as a basis for discussion.
+b2.w.343 :: feasible
+b2.w.343.ex.0 :: The proposal would be feasible provided the two associations scheduled their events on different days in future.
+b2.w.344 :: feasibility
+b2.w.344.ex.0 :: Before making a final commitment, the board wanted to discuss the plan's feasibility with external specialists.
+b2.w.345 :: to push through, to secure
+b2.w.345.ex.0 :: The working group secured the right of smaller businesses to share their experiences at the hearing.
+b2.w.346 :: initiative
+b2.w.346.ex.0 :: On her own initiative, the trainee prepared an overview of questions that often came up during induction.
+b2.w.347 :: personal responsibility
+b2.w.347.ex.0 :: The more clearly tasks are described, the easier it is for the team to take responsibility for them.
+b2.w.348 :: suitability
+b2.w.348.ex.0 :: The hall's suitability also depends on how many people can leave it at the same time.
+b2.w.349 :: to withhold, to retain
+b2.w.349.ex.0 :: The administration withheld part of the amount until the final invoice had arrived.
+b2.w.350 :: loss, setback
+b2.w.350.ex.0 :: The company accepted short-term losses in order to switch permanently to a more efficient production method.
+b2.w.351 :: to curb, to contain
+b2.w.351.ex.0 :: To curb noise at night, the company moved deliveries to the early evening.
+b2.w.352 :: influence, interference
+b2.w.352.ex.0 :: The editorial team disclosed how it had resisted pressure from an important financial backer.
+b2.w.353 :: to demand, to call for
+b2.w.353.ex.0 :: Several participants demanded a clear explanation before agreeing to the new plan.
+b2.w.354 :: settling-in period
+b2.w.354.ex.0 :: During the settling-in period, the child was initially allowed to stay with their father in the group.
+b2.w.355 :: integration
+b2.w.355.ex.0 :: To help newly arrived young people integrate, the association offered a friendly training session without pressure to perform.
+b2.w.356 :: unanimously
+b2.w.356.ex.0 :: The commission unanimously recommended starting with a smaller trial involving volunteers.
+b2.w.357 :: to admit, to concede
+b2.w.357.ex.0 :: The editor admitted she had not compared the original wording with the source.
+b2.w.358 :: relevant, related
+b2.w.358.ex.0 :: Despite having little work experience, she could point to several relevant projects from her training.
+b2.w.359 :: potential for savings
+b2.w.359.ex.0 :: The team saw the greatest potential for savings in machines that unnecessarily kept running outside working hours.
+b2.w.360 :: objection, appeal
+b2.w.360.ex.0 :: His appeal led to the assessment being reviewed again using the same criteria.
+b2.w.361 :: registration, entry
+b2.w.361.ex.0 :: The entry in the register became visible only after the second signature had been checked.
+b2.w.362 :: objection
+b2.w.362.ex.0 :: The written objection concerned the planned opening hours, not the construction project itself.
+b2.w.363 :: to consent
+b2.w.363.ex.0 :: The participant consented to having her statement included anonymously in the analysis.
+b2.w.364 :: recipient list
+b2.w.364.ex.0 :: Jana checked the recipient list before sending because the documents contained internal information.
+b2.w.365 :: to design, to draft
+b2.w.365.ex.0 :: The young people designed three different posters, which were then discussed throughout the school.
+b2.w.366 :: draft version
+b2.w.366.ex.0 :: The first draft version did not say which results had yet to be checked.
+b2.w.367 :: success rate
+b2.w.367.ex.0 :: The success rate was higher in small groups, even though everyone had to complete the same tasks.
+b2.w.368 :: open-ended, without a predetermined outcome
+b2.w.368.ex.0 :: Management promised an open-ended discussion even though it already favoured a particular solution.
+b2.w.369 :: state of preservation
+b2.w.369.ex.0 :: Because it was in good condition, the old instrument could be exhibited after a simple cleaning.
+b2.w.370 :: survey period
+b2.w.370.ex.0 :: Since the survey period fell during the school holidays, fewer families with school-age children were reached.
+b2.w.371 :: recognisable
+b2.w.371.ex.0 :: The blurry photo showed only that the shop had existed before the renovation.
+b2.w.372 :: exploration, survey
+b2.w.372.ex.0 :: The groups had different maps and brief instructions to help them explore the site.
+b2.w.373 :: explanation
+b2.w.373.ex.0 :: An additional explanation would have helped because the same symbol had different meanings in two places.
+b2.w.374 :: without compensation, altogether
+b2.w.374.ex.0 :: The fee was abolished without compensation after several institutions opposed the new charge.
+b2.w.375 :: appearance
+b2.w.375.ex.0 :: The museum wanted to improve its appearance with small changes to the entrance while leaving the facade untouched.
+b2.w.376 :: earnings situation
+b2.w.376.ex.0 :: Despite stable sales, rising material costs worsened earnings in the second half of the year.
+b2.w.377 :: acquisition, purchase
+b2.w.377.ex.0 :: The used machines were purchased after a specialist had assessed their condition.
+b2.w.378 :: to consider, to contemplate
+b2.w.378.ex.0 :: Management considered moving the date after several employees unexpectedly became unavailable.
+b2.w.379 :: consideration
+b2.w.379.ex.0 :: In its deliberations, the commission also considered how quickly the measures could be implemented in practice.
+b2.w.380 :: technical interview
+b2.w.380.ex.0 :: During the technical interview, the applicant was asked to explain how she would handle conflicting requirements.
+b2.w.381 :: specialist literature
+b2.w.381.ex.0 :: Using current specialist literature, the group checked whether its observations had already been documented elsewhere.
+b2.w.382 :: passenger count
+b2.w.382.ex.0 :: A passenger count on several weekdays was intended to show when extra buses were needed most.
+b2.w.383 :: negligent
+b2.w.383.ex.0 :: It would be negligent to reopen the facility before the cause of the malfunction had been established.
+b2.w.384 :: dumbfounded
+b2.w.384.ex.0 :: When the latest results disappeared, the team initially stared at the blank screen in disbelief.
+b2.w.385 :: false assumption
+b2.w.385.ex.0 :: The mistaken assumption about when the work began came to light only during the joint inspection of the building.
+b2.w.386 :: to strengthen
+b2.w.386.ex.0 :: Regular joint exercises strengthened the trust between teams at the two sites.
+b2.w.387 :: nationwide, across the board
+b2.w.387.ex.0 :: A full rollout is planned only after the trials in smaller municipalities have been evaluated.
+b2.w.388 :: logical, consistent
+b2.w.388.ex.0 :: The decision was logical once the extra workload had become apparent in all three trials.
+b2.w.389 :: state of research
+b2.w.389.ex.0 :: To present the state of research clearly, the student compared several studies with differing findings.
+b2.w.390 :: continuous, ongoing
+b2.w.390.ex.0 :: Changes are numbered on an ongoing basis so that older versions can still be identified later.
+b2.w.391 :: questionable
+b2.w.391.ex.0 :: The conclusion seems questionable because almost all the feedback came from the same age group.
+b2.w.392 :: countermeasure
+b2.w.392.ex.0 :: To counter the night-time noise, the authorities arranged for the entrance to remain closed after 10 p.m.
+b2.w.393 :: valid, in force
+b2.w.393.ex.0 :: Under the current rules, a copy is sufficient provided the original can be presented on request.
+b2.w.394 :: targeted, specifically
+b2.w.394.ex.0 :: The library specifically reached out to people who had hardly used its digital services before.
+b2.w.395 :: invalid, void
+b2.w.395.ex.0 :: The new agreement made the earlier dates invalid even though they were still in the calendar.
+b2.w.396 :: to undermine, to sabotage
+b2.w.396.ex.0 :: Some people involved tried to undermine the agreement even though they had previously approved the draft.
+b2.w.397 :: in view of, given
+b2.w.397.ex.0 :: Given the short deadline, the team focused on the two most important changes.
+b2.w.398 :: to consider
+b2.w.398.ex.0 :: If registrations continue to increase, the association should consider adding a second date.
+b2.w.399 :: to come into force
+b2.w.399.ex.0 :: Before the agreement takes effect, all the groups affected will be informed of the changes once again.
+b2.w.400 :: to matter, to carry weight
+b2.w.400.ex.0 :: For a small order, shipping costs matter more than they do for a larger purchase.
+b2.w.401 :: adaptable
+b2.w.401.ex.0 :: An adaptable schedule is important when several orders depend on the same limited number of devices.
+b2.w.402 :: as a courtesy
+b2.w.402.ex.0 :: He informed the neighbours in person as a courtesy, although the date change had long been posted on the noticeboard.
+b2.w.403 :: persistent
+b2.w.403.ex.0 :: The group kept looking for a solution after the first two attempts came to nothing.
+b2.w.404 :: accompanying
+b2.w.404.ex.0 :: Alongside the exhibition, the museum organised discussions where local residents could share their own memories.
+b2.w.405 :: mutual, on both sides
+b2.w.405.ex.0 :: The agreement could not be changed without mutual consent, despite all the paperwork having been prepared.
+b2.w.406 :: unprecedented
+b2.w.406.ex.0 :: The unprecedented demand surprised the team even though it had expected more registrations than the year before.
+b2.w.407 :: in an advisory capacity
+b2.w.407.ex.0 :: The expert attended the meeting in an advisory capacity but was not allowed to vote on the proposals.
+b2.w.408 :: limited
+b2.w.408.ex.0 :: The limited number of available rooms forced the association to spread its classes over different days.
+b2.w.409 :: worrying
+b2.w.409.ex.0 :: The situation was especially worrying in areas with no alternative bus service.
+b2.w.410 :: committed
+b2.w.410.ex.0 :: Management is committed to making access easier without reducing the number of necessary checks.
+b2.w.411 :: previous, existing
+b2.w.411.ex.0 :: The existing procedure will remain in place until the new software has been tested at every site.
+b2.w.412 :: fragmentary
+b2.w.412.ex.0 :: Because the memories were fragmentary, the editorial team compared them with several accounts from the same period.
+b2.w.413 :: accordingly
+b2.w.413.ex.0 :: The deadline had been explicitly extended, so later applications were assessed accordingly.
+b2.w.414 :: helpful, conducive
+b2.w.414.ex.0 :: A simple sketch is often more helpful for understanding than a long list of technical details.
+b2.w.415 :: drastically
+b2.w.415.ex.0 :: The number of follow-up questions fell drastically after the notice included examples of complete applications.
+b2.w.416 :: consistently, throughout
+b2.w.416.ex.0 :: Every sample was handled using the same procedure so that the results remained comparable.
+b2.w.417 :: by hand
+b2.w.417.ex.0 :: The artist added the labels by hand to preserve the order of the pictures in the catalogue.
+b2.w.418 :: in detail, thoroughly
+b2.w.418.ex.0 :: Before making a recommendation, the commission examined in detail how the existing rule had been applied.
+b2.w.419 :: to agree to, to engage in
+b2.w.419.ex.0 :: After a long hesitation, the group agreed to a trial, though its duration was clearly limited.
+b2.w.420 :: to give in
+b2.w.420.ex.0 :: After the second offer, the landlord gave in and accepted a shorter contract term.
+b2.w.421 :: to settle, to level off
+b2.w.421.ex.0 :: After some initial fluctuations, the number of daily enquiries settled at a lower level.
+b2.w.422 :: to intervene, to step in
+b2.w.422.ex.0 :: The supervisory body intervened only after several visitors entered the restricted area despite the notices.
+b2.w.423 :: one-sided
+b2.w.423.ex.0 :: The account seemed one-sided because it considered only the experiences of people who took part in the project regularly.
+b2.w.424 :: to submit
+b2.w.424.ex.0 :: Anyone submitting a photograph should briefly say where and under what circumstances it was taken.
+b2.w.425 :: to be liable for, to stand surety for
+b2.w.425.ex.0 :: The group did not want to be liable for damage that had occurred before the room was handed over.
+b2.w.426 :: unanimous
+b2.w.426.ex.0 :: The meeting unanimously decided to make the rooms available to associations without their own office in future.
+b2.w.427 :: to be dropped, to no longer apply
+b2.w.427.ex.0 :: Registering together meant parents no longer had to register each child individually.
+b2.w.428 :: to counter, to object
+b2.w.428.ex.0 :: She countered the proposal by pointing out that many employees would not be able to catch the earlier train.
+b2.w.429 :: to stand in the way of, to preclude
+b2.w.429.ex.0 :: Two conditions set out explicitly in the original contract preclude the planned use.
+b2.w.430 :: discouraging
+b2.w.430.ex.0 :: The initial feedback was discouraging, but it also provided concrete pointers for a second attempt.
+b2.w.431 :: disappointing
+b2.w.431.ex.0 :: The first result was disappointing because, despite all the effort, it had reached only a few new participants.
+b2.w.432 :: to revoke, to withdraw
+b2.w.432.ex.0 :: The association revoked the team's eligibility to compete after reviewing several rule violations.
+b2.w.433 :: to consider, to deem
+b2.w.433.ex.0 :: The commission considered another survey necessary because so far it had reached only regular members.
+b2.w.434 :: to deliver, to provide
+b2.w.434.ex.0 :: Before the contract ends, the provider must prove that it has delivered all the agreed services.
+b2.w.435 :: to endure, to put up with
+b2.w.435.ex.0 :: The neighbours had put up with months of noise before looking for a solution together with the local authorities.
+b2.w.436 :: unsuccessful
+b2.w.436.ex.0 :: Two discussions went nowhere as long as neither side was willing to change its original conditions.
+b2.w.437 :: inconclusive
+b2.w.437.ex.0 :: The meeting ended without a result after the members could not even agree on the next date.
+b2.w.438 :: to investigate, to find out
+b2.w.438.ex.0 :: The researcher wanted to find out why the results differed so much despite similar conditions.
+b2.w.439 :: to levy, to collect
+b2.w.439.ex.0 :: To avoid bias, the team collected the data on different days and at different times.
+b2.w.440 :: to admonish, to remind firmly
+b2.w.440.ex.0 :: The chair reminded everyone to raise their objections calmly and let others finish speaking.
+b2.w.441 :: to gauge, to assess
+b2.w.441.ex.0 :: When the decision was made, nobody could gauge how much the delay would affect other projects.
+b2.w.442 :: to authorise, to empower
+b2.w.442.ex.0 :: The board authorised two members to negotiate the rent with the owner under clearly defined conditions.
+b2.w.443 :: to try out, to pilot
+b2.w.443.ex.0 :: The school piloted the new course format in two classes before introducing it to more groups.
+b2.w.444 :: to spare, to save
+b2.w.444.ex.0 :: The joint review saved the project managers several separate conversations in which the same questions would have come up.
+b2.w.445 :: to grow stronger, to gain strength
+b2.w.445.ex.0 :: After several successful campaigns, the initiative gained strength. Until then, only a small group had supported it.
+b2.w.446 :: surprisingly
+b2.w.446.ex.0 :: Surprisingly, some experienced colleagues also chose the course aimed at newcomers.
+b2.w.447 :: demonstrably, as proven
+b2.w.447.ex.0 :: The material has been shown to last longer if it is kept dry and protected before installation.
+b2.w.448 :: stock shortage
+b2.w.448.ex.0 :: The retailer discovered the shortage only when several orders it had committed to could no longer be filled in full.
+b2.w.449 :: misconduct
+b2.w.449.ex.0 :: The misconduct was dealt with individually so the other employees would not all come under suspicion.
+b2.w.450 :: perceptive, subtle
+b2.w.450.ex.0 :: The review was perceptive and explained even small changes in the characters.
+b2.w.451 :: to keep away
+b2.w.451.ex.0 :: The low barrier keeps dogs away from the beds while leaving access open to visitors.
+b2.w.452 :: finding, determination
+b2.w.452.ex.0 :: The commission's main finding was that there had been no shared set of data before the decision was made.
+b2.w.453 :: affordable, financially manageable
+b2.w.453.ex.0 :: The facility remained affordable for families after the association introduced several discounts.
+b2.w.454 :: staff turnover
+b2.w.454.ex.0 :: High staff turnover meant experienced employees repeatedly had to set aside time to train new colleagues.
+b2.w.455 :: soil sealing
+b2.w.455.ex.0 :: To limit the amount of ground covered by paving, the city kept narrow strips of greenery between the new parking spaces.
+b2.w.456 :: cursory, fleeting
+b2.w.456.ex.0 :: Anyone who only skims the draft may miss the differences between the two stages of planning.
+b2.w.457 :: consequential, far-reaching
+b2.w.457.ex.0 :: The seemingly minor change had lasting effects because it made access easier for several groups.
+b2.w.458 :: formal, formally
+b2.w.458.ex.0 :: The decision is formally valid even though some of those involved are still adapting to it.
+b2.w.459 :: research commission, research assignment
+b2.w.459.ex.0 :: The university was awarded the research commission after presenting a method for independently verifying the data.
+b2.w.460 :: regular update
+b2.w.460.ex.0 :: The office gathers input from the various neighbourhoods for the annual update to the plan.
+b2.w.461 :: undoubtedly
+b2.w.461.ex.0 :: The initial trial was undoubtedly useful, but its results cannot be applied to all groups.
+b2.w.462 :: frank, frankly
+b2.w.462.ex.0 :: The new colleague explained frankly which work instructions she thought were worded more complicatedly than necessary.
+b2.w.463 :: on time, by the deadline
+b2.w.463.ex.0 :: Only applications received by the deadline could be considered in this round.
+b2.w.464 :: early detection
+b2.w.464.ex.0 :: Detecting damage early saves money, especially when several components are inspected together.
+b2.w.465 :: foundation
+b2.w.465.ex.0 :: The old house's foundation was preserved even though the rooms above it were completely rearranged.
+b2.w.466 :: well-founded, informed
+b2.w.466.ex.0 :: To make an informed decision, those involved needed to know how long the equipment had actually been in use.
+b2.w.467 :: to support, to fund
+b2.w.467.ex.0 :: The city uses small grants to support projects already backed jointly by several institutions.
+b2.w.468 :: funding programme
+b2.w.468.ex.0 :: The funding programme is intended for workshops that want to reduce their machines' electricity consumption.
+b2.w.469 :: advocate, supporter
+b2.w.469.ex.0 :: The initiative found an important advocate in a teacher whose class used the dangerous crossing every day.
+b2.w.470 :: practical value
+b2.w.470.ex.0 :: Despite a few scratches, the device remained useful because all its functions still worked reliably.
+b2.w.471 :: charging fees
+b2.w.471.ex.0 :: Several associations objected to the proposed fees because their premises were already funded by membership dues.
+b2.w.472 :: train of thought, line of reasoning
+b2.w.472.ex.0 :: Her reasoning became clear only when she explained more precisely how it related to the previous experiment.
+b2.w.473 :: memorial site
+b2.w.473.ex.0 :: The memorial is also intended to make accounts from local families available to the public.
+b2.w.474 :: to endanger, to put at risk
+b2.w.474.ex.0 :: Starting work too early could endanger the recently discovered nesting site.
+b2.w.475 :: contraindication
+b2.w.475.ex.0 :: The practice could assess whether there was a contraindication only after reviewing the previous findings.
+b2.w.476 :: alternative proposal, counterproposal
+b2.w.476.ex.0 :: The alternative design kept the passage wider but provided less retail space than the original plan.
+b2.w.477 :: moving in opposite directions
+b2.w.477.ex.0 :: The opposing trends could be explained only when the two regions were examined separately.
+b2.w.478 :: to take corrective action, to counteract
+b2.w.478.ex.0 :: When waiting times rose sharply, the practice responded by opening a second afternoon slot.
+b2.w.479 :: to compare, to set side by side
+b2.w.479.ex.0 :: The adviser compared the effort involved with the benefits so the group could reset its priorities.
+b2.w.480 :: side-by-side comparison
+b2.w.480.ex.0 :: A comparison of the quotes showed that the cheapest company had included only installation.
+b2.w.481 :: scope of application
+b2.w.481.ex.0 :: Whether the courtyard is part of the complex or remains open to the public determines whether the house rules apply there.
+b2.w.482 :: generally, commonly
+b2.w.482.ex.0 :: A high price is generally seen as a sign of good quality, but that was rarely true in this comparison.
+b2.w.483 :: straightforward, direct
+b2.w.483.ex.0 :: His straightforward answer helped the group identify the real conflict and ask specific questions.
+b2.w.484 :: court hearing
+b2.w.484.ex.0 :: The hearing established for the first time who had received the document on the day in question.
+b2.w.485 :: to undervalue, to think little of
+b2.w.485.ex.0 :: Some members felt undervalued because their experience had barely been taken into account in the planning.
+b2.w.486 :: overall balance
+b2.w.486.ex.0 :: Overall, the additional income did not make up for the work involved in organising the two event days.
+b2.w.487 :: conducting a discussion
+b2.w.487.ex.0 :: For the moderator, leading the discussion also meant making a point of asking quieter participants for their views.
+b2.w.488 :: weighting
+b2.w.488.ex.0 :: The criteria were weighted in advance so individual applications could not be favoured later.
+b2.w.489 :: statutory warranty
+b2.w.489.ex.0 :: The customer kept the receipt safe even after the machine was installed so she could make a warranty claim if necessary.
+b2.w.490 :: steady, unchanged
+b2.w.490.ex.0 :: If demand remains steady, the team could make the additional consultation hours permanent after the trial ends.
+b2.w.491 :: balance, equilibrium
+b2.w.491.ex.0 :: A stable work-life balance was achieved only once the weekend shifts had also been reassigned.
+b2.w.492 :: to equate
+b2.w.492.ex.0 :: A high number of enquiries should not automatically be equated with a high number of successful registrations.
+b2.w.493 :: nevertheless, even so
+b2.w.493.ex.0 :: The document was incomplete, but some sections could already be compared with the existing draft.
+b2.w.494 :: serious, significant
+b2.w.494.ex.0 :: A serious error could be corrected only after the person responsible gathered all the earlier versions.
+b2.w.495 :: drawing a boundary
+b2.w.495.ex.0 :: Old photos and the memories of long-time residents helped establish the boundary between shared and private space.
+b2.w.496 :: basic equipment
+b2.w.496.ex.0 :: The basic equipment was enough for the first training session, but extra devices had to be borrowed for later exercises.
+b2.w.497 :: basic services, essential provision
+b2.w.497.ex.0 :: Essential services in the neighbourhood include a pharmacy that older residents can reach on foot.
+b2.w.498 :: group dynamics
+b2.w.498.ex.0 :: The group dynamics visibly changed when the usually quiet participants opened the discussion themselves for the first time.
+b2.w.499 :: mostly, for the most part

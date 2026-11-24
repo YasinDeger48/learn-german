@@ -1,0 +1,30 @@
+b2.gi.540 :: In a free relative clause, wer refers to a person who is the subject of that clause. Anyone who submits their application on time receives written confirmation within a week.
+b2.gi.541 :: Use wem when the person requires Dativ in the relative clause. Anyone missing documents must submit them before the next appointment.
+b2.gi.542 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. Everything you need to consider when switching providers is listed here.
+b2.gi.543 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. There was nothing to inform the participants of the reason for the cancellation.
+b2.gi.544 :: In a relative clause, wo refers to a place name or other expression of place. The anniversary will also be celebrated in Aachen, where the association was founded.
+b2.gi.545 :: In expressions of time, an takes Dativ, so the relative pronoun for der Tag is dem. I remember the day we first discussed the decision.
+b2.gi.546 :: wodurch introduces a consequence of what happened in the preceding clause. The planning error went unnoticed for a long time, which ultimately delayed the work.
+b2.gi.547 :: With um etwas bitten, use worum to refer back to what was requested. The trainee was given more responsibility, as she had requested at the very first meeting.
+b2.gi.548 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. The discussion covered only what everyone involved could actually change.
+b2.gi.549 :: Use deren to indicate possession when the antecedent is feminine or plural. The workshop, whose new manager was introduced yesterday, is expanding its range of services.
+b2.gi.550 :: Use dessen to indicate possession when the antecedent is masculine or neuter singular. The company whose products we are comparing has since opened a second branch.
+b2.gi.551 :: Use deren to indicate possession when the antecedent is feminine or plural. Two houses whose roofs were damaged in the storm are still vacant.
+b2.gi.552 :: Use wen for a person who is the Akkusativ object in the relative clause. We tell anyone we select for the survey what it is for in advance.
+b2.gi.553 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. That was the best that could be achieved under these conditions.
+b2.gi.554 :: wodurch introduces a consequence of what happened in the preceding clause. In the end, a page was missing, which delayed the processing of the application.
+b2.gi.555 :: With sich über etwas beschweren, use worüber to refer back to the event that prompted the complaint. The bakery postponed its opening, which several regular customers immediately complained about.
+b2.gi.556 :: Use wen for a person who is the Akkusativ object in the relative clause. Anyone who is unconvinced by the proposal can put forward a solution of their own.
+b2.gi.557 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. One thing that surprised us in the second measurement was how small the difference was.
+b2.gi.558 :: In a relative clause, wo refers to a place name or other expression of place. Nora presented her research findings in Jena, where she had worked before.
+b2.gi.559 :: Use deren to indicate possession when the antecedent is feminine or plural. The school, whose gym is currently being renovated, is using a room in the town hall for now.
+b2.gi.560 :: Use dessen to indicate possession when the antecedent is masculine or neuter singular. The photographer whose name is missing from the catalogue got in touch with the museum.
+b2.gi.561 :: Use deren to indicate possession when the antecedent is feminine or plural. Several parents whose children are already taking the course suggested an extra date.
+b2.gi.562 :: In a free relative clause, wer refers to a person who is the subject of that clause. Anyone who has not given explicit consent is not named in the publication.
+b2.gi.563 :: wodurch introduces a consequence of what happened in the preceding clause. The map showed only the main streets, which caused the group to lose its way several times.
+b2.gi.564 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. The new schedule was exactly what the two workshops had needed.
+b2.gi.565 :: In a relative clause, wo refers to a place name or other expression of place. The marked part of the route begins where the two paths meet.
+b2.gi.566 :: With sich von etwas etwas erhoffen, use wovon to refer back to the event from which the result is hoped for. Registration was made easier, which the association hoped would encourage more people to take part.
+b2.gi.567 :: Use dessen to indicate possession when the antecedent is masculine or neuter singular. The project, whose funding had already been secured, was able to start ahead of schedule.
+b2.gi.568 :: In a free relative clause, wer refers to a person who is the subject of that clause. Anyone who goes through the material in advance will find the discussion easier to follow.
+b2.gi.569 :: Use deren to indicate possession when the antecedent is feminine or plural. The doctor whose recommendations are quoted in the report has worked at the institution for years.

@@ -1,0 +1,500 @@
+b2.w.999.ex.0 :: The team consistently followed the new rule, even though it took extra work at first.
+b2.w.1000 :: constructive
+b2.w.1000.ex.0 :: The feedback was constructive because it suggested a concrete next step.
+b2.g.1.name :: Konjunktiv II in the past
+b2.g.1.rule :: Use hätte/wäre and Partizip II to describe an unreal past event: Hätte ich den Brief gelesen, wäre ich früher gekommen. With a modal verb, use two infinitives: Ich hätte früher anrufen sollen.
+b2.g.1.ex.0 :: If I had kept the old file, I would have found the error straight away.
+b2.g.1.ex.1 :: If the guests had arrived later, they would have missed the first talk.
+b2.g.1.ex.2 :: If just one of you had brought the key, the door would have opened.
+b2.g.2.name :: Reported speech with Konjunktiv I
+b2.g.2.rule :: Reported speech relays someone else's words: Er sagt, er sei krank. For the past, use the appropriate form of haben or sein and Partizip II: Sie sagt, sie habe den Brief gelesen.
+b2.g.2.ex.0 :: The spokesperson said that the senate had already reviewed the documents.
+b2.g.2.ex.1 :: Her colleague assured her that the missing document would be submitted that same day.
+b2.g.2.ex.2 :: The lawyer said her client wanted to wait for a written decision.
+b2.g.3.name :: Stative passive (Zustandspassiv)
+b2.g.3.rule :: sein + Partizip II describes the state that follows a completed action: Das Fenster ist geöffnet. Use war/waren in the past.
+b2.g.3.ex.0 :: When the first group arrived, all the chairs were already arranged in a semicircle.
+b2.g.3.ex.1 :: The two spare keys were safely stored in the office at the time of the move.
+b2.g.3.ex.2 :: The invoice was paid on Friday, although the reminder did not arrive until today.
+b2.g.4.name :: Alternatives to the passive
+b2.g.4.rule :: sich lassen + infinitive and adjectives ending in -bar express what can be done: Das lässt sich lesen, das ist lesbar. sein + zu + infinitive can express possibility or obligation: Das Formular ist einzureichen.
+b2.g.4.ex.0 :: The stain can be removed with warm water without much effort.
+b2.g.4.ex.1 :: These documents must be submitted to the relevant office by Friday.
+b2.g.4.ex.2 :: The coat is washable, so it can be cleaned at a low temperature.
+b2.g.5.name :: Participles used as adjectives
+b2.g.5.rule :: Before a noun, Partizip I describes an ongoing action and Partizip II a completed action or its result. Both take adjective endings: die wartende Frau, die reparierte Tür.
+b2.g.5.ex.0 :: The machine that has been standing in the courtyard since yesterday will be collected on Friday.
+b2.g.5.ex.1 :: Two children playing in the next room did not hear the announcement at all.
+b2.g.5.ex.2 :: Our team, which has been working on the solution for weeks, will present its initial findings tomorrow.
+b2.g.6.name :: Subjective uses of modal verbs
+b2.g.6.rule :: muss signals a strong inference, dürfte a likelihood, soll information from another source, and will a claim someone makes about themselves. To refer to the past, use Infinitiv Perfekt: Er muss angekommen sein.
+b2.g.6.ex.0 :: His coat is soaked and his umbrella has not been used. It must be raining heavily outside.
+b2.g.6.ex.1 :: According to the press, even specialists have yet to determine the cause.
+b2.g.6.ex.2 :: The door is bolted from the inside. Someone must still be in the building.
+b2.g.7.name :: Futur II (future perfect)
+b2.g.7.rule :: Use a conjugated form of werden + Partizip II + the infinitive haben or sein: Bis morgen werde ich fertig gearbeitet haben. The construction can also express a supposition about the past: Er wird schon angekommen sein.
+b2.g.7.ex.0 :: By the opening, the technician will have checked all the lines.
+b2.g.7.ex.1 :: The statement has already been approved. Both departments have probably reviewed it.
+b2.g.7.ex.2 :: Before making my next booking, I will have compared the two offers.
+b2.g.8.name :: Nominalisation
+b2.g.8.rule :: An action can be expressed using a derived noun or a capitalised infinitive: prüfen → die Prüfung, prüfen → das Prüfen. An infinitive used as a noun is neuter.
+b2.g.8.ex.0 :: Restoring the damaged books took longer than planned at the workshop.
+b2.g.8.ex.1 :: The team's final decision was confirmed in writing the next morning.
+b2.g.8.ex.2 :: Both devices suddenly stopped working, which could be explained by a break in the cable.
+b2.g.9.name :: Rephrasing nouns with verbs
+b2.g.9.rule :: Replace the noun describing an action with a verb that fits the context: nach der Prüfung der Unterlagen → nachdem wir die Unterlagen geprüft hatten. Conjugate the verb to match the subject and tense of the new clause.
+b2.g.9.ex.0 :: The meeting started later because the team was still waiting for the last group.
+b2.g.9.ex.1 :: Instead of simply replacing the old software, the library first tried an interim solution.
+b2.g.9.ex.2 :: The retailer refunded the amount after the customer reported the damage in writing.
+b2.g.10.name :: Noun–verb expressions
+b2.g.10.rule :: Some nouns form fixed expressions with particular verbs: eine Entscheidung treffen, Rücksicht nehmen, in Kraft treten. Learn the noun, the verb and any preposition together.
+b2.g.10.ex.0 :: The chair wanted to respond to the allegations before the vote.
+b2.g.10.ex.1 :: Management asked that part-time staff members' working hours be taken into account.
+b2.g.10.ex.2 :: The researchers also had to take note of the unusual readings for the final report.
+b2.g.11.name :: Prepositions that take Genitiv
+b2.g.11.rule :: aufgrund gives the reason, angesichts the circumstances a decision or response takes into account, hinsichtlich the matter under consideration, and mittels the means used: aufgrund des Streiks, mittels einer Skizze.
+b2.g.11.ex.0 :: Several teams were unable to arrive on time because of the unexpected strike.
+b2.g.11.ex.1 :: The team checked the new information against the existing record.
+b2.g.11.ex.2 :: The board is still waiting for the cost estimate for the planned expansion.
+b2.g.12.name :: Connectors for reasons and concessions
+b2.g.12.rule :: da introduces a reason, zumal adds a particularly relevant reason, and obgleich means “although”. These three put the finite verb at the end of the subordinate clause. dennoch introduces an unexpected outcome in a main clause: Es regnete; dennoch gingen wir los.
+b2.g.12.ex.0 :: Since the entrance was closed, all guests had to use the side door.
+b2.g.12.ex.1 :: Although the registration had arrived on time, the name was missing from the list.
+b2.g.12.ex.2 :: The building stayed closed because there was no spare key for the locked entrance.
+b2.g.13.name :: Connectors for means and results
+b2.g.13.rule :: indem explains the method: Sie spart Zeit, indem sie Anfragen bündelt. dadurch, dass explains what made the result possible. wodurch adds a consequence of the preceding event.
+b2.g.13.ex.0 :: The editors avoided misunderstandings by explicitly marking the preliminary figures as estimates.
+b2.g.13.ex.1 :: The workload fell mainly because all enquiries were collected in one place.
+b2.g.13.ex.2 :: An important piece of information was missing, which delayed registration for some families.
+b2.g.14.name :: Connectors for conditions and contrasts
+b2.g.14.rule :: sofern states a requirement, and falls introduces a possible condition. während expresses simultaneity or contrast, and wohingegen highlights a contrast. The finite verb goes at the end of the subordinate clause.
+b2.g.14.ex.0 :: You can use the room provided someone responsible stays until the end.
+b2.g.14.ex.1 :: The older edition explains only the result, whereas the newer one also documents every intermediate step.
+b2.g.14.ex.2 :: You may share the file provided you give the source and the date it was recorded.
+b2.g.15.name :: Unreal comparisons with als ob, als wenn and als
+b2.g.15.rule :: With als ob and als wenn, the finite verb goes at the end: Er tut so, als ob er nichts wüsste. With als alone, the finite verb follows als directly: Er tut so, als wüsste er nichts. Konjunktiv is common in these constructions.
+b2.g.15.ex.0 :: The spokesperson acted as if there were no other solution.
+b2.g.15.ex.1 :: Her message makes it sound as though she might not be able to come tomorrow.
+b2.g.15.ex.2 :: The square looked as if a festival had just ended.
+b2.g.16.name :: Clauses with ohne dass, statt dass and anstatt … zu
+b2.g.16.rule :: ohne dass introduces an accompanying event that does not occur. statt dass introduces an expected alternative that does not occur. With the same subject, you can use anstatt … zu: Sie ruft an, anstatt eine Nachricht zu schreiben.
+b2.g.16.ex.0 :: The meeting was moved to a smaller room without all the participants being informed beforehand.
+b2.g.16.ex.1 :: To the group's surprise, dismantling began instead of management answering questions.
+b2.g.16.ex.2 :: The mechanic replaced only the fuse instead of replacing the entire system.
+b2.g.17.name :: Perfect infinitive with zu haben or zu sein
+b2.g.17.rule :: Partizip II + zu haben/zu sein refers to an event that happened before the action in the main clause: Er behauptet, den Brief gelesen zu haben. Sie freut sich, rechtzeitig angekommen zu sein. Use the same auxiliary as in Perfekt.
+b2.g.17.ex.0 :: The customer claims to have already transferred the full amount on Monday.
+b2.g.17.ex.1 :: The researcher is certain that she also took the rare cases into account.
+b2.g.17.ex.2 :: Lea is proud to have spotted the differences without anyone else's help.
+b2.g.18.name :: Verbs and adjectives with prepositions
+b2.g.18.rule :: Some verbs and adjectives require a particular preposition and case: auf den Termin hinweisen, an der Angabe zweifeln, mit dem Ergebnis zufrieden sein. Learn the preposition and the case together.
+b2.g.18.ex.0 :: The workshop still relies on a dependable supplier for spare parts.
+b2.g.18.ex.1 :: Our group is responsible for reviewing newly received applications.
+b2.g.18.ex.2 :: During the conversation, Mara asked about the requirements for taking part.
+b2.g.19.name :: Relative clauses with wer, was, wo(r)- and Genitiv
+b2.g.19.rule :: In free relative clauses, wer/wen/wem refer to people and vary according to case. was follows indefinite expressions such as alles or nichts, and wo refers to a place. wodurch and worüber can refer to an earlier event. To express possession, use dessen for masculine or neuter singular antecedents and deren for feminine or plural antecedents.
+b2.g.19.ex.0 :: Anyone who submits their application on time receives written confirmation within a week.
+b2.g.19.ex.1 :: The company whose products we are comparing has since opened a second branch.
+b2.g.19.ex.2 :: The photographer whose name is missing from the catalogue got in touch with the museum.
+b2.g.20.name :: es as an anticipatory pronoun and placeholder
+b2.g.20.rule :: Placeholder es fills the first position: Es kamen viele Gäste. Anticipatory es points ahead to a later clause: Es freut mich, dass du kommst. es also occurs in impersonal expressions: Es regnet.
+b2.g.20.ex.0 :: I find it difficult to explain the differences without the original table.
+b2.g.20.ex.1 :: Why do so many enquiries relate to the same period?
+b2.g.20.ex.2 :: Does the change concern only the order of the work steps?
+b2.gi.0 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. If I had kept the old file, I would have found the error straight away.
+b2.gi.1 :: For this unreal past action, combine Partizip II with “wärst”, a Konjunktiv II form of sein. The bus would not have left if you had arrived at the station earlier.
+b2.gi.2 :: For this unreal past action, combine Partizip II with “hätten”, a Konjunktiv II form of haben. Without your warning, we would have transferred the wrong amount to the customer.
+b2.gi.3 :: For this unreal past action, combine Partizip II with “wären”, a Konjunktiv II form of sein. If it had frozen last night, the paths would have been icy in the morning.
+b2.gi.4 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. If his colleague had not intervened, the technician would have removed the wrong fuse.
+b2.gi.5 :: For this unreal past action, combine Partizip II with “hättet”, a Konjunktiv II form of haben. The documents would have arrived on time if you had delivered them in person.
+b2.gi.6 :: For this unreal past action, combine Partizip II with “wäre”, a Konjunktiv II form of sein. If I had not approached the witness, she would not have told us anything.
+b2.gi.7 :: For this unreal past action, combine Partizip II with “hättest”, a Konjunktiv II form of haben. With better lighting, you would have spotted the crack at handover.
+b2.gi.8 :: For this unreal past action, combine Partizip II with “hättet”, a Konjunktiv II form of haben. If you had compared prices, you would have achieved more with the same budget.
+b2.gi.9 :: For an unreal past situation with a modal verb, use a form of hätte with the two infinitives. The misunderstanding could have been avoided if the message had mentioned the appointment.
+b2.gi.10 :: For this unreal past action, combine Partizip II with “wären”, a Konjunktiv II form of sein. If the guests had come later, they would have missed the first talk.
+b2.gi.11 :: For an unreal past situation with a modal verb, use a form of hätte with the two infinitives. You could have taken part in training if you had not fallen ill.
+b2.gi.12 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. In your place, I would have requested a written estimate before agreeing.
+b2.gi.13 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. If the access road had been clear, the delivery service would have unloaded the goods straight away.
+b2.gi.14 :: For this unreal past action, combine Partizip II with “wären”, a Konjunktiv II form of sein. The experiment would have taken longer if both devices had failed.
+b2.gi.15 :: For this unreal past action, combine Partizip II with “hättest”, a Konjunktiv II form of haben. If you had read the article to the end, you would have noticed the contradiction.
+b2.gi.16 :: For this unreal past action, combine Partizip II with “wärt”, a Konjunktiv II form of sein. With a valid ticket, you would not have stayed at the ticket desk in the first place.
+b2.gi.17 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. We would have ended up on the wrong route if Leo had not asked.
+b2.gi.18 :: In this past passive form of Konjunktiv II, wäre is used with Partizip II and worden. Luckily, the network did not go down. Otherwise, the transmission would have been interrupted.
+b2.gi.19 :: For an unreal past situation with a modal verb, use a form of hätte with the two infinitives. If we had stayed in the same room, we could have heard the conversation.
+b2.gi.20 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. If just one of you had brought the key, the door would have opened.
+b2.gi.21 :: For this unreal past action, combine Partizip II with “wäre”, a Konjunktiv II form of sein. Without the detour, the bus would have reached its destination on time.
+b2.gi.22 :: For this unreal past action, combine Partizip II with “hättet”, a Konjunktiv II form of haben. You would have paid the same invoice twice if the app had not warned you.
+b2.gi.23 :: For this unreal past action, combine Partizip II with “wäre”, a Konjunktiv II form of sein. I would have signed up straight away if the course had been in the evening.
+b2.gi.24 :: For an unreal past situation with a modal verb, use a form of hätte with the two infinitives. You should have let us know earlier. Then the editorial team could have responded.
+b2.gi.25 :: For this unreal past action, combine Partizip II with “wärst”, a Konjunktiv II form of sein. Under different circumstances, you would surely have stayed on the research team longer.
+b2.gi.26 :: For this unreal past action, combine Partizip II with “hätten”, a Konjunktiv II form of haben. The repair would have cost less if we had noticed the damage right away.
+b2.gi.27 :: For this unreal past action, combine Partizip II with “wären”, a Konjunktiv II form of sein. If they had set off as a group, they would have needed fewer vehicles.
+b2.gi.28 :: For an unreal past situation with a modal verb, use a form of hätte with the two infinitives. If we had been invited sooner, we could have booked the room.
+b2.gi.29 :: For this unreal past action, combine Partizip II with “hättet”, a Konjunktiv II form of haben. If you had kept walking, you would have reached your destination before dark.
+b2.gi.30 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. The spokesperson said that the senate had already reviewed the documents.
+b2.gi.31 :: In reported speech, sei is the third-person singular Konjunktiv I form of sein. According to the expert, the cause of the fault had yet to be determined.
+b2.gi.32 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. The witness testified that he had seen the van early that morning.
+b2.gi.33 :: In reported speech, werde is the third-person singular Konjunktiv I form of werden. The newspaper reports that the bridge will be closed again from Monday.
+b2.gi.34 :: The Konjunktiv I form “wolle” is used here to report what was said. The radio reported that the company intended to stop using single-use packaging.
+b2.gi.35 :: The Konjunktiv I form “könne” is used here to report what was said. A technician explained that the device could work reliably even without this connection.
+b2.gi.36 :: In reported speech, sei is the third-person singular Konjunktiv I form of sein. When asked, Nora confirmed that she had arrived before the meeting began.
+b2.gi.37 :: The Konjunktiv I form “solle” is used here to report what was said. The coach sent word that the group should take an extra break at midday.
+b2.gi.38 :: In reported speech, sei is the third-person singular Konjunktiv I form of sein. According to the editors, the article underwent a legal review before publication.
+b2.gi.39 :: The Konjunktiv I form “könne” is used here to report what was said. The manager acknowledged that the new rule could cause problems for some volunteers.
+b2.gi.40 :: In reported speech, werde is the third-person singular Konjunktiv I form of werden. Her colleague assured her that the missing document would be submitted later that same day.
+b2.gi.41 :: The Konjunktiv I form “nehme” is used here to report what was said. At the hearing, the resident said he had been hearing the noise for weeks.
+b2.gi.42 :: The Konjunktiv I form “müsse” is used here to report what was said. The doctor explained that the patient had to sign the form before the examination.
+b2.gi.43 :: The Konjunktiv I form “stamme” is used here to report what was said. The curator said that the painting came from a private collection in Bremen.
+b2.gi.44 :: In reported speech, werde is the third-person singular Konjunktiv I form of werden. The school administration wrote that classes would end at noon on Friday.
+b2.gi.45 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. The employee suspected that his colleague had deliberately moved the appointment to the afternoon.
+b2.gi.46 :: The Konjunktiv I form “komme” is used here to report what was said. According to the breeder, the young dog came from a small group in the region.
+b2.gi.47 :: The Konjunktiv I form “dürfe” is used here to report what was said. At reception, the visitor was told he could leave his bag there for safekeeping.
+b2.gi.48 :: In reported speech, sei is the third-person singular Konjunktiv I form of sein. The researcher stressed that a different device had been used for the second measurement.
+b2.gi.49 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. The chair claimed that the member had abstained voluntarily in the vote.
+b2.gi.50 :: The Konjunktiv I form “wolle” is used here to report what was said. The lawyer said her client wanted to wait for a written decision.
+b2.gi.51 :: The Konjunktiv I form “prüfe” is used here to report what was said. It was announced at the press conference that the authority was reviewing the case again.
+b2.gi.52 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. A housemate said that the heating had already been working poorly before the move.
+b2.gi.53 :: In reported speech, werde is the third-person singular Konjunktiv I form of werden. The organiser promised that staff would clearly mark the additional emergency exits.
+b2.gi.54 :: The Konjunktiv I form “schildere” is used here to report what was said. The author explained that she was describing the events from her own memory rather than relying on records.
+b2.gi.55 :: In reported speech, sei is the third-person singular Konjunktiv I form of sein. The minutes state that the delivery did not arrive because of the storm.
+b2.gi.56 :: The Konjunktiv I form “dürfe” is used here to report what was said. The head of administration said that each institution could manage the available rooms itself.
+b2.gi.57 :: The Konjunktiv I form “lasse” is used here to report what was said. According to the company, the new device can be operated even while wearing gloves.
+b2.gi.58 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. The examiner noted that a second person had checked the result independently.
+b2.gi.59 :: The Konjunktiv I form “biete” is used here to report what was said. The urban planner explained that the proposed route offered little protection against icy conditions in winter.
+b2.gi.60 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. When the first group arrived, all the chairs were already arranged in a semicircle.
+b2.gi.61 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The entrance has been closed since the water damage because some tiles are loose.
+b2.gi.62 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. At the time of the inspection, both windows were closed and the door was bolted.
+b2.gi.63 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. At eight last night, the room was still fully lit.
+b2.gi.64 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The folders have been sorted by year since yesterday and are easier to find.
+b2.gi.65 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. Now that the work is finished, the roof is completely sealed against rain.
+b2.gi.66 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The wheelchair routes were clearly marked from day one.
+b2.gi.67 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. At handover, the tank was still filled to the brim.
+b2.gi.68 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. All the tables for tonight's event are already reserved.
+b2.gi.69 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The new cover now protects the cables from splashes.
+b2.gi.70 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. When we moved in, the two spare keys were safely stored in the office.
+b2.gi.71 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. Only when I opened it did I notice that the form was already filled in.
+b2.gi.72 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. At the end of the tour, the side entrance was still locked.
+b2.gi.73 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The results are now laid out clearly in a separate table.
+b2.gi.74 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. Although the room has been cleared, the walls still need painting.
+b2.gi.75 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. All the applications have been signed since Monday and are ready for collection.
+b2.gi.76 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The pavement is still covered in branches after the storm.
+b2.gi.77 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The exhibition was already fully set up before the first guided tour.
+b2.gi.78 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The machine will remain out of service until the housing is completely closed.
+b2.gi.79 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. When we arrived at the lab, the samples were already packed in two crates.
+b2.gi.80 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The invoice was paid on Friday, although the reminder did not arrive until today.
+b2.gi.81 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. When the press arrived, the main entrance was still cordoned off with tape.
+b2.gi.82 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. Since the changeover, the two sites have been linked by a line.
+b2.gi.83 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The file was already password-protected when it was sent.
+b2.gi.84 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. Since the move, all the inventory has been recorded in the system.
+b2.gi.85 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. By late morning, all the available consultation slots had already been taken.
+b2.gi.86 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. In the older editions, the map is bound in upside down.
+b2.gi.87 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The course has been fully booked for weeks because of high demand.
+b2.gi.88 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. When we arrived, all the equipment was already disconnected from the mains.
+b2.gi.89 :: The Zustandspassiv uses a conjugated form of sein and Partizip II to describe the state resulting from an action. The borrowed tools are now neatly back where they belong.
+b2.gi.90 :: sich lassen with an infinitive indicates whether an action can be carried out. The stain can be removed with warm water without much effort.
+b2.gi.91 :: sich lassen with an infinitive indicates whether an action can be carried out. No reliable conclusions about the whole year can be drawn from these figures.
+b2.gi.92 :: sich lassen with an infinitive indicates whether an action can be carried out. Can the damaged cover even be reattached without specialised tools?
+b2.gi.93 :: sich lassen with an infinitive indicates whether an action can be carried out. The old key opens only the two lower compartments.
+b2.gi.94 :: sich lassen with an infinitive indicates whether an action can be carried out. The discrepancy could be clearly explained during the last inspection.
+b2.gi.95 :: sich lassen with an infinitive indicates whether an action can be carried out. This file displays reliably even on older devices.
+b2.gi.96 :: sich lassen with an infinitive indicates whether an action can be carried out. The colour samples are difficult to compare under these conditions.
+b2.gi.97 :: sich lassen with an infinitive indicates whether an action can be carried out. If necessary, the rear entrance can also be unlocked from the inside.
+b2.gi.98 :: sich lassen with an infinitive indicates whether an action can be carried out. The signs were barely legible yesterday because of the strong backlight.
+b2.gi.99 :: sich lassen with an infinitive indicates whether an action can be carried out. The puzzle could be solved because the key clue could be verified.
+b2.gi.100 :: sein + zu + infinitive expresses either a requirement or a possibility with a passive meaning, depending on the context. These documents must be submitted to the relevant office by Friday.
+b2.gi.101 :: sein + zu + infinitive expresses either a requirement or a possibility with a passive meaning, depending on the context. The exact time the damage occurred cannot be determined from the images.
+b2.gi.102 :: sein + zu + infinitive expresses either a requirement or a possibility with a passive meaning, depending on the context. All participants' IDs must be checked carefully before departure.
+b2.gi.103 :: sein + zu + infinitive expresses either a requirement or a possibility with a passive meaning, depending on the context. The fog made the opposite bank barely visible yesterday.
+b2.gi.104 :: sein + zu + infinitive expresses either a requirement or a possibility with a passive meaning, depending on the context. The notes on the plan are understandable even without prior technical knowledge.
+b2.gi.105 :: sein + zu + infinitive expresses either a requirement or a possibility with a passive meaning, depending on the context. Each bracket must be checked for visible damage before installation.
+b2.gi.106 :: sein + zu + infinitive expresses either a requirement or a possibility with a passive meaning, depending on the context. The actual costs must be confirmed in writing before the final order is placed.
+b2.gi.107 :: sein + zu + infinitive expresses either a requirement or a possibility with a passive meaning, depending on the context. The minutes show who is responsible for the inspection.
+b2.gi.108 :: sein + zu + infinitive expresses either a requirement or a possibility with a passive meaning, depending on the context. Small cracks were hard to detect with the equipment available at the time.
+b2.gi.109 :: sein + zu + infinitive expresses either a requirement or a possibility with a passive meaning, depending on the context. The number must be included in the subject line of any later enquiry.
+b2.gi.110 :: An adjective formed from a verb with -bar indicates that the action can be carried out. The coat is washable, so it can be cleaned at a low temperature.
+b2.gi.111 :: An adjective formed from a verb with -bar indicates that the action can be carried out. The film can be peeled off so that the lettering can be removed without leaving any residue.
+b2.gi.112 :: An adjective formed from a verb with -bar indicates that the action can be carried out. The device is usable again after the repair and is available to borrow.
+b2.gi.113 :: An adjective formed from a verb with -bar indicates that the action can be carried out. The stored readings can establish the fault, so there is no need to guess.
+b2.gi.114 :: An adjective formed from a verb with -bar indicates that the action can be carried out. Thanks to a new connection, the module can now be replaced on its own.
+b2.gi.115 :: An adjective formed from a verb with -bar indicates that the action can be carried out. Under the agreement, this amount is payable in three equal instalments.
+b2.gi.116 :: An adjective formed from a verb with -bar indicates that the action can be carried out. Several sections are readable again now that the contrast has been increased.
+b2.gi.117 :: An adjective formed from a verb with -bar indicates that the action can be carried out. The short lever makes the lid easy to open even in cold weather.
+b2.gi.118 :: An adjective formed from a verb with -bar indicates that the action can be carried out. Without a suitable comparison group, the findings are of limited use.
+b2.gi.119 :: An adjective formed from a verb with -bar indicates that the action can be carried out. The small room can be booked at the weekend provided no class is scheduled.
+b2.gi.120 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The machine that has been standing in the courtyard since yesterday will be collected on Friday.
+b2.gi.121 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. All the photos taken before the demolition were later filed in the city archives.
+b2.gi.122 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. A storm that has been moving through the region for days is delaying the work.
+b2.gi.123 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. We check the details already entered on the form before giving approval.
+b2.gi.124 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. A noise coming from the basement interrupted the conversation in the corridor.
+b2.gi.125 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The recently overhauled roof can now withstand heavy rain too.
+b2.gi.126 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The exterior doors remained closed because temperatures kept falling overnight.
+b2.gi.127 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. None of the groups was happy with the deadlines communicated in writing yesterday.
+b2.gi.128 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. A woman waiting at reception was the first to notice the error on the display board.
+b2.gi.129 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. This wooden model is easier to transport than the original.
+b2.gi.130 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. Two children playing in the next room did not hear the announcement at all.
+b2.gi.131 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The equipment selected specifically for this experiment comes from three different laboratories.
+b2.gi.132 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. A sign hanging over the entrance gives the new opening time.
+b2.gi.133 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. Several deliveries that arrived in the morning stayed in the warehouse until evening.
+b2.gi.134 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. A group talking outside the building briefly blocked the accessible entrance.
+b2.gi.135 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The plan published back in spring did not clearly say how absences should be covered.
+b2.gi.136 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The light coming in from the next room dazzled the listeners in the front row.
+b2.gi.137 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The handle on the previously repaired door was particularly easy to move.
+b2.gi.138 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. Several visitors missed the bus heading towards the stadium after the tour.
+b2.gi.139 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. A survey conducted last quarter also captured the experiences of new members.
+b2.gi.140 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. Our team, which has been working on the solution for weeks, will present its initial findings tomorrow.
+b2.gi.141 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The customer never received the letter mistakenly sent to her old address.
+b2.gi.142 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The lights on the bank were reflected in the slowly flowing water.
+b2.gi.143 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. A key found in the stairwell was handed in at reception the next morning.
+b2.gi.144 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. Anyone who coughed during the film was asked to step outside quietly.
+b2.gi.145 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The written reasons did not indicate exactly how long the closure would last.
+b2.gi.146 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The photographer laughed at the sight of the dog sleeping in the garden.
+b2.gi.147 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. Two rooms reserved for the conference were considerably closer to the entrance.
+b2.gi.148 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The lamps glowed too faintly in the fog to light the way back safely.
+b2.gi.149 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. A misplaced label meant the crate was initially left on the wrong floor.
+b2.gi.150 :: In its subjective use, müssen expresses a strong inference from the available evidence. His coat is soaked and his umbrella has not been used. It must be raining heavily outside.
+b2.gi.151 :: The subjective use of dürfte expresses a likely but uncertain inference. If traffic is normal, the spare part will probably arrive this afternoon, though that is far from certain.
+b2.gi.152 :: Subjective soll reports information from another source without the speaker confirming it. According to a newspaper report, the station is to be extensively rebuilt next winter.
+b2.gi.153 :: Subjective will reports a claim someone makes about themselves. The driver claims he did not see the red light, or so he says.
+b2.gi.154 :: In its subjective use, müssen expresses a strong inference from the available evidence. Only Ben had the key. He must have locked the room last night.
+b2.gi.155 :: The subjective use of dürfte expresses a likely but uncertain inference. Judging by the readings so far, the change is likely to have little effect on electricity consumption.
+b2.gi.156 :: With a plural subject, subjective sollen reports information attributed to another source. According to several local residents, the two workshops have been closed for weeks.
+b2.gi.157 :: Subjective will reports a claim someone makes about themselves. The witness claims to have heard the noise before the first call.
+b2.gi.158 :: In its subjective use, müssen expresses a strong inference from the available evidence. Since no other line was connected, the water must have come from this pipe.
+b2.gi.159 :: The subjective use of dürften expresses a likely inference with a plural subject. If the weather stays dry, the work will probably be finished by noon.
+b2.gi.160 :: Subjective soll reports information from another source without the speaker confirming it. According to the press, even specialists have yet to determine the cause.
+b2.gi.161 :: Subjective will reports a claim someone makes about themselves. The applicant says he has already worked independently on two similar projects.
+b2.gi.162 :: In its subjective use, müssen expresses a strong inference from the available evidence. The light is still on and her bicycle is outside. She must be in the office.
+b2.gi.163 :: The subjective use of dürften expresses a likely inference with a plural subject. Barring further delays, both applications will probably receive a response this week.
+b2.gi.164 :: Subjective soll reports information from another source without the speaker confirming it. According to the archive, a previously unknown recording dates from 1968.
+b2.gi.165 :: Subjective wollen reports a claim people make about themselves. The two teenagers say they found the injured bird themselves.
+b2.gi.166 :: In its subjective use, müssen expresses a strong inference from the available evidence. The footprints lead only to the back door. The cat must have gone out that way.
+b2.gi.167 :: The subjective use of dürfte expresses a likely but uncertain inference. Under these conditions, the device probably lasted only a few hours.
+b2.gi.168 :: With a plural subject, subjective sollen reports information attributed to another source. According to the association, fares are expected to rise next quarter.
+b2.gi.169 :: Subjective will reports a claim someone makes about themselves. The dealer claims to have explained the damage at handover, which the customer disputes.
+b2.gi.170 :: In its subjective use, müssen expresses a strong inference from the available evidence. The door is bolted from the inside. Someone must still be in the building.
+b2.gi.171 :: The subjective use of dürften expresses a likely inference with a plural subject. Since hardly anyone has registered so far, there are probably still several places available.
+b2.gi.172 :: Subjective soll reports information from another source without the speaker confirming it. According to the city administration, the building in question was built before the war.
+b2.gi.173 :: Subjective will reports a claim someone makes about themselves. The author says she spoke to everyone affected for the report.
+b2.gi.174 :: In its subjective use, müssen expresses a strong inference from the available evidence. All the glasses on the table are still warm. The group must have left only recently.
+b2.gi.175 :: The subjective use of dürfte expresses a likely but uncertain inference. Given the current progress, the report will probably be ready before the meeting.
+b2.gi.176 :: With a plural subject, subjective sollen reports information attributed to another source. According to the newspaper, several power cuts can be traced to the same faulty installation.
+b2.gi.177 :: Subjective wollen reports a claim people make about themselves. The colleagues insist that they submitted the proposal before the meeting began.
+b2.gi.178 :: In its subjective use, müssen expresses a strong inference from the available evidence. The stamp marks are still wet. The documents must have just been processed.
+b2.gi.179 :: The subjective use of dürften expresses a likely inference with a plural subject. If demand stays at this level, the extra appointments probably will not be enough.
+b2.gi.180 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. By the opening, the technician will have checked all the lines.
+b2.gi.181 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. By that time, the last train will already have left.
+b2.gi.182 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. When the meeting begins, we will have analysed all the feedback.
+b2.gi.183 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. By tomorrow evening, the last guests will have arrived at the hotel too.
+b2.gi.184 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. The cash register is empty. The caretaker has probably collected the money.
+b2.gi.185 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. After the long climb, you will have reached the summit by noon.
+b2.gi.186 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. The publisher will have released the special edition by the turn of the year at the latest.
+b2.gi.187 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. The dog is out of the garden. He has probably run into the house.
+b2.gi.188 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. In two weeks, you will have sent back all the used equipment.
+b2.gi.189 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. By the time the weather changes, the team will have returned to the mountain hut.
+b2.gi.190 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. The statement has already been approved. Both departments have probably reviewed it.
+b2.gi.191 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. The last migratory bird will have moved on long before the first frost.
+b2.gi.192 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. By the end of the project, you will have conducted several interviews on your own.
+b2.gi.193 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. By the time the children wake up, we will have left for the airport.
+b2.gi.194 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. By this time tomorrow, I will have written the detailed report.
+b2.gi.195 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. In an hour, the participants will have moved into the new building.
+b2.gi.196 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. By the agreed deadline, the businesses will have transferred their contributions.
+b2.gi.197 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. The waiting room is empty. The passengers have probably already boarded.
+b2.gi.198 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. Before the exhibition closes, you will have listened to all the audio pieces.
+b2.gi.199 :: The passive Futur II combines a conjugated form of werden with Partizip II and worden sein. The damaged vehicle will have been towed away by Friday.
+b2.gi.200 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. Before making my next booking, I will have compared the two offers.
+b2.gi.201 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. By the time you reach Trier, I will already have left.
+b2.gi.202 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. The editorial team will have corrected the erroneous caption ahead of schedule.
+b2.gi.203 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. The puddle has disappeared. The water must have soaked into the ground overnight.
+b2.gi.204 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. By the time the guests arrive, the helpers will have set all the tables.
+b2.gi.205 :: The passive Futur II combines a conjugated form of werden with Partizip II and worden sein. The new component will have been installed before the break.
+b2.gi.206 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. After three months, you will have gained a better understanding of the rule's impact.
+b2.gi.207 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. The first group will surely have crossed the border by now.
+b2.gi.208 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “haben”. The chair is still absent. He has probably missed our notice.
+b2.gi.209 :: Futur II combines a conjugated form of werden with Partizip II and the infinitive “sein”. By the time class ends, temperatures will already have fallen considerably.
+b2.gi.210 :: Here, the action expressed by “restaurieren” is expressed by the noun “Restaurierung”. Restoring the damaged books took longer than planned at the workshop.
+b2.gi.211 :: When an infinitive is used as a noun, it is capitalised, as in “Freiräumen”. While clearing the path, the volunteers noticed several loose stones.
+b2.gi.212 :: Here, the action expressed by “kalibrieren” is expressed by the noun “Kalibrierung”. Calibrating the measuring instruments on time proved crucial to the experiment.
+b2.gi.213 :: Here, the action expressed by “abbauen” is expressed by the noun “Abbau”. Taking down the heavy curtain required two extra helpers from the workshop.
+b2.gi.214 :: When an infinitive is used as a noun, it is capitalised, as in “Flimmern”. The constant flickering of the fluorescent tube disturbed readers at the back tables.
+b2.gi.215 :: Here, the action expressed by “beseitigen” is expressed by the noun “Beseitigung”. To remove the bottleneck, the municipality had the path widened by two metres.
+b2.gi.216 :: Here, the action expressed by “austauschen” is expressed by the noun “Austausch”. Replacing the old lines was factored into the annual plan.
+b2.gi.217 :: When an infinitive is used as a noun, it is capitalised, as in “Entfernen”. After removing the leaves, we clean the filter thoroughly.
+b2.gi.218 :: Here, the action expressed by “vervielfältigen” is expressed by the noun “Vervielfältigung”. The recordings may be copied only with written consent.
+b2.gi.219 :: When an infinitive is used as a noun, it is capitalised, as in “Austreiben”. After the cold March, the nursery expected the shrubs to start putting out shoots in May at the earliest.
+b2.gi.220 :: Here, the action expressed by “beschließen” is expressed by the noun “Beschluss”. The team's final decision was confirmed in writing the next morning.
+b2.gi.221 :: Here, the action expressed by “wiederverwenden” is expressed by the noun “Wiederverwendung”. Reusing the material considerably reduced the workload for staff.
+b2.gi.222 :: When an infinitive is used as a noun, it is capitalised, as in “Überlagern”. Overlaying old maps helped us find the former entrance.
+b2.gi.223 :: Here, the action expressed by “überprüfen” is expressed by the noun “Überprüfung”. Her review of the figures convinced even the sceptical committee members.
+b2.gi.224 :: Here, the action expressed by “nachweisen” is expressed by the noun “Nachweis”. It was only possible to prove the damage using a recording from the previous day.
+b2.gi.225 :: When an infinitive is used as a noun, it is capitalised, as in “Versiegeln”. Before the samples were sealed, each number was read aloud once more.
+b2.gi.226 :: Here, the action expressed by “umstellen” is expressed by the noun “Umstellung”. The service could be changed gradually without additional staff.
+b2.gi.227 :: Here, the action expressed by “Stellung nehmen” is expressed by the noun “Stellungnahme”. Our statement on the assessment procedure contains three specific proposals for improvement.
+b2.gi.228 :: When an infinitive is used as a noun, it is capitalised, as in “Anrücken”. Keeping the access road clear made it much easier for emergency crews to reach the scene.
+b2.gi.229 :: Here, the action expressed by “überarbeiten” is expressed by the noun “Überarbeitung”. Because the form was revised, some applicants had to submit their details again.
+b2.gi.230 :: Here, the action expressed by “brechen” is expressed by the noun “Bruch”. Both devices suddenly stopped working, which could be explained by a break in the cable.
+b2.gi.231 :: When an infinitive is used as a noun, it is capitalised, as in “Reinigen”. Careful cleaning of the figurine revealed an older layer of paint.
+b2.gi.232 :: Here, the action expressed by “koordinieren” is expressed by the noun “Koordination”. Someone was appointed to coordinate the delivery date.
+b2.gi.233 :: Here, the action expressed by “nennen” is expressed by the noun “Nennung”. The plan was to name the person only with their permission.
+b2.gi.234 :: Here, the action expressed by “ausfallen” is expressed by the noun “Ausfall”. The experiment was delayed when the control group dropped out.
+b2.gi.235 :: Here, the action expressed by “argumentieren” is expressed by the noun “Argumentation”. The planner's argument finally persuaded even the residents who had raised objections.
+b2.gi.236 :: When an infinitive is used as a noun, it is capitalised, as in “Übertragen”. According to the record, transferring the files was supposed to take no more than ten minutes.
+b2.gi.237 :: Here, the action expressed by “kühlen” is expressed by the noun “Kühlung”. A power cut interrupted the cooling of the food in the refrigerator.
+b2.gi.238 :: Here, the action expressed by “abgleichen” is expressed by the noun “Abgleich”. Only a close comparison of the two totals revealed the discrepancy.
+b2.gi.239 :: Here, the action expressed by “einweisen” is expressed by the noun “Einweisung”. The experiment could not have started without all teams receiving instructions beforehand.
+b2.gi.240 :: The action described by the noun in parentheses is expressed here with the verb form “wartete”. The meeting started later because the team was still waiting for the last group.
+b2.gi.241 :: The action described by the noun in parentheses is expressed here with the verb form “ausgetauscht”. After replacing the valve, the technician checked the pressure again.
+b2.gi.242 :: The action described by the noun in parentheses is expressed here with the verb form “einzuhalten”. To meet the deadline, the administration must review both applications today.
+b2.gi.243 :: The action described by the noun in parentheses is expressed here with the verb form “geöffnet”. Before the hall reopened, the caretaker checked all the exits.
+b2.gi.244 :: The action described by the noun in parentheses is expressed here with the verb form “ausgefallen”. Although the printer had broken down again, the editorial team met the deadline.
+b2.gi.245 :: The action described by the noun in parentheses is expressed here with the verb form “überprüft”. Everyone involved will receive a copy as soon as the team has checked the figures.
+b2.gi.246 :: The action described by the noun in parentheses is expressed here with the verb form “beteiligen”. The school is expanding the programme so that more teenagers can take part.
+b2.gi.247 :: The action described by the noun in parentheses is expressed here with the verb form “prüfen”. The manager was unwilling to make a commitment without reviewing the contract carefully.
+b2.gi.248 :: The action described by the noun in parentheses is expressed here with the verb form “passte”. After the new requirements were published, the company adapted its procedure.
+b2.gi.249 :: The action described by the noun in parentheses is expressed here with the verb form “zugeordnet”. The researcher recorded the data again because she had initially assigned several values incorrectly.
+b2.gi.250 :: The action described by the noun in parentheses is expressed here with the verb form “ersetzen”. Instead of simply replacing the old software, the library first tried an interim solution.
+b2.gi.251 :: The action described by the noun in parentheses is expressed here with the verb form “wiederholt”. The lab technician documents every step so that the results can be reproduced.
+b2.gi.252 :: The action described by the noun in parentheses is expressed here with the verb form “anmelden”. Anyone who wants to register for the seminar must submit the form by Tuesday.
+b2.gi.253 :: The action described by the noun in parentheses is expressed here with the verb form “erläuterte”. When the spokesperson explained the costs, he also presented the original estimate.
+b2.gi.254 :: The action described by the noun in parentheses is expressed here with the verb form “reinigen”. The association asked for the room to be cleaned only after eight o'clock.
+b2.gi.255 :: The action described by the noun in parentheses is expressed here with the verb form “verwechselt”. The goods were stored separately so that they would not be mixed up by mistake.
+b2.gi.256 :: The action described by the noun in parentheses is expressed here with the verb form “geeinigt”. Renovation can begin once both groups have agreed on how to use the space.
+b2.gi.257 :: The action described by the noun in parentheses is expressed here with the verb form “senken”. The workshop switches off unused equipment at the end of the day to reduce consumption.
+b2.gi.258 :: The action described by the noun in parentheses is expressed here with the verb form “verlängert”. Since the library extended its opening hours, considerably more commuters have been visiting in the evening.
+b2.gi.259 :: The action described by the noun in parentheses is expressed here with the verb form “genehmigen”. It was still unclear after the meeting whether the city would approve the proposed site.
+b2.gi.260 :: The action described by the noun in parentheses is expressed here with the verb form “gemeldet”. The retailer refunded the amount after the customer reported the damage in writing.
+b2.gi.261 :: The action described by the noun in parentheses is expressed here with the verb form “verglich”. By comparing two sources, the editorial team was able to establish exactly what had prompted the event.
+b2.gi.262 :: The action described by the noun in parentheses is expressed here with the verb form “abgebaut”. Before the curtain was taken down, the musicians rehearsed the final transition.
+b2.gi.263 :: The action described by the noun in parentheses is expressed here with the verb form “abgelaufen”. The application could not initially be processed because the deadline had already passed.
+b2.gi.264 :: The action described by the noun in parentheses is expressed here with the verb form “gestalten”. She asked a colleague to redesign the old table for the presentation.
+b2.gi.265 :: The action described by the noun in parentheses is expressed here with the verb form “untersuchte”. While management investigated the causes, the rear entrance remained closed to visitors.
+b2.gi.266 :: The action described by the noun in parentheses is expressed here with the verb form “abgeschlossen”. We returned the measuring instruments after the lab had completed the series of measurements.
+b2.gi.267 :: The action described by the noun in parentheses is expressed here with the verb form “bestätigen”. Any details that can be verified will be corrected in the next issue.
+b2.gi.268 :: The action described by the noun in parentheses is expressed here with the verb form “dokumentieren”. The museum promised to document the find before reporting it publicly.
+b2.gi.269 :: The action described by the noun in parentheses is expressed here with the verb form “angestiegen”. The association put out extra chairs because demand had risen unexpectedly.
+b2.gi.270 :: In this fixed expression, the noun is used with the verb “nehmen”. The chair wanted to respond to the allegations before the vote.
+b2.gi.271 :: In this fixed expression, the noun is used with the verb “stellen”. The new information made it possible to reopen discussion of the decision.
+b2.gi.272 :: In this fixed expression, the noun is used with the verb “stellen”. The workshop was able to make the spare parts available on time.
+b2.gi.273 :: In this fixed expression, the noun is used with the verb “nehmen”. Under the circumstances, the municipality had to accept a delay.
+b2.gi.274 :: In this fixed expression, the noun is used with the verb “bringen”. The spokesperson wanted to express his gratitude in the message.
+b2.gi.275 :: In this fixed expression, the noun is used with the verb “ziehen”. The researchers asked for their comments to be taken into account in the analysis.
+b2.gi.276 :: In this fixed expression, the noun is used with the verb “nehmen”. Anyone who wants to use the advisory service can do so without registering beforehand.
+b2.gi.277 :: In this fixed expression, the noun is used with the verb “führen”. The example was meant to make the consequences of the error especially clear.
+b2.gi.278 :: In this fixed expression, the noun is used with the verb “stellen”. Several members called for the announced regulation to be challenged before the vote.
+b2.gi.279 :: In this fixed expression, the noun is used with the verb “treten”. The new contract is due to take effect on the first day of next month.
+b2.gi.280 :: In this fixed expression, the noun is used with the verb “nehmen”. Management asked that part-time staff members' working hours be taken into account.
+b2.gi.281 :: In this fixed expression, the noun is used with the verb “schaffen”. The neighbour wanted to clear up the misunderstanding before the next meeting.
+b2.gi.282 :: In this fixed expression, the noun is used with the verb “ablegen”. The employee was able to account for the expenses using the receipts.
+b2.gi.283 :: In this fixed expression, the noun is used with the verb “herstellen”. A quick phone call was enough to get in touch with the office responsible.
+b2.gi.284 :: In this fixed expression, the noun is used with the verb “treffen”. The two institutions wanted to reach a binding agreement around the turn of the year.
+b2.gi.285 :: In this fixed expression, the noun is used with the verb “erbringen”. During the conversation, the technician could not dispel the suspicion surrounding his colleague without providing evidence.
+b2.gi.286 :: In this fixed expression, the noun is used with the verb “fallen”. The time needed for essential checks is also likely to matter in the comparison.
+b2.gi.287 :: In this fixed expression, the noun is used with the verb “aufnehmen”. The board wanted to open negotiations with both municipalities without delay.
+b2.gi.288 :: In this fixed expression, the noun is used with the verb “führen”. The team was able to complete the planned experiment despite several disruptions.
+b2.gi.289 :: In this fixed expression, the noun is used with the verb “kommen”. A temporary fallback procedure was to be used after the technical failure.
+b2.gi.290 :: In this fixed expression, the noun is used with the verb “nehmen”. The researchers also had to take note of the unusual readings for the final report.
+b2.gi.291 :: In this fixed expression, the noun is used with the verb “leisten”. Despite its limited resources, the association was able to make a small contribution towards funding.
+b2.gi.292 :: In this fixed expression, the noun is used with the verb “stellen”. After the survey, the committee was able to reassess the existing rule.
+b2.gi.293 :: In this fixed expression, the noun is used with the verb “treffen”. Management still needed information from the second site to make a well-founded decision.
+b2.gi.294 :: In this fixed expression, the noun is used with the verb “setzen”. As part of its analysis, the team also wanted to see how the earlier readings related to one another.
+b2.gi.295 :: In this fixed expression, the noun is used with the verb “setzen”. The new contact person was to get in touch with both workshops directly.
+b2.gi.296 :: In this fixed expression, the noun is used with the verb “bringen”. The project managers had to circulate the revised documents before the meeting.
+b2.gi.297 :: In this fixed expression, the noun is used with the verb “ergreifen”. If another failure occurred, the supervisory body was allowed to take further action immediately.
+b2.gi.298 :: In this fixed expression, the noun is used with the verb “leisten”. The company wanted to use the extra training to give employees practical help during the changeover.
+b2.gi.299 :: In this fixed expression, the noun is used with the verb “ziehen”. The available data do not yet support any firm conclusions.
+b2.gi.300 :: In this use, the preposition “aufgrund” takes Genitiv. Several teams were unable to arrive on time because of the unexpected strike.
+b2.gi.301 :: In this use, the preposition “hinsichtlich” takes Genitiv. The board is still waiting for the cost estimate for the planned expansion.
+b2.gi.302 :: In this use, the preposition “mittels” takes Genitiv. The inspector identified the change by comparing the originals directly.
+b2.gi.303 :: In this use, the preposition “angesichts” takes Genitiv. Given the tight deadline, the editors decided against a second survey.
+b2.gi.304 :: In this use, the preposition “aufgrund” takes Genitiv. The bus was replaced with another vehicle because of a technical fault.
+b2.gi.305 :: In this use, the preposition “hinsichtlich” takes Genitiv. The committee still has considerable differences of opinion about the individual proposals.
+b2.gi.306 :: In this use, the preposition “mittels” takes Genitiv. The technician used a simple sketch to explain where the line ran.
+b2.gi.307 :: In this use, the preposition “angesichts” takes Genitiv. The practice opened an hour earlier than usual because of high demand.
+b2.gi.308 :: In this use, the preposition “aufgrund” takes Genitiv. All the samples had to be examined again because of the strong vibrations.
+b2.gi.309 :: In this use, the preposition “hinsichtlich” takes Genitiv. It remained unclear whether agreement had already been reached on the exact date.
+b2.gi.310 :: In this use, the preposition “mittels” takes Genitiv. The team checked the new information against the existing record.
+b2.gi.311 :: In this use, the preposition “angesichts” takes Genitiv. Given the discrepancies, the chair asked those involved for a second statement.
+b2.gi.312 :: In this use, the preposition “aufgrund” takes Genitiv. We were unable to check the devices because of the outage and lack of access.
+b2.gi.313 :: In this use, the preposition “hinsichtlich” takes Genitiv. The report provides little information about the impact on older people.
+b2.gi.314 :: In this use, the preposition “mittels” takes Genitiv. The temperature in the workshop was measured using a portable sensor.
+b2.gi.315 :: In this use, the preposition “angesichts” takes Genitiv. Given the short-notice changes, many parents stuck to their original plans for the time being.
+b2.gi.316 :: In this use, the preposition “aufgrund” takes Genitiv. Some pages were stored separately from the rest of the collection because of the high humidity.
+b2.gi.317 :: In this use, the preposition “hinsichtlich” takes Genitiv. Several municipalities agreed on what to do next.
+b2.gi.318 :: In this use, the preposition “mittels” takes Genitiv. An old dispatch list made it possible to establish where the recording came from.
+b2.gi.319 :: In this use, the preposition “angesichts” takes Genitiv. An alternative date was proposed at the meeting in view of the looming staff shortage.
+b2.gi.320 :: In this use, the preposition “aufgrund” takes Genitiv. The player did not get a place on the first course because she registered late.
+b2.gi.321 :: In this use, the preposition “hinsichtlich” takes Genitiv. The expert raised doubts about the actual range of the new installation.
+b2.gi.322 :: In this use, the preposition “mittels” takes Genitiv. She recorded the distances with a second measuring device as a check.
+b2.gi.323 :: In this use, the preposition “angesichts” takes Genitiv. Given the latest data, the committee ruled out an immediate vote.
+b2.gi.324 :: In this use, the preposition “aufgrund” takes Genitiv. The association postponed its decision because the expert report was still pending.
+b2.gi.325 :: In this use, the preposition “hinsichtlich” takes Genitiv. There is still no final assessment of the first trial.
+b2.gi.326 :: In this use, the preposition “mittels” takes Genitiv. The appointment could be reconfirmed online using a personal code.
+b2.gi.327 :: In this use, the preposition “angesichts” takes Genitiv. Given the uncertainty, both sides stuck to their original demands.
+b2.gi.328 :: In this use, the preposition “aufgrund” takes Genitiv. The son could collect the documents only because he had written authorisation.
+b2.gi.329 :: In this use, the preposition “hinsichtlich” takes Genitiv. The municipality hoped an independent report would clarify the financial implications.
+b2.gi.330 :: da introduces a clause giving the reason and puts the finite verb at the end. Since the entrance was closed, all guests had to use the side door.
+b2.gi.331 :: zumal adds or emphasises a reason and places the finite verb at the end of its clause. The workshop opened earlier, especially since several customers were already waiting outside the gate.
+b2.gi.332 :: obgleich introduces a fact despite which the main clause holds and places the finite verb at the end. Although the test was brief, the fault could be reliably demonstrated.
+b2.gi.333 :: dennoch signals an unexpected outcome. When it starts the clause, the finite verb follows immediately. The devices were old, yet they produced reliable readings in both trials.
+b2.gi.334 :: da introduces a clause giving the reason and puts the finite verb at the end. We skipped a second printout because the complete file was already available.
+b2.gi.335 :: zumal adds or emphasises a reason and places the finite verb at the end of its clause. An earlier date seems sensible, especially since the back room is inaccessible in the evening.
+b2.gi.336 :: obgleich introduces a fact despite which the main clause holds and places the finite verb at the end. The council stood by its decision even though several members later expressed doubts.
+b2.gi.337 :: dennoch introduces a result that holds despite the preceding circumstance. The finite verb follows it in second position. The building was poorly insulated, yet the reading room stayed comfortably warm in the morning.
+b2.gi.338 :: da introduces the reason for the main clause and places the finite verb at the end. Since the archive had already closed, Nevin could no longer examine the print.
+b2.gi.339 :: zumal introduces an additional reason that reinforces the main statement. The group chose the shorter route, especially since several children were already tired.
+b2.gi.340 :: obgleich introduces a circumstance that might have led to a different outcome. The finite verb goes at the end. Although the registration had arrived on time, the name was missing from the list.
+b2.gi.341 :: dennoch introduces a result that holds despite the preceding circumstance. The finite verb follows it in second position. The draft was detailed, yet several questions about funding remained unanswered.
+b2.gi.342 :: da introduces the reason for the main clause and places the finite verb at the end. The analysis did not begin until Tuesday because two tables were still missing on Monday.
+b2.gi.343 :: zumal introduces an additional reason that reinforces the main statement. The amount of work counted against the expansion, especially since staff would have to be hired specifically for it.
+b2.gi.344 :: obgleich introduces a circumstance that might have led to a different outcome. The finite verb goes at the end. The deliveries arrived on time even though the main road was closed for construction.
+b2.gi.345 :: dennoch introduces a result that holds despite the preceding circumstance. The finite verb follows it in second position. The speaker had hardly any time, yet he answered every follow-up question at the end.
+b2.gi.346 :: da introduces the reason for the main clause and places the finite verb at the end. Since the venue had changed, everyone who had registered received new directions.
+b2.gi.347 :: zumal introduces an additional reason that reinforces the main statement. It is worth checking each case individually, especially since contact details often differ on older contracts.
+b2.gi.348 :: obgleich introduces a circumstance that might have led to a different outcome. The finite verb goes at the end. Although the measuring device had been checked beforehand, it suddenly started displaying incorrect readings.
+b2.gi.349 :: dennoch introduces a result that holds despite the preceding circumstance. The finite verb follows it in second position. The route was considerably longer, yet we reached our destination earlier than expected.
+b2.gi.350 :: da introduces the reason for the main clause and places the finite verb at the end. The building stayed closed because there was no spare key for the locked entrance.
+b2.gi.351 :: zumal introduces an additional reason that reinforces the main statement. The change should be phased in, especially since switching immediately could interrupt courses already in progress.
+b2.gi.352 :: obgleich introduces a circumstance that might have led to a different outcome. The finite verb goes at the end. The test group initially misread two symbols even though they had read all the instructions.
+b2.gi.353 :: dennoch introduces a result that holds despite the preceding circumstance. The finite verb follows it in second position. The article took a factual tone, yet one of the people involved felt personally attacked.
+b2.gi.354 :: da introduces the reason for the main clause and places the finite verb at the end. The meeting was cut short because several attendees had another appointment afterwards.
+b2.gi.355 :: zumal introduces an additional reason that reinforces the main statement. An extra lamp would be useful, especially since it gets dark very early at the side entrance in winter.
+b2.gi.356 :: obgleich introduces a circumstance that might have led to a different outcome. The finite verb goes at the end. The course filled up quickly even though it took place in the middle of the holidays.
+b2.gi.357 :: dennoch introduces a result that holds despite the preceding circumstance. The finite verb follows it in second position. The author had corrected some figures, yet her conclusion remained the same.
+b2.gi.358 :: da introduces the reason for the main clause and places the finite verb at the end. Since a year had already passed since the renovation, the association reviewed usage again.
+b2.gi.359 :: zumal introduces an additional reason that reinforces the main statement. The experiment should be repeated, especially since several devices failed during the first run.
+b2.gi.360 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The editors avoided misunderstandings by explicitly marking the preliminary figures as estimates.
+b2.gi.361 :: dadurch, dass explains what made the result possible. Keeping the sensor in the same place made it possible to compare the two sets of readings directly.
+b2.gi.362 :: wodurch links back to the preceding event and introduces its consequence. The door closed by itself, so the corridor stayed quiet during the recording.
+b2.gi.363 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. Murat reduced consumption by switching on the ventilation only when it was needed.
+b2.gi.364 :: dadurch, dass explains what made the result possible. The discrepancy was spotted only because two people checked the list independently.
+b2.gi.365 :: wodurch links back to the preceding event and introduces its consequence. The connection was relocated, making the device easier to service.
+b2.gi.366 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The workshop made the process clearer by demonstrating each step on the model.
+b2.gi.367 :: dadurch, dass explains what made the result possible. The results remained comparable because every group took its readings at the same time.
+b2.gi.368 :: wodurch links back to the preceding event and introduces its consequence. The detour was eliminated, so deliveries arrived earlier than usual.
+b2.gi.369 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The moderator involved quieter guests by first collecting their contributions in writing.
+b2.gi.370 :: dadurch, dass explains what made the result possible. The workload fell mainly because all enquiries were collected in one place.
+b2.gi.371 :: wodurch links back to the preceding event and introduces its consequence. The valve was accidentally left open, so some of the water was lost.
+b2.gi.372 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The museum protected the originals by providing copies for the tour.
+b2.gi.373 :: dadurch, dass explains what made the result possible. The source of the letter could be established only because a copy was kept in the archive.
+b2.gi.374 :: wodurch links back to the preceding event and introduces its consequence. Two meetings overlapped, so several members were unable to attend both.
+b2.gi.375 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The teacher showed the difference by projecting the two versions side by side.
+b2.gi.376 :: dadurch, dass explains what made the result possible. The sound quality improved because the room was kept empty during the recording.
+b2.gi.377 :: wodurch links back to the preceding event and introduces its consequence. Several boxes were labelled incorrectly, so the inventory took another day.
+b2.gi.378 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The landlord saved the residents an appointment by mailing them the documents.
+b2.gi.379 :: dadurch, dass explains what made the result possible. The last vehicles could continue only once the traffic lights turned green.
+b2.gi.380 :: wodurch links back to the preceding event and introduces its consequence. An important piece of information was missing, which delayed registration for some families.
+b2.gi.381 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The association streamlined enquiries by naming a designated contact for each topic.
+b2.gi.382 :: dadurch, dass explains what made the result possible. The analysis was easier because all the answers were in the same order.
+b2.gi.383 :: wodurch links back to the preceding event and introduces its consequence. A bracket came loose in transit, damaging the lower edge of the pane.
+b2.gi.384 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The city freed up extra space by removing the old storage facility in the courtyard.
+b2.gi.385 :: dadurch, dass explains what made the result possible. The report is particularly convincing because it also gives counterexamples.
+b2.gi.386 :: wodurch links back to the preceding event and introduces its consequence. The café opened an hour earlier, so commuters were able to shop before work.
+b2.gi.387 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The adviser checked that the next steps were understood by asking to have them explained back to her.
+b2.gi.388 :: dadurch, dass explains what made the result possible. The volunteers marked the route, which helped new guests find the entrance more easily.
+b2.gi.389 :: wodurch links back to the preceding event and introduces its consequence. A loose cable caused the screen to go blank briefly during the presentation.
+b2.gi.390 :: sofern states the condition that must be met for the main clause to apply. You can use the room provided someone responsible stays until the end.
+b2.gi.391 :: falls introduces a possible condition under which the main action may occur. If the key does not fit, please contact the caretaker directly.
+b2.gi.392 :: während can contrast two situations or link two simultaneous events. The old device required a wait, whereas the new one is ready to use immediately.
+b2.gi.393 :: wohingegen highlights a contrast and places the finite verb at the end of the subordinate clause. The consultation is free, whereas there is a charge for the subsequent assessment.
+b2.gi.394 :: sofern states the condition that must be met for the main clause to apply. An extension is possible provided the application arrives before the deadline.
+b2.gi.395 :: falls introduces a possible condition under which the main action may occur. Please call me if any questions about the delivery come up along the way.
+b2.gi.396 :: während can contrast two situations or link two simultaneous events. Our team worked outdoors on Saturday while the other group checked its results in the lab.

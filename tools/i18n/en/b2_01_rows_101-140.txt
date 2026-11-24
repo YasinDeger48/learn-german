@@ -1,0 +1,40 @@
+b2.w.49.ex.0 :: A clear division of responsibilities prevents two offices from handling the same complaint.
+b2.w.50 :: increase in costs
+b2.w.50.ex.0 :: The increase in costs is partly due to higher energy prices.
+b2.w.51 :: performance capacity
+b2.w.51.ex.0 :: The network has enough capacity for normal use, but performance drops at peak times.
+b2.w.52 :: cooperation, participation
+b2.w.52.ex.0 :: Without the neighbourhood's cooperation, the swap shelf would have disappeared long ago.
+b2.w.53 :: sustainability
+b2.w.53.ex.0 :: For the canteen, sustainability concerns not only packaging but also where the ingredients come from.
+b2.w.54 :: transparency, traceability
+b2.w.54.ex.0 :: At parents' request, the association publishes the criteria to make its decisions more transparent.
+b2.w.55 :: competing uses
+b2.w.55.ex.0 :: In the small park, cyclists, children and people seeking peace compete for space.
+b2.w.56 :: guiding framework
+b2.w.56.ex.0 :: The recommendations provide a guiding framework while leaving room for local solutions.
+b2.w.57 :: staff retention
+b2.w.57.ex.0 :: A reliable work schedule matters more for retaining staff than a one-off bonus.
+b2.w.58 :: priority
+b2.w.58.ex.0 :: During the renovation, safe access for everyone takes precedence and is the highest priority.
+b2.w.59 :: framework condition
+b2.w.59.ex.0 :: Without reliable framework conditions, it is difficult to plan classes for the whole semester.
+b2.w.60 :: benchmark
+b2.w.60.ex.0 :: The benchmark for processing time is two weeks, though a large number of applications may take longer.
+b2.w.61 :: feedback loop
+b2.w.61.ex.0 :: Regular feedback from users helps identify problems earlier.
+b2.w.62 :: interface
+b2.w.62.ex.0 :: At the interface between the office and the workshop, order changes sometimes get lost.
+b2.w.63 :: weak point
+b2.w.63.ex.0 :: The plan's biggest weak point is the lack of a late-evening connection.
+b2.w.64 :: awareness-raising
+b2.w.64.ex.0 :: To raise awareness of noise, the school measured sound levels for a week.
+b2.w.65 :: point of view
+b2.w.65.ex.0 :: Her point of view changed once she herself came to rely on the bus every morning.
+b2.w.66 :: care, diligence
+b2.w.66.ex.0 :: Care is needed when checking receipts because small amounts are easy to overlook.
+b2.w.67 :: statement, position
+b2.w.67.ex.0 :: In its statement, the parents' council explains why it is sticking to the early date.
+b2.w.68 :: sample
+b2.w.68.ex.0 :: The sample includes only people from the city centre and says little about the villages.
+b2.w.69 :: structural change

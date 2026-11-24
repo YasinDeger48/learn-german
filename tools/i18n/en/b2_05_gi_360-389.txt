@@ -1,0 +1,30 @@
+b2.gi.360 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The editors avoided misunderstandings by explicitly marking the preliminary figures as estimates.
+b2.gi.361 :: dadurch, dass explains what made the result possible. Keeping the sensor in the same place made it possible to compare the two sets of readings directly.
+b2.gi.362 :: wodurch links back to the preceding event and introduces its consequence. The door closed by itself, so the corridor stayed quiet during the recording.
+b2.gi.363 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. Murat reduced consumption by switching on the ventilation only when it was needed.
+b2.gi.364 :: dadurch, dass explains what made the result possible. The discrepancy was spotted only because two people checked the list independently.
+b2.gi.365 :: wodurch links back to the preceding event and introduces its consequence. The connection was relocated, making the device easier to service.
+b2.gi.366 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The workshop made the process clearer by demonstrating each step on the model.
+b2.gi.367 :: dadurch, dass explains what made the result possible. The results remained comparable because every group took its readings at the same time.
+b2.gi.368 :: wodurch links back to the preceding event and introduces its consequence. The detour was eliminated, so deliveries arrived earlier than usual.
+b2.gi.369 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The moderator involved quieter guests by first collecting their contributions in writing.
+b2.gi.370 :: dadurch, dass explains what made the result possible. The workload fell mainly because all enquiries were collected in one place.
+b2.gi.371 :: wodurch links back to the preceding event and introduces its consequence. The valve was accidentally left open, so some of the water was lost.
+b2.gi.372 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The museum protected the originals by providing copies for the tour.
+b2.gi.373 :: dadurch, dass explains what made the result possible. The source of the letter could be established only because a copy was kept in the archive.
+b2.gi.374 :: wodurch links back to the preceding event and introduces its consequence. Two meetings overlapped, so several members were unable to attend both.
+b2.gi.375 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The teacher showed the difference by projecting the two versions side by side.
+b2.gi.376 :: dadurch, dass explains what made the result possible. The sound quality improved because the room was kept empty during the recording.
+b2.gi.377 :: wodurch links back to the preceding event and introduces its consequence. Several boxes were labelled incorrectly, so the inventory took another day.
+b2.gi.378 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The landlord saved the residents an appointment by mailing them the documents.
+b2.gi.379 :: dadurch, dass explains what made the result possible. The last vehicles could continue only once the traffic lights turned green.
+b2.gi.380 :: wodurch links back to the preceding event and introduces its consequence. An important piece of information was missing, which delayed registration for some families.
+b2.gi.381 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The association streamlined enquiries by naming a designated contact for each topic.
+b2.gi.382 :: dadurch, dass explains what made the result possible. The analysis was easier because all the answers were in the same order.
+b2.gi.383 :: wodurch links back to the preceding event and introduces its consequence. A bracket came loose in transit, damaging the lower edge of the pane.
+b2.gi.384 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The city freed up extra space by removing the old storage facility in the courtyard.
+b2.gi.385 :: dadurch, dass explains what made the result possible. The report is particularly convincing because it also gives counterexamples.
+b2.gi.386 :: wodurch links back to the preceding event and introduces its consequence. The café opened an hour earlier, so commuters were able to shop before work.
+b2.gi.387 :: indem explains how a result is achieved and places the finite verb at the end of the subordinate clause. The adviser checked that the next steps were understood by asking to have them explained back to her.
+b2.gi.388 :: dadurch, dass explains what made the result possible. The volunteers marked the route, which helped new guests find the entrance more easily.
+b2.gi.389 :: wodurch links back to the preceding event and introduces its consequence. A loose cable caused the screen to go blank briefly during the presentation.

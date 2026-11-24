@@ -1,0 +1,30 @@
+b2.gi.450 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The meeting was moved to a smaller room without all the participants being informed beforehand.
+b2.gi.451 :: Use statt dass with a finite verb to express an alternative that did not occur. The applicant had to follow up instead of the administration replying on its own initiative.
+b2.gi.452 :: Use anstatt … zu with an infinitive when the two actions have the same subject. Instead of checking the invoice, he transferred the full amount immediately.
+b2.gi.453 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The curtain came down before the musicians had packed up their instruments.
+b2.gi.454 :: Use statt dass with a finite verb to express an alternative that did not occur. The plan was scaled back instead of the committee raising the budget.
+b2.gi.455 :: Use anstatt … zu with an infinitive when the two actions have the same subject. She corrected the headline instead of rewriting the entire article.
+b2.gi.456 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. We found the right entrance without anyone having to show us the way.
+b2.gi.457 :: Use statt dass with a finite verb to express an alternative that did not occur. The dealer offered a discount instead of having the workshop replace the damaged part.
+b2.gi.458 :: Use anstatt … zu with an infinitive when the two actions have the same subject. An employee called back instead of sending a second automated message.
+b2.gi.459 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The file was released without anyone having deleted the old version.
+b2.gi.460 :: Use statt dass with a finite verb to express an alternative that did not occur. To the group's surprise, dismantling began instead of management answering questions.
+b2.gi.461 :: Use anstatt … zu with an infinitive when the two actions have the same subject. Instead of arguing about who was to blame, both sides looked for a practical solution.
+b2.gi.462 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The device could be switched on without the warning signal sounding again.
+b2.gi.463 :: Use statt dass with a finite verb to express an alternative that did not occur. The company submitted a new invoice instead of sending the missing attachment.
+b2.gi.464 :: Use anstatt … zu with an infinitive when the two actions have the same subject. We set up a temporary entrance instead of closing the hall completely.
+b2.gi.465 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The samples were collected without the lab having confirmed their numbers beforehand.
+b2.gi.466 :: Use statt dass with a finite verb to express an alternative that did not occur. The meeting ended with a decision to postpone the matter instead of reaching a final decision.
+b2.gi.467 :: Use anstatt … zu with an infinitive when the two actions have the same subject. The editor checked the source himself instead of relying on the summary.
+b2.gi.468 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. Several guests left without the organiser having heard their objections.
+b2.gi.469 :: Use statt dass with a finite verb to express an alternative that did not occur. The library lent the school two computers instead of the school buying additional equipment.
+b2.gi.470 :: Use anstatt … zu with an infinitive when the two actions have the same subject. The mechanic replaced only the fuse instead of replacing the entire system.
+b2.gi.471 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The bus pulled away without the stop appearing on the display.
+b2.gi.472 :: Use statt dass with a finite verb to express an alternative that did not occur. Each group worked on its own draft instead of the two groups planning together.
+b2.gi.473 :: Use anstatt … zu with an infinitive when the two actions have the same subject. The board asked for new figures instead of rejecting the draft outright.
+b2.gi.474 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The translation was published without the author having approved the final paragraph.
+b2.gi.475 :: Use statt dass with a finite verb to express an alternative that did not occur. The new employee took on the task instead of her colleague sorting the documents.
+b2.gi.476 :: Use anstatt … zu with an infinitive when the two actions have the same subject. We used our old boxes for the move instead of buying new ones.
+b2.gi.477 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The meeting could begin even though the scheduled guest had yet to arrive.
+b2.gi.478 :: Use statt dass with a finite verb to express an alternative that did not occur. Management commissioned an expert report instead of the committee voting on the renovation immediately.
+b2.gi.479 :: Use anstatt … zu with an infinitive when the two actions have the same subject. The neighbour asked directly at reception instead of waiting in the corridor.

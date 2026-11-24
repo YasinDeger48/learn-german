@@ -1,0 +1,30 @@
+b2.gi.150 :: In its subjective use, müssen expresses a strong inference from the available evidence. His coat is soaked and his umbrella has not been used. It must be raining heavily outside.
+b2.gi.151 :: The subjective use of dürfte expresses a likely but uncertain inference. If traffic is normal, the spare part will probably arrive this afternoon, though that is far from certain.
+b2.gi.152 :: Subjective soll reports information from another source without the speaker confirming it. According to a newspaper report, the station is to be extensively rebuilt next winter.
+b2.gi.153 :: Subjective will reports a claim someone makes about themselves. The driver claims he did not see the red light, or so he says.
+b2.gi.154 :: In its subjective use, müssen expresses a strong inference from the available evidence. Only Ben had the key. He must have locked the room last night.
+b2.gi.155 :: The subjective use of dürfte expresses a likely but uncertain inference. Judging by the readings so far, the change is likely to have little effect on electricity consumption.
+b2.gi.156 :: With a plural subject, subjective sollen reports information attributed to another source. According to several local residents, the two workshops have been closed for weeks.
+b2.gi.157 :: Subjective will reports a claim someone makes about themselves. The witness claims to have heard the noise before the first call.
+b2.gi.158 :: In its subjective use, müssen expresses a strong inference from the available evidence. Since no other line was connected, the water must have come from this pipe.
+b2.gi.159 :: The subjective use of dürften expresses a likely inference with a plural subject. If the weather stays dry, the work will probably be finished by noon.
+b2.gi.160 :: Subjective soll reports information from another source without the speaker confirming it. According to the press, even specialists have yet to determine the cause.
+b2.gi.161 :: Subjective will reports a claim someone makes about themselves. The applicant says he has already worked independently on two similar projects.
+b2.gi.162 :: In its subjective use, müssen expresses a strong inference from the available evidence. The light is still on and her bicycle is outside. She must be in the office.
+b2.gi.163 :: The subjective use of dürften expresses a likely inference with a plural subject. Barring further delays, both applications will probably receive a response this week.
+b2.gi.164 :: Subjective soll reports information from another source without the speaker confirming it. According to the archive, a previously unknown recording dates from 1968.
+b2.gi.165 :: Subjective wollen reports a claim people make about themselves. The two teenagers say they found the injured bird themselves.
+b2.gi.166 :: In its subjective use, müssen expresses a strong inference from the available evidence. The footprints lead only to the back door. The cat must have gone out that way.
+b2.gi.167 :: The subjective use of dürfte expresses a likely but uncertain inference. Under these conditions, the device probably lasted only a few hours.
+b2.gi.168 :: With a plural subject, subjective sollen reports information attributed to another source. According to the association, fares are expected to rise next quarter.
+b2.gi.169 :: Subjective will reports a claim someone makes about themselves. The dealer claims to have explained the damage at handover, which the customer disputes.
+b2.gi.170 :: In its subjective use, müssen expresses a strong inference from the available evidence. The door is bolted from the inside. Someone must still be in the building.
+b2.gi.171 :: The subjective use of dürften expresses a likely inference with a plural subject. Since hardly anyone has registered so far, there are probably still several places available.
+b2.gi.172 :: Subjective soll reports information from another source without the speaker confirming it. According to the city administration, the building in question was built before the war.
+b2.gi.173 :: Subjective will reports a claim someone makes about themselves. The author says she spoke to everyone affected for the report.
+b2.gi.174 :: In its subjective use, müssen expresses a strong inference from the available evidence. All the glasses on the table are still warm. The group must have left only recently.
+b2.gi.175 :: The subjective use of dürfte expresses a likely but uncertain inference. Given the current progress, the report will probably be ready before the meeting.
+b2.gi.176 :: With a plural subject, subjective sollen reports information attributed to another source. According to the newspaper, several power cuts can be traced to the same faulty installation.
+b2.gi.177 :: Subjective wollen reports a claim people make about themselves. The colleagues insist that they submitted the proposal before the meeting began.
+b2.gi.178 :: In its subjective use, müssen expresses a strong inference from the available evidence. The stamp marks are still wet. The documents must have just been processed.
+b2.gi.179 :: The subjective use of dürften expresses a likely inference with a plural subject. If demand stays at this level, the extra appointments probably will not be enough.

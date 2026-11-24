@@ -1,0 +1,40 @@
+b2.w.29.ex.0 :: Residents see the night-time driving ban as a serious intrusion into their daily lives.
+b2.w.30 :: insole
+b2.w.30.ex.0 :: The insole in my left shoe has shifted, so the shoe presses against my foot when I walk.
+b2.w.31 :: classification, interpretation
+b2.w.31.ex.0 :: To interpret the figures fairly, we need to know how the comparison was made.
+b2.w.32 :: objection
+b2.w.32.ex.0 :: The objection to the app mainly concerns families without a smartphone of their own.
+b2.w.33 :: energy efficiency
+b2.w.33.ex.0 :: When replacing the heating system, energy efficiency as well as price should be taken into account.
+b2.w.34 :: decision-making freedom
+b2.w.34.ex.0 :: The team has more freedom to make decisions in its day-to-day work now that it can approve small purchases itself.
+b2.w.35 :: discretion
+b2.w.35.ex.0 :: The caseworker has a certain amount of discretion when choosing the deadline.
+b2.w.36 :: employment
+b2.w.36.ex.0 :: Returning to work is easier when childcare is reliable.
+b2.w.37 :: undesirable development
+b2.w.37.ex.0 :: With the new procedure, management hopes to identify undesirable developments early.
+b2.w.38 :: additional support needs
+b2.w.38.ex.0 :: To determine what extra support is needed, the school first observes the children in class.
+b2.w.39 :: counterbalance
+b2.w.39.ex.0 :: A regular phone appointment counterbalances the growing digitalisation of advisory services.
+b2.w.40 :: validity period
+b2.w.40.ex.0 :: The validity period was extended because many families had not yet been able to complete the application.
+b2.w.41 :: overall burden
+b2.w.41.ex.0 :: The calculation of the overall burden leaves out travel costs and childcare fees.
+b2.w.42 :: credibility
+b2.w.42.ex.0 :: The study's credibility depends on whether critical voices were also heard.
+b2.w.43 :: budget situation
+b2.w.43.ex.0 :: Despite a tight budget, the municipality wants to keep the youth centre open.
+b2.w.44 :: inhibition, reluctance
+b2.w.44.ex.0 :: At the first meeting, many people were reluctant to ask questions in front of the whole group.
+b2.w.45 :: indication, evidence
+b2.w.45.ex.0 :: The long wait is an indication of staff shortages, but not proof of them.
+b2.w.46 :: infrastructure
+b2.w.46.ex.0 :: Without reliable digital infrastructure, it is not possible to organise remote classes.
+b2.w.47 :: representation of interests
+b2.w.47.ex.0 :: The passengers' representatives were involved in planning the new timetable.
+b2.w.48 :: main point
+b2.w.48.ex.0 :: The report's main point is that a second entrance could reduce waiting times.
+b2.w.49 :: division of responsibilities

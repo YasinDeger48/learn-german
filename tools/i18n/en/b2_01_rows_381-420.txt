@@ -1,0 +1,40 @@
+b2.w.189.ex.0 :: The maintenance costs were not included in the first bill.
+b2.w.190 :: unrestricted
+b2.w.190.ex.0 :: After the repair, the lift was once again fully operational.
+b2.w.191 :: indispensable
+b2.w.191.ex.0 :: For people without a car, the connection to the hospital is essential.
+b2.w.192 :: unmistakably, unequivocally
+b2.w.192.ex.0 :: The property management made it absolutely clear that the access must be kept clear.
+b2.w.193 :: underlying, implicit
+b2.w.193.ex.0 :: Although nobody criticised him directly, he sensed an undercurrent of criticism about his decision.
+b2.w.194 :: acceptable, justifiable
+b2.w.194.ex.0 :: A short delay is acceptable if it helps prevent errors.
+b2.w.195 :: in advance
+b2.w.195.ex.0 :: Please send us the list in advance so we can prepare the room appropriately.
+b2.w.196 :: subject to
+b2.w.196.ex.0 :: Subject to the association's approval, work will begin in June.
+b2.w.197 :: as a precaution
+b2.w.197.ex.0 :: We reserved a second room as a precaution in case more families arrive.
+b2.w.198 :: largely
+b2.w.198.ex.0 :: The draft is largely complete. Only the cost details are still missing.
+b2.w.199 :: unexpectedly, against expectations
+b2.w.199.ex.0 :: Contrary to expectations, the journey on the replacement bus took hardly any longer.
+b2.w.200 :: possibly, perhaps
+b2.w.200.ex.0 :: If we change the times, more working people may be able to attend.
+b2.w.201 :: decomposition process
+b2.w.201.ex.0 :: At low temperatures, decomposition in the compost proceeds much more slowly than in summer.
+b2.w.202 :: to revoke, to strip someone of
+b2.w.202.ex.0 :: The jury stripped the participant of the prize after checking the origin of the work.
+b2.w.203 :: once again
+b2.w.203.ex.0 :: The meeting had to be postponed once again because the revised cost overview was not yet available.
+b2.w.204 :: processing, dispatch
+b2.w.204.ex.0 :: Two additional counters were opened to process ferry passengers because of the heavy traffic.
+b2.w.205 :: drainage channel
+b2.w.205.ex.0 :: After the heavy rain, the building authority checked whether the old drainage channel was large enough.
+b2.w.206 :: reconciliation, comparison
+b2.w.206.ex.0 :: Only when the invoices were reconciled did anyone notice that a payment had been recorded twice.
+b2.w.207 :: to go missing
+b2.w.207.ex.0 :: Two folders went missing during the office move and did not turn up again until months later.
+b2.w.208 :: agreement, treaty
+b2.w.208.ex.0 :: The agreement requires both municipalities to divide the operating costs of the shared facility according to population.
+b2.w.209 :: to replace, to supersede

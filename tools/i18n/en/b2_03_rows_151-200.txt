@@ -1,0 +1,50 @@
+b2.w.574.ex.0 :: With her colleagues' backing, she was able to propose the controversial change again at the next meeting.
+b2.w.575 :: situation, state of affairs
+b2.w.575.ex.0 :: Once both sides had submitted their documents, it was much easier to assess the situation accurately.
+b2.w.576 :: facts of the case
+b2.w.576.ex.0 :: The adviser first explained the facts in plain language and asked both parties to add anything that was missing.
+b2.w.577 :: damage limitation
+b2.w.577.ex.0 :: To limit the damage, the damp books were separated immediately before mould could spread to the rest of the collection.
+b2.w.578 :: mediation office
+b2.w.578.ex.0 :: Only after two direct conversations had failed did the neighbours approach the mediation office together.
+b2.w.579 :: to diminish, to detract from
+b2.w.579.ex.0 :: The initial delay hardly detracted from the project's success because all the key objectives were still met.
+b2.w.580 :: to dwindle, to fade
+b2.w.580.ex.0 :: Confidence in the policy waned with each new failure, even though it had initially received broad support.
+b2.w.581 :: duty of care
+b2.w.581.ex.0 :: The duty of care continues beyond the initial check if new doubts about the data arise later.
+b2.w.582 :: to stagnate
+b2.w.582.ex.0 :: Despite the advertising, registrations remained flat because the course was still offered only in the mornings.
+b2.w.583 :: casting a vote, voting
+b2.w.583.ex.0 :: Before voting, each person could ask one more question about the two proposals.
+b2.w.584 :: structural reform
+b2.w.584.ex.0 :: The structural reform redistributed tasks that several offices had previously handled at the same time.
+b2.w.585 :: to support, to base on
+b2.w.585.ex.0 :: The researcher based her assessment on two independently conducted sets of measurements.
+b2.w.586 :: to meet, to be in session
+b2.w.586.ex.0 :: This time the committee met in public so interested residents could follow the discussion about the new square.
+b2.w.587 :: implications, significance
+b2.w.587.ex.0 :: Many people realised the implications of the decision only when they learned how the rooms would be allocated.
+b2.w.588 :: area of responsibility
+b2.w.588.ex.0 :: Since completing further training, her duties have included tasks previously handled by an outside service provider.
+b2.w.589 :: to get around, to bypass
+b2.w.589.ex.0 :: By offering an extra appointment, the practice got around the problem of many working people being unavailable in the mornings.
+b2.w.590 :: to outline
+b2.w.590.ex.0 :: The speaker began by outlining the project, then used an example to explain some of the difficulties.
+b2.w.591 :: incompatibility
+b2.w.591.ex.0 :: The requirements proved incompatible when the two groups laid their plans side by side on the table.
+b2.w.592 :: binding nature, commitment
+b2.w.592.ex.0 :: It was initially unclear whether the promise was binding because the agreement had been made only verbally.
+b2.w.593 :: to clarify, to illustrate
+b2.w.593.ex.0 :: By comparing two cases, the lecturer illustrated why the same rule could have different consequences.
+b2.w.594 :: to displace, to push out
+b2.w.594.ex.0 :: Rising rents forced out several small businesses that had operated in the neighbourhood for decades.
+b2.w.595 :: gain on disposal
+b2.w.595.ex.0 :: The gain on disposal was listed separately from regular income so that the two figures could still be compared.
+b2.w.596 :: overview article, review article
+b2.w.596.ex.0 :: The overview article compares several approaches without presenting any of them as universally applicable.
+b2.w.597 :: to bridge, to tide over
+b2.w.597.ex.0 :: A temporary room allowed the school to manage until the new hall was completed.
+b2.w.598 :: to reconsider
+b2.w.598.ex.0 :: After the conversation, management reconsidered the proposal, which had originally been drawn up without feedback from those affected.
+b2.w.599 :: to transmit, to pass on

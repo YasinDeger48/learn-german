@@ -1,0 +1,7 @@
+b2.gi.300 :: In this use, the preposition “aufgrund” takes Genitiv. Several teams were unable to arrive on time because of the unexpected strike.
+b2.gi.301 :: In this use, the preposition “hinsichtlich” takes Genitiv. The board is still waiting for the cost estimate for the planned expansion.
+b2.gi.302 :: In this use, the preposition “mittels” takes Genitiv. The inspector identified the change by comparing the originals directly.
+b2.gi.303 :: In this use, the preposition “angesichts” takes Genitiv. Given the tight deadline, the editors decided against a second survey.
+b2.gi.304 :: In this use, the preposition “aufgrund” takes Genitiv. The bus was replaced with another vehicle because of a technical fault.
+b2.gi.305 :: In this use, the preposition “hinsichtlich” takes Genitiv. The committee still has considerable differences of opinion about the individual proposals.
+b2.gi.306 :: In this use, the preposition “mittels” takes Genitiv. The technician used a simple sketch to explain where the line ran.

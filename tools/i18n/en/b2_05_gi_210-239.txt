@@ -1,0 +1,30 @@
+b2.gi.210 :: Here, the action expressed by “restaurieren” is expressed by the noun “Restaurierung”. Restoring the damaged books took longer than planned at the workshop.
+b2.gi.211 :: When an infinitive is used as a noun, it is capitalised, as in “Freiräumen”. While clearing the path, the volunteers noticed several loose stones.
+b2.gi.212 :: Here, the action expressed by “kalibrieren” is expressed by the noun “Kalibrierung”. Calibrating the measuring instruments on time proved crucial to the experiment.
+b2.gi.213 :: Here, the action expressed by “abbauen” is expressed by the noun “Abbau”. Taking down the heavy curtain required two extra helpers from the workshop.
+b2.gi.214 :: When an infinitive is used as a noun, it is capitalised, as in “Flimmern”. The constant flickering of the fluorescent tube disturbed readers at the back tables.
+b2.gi.215 :: Here, the action expressed by “beseitigen” is expressed by the noun “Beseitigung”. To remove the bottleneck, the municipality had the path widened by two metres.
+b2.gi.216 :: Here, the action expressed by “austauschen” is expressed by the noun “Austausch”. Replacing the old lines was factored into the annual plan.
+b2.gi.217 :: When an infinitive is used as a noun, it is capitalised, as in “Entfernen”. After removing the leaves, we clean the filter thoroughly.
+b2.gi.218 :: Here, the action expressed by “vervielfältigen” is expressed by the noun “Vervielfältigung”. The recordings may be copied only with written consent.
+b2.gi.219 :: When an infinitive is used as a noun, it is capitalised, as in “Austreiben”. After the cold March, the nursery expected the shrubs to start putting out shoots in May at the earliest.
+b2.gi.220 :: Here, the action expressed by “beschließen” is expressed by the noun “Beschluss”. The team's final decision was confirmed in writing the next morning.
+b2.gi.221 :: Here, the action expressed by “wiederverwenden” is expressed by the noun “Wiederverwendung”. Reusing the material considerably reduced the workload for staff.
+b2.gi.222 :: When an infinitive is used as a noun, it is capitalised, as in “Überlagern”. Overlaying old maps helped us find the former entrance.
+b2.gi.223 :: Here, the action expressed by “überprüfen” is expressed by the noun “Überprüfung”. Her review of the figures convinced even the sceptical committee members.
+b2.gi.224 :: Here, the action expressed by “nachweisen” is expressed by the noun “Nachweis”. It was only possible to prove the damage using a recording from the previous day.
+b2.gi.225 :: When an infinitive is used as a noun, it is capitalised, as in “Versiegeln”. Before the samples were sealed, each number was read aloud once more.
+b2.gi.226 :: Here, the action expressed by “umstellen” is expressed by the noun “Umstellung”. The service could be changed gradually without additional staff.
+b2.gi.227 :: Here, the action expressed by “Stellung nehmen” is expressed by the noun “Stellungnahme”. Our statement on the assessment procedure contains three specific proposals for improvement.
+b2.gi.228 :: When an infinitive is used as a noun, it is capitalised, as in “Anrücken”. Keeping the access road clear made it much easier for emergency crews to reach the scene.
+b2.gi.229 :: Here, the action expressed by “überarbeiten” is expressed by the noun “Überarbeitung”. Because the form was revised, some applicants had to submit their details again.
+b2.gi.230 :: Here, the action expressed by “brechen” is expressed by the noun “Bruch”. Both devices suddenly stopped working, which could be explained by a break in the cable.
+b2.gi.231 :: When an infinitive is used as a noun, it is capitalised, as in “Reinigen”. Careful cleaning of the figurine revealed an older layer of paint.
+b2.gi.232 :: Here, the action expressed by “koordinieren” is expressed by the noun “Koordination”. Someone was appointed to coordinate the delivery date.
+b2.gi.233 :: Here, the action expressed by “nennen” is expressed by the noun “Nennung”. The plan was to name the person only with their permission.
+b2.gi.234 :: Here, the action expressed by “ausfallen” is expressed by the noun “Ausfall”. The experiment was delayed when the control group dropped out.
+b2.gi.235 :: Here, the action expressed by “argumentieren” is expressed by the noun “Argumentation”. The planner's argument finally persuaded even the residents who had raised objections.
+b2.gi.236 :: When an infinitive is used as a noun, it is capitalised, as in “Übertragen”. According to the record, transferring the files was supposed to take no more than ten minutes.
+b2.gi.237 :: Here, the action expressed by “kühlen” is expressed by the noun “Kühlung”. A power cut interrupted the cooling of the food in the refrigerator.
+b2.gi.238 :: Here, the action expressed by “abgleichen” is expressed by the noun “Abgleich”. Only a close comparison of the two totals revealed the discrepancy.
+b2.gi.239 :: Here, the action expressed by “einweisen” is expressed by the noun “Einweisung”. The experiment could not have started without all teams receiving instructions beforehand.

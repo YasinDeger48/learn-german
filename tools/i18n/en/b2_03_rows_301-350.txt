@@ -1,0 +1,50 @@
+b2.w.649.ex.0 :: The course examined the state's monopoly on the legitimate use of force through historical texts and current political debates.
+b2.w.650 :: underlying assumption
+b2.w.650.ex.0 :: The most important assumption proved false once the second set of measurements was complete.
+b2.w.651 :: change of attitude
+b2.w.651.ex.0 :: Attitudes changed only after those affected described their experiences in person.
+b2.w.652 :: proof of identity
+b2.w.652.ex.0 :: A valid card was sufficient proof of identity as long as the name and photo were clearly visible.
+b2.w.653 :: exchange of information
+b2.w.653.ex.0 :: Regular exchanges of information shortened the wait between the first report and the final decision.
+b2.w.654 :: pressure to innovate
+b2.w.654.ex.0 :: Pressure to innovate grew after several competitors developed similar products within a few months.
+b2.w.655 :: potential for innovation
+b2.w.655.ex.0 :: The project's potential for innovation lay in using existing technology in an unconventional way.
+b2.w.656 :: moderate, measured
+b2.w.656.ex.0 :: The criticism remained measured even though the error had unpleasant consequences for several groups.
+b2.w.657 :: noticeable, noticeably
+b2.w.657.ex.0 :: After the change, the corridor was noticeably quieter than it had been the day before.
+b2.w.658 :: indirect, indirectly
+b2.w.658.ex.0 :: The closure also indirectly affected businesses that did not rent space there themselves.
+b2.w.659 :: presumed, suspected
+b2.w.659.ex.0 :: At first, the suspected cause was discussed only internally with the relevant specialists.
+b2.w.660 :: lenient, understanding
+b2.w.660.ex.0 :: The coach was understanding as long as lateness was an exception and she was told in advance.
+b2.w.661 :: following, listed below
+b2.w.661.ex.0 :: The examples below show when the form must also be signed.
+b2.w.662 :: in parallel without coordination
+b2.w.662.ex.0 :: The two groups initially worked independently of each other even though they were supposed to gather the same information.
+b2.w.663 :: along with, together with
+b2.w.663.ex.0 :: The application was forwarded to the relevant office along with all its attachments.
+b2.w.664 :: easy to access, low-barrier
+b2.w.664.ex.0 :: By offering an accessible advisory service, the association hoped to reach people without appointments too.
+b2.w.665 :: out of necessity
+b2.w.665.ex.0 :: As the original hall remained closed, the group had no choice but to move into the foyer.
+b2.w.666 :: obvious, evidently
+b2.w.666.ex.0 :: The two figures clearly contradicted each other even though they came from the same table.
+b2.w.667 :: from a planning perspective
+b2.w.667.ex.0 :: The second solution was easier to plan because no access road had to be changed.
+b2.w.668 :: subject to a fixed price
+b2.w.668.ex.0 :: The new product remained subject to a fixed price even when the retailer offered it alongside others.
+b2.w.669 :: in principle
+b2.w.669.ex.0 :: In principle, a later collection would be possible as long as the rear entrance remained open until then.
+b2.w.670 :: proportional
+b2.w.670.ex.0 :: The extra costs were divided among the three groups in proportion to how long each used the facilities.
+b2.w.671 :: concise, succinct
+b2.w.671.ex.0 :: The editor summarised the objection so clearly and concisely that no follow-up question was needed.
+b2.w.672 :: verifiable
+b2.w.672.ex.0 :: A claim remains verifiable only if its sources are precisely identified.
+b2.w.673 :: rational
+b2.w.673.ex.0 :: The decision seemed rational at first, but it overlooked the experiences of those affected.
+b2.w.674 :: representative

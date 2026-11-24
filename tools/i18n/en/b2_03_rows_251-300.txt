@@ -1,0 +1,50 @@
+b2.w.624.ex.0 :: Before giving her consent, the representative wanted to know what binding effect the decision would actually have.
+b2.w.625 :: gross pay
+b2.w.625.ex.0 :: The discussion covered both gross pay and possible extra payments for evening shifts.
+b2.w.626 :: data basis
+b2.w.626.ex.0 :: The available data were insufficient to draw reliable conclusions about smaller municipalities.
+b2.w.627 :: data protection officer
+b2.w.627.ex.0 :: The data protection officer checked which details were actually needed for registration.
+b2.w.628 :: continuous operation
+b2.w.628.ex.0 :: During continuous operation, it became clear that the ventilation used more electricity than expected.
+b2.w.629 :: supervisory authority
+b2.w.629.ex.0 :: The family turned to the supervisory authority only after two unsuccessful conversations.
+b2.w.630 :: double burden
+b2.w.630.ex.0 :: The combined pressures of work and caring responsibilities led her to request a temporary reduction in hours.
+b2.w.631 :: third-party provider
+b2.w.631.ex.0 :: The third-party provider received only the data essential for delivery.
+b2.w.632 :: empathy
+b2.w.632.ex.0 :: Her empathy helped her draw quieter participants into the conversation.
+b2.w.633 :: one-off payment
+b2.w.633.ex.0 :: A one-off payment would cost less to administer than several small instalments.
+b2.w.634 :: isolated case
+b2.w.634.ex.0 :: The initial report did not make clear whether this was an isolated case.
+b2.w.635 :: energy strategy
+b2.w.635.ex.0 :: The energy strategy was adopted only after actual heating demand had also been assessed.
+b2.w.636 :: decision-making
+b2.w.636.ex.0 :: Feedback received after the meeting was also considered in the decision-making process.
+b2.w.637 :: prospects for development
+b2.w.637.ex.0 :: In the interview, she mainly wanted to know what opportunities for development the role would offer.
+b2.w.638 :: record of achievements
+b2.w.638.ex.0 :: The review kept the failed attempts on record so readers could see how the work had progressed.
+b2.w.639 :: survey, data collection
+b2.w.639.ex.0 :: The survey was repeated on two days to assess random fluctuations more accurately.
+b2.w.640 :: fallback procedure
+b2.w.640.ex.0 :: The fallback procedure was used when online registration was temporarily unavailable.
+b2.w.641 :: risk to earnings
+b2.w.641.ex.0 :: The group discussed the risk to earnings only after clarifying the ongoing costs.
+b2.w.642 :: set of expectations, expectations
+b2.w.642.ex.0 :: The high hopes of those involved reflected expectations the project could scarcely meet.
+b2.w.643 :: susceptibility to errors
+b2.w.643.ex.0 :: The process became more prone to errors when several people had to edit the same list at once.
+b2.w.644 :: determination, setting
+b2.w.644.ex.0 :: The date was set only after all three participating institutions had been consulted.
+b2.w.645 :: control by others
+b2.w.645.ex.0 :: Many felt the new requirements had been imposed on them because they had had little say in them.
+b2.w.646 :: care, concern
+b2.w.646.ex.0 :: He showed his concern by offering support after the conversation as well.
+b2.w.647 :: community spirit
+b2.w.647.ex.0 :: The participants showed their community spirit when everyone volunteered to take on extra tasks.
+b2.w.648 :: draft law, bill
+b2.w.648.ex.0 :: The bill was amended after several hearings before being put forward for further consideration.
+b2.w.649 :: monopoly on the use of force

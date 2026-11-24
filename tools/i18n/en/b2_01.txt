@@ -1,0 +1,500 @@
+b2.theme.0 :: Nouns
+b2.theme.1 :: Verbs
+b2.theme.2 :: Adjectives and small words
+b2.w.1 :: dependence
+b2.w.1.ex.0 :: The municipality wants to reduce its dependence on a single energy provider.
+b2.w.2 :: turning away
+b2.w.2.ex.0 :: Moving away from cash makes shopping easier for some customers and harder for others.
+b2.w.3 :: deviation
+b2.w.3.ex.0 :: If the costs differ significantly from the estimate, please consult us in advance.
+b2.w.4 :: acceptance
+b2.w.4.ex.0 :: The new system became more widely accepted after employees had the chance to make suggestions.
+b2.w.5 :: initial phase
+b2.w.5.ex.0 :: During the initial phase of the project, we expected more questions than finished solutions.
+b2.w.6 :: incentive
+b2.w.6.ex.0 :: A cheaper fare would encourage many commuters to switch to the train.
+b2.w.7 :: claim, entitlement
+b2.w.7.ex.0 :: Whether you are entitled to a refund depends on the booking conditions.
+b2.w.8 :: insight
+b2.w.8.ex.0 :: The survey sheds light on why some families dropped out of the course.
+b2.w.9 :: improvement
+b2.w.9.ex.0 :: Improving the square brought more people to the neighbourhood, but rents also went up.
+b2.w.10 :: dispute, discussion
+b2.w.10.ex.0 :: Discussing the complaints showed that the real problem was a lack of information.
+b2.w.11 :: utilisation
+b2.w.11.ex.0 :: Because the pool is underused in the morning, it offers cheaper admission then.
+b2.w.12 :: exclusion, ban
+b2.w.12.ex.0 :: The ban on cash payments was discussed at length during the meeting.
+b2.w.13 :: significance
+b2.w.13.ex.0 :: Three responses have limited significance when the course had sixty participants.
+b2.w.14 :: analysis, evaluation
+b2.w.14.ex.0 :: The analysis shows that cancellations mainly affect families without a car.
+b2.w.15 :: accessibility
+b2.w.15.ex.0 :: In planning the citizens' service office, attention was paid to accessibility and clear signage.
+b2.w.16 :: needs assessment
+b2.w.16.ex.0 :: To assess needs, the team asked families which times they would actually be able to use.
+b2.w.17 :: duty to give reasons
+b2.w.17.ex.0 :: The duty to give reasons is intended to make rejected applications understandable.
+b2.w.18 :: participation, involvement
+b2.w.18.ex.0 :: Broad participation is easier to achieve if appointments are also offered in the evening.
+b2.w.19 :: childcare provision
+b2.w.19.ex.0 :: The childcare provision suits full-time jobs but is of little help to parents working night shifts.
+b2.w.20 :: approval, authorisation
+b2.w.20.ex.0 :: With written approval, the association can finally order the new equipment.
+b2.w.21 :: assessment, balance sheet
+b2.w.21.ex.0 :: After a year, the city gives a mixed assessment: less traffic, but more complaints from side streets.
+b2.w.22 :: equal opportunities
+b2.w.22.ex.0 :: The school promotes equal opportunities by lending out equipment for project week.
+b2.w.23 :: public services
+b2.w.23.ex.0 :: For many municipalities, reliable bus services are part of providing essential public services.
+b2.w.24 :: data collection
+b2.w.24.ex.0 :: Data collection was limited to two weeks so as not to overburden employees.
+b2.w.25 :: interpretation
+b2.w.25.ex.0 :: The two interpretations of the result lead to different recommendations.
+b2.w.26 :: dilemma
+b2.w.26.ex.0 :: The team faces a dilemma: longer opening hours cost money, while shorter hours exclude some customers.
+b2.w.27 :: discrepancy
+b2.w.27.ex.0 :: There is a marked discrepancy between the announced and actual delivery times.
+b2.w.28 :: enforcement
+b2.w.28.ex.0 :: The school needs parents' support to enforce the new rules.
+b2.w.29 :: intervention
+b2.w.29.ex.0 :: Residents see the night-time driving ban as a serious intrusion into their daily lives.
+b2.w.30 :: insole
+b2.w.30.ex.0 :: The insole in my left shoe has shifted, so the shoe presses against my foot when I walk.
+b2.w.31 :: classification, interpretation
+b2.w.31.ex.0 :: To interpret the figures fairly, we need to know how the comparison was made.
+b2.w.32 :: objection
+b2.w.32.ex.0 :: The objection to the app mainly concerns families without a smartphone of their own.
+b2.w.33 :: energy efficiency
+b2.w.33.ex.0 :: When replacing the heating system, energy efficiency as well as price should be taken into account.
+b2.w.34 :: decision-making freedom
+b2.w.34.ex.0 :: The team has more freedom to make decisions in its day-to-day work now that it can approve small purchases itself.
+b2.w.35 :: discretion
+b2.w.35.ex.0 :: The caseworker has a certain amount of discretion when choosing the deadline.
+b2.w.36 :: employment
+b2.w.36.ex.0 :: Returning to work is easier when childcare is reliable.
+b2.w.37 :: undesirable development
+b2.w.37.ex.0 :: With the new procedure, management hopes to identify undesirable developments early.
+b2.w.38 :: additional support needs
+b2.w.38.ex.0 :: To determine what extra support is needed, the school first observes the children in class.
+b2.w.39 :: counterbalance
+b2.w.39.ex.0 :: A regular phone appointment counterbalances the growing digitalisation of advisory services.
+b2.w.40 :: validity period
+b2.w.40.ex.0 :: The validity period was extended because many families had not yet been able to complete the application.
+b2.w.41 :: overall burden
+b2.w.41.ex.0 :: The calculation of the overall burden leaves out travel costs and childcare fees.
+b2.w.42 :: credibility
+b2.w.42.ex.0 :: The study's credibility depends on whether critical voices were also heard.
+b2.w.43 :: budget situation
+b2.w.43.ex.0 :: Despite a tight budget, the municipality wants to keep the youth centre open.
+b2.w.44 :: inhibition, reluctance
+b2.w.44.ex.0 :: At the first meeting, many people were reluctant to ask questions in front of the whole group.
+b2.w.45 :: indication, evidence
+b2.w.45.ex.0 :: The long wait is an indication of staff shortages, but not proof of them.
+b2.w.46 :: infrastructure
+b2.w.46.ex.0 :: Without reliable digital infrastructure, it is not possible to organise remote classes.
+b2.w.47 :: representation of interests
+b2.w.47.ex.0 :: The passengers' representatives were involved in planning the new timetable.
+b2.w.48 :: main point
+b2.w.48.ex.0 :: The report's main point is that a second entrance could reduce waiting times.
+b2.w.49 :: division of responsibilities
+b2.w.49.ex.0 :: A clear division of responsibilities prevents two offices from handling the same complaint.
+b2.w.50 :: increase in costs
+b2.w.50.ex.0 :: The increase in costs is partly due to higher energy prices.
+b2.w.51 :: performance capacity
+b2.w.51.ex.0 :: The network has enough capacity for normal use, but performance drops at peak times.
+b2.w.52 :: cooperation, participation
+b2.w.52.ex.0 :: Without the neighbourhood's cooperation, the swap shelf would have disappeared long ago.
+b2.w.53 :: sustainability
+b2.w.53.ex.0 :: For the canteen, sustainability concerns not only packaging but also where the ingredients come from.
+b2.w.54 :: transparency, traceability
+b2.w.54.ex.0 :: At parents' request, the association publishes the criteria to make its decisions more transparent.
+b2.w.55 :: competing uses
+b2.w.55.ex.0 :: In the small park, cyclists, children and people seeking peace compete for space.
+b2.w.56 :: guiding framework
+b2.w.56.ex.0 :: The recommendations provide a guiding framework while leaving room for local solutions.
+b2.w.57 :: staff retention
+b2.w.57.ex.0 :: A reliable work schedule matters more for retaining staff than a one-off bonus.
+b2.w.58 :: priority
+b2.w.58.ex.0 :: During the renovation, safe access for everyone takes precedence and is the highest priority.
+b2.w.59 :: framework condition
+b2.w.59.ex.0 :: Without reliable framework conditions, it is difficult to plan classes for the whole semester.
+b2.w.60 :: benchmark
+b2.w.60.ex.0 :: The benchmark for processing time is two weeks, though a large number of applications may take longer.
+b2.w.61 :: feedback loop
+b2.w.61.ex.0 :: Regular feedback from users helps identify problems earlier.
+b2.w.62 :: interface
+b2.w.62.ex.0 :: At the interface between the office and the workshop, order changes sometimes get lost.
+b2.w.63 :: weak point
+b2.w.63.ex.0 :: The plan's biggest weak point is the lack of a late-evening connection.
+b2.w.64 :: awareness-raising
+b2.w.64.ex.0 :: To raise awareness of noise, the school measured sound levels for a week.
+b2.w.65 :: point of view
+b2.w.65.ex.0 :: Her point of view changed once she herself came to rely on the bus every morning.
+b2.w.66 :: care, diligence
+b2.w.66.ex.0 :: Care is needed when checking receipts because small amounts are easy to overlook.
+b2.w.67 :: statement, position
+b2.w.67.ex.0 :: In its statement, the parents' council explains why it is sticking to the early date.
+b2.w.68 :: sample
+b2.w.68.ex.0 :: The sample includes only people from the city centre and says little about the villages.
+b2.w.69 :: structural change
+b2.w.69.ex.0 :: Structural change is visible in the neighbourhood: homes and offices are replacing old factories.
+b2.w.70 :: trend
+b2.w.70.ex.0 :: The trend towards later bookings makes it difficult for the association to plan rooms in advance.
+b2.w.71 :: load-bearing capacity
+b2.w.71.ex.0 :: Before putting more books on the shelf, we need to check its load-bearing capacity.
+b2.w.72 :: agreement
+b2.w.72.ex.0 :: There is broad agreement on costs, but differences remain over the schedule.
+b2.w.73 :: overload
+b2.w.73.ex.0 :: At the first signs of overload, employees should ask for support early.
+b2.w.74 :: feasibility
+b2.w.74.ex.0 :: The technical feasibility is established; it remains unclear who will carry out the work.
+b2.w.75 :: unequal treatment
+b2.w.75.ex.0 :: The association is checking whether the new registration deadline leads to unequal treatment.
+b2.w.76 :: procedure
+b2.w.76.ex.0 :: The simplified procedure is intended to reduce the number of documents families need to submit.
+b2.w.77 :: proportionality
+b2.w.77.ex.0 :: When introducing new rules, the proportionality of the measures must be reviewed.
+b2.w.78 :: reliability
+b2.w.78.ex.0 :: For passengers, the reliability of the service matters more than saving two minutes.
+b2.w.79 :: supply shortage
+b2.w.79.ex.0 :: Because of a supply shortage, the pharmacy will not receive the medication until next week.
+b2.w.80 :: use, recovery
+b2.w.80.ex.0 :: Better planning of quantities is the first step towards making use of leftover food.
+b2.w.81 :: reservation, concern
+b2.w.81.ex.0 :: Despite his reservations, the neighbour agreed to the trial of the new opening hours.
+b2.w.82 :: preliminary decision
+b2.w.82.ex.0 :: The vote was a preliminary decision. Final approval will not come until May.
+b2.w.83 :: perception
+b2.w.83.ex.0 :: People's perception of the neighbourhood has changed since the square was renovated.
+b2.w.84 :: appreciation
+b2.w.84.ex.0 :: Personal feedback often shows more appreciation than a general email.
+b2.w.85 :: effectiveness
+b2.w.85.ex.0 :: The measure's effectiveness was reviewed again after six months.
+b2.w.86 :: state of knowledge
+b2.w.86.ex.0 :: Given what is currently known, management does not expect any further delays.
+b2.w.87 :: conflicting objectives
+b2.w.87.ex.0 :: There is a conflict between short delivery times and lower travel costs.
+b2.w.88 :: proof of access
+b2.w.88.ex.0 :: For the first visit, the booking confirmation is sufficient proof of access.
+b2.w.89 :: reasonableness, acceptability
+b2.w.89.ex.0 :: The discussion was open about whether the changed commute was reasonable.
+b2.w.90 :: additional burden
+b2.w.90.ex.0 :: The new requirement is a significant additional burden for small businesses.
+b2.w.91 :: grant, contribution
+b2.w.91.ex.0 :: A grant from the city enabled the association to make the rooms accessible.
+b2.w.92 :: to cushion, to mitigate
+b2.w.92.ex.0 :: A subsidy is intended to cushion the impact of rising heating costs.
+b2.w.93 :: to distinguish, to separate
+b2.w.93.ex.0 :: The report clearly distinguishes renovation costs from ongoing operating costs.
+b2.w.94 :: to infer, to derive
+b2.w.94.ex.0 :: No general rule can be derived from a single survey.
+b2.w.95 :: to refrain from
+b2.w.95.ex.0 :: Because of the weather, the association decided against holding an outdoor festival.
+b2.w.96 :: to note, to remark
+b2.w.96.ex.0 :: I would like to note that the quoted prices are valid only until the end of May.
+b2.w.97 :: to suggest, to propose
+b2.w.97.ex.0 :: The advisory board suggests publishing the results in plain language as well.
+b2.w.98 :: to aim, to strive
+b2.w.98.ex.0 :: The school aims to have every class take part in the project at least once.
+b2.w.99 :: to maintain, to keep going
+b2.w.99.ex.0 :: Despite the construction work, the library was able to remain open.
+b2.w.100 :: to outweigh
+b2.w.100.ex.0 :: For me, the lower price does not outweigh the longer daily commute.
+b2.w.101 :: not to materialise
+b2.w.101.ex.0 :: The hoped-for relief did not materialise even after an extra bus was put into service.
+b2.w.102 :: to support, to favour
+b2.w.102.ex.0 :: The majority supports later opening hours on Fridays.
+b2.w.103 :: to contribute to
+b2.w.103.ex.0 :: The new lighting helps children feel safer on their way home.
+b2.w.104 :: to criticise, to complain about
+b2.w.104.ex.0 :: Parents complain that decisions are announced too late.
+b2.w.105 :: to manage, to cope with
+b2.w.105.ex.0 :: A clear division of tasks makes the move easier to manage.
+b2.w.106 :: to bring about, to result in
+b2.w.106.ex.0 :: Regular reminders have resulted in fewer appointments being forgotten.
+b2.w.107 :: to consolidate, to bring together
+b2.w.107.ex.0 :: The municipality brings together all the information about the renovation on one page.
+b2.w.108 :: to explain, to set out
+b2.w.108.ex.0 :: In her letter, the tenant sets out which repairs are still outstanding.
+b2.w.109 :: to include
+b2.w.109.ex.0 :: The neighbours were also consulted when the site was chosen.
+b2.w.110 :: to lose, to forfeit
+b2.w.110.ex.0 :: The shop lost some of its customers after the move.
+b2.w.111 :: to address, to respond to
+b2.w.111.ex.0 :: In her reply, the manager also addresses difficult questions.
+b2.w.112 :: to counteract
+b2.w.112.ex.0 :: More shaded seating should help counteract the heat in the schoolyard.
+b2.w.113 :: to refute
+b2.w.113.ex.0 :: The tenant was able to refute the allegation with the photos.
+b2.w.114 :: to discuss
+b2.w.114.ex.0 :: At the meeting, we will discuss how waiting times can be reduced.
+b2.w.115 :: to enable
+b2.w.115.ex.0 :: The later start also enables people with jobs to take part.
+b2.w.116 :: to open up, to serve
+b2.w.116.ex.0 :: The new bus route serves a residential area that previously had poor connections.
+b2.w.117 :: to set, to determine
+b2.w.117.ex.0 :: The administration has set the fee for next year.
+b2.w.118 :: to assert, to claim
+b2.w.118.ex.0 :: The customer wants to claim her right to a refund.
+b2.w.119 :: to question
+b2.w.119.ex.0 :: Before adopting the proposal, we should question the figures.
+b2.w.120 :: to work towards
+b2.w.120.ex.0 :: The advisory board is working towards better lighting at the station.
+b2.w.121 :: to call into question
+b2.w.121.ex.0 :: The new information leads the group to question the earlier decision.
+b2.w.122 :: to cut, to reduce
+b2.w.122.ex.0 :: The city cut the project's funding without giving a reason.
+b2.w.123 :: to make improvements
+b2.w.123.ex.0 :: The company needs to improve the signs because the entrance is hard to find.
+b2.w.124 :: to understand, to follow
+b2.w.124.ex.0 :: I can understand why you were disappointed with the first delivery.
+b2.w.125 :: to put into perspective
+b2.w.125.ex.0 :: The second measurement puts the initially sharp increase into perspective.
+b2.w.126 :: to reverse
+b2.w.126.ex.0 :: The change can be reversed within ten minutes.
+b2.w.127 :: to fluctuate
+b2.w.127.ex.0 :: Demand fluctuates with the weather, especially on public holidays.
+b2.w.128 :: to become apparent
+b2.w.128.ex.0 :: It was already becoming apparent in April that the construction work would take longer.
+b2.w.129 :: to prove effective
+b2.w.129.ex.0 :: The new procedure has proved particularly effective for requests made at short notice.
+b2.w.130 :: to be unnecessary
+b2.w.130.ex.0 :: If you submit the application online, there is no need to visit the office.
+b2.w.131 :: to increase, to become more frequent
+b2.w.131.ex.0 :: Complaints about the leaking roof increase when it rains.
+b2.w.132 :: to escalate
+b2.w.132.ex.0 :: The situation escalated when the replacement bus also broke down.
+b2.w.133 :: to outweigh
+b2.w.133.ex.0 :: For me, the advantages of a shorter commute outweigh the drawbacks.
+b2.w.134 :: to deal with
+b2.w.134.ex.0 :: In the course, we learn how to deal with complaints calmly.
+b2.w.135 :: to prevent, to stop
+b2.w.135.ex.0 :: The barrier is intended to prevent cars from entering the courtyard.
+b2.w.136 :: to be subject to
+b2.w.136.ex.0 :: Official documents are subject to special data protection rules.
+b2.w.137 :: to estimate, to budget
+b2.w.137.ex.0 :: The renovation was initially estimated to take three weeks.
+b2.w.138 :: to illustrate
+b2.w.138.ex.0 :: The chart illustrates the difference between the two rates.
+b2.w.139 :: to standardise
+b2.w.139.ex.0 :: The organisation wants to standardise the forms across all its sites.
+b2.w.140 :: to miss, to fail to meet
+b2.w.140.ex.0 :: Despite higher spending, the company failed to meet its target this year.
+b2.w.141 :: to verify
+b2.w.141.ex.0 :: The team must verify the figures before the report is published.
+b2.w.142 :: to resume
+b2.w.142.ex.0 :: Operations are to resume on Monday after the outage.
+b2.w.143 :: to assign, to allocate
+b2.w.143.ex.0 :: Management assigns each group its own table.
+b2.w.144 :: to attribute to
+b2.w.144.ex.0 :: The workshop attributes the damage to a faulty cable.
+b2.w.145 :: to doubt
+b2.w.145.ex.0 :: Some members doubt that the measure will work without additional staff.
+b2.w.146 :: detrimental
+b2.w.146.ex.0 :: Constant interruptions are detrimental to concentration.
+b2.w.147 :: partly, to some extent
+b2.w.147.ex.0 :: The letter only partly explains why the price changed.
+b2.w.148 :: decisive
+b2.w.148.ex.0 :: The decisive factor in the decision was that the site can be reached by bus.
+b2.w.149 :: based on need
+b2.w.149.ex.0 :: The advisory service is offered according to need, so not everyone requires the same appointment.
+b2.w.150 :: without hesitation
+b2.w.150.ex.0 :: I would share the draft without hesitation only after it had been reviewed.
+b2.w.151 :: reliable, robust
+b2.w.151.ex.0 :: We need more than two responses to make a reliable statement.
+b2.w.152 :: remarkable
+b2.w.152.ex.0 :: It is remarkable that the number of complaints has fallen despite the renovation.
+b2.w.153 :: or, respectively
+b2.w.153.ex.0 :: The two appointments are on Tuesday and Thursday, respectively.
+b2.w.154 :: in this respect
+b2.w.154.ex.0 :: The feedback is clear in that most guests want longer opening hours.
+b2.w.155 :: nevertheless
+b2.w.155.ex.0 :: The renovation is taking longer than expected; nevertheless, the office remains open.
+b2.w.156 :: nuanced
+b2.w.156.ex.0 :: A nuanced view shows that the situation has not improved for every group.
+b2.w.157 :: for the time being
+b2.w.157.ex.0 :: The service remains suspended for the time being until a new room is found.
+b2.w.158 :: by mutual agreement
+b2.w.158.ex.0 :: The two parties ended the contract by mutual agreement.
+b2.w.159 :: contrary to expectations
+b2.w.159.ex.0 :: Contrary to expectations, many older people came for advice on the first day.
+b2.w.160 :: as a rule, in our experience
+b2.w.160.ex.0 :: In our experience, more guests arrive without an appointment during the summer.
+b2.w.161 :: apparent
+b2.w.161.ex.0 :: The invoice does not make clear why the total has increased.
+b2.w.162 :: consequently
+b2.w.162.ex.0 :: The old rule no longer applies, so we have to update the forms.
+b2.w.163 :: freely accessible
+b2.w.163.ex.0 :: The summary is freely accessible on the website.
+b2.w.164 :: equally
+b2.w.164.ex.0 :: The change affects new and long-standing members equally.
+b2.w.165 :: fundamentally
+b2.w.165.ex.0 :: The new bus stop has fundamentally changed our commute.
+b2.w.166 :: sufficiently
+b2.w.166.ex.0 :: The causes have not yet been sufficiently clarified.
+b2.w.167 :: regarding, with respect to
+b2.w.167.ex.0 :: The two offers differ very little in terms of cost.
+b2.w.168 :: to that extent, in this respect
+b2.w.168.ex.0 :: In this respect, the proposal is convincing: it can be tested quickly.
+b2.w.169 :: in the long term
+b2.w.169.ex.0 :: In the long term, additional trees could lower the temperature in the square.
+b2.w.170 :: decisive, determining
+b2.w.170.ex.0 :: For registration, the decisive factor is when the application was received.
+b2.w.171 :: for lack of
+b2.w.171.ex.0 :: For lack of suitable rooms, the meeting will be held online this time.
+b2.w.172 :: by majority
+b2.w.172.ex.0 :: The parents present voted by majority in favour of the Saturday course.
+b2.w.173 :: in the medium term
+b2.w.173.ex.0 :: In the medium term, the two separate advisory services are to be brought together.
+b2.w.174 :: sustainable
+b2.w.174.ex.0 :: Reusable cups are sustainable only if they are used often enough.
+b2.w.175 :: significant
+b2.w.175.ex.0 :: There is hardly any significant difference in price for short trips.
+b2.w.176 :: properly
+b2.w.176.ex.0 :: The delivery was registered properly, but arrived too late.
+b2.w.177 :: in general, across the board
+b2.w.177.ex.0 :: The question cannot be answered across the board because every contract is different.
+b2.w.178 :: plausible
+b2.w.178.ex.0 :: The explanation sounds plausible but cannot be verified using the available data.
+b2.w.179 :: potentially
+b2.w.179.ex.0 :: The additional entrance could potentially be helpful for families with prams.
+b2.w.180 :: retroactively
+b2.w.180.ex.0 :: The revised fee does not apply retroactively to months that have already been paid for.
+b2.w.181 :: gradually
+b2.w.181.ex.0 :: The new timetable is to be introduced gradually from June onwards.
+b2.w.182 :: on the part of
+b2.w.182.ex.0 :: So far, there has been no response to the complaint on the part of the administration.
+b2.w.183 :: as far as can be seen
+b2.w.183.ex.0 :: As far as can be seen, all applications from March have been processed.
+b2.w.184 :: as a general tendency
+b2.w.184.ex.0 :: As a general tendency, groups in the morning are smaller than those in the evening.
+b2.w.185 :: viable, sustainable
+b2.w.185.ex.0 :: The solution is viable only if enough volunteers help regularly.
+b2.w.186 :: predominantly, mostly
+b2.w.186.ex.0 :: Deliveries arrive mostly in the morning when the entrance is clear.
+b2.w.187 :: controversial
+b2.w.187.ex.0 :: The closure of the main road remains controversial in the neighbourhood.
+b2.w.188 :: essential, indispensable
+b2.w.188.ex.0 :: Consistent questions are essential for a fair comparison.
+b2.w.189 :: not taken into account
+b2.w.189.ex.0 :: The maintenance costs were not included in the first bill.
+b2.w.190 :: unrestricted
+b2.w.190.ex.0 :: After the repair, the lift was once again fully operational.
+b2.w.191 :: indispensable
+b2.w.191.ex.0 :: For people without a car, the connection to the hospital is essential.
+b2.w.192 :: unmistakably, unequivocally
+b2.w.192.ex.0 :: The property management made it absolutely clear that the access must be kept clear.
+b2.w.193 :: underlying, implicit
+b2.w.193.ex.0 :: Although nobody criticised him directly, he sensed an undercurrent of criticism about his decision.
+b2.w.194 :: acceptable, justifiable
+b2.w.194.ex.0 :: A short delay is acceptable if it helps prevent errors.
+b2.w.195 :: in advance
+b2.w.195.ex.0 :: Please send us the list in advance so we can prepare the room appropriately.
+b2.w.196 :: subject to
+b2.w.196.ex.0 :: Subject to the association's approval, work will begin in June.
+b2.w.197 :: as a precaution
+b2.w.197.ex.0 :: We reserved a second room as a precaution in case more families arrive.
+b2.w.198 :: largely
+b2.w.198.ex.0 :: The draft is largely complete. Only the cost details are still missing.
+b2.w.199 :: unexpectedly, against expectations
+b2.w.199.ex.0 :: Contrary to expectations, the journey on the replacement bus took hardly any longer.
+b2.w.200 :: possibly, perhaps
+b2.w.200.ex.0 :: If we change the times, more working people may be able to attend.
+b2.w.201 :: decomposition process
+b2.w.201.ex.0 :: At low temperatures, decomposition in the compost proceeds much more slowly than in summer.
+b2.w.202 :: to revoke, to strip someone of
+b2.w.202.ex.0 :: The jury stripped the participant of the prize after checking the origin of the work.
+b2.w.203 :: once again
+b2.w.203.ex.0 :: The meeting had to be postponed once again because the revised cost overview was not yet available.
+b2.w.204 :: processing, dispatch
+b2.w.204.ex.0 :: Two additional counters were opened to process ferry passengers because of the heavy traffic.
+b2.w.205 :: drainage channel
+b2.w.205.ex.0 :: After the heavy rain, the building authority checked whether the old drainage channel was large enough.
+b2.w.206 :: reconciliation, comparison
+b2.w.206.ex.0 :: Only when the invoices were reconciled did anyone notice that a payment had been recorded twice.
+b2.w.207 :: to go missing
+b2.w.207.ex.0 :: Two folders went missing during the office move and did not turn up again until months later.
+b2.w.208 :: agreement, treaty
+b2.w.208.ex.0 :: The agreement requires both municipalities to divide the operating costs of the shared facility according to population.
+b2.w.209 :: to replace, to supersede
+b2.w.209.ex.0 :: The new procedure will replace the paper list once all sites are connected.
+b2.w.210 :: in conclusion, final
+b2.w.210.ex.0 :: In conclusion, the moderator explained which proposals should be pursued and which should be discussed again in autumn.
+b2.w.211 :: estimate
+b2.w.211.ex.0 :: We still need feedback from the workshops involved to make a reliable estimate of the workload.
+b2.w.212 :: to refrain, to hold off
+b2.w.212.ex.0 :: Because the costs were unclear, the board decided to hold off on renovating the room for now.
+b2.w.213 :: abstinence
+b2.w.213.ex.0 :: For several weeks, she documented how abstaining from alcohol affected her daily life.
+b2.w.214 :: to scale according to income
+b2.w.214.ex.0 :: The municipality scales its grants according to income so that lower-income families receive more support.
+b2.w.215 :: sliding scale
+b2.w.215.ex.0 :: A more finely graduated pricing scale would make it possible to offer lower rates for short visits.
+b2.w.216 :: to transfer
+b2.w.216.ex.0 :: The owner transferred some of her shares so two long-time employees could join the business.
+b2.w.217 :: to wait for
+b2.w.217.ex.0 :: Before signing the contract, she wants to wait for the results of the independent review.
+b2.w.218 :: different, contrary
+b2.w.218.ex.0 :: Contrary to the original plan, the training began with an exercise drawn from everyday work.
+b2.w.219 :: to avert, to prevent
+b2.w.219.ex.0 :: A quick repair allowed the team to avert a prolonged shutdown of the entire system.
+b2.w.220 :: to amend, to alter
+b2.w.220.ex.0 :: The publisher later changed the title to avoid confusion with an older book.
+b2.w.221 :: commendable
+b2.w.221.ex.0 :: I think it is commendable that she spoke openly about the errors even under time pressure.
+b2.w.222 :: accreditation
+b2.w.222.ex.0 :: Journalists were not allowed backstage without prior accreditation.
+b2.w.223 :: at most
+b2.w.223.ex.0 :: The old printer is suitable for drafts at most because fine lines are barely visible.
+b2.w.224 :: general knowledge
+b2.w.224.ex.0 :: The exhibition requires no specialist knowledge and deliberately builds on visitors' general knowledge.
+b2.w.225 :: contaminated site
+b2.w.225.ex.0 :: Before homes can be built, the city must have the contaminated site investigated.
+b2.w.226 :: official
+b2.w.226.ex.0 :: The date is considered officially confirmed only once the corresponding entry appears in the register.
+b2.w.227 :: taking office
+b2.w.227.ex.0 :: Shortly after taking office, the mayor announced public meetings in each neighbourhood.
+b2.w.228 :: to initiate, to establish
+b2.w.228.ex.0 :: At the trade fair, the small company initiated a partnership with two regional suppliers.
+b2.w.229 :: growing region
+b2.w.229.ex.0 :: Fruit growers in higher-altitude areas have to expect night frosts for longer in spring.
+b2.w.230 :: contestable, open to appeal
+b2.w.230.ex.0 :: The decision could be challenged because not all members had been invited to vote.
+b2.w.231 :: challenge, appeal
+b2.w.231.ex.0 :: After the election was challenged, the association decided to have all the documents reviewed independently.
+b2.w.232 :: list of requirements
+b2.w.232.ex.0 :: The list of requirements helps the team decide which features must be ready before release.
+b2.w.233 :: to cite, to give as a reason
+b2.w.233.ex.0 :: The manager cited the need for more space for several groups at once as the reason for the change.
+b2.w.234 :: hearing
+b2.w.234.ex.0 :: At the hearing, residents explained how the planned diversion would affect the school route.
+b2.w.235 :: to appeal to, to be well received
+b2.w.235.ex.0 :: The new course format appealed especially to people who cannot attend regular evening sessions.
+b2.w.236 :: to boost, to stimulate
+b2.w.236.ex.0 :: To boost sales, the bookshop offered a series of short readings in December.
+b2.w.237 :: to blame on, to attribute to
+b2.w.237.ex.0 :: It was hard to blame the driver for the late delivery because the goods had not been ready until late.
+b2.w.238 :: on the occasion of
+b2.w.238.ex.0 :: For the reopening, the museum invited former employees and their families to the first guided tour.
+b2.w.239 :: to presume, to take it upon oneself
+b2.w.239.ex.0 :: No individual should presume to decide on everyone's work without consulting them.
+b2.w.240 :: presumption, arrogance
+b2.w.240.ex.0 :: She considered it presumptuous for an outsider to decide what her duties were without asking.
+b2.w.241 :: entitlement, right
+b2.w.241.ex.0 :: Anyone who meets the agreed requirements is entitled to a written explanation of the decision.
+b2.w.242 :: establishment, settlement
+b2.w.242.ex.0 :: The arrival of new businesses created jobs but also increased demand for affordable housing.
+b2.w.243 :: demanding, challenging
+b2.w.243.ex.0 :: The translation was challenging because some German terms can have several meanings.
+b2.w.244 :: proportionally, proportionate share
+b2.w.244.ex.0 :: The associations pay a proportionate share of the costs based on how often they actually use the room.
+b2.w.245 :: applicability
+b2.w.245.ex.0 :: Using several case studies, we tested whether the method applied to very different industries.
+b2.w.246 :: to question, to doubt
+b2.w.246.ex.0 :: Several members questioned the figures because they had been collected on just one weekday.
+b2.w.247 :: working group
+b2.w.247.ex.0 :: The working group developed a draft that is to be tested with two classes next school year.
+b2.w.248 :: labour-intensive
+b2.w.248.ex.0 :: Preparing the old data proved labour-intensive because many records were available only on paper.
+b2.w.249 :: labour dispute

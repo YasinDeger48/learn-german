@@ -1,0 +1,40 @@
+b2.w.359.ex.0 :: The team saw the greatest potential for savings in machines that unnecessarily kept running outside working hours.
+b2.w.360 :: objection, appeal
+b2.w.360.ex.0 :: His appeal led to the assessment being reviewed again using the same criteria.
+b2.w.361 :: registration, entry
+b2.w.361.ex.0 :: The entry in the register became visible only after the second signature had been checked.
+b2.w.362 :: objection
+b2.w.362.ex.0 :: The written objection concerned the planned opening hours, not the construction project itself.
+b2.w.363 :: to consent
+b2.w.363.ex.0 :: The participant consented to having her statement included anonymously in the analysis.
+b2.w.364 :: recipient list
+b2.w.364.ex.0 :: Jana checked the recipient list before sending because the documents contained internal information.
+b2.w.365 :: to design, to draft
+b2.w.365.ex.0 :: The young people designed three different posters, which were then discussed throughout the school.
+b2.w.366 :: draft version
+b2.w.366.ex.0 :: The first draft version did not say which results had yet to be checked.
+b2.w.367 :: success rate
+b2.w.367.ex.0 :: The success rate was higher in small groups, even though everyone had to complete the same tasks.
+b2.w.368 :: open-ended, without a predetermined outcome
+b2.w.368.ex.0 :: Management promised an open-ended discussion even though it already favoured a particular solution.
+b2.w.369 :: state of preservation
+b2.w.369.ex.0 :: Because it was in good condition, the old instrument could be exhibited after a simple cleaning.
+b2.w.370 :: survey period
+b2.w.370.ex.0 :: Since the survey period fell during the school holidays, fewer families with school-age children were reached.
+b2.w.371 :: recognisable
+b2.w.371.ex.0 :: The blurry photo showed only that the shop had existed before the renovation.
+b2.w.372 :: exploration, survey
+b2.w.372.ex.0 :: The groups had different maps and brief instructions to help them explore the site.
+b2.w.373 :: explanation
+b2.w.373.ex.0 :: An additional explanation would have helped because the same symbol had different meanings in two places.
+b2.w.374 :: without compensation, altogether
+b2.w.374.ex.0 :: The fee was abolished without compensation after several institutions opposed the new charge.
+b2.w.375 :: appearance
+b2.w.375.ex.0 :: The museum wanted to improve its appearance with small changes to the entrance while leaving the facade untouched.
+b2.w.376 :: earnings situation
+b2.w.376.ex.0 :: Despite stable sales, rising material costs worsened earnings in the second half of the year.
+b2.w.377 :: acquisition, purchase
+b2.w.377.ex.0 :: The used machines were purchased after a specialist had assessed their condition.
+b2.w.378 :: to consider, to contemplate
+b2.w.378.ex.0 :: Management considered moving the date after several employees unexpectedly became unavailable.
+b2.w.379 :: consideration

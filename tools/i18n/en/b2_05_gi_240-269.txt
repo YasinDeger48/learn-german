@@ -1,0 +1,30 @@
+b2.gi.240 :: The action described by the noun in parentheses is expressed here with the verb form “wartete”. The meeting started later because the team was still waiting for the last group.
+b2.gi.241 :: The action described by the noun in parentheses is expressed here with the verb form “ausgetauscht”. After replacing the valve, the technician checked the pressure again.
+b2.gi.242 :: The action described by the noun in parentheses is expressed here with the verb form “einzuhalten”. To meet the deadline, the administration must review both applications today.
+b2.gi.243 :: The action described by the noun in parentheses is expressed here with the verb form “geöffnet”. Before the hall reopened, the caretaker checked all the exits.
+b2.gi.244 :: The action described by the noun in parentheses is expressed here with the verb form “ausgefallen”. Although the printer had broken down again, the editorial team met the deadline.
+b2.gi.245 :: The action described by the noun in parentheses is expressed here with the verb form “überprüft”. Everyone involved will receive a copy as soon as the team has checked the figures.
+b2.gi.246 :: The action described by the noun in parentheses is expressed here with the verb form “beteiligen”. The school is expanding the programme so that more teenagers can take part.
+b2.gi.247 :: The action described by the noun in parentheses is expressed here with the verb form “prüfen”. The manager was unwilling to make a commitment without reviewing the contract carefully.
+b2.gi.248 :: The action described by the noun in parentheses is expressed here with the verb form “passte”. After the new requirements were published, the company adapted its procedure.
+b2.gi.249 :: The action described by the noun in parentheses is expressed here with the verb form “zugeordnet”. The researcher recorded the data again because she had initially assigned several values incorrectly.
+b2.gi.250 :: The action described by the noun in parentheses is expressed here with the verb form “ersetzen”. Instead of simply replacing the old software, the library first tried an interim solution.
+b2.gi.251 :: The action described by the noun in parentheses is expressed here with the verb form “wiederholt”. The lab technician documents every step so that the results can be reproduced.
+b2.gi.252 :: The action described by the noun in parentheses is expressed here with the verb form “anmelden”. Anyone who wants to register for the seminar must submit the form by Tuesday.
+b2.gi.253 :: The action described by the noun in parentheses is expressed here with the verb form “erläuterte”. When the spokesperson explained the costs, he also presented the original estimate.
+b2.gi.254 :: The action described by the noun in parentheses is expressed here with the verb form “reinigen”. The association asked for the room to be cleaned only after eight o'clock.
+b2.gi.255 :: The action described by the noun in parentheses is expressed here with the verb form “verwechselt”. The goods were stored separately so that they would not be mixed up by mistake.
+b2.gi.256 :: The action described by the noun in parentheses is expressed here with the verb form “geeinigt”. Renovation can begin once both groups have agreed on how to use the space.
+b2.gi.257 :: The action described by the noun in parentheses is expressed here with the verb form “senken”. The workshop switches off unused equipment at the end of the day to reduce consumption.
+b2.gi.258 :: The action described by the noun in parentheses is expressed here with the verb form “verlängert”. Since the library extended its opening hours, considerably more commuters have been visiting in the evening.
+b2.gi.259 :: The action described by the noun in parentheses is expressed here with the verb form “genehmigen”. It was still unclear after the meeting whether the city would approve the proposed site.
+b2.gi.260 :: The action described by the noun in parentheses is expressed here with the verb form “gemeldet”. The retailer refunded the amount after the customer reported the damage in writing.
+b2.gi.261 :: The action described by the noun in parentheses is expressed here with the verb form “verglich”. By comparing two sources, the editorial team was able to establish exactly what had prompted the event.
+b2.gi.262 :: The action described by the noun in parentheses is expressed here with the verb form “abgebaut”. Before the curtain was taken down, the musicians rehearsed the final transition.
+b2.gi.263 :: The action described by the noun in parentheses is expressed here with the verb form “abgelaufen”. The application could not initially be processed because the deadline had already passed.
+b2.gi.264 :: The action described by the noun in parentheses is expressed here with the verb form “gestalten”. She asked a colleague to redesign the old table for the presentation.
+b2.gi.265 :: The action described by the noun in parentheses is expressed here with the verb form “untersuchte”. While management investigated the causes, the rear entrance remained closed to visitors.
+b2.gi.266 :: The action described by the noun in parentheses is expressed here with the verb form “abgeschlossen”. We returned the measuring instruments after the lab had completed the series of measurements.
+b2.gi.267 :: The action described by the noun in parentheses is expressed here with the verb form “bestätigen”. Any details that can be verified will be corrected in the next issue.
+b2.gi.268 :: The action described by the noun in parentheses is expressed here with the verb form “dokumentieren”. The museum promised to document the find before reporting it publicly.
+b2.gi.269 :: The action described by the noun in parentheses is expressed here with the verb form “angestiegen”. The association put out extra chairs because demand had risen unexpectedly.

@@ -1,0 +1,50 @@
+b2.w.724.ex.0 :: The apparent error could be explained once the units of measurement in both tables had been checked.
+b2.w.725 :: to note, to record
+b2.w.725.ex.0 :: The clerk recorded the date of receipt so the sequence of events could be verified later.
+b2.w.726 :: to reduce
+b2.w.726.ex.0 :: By using a shared filing system, the team reduced the number of repeated enquiries.
+b2.w.727 :: to conceal, to obscure
+b2.w.727.ex.0 :: The way the information was presented obscured how much the burden varied from group to group.
+b2.w.728 :: to spare
+b2.w.728.ex.0 :: The only area spared by the outage was the one that had already been upgraded the previous day.
+b2.w.729 :: to move, to relocate
+b2.w.729.ex.0 :: The city moved the stop so older passengers could reach the entrance without having to go out of their way.
+b2.w.730 :: to dry up
+b2.w.730.ex.0 :: When donations dried up, the association limited its activities to the courses already in progress.
+b2.w.731 :: to pass, to elapse
+b2.w.731.ex.0 :: Several weeks passed before a reply came, and nobody could access the documents during that time.
+b2.w.732 :: to postpone, to adjourn
+b2.w.732.ex.0 :: The council postponed the decision because the maintenance costs were still unknown.
+b2.w.733 :: allocation formula
+b2.w.733.ex.0 :: A transparent allocation formula made it easier to agree on how to share operating costs.
+b2.w.734 :: to deepen
+b2.w.734.ex.0 :: In the second course, participants deepened their understanding by working on a small project of their own.
+b2.w.735 :: contract clause
+b2.w.735.ex.0 :: An ambiguous clause in the contract prompted several queries from the new tenants.
+b2.w.736 :: party to a contract
+b2.w.736.ex.0 :: Each party received an updated draft before signing.
+b2.w.737 :: distribution costs
+b2.w.737.ex.0 :: Distribution costs fell after the company combined several delivery routes.
+b2.w.738 :: to unsettle, to make uncertain
+b2.w.738.ex.0 :: The conflicting information confused many parents trying to register their children for the first time.
+b2.w.739 :: reproduction, copying
+b2.w.739.ex.0 :: The museum needed written permission to reproduce the photographs.
+b2.w.740 :: to reject, to discard
+b2.w.740.ex.0 :: The team abandoned the first plan after two key prerequisites no longer held.
+b2.w.741 :: usability, suitability for analysis
+b2.w.741.ex.0 :: The size of the samples was only one factor in determining whether they could be used.
+b2.w.742 :: to distort
+b2.w.742.ex.0 :: A single very high figure distorted the impression the chart gave at first glance.
+b2.w.743 :: distortion, bias
+b2.w.743.ex.0 :: The researcher looked for possible bias arising from the selection of respondents.
+b2.w.744 :: versatility
+b2.w.744.ex.0 :: Her versatility was particularly evident when she worked with different age groups.
+b2.w.745 :: to complete, to finish
+b2.w.745.ex.0 :: The artist finished the mural only after new lighting was installed in the room.
+b2.w.746 :: implementation, enforcement
+b2.w.746.ex.0 :: Municipalities initially differed in how they implemented the policy.
+b2.w.747 :: preliminary check
+b2.w.747.ex.0 :: An initial check was intended to prevent unnecessary delays in processing incomplete applications.
+b2.w.748 :: to prevent
+b2.w.748.ex.0 :: Regular inspections aim to catch minor damp damage early and prevent the need for major repairs.
+b2.w.749 :: role model, example to follow

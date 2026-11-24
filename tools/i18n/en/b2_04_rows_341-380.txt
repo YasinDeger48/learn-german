@@ -1,0 +1,40 @@
+b2.w.919.ex.0 :: The course was intended to close a gap in education that had repeatedly come to light in earlier surveys.
+b2.w.920 :: bid validity period
+b2.w.920.ex.0 :: The short validity period forced the association to evaluate the bids that same day.
+b2.w.921 :: lasting
+b2.w.921.ex.0 :: The conversation with former factory workers in particular left a lasting impression.
+b2.w.922 :: soil sample
+b2.w.922.ex.0 :: A second soil sample confirmed that the difference was more than a matter of chance.
+b2.w.923 :: industry comparison
+b2.w.923.ex.0 :: To compare the industries, the expenses first had to be grouped into standard categories.
+b2.w.924 :: wide-ranging
+b2.w.924.ex.0 :: The programme ranged from practical exercises to conversations with experienced professionals.
+b2.w.925 :: responsiveness to residents
+b2.w.925.ex.0 :: The service showed that it was responsive to residents' needs by offering evening appointments as well.
+b2.w.926 :: chronologically
+b2.w.926.ex.0 :: The letters were put in chronological order after several approximate dates had been checked.
+b2.w.927 :: data gap
+b2.w.927.ex.0 :: Because of a gap in the data, the trend in the second quarter could only be roughly estimated.
+b2.w.928 :: debate culture
+b2.w.928.ex.0 :: The group made a point of addressing difficult questions without resorting to personal attacks.
+b2.w.929 :: of this kind
+b2.w.929.ex.0 :: A change of this kind would be easier to implement if all affected offices were involved early on.
+b2.w.930 :: likewise
+b2.w.930.ex.0 :: The first group asked for more time, and several people in the second group did likewise.
+b2.w.931 :: decentralisation
+b2.w.931.ex.0 :: Decentralisation gave individual sites more freedom to schedule appointments at short notice.
+b2.w.932 :: range of services
+b2.w.932.ex.0 :: The municipality expanded its range of services after demand for evening consultations grew.
+b2.w.933 :: this time around
+b2.w.933.ex.0 :: This time, the assessment included several tasks taken directly from everyday work.
+b2.w.934 :: dominance
+b2.w.934.ex.0 :: A few voices dominated less once contributions were collected in writing first.
+b2.w.935 :: dual role
+b2.w.935.ex.0 :: Her dual role as a parent representative and teacher prompted questions during the vote.
+b2.w.936 :: tacit permission
+b2.w.936.ex.0 :: The temporary permission ended as soon as a suitable room was officially made available.
+b2.w.937 :: quite, indeed
+b2.w.937.ex.0 :: The proposal would make good sense if the maintenance costs were known.
+b2.w.938 :: well thought out
+b2.w.938.ex.0 :: The solution seemed well thought out because it even accounted for cleaning after larger events.
+b2.w.939 :: bleak

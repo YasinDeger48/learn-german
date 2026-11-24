@@ -1,0 +1,200 @@
+die|Abhängigkeit|die Abhängigkeiten|bağımlılık|Die Gemeinde möchte ihre Abhängigkeit von einem einzigen Energieanbieter verringern.|Belediye tek bir enerji sağlayıcısına bağımlılığını azaltmak istiyor.
+die|Abkehr|-|vazgeçiş, uzaklaşma|Die Abkehr vom Bargeld erleichtert manchen Kunden den Einkauf, erschwert ihn aber anderen.|Nakitten uzaklaşmak bazı müşterilerin alışverişini kolaylaştırırken diğerlerininkini zorlaştırıyor.
+die|Abweichung|die Abweichungen|sapma, farklılık|Bei einer größeren Abweichung vom Kostenvoranschlag bitten wir um vorherige Rücksprache.|Tahmini maliyetten önemli bir sapma olursa önceden bizimle görüşülmesini rica ederiz.
+die|Akzeptanz|-|kabul, benimsenme|Die Akzeptanz des neuen Systems stieg, nachdem die Mitarbeitenden eigene Vorschläge einbringen konnten.|Çalışanlar önerilerini sunabildikten sonra yeni sistem daha çok benimsendi.
+die|Anlaufphase|die Anlaufphasen|başlangıç aşaması|In der Anlaufphase des Projekts haben wir mehr Fragen erwartet als fertige Lösungen.|Projenin başlangıç aşamasında hazır çözümlerden çok soru bekliyorduk.
+der|Anreiz|die Anreize|teşvik|Ein günstigerer Tarif wäre für viele Pendler ein Anreiz, auf die Bahn umzusteigen.|Daha uygun tarife birçok yolcu için trene geçme teşviki olurdu.
+der|Anspruch|die Ansprüche|hak, talep|Ob ein Anspruch auf Erstattung besteht, hängt von den Bedingungen der Buchung ab.|İade hakkının olup olmadığı rezervasyon koşullarına bağlı.
+der|Aufschluss|-|bilgi, açıklık|Die Umfrage gibt Aufschluss darüber, warum einige Familien den Kurs abgebrochen haben.|Anket bazı ailelerin kursu neden bıraktığına açıklık getiriyor.
+die|Aufwertung|die Aufwertungen|değer kazandırma|Die Aufwertung des Platzes hat mehr Leute ins Viertel gebracht, gleichzeitig sind die Mieten gestiegen.|Meydanın iyileştirilmesi semte daha çok insan çekti, aynı zamanda kiralar arttı.
+die|Auseinandersetzung|die Auseinandersetzungen|tartışma, yüzleşme|Die Auseinandersetzung mit den Beschwerden hat gezeigt, dass das eigentliche Problem die fehlende Information war.|Şikâyetleri ele almak asıl sorunun bilgi eksikliği olduğunu gösterdi.
+die|Auslastung|-|kullanım oranı, doluluk|Wegen der geringen Auslastung am Vormittag bietet das Bad günstigere Eintrittskarten an.|Sabah doluluğu düşük olduğu için havuz daha ucuz bilet sunuyor.
+der|Ausschluss|die Ausschlüsse|dışlama, kapsam dışı tutma|Der Ausschluss von Barzahlungen wurde in der Sitzung lange diskutiert.|Nakit ödemenin kapsam dışında tutulması toplantıda uzun süre tartışıldı.
+die|Aussagekraft|-|açıklayıcılık, ifade gücü|Drei Rückmeldungen haben nur begrenzte Aussagekraft, wenn der Kurs sechzig Teilnehmende hatte.|Kursa altmış kişi katıldıysa üç geri bildirimin açıklayıcılığı sınırlıdır.
+die|Auswertung|die Auswertungen|sonuç değerlendirmesi|Die Auswertung zeigt, dass die Absagen vor allem Familien ohne Auto betreffen.|Değerlendirme, iptallerin özellikle arabası olmayan aileleri etkilediğini gösteriyor.
+die|Barrierefreiheit|-|engelsiz erişilebilirlik|Bei der Planung des Bürgerbüros wurde auf Barrierefreiheit und einfache Beschilderung geachtet.|Vatandaş bürosu planlanırken erişilebilirliğe ve sade tabelalara dikkat edildi.
+die|Bedarfsermittlung|die Bedarfsermittlungen|ihtiyaç tespiti|Für die Bedarfsermittlung hat das Team Familien gefragt, welche Zeiten sie tatsächlich nutzen könnten.|İhtiyaç tespiti için ekip ailelere gerçekte hangi saatleri kullanabileceklerini sordu.
+die|Begründungspflicht|die Begründungspflichten|gerekçe sunma yükümlülüğü|Die Begründungspflicht soll dafür sorgen, dass abgelehnte Anträge nachvollziehbar sind.|Gerekçe sunma yükümlülüğü reddedilen başvuruların nedenini anlaşılır kılmayı amaçlıyor.
+die|Beteiligung|die Beteiligungen|katılım, ortaklık|Eine breite Beteiligung ist leichter zu erreichen, wenn Termine auch abends angeboten werden.|Akşam saatlerinde de toplantı olursa geniş katılım sağlamak daha kolay.
+das|Betreuungsangebot|die Betreuungsangebote|bakım hizmeti seçeneği|Das Betreuungsangebot passt gut zu Vollzeitstellen, hilft Eltern mit Nachtschichten aber kaum.|Bakım hizmeti tam zamanlı işlere uyuyor ama gece vardiyasında çalışan velilere pek yardımcı olmuyor.
+die|Bewilligung|die Bewilligungen|resmî onay|Mit der schriftlichen Bewilligung kann der Verein endlich die neuen Geräte bestellen.|Dernek yazılı onayla nihayet yeni cihazları sipariş edebilir.
+die|Bilanz|die Bilanzen|bilanço, genel değerlendirme|Nach einem Jahr zieht die Stadt eine gemischte Bilanz: weniger Verkehr, aber mehr Beschwerden aus den Nebenstraßen.|Belediyenin bir yıllık değerlendirmesi karışık: trafik azaldı ama yan sokaklardan daha çok şikâyet geldi.
+die|Chancengleichheit|-|fırsat eşitliği|Die Schule fördert Chancengleichheit, indem sie für die Projektwoche Geräte ausleiht.|Okul proje haftasında cihaz ödünç vererek fırsat eşitliğini destekliyor.
+die|Daseinsvorsorge|-|temel kamu hizmetlerinin sağlanması|Für viele Gemeinden gehört ein verlässlicher Busverkehr zur Daseinsvorsorge.|Birçok belediye için güvenilir otobüs ulaşımı temel bir kamu hizmeti.
+die|Datenerhebung|die Datenerhebungen|veri toplama|Die Datenerhebung wurde auf zwei Wochen begrenzt, um die Mitarbeitenden nicht zu belasten.|Çalışanlara yük olmamak için veri toplama iki haftayla sınırlandı.
+die|Deutung|die Deutungen|yorum|Die beiden Deutungen des Ergebnisses führen zu unterschiedlichen Empfehlungen.|Sonucun iki farklı yorumu farklı tavsiyelere yol açıyor.
+das|Dilemma|die Dilemmata|ikilem|Das Team steht vor einem Dilemma: Mehr Öffnungszeiten kosten Geld, kürzere Zeiten schließen manche Kunden aus.|Ekip ikilemde: Daha uzun çalışma saatleri masraflı, kısa saatlerse bazı müşterileri dışarıda bırakıyor.
+die|Diskrepanz|die Diskrepanzen|uyuşmazlık, fark|Zwischen angekündigter und tatsächlicher Lieferdauer besteht eine deutliche Diskrepanz.|Duyurulanla gerçek teslim süresi arasında belirgin bir fark var.
+die|Durchsetzung|-|uygulatma, yürütme|Für die Durchsetzung der neuen Regeln braucht die Schule die Unterstützung der Eltern.|Yeni kuralları uygulatmak için okulun velilerin desteğine ihtiyacı var.
+der|Eingriff|die Eingriffe|müdahale|Die Anwohner sehen das nächtliche Fahrverbot als starken Eingriff in ihren Alltag.|Mahalle sakinleri gece araç yasağını gündelik yaşamlarına güçlü bir müdahale olarak görüyor.
+die|Einlage|die Einlagen|tabanlık, iç parça|Die Einlage in meinem linken Schuh ist verrutscht, deshalb drückt der Schuh beim Gehen.|Sol ayakkabımdaki tabanlık kaydığı için yürürken ayakkabı ayağımı sıkıyor.
+die|Einordnung|die Einordnungen|bağlama oturtma, sınıflandırma|Für eine faire Einordnung der Zahlen müssen wir wissen, wie der Vergleich zustande kam.|Sayıları adil değerlendirmek için karşılaştırmanın nasıl yapıldığını bilmeliyiz.
+der|Einwand|die Einwände|itiraz, karşı görüş|Der Einwand gegen die App betrifft vor allem Familien ohne eigenes Smartphone.|Uygulamayla ilgili itiraz özellikle kendi akıllı telefonu olmayan aileleri ilgilendiriyor.
+die|Energieeffizienz|-|enerji verimliliği|Beim Ersatz der Heizung soll neben dem Preis auch die Energieeffizienz berücksichtigt werden.|Isıtma sistemi değiştirilirken fiyatın yanında enerji verimliliği de dikkate alınmalı.
+der|Entscheidungsspielraum|die Entscheidungsspielräume|karar alanı|Das Team hat im Alltag mehr Entscheidungsspielraum, seit es kleinere Anschaffungen selbst genehmigen darf.|Küçük alımları kendisi onaylayabildiğinden beri ekibin karar alanı genişledi.
+der|Ermessensspielraum|die Ermessensspielräume|takdir alanı|Die Sachbearbeiterin hat bei der Wahl der Frist einen gewissen Ermessensspielraum.|Görevlinin süreyi belirlerken belli bir takdir alanı var.
+die|Erwerbstätigkeit|die Erwerbstätigkeiten|gelir getirici çalışma|Die Rückkehr in die Erwerbstätigkeit fällt leichter, wenn die Kinderbetreuung verlässlich ist.|Çocuk bakımı güvenilir olunca ücretli çalışmaya dönmek kolaylaşıyor.
+die|Fehlentwicklung|die Fehlentwicklungen|olumsuz gelişme|Mit dem neuen Verfahren möchte die Leitung mögliche Fehlentwicklungen früh erkennen.|Yönetim yeni yöntemle olası olumsuz gelişmeleri erken görmek istiyor.
+der|Förderbedarf|die Förderbedarfe|destek ihtiyacı|Um den Förderbedarf zu ermitteln, beobachtet die Schule die Kinder zunächst im Unterricht.|Okul destek ihtiyacını belirlemek için önce çocukları derste gözlemliyor.
+das|Gegengewicht|die Gegengewichte|dengeleyici unsur|Ein fester telefonischer Termin ist ein Gegengewicht zur zunehmenden Digitalisierung der Beratung.|Sabit telefon görüşmesi, danışmanlığın giderek dijitalleşmesine karşı dengeleyici bir unsur.
+die|Geltungsdauer|die Geltungsdauern|geçerlilik süresi|Die Geltungsdauer wurde verlängert, weil viele Familien den Antrag noch nicht abschließen konnten.|Birçok aile başvuruyu tamamlayamadığı için geçerlilik süresi uzatıldı.
+die|Gesamtbelastung|die Gesamtbelastungen|toplam yük|Bei der Rechnung zur Gesamtbelastung fehlen die Fahrtkosten und die Betreuungsgebühren.|Toplam yük hesabında yol giderleri ve bakım ücretleri eksik.
+die|Glaubwürdigkeit|-|inandırıcılık, güvenilirlik|Die Glaubwürdigkeit der Untersuchung hängt davon ab, ob auch kritische Stimmen gehört wurden.|Araştırmanın güvenilirliği eleştirel seslerin de dinlenip dinlenmediğine bağlı.
+die|Haushaltslage|die Haushaltslagen|bütçe durumu|Trotz angespannter Haushaltslage möchte die Gemeinde das Jugendzentrum geöffnet lassen.|Bütçe sıkışık olmasına rağmen belediye gençlik merkezini açık tutmak istiyor.
+die|Hemmung|die Hemmungen|çekinme, engelleme|Beim ersten Treffen hatten viele Hemmungen, ihre Fragen vor der ganzen Gruppe zu stellen.|İlk buluşmada birçok kişi grubun önünde soru sormaktan çekindi.
+das|Indiz|die Indizien|belirti, emare|Die lange Wartezeit ist ein Indiz für fehlendes Personal, aber noch kein Beweis dafür.|Uzun bekleme süresi personel eksikliğinin bir belirtisi ama tek başına kanıt değil.
+die|Infrastruktur|die Infrastrukturen|altyapı|Ohne eine verlässliche digitale Infrastruktur lässt sich der Unterricht nicht auf Distanz organisieren.|Güvenilir dijital altyapı olmadan uzaktan eğitim düzenlenemiyor.
+die|Interessenvertretung|die Interessenvertretungen|çıkarları temsil etme, temsil organı|Die Interessenvertretung der Fahrgäste wurde bei der Planung des neuen Fahrplans einbezogen.|Yeni sefer planı hazırlanırken yolcu temsilcileri sürece dahil edildi.
+die|Kernaussage|die Kernaussagen|ana fikir|Die Kernaussage des Berichts lautet, dass ein zweiter Zugang die Wartezeit verkürzen könnte.|Raporun ana fikri ikinci bir girişin bekleme süresini kısaltabileceği.
+die|Kompetenzverteilung|die Kompetenzverteilungen|yetki dağılımı|Eine klare Kompetenzverteilung verhindert, dass dieselbe Beschwerde von zwei Stellen bearbeitet wird.|Açık yetki dağılımı aynı şikâyetin iki birimde işlenmesini önler.
+die|Kostensteigerung|die Kostensteigerungen|maliyet artışı|Die Kostensteigerung ist zum Teil auf höhere Energiepreise zurückzuführen.|Maliyet artışının bir kısmı yükselen enerji fiyatlarından kaynaklanıyor.
+die|Leistungsfähigkeit|-|kapasite, performans|Die Leistungsfähigkeit des Netzes reicht bei normaler Nutzung aus, sinkt aber zu Stoßzeiten.|Ağın kapasitesi normal kullanımda yetiyor ama yoğun saatlerde düşüyor.
+die|Mitwirkung|die Mitwirkungen|katılım, katkı|Ohne die Mitwirkung der Nachbarschaft wäre das Tauschregal längst verschwunden.|Mahallelinin katkısı olmasaydı takas rafı çoktan ortadan kalkardı.
+die|Nachhaltigkeit|-|sürdürülebilirlik|Bei der Nachhaltigkeit geht es für die Kantine nicht nur um Verpackung, sondern auch um die Herkunft der Zutaten.|Yemekhane için sürdürülebilirlik ambalaj kadar malzemelerin kaynağıyla da ilgili.
+die|Nachvollziehbarkeit|-|izlenebilirlik, anlaşılabilirlik|Auf Wunsch der Eltern veröffentlicht der Verein die Kriterien zur besseren Nachvollziehbarkeit.|Dernek, velilerin isteğiyle kararın daha kolay anlaşılması için ölçütleri yayımlıyor.
+die|Nutzungskonkurrenz|die Nutzungskonkurrenzen|aynı alan için kullanım rekabeti|Im kleinen Park gibt es Nutzungskonkurrenz zwischen Radfahrern, Kindern und Menschen, die Ruhe suchen.|Küçük parkta bisikletliler, çocuklar ve huzur arayanlar aynı alanı kullanmak istiyor.
+der|Orientierungsrahmen|die Orientierungsrahmen|yol gösterici çerçeve|Die Empfehlungen dienen als Orientierungsrahmen und lassen Platz für Lösungen vor Ort.|Öneriler yol gösterici bir çerçeve sunuyor ve yerel çözümlere alan bırakıyor.
+die|Personalbindung|-|çalışanları elde tutma|Ein verlässlicher Dienstplan ist für die Personalbindung wichtiger als ein einmaliger Bonus.|Düzenli vardiya çizelgesi çalışanları elde tutmada tek seferlik ikramiyeden daha önemli.
+die|Priorität|die Prioritäten|öncelik|Beim Umbau hat der sichere Zugang für alle Vorrang und damit höchste Priorität.|Tadilatta herkes için güvenli erişim en yüksek öncelik.
+die|Rahmenbedingung|die Rahmenbedingungen|çerçeve koşulu|Ohne verlässliche Rahmenbedingungen lässt sich der Unterricht für das ganze Halbjahr kaum planen.|Güvenilir çerçeve koşulları olmadan tüm yarıyılın derslerini planlamak zor.
+der|Richtwert|die Richtwerte|referans değer|Der Richtwert für die Bearbeitungszeit beträgt zwei Wochen; bei vielen Anträgen kann es länger dauern.|İşlem için referans süre iki hafta, başvuru çoksa daha uzun sürebilir.
+die|Rückkopplung|die Rückkopplungen|geri besleme|Durch eine regelmäßige Rückkopplung mit den Nutzern fallen Probleme früher auf.|Kullanıcılardan düzenli geri bildirim alınması sorunların daha erken fark edilmesini sağlıyor.
+die|Schnittstelle|die Schnittstellen|kesim noktası, arayüz|An der Schnittstelle zwischen Büro und Werkstatt gehen Änderungen an Bestellungen manchmal verloren.|Büroyla atölye arasında sipariş değişiklikleri bazen kayboluyor.
+die|Schwachstelle|die Schwachstellen|zayıf nokta|Die größte Schwachstelle des Plans ist die fehlende Verbindung am späten Abend.|Planın en zayıf noktası akşam geç saatte bağlantı olmaması.
+die|Sensibilisierung|-|duyarlılık geliştirme|Zur Sensibilisierung für Lärm hat die Schule eine Woche lang den Geräuschpegel gemessen.|Gürültü konusunda farkındalık yaratmak için okul bir hafta ses düzeyini ölçtü.
+die|Sichtweise|die Sichtweisen|bakış açısı|Ihre Sichtweise hat sich geändert, seit sie selbst jeden Morgen auf den Bus angewiesen ist.|Her sabah kendisi de otobüse bağımlı olduğundan beri bakış açısı değişti.
+die|Sorgfalt|-|özen|Bei der Prüfung der Belege ist Sorgfalt gefragt, weil kleine Beträge leicht übersehen werden.|Küçük tutarlar kolayca gözden kaçabildiği için belgeleri incelerken özen gerekiyor.
+die|Stellungnahme|die Stellungnahmen|görüş bildirimi|In seiner Stellungnahme erklärt der Elternbeirat, warum er an dem frühen Termin festhält.|Veli kurulu görüş yazısında erken tarihte niçin ısrar ettiğini açıklıyor.
+die|Stichprobe|die Stichproben|örneklem|Die Stichprobe enthält nur Menschen aus der Innenstadt und sagt wenig über die Dörfer aus.|Örneklem sadece şehir merkezindekileri kapsıyor, köyler hakkında az şey söylüyor.
+der|Strukturwandel|-|yapısal dönüşüm|Der Strukturwandel wird im Viertel sichtbar: An die Stelle alter Fabriken treten Wohnungen und Büros.|Semtte yapısal dönüşüm görülüyor: Eski fabrikaların yerini evler ve bürolar alıyor.
+die|Tendenz|die Tendenzen|eğilim|Die Tendenz zu späteren Buchungen macht es dem Verein schwer, Räume im Voraus zu planen.|Daha geç rezervasyon eğilimi derneğin mekânı önceden planlamasını zorlaştırıyor.
+die|Tragfähigkeit|-|taşıma kapasitesi, sürdürülebilirlik|Bevor wir mehr Bücher ins Regal stellen, müssen wir seine Tragfähigkeit prüfen.|Rafa daha fazla kitap koymadan taşıma kapasitesini kontrol etmeliyiz.
+die|Übereinstimmung|die Übereinstimmungen|uyum, örtüşme|Bei den Kosten gibt es weitgehende Übereinstimmung, beim Zeitplan bleiben Unterschiede.|Masraflarda büyük ölçüde uzlaşma var, takvimde farklılıklar sürüyor.
+die|Überlastung|die Überlastungen|aşırı yüklenme|Bei Anzeichen von Überlastung sollen die Mitarbeitenden früh um Unterstützung bitten.|Aşırı yüklenme belirtilerinde çalışanlar erkenden destek istemeli.
+die|Umsetzbarkeit|-|uygulanabilirlik|Die technische Umsetzbarkeit ist gegeben; offen bleibt, wer die Arbeit übernehmen soll.|Teknik olarak uygulanabilir, ancak işi kimin üstleneceği henüz belli değil.
+die|Ungleichbehandlung|die Ungleichbehandlungen|eşitsiz muamele|Der Verein prüft, ob die neue Anmeldefrist zu einer Ungleichbehandlung führt.|Dernek yeni kayıt süresinin eşitsiz muameleye yol açıp açmadığını inceliyor.
+das|Verfahren|die Verfahren|yöntem, işlem süreci|Mit dem vereinfachten Verfahren sollen Familien weniger Unterlagen vorlegen müssen.|Basitleştirilmiş süreçle ailelerin daha az belge sunması amaçlanıyor.
+die|Verhältnismäßigkeit|-|ölçülülük|Bei der Aufstellung neuer Regeln muss die Verhältnismäßigkeit der Maßnahmen geprüft werden.|Yeni kurallar konurken tedbirlerin ölçülü olup olmadığı incelenmeli.
+die|Verlässlichkeit|-|güvenilirlik|Für die Fahrgäste ist die Verlässlichkeit der Verbindung wichtiger als zwei Minuten Zeitgewinn.|Yolcular için bağlantının güvenilirliği iki dakika kazanmaktan önemli.
+der|Versorgungsengpass|die Versorgungsengpässe|tedarik sıkıntısı|Wegen eines Versorgungsengpasses liefert die Apotheke das Medikament erst in der nächsten Woche.|Tedarik sıkıntısı nedeniyle eczane ilacı ancak gelecek hafta teslim edebiliyor.
+die|Verwertung|die Verwertungen|değerlendirme, kullanıma kazandırma|Die Verwertung übrig gebliebener Lebensmittel beginnt bei einer besseren Planung der Mengen.|Artan yiyecekleri değerlendirmenin ilk adımı miktarları daha iyi planlamak.
+der|Vorbehalt|die Vorbehalte|çekince|Trotz seiner Vorbehalte hat der Nachbar dem Versuch mit den neuen Öffnungszeiten zugestimmt.|Çekincelerine rağmen komşu yeni çalışma saatlerinin denenmesine onay verdi.
+die|Vorentscheidung|die Vorentscheidungen|ön karar|Die Abstimmung war eine Vorentscheidung, die endgültige Zusage kommt erst im Mai.|Oylama bir ön karardı, kesin onay ancak mayısta gelecek.
+die|Wahrnehmung|die Wahrnehmungen|algı|Die Wahrnehmung des Stadtteils hat sich nach dem Umbau des Platzes verändert.|Meydan yenilendikten sonra semte ilişkin algı değişti.
+die|Wertschätzung|-|takdir, değer verme|Eine persönliche Rückmeldung zeigt oft mehr Wertschätzung als eine allgemeine Rundmail.|Kişiye özel geri bildirim çoğu zaman genel bir e-postadan daha çok takdir ifade eder.
+die|Wirksamkeit|-|etkililik|Die Wirksamkeit der Maßnahme wurde nach sechs Monaten erneut geprüft.|Tedbirin etkililiği altı ay sonra yeniden incelendi.
+der|Wissensstand|die Wissensstände|bilgi düzeyi|Nach dem aktuellen Wissensstand rechnet die Leitung nicht mit einer weiteren Verzögerung.|Mevcut bilgilere göre yönetim yeni bir gecikme beklemiyor.
+der|Zielkonflikt|die Zielkonflikte|hedef çatışması|Zwischen kurzen Lieferzeiten und geringeren Fahrtkosten besteht ein Zielkonflikt.|Kısa teslim süreleriyle daha düşük ulaşım giderleri çatışıyor.
+der|Zugangsnachweis|die Zugangsnachweise|erişim belgesi|Beim ersten Besuch reicht die Buchungsbestätigung als Zugangsnachweis aus.|İlk ziyarette giriş belgesi olarak rezervasyon onayı yeterli.
+die|Zumutbarkeit|-|makul olarak beklenebilirlik|Über die Zumutbarkeit des geänderten Arbeitswegs wurde im Gespräch offen gesprochen.|Değişen işe gidiş yolunun makul olup olmadığı görüşmede açıkça konuşuldu.
+die|Zusatzbelastung|die Zusatzbelastungen|ek yük|Für kleinere Betriebe ist die neue Pflicht eine deutliche Zusatzbelastung.|Yeni yükümlülük küçük işletmeler için belirgin bir ek yük.
+die|Zuwendung|die Zuwendungen|maddi destek, ilgi|Mit einer Zuwendung der Stadt konnte der Verein die Räume barrierefrei umbauen.|Belediyenin maddi desteğiyle dernek mekânı erişilebilir hâle getirdi.
+v|abfedern|er federt ab · hat abgefedert|etkisini hafifletmek|Ein Zuschuss soll die Folgen der gestiegenen Heizkosten abfedern.|Maddi destek, artan ısınma giderlerinin etkisini hafifletmeyi amaçlıyor.
+v|abgrenzen|er grenzt ab · hat abgegrenzt|sınırını çizmek, ayırmak|Im Bericht werden die Kosten des Umbaus klar von denen des laufenden Betriebs abgegrenzt.|Raporda tadilat masrafları işletme giderlerinden açıkça ayrılıyor.
+v|ableiten|er leitet ab · hat abgeleitet|sonuç çıkarmak, türetmek|Aus einer einzigen Befragung lässt sich keine allgemeine Regel ableiten.|Tek bir anketten genel bir kural çıkarılamaz.
+v|absehen von|er sieht von … ab · hat von … abgesehen|vazgeçmek|Wegen des Wetters hat der Verein von einem Fest im Freien abgesehen.|Hava nedeniyle dernek açık hava şenliğinden vazgeçti.
+v|anmerken|er merkt an · hat angemerkt|belirtmek, not düşmek|Ich möchte anmerken, dass die genannten Preise nur bis Ende Mai gelten.|Belirtilen fiyatların yalnızca mayıs sonuna kadar geçerli olduğunu belirtmek istiyorum.
+v|anregen|er regt an · hat angeregt|öneride bulunmak, teşvik etmek|Der Beirat regt an, die Ergebnisse auch in einfacher Sprache zu veröffentlichen.|Kurul sonuçların sade dille de yayımlanmasını öneriyor.
+v|anstreben|er strebt an · hat angestrebt|hedeflemek|Die Schule strebt an, dass alle Klassen einmal an dem Projekt teilnehmen.|Okul tüm sınıfların projeye bir kez katılmasını hedefliyor.
+v|aufrechterhalten|er hält aufrecht · hat aufrechterhalten|sürdürmek|Trotz der Baustelle konnte die Bibliothek den Betrieb aufrechterhalten.|İnşaata rağmen kütüphane hizmetini sürdürebildi.
+v|aufwiegen|er wiegt auf · hat aufgewogen|denkleştirmek, ağır basmak|Der Preisvorteil wiegt die längere tägliche Fahrzeit für mich nicht auf.|Fiyat avantajı benim için her gün daha uzun yolda kalmaya değmiyor.
+v|ausbleiben|es bleibt aus · ist ausgeblieben|gerçekleşmemek, gelmemek|Die erhoffte Entlastung blieb aus, obwohl ein zusätzlicher Bus eingesetzt wurde.|Ek otobüs konmasına rağmen beklenen rahatlama gerçekleşmedi.
+v|befürworten|er befürwortet · hat befürwortet|desteklemek, lehinde olmak|Die Mehrheit befürwortet die spätere Öffnung am Freitag.|Çoğunluk cuma günü daha geç saate kadar açık kalmayı destekliyor.
+v|beitragen zu|er trägt zu … bei · hat zu … beigetragen|katkıda bulunmak|Die neue Beleuchtung trägt dazu bei, dass sich die Kinder auf dem Heimweg sicherer fühlen.|Yeni aydınlatma çocukların eve dönerken kendilerini daha güvende hissetmesine katkı sağlıyor.
+v|bemängeln|er bemängelt · hat bemängelt|eksik bulmak, eleştirmek|Die Eltern bemängeln, dass die Entscheidungen zu spät angekündigt werden.|Veliler kararların çok geç duyurulmasını eleştiriyor.
+v|bewältigen|er bewältigt · hat bewältigt|üstesinden gelmek|Mit einer klaren Aufgabenverteilung lässt sich der Umzug leichter bewältigen.|Görev paylaşımı açık olduğunda taşınmanın üstesinden gelmek kolaylaşıyor.
+v|bewirken|er bewirkt · hat bewirkt|sağlamak, yol açmak|Die regelmäßigen Erinnerungen haben bewirkt, dass weniger Termine vergessen werden.|Düzenli hatırlatmalar daha az randevunun unutulmasını sağladı.
+v|bündeln|er bündelt · hat gebündelt|birleştirmek, toplamak|Die Gemeinde bündelt alle Informationen zum Umbau auf einer Seite.|Belediye tadilatla ilgili tüm bilgileri bir sayfada topluyor.
+v|darlegen|er legt dar · hat dargelegt|açıklayıp sunmak|Im Brief legt die Mieterin dar, welche Reparaturen noch offen sind.|Kiracı mektupta hangi onarımların hâlâ beklediğini açıklıyor.
+v|einbeziehen|er bezieht ein · hat einbezogen|dahil etmek|Bei der Wahl des Standorts wurden auch die Nachbarn einbezogen.|Yer seçimine komşular da dahil edildi.
+v|einbüßen|er büßt ein · hat eingebüßt|kayba uğramak|Durch den Umzug hat das Geschäft einen Teil seiner Kundschaft eingebüßt.|Taşınma yüzünden dükkân müşterilerinin bir kısmını kaybetti.
+v|eingehen auf|er geht auf … ein · ist auf … eingegangen|bir konuyu ele almak|In ihrer Antwort geht die Leiterin auch auf schwierige Fragen ein.|Yönetici yanıtında zor soruları da ele alıyor.
+v|entgegenwirken|er wirkt entgegen · hat entgegengewirkt|etkisini azaltmak, karşı koymak|Mehr Schattenplätze sollen der Hitze auf dem Schulhof entgegenwirken.|Daha fazla gölgelik okul bahçesindeki sıcağın etkisini azaltacak.
+v|entkräften|er entkräftet · hat entkräftet|çürütmek|Mit den Fotos konnte der Mieter den Vorwurf entkräften.|Kiracı fotoğraflarla suçlamayı çürütebildi.
+v|erörtern|er erörtert · hat erörtert|tartışıp değerlendirmek|In der Sitzung erörtern wir, wie die Wartezeiten verkürzt werden können.|Toplantıda bekleme sürelerinin nasıl kısaltılabileceğini tartışacağız.
+v|ermöglichen|er ermöglicht · hat ermöglicht|olanak sağlamak|Der spätere Beginn ermöglicht auch Berufstätigen die Teilnahme.|Daha geç başlamak çalışanların da katılmasını sağlıyor.
+v|erschließen|er erschließt · hat erschlossen|kullanıma açmak, anlam çıkarmak|Die neue Buslinie erschließt ein Wohngebiet, das bisher schlecht angebunden war.|Yeni otobüs hattı şimdiye kadar ulaşımı yetersiz olan bir yerleşim bölgesini erişilebilir kılıyor.
+v|festsetzen|er setzt fest · hat festgesetzt|belirlemek|Die Verwaltung hat die Gebühr für das nächste Jahr festgesetzt.|Yönetim gelecek yılın ücretini belirledi.
+v|geltend machen|er macht geltend · hat geltend gemacht|bir hakkı ileri sürmek|Die Kundin möchte ihren Anspruch auf Rückzahlung geltend machen.|Müşteri geri ödeme hakkını kullanmak istiyor.
+v|hinterfragen|er hinterfragt · hat hinterfragt|sorgulamak|Bevor wir den Vorschlag übernehmen, sollten wir die Zahlen hinterfragen.|Öneriyi kabul etmeden önce sayıları sorgulamalıyız.
+v|hinwirken auf|er wirkt auf … hin · hat auf … hingewirkt|sağlanması için çalışmak|Der Beirat wirkt auf eine bessere Beleuchtung am Bahnhof hin.|Kurul istasyonda daha iyi aydınlatma sağlanması için çalışıyor.
+v|infrage stellen|er stellt infrage · hat infrage gestellt|sorgulamak, kuşku duymak|Durch die neuen Informationen stellt die Gruppe den alten Beschluss infrage.|Yeni bilgiler nedeniyle grup eski kararı sorguluyor.
+v|kürzen|er kürzt · hat gekürzt|kısaltmak, azaltmak|Die Stadt hat die Mittel für das Projekt gekürzt, ohne die Gründe zu nennen.|Belediye gerekçe belirtmeden projenin bütçesini azalttı.
+v|nachbessern|er bessert nach · hat nachgebessert|iyileştirmek, kusuru sonradan düzeltmek|Der Betrieb muss bei der Beschilderung nachbessern, weil der Eingang schwer zu finden ist.|Giriş zor bulunduğu için işletmenin tabelaları düzeltmesi gerekiyor.
+v|nachvollziehen|er vollzieht nach · hat nachvollzogen|anlamak, izleyerek değerlendirmek|Ich kann nachvollziehen, warum Sie bei der ersten Lieferung enttäuscht waren.|İlk teslimatta niçin hayal kırıklığına uğradığınızı anlayabiliyorum.
+v|relativieren|er relativiert · hat relativiert|göreli değerlendirmek, ağırlığını azaltmak|Die zweite Messung relativiert den zunächst sehr starken Anstieg.|İkinci ölçüm ilk başta çok güçlü görünen artışı daha sınırlı gösteriyor.
+v|rückgängig machen|er macht rückgängig · hat rückgängig gemacht|geri almak|Die Änderung lässt sich innerhalb von zehn Minuten rückgängig machen.|Değişiklik on dakika içinde geri alınabiliyor.
+v|schwanken|es schwankt · hat geschwankt|değişkenlik göstermek, dalgalanmak|Die Nachfrage schwankt je nach Wetter, besonders an Feiertagen.|Talep, özellikle tatillerde havaya göre dalgalanıyor.
+v|sich abzeichnen|es zeichnet sich ab · hat sich abgezeichnet|belirmeye başlamak|Bereits im April zeichnete sich ab, dass die Bauarbeiten länger dauern würden.|Nisanda inşaatın daha uzun süreceği belli olmaya başlamıştı.
+v|sich bewähren|es bewährt sich · hat sich bewährt|işe yaradığını kanıtlamak|Das neue Verfahren hat sich vor allem bei kurzfristigen Anfragen bewährt.|Yeni yöntem özellikle son dakika taleplerinde işe yaradığını gösterdi.
+v|sich erübrigen|es erübrigt sich · hat sich erübrigt|gereksiz hâle gelmek|Wenn Sie den Antrag online abschicken, erübrigt sich ein Besuch im Amt.|Başvuruyu internetten yollarsanız resmî daireye gitmeniz gerekmiyor.
+v|sich häufen|es häuft sich · hat sich gehäuft|artmak, sıklaşmak|Bei Regen häufen sich die Beschwerden über das undichte Dach.|Yağmurda akan çatıyla ilgili şikâyetler sıklaşıyor.
+v|sich zuspitzen|es spitzt sich zu · hat sich zugespitzt|ciddileşmek, gerilmek|Die Lage spitzte sich zu, als auch der Ersatzbus ausfiel.|Yedek otobüs de iptal olunca durum ciddileşti.
+v|überwiegen|es überwiegt · hat überwogen|ağır basmak|Für mich überwiegen die Vorteile des kürzeren Arbeitswegs.|Benim için daha kısa işe gidiş yolunun yararları ağır basıyor.
+v|umgehen mit|er geht mit … um · ist mit … umgegangen|başa çıkmak, idare etmek|Im Kurs lernen wir, wie man mit Beschwerden ruhig umgeht.|Kursta şikâyetlerle sakin biçimde nasıl başa çıkıldığını öğreniyoruz.
+v|unterbinden|er unterbindet · hat unterbunden|engellemek, durdurmak|Die Schranke soll den Autoverkehr im Innenhof unterbinden.|Bariyer iç avluda araç trafiğini engellemek için konuldu.
+v|unterliegen|es unterliegt · hat unterlegen|tabi olmak|Amtliche Unterlagen unterliegen besonderen Regeln für den Datenschutz.|Resmî belgeler özel veri koruma kurallarına tabi.
+v|veranschlagen|er veranschlagt · hat veranschlagt|tahmini maliyet veya süre belirlemek|Für den Umbau wurden zunächst drei Wochen veranschlagt.|Tadilat için başlangıçta üç hafta öngörüldü.
+v|veranschaulichen|er veranschaulicht · hat veranschaulicht|somutlaştırmak|Die Grafik veranschaulicht den Unterschied zwischen den beiden Tarifen.|Grafik iki tarife arasındaki farkı somutlaştırıyor.
+v|vereinheitlichen|er vereinheitlicht · hat vereinheitlicht|tek biçime getirmek|Der Träger möchte die Formulare für alle Standorte vereinheitlichen.|Yürütücü kuruluş tüm yerlerdeki formları tek biçime getirmek istiyor.
+v|verfehlen|er verfehlt · hat verfehlt|ulaşamamak, kaçırmak|Trotz höherer Ausgaben hat die Firma ihr Ziel für dieses Jahr verfehlt.|Daha yüksek harcamaya rağmen şirket bu yılki hedefine ulaşamadı.
+v|verifizieren|er verifiziert · hat verifiziert|doğrulamak|Bevor der Bericht erscheint, muss das Team die Zahlen verifizieren.|Rapor yayımlanmadan ekip sayıları doğrulamalı.
+v|wiederaufnehmen|er nimmt wieder auf · hat wiederaufgenommen|yeniden başlatmak|Nach dem Ausfall soll der Betrieb am Montag wiederaufgenommen werden.|Arızadan sonra faaliyetin pazartesi yeniden başlaması planlanıyor.
+v|zuteilen|er teilt zu · hat zugeteilt|paylaştırmak, tahsis etmek|Die Leitung teilt jeder Gruppe einen eigenen Tisch zu.|Yönetim her gruba ayrı bir masa veriyor.
+v|zurückführen auf|er führt auf … zurück · hat auf … zurückgeführt|bir nedene bağlamak|Die Werkstatt führt den Schaden auf ein beschädigtes Kabel zurück.|Tamirci arızayı hasarlı kabloya bağlıyor.
+v|zweifeln an|er zweifelt an … · hat an … gezweifelt|kuşku duymak|Einige Mitglieder zweifeln daran, dass die Maßnahme ohne zusätzliches Personal funktioniert.|Bazı üyeler tedbirin ek personel olmadan işleyeceğinden kuşku duyuyor.
+w|abträglich|-|zararlı, olumsuz|Ständige Unterbrechungen sind der Konzentration abträglich.|Sürekli kesintiler dikkati olumsuz etkiliyor.
+w|ansatzweise|-|bir ölçüde|Das Schreiben erklärt nur ansatzweise, warum sich der Preis geändert hat.|Yazı fiyatın neden değiştiğini ancak kısmen açıklıyor.
+w|ausschlaggebend|-|belirleyici|Für die Entscheidung war ausschlaggebend, dass der Standort mit dem Bus erreichbar ist.|Kararı belirleyen şey konuma otobüsle ulaşılabilmesiydi.
+w|bedarfsorientiert|-|ihtiyaca göre|Die Beratung wird bedarfsorientiert angeboten, sodass nicht jede Person denselben Termin braucht.|Danışmanlık ihtiyaca göre sunulduğu için herkesin aynı tür randevuya ihtiyacı olmuyor.
+w|bedenkenlos|-|çekinmeden|Den Entwurf würde ich erst nach einer Prüfung bedenkenlos weitergeben.|Taslağı ancak kontrol ettikten sonra gönül rahatlığıyla iletirim.
+w|belastbar|-|dayanıklı, güvenilir|Für eine belastbare Aussage brauchen wir mehr als zwei Rückmeldungen.|Güvenilir bir değerlendirme için ikiden fazla geri bildirim gerekiyor.
+w|bemerkenswert|-|dikkate değer|Bemerkenswert ist, dass die Zahl der Beschwerden trotz des Umbaus gesunken ist.|Tadilata rağmen şikâyet sayısının azalması dikkate değer.
+w|beziehungsweise|-|sırasıyla, daha doğrusu|Die beiden Termine finden am Dienstag beziehungsweise am Donnerstag statt.|İki randevu sırasıyla salı ve perşembe gerçekleşecek.
+w|dahingehend|-|bu yönden, bu açıdan|Die Rückmeldungen sind dahingehend eindeutig, dass die meisten Gäste längere Öffnungszeiten wünschen.|Geri bildirimler şu açıdan net: Konukların çoğu daha uzun çalışma saatleri istiyor.
+w|dennoch|-|yine de|Der Umbau dauert länger als gedacht; dennoch bleibt das Büro geöffnet.|Tadilat düşünülenden uzun sürüyor, yine de büro açık kalıyor.
+w|differenziert|-|ayrıntıları gözeten, ayrımlı|Eine differenzierte Betrachtung zeigt, dass sich die Lage nicht für alle Gruppen verbessert hat.|Ayrıntıları gözeten bakış, durumun bütün gruplar için iyileşmediğini gösteriyor.
+w|einstweilen|-|şimdilik|Bis ein neuer Raum gefunden ist, bleibt das Angebot einstweilen ausgesetzt.|Yeni bir yer bulunana kadar hizmet şimdilik askıda.
+w|einvernehmlich|-|karşılıklı anlaşarak|Die beiden Parteien haben den Vertrag einvernehmlich beendet.|İki taraf sözleşmeyi karşılıklı anlaşarak sona erdirdi.
+w|entgegen der Erwartung|-|beklenenin aksine|Entgegen der Erwartung kamen am ersten Tag viele ältere Menschen zur Beratung.|Beklenenin aksine ilk gün danışmaya birçok yaşlı geldi.
+w|erfahrungsgemäß|-|deneyimlere göre|Erfahrungsgemäß kommen im Sommer mehr Gäste ohne vorherige Anmeldung.|Deneyimlere göre yazın randevusuz daha çok konuk geliyor.
+w|ersichtlich|-|görülebilir, anlaşılabilir|Aus der Rechnung ist nicht ersichtlich, warum der Gesamtbetrag gestiegen ist.|Toplam tutarın niçin arttığı faturadan anlaşılmıyor.
+w|folglich|-|dolayısıyla|Die alte Regel gilt nicht mehr, folglich müssen wir die Formulare aktualisieren.|Eski kural artık geçerli değil, dolayısıyla formları güncellememiz gerekiyor.
+w|frei zugänglich|-|herkese açık|Die Zusammenfassung ist auf der Webseite frei zugänglich.|Özet internet sayfasında herkese açık.
+w|gleichermaßen|-|eşit şekilde, aynı ölçüde|Die Änderung betrifft neue und langjährige Mitglieder gleichermaßen.|Değişiklik yeni ve eski üyeleri aynı ölçüde etkiliyor.
+w|grundlegend|-|temel, köklü|Mit der neuen Haltestelle ändert sich unser Arbeitsweg grundlegend.|Yeni durakla işe gidiş yolumuz kökten değişiyor.
+w|hinreichend|-|yeterli ölçüde|Die Ursachen sind noch nicht hinreichend geklärt.|Nedenler henüz yeterince açıklığa kavuşmadı.
+w|hinsichtlich|-|bakımından|Hinsichtlich der Kosten unterscheiden sich die beiden Angebote kaum.|İki teklif maliyet bakımından pek farklı değil.
+w|insoweit|-|bu ölçüde, bu bakımdan|Insoweit ist der Vorschlag überzeugend: Er lässt sich schnell ausprobieren.|Öneri şu bakımdan ikna edici: Çabuk denenebilir.
+w|langfristig|-|uzun vadede|Langfristig könnten zusätzliche Bäume die Temperatur auf dem Platz senken.|Uzun vadede daha fazla ağaç meydanın sıcaklığını düşürebilir.
+w|maßgeblich|-|belirleyici ölçüde|Für die Anmeldung ist maßgeblich, wann der Antrag eingegangen ist.|Kayıt için belirleyici olan başvurunun ne zaman ulaştığıdır.
+w|mangels|-|eksikliği nedeniyle|Mangels geeigneter Räume findet das Treffen diesmal online statt.|Uygun mekân bulunamadığı için buluşma bu kez çevrimiçi yapılacak.
+w|mehrheitlich|-|çoğunlukla|Die anwesenden Eltern haben sich mehrheitlich für den Samstagskurs ausgesprochen.|Katılan velilerin çoğunluğu cumartesi kursunu destekledi.
+w|mittelfristig|-|orta vadede|Mittelfristig sollen die beiden getrennten Beratungsangebote zusammengeführt werden.|Orta vadede iki ayrı danışmanlık hizmetinin birleştirilmesi planlanıyor.
+w|nachhaltig|-|sürdürülebilir biçimde, kalıcı olarak|Mehrwegbecher sind nur dann nachhaltig, wenn sie oft genug benutzt werden.|Yeniden kullanılabilir bardaklar ancak yeterince sık kullanılırsa sürdürülebilir.
+w|nennenswert|-|kayda değer|Ein nennenswerter Preisunterschied besteht bei kurzen Fahrten kaum.|Kısa yolculuklarda kayda değer bir fiyat farkı pek yok.
+w|ordnungsgemäß|-|usulüne uygun|Die Lieferung wurde ordnungsgemäß angemeldet, traf aber zu spät ein.|Teslimat usulüne uygun bildirildi ama geç ulaştı.
+w|pauschal|-|genelleyerek, sabit tutarlı|Die Frage lässt sich nicht pauschal beantworten, weil jeder Vertrag anders ist.|Her sözleşme farklı olduğu için soru genelleme yapılarak yanıtlanamaz.
+w|plausibel|-|akla yatkın|Die Erklärung klingt plausibel, lässt sich aber mit den vorhandenen Daten nicht überprüfen.|Açıklama akla yatkın geliyor ama eldeki verilerle doğrulanamıyor.
+w|potenziell|-|potansiyel olarak|Der zusätzliche Eingang könnte für Familien mit Kinderwagen potenziell hilfreich sein.|Ek giriş bebek arabası olan aileler için yararlı olabilir.
+w|rückwirkend|-|geriye dönük|Die geänderte Gebühr gilt nicht rückwirkend für bereits bezahlte Monate.|Değişen ücret ödenmiş aylar için geriye dönük uygulanmıyor.
+w|schrittweise|-|adım adım, aşamalı olarak|Der neue Fahrplan soll ab Juni schrittweise eingeführt werden.|Yeni sefer planı hazirandan itibaren aşamalı olarak uygulanacak.
+w|seitens|-|tarafından|Seitens der Verwaltung gibt es bislang keine Antwort auf die Beschwerde.|Yönetim tarafından şikâyete henüz yanıt verilmedi.
+w|soweit ersichtlich|-|görülebildiği kadarıyla|Soweit ersichtlich, wurden alle Anträge aus dem März bearbeitet.|Görebildiğimiz kadarıyla mart ayındaki tüm başvurular işlendi.
+w|tendenziell|-|genel eğilim olarak|Tendenziell sind die Gruppen am Vormittag kleiner als am Abend.|Genel olarak sabah grupları akşam gruplarından daha küçük.
+w|tragfähig|-|dayanıklı, sürdürülebilir|Die Lösung ist nur tragfähig, wenn genug Freiwillige regelmäßig mitarbeiten.|Yeterli gönüllü düzenli katkı sağlarsa çözüm sürdürülebilir.
+w|überwiegend|-|ağırlıklı olarak|Die Lieferungen kommen überwiegend vormittags, wenn der Eingang frei ist.|Teslimatlar ağırlıklı olarak girişin boş olduğu sabah saatlerinde geliyor.
+w|umstritten|-|tartışmalı|Die Sperrung der Hauptstraße bleibt im Viertel umstritten.|Ana yolun kapatılması mahallede tartışmalı olmaya devam ediyor.
+w|unabdingbar|-|vazgeçilmez, zorunlu|Für einen fairen Vergleich sind einheitliche Fragen unabdingbar.|Adil karşılaştırma için aynı soruların kullanılması vazgeçilmez.
+w|unberücksichtigt|-|göz önünde bulundurulmamış|In der ersten Rechnung blieben die Kosten für die Wartung unberücksichtigt.|İlk hesapta bakım giderleri dikkate alınmadı.
+w|uneingeschränkt|-|kısıtlama olmaksızın|Nach der Reparatur war der Aufzug wieder uneingeschränkt nutzbar.|Onarımdan sonra asansör yeniden kısıtlama olmadan kullanılabiliyordu.
+w|unentbehrlich|-|vazgeçilmez|Für Menschen ohne Auto ist die Verbindung zum Krankenhaus unentbehrlich.|Arabası olmayanlar için hastaneye ulaşım bağlantısı vazgeçilmez.
+w|unmissverständlich|-|yanlış anlamaya yer bırakmadan|Die Hausverwaltung hat unmissverständlich mitgeteilt, dass der Zugang freibleiben muss.|Bina yönetimi girişin boş bırakılması gerektiğini açıkça bildirdi.
+w|unterschwellig|-|örtük, alttan alta|Obwohl niemand ihn direkt kritisierte, spürte er unterschwellige Kritik an seiner Entscheidung.|Kimse onu doğrudan eleştirmese de kararına dönük örtük eleştiriyi hissetti.
+w|vertretbar|-|savunulabilir, makul|Eine kurze Verzögerung ist vertretbar, wenn dadurch Fehler vermieden werden.|Hatalar önlenecekse kısa bir gecikme makul.
+w|vorab|-|önceden|Schicken Sie uns die Liste bitte vorab, damit wir den Raum passend vorbereiten können.|Odayı uygun şekilde hazırlayabilmemiz için listeyi lütfen önceden gönderin.
+w|vorbehaltlich|-|şu koşula bağlı olarak|Vorbehaltlich der Zustimmung des Vereins beginnen die Arbeiten im Juni.|Derneğin onayına bağlı olarak çalışmalar haziranda başlayacak.
+w|vorsorglich|-|tedbir olarak|Wir haben vorsorglich einen zweiten Raum reserviert, falls mehr Familien kommen.|Daha çok aile gelirse diye tedbir olarak ikinci bir oda ayırttık.
+w|weitgehend|-|büyük ölçüde|Der Entwurf ist weitgehend fertig; nur die Angaben zu den Kosten fehlen noch.|Taslak büyük ölçüde hazır, sadece maliyet bilgileri eksik.
+w|wider Erwarten|-|beklentinin aksine|Wider Erwarten hat die Fahrt mit dem Ersatzbus kaum länger gedauert.|Beklentinin aksine yedek otobüsle yolculuk pek uzamadı.
+w|womöglich|-|belki, ihtimal dahilinde|Wenn wir die Zeiten ändern, können womöglich mehr Berufstätige teilnehmen.|Saatleri değiştirirsek belki daha fazla çalışan katılabilir.

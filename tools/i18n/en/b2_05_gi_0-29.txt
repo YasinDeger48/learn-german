@@ -1,0 +1,30 @@
+b2.gi.0 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. If I had kept the old file, I would have found the error straight away.
+b2.gi.1 :: For this unreal past action, combine Partizip II with “wärst”, a Konjunktiv II form of sein. The bus would not have left if you had arrived at the station earlier.
+b2.gi.2 :: For this unreal past action, combine Partizip II with “hätten”, a Konjunktiv II form of haben. Without your warning, we would have transferred the wrong amount to the customer.
+b2.gi.3 :: For this unreal past action, combine Partizip II with “wären”, a Konjunktiv II form of sein. If it had frozen last night, the paths would have been icy in the morning.
+b2.gi.4 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. If his colleague had not intervened, the technician would have removed the wrong fuse.
+b2.gi.5 :: For this unreal past action, combine Partizip II with “hättet”, a Konjunktiv II form of haben. The documents would have arrived on time if you had delivered them in person.
+b2.gi.6 :: For this unreal past action, combine Partizip II with “wäre”, a Konjunktiv II form of sein. If I had not approached the witness, she would not have told us anything.
+b2.gi.7 :: For this unreal past action, combine Partizip II with “hättest”, a Konjunktiv II form of haben. With better lighting, you would have spotted the crack at handover.
+b2.gi.8 :: For this unreal past action, combine Partizip II with “hättet”, a Konjunktiv II form of haben. If you had compared prices, you would have achieved more with the same budget.
+b2.gi.9 :: For an unreal past situation with a modal verb, use a form of hätte with the two infinitives. The misunderstanding could have been avoided if the message had mentioned the appointment.
+b2.gi.10 :: For this unreal past action, combine Partizip II with “wären”, a Konjunktiv II form of sein. If the guests had come later, they would have missed the first talk.
+b2.gi.11 :: For an unreal past situation with a modal verb, use a form of hätte with the two infinitives. You could have taken part in training if you had not fallen ill.
+b2.gi.12 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. In your place, I would have requested a written estimate before agreeing.
+b2.gi.13 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. If the access road had been clear, the delivery service would have unloaded the goods straight away.
+b2.gi.14 :: For this unreal past action, combine Partizip II with “wären”, a Konjunktiv II form of sein. The experiment would have taken longer if both devices had failed.
+b2.gi.15 :: For this unreal past action, combine Partizip II with “hättest”, a Konjunktiv II form of haben. If you had read the article to the end, you would have noticed the contradiction.
+b2.gi.16 :: For this unreal past action, combine Partizip II with “wärt”, a Konjunktiv II form of sein. With a valid ticket, you would not have stayed at the ticket desk in the first place.
+b2.gi.17 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. We would have ended up on the wrong route if Leo had not asked.
+b2.gi.18 :: In this past passive form of Konjunktiv II, wäre is used with Partizip II and worden. Luckily, the network did not go down. Otherwise, the transmission would have been interrupted.
+b2.gi.19 :: For an unreal past situation with a modal verb, use a form of hätte with the two infinitives. If we had stayed in the same room, we could have heard the conversation.
+b2.gi.20 :: For this unreal past action, combine Partizip II with “hätte”, a Konjunktiv II form of haben. If just one of you had brought the key, the door would have opened.
+b2.gi.21 :: For this unreal past action, combine Partizip II with “wäre”, a Konjunktiv II form of sein. Without the detour, the bus would have reached its destination on time.
+b2.gi.22 :: For this unreal past action, combine Partizip II with “hättet”, a Konjunktiv II form of haben. You would have paid the same invoice twice if the app had not warned you.
+b2.gi.23 :: For this unreal past action, combine Partizip II with “wäre”, a Konjunktiv II form of sein. I would have signed up straight away if the course had been in the evening.
+b2.gi.24 :: For an unreal past situation with a modal verb, use a form of hätte with the two infinitives. You should have let us know earlier. Then the editorial team could have responded.
+b2.gi.25 :: For this unreal past action, combine Partizip II with “wärst”, a Konjunktiv II form of sein. Under different circumstances, you would surely have stayed on the research team longer.
+b2.gi.26 :: For this unreal past action, combine Partizip II with “hätten”, a Konjunktiv II form of haben. The repair would have cost less if we had noticed the damage right away.
+b2.gi.27 :: For this unreal past action, combine Partizip II with “wären”, a Konjunktiv II form of sein. If they had set off as a group, they would have needed fewer vehicles.
+b2.gi.28 :: For an unreal past situation with a modal verb, use a form of hätte with the two infinitives. If we had been invited sooner, we could have booked the room.
+b2.gi.29 :: For this unreal past action, combine Partizip II with “hättet”, a Konjunktiv II form of haben. If you had kept walking, you would have reached your destination before dark.

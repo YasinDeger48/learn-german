@@ -1,0 +1,40 @@
+b2.w.459.ex.0 :: The university was awarded the research commission after presenting a method for independently verifying the data.
+b2.w.460 :: regular update
+b2.w.460.ex.0 :: The office gathers input from the various neighbourhoods for the annual update to the plan.
+b2.w.461 :: undoubtedly
+b2.w.461.ex.0 :: The initial trial was undoubtedly useful, but its results cannot be applied to all groups.
+b2.w.462 :: frank, frankly
+b2.w.462.ex.0 :: The new colleague explained frankly which work instructions she thought were worded more complicatedly than necessary.
+b2.w.463 :: on time, by the deadline
+b2.w.463.ex.0 :: Only applications received by the deadline could be considered in this round.
+b2.w.464 :: early detection
+b2.w.464.ex.0 :: Detecting damage early saves money, especially when several components are inspected together.
+b2.w.465 :: foundation
+b2.w.465.ex.0 :: The old house's foundation was preserved even though the rooms above it were completely rearranged.
+b2.w.466 :: well-founded, informed
+b2.w.466.ex.0 :: To make an informed decision, those involved needed to know how long the equipment had actually been in use.
+b2.w.467 :: to support, to fund
+b2.w.467.ex.0 :: The city uses small grants to support projects already backed jointly by several institutions.
+b2.w.468 :: funding programme
+b2.w.468.ex.0 :: The funding programme is intended for workshops that want to reduce their machines' electricity consumption.
+b2.w.469 :: advocate, supporter
+b2.w.469.ex.0 :: The initiative found an important advocate in a teacher whose class used the dangerous crossing every day.
+b2.w.470 :: practical value
+b2.w.470.ex.0 :: Despite a few scratches, the device remained useful because all its functions still worked reliably.
+b2.w.471 :: charging fees
+b2.w.471.ex.0 :: Several associations objected to the proposed fees because their premises were already funded by membership dues.
+b2.w.472 :: train of thought, line of reasoning
+b2.w.472.ex.0 :: Her reasoning became clear only when she explained more precisely how it related to the previous experiment.
+b2.w.473 :: memorial site
+b2.w.473.ex.0 :: The memorial is also intended to make accounts from local families available to the public.
+b2.w.474 :: to endanger, to put at risk
+b2.w.474.ex.0 :: Starting work too early could endanger the recently discovered nesting site.
+b2.w.475 :: contraindication
+b2.w.475.ex.0 :: The practice could assess whether there was a contraindication only after reviewing the previous findings.
+b2.w.476 :: alternative proposal, counterproposal
+b2.w.476.ex.0 :: The alternative design kept the passage wider but provided less retail space than the original plan.
+b2.w.477 :: moving in opposite directions
+b2.w.477.ex.0 :: The opposing trends could be explained only when the two regions were examined separately.
+b2.w.478 :: to take corrective action, to counteract
+b2.w.478.ex.0 :: When waiting times rose sharply, the practice responded by opening a second afternoon slot.
+b2.w.479 :: to compare, to set side by side

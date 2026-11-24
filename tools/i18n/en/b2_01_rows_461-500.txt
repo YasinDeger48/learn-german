@@ -1,0 +1,40 @@
+b2.w.229.ex.0 :: Fruit growers in higher-altitude areas have to expect night frosts for longer in spring.
+b2.w.230 :: contestable, open to appeal
+b2.w.230.ex.0 :: The decision could be challenged because not all members had been invited to vote.
+b2.w.231 :: challenge, appeal
+b2.w.231.ex.0 :: After the election was challenged, the association decided to have all the documents reviewed independently.
+b2.w.232 :: list of requirements
+b2.w.232.ex.0 :: The list of requirements helps the team decide which features must be ready before release.
+b2.w.233 :: to cite, to give as a reason
+b2.w.233.ex.0 :: The manager cited the need for more space for several groups at once as the reason for the change.
+b2.w.234 :: hearing
+b2.w.234.ex.0 :: At the hearing, residents explained how the planned diversion would affect the school route.
+b2.w.235 :: to appeal to, to be well received
+b2.w.235.ex.0 :: The new course format appealed especially to people who cannot attend regular evening sessions.
+b2.w.236 :: to boost, to stimulate
+b2.w.236.ex.0 :: To boost sales, the bookshop offered a series of short readings in December.
+b2.w.237 :: to blame on, to attribute to
+b2.w.237.ex.0 :: It was hard to blame the driver for the late delivery because the goods had not been ready until late.
+b2.w.238 :: on the occasion of
+b2.w.238.ex.0 :: For the reopening, the museum invited former employees and their families to the first guided tour.
+b2.w.239 :: to presume, to take it upon oneself
+b2.w.239.ex.0 :: No individual should presume to decide on everyone's work without consulting them.
+b2.w.240 :: presumption, arrogance
+b2.w.240.ex.0 :: She considered it presumptuous for an outsider to decide what her duties were without asking.
+b2.w.241 :: entitlement, right
+b2.w.241.ex.0 :: Anyone who meets the agreed requirements is entitled to a written explanation of the decision.
+b2.w.242 :: establishment, settlement
+b2.w.242.ex.0 :: The arrival of new businesses created jobs but also increased demand for affordable housing.
+b2.w.243 :: demanding, challenging
+b2.w.243.ex.0 :: The translation was challenging because some German terms can have several meanings.
+b2.w.244 :: proportionally, proportionate share
+b2.w.244.ex.0 :: The associations pay a proportionate share of the costs based on how often they actually use the room.
+b2.w.245 :: applicability
+b2.w.245.ex.0 :: Using several case studies, we tested whether the method applied to very different industries.
+b2.w.246 :: to question, to doubt
+b2.w.246.ex.0 :: Several members questioned the figures because they had been collected on just one weekday.
+b2.w.247 :: working group
+b2.w.247.ex.0 :: The working group developed a draft that is to be tested with two classes next school year.
+b2.w.248 :: labour-intensive
+b2.w.248.ex.0 :: Preparing the old data proved labour-intensive because many records were available only on paper.
+b2.w.249 :: labour dispute

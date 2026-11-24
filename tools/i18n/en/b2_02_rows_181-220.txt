@@ -1,0 +1,40 @@
+b2.w.339.ex.0 :: The association was able to close the funding gap only after several local businesses pledged their support.
+b2.w.340 :: way of thinking
+b2.w.340.ex.0 :: The team's way of thinking changed when it looked at the same task from the users' perspective.
+b2.w.341 :: in this regard
+b2.w.341.ex.0 :: It is still unclear whether extra costs will arise because there is no written commitment in this regard.
+b2.w.342 :: basis for discussion
+b2.w.342.ex.0 :: Participants received an overview of costs, time requirements and possible consequences of the reform as a basis for discussion.
+b2.w.343 :: feasible
+b2.w.343.ex.0 :: The proposal would be feasible provided the two associations scheduled their events on different days in future.
+b2.w.344 :: feasibility
+b2.w.344.ex.0 :: Before making a final commitment, the board wanted to discuss the plan's feasibility with external specialists.
+b2.w.345 :: to push through, to secure
+b2.w.345.ex.0 :: The working group secured the right of smaller businesses to share their experiences at the hearing.
+b2.w.346 :: initiative
+b2.w.346.ex.0 :: On her own initiative, the trainee prepared an overview of questions that often came up during induction.
+b2.w.347 :: personal responsibility
+b2.w.347.ex.0 :: The more clearly tasks are described, the easier it is for the team to take responsibility for them.
+b2.w.348 :: suitability
+b2.w.348.ex.0 :: The hall's suitability also depends on how many people can leave it at the same time.
+b2.w.349 :: to withhold, to retain
+b2.w.349.ex.0 :: The administration withheld part of the amount until the final invoice had arrived.
+b2.w.350 :: loss, setback
+b2.w.350.ex.0 :: The company accepted short-term losses in order to switch permanently to a more efficient production method.
+b2.w.351 :: to curb, to contain
+b2.w.351.ex.0 :: To curb noise at night, the company moved deliveries to the early evening.
+b2.w.352 :: influence, interference
+b2.w.352.ex.0 :: The editorial team disclosed how it had resisted pressure from an important financial backer.
+b2.w.353 :: to demand, to call for
+b2.w.353.ex.0 :: Several participants demanded a clear explanation before agreeing to the new plan.
+b2.w.354 :: settling-in period
+b2.w.354.ex.0 :: During the settling-in period, the child was initially allowed to stay with their father in the group.
+b2.w.355 :: integration
+b2.w.355.ex.0 :: To help newly arrived young people integrate, the association offered a friendly training session without pressure to perform.
+b2.w.356 :: unanimously
+b2.w.356.ex.0 :: The commission unanimously recommended starting with a smaller trial involving volunteers.
+b2.w.357 :: to admit, to concede
+b2.w.357.ex.0 :: The editor admitted she had not compared the original wording with the source.
+b2.w.358 :: relevant, related
+b2.w.358.ex.0 :: Despite having little work experience, she could point to several relevant projects from her training.
+b2.w.359 :: potential for savings

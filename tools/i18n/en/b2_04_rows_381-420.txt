@@ -1,0 +1,40 @@
+b2.w.939.ex.0 :: The first forecast was bleak after several large orders were unexpectedly cancelled.
+b2.w.940 :: efficient
+b2.w.940.ex.0 :: The team worked more efficiently once they started checking the required documents together before each appointment.
+b2.w.941 :: code of conduct
+b2.w.941.ex.0 :: After the incident, the association checked whether its code of conduct clearly covered the case.
+b2.w.942 :: question of ownership
+b2.w.942.ex.0 :: The question of ownership remained unresolved even though both sides had already agreed on how it would be used.
+b2.w.943 :: unconventional
+b2.w.943.ex.0 :: People initially scoffed at his unconventional proposal, but it could be tested with simple resources.
+b2.w.944 :: contextualisation
+b2.w.944.ex.0 :: Putting the recording in its historical context required several interviews with people who had lived through that period.
+b2.w.945 :: introductory guide
+b2.w.945.ex.0 :: New volunteers were given a guide with examples from past assignments.
+b2.w.946 :: one-size-fits-all model
+b2.w.946.ex.0 :: A single model proved unsuitable because workloads varied across the sites.
+b2.w.947 :: understanding
+b2.w.947.ex.0 :: The customer was understanding once the reason for the delay had been explained to him.
+b2.w.948 :: classification
+b2.w.948.ex.0 :: The classification was based on both the written test and an interview.
+b2.w.949 :: harmoniously
+b2.w.949.ex.0 :: The two groups worked together harmoniously despite an earlier dispute about how things would be distributed.
+b2.w.950 :: advisable
+b2.w.950.ex.0 :: An early start is advisable if other groups will be using the rooms later.
+b2.w.951 :: receptive
+b2.w.951.ex.0 :: Participants were more receptive to criticism when it came with a specific example.
+b2.w.952 :: hardship
+b2.w.952.ex.0 :: The founder did not speak about the hardships of the early years until a later anniversary celebration.
+b2.w.953 :: opposite
+b2.w.953.ex.0 :: The two readings moved in opposite directions even though they were taken at the same location.
+b2.w.954 :: determination
+b2.w.954.ex.0 :: Her determination showed when she looked for an alternative date despite the cancellation.
+b2.w.955 :: disappointment
+b2.w.955.ex.0 :: The disappointment was understandable because the participants had already invested a great deal of time.
+b2.w.956 :: emerging trend
+b2.w.956.ex.0 :: A clear trend only became apparent once the autumn figures were available too.
+b2.w.957 :: gap in the records
+b2.w.957.ex.0 :: The gap in the records happened to affect the very appointments that drew the largest crowds.
+b2.w.958 :: if necessary
+b2.w.958.ex.0 :: If the original cannot be verified, the office can request a second copy if necessary.
+b2.w.959 :: openness to different outcomes

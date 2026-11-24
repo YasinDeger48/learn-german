@@ -1,0 +1,40 @@
+b2.w.169.ex.0 :: In the long term, additional trees could lower the temperature in the square.
+b2.w.170 :: decisive, determining
+b2.w.170.ex.0 :: For registration, the decisive factor is when the application was received.
+b2.w.171 :: for lack of
+b2.w.171.ex.0 :: For lack of suitable rooms, the meeting will be held online this time.
+b2.w.172 :: by majority
+b2.w.172.ex.0 :: The parents present voted by majority in favour of the Saturday course.
+b2.w.173 :: in the medium term
+b2.w.173.ex.0 :: In the medium term, the two separate advisory services are to be brought together.
+b2.w.174 :: sustainable
+b2.w.174.ex.0 :: Reusable cups are sustainable only if they are used often enough.
+b2.w.175 :: significant
+b2.w.175.ex.0 :: There is hardly any significant difference in price for short trips.
+b2.w.176 :: properly
+b2.w.176.ex.0 :: The delivery was registered properly, but arrived too late.
+b2.w.177 :: in general, across the board
+b2.w.177.ex.0 :: The question cannot be answered across the board because every contract is different.
+b2.w.178 :: plausible
+b2.w.178.ex.0 :: The explanation sounds plausible but cannot be verified using the available data.
+b2.w.179 :: potentially
+b2.w.179.ex.0 :: The additional entrance could potentially be helpful for families with prams.
+b2.w.180 :: retroactively
+b2.w.180.ex.0 :: The revised fee does not apply retroactively to months that have already been paid for.
+b2.w.181 :: gradually
+b2.w.181.ex.0 :: The new timetable is to be introduced gradually from June onwards.
+b2.w.182 :: on the part of
+b2.w.182.ex.0 :: So far, there has been no response to the complaint on the part of the administration.
+b2.w.183 :: as far as can be seen
+b2.w.183.ex.0 :: As far as can be seen, all applications from March have been processed.
+b2.w.184 :: as a general tendency
+b2.w.184.ex.0 :: As a general tendency, groups in the morning are smaller than those in the evening.
+b2.w.185 :: viable, sustainable
+b2.w.185.ex.0 :: The solution is viable only if enough volunteers help regularly.
+b2.w.186 :: predominantly, mostly
+b2.w.186.ex.0 :: Deliveries arrive mostly in the morning when the entrance is clear.
+b2.w.187 :: controversial
+b2.w.187.ex.0 :: The closure of the main road remains controversial in the neighbourhood.
+b2.w.188 :: essential, indispensable
+b2.w.188.ex.0 :: Consistent questions are essential for a fair comparison.
+b2.w.189 :: not taken into account

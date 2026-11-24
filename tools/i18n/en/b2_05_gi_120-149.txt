@@ -1,0 +1,30 @@
+b2.gi.120 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The machine that has been standing in the courtyard since yesterday will be collected on Friday.
+b2.gi.121 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. All the photos taken before the demolition were later filed in the city archives.
+b2.gi.122 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. A storm that has been moving through the region for days is delaying the work.
+b2.gi.123 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. We check the details already entered on the form before giving approval.
+b2.gi.124 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. A noise coming from the basement interrupted the conversation in the corridor.
+b2.gi.125 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The recently overhauled roof can now withstand heavy rain too.
+b2.gi.126 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The exterior doors remained closed because temperatures kept falling overnight.
+b2.gi.127 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. None of the groups was happy with the deadlines communicated in writing yesterday.
+b2.gi.128 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. A woman waiting at reception was the first to notice the error on the display board.
+b2.gi.129 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. This wooden model is easier to transport than the original.
+b2.gi.130 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. Two children playing in the next room did not hear the announcement at all.
+b2.gi.131 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The equipment selected specifically for this experiment comes from three different laboratories.
+b2.gi.132 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. A sign hanging over the entrance gives the new opening time.
+b2.gi.133 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. Several deliveries that arrived in the morning stayed in the warehouse until evening.
+b2.gi.134 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. A group talking outside the building briefly blocked the accessible entrance.
+b2.gi.135 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The plan published back in spring did not clearly say how absences should be covered.
+b2.gi.136 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The light coming in from the next room dazzled the listeners in the front row.
+b2.gi.137 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The handle on the previously repaired door was particularly easy to move.
+b2.gi.138 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. Several visitors missed the bus heading towards the stadium after the tour.
+b2.gi.139 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. A survey conducted last quarter also captured the experiences of new members.
+b2.gi.140 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. Our team, which has been working on the solution for weeks, will present its initial findings tomorrow.
+b2.gi.141 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The customer never received the letter mistakenly sent to her old address.
+b2.gi.142 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The lights on the bank were reflected in the slowly flowing water.
+b2.gi.143 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. A key found in the stairwell was handed in at reception the next morning.
+b2.gi.144 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. Anyone who coughed during the film was asked to step outside quietly.
+b2.gi.145 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. The written reasons did not indicate exactly how long the closure would last.
+b2.gi.146 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The photographer laughed at the sight of the dog sleeping in the garden.
+b2.gi.147 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. Two rooms reserved for the conference were considerably closer to the entrance.
+b2.gi.148 :: Partizip I describes an action in progress performed by the person or thing the noun refers to and takes adjective endings. The lamps glowed too faintly in the fog to light the way back safely.
+b2.gi.149 :: Partizip II describes a completed action or its result and takes adjective endings before a noun. A misplaced label meant the crate was initially left on the wrong floor.

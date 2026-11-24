@@ -1,0 +1,40 @@
+b2.w.109.ex.0 :: The neighbours were also consulted when the site was chosen.
+b2.w.110 :: to lose, to forfeit
+b2.w.110.ex.0 :: The shop lost some of its customers after the move.
+b2.w.111 :: to address, to respond to
+b2.w.111.ex.0 :: In her reply, the manager also addresses difficult questions.
+b2.w.112 :: to counteract
+b2.w.112.ex.0 :: More shaded seating should help counteract the heat in the schoolyard.
+b2.w.113 :: to refute
+b2.w.113.ex.0 :: The tenant was able to refute the allegation with the photos.
+b2.w.114 :: to discuss
+b2.w.114.ex.0 :: At the meeting, we will discuss how waiting times can be reduced.
+b2.w.115 :: to enable
+b2.w.115.ex.0 :: The later start also enables people with jobs to take part.
+b2.w.116 :: to open up, to serve
+b2.w.116.ex.0 :: The new bus route serves a residential area that previously had poor connections.
+b2.w.117 :: to set, to determine
+b2.w.117.ex.0 :: The administration has set the fee for next year.
+b2.w.118 :: to assert, to claim
+b2.w.118.ex.0 :: The customer wants to claim her right to a refund.
+b2.w.119 :: to question
+b2.w.119.ex.0 :: Before adopting the proposal, we should question the figures.
+b2.w.120 :: to work towards
+b2.w.120.ex.0 :: The advisory board is working towards better lighting at the station.
+b2.w.121 :: to call into question
+b2.w.121.ex.0 :: The new information leads the group to question the earlier decision.
+b2.w.122 :: to cut, to reduce
+b2.w.122.ex.0 :: The city cut the project's funding without giving a reason.
+b2.w.123 :: to make improvements
+b2.w.123.ex.0 :: The company needs to improve the signs because the entrance is hard to find.
+b2.w.124 :: to understand, to follow
+b2.w.124.ex.0 :: I can understand why you were disappointed with the first delivery.
+b2.w.125 :: to put into perspective
+b2.w.125.ex.0 :: The second measurement puts the initially sharp increase into perspective.
+b2.w.126 :: to reverse
+b2.w.126.ex.0 :: The change can be reversed within ten minutes.
+b2.w.127 :: to fluctuate
+b2.w.127.ex.0 :: Demand fluctuates with the weather, especially on public holidays.
+b2.w.128 :: to become apparent
+b2.w.128.ex.0 :: It was already becoming apparent in April that the construction work would take longer.
+b2.w.129 :: to prove effective

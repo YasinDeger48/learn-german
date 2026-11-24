@@ -1,0 +1,40 @@
+b2.w.819.ex.0 :: Management separated the new area of responsibility so it could be developed independently.
+b2.w.820 :: to deny someone credit for something
+b2.w.820.ex.0 :: Nobody wanted to deny that their colleague had experience, even though his assessment remained disputed.
+b2.w.821 :: to descend from
+b2.w.821.ex.0 :: The researcher checked whether both plants really descended from the same older variety.
+b2.w.822 :: abstract
+b2.w.822.ex.0 :: The criticism was too abstract to suggest specific changes to the course.
+b2.w.823 :: to deny
+b2.w.823.ex.0 :: The provider denied continuing to send out the old version after the change.
+b2.w.824 :: compromise, reduction
+b2.w.824.ex.0 :: We had to make concessions on the schedule because two rooms were unavailable.
+b2.w.825 :: to demand, to require
+b2.w.825.ex.0 :: The change at short notice demanded a great deal of patience from staff for several weeks.
+b2.w.826 :: to divert, to set aside
+b2.w.826.ex.0 :: Management set aside part of the budget to cover unexpected maintenance costs.
+b2.w.827 :: target audience
+b2.w.827.ex.0 :: The examples were adapted after the original target audience had changed considerably.
+b2.w.828 :: acute, sudden
+b2.w.828.ex.0 :: If there is a sudden outage, the team can temporarily move to the smaller room.
+b2.w.829 :: every year
+b2.w.829.ex.0 :: Representatives from several schools meet every year to share experiences with their programmes.
+b2.w.830 :: all-encompassing
+b2.w.830.ex.0 :: An all-encompassing plan would be hard to draw up because the groups have very different requirements.
+b2.w.831 :: age distribution
+b2.w.831.ex.0 :: The municipality used the age distribution to assess which services the neighbourhood would need in future.
+b2.w.832 :: term of office
+b2.w.832.ex.0 :: During her term of office, the chair had the existing decision-making procedures explained publicly on several occasions.
+b2.w.833 :: initiation, establishment
+b2.w.833.ex.0 :: A colleague who knew both institutions helped establish contact.
+b2.w.834 :: otherwise, elsewhere
+b2.w.834.ex.0 :: The hall had already been booked for something else when the association wanted to request an extra date.
+b2.w.835 :: by common acknowledgement
+b2.w.835.ex.0 :: The method is widely recognised as reliable provided the samples are stored under the same conditions.
+b2.w.836 :: to align, to standardise
+b2.w.836.ex.0 :: The office standardised the forms so both institutions could record the same information.
+b2.w.837 :: alignment, harmonisation
+b2.w.837.ex.0 :: The alignment of rates was postponed so that all the costs could be compared first.
+b2.w.838 :: to draw closer, to move towards agreement
+b2.w.838.ex.0 :: Over the course of the talks, the two sides moved closer to agreement on several issues.
+b2.w.839 :: to order, to direct

@@ -1,0 +1,40 @@
+b2.w.279.ex.0 :: Since the workshop is fully booked until the end of the month, urgent cases are referred to a partner company.
+b2.w.280 :: right to compensation
+b2.w.280.ex.0 :: Whether there was a right to compensation could be assessed only after reviewing all the documents.
+b2.w.281 :: to outsource
+b2.w.281.ex.0 :: The company outsourced maintenance after the number of internal jobs had fallen significantly.
+b2.w.282 :: to exclude, to marginalise
+b2.w.282.ex.0 :: The rules needed a complete overhaul so they would not exclude anyone because of their working hours.
+b2.w.283 :: exceptional case
+b2.w.283.ex.0 :: In exceptional cases, the deadline can be extended if the delay is adequately justified.
+b2.w.284 :: without exception
+b2.w.284.ex.0 :: Every measurement was taken at the same time, without exception, so the groups could compare their results.
+b2.w.285 :: meaningful, informative
+b2.w.285.ex.0 :: The findings would have been more meaningful if people from other age groups had also taken part in the survey.
+b2.w.286 :: exclusively
+b2.w.286.ex.0 :: Access is reserved exclusively for people who received written confirmation in advance.
+b2.w.287 :: committee
+b2.w.287.ex.0 :: The responsible committee postponed the vote to speak with the institutions affected first.
+b2.w.288 :: to make full use of
+b2.w.288.ex.0 :: Before requesting new funds, we should make full use of the current programme's resources.
+b2.w.289 :: full use
+b2.w.289.ex.0 :: Even if the entire budget were used, only two of the four rooms could be renovated at once.
+b2.w.290 :: extraordinary
+b2.w.290.ex.0 :: An extraordinary meeting was called after the chair unexpectedly announced his resignation.
+b2.w.291 :: suspension
+b2.w.291.ex.0 :: Operations were temporarily suspended because a technical fault could not be fixed immediately.
+b2.w.292 :: promising
+b2.w.292.ex.0 :: Of the three proposals, the smallest trial seemed the most promising because it required no renovation.
+b2.w.293 :: withdrawal, exit
+b2.w.293.ex.0 :: Management did not discuss a possible withdrawal from the project until it had received the second cost estimate.
+b2.w.294 :: selection criterion
+b2.w.294.ex.0 :: The main selection criterion was experience working with volunteer groups from different neighbourhoods.
+b2.w.295 :: to itemise, to show
+b2.w.295.ex.0 :: The statement lists material and labour costs in two separate columns.
+b2.w.296 :: building control authority
+b2.w.296.ex.0 :: The building control authority requested a new plan that also showed the accessible entrance.
+b2.w.297 :: to take, to require
+b2.w.297.ex.0 :: Reviewing old entries took longer because many changes had been recorded by hand only.
+b2.w.298 :: processing time
+b2.w.298.ex.0 :: Using a shared filing system shortened processing times, especially for requests with multiple attachments.
+b2.w.299 :: needs assessment

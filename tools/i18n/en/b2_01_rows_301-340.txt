@@ -1,0 +1,40 @@
+b2.w.149.ex.0 :: The advisory service is offered according to need, so not everyone requires the same appointment.
+b2.w.150 :: without hesitation
+b2.w.150.ex.0 :: I would share the draft without hesitation only after it had been reviewed.
+b2.w.151 :: reliable, robust
+b2.w.151.ex.0 :: We need more than two responses to make a reliable statement.
+b2.w.152 :: remarkable
+b2.w.152.ex.0 :: It is remarkable that the number of complaints has fallen despite the renovation.
+b2.w.153 :: or, respectively
+b2.w.153.ex.0 :: The two appointments are on Tuesday and Thursday, respectively.
+b2.w.154 :: in this respect
+b2.w.154.ex.0 :: The feedback is clear in that most guests want longer opening hours.
+b2.w.155 :: nevertheless
+b2.w.155.ex.0 :: The renovation is taking longer than expected; nevertheless, the office remains open.
+b2.w.156 :: nuanced
+b2.w.156.ex.0 :: A nuanced view shows that the situation has not improved for every group.
+b2.w.157 :: for the time being
+b2.w.157.ex.0 :: The service remains suspended for the time being until a new room is found.
+b2.w.158 :: by mutual agreement
+b2.w.158.ex.0 :: The two parties ended the contract by mutual agreement.
+b2.w.159 :: contrary to expectations
+b2.w.159.ex.0 :: Contrary to expectations, many older people came for advice on the first day.
+b2.w.160 :: as a rule, in our experience
+b2.w.160.ex.0 :: In our experience, more guests arrive without an appointment during the summer.
+b2.w.161 :: apparent
+b2.w.161.ex.0 :: The invoice does not make clear why the total has increased.
+b2.w.162 :: consequently
+b2.w.162.ex.0 :: The old rule no longer applies, so we have to update the forms.
+b2.w.163 :: freely accessible
+b2.w.163.ex.0 :: The summary is freely accessible on the website.
+b2.w.164 :: equally
+b2.w.164.ex.0 :: The change affects new and long-standing members equally.
+b2.w.165 :: fundamentally
+b2.w.165.ex.0 :: The new bus stop has fundamentally changed our commute.
+b2.w.166 :: sufficiently
+b2.w.166.ex.0 :: The causes have not yet been sufficiently clarified.
+b2.w.167 :: regarding, with respect to
+b2.w.167.ex.0 :: The two offers differ very little in terms of cost.
+b2.w.168 :: to that extent, in this respect
+b2.w.168.ex.0 :: In this respect, the proposal is convincing: it can be tested quickly.
+b2.w.169 :: in the long term

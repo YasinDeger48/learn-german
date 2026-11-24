@@ -1,0 +1,40 @@
+b2.w.9.ex.0 :: The square's improvement has brought more people to the neighbourhood, but rents have risen too.
+b2.w.10 :: discussion, examination
+b2.w.10.ex.0 :: Discussing the complaints showed that the real problem was a lack of information.
+b2.w.11 :: utilisation
+b2.w.11.ex.0 :: Because the pool is underused in the morning, it offers cheaper admission then.
+b2.w.12 :: exclusion, ban
+b2.w.12.ex.0 :: The ban on cash payments was discussed at length during the meeting.
+b2.w.13 :: significance
+b2.w.13.ex.0 :: Three responses have limited significance when the course had sixty participants.
+b2.w.14 :: analysis, evaluation
+b2.w.14.ex.0 :: The analysis shows that cancellations mainly affect families without a car.
+b2.w.15 :: accessibility
+b2.w.15.ex.0 :: In planning the citizens' service office, attention was paid to accessibility and clear signage.
+b2.w.16 :: needs assessment
+b2.w.16.ex.0 :: To assess needs, the team asked families which times they would actually be able to use.
+b2.w.17 :: duty to give reasons
+b2.w.17.ex.0 :: The duty to give reasons is intended to make rejected applications understandable.
+b2.w.18 :: participation, involvement
+b2.w.18.ex.0 :: Broad participation is easier to achieve if appointments are also offered in the evening.
+b2.w.19 :: childcare provision
+b2.w.19.ex.0 :: The childcare provision suits full-time jobs but is of little help to parents working night shifts.
+b2.w.20 :: approval, authorisation
+b2.w.20.ex.0 :: With written approval, the association can finally order the new equipment.
+b2.w.21 :: assessment, balance sheet
+b2.w.21.ex.0 :: After a year, the city gives a mixed assessment: less traffic, but more complaints from side streets.
+b2.w.22 :: equal opportunities
+b2.w.22.ex.0 :: The school promotes equal opportunities by lending out equipment for project week.
+b2.w.23 :: public services
+b2.w.23.ex.0 :: For many municipalities, reliable bus services are part of providing essential public services.
+b2.w.24 :: data collection
+b2.w.24.ex.0 :: Data collection was limited to two weeks so as not to overburden employees.
+b2.w.25 :: interpretation
+b2.w.25.ex.0 :: The two interpretations of the result lead to different recommendations.
+b2.w.26 :: dilemma
+b2.w.26.ex.0 :: The team faces a dilemma: longer opening hours cost money, while shorter hours exclude some customers.
+b2.w.27 :: discrepancy
+b2.w.27.ex.0 :: There is a marked discrepancy between the announced and actual delivery times.
+b2.w.28 :: enforcement
+b2.w.28.ex.0 :: The school needs parents' support to enforce the new rules.
+b2.w.29 :: intervention

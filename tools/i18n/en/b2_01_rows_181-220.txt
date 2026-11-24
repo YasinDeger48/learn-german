@@ -1,0 +1,40 @@
+b2.w.89.ex.0 :: The discussion was open about whether the changed commute was reasonable.
+b2.w.90 :: additional burden
+b2.w.90.ex.0 :: The new requirement is a significant additional burden for small businesses.
+b2.w.91 :: grant, contribution
+b2.w.91.ex.0 :: A grant from the city enabled the association to make the rooms accessible.
+b2.w.92 :: to cushion, to mitigate
+b2.w.92.ex.0 :: A subsidy is intended to cushion the impact of rising heating costs.
+b2.w.93 :: to distinguish, to separate
+b2.w.93.ex.0 :: The report clearly distinguishes renovation costs from ongoing operating costs.
+b2.w.94 :: to infer, to derive
+b2.w.94.ex.0 :: No general rule can be derived from a single survey.
+b2.w.95 :: to refrain from
+b2.w.95.ex.0 :: Because of the weather, the association decided against holding an outdoor festival.
+b2.w.96 :: to note, to remark
+b2.w.96.ex.0 :: I would like to note that the quoted prices are valid only until the end of May.
+b2.w.97 :: to suggest, to propose
+b2.w.97.ex.0 :: The advisory board suggests publishing the results in plain language as well.
+b2.w.98 :: to aim, to strive
+b2.w.98.ex.0 :: The school aims to have every class take part in the project at least once.
+b2.w.99 :: to maintain, to keep going
+b2.w.99.ex.0 :: Despite the construction work, the library was able to remain open.
+b2.w.100 :: to outweigh
+b2.w.100.ex.0 :: For me, the lower price does not outweigh the longer daily commute.
+b2.w.101 :: not to materialise
+b2.w.101.ex.0 :: The hoped-for relief did not materialise even after an extra bus was put into service.
+b2.w.102 :: to support, to favour
+b2.w.102.ex.0 :: The majority supports later opening hours on Fridays.
+b2.w.103 :: to contribute to
+b2.w.103.ex.0 :: The new lighting helps children feel safer on their way home.
+b2.w.104 :: to criticise, to complain about
+b2.w.104.ex.0 :: Parents complain that decisions are announced too late.
+b2.w.105 :: to manage, to cope with
+b2.w.105.ex.0 :: A clear division of tasks makes the move easier to manage.
+b2.w.106 :: to bring about, to result in
+b2.w.106.ex.0 :: Regular reminders have resulted in fewer appointments being forgotten.
+b2.w.107 :: to consolidate, to bring together
+b2.w.107.ex.0 :: The municipality brings together all the information about the renovation on one page.
+b2.w.108 :: to explain, to set out
+b2.w.108.ex.0 :: In her letter, the tenant sets out which repairs are still outstanding.
+b2.w.109 :: to include

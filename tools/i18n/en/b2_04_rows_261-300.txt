@@ -1,0 +1,40 @@
+b2.w.879.ex.0 :: A lack of coordination slowed the project down even though the necessary materials were already available.
+b2.w.880 :: to refine by making distinctions
+b2.w.880.ex.0 :: The group refined its criteria after reviewing several cases that were difficult to compare.
+b2.w.881 :: failure rate
+b2.w.881.ex.0 :: The failure rate fell when the workshop began checking the older equipment regularly.
+b2.w.882 :: starting from, based on
+b2.w.882.ex.0 :: Drawing on three interviews, the team drafted initial questions for the later survey.
+b2.w.883 :: compensation payment
+b2.w.883.ex.0 :: The compensation covered only the additional costs caused by the late switch.
+b2.w.884 :: to outsource
+b2.w.884.ex.0 :: The company outsourced part of its documentation work to ease the burden on its administrative staff.
+b2.w.885 :: capacity limit
+b2.w.885.ex.0 :: The system was particularly likely to reach full capacity when two departments were working at the same time.
+b2.w.886 :: interpretive guidance
+b2.w.886.ex.0 :: The association published examples to help readers interpret wording that was difficult to understand.
+b2.w.887 :: form, manifestation
+b2.w.887.ex.0 :: The regional form of the tradition could still be heard in several early audio recordings.
+b2.w.888 :: public impact
+b2.w.888.ex.0 :: The campaign's unexpected impact became apparent only through the public response.
+b2.w.889 :: selection committee
+b2.w.889.ex.0 :: The selection committee read the written submissions before learning the applicants' names.
+b2.w.890 :: construction project
+b2.w.890.ex.0 :: The construction project was scaled back after the access road proved unsuitable for heavy vehicles.
+b2.w.891 :: impressive
+b2.w.891.ex.0 :: The result was impressive given that the group had only a few weeks to prepare.
+b2.w.892 :: attention
+b2.w.892.ex.0 :: The guidance received attention only after several teachers reported the same difficulties.
+b2.w.893 :: meeting demand
+b2.w.893.ex.0 :: The existing rooms were sufficient to meet demand as long as the groups started at staggered times.
+b2.w.894 :: conclusion, termination
+b2.w.894.ex.0 :: After the trial ended, the results remained accessible to all the offices involved.
+b2.w.895 :: biased, having a conflict of interest
+b2.w.895.ex.0 :: The chair declared a conflict of interest because she had helped make the earlier decision.
+b2.w.896 :: unsettling, strange
+b2.w.896.ex.0 :: She found it particularly unsettling that the decision was published before the hearing.
+b2.w.897 :: finding, test result
+b2.w.897.ex.0 :: The doctor discussed the findings in detail because the technical terms could be misunderstood.
+b2.w.898 :: preferential treatment
+b2.w.898.ex.0 :: The criteria were published in advance to prevent any individual members from receiving preferential treatment.
+b2.w.899 :: careful, tactful

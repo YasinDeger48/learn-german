@@ -1,0 +1,30 @@
+b2.gi.30 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. The spokesperson said that the senate had already reviewed the documents.
+b2.gi.31 :: In reported speech, sei is the third-person singular Konjunktiv I form of sein. According to the expert, the cause of the fault had yet to be determined.
+b2.gi.32 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. The witness testified that he had seen the van early that morning.
+b2.gi.33 :: In reported speech, werde is the third-person singular Konjunktiv I form of werden. The newspaper reports that the bridge will be closed again from Monday.
+b2.gi.34 :: The Konjunktiv I form “wolle” is used here to report what was said. The radio reported that the company intended to stop using single-use packaging.
+b2.gi.35 :: The Konjunktiv I form “könne” is used here to report what was said. A technician explained that the device could work reliably even without this connection.
+b2.gi.36 :: In reported speech, sei is the third-person singular Konjunktiv I form of sein. When asked, Nora confirmed that she had arrived before the meeting began.
+b2.gi.37 :: The Konjunktiv I form “solle” is used here to report what was said. The coach sent word that the group should take an extra break at midday.
+b2.gi.38 :: In reported speech, sei is the third-person singular Konjunktiv I form of sein. According to the editors, the article underwent a legal review before publication.
+b2.gi.39 :: The Konjunktiv I form “könne” is used here to report what was said. The manager acknowledged that the new rule could cause problems for some volunteers.
+b2.gi.40 :: In reported speech, werde is the third-person singular Konjunktiv I form of werden. Her colleague assured her that the missing document would be submitted later that same day.
+b2.gi.41 :: The Konjunktiv I form “nehme” is used here to report what was said. At the hearing, the resident said he had been hearing the noise for weeks.
+b2.gi.42 :: The Konjunktiv I form “müsse” is used here to report what was said. The doctor explained that the patient had to sign the form before the examination.
+b2.gi.43 :: The Konjunktiv I form “stamme” is used here to report what was said. The curator said that the painting came from a private collection in Bremen.
+b2.gi.44 :: In reported speech, werde is the third-person singular Konjunktiv I form of werden. The school administration wrote that classes would end at noon on Friday.
+b2.gi.45 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. The employee suspected that his colleague had deliberately moved the appointment to the afternoon.
+b2.gi.46 :: The Konjunktiv I form “komme” is used here to report what was said. According to the breeder, the young dog came from a small group in the region.
+b2.gi.47 :: The Konjunktiv I form “dürfe” is used here to report what was said. At reception, the visitor was told he could leave his bag there for safekeeping.
+b2.gi.48 :: In reported speech, sei is the third-person singular Konjunktiv I form of sein. The researcher stressed that a different device had been used for the second measurement.
+b2.gi.49 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. The chair claimed that the member had abstained voluntarily in the vote.
+b2.gi.50 :: The Konjunktiv I form “wolle” is used here to report what was said. The lawyer said her client wanted to wait for a written decision.
+b2.gi.51 :: The Konjunktiv I form “prüfe” is used here to report what was said. It was announced at the press conference that the authority was reviewing the case again.
+b2.gi.52 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. A housemate said that the heating had already been working poorly before the move.
+b2.gi.53 :: In reported speech, werde is the third-person singular Konjunktiv I form of werden. The organiser promised that staff would clearly mark the additional emergency exits.
+b2.gi.54 :: The Konjunktiv I form “schildere” is used here to report what was said. The author explained that she was describing the events from her own memory rather than relying on records.
+b2.gi.55 :: In reported speech, sei is the third-person singular Konjunktiv I form of sein. The minutes state that the delivery did not arrive because of the storm.
+b2.gi.56 :: The Konjunktiv I form “dürfe” is used here to report what was said. The head of administration said that each institution could manage the available rooms itself.
+b2.gi.57 :: The Konjunktiv I form “lasse” is used here to report what was said. According to the company, the new device can be operated even while wearing gloves.
+b2.gi.58 :: For past actions that take haben, use habe with Partizip II in third-person singular reported speech. The examiner noted that a second person had checked the result independently.
+b2.gi.59 :: The Konjunktiv I form “biete” is used here to report what was said. The urban planner explained that the proposed route offered little protection against icy conditions in winter.

@@ -1,0 +1,7 @@
+b2.gi.390 :: sofern states the condition that must be met for the main clause to apply. You can use the room provided someone responsible stays until the end.
+b2.gi.391 :: falls introduces a possible condition under which the main action may occur. If the key does not fit, please contact the caretaker directly.
+b2.gi.392 :: während can contrast two situations or link two simultaneous events. The old device required a wait, whereas the new one is ready to use immediately.
+b2.gi.393 :: wohingegen highlights a contrast and places the finite verb at the end of the subordinate clause. The consultation is free, whereas there is a charge for the subsequent assessment.
+b2.gi.394 :: sofern states the condition that must be met for the main clause to apply. An extension is possible provided the application arrives before the deadline.
+b2.gi.395 :: falls introduces a possible condition under which the main action may occur. Please call me if any questions about the delivery come up along the way.
+b2.gi.396 :: während can contrast two situations or link two simultaneous events. Our team worked outdoors on Saturday while the other group checked its results in the lab.

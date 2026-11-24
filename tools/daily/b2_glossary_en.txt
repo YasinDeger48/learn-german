@@ -1,0 +1,204 @@
+die Terminvergabe :: appointment scheduling
+der Antrag :: application
+die Auswertung :: analysis
+scheitern :: to fail
+die Befragung :: survey
+beibehalten :: to retain
+abbrechen :: to discontinue
+dauerhaft :: permanently
+der Modellversuch :: pilot project
+unverändert :: unchanged
+die Aussicht :: prospect
+der Ansprechpartner :: contact person
+erfassen :: to record
+die Überstunde :: hour of overtime
+erfordern :: to require
+die Verteilung :: distribution
+der Stellplatz :: parking space
+der Pflanzkübel :: planter
+umstritten :: controversial
+freihalten :: to keep clear
+ausweichen :: to move aside
+provisorisch :: temporary
+der Vorbehalt :: reservation
+einholen :: to obtain
+das Handbuch :: handbook
+nachträglich :: after the fact
+der Arbeitsablauf :: workflow
+die Ausnahme :: exception
+die Fassung :: version
+nachvollziehbar :: traceable
+vorliegen :: to be available
+die Einarbeitung :: onboarding
+abschüssig :: sloping
+versickern :: to soak into soil
+entsiegeln :: to remove impermeable paving
+die Zufahrt :: driveway
+die Mulde :: shallow basin
+angrenzend :: adjoining
+der Wasserstand :: water level
+herausnehmbar :: removable
+ehrenamtlich :: voluntary
+vorab :: in advance
+das Zeitfenster :: time slot
+sichten :: to inspect
+zuweisen :: to assign
+der Andrang :: high demand
+vermerken :: to note down
+vorzeitig :: early
+der Audioguide :: audio guide
+ausführlich :: detailed
+sehbehindert :: visually impaired
+der Bodenbelag :: flooring
+die Orientierung :: finding one's way
+die Weganweisung :: direction
+die Vitrine :: display case
+unleserlich :: illegible
+zuteilen :: to assign
+der Verteiler :: mailing list
+zwangsläufig :: inevitably
+die Doppelbuchung :: double booking
+aushängen :: to post a notice
+kurzfristig :: at short notice
+verlässlich :: reliable
+das Jubiläum :: anniversary
+die Bildunterschrift :: photo caption
+der Abzug :: photographic print
+das Zeitungsarchiv :: newspaper archive
+die Sammelstelle :: collection point
+belegen :: to substantiate
+berichtigen :: to correct
+die Vermutung :: supposition
+der Standpunkt :: position
+der Einwand :: objection
+sich blamieren :: to embarrass oneself
+verzichten :: to dispense with
+die Rückmeldung :: feedback
+die Behauptung :: claim
+die Rückfrage :: follow-up question
+der Ablauf :: procedure
+die Genossenschaft :: cooperative
+die Kundschaft :: customers
+angesichts :: given
+abwiegen :: to weigh out
+der Aufwand :: effort
+der Rundbrief :: newsletter
+vorgeben :: to specify
+die Leitstelle :: control center
+die Unterführung :: underpass
+zurücklegen :: to cover a distance
+die Durchsage :: announcement
+voreilig :: premature
+der Zugang :: access point
+der Wortlaut :: wording
+planmäßig :: on schedule
+versuchsweise :: on a trial basis
+zuordnen :: to attribute
+verbindlich :: binding
+die Zusage :: commitment
+die Abschrift :: transcript
+die Gedächtnisstütze :: memory aid
+der Beschluss :: formal decision
+das Quartal :: quarter
+abgeben :: to hand in
+die Naht :: seam
+der Reißverschluss :: zipper
+die Wasserdichtigkeit :: waterproofing
+die Gebrauchsspur :: sign of wear
+ungeprüft :: untested
+reparaturbedürftig :: in need of repair
+begutachten :: to inspect
+erforderlich :: required
+die Überweisung :: referral
+verwechseln :: to confuse
+zögern :: to hesitate
+die Krankenkasse :: health insurer
+der Folgetermin :: follow-up appointment
+die Anforderung :: requirement
+der Abrechnungszeitraum :: billing period
+die Aufstellung :: itemized breakdown
+das Übergabeprotokoll :: handover record
+der Zählerstand :: meter reading
+abgleichen :: to check against
+verbuchen :: to post a payment
+griffbereit :: to hand
+die Anlage :: attachment
+das Ladenlokal :: retail premises
+das Abdunkeln :: dimming the lights
+überfordern :: to overwhelm
+vorhersehbar :: predictable
+der Einlass :: admission
+erkunden :: to explore
+dimmen :: to dim
+der Empfang :: reception
+die Fehlermeldung :: error message
+der Flugmodus :: airplane mode
+abrufen :: to retrieve
+extern :: external
+verfügbar :: available
+bündeln :: to bundle
+das Tempo :: pace
+vorsichtshalber :: as a precaution
+die Ursache :: cause
+der Bremsbelag :: brake pad
+vermeintlich :: supposed
+das Anzeichen :: sign
+die Sichtprüfung :: visual inspection
+die Abweichung :: discrepancy
+die Halterung :: bracket
+die Eigentümerin :: property owner
+die Pflege :: maintenance
+zusagen :: to commit to
+die Verpflichtung :: commitment
+ausbessern :: to repair
+abhaken :: to tick off
+unpassierbar :: impassable
+sich beteiligen :: to take part
+das Tonband :: audio tape
+aufzeichnen :: to record
+digitalisieren :: to digitize
+die Weitergabe :: sharing
+übervorsichtig :: overcautious
+zugänglich :: accessible
+der Abschnitt :: section
+aufbewahren :: to keep
+der Vorgang :: case file
+der Zuschuss :: grant
+die Eingangsnummer :: receipt number
+ungültig :: invalid
+zurückziehen :: to withdraw
+die Empfangsbestätigung :: acknowledgment of receipt
+versehentlich :: accidentally
+die Einreichung :: submission
+sich erwärmen :: to heat up
+der Messpunkt :: measurement point
+sich stauen :: to build up
+die Vorgehensweise :: procedure
+einheitlich :: uniform
+berücksichtigen :: to take into account
+der Unterstand :: shelter
+der Standort :: location
+die Tischlerei :: carpentry shop
+die Weiterbildung :: professional training
+ausgerechnet :: of all days
+verschieben :: to postpone
+das Verleimen :: gluing
+die Betreuungspflicht :: caring responsibility
+die Zuständigkeit :: responsibility
+die Erkenntnis :: insight
+der Ladenschluss :: closing time
+vergeblich :: in vain
+die Vergabe :: allocation
+der Anfahrtsweg :: travel distance
+freigeben :: to make available
+die Laufkundin :: walk-in customer
+der Vormonat :: previous month
+festgelegt :: set
+einleiten :: to introduce
+abschneiden :: to cut off
+festhalten :: to record
+das Nebengeräusch :: background noise
+die Inszenierung :: production
+kennzeichnen :: to label
+die Generalprobe :: dress rehearsal
+das Mischpult :: mixing desk

@@ -1,0 +1,100 @@
+b2.w.749.ex.0 :: The policy later served as a model for several neighbouring municipalities.
+b2.w.750 :: to withhold
+b2.w.750.ex.0 :: The report could not be withheld from the group because its duties were directly affected.
+b2.w.751 :: advance funding
+b2.w.751.ex.0 :: Without advance funding, the association could not have ordered the equipment in time.
+b2.w.752 :: background, prior history
+b2.w.752.ex.0 :: Knowing the background makes it much easier to understand why those involved were reluctant.
+b2.w.753 :: right of first refusal
+b2.w.753.ex.0 :: The municipality examined its right of first refusal before negotiating with both owners.
+b2.w.754 :: presence, availability
+b2.w.754.ex.0 :: Before making the final decision, they checked again that all the required documents were on file.
+b2.w.755 :: pioneering role
+b2.w.755.ex.0 :: The library took a pioneering role by lending out tools and measuring instruments.
+b2.w.756 :: to provide for, to plan
+b2.w.756.ex.0 :: Under the new plan, enquiries will be sorted by urgency.
+b2.w.757 :: precaution, preventive measures
+b2.w.757.ex.0 :: As a precaution, the municipality stocked spare parts that were frequently needed.
+b2.w.758 :: prejudice, preconception
+b2.w.758.ex.0 :: Participants' personal accounts helped dispel a common prejudice.
+b2.w.759 :: to accuse, to reproach
+b2.w.759.ex.0 :: The applicant accused the office of failing to announce the revised deadline in time.
+b2.w.760 :: voter turnout
+b2.w.760.ex.0 :: Voter turnout rose especially in places that held additional public discussions.
+b2.w.761 :: change, transformation
+b2.w.761.ex.0 :: Social change was evident in accounts told by several generations.
+b2.w.762 :: water balance
+b2.w.762.ex.0 :: The researchers examined how the water balance had changed after ecological restoration.
+b2.w.763 :: interaction
+b2.w.763.ex.0 :: An interaction between heat and moisture became apparent only in the second set of readings.
+b2.w.764 :: decision that sets the course
+b2.w.764.ex.0 :: The decision made at the time later eased the transition to a shared service.
+b2.w.765 :: directive, instruction
+b2.w.765.ex.0 :: A written directive clarified who could sign in urgent cases.
+b2.w.766 :: continued employment
+b2.w.766.ex.0 :: The company wanted to decide whether to keep her on only after her probation ended.
+b2.w.767 :: to process further
+b2.w.767.ex.0 :: Only complete records were processed further so that every entry could be matched during analysis.
+b2.w.768 :: change in value
+b2.w.768.ex.0 :: To estimate how values had changed, comparable properties from several neighbourhoods were considered.
+b2.w.769 :: value creation
+b2.w.769.ex.0 :: Thanks to local suppliers, much of the value created stayed in the surrounding area.
+b2.w.770 :: competitive advantage
+b2.w.770.ex.0 :: The repair service proved to be a competitive advantage even though it initially generated little revenue.
+b2.w.771 :: withdrawal, revocation
+b2.w.771.ex.0 :: The provider confirmed the withdrawal of his consent in writing that same afternoon.
+b2.w.772 :: resistance, opposition
+b2.w.772.ex.0 :: Opposition to the renovation eased when the new design was presented.
+b2.w.773 :: efficiency
+b2.w.773.ex.0 :: Efficiency improved only after several small leaks had been fixed.
+b2.w.774 :: cost-effectiveness
+b2.w.774.ex.0 :: The council commented on the cost-effectiveness of the renovation only after receiving the cost estimate.
+b2.w.775 :: housing shortage
+b2.w.775.ex.0 :: Alongside high prices, the number of homes that remain empty for long periods also contributes to the housing shortage.
+b2.w.776 :: monetary union
+b2.w.776.ex.0 :: The class used specific historical examples to discuss the consequences of monetary union.
+b2.w.777 :: recognition, tribute
+b2.w.777.ex.0 :: The event ended with a brief tribute to the volunteers' work.
+b2.w.778 :: solvency
+b2.w.778.ex.0 :: The association remained solvent through the end of the year despite two major repairs.
+b2.w.779 :: time pressure
+b2.w.779.ex.0 :: Under intense time pressure, the team initially discussed some intermediate steps only verbally.
+b2.w.780 :: current affairs
+b2.w.780.ex.0 :: The podcast combines historical accounts with accessible examples from current affairs.
+b2.w.781 :: time buffer
+b2.w.781.ex.0 :: Allowing a little extra time proved particularly helpful during the lengthy inspection.
+b2.w.782 :: customs clearance
+b2.w.782.ex.0 :: During customs clearance, staff noticed that the attached invoice listed a different currency.
+b2.w.783 :: attribution, assignment of responsibility
+b2.w.783.ex.0 :: Before assigning responsibility for the error, management first checked who had actually been responsible for what.
+b2.w.784 :: merger, consolidation
+b2.w.784.ex.0 :: The two lists could be merged only after all duplicate numbers had been checked.
+b2.w.785 :: design, configuration
+b2.w.785.ex.0 :: The programme is tailored more closely to the needs of small businesses than before.
+b2.w.786 :: approval requirement
+b2.w.786.ex.0 :: We only learned that approval was required when we submitted the final version.
+b2.w.787 :: allocation
+b2.w.787.ex.0 :: This time, the rooms were allocated according to need rather than registration date.
+b2.w.788 :: to outbid
+b2.w.788.ex.0 :: In the end, a small company unexpectedly topped the highest bid.
+b2.w.789 :: to outlast, to survive
+b2.w.789.ex.0 :: Only a few recordings survived the archive's move to the new building.
+b2.w.790 :: to agree, to match
+b2.w.790.ex.0 :: The results only partly matched the previous year's expectations.
+b2.w.791 :: to transfer, to convert
+b2.w.791.ex.0 :: The association converted the old list into a digital directory it could use long term.
+b2.w.792 :: cross-departmental, overarching
+b2.w.792.ex.0 :: Coordinating the plan across departments helped because each had previously set its own dates.
+b2.w.793 :: to overlay, to mask
+b2.w.793.ex.0 :: The sound of the ventilation drowned out the quiet voices at the back of the room.
+b2.w.794 :: to let someone use, to leave to someone
+b2.w.794.ex.0 :: The school let the association use the rooms whenever no classes were being held there.
+b2.w.795 :: to overload, to overburden
+b2.w.795.ex.0 :: The constant extra tasks threatened to overwhelm the team just before the planned opening.
+b2.w.796 :: to persuade
+b2.w.796.ex.0 :: Her colleague persuaded her to present the unfinished draft at the next meeting.
+b2.w.797 :: to overshadow
+b2.w.797.ex.0 :: The dispute over costs overshadowed what had gone well in the joint project.
+b2.w.798 :: to grasp, to assess fully
+b2.w.798.ex.0 :: At that point, nobody could fully assess the consequences for smaller providers.
+b2.w.799 :: to exceed

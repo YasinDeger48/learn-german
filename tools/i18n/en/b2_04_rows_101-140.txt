@@ -1,0 +1,40 @@
+b2.w.799.ex.0 :: Spending exceeded the planned amount even though several purchases had already been postponed.
+b2.w.800 :: to transfer, to assign
+b2.w.800.ex.0 :: The board assigned responsibility for the archive to two experienced members.
+b2.w.801 :: to pay off
+b2.w.801.ex.0 :: By the time of the move, the association had paid off every instalment for the new equipment.
+b2.w.802 :: to drift off topic
+b2.w.802.ex.0 :: The discussion drifted off topic when several participants suddenly began talking about their personal experiences.
+b2.w.803 :: to compensate for, to settle
+b2.w.803.ex.0 :: The agreed amount was intended to cover all the overtime worked the previous week.
+b2.w.804 :: to cover, to deal with
+b2.w.804.ex.0 :: The speaker briefly covered the historical background before presenting the results.
+b2.w.805 :: to remedy
+b2.w.805.ex.0 :: Clearer labelling resolved the misunderstanding without requiring a redesign of the whole form.
+b2.w.806 :: to subside
+b2.w.806.ex.0 :: The noise only died down after the last vehicles had left the courtyard.
+b2.w.807 :: to build up, to accumulate
+b2.w.807.ex.0 :: A thin layer of limescale had built up in the pipes over the winter.
+b2.w.808 :: to mitigate
+b2.w.808.ex.0 :: A second entrance might lessen the impact of the closure on the library.
+b2.w.809 :: customer base
+b2.w.809.ex.0 :: The customer base grew when the workshop began selling its products online as well.
+b2.w.810 :: wear and tear
+b2.w.810.ex.0 :: The driver spotted the unusual tyre wear only during the inspection.
+b2.w.811 :: to command, to elicit
+b2.w.811.ex.0 :: The calm response earned the respect of even the sceptical group members.
+b2.w.812 :: to settle accounts, to bill
+b2.w.812.ex.0 :: The association does not bill for the shared equipment until the end of the quarter.
+b2.w.813 :: to round off
+b2.w.813.ex.0 :: A concrete example rounded off the explanation and made the next step clear.
+b2.w.814 :: to shield, to screen
+b2.w.814.ex.0 :: An extra curtain shields the reading room from the glare outside.
+b2.w.815 :: to deter, to put off
+b2.w.815.ex.0 :: The lengthy forms put off the very people the service was intended for.
+b2.w.816 :: to weaken, to reduce
+b2.w.816.ex.0 :: The second source made it less likely that the photo had been altered afterwards.
+b2.w.817 :: sloping downhill
+b2.w.817.ex.0 :: In the rain, the sloping approach proved difficult even for experienced cyclists.
+b2.w.818 :: statement of intent
+b2.w.818.ex.0 :: In the statement of intent, both institutions reaffirmed their wish to work together over the longer term.
+b2.w.819 :: to split off

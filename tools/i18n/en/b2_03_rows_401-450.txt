@@ -1,0 +1,50 @@
+b2.w.699.ex.0 :: A clear division of access is essential when two groups depend on the same equipment.
+b2.w.700 :: inappropriate, improper
+b2.w.700.ex.0 :: His inappropriate tone made the conversation harder, even though both sides already largely agreed on the substance.
+b2.w.701 :: unjustified
+b2.w.701.ex.0 :: The criticism was unjustified because the appointment had been moved without the employee's knowledge.
+b2.w.702 :: uneven, unevenly
+b2.w.702.ex.0 :: The paint was spread unevenly because the surface was still damp in places.
+b2.w.703 :: impartial
+b2.w.703.ex.0 :: The group looked for an impartial person who did not work with either side.
+b2.w.704 :: undisputed
+b2.w.704.ex.0 :: There was no doubt that the existing rooms were no longer sufficient for the growing number of groups.
+b2.w.705 :: to refrain from, to omit
+b2.w.705.ex.0 :: Management refrained from making a public announcement while funding was still uncertain.
+b2.w.706 :: to substantiate, to back up
+b2.w.706.ex.0 :: The author backed up her argument with extracts from three independently conducted interviews.
+b2.w.707 :: to impute, to attribute motives to
+b2.w.707.ex.0 :: She was unwilling to assume the provider had acted deliberately before the technical fault had been investigated.
+b2.w.708 :: to sign
+b2.w.708.ex.0 :: Representatives of both groups signed the agreement only after the final joint review.
+b2.w.709 :: inadequate
+b2.w.709.ex.0 :: The initial explanation was inadequate because it gave neither the time nor the cause.
+b2.w.710 :: to generalise
+b2.w.710.ex.0 :: Results from a single experiment should by no means be generalised to all groups.
+b2.w.711 :: to hide, to conceal
+b2.w.711.ex.0 :: At first, the colourful cover concealed a crack that had already formed along the bottom edge.
+b2.w.712 :: compatible
+b2.w.712.ex.0 :: The new hours were easier to reconcile with caring for older relatives than the previous arrangement.
+b2.w.713 :: to interweave
+b2.w.713.ex.0 :: The novel interweaves personal memories with publicly documented events from the same period.
+b2.w.714 :: to distort, to skew
+b2.w.714.ex.0 :: Selecting participants differently could skew the comparison between the two groups.
+b2.w.715 :: to call to mind
+b2.w.715.ex.0 :: As she read, she recalled the tasks her team had had to handle simultaneously at the time.
+b2.w.716 :: comparatively, relatively
+b2.w.716.ex.0 :: The renovation remained relatively inexpensive because most of the existing pipes could still be used.
+b2.w.717 :: to downplay
+b2.w.717.ex.0 :: The seller downplayed the fault even though several customers had already reported the same problem.
+b2.w.718 :: to conceal, to hide
+b2.w.718.ex.0 :: The spokesperson made no secret of her remaining doubts about several points.
+b2.w.719 :: to impose
+b2.w.719.ex.0 :: Management imposed a temporary ban until the cause of the damage could be established.
+b2.w.720 :: to link
+b2.w.720.ex.0 :: The program links each invoice to the order it relates to.
+b2.w.721 :: to demand, to request
+b2.w.721.ex.0 :: The customer demanded a written explanation after being quoted two different amounts.
+b2.w.722 :: to lend, to give
+b2.w.722.ex.0 :: The additional examples gave her explanation considerably more weight than the first draft had.
+b2.w.723 :: avoidable
+b2.w.723.ex.0 :: The wait could have been avoided if the change of room had been announced earlier.
+b2.w.724 :: supposed, apparent

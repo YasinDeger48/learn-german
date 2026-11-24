@@ -1,0 +1,50 @@
+b2.w.674.ex.0 :: The survey was hardly representative because almost everyone who responded was a regular visitor.
+b2.w.675 :: risky
+b2.w.675.ex.0 :: An early commitment would have been risky while the actual costs were still unknown.
+b2.w.676 :: in hindsight
+b2.w.676.ex.0 :: In hindsight, she considered the brief trial more important than the original planning.
+b2.w.677 :: proper, appropriate
+b2.w.677.ex.0 :: The samples were stored properly so the subsequent analysis would be unaffected.
+b2.w.678 :: knowledgeable
+b2.w.678.ex.0 :: A knowledgeable visitor noticed that the labels mixed up two similar tools.
+b2.w.679 :: coherent, logical
+b2.w.679.ex.0 :: The explanation was coherent because it also took the findings of the second investigation into account.
+b2.w.680 :: for one's part
+b2.w.680.ex.0 :: For his part, the landlord promised to provide a written breakdown of the costs before work began.
+b2.w.681 :: since then
+b2.w.681.ex.0 :: The opening hours changed in March and have been the same on both sides ever since.
+b2.w.682 :: of course
+b2.w.682.ex.0 :: Participation is of course voluntary, although the association hopes to receive plenty of feedback.
+b2.w.683 :: symbolic
+b2.w.683.ex.0 :: The old gate symbolised the transition from a workshop to a cultural centre.
+b2.w.684 :: across sites
+b2.w.684.ex.0 :: The new list is maintained across all sites to make it easier to borrow available equipment.
+b2.w.685 :: sound, convincing
+b2.w.685.ex.0 :: The argument would have been sound if the groups being compared had worked under the same conditions.
+b2.w.686 :: tacit, tacitly
+b2.w.686.ex.0 :: Those involved tacitly assumed that both expenses would be paid from the same budget.
+b2.w.687 :: disputed
+b2.w.687.ex.0 :: The only point still in dispute was who should pay for the extra cleaning after the renovation.
+b2.w.688 :: apathetic, indifferent
+b2.w.688.ex.0 :: Many people thought he seemed indifferent, even though he later examined the proposed changes carefully.
+b2.w.689 :: subject to a deadline
+b2.w.689.ex.0 :: Some of the work had to be finished by a fixed date because the rooms were already booked for other groups afterwards.
+b2.w.690 :: valid, compelling
+b2.w.690.ex.0 :: A change was possible only if those involved could give a valid reason for it.
+b2.w.691 :: to reinterpret
+b2.w.691.ex.0 :: The editors initially reinterpreted the gesture as agreement even though the spokesperson had explicitly disagreed.
+b2.w.692 :: to redesign
+b2.w.692.ex.0 :: The library redesigned the entrance to give waiting groups more room to spread out.
+b2.w.693 :: to reallocate
+b2.w.693.ex.0 :: The company shifted funds around so it could pay for the urgent maintenance immediately.
+b2.w.694 :: to redistribute
+b2.w.694.ex.0 :: After the trial run, management redistributed the tasks between the two groups.
+b2.w.695 :: to convert, to transform
+b2.w.695.ex.0 :: The association converted the former warehouse into an open space for classes.
+b2.w.696 :: unavoidable
+b2.w.696.ex.0 :: A second review seemed unavoidable because important documents had been missing from the first comparison.
+b2.w.697 :: unauthorised, without authorisation
+b2.w.697.ex.0 :: Anyone who makes changes without authorisation may accidentally render the other groups' data unusable.
+b2.w.698 :: incessantly
+b2.w.698.ex.0 :: The hotline rang nonstop after the departure times for several routes changed.
+b2.w.699 :: essential, indispensable

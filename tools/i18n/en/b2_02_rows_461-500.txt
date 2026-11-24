@@ -1,0 +1,40 @@
+b2.w.479.ex.0 :: The adviser compared the effort involved with the benefits so the group could reset its priorities.
+b2.w.480 :: side-by-side comparison
+b2.w.480.ex.0 :: A comparison of the quotes showed that the cheapest company had included only installation.
+b2.w.481 :: scope of application
+b2.w.481.ex.0 :: Whether the courtyard is part of the complex or remains open to the public determines whether the house rules apply there.
+b2.w.482 :: generally, commonly
+b2.w.482.ex.0 :: A high price is generally seen as a sign of good quality, but that was rarely true in this comparison.
+b2.w.483 :: straightforward, direct
+b2.w.483.ex.0 :: His straightforward answer helped the group identify the real conflict and ask specific questions.
+b2.w.484 :: court hearing
+b2.w.484.ex.0 :: The hearing established for the first time who had received the document on the day in question.
+b2.w.485 :: to undervalue, to think little of
+b2.w.485.ex.0 :: Some members felt undervalued because their experience had barely been taken into account in the planning.
+b2.w.486 :: overall balance
+b2.w.486.ex.0 :: Overall, the additional income did not make up for the work involved in organising the two event days.
+b2.w.487 :: conducting a discussion
+b2.w.487.ex.0 :: For the moderator, leading the discussion also meant making a point of asking quieter participants for their views.
+b2.w.488 :: weighting
+b2.w.488.ex.0 :: The criteria were weighted in advance so individual applications could not be favoured later.
+b2.w.489 :: statutory warranty
+b2.w.489.ex.0 :: The customer kept the receipt safe even after the machine was installed so she could make a warranty claim if necessary.
+b2.w.490 :: steady, unchanged
+b2.w.490.ex.0 :: If demand remains steady, the team could make the additional consultation hours permanent after the trial ends.
+b2.w.491 :: balance, equilibrium
+b2.w.491.ex.0 :: A stable work-life balance was achieved only once the weekend shifts had also been reassigned.
+b2.w.492 :: to equate
+b2.w.492.ex.0 :: A high number of enquiries should not automatically be equated with a high number of successful registrations.
+b2.w.493 :: nevertheless, even so
+b2.w.493.ex.0 :: The document was incomplete, but some sections could already be compared with the existing draft.
+b2.w.494 :: serious, significant
+b2.w.494.ex.0 :: A serious error could be corrected only after the person responsible gathered all the earlier versions.
+b2.w.495 :: drawing a boundary
+b2.w.495.ex.0 :: Old photos and the memories of long-time residents helped establish the boundary between shared and private space.
+b2.w.496 :: basic equipment
+b2.w.496.ex.0 :: The basic equipment was enough for the first training session, but extra devices had to be borrowed for later exercises.
+b2.w.497 :: basic services, essential provision
+b2.w.497.ex.0 :: Essential services in the neighbourhood include a pharmacy that older residents can reach on foot.
+b2.w.498 :: group dynamics
+b2.w.498.ex.0 :: The group dynamics visibly changed when the usually quiet participants opened the discussion themselves for the first time.
+b2.w.499 :: mostly, for the most part

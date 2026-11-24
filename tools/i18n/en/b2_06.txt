@@ -1,0 +1,203 @@
+b2.gi.397 :: wohingegen highlights a contrast and places the finite verb at the end of the subordinate clause. A copy is sufficient for the first procedure, whereas the second requires the original document.
+b2.gi.398 :: sofern states the condition that must be met for the main clause to apply. The offer remains valid provided the agreed quantities stay the same.
+b2.gi.399 :: falls introduces a possible condition under which the main action may occur. If attendance exceeds the limit, we will make a second room available.
+b2.gi.400 :: während can contrast two situations or link two simultaneous events. The older edition explains only the result, whereas the newer one also documents every intermediate step.
+b2.gi.401 :: wohingegen highlights a contrast and places the finite verb at the end of the subordinate clause. A ramp leads to the warehouse, whereas the office entrance has several steps.
+b2.gi.402 :: sofern states the condition that must be met for the main clause to apply. A copy is sufficient provided the signature on it is complete and legible.
+b2.gi.403 :: falls introduces a possible condition under which the main action may occur. Make a note of the code in case you need to request a change later.
+b2.gi.404 :: während can contrast two situations or link two simultaneous events. Mostly families came in the morning, whereas most evening visitors came on their own.
+b2.gi.405 :: wohingegen highlights a contrast and places the finite verb at the end of the subordinate clause. The first group was allowed to start immediately, whereas the second had to wait for additional equipment.
+b2.gi.406 :: sofern states the condition that must be met for the main clause to apply. The grant will be paid provided all the required documents were submitted on time.
+b2.gi.407 :: falls introduces a possible condition under which the main action may occur. If it rains, we will take the shorter route in case the riverside path is closed.
+b2.gi.408 :: während can contrast two situations or link two simultaneous events. The interior has already been renovated, whereas work on the facade is scheduled for autumn.
+b2.gi.409 :: wohingegen highlights a contrast and places the finite verb at the end of the subordinate clause. Demand rose in the south, whereas in the north it fell compared with the previous year.
+b2.gi.410 :: sofern states the condition that must be met for the main clause to apply. You may share the file provided you give the source and the date it was recorded.
+b2.gi.411 :: falls introduces a possible condition under which the main action may occur. Keep a second blanket handy in case it gets noticeably colder after sunset.
+b2.gi.412 :: während can contrast two situations or link two simultaneous events. While Lea welcomed the guests, Ben sorted the remaining name badges.
+b2.gi.413 :: wohingegen highlights a contrast and places the finite verb at the end of the subordinate clause. The new site is closer to the centre, whereas the current one has more space.
+b2.gi.414 :: sofern states the condition that must be met for the main clause to apply. The fee is waived provided the two appointments are booked together.
+b2.gi.415 :: falls introduces a possible condition under which the main action may occur. Bring the confirmation in case staff cannot find the entry on site.
+b2.gi.416 :: während can contrast two situations or link two simultaneous events. Part of the group looked for the entrance while the others stayed with the crates.
+b2.gi.417 :: wohingegen highlights a contrast and places the finite verb at the end of the subordinate clause. The initial results are public, whereas only the research team can access the raw data.
+b2.gi.418 :: sofern states the condition that must be met for the main clause to apply. The booking can be moved provided there are still enough places available at the requested time.
+b2.gi.419 :: falls introduces a possible condition under which the main action may occur. Let management know if the damage gets worse before the weekend.
+b2.gi.420 :: In an unreal comparison with als alone, the finite verb comes immediately after als. The spokesperson acted as if there were no other solution.
+b2.gi.421 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. Nora sounded as though she had expected the result.
+b2.gi.422 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. The photo makes it look as though the room were empty.
+b2.gi.423 :: In an unreal comparison with als alone, the finite verb comes immediately after als. The machine sounds as if there were a loose part inside the housing.
+b2.gi.424 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. He writes as if the agreement had been signed long ago.
+b2.gi.425 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. Lina looked at me as though she had not recognised me.
+b2.gi.426 :: In an unreal comparison with als alone, the finite verb comes immediately after als. The dog stopped as if it were waiting for a signal.
+b2.gi.427 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. The pattern looks as if someone had drawn it by hand.
+b2.gi.428 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. You talk as if you already knew the future.
+b2.gi.429 :: In an unreal comparison with als alone, the finite verb comes immediately after als. Our colleague explained everything so calmly that it sounded as if the fault had long since been fixed.
+b2.gi.430 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. Her message makes it sound as though she might not be able to come tomorrow.
+b2.gi.431 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. From the entrance, the stripes look as if they run diagonally.
+b2.gi.432 :: In an unreal comparison with als alone, the finite verb comes immediately after als. The two acted as if they had never met before.
+b2.gi.433 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. It sounded as though several glasses had broken at once.
+b2.gi.434 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. The student answered as if she had heard the question before.
+b2.gi.435 :: In an unreal comparison with als alone, the finite verb comes immediately after als. As the file opened, the program seemed to freeze.
+b2.gi.436 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. The coat looks as though it has hardly been worn.
+b2.gi.437 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. The moderator spoke as if nobody would disagree with him.
+b2.gi.438 :: In an unreal comparison with als alone, the finite verb comes immediately after als. The group acted as though the rules did not apply to them.
+b2.gi.439 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. The technician looked at the display as if he could not believe the reading.
+b2.gi.440 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. The square looked as if a festival had just ended.
+b2.gi.441 :: In an unreal comparison with als alone, the finite verb comes immediately after als. The manager acted as though the news was completely new to her.
+b2.gi.442 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. Ben's explanation made it sound as if he alone had been entitled to make the decision.
+b2.gi.443 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. In the dark, the ceiling looked as though it were slowly moving.
+b2.gi.444 :: In an unreal comparison with als alone, the finite verb comes immediately after als. The child smiled as if reunited with a long-forgotten friend.
+b2.gi.445 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. The bus shook as though the road were full of deep potholes.
+b2.gi.446 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. You all talk as though you had attended the meeting yourselves.
+b2.gi.447 :: In an unreal comparison with als alone, the finite verb comes immediately after als. The new student looked as if she already knew the area.
+b2.gi.448 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. The talk began as if the speaker were already halfway through the topic.
+b2.gi.449 :: In comparisons introduced by als ob or als wenn, the finite verb goes at the end. After the call, he looked as though a weight had been lifted from his shoulders.
+b2.gi.450 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The meeting was moved to a smaller room without all the participants being informed beforehand.
+b2.gi.451 :: Use statt dass with a finite verb to express an alternative that did not occur. The applicant had to follow up instead of the administration replying on its own initiative.
+b2.gi.452 :: Use anstatt … zu with an infinitive when the two actions have the same subject. Instead of checking the invoice, he transferred the full amount immediately.
+b2.gi.453 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The curtain came down before the musicians had packed up their instruments.
+b2.gi.454 :: Use statt dass with a finite verb to express an alternative that did not occur. The plan was scaled back instead of the committee raising the budget.
+b2.gi.455 :: Use anstatt … zu with an infinitive when the two actions have the same subject. She corrected the headline instead of rewriting the entire article.
+b2.gi.456 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. We found the right entrance without anyone having to show us the way.
+b2.gi.457 :: Use statt dass with a finite verb to express an alternative that did not occur. The dealer offered a discount instead of having the workshop replace the damaged part.
+b2.gi.458 :: Use anstatt … zu with an infinitive when the two actions have the same subject. An employee called back instead of sending a second automated message.
+b2.gi.459 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The file was released without anyone having deleted the old version.
+b2.gi.460 :: Use statt dass with a finite verb to express an alternative that did not occur. To the group's surprise, dismantling began instead of management answering questions.
+b2.gi.461 :: Use anstatt … zu with an infinitive when the two actions have the same subject. Instead of arguing about who was to blame, both sides looked for a practical solution.
+b2.gi.462 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The device could be switched on without the warning signal sounding again.
+b2.gi.463 :: Use statt dass with a finite verb to express an alternative that did not occur. The company submitted a new invoice instead of sending the missing attachment.
+b2.gi.464 :: Use anstatt … zu with an infinitive when the two actions have the same subject. We set up a temporary entrance instead of closing the hall completely.
+b2.gi.465 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The samples were collected without the lab having confirmed their numbers beforehand.
+b2.gi.466 :: Use statt dass with a finite verb to express an alternative that did not occur. The meeting ended with a decision to postpone the matter instead of reaching a final decision.
+b2.gi.467 :: Use anstatt … zu with an infinitive when the two actions have the same subject. The editor checked the source himself instead of relying on the summary.
+b2.gi.468 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. Several guests left without the organiser having heard their objections.
+b2.gi.469 :: Use statt dass with a finite verb to express an alternative that did not occur. The library lent the school two computers instead of the school buying additional equipment.
+b2.gi.470 :: Use anstatt … zu with an infinitive when the two actions have the same subject. The mechanic replaced only the fuse instead of replacing the entire system.
+b2.gi.471 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The bus pulled away without the stop appearing on the display.
+b2.gi.472 :: Use statt dass with a finite verb to express an alternative that did not occur. Each group worked on its own draft instead of the two groups planning together.
+b2.gi.473 :: Use anstatt … zu with an infinitive when the two actions have the same subject. The board asked for new figures instead of rejecting the draft outright.
+b2.gi.474 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The translation was published without the author having approved the final paragraph.
+b2.gi.475 :: Use statt dass with a finite verb to express an alternative that did not occur. The new employee took on the task instead of her colleague sorting the documents.
+b2.gi.476 :: Use anstatt … zu with an infinitive when the two actions have the same subject. We used our old boxes for the move instead of buying new ones.
+b2.gi.477 :: Use ohne dass with a finite verb to express what did not happen in connection with the main action. The meeting could begin even though the scheduled guest had yet to arrive.
+b2.gi.478 :: Use statt dass with a finite verb to express an alternative that did not occur. Management commissioned an expert report instead of the committee voting on the renovation immediately.
+b2.gi.479 :: Use anstatt … zu with an infinitive when the two actions have the same subject. The neighbour asked directly at reception instead of waiting in the corridor.
+b2.gi.480 :: Use Partizip II and “zu haben” to express an action that happened earlier. The customer claims to have transferred the full amount on Monday already.
+b2.gi.481 :: Use Partizip II and “zu sein” to express an action that happened earlier. The witness believes he was at the intersection shortly before the accident.
+b2.gi.482 :: Use Partizip II and “zu haben” to express an action that happened earlier. I regret reading the editorial team's follow-up question too late yesterday.
+b2.gi.483 :: Use Partizip II and “zu sein” to express an action that happened earlier. The group is glad to have arrived before dark.
+b2.gi.484 :: Use Partizip II and “zu haben” to express an action that happened earlier. Our technician denies changing the settings before the measurement.
+b2.gi.485 :: Use Partizip II and “zu sein” to express an action that happened earlier. The driver thinks he did not turn off until the second exit.
+b2.gi.486 :: Use Partizip II and “zu haben” to express an action that happened earlier. She apologised for sending the wrong attachment to everyone.
+b2.gi.487 :: Use Partizip II and “zu sein” to express an action that happened earlier. The board appears to have based its initial decision on incorrect figures.
+b2.gi.488 :: Use Partizip II and “zu haben” to express an action that happened earlier. He says he has already recorded every step of the work in the minutes.
+b2.gi.489 :: Use Partizip II and “zu sein” to express an action that happened earlier. We are relieved to have reached our destination on time despite the detour.
+b2.gi.490 :: Use Partizip II and “zu haben” to express an action that happened earlier. The researcher is certain that she also took the rare cases into account.
+b2.gi.491 :: Use Partizip II and “zu sein” to express an action that happened earlier. The letter seems to have ended up in the wrong compartment during delivery.
+b2.gi.492 :: Use Partizip II and “zu haben” to express an action that happened earlier. The applicant regrets not checking his documents more thoroughly.
+b2.gi.493 :: Use Partizip II and “zu sein” to express an action that happened earlier. Several employees claim to have returned straight to the workshop after the meeting.
+b2.gi.494 :: Use Partizip II and “zu haben” to express an action that happened earlier. Tina remembers explicitly confirming the collection in writing.
+b2.gi.495 :: Use Partizip II and “zu sein” to express an action that happened earlier. The technician seems to have moved to a different site in the meantime.
+b2.gi.496 :: Use Partizip II and “zu haben” to express an action that happened earlier. The curator admitted that he had removed the original label too soon.
+b2.gi.497 :: Use Partizip II and “zu sein” to express an action that happened earlier. The family was glad to have made it home that same evening.
+b2.gi.498 :: Use Partizip II and “zu haben” to express an action that happened earlier. The editor claims to have checked the source of the images with two organisations.
+b2.gi.499 :: Use Partizip II and “zu sein” to express an action that happened earlier. I regret rushing straight out of the door because of a premature report.
+b2.gi.500 :: Use Partizip II and “zu haben” to express an action that happened earlier. Lea is proud to have spotted the differences without anyone else's help.
+b2.gi.501 :: Use Partizip II and “zu sein” to express an action that happened earlier. The water seems to have seeped into the basement while it was raining.
+b2.gi.502 :: Use Partizip II and “zu haben” to express an action that happened earlier. The caretaker denied opening the door before six.
+b2.gi.503 :: Use Partizip II and “zu sein” to express an action that happened earlier. The participant was surprised to find that her name had appeared twice on the same list.
+b2.gi.504 :: Use Partizip II and “zu haben” to express an action that happened earlier. Paul assured us that he had clearly highlighted the notice before sending it out.
+b2.gi.505 :: Use Partizip II and “zu sein” to express an action that happened earlier. The team regrets going to the hearing without the complete set of documents.
+b2.gi.506 :: Use Partizip II and “zu haben” to express an action that happened earlier. The witness denied speaking to the editorial team before the call.
+b2.gi.507 :: Use Partizip II and “zu sein” to express an action that happened earlier. The train appears to have been cancelled yesterday due to a technical fault.
+b2.gi.508 :: Use Partizip II and “zu haben” to express an action that happened earlier. Mara thought she had understood the crucial difference between the two versions.
+b2.gi.509 :: Use Partizip II and “zu sein” to express an action that happened earlier. The guest claims to have climbed the long staircase without anyone else's help.
+b2.gi.510 :: In this sense, the standard expression is “auf etwas angewiesen sein”. The workshop still relies on a dependable supplier for spare parts.
+b2.gi.511 :: In this sense, the standard expression is “an etwas zweifeln”. The team questioned how meaningful the readings were, since they had been taken only once.
+b2.gi.512 :: In this sense, the standard expression is “auf etwas hinweisen”. The adviser specifically pointed out the consequences of registering late.
+b2.gi.513 :: In this sense, the standard expression is “mit etwas einverstanden sein”. The group has yet to agree to the final version of the plan.
+b2.gi.514 :: In this sense, the standard expression is “sich um etwas bemühen”. The association tried to make sure the limited number of rooms was shared fairly.
+b2.gi.515 :: In this sense, the standard expression is “sich auf etwas berufen”. The editor cited a written commitment from the previous year.
+b2.gi.516 :: In this sense, the standard expression is “mit etwas vertraut sein”. Many applicants are unfamiliar with the specifics of the digital procedure.
+b2.gi.517 :: In this sense, the standard expression is “vor etwas warnen”. The instructor warned participants against making unverified claims in their reports.
+b2.gi.518 :: In this sense, the standard expression is “sich nach etwas richten”. The fee is based on the actual length of use.
+b2.gi.519 :: In this sense, the standard expression is “auf etwas bestehen”. The administration insists on written confirmation before approving the change.
+b2.gi.520 :: In this sense, the standard expression is “für etwas zuständig sein”. Our group is responsible for reviewing newly received applications.
+b2.gi.521 :: In this sense, the standard expression is “von etwas abraten”. Given the inconclusive findings, the technician advised against replacing the part immediately.
+b2.gi.522 :: In this sense, the standard expression is “sich auf etwas einigen”. The members agreed on a schedule with two additional checks.
+b2.gi.523 :: In this sense, the standard expression is “sich mit etwas befassen”. The report examines the long-term consequences of the revised opening hours.
+b2.gi.524 :: In this sense, the standard expression is “von etwas überzeugt sein”. Some colleagues are still unconvinced that the new measurement method is accurate.
+b2.gi.525 :: In this sense, the standard expression is “zwischen Dingen unterscheiden”. In the final chapter, the author distinguishes between confirmed information and mere speculation.
+b2.gi.526 :: In this sense, the standard expression is “auf etwas verzichten”. Management decided against offering another appointment because demand was low.
+b2.gi.527 :: In this sense, the standard expression is “für etwas haften”. The supplier is liable for damage caused by improper packaging.
+b2.gi.528 :: In this sense, the standard expression is “an etwas scheitern”. The agreement ultimately fell through because of a demand that only came to light that evening.
+b2.gi.529 :: In this sense, the standard expression is “an etwas mitwirken”. The families affected were able to help make organisational decisions early on.
+b2.gi.530 :: In this sense, the standard expression is “sich nach etwas erkundigen”. During the conversation, Mara asked about the requirements for taking part.
+b2.gi.531 :: In this sense, the standard expression is “über etwas verfügen”. The museum has several recordings that have never been published.
+b2.gi.532 :: In this sense, the standard expression is “Wert auf etwas legen”. The employee placed particular importance on explaining the costs clearly.
+b2.gi.533 :: In this sense, the standard expression is “sich an etwas orientieren”. The publisher used the advisory panel's recommendations as a guide when making revisions.
+b2.gi.534 :: In this sense, the standard expression is “von etwas abhängig sein”. The young company still depends on support from regional partners.
+b2.gi.535 :: In this sense, the standard expression is “um etwas bitten”. Before publication, the association asked the photographer for her explicit consent.
+b2.gi.536 :: In this sense, the standard expression is “zu etwas beitragen”. The new allocation helps noticeably reduce the employees' workload.
+b2.gi.537 :: In this sense, the standard expression is “zu etwas bereit sein”. After the deadline was extended, the board was ready to conduct a second review.
+b2.gi.538 :: In this sense, the standard expression is “sich mit etwas auseinandersetzen”. The property management team addressed the allegations in a written response.
+b2.gi.539 :: In this sense, the standard expression is “für etwas geeignet sein”. The instructions are particularly suitable for people with no prior technical knowledge.
+b2.gi.540 :: In a free relative clause, wer refers to a person who is the subject of that clause. Anyone who submits their application on time receives written confirmation within a week.
+b2.gi.541 :: Use wem when the person requires Dativ in the relative clause. Anyone missing documents must submit them before the next appointment.
+b2.gi.542 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. Everything you need to consider when switching providers is listed here.
+b2.gi.543 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. There was nothing to inform the participants of the reason for the cancellation.
+b2.gi.544 :: In a relative clause, wo refers to a place name or other expression of place. The anniversary will also be celebrated in Aachen, where the association was founded.
+b2.gi.545 :: In expressions of time, an takes Dativ, so the relative pronoun for der Tag is dem. I remember the day we first discussed the decision.
+b2.gi.546 :: wodurch introduces a consequence of what happened in the preceding clause. The planning error went unnoticed for a long time, which ultimately delayed the work.
+b2.gi.547 :: With um etwas bitten, use worum to refer back to what was requested. The trainee was given more responsibility, as she had requested at the very first meeting.
+b2.gi.548 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. The discussion covered only what everyone involved could actually change.
+b2.gi.549 :: Use deren to indicate possession when the antecedent is feminine or plural. The workshop, whose new manager was introduced yesterday, is expanding its range of services.
+b2.gi.550 :: Use dessen to indicate possession when the antecedent is masculine or neuter singular. The company whose products we are comparing has since opened a second branch.
+b2.gi.551 :: Use deren to indicate possession when the antecedent is feminine or plural. Two houses whose roofs were damaged in the storm are still vacant.
+b2.gi.552 :: Use wen for a person who is the Akkusativ object in the relative clause. We tell anyone we select for the survey what it is for in advance.
+b2.gi.553 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. That was the best that could be achieved under these conditions.
+b2.gi.554 :: wodurch introduces a consequence of what happened in the preceding clause. In the end, a page was missing, which delayed the processing of the application.
+b2.gi.555 :: With sich über etwas beschweren, use worüber to refer back to the event that prompted the complaint. The bakery postponed its opening, which several regular customers immediately complained about.
+b2.gi.556 :: Use wen for a person who is the Akkusativ object in the relative clause. Anyone who is unconvinced by the proposal can put forward a solution of their own.
+b2.gi.557 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. One thing that surprised us in the second measurement was how small the difference was.
+b2.gi.558 :: In a relative clause, wo refers to a place name or other expression of place. Nora presented her research findings in Jena, where she had worked before.
+b2.gi.559 :: Use deren to indicate possession when the antecedent is feminine or plural. The school, whose gym is currently being renovated, is using a room in the town hall for now.
+b2.gi.560 :: Use dessen to indicate possession when the antecedent is masculine or neuter singular. The photographer whose name is missing from the catalogue got in touch with the museum.
+b2.gi.561 :: Use deren to indicate possession when the antecedent is feminine or plural. Several parents whose children are already taking the course suggested an extra date.
+b2.gi.562 :: In a free relative clause, wer refers to a person who is the subject of that clause. Anyone who has not given explicit consent is not named in the publication.
+b2.gi.563 :: wodurch introduces a consequence of what happened in the preceding clause. The map showed only the main streets, which caused the group to lose its way several times.
+b2.gi.564 :: was can refer back to an indefinite pronoun, the demonstrative das or a nominalised superlative. The new schedule was exactly what the two workshops had needed.
+b2.gi.565 :: In a relative clause, wo refers to a place name or other expression of place. The marked part of the route begins where the two paths meet.
+b2.gi.566 :: With sich von etwas etwas erhoffen, use wovon to refer back to the event from which the result is hoped for. Registration was made easier, which the association hoped would encourage more people to take part.
+b2.gi.567 :: Use dessen to indicate possession when the antecedent is masculine or neuter singular. The project, whose funding had already been secured, was able to start ahead of schedule.
+b2.gi.568 :: In a free relative clause, wer refers to a person who is the subject of that clause. Anyone who goes through the material in advance will find the discussion easier to follow.
+b2.gi.569 :: Use deren to indicate possession when the antecedent is feminine or plural. The doctor whose recommendations are quoted in the report has worked at the institution for years.
+b2.gi.570 :: Here, es anticipates a following subordinate clause or infinitive phrase. I find it difficult to explain the differences without the original table.
+b2.gi.571 :: Initial placeholder es affects neither the case of the subject that follows nor the verb agreement. The inspection revealed several previously unknown instances of damage to the roof.
+b2.gi.572 :: Here, es anticipates a following subordinate clause or infinitive phrase. Management thinks it makes sense to let only two groups take part at first.
+b2.gi.573 :: In this impersonal expression, es refers to no particular person or object. At the time, there was still no uniform rule for shared use.
+b2.gi.574 :: Here, es anticipates a following subordinate clause or infinitive phrase. We are surprised that the shorter report was read considerably more often.
+b2.gi.575 :: In this impersonal expression, es refers to no particular person or object. The overview is still missing information about the second location.
+b2.gi.576 :: Here, es anticipates a following subordinate clause or infinitive phrase. She managed to verify the two conflicting pieces of information in the archive.
+b2.gi.577 :: In this impersonal expression, es refers to no particular person or object. Those responsible want everyone to be able to understand the costs.
+b2.gi.578 :: Initial placeholder es affects neither the case of the subject that follows nor the verb agreement. Two additional rooms will be available to the group from Monday.
+b2.gi.579 :: Here, es anticipates a following subordinate clause or infinitive phrase. I find it concerning that the change was announced only after the vote.
+b2.gi.580 :: In this impersonal expression, es refers to no particular person or object. Why do so many enquiries relate to the same period?
+b2.gi.581 :: Initial placeholder es affects neither the case of the subject that follows nor the verb agreement. In the end, there was still enough time for the outstanding questions.
+b2.gi.582 :: Here, es anticipates a following subordinate clause or infinitive phrase. The researcher avoided drawing general conclusions from a single experiment.
+b2.gi.583 :: Here, es anticipates a following subordinate clause or infinitive phrase. Whether the information is complete matters for the decision.
+b2.gi.584 :: In a subjectless passive clause, es can fill the first position, and the finite verb stays singular. People worked until late yesterday in the back of the workshop.
+b2.gi.585 :: Here, es anticipates a following subordinate clause or infinitive phrase. Some people think it is unnecessary to prepare for a vote before the meeting has even begun.
+b2.gi.586 :: Here, es anticipates a following subordinate clause or infinitive phrase. We regret that several participants did not find the venue in time.
+b2.gi.587 :: In this impersonal expression, es refers to no particular person or object. Ongoing operations were repeatedly interrupted during the renovation.
+b2.gi.588 :: Initial placeholder es affects neither the case of the subject that follows nor the verb agreement. Several people are already waiting for their documents outside the entrance.
+b2.gi.589 :: Here, es anticipates a following subordinate clause or infinitive phrase. The association welcomes it when new members also take part in planning.
+b2.gi.590 :: In this impersonal expression, es refers to no particular person or object. Does the change concern only the order of the work steps?
+b2.gi.591 :: Initial placeholder es affects neither the case of the subject that follows nor the verb agreement. Significantly more people signed up for the evening course than expected.
+b2.gi.592 :: Here, es anticipates a following subordinate clause or infinitive phrase. The moderator left it up to the group to decide when the discussion should end.
+b2.gi.593 :: Here, es anticipates a following subordinate clause or infinitive phrase. The guests noticed that the second translation omitted several sentences.
+b2.gi.594 :: In this impersonal expression, es refers to no particular person or object. It rained until well after midnight.
+b2.gi.595 :: Here, es anticipates a following subordinate clause or infinitive phrase. Only after the sources had been checked was it possible to confirm the news.
+b2.gi.596 :: In this impersonal expression, es refers to no particular person or object. It is too soon to say whether this is an isolated case.
+b2.gi.597 :: Initial placeholder es affects neither the case of the subject that follows nor the verb agreement. Several free guided tours will take place after the opening.
+b2.gi.598 :: Here, es anticipates a following subordinate clause or infinitive phrase. The teacher considers it part of her job to give feedback that is as specific and clear as possible.
+b2.gi.599 :: Here, es anticipates a following subordinate clause or infinitive phrase. It is important to the committee that the reasons for the decision be explained in writing.

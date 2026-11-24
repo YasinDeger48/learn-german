@@ -1,0 +1,40 @@
+b2.w.859.ex.0 :: The institution boosted its income during the quieter months by offering additional courses.
+b2.w.860 :: to devote, to put in
+b2.w.860.ex.0 :: The group had to put in more time than the original draft had allowed for.
+b2.w.861 :: to break down, to subdivide
+b2.w.861.ex.0 :: The administration broke down the total by building and by the hours each building was used.
+b2.w.862 :: to take up, to revisit
+b2.w.862.ex.0 :: The manager returned to the objection the team had previously overlooked.
+b2.w.863 :: to catch up
+b2.w.863.ex.0 :: The second group caught up as soon as it had access to the same documents as the first.
+b2.w.864 :: to list
+b2.w.864.ex.0 :: The chair listed the tasks that were to be completed by the next meeting.
+b2.w.865 :: reception area
+b2.w.865.ex.0 :: Visitors could wait in the reception area without blocking the way to the exhibition.
+b2.w.866 :: to upset, to annoy
+b2.w.866.ex.0 :: The unclear explanation upset many members who had expected a detailed account.
+b2.w.867 :: to add to the price
+b2.w.867.ex.0 :: The dealer added the packaging costs even though they were already included in the quote.
+b2.w.868 :: duty of supervision
+b2.w.868.ex.0 :: Before the trip, the team clarified who would be responsible for supervision during each stage.
+b2.w.869 :: to track down
+b2.w.869.ex.0 :: Using old addresses, the journalist tracked down two people from the original working group.
+b2.w.870 :: to instruct, to assign
+b2.w.870.ex.0 :: The manager told him to organise the documents that had been submitted before the meeting.
+b2.w.871 :: incoming orders
+b2.w.871.ex.0 :: Incoming orders in the spring were higher than management had originally expected.
+b2.w.872 :: to occur, to arise
+b2.w.872.ex.0 :: The error occurred only when several people opened the same file at the same time.
+b2.w.873 :: to spend, to expend
+b2.w.873.ex.0 :: The workshop had to spend almost twice as much time on the inspection as planned.
+b2.w.874 :: conspicuous, striking
+b2.w.874.ex.0 :: The difference was especially striking when the two maps were viewed side by side.
+b2.w.875 :: to get out of hand
+b2.w.875.ex.0 :: The conversation got out of hand when some members suddenly started arguing about past conflicts.
+b2.w.876 :: to expand
+b2.w.876.ex.0 :: The library expanded its services after demand for equipment loans increased.
+b2.w.877 :: to stipulate, to make a condition
+b2.w.877.ex.0 :: The association stipulated that it be allowed to use the room during the holidays as well.
+b2.w.878 :: apprenticeship pay
+b2.w.878.ex.0 :: The applicant asked about apprenticeship pay before the interview.
+b2.w.879 :: to slow down, to hold back

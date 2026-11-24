@@ -1,0 +1,40 @@
+b2.w.979.ex.0 :: She was offered a permanent position only after she had worked independently for several months.
+b2.w.980 :: source of funding
+b2.w.980.ex.0 :: The main source of funding dried up when a long-standing partner withdrew from the project.
+b2.w.981 :: impact assessment
+b2.w.981.ex.0 :: The impact assessment considered costs as well as longer commutes for employees.
+b2.w.982 :: research question
+b2.w.982.ex.0 :: The research question was narrowed because a single experiment could not test all the relationships.
+b2.w.983 :: how others see you
+b2.w.983.ex.0 :: The team discussed the clear differences they found between how they saw themselves and how others saw them.
+b2.w.984 :: setting a deadline
+b2.w.984.ex.0 :: Before setting a deadline, management checked which tasks could actually be done in parallel.
+b2.w.985 :: ability to function
+b2.w.985.ex.0 :: The system remained operational although some parts had already had to be replaced.
+b2.w.986 :: rebuttal
+b2.w.986.ex.0 :: His rebuttal was most convincing when he gave examples of his own instead of raising general objections.
+b2.w.987 :: shared responsibility
+b2.w.987.ex.0 :: All the groups shared responsibility for supervision, taking turns each week.
+b2.w.988 :: generational conflict
+b2.w.988.ex.0 :: The generational conflict became apparent when older and younger members described different ideas about working together.
+b2.w.989 :: total effort
+b2.w.989.ex.0 :: We initially underestimated the total effort because the schedule did not account for later checks.
+b2.w.990 :: legislation
+b2.w.990.ex.0 :: The seminar explored how public hearings influence subsequent legislation.
+b2.w.991 :: facial recognition
+b2.w.991.ex.0 :: The committee postponed the facial recognition test until the outstanding questions had been resolved.
+b2.w.992 :: creative freedom
+b2.w.992.ex.0 :: The teacher deliberately gave the groups more creative freedom in their presentations than before.
+b2.w.993 :: profit margin
+b2.w.993.ex.0 :: The profit margin was lower once returns and repairs were factored in.
+b2.w.994 :: equal rights
+b2.w.994.ex.0 :: For the association, promoting equal rights also meant holding meetings at different times of day.
+b2.w.995 :: threshold
+b2.w.995.ex.0 :: The specified threshold was reached only on the day both devices were running.
+b2.w.996 :: underlying attitude
+b2.w.996.ex.0 :: Her open attitude made it easier for younger colleagues to ask even unusual questions.
+b2.w.997 :: disclaimer of liability
+b2.w.997.ex.0 :: The disclaimer of liability was explained at the meeting because some of the wording seemed ambiguous.
+b2.w.998 :: recommended course of action
+b2.w.998.ex.0 :: The recommended course of action was drawn up only after the results had been discussed with those affected.
+b2.w.999 :: consistent

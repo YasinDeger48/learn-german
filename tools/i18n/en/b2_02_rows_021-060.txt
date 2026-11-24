@@ -1,0 +1,40 @@
+b2.w.259.ex.0 :: The salesperson initially pressured the customer into buying an extra service she had not asked for.
+b2.w.260 :: noticeable, striking
+b2.w.260.ex.0 :: What stood out was that the people who had initially opposed the trial were the ones who spoke up.
+b2.w.261 :: open-minded
+b2.w.261.ex.0 :: The manager was open to criticism provided people gave specific examples that could be reviewed together.
+b2.w.262 :: open-mindedness
+b2.w.262.ex.0 :: Her openness to unfamiliar suggestions made it easier for the two very different groups to work together.
+b2.w.263 :: lifting, repeal
+b2.w.263.ex.0 :: The road reopened once the closure was lifted, but it remained poorly lit for the time being.
+b2.w.264 :: to clarify
+b2.w.264.ex.0 :: A second measurement clarified why readings from two rooms had seemed inconsistent.
+b2.w.265 :: clarification
+b2.w.265.ex.0 :: To clear up the misunderstanding, the museum displayed the original version of the letter alongside the translation.
+b2.w.266 :: to break up, to make more varied
+b2.w.266.ex.0 :: Short conversations between talks made the programme more varied without putting the schedule at risk.
+b2.w.267 :: dissolution
+b2.w.267.ex.0 :: After the working group was dissolved, the board took over the remaining tasks itself.
+b2.w.268 :: sincere
+b2.w.268.ex.0 :: His sincere apology made the conversation easier even though the damage had not yet been repaired.
+b2.w.269 :: to upgrade
+b2.w.269.ex.0 :: Instead of buying new computers, the library upgraded its existing devices with more memory.
+b2.w.270 :: revealing, informative
+b2.w.270.ex.0 :: The comparison with a group trying the procedure for the first time was particularly revealing.
+b2.w.271 :: to break down, to itemise
+b2.w.271.ex.0 :: The administration broke down the costs by building so unusual differences would be easier to examine.
+b2.w.272 :: postponement
+b2.w.272.ex.0 :: The requested postponement would have given the team time to obtain more renovation quotes.
+b2.w.273 :: upswing, recovery
+b2.w.273.ex.0 :: Businesses that had already invested in new technology benefited most from the economic recovery.
+b2.w.274 :: increase, expansion
+b2.w.274.ex.0 :: A temporary increase in staffing is intended to stop processing times from getting even longer in summer.
+b2.w.275 :: order situation, order book
+b2.w.275.ex.0 :: Despite a fluctuating order book, the workshop offered its apprentices permanent jobs after they passed their exams.
+b2.w.276 :: capable of further development
+b2.w.276.ex.0 :: The draft can be developed further because it already has a clear structure and several useful examples.
+b2.w.277 :: to fight out, to settle
+b2.w.277.ex.0 :: The two chairs did not want to fight out their dispute in front of the whole group, so they arranged a separate meeting.
+b2.w.278 :: feasible, executable
+b2.w.278.ex.0 :: Under the circumstances, the plan is feasible only if at least two more people help.
+b2.w.279 :: fully occupied

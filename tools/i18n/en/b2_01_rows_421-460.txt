@@ -1,0 +1,40 @@
+b2.w.209.ex.0 :: The new procedure will replace the paper list once all sites are connected.
+b2.w.210 :: in conclusion, final
+b2.w.210.ex.0 :: In conclusion, the moderator explained which proposals should be pursued and which should be discussed again in autumn.
+b2.w.211 :: estimate
+b2.w.211.ex.0 :: We still need feedback from the workshops involved to make a reliable estimate of the workload.
+b2.w.212 :: to refrain, to hold off
+b2.w.212.ex.0 :: Because the costs were unclear, the board decided to hold off on renovating the room for now.
+b2.w.213 :: abstinence
+b2.w.213.ex.0 :: For several weeks, she documented how abstaining from alcohol affected her daily life.
+b2.w.214 :: to scale according to income
+b2.w.214.ex.0 :: The municipality scales its grants according to income so that lower-income families receive more support.
+b2.w.215 :: sliding scale
+b2.w.215.ex.0 :: A more finely graduated pricing scale would make it possible to offer lower rates for short visits.
+b2.w.216 :: to transfer
+b2.w.216.ex.0 :: The owner transferred some of her shares so two long-time employees could join the business.
+b2.w.217 :: to wait for
+b2.w.217.ex.0 :: Before signing the contract, she wants to wait for the results of the independent review.
+b2.w.218 :: different, contrary
+b2.w.218.ex.0 :: Contrary to the original plan, the training began with an exercise drawn from everyday work.
+b2.w.219 :: to avert, to prevent
+b2.w.219.ex.0 :: A quick repair allowed the team to avert a prolonged shutdown of the entire system.
+b2.w.220 :: to amend, to alter
+b2.w.220.ex.0 :: The publisher later changed the title to avoid confusion with an older book.
+b2.w.221 :: commendable
+b2.w.221.ex.0 :: I think it is commendable that she spoke openly about the errors even under time pressure.
+b2.w.222 :: accreditation
+b2.w.222.ex.0 :: Journalists were not allowed backstage without prior accreditation.
+b2.w.223 :: at most
+b2.w.223.ex.0 :: The old printer is suitable for drafts at most because fine lines are barely visible.
+b2.w.224 :: general knowledge
+b2.w.224.ex.0 :: The exhibition requires no specialist knowledge and deliberately builds on visitors' general knowledge.
+b2.w.225 :: contaminated site
+b2.w.225.ex.0 :: Before homes can be built, the city must have the contaminated site investigated.
+b2.w.226 :: official
+b2.w.226.ex.0 :: The date is considered officially confirmed only once the corresponding entry appears in the register.
+b2.w.227 :: taking office
+b2.w.227.ex.0 :: Shortly after taking office, the mayor announced public meetings in each neighbourhood.
+b2.w.228 :: to initiate, to establish
+b2.w.228.ex.0 :: At the trade fair, the small company initiated a partnership with two regional suppliers.
+b2.w.229 :: growing region

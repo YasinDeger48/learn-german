@@ -1,0 +1,100 @@
+b2.w.499.ex.0 :: Most of the changes had been implemented when the first group described its experience with the new procedure.
+b2.w.500 :: to be liable
+b2.w.500.ex.0 :: Who would be liable for such damage was discussed in detail only when the agreement was reviewed.
+b2.w.501 :: budget planning
+b2.w.501.ex.0 :: When planning the budget, the council expected several schools to need new windows at the same time.
+b2.w.502 :: heating demand
+b2.w.502.ex.0 :: Residents noticed the reduced need for heating especially on days when the outdoor temperature was just above freezing.
+b2.w.503 :: obstacle, hindrance
+b2.w.503.ex.0 :: The unclear division of duties proved a hindrance because each change had to be coordinated with several groups.
+b2.w.504 :: to bring about
+b2.w.504.ex.0 :: A joint discussion was meant to produce a decision before the rooms were allocated to someone else.
+b2.w.505 :: country of origin
+b2.w.505.ex.0 :: The goods' country of origin was marked on the crate but missing from the sign in the shop.
+b2.w.506 :: to derive, to deduce
+b2.w.506.ex.0 :: The participant drew her conclusion from three observations she had noted during the experiment.
+b2.w.507 :: to downplay
+b2.w.507.ex.0 :: At the meeting, management initially downplayed the delay but later had to present a revised schedule.
+b2.w.508 :: highlighting, emphasis
+b2.w.508.ex.0 :: Subtle highlighting of the deadlines made the letter easier to scan while keeping the other information visible.
+b2.w.509 :: sufficiently
+b2.w.509.ex.0 :: The link is sufficiently well documented, so the group was able to forgo another survey.
+b2.w.510 :: ulterior motive
+b2.w.510.ex.0 :: Some suspected he had an ulterior motive for agreeing because he had called for a very different solution shortly before.
+b2.w.511 :: in addition, the fact is that
+b2.w.511.ex.0 :: On top of that, the journey takes longer at weekends because several services are temporarily cancelled.
+b2.w.512 :: projection, extrapolation
+b2.w.512.ex.0 :: The projection was based on the first two weeks and was checked again once the trial had ended.
+b2.w.513 :: in equal halves
+b2.w.513.ex.0 :: The costs are split equally even though only one party uses the room every weekday.
+b2.w.514 :: hardship case
+b2.w.514.ex.0 :: Her application was reviewed separately as a hardship case because she had missed the deadline for health reasons.
+b2.w.515 :: highest bid
+b2.w.515.ex.0 :: The highest bid came in just before the deadline and was well above the expected price.
+b2.w.516 :: willingness to be vaccinated
+b2.w.516.ex.0 :: The study recorded willingness to be vaccinated separately from the actual number of vaccinations administered.
+b2.w.517 :: for lack of, in the absence of
+b2.w.517.ex.0 :: In the absence of earlier readings, the researcher could investigate the sudden change only with new observations.
+b2.w.518 :: commissioning, putting into operation
+b2.w.518.ex.0 :: Before putting the new system into operation, the workshop tested whether it shut down safely even under heavy load.
+b2.w.519 :: in terms of content
+b2.w.519.ex.0 :: The second version differed little from the first in content, but its structure was easier to follow.
+b2.w.520 :: interior view
+b2.w.520.ex.0 :: The interior view of the planned building helped parents picture how the rooms for the groups would be laid out.
+b2.w.521 :: insolvency
+b2.w.521.ex.0 :: After the insolvency, it was initially unclear whether goods already paid for would still be delivered.
+b2.w.522 :: conflict of interest
+b2.w.522.ex.0 :: To avoid a conflict of interest, the board member took part in neither the discussion nor the vote.
+b2.w.523 :: willingness to invest
+b2.w.523.ex.0 :: Small businesses became more willing to invest once the grant conditions were made public.
+b2.w.524 :: annual statement of accounts
+b2.w.524.ex.0 :: The annual statement showed that spending on repairs had been particularly high in the last quarter.
+b2.w.525 :: purchase incentive
+b2.w.525.ex.0 :: As an incentive to buy, the dealer offered a longer trial period without lowering the original price.
+b2.w.526 :: under no circumstances
+b2.w.526.ex.0 :: Under no circumstances may the handover take place before both parties have thoroughly checked the original documents.
+b2.w.527 :: current state of knowledge
+b2.w.527.ex.0 :: Based on what we know today, the discrepancy can be explained if the earlier set of readings was indeed complete.
+b2.w.528 :: core responsibility
+b2.w.528.ex.0 :: A core responsibility of the advice centre is to support families through difficult transitions from school to vocational training.
+b2.w.529 :: legal action, court proceedings
+b2.w.529.ex.0 :: The decision could be reviewed in court, but for now both sides wanted to keep talking.
+b2.w.530 :: to clarify, to make clear
+b2.w.530.ex.0 :: The editors clarified that the published figures covered only part of the study period.
+b2.w.531 :: climate footprint
+b2.w.531.ex.0 :: The climate assessment accounted for electricity consumption as well as employees' journeys to work.
+b2.w.532 :: coalition
+b2.w.532.ex.0 :: The coalition agreed on a joint initiative even though its member groups still disagreed on several details.
+b2.w.533 :: local politics
+b2.w.533.ex.0 :: Through her internship, she gained insight into local politics and attended several public meetings.
+b2.w.534 :: compromise proposal
+b2.w.534.ex.0 :: Both sides agreed on the compromise proposal only after a neutral mediator had been brought in.
+b2.w.535 :: economic conditions, business cycle
+b2.w.535.ex.0 :: The economic slowdown first affected businesses that mainly handled larger orders.
+b2.w.536 :: competitiveness
+b2.w.536.ex.0 :: To stay competitive, the company introduced a repair service for older models.
+b2.w.537 :: consumer behaviour
+b2.w.537.ex.0 :: Consumer behaviour changed measurably after shops made both return and repair options equally visible.
+b2.w.538 :: cost recovery
+b2.w.538.ex.0 :: Full cost recovery became possible only after several schools placed a larger order together.
+b2.w.539 :: crisis management
+b2.w.539.ex.0 :: Clear roles assigned before the outage made the biggest contribution to managing the crisis.
+b2.w.540 :: cut, reduction
+b2.w.540.ex.0 :: The teachers asked for a written explanation only when the cut began to affect courses already underway.
+b2.w.541 :: long-term effect
+b2.w.541.ex.0 :: Little can be said about the measure's long-term effects because it has only been tested for one summer.
+b2.w.542 :: guideline
+b2.w.542.ex.0 :: A shared guideline helps teams find their bearings even when their local decisions differ considerably.
+b2.w.543 :: supply bottleneck
+b2.w.543.ex.0 :: The supply bottleneck delayed the renovation even though all the other parts had already arrived.
+b2.w.544 :: wage trends
+b2.w.544.ex.0 :: To assess wage trends, the union compared figures from several years and took price increases into account.
+b2.w.545 :: proposed solution
+b2.w.545.ex.0 :: The proposal convinced those involved only once maintenance costs had also been disclosed.
+b2.w.546 :: deficient, inadequate
+b2.w.546.ex.0 :: The translation was inadequate at key points, so publication was postponed until after a second review.
+b2.w.547 :: market share
+b2.w.547.ex.0 :: Despite higher sales, the company lost market share because demand across the industry had grown faster.
+b2.w.548 :: milestone
+b2.w.548.ex.0 :: The first working system was a milestone even though it initially operated for only a few hours.
+b2.w.549 :: quantity limit

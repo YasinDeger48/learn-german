@@ -1,0 +1,40 @@
+b2.w.379.ex.0 :: In its deliberations, the commission also considered how quickly the measures could be implemented in practice.
+b2.w.380 :: technical interview
+b2.w.380.ex.0 :: During the technical interview, the applicant was asked to explain how she would handle conflicting requirements.
+b2.w.381 :: specialist literature
+b2.w.381.ex.0 :: Using current specialist literature, the group checked whether its observations had already been documented elsewhere.
+b2.w.382 :: passenger count
+b2.w.382.ex.0 :: A passenger count on several weekdays was intended to show when extra buses were needed most.
+b2.w.383 :: negligent
+b2.w.383.ex.0 :: It would be negligent to reopen the facility before the cause of the malfunction had been established.
+b2.w.384 :: dumbfounded
+b2.w.384.ex.0 :: When the latest results disappeared, the team initially stared at the blank screen in disbelief.
+b2.w.385 :: false assumption
+b2.w.385.ex.0 :: The mistaken assumption about when the work began came to light only during the joint inspection of the building.
+b2.w.386 :: to strengthen
+b2.w.386.ex.0 :: Regular joint exercises strengthened the trust between teams at the two sites.
+b2.w.387 :: nationwide, across the board
+b2.w.387.ex.0 :: A full rollout is planned only after the trials in smaller municipalities have been evaluated.
+b2.w.388 :: logical, consistent
+b2.w.388.ex.0 :: The decision was logical once the extra workload had become apparent in all three trials.
+b2.w.389 :: state of research
+b2.w.389.ex.0 :: To present the state of research clearly, the student compared several studies with differing findings.
+b2.w.390 :: continuous, ongoing
+b2.w.390.ex.0 :: Changes are numbered on an ongoing basis so that older versions can still be identified later.
+b2.w.391 :: questionable
+b2.w.391.ex.0 :: The conclusion seems questionable because almost all the feedback came from the same age group.
+b2.w.392 :: countermeasure
+b2.w.392.ex.0 :: To counter the night-time noise, the authorities arranged for the entrance to remain closed after 10 p.m.
+b2.w.393 :: valid, in force
+b2.w.393.ex.0 :: Under the current rules, a copy is sufficient provided the original can be presented on request.
+b2.w.394 :: targeted, specifically
+b2.w.394.ex.0 :: The library specifically reached out to people who had hardly used its digital services before.
+b2.w.395 :: invalid, void
+b2.w.395.ex.0 :: The new agreement made the earlier dates invalid even though they were still in the calendar.
+b2.w.396 :: to undermine, to sabotage
+b2.w.396.ex.0 :: Some people involved tried to undermine the agreement even though they had previously approved the draft.
+b2.w.397 :: in view of, given
+b2.w.397.ex.0 :: Given the short deadline, the team focused on the two most important changes.
+b2.w.398 :: to consider
+b2.w.398.ex.0 :: If registrations continue to increase, the association should consider adding a second date.
+b2.w.399 :: to come into force
