@@ -9,6 +9,7 @@ struct SettingsView: View {
     @State private var document: BackupDocument?
     @State private var status: String?
     @State private var permissionDenied = false
+    @ObservedObject private var ads = AdsManager.shared
 
     private var reminderTime: Binding<Date> {
         Binding(get: {
@@ -68,6 +69,9 @@ struct SettingsView: View {
                 }
                 Section(t("settings.about")) {
                     Link(t("settings.privacy"), destination: LegalLinks.privacy)
+                    if ads.privacyOptionsRequired {
+                        Button(t("settings.adPrivacy")) { ads.showPrivacyOptions() }
+                    }
                     HStack {
                         Text(t("settings.version"))
                         Spacer()

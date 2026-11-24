@@ -73,6 +73,7 @@ enum AppTab: Int, CaseIterable {
 
 /// Standard iOS tab bar; every tab has its own navigation stack.
 struct RootView: View {
+    @EnvironmentObject private var pro: ProStore
     @State private var tab: AppTab = .today
     @State private var todayPath = NavigationPath()
 
@@ -95,6 +96,10 @@ struct RootView: View {
             NavigationStack { SettingsView() }
                 .tabItem { Label(t(AppTab.settings.titleKey), systemImage: AppTab.settings.icon) }
                 .tag(AppTab.settings)
+        }
+        .onAppear {
+            // Consent and ads only for the free version, after onboarding.
+            if !pro.isPro { AdsManager.shared.start() }
         }
     }
 }

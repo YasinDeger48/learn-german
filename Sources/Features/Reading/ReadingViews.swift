@@ -316,6 +316,7 @@ struct ReadingHomeView: View {
         }
         .listStyle(.insetGrouped)
         .navigationTitle(t("reading.title"))
+        .safeAreaInset(edge: .bottom) { AdBanner() }
     }
 
     private func row(_ text: DailyText, note: String?, large: Bool) -> some View {

@@ -6,6 +6,7 @@ import UIKit
 struct A1QuizView: View {
     @EnvironmentObject private var model: A1Model
     @EnvironmentObject private var pro: ProStore
+    @ObservedObject private var ads = AdsManager.shared
     let title: String
     var exam = false
     var review = false
@@ -48,7 +49,8 @@ struct A1QuizView: View {
                 ProgressView()
             } else if limitReached {
                 DailyLimitView(answered: index, correct: score, streak: model.state.streak,
-                               level: model.level, readiness: model.readiness)
+                               level: model.level, readiness: model.readiness,
+                               onWatchAd: ads.rewardedReady ? watchAd : nil)
             } else if session.isEmpty {
                 emptyState
             } else if index >= session.count {
@@ -141,6 +143,7 @@ struct A1QuizView: View {
                 examSaved = true
                 if exam { model.saveExam(points) }
                 onFinish?(score, total)
+                ads.quizFinished(isPro: pro.isPro)
             }
         }
     }
@@ -154,6 +157,15 @@ struct A1QuizView: View {
         resetAnswer()
         limitReached = !free && !pro.canPractice
         if !limitReached { playIfNeeded() }
+    }
+
+    /// Rewarded ad on the limit screen: +10 questions for today, then the quiz goes on.
+    private func watchAd() {
+        ads.showRewarded {
+            pro.addBonus(10)
+            limitReached = false
+            playIfNeeded()
+        }
     }
 
     private func resetAnswer() {

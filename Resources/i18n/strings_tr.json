@@ -317,5 +317,6 @@
  "reading.statusOpened": "Açıldı, quiz çözülmedi",
  "reading.quizDone": "Quiz ✓ %100",
  "reading.quizRetry": "Quiz %{0} · hepsini doğru yap",
- "today.quizRetry": "Quiz %{0} · tekrar dene"
+ "today.quizRetry": "Quiz %{0} · tekrar dene",
+ "settings.adPrivacy": "Reklam gizlilik seçenekleri"
 }

@@ -317,5 +317,6 @@
  "reading.statusOpened": "Opened, quiz not taken",
  "reading.quizDone": "Quiz ✓ 100%",
  "reading.quizRetry": "Quiz {0}% · get all right",
- "today.quizRetry": "Quiz {0}% · try again"
+ "today.quizRetry": "Quiz {0}% · try again",
+ "settings.adPrivacy": "Ad privacy options"
 }

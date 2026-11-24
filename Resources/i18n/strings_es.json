@@ -317,5 +317,6 @@
  "reading.statusOpened": "Abierto, quiz sin hacer",
  "reading.quizDone": "Quiz ✓ 100 %",
  "reading.quizRetry": "Quiz {0} % · acierta todas",
- "today.quizRetry": "Quiz {0} % · inténtalo otra vez"
+ "today.quizRetry": "Quiz {0} % · inténtalo otra vez",
+ "settings.adPrivacy": "Opciones de privacidad de anuncios"
 }

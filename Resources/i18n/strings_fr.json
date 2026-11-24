@@ -317,5 +317,6 @@
  "reading.statusOpened": "Ouvert, quiz pas fait",
  "reading.quizDone": "Quiz ✓ 100 %",
  "reading.quizRetry": "Quiz {0} % · tout juste",
- "today.quizRetry": "Quiz {0} % · réessaie"
+ "today.quizRetry": "Quiz {0} % · réessaie",
+ "settings.adPrivacy": "Options de confidentialité des annonces"
 }

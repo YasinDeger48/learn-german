@@ -148,6 +148,7 @@ struct PracticeHomeView: View {
             pro.refreshQuota()
         }
         .sheet(isPresented: $showPaywall) { PaywallView().environmentObject(pro) }
+        .safeAreaInset(edge: .bottom) { AdBanner() }
     }
 
     private var overview: some View {
