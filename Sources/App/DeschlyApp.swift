@@ -7,13 +7,11 @@ struct DeschlyApp: App {
     @ObservedObject private var localizer = Localizer.shared
     @Environment(\.scenePhase) private var scenePhase
 
-    private let lessons: [Lesson] = Bundled.decode([Lesson].self, "lessons") ?? []
-
     var body: some Scene {
         WindowGroup {
             Group {
                 if localizer.hasChosen {
-                    RootView(lessons: lessons)
+                    RootView()
                 } else {
                     OnboardingView()
                 }
@@ -42,14 +40,13 @@ enum AppRoute: Hashable {
 }
 
 enum AppTab: Int, CaseIterable {
-    case today, levels, reading, videos, settings
+    case today, levels, reading, settings
 
     var titleKey: String {
         switch self {
         case .today: return "tab.today"
         case .levels: return "tab.levels"
         case .reading: return "tab.reading"
-        case .videos: return "tab.videos"
         case .settings: return "tab.settings"
         }
     }
@@ -59,7 +56,6 @@ enum AppTab: Int, CaseIterable {
         case .today: return "sun.max"
         case .levels: return "chart.bar"
         case .reading: return "book"
-        case .videos: return "play.rectangle"
         case .settings: return "gearshape"
         }
     }
@@ -67,7 +63,6 @@ enum AppTab: Int, CaseIterable {
 
 /// Standard iOS tab bar; every tab has its own navigation stack.
 struct RootView: View {
-    let lessons: [Lesson]
     @State private var tab: AppTab = .today
     @State private var todayPath = NavigationPath()
 
@@ -86,10 +81,6 @@ struct RootView: View {
             NavigationStack { ReadingHomeView().appRoutes() }
                 .tabItem { Label(t(AppTab.reading.titleKey), systemImage: AppTab.reading.icon) }
                 .tag(AppTab.reading)
-
-            NavigationStack { LessonsView(lessons: lessons) }
-                .tabItem { Label(t(AppTab.videos.titleKey), systemImage: AppTab.videos.icon) }
-                .tag(AppTab.videos)
 
             NavigationStack { SettingsView() }
                 .tabItem { Label(t(AppTab.settings.titleKey), systemImage: AppTab.settings.icon) }

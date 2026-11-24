@@ -1,30 +1,10 @@
 import SwiftUI
 import UniformTypeIdentifiers
 
-/// Video lesson marks stored in UserDefaults (keys kept from the first app version).
-enum LessonStore {
-    static let watchedKey = "watchedLessons"
-    static let favoritesKey = "favoriteLessons"
-    static let notesKey = "lessonNotes"
-
-    static func decode<T: Decodable>(_ data: Data) -> T? { try? JSONDecoder().decode(T.self, from: data) }
-    static func encode<T: Encodable>(_ value: T) -> Data { (try? JSONEncoder().encode(value)) ?? Data() }
-
-    static func load<T: Decodable>(_ key: String) -> T? {
-        UserDefaults.standard.data(forKey: key).flatMap { decode($0) }
-    }
-
-    static func save<T: Encodable>(_ value: T, _ key: String) {
-        UserDefaults.standard.set(encode(value), forKey: key)
-    }
-}
-
-/// One JSON file with everything the learner did. Version 1 files (videos + A1) still restore.
+/// One JSON file with everything the learner did. Older files (version 1–2, with video marks) still restore;
+/// their video fields are ignored.
 struct StudyBackup: Codable {
     let version: Int
-    let watched: Set<Int>
-    let favorites: Set<Int>
-    let notes: [Int: String]
     var a1: A1SavedState? = nil
     var a2: A1SavedState? = nil
     var b1: A1SavedState? = nil
@@ -50,10 +30,7 @@ struct BackupDocument: FileDocument {
 
 enum BackupService {
     static func make() -> BackupDocument? {
-        let backup = StudyBackup(version: 2,
-                                 watched: LessonStore.load(LessonStore.watchedKey) ?? [],
-                                 favorites: LessonStore.load(LessonStore.favoritesKey) ?? [],
-                                 notes: LessonStore.load(LessonStore.notesKey) ?? [:],
+        let backup = StudyBackup(version: 3,
                                  a1: A1SavedState.load("A1"),
                                  a2: A1SavedState.load("A2"),
                                  b1: A1SavedState.load("B1"),
@@ -69,13 +46,7 @@ enum BackupService {
         defer { if hasAccess { url.stopAccessingSecurityScopedResource() } }
         guard let data = try? Data(contentsOf: url),
               let backup = try? JSONDecoder().decode(StudyBackup.self, from: data) else { return "backup.unreadable" }
-        guard backup.version == 1 || backup.version == 2 else { return "backup.unsupported" }
-        let watched: Set<Int> = LessonStore.load(LessonStore.watchedKey) ?? []
-        let favorites: Set<Int> = LessonStore.load(LessonStore.favoritesKey) ?? []
-        let notes: [Int: String] = LessonStore.load(LessonStore.notesKey) ?? [:]
-        LessonStore.save(watched.union(backup.watched), LessonStore.watchedKey)
-        LessonStore.save(favorites.union(backup.favorites), LessonStore.favoritesKey)
-        LessonStore.save(notes.merging(backup.notes) { current, _ in current }, LessonStore.notesKey)
+        guard (1...3).contains(backup.version) else { return "backup.unsupported" }
         for (level, saved) in [("A2", backup.a2), ("B1", backup.b1), ("B2", backup.b2)] {
             if let saved { A1SavedState.load(level).merged(with: saved).save(level) }
         }

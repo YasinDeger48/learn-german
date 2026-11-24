@@ -162,11 +162,3 @@ struct DailyFile: Codable {
     let texts: [DailyText]
 }
 
-// MARK: - Video lessons (lessons.json)
-
-struct Lesson: Codable, Identifiable {
-    let id: Int
-    let title: String
-    let url: URL
-    let level: String
-}
