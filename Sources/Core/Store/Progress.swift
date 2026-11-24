@@ -225,13 +225,24 @@ final class A1Model: ObservableObject {
 
 /// Progress models for every level with practice content. `active` is the level whose practice screens are open.
 final class LevelModels: ObservableObject {
+    static let practiceLevels = ["A1", "A2", "B1", "B2"]
+
     let a1 = A1Model(level: "A1")
-    let a2 = A1Model(level: "A2")
+    lazy var a2 = A1Model(level: "A2")
+    lazy var b1 = A1Model(level: "B1")
+    lazy var b2 = A1Model(level: "B2")
     @Published var active = "A1"
 
-    func model(_ level: String) -> A1Model { level == "A2" ? a2 : a1 }
+    func model(_ level: String) -> A1Model {
+        switch level {
+        case "A2": return a2
+        case "B1": return b1
+        case "B2": return b2
+        default: return a1
+        }
+    }
     var current: A1Model { model(active) }
-    func hasPractice(_ level: String) -> Bool { level == "A1" || level == "A2" }
+    func hasPractice(_ level: String) -> Bool { LevelModels.practiceLevels.contains(level) }
 }
 
 // MARK: - Grammar topic badges

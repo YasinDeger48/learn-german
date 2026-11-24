@@ -27,6 +27,8 @@ struct StudyBackup: Codable {
     let notes: [Int: String]
     var a1: A1SavedState? = nil
     var a2: A1SavedState? = nil
+    var b1: A1SavedState? = nil
+    var b2: A1SavedState? = nil
     var daily: DailySavedState? = nil
 }
 
@@ -54,6 +56,8 @@ enum BackupService {
                                  notes: LessonStore.load(LessonStore.notesKey) ?? [:],
                                  a1: A1SavedState.load("A1"),
                                  a2: A1SavedState.load("A2"),
+                                 b1: A1SavedState.load("B1"),
+                                 b2: A1SavedState.load("B2"),
                                  daily: DailySavedState.load())
         guard let data = try? JSONEncoder().encode(backup) else { return nil }
         return BackupDocument(data: data)
@@ -72,8 +76,8 @@ enum BackupService {
         LessonStore.save(watched.union(backup.watched), LessonStore.watchedKey)
         LessonStore.save(favorites.union(backup.favorites), LessonStore.favoritesKey)
         LessonStore.save(notes.merging(backup.notes) { current, _ in current }, LessonStore.notesKey)
-        if let a2 = backup.a2 {
-            A1SavedState.load("A2").merged(with: a2).save("A2")
+        for (level, saved) in [("A2", backup.a2), ("B1", backup.b1), ("B2", backup.b2)] {
+            if let saved { A1SavedState.load(level).merged(with: saved).save(level) }
         }
         if let a1 = backup.a1 {
             A1SavedState.load("A1").merged(with: a1).save("A1")
