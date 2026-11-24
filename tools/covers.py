@@ -36,42 +36,60 @@ def prompts(folder):
     for t in texts():
         if t['id'] in have:
             continue
-        en = t['trans'][0].get('en', '')
-        sentences = [x.strip() for x in en.replace('! ', '. ').replace('? ', '. ').split('. ') if x.strip()]
-        scene = '. '.join(sentences[:3]).rstrip('.') + '.'
-        lines.append(f"{t['id']} | {t['title']} | Scene: {scene}")
+        lines.append(prompt_for(t).split('\n\n', 1)[1])
         todo += 1
     path = os.path.join(folder, 'PROMPTS.txt')
     open(path, 'w', encoding='utf-8', newline='\n').write('\n'.join(lines) + '\n')
     print(f'{todo} prompts → {path}')
 
 
+def prompt_for(t):
+    """The image prompt for one daily text (same text as in PROMPTS.txt)."""
+    en = t['trans'][0].get('en', '')
+    sentences = [x.strip() for x in en.replace('! ', '. ').replace('? ', '. ').split('. ') if x.strip()]
+    scene = '. '.join(sentences[:3]).rstrip('.') + '.'
+    return f"{STYLE}\n\n{t['id']} | {t['title']} | Scene: {scene}"
+
+
+def save_cover(img, name, crop_top=0.0):
+    """Checks one picture and saves it as Resources/Covers/<name>.jpg (960×640).
+    Returns None when saved, or the reason it was rejected. crop_top cuts a share of the height first
+    (for pictures with a caption strip at the top)."""
+    from PIL import Image
+    img = img.convert('RGB')
+    if crop_top:
+        img = img.crop((0, int(img.height * crop_top), img.width, img.height))
+    # Reject collages / strips: many empty rows mean the picture is not one full scene.
+    small = img.convert('L').resize((120, 80))
+    rows = [[small.getpixel((x, y)) for x in range(120)] for y in range(80)]
+    blank = sum(1 for r in rows if max(r) - min(r) < 12)
+    if blank > 16:
+        return f'{blank}/80 empty rows (collage or strip, please make it again)'
+    w, h = img.size
+    target = 3 / 2
+    if w / h > target:  # crop to 3:2 around the centre
+        nw = int(h * target)
+        img = img.crop(((w - nw) // 2, 0, (w - nw) // 2 + nw, h))
+    else:
+        nh = int(w / target)
+        img = img.crop((0, (h - nh) // 2, w, (h - nh) // 2 + nh))
+    os.makedirs(COVERS, exist_ok=True)
+    img.resize((960, 640), Image.LANCZOS).save(os.path.join(COVERS, f'{name}.jpg'), 'JPEG', quality=80, optimize=True)
+    return None
+
+
 def import_(folder):
     from PIL import Image
-    os.makedirs(COVERS, exist_ok=True)
     ids = {t['id'] for t in texts()}
     done = 0
     for path in sorted(glob.glob(os.path.join(folder, '*'))):
         name, ext = os.path.splitext(os.path.basename(path))
         if ext.lower() not in ('.png', '.jpg', '.jpeg', '.webp') or name not in ids:
             continue
-        img = Image.open(path).convert('RGB')
-        # Reject collages / strips: many empty rows mean the picture is not one full scene.
-        small = img.convert('L').resize((120, 80))
-        rows = [[small.getpixel((x, y)) for x in range(120)] for y in range(80)]
-        blank = sum(1 for r in rows if max(r) - min(r) < 12)
-        if blank > 16:
-            print(f'skipped {name}: {blank}/80 empty rows (collage or strip, please make it again)')
+        reason = save_cover(Image.open(path), name)
+        if reason:
+            print(f'skipped {name}: {reason}')
             continue
-        w, h = img.size
-        target = 3 / 2
-        if w / h > target:  # crop to 3:2 around the centre
-            nw = int(h * target)
-            img = img.crop(((w - nw) // 2, 0, (w - nw) // 2 + nw, h))
-        else:
-            nh = int(w / target)
-            img = img.crop((0, (h - nh) // 2, w, (h - nh) // 2 + nh))
-        img.resize((960, 640), Image.LANCZOS).save(os.path.join(COVERS, f'{name}.jpg'), 'JPEG', quality=80, optimize=True)
         done += 1
     total = len(glob.glob(os.path.join(COVERS, '*.jpg')))
     print(f'imported {done}; covers in app: {total} of {len(ids)}')
