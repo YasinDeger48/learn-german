@@ -5,6 +5,7 @@ import UIKit
 
 struct A1QuizView: View {
     @EnvironmentObject private var model: A1Model
+    @EnvironmentObject private var pro: ProStore
     let title: String
     var exam = false
     var review = false
@@ -34,12 +35,16 @@ struct A1QuizView: View {
     @State private var missed: [A1Question] = []
     @State private var showText = false
     @State private var examSaved = false
+    /// Today's free questions are used up (free version only).
+    @State private var limitReached = false
     @FocusState private var typingFocused: Bool
 
     var body: some View {
         Group {
             if !started {
                 ProgressView()
+            } else if limitReached {
+                DailyLimitView()
             } else if session.isEmpty {
                 emptyState
             } else if index >= session.count {
@@ -57,6 +62,14 @@ struct A1QuizView: View {
             if !started {
                 session = makeSession()
                 started = true
+                pro.refreshQuota()
+                limitReached = !pro.canPractice
+                if !limitReached { playIfNeeded() }
+            }
+        }
+        .onChange(of: pro.isPro) { isPro in
+            if isPro && limitReached {
+                limitReached = false
                 playIfNeeded()
             }
         }
@@ -135,7 +148,8 @@ struct A1QuizView: View {
         missed = []
         examSaved = false
         resetAnswer()
-        playIfNeeded()
+        limitReached = !pro.canPractice
+        if !limitReached { playIfNeeded() }
     }
 
     private func resetAnswer() {
@@ -363,6 +377,7 @@ struct A1QuizView: View {
             missed.append(q)
         }
         model.record(q, correct: correct)
+        pro.countAnswer()
         let feedback = UINotificationFeedbackGenerator()
         feedback.notificationOccurred(correct ? .success : .error)
     }
@@ -400,7 +415,12 @@ struct A1QuizView: View {
                     A1Speaker.shared.stop()
                     index += 1
                     resetAnswer()
-                    playIfNeeded()
+                    // An exam that has started is not cut off; other quizzes stop at the daily limit.
+                    if !exam && index < session.count && !pro.canPractice {
+                        limitReached = true
+                    } else {
+                        playIfNeeded()
+                    }
                 } label: {
                     Text(index + 1 < session.count ? t("quiz.next") : t("quiz.result")).frame(maxWidth: .infinity)
                 }

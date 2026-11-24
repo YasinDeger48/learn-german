@@ -9,6 +9,7 @@ struct DeschlyApp: App {
 
     @StateObject private var levels = LevelModels()
     @StateObject private var daily = DailyModel()
+    @StateObject private var pro = ProStore()
     @ObservedObject private var localizer = Localizer.shared
     @Environment(\.scenePhase) private var scenePhase
 
@@ -26,6 +27,7 @@ struct DeschlyApp: App {
             .environmentObject(levels)
             .environmentObject(levels.a1)
             .environmentObject(daily)
+            .environmentObject(pro)
             .environmentObject(localizer)
             .tint(DS.accent)
             .onChange(of: scenePhase) { phase in

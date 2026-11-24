@@ -34,6 +34,7 @@ struct SettingsView: View {
 
     var body: some View {
         Form {
+                ProSettingsSection()
                 Section(t("settings.language")) {
                     Picker(t("settings.language"), selection: Binding(get: { localizer.language }, set: { localizer.choose($0) })) {
                         ForEach(AppLanguage.allCases) { Text($0.nativeName).tag($0) }
@@ -66,7 +67,7 @@ struct SettingsView: View {
                     Text(t("settings.backupFooter"))
                 }
                 Section(t("settings.about")) {
-                    Link(t("settings.privacy"), destination: URL(string: "https://yasindeger48.github.io/deschly-site/")!)
+                    Link(t("settings.privacy"), destination: LegalLinks.privacy)
                     HStack {
                         Text(t("settings.version"))
                         Spacer()

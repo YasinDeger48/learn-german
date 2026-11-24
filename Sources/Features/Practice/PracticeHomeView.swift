@@ -81,6 +81,8 @@ extension View {
 struct PracticeHomeView: View {
     @EnvironmentObject private var model: A1Model
     @EnvironmentObject private var levels: LevelModels
+    @EnvironmentObject private var pro: ProStore
+    @State private var showPaywall = false
     private var isA1: Bool { model.level == "A1" }
 
     var body: some View {
@@ -94,6 +96,19 @@ struct PracticeHomeView: View {
                 Text(t("practice.loadFailed"))
             } else {
                 overview
+                if !pro.isPro {
+                    Section {
+                        Button {
+                            showPaywall = true
+                        } label: {
+                            HStack {
+                                Label(t("practice.freeLeft", pro.remaining), systemImage: "gift")
+                                Spacer()
+                                Text("Pro").font(.subheadline.bold())
+                            }
+                        }
+                    }
+                }
                 Section {
                     link(.mixed, t("practice.mixedTitle"), t("practice.mixedSub"), "shuffle", .orange)
                     link(.exam, t("practice.exam"), t("practice.examSub"), "graduationcap.fill", .indigo)
@@ -134,7 +149,11 @@ struct PracticeHomeView: View {
         }
         .listStyle(.insetGrouped)
         .navigationTitle("\(model.level) · " + t("level.\(model.level.lowercased()).name"))
-        .onAppear { levels.active = model.level }
+        .onAppear {
+            levels.active = model.level
+            pro.refreshQuota()
+        }
+        .sheet(isPresented: $showPaywall) { PaywallView().environmentObject(pro) }
     }
 
     private var overview: some View {
