@@ -31,6 +31,17 @@ struct DailySavedState: Codable {
     }
 }
 
+/// Where the learner is with one daily text.
+enum ReadingStatus: Equatable {
+    case new
+    /// Opened, quiz not taken yet.
+    case opened
+    /// Quiz taken, best result below 100 %.
+    case tried(Int)
+    /// Quiz answered fully correct.
+    case done
+}
+
 /// Daily reading: one text per day and level, picked by date, plus reminder settings.
 final class DailyModel: ObservableObject {
     static let levels = ["A1", "A2", "B1", "B2"]
@@ -98,6 +109,14 @@ final class DailyModel: ObservableObject {
 
     func isRead(_ text: DailyText) -> Bool { state.read.contains(text.id) }
     func quizScore(_ text: DailyText) -> Int? { state.quizzes[text.id] }
+
+    /// A text counts as done only when its quiz was answered fully correct once.
+    func isCompleted(_ text: DailyText) -> Bool { (state.quizzes[text.id] ?? 0) >= 100 }
+
+    func status(_ text: DailyText) -> ReadingStatus {
+        if let score = state.quizzes[text.id] { return score >= 100 ? .done : .tried(score) }
+        return state.read.contains(text.id) ? .opened : .new
+    }
 
     func markRead(_ text: DailyText) {
         guard !state.read.contains(text.id) else { return }

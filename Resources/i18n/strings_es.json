@@ -311,5 +311,11 @@
  "settings.freeToday": "Hoy te quedan {0} de {1} preguntas gratis",
  "settings.purchases": "Compras",
  "welcome.body": "Ahora puedes practicar sin límites en todos los niveles. Los anuncios han desaparecido.",
- "welcome.trialEnds": "Tu prueba gratis termina el {0}. Puedes cancelarla cuando quieras en Ajustes."
+ "welcome.trialEnds": "Tu prueba gratis termina el {0}. Puedes cancelarla cuando quieras en Ajustes.",
+ "reading.statusDone": "Hecho: quiz todo correcto",
+ "reading.statusTried": "Quiz {0} %, aún sin terminar",
+ "reading.statusOpened": "Abierto, quiz sin hacer",
+ "reading.quizDone": "Quiz ✓ 100 %",
+ "reading.quizRetry": "Quiz {0} % · acierta todas",
+ "today.quizRetry": "Quiz {0} % · inténtalo otra vez"
 }

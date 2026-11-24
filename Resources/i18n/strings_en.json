@@ -311,5 +311,11 @@
  "settings.freeToday": "{0} of {1} free questions left today",
  "settings.purchases": "Purchases",
  "welcome.body": "You can now practise without limits at every level. The ads are gone.",
- "welcome.trialEnds": "Your free trial ends on {0}. You can cancel any time in Settings."
+ "welcome.trialEnds": "Your free trial ends on {0}. You can cancel any time in Settings.",
+ "reading.statusDone": "Done: quiz fully correct",
+ "reading.statusTried": "Quiz {0}%, not finished yet",
+ "reading.statusOpened": "Opened, quiz not taken",
+ "reading.quizDone": "Quiz ✓ 100%",
+ "reading.quizRetry": "Quiz {0}% · get all right",
+ "today.quizRetry": "Quiz {0}% · try again"
 }

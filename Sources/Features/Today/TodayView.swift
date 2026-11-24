@@ -59,7 +59,11 @@ struct TodayView: View {
 
     private var linaLine: String {
         guard let text = daily.today else { return "Lina: Los geht's!" }
-        if daily.quizScore(text) != nil { return "Lina: Super, morgen geht's weiter!" }
+        switch daily.status(text) {
+        case .done: return "Lina: Super, morgen geht's weiter!"
+        case .tried: return "Lina: Fast! Versuch das Quiz nochmal."
+        default: break
+        }
         return "Lina: Bereit für deinen Text?"
     }
 
@@ -114,10 +118,14 @@ struct TodayView: View {
                         .frame(minHeight: 46)
                         .background(DS.gold, in: Capsule())
                         Spacer()
-                        if let score = daily.quizScore(text) {
-                            Label(t("today.quizDone", score), systemImage: "checkmark.circle.fill")
+                        if daily.isCompleted(text) {
+                            Label(t("today.quizDone", 100), systemImage: "checkmark.circle.fill")
                                 .font(DS.text(13, .medium))
                                 .foregroundColor(DS.onNight)
+                        } else if let score = daily.quizScore(text) {
+                            Label(t("today.quizRetry", score), systemImage: "arrow.clockwise")
+                                .font(DS.text(13, .medium))
+                                .foregroundColor(DS.gold)
                         } else {
                             Text(t("today.withQuiz")).font(DS.text(13)).foregroundColor(DS.onNightMuted)
                         }

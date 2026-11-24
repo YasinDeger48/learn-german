@@ -311,5 +311,11 @@
  "settings.freeToday": "Bugün {0} / {1} ücretsiz soru kaldı",
  "settings.purchases": "Satın alımlar",
  "welcome.body": "Artık her seviyede sınırsız çalışabilirsin. Reklamlar kalktı.",
- "welcome.trialEnds": "Deneme süren {0} tarihinde bitiyor. İstediğin zaman Ayarlar’dan iptal edebilirsin."
+ "welcome.trialEnds": "Deneme süren {0} tarihinde bitiyor. İstediğin zaman Ayarlar’dan iptal edebilirsin.",
+ "reading.statusDone": "Tamamlandı: quiz tam doğru",
+ "reading.statusTried": "Quiz %{0}, henüz tamamlanmadı",
+ "reading.statusOpened": "Açıldı, quiz çözülmedi",
+ "reading.quizDone": "Quiz ✓ %100",
+ "reading.quizRetry": "Quiz %{0} · hepsini doğru yap",
+ "today.quizRetry": "Quiz %{0} · tekrar dene"
 }

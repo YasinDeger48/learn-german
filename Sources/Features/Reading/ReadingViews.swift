@@ -93,7 +93,7 @@ struct DailyReadingView: View {
                 }
                 NavigationLink(value: AppRoute.readingQuiz(text.id)) {
                     HStack {
-                        Text(t("reading.quiz"))
+                        Text(quizTitle)
                         Spacer()
                         Image(systemName: "arrow.right")
                             .font(.system(size: 16, weight: .bold))
@@ -213,6 +213,14 @@ struct DailyReadingView: View {
         .foregroundColor(DS.muted)
     }
 
+    private var quizTitle: String {
+        switch daily.status(text) {
+        case .done: return t("reading.quizDone")
+        case .tried(let score): return t("reading.quizRetry", score)
+        default: return t("reading.quiz")
+        }
+    }
+
     private func glossCard(_ gloss: DailyGloss) -> some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack(alignment: .firstTextBaseline) {
@@ -329,10 +337,22 @@ struct ReadingHomeView: View {
                     .lineLimit(1)
             }
             Spacer(minLength: 4)
-            if let score = daily.quizScore(text) {
-                Text("\(score)%").font(.subheadline.weight(.semibold).monospacedDigit()).foregroundColor(DS.success)
-            } else if daily.isRead(text) {
-                Image(systemName: "checkmark.circle.fill").foregroundColor(DS.success)
+            switch daily.status(text) {
+            case .done:
+                Image(systemName: "checkmark.circle.fill")
+                    .foregroundColor(DS.success)
+                    .accessibilityLabel(t("reading.statusDone"))
+            case .tried(let score):
+                Text("\(score)%")
+                    .font(.subheadline.weight(.semibold).monospacedDigit())
+                    .foregroundColor(DS.goldDeep)
+                    .accessibilityLabel(t("reading.statusTried", score))
+            case .opened:
+                Image(systemName: "circle.dashed")
+                    .foregroundColor(.secondary)
+                    .accessibilityLabel(t("reading.statusOpened"))
+            case .new:
+                EmptyView()
             }
         }
         .padding(.vertical, large ? 4 : 0)

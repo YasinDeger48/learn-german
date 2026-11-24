@@ -117,7 +117,7 @@ struct AppDestination: View {
             if let text = daily.text(id: id) { DailyReadingView(text: text) }
         case .readingQuiz(let id):
             if let text = daily.text(id: id) {
-                A1QuizView(title: text.title, onFinish: { correct, total in
+                A1QuizView(title: text.title, free: true, onFinish: { correct, total in
                     daily.saveQuiz(text, correct: correct, total: total)
                 }) {
                     ReadingQuiz.questions(for: text, words: a1.content?.words ?? [])
@@ -126,7 +126,7 @@ struct AppDestination: View {
         case .savedWords:
             SavedWordsView()
         case .savedWordsQuiz:
-            A1QuizView(title: t("saved.title")) { daily.savedWordsQuiz() }
+            A1QuizView(title: t("saved.title"), free: true) { daily.savedWordsQuiz() }
         case .practice(let level):
             if levels.hasPractice(level) {
                 PracticeHomeView().environmentObject(levels.model(level))

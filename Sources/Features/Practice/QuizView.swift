@@ -11,11 +11,14 @@ struct A1QuizView: View {
     var review = false
     var resetMode: A1Mode? = nil
     var onFinish: ((Int, Int) -> Void)? = nil
+    /// Reading quizzes are always free: they do not count toward the daily limit.
+    var free = false
     let makeSession: () -> [A1Question]
 
-    init(title: String, exam: Bool = false, review: Bool = false, resetMode: A1Mode? = nil,
+    init(title: String, exam: Bool = false, review: Bool = false, resetMode: A1Mode? = nil, free: Bool = false,
          onFinish: ((Int, Int) -> Void)? = nil, makeSession: @escaping () -> [A1Question]) {
         self.title = title
+        self.free = free
         self.exam = exam
         self.review = review
         self.resetMode = resetMode
@@ -64,7 +67,7 @@ struct A1QuizView: View {
                 session = makeSession()
                 started = true
                 pro.refreshQuota()
-                limitReached = !pro.canPractice
+                limitReached = !free && !pro.canPractice
                 if !limitReached { playIfNeeded() }
             }
         }
@@ -149,7 +152,7 @@ struct A1QuizView: View {
         missed = []
         examSaved = false
         resetAnswer()
-        limitReached = !pro.canPractice
+        limitReached = !free && !pro.canPractice
         if !limitReached { playIfNeeded() }
     }
 
@@ -378,7 +381,7 @@ struct A1QuizView: View {
             missed.append(q)
         }
         model.record(q, correct: correct)
-        pro.countAnswer()
+        if !free { pro.countAnswer() }
         let feedback = UINotificationFeedbackGenerator()
         feedback.notificationOccurred(correct ? .success : .error)
     }
@@ -417,7 +420,7 @@ struct A1QuizView: View {
                     index += 1
                     resetAnswer()
                     // An exam that has started is not cut off; other quizzes stop at the daily limit.
-                    if !exam && index < session.count && !pro.canPractice {
+                    if !free && !exam && index < session.count && !pro.canPractice {
                         limitReached = true
                     } else {
                         playIfNeeded()
