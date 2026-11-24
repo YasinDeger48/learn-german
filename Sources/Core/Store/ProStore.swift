@@ -27,6 +27,12 @@ enum DailyQuota {
         defaults.set(0, forKey: bonusKey)
     }
 
+    /// Free questions answered today.
+    static var usedToday: Int {
+        roll()
+        return defaults.integer(forKey: usedKey)
+    }
+
     static var remaining: Int {
         roll()
         return max(0, freePerDay + defaults.integer(forKey: bonusKey) - defaults.integer(forKey: usedKey))
@@ -53,6 +59,12 @@ final class ProStore: ObservableObject {
     @Published private(set) var loading = false
     @Published private(set) var busy = false
     @Published var message: String?
+    /// The yearly plan has a free trial this Apple ID can still use.
+    @Published private(set) var trialDays: Int?
+    /// End of the running free trial, if any.
+    @Published private(set) var trialEnds: Date?
+    /// Set after a purchase in this session: the paywall shows the welcome screen.
+    @Published var showWelcome = false
 
     private let cacheKey = "proActive"
     private var updates: Task<Void, Never>?
@@ -93,16 +105,48 @@ final class ProStore: ObservableObject {
         defer { loading = false }
         guard let items = try? await Product.products(for: ProProduct.all) else { return }
         products = items.sorted { (ProProduct.all.firstIndex(of: $0.id) ?? 9) < (ProProduct.all.firstIndex(of: $1.id) ?? 9) }
+        if let subscription = product(ProProduct.yearly)?.subscription, let offer = subscription.introductoryOffer,
+           offer.paymentMode == .freeTrial, await subscription.isEligibleForIntroOffer {
+            let period = offer.period
+            switch period.unit {
+            case .day: trialDays = period.value
+            case .week: trialDays = period.value * 7
+            case .month: trialDays = period.value * 30
+            case .year: trialDays = period.value * 365
+            @unknown default: trialDays = nil
+            }
+        } else {
+            trialDays = nil
+        }
+    }
+
+    func product(_ id: String) -> Product? { products.first { $0.id == id } }
+
+    /// How much cheaper the yearly plan is than twelve months, in percent (nil when unknown or small).
+    var yearlySaving: Int? {
+        guard let yearly = product(ProProduct.yearly), let monthly = product(ProProduct.monthly), monthly.price > 0 else { return nil }
+        let ratio = NSDecimalNumber(decimal: yearly.price / (monthly.price * 12)).doubleValue
+        let saving = Int(((1 - ratio) * 100).rounded())
+        return saving >= 10 ? saving : nil
+    }
+
+    /// The yearly price split over twelve months, formatted in the store's currency.
+    var yearlyPerMonth: String? {
+        guard let yearly = product(ProProduct.yearly) else { return nil }
+        return (yearly.price / 12).formatted(yearly.priceFormatStyle)
     }
 
     func refreshEntitlements() async {
         var active = false
+        var trialEnd: Date?
         for await result in Transaction.currentEntitlements {
             if case .verified(let transaction) = result, ProProduct.all.contains(transaction.productID),
                transaction.revocationDate == nil {
                 active = true
+                if transaction.offerType == .introductory { trialEnd = transaction.expirationDate }
             }
         }
+        trialEnds = trialEnd
         isPro = active
         UserDefaults.standard.set(active, forKey: cacheKey)
     }
@@ -116,6 +160,7 @@ final class ProStore: ObservableObject {
             case .success(let verification):
                 if case .verified(let transaction) = verification {
                     await transaction.finish()
+                    showWelcome = true
                     await refreshEntitlements()
                 } else {
                     message = t("pro.failed")

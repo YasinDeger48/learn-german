@@ -44,7 +44,8 @@ struct A1QuizView: View {
             if !started {
                 ProgressView()
             } else if limitReached {
-                DailyLimitView()
+                DailyLimitView(answered: index, correct: score, streak: model.state.streak,
+                               level: model.level, readiness: model.readiness)
             } else if session.isEmpty {
                 emptyState
             } else if index >= session.count {

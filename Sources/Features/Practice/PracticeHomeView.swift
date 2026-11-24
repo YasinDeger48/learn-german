@@ -98,15 +98,9 @@ struct PracticeHomeView: View {
                 overview
                 if !pro.isPro {
                     Section {
-                        Button {
-                            showPaywall = true
-                        } label: {
-                            HStack {
-                                Label(t("practice.freeLeft", pro.remaining), systemImage: "gift")
-                                Spacer()
-                                Text("Pro").font(.subheadline.bold())
-                            }
-                        }
+                        FreeQuestionsBanner { showPaywall = true }
+                            .listRowInsets(EdgeInsets())
+                            .listRowBackground(Color.clear)
                     }
                 }
                 Section {
