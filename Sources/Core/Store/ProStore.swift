@@ -82,8 +82,6 @@ final class ProStore: ObservableObject {
         Task { await refreshEntitlements() }
     }
 
-    deinit { updates?.cancel() }
-
     var canPractice: Bool { isPro || remaining > 0 }
 
     func countAnswer() {
