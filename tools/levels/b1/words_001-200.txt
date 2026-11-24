@@ -1,0 +1,200 @@
+die|Abstimmung|die Abstimmungen|oylama|Bei der Abstimmung im Verein haben sich zwölf Mitglieder für den neuen Termin entschieden.|Dernekteki oylamada on iki üye yeni tarihten yana oy verdi.
+die|Abwesenheit|die Abwesenheiten|yokluk, bulunmama|Während meiner Abwesenheit beantwortet meine Kollegin die Anfragen von Kunden.|Ben yokken müşterilerin sorularını iş arkadaşım yanıtlıyor.
+die|Anerkennung|die Anerkennungen|tanınma, kabul|Für die Anerkennung meines Abschlusses muss ich zwei Zeugnisse übersetzen lassen.|Diplomamın tanınması için iki belgeyi tercüme ettirmem gerekiyor.
+die|Anforderung|die Anforderungen|gereklilik, koşul|Die Stelle hat klare Anforderungen: Man muss gut Deutsch sprechen und samstags arbeiten können.|Pozisyonun koşulları belli: İyi Almanca konuşmak ve cumartesileri çalışabilmek gerekiyor.
+der|Ansprechpartner|die Ansprechpartner|irtibat kişisi|Mein Ansprechpartner beim Kurs hat mir gezeigt, wo ich die Formulare finde.|Kurstaki irtibat kişim formları nerede bulacağımı gösterdi.
+das|Arbeitsverhältnis|die Arbeitsverhältnisse|iş ilişkisi|Ihr Arbeitsverhältnis endet im Juni, doch sie hat bereits eine neue Stelle gefunden.|İş ilişkisi haziranda sona eriyor ama şimdiden yeni bir iş buldu.
+die|Befragung|die Befragungen|anket, soruşturma|Bei der Befragung haben viele Fahrgäste mehr Busse am Wochenende gewünscht.|Ankette pek çok yolcu hafta sonu daha fazla otobüs istedi.
+die|Begründung|die Begründungen|gerekçe|In der Begründung für die Absage steht, dass das Schwimmbad repariert werden muss.|İptal gerekçesinde yüzme havuzunun onarılması gerektiği yazıyor.
+die|Berufserfahrung|die Berufserfahrungen|iş deneyimi|Für diese Stelle zählt meine Berufserfahrung im Verkauf mehr als die Note im Zeugnis.|Bu pozisyonda satış alanındaki deneyimim belgedeki nottan daha önemli.
+die|Beschwerde|die Beschwerden|şikâyet|Nach dem dritten Stromausfall hat der Mieter eine schriftliche Beschwerde geschickt.|Üçüncü elektrik kesintisinden sonra kiracı yazılı bir şikâyet gönderdi.
+die|Betriebsversammlung|die Betriebsversammlungen|işyeri çalışan toplantısı|Bei der Betriebsversammlung können wir Fragen zur neuen Arbeitszeit stellen.|Çalışan toplantısında yeni çalışma saatleri hakkında soru sorabiliyoruz.
+das|Bewerbungsgespräch|die Bewerbungsgespräche|iş görüşmesi|Im Bewerbungsgespräch habe ich ein Beispiel für schwierige Teamarbeit genannt.|İş görüşmesinde zor bir ekip çalışmasından örnek verdim.
+das|Bewusstsein|-|bilinç, farkındalık|Der Film hat bei uns das Bewusstsein für Lebensmittelabfälle verändert.|Film gıda atığı konusundaki farkındalığımızı değiştirdi.
+der|Dauerauftrag|die Daueraufträge|otomatik ödeme talimatı|Für die Miete habe ich einen Dauerauftrag eingerichtet, damit ich sie nicht vergesse.|Kirayı unutmamak için otomatik ödeme talimatı verdim.
+die|Einführung|die Einführungen|tanıtım, yürürlüğe koyma|Nach einer kurzen Einführung konnten wir die neue Software selbst ausprobieren.|Kısa bir tanıtımdan sonra yeni yazılımı kendimiz deneyebildik.
+die|Einwilligung|die Einwilligungen|onay, rıza|Für das Klassenfoto braucht die Schule eine Einwilligung von den Eltern.|Okulun sınıf fotoğrafı için velilerin onayına ihtiyacı var.
+die|Erreichbarkeit|-|ulaşılabilirlik|Die Erreichbarkeit der Praxis ist besser, seit man auch per E-Mail einen Termin bekommt.|E-postayla da randevu alınabildiğinden beri muayenehaneye ulaşmak daha kolay.
+die|Erstattung|die Erstattungen|para iadesi|Wegen der Zugverspätung habe ich eine Erstattung für einen Teil des Ticketpreises beantragt.|Tren gecikmesi nedeniyle bilet bedelinin bir kısmının iadesini istedim.
+der|Fachkräftemangel|-|nitelikli eleman açığı|Viele Werkstätten finden wegen des Fachkräftemangels nicht genug Personal.|Nitelikli eleman açığı yüzünden birçok atölye yeterli personel bulamıyor.
+die|Fehlzeit|die Fehlzeiten|devamsızlık süresi|Die Schule erfasst jede Fehlzeit, auch wenn ein Kind nur eine Stunde fehlt.|Bir çocuk sadece bir ders kaçırsa bile okul devamsızlığı kaydediyor.
+der|Fortschritt|die Fortschritte|ilerleme|Mein größter Fortschritt ist, dass ich inzwischen ohne Hilfe telefonieren kann.|En büyük ilerlemem artık yardım almadan telefonla konuşabilmem.
+die|Fortbildung|die Fortbildungen|mesleki eğitim, hizmet içi eğitim|Meine Kollegin besucht eine Fortbildung für den Umgang mit schwierigen Kunden.|İş arkadaşım zor müşterilerle iletişim konusunda eğitim alıyor.
+die|Gebührenerhöhung|die Gebührenerhöhungen|ücret artışı|Die Eltern möchten wissen, warum es bei der Betreuung eine Gebührenerhöhung gab.|Veliler bakım hizmetinin ücretinin neden arttığını öğrenmek istiyor.
+die|Genehmigung|die Genehmigungen|izin, onay|Für das Straßenfest brauchen wir eine Genehmigung von der Stadt.|Sokak şenliği için belediyeden izin almamız gerekiyor.
+der|Grundriss|die Grundrisse|kat planı|Auf dem Grundriss sehe ich, dass das zweite Zimmer direkt neben der Küche liegt.|Kat planında ikinci odanın mutfağın hemen yanında olduğunu görüyorum.
+die|Haftung|-|hukuki sorumluluk|Der Verein erklärt im Schreiben, wer bei einem Schaden die Haftung übernimmt.|Dernek yazıda bir hasar olursa sorumluluğu kimin üstleneceğini açıklıyor.
+die|Herausforderung|die Herausforderungen|zorlayıcı iş, güçlük|Der erste Anruf beim Amt war für mich eine größere Herausforderung als das Schreiben der E-Mail.|Resmî daireye ilk telefon görüşmem, e-posta yazmaktan daha zorlayıcıydı.
+die|Hilfsbereitschaft|-|yardımseverlik|Die Hilfsbereitschaft des Teams hat sie an ihrem ersten Tag im Betrieb überrascht.|İşletmedeki ilk gününde ekibin yardımseverliği onu şaşırttı.
+die|Instandhaltung|-|bakım, işler durumda tutma|Für die Instandhaltung der Fahrräder arbeitet der Verein mit einer Werkstatt zusammen.|Dernek bisikletlerin bakımı için bir tamirciyle çalışıyor.
+die|Kenntnis|die Kenntnisse|bilgi, beceri|Im Gespräch konnte ich meine Kenntnisse in Excel an einem Beispiel zeigen.|Görüşmede Excel bilgimi bir örnekle gösterebildim.
+die|Lieferverzögerung|die Lieferverzögerungen|teslimat gecikmesi|Wegen einer Lieferverzögerung kommt der Schrank erst nach dem Umzug.|Teslimat gecikmesi nedeniyle dolap ancak taşınmadan sonra gelecek.
+die|Lohnabrechnung|die Lohnabrechnungen|maaş bordrosu|Auf der Lohnabrechnung für April fehlen zwei Schichten.|Nisan bordrosunda iki vardiya eksik.
+die|Maßnahme|die Maßnahmen|önlem, tedbir|Eine einfache Maßnahme gegen die Hitze war, den Schulhof mit Bäumen zu bepflanzen.|Sıcağa karşı basit bir önlem, okul bahçesine ağaç dikmekti.
+die|Mitbestimmung|-|kararlara katılım|Beim neuen Dienstplan wünschen sich die Mitarbeitenden mehr Mitbestimmung.|Çalışanlar yeni vardiya planında kararlara daha fazla katılmak istiyor.
+das|Missverständnis|die Missverständnisse|yanlış anlaşılma|Wegen eines Missverständnisses über den Termin standen wir am falschen Tag vor der Praxis.|Randevuyla ilgili bir yanlış anlaşılma yüzünden muayenehanenin önüne yanlış günde gittik.
+die|Nachfrage|die Nachfragen|ek soru, talep|Erst auf meine Nachfrage hat das Hotel die Kosten für das Frühstück genannt.|Otel kahvaltı ücretini ancak tekrar sorunca söyledi.
+der|Nachweis|die Nachweise|belge, kanıt|Für das Praktikum brauche ich einen Nachweis über meine Schulzeit.|Staj için okuduğum yılları gösteren bir belge gerekiyor.
+die|Nebentätigkeit|die Nebentätigkeiten|ek iş|Als Nebentätigkeit gibt sie am Samstag Sprachunterricht.|Ek iş olarak cumartesileri dil dersi veriyor.
+die|Niederlassung|die Niederlassungen|şube|Die Niederlassung in unserer Stadt nimmt Pakete auch nach sechs Uhr an.|Şehrimizdeki şube akşam altıdan sonra da paket kabul ediyor.
+die|Notlösung|die Notlösungen|geçici çözüm|Das Sofa im Büro war für eine Nacht eine Notlösung.|Ofisteki kanepe bir gecelik geçici çözümdü.
+die|Öffentlichkeit|-|kamuoyu, halk|Die Sitzung ist offen für die Öffentlichkeit, aber die Plätze sind begrenzt.|Toplantı halka açık ama yerler sınırlı.
+der|Pflegebedarf|-|bakım ihtiyacı|Die Familie bespricht den Pflegebedarf ihres Großvaters mit einer Beratungsstelle.|Aile, büyükbabanın bakım ihtiyacını danışma merkeziyle görüşüyor.
+der|Pflichttermin|die Pflichttermine|katılımı zorunlu randevu|Die Sicherheitsunterweisung am Montag ist ein Pflichttermin für alle im Betrieb.|Pazartesi güvenlik eğitimi işyerindeki herkes için zorunlu.
+der|Preisvergleich|die Preisvergleiche|fiyat karşılaştırması|Ein Preisvergleich hat gezeigt, dass sich der Kauf vor Ort lohnt.|Fiyat karşılaştırması yerel mağazadan almanın daha avantajlı olduğunu gösterdi.
+der|Ratenkauf|die Ratenkäufe|taksitli alışveriş|Beim Ratenkauf zahle ich für das Fahrrad jeden Monat denselben Betrag.|Taksitli alışverişte bisiklet için her ay aynı tutarı ödüyorum.
+das|Recycling|-|geri dönüşüm|Beim Recycling von Glas kommt es darauf an, die Farben richtig zu trennen.|Camın geri dönüşümünde renkleri doğru ayırmak önemli.
+die|Reihenfolge|die Reihenfolgen|sıra, sıralama|Auf der Baustelle erklärt uns die Leiterin, in welcher Reihenfolge die Räume gestrichen werden.|Şantiyede yönetici odaların hangi sırayla boyanacağını açıklıyor.
+der|Rücktritt|die Rücktritte|çekilme, cayma|Der Rücktritt vom Kurs ist laut Vertrag bis Freitag möglich.|Sözleşmeye göre kurstan cumaya kadar cayılabilir.
+der|Sachschaden|die Sachschäden|maddi hasar|Beim Unfall gab es zum Glück nur einen kleinen Sachschaden am Fahrrad.|Kazada neyse ki sadece bisiklette küçük maddi hasar oldu.
+die|Schichtleitung|die Schichtleitungen|vardiya sorumluluğu, vardiya yönetimi|Die Schichtleitung bittet mich, den Ersatzschlüssel an der Rezeption abzugeben.|Vardiya sorumlusu yedek anahtarı resepsiyona bırakmamı istiyor.
+die|Selbstbeteiligung|die Selbstbeteiligungen|sigortada kişinin ödediği pay|Die Versicherung zahlt die Reparatur, aber meine Selbstbeteiligung beträgt hundert Euro.|Sigorta onarımı ödüyor ama benim katkı payım yüz avro.
+die|Stammkundschaft|-|düzenli müşteriler|Seit dem Umzug kommt ein großer Teil der Stammkundschaft weiterhin in den Laden.|Taşınmadan sonra düzenli müşterilerin büyük kısmı dükkâna gelmeye devam ediyor.
+die|Stellvertretung|die Stellvertretungen|vekillik, birinin yerine bakma|Während des Urlaubs übernimmt Cem die Stellvertretung im Büro.|Tatil boyunca Cem büroda görevleri vekâleten üstleniyor.
+die|Stornierung|die Stornierungen|iptal|Nach der Stornierung des Hotels habe ich eine Bestätigung bekommen.|Oteli iptal ettikten sonra onay aldım.
+die|Teilnahmebescheinigung|die Teilnahmebescheinigungen|katılım belgesi|Die Teilnahmebescheinigung für den Kurs kam eine Woche später per Post.|Kursun katılım belgesi bir hafta sonra postayla geldi.
+die|Übergabe|die Übergaben|teslim, devir|Bei der Übergabe der Wohnung haben wir die Schäden im Flur fotografiert.|Dairenin tesliminde koridordaki hasarların fotoğrafını çektik.
+die|Übersicht|die Übersichten|genel bakış, özet tablo|Die Übersicht zeigt, wie viel wir diesen Monat für Fahrkarten bezahlt haben.|Özet tablo bu ay biletlere ne kadar ödediğimizi gösteriyor.
+die|Umfrage|die Umfragen|anket|In der Umfrage konnten die Anwohner drei Wünsche für ihren Park angeben.|Ankette mahalle sakinleri parkları için üç istek belirtebildi.
+die|Umschulung|die Umschulungen|yeni mesleğe hazırlık eğitimi|Nach der Schließung der Fabrik hat er eine Umschulung zum Busfahrer begonnen.|Fabrika kapandıktan sonra otobüs şoförü olmak için meslek eğitimi almaya başladı.
+die|Unannehmlichkeit|die Unannehmlichkeiten|rahatsızlık, aksaklık|Der Laden hat sich für die Unannehmlichkeiten bei der Lieferung entschuldigt.|Mağaza teslimattaki aksaklıklar için özür diledi.
+die|Verantwortung|die Verantwortungen|sorumluluk|Wer hat diese Woche die Verantwortung für die Schlüssel im Jugendzentrum?|Bu hafta gençlik merkezinin anahtarlarından kim sorumlu?
+die|Vereinbarung|die Vereinbarungen|anlaşma|Laut Vereinbarung teilen wir uns ab Juni die Kosten für den Garten.|Anlaşmaya göre hazirandan itibaren bahçe masraflarını paylaşacağız.
+die|Verlängerung|die Verlängerungen|uzatma|Für die Verlängerung des Bibliotheksausweises brauche ich ein neues Foto.|Kütüphane kartını uzatmak için yeni bir fotoğraf gerekiyor.
+die|Vermittlung|die Vermittlungen|aracılık|Durch die Vermittlung der Schule hat meine Tochter einen Praktikumsplatz bekommen.|Okulun aracılığıyla kızım staj yeri buldu.
+die|Voraussetzung|die Voraussetzungen|ön koşul|Ein eigenes Fahrrad ist keine Voraussetzung für die Teilnahme am Kurs.|Kursa katılmak için bisiklet sahibi olmak ön koşul değil.
+der|Vorfall|die Vorfälle|olay, vaka|Nach dem Vorfall am Eingang hat die Schule die Eltern informiert.|Girişteki olaydan sonra okul velilere bilgi verdi.
+die|Wartung|die Wartungen|bakım|Während der Wartung bleibt der Aufzug bis zum Nachmittag außer Betrieb.|Bakım sırasında asansör öğleden sonraya kadar çalışmayacak.
+der|Widerspruch|die Widersprüche|itiraz, çelişki|Im Widerspruch erklärt die Mieterin, weshalb die Rechnung ihrer Meinung nach falsch ist.|Kiracı itirazında faturanın kendisine göre neden yanlış olduğunu açıklıyor.
+die|Zuständigkeit|die Zuständigkeiten|yetki, sorumluluk alanı|Die Zuständigkeit für den Spielplatz liegt bei der Stadt und nicht beim Verein.|Çocuk parkının sorumluluğu dernekte değil, belediyede.
+der|Zuschuss|die Zuschüsse|maddi destek|Für das Monatsticket gibt der Betrieb einen kleinen Zuschuss.|İşyeri aylık bilet için küçük bir maddi destek veriyor.
+v|abwägen|er wägt ab · hat abgewogen|artı ve eksileri tartmak|Wir haben abgewogen, ob sich ein Umzug für den kürzeren Arbeitsweg lohnt.|İşe gidiş yolunu kısaltmak için taşınmaya değip değmeyeceğini tarttık.
+v|anerkennen|er erkennt an · hat anerkannt|tanımak, kabul etmek|Die Schule erkennt das Zeugnis aus dem Ausland an.|Okul yurt dışındaki öğrenim belgesini tanıyor.
+v|anfechten|er ficht an · hat angefochten|itiraz etmek|Die Mieter möchten die Entscheidung gemeinsam anfechten.|Kiracılar karara birlikte itiraz etmek istiyor.
+v|ausgleichen|er gleicht aus · hat ausgeglichen|dengelemek, telafi etmek|Die fehlende Stunde kann ich am Freitag ausgleichen.|Eksik saati cuma günü telafi edebilirim.
+v|auswerten|er wertet aus · hat ausgewertet|sonuçları değerlendirmek|Der Verein wertet die Antworten aus der Umfrage am Wochenende aus.|Dernek hafta sonu anket yanıtlarını değerlendiriyor.
+v|beanstanden|er beanstandet · hat beanstandet|kusuru bildirmek, itiraz etmek|Ich habe die beschädigte Lieferung gleich beim Händler beanstandet.|Hasarlı teslimatı hemen satıcıya bildirdim.
+v|befürchten|er befürchtet · hat befürchtet|endişe etmek|Die Eltern befürchten, dass es im neuen Kurs zu wenig Plätze gibt.|Veliler yeni kursta yeterli yer olmamasından endişe ediyor.
+v|begrenzen|er begrenzt · hat begrenzt|sınırlamak|Die Schule begrenzt die Zahl der Gäste auf zwei pro Kind.|Okul misafir sayısını çocuk başına ikiyle sınırlıyor.
+v|berücksichtigen|er berücksichtigt · hat berücksichtigt|dikkate almak|Bei der Planung haben wir berücksichtigt, dass manche Familien erst abends Zeit haben.|Planlamada bazı ailelerin ancak akşam vakti olduğunu dikkate aldık.
+v|bescheinigen|er bescheinigt · hat bescheinigt|belgelemek, doğrulamak|Die Schule bescheinigt mir, dass ich den Kurs abgeschlossen habe.|Okul kursu bitirdiğimi belgeyle doğruluyor.
+v|einschränken|er schränkt ein · hat eingeschränkt|kısıtlamak|Die Baustelle schränkt den Verkehr vor der Schule ein.|İnşaat okulun önündeki trafiği kısıtlıyor.
+v|einwenden|er wendet ein · hat eingewandt|karşı görüş belirtmek|Eine Mutter wendet ein, dass der letzte Bus schon um acht fährt.|Bir anne son otobüsün saat sekizde kalktığını söyleyerek karşı çıktı.
+v|entlasten|er entlastet · hat entlastet|yükünü hafifletmek|Der neue Fahrdienst entlastet Eltern, die morgens früh arbeiten.|Yeni servis, sabah erken çalışan velilerin yükünü hafifletiyor.
+v|entsprechen|er entspricht · hat entsprochen|uygun olmak|Das gelieferte Regal entspricht nicht den Maßen in der Anzeige.|Teslim edilen raf ilandaki ölçülere uymuyor.
+v|enttäuschen|er enttäuscht · hat enttäuscht|hayal kırıklığına uğratmak|Die plötzliche Absage hat uns alle enttäuscht.|Ani iptal hepimizi hayal kırıklığına uğrattı.
+v|erläutern|er erläutert · hat erläutert|açıklamak|Die Mitarbeiterin erläutert den Ablauf anhand eines Beispiels.|Görevli süreci bir örnek üzerinden açıklıyor.
+v|erschweren|er erschwert · hat erschwert|zorlaştırmak|Der fehlende Aufzug erschwert den Zugang zur Praxis.|Asansör olmaması muayenehaneye erişimi zorlaştırıyor.
+v|erstatten|er erstattet · hat erstattet|geri ödemek|Der Laden hat mir die Kosten für die Rücksendung erstattet.|Mağaza iade gönderim masraflarını bana geri ödedi.
+v|gewährleisten|er gewährleistet · hat gewährleistet|güvenceye almak, sağlamak|Eine zweite Person am Empfang soll kurze Wartezeiten gewährleisten.|Resepsiyonda ikinci bir kişinin olması bekleme sürelerinin kısa kalmasını sağlayacak.
+v|hervorheben|er hebt hervor · hat hervorgehoben|vurgulamak|Im Bericht hebt die Schule besonders die Arbeit der Freiwilligen hervor.|Okul raporda özellikle gönüllülerin çalışmalarını vurguluyor.
+v|nachweisen|er weist nach · hat nachgewiesen|belgelemek, kanıtlamak|Mit der Bescheinigung kann ich die Teilnahme nachweisen.|Belgeyle katılımımı kanıtlayabiliyorum.
+v|sich auswirken|es wirkt sich aus · hat sich ausgewirkt|etkisi olmak|Der neue Fahrplan wirkt sich positiv auf meinen Arbeitsweg aus.|Yeni sefer çizelgesi işe gidiş yolumu olumlu etkiliyor.
+v|sich einsetzen|er setzt sich ein · hat sich eingesetzt|çaba göstermek, savunmak|Die Anwohner setzen sich für einen sicheren Schulweg ein.|Mahalle sakinleri güvenli bir okul yolu için çaba gösteriyor.
+v|sich einigen|er einigt sich · hat sich geeinigt|anlaşmak|Nach zwei Gesprächen haben wir uns auf einen späteren Termin geeinigt.|İki görüşmeden sonra daha geç bir tarih üzerinde anlaştık.
+v|sich erkundigen|er erkundigt sich · hat sich erkundigt|bilgi almak, araştırmak|Ich erkundige mich bei der Stadt nach den Kosten für die Genehmigung.|İzin masraflarını belediyeden öğreniyorum.
+v|sich eignen|es eignet sich · hat sich geeignet|uygun olmak|Der Raum eignet sich für Gruppenkurse, weil er zwei Eingänge hat.|Oda iki girişi olduğu için grup kurslarına uygun.
+v|sich richten nach|er richtet sich nach · hat sich nach … gerichtet|bir şeye göre belirlenmek|Der Preis richtet sich nach der Größe des Zimmers.|Fiyat odanın büyüklüğüne göre belirleniyor.
+v|sich wehren|er wehrt sich · hat sich gewehrt|karşı koymak|Die Anwohner wehren sich gegen die Schließung des letzten Spielplatzes.|Mahalle sakinleri son çocuk parkının kapatılmasına karşı çıkıyor.
+v|überarbeiten|er überarbeitet · hat überarbeitet|gözden geçirip düzeltmek|Nach dem Gespräch habe ich meinen Lebenslauf überarbeitet.|Görüşmeden sonra özgeçmişimi gözden geçirip düzelttim.
+v|überprüfen|er überprüft · hat überprüft|kontrol etmek|Vor der Fahrt überprüft der Verkäufer noch den Druck in den Reifen.|Satıcı yolculuktan önce lastik basıncını da kontrol ediyor.
+v|überzeugen|er überzeugt · hat überzeugt|ikna etmek|Das zweite Angebot hat uns überzeugt, weil der Aufbau schon im Preis war.|Kurulum fiyata dahil olduğu için ikinci teklif bizi ikna etti.
+v|umsetzen|er setzt um · hat umgesetzt|uygulamaya geçirmek|Die Stadt will den neuen Plan im Frühjahr umsetzen.|Belediye yeni planı ilkbaharda uygulamak istiyor.
+v|veranlassen|er veranlasst · hat veranlasst|yapılmasını sağlamak|Der Vermieter hat die Reparatur noch am selben Tag veranlasst.|Ev sahibi onarımın aynı gün yapılmasını sağladı.
+v|vermeiden|er vermeidet · hat vermieden|kaçınmak, önlemek|Mit einem Termin am frühen Morgen vermeide ich langes Warten.|Erken randevu alarak uzun süre beklemekten kaçınıyorum.
+v|vermitteln|er vermittelt · hat vermittelt|aktarmak, öğretmek|Der Kurs vermittelt die wichtigsten Regeln für den Umgang mit Kunden.|Kurs müşterilerle iletişimin temel kurallarını öğretiyor.
+v|verpflichten|er verpflichtet · hat verpflichtet|yükümlü kılmak|Der Vertrag verpflichtet uns, den Raum nach der Feier sauber zu hinterlassen.|Sözleşme kutlamadan sonra odayı temiz bırakmamızı şart koşuyor.
+v|verschärfen|er verschärft · hat verschärft|sıkılaştırmak|Das Schwimmbad hat nach mehreren Unfällen die Regeln für den Eingang verschärft.|Yüzme havuzu birkaç kazadan sonra giriş kurallarını sıkılaştırdı.
+v|vertreten|er vertritt · hat vertreten|temsil etmek, vekâlet etmek|Kannst du mich am Montag in der Besprechung vertreten?|Pazartesi toplantıda benim yerime katılabilir misin?
+v|wahrnehmen|er nimmt wahr · hat wahrgenommen|katılmak, randevuya gitmek|Ich kann den Termin am Mittwoch nicht wahrnehmen, weil ich arbeiten muss.|Çalışmam gerektiği için çarşamba randevusuna gidemiyorum.
+v|widerrufen|er widerruft · hat widerrufen|geri almak, caymak|Ich möchte meine Einwilligung zur Veröffentlichung des Fotos widerrufen.|Fotoğrafın yayımlanması için verdiğim onayı geri almak istiyorum.
+v|widersprechen|er widerspricht · hat widersprochen|karşı çıkmak|Im Gespräch hat mir eine Nachbarin freundlich widersprochen.|Görüşmede bir komşu bana nazikçe karşı çıktı.
+v|zustimmen|er stimmt zu · hat zugestimmt|katılmak, onay vermek|Ich stimme der Idee zu, die Bücher im Hof zu tauschen.|Avluda kitap takası fikrine katılıyorum.
+w|allmählich|-|yavaş yavaş|Allmählich verstehe ich auch Durchsagen im Zug ohne Hilfe.|Yavaş yavaş trendeki anonsları da yardım almadan anlıyorum.
+w|anhand|-|yardımıyla, üzerinden|Der Trainer erklärt die Übung anhand eines kurzen Videos.|Antrenör egzersizi kısa bir video üzerinden açıklıyor.
+w|ausreichend|-|yeterli|Für die ersten Wochen sind zwei Töpfe und eine Pfanne ausreichend.|İlk haftalar için iki tencere ve bir tava yeterli.
+w|bedingt|-|bir ölçüde, kısmen|Das alte Tablet ist für den Online-Kurs nur bedingt geeignet.|Eski tablet çevrimiçi kurs için ancak kısmen uygun.
+w|befristet|-|süreli|Meine Stelle ist bis Ende August befristet.|İş sözleşmem ağustos sonuna kadar süreli.
+w|beispielsweise|-|örneğin|Du kannst die Unterlagen beispielsweise als PDF schicken.|Belgeleri örneğin PDF biçiminde gönderebilirsin.
+w|beruflich|-|iş nedeniyle, mesleki olarak|Sie ist diese Woche beruflich in Hamburg.|Bu hafta iş nedeniyle Hamburg'da.
+w|dementsprechend|-|buna uygun olarak|Die Gästezahl ist gesunken, dementsprechend haben wir weniger Essen bestellt.|Konuk sayısı azaldı, buna göre daha az yemek sipariş ettik.
+w|durchschnittlich|-|ortalama|Mit dem Bus brauche ich durchschnittlich fünfunddreißig Minuten zur Arbeit.|Otobüsle işe gitmem ortalama otuz beş dakika sürüyor.
+w|ehrenamtlich|-|gönüllü olarak|Meine Schwester hilft ehrenamtlich in der Stadtbücherei.|Kız kardeşim şehir kütüphanesinde gönüllü çalışıyor.
+w|eigenständig|-|bağımsız olarak|Nach der Einführung konnte ich den neuen Drucker eigenständig bedienen.|Tanıtımdan sonra yeni yazıcıyı kendi başıma kullanabildim.
+w|einerseits|-|bir yandan|Einerseits ist die Wohnung heller, andererseits ist sie deutlich teurer.|Daire bir yandan daha aydınlık, öte yandan belirgin biçimde daha pahalı.
+w|einheitlich|-|tek tip, tutarlı|Für alle Gruppen gelten einheitliche Regeln zur Anmeldung.|Bütün gruplar için aynı kayıt kuralları geçerli.
+w|erforderlich|-|gerekli|Für die Abholung ist ein gültiger Ausweis erforderlich.|Teslim almak için geçerli kimlik gerekiyor.
+w|erheblich|-|önemli ölçüde|Seit die Brücke gesperrt ist, dauert der Schulweg erheblich länger.|Köprü kapanalı okul yolu önemli ölçüde uzadı.
+w|erwartungsgemäß|-|beklendiği gibi|Erwartungsgemäß waren die günstigen Karten am Vormittag schon weg.|Beklendiği gibi ucuz biletler öğleden önce tükenmişti.
+w|gegebenenfalls|-|gerekirse|Bringen Sie gegebenenfalls eine Kopie des Vertrags mit.|Gerekirse sözleşmenin bir kopyasını yanınızda getirin.
+w|grundsätzlich|-|ilke olarak, genel olarak|Grundsätzlich dürfen Fahrräder mit, solange es im Zug genug Platz gibt.|Trende yeterli yer olduğu sürece genel olarak bisiklet alınabiliyor.
+w|hingegen|-|buna karşılık|Der Bus hält direkt vor der Schule, die Straßenbahn hingegen fährt nur bis zum Park.|Otobüs okulun önünde duruyor, tramvay ise yalnızca parka kadar gidiyor.
+w|jederzeit|-|her zaman|Deine E-Mail-Adresse kannst du jederzeit ändern.|E-posta adresini her zaman değiştirebilirsin.
+w|nachträglich|-|sonradan|Ich habe den zweiten Gast nachträglich beim Hotel angemeldet.|İkinci konuğun kaydını otele sonradan yaptırdım.
+w|offenbar|-|görünüşe göre|Offenbar war der Raum doppelt gebucht, denn vor der Tür warteten zwei Gruppen.|Görünüşe göre oda iki kez ayrılmış, çünkü kapıda iki grup bekliyordu.
+w|schriftlich|-|yazılı olarak|Ich möchte die Zusage schriftlich erhalten, bevor ich die Fahrt buche.|Yolculuğu ayırtmadan önce onayı yazılı almak istiyorum.
+w|sorgfältig|-|özenle, dikkatlice|Prüf die Namen auf den Umschlägen sorgfältig, bevor du sie abschickst.|Zarfları göndermeden önce isimleri dikkatlice kontrol et.
+w|teilweise|-|kısmen|Der Gehweg ist teilweise gesperrt, aber man kommt noch bis zur Apotheke.|Kaldırım kısmen kapalı ama eczaneye kadar gidilebiliyor.
+w|umgehend|-|gecikmeden, hemen|Sobald das Paket angekommen ist, melde ich mich umgehend beim Verkäufer.|Paket gelir gelmez satıcıya haber vereceğim.
+w|unbedingt|-|mutlaka|Nimm den Ausweis unbedingt mit, sonst können wir den Wagen nicht abholen.|Kimliği mutlaka al, yoksa aracı teslim alamayız.
+w|unverbindlich|-|bağlayıcı olmayan|Der erste Kostenvorschlag für die Reparatur ist unverbindlich.|Onarım için verilen ilk fiyat teklifi bağlayıcı değil.
+w|vermutlich|-|muhtemelen|Der Termin dauert vermutlich länger als eine Stunde.|Randevu muhtemelen bir saatten uzun sürecek.
+w|vorübergehend|-|geçici olarak|Die Haltestelle wurde vorübergehend an die andere Straßenseite verlegt.|Durak geçici olarak yolun karşı tarafına taşındı.
+w|zahlreich|-|çok sayıda|Zum Tauschfest sind zahlreiche Familien aus dem Stadtteil gekommen.|Takas şenliğine mahalleden çok sayıda aile geldi.
+w|zweifellos|-|kuşkusuz|Das Rad ist zweifellos leichter, aber auch deutlich teurer.|Bisiklet kuşkusuz daha hafif ama belirgin biçimde daha pahalı.
+die|Abwägung|die Abwägungen|değerlendirme, tartma|Nach einer kurzen Abwägung haben wir lieber den Zug genommen.|Artı ve eksileri kısaca değerlendirdikten sonra treni tercih ettik.
+die|Anrechnung|die Anrechnungen|sayılma, hesaba katılma|Die Schule prüft, ob eine Anrechnung des alten Kurses möglich ist.|Okul eski kursun sayılıp sayılamayacağını inceliyor.
+der|Anteil|die Anteile|pay, oran|Ein großer Anteil der Teilnehmenden kommt mit öffentlichen Verkehrsmitteln.|Katılımcıların büyük bölümü toplu taşımayla geliyor.
+der|Antragsteller|die Antragsteller|başvuru sahibi|Der Antragsteller muss auf der letzten Seite unterschreiben.|Başvuru sahibi son sayfayı imzalamalı.
+die|Arbeitsbelastung|die Arbeitsbelastungen|iş yükü|In der Ferienzeit ist die Arbeitsbelastung im Hotel besonders hoch.|Tatil döneminde otelin iş yükü özellikle fazla.
+die|Berechtigung|die Berechtigungen|yetki, hak|Für den Raum brauchst du eine Berechtigung, die das Büro ausstellt.|Odaya girmek için büronun verdiği yetki gerekiyor.
+die|Beratungskraft|die Beratungskräfte|danışman|Die Beratungskraft hat mit mir drei mögliche Wege zur Ausbildung besprochen.|Danışman benimle mesleki eğitime giden üç olası yolu konuştu.
+die|Berufsberatung|die Berufsberatungen|meslek danışmanlığı|Bei der Berufsberatung habe ich erfahren, welche Berufe zu meinen Interessen passen.|Meslek danışmanlığında hangi işlerin ilgime uygun olduğunu öğrendim.
+die|Beschäftigung|die Beschäftigungen|istihdam, uğraş|Sie sucht eine Beschäftigung, bei der sie auch am Nachmittag arbeiten kann.|Öğleden sonra da çalışabileceği bir iş arıyor.
+die|Bestätigungsmail|die Bestätigungsmails|onay e-postası|Die Bestätigungsmail für den Kurs ist im Spamordner gelandet.|Kursun onay e-postası spam klasörüne düşmüş.
+die|Betreuungskraft|die Betreuungskräfte|bakım veya gözetim görevlisi|Eine Betreuungskraft wartet nach Schulschluss mit den Kindern am Eingang.|Ders bitiminde bir görevli çocuklarla girişte bekliyor.
+der|Datenschutz|-|veri koruma|Beim Datenschutz achtet der Verein darauf, keine Adressen öffentlich zu zeigen.|Dernek veri koruması için adresleri herkese açık göstermemeye dikkat ediyor.
+der|Eigenanteil|die Eigenanteile|kişinin ödediği pay|Für den Ausflug zahlt jede Familie einen Eigenanteil von fünf Euro.|Gezi için her aile kendi payı olarak beş avro ödüyor.
+die|Einarbeitung|die Einarbeitungen|işe alıştırma|Während der Einarbeitung darf ich die erfahrene Kollegin jederzeit fragen.|İşe alışma sürecinde deneyimli iş arkadaşıma her zaman soru sorabilirim.
+die|Einsparung|die Einsparungen|tasarruf|Die Einsparung beim Strom war nach einem Monat auf der Rechnung zu sehen.|Elektrik tasarrufu bir ay sonra faturada görüldü.
+die|Einstellung|die Einstellungen|tutum, işe alım|Ihre Einstellung zum Radfahren hat sich durch den neuen Radweg geändert.|Yeni bisiklet yolu bisiklete bakışını değiştirdi.
+der|Engpass|die Engpässe|darboğaz, geçici sıkıntı|Wegen eines Engpasses konnten wir diese Woche nur ein Drittel der Bestellungen liefern.|Geçici bir sıkıntı nedeniyle bu hafta siparişlerin ancak üçte birini teslim edebildik.
+die|Entlastung|die Entlastungen|yükün hafiflemesi|Der Fahrdienst ist für viele Familien eine große Entlastung.|Servis birçok aile için büyük bir kolaylık.
+die|Entschädigung|die Entschädigungen|tazminat|Wegen der Verspätung hat das Unternehmen eine Entschädigung angeboten.|Gecikme nedeniyle şirket tazminat teklif etti.
+die|Ernährungsweise|die Ernährungsweisen|beslenme biçimi|In unserer Familie hat jede Person eine etwas andere Ernährungsweise.|Ailemizde herkesin beslenme biçimi biraz farklı.
+die|Freiwilligenarbeit|-|gönüllü çalışma|Bei der Freiwilligenarbeit im Park habe ich meine Nachbarn kennengelernt.|Parktaki gönüllü çalışmada komşularımla tanıştım.
+die|Fristverlängerung|die Fristverlängerungen|süre uzatımı|Wegen der fehlenden Unterlagen hat er eine Fristverlängerung beantragt.|Eksik belgeler nedeniyle süre uzatımı istedi.
+die|Gebäudeverwaltung|die Gebäudeverwaltungen|bina yönetimi|Die Gebäudeverwaltung informiert uns morgen über die Arbeiten am Dach.|Bina yönetimi çatıdaki çalışmalar hakkında yarın bilgi verecek.
+die|Gefahrenstelle|die Gefahrenstellen|tehlikeli nokta|Die Eltern haben die dunkle Kreuzung als Gefahrenstelle gemeldet.|Veliler karanlık kavşağı tehlikeli nokta olarak bildirdi.
+die|Gleichbehandlung|-|eşit muamele|Der Verein achtet bei der Anmeldung auf die Gleichbehandlung aller Mitglieder.|Dernek kayıtta bütün üyelere eşit davranılmasına dikkat ediyor.
+die|Handhabung|die Handhabungen|kullanım şekli|Die Handhabung des Geräts wird auf einem Blatt mit Bildern erklärt.|Cihazın kullanımı resimli bir kâğıtta açıklanıyor.
+die|Informationsveranstaltung|die Informationsveranstaltungen|bilgilendirme toplantısı|Nach der Informationsveranstaltung konnte ich noch Fragen zur Anmeldung stellen.|Bilgilendirme toplantısından sonra kayıtla ilgili sorular sorabildim.
+die|Kindertagesstätte|die Kindertagesstätten|gündüz bakım merkezi, kreş|Die Kindertagesstätte öffnet früher, seit mehr Eltern im Schichtdienst arbeiten.|Daha fazla veli vardiyalı çalıştığından beri kreş daha erken açılıyor.
+die|Kommunikation|-|iletişim|Seit wir kurze Besprechungen machen, klappt die Kommunikation im Team besser.|Kısa toplantılar yaptığımızdan beri ekip içi iletişim daha iyi işliyor.
+die|Konkurrenz|-|rekabet, rakipler|Trotz der großen Konkurrenz hat der kleine Laden viele treue Kunden.|Yoğun rekabete rağmen küçük dükkânın çok sayıda sadık müşterisi var.
+der|Leistungsnachweis|die Leistungsnachweise|başarı belgesi|Als Leistungsnachweis konnte sie einen Bericht aus dem Praktikum einreichen.|Başarı belgesi olarak staj raporunu teslim edebildi.
+die|Lernstrategie|die Lernstrategien|öğrenme stratejisi|Meine Lernstrategie ist, neue Wörter gleich in einer Nachricht zu benutzen.|Öğrenme stratejim yeni kelimeleri hemen bir mesajda kullanmak.
+die|Mängelliste|die Mängellisten|kusur listesi|Vor der Schlüsselübergabe haben wir gemeinsam eine Mängelliste erstellt.|Anahtar tesliminden önce birlikte bir kusur listesi hazırladık.
+das|Meldeformular|die Meldeformulare|bildirim formu|Das Meldeformular für den Schaden liegt im Eingangsbereich aus.|Hasar bildirim formu giriş alanında bulunuyor.
+die|Mietanpassung|die Mietanpassungen|kira ayarlaması|Die Mietanpassung wurde uns zwei Monate vorher angekündigt.|Kira ayarlaması iki ay önceden bildirildi.
+der|Mieterbeirat|die Mieterbeiräte|kiracı danışma kurulu|Der Mieterbeirat möchte einen festen Platz für Fahrräder im Hof.|Kiracı danışma kurulu avluda bisikletlere ayrılmış bir yer istiyor.
+die|Nachbesserung|die Nachbesserungen|kusurun sonradan giderilmesi|Nach der ersten Reparatur war eine Nachbesserung nötig, weil die Tür noch klemmte.|İlk onarımdan sonra kapı hâlâ sıkıştığı için tekrar düzeltme gerekti.
+die|Nachprüfung|die Nachprüfungen|telafi sınavı, ek kontrol|Wer in Mathematik knapp durchgefallen ist, kann im August eine Nachprüfung machen.|Matematikten az farkla kalanlar ağustosta telafi sınavına girebilir.
+die|Personalabteilung|die Personalabteilungen|personel departmanı|An die Personalabteilung habe ich meine neue Adresse geschickt.|Yeni adresimi personel departmanına gönderdim.
+der|Prüfungsablauf|die Prüfungsabläufe|sınavın işleyişi|Am ersten Kurstag erklärt uns die Lehrerin den Prüfungsablauf.|İlk ders gününde öğretmen sınavın nasıl işleyeceğini açıklıyor.
+das|Raumangebot|die Raumangebote|mekân seçeneği|Das Raumangebot reicht für kleine Gruppen, aber nicht für den ganzen Verein.|Mekân seçenekleri küçük gruplara yeterli ama bütün derneğe yetmiyor.
+die|Reaktionszeit|die Reaktionszeiten|yanıt süresi|Die Reaktionszeit auf Beschwerden hat sich seit dem Personalwechsel verkürzt.|Personel değişikliğinden beri şikâyetlere yanıt süresi kısaldı.
+die|Rückerstattung|die Rückerstattungen|geri ödeme|Die Rückerstattung für das abgesagte Konzert ist auf meinem Konto eingegangen.|İptal edilen konserin ücreti hesabıma geri yatırıldı.
+das|Rückmeldeformular|die Rückmeldeformulare|geri bildirim formu|Im Rückmeldeformular konnte ich einen späteren Kursbeginn vorschlagen.|Geri bildirim formunda kursun daha geç başlamasını önerebildim.
+die|Schadensmeldung|die Schadensmeldungen|hasar bildirimi|Zur Schadensmeldung habe ich drei Fotos vom kaputten Fenster hinzugefügt.|Hasar bildirimine kırık pencerenin üç fotoğrafını ekledim.
+die|Schutzmaßnahme|die Schutzmaßnahmen|koruyucu tedbir|Als Schutzmaßnahme hat die Schule den Lieferverkehr vom Haupteingang getrennt.|Okul koruyucu tedbir olarak teslimat trafiğini ana girişten ayırdı.
+die|Selbstständigkeit|-|bağımsızlık|Das Training soll die Selbstständigkeit der Kinder auf dem Schulweg fördern.|Eğitim çocukların okul yolunda kendi başlarına hareket edebilmelerini destekleyecek.
+die|Spendenaktion|die Spendenaktionen|bağış kampanyası|Durch die Spendenaktion konnte der Verein neue Bücher kaufen.|Bağış kampanyası sayesinde dernek yeni kitaplar alabildi.
+der|Stadtteiltreff|die Stadtteiltreffs|mahalle buluşma merkezi|Beim Stadtteiltreff kann man samstags gemeinsam kochen.|Mahalle merkezinde cumartesileri birlikte yemek yapılabiliyor.
+die|Stellenbesetzung|die Stellenbesetzungen|pozisyonun doldurulması|Über die Stellenbesetzung entscheidet die Leitung erst nach dem zweiten Gespräch.|Yönetim pozisyonu kimin dolduracağına ancak ikinci görüşmeden sonra karar verecek.
+die|Teilnahmebedingung|die Teilnahmebedingungen|katılım koşulu|Eine Teilnahmebedingung ist, dass alle Kinder schwimmen können.|Katılım koşullarından biri bütün çocukların yüzme bilmesi.
+die|Terminabsprache|die Terminabsprachen|randevu ayarlama|Zur Terminabsprache ist die Praxis am besten vormittags erreichbar.|Randevu ayarlamak için muayenehaneye en kolay öğleden önce ulaşılabiliyor.
+die|Umstellung|die Umstellungen|geçiş, düzen değişikliği|Die Umstellung auf den neuen Fahrplan hat am ersten Tag gut geklappt.|Yeni sefer düzenine geçiş ilk gün iyi işledi.
+das|Übergabeprotokoll|die Übergabeprotokolle|teslim tutanağı|Im Übergabeprotokoll stehen die Zählerstände und die Zahl der Schlüssel.|Teslim tutanağında sayaç değerleri ve anahtar sayısı yazıyor.
+die|Verbraucherberatung|die Verbraucherberatungen|tüketici danışmanlığı|Die Verbraucherberatung hat den Handyvertrag mit mir durchgesehen.|Tüketici danışmanlığı merkezi telefon sözleşmesini benimle inceledi.
+die|Verfügbarkeit|die Verfügbarkeiten|mevcut olma, uygunluk|Die Verfügbarkeit der Leihräder kann man direkt in der App sehen.|Kiralık bisikletlerin uygunluk durumu uygulamadan görülebiliyor.
