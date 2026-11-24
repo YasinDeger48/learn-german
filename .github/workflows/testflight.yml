@@ -24,22 +24,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Select newest Xcode (App Store needs the iOS 26 SDK or later)
-        shell: bash
-        run: |
-          set -euo pipefail
-          ls -d /Applications/Xcode*.app || true
-          newest=$(ls -d /Applications/Xcode_*.app | grep -E 'Xcode_[0-9]+(\.[0-9]+)*\.app$' | sort -V | tail -n 1)
-          echo "Using $newest"
-          sudo xcode-select -s "$newest/Contents/Developer"
-          xcodebuild -version
-          sdk=$(xcrun --sdk iphoneos --show-sdk-version)
-          major=${sdk%%.*}
-          if [ "$major" -lt 26 ]; then
-            echo "::error::Newest Xcode on this runner has iOS SDK $sdk. App Store Connect needs iOS 26 or later."
-            exit 1
-          fi
-
       - name: Check secrets
         shell: bash
         run: |
@@ -51,28 +35,7 @@ jobs:
 
       - name: Prepare Xcode project
         shell: bash
-        run: |
-          set -euo pipefail
-          # Prebuilt XcodeGen is much faster than Homebrew (saves 1–3 macOS minutes per run).
-          curl -sSL -o /tmp/xcodegen.zip https://github.com/yonaskolb/XcodeGen/releases/download/2.42.0/xcodegen.zip             && unzip -q -o /tmp/xcodegen.zip -d /tmp && export PATH="/tmp/xcodegen/bin:$PATH"             || brew install xcodegen
-          icons=Assets.xcassets/AppIcon.appiconset
-          mkdir -p "$icons"
-          echo '{"info":{"author":"xcode","version":1}}' > Assets.xcassets/Contents.json
-          # App Store needs a 1024 px icon without transparency.
-          sips -z 1024 1024 AppIcon.png --out /tmp/icon1024.png
-          sips -s format jpeg /tmp/icon1024.png --out /tmp/icon1024.jpg
-          sips -s format png /tmp/icon1024.jpg --out "$icons/icon-1024.png"
-          cat > "$icons/Contents.json" <<'JSON'
-          {"images":[{"filename":"icon-1024.png","idiom":"universal","platform":"ios","size":"1024x1024"}],"info":{"author":"xcode","version":1}}
-          JSON
-          plist=Info.plist
-          /usr/libexec/PlistBuddy -c "Delete :CFBundleIcons" "$plist" || true
-          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" "$plist"
-          /usr/libexec/PlistBuddy -c "Add :ITSAppUsesNonExemptEncryption bool false" "$plist"
-          /usr/libexec/PlistBuddy -c "Add :UISupportedInterfaceOrientations array" "$plist"
-          /usr/libexec/PlistBuddy -c "Add :UISupportedInterfaceOrientations:0 string UIInterfaceOrientationPortrait" "$plist"
-          plutil -lint "$plist"
-          xcodegen generate
+        run: bash ci/prepare_project.sh "${{ github.run_number }}" --require-ios26
 
       - name: Install API key
         shell: bash

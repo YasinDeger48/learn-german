@@ -1,10 +1,14 @@
 name: iPhone IPA
-# Compile check on every push. Free while the repository is public.
+# Compile check on every push, with the same Xcode project and Xcode as TestFlight (XcodeGen + xcodebuild),
+# so Swift packages (Google Mobile Ads) build here too. Also makes an unsigned IPA (for Sideloadly).
+# Free while the repository is public.
 # If the repository becomes private again, remove the "push" trigger: private macOS minutes count 10×.
 on:
   push:
     paths:
       - '.github/workflows/ios.yml'
+      - 'ci/**'
+      - 'project.yml'
       - 'Sources/**'
       - 'Resources/**'
       - 'Info.plist'
@@ -20,26 +24,41 @@ permissions:
 jobs:
   build:
     runs-on: macos-15
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-      - name: Compile and package
+
+      - name: Prepare Xcode project
+        shell: bash
+        run: bash ci/prepare_project.sh "${{ github.run_number }}"
+
+      - name: Build (unsigned)
         shell: bash
         run: |
           set -euo pipefail
-          app=Payload/Almanca.app
-          mkdir -p "$app"
-          plutil -lint Info.plist
-          cp Info.plist "$app/"
-          # Resources are copied flat into the bundle, like Xcode does for groups.
-          find Resources -type f \( -name '*.json' -o -name '*.ttf' -o -name '*.png' -o -name '*.jpg' \) -exec cp {} "$app/" \;
-          swift_sdk="$(xcrun --sdk iphoneos --show-sdk-path)"
-          find Sources -name '*.swift' -print0 | xargs -0 xcrun --sdk iphoneos swiftc -parse-as-library -O \
-            -target arm64-apple-ios16.0 -sdk "$swift_sdk" -o "$app/Almanca"
-          sips -z 180 180 AppIcon.png --out "$app/AppIcon@3x.png"
-          sips -z 120 120 AppIcon.png --out "$app/AppIcon@2x.png"
+          if ! xcodebuild build \
+            -project Almanca.xcodeproj -scheme Almanca -configuration Release \
+            -destination 'generic/platform=iOS' -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO > build.log 2>&1; then
+            echo "::group::Errors"; grep -E 'error:' build.log | sort -u | head -60 || true; echo "::endgroup::"
+            tail -n 60 build.log
+            exit 1
+          fi
+          grep -E 'warning:' build.log | grep '/Sources/' | sort -u | head -40 || true
+          tail -n 3 build.log
+
+      - name: Package IPA
+        shell: bash
+        run: |
+          set -euo pipefail
+          app=build/Build/Products/Release-iphoneos/Almanca.app
+          test -d "$app"
+          mkdir -p Payload
+          cp -R "$app" Payload/
           ditto -c -k --keepParent Payload Deschly.ipa
-          unzip -t Deschly.ipa
+          unzip -t Deschly.ipa > /dev/null
+          du -h Deschly.ipa
+
       - uses: actions/upload-artifact@v4
         with:
           name: Deschly-IPA
