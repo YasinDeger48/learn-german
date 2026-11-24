@@ -46,7 +46,7 @@ struct OnboardingView: View {
                 .foregroundColor(DS.ink.opacity(0.8))
                 .padding(.top, 6)
             VStack(spacing: 8) {
-                ForEach(AppLanguage.allCases) { lang in
+                ForEach(AppLanguage.offered) { lang in
                     let active = lang == language
                     Button {
                         language = lang

@@ -19,10 +19,15 @@ enum AppLanguage: String, CaseIterable, Identifiable, Codable {
 
     var code: String { rawValue.uppercased() }
 
+    /// Languages the learner can choose. Spanish, French and Italian come back once the learning content
+    /// (word meanings, examples, translations) is translated; until then they would show English content.
+    static let offered: [AppLanguage] = [.tr, .en]
+
     /// Best match for the phone's language, used before the learner picks one.
     static var device: AppLanguage {
         let preferred = Locale.preferredLanguages.first?.prefix(2).lowercased() ?? "en"
-        return AppLanguage(rawValue: String(preferred)) ?? .en
+        let match = AppLanguage(rawValue: String(preferred)) ?? .en
+        return offered.contains(match) ? match : .en
     }
 }
 
@@ -41,7 +46,8 @@ final class Localizer: ObservableObject {
 
     private init() {
         let stored = UserDefaults.standard.string(forKey: Localizer.languageKey).flatMap(AppLanguage.init(rawValue:))
-        language = stored ?? AppLanguage.device
+        // A language chosen earlier but not offered now falls back to English.
+        language = stored.map { AppLanguage.offered.contains($0) ? $0 : .en } ?? AppLanguage.device
         hasChosen = UserDefaults.standard.bool(forKey: Localizer.chosenKey)
         fallback = Localizer.load(.en)
         table = Localizer.load(language)

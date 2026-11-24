@@ -12,7 +12,7 @@
   <key>CFBundleVersion</key><string>1</string>
   <key>CFBundleDevelopmentRegion</key><string>en</string>
   <key>CFBundleLocalizations</key>
-  <array><string>en</string><string>tr</string><string>es</string><string>fr</string><string>it</string></array>
+  <array><string>en</string><string>tr</string></array>
   <key>CFBundleSupportedPlatforms</key><array><string>iPhoneOS</string></array>
   <key>LSRequiresIPhoneOS</key><true/>
   <key>MinimumOSVersion</key><string>16.0</string>
