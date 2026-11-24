@@ -5,9 +5,13 @@ import Foundation
 
 enum Bundled {
     static func decode<T: Decodable>(_ type: T.Type, _ name: String) -> T? {
-        guard let url = Bundle.main.url(forResource: name, withExtension: "json"),
-              let data = try? Data(contentsOf: url) else { return nil }
-        return try? JSONDecoder().decode(type, from: data)
+        // A downloaded update first (see ContentUpdater); if it cannot be read, the bundled file.
+        for url in [ContentStore.cached("\(name).json"), ContentStore.bundled("\(name).json")].compactMap({ $0 }) {
+            if let data = try? Data(contentsOf: url), let value = try? JSONDecoder().decode(type, from: data) {
+                return value
+            }
+        }
+        return nil
     }
 }
 

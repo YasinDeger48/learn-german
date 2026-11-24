@@ -77,6 +77,9 @@ struct LinaAvatar: View {
 /// Cover illustration of a daily text (Resources/Covers/<id>.jpg). Nothing is shown when a text has no cover yet.
 enum Covers {
     static func image(_ id: String) -> UIImage? {
+        if let url = ContentStore.cached("covers/\(id).jpg"), let image = UIImage(contentsOfFile: url.path) {
+            return image
+        }
         guard let path = Bundle.main.path(forResource: id, ofType: "jpg") else { return nil }
         return UIImage(contentsOfFile: path)
     }

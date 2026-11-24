@@ -2,6 +2,11 @@ import SwiftUI
 
 @main
 struct DeschlyApp: App {
+    init() {
+        // Must run before any content is read: a new app version starts from its own bundled files.
+        ContentStore.clearIfAppChanged()
+    }
+
     @StateObject private var levels = LevelModels()
     @StateObject private var daily = DailyModel()
     @ObservedObject private var localizer = Localizer.shared
@@ -24,7 +29,10 @@ struct DeschlyApp: App {
             .environmentObject(localizer)
             .tint(DS.accent)
             .onChange(of: scenePhase) { phase in
-                if phase == .active { Reminders.refresh(daily) }
+                if phase == .active {
+                    Reminders.refresh(daily)
+                    ContentUpdater.shared.checkIfDue()
+                }
             }
         }
     }
