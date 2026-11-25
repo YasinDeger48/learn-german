@@ -5,18 +5,22 @@ import UIKit
 import UserMessagingPlatform
 
 /// Ad unit ids. Real ids go into Info.plist (GADApplicationIdentifier, DeschlyAdBanner, DeschlyAdInterstitial,
-/// DeschlyAdRewarded). Debug and TestFlight builds always use Google's test ads: clicking your own live ads
-/// can close the AdMob account.
+/// DeschlyAdRewarded). Debug, TestFlight and sideloaded builds always use Google's test ads: clicking your own
+/// live ads can close the AdMob account.
 enum AdUnits {
     private static let testBanner = "ca-app-pub-3940256099942544/2435281174"
     private static let testInterstitial = "ca-app-pub-3940256099942544/4411468910"
     private static let testRewarded = "ca-app-pub-3940256099942544/1712485313"
 
+    /// Only App Store installs show real ads. TestFlight has a sandbox receipt; sideloaded builds
+    /// (Sideloadly, Xcode) have no receipt at all – both get Google's test ads.
     static var useTestAds: Bool {
         #if DEBUG
         return true
         #else
-        return Bundle.main.appStoreReceiptURL?.lastPathComponent == "sandboxReceipt"
+        guard let receipt = Bundle.main.appStoreReceiptURL,
+              FileManager.default.fileExists(atPath: receipt.path) else { return true }
+        return receipt.lastPathComponent == "sandboxReceipt"
         #endif
     }
 
