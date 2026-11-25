@@ -3,6 +3,7 @@ import { BookOpen, FileText, Mic, PenLine, Quote, Type, type LucideIcon } from '
 import { useState, type ReactNode } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { Failed, Loading, PageHeader } from '@/components/layout/PageHeader'
+import { AddForm, AddedMark } from '@/components/ui/add-form'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
 import { DropZone } from '@/components/ui/drop-zone'
@@ -100,12 +101,26 @@ function Detail({ unit, bust, onBust }: { unit: UnitFull; bust: number; onBust: 
         <ul className="m-0 flex list-none flex-col gap-2 p-0">
           {unit.phrases.map((p, i) => (
             <li key={i} className="grid gap-0.5 rounded-lg border border-line-soft px-3 py-2">
-              <Editable className="font-semibold" value={p.de} target={at(`phrases.${i}.de`)} refresh={refresh} />
+              <span><Editable className="font-semibold" value={p.de} target={at(`phrases.${i}.de`)} refresh={refresh} />{p.added && <AddedMark refresh={refresh} remove={{ file: 'units.json', collection: 'units', item: { de: p.de }, parent: { keyField: 'id', key: unit.id, path: 'phrases' } }} />}</span>
               <Editable className="text-xs text-muted" value={p.tr} target={at(`phrases.${i}.tr`)} refresh={refresh} />
               <Editable className="text-xs text-muted" value={p.en} target={at(`phrases.${i}.en`)} refresh={refresh} />
             </li>
           ))}
         </ul>
+        <div className="mt-3">
+          <AddForm
+            kind="phrase"
+            file="units.json"
+            label="Add a phrase"
+            refresh={refresh}
+            extra={{ unit: unit.id }}
+            fields={[
+              { name: 'de', label: 'German', placeholder: 'Eine Laugenstange, bitte.', wide: true },
+              { name: 'tr', label: 'Türkçe' },
+              { name: 'en', label: 'English' },
+            ]}
+          />
+        </div>
       </Step>
 
       <Step n={3} icon={BookOpen} title="Grammar">

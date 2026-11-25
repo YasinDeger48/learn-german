@@ -119,7 +119,7 @@ export type UnitFull = {
   texts: { id: string; title: string; cover: boolean }[]
   speaking: { id: string; title: string }[]
   writing: { id: string; title: string }[]
-  phrases: { de: string; tr: string; en: string }[]
+  phrases: { de: string; tr: string; en: string; added?: boolean }[]
   words: { de: string; article: string | null; meaning: string; picture: string | null }[]
 }
 
@@ -156,6 +156,7 @@ export type WordRow = {
   en: string
   examples: { de: string; tr: string; en: string }[]
   broken: boolean
+  added?: boolean
 }
 
 export type GrammarTopic = {
@@ -164,7 +165,7 @@ export type GrammarTopic = {
   name: Loc
   rule: Loc
   examples: { de: string; tr: string; en: string }[]
-  items: { q: string; answer: string; options: string[]; why: Partial<Loc>; broken: boolean }[]
+  items: { q: string; answer: string; options: string[]; why: Partial<Loc>; broken: boolean; added?: boolean }[]
 }
 
 export type TaskPoint = { label: Loc; say: string; keys: string[] }
@@ -196,7 +197,7 @@ export type TranslationStats = {
 /** Where an editable text lives: an item of a list in a content file, and a dotted path inside it. */
 export type EditTarget = { file: string; collection: string; keyField: string; key: string | number; path: string }
 
-export type EditRecord = EditTarget & { value: string; original: string; at: string }
+export type EditRecord = EditTarget & { op?: 'set' | 'add'; value: string; original: string; at: string; item?: Record<string, unknown> }
 
 async function call<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(path, init)
@@ -241,7 +242,7 @@ export const api = {
   verbs: (level: string) => call<VerbList>(`/api/verbs/${level}`),
 
   // Lists
-  words: (level: string) => call<{ level: string; themes: string[]; words: WordRow[] }>(`/api/words/${level}`),
+  words: (level: string) => call<{ level: string; themes: string[]; themeList: { id: number; name: string }[]; words: WordRow[] }>(`/api/words/${level}`),
   grammar: (level: string) => call<{ level: string; topics: GrammarTopic[]; broken: number }>(`/api/grammar/${level}`),
   tasks: () => call<{ writing: WritingTask[]; speaking: SpeakingTask[]; pattern?: { informal: PatternBlock[]; formal: PatternBlock[] } }>('/api/tasks'),
   translations: (sample = '') => call<TranslationStats>(`/api/translations?sample=${sample}`),
@@ -250,6 +251,10 @@ export const api = {
   edit: (body: EditTarget & { value: string }) =>
     call<{ ok: boolean; old: string }>('/api/edit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }),
   edits: () => call<EditRecord[]>('/api/edits'),
+  add: (body: Record<string, unknown>) =>
+    call<{ ok: boolean }>('/api/add', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }),
+  remove: (body: { file: string; collection: string; item: Record<string, unknown>; parent?: { keyField: string; key: string; path: string } }) =>
+    call<{ ok: boolean }>('/api/remove', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }),
 
   // Media
   covers: () => call<CoverRow[]>('/api/media/covers'),

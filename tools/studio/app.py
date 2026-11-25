@@ -218,6 +218,7 @@ async def picture(request: Request, name: str = Query(...)):
 def units_full():
     """Every unit with what its steps point at, resolved to titles (read-only view of units.json)."""
     units = load('units.json')['units']
+    added_phrases = set(added_ids('units.json', 'phrases'))
     speaking = {t['id']: t for t in load('speaking.json')['tasks']}
     writing = {t['id']: t for t in load('writing.json')['tasks']}
     texts = {t['id']: t for items in classic.load_texts().values() for t in items}
@@ -252,7 +253,7 @@ def units_full():
             'texts': [{'id': t, 'title': texts[t]['title'] if t in texts else t, 'cover': classic.has_cover(t)} for t in u['texts']],
             'speaking': [{'id': t, 'title': speaking[t]['title']['tr'] if t in speaking else t} for t in u['speaking']],
             'writing': [{'id': t, 'title': writing[t]['title']['tr'] if t in writing else t} for t in u['writing']],
-            'phrases': u['phrases'],
+            'phrases': [dict(p, added=(p['de'],) in added_phrases) for p in u['phrases']],
             'words': words,
         })
     return out
@@ -296,7 +297,11 @@ def words(level: str):
                     'plural': w.get('plural'), 'pron': w.get('pron', ''), 'tr': mean.get('tr', ''), 'en': mean.get('en', ''),
                     'examples': [{'de': e['de'], 'tr': e['mean'].get('tr', ''), 'en': e['mean'].get('en', '')} for e in w.get('ex', [])],
                     'broken': any(broken(x) for x in [mean.get('tr'), mean.get('en')] + [e['mean'].get('en') for e in w.get('ex', [])])})
-    return {'level': lv.upper(), 'themes': sorted(set(themes.values())), 'words': out}
+    mine = set(added_ids(f'{lv}.json', 'words'))
+    for w in out:
+        w['added'] = (w['de'], w['type']) in mine
+    return {'level': lv.upper(), 'themes': sorted(set(themes.values())),
+            'themeList': [{'id': k, 'name': v} for k, v in themes.items()], 'words': out}
 
 
 @app.get('/api/grammar/{level}')
@@ -313,6 +318,10 @@ def grammar(level: str):
                        'why': i.get('why', {}), 'broken': broken((i.get('why') or {}).get('en')) or broken((i.get('why') or {}).get('tr'))}
                       for i in mine],
         })
+    mine = {k[0] for k in added_ids(f'{lv}.json', 'grammarItems')}
+    for t in out:
+        for i in t['items']:
+            i['added'] = i['q'] in mine
     return {'level': lv.upper(), 'topics': out, 'broken': sum(1 for t in out for i in t['items'] if i['broken'])}
 
 
@@ -389,6 +398,84 @@ async def edit_text(request: Request):
 @app.get('/api/edits')
 def edits():
     return list(reversed(content_edits.load_edits()))
+
+
+def required(value, name):
+    value = str(value or '').strip()
+    if not value:
+        raise ValueError(f'{name} is empty')
+    return value
+
+
+def new_item(kind, body, data):
+    """Checks a new word / exercise / phrase from the Studio and builds it in the content file's shape."""
+    if kind == 'word':
+        word_type = required(body.get('type'), 'type')
+        if word_type not in ('der', 'die', 'das', 'verb', 'word'):
+            raise ValueError('type must be der, die, das, verb or word')
+        theme = int(body.get('theme'))
+        if theme not in {t['id'] for t in data.get('themes', [])}:
+            raise ValueError('unknown theme')
+        item = {'theme': theme, 'type': word_type, 'de': required(body.get('de'), 'German'), 'pron': '',
+                'mean': {'tr': required(body.get('tr'), 'Turkish'), 'en': required(body.get('en'), 'English')}, 'ex': []}
+        if word_type in ('der', 'die', 'das') and str(body.get('plural') or '').strip():
+            item['plural'] = str(body['plural']).strip()
+        if str(body.get('exDe') or '').strip():
+            item['ex'] = [{'de': required(body.get('exDe'), 'example'), 'pron': '',
+                           'mean': {'tr': required(body.get('exTr'), 'example (Turkish)'), 'en': required(body.get('exEn'), 'example (English)')}}]
+        return 'words', item, None
+    if kind == 'exercise':
+        topic = int(body.get('topic'))
+        if topic not in {g['id'] for g in data.get('grammar', [])}:
+            raise ValueError('unknown grammar topic')
+        q = required(body.get('q'), 'sentence')
+        if '___' not in q:
+            raise ValueError('mark the gap with ___')
+        options = [required(body.get('answer'), 'correct answer')] + [o.strip() for o in str(body.get('wrong') or '').split(',') if o.strip()]
+        if len(options) < 2 or len(set(options)) != len(options):
+            raise ValueError('give at least one wrong option, all different from the answer')
+        item = {'topic': topic, 'q': q, 'options': options,
+                'why': {'tr': required(body.get('whyTr'), 'explanation (Turkish)'), 'en': required(body.get('whyEn'), 'explanation (English)')}}
+        return 'grammarItems', item, None
+    if kind == 'phrase':
+        unit = required(body.get('unit'), 'unit')
+        item = {'de': required(body.get('de'), 'German'), 'tr': required(body.get('tr'), 'Turkish'), 'en': required(body.get('en'), 'English')}
+        return 'units', item, {'keyField': 'id', 'key': unit, 'path': 'phrases'}
+    raise ValueError('unknown kind')
+
+
+@app.post('/api/add')
+async def add_item(request: Request):
+    """{kind: word|exercise|phrase, file, ...fields}. Recorded in tools/content_edits.json like an edit."""
+    body = json.loads(await request.body() or b'{}')
+    try:
+        file = str(body.get('file', ''))
+        data = content_edits.read_file(file)[2]
+        collection, item, parent = new_item(str(body.get('kind', '')), body, data)
+        with lock:
+            stored = content_edits.add(file, collection, item, parent)
+        return {'ok': True, 'item': stored}
+    except (OSError, ValueError, TypeError, KeyError) as e:
+        bad(e)
+
+
+@app.post('/api/remove')
+async def remove_item(request: Request):
+    """Removes an item added in the Studio: {file, collection, item, parent}."""
+    body = json.loads(await request.body() or b'{}')
+    try:
+        with lock:
+            content_edits.remove(str(body.get('file', '')), str(body.get('collection', '')), body.get('item') or {}, body.get('parent'))
+        return {'ok': True}
+    except (OSError, ValueError, KeyError) as e:
+        bad(e)
+
+
+def added_ids(file, kind):
+    """Identities of items added in the Studio, to mark them (and allow removing them)."""
+    fields = content_edits.IDENTITY[kind]
+    return [tuple(e['item'].get(f) for f in fields) for e in content_edits.added(file)
+            if (e.get('parent') or {}).get('path', e['collection']) == kind]
 
 
 # ---------------------------------------------------------------- media

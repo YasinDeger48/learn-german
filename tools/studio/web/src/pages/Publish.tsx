@@ -62,8 +62,12 @@ export function Publish() {
             <div className="max-h-[420px] overflow-auto">
               {edits.data.slice(0, 100).map((e, i) => (
                 <div key={i} className="grid gap-0.5 border-t border-line-soft px-[18px] py-2 text-[13px] first:border-t-0">
-                  <div className="text-xs text-muted">{e.at.replace('T', ' ')} · {e.file} · {e.collection} {String(e.key)} · {e.path}</div>
-                  <div><span className="text-bad-ink line-through decoration-1">{e.original}</span> → <b>{e.value}</b></div>
+                  <div className="text-xs text-muted">{e.at.replace('T', ' ')} · {e.file} · {e.collection}{e.op === 'add' ? '' : ` ${String(e.key)} · ${e.path}`}</div>
+                  {e.op === 'add' ? (
+                    <div><span className="mr-1 rounded-full bg-blue/15 px-1.5 text-[10px] font-bold text-blue uppercase">added</span>{String((e.item?.de ?? e.item?.q) ?? '')}</div>
+                  ) : (
+                    <div><span className="text-bad-ink line-through decoration-1">{e.original}</span> → <b>{e.value}</b></div>
+                  )}
                 </div>
               ))}
             </div>

@@ -2,6 +2,7 @@ import { useQuery } from '@tanstack/react-query'
 import { useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Failed, Loading, PageHeader } from '@/components/layout/PageHeader'
+import { AddForm, AddedMark } from '@/components/ui/add-form'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
 import { Editable } from '@/components/ui/editable'
@@ -52,6 +53,20 @@ function Topic({ topic, level }: { topic: GrammarTopic; level: string }) {
       <Card className="overflow-hidden">
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-line-soft px-4 py-3">
           <h3 className="m-0 text-[15px] font-bold">Exercises · {topic.items.length}</h3>
+          <AddForm
+            kind="exercise"
+            file={file}
+            label="Add an exercise"
+            refresh={refresh}
+            extra={{ topic: topic.id }}
+            fields={[
+              { name: 'q', label: 'Sentence', placeholder: 'Ich fahre mit ___ Bus.', wide: true, hint: 'Mark the gap with ___' },
+              { name: 'answer', label: 'Correct answer', placeholder: 'dem' },
+              { name: 'wrong', label: 'Wrong options', placeholder: 'den, der, das', hint: 'separated by commas' },
+              { name: 'whyTr', label: 'Explanation · Türkçe', wide: true },
+              { name: 'whyEn', label: 'Explanation · English', wide: true },
+            ]}
+          />
           {broken > 0 && (
             <label className="flex items-center gap-1.5 text-xs text-bad-ink">
               <input type="checkbox" checked={onlyBroken} onChange={(e) => setOnlyBroken(e.target.checked)} />only the {broken} with broken text
@@ -61,7 +76,7 @@ function Topic({ topic, level }: { topic: GrammarTopic; level: string }) {
         <ol className="m-0 list-none p-0">
           {items.map((item, i) => (
             <li key={i} className={cn('border-t border-line-soft px-4 py-2.5 first:border-t-0', item.broken && 'bg-bad-soft/50')}>
-              <div className="font-medium"><Filled q={item.q} answer={item.answer} /></div>
+              <div className="font-medium"><Filled q={item.q} answer={item.answer} />{item.added && <AddedMark refresh={refresh} remove={{ file, collection: 'grammarItems', item: { q: item.q } }} />}</div>
               <div className="mt-0.5 flex flex-wrap gap-1">
                 {item.options.slice(1).map((o) => <Badge key={o} className="px-2 py-0 font-normal">{o}</Badge>)}
               </div>

@@ -3,6 +3,7 @@ import { Search } from 'lucide-react'
 import { Fragment, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Failed, Loading, PageHeader } from '@/components/layout/PageHeader'
+import { AddForm, AddedMark } from '@/components/ui/add-form'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
@@ -53,6 +54,28 @@ export function Words() {
       {isLoading && <Loading />}
       {(error || (!isLoading && !data)) && <Failed error={error} />}
       {data && (
+        <div className="mb-3">
+          <AddForm
+            kind="word"
+            file={file}
+            label={`Add a word to ${level}`}
+            refresh={refresh}
+            initial={{ type: 'der' }}
+            fields={[
+              { name: 'de', label: 'German (without article)', placeholder: 'Laugenstange' },
+              { name: 'type', label: 'Article / type', options: [['der', 'der'], ['die', 'die'], ['das', 'das'], ['verb', 'verb'], ['word', 'other word']] },
+              { name: 'theme', label: 'Theme', options: data.themeList.map((t) => [String(t.id), t.name] as [string, string]) },
+              { name: 'plural', label: 'Plural', placeholder: 'Laugenstangen', optional: true },
+              { name: 'tr', label: 'Türkçe', placeholder: 'tuzlu çubuk ekmek' },
+              { name: 'en', label: 'English', placeholder: 'pretzel stick' },
+              { name: 'exDe', label: 'Example sentence (German)', optional: true, wide: true },
+              { name: 'exTr', label: 'Example · Türkçe', optional: true },
+              { name: 'exEn', label: 'Example · English', optional: true },
+            ]}
+          />
+        </div>
+      )}
+      {data && (
         <Card className="overflow-hidden">
           <div className="flex flex-wrap items-center gap-2.5 border-b border-line-soft px-4 py-3">
             <label className="flex h-9 min-w-[220px] flex-1 items-center gap-2 rounded-lg border border-line px-2.5">
@@ -95,6 +118,7 @@ export function Words() {
                         <b>{w.de}</b>
                         {w.type === 'verb' && <Badge className="ml-1.5 px-1.5 py-0">verb</Badge>}
                         {w.broken && <Badge tone="bad" className="ml-1.5 px-1.5 py-0">broken text</Badge>}
+                        {w.added && <AddedMark refresh={refresh} remove={{ file, collection: 'words', item: { de: w.de, type: w.type } }} />}
                       </td>
                       <td className="px-2 py-2 text-muted">{w.plural ? <Editable value={w.plural} target={at(w.id, 'plural')} refresh={refresh} /> : ''}</td>
                       <td className="px-2 py-2"><Editable value={w.tr} target={at(w.id, 'mean.tr')} refresh={refresh} /></td>
