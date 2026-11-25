@@ -40,6 +40,32 @@ lock = threading.Lock()
 
 app = FastAPI(title='Deschly Studio', version='2.0')
 
+LOOPBACK = ('127.0.0.1', 'localhost', '[::1]', '::1')
+
+
+def allowed(method, headers):
+    """Only the Studio's own pages may use it. A web page the owner happens to visit while the Studio runs could
+otherwise send it requests (it listens on a fixed local port): every request must name a loopback host (stops DNS
+rebinding), and a request that changes something must come from a loopback page (Origin / Sec-Fetch-Site)."""
+    host = (headers.get('host') or '').rsplit(':', 1)[0] if not (headers.get('host') or '').startswith('[') \
+        else (headers.get('host') or '').split(']')[0] + ']'
+    if host not in LOOPBACK:
+        return False
+    if method in ('GET', 'HEAD', 'OPTIONS'):
+        return True
+    origin = headers.get('origin')
+    if origin:
+        from urllib.parse import urlparse
+        return (urlparse(origin).hostname or '') in LOOPBACK
+    return headers.get('sec-fetch-site') in (None, 'same-origin', 'none')
+
+
+@app.middleware('http')
+async def local_only(request: Request, call_next):
+    if not allowed(request.method, request.headers):
+        return JSONResponse({'detail': 'Deschly Studio accepts requests only from its own page.'}, status_code=403)
+    return await call_next(request)
+
 
 def load(name):
     return json.load(open(os.path.join(CONTENT, name), encoding='utf-8'))

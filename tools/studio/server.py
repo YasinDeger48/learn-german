@@ -219,6 +219,22 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, *args):
         pass
 
+    def allowed(self):
+        """Only the Studio's own pages may use it. A web page the owner happens to visit while the Studio runs could
+otherwise send it requests (it listens on a fixed local port): every request must name a loopback host (stops DNS
+rebinding), and a request that changes something must come from a loopback page (Origin / Sec-Fetch-Site)."""
+        loopback = ('127.0.0.1', 'localhost', '[::1]', '::1')
+        host = self.headers.get('Host') or ''
+        host = host.split(']')[0] + ']' if host.startswith('[') else host.rsplit(':', 1)[0]
+        if host not in loopback:
+            return False
+        if self.command in ('GET', 'HEAD'):
+            return True
+        origin = self.headers.get('Origin')
+        if origin:
+            return (urlparse(origin).hostname or '') in loopback
+        return self.headers.get('Sec-Fetch-Site') in (None, 'same-origin', 'none')
+
     def send(self, code, body, ctype='application/json; charset=utf-8'):
         if not isinstance(body, (bytes, bytearray)):
             body = json.dumps(body, ensure_ascii=False).encode('utf-8')
@@ -282,6 +298,8 @@ class Handler(BaseHTTPRequestHandler):
         return None
 
     def do_GET(self):
+        if not self.allowed():
+            return self.send(403, {'error': 'Deschly Studio accepts requests only from its own page.'})
         url = urlparse(self.path)
         path = url.path
         if path in ('/', '/index.html'):
@@ -320,6 +338,8 @@ class Handler(BaseHTTPRequestHandler):
         self.send(404, {'error': 'not found'})
 
     def do_POST(self):
+        if not self.allowed():
+            return self.send(403, {'error': 'Deschly Studio accepts requests only from its own page.'})
         url = urlparse(self.path)
         path = url.path
         if path.startswith(('/api/inbox', '/api/picture', '/api/publish', '/api/save-content')):
@@ -354,6 +374,8 @@ class Handler(BaseHTTPRequestHandler):
         self.send(404, {'error': 'not found'})
 
     def do_DELETE(self):
+        if not self.allowed():
+            return self.send(403, {'error': 'Deschly Studio accepts requests only from its own page.'})
         path = urlparse(self.path).path
         if path.startswith('/api/cover/'):
             tid = self.text_id(path, '/api/cover/')
