@@ -36,7 +36,13 @@ struct SettingsView: View {
                 ProSettingsSection()
                 Section(t("settings.language")) {
                     Picker(t("settings.language"), selection: Binding(get: { localizer.language }, set: { localizer.choose($0) })) {
-                        ForEach(AppLanguage.offered) { Text($0.nativeName).tag($0) }
+                        ForEach(AppLanguage.offered) { lang in
+                            HStack(spacing: 10) {
+                                LanguageFlag(language: lang, size: 18)
+                                Text(lang.nativeName)
+                            }
+                            .tag(lang)
+                        }
                     }
                     .pickerStyle(.navigationLink)
                 }

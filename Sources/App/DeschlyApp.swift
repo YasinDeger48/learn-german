@@ -29,6 +29,7 @@ struct DeschlyApp: App {
             }
             // Rebuild every screen in the new language.
             .id(localizer.language)
+            .environment(\.layoutDirection, localizer.language.isRightToLeft ? .rightToLeft : .leftToRight)
             .environmentObject(levels)
             .environmentObject(levels.a1)
             .environmentObject(daily)

@@ -24,8 +24,9 @@ The owner talks to agents in Turkish: answer him in Turkish. Code, comments, com
 6. **No secrets in the repo.** API keys live in `../tts/anahtarlar.txt` (never commit it) and in GitHub Secrets.
 7. **This PC cannot build Swift** (Windows; CI builds on GitHub). Keep changes small and compile-safe: every type
    and function you call must exist. Do not leave half-finished code that references missing types.
-8. Every UI text goes through `t("key")` and must exist in all five files: `strings_tr.json`, `strings_en.json`,
-   `strings_es.json`, `strings_fr.json`, `strings_it.json`. Line endings LF.
+8. Every UI text goes through `t("key")` and must exist in all seven files: `strings_tr.json`, `strings_en.json`,
+   `strings_es.json`, `strings_fr.json`, `strings_it.json`, `strings_ku.json` (Kurmancî), `strings_ar.json` (Arabic, right to left).
+   New keys may start in English in es/fr/it/ku/ar; `tools/ui_strings.py` sends the untranslated ones to ChatGPT. Line endings LF.
 
 ## Reuse what exists (do not build a second copy)
 

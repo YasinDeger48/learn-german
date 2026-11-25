@@ -71,9 +71,7 @@ struct OnboardingView: View {
                         language = lang
                     } label: {
                         HStack(spacing: 14) {
-                            Text(lang.code)
-                                .font(DS.text(13, .semibold))
-                                .foregroundColor(active ? DS.gold : DS.muted)
+                            LanguageFlag(language: lang)
                                 .frame(width: 34, alignment: .leading)
                             Text(lang.nativeName)
                                 .font(DS.text(16, active ? .semibold : .regular))

@@ -3,7 +3,7 @@ import Combine
 
 /// The learner's own language. German is always the language being learned.
 enum AppLanguage: String, CaseIterable, Identifiable, Codable {
-    case tr, en, es, fr, it
+    case tr, en, es, fr, it, ku, ar
 
     var id: String { rawValue }
 
@@ -14,20 +14,62 @@ enum AppLanguage: String, CaseIterable, Identifiable, Codable {
         case .es: return "Español"
         case .fr: return "Français"
         case .it: return "Italiano"
+        case .ku: return "Kurmancî"
+        case .ar: return "العربية"
         }
     }
 
     var code: String { rawValue.uppercased() }
 
-    /// Languages the learner can choose. Spanish, French and Italian come back once the learning content
-    /// (word meanings, examples, translations) is translated; until then they would show English content.
-    static let offered: [AppLanguage] = [.tr, .en]
+    /// Flag shown next to the language name. Kurmancî has no flag emoji: `LanguageFlag` draws it.
+    var flag: String {
+        switch self {
+        case .tr: return "🇹🇷"
+        case .en: return "🇬🇧"
+        case .es: return "🇪🇸"
+        case .fr: return "🇫🇷"
+        case .it: return "🇮🇹"
+        case .ku: return ""
+        case .ar: return "🇸🇦"
+        }
+    }
+
+    var isRightToLeft: Bool { self == .ar }
+
+    /// Languages the learner can choose. UI texts come from strings_<code>.json; learning content
+    /// (word meanings, translations) not translated yet into a language shows in English (LocText falls back).
+    static let offered: [AppLanguage] = [.tr, .en, .es, .fr, .it, .ku, .ar]
 
     /// Best match for the phone's language, used before the learner picks one.
     static var device: AppLanguage {
         let preferred = Locale.preferredLanguages.first?.prefix(2).lowercased() ?? "en"
         let match = AppLanguage(rawValue: String(preferred)) ?? .en
         return offered.contains(match) ? match : .en
+    }
+}
+
+/// A small flag for a language (emoji, or drawn for Kurmancî).
+struct LanguageFlag: View {
+    let language: AppLanguage
+    var size: CGFloat = 22
+
+    var body: some View {
+        if language == .ku {
+            // Red, white, green with a golden sun.
+            VStack(spacing: 0) {
+                Color(red: 0.93, green: 0.14, blue: 0.14)
+                ZStack {
+                    Color.white
+                    Circle().fill(Color(red: 1.0, green: 0.75, blue: 0.0)).padding(size * 0.06)
+                }
+                Color(red: 0.16, green: 0.62, blue: 0.29)
+            }
+            .frame(width: size * 1.4, height: size)
+            .clipShape(RoundedRectangle(cornerRadius: size * 0.15, style: .continuous))
+            .accessibilityHidden(true)
+        } else {
+            Text(language.flag).font(.system(size: size)).accessibilityHidden(true)
+        }
     }
 }
 
