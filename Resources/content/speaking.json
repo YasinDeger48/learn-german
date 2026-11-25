@@ -324,7 +324,8 @@
     "tr": "Alışverişte",
     "en": "Shopping",
     "es": "Compras",
-    "ku": "Kirîn"
+    "ku": "Kirîn",
+    "it": "Fare acquisti"
    },
    "prompt": "Sie sind im Supermarkt. Fragen Sie nach Produkten und Preisen.",
    "help": {
@@ -504,7 +505,8 @@
     "tr": "Evim",
     "en": "My home",
     "es": "Mi casa",
-    "ku": "Mala min"
+    "ku": "Mala min",
+    "it": "La mia casa"
    },
    "prompt": "Beschreiben Sie Ihre Wohnung.",
    "help": {

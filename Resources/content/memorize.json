@@ -976,7 +976,8 @@
       "tr": "Pazartesi",
       "en": "Monday",
       "es": "lunes",
-      "ku": "Duşem"
+      "ku": "Duşem",
+      "fr": "lundi"
      },
      "a": "Montag"
     },
@@ -986,7 +987,8 @@
       "en": "Tuesday",
       "es": "martes",
       "ku": "Sêşem",
-      "fr": "mardi"
+      "fr": "mardi",
+      "it": "martedì"
      },
      "a": "Dienstag"
     },
@@ -995,7 +997,8 @@
       "tr": "Çarşamba",
       "en": "Wednesday",
       "es": "miércoles",
-      "ku": "Çarşem"
+      "ku": "Çarşem",
+      "fr": "mercredi"
      },
      "a": "Mittwoch"
     },
@@ -1005,7 +1008,8 @@
       "en": "Thursday",
       "es": "jueves",
       "ku": "Pêncşem",
-      "fr": "jeudi"
+      "fr": "jeudi",
+      "it": "giovedì"
      },
      "a": "Donnerstag"
     },
@@ -1015,7 +1019,8 @@
       "en": "Friday",
       "es": "viernes",
       "ku": "Înê",
-      "fr": "vendredi"
+      "fr": "vendredi",
+      "it": "venerdì"
      },
      "a": "Freitag"
     },
@@ -1024,7 +1029,8 @@
       "tr": "Cumartesi",
       "en": "Saturday",
       "es": "sábado",
-      "ku": "Şemî"
+      "ku": "Şemî",
+      "fr": "samedi"
      },
      "a": "Samstag"
     },
@@ -1033,7 +1039,9 @@
       "tr": "Pazar",
       "en": "Sunday",
       "es": "domingo",
-      "ku": "Yekşem"
+      "ku": "Yekşem",
+      "fr": "dimanche",
+      "it": "domenica"
      },
      "a": "Sonntag"
     },
@@ -1042,7 +1050,8 @@
       "tr": "Ocak",
       "en": "January",
       "es": "enero",
-      "ku": "Çile"
+      "ku": "Çile",
+      "fr": "janvier"
      },
      "a": "Januar"
     },
@@ -1052,7 +1061,8 @@
       "en": "February",
       "es": "febrero",
       "ku": "Sibat",
-      "fr": "février"
+      "fr": "février",
+      "it": "febbraio"
      },
      "a": "Februar"
     },
@@ -1079,7 +1089,8 @@
       "tr": "Mayıs",
       "en": "May",
       "es": "mayo",
-      "ku": "Gulan"
+      "ku": "Gulan",
+      "fr": "mai"
      },
      "a": "Mai"
     },
@@ -1088,7 +1099,8 @@
       "tr": "Haziran",
       "en": "June",
       "es": "junio",
-      "ku": "Hezîran"
+      "ku": "Hezîran",
+      "fr": "juin"
      },
      "a": "Juni"
     },
@@ -1097,7 +1109,8 @@
       "tr": "Temmuz",
       "en": "July",
       "es": "julio",
-      "ku": "Tîrmeh"
+      "ku": "Tîrmeh",
+      "fr": "juillet"
      },
      "a": "Juli"
     },
@@ -1107,7 +1120,8 @@
       "en": "August",
       "es": "agosto",
       "ku": "Tebax",
-      "fr": "août"
+      "fr": "août",
+      "it": "agosto"
      },
      "a": "August"
     },
@@ -1116,7 +1130,9 @@
       "tr": "Eylül",
       "en": "September",
       "es": "septiembre",
-      "ku": "Îlon"
+      "ku": "Îlon",
+      "fr": "septembre",
+      "it": "settembre"
      },
      "a": "September"
     },
@@ -1125,7 +1141,8 @@
       "tr": "Ekim",
       "en": "October",
       "es": "octubre",
-      "ku": "Cotmeh"
+      "ku": "Cotmeh",
+      "fr": "octobre"
      },
      "a": "Oktober"
     },
@@ -1134,7 +1151,8 @@
       "tr": "Kasım",
       "en": "November",
       "es": "noviembre",
-      "ku": "Mijdar"
+      "ku": "Mijdar",
+      "fr": "novembre"
      },
      "a": "November"
     },
@@ -1144,7 +1162,8 @@
       "en": "December",
       "es": "diciembre",
       "ku": "Kanûn",
-      "fr": "décembre"
+      "fr": "décembre",
+      "it": "dicembre"
      },
      "a": "Dezember"
     }

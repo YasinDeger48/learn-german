@@ -8,13 +8,15 @@
     "tr": "Merhaba, ben …",
     "en": "Hello, I am …",
     "es": "Hola, soy …",
-    "ku": "Silav, ez … im"
+    "ku": "Silav, ez … im",
+    "it": "Ciao, sono …"
    },
    "goal": {
     "tr": "Kendini tanıtır, adını heceler, nereden geldiğini söylersin.",
     "en": "Introduce yourself, spell your name, say where you are from.",
     "es": "Preséntate, deletrea tu nombre y di de dónde eres.",
-    "ku": "Xwe nas bike, navê xwe bi tîpan bêje û bibêje ji ku derê yî."
+    "ku": "Xwe nas bike, navê xwe bi tîpan bêje û bibêje ji ku derê yî.",
+    "it": "Presentati, fai lo spelling del tuo nome e di’ da dove vieni."
    },
    "cover": "unit-a1-01",
    "themes": [
@@ -41,7 +43,8 @@
     {
      "de": "Hallo, ich heiße Elif.",
      "tr": "Merhaba, benim adım Elif.",
-     "en": "Hello, my name is Elif."
+     "en": "Hello, my name is Elif.",
+     "it": "Ciao, mi chiamo Elif."
     },
     {
      "de": "Ich komme aus der Türkei.",
@@ -76,7 +79,8 @@
     {
      "de": "Freut mich!",
      "tr": "Memnun oldum!",
-     "en": "Nice to meet you!"
+     "en": "Nice to meet you!",
+     "it": "Piacere di conoscerti!"
     }
    ],
    "pictures": [
@@ -114,7 +118,8 @@
     "tr": "Aileni anlatır, yaşları ve meslekleri söylersin.",
     "en": "Talk about your family, ages and jobs.",
     "es": "Habla de tu familia, sus edades y profesiones.",
-    "ku": "Derbarê malbata xwe, temen û karên wan de biaxive."
+    "ku": "Derbarê malbata xwe, temen û karên wan de biaxive.",
+    "it": "Parla della tua famiglia, delle età e dei lavori."
    },
    "cover": "unit-a1-02",
    "themes": [
@@ -140,17 +145,20 @@
     {
      "de": "Das ist meine Mutter.",
      "tr": "Bu benim annem.",
-     "en": "This is my mother."
+     "en": "This is my mother.",
+     "it": "Questa è mia madre."
     },
     {
      "de": "Ich habe einen Bruder und eine Schwester.",
      "tr": "Bir erkek ve bir kız kardeşim var.",
-     "en": "I have a brother and a sister."
+     "en": "I have a brother and a sister.",
+     "it": "Ho un fratello e una sorella."
     },
     {
      "de": "Mein Vater ist 58 Jahre alt.",
      "tr": "Babam 58 yaşında.",
-     "en": "My father is 58 years old."
+     "en": "My father is 58 years old.",
+     "it": "Mio padre ha 58 anni."
     },
     {
      "de": "Bist du verheiratet?",
@@ -209,7 +217,8 @@
     "tr": "Restoranda sipariş verir, ne sevdiğini söylersin.",
     "en": "Order in a restaurant and say what you like.",
     "es": "Pide en un restaurante y di qué te gusta.",
-    "ku": "Li xwaringehê siparîş bike û bibêje tu ji çi hez dikî."
+    "ku": "Li xwaringehê siparîş bike û bibêje tu ji çi hez dikî.",
+    "it": "Ordina al ristorante e di’ che cosa ti piace."
    },
    "cover": "unit-a1-03",
    "themes": [
@@ -246,17 +255,20 @@
     {
      "de": "Was möchten Sie trinken?",
      "tr": "Ne içmek istersiniz?",
-     "en": "What would you like to drink?"
+     "en": "What would you like to drink?",
+     "it": "Che cosa desideri bere?"
     },
     {
      "de": "Ich esse gern Fisch.",
      "tr": "Balık yemeyi severim.",
-     "en": "I like eating fish."
+     "en": "I like eating fish.",
+     "it": "Mi piace mangiare il pesce."
     },
     {
      "de": "Die Rechnung, bitte.",
      "tr": "Hesap, lütfen.",
-     "en": "The bill, please."
+     "en": "The bill, please.",
+     "it": "Il conto, per favore."
     },
     {
      "de": "Guten Appetit!",
@@ -296,13 +308,15 @@
     "tr": "Alışveriş",
     "en": "Shopping",
     "es": "Compras",
-    "ku": "Kirîn"
+    "ku": "Kirîn",
+    "it": "Fare acquisti"
    },
    "goal": {
     "tr": "Fiyat sorar, beden ve renk söyler, alışveriş yaparsın.",
     "en": "Ask prices, say sizes and colours, buy things.",
     "es": "Pregunta los precios, di las tallas y los colores, y compra cosas.",
-    "ku": "Bipirse biha çiqas e, mezinahî û rengan bibêje û tiştan bikire."
+    "ku": "Bipirse biha çiqas e, mezinahî û rengan bibêje û tiştan bikire.",
+    "it": "Chiedi i prezzi, indica taglie e colori e compra qualcosa."
    },
    "cover": "unit-a1-04",
    "themes": [
@@ -328,17 +342,20 @@
     {
      "de": "Was kostet das?",
      "tr": "Bu ne kadar?",
-     "en": "How much is this?"
+     "en": "How much is this?",
+     "it": "Quanto costa questo?"
     },
     {
      "de": "Haben Sie das in Größe M?",
      "tr": "Bunun M bedeni var mı?",
-     "en": "Do you have this in size M?"
+     "en": "Do you have this in size M?",
+     "it": "Ce l’ha nella taglia M?"
     },
     {
      "de": "Ich nehme die blaue Jacke.",
      "tr": "Mavi ceketi alıyorum.",
-     "en": "I'll take the blue jacket."
+     "en": "I'll take the blue jacket.",
+     "it": "Prendo la giacca blu."
     },
     {
      "de": "Kann ich mit Karte bezahlen?",
@@ -353,7 +370,8 @@
     {
      "de": "Ich brauche keine Tüte.",
      "tr": "Poşete ihtiyacım yok.",
-     "en": "I don't need a bag."
+     "en": "I don't need a bag.",
+     "it": "Non mi serve una borsa."
     }
    ],
    "pictures": [
@@ -383,13 +401,15 @@
     "tr": "Evim",
     "en": "My home",
     "es": "Mi casa",
-    "ku": "Mala min"
+    "ku": "Mala min",
+    "it": "La mia casa"
    },
    "goal": {
     "tr": "Evini ve odalarını anlatır, bir sorunu bildirirsin.",
     "en": "Describe your home and rooms, report a problem.",
     "es": "Describe tu casa y las habitaciones; explica un problema.",
-    "ku": "Mala xwe û odeyan rave bike, pirsgirêkekê ragihîne."
+    "ku": "Mala xwe û odeyan rave bike, pirsgirêkekê ragihîne.",
+    "it": "Descrivi la tua casa e le stanze e segnala un problema."
    },
    "cover": "unit-a1-05",
    "themes": [
@@ -418,17 +438,20 @@
     {
      "de": "Meine Wohnung hat drei Zimmer.",
      "tr": "Evim üç odalı.",
-     "en": "My flat has three rooms."
+     "en": "My flat has three rooms.",
+     "it": "Il mio appartamento ha tre stanze."
     },
     {
      "de": "Die Küche ist klein, aber hell.",
      "tr": "Mutfak küçük ama aydınlık.",
-     "en": "The kitchen is small but bright."
+     "en": "The kitchen is small but bright.",
+     "it": "La cucina è piccola ma luminosa."
     },
     {
      "de": "Das Sofa steht im Wohnzimmer.",
      "tr": "Kanepe oturma odasında duruyor.",
-     "en": "The sofa is in the living room."
+     "en": "The sofa is in the living room.",
+     "it": "Il divano è in soggiorno."
     },
     {
      "de": "Die Heizung ist kaputt.",
@@ -443,7 +466,8 @@
     {
      "de": "Wie hoch ist die Miete?",
      "tr": "Kira ne kadar?",
-     "en": "How much is the rent?"
+     "en": "How much is the rent?",
+     "it": "Quanto costa l’affitto?"
     }
    ],
    "pictures": [
@@ -473,13 +497,15 @@
     "tr": "Günüm ve saatler",
     "en": "My day and the time",
     "es": "Mi día y la hora",
-    "ku": "Roja min û dem"
+    "ku": "Roja min û dem",
+    "it": "La mia giornata e l’ora"
    },
    "goal": {
     "tr": "Saati söyler, günlük rutinini ve randevularını anlatırsın.",
     "en": "Tell the time, talk about your day and appointments.",
     "es": "Di la hora y habla de tu día y tus citas.",
-    "ku": "Demê bibêje, derbarê rojana xwe û randevûyan de biaxive."
+    "ku": "Demê bibêje, derbarê rojana xwe û randevûyan de biaxive.",
+    "it": "Di’ che ore sono, parla della tua giornata e degli appuntamenti."
    },
    "cover": "unit-a1-06",
    "themes": [
@@ -515,22 +541,26 @@
     {
      "de": "Es ist halb acht.",
      "tr": "Saat yedi buçuk.",
-     "en": "It's half past seven."
+     "en": "It's half past seven.",
+     "it": "Sono le sette e mezza."
     },
     {
      "de": "Ich stehe um sechs Uhr auf.",
      "tr": "Saat altıda kalkıyorum.",
-     "en": "I get up at six."
+     "en": "I get up at six.",
+     "it": "Mi alzo alle sei."
     },
     {
      "de": "Am Montag habe ich einen Termin.",
      "tr": "Pazartesi bir randevum var.",
-     "en": "I have an appointment on Monday."
+     "en": "I have an appointment on Monday.",
+     "it": "Ho un appuntamento lunedì."
     },
     {
      "de": "Hast du heute Abend Zeit?",
      "tr": "Bu akşam vaktin var mı?",
-     "en": "Are you free tonight?"
+     "en": "Are you free tonight?",
+     "it": "Sei libero stasera?"
     }
    ],
    "pictures": [
@@ -560,13 +590,15 @@
     "tr": "Şehirde yol bulmak",
     "en": "Finding your way in town",
     "es": "Orientarse en la ciudad",
-    "ku": "Li bajêr rê bibîne"
+    "ku": "Li bajêr rê bibîne",
+    "it": "Orientarsi in città"
    },
    "goal": {
     "tr": "Yol sorar, yön tarif eder, toplu taşımayı kullanırsın.",
     "en": "Ask the way, give directions, use public transport.",
     "es": "Pregunta cómo llegar, da indicaciones y usa el transporte público.",
-    "ku": "Rê bipirse, rê nîşan bide û veguhestina giştî bikar bîne."
+    "ku": "Rê bipirse, rê nîşan bide û veguhestina giştî bikar bîne.",
+    "it": "Chiedi e dai indicazioni e usa i mezzi pubblici."
    },
    "cover": "unit-a1-07",
    "themes": [
@@ -601,22 +633,26 @@
     {
      "de": "Gehen Sie geradeaus und dann links.",
      "tr": "Düz gidin, sonra sola dönün.",
-     "en": "Go straight on and then left."
+     "en": "Go straight on and then left.",
+     "it": "Vai sempre dritto e poi a sinistra."
     },
     {
      "de": "Die Apotheke ist neben der Bank.",
      "tr": "Eczane bankanın yanında.",
-     "en": "The pharmacy is next to the bank."
+     "en": "The pharmacy is next to the bank.",
+     "it": "La farmacia è accanto alla banca."
     },
     {
      "de": "Ich nehme die U-Bahn.",
      "tr": "Metroya biniyorum.",
-     "en": "I'm taking the underground."
+     "en": "I'm taking the underground.",
+     "it": "Prendo la metro."
     },
     {
      "de": "Wie weit ist es?",
      "tr": "Ne kadar uzak?",
-     "en": "How far is it?"
+     "en": "How far is it?",
+     "it": "Quanto dista?"
     }
    ],
    "pictures": [
@@ -646,13 +682,15 @@
     "tr": "Doktorda",
     "en": "At the doctor",
     "es": "En el médico",
-    "ku": "Li cem bijîşk"
+    "ku": "Li cem bijîşk",
+    "it": "Dal medico"
    },
    "goal": {
     "tr": "Nerenin ağrıdığını söyler, randevu alırsın.",
     "en": "Say what hurts and make an appointment.",
     "es": "Di qué te duele y pide una cita.",
-    "ku": "Bibêje kû derdikeve û randevûyekê bistîne."
+    "ku": "Bibêje kû derdikeve û randevûyekê bistîne.",
+    "it": "Spiega che cosa ti fa male e fissa un appuntamento."
    },
    "cover": "unit-a1-08",
    "themes": [
@@ -687,17 +725,20 @@
     {
      "de": "Mir ist schlecht.",
      "tr": "Midem bulanıyor.",
-     "en": "I feel sick."
+     "en": "I feel sick.",
+     "it": "Mi sento male."
     },
     {
      "de": "Ich brauche einen Termin.",
      "tr": "Bir randevuya ihtiyacım var.",
-     "en": "I need an appointment."
+     "en": "I need an appointment.",
+     "it": "Ho bisogno di un appuntamento."
     },
     {
      "de": "Sie müssen im Bett bleiben.",
      "tr": "Yatakta kalmanız gerekiyor.",
-     "en": "You have to stay in bed."
+     "en": "You have to stay in bed.",
+     "it": "Deve restare a letto."
     },
     {
      "de": "Gute Besserung!",
@@ -737,13 +778,15 @@
     "tr": "İş ve kurs",
     "en": "Work and class",
     "es": "Trabajo y clase",
-    "ku": "Kar û pol"
+    "ku": "Kar û pol",
+    "it": "Lavoro e corso"
    },
    "goal": {
     "tr": "Mesleğini ve çalışma saatlerini anlatır, kursta yardım istersin.",
     "en": "Talk about your job and hours, ask for help in class.",
     "es": "Habla de tu trabajo y horario, y pide ayuda en clase.",
-    "ku": "Derbarê kar û demjimêrên xwe de biaxive û di polê de alîkariyê bixwaze."
+    "ku": "Derbarê kar û demjimêrên xwe de biaxive û di polê de alîkariyê bixwaze.",
+    "it": "Parla del tuo lavoro e dei tuoi orari e chiedi aiuto durante il corso."
    },
    "cover": "unit-a1-09",
    "themes": [
@@ -772,12 +815,14 @@
     {
      "de": "Ich arbeite als Krankenpfleger.",
      "tr": "Hemşire olarak çalışıyorum.",
-     "en": "I work as a nurse."
+     "en": "I work as a nurse.",
+     "it": "Lavoro come infermiera."
     },
     {
      "de": "Meine Arbeit beginnt um acht.",
      "tr": "İşim sekizde başlıyor.",
-     "en": "My work starts at eight."
+     "en": "My work starts at eight.",
+     "it": "Il mio turno inizia alle otto."
     },
     {
      "de": "Können Sie das bitte wiederholen?",
@@ -792,12 +837,14 @@
     {
      "de": "Ich habe heute frei.",
      "tr": "Bugün izinliyim.",
-     "en": "I'm off today."
+     "en": "I'm off today.",
+     "it": "Oggi sono libero."
     },
     {
      "de": "Wie schreibt man das?",
      "tr": "Bu nasıl yazılır?",
-     "en": "How do you spell that?"
+     "en": "How do you spell that?",
+     "it": "Come si scrive?»"
     }
    ],
    "pictures": [
@@ -827,13 +874,15 @@
     "tr": "Boş zaman",
     "en": "Free time",
     "es": "Tiempo libre",
-    "ku": "Demên vala"
+    "ku": "Demên vala",
+    "it": "Tempo libero"
    },
    "goal": {
     "tr": "Hobilerini anlatır, hafta sonu için plan yaparsın.",
     "en": "Talk about hobbies and make weekend plans.",
     "es": "Habla de tus aficiones y haz planes para el fin de semana.",
-    "ku": "Derbarê hobiyên xwe de biaxive û planên dawiya hefteyê çêbike."
+    "ku": "Derbarê hobiyên xwe de biaxive û planên dawiya hefteyê çêbike.",
+    "it": "Parla dei tuoi hobby e fai programmi per il fine settimana."
    },
    "cover": "unit-a1-10",
    "themes": [
@@ -864,7 +913,8 @@
     {
      "de": "Am Wochenende spiele ich Fußball.",
      "tr": "Hafta sonu futbol oynuyorum.",
-     "en": "At the weekend I play football."
+     "en": "At the weekend I play football.",
+     "it": "Nel fine settimana gioco a calcio."
     },
     {
      "de": "Ich lese gern Bücher.",
@@ -889,12 +939,14 @@
     {
      "de": "Gestern habe ich einen Film gesehen.",
      "tr": "Dün bir film izledim.",
-     "en": "Yesterday I watched a film."
+     "en": "Yesterday I watched a film.",
+     "it": "Ieri ho guardato un film."
     },
     {
      "de": "Das Wetter ist heute schön.",
      "tr": "Bugün hava güzel.",
-     "en": "The weather is nice today."
+     "en": "The weather is nice today.",
+     "it": "Oggi il tempo è bello."
     }
    ],
    "pictures": [
@@ -924,13 +976,15 @@
     "tr": "Yolculuk",
     "en": "Travelling",
     "es": "Viajes",
-    "ku": "Rêwîtî"
+    "ku": "Rêwîtî",
+    "it": "Viaggiare"
    },
    "goal": {
     "tr": "Bilet alır, otel ayırtır, yolculuğunu anlatırsın.",
     "en": "Buy a ticket, book a hotel, talk about your trip.",
     "es": "Compra un billete, reserva un hotel y habla de tu viaje.",
-    "ku": "Bilêtê bikire, otêlekê rezerv bike û derbarê rêwîtiya xwe de biaxive."
+    "ku": "Bilêtê bikire, otêlekê rezerv bike û derbarê rêwîtiya xwe de biaxive.",
+    "it": "Compra un biglietto, prenota un hotel e parla del tuo viaggio."
    },
    "cover": "unit-a1-11",
    "themes": [
@@ -957,27 +1011,32 @@
     {
      "de": "Eine Fahrkarte nach Berlin, bitte.",
      "tr": "Berlin'e bir bilet, lütfen.",
-     "en": "A ticket to Berlin, please."
+     "en": "A ticket to Berlin, please.",
+     "it": "Un biglietto per Berlino, per favore."
     },
     {
      "de": "Wann fährt der nächste Zug?",
      "tr": "Sonraki tren ne zaman kalkıyor?",
-     "en": "When does the next train leave?"
+     "en": "When does the next train leave?",
+     "it": "Quando parte il prossimo treno?"
     },
     {
      "de": "Ich habe ein Zimmer reserviert.",
      "tr": "Bir oda ayırttım.",
-     "en": "I have booked a room."
+     "en": "I have booked a room.",
+     "it": "Ho prenotato una camera."
     },
     {
      "de": "Der Urlaub war super.",
      "tr": "Tatil harikaydı.",
-     "en": "The holiday was great."
+     "en": "The holiday was great.",
+     "it": "La vacanza è stata fantastica."
     },
     {
      "de": "Von welchem Gleis fährt der Zug?",
      "tr": "Tren hangi perondan kalkıyor?",
-     "en": "Which platform does the train leave from?"
+     "en": "Which platform does the train leave from?",
+     "it": "Da quale binario parte il treno?"
     }
    ],
    "pictures": [
@@ -1007,13 +1066,15 @@
     "tr": "Resmî işler",
     "en": "Offices and services",
     "es": "Oficinas y servicios",
-    "ku": "Ofîs û karûbar"
+    "ku": "Ofîs û karûbar",
+    "it": "Uffici e servizi"
    },
    "goal": {
     "tr": "Belediyede, bankada ve postanede işini halledersin.",
     "en": "Get things done at the town hall, the bank and the post office.",
     "es": "Haz gestiones en el ayuntamiento, el banco y la oficina de correos.",
-    "ku": "Li şaredariyê, bankê û posteyê karên xwe bike."
+    "ku": "Li şaredariyê, bankê û posteyê karên xwe bike.",
+    "it": "Sbriga le pratiche in municipio, in banca e all’ufficio postale."
    },
    "cover": "unit-a1-12",
    "themes": [
@@ -1043,27 +1104,32 @@
     {
      "de": "Ich möchte mich anmelden.",
      "tr": "Adres kaydı yaptırmak istiyorum.",
-     "en": "I would like to register."
+     "en": "I would like to register.",
+     "it": "Vorrei registrarmi."
     },
     {
      "de": "Welche Unterlagen brauche ich?",
      "tr": "Hangi belgelere ihtiyacım var?",
-     "en": "Which documents do I need?"
+     "en": "Which documents do I need?",
+     "it": "Quali documenti mi servono?"
     },
     {
      "de": "Wo muss ich unterschreiben?",
      "tr": "Nereyi imzalamam gerekiyor?",
-     "en": "Where do I have to sign?"
+     "en": "Where do I have to sign?",
+     "it": "Dove devo firmare?"
     },
     {
      "de": "Ich möchte ein Paket abholen.",
      "tr": "Bir paket almak istiyorum.",
-     "en": "I would like to pick up a parcel."
+     "en": "I would like to pick up a parcel.",
+     "it": "Vorrei ritirare un pacco."
     },
     {
      "de": "Haben Sie einen Termin?",
      "tr": "Randevunuz var mı?",
-     "en": "Do you have an appointment?"
+     "en": "Do you have an appointment?",
+     "it": "Ha un appuntamento?"
     }
    ],
    "pictures": [
@@ -1093,13 +1159,15 @@
     "tr": "Günlük hayat",
     "en": "Everyday life",
     "es": "La vida cotidiana",
-    "ku": "Jiyana rojane"
+    "ku": "Jiyana rojane",
+    "it": "Vita quotidiana"
    },
    "goal": {
     "tr": "Dün ne yaptığını Perfekt ile anlatır, günlük işlerini sıralarsın.",
     "en": "Tell what you did yesterday in the Perfekt and describe your routine.",
     "es": "Cuenta qué hiciste ayer en Perfekt y describe tu rutina.",
-    "ku": "Bibêje duh çi kiriye bi Perfekt û rutina xwe rave bike."
+    "ku": "Bibêje duh çi kiriye bi Perfekt û rutina xwe rave bike.",
+    "it": "Racconta che cosa hai fatto ieri al Perfekt e descrivi la tua routine."
    },
    "cover": "unit-a2-01",
    "themes": [],
@@ -1125,7 +1193,8 @@
     {
      "de": "Gestern bin ich früh aufgestanden.",
      "tr": "Dün erken kalktım.",
-     "en": "Yesterday I got up early."
+     "en": "Yesterday I got up early.",
+     "it": "Ieri mi sono alzato presto."
     },
     {
      "de": "Ich habe den ganzen Tag gearbeitet.",
@@ -1140,17 +1209,20 @@
     {
      "de": "Am Abend räume ich die Küche auf.",
      "tr": "Akşam mutfağı topluyorum.",
-     "en": "In the evening I tidy up the kitchen."
+     "en": "In the evening I tidy up the kitchen.",
+     "it": "La sera riordino la cucina."
     },
     {
      "de": "Was hast du am Wochenende gemacht?",
      "tr": "Hafta sonu ne yaptın?",
-     "en": "What did you do at the weekend?"
+     "en": "What did you do at the weekend?",
+     "it": "Che cosa hai fatto nel fine settimana?"
     },
     {
      "de": "Ich kaufe noch schnell Brot ein.",
      "tr": "Bir de hızlıca ekmek alıyorum.",
-     "en": "I'll just quickly buy some bread."
+     "en": "I'll just quickly buy some bread.",
+     "it": "Vado solo un attimo a comprare del pane."
     }
    ],
    "vocab": [
@@ -1158,19 +1230,22 @@
      "de": "Fensterbrett",
      "art": "das",
      "tr": "pencere pervazı",
-     "en": "windowsill"
+     "en": "windowsill",
+     "it": "davanzale"
     },
     {
      "de": "Glasur",
      "art": "die",
      "tr": "şekerli kaplama",
-     "en": "icing"
+     "en": "icing",
+     "it": "glassa"
     },
     {
      "de": "Abdruck",
      "art": "der",
      "tr": "iz",
-     "en": "print, mark"
+     "en": "print, mark",
+     "it": "stampare, segnare"
     },
     {
      "de": "Klingel",
@@ -1222,19 +1297,23 @@
      "tr": "çizim",
      "en": "drawing",
      "es": "dibujo",
-     "ku": "xêzkirin"
+     "ku": "xêzkirin",
+     "fr": "dessin",
+     "it": "disegno"
     },
     {
      "de": "Gemüsestand",
      "art": "der",
      "tr": "sebze tezgâhı",
-     "en": "vegetable stall"
+     "en": "vegetable stall",
+     "it": "banco delle verdure"
     },
     {
      "de": "Halsband",
      "art": "das",
      "tr": "boyun tasması",
-     "en": "collar"
+     "en": "collar",
+     "it": "colletto"
     },
     {
      "de": "Leine",
@@ -1250,37 +1329,44 @@
      "de": "Anhänger",
      "art": "der",
      "tr": "künye",
-     "en": "tag, pendant"
+     "en": "tag, pendant",
+     "it": "etichetta, ciondolo"
     },
     {
      "de": "abkühlen",
      "tr": "soğumak",
-     "en": "to cool down"
+     "en": "to cool down",
+     "it": "raffreddarsi"
     },
     {
      "de": "vorsichtig",
      "tr": "dikkatlice",
-     "en": "carefully"
+     "en": "carefully",
+     "it": "con attenzione"
     },
     {
      "de": "abschneiden",
      "tr": "kesip ayırmak",
-     "en": "to cut off"
+     "en": "to cut off",
+     "it": "tagliare"
     },
     {
      "de": "bohren",
      "tr": "matkapla delmek",
-     "en": "to drill"
+     "en": "to drill",
+     "it": "trapanare"
     },
     {
      "de": "von weitem",
      "tr": "uzaktan",
-     "en": "from a distance"
+     "en": "from a distance",
+     "it": "da lontano"
     },
     {
      "de": "hängen bleiben",
      "tr": "takılı kalmak",
-     "en": "to get stuck"
+     "en": "to get stuck",
+     "it": "rimanere incastrato"
     }
    ]
   },
@@ -1292,13 +1378,15 @@
     "tr": "Evde ve komşularla",
     "en": "At home and with neighbours",
     "es": "En casa y con los vecinos",
-    "ku": "Li malê û bi cîranan re"
+    "ku": "Li malê û bi cîranan re",
+    "it": "A casa e con i vicini"
    },
    "goal": {
     "tr": "Eşyaların nerede durduğunu ve nereye koyduğunu söyler, komşunla konuşursun.",
     "en": "Say where things are and where you put them, talk to your neighbours.",
     "es": "Di dónde están las cosas y dónde las pones; habla con tus vecinos.",
-    "ku": "Bibêje tişt li ku ne û tu wan li ku datînî, bi cîranên xwe re biaxive."
+    "ku": "Bibêje tişt li ku ne û tu wan li ku datînî, bi cîranên xwe re biaxive.",
+    "it": "Di’ dove si trovano le cose e dove le metti; parla con i vicini."
    },
    "cover": "unit-a2-02",
    "themes": [],
@@ -1324,27 +1412,32 @@
     {
      "de": "Das Bild hängt über dem Sofa.",
      "tr": "Resim kanepenin üstünde asılı.",
-     "en": "The picture hangs above the sofa."
+     "en": "The picture hangs above the sofa.",
+     "it": "Il quadro è appeso sopra il divano."
     },
     {
      "de": "Ich stelle den Tisch ans Fenster.",
      "tr": "Masayı pencerenin önüne koyuyorum.",
-     "en": "I'm putting the table by the window."
+     "en": "I'm putting the table by the window.",
+     "it": "Metto il tavolo vicino alla finestra."
     },
     {
      "de": "Unsere Nachbarn sind sehr nett.",
      "tr": "Komşularımız çok iyi.",
-     "en": "Our neighbours are very nice."
+     "en": "Our neighbours are very nice.",
+     "it": "I nostri vicini sono molto gentili."
     },
     {
      "de": "Kannst du bitte leiser sein?",
      "tr": "Biraz daha sessiz olabilir misin?",
-     "en": "Can you be a bit quieter, please?"
+     "en": "Can you be a bit quieter, please?",
+     "it": "Puoi fare un po’ meno rumore, per favore?"
     },
     {
      "de": "Die Wohnung liegt im dritten Stock.",
      "tr": "Daire üçüncü katta.",
-     "en": "The flat is on the third floor."
+     "en": "The flat is on the third floor.",
+     "it": "L’appartamento è al terzo piano."
     }
    ],
    "vocab": [
@@ -1354,13 +1447,15 @@
      "tr": "koli",
      "en": "cardboard box",
      "es": "caja de cartón",
-     "ku": "qutiya kartonî"
+     "ku": "qutiya kartonî",
+     "fr": "carton"
     },
     {
      "de": "Band",
      "art": "das",
      "tr": "bant",
-     "en": "tape, ribbon"
+     "en": "tape, ribbon",
+     "it": "nastro"
     },
     {
      "de": "Hausmeister",
@@ -1379,7 +1474,9 @@
      "tr": "merdiven boşluğu",
      "en": "stairwell",
      "es": "hueco de la escalera",
-     "ku": "valahiya derenceyê"
+     "ku": "valahiya derenceyê",
+     "fr": "cage d'escalier",
+     "it": "vano scale"
     },
     {
      "de": "Kinderwagen",
@@ -1396,7 +1493,8 @@
      "de": "Bank",
      "art": "die",
      "tr": "oturma bankı",
-     "en": "bench"
+     "en": "bench",
+     "it": "panchina"
     },
     {
      "de": "Flur",
@@ -1404,19 +1502,22 @@
      "tr": "koridor",
      "en": "hallway",
      "es": "pasillo",
-     "ku": "korîdora avahiyê"
+     "ku": "korîdora avahiyê",
+     "fr": "couloir de l'immeuble"
     },
     {
      "de": "Hausverwaltung",
      "art": "die",
      "tr": "bina yönetimi",
-     "en": "property management"
+     "en": "property management",
+     "it": "amministrazione condominiale"
     },
     {
      "de": "Kissen",
      "art": "das",
      "tr": "minder",
-     "en": "cushion"
+     "en": "cushion",
+     "it": "cuscino"
     },
     {
      "de": "Hof",
@@ -1436,18 +1537,21 @@
      "en": "flea market",
      "es": "mercadillo",
      "ku": "bazara tiştên kevn",
-     "fr": "marché aux puces"
+     "fr": "marché aux puces",
+     "it": "mercatino delle pulci"
     },
     {
      "de": "Haken",
      "art": "der",
      "tr": "kanca",
-     "en": "hook"
+     "en": "hook",
+     "it": "gancio"
     },
     {
      "de": "zur Seite",
      "tr": "kenara",
-     "en": "aside"
+     "en": "aside",
+     "it": "da parte"
     },
     {
      "de": "eng",
@@ -1462,17 +1566,20 @@
     {
      "de": "aus Spaß",
      "tr": "eğlence olsun diye",
-     "en": "for fun"
+     "en": "for fun",
+     "it": "per divertimento"
     },
     {
      "de": "zusammenfalten",
      "tr": "katlamak",
-     "en": "to fold up"
+     "en": "to fold up",
+     "it": "piegare"
     },
     {
      "de": "mitsingen",
      "tr": "şarkıya eşlik etmek",
-     "en": "to sing along"
+     "en": "to sing along",
+     "it": "cantare insieme"
     }
    ]
   },
@@ -1484,13 +1591,15 @@
     "tr": "Alışveriş ve değişim",
     "en": "Shopping and returns",
     "es": "Compras y devoluciones",
-    "ku": "Kirîn û vegerandin"
+    "ku": "Kirîn û vegerandin",
+    "it": "Acquisti e resi"
    },
    "goal": {
     "tr": "Ne istediğini sıfatlarla anlatır, bir ürünü değiştirir ya da iade edersin.",
     "en": "Describe what you want with adjectives, exchange or return a product.",
     "es": "Describe lo que quieres con adjetivos e intercambia o devuelve un producto.",
-    "ku": "Bi rengdêran bibêje tu çi dixwazî, hilberekê biguherîne an vegerîne."
+    "ku": "Bi rengdêran bibêje tu çi dixwazî, hilberekê biguherîne an vegerîne.",
+    "it": "Descrivi ciò che cerchi con gli aggettivi e cambia o restituisci un prodotto."
    },
    "cover": "unit-a2-03",
    "themes": [],
@@ -1516,27 +1625,32 @@
     {
      "de": "Ich suche einen warmen Pullover.",
      "tr": "Sıcak bir kazak arıyorum.",
-     "en": "I'm looking for a warm jumper."
+     "en": "I'm looking for a warm jumper.",
+     "it": "Cerco un maglione caldo."
     },
     {
      "de": "Kann ich das umtauschen?",
      "tr": "Bunu değiştirebilir miyim?",
-     "en": "Can I exchange this?"
+     "en": "Can I exchange this?",
+     "it": "Posso cambiarlo?"
     },
     {
      "de": "Die Hose ist leider zu klein.",
      "tr": "Pantolon maalesef çok küçük.",
-     "en": "Unfortunately the trousers are too small."
+     "en": "Unfortunately the trousers are too small.",
+     "it": "Purtroppo i pantaloni sono troppo piccoli."
     },
     {
      "de": "Haben Sie den Kassenbon noch?",
      "tr": "Fişiniz duruyor mu?",
-     "en": "Do you still have the receipt?"
+     "en": "Do you still have the receipt?",
+     "it": "Ha ancora lo scontrino?"
     },
     {
      "de": "Ich nehme die rote Tasche.",
      "tr": "Kırmızı çantayı alıyorum.",
-     "en": "I'll take the red bag."
+     "en": "I'll take the red bag.",
+     "it": "Prendo la borsa rossa."
     }
    ],
    "vocab": [
@@ -1544,7 +1658,8 @@
      "de": "Glas",
      "art": "das",
      "tr": "kavanoz",
-     "en": "jar, glass"
+     "en": "jar, glass",
+     "it": "barattolo, bicchiere"
     },
     {
      "de": "Deckel",
@@ -1560,7 +1675,8 @@
      "de": "Lineal",
      "art": "das",
      "tr": "cetvel",
-     "en": "ruler"
+     "en": "ruler",
+     "it": "righello"
     },
     {
      "de": "Erdbeere",
@@ -1588,7 +1704,8 @@
      "de": "Waage",
      "art": "die",
      "tr": "tartı",
-     "en": "scales"
+     "en": "scales",
+     "it": "bilancia"
     },
     {
      "de": "Anzeige",
@@ -1597,7 +1714,8 @@
      "en": "display",
      "es": "pantalla",
      "ku": "dîmender",
-     "fr": "écran"
+     "fr": "écran",
+     "it": "display"
     },
     {
      "de": "Birne",
@@ -1636,7 +1754,8 @@
      "de": "Verpackung",
      "art": "die",
      "tr": "ambalaj",
-     "en": "packaging"
+     "en": "packaging",
+     "it": "imballaggio"
     },
     {
      "de": "Stoff",
@@ -1671,12 +1790,14 @@
     {
      "de": "sauer",
      "tr": "ekşi",
-     "en": "sour"
+     "en": "sour",
+     "it": "acido"
     },
     {
      "de": "hellbraun",
      "tr": "açık kahverengi",
-     "en": "light brown"
+     "en": "light brown",
+     "it": "marrone chiaro"
     },
     {
      "de": "tauschen",
@@ -1691,7 +1812,8 @@
     {
      "de": "zufällig",
      "tr": "tesadüfen",
-     "en": "by chance"
+     "en": "by chance",
+     "it": "per caso"
     }
    ]
   },
@@ -1703,13 +1825,15 @@
     "tr": "Yolda",
     "en": "On the move",
     "es": "En movimiento",
-    "ku": "Di rê de"
+    "ku": "Di rê de",
+    "it": "In movimento"
    },
    "goal": {
     "tr": "Ulaşımla ilgili sorunu anlatır, yol tarif eder ve sorarsın.",
     "en": "Explain a problem on the way, ask for and give directions.",
     "es": "Explica un problema durante el trayecto, pregunta y da indicaciones.",
-    "ku": "Pirsgirêkek di rê de rave bike, rê bipirse û rê nîşan bide."
+    "ku": "Pirsgirêkek di rê de rave bike, rê bipirse û rê nîşan bide.",
+    "it": "Spiega un problema durante il tragitto e chiedi o dai indicazioni."
    },
    "cover": "unit-a2-04",
    "themes": [],
@@ -1735,17 +1859,20 @@
     {
      "de": "Der Zug hat zwanzig Minuten Verspätung.",
      "tr": "Trenin yirmi dakika rötarı var.",
-     "en": "The train is twenty minutes late."
+     "en": "The train is twenty minutes late.",
+     "it": "Il treno ha venti minuti di ritardo."
     },
     {
      "de": "Ich fahre mit dem Fahrrad zur Arbeit.",
      "tr": "İşe bisikletle gidiyorum.",
-     "en": "I cycle to work."
+     "en": "I cycle to work.",
+     "it": "Vado al lavoro in bicicletta."
     },
     {
      "de": "Steigen Sie an der nächsten Haltestelle aus.",
      "tr": "Bir sonraki durakta inin.",
-     "en": "Get off at the next stop."
+     "en": "Get off at the next stop.",
+     "it": "Scendi alla prossima fermata."
     },
     {
      "de": "Ich habe meinen Anschluss verpasst.",
@@ -1760,7 +1887,8 @@
     {
      "de": "Fahr bitte langsamer!",
      "tr": "Lütfen daha yavaş sür!",
-     "en": "Please drive more slowly!"
+     "en": "Please drive more slowly!",
+     "it": "Per favore, guida più lentamente!"
     }
    ],
    "vocab": [
@@ -1782,7 +1910,8 @@
      "en": "display",
      "es": "pantalla",
      "ku": "dîmender",
-     "fr": "écran"
+     "fr": "écran",
+     "it": "display"
     },
     {
      "de": "Hügel",
@@ -1799,13 +1928,15 @@
      "de": "Anbieter",
      "art": "der",
      "tr": "sağlayıcı",
-     "en": "provider"
+     "en": "provider",
+     "it": "fornitore"
     },
     {
      "de": "Leihrad",
      "art": "das",
      "tr": "kiralık bisiklet",
-     "en": "rental bike"
+     "en": "rental bike",
+     "it": "bicicletta a noleggio"
     },
     {
      "de": "Straßenbahn",
@@ -1835,41 +1966,49 @@
      "tr": "şehir haritası",
      "en": "city map",
      "es": "plano de la ciudad",
-     "ku": "nexşeya bajarê"
+     "ku": "nexşeya bajarê",
+     "fr": "plan de la ville",
+     "it": "mappa della città"
     },
     {
      "de": "Fundbüro",
      "art": "das",
      "tr": "kayıp eşya bürosu",
-     "en": "lost property office"
+     "en": "lost property office",
+     "it": "ufficio oggetti smarriti"
     },
     {
      "de": "Griff",
      "art": "der",
      "tr": "sap",
-     "en": "handle"
+     "en": "handle",
+     "it": "manubrio"
     },
     {
      "de": "Schoß",
      "art": "der",
      "tr": "kucak",
-     "en": "lap"
+     "en": "lap",
+     "it": "giro"
     },
     {
      "de": "Pfiff",
      "art": "der",
      "tr": "düdük sesi",
-     "en": "whistle"
+     "en": "whistle",
+     "it": "fischietto"
     },
     {
      "de": "abstellen",
      "tr": "park etmek",
-     "en": "to park, to put down"
+     "en": "to park, to put down",
+     "it": "parcheggiare, posare"
     },
     {
      "de": "abbiegen",
      "tr": "dönmek",
-     "en": "to turn"
+     "en": "to turn",
+     "it": "girare"
     },
     {
      "de": "gesperrt",
@@ -1883,7 +2022,8 @@
     {
      "de": "schieben",
      "tr": "itmek",
-     "en": "to push"
+     "en": "to push",
+     "it": "spingere"
     },
     {
      "de": "einsammeln",
@@ -1915,13 +2055,15 @@
     "tr": "Sağlık",
     "en": "Health",
     "es": "Salud",
-    "ku": "Tenduristî"
+    "ku": "Tenduristî",
+    "it": "Salute"
    },
    "goal": {
     "tr": "Nasıl hissettiğini anlatır, doktorun tavsiyelerini anlar ve aktarırsın.",
     "en": "Say how you feel, understand and pass on the doctor's advice.",
     "es": "Di cómo te sientes y comprende y transmite los consejos del médico.",
-    "ku": "Bibêje tu çawa hîs dikî, şîreta bijîşk fêm bike û veguheze."
+    "ku": "Bibêje tu çawa hîs dikî, şîreta bijîşk fêm bike û veguheze.",
+    "it": "Di’ come ti senti, comprendi e riferisci i consigli del medico."
    },
    "cover": "unit-a2-05",
    "themes": [],
@@ -1957,22 +2099,26 @@
     {
      "de": "Sie müssen dreimal am Tag eine Tablette nehmen.",
      "tr": "Günde üç kez bir tablet almanız gerekiyor.",
-     "en": "You have to take one tablet three times a day."
+     "en": "You have to take one tablet three times a day.",
+     "it": "Deve prendere una compressa tre volte al giorno."
     },
     {
      "de": "Ich muss mich ausruhen.",
      "tr": "Dinlenmem gerekiyor.",
-     "en": "I have to rest."
+     "en": "I have to rest.",
+     "it": "Devo riposare."
     },
     {
      "de": "Seit wann haben Sie Fieber?",
      "tr": "Ne zamandan beri ateşiniz var?",
-     "en": "How long have you had a temperature?"
+     "en": "How long have you had a temperature?",
+     "it": "Da quanto tempo hai la febbre?"
     },
     {
      "de": "Trinken Sie viel Wasser!",
      "tr": "Bol su için!",
-     "en": "Drink lots of water!"
+     "en": "Drink lots of water!",
+     "it": "Bevi molta acqua!"
     }
    ],
    "vocab": [
@@ -2002,7 +2148,8 @@
      "de": "Stelle",
      "art": "die",
      "tr": "bölge, nokta",
-     "en": "spot, place"
+     "en": "spot, place",
+     "it": "macchia, posto"
     },
     {
      "de": "Spiegel",
@@ -2040,7 +2187,8 @@
      "de": "Physiotherapie",
      "art": "die",
      "tr": "fizyoterapi",
-     "en": "physiotherapy"
+     "en": "physiotherapy",
+     "it": "fisioterapia"
     },
     {
      "de": "Knie",
@@ -2068,7 +2216,8 @@
      "de": "Gehstock",
      "art": "der",
      "tr": "baston",
-     "en": "walking stick"
+     "en": "walking stick",
+     "it": "bastone da passeggio"
     },
     {
      "de": "Schritt",
@@ -2076,38 +2225,46 @@
      "tr": "adım",
      "en": "step",
      "es": "paso",
-     "ku": "gav"
+     "ku": "gav",
+     "fr": "étape",
+     "it": "passo"
     },
     {
      "de": "Pfütze",
      "art": "die",
      "tr": "su birikintisi",
-     "en": "puddle"
+     "en": "puddle",
+     "it": "pozzanghera"
     },
     {
      "de": "besetzt",
      "tr": "dolu",
-     "en": "occupied, taken"
+     "en": "occupied, taken",
+     "it": "occupato, preso"
     },
     {
      "de": "aus Versehen",
      "tr": "yanlışlıkla",
-     "en": "by mistake"
+     "en": "by mistake",
+     "it": "per sbaglio"
     },
     {
      "de": "piepen",
      "tr": "ötmek",
-     "en": "to beep"
+     "en": "to beep",
+     "it": "emettere un segnale acustico"
     },
     {
      "de": "nachschauen",
      "tr": "bakıp kontrol etmek",
-     "en": "to check, to look"
+     "en": "to check, to look",
+     "it": "controllare, guardare"
     },
     {
      "de": "auseinanderhalten",
      "tr": "ayırt etmek",
-     "en": "to tell apart"
+     "en": "to tell apart",
+     "it": "distinguere"
     },
     {
      "de": "kaum",
@@ -2128,13 +2285,15 @@
     "tr": "İş hayatı",
     "en": "Working life",
     "es": "La vida laboral",
-    "ku": "Jiyana karê"
+    "ku": "Jiyana karê",
+    "it": "Vita lavorativa"
    },
    "goal": {
     "tr": "İşini ve nedenlerini anlatır, iş yerinde rica ve öneride bulunursun.",
     "en": "Talk about your job and give reasons, make requests and suggestions at work.",
     "es": "Habla de tu trabajo y da razones; haz peticiones y sugerencias en el trabajo.",
-    "ku": "Derbarê karê xwe de biaxive û sedem bide, li karê daxwaz û pêşniyaran bike."
+    "ku": "Derbarê karê xwe de biaxive û sedem bide, li karê daxwaz û pêşniyaran bike.",
+    "it": "Parla del tuo lavoro e dai motivazioni; fai richieste e proposte sul lavoro."
    },
    "cover": "unit-a2-06",
    "themes": [],
@@ -2160,27 +2319,32 @@
     {
      "de": "Ich komme später, weil der Bus nicht fährt.",
      "tr": "Otobüs çalışmadığı için geç geleceğim.",
-     "en": "I'll be late because the bus isn't running."
+     "en": "I'll be late because the bus isn't running.",
+     "it": "Farò tardi perché l’autobus non passa."
     },
     {
      "de": "Die Besprechung beginnt um zehn.",
      "tr": "Toplantı onda başlıyor.",
-     "en": "The meeting starts at ten."
+     "en": "The meeting starts at ten.",
+     "it": "La riunione inizia alle dieci."
     },
     {
      "de": "Ich glaube, dass wir mehr Zeit brauchen.",
      "tr": "Bence daha fazla zamana ihtiyacımız var.",
-     "en": "I think that we need more time."
+     "en": "I think that we need more time.",
+     "it": "Penso che ci serva più tempo."
     },
     {
      "de": "Könnten Sie mir bitte helfen?",
      "tr": "Bana yardım edebilir misiniz lütfen?",
-     "en": "Could you help me, please?"
+     "en": "Could you help me, please?",
+     "it": "Potresti aiutarmi, per favore?"
     },
     {
      "de": "Ich arbeite gern im Team.",
      "tr": "Ekipte çalışmayı severim.",
-     "en": "I like working in a team."
+     "en": "I like working in a team.",
+     "it": "Mi piace lavorare in squadra."
     }
    ],
    "vocab": [
@@ -2199,7 +2363,8 @@
      "de": "Geräusch",
      "art": "das",
      "tr": "ses",
-     "en": "noise, sound"
+     "en": "noise, sound",
+     "it": "rumore, suono"
     },
     {
      "de": "Kühlschrank",
@@ -2218,25 +2383,29 @@
      "tr": "kablo",
      "en": "cable",
      "es": "cable",
-     "ku": "kablo"
+     "ku": "kablo",
+     "fr": "câble"
     },
     {
      "de": "Zutat",
      "art": "die",
      "tr": "malzeme",
-     "en": "ingredient"
+     "en": "ingredient",
+     "it": "ingrediente"
     },
     {
      "de": "Jugendzentrum",
      "art": "das",
      "tr": "gençlik merkezi",
-     "en": "youth centre"
+     "en": "youth centre",
+     "it": "centro giovanile"
     },
     {
      "de": "Leiterin",
      "art": "die",
      "tr": "yönetici",
-     "en": "manager (female)"
+     "en": "manager (female)",
+     "it": "responsabile"
     },
     {
      "de": "Schlüssel",
@@ -2253,7 +2422,8 @@
      "de": "Reinigungskraft",
      "art": "die",
      "tr": "temizlik görevlisi",
-     "en": "cleaner"
+     "en": "cleaner",
+     "it": "addetta alle pulizie"
     },
     {
      "de": "Schreibtisch",
@@ -2270,7 +2440,8 @@
      "de": "Gießkanne",
      "art": "die",
      "tr": "sulama kabı",
-     "en": "watering can"
+     "en": "watering can",
+     "it": "annaffiatoio"
     },
     {
      "de": "Topf",
@@ -2286,12 +2457,14 @@
     {
      "de": "anschließen",
      "tr": "bağlamak",
-     "en": "to connect, to plug in"
+     "en": "to connect, to plug in",
+     "it": "collegare, inserire la spina"
     },
     {
      "de": "unterscheiden",
      "tr": "ayırt etmek",
-     "en": "to distinguish"
+     "en": "to distinguish",
+     "it": "distinguere"
     },
     {
      "de": "trocken",
@@ -2306,7 +2479,8 @@
     {
      "de": "gießen",
      "tr": "sulamak",
-     "en": "to water"
+     "en": "to water",
+     "it": "annaffiare"
     },
     {
      "de": "abholen",
@@ -2321,7 +2495,8 @@
     {
      "de": "eintragen",
      "tr": "eklemek, işlemek",
-     "en": "to enter, to write in"
+     "en": "to enter, to write in",
+     "it": "inserire, compilare"
     }
    ]
   },
@@ -2333,13 +2508,15 @@
     "tr": "Boş zaman ve anılar",
     "en": "Free time and memories",
     "es": "Tiempo libre y recuerdos",
-    "ku": "Demên vala û bîranîn"
+    "ku": "Demên vala û bîranîn",
+    "it": "Tempo libero e ricordi"
    },
    "goal": {
     "tr": "Hobilerini ve çocukluğunu anlatır, wenn ve als ile ne zaman olduğunu söylersin.",
     "en": "Talk about hobbies and your childhood, say when with wenn and als.",
     "es": "Habla de tus aficiones y tu infancia; indica cuándo con wenn y als.",
-    "ku": "Derbarê hobiyan û zarokatiya xwe de biaxive, bi wenn û als bibêje kengî."
+    "ku": "Derbarê hobiyan û zarokatiya xwe de biaxive, bi wenn û als bibêje kengî.",
+    "it": "Parla dei tuoi hobby e della tua infanzia; usa wenn e als per dire quando."
    },
    "cover": "unit-a2-07",
    "themes": [],
@@ -2365,27 +2542,32 @@
     {
      "de": "Als ich Kind war, habe ich viel gemalt.",
      "tr": "Çocukken çok resim yapardım.",
-     "en": "When I was a child I painted a lot."
+     "en": "When I was a child I painted a lot.",
+     "it": "Da bambino dipingevo molto."
     },
     {
      "de": "Wenn das Wetter schön ist, gehen wir wandern.",
      "tr": "Hava güzel olunca yürüyüşe gidiyoruz.",
-     "en": "When the weather is nice we go hiking."
+     "en": "When the weather is nice we go hiking.",
+     "it": "Quando c’è bel tempo andiamo a fare escursioni."
     },
     {
      "de": "Ich spiele seit drei Jahren Gitarre.",
      "tr": "Üç yıldır gitar çalıyorum.",
-     "en": "I've been playing the guitar for three years."
+     "en": "I've been playing the guitar for three years.",
+     "it": "Suono la chitarra da tre anni."
     },
     {
      "de": "Hast du Lust, mitzukommen?",
      "tr": "Bizimle gelmek ister misin?",
-     "en": "Do you feel like coming along?"
+     "en": "Do you feel like coming along?",
+     "it": "Ti va di venire con noi?"
     },
     {
      "de": "Das Konzert war toll.",
      "tr": "Konser harikaydı.",
-     "en": "The concert was great."
+     "en": "The concert was great.",
+     "it": "Il concerto è stato fantastico."
     }
    ],
    "vocab": [
@@ -2393,7 +2575,8 @@
      "de": "Helferin",
      "art": "die",
      "tr": "görevli",
-     "en": "helper (female)"
+     "en": "helper (female)",
+     "it": "aiutante"
     },
     {
      "de": "Dach",
@@ -2423,7 +2606,8 @@
      "en": "confirmation",
      "es": "confirmación",
      "ku": "piştrastkirin",
-     "fr": "confirmation"
+     "fr": "confirmation",
+     "it": "conferma"
     },
     {
      "de": "Regenschirm",
@@ -2440,7 +2624,8 @@
      "de": "Drachen",
      "art": "der",
      "tr": "uçurtma",
-     "en": "kite"
+     "en": "kite",
+     "it": "aquilone"
     },
     {
      "de": "Wiese",
@@ -2457,7 +2642,8 @@
      "de": "Schnur",
      "art": "die",
      "tr": "ip",
-     "en": "string, cord"
+     "en": "string, cord",
+     "it": "spago, corda"
     },
     {
      "de": "Stock",
@@ -2465,13 +2651,15 @@
      "tr": "sopa",
      "en": "stick",
      "es": "pegar",
-     "ku": "dineqişînin"
+     "ku": "dineqişînin",
+     "fr": "collent"
     },
     {
      "de": "Bogen",
      "art": "der",
      "tr": "tabaka",
-     "en": "sheet (of paper)"
+     "en": "sheet (of paper)",
+     "it": "foglio"
     },
     {
      "de": "Klebeband",
@@ -2479,23 +2667,27 @@
      "tr": "yapışkan bant",
      "en": "adhesive tape",
      "es": "cinta adhesiva",
-     "ku": "bandê yapîşîn"
+     "ku": "bandê yapîşîn",
+     "fr": "ruban adhésif"
     },
     {
      "de": "Trikot",
      "art": "das",
      "tr": "forma",
-     "en": "shirt, jersey"
+     "en": "shirt, jersey",
+     "it": "maglietta"
     },
     {
      "de": "teilen",
      "tr": "paylaşmak",
-     "en": "to share"
+     "en": "to share",
+     "it": "condividere"
     },
     {
      "de": "sich aufstellen",
      "tr": "dizilmek",
-     "en": "to line up"
+     "en": "to line up",
+     "it": "mettersi in fila"
     },
     {
      "de": "ausleihen",
@@ -2510,17 +2702,20 @@
     {
      "de": "proben",
      "tr": "prova yapmak",
-     "en": "to rehearse"
+     "en": "to rehearse",
+     "it": "fare le prove"
     },
     {
      "de": "leise",
      "tr": "sessiz",
-     "en": "quiet, quietly"
+     "en": "quiet, quietly",
+     "it": "tranquillo, tranquillamente"
     },
     {
      "de": "klatschen",
      "tr": "alkışlamak",
-     "en": "to clap"
+     "en": "to clap",
+     "it": "applaudire"
     }
    ]
   },
@@ -2532,13 +2727,15 @@
     "tr": "Dijital hayat",
     "en": "Digital life",
     "es": "La vida digital",
-    "ku": "Jiyana dîjîtal"
+    "ku": "Jiyana dîjîtal",
+    "it": "Vita digitale"
    },
    "goal": {
     "tr": "Telefon ve internetle ilgili sorunları anlatır, bir şeyi nasıl yapacağını sorarsın.",
     "en": "Describe problems with your phone and the internet, ask how to do something.",
     "es": "Describe problemas con el móvil e Internet y pregunta cómo hacer algo.",
-    "ku": "Pirsgirêkên bi telefon û înternetê re rave bike û bipirse tiştek çawa tê kirin."
+    "ku": "Pirsgirêkên bi telefon û înternetê re rave bike û bipirse tiştek çawa tê kirin.",
+    "it": "Descrivi i problemi con il telefono e Internet e chiedi come fare qualcosa."
    },
    "cover": "unit-a2-08",
    "themes": [],
@@ -2564,27 +2761,32 @@
     {
      "de": "Mein Handy funktioniert nicht mehr.",
      "tr": "Telefonum artık çalışmıyor.",
-     "en": "My phone doesn't work any more."
+     "en": "My phone doesn't work any more.",
+     "it": "Il mio telefono non funziona più."
     },
     {
      "de": "Ich schicke dir das Foto per Nachricht.",
      "tr": "Fotoğrafı sana mesajla gönderiyorum.",
-     "en": "I'll send you the photo in a message."
+     "en": "I'll send you the photo in a message.",
+     "it": "Ti mando la foto con un messaggio."
     },
     {
      "de": "Weißt du, wie das WLAN-Passwort lautet?",
      "tr": "Wi-Fi şifresinin ne olduğunu biliyor musun?",
-     "en": "Do you know what the Wi-Fi password is?"
+     "en": "Do you know what the Wi-Fi password is?",
+     "it": "Sai qual è la password del Wi-Fi?"
     },
     {
      "de": "Ich habe die App heruntergeladen.",
      "tr": "Uygulamayı indirdim.",
-     "en": "I have downloaded the app."
+     "en": "I have downloaded the app.",
+     "it": "Ho scaricato l’app."
     },
     {
      "de": "Der Akku ist fast leer.",
      "tr": "Şarj neredeyse bitti.",
-     "en": "The battery is almost empty."
+     "en": "The battery is almost empty.",
+     "it": "La batteria è quasi scarica."
     }
    ],
    "vocab": [
@@ -2618,13 +2820,15 @@
      "es": "mensaje; noticia",
      "ku": "peyam",
      "fr": "message",
-     "it": "messaggio"
+     "it": "messaggio",
+     "ar": "رسالة"
     },
     {
      "de": "Taste",
      "art": "die",
      "tr": "tuş",
-     "en": "key, button"
+     "en": "key, button",
+     "it": "tasto, pulsante"
     },
     {
      "de": "Bildschirm",
@@ -2654,7 +2858,9 @@
      "tr": "adım",
      "en": "step",
      "es": "paso",
-     "ku": "gav"
+     "ku": "gav",
+     "fr": "étape",
+     "it": "passo"
     },
     {
      "de": "Wetter-App",
@@ -2662,7 +2868,9 @@
      "tr": "hava durumu uygulaması",
      "en": "weather app",
      "es": "aplicación del tiempo",
-     "ku": "sepana hewayê"
+     "ku": "sepana hewayê",
+     "fr": "application météo",
+     "it": "app meteo"
     },
     {
      "de": "Wolke",
@@ -2700,22 +2908,26 @@
      "de": "Untertitel",
      "art": "der",
      "tr": "altyazı",
-     "en": "subtitle"
+     "en": "subtitle",
+     "it": "sottotitolo"
     },
     {
      "de": "aus Versehen",
      "tr": "yanlışlıkla",
-     "en": "by mistake"
+     "en": "by mistake",
+     "it": "per sbaglio"
     },
     {
      "de": "mitschreiben",
      "tr": "yazıya geçirmek",
-     "en": "to write down, to take notes"
+     "en": "to write down, to take notes",
+     "it": "annotare, prendere appunti"
     },
     {
      "de": "abspielen",
      "tr": "oynatmak",
-     "en": "to play (a recording)"
+     "en": "to play (a recording)",
+     "it": "riprodurre una registrazione"
     },
     {
      "de": "verschieden",
@@ -2747,13 +2959,15 @@
     "tr": "Öğrenmek",
     "en": "Learning",
     "es": "Aprender",
-    "ku": "Hînbûn"
+    "ku": "Hînbûn",
+    "it": "Apprendimento"
    },
    "goal": {
     "tr": "Nasıl öğrendiğini ve planlarını anlatır, zu + mastar ile niyetini söylersin.",
     "en": "Talk about how you learn and your plans, say what you intend with zu + infinitive.",
     "es": "Habla de cómo aprendes y de tus planes; expresa intenciones con zu + infinitivo.",
-    "ku": "Derbarê awayê hînbûna xwe û planên xwe de biaxive û bi zu + Infinitiv bibêje niyeta xwe çi ye."
+    "ku": "Derbarê awayê hînbûna xwe û planên xwe de biaxive û bi zu + Infinitiv bibêje niyeta xwe çi ye.",
+    "it": "Parla di come studi e dei tuoi progetti; di’ che cosa hai intenzione di fare con zu + infinito."
    },
    "cover": "unit-a2-09",
    "themes": [],
@@ -2778,27 +2992,32 @@
     {
      "de": "Ich versuche, jeden Tag zu lernen.",
      "tr": "Her gün çalışmaya çalışıyorum.",
-     "en": "I try to study every day."
+     "en": "I try to study every day.",
+     "it": "Cerco di studiare ogni giorno."
     },
     {
      "de": "Ich habe vergessen, die Hausaufgaben zu machen.",
      "tr": "Ödevleri yapmayı unuttum.",
-     "en": "I forgot to do the homework."
+     "en": "I forgot to do the homework.",
+     "it": "Ho dimenticato di fare i compiti."
     },
     {
      "de": "Was bedeutet dieses Wort?",
      "tr": "Bu kelime ne demek?",
-     "en": "What does this word mean?"
+     "en": "What does this word mean?",
+     "it": "Che cosa significa questa parola?"
     },
     {
      "de": "Ich mache im Mai eine Prüfung.",
      "tr": "Mayısta bir sınava gireceğim.",
-     "en": "I'm taking an exam in May."
+     "en": "I'm taking an exam in May.",
+     "it": "A maggio faccio un esame."
     },
     {
      "de": "Es macht Spaß, neue Leute kennenzulernen.",
      "tr": "Yeni insanlarla tanışmak eğlenceli.",
-     "en": "It is fun to meet new people."
+     "en": "It is fun to meet new people.",
+     "it": "È divertente conoscere nuove persone."
     }
    ],
    "vocab": [
@@ -2806,7 +3025,8 @@
      "de": "Umleitung",
      "art": "die",
      "tr": "güzergâh değişikliği",
-     "en": "diversion"
+     "en": "diversion",
+     "it": "distrazione"
     },
     {
      "de": "Haltestelle",
@@ -2814,13 +3034,15 @@
      "tr": "durak",
      "en": "stop",
      "es": "parada",
-     "ku": "rawestgeh"
+     "ku": "rawestgeh",
+     "fr": "arrêt"
     },
     {
      "de": "Kursbuch",
      "art": "das",
      "tr": "ders kitabı",
-     "en": "course book"
+     "en": "course book",
+     "it": "libro del corso"
     },
     {
      "de": "Brücke",
@@ -2837,13 +3059,15 @@
      "de": "Ersatzverkehr",
      "art": "der",
      "tr": "ikame ulaşım",
-     "en": "replacement service"
+     "en": "replacement service",
+     "it": "servizio sostitutivo"
     },
     {
      "de": "Stichwort",
      "art": "das",
      "tr": "anahtar sözcük",
-     "en": "keyword"
+     "en": "keyword",
+     "it": "parola chiave"
     },
     {
      "de": "Arbeitsweg",
@@ -2852,7 +3076,8 @@
      "en": "commute",
      "es": "trayecto al trabajo",
      "ku": "rêya her roj a karê",
-     "fr": "trajet domicile-travail"
+     "fr": "trajet domicile-travail",
+     "it": "tragitto casa-lavoro"
     },
     {
      "de": "Zeichen",
@@ -2860,13 +3085,16 @@
      "tr": "işaret",
      "en": "sign",
      "es": "señal",
-     "ku": "nîşan"
+     "ku": "nîşan",
+     "fr": "signe",
+     "it": "cartello"
     },
     {
      "de": "Armbanduhr",
      "art": "die",
      "tr": "kol saati",
-     "en": "wristwatch"
+     "en": "wristwatch",
+     "it": "orologio da polso"
     },
     {
      "de": "Wecker",
@@ -2883,13 +3111,15 @@
      "de": "Rezept",
      "art": "das",
      "tr": "tarif",
-     "en": "recipe; prescription"
+     "en": "recipe; prescription",
+     "it": "ricetta, prescrizione"
     },
     {
      "de": "Prise",
      "art": "die",
      "tr": "tutam",
-     "en": "pinch"
+     "en": "pinch",
+     "it": "pizzico"
     },
     {
      "de": "einsteigen",
@@ -2914,12 +3144,14 @@
     {
      "de": "kleben",
      "tr": "yapıştırmak",
-     "en": "to stick, to glue"
+     "en": "to stick, to glue",
+     "it": "incollare"
     },
     {
      "de": "bremsen",
      "tr": "fren yapmak",
-     "en": "to brake"
+     "en": "to brake",
+     "it": "frenare"
     },
     {
      "de": "parken",
@@ -2951,13 +3183,15 @@
     "tr": "Çevre",
     "en": "The environment",
     "es": "El medioambiente",
-    "ku": "Jîngeh"
+    "ku": "Jîngeh",
+    "it": "Ambiente"
    },
    "goal": {
     "tr": "Çevre için ne yaptığını anlatır, şeyleri karşılaştırırsın.",
     "en": "Say what you do for the environment and compare things.",
     "es": "Di qué haces por el medioambiente y compara cosas.",
-    "ku": "Bibêje tu ji bo jîngehê çi dikî û tiştan li hev berawird bike."
+    "ku": "Bibêje tu ji bo jîngehê çi dikî û tiştan li hev berawird bike.",
+    "it": "Di’ che cosa fai per l’ambiente e confronta le cose."
    },
    "cover": "unit-a2-10",
    "themes": [],
@@ -2982,27 +3216,32 @@
     {
      "de": "Ich trenne den Müll.",
      "tr": "Çöpleri ayırıyorum.",
-     "en": "I separate the rubbish."
+     "en": "I separate the rubbish.",
+     "it": "Faccio la raccolta differenziata."
     },
     {
      "de": "Das Fahrrad ist besser als das Auto.",
      "tr": "Bisiklet arabadan daha iyi.",
-     "en": "The bike is better than the car."
+     "en": "The bike is better than the car.",
+     "it": "La bicicletta è meglio dell’auto."
     },
     {
      "de": "Wir kaufen am liebsten regionales Gemüse.",
      "tr": "En çok yöresel sebze almayı seviyoruz.",
-     "en": "We prefer to buy local vegetables."
+     "en": "We prefer to buy local vegetables.",
+     "it": "Preferiamo comprare verdure locali."
     },
     {
      "de": "Bring die Flaschen bitte zum Container.",
      "tr": "Şişeleri lütfen konteynere götür.",
-     "en": "Please take the bottles to the container."
+     "en": "Please take the bottles to the container.",
+     "it": "Per favore, porta le bottiglie al contenitore."
     },
     {
      "de": "Im Park ist es am ruhigsten.",
      "tr": "En sakin yer park.",
-     "en": "It is quietest in the park."
+     "en": "It is quietest in the park.",
+     "it": "Nel parco c’è più silenzio."
     }
    ],
    "vocab": [
@@ -3010,19 +3249,22 @@
      "de": "Regentonne",
      "art": "die",
      "tr": "yağmur suyu varili",
-     "en": "rain barrel"
+     "en": "rain barrel",
+     "it": "cisterna per l’acqua piovana"
     },
     {
      "de": "Abfluss",
      "art": "der",
      "tr": "gider",
-     "en": "drain"
+     "en": "drain",
+     "it": "scarico"
     },
     {
      "de": "Erde",
      "art": "die",
      "tr": "toprak",
-     "en": "soil, earth"
+     "en": "soil, earth",
+     "it": "terreno"
     },
     {
      "de": "Eimer",
@@ -3039,25 +3281,29 @@
      "de": "Regenrinne",
      "art": "die",
      "tr": "yağmur oluğu",
-     "en": "gutter"
+     "en": "gutter",
+     "it": "grondaia"
     },
     {
      "de": "Advent",
      "art": "der",
      "tr": "Advent dönemi",
-     "en": "Advent"
+     "en": "Advent",
+     "it": "Avvento"
     },
     {
      "de": "Taschenlampe",
      "art": "die",
      "tr": "el feneri",
-     "en": "torch, flashlight"
+     "en": "torch, flashlight",
+     "it": "torcia"
     },
     {
      "de": "Schrift",
      "art": "die",
      "tr": "yazı",
-     "en": "writing, font"
+     "en": "writing, font",
+     "it": "scrittura, carattere"
     },
     {
      "de": "Kerze",
@@ -3074,13 +3320,15 @@
      "de": "Lichterkette",
      "art": "die",
      "tr": "ışık dizisi",
-     "en": "fairy lights"
+     "en": "fairy lights",
+     "it": "luci decorative"
     },
     {
      "de": "Innenhof",
      "art": "der",
      "tr": "iç avlu",
-     "en": "inner courtyard"
+     "en": "inner courtyard",
+     "it": "cortile interno"
     },
     {
      "de": "Schraube",
@@ -3088,32 +3336,39 @@
      "tr": "vida",
      "en": "screw",
      "es": "tornillo",
-     "ku": "vît"
+     "ku": "vît",
+     "fr": "vis",
+     "it": "vite"
     },
     {
      "de": "leuchten",
      "tr": "ışık vermek",
-     "en": "to shine, to glow"
+     "en": "to shine, to glow",
+     "it": "brillare, splendere"
     },
     {
      "de": "filmen",
      "tr": "videoya çekmek",
-     "en": "to film"
+     "en": "to film",
+     "it": "filmare"
     },
     {
      "de": "schwarz",
      "tr": "sade, sütsüz",
-     "en": "black (coffee)"
+     "en": "black (coffee)",
+     "it": "nero (caffè)"
     },
     {
      "de": "abwaschbar",
      "tr": "yıkanabilir",
-     "en": "washable"
+     "en": "washable",
+     "it": "lavabile"
     },
     {
      "de": "von weitem",
      "tr": "uzaktan",
-     "en": "from a distance"
+     "en": "from a distance",
+     "it": "da lontano"
     },
     {
      "de": "zurückkommen",
@@ -3135,13 +3390,15 @@
     "tr": "Ev ve mahalle",
     "en": "Home and neighbourhood",
     "es": "Casa y barrio",
-    "ku": "Mal û derdor"
+    "ku": "Mal û derdor",
+    "it": "Casa e quartiere"
    },
    "goal": {
     "tr": "Evini ve mahalleni ayrıntılı anlatır, komşularla sorunları çözersin.",
     "en": "Describe your home and area in detail, solve problems with neighbours.",
     "es": "Describe detalladamente tu casa y tu zona; resuelve problemas con los vecinos.",
-    "ku": "Mala xwe û derdora wê bi hûrgulî rave bike, pirsgirêkên bi cîranan re çareser bike."
+    "ku": "Mala xwe û derdora wê bi hûrgulî rave bike, pirsgirêkên bi cîranan re çareser bike.",
+    "it": "Descrivi nel dettaglio la tua casa e la zona; risolvi i problemi con i vicini."
    },
    "cover": "unit-b1-01",
    "themes": [],
@@ -3170,27 +3427,32 @@
     {
      "de": "Das ist die Wohnung, die ich gemietet habe.",
      "tr": "Bu, kiraladığım daire.",
-     "en": "This is the flat that I rented."
+     "en": "This is the flat that I rented.",
+     "it": "Questo è l’appartamento che ho affittato."
     },
     {
      "de": "Der Stadtteil, in dem ich wohne, ist sehr lebendig.",
      "tr": "Oturduğum semt çok canlı.",
-     "en": "The district I live in is very lively."
+     "en": "The district I live in is very lively.",
+     "it": "Il quartiere in cui vivo è molto vivace."
     },
     {
      "de": "Könnten wir eine Lösung finden?",
      "tr": "Bir çözüm bulabilir miyiz?",
-     "en": "Could we find a solution?"
+     "en": "Could we find a solution?",
+     "it": "Potremmo trovare una soluzione?"
     },
     {
      "de": "Die Nebenkosten sind im letzten Jahr gestiegen.",
      "tr": "Yan giderler geçen yıl arttı.",
-     "en": "The extra costs went up last year."
+     "en": "The extra costs went up last year.",
+     "it": "L’anno scorso le spese aggiuntive sono aumentate."
     },
     {
      "de": "Alles, was ich brauche, ist in der Nähe.",
      "tr": "İhtiyacım olan her şey yakında.",
-     "en": "Everything I need is nearby."
+     "en": "Everything I need is nearby.",
+     "it": "Ho tutto quello che mi serve qui vicino."
     }
    ],
    "vocab": [
@@ -3198,7 +3460,8 @@
      "de": "Dichtung",
      "art": "die",
      "tr": "conta",
-     "en": "seal, gasket"
+     "en": "seal, gasket",
+     "it": "guarnizione"
     },
     {
      "de": "Verwechslung",
@@ -3206,19 +3469,23 @@
      "tr": "karışıklık",
      "en": "mix-up",
      "es": "confusión",
-     "ku": "tevlihevî"
+     "ku": "tevlihevî",
+     "fr": "confusion",
+     "it": "confusione"
     },
     {
      "de": "Pfütze",
      "art": "die",
      "tr": "su birikintisi",
-     "en": "puddle"
+     "en": "puddle",
+     "it": "pozzanghera"
     },
     {
      "de": "Fluchtweg",
      "art": "der",
      "tr": "acil kaçış yolu",
-     "en": "escape route"
+     "en": "escape route",
+     "it": "via di fuga"
     },
     {
      "de": "Etage",
@@ -3228,74 +3495,87 @@
      "es": "suelo",
      "ku": "erd, zevî",
      "fr": "sol",
-     "it": "pavimento"
+     "it": "pavimento",
+     "ar": "أرضية"
     },
     {
      "de": "Kreide",
      "art": "die",
      "tr": "tebeşir",
-     "en": "chalk"
+     "en": "chalk",
+     "it": "gesso"
     },
     {
      "de": "Wartung",
      "art": "die",
      "tr": "bakım",
-     "en": "maintenance"
+     "en": "maintenance",
+     "it": "manutenzione"
     },
     {
      "de": "Mietwagen",
      "art": "der",
      "tr": "kiralık araç",
-     "en": "rental car"
+     "en": "rental car",
+     "it": "auto a noleggio"
     },
     {
      "de": "Zielraum",
      "art": "der",
      "tr": "eşyanın gideceği oda",
-     "en": "destination room"
+     "en": "destination room",
+     "it": "camera di destinazione"
     },
     {
      "de": "Fach",
      "art": "das",
      "tr": "göz, bölme",
-     "en": "compartment, shelf"
+     "en": "compartment, shelf",
+     "it": "scomparto, ripiano"
     },
     {
      "de": "Mieterin",
      "art": "die",
      "tr": "kiracı",
-     "en": "tenant (f.)"
+     "en": "tenant (f.)",
+     "it": "inquilina"
     },
     {
      "de": "Sendung",
      "art": "die",
      "tr": "gönderi",
-     "en": "delivery, item of mail"
+     "en": "delivery, item of mail",
+     "it": "consegna, invio postale"
     },
     {
      "de": "feucht",
      "tr": "nemli",
-     "en": "damp"
+     "en": "damp",
+     "it": "umido"
     },
     {
      "de": "beauftragen",
      "tr": "görevlendirmek",
-     "en": "to hire, to commission"
+     "en": "to hire, to commission",
+     "it": "assumere, incaricare"
     },
     {
      "de": "eine Rechnung ausstellen",
      "tr": "fatura kesmek",
-     "en": "to issue an invoice"
+     "en": "to issue an invoice",
+     "it": "emettere una fattura"
     },
     {
      "de": "umfassen",
      "tr": "kapsamak",
-     "en": "to include"
+     "en": "to include",
+     "it": "includere"
     },
     {
      "de": "hinfällig",
      "tr": "geçersiz",
-     "en": "void, no longer valid"
+     "en": "void, no longer valid",
+     "it": "annullato, non più valido"
     },
     {
      "de": "absagen",
@@ -3317,13 +3597,15 @@
     "tr": "İş ve kariyer",
     "en": "Work and career",
     "es": "Trabajo y carrera profesional",
-    "ku": "Kar û pîşe"
+    "ku": "Kar û pîşe",
+    "it": "Lavoro e carriera"
    },
    "goal": {
     "tr": "İş isteklerini nazikçe söyler, toplantıda soru sorar, görüş bildirirsin.",
     "en": "Make polite requests at work, ask questions in meetings, give your opinion.",
     "es": "Haz peticiones amables en el trabajo, pregunta en reuniones y expresa tu opinión.",
-    "ku": "Di kar de bi rêz daxwazan bike, di civînan de pirsan bipirse û raya xwe bibêje."
+    "ku": "Di kar de bi rêz daxwazan bike, di civînan de pirsan bipirse û raya xwe bibêje.",
+    "it": "Fai richieste cortesi al lavoro, poni domande durante le riunioni ed esprimi la tua opinione."
    },
    "cover": "unit-b1-02",
    "themes": [],
@@ -3349,27 +3631,32 @@
     {
      "de": "Ich würde gern im Homeoffice arbeiten.",
      "tr": "Evden çalışmak isterdim.",
-     "en": "I would like to work from home."
+     "en": "I would like to work from home.",
+     "it": "Vorrei lavorare da casa."
     },
     {
      "de": "Könnten Sie mir sagen, wann das Meeting beginnt?",
      "tr": "Toplantının ne zaman başladığını söyleyebilir misiniz?",
-     "en": "Could you tell me when the meeting starts?"
+     "en": "Could you tell me when the meeting starts?",
+     "it": "Potrebbe dirmi quando inizia la riunione?"
     },
     {
      "de": "An Ihrer Stelle würde ich nachfragen.",
      "tr": "Yerinizde olsam sorardım.",
-     "en": "If I were you I would ask."
+     "en": "If I were you I would ask.",
+     "it": "Se fossi in te, chiederei."
     },
     {
      "de": "Ich weiß nicht, ob ich die Stelle bekomme.",
      "tr": "İşi alıp alamayacağımı bilmiyorum.",
-     "en": "I don't know whether I'll get the job."
+     "en": "I don't know whether I'll get the job.",
+     "it": "Non so se otterrò il lavoro."
     },
     {
      "de": "Meiner Meinung nach ist das eine gute Idee.",
      "tr": "Bence bu iyi bir fikir.",
-     "en": "In my opinion that is a good idea."
+     "en": "In my opinion that is a good idea.",
+     "it": "Secondo me è una buona idea."
     }
    ],
    "vocab": [
@@ -3377,13 +3664,15 @@
      "de": "Frühschicht",
      "art": "die",
      "tr": "sabah vardiyası",
-     "en": "early shift"
+     "en": "early shift",
+     "it": "turno di mattina"
     },
     {
      "de": "Zusage",
      "art": "die",
      "tr": "onay, verilen söz",
-     "en": "confirmation, promise"
+     "en": "confirmation, promise",
+     "it": "conferma, promessa"
     },
     {
      "de": "Fassung",
@@ -3392,7 +3681,8 @@
      "en": "version",
      "es": "versión",
      "ku": "guherto",
-     "fr": "version"
+     "fr": "version",
+     "it": "versione"
     },
     {
      "de": "Bestellung",
@@ -3409,13 +3699,15 @@
      "de": "Abschlussfeier",
      "art": "die",
      "tr": "mezuniyet kutlaması",
-     "en": "graduation party"
+     "en": "graduation party",
+     "it": "festa di diploma"
     },
     {
      "de": "Großhändler",
      "art": "der",
      "tr": "toptancı",
-     "en": "wholesaler"
+     "en": "wholesaler",
+     "it": "grossista"
     },
     {
      "de": "Strauß",
@@ -3424,13 +3716,15 @@
      "en": "bouquet",
      "es": "ramo",
      "ku": "guldeste",
-     "fr": "bouquet"
+     "fr": "bouquet",
+     "it": "mazzo"
     },
     {
      "de": "Spalte",
      "art": "die",
      "tr": "sütun",
-     "en": "column"
+     "en": "column",
+     "it": "colonna"
     },
     {
      "de": "Wäscherei",
@@ -3450,49 +3744,58 @@
      "en": "night shift",
      "es": "turno de noche",
      "ku": "şifta şevê",
-     "fr": "équipe de nuit"
+     "fr": "équipe de nuit",
+     "it": "turno di notte"
     },
     {
      "de": "Warnung",
      "art": "die",
      "tr": "uyarı",
-     "en": "warning"
+     "en": "warning",
+     "it": "avvertimento"
     },
     {
      "de": "Druckerei",
      "art": "die",
      "tr": "matbaa",
-     "en": "print shop"
+     "en": "print shop",
+     "it": "tipografia"
     },
     {
      "de": "infrage kommen",
      "tr": "söz konusu olmak",
-     "en": "to be an option"
+     "en": "to be an option",
+     "it": "essere un’opzione"
     },
     {
      "de": "verrutschen",
      "tr": "kaymak",
-     "en": "to slip"
+     "en": "to slip",
+     "it": "scivolare"
     },
     {
      "de": "einspringen",
      "tr": "birinin yerine geçmek",
-     "en": "to stand in"
+     "en": "to stand in",
+     "it": "sostituire qualcuno"
     },
     {
      "de": "notieren",
      "tr": "not etmek",
-     "en": "to note down"
+     "en": "to note down",
+     "it": "annotare"
     },
     {
      "de": "versehentlich",
      "tr": "yanlışlıkla",
-     "en": "by mistake"
+     "en": "by mistake",
+     "it": "per sbaglio"
     },
     {
      "de": "kurzfristig",
      "tr": "son anda",
-     "en": "at short notice"
+     "en": "at short notice",
+     "it": "con poco preavviso"
     }
    ]
   },
@@ -3504,13 +3807,15 @@
     "tr": "Aile ve geçmiş",
     "en": "Family and the past",
     "es": "La familia y el pasado",
-    "ku": "Malbat û rabirdû"
+    "ku": "Malbat û rabirdû",
+    "it": "Famiglia e passato"
    },
    "goal": {
     "tr": "Aileni ve geçmişte olanları sırayla anlatırsın.",
     "en": "Talk about your family and tell past events in order.",
     "es": "Habla de tu familia y cuenta en orden acontecimientos pasados.",
-    "ku": "Derbarê malbata xwe de biaxive û bûyerên borî bi rêzê vegotine."
+    "ku": "Derbarê malbata xwe de biaxive û bûyerên borî bi rêzê vegotine.",
+    "it": "Parla della tua famiglia e racconta gli eventi passati in ordine."
    },
    "cover": "unit-b1-03",
    "themes": [],
@@ -3535,27 +3840,32 @@
     {
      "de": "Als Kind wohnte ich bei meinen Großeltern.",
      "tr": "Çocukken büyükannemlerde otururdum.",
-     "en": "As a child I lived with my grandparents."
+     "en": "As a child I lived with my grandparents.",
+     "it": "Da bambino vivevo con i miei nonni."
     },
     {
      "de": "Nachdem wir gegessen hatten, gingen wir spazieren.",
      "tr": "Yemek yedikten sonra yürüyüşe çıktık.",
-     "en": "After we had eaten we went for a walk."
+     "en": "After we had eaten we went for a walk.",
+     "it": "Dopo aver mangiato, siamo andati a fare una passeggiata."
     },
     {
      "de": "Meine Schwester und ich verstehen uns gut.",
      "tr": "Kız kardeşimle iyi anlaşırız.",
-     "en": "My sister and I get on well."
+     "en": "My sister and I get on well.",
+     "it": "Io e mia sorella andiamo d’accordo."
     },
     {
      "de": "Früher hatten wir keinen Fernseher.",
      "tr": "Eskiden televizyonumuz yoktu.",
-     "en": "We didn't use to have a TV."
+     "en": "We didn't use to have a TV.",
+     "it": "Una volta non avevamo la TV."
     },
     {
      "de": "Damals war alles ganz anders.",
      "tr": "O zamanlar her şey bambaşkaydı.",
-     "en": "Back then everything was very different."
+     "en": "Back then everything was very different.",
+     "it": "Allora era tutto molto diverso."
     }
    ],
    "vocab": [
@@ -3563,13 +3873,15 @@
      "de": "Kassengerät",
      "art": "das",
      "tr": "kasa cihazı",
-     "en": "till, cash register"
+     "en": "till, cash register",
+     "it": "cassa"
     },
     {
      "de": "Stadtrand",
      "art": "der",
      "tr": "şehrin dış kesimi",
-     "en": "outskirts"
+     "en": "outskirts",
+     "it": "periferia"
     },
     {
      "de": "Bargeld",
@@ -3599,13 +3911,16 @@
      "tr": "tekerlekli yürüteç",
      "en": "walker",
      "es": "caminante",
-     "ku": "meşvan"
+     "ku": "meşvan",
+     "fr": "promeneur",
+     "it": "pedone"
     },
     {
      "de": "Aufnahme",
      "art": "die",
      "tr": "kayıt",
-     "en": "recording"
+     "en": "recording",
+     "it": "registrazione"
     },
     {
      "de": "Datei",
@@ -3622,19 +3937,22 @@
      "de": "Zustimmung",
      "art": "die",
      "tr": "onay",
-     "en": "consent"
+     "en": "consent",
+     "it": "consenso"
     },
     {
      "de": "Strophe",
      "art": "die",
      "tr": "kıta",
-     "en": "verse"
+     "en": "verse",
+     "it": "strofa"
     },
     {
      "de": "Kuchenform",
      "art": "die",
      "tr": "kek kalıbı",
-     "en": "cake tin"
+     "en": "cake tin",
+     "it": "stampo per torta"
     },
     {
      "de": "Kinderwagen",
@@ -3661,17 +3979,20 @@
     {
      "de": "freiwillig",
      "tr": "gönüllü olarak",
-     "en": "voluntarily"
+     "en": "voluntarily",
+     "it": "volontariamente"
     },
     {
      "de": "einrichten",
      "tr": "kurmak, ayarlamak",
-     "en": "to set up"
+     "en": "to set up",
+     "it": "allestire"
     },
     {
      "de": "offen",
      "tr": "ödenmemiş",
-     "en": "unpaid, outstanding"
+     "en": "unpaid, outstanding",
+     "it": "non pagato, in sospeso"
     },
     {
      "de": "versprechen",
@@ -3686,7 +4007,8 @@
     {
      "de": "erledigt",
      "tr": "halledilmiş",
-     "en": "done"
+     "en": "done",
+     "it": "fatto"
     },
     {
      "de": "enttäuscht",
@@ -3708,13 +4030,15 @@
     "tr": "Alışveriş ve tüketim",
     "en": "Shopping and consumption",
     "es": "Compras y consumo",
-    "ku": "Kirîn û xerckirin"
+    "ku": "Kirîn û xerckirin",
+    "it": "Acquisti e consumi"
    },
    "goal": {
     "tr": "Ürünleri karşılaştırır, şikâyet eder, tüketim üzerine görüş bildirirsin.",
     "en": "Compare products, complain, discuss consumption.",
     "es": "Compara productos, quéjate y habla sobre el consumo.",
-    "ku": "Berhem û hilberan li hev berawird bike, gilî bike û derbarê xerckirinê de biaxive."
+    "ku": "Berhem û hilberan li hev berawird bike, gilî bike û derbarê xerckirinê de biaxive.",
+    "it": "Confronta i prodotti, fai un reclamo e parla dei consumi."
    },
    "cover": "unit-b1-04",
    "themes": [],
@@ -3738,27 +4062,32 @@
     {
      "de": "Ich suche ein günstiges, aber gutes Handy.",
      "tr": "Ucuz ama iyi bir telefon arıyorum.",
-     "en": "I'm looking for a cheap but good phone."
+     "en": "I'm looking for a cheap but good phone.",
+     "it": "Cerco un telefono economico ma buono."
     },
     {
      "de": "Das Gerät ist nicht nur teuer, sondern auch schwer.",
      "tr": "Cihaz hem pahalı hem de ağır.",
-     "en": "The device is not only expensive but also heavy."
+     "en": "The device is not only expensive but also heavy.",
+     "it": "Il dispositivo non è solo costoso, ma anche pesante."
     },
     {
      "de": "Entweder ich repariere es oder ich kaufe ein neues.",
      "tr": "Ya tamir ettireceğim ya da yenisini alacağım.",
-     "en": "Either I repair it or I buy a new one."
+     "en": "Either I repair it or I buy a new one.",
+     "it": "O lo riparo o ne compro uno nuovo."
     },
     {
      "de": "Ich möchte mich beschweren.",
      "tr": "Şikâyette bulunmak istiyorum.",
-     "en": "I'd like to make a complaint."
+     "en": "I'd like to make a complaint.",
+     "it": "Vorrei fare un reclamo."
     },
     {
      "de": "Online einzukaufen ist bequem, aber riskant.",
      "tr": "İnternetten alışveriş rahat ama riskli.",
-     "en": "Shopping online is convenient but risky."
+     "en": "Shopping online is convenient but risky.",
+     "it": "Fare acquisti online è comodo, ma rischioso."
     }
    ],
    "vocab": [
@@ -3766,13 +4095,15 @@
      "de": "Innentasche",
      "art": "die",
      "tr": "iç cep",
-     "en": "inside pocket"
+     "en": "inside pocket",
+     "it": "tasca interna"
     },
     {
      "de": "Veranstalter",
      "art": "der",
      "tr": "organizatör",
-     "en": "organiser"
+     "en": "organiser",
+     "it": "agenda"
     },
     {
      "de": "Führung",
@@ -3789,7 +4120,8 @@
      "de": "Kragen",
      "art": "der",
      "tr": "yaka",
-     "en": "collar"
+     "en": "collar",
+     "it": "colletto"
     },
     {
      "de": "Rückgabe",
@@ -3797,13 +4129,15 @@
      "tr": "iade",
      "en": "return",
      "es": "devolución",
-     "ku": "veger"
+     "ku": "veger",
+     "fr": "retour"
     },
     {
      "de": "Lesegerät",
      "art": "das",
      "tr": "okuyucu cihaz",
-     "en": "reader (device)"
+     "en": "reader (device)",
+     "it": "lettore"
     },
     {
      "de": "Etikett",
@@ -3812,7 +4146,8 @@
      "en": "label",
      "es": "etiqueta",
      "ku": "etiket",
-     "fr": "étiquette"
+     "fr": "étiquette",
+     "it": "etichetta"
     },
     {
      "de": "Frist",
@@ -3820,7 +4155,8 @@
      "tr": "son tarih",
      "en": "deadline",
      "es": "fecha límite",
-     "ku": "demê dawî"
+     "ku": "demê dawî",
+     "fr": "date limite"
     },
     {
      "de": "Postleitzahl",
@@ -3840,7 +4176,8 @@
      "en": "confirmation",
      "es": "confirmación",
      "ku": "piştrastkirin",
-     "fr": "confirmation"
+     "fr": "confirmation",
+     "it": "conferma"
     },
     {
      "de": "Wochenmarkt",
@@ -3850,30 +4187,36 @@
      "es": "mercado semanal",
      "ku": "bazara hefteyî",
      "fr": "marché hebdomadaire",
-     "it": "mercato settimanale"
+     "it": "mercato settimanale",
+     "ar": "سوق أسبوعي"
     },
     {
      "de": "Sorte",
      "art": "die",
      "tr": "çeşit",
-     "en": "variety"
+     "en": "variety",
+     "it": "varietà"
     },
     {
      "de": "versehentlich",
      "tr": "yanlışlıkla",
-     "en": "by mistake"
+     "en": "by mistake",
+     "it": "per sbaglio"
     },
     {
      "de": "vollständig",
      "tr": "eksiksiz",
      "en": "complete",
      "es": "completo/a",
-     "ku": "temam"
+     "ku": "temam",
+     "fr": "complet",
+     "it": "completo"
     },
     {
      "de": "verhelfen",
      "tr": "elde etmesine yardımcı olmak",
-     "en": "to help (someone) get"
+     "en": "to help (someone) get",
+     "it": "aiutare a ottenere"
     },
     {
      "de": "anprobieren",
@@ -3888,7 +4231,8 @@
     {
      "de": "sortieren",
      "tr": "ayırmak",
-     "en": "to sort"
+     "en": "to sort",
+     "it": "ordinare"
     }
    ]
   },
@@ -3900,13 +4244,15 @@
     "tr": "Sağlık ve iyi yaşam",
     "en": "Health and well-being",
     "es": "Salud y bienestar",
-    "ku": "Tenduristî û başbûn"
+    "ku": "Tenduristî û başbûn",
+    "it": "Salute e benessere"
    },
    "goal": {
     "tr": "Şikâyetlerini ayrıntılı anlatır, tavsiye verir ve alırsın.",
     "en": "Describe symptoms in detail, give and take advice.",
     "es": "Describe los síntomas en detalle y da y recibe consejos.",
-    "ku": "Nîşanên nexweşiyê bi hûrgulî rave bike û şîretan bide û bistîne."
+    "ku": "Nîşanên nexweşiyê bi hûrgulî rave bike û şîretan bide û bistîne.",
+    "it": "Descrivi i sintomi nel dettaglio e dai o ricevi consigli."
    },
    "cover": "unit-b1-05",
    "themes": [],
@@ -3930,27 +4276,32 @@
     {
      "de": "Ich habe mir den Fuß verletzt.",
      "tr": "Ayağımı incittim.",
-     "en": "I have hurt my foot."
+     "en": "I have hurt my foot.",
+     "it": "Mi sono fatto male al piede."
     },
     {
      "de": "Ich lasse mich nächste Woche untersuchen.",
      "tr": "Gelecek hafta muayene olacağım.",
-     "en": "I'm having a check-up next week."
+     "en": "I'm having a check-up next week.",
+     "it": "La prossima settimana faccio un controllo."
     },
     {
      "de": "Du solltest mehr schlafen.",
      "tr": "Daha çok uyumalısın.",
-     "en": "You should sleep more."
+     "en": "You should sleep more.",
+     "it": "Dovresti dormire di più."
     },
     {
      "de": "Ich putze mir dreimal am Tag die Zähne.",
      "tr": "Günde üç kez dişlerimi fırçalarım.",
-     "en": "I brush my teeth three times a day."
+     "en": "I brush my teeth three times a day.",
+     "it": "Mi lavo i denti tre volte al giorno."
     },
     {
      "de": "Seitdem ich Sport mache, geht es mir besser.",
      "tr": "Spor yaptığımdan beri daha iyiyim.",
-     "en": "Since I started doing sport I feel better."
+     "en": "Since I started doing sport I feel better.",
+     "it": "Da quando faccio sport mi sento meglio."
     }
    ],
    "vocab": [
@@ -3958,13 +4309,15 @@
      "de": "Mine",
      "art": "die",
      "tr": "kalem içi",
-     "en": "refill (pen)"
+     "en": "refill (pen)",
+     "it": "ricarica (per penna)"
     },
     {
      "de": "Stichwort",
      "art": "das",
      "tr": "anahtar sözcük",
-     "en": "keyword"
+     "en": "keyword",
+     "it": "parola chiave"
     },
     {
      "de": "Ausdruck",
@@ -3973,13 +4326,15 @@
      "en": "printout",
      "es": "copia impresa",
      "ku": "çap",
-     "fr": "impression"
+     "fr": "impression",
+     "it": "stampa"
     },
     {
      "de": "Physiotherapeutin",
      "art": "die",
      "tr": "fizyoterapist",
-     "en": "physiotherapist (f.)"
+     "en": "physiotherapist (f.)",
+     "it": "fisioterapista"
     },
     {
      "de": "Strecke",
@@ -3987,31 +4342,36 @@
      "tr": "güzergâh",
      "en": "route",
      "es": "ruta",
-     "ku": "rê"
+     "ku": "rê",
+     "fr": "itinéraire"
     },
     {
      "de": "Steigung",
      "art": "die",
      "tr": "yokuş, eğim",
-     "en": "slope, incline"
+     "en": "slope, incline",
+     "it": "pendenza"
     },
     {
      "de": "Amsel",
      "art": "die",
      "tr": "karatavuk",
-     "en": "blackbird"
+     "en": "blackbird",
+     "it": "merlo"
     },
     {
      "de": "Zahnarztpraxis",
      "art": "die",
      "tr": "diş hekimi muayenehanesi",
-     "en": "dental practice"
+     "en": "dental practice",
+     "it": "studio dentistico"
     },
     {
      "de": "Kirschkern",
      "art": "der",
      "tr": "kiraz çekirdeği",
-     "en": "cherry stone"
+     "en": "cherry stone",
+     "it": "nocciolo di ciliegia"
     },
     {
      "de": "Wartezimmer",
@@ -4028,7 +4388,8 @@
      "de": "Werkstatt",
      "art": "die",
      "tr": "atölye",
-     "en": "workshop"
+     "en": "workshop",
+     "it": "laboratorio"
     },
     {
      "de": "Kante",
@@ -4192,7 +4553,9 @@
      "tr": "karışıklık",
      "en": "mix-up",
      "es": "confusión",
-     "ku": "tevlihevî"
+     "ku": "tevlihevî",
+     "fr": "confusion",
+     "it": "confusione"
     },
     {
      "de": "Ablage",
@@ -4207,7 +4570,8 @@
      "en": "documents",
      "es": "documentos",
      "ku": "belge",
-     "fr": "documents"
+     "fr": "documents",
+     "it": "documenti"
     },
     {
      "de": "Mappe",
@@ -4232,7 +4596,8 @@
      "tr": "otomat",
      "en": "machine",
      "es": "máquina",
-     "ku": "makîne"
+     "ku": "makîne",
+     "fr": "machine"
     },
     {
      "de": "ablaufen",
@@ -4339,7 +4704,9 @@
      "tr": "okul gazetesi",
      "en": "school newspaper",
      "es": "periódico escolar",
-     "ku": "rojnameya dibistanê"
+     "ku": "rojnameya dibistanê",
+     "fr": "journal scolaire",
+     "it": "giornalino scolastico"
     },
     {
      "de": "Überschrift",
@@ -4353,7 +4720,8 @@
      "tr": "yayın ekibi",
      "en": "editorial team",
      "es": "equipo editorial",
-     "ku": "tîma weşanê"
+     "ku": "tîma weşanê",
+     "fr": "équipe éditoriale"
     },
     {
      "de": "Beitrag",
@@ -4377,7 +4745,8 @@
      "de": "Aufnahme",
      "art": "die",
      "tr": "kayıt",
-     "en": "recording"
+     "en": "recording",
+     "it": "registrazione"
     },
     {
      "de": "Hintergrund",
@@ -4385,7 +4754,8 @@
      "tr": "arka plan",
      "en": "background",
      "es": "fondo",
-     "ku": "paşxane"
+     "ku": "paşxane",
+     "fr": "arrière-plan"
     },
     {
      "de": "Begleittext",
@@ -4410,7 +4780,8 @@
      "tr": "okuma salonu",
      "en": "reading room",
      "es": "sala de lectura",
-     "ku": "odeya xwendinê"
+     "ku": "odeya xwendinê",
+     "fr": "salle de lecture"
     },
     {
      "de": "Ordner",
@@ -4446,7 +4817,8 @@
     {
      "de": "abbiegen",
      "tr": "dönmek",
-     "en": "to turn"
+     "en": "to turn",
+     "it": "girare"
     }
    ]
   },
@@ -4554,7 +4926,8 @@
      "en": "confirmation",
      "es": "confirmación",
      "ku": "piştrastkirin",
-     "fr": "confirmation"
+     "fr": "confirmation",
+     "it": "conferma"
     },
     {
      "de": "Ehepaar",
@@ -4585,13 +4958,15 @@
      "tr": "bagaj rafı",
      "en": "luggage rack",
      "es": "portaequipajes",
-     "ku": "rawestgeha bagajê"
+     "ku": "rawestgeha bagajê",
+     "fr": "porte-bagages"
     },
     {
      "de": "Griff",
      "art": "der",
      "tr": "sap",
-     "en": "handle"
+     "en": "handle",
+     "it": "manubrio"
     },
     {
      "de": "Außentasche",
@@ -4759,7 +5134,8 @@
      "de": "Fach",
      "art": "das",
      "tr": "göz, bölme",
-     "en": "compartment, shelf"
+     "en": "compartment, shelf",
+     "it": "scomparto, ripiano"
     },
     {
      "de": "Referat",
@@ -4780,7 +5156,8 @@
      "en": "printout",
      "es": "copia impresa",
      "ku": "çap",
-     "fr": "impression"
+     "fr": "impression",
+     "it": "stampa"
     },
     {
      "de": "Vergleich",
@@ -4788,7 +5165,9 @@
      "tr": "karşılaştırma",
      "en": "comparison",
      "es": "comparación",
-     "ku": "berawird"
+     "ku": "berawird",
+     "fr": "comparaison",
+     "it": "confronto"
     },
     {
      "de": "Interview",
@@ -4796,7 +5175,8 @@
      "tr": "röportaj",
      "en": "interview",
      "es": "entrevista",
-     "ku": "hevpeyvîn"
+     "ku": "hevpeyvîn",
+     "fr": "entretien"
     },
     {
      "de": "verschieben",
@@ -4919,7 +5299,8 @@
      "de": "Hausverwaltung",
      "art": "die",
      "tr": "bina yönetimi",
-     "en": "property management"
+     "en": "property management",
+     "it": "amministrazione condominiale"
     },
     {
      "de": "Freiwillige",
@@ -4939,7 +5320,8 @@
      "tr": "çoklu priz",
      "en": "power strip",
      "es": "regleta",
-     "ku": "prîza piralî"
+     "ku": "prîza piralî",
+     "fr": "multiprise"
     },
     {
      "de": "Imkerin",
@@ -4982,7 +5364,8 @@
      "tr": "musluk",
      "en": "tap",
      "es": "grifo",
-     "ku": "mifteya avê"
+     "ku": "mifteya avê",
+     "fr": "robinet"
     },
     {
      "de": "anfallen",
@@ -4994,7 +5377,9 @@
      "tr": "sorumlu",
      "en": "responsible",
      "es": "responsable (Nominativ, femenino)",
-     "ku": "berpirsiyar"
+     "ku": "berpirsiyar",
+     "fr": "responsable",
+     "it": "responsabile"
     },
     {
      "de": "anbringen",
@@ -5110,7 +5495,8 @@
      "en": "version",
      "es": "versión",
      "ku": "guherto",
-     "fr": "version"
+     "fr": "version",
+     "it": "versione"
     },
     {
      "de": "Übergang",
@@ -5118,7 +5504,9 @@
      "tr": "geçiş",
      "en": "transition",
      "es": "transición",
-     "ku": "guhertin"
+     "ku": "guhertin",
+     "fr": "transition",
+     "it": "transizione"
     },
     {
      "de": "Auftritt",
@@ -5127,13 +5515,15 @@
      "en": "performance",
      "es": "actuación",
      "ku": "pêşandan",
-     "fr": "représentation"
+     "fr": "représentation",
+     "it": "spettacolo"
     },
     {
      "de": "Pfeife",
      "art": "die",
      "tr": "düdük",
-     "en": "whistle"
+     "en": "whistle",
+     "it": "fischietto"
     },
     {
      "de": "Verein",
@@ -5142,7 +5532,8 @@
      "en": "club",
      "es": "club",
      "ku": "klûb",
-     "fr": "club, association"
+     "fr": "club, association",
+     "it": "squadra, club"
     },
     {
      "de": "Hecke",
@@ -5150,13 +5541,15 @@
      "tr": "çit bitkisi",
      "en": "hedge",
      "es": "seto",
-     "ku": "çît"
+     "ku": "çît",
+     "fr": "haie"
     },
     {
      "de": "Kreide",
      "art": "die",
      "tr": "tebeşir",
-     "en": "chalk"
+     "en": "chalk",
+     "it": "gesso"
     },
     {
      "de": "Probe",
@@ -5164,7 +5557,8 @@
      "tr": "prova",
      "en": "rehearsal",
      "es": "ensayo",
-     "ku": "rehearsal"
+     "ku": "rehearsal",
+     "fr": "répétition"
     },
     {
      "de": "Bühne",
@@ -5173,7 +5567,8 @@
      "en": "stage",
      "es": "escenario",
      "ku": "qonax",
-     "fr": "scène"
+     "fr": "scène",
+     "it": "palcoscenico"
     },
     {
      "de": "auftreten",
@@ -5331,7 +5726,8 @@
      "en": "version",
      "es": "versión",
      "ku": "guherto",
-     "fr": "version"
+     "fr": "version",
+     "it": "versione"
     },
     {
      "de": "Einarbeitung",
@@ -5340,7 +5736,8 @@
      "en": "onboarding",
      "es": "incorporación",
      "ku": "destpêkirin",
-     "fr": "intégration"
+     "fr": "intégration",
+     "it": "inserimento"
     },
     {
      "de": "Zusage",
@@ -5384,7 +5781,8 @@
      "tr": "izlenebilir",
      "en": "traceable",
      "es": "rastreable",
-     "ku": "dikare were şopandin"
+     "ku": "dikare were şopandin",
+     "fr": "traçable"
     },
     {
      "de": "vorliegen",
@@ -5752,7 +6150,8 @@
      "en": "external",
      "es": "externo/a",
      "ku": "derveyî",
-     "fr": "extérieur"
+     "fr": "extérieur",
+     "it": "esterno"
     }
    ]
   },
@@ -5847,7 +6246,8 @@
      "tr": "toplama noktası",
      "en": "collection point",
      "es": "punto de recogida",
-     "ku": "cihê komkirinê"
+     "ku": "cihê komkirinê",
+     "fr": "point de collecte"
     },
     {
      "de": "Vermutung",
@@ -5873,7 +6273,9 @@
      "tr": "yayımlanma",
      "en": "publication",
      "es": "publicación",
-     "ku": "weşandin"
+     "ku": "weşandin",
+     "fr": "publication",
+     "it": "pubblicazione"
     },
     {
      "de": "Fotostrecke",
@@ -5918,7 +6320,9 @@
      "tr": "başlangıçta",
      "en": "originally",
      "es": "originalmente",
-     "ku": "di destpêkê de"
+     "ku": "di destpêkê de",
+     "fr": "à l'origine",
+     "it": "originariamente"
     },
     {
      "de": "zugespitzt",
@@ -6077,7 +6481,9 @@
      "tr": "karıştırmak",
      "en": "to confuse",
      "es": "confundir",
-     "ku": "tevlihev kirin"
+     "ku": "tevlihev kirin",
+     "fr": "embrouiller",
+     "it": "confondere"
     },
     {
      "de": "zögern",
@@ -6172,7 +6578,8 @@
      "en": "driveway",
      "es": "entrada de vehículos",
      "ku": "rêya ketinê",
-     "fr": "allée d'accès"
+     "fr": "allée d'accès",
+     "it": "vialetto"
     },
     {
      "de": "Mulde",
@@ -6192,7 +6599,8 @@
      "tr": "kooperatif",
      "en": "cooperative",
      "es": "cooperativa",
-     "ku": "kooperatîf"
+     "ku": "kooperatîf",
+     "fr": "coopérative"
     },
     {
      "de": "Kundschaft",
@@ -6207,7 +6615,8 @@
      "en": "effort",
      "es": "esfuerzo",
      "ku": "hewldan",
-     "fr": "effort"
+     "fr": "effort",
+     "it": "impegno"
     },
     {
      "de": "Rundbrief",
@@ -6245,7 +6654,8 @@
      "tr": "işletme yönetimi",
      "en": "management",
      "es": "gestión",
-     "ku": "rêveberî"
+     "ku": "rêveberî",
+     "fr": "direction"
     },
     {
      "de": "abschüssig",
@@ -6349,7 +6759,9 @@
      "tr": "saat aralığı",
      "en": "time slot",
      "es": "franja horaria",
-     "ku": "demjimêr"
+     "ku": "demjimêr",
+     "fr": "créneau horaire",
+     "it": "fascia oraria"
     },
     {
      "de": "Andrang",
@@ -6367,7 +6779,8 @@
      "de": "Pflege",
      "art": "die",
      "tr": "bakım",
-     "en": "maintenance"
+     "en": "maintenance",
+     "it": "manutenzione"
     },
     {
      "de": "Verpflichtung",
@@ -6427,7 +6840,9 @@
      "tr": "önceden",
      "en": "in advance",
      "es": "con antelación",
-     "ku": "berê"
+     "ku": "berê",
+     "fr": "à l'avance",
+     "it": "in anticipo"
     },
     {
      "de": "sichten",
@@ -6442,7 +6857,8 @@
     {
      "de": "vermerken",
      "tr": "not etmek",
-     "en": "to note down"
+     "en": "to note down",
+     "it": "annotare"
     },
     {
      "de": "vorzeitig",
@@ -6575,7 +6991,9 @@
      "tr": "belirti",
      "en": "sign",
      "es": "señal",
-     "ku": "nîşan"
+     "ku": "nîşan",
+     "fr": "signe",
+     "it": "cartello"
     },
     {
      "de": "Sichtprüfung",
@@ -6707,7 +7125,8 @@
      "tr": "bakış açısı",
      "en": "position",
      "es": "posición",
-     "ku": "helwest"
+     "ku": "helwest",
+     "fr": "position"
     },
     {
      "de": "Einwand",
@@ -6739,7 +7158,9 @@
      "tr": "işleyiş, süreç",
      "en": "procedure",
      "es": "procedimiento",
-     "ku": "rêbaz"
+     "ku": "rêbaz",
+     "fr": "procédure",
+     "it": "procedura"
     },
     {
      "de": "Messpunkt",
@@ -6753,7 +7174,9 @@
      "tr": "izlenen yöntem",
      "en": "procedure",
      "es": "procedimiento",
-     "ku": "rêbaz"
+     "ku": "rêbaz",
+     "fr": "procédure",
+     "it": "procedura"
     },
     {
      "de": "Unterstand",
@@ -6767,7 +7190,9 @@
      "tr": "konum",
      "en": "location",
      "es": "ubicación",
-     "ku": "cîh"
+     "ku": "cîh",
+     "fr": "emplacement",
+     "it": "posizione"
     },
     {
      "de": "Versuchsgelände",
@@ -6934,7 +7359,8 @@
      "en": "admission",
      "es": "entrada",
      "ku": "ketin",
-     "fr": "admission"
+     "fr": "admission",
+     "it": "ammissione"
     },
     {
      "de": "Ladenschluss",
@@ -6942,7 +7368,8 @@
      "tr": "dükkânın kapanışı",
      "en": "closing time",
      "es": "hora de cierre",
-     "ku": "demê girtina dikanê"
+     "ku": "demê girtina dikanê",
+     "fr": "heure de fermeture"
     },
     {
      "de": "Vergabe",
