@@ -42,7 +42,33 @@ enum ReadingStatus: Equatable {
     case done
 }
 
-/// Daily reading: one text per day and level, picked by date, plus reminder settings.
+/// The learner's own order of daily texts for one level: which text each coming day gets, and what was shown.
+/// Unread texts come first, in a random order, and nothing shown in the last weeks comes back soon.
+struct DailyPlan: Codable {
+    struct Shown: Codable {
+        let day: String
+        let id: String
+    }
+
+    /// "yyyy-MM-dd" → text id, today and the coming days.
+    var days: [String: String] = [:]
+    /// Texts that were the text of the day (also ones replaced after being finished), oldest first.
+    var shown: [Shown] = []
+
+    static func key(_ level: String) -> String { "dailyPlan.\(level)" }
+
+    static func load(_ level: String) -> DailyPlan {
+        guard let data = UserDefaults.standard.data(forKey: key(level)),
+              let plan = try? JSONDecoder().decode(DailyPlan.self, from: data) else { return DailyPlan() }
+        return plan
+    }
+
+    func save(_ level: String) {
+        if let data = try? JSONEncoder().encode(self) { UserDefaults.standard.set(data, forKey: DailyPlan.key(level)) }
+    }
+}
+
+/// Daily reading: one text per day and level from the learner's own plan, plus reminder settings.
 final class DailyModel: ObservableObject {
     static let levels = ["A1", "A2", "B1", "B2"]
 
@@ -54,6 +80,9 @@ final class DailyModel: ObservableObject {
 
     private let defaults = UserDefaults.standard
     private var observer: NSObjectProtocol?
+    private var plans: [String: DailyPlan] = [:]
+    /// How many days ahead the plan is kept (reminders look 14 days ahead).
+    private static let planDays = 21
 
     init() {
         level = UserDefaults.standard.string(forKey: "dailyLevel") ?? "A1"
@@ -83,32 +112,119 @@ final class DailyModel: ObservableObject {
         return max(0, calendar.dateComponents([.day], from: calendar.startOfDay(for: start), to: calendar.startOfDay(for: date)).day ?? 0)
     }
 
+    /// The text of `date` from the learner's plan (dates before today: from what was shown).
     func text(on date: Date, level: String? = nil) -> DailyText? {
-        guard let list = texts[level ?? self.level], !list.isEmpty else { return nil }
-        return list[DailyModel.dayNumber(date) % list.count]
+        let level = level ?? self.level
+        guard let list = texts[level], !list.isEmpty else { return nil }
+        let day = A1Model.dayString(date)
+        var plan = currentPlan(level)
+        if day < A1Model.dayString(Date()) {
+            return plan.shown.last { $0.day == day }.flatMap { text(id: $0.id) }
+        }
+        if plan.days[day] == nil {
+            extend(&plan, level: level, through: date)
+            plans[level] = plan
+            plan.save(level)
+        }
+        return plan.days[day].flatMap { text(id: $0) }
     }
 
-    var today: DailyText? { text(on: Date()) }
+    /// Today's text. Once it is finished (quiz 100 %), a new one takes its place, so the first card keeps changing.
+    var today: DailyText? {
+        guard let current = text(on: Date()) else { return nil }
+        guard isCompleted(current) else { return current }
+        return replaceToday(level: level) ?? current
+    }
 
-    /// All texts of the current level: not finished first, in their order.
-    func allTexts() -> [DailyText] {
+    /// The plan with past days moved to `shown` and finished texts removed from the coming days.
+    private func currentPlan(_ level: String) -> DailyPlan {
+        var plan = plans[level] ?? DailyPlan.load(level)
+        let today = A1Model.dayString(Date())
+        var changed = false
+        for (day, id) in plan.days.sorted(by: { $0.key < $1.key }) where day < today {
+            plan.shown.append(.init(day: day, id: id))
+            plan.days[day] = nil
+            changed = true
+        }
+        // A future day whose text the learner already finished from the list gets a new one later.
+        for (day, id) in plan.days where day > today && (state.quizzes[id] ?? 0) >= 100 {
+            plan.days[day] = nil
+            changed = true
+        }
+        if plan.shown.count > 400 { plan.shown.removeFirst(plan.shown.count - 400) }
+        if changed { plan.save(level) }
+        plans[level] = plan
+        return plan
+    }
+
+    /// Fills every missing day from today to `date` (at least `planDays` ahead).
+    private func extend(_ plan: inout DailyPlan, level: String, through date: Date) {
+        let calendar = Calendar.current
+        let start = calendar.startOfDay(for: Date())
+        let end = max(calendar.startOfDay(for: date), calendar.date(byAdding: .day, value: Self.planDays - 1, to: start) ?? start)
+        var day = start
+        while day <= end {
+            let key = A1Model.dayString(day)
+            if plan.days[key] == nil, let id = pick(level: level, plan: plan) { plan.days[key] = id }
+            guard let next = calendar.date(byAdding: .day, value: 1, to: day) else { break }
+            day = next
+        }
+    }
+
+    /// A text that is not planned and was not shown lately: never opened first, then opened but not finished,
+    /// then (when everything is done) finished ones for review. Random within each group.
+    private func pick(level: String, plan: DailyPlan) -> String? {
         let list = texts[level] ?? []
-        return list.filter { !isCompleted($0) } + list.filter { isCompleted($0) }
+        guard !list.isEmpty else { return nil }
+        let planned = Set(plan.days.values)
+        let recentCount = min(max(0, list.count - Self.planDays - 1), 45)
+        let recent = Set(plan.shown.suffix(recentCount).map(\.id))
+        let free = list.filter { !planned.contains($0.id) && !recent.contains($0.id) }
+        let groups = [free.filter { status($0) == .new },
+                      free.filter { !isCompleted($0) && status($0) != .new },
+                      free]
+        for group in groups where !group.isEmpty {
+            return group.randomElement()?.id
+        }
+        return list.filter { !planned.contains($0.id) }.randomElement()?.id ?? list.randomElement()?.id
     }
 
-    func text(id: String) -> DailyText? {
-        texts.values.lazy.flatMap { $0 }.first { $0.id == id }
+    /// Today's finished text goes to `shown` and an unfinished one becomes today's text: the next planned day's
+    /// if there is one, else a random unfinished text. Returns nil (and changes nothing) when every text is finished.
+    private func replaceToday(level: String) -> DailyText? {
+        var plan = currentPlan(level)
+        let today = A1Model.dayString(Date())
+        let list = texts[level] ?? []
+        let shownToday = Set(plan.shown.filter { $0.day == today }.map(\.id) + [plan.days[today]].compactMap { $0 })
+        let planned = plan.days.filter { $0.key > today }.sorted { $0.key < $1.key }
+        var nextID: String?
+        if let next = planned.first(where: { entry in text(id: entry.value).map { !isCompleted($0) } ?? false }) {
+            nextID = next.value
+            plan.days[next.key] = nil
+        } else {
+            nextID = list.filter { !isCompleted($0) && !shownToday.contains($0.id) }.randomElement()?.id
+        }
+        guard let nextID else { return nil }
+        if let old = plan.days[today] { plan.shown.append(.init(day: today, id: old)) }
+        plan.days[today] = nextID
+        plans[level] = plan
+        plan.save(level)
+        DispatchQueue.main.async { Reminders.refresh(self) }
+        return text(id: nextID)
     }
 
-    /// Earlier days' texts, newest first (at most one full round of the pool).
+    /// Texts shown on earlier days (and finished today's texts), newest first, each text once.
     func archive(days: Int = 30) -> [(date: Date, text: DailyText)] {
-        guard let list = texts[level], !list.isEmpty else { return [] }
+        let plan = currentPlan(level)
+        let parser = DateFormatter()
+        parser.calendar = Calendar(identifier: .gregorian)
+        parser.dateFormat = "yyyy-MM-dd"
+        var seen = Set<String>()
         var result: [(date: Date, text: DailyText)] = []
-        let limit = min(days, list.count - 1)
-        guard limit > 0 else { return [] }
-        for offset in 1...limit {
-            let date = Calendar.current.date(byAdding: .day, value: -offset, to: Date()) ?? Date()
-            if let item = text(on: date) { result.append((date, item)) }
+        for entry in plan.shown.reversed() where !seen.contains(entry.id) {
+            seen.insert(entry.id)
+            if let text = text(id: entry.id), let date = parser.date(from: entry.day) { result.append((date, text)) }
+            if result.count >= days { break }
         }
         return result
     }
