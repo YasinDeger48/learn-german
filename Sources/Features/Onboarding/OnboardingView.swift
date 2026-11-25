@@ -64,6 +64,8 @@ struct OnboardingView: View {
                 .font(DS.text(16))
                 .foregroundColor(DS.ink.opacity(0.8))
                 .padding(.top, 6)
+            // Seven languages: the list scrolls on small phones, the start button stays on screen.
+            ScrollView(showsIndicators: false) {
             VStack(spacing: 8) {
                 ForEach(AppLanguage.offered) { lang in
                     let active = lang == language
@@ -82,7 +84,7 @@ struct OnboardingView: View {
                             }
                         }
                         .padding(.horizontal, 16)
-                        .frame(minHeight: 54)
+                        .frame(minHeight: 50)
                         .background(active ? DS.night : DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
                         .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(active ? Color.clear : DS.hairline, lineWidth: 1))
                     }
@@ -90,8 +92,10 @@ struct OnboardingView: View {
                     .accessibilityAddTraits(active ? .isSelected : [])
                 }
             }
+            .padding(.vertical, 2)
+            }
             .padding(.top, 22)
-            Spacer()
+            Spacer(minLength: 12)
             Text(preview("onboarding.changeLater"))
                 .font(DS.text(12))
                 .foregroundColor(DS.muted)
