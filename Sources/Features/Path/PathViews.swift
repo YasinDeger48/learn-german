@@ -178,23 +178,35 @@ extension A1Model {
 
 struct UnitPicture: View {
     let unit: LearningUnit
-    var height: CGFloat
+    /// nil: the whole picture at its own shape (3:2). A height crops it from the top, so faces stay in view.
+    var height: CGFloat? = nil
     var dimmed = false
 
     var body: some View {
-        Group {
-            if let image = unit.image {
-                Image(uiImage: image).resizable().scaledToFill()
-            } else {
-                LinearGradient(colors: [DS.gold.opacity(0.6), DS.gold.opacity(0.25)], startPoint: .topLeading, endPoint: .bottomTrailing)
-            }
+        frame
+            .overlay(alignment: .top) { picture }
+            .clipped()
+            .grayscale(dimmed ? 1 : 0)
+            .opacity(dimmed ? 0.55 : 1)
+            .accessibilityHidden(true)
+    }
+
+    @ViewBuilder
+    private var frame: some View {
+        if let height {
+            Color.clear.frame(maxWidth: .infinity).frame(height: height)
+        } else {
+            Color.clear.frame(maxWidth: .infinity).aspectRatio(3 / 2, contentMode: .fit)
         }
-        .frame(maxWidth: .infinity)
-        .frame(height: height)
-        .clipped()
-        .grayscale(dimmed ? 1 : 0)
-        .opacity(dimmed ? 0.55 : 1)
-        .accessibilityHidden(true)
+    }
+
+    @ViewBuilder
+    private var picture: some View {
+        if let image = unit.image {
+            Image(uiImage: image).resizable().scaledToFill()
+        } else {
+            LinearGradient(colors: [DS.gold.opacity(0.6), DS.gold.opacity(0.25)], startPoint: .topLeading, endPoint: .bottomTrailing)
+        }
     }
 }
 
@@ -381,7 +393,7 @@ struct UnitView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 14) {
-                UnitPicture(unit: unit, height: 210)
+                UnitPicture(unit: unit)
                     .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
                 VStack(alignment: .leading, spacing: 4) {
                     Text(t("path.unitOf", unit.level, unit.number).uppercased()).font(.caption.weight(.bold)).foregroundColor(DS.goldDeep)
@@ -573,19 +585,21 @@ struct UnitWordsView: View {
             A1Speaker.shared.say(word.full)
         } label: {
             VStack(spacing: 6) {
-                Group {
-                    if let name = word.picture, let image = Covers.image(name) {
-                        Image(uiImage: image).resizable().scaledToFill()
-                    } else {
-                        ZStack {
-                            color.opacity(0.12)
-                            Text(String(word.de.prefix(1))).font(.system(size: 34, weight: .heavy)).foregroundColor(color.opacity(0.7))
+                // Word pictures are square: show them whole in a square box.
+                Color.clear
+                    .frame(maxWidth: .infinity)
+                    .aspectRatio(1, contentMode: .fit)
+                    .overlay {
+                        if let name = word.picture, let image = Covers.image(name) {
+                            Image(uiImage: image).resizable().scaledToFill()
+                        } else {
+                            ZStack {
+                                color.opacity(0.12)
+                                Text(String(word.de.prefix(1))).font(.system(size: 34, weight: .heavy)).foregroundColor(color.opacity(0.7))
+                            }
                         }
                     }
-                }
-                .frame(height: 96)
-                .frame(maxWidth: .infinity)
-                .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                 (word.article.map { Text($0 + " ").foregroundColor(color) + Text(word.de).foregroundColor(DS.ink) } ?? Text(word.de).foregroundColor(DS.ink))
                     .font(.system(size: 13, weight: .semibold))
                     .lineLimit(1)

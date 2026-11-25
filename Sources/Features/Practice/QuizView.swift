@@ -47,6 +47,7 @@ struct A1QuizView: View {
     @Environment(\.dismiss) private var dismiss
     /// Today's free questions are used up (free version only).
     @State private var limitReached = false
+    @State private var askFinish = false
     @FocusState private var typingFocused: Bool
 
     var body: some View {
@@ -315,10 +316,43 @@ struct A1QuizView: View {
                 case .typing: typingArea(q)
                 }
                 if revealed { feedback(q) }
+                Button(role: .destructive) {
+                    askFinish = true
+                } label: {
+                    Label(t("done.finish"), systemImage: "flag.checkered")
+                        .font(.system(size: 16, weight: .semibold))
+                        .frame(maxWidth: .infinity, minHeight: 44)
+                }
+                .buttonStyle(.bordered)
+                .padding(.top, 8)
             }
             .padding(16)
         }
         .scrollDismissesKeyboard(.interactively)
+        .confirmationDialog(t("quiz.finishAsk"), isPresented: $askFinish, titleVisibility: .visible) {
+            Button(t("done.finish"), role: .destructive) { finishNow() }
+            Button(t("common.cancel"), role: .cancel) {}
+        } message: {
+            Text(exam ? t("quiz.finishExamNote") : t("quiz.finishNote"))
+        }
+    }
+
+    /// Ends the round early. In an exam the unanswered questions count as wrong (the score stays out of the full round);
+    /// in practice the round is cut to the answered questions. Nothing answered yet: just leave.
+    private func finishNow() {
+        A1Speaker.shared.stop()
+        typingFocused = false
+        let answered = min(session.count, revealed ? index + 1 : index)
+        if exam {
+            missed += session[answered...]
+        } else if answered == 0 {
+            dismiss()
+            return
+        } else {
+            session = Array(session.prefix(answered))
+        }
+        resetAnswer()
+        index = session.count
     }
 
     private func promptCard(_ q: A1Question) -> some View {

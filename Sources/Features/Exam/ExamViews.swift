@@ -217,6 +217,7 @@ struct ExamRunView: View {
     @State private var scores: [String: Int] = [:]
     @State private var speakingTask: SpeakingTask?
     @State private var result: (attempt: ExamAttempt, certificate: Certificate?)?
+    @Environment(\.dismiss) private var dismiss
 
     var body: some View {
         ScrollView {
@@ -232,6 +233,10 @@ struct ExamRunView: View {
 
                 if let result {
                     resultCard(result.attempt, result.certificate)
+                    Button(t("done.finish")) { dismiss() }
+                        .font(.system(size: 16, weight: .semibold))
+                        .frame(maxWidth: .infinity, minHeight: 48)
+                        .buttonStyle(.bordered)
                 }
             }
             .padding(.horizontal, DS.gutter)
