@@ -115,33 +115,63 @@ enum UnitStore {
 
 // MARK: - Questions made from a unit
 
+/// One word a unit teaches: A1 the words on the unit's picture cards, A2+ the unit's own word list.
+struct UnitDrillWord {
+    let de: String
+    let art: String?
+    let meaning: String
+    var full: String { art.map { "\($0) \(de)" } ?? de }
+}
+
 extension A1Model {
-    func unitWordSession(_ unit: LearningUnit, count: Int = 10) -> [A1Question] {
-        if let vocab = unit.vocab, vocab.count >= 4 { return unitVocabSession(unit, vocab: vocab, count: count) }
-        let per = max(1, count / max(1, unit.themes.count))
-        return Array(unit.themes.flatMap { session(theme: $0, count: per) }.shuffled().prefix(count))
+    /// Exactly the words the unit's Words page shows (the same choice as UnitWordsView), so practice and the
+    /// unit test never ask words the learner has not met in this unit. (Before, A1 drew from the whole theme:
+    /// 40–67 words and every kind of exercise; unit 12's theme was not even about its cards.)
+    func unitDrillWords(_ unit: LearningUnit) -> [UnitDrillWord] {
+        if let vocab = unit.vocab, vocab.count >= 4 {
+            return vocab.map { UnitDrillWord(de: $0.de, art: $0.art, meaning: $0.meaning) }
+        }
+        let all = content?.words ?? []
+        let byID = Dictionary(all.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
+        var picked = (unit.pictures ?? []).compactMap { byID[$0] }
+        if picked.isEmpty { picked = Array(all.filter { unit.themes.contains($0.theme) && $0.isNoun }.prefix(16)) }
+        return picked.map { UnitDrillWord(de: $0.de, art: $0.isNoun ? $0.type : nil, meaning: $0.mean.text) }
     }
 
-    /// Meaning, German word and article questions made from the unit's own word list.
-    func unitVocabSession(_ unit: LearningUnit, vocab: [UnitWord], count: Int) -> [A1Question] {
+    /// Every word of the unit once (up to `count`), each with a different kind of question in turn:
+    /// meaning, the German word, the article (nouns), listening. Wrong options come from the same unit.
+    func unitWordSession(_ unit: LearningUnit, count: Int = 16) -> [A1Question] {
+        let words = unitDrillWords(unit)
+        guard words.count >= 4 else { return [] }
         let label = unit.title.text
         var out: [A1Question] = []
-        for (index, word) in vocab.enumerated() {
-            let wrongMeanings = vocab.filter { $0.meaning != word.meaning }.map(\.meaning).shuffled().prefix(3)
-            out.append(A1Question(id: "uv-\(unit.id)-\(index)", mode: .wordToTr, kind: .choice, label: label, prompt: word.full,
-                                  speakAfter: word.full, options: ([word.meaning] + wrongMeanings).shuffled(), answer: word.meaning,
-                                  explanation: "\(word.full) = \(word.meaning)"))
-            let wrongWords = vocab.filter { $0.full != word.full }.map(\.full).shuffled().prefix(3)
-            out.append(A1Question(id: "uvt-\(unit.id)-\(index)", mode: .trToWord, kind: .choice, label: label, prompt: word.meaning,
-                                  speakAfter: word.full, options: ([word.full] + wrongWords).shuffled(), answer: word.full,
-                                  explanation: "\(word.full) = \(word.meaning)"))
-            if let art = word.art {
-                out.append(A1Question(id: "uva-\(unit.id)-\(index)", mode: .artikel, kind: .choice, label: label,
+        for (index, word) in words.shuffled().prefix(count).enumerated() {
+            let key = "\(unit.id)-\(word.de)"
+            let others = words.filter { $0.de != word.de }
+            let kinds = word.art != nil ? 4 : 3
+            switch (index + Int.random(in: 0..<kinds)) % kinds {
+            case 0:
+                let wrong = others.map(\.meaning).filter { $0 != word.meaning }.shuffled().prefix(3)
+                out.append(A1Question(id: "uw-\(key)", mode: .wordToTr, kind: .choice, label: label, prompt: word.full,
+                                      speakAfter: word.full, options: ([word.meaning] + wrong).shuffled(), answer: word.meaning,
+                                      explanation: "\(word.full) = \(word.meaning)"))
+            case 1:
+                let wrong = others.map(\.full).shuffled().prefix(3)
+                out.append(A1Question(id: "uwt-\(key)", mode: .trToWord, kind: .choice, label: label, prompt: word.meaning,
+                                      speakAfter: word.full, options: ([word.full] + wrong).shuffled(), answer: word.full,
+                                      explanation: "\(word.full) = \(word.meaning)"))
+            case 2:
+                let wrong = others.map(\.full).shuffled().prefix(3)
+                out.append(A1Question(id: "uwl-\(key)", mode: .listen, kind: .choice, label: label, prompt: t("q.listenWord"),
+                                      speakFirst: word.full, options: ([word.full] + wrong).shuffled(), answer: word.full,
+                                      explanation: "\(word.full) = \(word.meaning)"))
+            default:
+                out.append(A1Question(id: "uwa-\(key)", mode: .artikel, kind: .choice, label: label,
                                       prompt: "___ \(word.de)", detail: word.meaning, speakAfter: word.full,
-                                      options: ["der", "die", "das"], answer: art, explanation: word.full))
+                                      options: ["der", "die", "das"], answer: word.art ?? "der", explanation: word.full))
             }
         }
-        return Array(out.shuffled().prefix(count))
+        return out
     }
 
     func unitGrammarSession(_ unit: LearningUnit, count: Int = 8) -> [A1Question] {
