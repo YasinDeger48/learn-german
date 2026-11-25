@@ -480,6 +480,7 @@ struct NumberQuizSection: View {
         guard let number = number, picked == nil else { return }
         picked = option
         streak = option == number ? streak + 1 : 0
+        AnswerSound.play(correct: option == number)
         if option == number { StreakStore.shared.record() }
     }
 

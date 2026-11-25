@@ -10,6 +10,7 @@ struct SettingsView: View {
     @AppStorage(Reminders.streakKey) private var notifyStreak = true
     @AppStorage(ReadingVoice.storageKey) private var voiceRaw = ReadingVoice.female.rawValue
     @ObservedObject private var ambience = AmbiencePlayer.shared
+    @AppStorage(AnswerSound.storageKey) private var answerSounds = true
 
     private var reminderTime: Binding<Date> {
         Binding(get: {
@@ -63,6 +64,15 @@ struct SettingsView: View {
                         A1Speaker.shared.say("Hallo! Ich bin Lina. Wir lernen zusammen Deutsch.")
                     } label: {
                         Label(t("voice.try"), systemImage: "speaker.wave.2.fill")
+                    }
+                    Toggle(isOn: $answerSounds) {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(t("sounds.answers"))
+                            Text(t("sounds.answersSub")).font(.caption).foregroundColor(.secondary)
+                        }
+                    }
+                    .onChange(of: answerSounds) { on in
+                        if on { AnswerSound.play(correct: true) }
                     }
                     Toggle(isOn: $ambience.enabled) {
                         VStack(alignment: .leading, spacing: 2) {

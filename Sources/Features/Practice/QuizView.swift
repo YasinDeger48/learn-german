@@ -539,6 +539,7 @@ struct A1QuizView: View {
         if !free { pro.countAnswer() }
         let feedback = UINotificationFeedbackGenerator()
         feedback.notificationOccurred(correct ? .success : .error)
+        AnswerSound.play(correct: correct)
     }
 
     private func feedback(_ q: A1Question) -> some View {

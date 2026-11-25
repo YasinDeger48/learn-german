@@ -501,6 +501,8 @@
  "voice.section": "Voz",
  "voice.try": "Escuchar la voz",
  "voice.footer": "Los textos de lectura usan la voz que elijas. Las palabras y frases se dicen con una voz natural.",
+ "sounds.answers": "Sonidos de respuesta",
+ "sounds.answersSub": "Un sonido muy suave y corto para las respuestas correctas e incorrectas.",
  "ambience.setting": "Sonidos de ambiente",
  "ambience.settingSub": "Mientras se lee en voz alta el texto del día, suenan de fondo un café, un tren, la lluvia y más.",
  "voice.fallback": "La voz natural de este texto no se pudo abrir ahora (quizá no hay internet); lee una voz de reserva.",

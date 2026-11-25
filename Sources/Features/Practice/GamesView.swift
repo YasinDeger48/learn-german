@@ -86,6 +86,7 @@ struct A1SprintView: View {
         let ok = word.type == article
         score = max(0, score + (ok ? 1 : -1))
         flash = ok ? .green : .red
+        AnswerSound.play(correct: ok)
         if !ok { A1Speaker.shared.say(word.withArticle) }
         current = (current + 1) % nouns.count
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) { flash = nil }

@@ -501,6 +501,8 @@
  "voice.section": "Voice",
  "voice.try": "Hear the voice",
  "voice.footer": "Reading texts use the voice you choose. Words and sentences are spoken in a natural voice.",
+ "sounds.answers": "Answer sounds",
+ "sounds.answersSub": "A very soft, short sound for right and wrong answers.",
  "ambience.setting": "Background sounds",
  "ambience.settingSub": "While a daily text is read aloud, café, train, rain and other sounds play softly behind it.",
  "voice.fallback": "The natural voice for this text could not be opened right now (maybe no internet); a backup voice is reading.",
