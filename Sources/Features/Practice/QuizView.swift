@@ -50,6 +50,8 @@ struct A1QuizView: View {
     /// Today's free questions are used up (free version only).
     @State private var limitReached = false
     @State private var askFinish = false
+    /// Questions left unanswered when the round was finished early (they give no XP).
+    @State private var skipped = 0
     @FocusState private var typingFocused: Bool
 
     var body: some View {
@@ -119,7 +121,7 @@ struct A1QuizView: View {
     private var perfect: Bool { !session.isEmpty && score == session.count && session.count >= 5 }
 
     private var sessionXP: Int {
-        score * XP.correct * (review ? XP.mistakeMultiplier : 1) + (session.count - score) * XP.wrong
+        score * XP.correct * (review ? XP.mistakeMultiplier : 1) + max(0, session.count - score - skipped) * XP.wrong
             + (perfect ? XP.perfectBonus : 0)
     }
 
@@ -265,6 +267,7 @@ struct A1QuizView: View {
         index = 0
         score = 0
         missed = []
+        skipped = 0
         examSaved = false
         combo = 0
         bestCombo = 0
@@ -362,14 +365,16 @@ struct A1QuizView: View {
         .overlay(alignment: .top) { Divider() }
     }
 
-    /// Ends the round early. In an exam the unanswered questions count as wrong (the score stays out of the full round);
-    /// in practice the round is cut to the answered questions. Nothing answered yet: just leave.
+    /// Ends the round early. In an exam, and in every graded round (onFinish: unit test, reading quiz, memorize…),
+    /// the unanswered questions count as wrong, so 1 of 1 never passes a unit. Plain practice is cut to the
+    /// answered questions. Nothing answered yet in practice: just leave.
     private func finishNow() {
         A1Speaker.shared.stop()
         typingFocused = false
         let answered = min(session.count, revealed ? index + 1 : index)
-        if exam {
+        if exam || onFinish != nil {
             missed += session[answered...]
+            skipped = session.count - answered
         } else if answered == 0 {
             dismiss()
             return
