@@ -16,6 +16,7 @@ import hashlib
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 
@@ -87,7 +88,7 @@ def main():
     for text in texts:
         digest = hashlib.sha1(text.encode('utf-8')).hexdigest()[:12]
         path = os.path.join(folder, f'{digest}.mp3')
-        if os.path.exists(path):
+        if os.path.exists(path) and os.path.getsize(path) > 500:
             items[key_of(text)] = digest
         else:
             jobs.append((text, digest, path))
@@ -104,19 +105,23 @@ def main():
 
     def make(job):
         text, digest, path = job
-        for attempt in range(3):
+        # Google allows a limited number of requests per minute: wait and try again on 429.
+        for attempt in range(8):
             try:
-                open(path, 'wb').write(synthesize(key, text))
+                audio = synthesize(key, text)
+                with open(path, 'wb') as f:  # only after a good answer, so a failure leaves no empty file
+                    f.write(audio)
                 return job, None
             except urllib.error.HTTPError as e:
-                if e.code != 429 or attempt == 2:
+                if e.code != 429:
                     return job, f'{e.code}'
             except OSError as e:
-                if attempt == 2:
+                if attempt >= 3:
                     return job, str(e)[:60]
+            time.sleep(min(60, 5 * 2 ** attempt))
         return job, 'retries'
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         for n, (job, error) in enumerate(pool.map(make, jobs), 1):
             if error:
                 failed.append((job[0], error))
