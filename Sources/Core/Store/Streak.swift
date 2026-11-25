@@ -12,6 +12,14 @@ struct StreakState: Codable {
     var totalXP = 0
     /// Daily XP goal: 20 relaxed, 50 regular, 100 serious.
     var goal = 50
+    /// Days a streak freeze covered ("yyyy-MM-dd").
+    var frozen: [String] = []
+    /// Streak freezes in stock (at most 2).
+    var freezes = 0
+    /// Period of the last free freeze ("M2026-11" free, "W2026-48" Pro).
+    var freezeGrant = ""
+    /// Practice rounds of 5+ questions without a mistake.
+    var perfectRounds = 0
 
     init() {}
 
@@ -22,6 +30,10 @@ struct StreakState: Codable {
         xp = try c.decodeIfPresent([String: Int].self, forKey: .xp) ?? [:]
         totalXP = try c.decodeIfPresent(Int.self, forKey: .totalXP) ?? 0
         goal = try c.decodeIfPresent(Int.self, forKey: .goal) ?? 50
+        frozen = try c.decodeIfPresent([String].self, forKey: .frozen) ?? []
+        freezes = try c.decodeIfPresent(Int.self, forKey: .freezes) ?? 0
+        freezeGrant = try c.decodeIfPresent(String.self, forKey: .freezeGrant) ?? ""
+        perfectRounds = try c.decodeIfPresent(Int.self, forKey: .perfectRounds) ?? 0
     }
 }
 
@@ -34,6 +46,9 @@ enum XP {
     static let readingDone = 20
     static let readingTried = 10
     static let goals = [20, 50, 100]
+    /// Correct answers in "My mistakes" count double.
+    static let mistakeMultiplier = 2
+    static let maxFreezes = 2
 }
 
 final class StreakStore: ObservableObject {
@@ -146,17 +161,59 @@ final class StreakStore: ObservableObject {
 
     var activeToday: Bool { isActive(Date()) }
 
+    func isFrozen(_ date: Date) -> Bool { state.frozen.contains(A1Model.dayString(date)) }
+
     /// Days in a row ending today, or ending yesterday while today has no activity yet.
+    /// A day covered by a streak freeze keeps the streak alive but does not add to it.
     var current: Int {
         var day = activeToday ? Date() : (calendar.date(byAdding: .day, value: -1, to: Date()) ?? Date())
         var count = 0
-        while isActive(day) {
-            count += 1
+        while isActive(day) || isFrozen(day) {
+            if isActive(day) { count += 1 }
             guard let previous = calendar.date(byAdding: .day, value: -1, to: day) else { break }
             day = previous
         }
         return count
     }
+
+    // MARK: Streak freeze
+
+    /// Gives the free freeze of this period (free: one a month, Pro: one a week) and uses freezes for
+    /// missed days right before today, so a streak survives one or two missed days.
+    func refreshFreezes(isPro: Bool) {
+        var cal = calendar
+        cal.firstWeekday = 2
+        let now = Date()
+        let period = isPro
+            ? "W\(cal.component(.yearForWeekOfYear, from: now))-\(cal.component(.weekOfYear, from: now))"
+            : "M\(cal.component(.year, from: now))-\(cal.component(.month, from: now))"
+        if state.freezeGrant != period {
+            state.freezeGrant = period
+            state.freezes = min(XP.maxFreezes, state.freezes + 1)
+        }
+        // Missed days before today (newest first), then check there was a streak before them.
+        var missed: [Date] = []
+        var day = cal.date(byAdding: .day, value: -1, to: now) ?? now
+        while !isActive(day) && !isFrozen(day) && missed.count <= XP.maxFreezes {
+            missed.append(day)
+            guard let previous = cal.date(byAdding: .day, value: -1, to: day) else { break }
+            day = previous
+        }
+        if !missed.isEmpty, missed.count <= state.freezes, isActive(day) || isFrozen(day) {
+            state.frozen.append(contentsOf: missed.map { A1Model.dayString($0) })
+            state.frozen = Array(state.frozen.suffix(60))
+            state.freezes -= missed.count
+        }
+        save()
+    }
+
+    func addPerfectRound() {
+        state.perfectRounds += 1
+        save()
+    }
+
+    /// Days on which the daily goal (as set now) was reached.
+    var goalDays: Int { state.xp.values.filter { $0 >= state.goal }.count }
 
     /// The streak ends tonight unless the learner does something today.
     var atRisk: Bool { !activeToday && current > 0 }

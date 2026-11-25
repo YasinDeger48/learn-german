@@ -150,6 +150,8 @@ struct PaywallView: View {
             Divider().padding(.leading, 42)
             featureRow("nosign", .init(red: 0.784, green: 0.196, blue: 0.227), t("pro.feature.noAds"))
             Divider().padding(.leading, 42)
+            featureRow("snowflake", .init(red: 0.36, green: 0.64, blue: 0.92), t("pro.feature.freeze"))
+            Divider().padding(.leading, 42)
             featureRow("arrow.uturn.backward", .init(red: 0.082, green: 0.478, blue: 0.255), t("pro.feature.mistakes"))
         }
         .padding(.horizontal, 14)

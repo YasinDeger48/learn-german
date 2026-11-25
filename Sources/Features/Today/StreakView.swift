@@ -44,6 +44,7 @@ struct StreakView: View {
                     hero
                     thisWeek
                     stats
+                    freezeCard
                     calendarCard
                     actions
                 }
@@ -93,13 +94,17 @@ struct StreakView: View {
         return HStack(spacing: 0) {
             ForEach(Array(week.enumerated()), id: \.offset) { index, day in
                 let active = streak.isActive(day)
+                let frozen = !active && streak.isFrozen(day)
                 let isToday = Calendar.current.isDate(day, inSameDayAs: today)
                 VStack(spacing: 6) {
                     Text(dayLetters[index]).font(.caption.weight(.semibold)).foregroundColor(isToday ? DS.ink : DS.muted)
                     ZStack {
                         Circle()
-                            .fill(active ? Color.orange : (day > today ? Color.clear : DS.chip))
+                            .fill(active ? Color.orange : (frozen ? Self.ice : (day > today ? Color.clear : DS.chip)))
                             .frame(width: 34, height: 34)
+                        if frozen {
+                            Image(systemName: "snowflake").font(.system(size: 13, weight: .bold)).foregroundColor(.white)
+                        }
                         if isToday && !active {
                             Circle().stroke(Color.orange, style: StrokeStyle(lineWidth: 2, dash: [4, 3])).frame(width: 34, height: 34)
                         }
@@ -124,6 +129,27 @@ struct StreakView: View {
             tile("\(streak.totalDays)", t("streak.totalDays"), "calendar", DS.accent)
             tile("\(streak.actions(on: Date()))", t("streak.todayActions"), "checkmark.circle.fill", DS.success)
         }
+    }
+
+    static let ice = Color(red: 0.36, green: 0.64, blue: 0.92)
+
+    /// Streak freezes: how many, what they do, how to get more.
+    private var freezeCard: some View {
+        HStack(spacing: 12) {
+            Image(systemName: "snowflake")
+                .font(.system(size: 20, weight: .bold))
+                .foregroundColor(.white)
+                .frame(width: 44, height: 44)
+                .background(Self.ice, in: RoundedRectangle(cornerRadius: 13, style: .continuous))
+            VStack(alignment: .leading, spacing: 2) {
+                Text(t("freeze.title", streak.state.freezes, XP.maxFreezes)).font(.headline)
+                Text(t("freeze.body")).font(.footnote).foregroundColor(DS.muted)
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(14)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .accessibilityElement(children: .combine)
     }
 
     private func tile(_ value: String, _ label: String, _ icon: String, _ color: Color) -> some View {
@@ -153,7 +179,8 @@ struct StreakView: View {
                     ForEach(weeks[w], id: \.self) { day in
                         let count = streak.actions(on: day)
                         RoundedRectangle(cornerRadius: 6, style: .continuous)
-                            .fill(day > today ? Color.clear : (count == 0 ? DS.chip : Color.orange.opacity(intensity(count))))
+                            .fill(day > today ? Color.clear
+                                  : (count == 0 ? (streak.isFrozen(day) ? Self.ice : DS.chip) : Color.orange.opacity(intensity(count))))
                             .frame(maxWidth: .infinity)
                             .frame(height: 28)
                             .overlay {

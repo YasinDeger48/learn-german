@@ -42,6 +42,8 @@ struct A1QuizView: View {
     @State private var combo = 0
     @State private var bestCombo = 0
     @State private var startedAt = Date()
+    @State private var newBadges: [Badge] = []
+    @State private var celebration: Celebration?
     @Environment(\.dismiss) private var dismiss
     /// Today's free questions are used up (free version only).
     @State private var limitReached = false
@@ -68,6 +70,7 @@ struct A1QuizView: View {
         .navigationTitle(title)
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear { A1Speaker.shared.stop() }
+        .sheet(item: $celebration) { CelebrationView(badges: $0.badges) }
         .onAppear {
             if !started {
                 session = makeSession()
@@ -109,7 +112,8 @@ struct A1QuizView: View {
     private var perfect: Bool { !session.isEmpty && score == session.count && session.count >= 5 }
 
     private var sessionXP: Int {
-        score * XP.correct + (session.count - score) * XP.wrong + (perfect ? XP.perfectBonus : 0)
+        score * XP.correct * (review ? XP.mistakeMultiplier : 1) + (session.count - score) * XP.wrong
+            + (perfect ? XP.perfectBonus : 0)
     }
 
     private var summary: some View {
@@ -134,6 +138,18 @@ struct A1QuizView: View {
                     summaryTile(String(format: "%d:%02d", seconds / 60, seconds % 60), t("done.time"), DS.success)
                 }
                 goalCard
+                ForEach(newBadges) { badge in
+                    HStack(spacing: 12) {
+                        BadgeIcon(badge: badge, earned: true, size: 44)
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(t("done.newBadge")).font(.caption.weight(.semibold)).foregroundColor(DS.goldDeep)
+                            Text(badge.title).font(.system(size: 16, weight: .bold))
+                        }
+                        Spacer(minLength: 0)
+                    }
+                    .padding(14)
+                    .background(DS.gold.opacity(0.16), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                }
                 if !missed.isEmpty {
                     VStack(alignment: .leading, spacing: 8) {
                         Text(t("quiz.missedSection")).font(.headline)
@@ -171,9 +187,19 @@ struct A1QuizView: View {
             if !examSaved {
                 examSaved = true
                 if exam { model.saveExam(points) }
-                if perfect { StreakStore.shared.addXP(XP.perfectBonus) }
+                if perfect {
+                    StreakStore.shared.addXP(XP.perfectBonus)
+                    StreakStore.shared.addPerfectRound()
+                }
                 onFinish?(score, total)
-                ads.quizFinished(isPro: pro.isPro)
+                BadgeStore.shared.refresh()
+                newBadges = BadgeStore.shared.takePending()
+                // A streak milestone gets the big celebration; other badges stay on this screen.
+                if newBadges.contains(where: { $0.kind == .streak && BadgeStore.milestones.contains($0.target) }) {
+                    celebration = Celebration(badges: newBadges)
+                } else {
+                    ads.quizFinished(isPro: pro.isPro)
+                }
             }
         }
     }
@@ -475,6 +501,7 @@ struct A1QuizView: View {
             combo = 0
         }
         model.record(q, correct: correct)
+        if review && correct { StreakStore.shared.addXP(XP.correct * (XP.mistakeMultiplier - 1)) }
         if !free { pro.countAnswer() }
         let feedback = UINotificationFeedbackGenerator()
         feedback.notificationOccurred(correct ? .success : .error)

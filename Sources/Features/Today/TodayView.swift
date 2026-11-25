@@ -7,6 +7,7 @@ struct TodayView: View {
     @EnvironmentObject private var levels: LevelModels
     let open: (AppRoute) -> Void
     @State private var showStreak = false
+    @State private var showBadges = false
 
     var body: some View {
         ScrollView {
@@ -29,13 +30,15 @@ struct TodayView: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack(spacing: 8) {
                     StreakButton { showStreak = true }
-                    XPChip()
+                    Button { showBadges = true } label: { XPChip() }
+                        .accessibilityHint(t("badges.title"))
                 }
             }
         }
         .sheet(isPresented: $showStreak) {
             StreakView(open: open).environmentObject(daily)
         }
+        .sheet(isPresented: $showBadges) { BadgesView() }
     }
 
     /// Quick practice follows the level chosen above (A1, A2 …); levels without practice fall back to A1.

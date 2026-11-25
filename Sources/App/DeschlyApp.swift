@@ -74,6 +74,8 @@ enum AppTab: Int, CaseIterable {
 /// Standard iOS tab bar; every tab has its own navigation stack.
 struct RootView: View {
     @EnvironmentObject private var pro: ProStore
+    @Environment(\.scenePhase) private var scenePhase
+    @State private var celebration: Celebration?
     @State private var tab: AppTab = .today
     @State private var todayPath = NavigationPath()
 
@@ -100,7 +102,20 @@ struct RootView: View {
         .onAppear {
             // Consent and ads only for the free version, after onboarding.
             if !pro.isPro { AdsManager.shared.start() }
+            checkProgress()
         }
+        .onChange(of: scenePhase) { phase in
+            if phase == .active { checkProgress() }
+        }
+        .sheet(item: $celebration) { CelebrationView(badges: $0.badges) }
+    }
+
+    /// Streak freezes for missed days, then badges earned outside a quiz (shown once).
+    private func checkProgress() {
+        StreakStore.shared.refreshFreezes(isPro: pro.isPro)
+        BadgeStore.shared.refresh()
+        let pending = BadgeStore.shared.takePending()
+        if !pending.isEmpty && celebration == nil { celebration = Celebration(badges: pending) }
     }
 }
 
