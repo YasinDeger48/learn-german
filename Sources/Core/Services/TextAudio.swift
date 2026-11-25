@@ -205,3 +205,91 @@ final class AmbiencePlayer: ObservableObject {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) { player.stop() }
     }
 }
+
+// MARK: - Words
+
+/// Recorded natural voice for single words ("der Bahnhof"), made by tools/word_audio.py.
+/// audio/words.json maps the spoken text to a file; files are downloaded on first use and kept.
+final class WordAudio {
+    static let shared = WordAudio()
+
+    private var items: [String: String] = [:]
+    private var loaded = false
+    private var player: AVAudioPlayer?
+    private var pending: String?
+    private let lock = NSLock()
+
+    private struct File: Decodable {
+        let items: [String: String]
+    }
+
+    private static var folder: URL {
+        let url = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0].appendingPathComponent("TextAudio")
+        try? FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
+        return url
+    }
+
+    static func key(_ text: String) -> String {
+        text.lowercased().split(whereSeparator: { $0 == " " || $0 == "\n" }).joined(separator: " ")
+    }
+
+    /// Reads the cached list, then refreshes it from the website once per launch.
+    func load() {
+        lock.lock()
+        defer { lock.unlock() }
+        guard !loaded else { return }
+        loaded = true
+        let cache = Self.folder.appendingPathComponent("words.json")
+        if let data = try? Data(contentsOf: cache), let file = try? JSONDecoder().decode(File.self, from: data) {
+            items = file.items
+        }
+        URLSession.shared.dataTask(with: TextAudioPlayer.base.appendingPathComponent("words.json")) { [weak self] data, response, _ in
+            guard let data, (response as? HTTPURLResponse)?.statusCode == 200,
+                  let file = try? JSONDecoder().decode(File.self, from: data) else { return }
+            try? data.write(to: cache, options: .atomic)
+            DispatchQueue.main.async { self?.items = file.items }
+        }.resume()
+    }
+
+    /// Plays the recording of `text` if there is one (and the learner did not choose the iPhone voice).
+    /// Returns false when there is none; `fallback` runs when the download fails.
+    func play(_ text: String, slow: Bool, fallback: @escaping () -> Void) -> Bool {
+        load()
+        guard UserDefaults.standard.string(forKey: ReadingVoice.storageKey) != ReadingVoice.device.rawValue,
+              let hash = items[Self.key(text)] else { return false }
+        pending = hash
+        let local = Self.folder.appendingPathComponent("w-\(hash).mp3")
+        if FileManager.default.fileExists(atPath: local.path) {
+            start(local, slow: slow)
+            return true
+        }
+        let remote = TextAudioPlayer.base.appendingPathComponent("w/\(hash).mp3")
+        URLSession.shared.dataTask(with: remote) { [weak self] data, response, _ in
+            let saved = data.map { $0.count > 500 } == true && (response as? HTTPURLResponse)?.statusCode == 200
+                && (try? data?.write(to: local, options: .atomic)) != nil
+            DispatchQueue.main.async {
+                guard let self, self.pending == hash else { return }
+                if saved { self.start(local, slow: slow) } else { fallback() }
+            }
+        }.resume()
+        return true
+    }
+
+    private func start(_ url: URL, slow: Bool) {
+        let session = AVAudioSession.sharedInstance()
+        try? session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
+        try? session.setActive(true)
+        guard let player = try? AVAudioPlayer(contentsOf: url) else { return }
+        player.enableRate = true
+        player.rate = slow ? 0.7 : 1
+        player.prepareToPlay()
+        player.play()
+        self.player = player
+    }
+
+    func stop() {
+        pending = nil
+        player?.stop()
+        player = nil
+    }
+}

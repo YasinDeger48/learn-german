@@ -7,6 +7,11 @@ final class A1Speaker {
     static let shared = A1Speaker()
     private let synth = AVSpeechSynthesizer()
 
+    private init() {
+        // The word list for the natural voice, so the first tapped word can use it.
+        WordAudio.shared.load()
+    }
+
     /// German voices, best quality first (enhanced/premium voices if the user downloaded them).
     private lazy var germanVoices: [AVSpeechSynthesisVoice] = AVSpeechSynthesisVoice.speechVoices()
         .filter { $0.language.hasPrefix("de") }
@@ -33,7 +38,15 @@ final class A1Speaker {
         }
     }
 
+    /// Single words with a recorded natural voice (WordAudio) play that; everything else uses the iPhone voice.
     func say(_ text: String, slow: Bool = false, times: Int = 1) {
+        if times == 1 {
+            synth.stopSpeaking(at: .immediate)
+            let recorded = WordAudio.shared.play(text, slow: slow) { [weak self] in
+                self?.play([A1Line(s: -1, t: text)], slow: slow, times: times)
+            }
+            if recorded { return }
+        }
         play([A1Line(s: -1, t: text)], slow: slow, times: times)
     }
 
@@ -43,6 +56,7 @@ final class A1Speaker {
         try? session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
         try? session.setActive(true)
         synth.stopSpeaking(at: .immediate)
+        WordAudio.shared.stop()
         for round in 0..<max(1, times) {
             for (index, line) in lines.enumerated() {
                 let utterance = AVSpeechUtterance(string: line.t)
@@ -59,6 +73,7 @@ final class A1Speaker {
 
     /// Reads a longer text at a chosen speed (1.0 = normal, 0.8, 0.6).
     func read(_ text: String, speed: Float) {
+        WordAudio.shared.stop()
         let session = AVAudioSession.sharedInstance()
         try? session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
         try? session.setActive(true)
@@ -73,6 +88,7 @@ final class A1Speaker {
 
     func stop() {
         synth.stopSpeaking(at: .immediate)
+        WordAudio.shared.stop()
     }
 }
 
