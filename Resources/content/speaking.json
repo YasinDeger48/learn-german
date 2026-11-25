@@ -8,14 +8,20 @@
     "tr": "Kendini tanıt",
     "en": "Introduce yourself",
     "es": "Preséntate",
-    "ku": "Xwe nas bike"
+    "ku": "Xwe nas bike",
+    "fr": "Présentez-vous",
+    "it": "Presentati",
+    "ar": "عرّف بنفسك"
    },
    "prompt": "Stellen Sie sich bitte vor.",
    "help": {
     "tr": "Adın, yaşın, nereden geldiğin, nerede yaşadığın, dillerin, mesleğin ve hobin.",
     "en": "Your name, age, where you come from and live, languages, job and hobby.",
     "es": "Tu nombre, edad, procedencia y lugar de residencia, idiomas, profesión y aficiones.",
-    "ku": "Nav, temen, ji ku derê yî û li ku dijî, ziman, kar û hobî."
+    "ku": "Nav, temen, ji ku derê yî û li ku dijî, ziman, kar û hobî.",
+    "fr": "Votre nom, votre âge, votre lieu d'origine et de résidence, les langues que vous parlez, votre profession et vos loisirs.",
+    "it": "Nome, età, luogo di provenienza e di residenza, lingue parlate, professione e hobby.",
+    "ar": "اسمك، عمرك، من أين أتيت وتعيش، اللغات التي تتحدثها، وظيفتك وهواياتك."
    },
    "points": [
     {
@@ -23,7 +29,10 @@
       "tr": "Adın",
       "en": "Name",
       "es": "Nombre",
-      "ku": "Nav"
+      "ku": "Nav",
+      "fr": "Nom",
+      "it": "Nome",
+      "ar": "اسم"
      },
      "say": "Ich heiße …",
      "keys": [
@@ -37,7 +46,10 @@
       "tr": "Yaşın",
       "en": "Age",
       "es": "Edad",
-      "ku": "Temen"
+      "ku": "Temen",
+      "fr": "Âge",
+      "it": "Età",
+      "ar": "عمر"
      },
      "say": "Ich bin … Jahre alt.",
      "keys": [
@@ -50,7 +62,10 @@
       "tr": "Nereden geldiğin",
       "en": "Country",
       "es": "País",
-      "ku": "Welat"
+      "ku": "Welat",
+      "fr": "Pays",
+      "it": "Paese",
+      "ar": "دولة"
      },
      "say": "Ich komme aus …",
      "keys": [
@@ -63,7 +78,10 @@
       "tr": "Nerede yaşadığın",
       "en": "Where you live",
       "es": "Dónde vives",
-      "ku": "Cihê jiyana te"
+      "ku": "Cihê jiyana te",
+      "fr": "Là où vous habitez",
+      "it": "Dove vivi",
+      "ar": "اين تعيش"
      },
      "say": "Ich wohne in …",
      "keys": [
@@ -77,7 +95,10 @@
       "tr": "Diller",
       "en": "Languages",
       "es": "Idiomas",
-      "ku": "Ziman"
+      "ku": "Ziman",
+      "fr": "Langues",
+      "it": "Lingue",
+      "ar": "اللغات"
      },
      "say": "Ich spreche …",
      "keys": [
@@ -90,7 +111,10 @@
       "tr": "Meslek",
       "en": "Job",
       "es": "Trabajo",
-      "ku": "Kar"
+      "ku": "Kar",
+      "fr": "Emploi",
+      "it": "Lavoro",
+      "ar": "وظيفة"
      },
      "say": "Ich arbeite als …",
      "keys": [
@@ -107,7 +131,10 @@
       "tr": "Hobi",
       "en": "Hobby",
       "es": "Afición",
-      "ku": "Hobî"
+      "ku": "Hobî",
+      "fr": "Passe-temps",
+      "it": "Hobby",
+      "ar": "هواية"
      },
      "say": "Mein Hobby ist …",
      "keys": [
@@ -131,14 +158,18 @@
     "es": "Mi familia",
     "ku": "Malbata min",
     "fr": "Ma famille",
-    "it": "La mia famiglia"
+    "it": "La mia famiglia",
+    "ar": "عائلتي"
    },
    "prompt": "Erzählen Sie über Ihre Familie.",
    "help": {
     "tr": "Ailende kimler var, adları, yaşları, nerede yaşıyorlar, ne iş yapıyorlar?",
     "en": "Who is in your family, their names, ages, where they live and what they do.",
     "es": "Quiénes forman tu familia, cómo se llaman, qué edad tienen, dónde viven y a qué se dedican.",
-    "ku": "Di malbata te de kî hene, nav û temenên wan, li ku dijîn û çi dikin."
+    "ku": "Di malbata te de kî hene, nav û temenên wan, li ku dijîn û çi dikin.",
+    "fr": "Qui compose votre famille, leurs noms, leurs âges, où ils habitent et ce qu'ils font.",
+    "it": "Chi fa parte della tua famiglia, i loro nomi, età, dove vivono e cosa fanno.",
+    "ar": "من هم أفراد عائلتك، وأسمائهم، وأعمارهم، وأين يعيشون وماذا يعملون."
    },
    "points": [
     {
@@ -146,7 +177,10 @@
       "tr": "Aile üyeleri",
       "en": "Family members",
       "es": "Familiares",
-      "ku": "Endamên malbatê"
+      "ku": "Endamên malbatê",
+      "fr": "membres de la famille",
+      "it": "Membri della famiglia",
+      "ar": "أفراد العائلة"
      },
      "say": "Ich habe einen Bruder und …",
      "keys": [
@@ -165,7 +199,10 @@
       "tr": "İsimler",
       "en": "Names",
       "es": "Nombres",
-      "ku": "Nav"
+      "ku": "Nav",
+      "fr": "Noms",
+      "it": "Nomi",
+      "ar": "الأسماء"
      },
      "say": "Meine Mutter heißt …",
      "keys": [
@@ -178,7 +215,10 @@
       "tr": "Yaşlar",
       "en": "Ages",
       "es": "Edades",
-      "ku": "Temen"
+      "ku": "Temen",
+      "fr": "Âge",
+      "it": "Età",
+      "ar": "الأعمار"
      },
      "say": "Er ist … Jahre alt.",
      "keys": [
@@ -191,7 +231,10 @@
       "tr": "Nerede yaşıyorlar",
       "en": "Where they live",
       "es": "Dónde viven",
-      "ku": "Li ku dijîn"
+      "ku": "Li ku dijîn",
+      "fr": "Là où ils vivent",
+      "it": "Dove vivono",
+      "ar": "حيث يعيشون"
      },
      "say": "Sie wohnen in …",
      "keys": [
@@ -206,7 +249,10 @@
       "tr": "Ne iş yapıyorlar",
       "en": "What they do",
       "es": "A qué se dedican",
-      "ku": "Çi dikin"
+      "ku": "Çi dikin",
+      "fr": "Ce qu'ils font",
+      "it": "Cosa fanno",
+      "ar": "ما يفعلونه"
      },
      "say": "Mein Vater arbeitet als …",
      "keys": [
@@ -232,14 +278,18 @@
     "es": "Mi día",
     "ku": "Rojê min",
     "fr": "Ma journée",
-    "it": "La mia giornata"
+    "it": "La mia giornata",
+    "ar": "يومي"
    },
    "prompt": "Wie sieht Ihr Tag aus?",
    "help": {
     "tr": "Kaçta kalkarsın, kahvaltı, iş/okul, öğle, akşam ne yaparsın?",
     "en": "When you get up, breakfast, work or school, lunch and evening.",
     "es": "A qué hora te levantas, desayuno, trabajo o escuela, almuerzo y noche.",
-    "ku": "Tu kengî ji xew şiyar dibî, taştê, kar an dibistan, firavîn û êvar."
+    "ku": "Tu kengî ji xew şiyar dibî, taştê, kar an dibistan, firavîn û êvar.",
+    "fr": "Au réveil, petit-déjeuner, travail ou école, déjeuner et dîner.",
+    "it": "Quando ti alzi, fai colazione, vai al lavoro o a scuola, pranzi e ceni.",
+    "ar": "عند الاستيقاظ، الإفطار، العمل أو المدرسة، الغداء والمساء."
    },
    "points": [
     {
@@ -247,7 +297,10 @@
       "tr": "Kalkış saati",
       "en": "Getting up",
       "es": "Hora de levantarse",
-      "ku": "Şiyarbûn"
+      "ku": "Şiyarbûn",
+      "fr": "Se lever",
+      "it": "Alzarsi",
+      "ar": "الاستيقاظ"
      },
      "say": "Ich stehe um sieben Uhr auf.",
      "keys": [
@@ -263,7 +316,8 @@
       "es": "El desayuno",
       "ku": "Taştê",
       "fr": "Petit-déjeuner",
-      "it": "Colazione"
+      "it": "Colazione",
+      "ar": "إفطار"
      },
      "say": "Ich frühstücke …",
      "keys": [
@@ -276,7 +330,10 @@
       "tr": "Saat",
       "en": "Times",
       "es": "Horarios",
-      "ku": "Deman"
+      "ku": "Deman",
+      "fr": "Fois",
+      "it": "Volte",
+      "ar": "تايمز"
      },
      "say": "Um acht Uhr …",
      "keys": [
@@ -288,7 +345,10 @@
       "tr": "İş veya okul",
       "en": "Work or school",
       "es": "Trabajo o escuela",
-      "ku": "Kar an dibistan"
+      "ku": "Kar an dibistan",
+      "fr": "Travail ou école",
+      "it": "Lavoro o scuola",
+      "ar": "العمل أو المدرسة"
      },
      "say": "Dann gehe ich zur Arbeit.",
      "keys": [
@@ -305,7 +365,10 @@
       "tr": "Akşam",
       "en": "Evening",
       "es": "Noche",
-      "ku": "Êvar"
+      "ku": "Êvar",
+      "fr": "Soirée",
+      "it": "Sera",
+      "ar": "مساء"
      },
      "say": "Am Abend …",
      "keys": [
@@ -325,14 +388,19 @@
     "en": "Shopping",
     "es": "Compras",
     "ku": "Kirîn",
-    "it": "Fare acquisti"
+    "it": "Fare acquisti",
+    "fr": "Achats",
+    "ar": "التسوق"
    },
    "prompt": "Sie sind im Supermarkt. Fragen Sie nach Produkten und Preisen.",
    "help": {
     "tr": "Bir şey iste, fiyatını sor, teşekkür et.",
     "en": "Ask for something, ask the price, say thank you.",
     "es": "Pide algo, pregunta el precio y da las gracias.",
-    "ku": "Tiştekê bixwaze, bihayê bipirse û spas bike."
+    "ku": "Tiştekê bixwaze, bihayê bipirse û spas bike.",
+    "fr": "Demandez quelque chose, demandez le prix, dites merci.",
+    "it": "Chiedete qualcosa, chiedete il prezzo, dite grazie.",
+    "ar": "اطلب شيئاً، واسأل عن السعر، وقل شكراً."
    },
    "points": [
     {
@@ -340,7 +408,10 @@
       "tr": "Kibarca selam",
       "en": "Greet politely",
       "es": "Saluda amablemente",
-      "ku": "Bi rêz silav bike"
+      "ku": "Bi rêz silav bike",
+      "fr": "Saluez poliment",
+      "it": "Saluta educatamente",
+      "ar": "ألقِ التحية بأدب"
      },
      "say": "Guten Tag!",
      "keys": [
@@ -355,7 +426,10 @@
       "tr": "Bir şey iste",
       "en": "Ask for something",
       "es": "Pide algo",
-      "ku": "Tiştekê bixwaze"
+      "ku": "Tiştekê bixwaze",
+      "fr": "Demandez quelque chose",
+      "it": "Chiedi qualcosa",
+      "ar": "اطلب شيئًا ما"
      },
      "say": "Ich möchte …",
      "keys": [
@@ -370,7 +444,10 @@
       "tr": "Fiyat sor",
       "en": "Ask the price",
       "es": "Pregunta el precio",
-      "ku": "Bihayê bipirse"
+      "ku": "Bihayê bipirse",
+      "fr": "Demandez le prix",
+      "it": "Chiedi il prezzo",
+      "ar": "اسأل عن السعر"
      },
      "say": "Was kostet …?",
      "keys": [
@@ -384,7 +461,10 @@
       "tr": "Miktar",
       "en": "Amount",
       "es": "Cantidad",
-      "ku": "Miqdar"
+      "ku": "Miqdar",
+      "fr": "Montant",
+      "it": "Quantità",
+      "ar": "كمية"
      },
      "say": "ein Kilo, zwei Flaschen …",
      "keys": [
@@ -401,7 +481,10 @@
       "tr": "Teşekkür et",
       "en": "Say thank you",
       "es": "Da las gracias",
-      "ku": "Spas bike"
+      "ku": "Spas bike",
+      "fr": "Dire merci",
+      "it": "Di' grazie",
+      "ar": "قل شكراً"
      },
      "say": "Danke schön!",
      "keys": [
@@ -422,14 +505,18 @@
     "es": "Mi fin de semana",
     "ku": "Dawiya hefteya min",
     "fr": "Mon week-end",
-    "it": "Il mio fine settimana"
+    "it": "Il mio fine settimana",
+    "ar": "عطلة نهاية الأسبوع"
    },
    "prompt": "Was machen Sie am Wochenende?",
    "help": {
     "tr": "Cumartesi ve pazar ne yaparsın, kiminle, nerede?",
     "en": "What you do on Saturday and Sunday, with whom, where.",
     "es": "Qué haces los sábados y domingos, con quién y dónde.",
-    "ku": "Bibêje roja şemiyê û Yekşemê çi dikî, bi kê re û li ku."
+    "ku": "Bibêje roja şemiyê û Yekşemê çi dikî, bi kê re û li ku.",
+    "fr": "Ce que vous faites le samedi et le dimanche, avec qui, où.",
+    "it": "Cosa fai sabato e domenica, con chi, dove.",
+    "ar": "ماذا تفعل يومي السبت والأحد، ومع من، وأين."
    },
    "points": [
     {
@@ -437,7 +524,10 @@
       "tr": "Cumartesi/Pazar",
       "en": "Saturday or Sunday",
       "es": "Sábado o domingo",
-      "ku": "Roja şemiyê an Yekşemê"
+      "ku": "Roja şemiyê an Yekşemê",
+      "fr": "Samedi ou dimanche",
+      "it": "Sabato o domenica",
+      "ar": "السبت أو الأحد"
      },
      "say": "Am Samstag …",
      "keys": [
@@ -451,7 +541,10 @@
       "tr": "Ne yapıyorsun",
       "en": "Activities",
       "es": "Actividades",
-      "ku": "Çalakî"
+      "ku": "Çalakî",
+      "fr": "Activités",
+      "it": "Attività",
+      "ar": "أنشطة"
      },
      "say": "Ich gehe einkaufen / spazieren.",
      "keys": [
@@ -469,7 +562,10 @@
       "tr": "Kiminle",
       "en": "With whom",
       "es": "Con quién",
-      "ku": "Bi kê re"
+      "ku": "Bi kê re",
+      "fr": "Avec qui",
+      "it": "Con cui",
+      "ar": "مع من"
      },
      "say": "mit meiner Familie / mit Freunden",
      "keys": [
@@ -485,7 +581,10 @@
       "tr": "Ne seviyorsun",
       "en": "What you like",
       "es": "Qué te gusta",
-      "ku": "Tu ji çi hez dikî"
+      "ku": "Tu ji çi hez dikî",
+      "fr": "Ce que vous aimez",
+      "it": "Ciò che ti piace",
+      "ar": "ما يعجبك"
      },
      "say": "Ich … gern.",
      "keys": [
@@ -506,14 +605,19 @@
     "en": "My home",
     "es": "Mi casa",
     "ku": "Mala min",
-    "it": "La mia casa"
+    "it": "La mia casa",
+    "fr": "Ma maison",
+    "ar": "بيتي"
    },
    "prompt": "Beschreiben Sie Ihre Wohnung.",
    "help": {
     "tr": "Kaç oda var, nasıl, en sevdiğin yer neresi?",
     "en": "How many rooms, what they are like, your favourite place.",
     "es": "Cuántas habitaciones hay, cómo son y cuál es tu lugar favorito.",
-    "ku": "Çend ode hene, çawa ne û cihê herî bijarte yê te kîjan e."
+    "ku": "Çend ode hene, çawa ne û cihê herî bijarte yê te kîjan e.",
+    "fr": "Combien de chambres, à quoi elles ressemblent, votre endroit préféré.",
+    "it": "Quante stanze ci sono, come sono, qual è il tuo posto preferito.",
+    "ar": "كم عدد الغرف، وكيف هي، وما هو مكانك المفضل؟"
    },
    "points": [
     {
@@ -521,7 +625,10 @@
       "tr": "Ev / daire",
       "en": "Flat or house",
       "es": "Piso o casa",
-      "ku": "Apartman an xanî"
+      "ku": "Apartman an xanî",
+      "fr": "Appartement ou maison",
+      "it": "Appartamento o casa",
+      "ar": "شقة أو منزل"
      },
      "say": "Ich wohne in einer Wohnung.",
      "keys": [
@@ -535,7 +642,10 @@
       "tr": "Odalar",
       "en": "Rooms",
       "es": "Habitaciones",
-      "ku": "Ode"
+      "ku": "Ode",
+      "fr": "Chambres",
+      "it": "Camere",
+      "ar": "غرف"
      },
      "say": "Sie hat drei Zimmer.",
      "keys": [
@@ -552,7 +662,10 @@
       "tr": "Nasıl",
       "en": "What it is like",
       "es": "Cómo es",
-      "ku": "Ew çawa ye"
+      "ku": "Ew çawa ye",
+      "fr": "Ce que c'est",
+      "it": "Com'è",
+      "ar": "كيف يبدو الأمر؟"
      },
      "say": "Die Küche ist klein, aber hell.",
      "keys": [
@@ -570,7 +683,10 @@
       "tr": "En sevdiğin yer",
       "en": "Favourite place",
       "es": "Lugar favorito",
-      "ku": "Cihê herî bijarte"
+      "ku": "Cihê herî bijarte",
+      "fr": "Endroit préféré",
+      "it": "Posto preferito",
+      "ar": "المكان المفضل"
      },
      "say": "Mein Lieblingsplatz ist …",
      "keys": [
@@ -590,14 +706,20 @@
     "tr": "Adını hecele, numaranı söyle",
     "en": "Spell your name, say your number",
     "es": "Deletrea tu nombre, di tu número",
-    "ku": "Navê xwe bi tîpan bêje, jimara xwe bibêje"
+    "ku": "Navê xwe bi tîpan bêje, jimara xwe bibêje",
+    "fr": "Épelez votre nom, dites votre numéro",
+    "it": "Fai lo spelling del tuo nome, dì il tuo numero",
+    "ar": "تهجى اسمك، قل رقمك"
    },
    "prompt": "Buchstabieren Sie Ihren Namen und sagen Sie Ihre Telefonnummer.",
    "help": {
     "tr": "Adını ve soyadını harf harf söyle, telefon numaranı ve adresini söyle.",
     "en": "Spell your first and last name, say your phone number and address.",
     "es": "Deletrea tu nombre y apellidos, y di tu número de teléfono y tu dirección.",
-    "ku": "Navê xwe yê yekem û paşîn bi tîpan bêje, jimara telefonê û navnîşana xwe bibêje."
+    "ku": "Navê xwe yê yekem û paşîn bi tîpan bêje, jimara telefonê û navnîşana xwe bibêje.",
+    "fr": "Épelez votre nom et prénom, indiquez votre numéro de téléphone et votre adresse.",
+    "it": "Scrivi il tuo nome e cognome, il tuo numero di telefono e il tuo indirizzo.",
+    "ar": "اكتب اسمك الأول واسم عائلتك، واذكر رقم هاتفك وعنوانك."
    },
    "points": [
     {
@@ -605,7 +727,10 @@
       "tr": "Ad ve soyad",
       "en": "Name",
       "es": "Nombre",
-      "ku": "Nav"
+      "ku": "Nav",
+      "fr": "Nom",
+      "it": "Nome",
+      "ar": "اسم"
      },
      "say": "Mein Name ist … Mein Nachname ist …",
      "keys": [
@@ -620,7 +745,10 @@
       "tr": "Heceleme",
       "en": "Spelling",
       "es": "Deletreo",
-      "ku": "Tîpkirin"
+      "ku": "Tîpkirin",
+      "fr": "Orthographe",
+      "it": "Ortografia",
+      "ar": "التهجئة"
      },
      "say": "Ich buchstabiere: E – L – I – F",
      "keys": [
@@ -633,7 +761,10 @@
       "tr": "Telefon",
       "en": "Phone number",
       "es": "Número de teléfono",
-      "ku": "Jimara telefonê"
+      "ku": "Jimara telefonê",
+      "fr": "Numéro de téléphone",
+      "it": "Numero di telefono",
+      "ar": "رقم التليفون"
      },
      "say": "Meine Telefonnummer ist …",
      "keys": [
@@ -647,7 +778,10 @@
       "tr": "Adres",
       "en": "Address",
       "es": "Dirección",
-      "ku": "Navnîşan"
+      "ku": "Navnîşan",
+      "fr": "Adresse",
+      "it": "Indirizzo",
+      "ar": "عنوان"
      },
      "say": "Ich wohne in der …straße …",
      "keys": [
@@ -667,14 +801,20 @@
     "tr": "Kartlar: Yemek ve içecek",
     "en": "Cards: food and drink",
     "es": "Tarjetas: comida y bebida",
-    "ku": "Kart: xwarin û vexwarin"
+    "ku": "Kart: xwarin û vexwarin",
+    "fr": "Cartes : nourriture et boissons",
+    "it": "Carte: cibo e bevande",
+    "ar": "البطاقات: المأكولات والمشروبات"
    },
    "prompt": "Thema: Essen und Trinken. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
     "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
     "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo.",
-    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide."
+    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide.",
+    "fr": "Goethe A1 Sprechen partie 2 : posez une question pour chaque carte, puis répondez-y vous-même.",
+    "it": "Goethe A1 Sprechen parte 2: poni una domanda per ogni carta, poi rispondi tu stesso.",
+    "ar": "الجزء الثاني من اختبار غوته A1 Sprechen: اطرح سؤالاً واحداً لكل بطاقة، ثم أجب عليه بنفسك."
    },
    "points": [
     {
@@ -682,7 +822,10 @@
       "tr": "Soru sor",
       "en": "Ask a question",
       "es": "Haz una pregunta",
-      "ku": "Pirsêkê bipirse"
+      "ku": "Pirsêkê bipirse",
+      "fr": "Poser une question",
+      "it": "Poni una domanda",
+      "ar": "اطرح سؤالاً"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -708,7 +851,10 @@
       "tr": "Cevap ver",
       "en": "Answer it",
       "es": "Respóndela",
-      "ku": "Bersivê bide"
+      "ku": "Bersivê bide",
+      "fr": "Répondez-y",
+      "it": "Rispondi",
+      "ar": "أجب عليه"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -722,7 +868,10 @@
       "tr": "Kart: Kahvaltı",
       "en": "Card: Breakfast",
       "es": "Tarjeta: desayuno",
-      "ku": "Kart: taştê"
+      "ku": "Kart: taştê",
+      "fr": "Carte : Petit-déjeuner",
+      "it": "Carta: Colazione",
+      "ar": "البطاقة: إفطار"
      },
      "say": "Was isst du zum Frühstück?",
      "keys": [
@@ -734,7 +883,10 @@
       "tr": "Kart: Et",
       "en": "Card: Meat",
       "es": "Tarjeta: carne",
-      "ku": "Kart: goşt"
+      "ku": "Kart: goşt",
+      "fr": "Carte : Viande",
+      "it": "Carta: Carne",
+      "ar": "بطاقة: لحوم"
      },
      "say": "Isst du gern Fleisch?",
      "keys": [
@@ -746,7 +898,10 @@
       "tr": "Kart: Kahve",
       "en": "Card: Coffee",
       "es": "Tarjeta: café",
-      "ku": "Kart: qehwe"
+      "ku": "Kart: qehwe",
+      "fr": "Carte : Café",
+      "it": "Carta: Caffè",
+      "ar": "البطاقة: قهوة"
      },
      "say": "Trinkst du Kaffee?",
      "keys": [
@@ -758,7 +913,10 @@
       "tr": "Kart: Akşam yemeği",
       "en": "Card: Dinner",
       "es": "Tarjeta: cena",
-      "ku": "Kart: şîv"
+      "ku": "Kart: şîv",
+      "fr": "Carte : Dîner",
+      "it": "Carta: Cena",
+      "ar": "بطاقة: عشاء"
      },
      "say": "Wann isst du zu Abend?",
      "keys": [
@@ -777,14 +935,20 @@
     "tr": "Kartlar: Ev",
     "en": "Cards: home",
     "es": "Tarjetas: casa",
-    "ku": "Kart: mal"
+    "ku": "Kart: mal",
+    "fr": "Cartes : domicile",
+    "it": "Carte: home",
+    "ar": "البطاقات: الرئيسية"
    },
    "prompt": "Thema: Wohnen. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
     "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
     "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo.",
-    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide."
+    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide.",
+    "fr": "Goethe A1 Sprechen partie 2 : posez une question pour chaque carte, puis répondez-y vous-même.",
+    "it": "Goethe A1 Sprechen parte 2: poni una domanda per ogni carta, poi rispondi tu stesso.",
+    "ar": "الجزء الثاني من اختبار غوته A1 Sprechen: اطرح سؤالاً واحداً لكل بطاقة، ثم أجب عليه بنفسك."
    },
    "points": [
     {
@@ -792,7 +956,10 @@
       "tr": "Soru sor",
       "en": "Ask a question",
       "es": "Haz una pregunta",
-      "ku": "Pirsêkê bipirse"
+      "ku": "Pirsêkê bipirse",
+      "fr": "Poser une question",
+      "it": "Poni una domanda",
+      "ar": "اطرح سؤالاً"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -818,7 +985,10 @@
       "tr": "Cevap ver",
       "en": "Answer it",
       "es": "Respóndela",
-      "ku": "Bersivê bide"
+      "ku": "Bersivê bide",
+      "fr": "Répondez-y",
+      "it": "Rispondi",
+      "ar": "أجب عليه"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -832,7 +1002,10 @@
       "tr": "Kart: Oda",
       "en": "Card: Room",
       "es": "Tarjeta: habitación",
-      "ku": "Kart: ode"
+      "ku": "Kart: ode",
+      "fr": "Carte : Chambre",
+      "it": "Carta: Stanza",
+      "ar": "البطاقة: غرفة"
      },
      "say": "Wie viele Zimmer hat deine Wohnung?",
      "keys": [
@@ -844,7 +1017,10 @@
       "tr": "Kart: Mutfak",
       "en": "Card: Kitchen",
       "es": "Tarjeta: cocina",
-      "ku": "Kart: metbex"
+      "ku": "Kart: metbex",
+      "fr": "Carte : Cuisine",
+      "it": "Scheda: Cucina",
+      "ar": "البطاقة: المطبخ"
      },
      "say": "Ist deine Küche groß?",
      "keys": [
@@ -856,7 +1032,10 @@
       "tr": "Kart: Kira",
       "en": "Card: Rent",
       "es": "Tarjeta: alquiler",
-      "ku": "Kart: kirê"
+      "ku": "Kart: kirê",
+      "fr": "Carte : Location",
+      "it": "Carta: Noleggio",
+      "ar": "البطاقة: إيجار"
      },
      "say": "Wie hoch ist die Miete?",
      "keys": [
@@ -868,7 +1047,10 @@
       "tr": "Kart: Balkon",
       "en": "Card: Balcony",
       "es": "Tarjeta: balcón",
-      "ku": "Kart: balkon"
+      "ku": "Kart: balkon",
+      "fr": "Carte : Balcon",
+      "it": "Scheda: Balcone",
+      "ar": "البطاقة: شرفة"
      },
      "say": "Hast du einen Balkon?",
      "keys": [
@@ -886,14 +1068,20 @@
     "tr": "Kartlar: Boş zaman",
     "en": "Cards: free time",
     "es": "Tarjetas: tiempo libre",
-    "ku": "Kart: dema vala"
+    "ku": "Kart: dema vala",
+    "fr": "Cartes : temps libre",
+    "it": "Carte: tempo libero",
+    "ar": "البطاقات: وقت الفراغ"
    },
    "prompt": "Thema: Freizeit. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
     "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
     "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo.",
-    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide."
+    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide.",
+    "fr": "Goethe A1 Sprechen partie 2 : posez une question pour chaque carte, puis répondez-y vous-même.",
+    "it": "Goethe A1 Sprechen parte 2: poni una domanda per ogni carta, poi rispondi tu stesso.",
+    "ar": "الجزء الثاني من اختبار غوته A1 Sprechen: اطرح سؤالاً واحداً لكل بطاقة، ثم أجب عليه بنفسك."
    },
    "points": [
     {
@@ -901,7 +1089,10 @@
       "tr": "Soru sor",
       "en": "Ask a question",
       "es": "Haz una pregunta",
-      "ku": "Pirsêkê bipirse"
+      "ku": "Pirsêkê bipirse",
+      "fr": "Poser une question",
+      "it": "Poni una domanda",
+      "ar": "اطرح سؤالاً"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -927,7 +1118,10 @@
       "tr": "Cevap ver",
       "en": "Answer it",
       "es": "Respóndela",
-      "ku": "Bersivê bide"
+      "ku": "Bersivê bide",
+      "fr": "Répondez-y",
+      "it": "Rispondi",
+      "ar": "أجب عليه"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -941,7 +1135,10 @@
       "tr": "Kart: Spor",
       "en": "Card: Sport",
       "es": "Tarjeta: deporte",
-      "ku": "Kart: werzîş"
+      "ku": "Kart: werzîş",
+      "fr": "Carte : Sport",
+      "it": "scheda: Sport",
+      "ar": "البطاقة: رياضة"
      },
      "say": "Machst du Sport?",
      "keys": [
@@ -953,7 +1150,10 @@
       "tr": "Kart: Sinema",
       "en": "Card: Cinema",
       "es": "Tarjeta: cine",
-      "ku": "Kart: sînemâ"
+      "ku": "Kart: sînemâ",
+      "fr": "Carte : Cinéma",
+      "it": "Scheda: Cinema",
+      "ar": "بطاقة: سينما"
      },
      "say": "Gehst du gern ins Kino?",
      "keys": [
@@ -965,7 +1165,10 @@
       "tr": "Kart: Müzik",
       "en": "Card: Music",
       "es": "Tarjeta: música",
-      "ku": "Kart: muzîk"
+      "ku": "Kart: muzîk",
+      "fr": "Carte : Musique",
+      "it": "Scheda: Musica",
+      "ar": "بطاقة: موسيقى"
      },
      "say": "Welche Musik hörst du?",
      "keys": [
@@ -977,7 +1180,10 @@
       "tr": "Kart: Hafta sonu",
       "en": "Card: Weekend",
       "es": "Tarjeta: fin de semana",
-      "ku": "Kart: dawiya hefteyê"
+      "ku": "Kart: dawiya hefteyê",
+      "fr": "Carte : Week-end",
+      "it": "Carta: Weekend",
+      "ar": "بطاقة: عطلة نهاية الأسبوع"
      },
      "say": "Was machst du am Wochenende?",
      "keys": [
@@ -995,14 +1201,20 @@
     "tr": "Kartlar: Alışveriş",
     "en": "Cards: shopping",
     "es": "Tarjetas: compras",
-    "ku": "Kart: kirîn"
+    "ku": "Kart: kirîn",
+    "fr": "Cartes : shopping",
+    "it": "Carte: shopping",
+    "ar": "البطاقات: التسوق"
    },
    "prompt": "Thema: Einkaufen. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
     "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
     "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo.",
-    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide."
+    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide.",
+    "fr": "Goethe A1 Sprechen partie 2 : posez une question pour chaque carte, puis répondez-y vous-même.",
+    "it": "Goethe A1 Sprechen parte 2: poni una domanda per ogni carta, poi rispondi tu stesso.",
+    "ar": "الجزء الثاني من اختبار غوته A1 Sprechen: اطرح سؤالاً واحداً لكل بطاقة، ثم أجب عليه بنفسك."
    },
    "points": [
     {
@@ -1010,7 +1222,10 @@
       "tr": "Soru sor",
       "en": "Ask a question",
       "es": "Haz una pregunta",
-      "ku": "Pirsêkê bipirse"
+      "ku": "Pirsêkê bipirse",
+      "fr": "Poser une question",
+      "it": "Poni una domanda",
+      "ar": "اطرح سؤالاً"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -1036,7 +1251,10 @@
       "tr": "Cevap ver",
       "en": "Answer it",
       "es": "Respóndela",
-      "ku": "Bersivê bide"
+      "ku": "Bersivê bide",
+      "fr": "Répondez-y",
+      "it": "Rispondi",
+      "ar": "أجب عليه"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -1050,7 +1268,10 @@
       "tr": "Kart: Süpermarket",
       "en": "Card: Supermarket",
       "es": "Tarjeta: supermercado",
-      "ku": "Kart: supermarket"
+      "ku": "Kart: supermarket",
+      "fr": "Carte : Supermarché",
+      "it": "Carta: Supermercato",
+      "ar": "البطاقة: سوبر ماركت"
      },
      "say": "Wo kaufst du ein?",
      "keys": [
@@ -1064,7 +1285,10 @@
       "tr": "Kart: Fiyat",
       "en": "Card: Price",
       "es": "Tarjeta: precio",
-      "ku": "Kart: biha"
+      "ku": "Kart: biha",
+      "fr": "Carte : Prix",
+      "it": "Carta: Prezzo",
+      "ar": "البطاقة: السعر"
      },
      "say": "Was kostet ein Kilo Äpfel?",
      "keys": [
@@ -1077,7 +1301,10 @@
       "tr": "Kart: Giysi",
       "en": "Card: Clothes",
       "es": "Tarjeta: ropa",
-      "ku": "Kart: cil"
+      "ku": "Kart: cil",
+      "fr": "Carte : Vêtements",
+      "it": "carta: Abbigliamento",
+      "ar": "البطاقة: ملابس"
      },
      "say": "Wo kaufst du Kleidung?",
      "keys": [
@@ -1091,7 +1318,10 @@
       "tr": "Kart: Gün",
       "en": "Card: Day",
       "es": "Tarjeta: día",
-      "ku": "Kart: roj"
+      "ku": "Kart: roj",
+      "fr": "Carte : Jour",
+      "it": "Carta: Giorno",
+      "ar": "البطاقة: يوم"
      },
      "say": "Wann gehst du einkaufen?",
      "keys": [
@@ -1109,14 +1339,20 @@
     "tr": "Kartlar: İş ve okul",
     "en": "Cards: work and school",
     "es": "Tarjetas: trabajo y escuela",
-    "ku": "Kart: kar û dibistan"
+    "ku": "Kart: kar û dibistan",
+    "fr": "Cartes : travail et école",
+    "it": "Carte: lavoro e scuola",
+    "ar": "البطاقات: العمل والمدرسة"
    },
    "prompt": "Thema: Arbeit und Schule. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
     "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
     "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo.",
-    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide."
+    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide.",
+    "fr": "Goethe A1 Sprechen partie 2 : posez une question pour chaque carte, puis répondez-y vous-même.",
+    "it": "Goethe A1 Sprechen parte 2: poni una domanda per ogni carta, poi rispondi tu stesso.",
+    "ar": "الجزء الثاني من اختبار غوته A1 Sprechen: اطرح سؤالاً واحداً لكل بطاقة، ثم أجب عليه بنفسك."
    },
    "points": [
     {
@@ -1124,7 +1360,10 @@
       "tr": "Soru sor",
       "en": "Ask a question",
       "es": "Haz una pregunta",
-      "ku": "Pirsêkê bipirse"
+      "ku": "Pirsêkê bipirse",
+      "fr": "Poser une question",
+      "it": "Poni una domanda",
+      "ar": "اطرح سؤالاً"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -1150,7 +1389,10 @@
       "tr": "Cevap ver",
       "en": "Answer it",
       "es": "Respóndela",
-      "ku": "Bersivê bide"
+      "ku": "Bersivê bide",
+      "fr": "Répondez-y",
+      "it": "Rispondi",
+      "ar": "أجب عليه"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -1164,7 +1406,10 @@
       "tr": "Kart: Meslek",
       "en": "Card: Job",
       "es": "Tarjeta: trabajo",
-      "ku": "Kart: pîşe"
+      "ku": "Kart: pîşe",
+      "fr": "Carte : Emploi",
+      "it": "carta: Lavoro",
+      "ar": "بطاقة: وظيفة"
      },
      "say": "Was bist du von Beruf?",
      "keys": [
@@ -1176,7 +1421,10 @@
       "tr": "Kart: İş saati",
       "en": "Card: Working hours",
       "es": "Tarjeta: horario laboral",
-      "ku": "Kart: demjimêrên karê"
+      "ku": "Kart: demjimêrên karê",
+      "fr": "Carte : Heures de travail",
+      "it": "Scheda: Orario di lavoro",
+      "ar": "البطاقة: ساعات العمل"
      },
      "say": "Wann beginnt deine Arbeit?",
      "keys": [
@@ -1189,7 +1437,10 @@
       "tr": "Kart: Meslektaş",
       "en": "Card: Colleagues",
       "es": "Tarjeta: compañeros de trabajo",
-      "ku": "Kart: hevalên karê"
+      "ku": "Kart: hevalên karê",
+      "fr": "Carte : Collègues",
+      "it": "Carta: Colleghi",
+      "ar": "بطاقة: الزملاء"
      },
      "say": "Wie sind deine Kollegen?",
      "keys": [
@@ -1203,7 +1454,10 @@
       "tr": "Kart: Kurs",
       "en": "Card: Course",
       "es": "Tarjeta: curso",
-      "ku": "Kart: kurs"
+      "ku": "Kart: kurs",
+      "fr": "Carte : Parcours",
+      "it": "scheda: Corso",
+      "ar": "البطاقة: دورة"
      },
      "say": "Wann hast du Deutschkurs?",
      "keys": [
@@ -1221,14 +1475,20 @@
     "tr": "Kartlar: Yolculuk",
     "en": "Cards: travel",
     "es": "Tarjetas: viajes",
-    "ku": "Kart: rêwîtî"
+    "ku": "Kart: rêwîtî",
+    "fr": "Cartes : voyage",
+    "it": "Carte: viaggio",
+    "ar": "البطاقات: السفر"
    },
    "prompt": "Thema: Reisen und Verkehr. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
     "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
     "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo.",
-    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide."
+    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide.",
+    "fr": "Goethe A1 Sprechen partie 2 : posez une question pour chaque carte, puis répondez-y vous-même.",
+    "it": "Goethe A1 Sprechen parte 2: poni una domanda per ogni carta, poi rispondi tu stesso.",
+    "ar": "الجزء الثاني من اختبار غوته A1 Sprechen: اطرح سؤالاً واحداً لكل بطاقة، ثم أجب عليه بنفسك."
    },
    "points": [
     {
@@ -1236,7 +1496,10 @@
       "tr": "Soru sor",
       "en": "Ask a question",
       "es": "Haz una pregunta",
-      "ku": "Pirsêkê bipirse"
+      "ku": "Pirsêkê bipirse",
+      "fr": "Poser une question",
+      "it": "Poni una domanda",
+      "ar": "اطرح سؤالاً"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -1262,7 +1525,10 @@
       "tr": "Cevap ver",
       "en": "Answer it",
       "es": "Respóndela",
-      "ku": "Bersivê bide"
+      "ku": "Bersivê bide",
+      "fr": "Répondez-y",
+      "it": "Rispondi",
+      "ar": "أجب عليه"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -1276,7 +1542,10 @@
       "tr": "Kart: Otobüs",
       "en": "Card: Bus",
       "es": "Tarjeta: autobús",
-      "ku": "Kart: otobûs"
+      "ku": "Kart: otobûs",
+      "fr": "Carte : Bus",
+      "it": "Carta: Autobus",
+      "ar": "البطاقة: حافلة"
      },
      "say": "Fährst du mit dem Bus?",
      "keys": [
@@ -1288,7 +1557,10 @@
       "tr": "Kart: Bilet",
       "en": "Card: Ticket",
       "es": "Tarjeta: billete",
-      "ku": "Kart: bilêt"
+      "ku": "Kart: bilêt",
+      "fr": "Carte : Billet",
+      "it": "Carta: Biglietto",
+      "ar": "البطاقة: تذكرة"
      },
      "say": "Wo kaufst du die Fahrkarte?",
      "keys": [
@@ -1301,7 +1573,10 @@
       "tr": "Kart: Tatil",
       "en": "Card: Holiday",
       "es": "Tarjeta: vacaciones",
-      "ku": "Kart: betlaneyê"
+      "ku": "Kart: betlaneyê",
+      "fr": "Carte : Vacances",
+      "it": "Carta: Vacanza",
+      "ar": "بطاقة: عطلة"
      },
      "say": "Wohin fährst du im Urlaub?",
      "keys": [
@@ -1313,7 +1588,10 @@
       "tr": "Kart: Tren",
       "en": "Card: Train",
       "es": "Tarjeta: tren",
-      "ku": "Kart: tren"
+      "ku": "Kart: tren",
+      "fr": "Carte : Train",
+      "it": "Carta: Treno",
+      "ar": "البطاقة: قطار"
      },
      "say": "Fährst du gern Zug?",
      "keys": [
@@ -1331,14 +1609,20 @@
     "tr": "Kartlar: Aile ve arkadaşlar",
     "en": "Cards: family and friends",
     "es": "Tarjetas: familia y amigos",
-    "ku": "Kart: malbat û heval"
+    "ku": "Kart: malbat û heval",
+    "fr": "Cartes : famille et amis",
+    "it": "Carte: famiglia e amici",
+    "ar": "بطاقات: للعائلة والأصدقاء"
    },
    "prompt": "Thema: Familie und Freunde. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
     "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
     "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo.",
-    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide."
+    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide.",
+    "fr": "Goethe A1 Sprechen partie 2 : posez une question pour chaque carte, puis répondez-y vous-même.",
+    "it": "Goethe A1 Sprechen parte 2: poni una domanda per ogni carta, poi rispondi tu stesso.",
+    "ar": "الجزء الثاني من اختبار غوته A1 Sprechen: اطرح سؤالاً واحداً لكل بطاقة، ثم أجب عليه بنفسك."
    },
    "points": [
     {
@@ -1346,7 +1630,10 @@
       "tr": "Soru sor",
       "en": "Ask a question",
       "es": "Haz una pregunta",
-      "ku": "Pirsêkê bipirse"
+      "ku": "Pirsêkê bipirse",
+      "fr": "Poser une question",
+      "it": "Poni una domanda",
+      "ar": "اطرح سؤالاً"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -1372,7 +1659,10 @@
       "tr": "Cevap ver",
       "en": "Answer it",
       "es": "Respóndela",
-      "ku": "Bersivê bide"
+      "ku": "Bersivê bide",
+      "fr": "Répondez-y",
+      "it": "Rispondi",
+      "ar": "أجب عليه"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -1386,7 +1676,10 @@
       "tr": "Kart: Kardeş",
       "en": "Card: Siblings",
       "es": "Tarjeta: hermanos",
-      "ku": "Kart: xwişk û bira"
+      "ku": "Kart: xwişk û bira",
+      "fr": "Carte : Frères et sœurs",
+      "it": "Carta: Fratelli e sorelle",
+      "ar": "البطاقة: الأشقاء"
      },
      "say": "Hast du Geschwister?",
      "keys": [
@@ -1400,7 +1693,10 @@
       "tr": "Kart: Ebeveynler",
       "en": "Card: Parents",
       "es": "Tarjeta: padres",
-      "ku": "Kart: dê û bav"
+      "ku": "Kart: dê û bav",
+      "fr": "Carte : Parents",
+      "it": "Carta: Genitori",
+      "ar": "بطاقة: أولياء الأمور"
      },
      "say": "Wo wohnen deine Eltern?",
      "keys": [
@@ -1412,7 +1708,10 @@
       "tr": "Kart: Doğum günü",
       "en": "Card: Birthday",
       "es": "Tarjeta: cumpleaños",
-      "ku": "Kart: rojbûn"
+      "ku": "Kart: rojbûn",
+      "fr": "Carte : Anniversaire",
+      "it": "Biglietto: Compleanno",
+      "ar": "بطاقة: عيد ميلاد"
      },
      "say": "Wann hast du Geburtstag?",
      "keys": [
@@ -1424,7 +1723,10 @@
       "tr": "Kart: Arkadaş",
       "en": "Card: Friend",
       "es": "Tarjeta: amigo",
-      "ku": "Kart: heval"
+      "ku": "Kart: heval",
+      "fr": "Carte : Ami",
+      "it": "Carta: Amico",
+      "ar": "البطاقة: صديق"
      },
      "say": "Wer ist dein bester Freund?",
      "keys": [
@@ -1443,14 +1745,20 @@
     "tr": "Kartlar: Sağlık",
     "en": "Cards: health",
     "es": "Tarjetas: salud",
-    "ku": "Kart: tenduristî"
+    "ku": "Kart: tenduristî",
+    "fr": "Cartes : santé",
+    "it": "Carte: salute",
+    "ar": "البطاقات: الصحة"
    },
    "prompt": "Thema: Gesundheit. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
     "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
     "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo.",
-    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide."
+    "ku": "Mîna Goethe A1 Sprechen beşa 2: ji bo her kartê pirsêkê bipirse, paşê bixwe bersivê bide.",
+    "fr": "Goethe A1 Sprechen partie 2 : posez une question pour chaque carte, puis répondez-y vous-même.",
+    "it": "Goethe A1 Sprechen parte 2: poni una domanda per ogni carta, poi rispondi tu stesso.",
+    "ar": "الجزء الثاني من اختبار غوته A1 Sprechen: اطرح سؤالاً واحداً لكل بطاقة، ثم أجب عليه بنفسك."
    },
    "points": [
     {
@@ -1458,7 +1766,10 @@
       "tr": "Soru sor",
       "en": "Ask a question",
       "es": "Haz una pregunta",
-      "ku": "Pirsêkê bipirse"
+      "ku": "Pirsêkê bipirse",
+      "fr": "Poser une question",
+      "it": "Poni una domanda",
+      "ar": "اطرح سؤالاً"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -1484,7 +1795,10 @@
       "tr": "Cevap ver",
       "en": "Answer it",
       "es": "Respóndela",
-      "ku": "Bersivê bide"
+      "ku": "Bersivê bide",
+      "fr": "Répondez-y",
+      "it": "Rispondi",
+      "ar": "أجب عليه"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -1498,7 +1812,10 @@
       "tr": "Kart: Doktor",
       "en": "Card: Doctor",
       "es": "Tarjeta: médico",
-      "ku": "Kart: bijîşk"
+      "ku": "Kart: bijîşk",
+      "fr": "Carte : Docteur",
+      "it": "Carta: Dottore",
+      "ar": "بطاقة: طبيب"
      },
      "say": "Wann gehst du zum Arzt?",
      "keys": [
@@ -1512,7 +1829,10 @@
       "tr": "Kart: Baş ağrısı",
       "en": "Card: Headache",
       "es": "Tarjeta: dolor de cabeza",
-      "ku": "Kart: serêş"
+      "ku": "Kart: serêş",
+      "fr": "Carte : Mal de tête",
+      "it": "Scheda: Mal di testa",
+      "ar": "بطاقة: صداع"
      },
      "say": "Was machst du bei Kopfschmerzen?",
      "keys": [
@@ -1525,7 +1845,10 @@
       "tr": "Kart: Uyku",
       "en": "Card: Sleep",
       "es": "Tarjeta: sueño",
-      "ku": "Kart: xew"
+      "ku": "Kart: xew",
+      "fr": "Carte : Sommeil",
+      "it": "Carta: Sonno",
+      "ar": "البطاقة: النوم"
      },
      "say": "Wie lange schläfst du?",
      "keys": [
@@ -1539,7 +1862,10 @@
       "tr": "Kart: Meyve",
       "en": "Card: Fruit",
       "es": "Tarjeta: fruta",
-      "ku": "Kart: Fêkî"
+      "ku": "Kart: Fêkî",
+      "fr": "Carte : Fruit",
+      "it": "Carta: Frutta",
+      "ar": "بطاقة: فاكهة"
      },
      "say": "Isst du viel Obst?",
      "keys": [
@@ -1557,14 +1883,20 @@
     "tr": "Rica: Ofiste",
     "en": "Requests: at the office",
     "es": "Peticiones: en la oficina",
-    "ku": "Daxwazî: li nivîsgehê"
+    "ku": "Daxwazî: li nivîsgehê",
+    "fr": "Demandes : au bureau",
+    "it": "Richieste: in ufficio",
+    "ar": "الطلبات: في المكتب"
    },
    "prompt": "Im Büro: Bitten Sie um diese Dinge und reagieren Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
     "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react.",
     "es": "Goethe A1 Sprechen, parte 3: pide cada cosa amablemente y luego reacciona.",
-    "ku": "Goethe A1 Sprechen beşa 3: ji bo her tiştî bi rêz daxwaz bike, paşê bersiv bide."
+    "ku": "Goethe A1 Sprechen beşa 3: ji bo her tiştî bi rêz daxwaz bike, paşê bersiv bide.",
+    "fr": "Goethe A1 Sprechen partie 3 : demandez poliment chaque chose, puis réagissez.",
+    "it": "Goethe A1 Sprechen parte 3: chiedere gentilmente ogni cosa, poi reagire.",
+    "ar": "الجزء الثالث من اختبار غوته A1 Sprechen: اطلب كل شيء بأدب، ثم تفاعل."
    },
    "points": [
     {
@@ -1572,7 +1904,10 @@
       "tr": "Kibarca rica et",
       "en": "Ask politely",
       "es": "Pide amablemente",
-      "ku": "Bi rêz daxwaz bike"
+      "ku": "Bi rêz daxwaz bike",
+      "fr": "Demandez poliment",
+      "it": "Chiedi gentilmente",
+      "ar": "اطلب بأدب"
      },
      "say": "Können Sie bitte …? / Kannst du bitte …?",
      "keys": [
@@ -1590,7 +1925,10 @@
       "tr": "Cevap ver / teşekkür et",
       "en": "React or thank",
       "es": "Responde o da las gracias",
-      "ku": "Bersiv bide an spas bike"
+      "ku": "Bersiv bide an spas bike",
+      "fr": "Réagir ou remercier",
+      "it": "Reagisci o ringrazia",
+      "ar": "تفاعل أو اشكر"
      },
      "say": "Ja, gern. / Natürlich. / Danke!",
      "keys": [
@@ -1608,7 +1946,10 @@
       "tr": "Kalem",
       "en": "A pen",
       "es": "Un bolígrafo",
-      "ku": "Pênûsek"
+      "ku": "Pênûsek",
+      "fr": "Un stylo",
+      "it": "Una penna",
+      "ar": "قلم"
      },
      "say": "Können Sie mir bitte einen Stift geben?",
      "keys": [
@@ -1622,7 +1963,10 @@
       "tr": "Pencere",
       "en": "The window",
       "es": "La ventana",
-      "ku": "Pencere"
+      "ku": "Pencere",
+      "fr": "La fenêtre",
+      "it": "La finestra",
+      "ar": "النافذة"
      },
      "say": "Können Sie bitte das Fenster öffnen?",
      "keys": [
@@ -1634,7 +1978,10 @@
       "tr": "Kahve",
       "en": "Coffee",
       "es": "Café",
-      "ku": "Qehwe"
+      "ku": "Qehwe",
+      "fr": "Café",
+      "it": "Caffè",
+      "ar": "قهوة"
      },
      "say": "Ich hätte gern einen Kaffee, bitte.",
      "keys": [
@@ -1646,7 +1993,10 @@
       "tr": "Telefon",
       "en": "Telephone",
       "es": "Teléfono",
-      "ku": "Telefon"
+      "ku": "Telefon",
+      "fr": "Téléphone",
+      "it": "Telefono",
+      "ar": "الهاتف"
      },
      "say": "Darf ich kurz Ihr Telefon benutzen?",
      "keys": [
@@ -1664,14 +2014,20 @@
     "tr": "Rica: Restoranda",
     "en": "Requests: at the restaurant",
     "es": "Peticiones: en el restaurante",
-    "ku": "Daxwazî: li restorantê"
+    "ku": "Daxwazî: li restorantê",
+    "fr": "Demandes : au restaurant",
+    "it": "Richieste: al ristorante",
+    "ar": "الطلبات: في المطعم"
    },
    "prompt": "Im Restaurant: Bitten Sie um diese Dinge und reagieren Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
     "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react.",
     "es": "Goethe A1 Sprechen, parte 3: pide cada cosa amablemente y luego reacciona.",
-    "ku": "Goethe A1 Sprechen beşa 3: ji bo her tiştî bi rêz daxwaz bike, paşê bersiv bide."
+    "ku": "Goethe A1 Sprechen beşa 3: ji bo her tiştî bi rêz daxwaz bike, paşê bersiv bide.",
+    "fr": "Goethe A1 Sprechen partie 3 : demandez poliment chaque chose, puis réagissez.",
+    "it": "Goethe A1 Sprechen parte 3: chiedere gentilmente ogni cosa, poi reagire.",
+    "ar": "الجزء الثالث من اختبار غوته A1 Sprechen: اطلب كل شيء بأدب، ثم تفاعل."
    },
    "points": [
     {
@@ -1679,7 +2035,10 @@
       "tr": "Kibarca rica et",
       "en": "Ask politely",
       "es": "Pide amablemente",
-      "ku": "Bi rêz daxwaz bike"
+      "ku": "Bi rêz daxwaz bike",
+      "fr": "Demandez poliment",
+      "it": "Chiedi gentilmente",
+      "ar": "اطلب بأدب"
      },
      "say": "Können Sie bitte …? / Kannst du bitte …?",
      "keys": [
@@ -1697,7 +2056,10 @@
       "tr": "Cevap ver / teşekkür et",
       "en": "React or thank",
       "es": "Responde o da las gracias",
-      "ku": "Bersiv bide an spas bike"
+      "ku": "Bersiv bide an spas bike",
+      "fr": "Réagir ou remercier",
+      "it": "Reagisci o ringrazia",
+      "ar": "تفاعل أو اشكر"
      },
      "say": "Ja, gern. / Natürlich. / Danke!",
      "keys": [
@@ -1715,7 +2077,10 @@
       "tr": "Menü",
       "en": "The menu",
       "es": "El menú",
-      "ku": "Menû"
+      "ku": "Menû",
+      "fr": "Le menu",
+      "it": "Il menu",
+      "ar": "القائمة"
      },
      "say": "Kann ich bitte die Speisekarte haben?",
      "keys": [
@@ -1728,7 +2093,10 @@
       "tr": "Su",
       "en": "Water",
       "es": "Agua",
-      "ku": "Av"
+      "ku": "Av",
+      "fr": "Eau",
+      "it": "Acqua",
+      "ar": "ماء"
      },
      "say": "Ich möchte ein Glas Wasser, bitte.",
      "keys": [
@@ -1740,7 +2108,10 @@
       "tr": "Hesap",
       "en": "The bill",
       "es": "La cuenta",
-      "ku": "Hesab"
+      "ku": "Hesab",
+      "fr": "Le projet de loi",
+      "it": "Il disegno di legge",
+      "ar": "مشروع القانون"
      },
      "say": "Die Rechnung, bitte.",
      "keys": [
@@ -1754,7 +2125,10 @@
       "tr": "Peçete",
       "en": "A napkin",
       "es": "Una servilleta",
-      "ku": "Destmalek"
+      "ku": "Destmalek",
+      "fr": "Une serviette",
+      "it": "Un tovagliolo",
+      "ar": "منديل"
      },
      "say": "Haben Sie eine Serviette?",
      "keys": [
@@ -1772,14 +2146,20 @@
     "tr": "Rica: İstasyonda",
     "en": "Requests: at the station",
     "es": "Peticiones: en la estación",
-    "ku": "Daxwazî: li rawestgehê"
+    "ku": "Daxwazî: li rawestgehê",
+    "fr": "Demandes : à la gare",
+    "it": "Richieste: in stazione",
+    "ar": "الطلبات: في المحطة"
    },
    "prompt": "Am Bahnhof: Bitten Sie um diese Dinge und reagieren Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
     "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react.",
     "es": "Goethe A1 Sprechen, parte 3: pide cada cosa amablemente y luego reacciona.",
-    "ku": "Goethe A1 Sprechen beşa 3: ji bo her tiştî bi rêz daxwaz bike, paşê bersiv bide."
+    "ku": "Goethe A1 Sprechen beşa 3: ji bo her tiştî bi rêz daxwaz bike, paşê bersiv bide.",
+    "fr": "Goethe A1 Sprechen partie 3 : demandez poliment chaque chose, puis réagissez.",
+    "it": "Goethe A1 Sprechen parte 3: chiedere gentilmente ogni cosa, poi reagire.",
+    "ar": "الجزء الثالث من اختبار غوته A1 Sprechen: اطلب كل شيء بأدب، ثم تفاعل."
    },
    "points": [
     {
@@ -1787,7 +2167,10 @@
       "tr": "Kibarca rica et",
       "en": "Ask politely",
       "es": "Pide amablemente",
-      "ku": "Bi rêz daxwaz bike"
+      "ku": "Bi rêz daxwaz bike",
+      "fr": "Demandez poliment",
+      "it": "Chiedi gentilmente",
+      "ar": "اطلب بأدب"
      },
      "say": "Können Sie bitte …? / Kannst du bitte …?",
      "keys": [
@@ -1805,7 +2188,10 @@
       "tr": "Cevap ver / teşekkür et",
       "en": "React or thank",
       "es": "Responde o da las gracias",
-      "ku": "Bersiv bide an spas bike"
+      "ku": "Bersiv bide an spas bike",
+      "fr": "Réagir ou remercier",
+      "it": "Reagisci o ringrazia",
+      "ar": "تفاعل أو اشكر"
      },
      "say": "Ja, gern. / Natürlich. / Danke!",
      "keys": [
@@ -1823,7 +2209,10 @@
       "tr": "Bilet",
       "en": "A ticket",
       "es": "Un billete",
-      "ku": "Bilêtek"
+      "ku": "Bilêtek",
+      "fr": "Un billet",
+      "it": "Un biglietto",
+      "ar": "تذكرة"
      },
      "say": "Eine Fahrkarte nach Berlin, bitte.",
      "keys": [
@@ -1836,7 +2225,10 @@
       "tr": "Peron",
       "en": "The platform",
       "es": "El andén",
-      "ku": "Platform"
+      "ku": "Platform",
+      "fr": "La plateforme",
+      "it": "La piattaforma",
+      "ar": "المنصة"
      },
      "say": "Von welchem Gleis fährt der Zug?",
      "keys": [
@@ -1848,7 +2240,10 @@
       "tr": "Saat",
       "en": "The time",
       "es": "La hora",
-      "ku": "Dem"
+      "ku": "Dem",
+      "fr": "Le temps",
+      "it": "Il tempo",
+      "ar": "الوقت"
      },
      "say": "Wann fährt der nächste Zug?",
      "keys": [
@@ -1861,7 +2256,10 @@
       "tr": "Yardım",
       "en": "Help with a bag",
       "es": "Ayuda con una bolsa",
-      "ku": "Alîkarî ji bo çenteyekê"
+      "ku": "Alîkarî ji bo çenteyekê",
+      "fr": "Aide pour un sac",
+      "it": "Aiuto con una borsa",
+      "ar": "مساعدة في حمل الحقيبة"
      },
      "say": "Können Sie mir bitte mit dem Koffer helfen?",
      "keys": [
@@ -1880,14 +2278,20 @@
     "tr": "Rica: Komşuya",
     "en": "Requests: to a neighbour",
     "es": "Peticiones: a un vecino",
-    "ku": "Daxwazî: ji cîranekî"
+    "ku": "Daxwazî: ji cîranekî",
+    "fr": "Demandes : à un voisin",
+    "it": "Richieste: a un vicino",
+    "ar": "طلبات: إلى أحد الجيران"
    },
    "prompt": "Beim Nachbarn: Bitten Sie um diese Dinge und reagieren Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
     "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react.",
     "es": "Goethe A1 Sprechen, parte 3: pide cada cosa amablemente y luego reacciona.",
-    "ku": "Goethe A1 Sprechen beşa 3: ji bo her tiştî bi rêz daxwaz bike, paşê bersiv bide."
+    "ku": "Goethe A1 Sprechen beşa 3: ji bo her tiştî bi rêz daxwaz bike, paşê bersiv bide.",
+    "fr": "Goethe A1 Sprechen partie 3 : demandez poliment chaque chose, puis réagissez.",
+    "it": "Goethe A1 Sprechen parte 3: chiedere gentilmente ogni cosa, poi reagire.",
+    "ar": "الجزء الثالث من اختبار غوته A1 Sprechen: اطلب كل شيء بأدب، ثم تفاعل."
    },
    "points": [
     {
@@ -1895,7 +2299,10 @@
       "tr": "Kibarca rica et",
       "en": "Ask politely",
       "es": "Pide amablemente",
-      "ku": "Bi rêz daxwaz bike"
+      "ku": "Bi rêz daxwaz bike",
+      "fr": "Demandez poliment",
+      "it": "Chiedi gentilmente",
+      "ar": "اطلب بأدب"
      },
      "say": "Können Sie bitte …? / Kannst du bitte …?",
      "keys": [
@@ -1913,7 +2320,10 @@
       "tr": "Cevap ver / teşekkür et",
       "en": "React or thank",
       "es": "Responde o da las gracias",
-      "ku": "Bersiv bide an spas bike"
+      "ku": "Bersiv bide an spas bike",
+      "fr": "Réagir ou remercier",
+      "it": "Reagisci o ringrazia",
+      "ar": "تفاعل أو اشكر"
      },
      "say": "Ja, gern. / Natürlich. / Danke!",
      "keys": [
@@ -1931,7 +2341,10 @@
       "tr": "Tuz",
       "en": "Salt",
       "es": "Sal",
-      "ku": "Xwê"
+      "ku": "Xwê",
+      "fr": "Sel",
+      "it": "Sale",
+      "ar": "ملح"
      },
      "say": "Hast du vielleicht Salz für mich?",
      "keys": [
@@ -1943,7 +2356,10 @@
       "tr": "Merdiven",
       "en": "A ladder",
       "es": "Una escalera",
-      "ku": "Nêrînek"
+      "ku": "Nêrînek",
+      "fr": "Une échelle",
+      "it": "Una scala",
+      "ar": "سلم"
      },
      "say": "Kannst du mir deine Leiter leihen?",
      "keys": [
@@ -1955,7 +2371,10 @@
       "tr": "Paket",
       "en": "A parcel",
       "es": "Un paquete",
-      "ku": "Pakêtek"
+      "ku": "Pakêtek",
+      "fr": "Un colis",
+      "it": "Un pacco",
+      "ar": "طرد"
      },
      "say": "Kannst du mein Paket annehmen?",
      "keys": [
@@ -1967,7 +2386,10 @@
       "tr": "Çiçekler",
       "en": "The flowers",
       "es": "Las flores",
-      "ku": "Kulîlk"
+      "ku": "Kulîlk",
+      "fr": "Les fleurs",
+      "it": "I fiori",
+      "ar": "الزهور"
      },
      "say": "Kannst du am Wochenende meine Blumen gießen?",
      "keys": [
@@ -1986,14 +2408,20 @@
     "tr": "Rica: Kursta",
     "en": "Requests: in class",
     "es": "Peticiones: en clase",
-    "ku": "Daxwazî: di dersê de"
+    "ku": "Daxwazî: di dersê de",
+    "fr": "Demandes : en classe",
+    "it": "Richieste: in classe",
+    "ar": "الطلبات: في الفصل"
    },
    "prompt": "Im Deutschkurs: Bitten Sie um diese Dinge und reagieren Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
     "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react.",
     "es": "Goethe A1 Sprechen, parte 3: pide cada cosa amablemente y luego reacciona.",
-    "ku": "Goethe A1 Sprechen beşa 3: ji bo her tiştî bi rêz daxwaz bike, paşê bersiv bide."
+    "ku": "Goethe A1 Sprechen beşa 3: ji bo her tiştî bi rêz daxwaz bike, paşê bersiv bide.",
+    "fr": "Goethe A1 Sprechen partie 3 : demandez poliment chaque chose, puis réagissez.",
+    "it": "Goethe A1 Sprechen parte 3: chiedere gentilmente ogni cosa, poi reagire.",
+    "ar": "الجزء الثالث من اختبار غوته A1 Sprechen: اطلب كل شيء بأدب، ثم تفاعل."
    },
    "points": [
     {
@@ -2001,7 +2429,10 @@
       "tr": "Kibarca rica et",
       "en": "Ask politely",
       "es": "Pide amablemente",
-      "ku": "Bi rêz daxwaz bike"
+      "ku": "Bi rêz daxwaz bike",
+      "fr": "Demandez poliment",
+      "it": "Chiedi gentilmente",
+      "ar": "اطلب بأدب"
      },
      "say": "Können Sie bitte …? / Kannst du bitte …?",
      "keys": [
@@ -2019,7 +2450,10 @@
       "tr": "Cevap ver / teşekkür et",
       "en": "React or thank",
       "es": "Responde o da las gracias",
-      "ku": "Bersiv bide an spas bike"
+      "ku": "Bersiv bide an spas bike",
+      "fr": "Réagir ou remercier",
+      "it": "Reagisci o ringrazia",
+      "ar": "تفاعل أو اشكر"
      },
      "say": "Ja, gern. / Natürlich. / Danke!",
      "keys": [
@@ -2037,7 +2471,10 @@
       "tr": "Tekrar",
       "en": "Repeat",
       "es": "Repetir",
-      "ku": "Dubare bike"
+      "ku": "Dubare bike",
+      "fr": "Répéter",
+      "it": "Ripetere",
+      "ar": "يكرر"
      },
      "say": "Können Sie das bitte wiederholen?",
      "keys": [
@@ -2051,7 +2488,10 @@
       "tr": "Yavaş",
       "en": "Slowly",
       "es": "Despacio",
-      "ku": "Hêdî"
+      "ku": "Hêdî",
+      "fr": "Lentement",
+      "it": "Lentamente",
+      "ar": "ببطء"
      },
      "say": "Können Sie bitte langsamer sprechen?",
      "keys": [
@@ -2063,7 +2503,10 @@
       "tr": "Sözlük",
       "en": "A dictionary",
       "es": "Un diccionario",
-      "ku": "Ferhengok"
+      "ku": "Ferhengok",
+      "fr": "Un dictionnaire",
+      "it": "Un dizionario",
+      "ar": "قاموس"
      },
      "say": "Darf ich Ihr Wörterbuch benutzen?",
      "keys": [
@@ -2075,7 +2518,10 @@
       "tr": "Yazmak",
       "en": "Write it",
       "es": "Escríbelo",
-      "ku": "Binivîse"
+      "ku": "Binivîse",
+      "fr": "Écrivez-le",
+      "it": "Scrivilo",
+      "ar": "اكتبها"
      },
      "say": "Können Sie das Wort an die Tafel schreiben?",
      "keys": [
@@ -2094,14 +2540,20 @@
     "tr": "Son tatilim",
     "en": "My last holiday",
     "es": "Mis últimas vacaciones",
-    "ku": "Dawiya betlaneya min"
+    "ku": "Dawiya betlaneya min",
+    "fr": "Mes dernières vacances",
+    "it": "La mia ultima vacanza",
+    "ar": "عطلتي الأخيرة"
    },
    "prompt": "Erzählen Sie von Ihrem letzten Urlaub.",
    "help": {
     "tr": "Nereye gittin, kiminle, ne yaptın, hava nasıldı, nasıl buldun? (Perfekt)",
     "en": "Where you went, with whom, what you did, the weather, how you liked it. (Perfekt)",
     "es": "Adónde fuiste, con quién, qué hiciste, qué tiempo hizo y qué te pareció. (Perfekt)",
-    "ku": "Tu çûyî ku derê, bi kê re, çi kirî, hewa çawa bû, tu çiqasê jê hez kir. (Perfekt)"
+    "ku": "Tu çûyî ku derê, bi kê re, çi kirî, hewa çawa bû, tu çiqasê jê hez kir. (Perfekt)",
+    "fr": "Où tu es allé(e), avec qui, ce que tu as fait, le temps qu'il a fait, si tu as aimé. ( Perfekt )",
+    "it": "Dove sei andato, con chi, cosa hai fatto, il tempo, quanto ti è piaciuto. ( Perfekt )",
+    "ar": "أين ذهبت، ومع من، وماذا فعلت، والطقس، وكيف أعجبك. ( Perfekt )"
    },
    "points": [
     {
@@ -2109,7 +2561,10 @@
       "tr": "Nereye",
       "en": "Where",
       "es": "Dónde",
-      "ku": "Li ku"
+      "ku": "Li ku",
+      "fr": "Où",
+      "it": "Dove",
+      "ar": "أين"
      },
      "say": "Ich bin nach … gefahren.",
      "keys": [
@@ -2125,7 +2580,10 @@
       "tr": "Kiminle",
       "en": "With whom",
       "es": "Con quién",
-      "ku": "Bi kê re"
+      "ku": "Bi kê re",
+      "fr": "Avec qui",
+      "it": "Con cui",
+      "ar": "مع من"
      },
      "say": "mit meiner Familie",
      "keys": [
@@ -2140,7 +2598,10 @@
       "tr": "Ne yaptın",
       "en": "What you did",
       "es": "Qué hiciste",
-      "ku": "Tiştên ku te kirin"
+      "ku": "Tiştên ku te kirin",
+      "fr": "Ce que vous avez fait",
+      "it": "Quello che hai fatto",
+      "ar": "ما فعلته"
      },
      "say": "Wir haben … besucht.",
      "keys": [
@@ -2158,7 +2619,10 @@
       "tr": "Hava",
       "en": "Weather",
       "es": "El tiempo",
-      "ku": "Hewa"
+      "ku": "Hewa",
+      "fr": "Météo",
+      "it": "Tempo atmosferico",
+      "ar": "طقس"
      },
      "say": "Das Wetter war …",
      "keys": [
@@ -2175,7 +2639,10 @@
       "tr": "Nasıl buldun",
       "en": "How you liked it",
       "es": "Qué te pareció",
-      "ku": "Tu çawa dît"
+      "ku": "Tu çawa dît",
+      "fr": "Comment avez-vous trouvé cela ?",
+      "it": "Ti è piaciuto?",
+      "ar": "كيف أعجبك؟"
      },
      "say": "Es hat mir gut gefallen.",
      "keys": [
@@ -2208,7 +2675,10 @@
     "tr": "Kahvaltı, en sevdiğin yemek, yemek yapıyor musun, ülkende ne yenir?",
     "en": "Breakfast, your favourite dish, do you cook, what people eat in your country.",
     "es": "Desayuno, tu plato favorito, si cocinas y qué come la gente en tu país.",
-    "ku": "Taştê, xwarina te ya bijare, tu xwarinê çêdikî, li welatê te mirov çi dixwe."
+    "ku": "Taştê, xwarina te ya bijare, tu xwarinê çêdikî, li welatê te mirov çi dixwe.",
+    "fr": "Petit-déjeuner, votre plat préféré, cuisinez-vous, que mangent les gens dans votre pays.",
+    "it": "Colazione, il tuo piatto preferito, cucini, cosa si mangia nel tuo paese.",
+    "ar": "ما هو فطورك المفضل، وما هو طبقك المفضل الذي تطبخه، وماذا يأكل الناس في بلدك؟"
    },
    "points": [
     {
@@ -2218,7 +2688,8 @@
       "es": "El desayuno",
       "ku": "Taştê",
       "fr": "Petit-déjeuner",
-      "it": "Colazione"
+      "it": "Colazione",
+      "ar": "إفطار"
      },
      "say": "Zum Frühstück esse ich …",
      "keys": [
@@ -2230,7 +2701,10 @@
       "tr": "En sevdiğin yemek",
       "en": "Favourite food",
       "es": "Comida favorita",
-      "ku": "Xwarina bijare"
+      "ku": "Xwarina bijare",
+      "fr": "Plats préférés",
+      "it": "Cibo preferito",
+      "ar": "الطعام المفضل"
      },
      "say": "Mein Lieblingsessen ist …",
      "keys": [
@@ -2245,7 +2719,10 @@
       "tr": "Yemek yapmak",
       "en": "Cooking",
       "es": "Cocinar",
-      "ku": "Xwarin çêkirin"
+      "ku": "Xwarin çêkirin",
+      "fr": "Cuisson",
+      "it": "Cucina",
+      "ar": "طبخ"
      },
      "say": "Ich koche oft / selten.",
      "keys": [
@@ -2259,7 +2736,10 @@
       "tr": "Ülkende",
       "en": "In your country",
       "es": "En tu país",
-      "ku": "Li welatê te"
+      "ku": "Li welatê te",
+      "fr": "Dans votre pays",
+      "it": "Nel tuo paese",
+      "ar": "في بلدك"
      },
      "say": "In meinem Land isst man …",
      "keys": [
@@ -2275,7 +2755,10 @@
       "tr": "Ne sıklıkla",
       "en": "How often",
       "es": "Con qué frecuencia",
-      "ku": "Çiqas caran"
+      "ku": "Çiqas caran",
+      "fr": "À quelle fréquence",
+      "it": "Quante volte",
+      "ar": "عدد المرات"
      },
      "say": "oft, manchmal, nie",
      "keys": [
@@ -2298,14 +2781,20 @@
     "tr": "Birlikte plan yapın: doğum günü",
     "en": "Plan together: a birthday",
     "es": "Planear juntos: un cumpleaños",
-    "ku": "Bi hev re plan bikin: rojbûnek"
+    "ku": "Bi hev re plan bikin: rojbûnek",
+    "fr": "Planifiez ensemble : un anniversaire",
+    "it": "Pianificate insieme: un compleanno",
+    "ar": "خططوا معاً: عيد ميلاد"
    },
    "prompt": "Ihr Freund hat Geburtstag. Planen Sie zusammen eine kleine Party.",
    "help": {
     "tr": "Öneri yap, gün ve saat, yemek ve içecek, kabul et veya başka bir şey öner.",
     "en": "Make suggestions, day and time, food and drinks, agree or suggest something else.",
     "es": "Haz propuestas, hablad del día y la hora, la comida y las bebidas; acepta o sugiere otra cosa.",
-    "ku": "Pêşniyar bikin, roj û demê hilbijêrin, xwarin û vexwarinê; qebûl bikin an tiştekî din pêşniyar bikin."
+    "ku": "Pêşniyar bikin, roj û demê hilbijêrin, xwarin û vexwarinê; qebûl bikin an tiştekî din pêşniyar bikin.",
+    "fr": "Faites des suggestions (jour et heure, nourriture et boissons), acceptez ou suggérez autre chose.",
+    "it": "Fai suggerimenti su giorno e ora, cibo e bevande, concorda o proponi qualcos'altro.",
+    "ar": "قدم اقتراحاتك بشأن اليوم والوقت والطعام والشراب، ووافق أو اقترح شيئًا آخر."
    },
    "points": [
     {
@@ -2313,7 +2802,10 @@
       "tr": "Öneri yap",
       "en": "Make a suggestion",
       "es": "Haz una propuesta",
-      "ku": "Pêşniyarekê bike"
+      "ku": "Pêşniyarekê bike",
+      "fr": "Faites une suggestion",
+      "it": "Fai un suggerimento",
+      "ar": "قدّم اقتراحًا"
      },
      "say": "Wollen wir …? / Wie wäre es mit …?",
      "keys": [
@@ -2330,7 +2822,10 @@
       "tr": "Gün ve saat",
       "en": "Day and time",
       "es": "Día y hora",
-      "ku": "Roj û dem"
+      "ku": "Roj û dem",
+      "fr": "Jour et heure",
+      "it": "Giorno e ora",
+      "ar": "اليوم والوقت"
      },
      "say": "am Samstag um sieben Uhr",
      "keys": [
@@ -2346,7 +2841,10 @@
       "tr": "Yer",
       "en": "Place",
       "es": "Lugar",
-      "ku": "Cih"
+      "ku": "Cih",
+      "fr": "Lieu",
+      "it": "Posto",
+      "ar": "مكان"
      },
      "say": "bei mir / im Restaurant",
      "keys": [
@@ -2363,7 +2861,10 @@
       "tr": "Yemek ve içecek",
       "en": "Food and drinks",
       "es": "Comida y bebidas",
-      "ku": "Xwarin û vexwarin"
+      "ku": "Xwarin û vexwarin",
+      "fr": "Nourriture et boissons",
+      "it": "cibo e bevande",
+      "ar": "المأكولات والمشروبات"
      },
      "say": "Ich mache einen Kuchen.",
      "keys": [
@@ -2380,7 +2881,10 @@
       "tr": "Kabul / ret",
       "en": "Agree or disagree",
       "es": "Aceptar o rechazar",
-      "ku": "Qebûl bike an red bike"
+      "ku": "Qebûl bike an red bike",
+      "fr": "D'accord ou pas d'accord",
+      "it": "D'accordo o in disaccordo",
+      "ar": "أوافق أو لا أوافق"
      },
      "say": "Gute Idee! / Leider …",
      "keys": [
@@ -2403,14 +2907,20 @@
     "tr": "Sağlık ve spor",
     "en": "Health and sport",
     "es": "Salud y deporte",
-    "ku": "Tenduristî û werzîş"
+    "ku": "Tenduristî û werzîş",
+    "fr": "Santé et sport",
+    "it": "Salute e sport",
+    "ar": "الصحة والرياضة"
    },
    "prompt": "Was machen Sie für Ihre Gesundheit?",
    "help": {
     "tr": "Spor, ne sıklıkla, sağlıklı beslenme, hastayken ne yaparsın?",
     "en": "Sport, how often, healthy food, what you do when you are ill.",
     "es": "Deporte, con qué frecuencia, comida saludable y qué haces cuando estás enfermo.",
-    "ku": "Werzîş, çiqas caran, xwarina tendurist, dema nexweş dibî tu çi dikî."
+    "ku": "Werzîş, çiqas caran, xwarina tendurist, dema nexweş dibî tu çi dikî.",
+    "fr": "Le sport, à quelle fréquence, une alimentation saine, ce que vous faites lorsque vous êtes malade.",
+    "it": "Sport, frequenza, alimentazione sana, cosa fare quando si è malati.",
+    "ar": "الرياضة، وعدد مرات ممارستها، والطعام الصحي، وماذا تفعل عندما تكون مريضاً."
    },
    "points": [
     {
@@ -2418,7 +2928,10 @@
       "tr": "Spor",
       "en": "Sport",
       "es": "Deporte",
-      "ku": "Werzîş"
+      "ku": "Werzîş",
+      "fr": "Sport",
+      "it": "Sport",
+      "ar": "رياضة"
      },
      "say": "Ich gehe joggen / schwimmen.",
      "keys": [
@@ -2437,7 +2950,10 @@
       "tr": "Ne sıklıkla",
       "en": "How often",
       "es": "Con qué frecuencia",
-      "ku": "Çiqas caran"
+      "ku": "Çiqas caran",
+      "fr": "À quelle fréquence",
+      "it": "Quante volte",
+      "ar": "عدد المرات"
      },
      "say": "zweimal pro Woche",
      "keys": [
@@ -2455,7 +2971,10 @@
       "tr": "Beslenme",
       "en": "Food",
       "es": "Comida",
-      "ku": "Xwarin"
+      "ku": "Xwarin",
+      "fr": "Nourriture",
+      "it": "Cibo",
+      "ar": "طعام"
      },
      "say": "Ich esse viel Obst und Gemüse.",
      "keys": [
@@ -2471,7 +2990,10 @@
       "tr": "Hastayken",
       "en": "When ill",
       "es": "Cuando estás enfermo",
-      "ku": "Dema nexweş dibî"
+      "ku": "Dema nexweş dibî",
+      "fr": "Quand il est malade",
+      "it": "Quando malato",
+      "ar": "عند المرض"
      },
      "say": "Wenn ich krank bin, …",
      "keys": [
@@ -2495,14 +3017,20 @@
     "tr": "İş ya da okul",
     "en": "Work or school",
     "es": "Trabajo o escuela",
-    "ku": "Kar an dibistan"
+    "ku": "Kar an dibistan",
+    "fr": "Travail ou école",
+    "it": "Lavoro o scuola",
+    "ar": "العمل أو المدرسة"
    },
    "prompt": "Erzählen Sie von Ihrer Arbeit oder Ihrer Schule.",
    "help": {
     "tr": "Nerede, ne yapıyorsun, arkadaşların, neyi seviyorsun, gelecek planın.",
     "en": "Where, what you do, colleagues or classmates, what you like, future plans.",
     "es": "Dónde, qué haces, compañeros de trabajo o de clase, qué te gusta y tus planes para el futuro.",
-    "ku": "Li ku derê, tu çi dikî, hevkar an hevalên polê, tu ji çi hez dikî, planên te yên pêşerojê."
+    "ku": "Li ku derê, tu çi dikî, hevkar an hevalên polê, tu ji çi hez dikî, planên te yên pêşerojê.",
+    "fr": "Où vous vous trouvez, ce que vous faites, vos collègues ou camarades de classe, ce que vous aimez, vos projets d'avenir.",
+    "it": "Dove ti trovi, cosa fai, colleghi o compagni di classe, cosa ti piace, progetti per il futuro.",
+    "ar": "أين أنت، وماذا تعمل، وزملائك في العمل أو الدراسة، وماذا تحب، وخططك المستقبلية."
    },
    "points": [
     {
@@ -2510,7 +3038,10 @@
       "tr": "Nerede",
       "en": "Where",
       "es": "Dónde",
-      "ku": "Li ku"
+      "ku": "Li ku",
+      "fr": "Où",
+      "it": "Dove",
+      "ar": "أين"
      },
      "say": "Ich arbeite bei … / Ich gehe zur …",
      "keys": [
@@ -2527,7 +3058,10 @@
       "tr": "Ne yapıyorsun",
       "en": "What you do",
       "es": "Qué haces",
-      "ku": "Tiştên ku tu dikî"
+      "ku": "Tiştên ku tu dikî",
+      "fr": "Que faites vous",
+      "it": "Quello che fai",
+      "ar": "ماذا تفعل"
      },
      "say": "Ich muss jeden Tag …",
      "keys": [
@@ -2543,7 +3077,10 @@
       "tr": "İş/okul arkadaşları",
       "en": "Colleagues",
       "es": "Compañeros",
-      "ku": "Hevkar"
+      "ku": "Hevkar",
+      "fr": "Collègues",
+      "it": "colleghi",
+      "ar": "زملاء"
      },
      "say": "Meine Kollegen sind …",
      "keys": [
@@ -2560,7 +3097,10 @@
       "tr": "Ne düşünüyorsun",
       "en": "What you think",
       "es": "Qué piensas",
-      "ku": "Tu çi difikirî"
+      "ku": "Tu çi difikirî",
+      "fr": "Ce que vous pensez",
+      "it": "Cosa ne pensi",
+      "ar": "ما هو رأيك"
      },
      "say": "Die Arbeit gefällt mir, weil …",
      "keys": [
@@ -2577,7 +3117,10 @@
       "tr": "Gelecek",
       "en": "Future",
       "es": "Futuro",
-      "ku": "Pêşeroj"
+      "ku": "Pêşeroj",
+      "fr": "Avenir",
+      "it": "Futuro",
+      "ar": "مستقبل"
      },
      "say": "Später möchte ich …",
      "keys": [
@@ -2599,14 +3142,20 @@
     "tr": "Yaşadığın yer",
     "en": "Where you live",
     "es": "Dónde vives",
-    "ku": "Cihê jiyana te"
+    "ku": "Cihê jiyana te",
+    "fr": "Là où vous habitez",
+    "it": "Dove vivi",
+    "ar": "اين تعيش"
    },
    "prompt": "Wo wohnen Sie und wie gefällt es Ihnen dort?",
    "help": {
     "tr": "Şehir/mahalle, ev, komşular, sevdiğin ve sevmediğin şeyler.",
     "en": "Town or area, your home, neighbours, what you like and do not like.",
     "es": "Ciudad o zona, tu casa, vecinos, qué te gusta y qué no.",
-    "ku": "Bajar an herêm, xaniyê te, cîran, tiştên ku tu jê hez dikî û naxwazî."
+    "ku": "Bajar an herêm, xaniyê te, cîran, tiştên ku tu jê hez dikî û naxwazî.",
+    "fr": "Ville ou région, votre maison, vos voisins, ce que vous aimez et ce que vous n'aimez pas.",
+    "it": "Città o zona, la tua casa, i vicini, ciò che ti piace e ciò che non ti piace.",
+    "ar": "المدينة أو المنطقة، منزلك، جيرانك، ما يعجبك وما لا يعجبك."
    },
    "points": [
     {
@@ -2614,7 +3163,10 @@
       "tr": "Şehir / mahalle",
       "en": "Town or area",
       "es": "Ciudad o zona",
-      "ku": "Bajar an herêm"
+      "ku": "Bajar an herêm",
+      "fr": "Ville ou région",
+      "it": "Città o zona",
+      "ar": "البلدة أو المنطقة"
      },
      "say": "Ich wohne in … im Zentrum / am Stadtrand.",
      "keys": [
@@ -2631,7 +3183,10 @@
       "tr": "Ev",
       "en": "Home",
       "es": "Casa",
-      "ku": "Xanî"
+      "ku": "Xanî",
+      "fr": "Maison",
+      "it": "Casa",
+      "ar": "بيت"
      },
      "say": "Meine Wohnung hat …",
      "keys": [
@@ -2646,7 +3201,10 @@
       "tr": "Komşular",
       "en": "Neighbours",
       "es": "Vecinos",
-      "ku": "Cîran"
+      "ku": "Cîran",
+      "fr": "Voisins",
+      "it": "Vicinato",
+      "ar": "الجيران"
      },
      "say": "Meine Nachbarn sind …",
      "keys": [
@@ -2660,7 +3218,10 @@
       "tr": "Sevdiğin",
       "en": "What you like",
       "es": "Qué te gusta",
-      "ku": "Tu ji çi hez dikî"
+      "ku": "Tu ji çi hez dikî",
+      "fr": "Ce que vous aimez",
+      "it": "Ciò che ti piace",
+      "ar": "ما يعجبك"
      },
      "say": "Mir gefällt, dass …",
      "keys": [
@@ -2677,7 +3238,10 @@
       "tr": "Sevmediğin",
       "en": "What you do not like",
       "es": "Lo que no te gusta",
-      "ku": "Tiştên ku tu jê hez nakî"
+      "ku": "Tiştên ku tu jê hez nakî",
+      "fr": "Ce que vous n'aimez pas",
+      "it": "Ciò che non ti piace",
+      "ar": "ما لا يعجبك"
      },
      "say": "Leider ist es …",
      "keys": [
@@ -2700,14 +3264,20 @@
     "tr": "Sunum: İnternetten alışveriş",
     "en": "Presentation: online shopping",
     "es": "Presentación: compras por internet",
-    "ku": "Pêşkêşkirin: kirîna serhêl"
+    "ku": "Pêşkêşkirin: kirîna serhêl",
+    "fr": "Présentation : achats en ligne",
+    "it": "Presentazione: shopping online",
+    "ar": "عرض تقديمي: التسوق عبر الإنترنت"
    },
    "prompt": "Präsentieren Sie das Thema „Online einkaufen“.",
    "help": {
     "tr": "Goethe B1 Teil 2 gibi: konuyu tanıt, deneyimin, ülkendeki durum, artılar/eksiler, görüşün.",
     "en": "Like Goethe B1 part 2: introduce the topic, your experience, your country, pros and cons, your opinion.",
     "es": "Como en Goethe B1, parte 2: presenta el tema, cuenta tu experiencia y la situación en tu país, habla de ventajas y desventajas y da tu opinión.",
-    "ku": "Mîna Goethe B1 beşa 2: mijarê nas bike, serpêhatiya xwe, welatê xwe, alîyên baş û nebaş, nêrîna xwe bibêje."
+    "ku": "Mîna Goethe B1 beşa 2: mijarê nas bike, serpêhatiya xwe, welatê xwe, alîyên baş û nebaş, nêrîna xwe bibêje.",
+    "fr": "Comme Goethe B1 partie 2 : présentez le sujet, votre expérience, votre pays, les avantages et les inconvénients, votre opinion.",
+    "it": "Come Goethe B1 parte 2: introduci l'argomento, la tua esperienza, il tuo paese, i pro e i contro, la tua opinione.",
+    "ar": "على غرار الجزء الثاني من اختبار غوته B1: تقديم الموضوع، تجربتك، بلدك، الإيجابيات والسلبيات، رأيك."
    },
    "points": [
     {
@@ -2715,7 +3285,10 @@
       "tr": "Konuyu tanıt",
       "en": "Introduce the topic",
       "es": "Presenta el tema",
-      "ku": "Mijarê nas bike"
+      "ku": "Mijarê nas bike",
+      "fr": "Présentez le sujet",
+      "it": "Introduci l'argomento",
+      "ar": "تقديم الموضوع"
      },
      "say": "Mein Thema ist …",
      "keys": [
@@ -2732,7 +3305,10 @@
       "tr": "Kendi deneyimin",
       "en": "Your own experience",
       "es": "Tu propia experiencia",
-      "ku": "Serpêhatiya te"
+      "ku": "Serpêhatiya te",
+      "fr": "Votre propre expérience",
+      "it": "La tua esperienza personale",
+      "ar": "تجربتك الخاصة"
      },
      "say": "Ich persönlich habe …",
      "keys": [
@@ -2749,7 +3325,10 @@
       "tr": "Ülkendeki durum",
       "en": "The situation in your country",
       "es": "La situación en tu país",
-      "ku": "Rewşa li welatê te"
+      "ku": "Rewşa li welatê te",
+      "fr": "La situation dans votre pays",
+      "it": "La situazione nel tuo paese",
+      "ar": "الوضع في بلدك"
      },
      "say": "In meinem Heimatland …",
      "keys": [
@@ -2765,7 +3344,10 @@
       "tr": "Avantajlar",
       "en": "Advantages",
       "es": "Ventajas",
-      "ku": "Feyde"
+      "ku": "Feyde",
+      "fr": "Avantages",
+      "it": "Dettagli",
+      "ar": "المزايا"
      },
      "say": "Ein Vorteil ist, dass …",
      "keys": [
@@ -2781,7 +3363,10 @@
       "tr": "Dezavantajlar",
       "en": "Disadvantages",
       "es": "Desventajas",
-      "ku": "Ziyan"
+      "ku": "Ziyan",
+      "fr": "Inconvénients",
+      "it": "Svantaggi",
+      "ar": "العيوب"
      },
      "say": "Ein Nachteil ist, dass …",
      "keys": [
@@ -2798,7 +3383,10 @@
       "tr": "Görüşün ve sonuç",
       "en": "Your opinion and conclusion",
       "es": "Tu opinión y conclusión",
-      "ku": "Nêrîn û encama te"
+      "ku": "Nêrîn û encama te",
+      "fr": "Votre opinion et votre conclusion",
+      "it": "La tua opinione e conclusione",
+      "ar": "رأيك واستنتاجك"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -2822,14 +3410,20 @@
     "tr": "Sunum: Çocuklar ve akıllı telefon",
     "en": "Presentation: children and smartphones",
     "es": "Presentación: niños y teléfonos inteligentes",
-    "ku": "Pêşkêşkirin: zarok û telefonên jîr"
+    "ku": "Pêşkêşkirin: zarok û telefonên jîr",
+    "fr": "Présentation : les enfants et les smartphones",
+    "it": "Presentazione: bambini e smartphone",
+    "ar": "عرض تقديمي: الأطفال والهواتف الذكية"
    },
    "prompt": "Präsentieren Sie das Thema „Brauchen Kinder ein eigenes Smartphone?“.",
    "help": {
     "tr": "Konuyu tanıt, deneyimin, ülkendeki durum, artılar/eksiler, görüşün.",
     "en": "Introduce the topic, your experience, your country, pros and cons, your opinion.",
     "es": "Presenta el tema, cuenta tu experiencia y la situación en tu país, habla de ventajas y desventajas y da tu opinión.",
-    "ku": "Mijarê nas bike, serpêhatiya xwe û welatê xwe bibêje, alîyên baş û nebaş û nêrîna xwe rave bike."
+    "ku": "Mijarê nas bike, serpêhatiya xwe û welatê xwe bibêje, alîyên baş û nebaş û nêrîna xwe rave bike.",
+    "fr": "Présentez le sujet, votre expérience, votre pays, les avantages et les inconvénients, votre opinion.",
+    "it": "Introduci l'argomento, la tua esperienza, il tuo paese, i pro e i contro, la tua opinione.",
+    "ar": "قدّم الموضوع، تجربتك، بلدك، الإيجابيات والسلبيات، ورأيك."
    },
    "points": [
     {
@@ -2837,7 +3431,10 @@
       "tr": "Konuyu tanıt",
       "en": "Introduce the topic",
       "es": "Presenta el tema",
-      "ku": "Mijarê nas bike"
+      "ku": "Mijarê nas bike",
+      "fr": "Présentez le sujet",
+      "it": "Introduci l'argomento",
+      "ar": "تقديم الموضوع"
      },
      "say": "Mein Thema ist …",
      "keys": [
@@ -2854,7 +3451,10 @@
       "tr": "Kendi deneyimin",
       "en": "Your own experience",
       "es": "Tu propia experiencia",
-      "ku": "Serpêhatiya te"
+      "ku": "Serpêhatiya te",
+      "fr": "Votre propre expérience",
+      "it": "La tua esperienza personale",
+      "ar": "تجربتك الخاصة"
      },
      "say": "Ich persönlich habe …",
      "keys": [
@@ -2871,7 +3471,10 @@
       "tr": "Ülkendeki durum",
       "en": "The situation in your country",
       "es": "La situación en tu país",
-      "ku": "Rewşa li welatê te"
+      "ku": "Rewşa li welatê te",
+      "fr": "La situation dans votre pays",
+      "it": "La situazione nel tuo paese",
+      "ar": "الوضع في بلدك"
      },
      "say": "In meinem Heimatland …",
      "keys": [
@@ -2887,7 +3490,10 @@
       "tr": "Avantajlar",
       "en": "Advantages",
       "es": "Ventajas",
-      "ku": "Feyde"
+      "ku": "Feyde",
+      "fr": "Avantages",
+      "it": "Dettagli",
+      "ar": "المزايا"
      },
      "say": "Ein Vorteil ist, dass …",
      "keys": [
@@ -2903,7 +3509,10 @@
       "tr": "Dezavantajlar",
       "en": "Disadvantages",
       "es": "Desventajas",
-      "ku": "Ziyan"
+      "ku": "Ziyan",
+      "fr": "Inconvénients",
+      "it": "Svantaggi",
+      "ar": "العيوب"
      },
      "say": "Ein Nachteil ist, dass …",
      "keys": [
@@ -2920,7 +3529,10 @@
       "tr": "Görüşün ve sonuç",
       "en": "Your opinion and conclusion",
       "es": "Tu opinión y conclusión",
-      "ku": "Nêrîn û encama te"
+      "ku": "Nêrîn û encama te",
+      "fr": "Votre opinion et votre conclusion",
+      "it": "La tua opinione e conclusione",
+      "ar": "رأيك واستنتاجك"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -2944,14 +3556,20 @@
     "tr": "Birlikte plan yapın: veda partisi",
     "en": "Plan together: a farewell party",
     "es": "Planear juntos: una fiesta de despedida",
-    "ku": "Bi hev re plan bikin: şahiyeke vedakeriyê"
+    "ku": "Bi hev re plan bikin: şahiyeke vedakeriyê",
+    "fr": "Organisons ensemble : une fête d'adieu",
+    "it": "Organizzate insieme: una festa di addio",
+    "ar": "خططوا معاً: حفلة وداع"
    },
    "prompt": "Eine Kollegin verlässt die Firma. Planen Sie zusammen eine Abschiedsfeier.",
    "help": {
     "tr": "Goethe B1 Teil 1 gibi: öneri yap, zaman, yer, hediye, kabul et veya itiraz et.",
     "en": "Like Goethe B1 part 1: suggest, time, place, present, agree or disagree.",
     "es": "Como en Goethe B1, parte 1: proponed algo, hablad de la hora y el lugar, del regalo; aceptad o rechazad propuestas.",
-    "ku": "Mîna Goethe B1 beşa 1: pêşniyar bike, dem û cih, diyariyê, qebûl bike an red bike."
+    "ku": "Mîna Goethe B1 beşa 1: pêşniyar bike, dem û cih, diyariyê, qebûl bike an red bike.",
+    "fr": "Comme Goethe B1 partie 1 : suggérer, temps, lieu, présent, être d'accord ou non.",
+    "it": "Come Goethe B1 parte 1: suggerire, tempo, luogo, presente, essere d'accordo o in disaccordo.",
+    "ar": "مثل غوته الجزء الأول من المستوى B1: اقتراح، وقت، مكان، حاضر، موافقة أو عدم موافقة."
    },
    "points": [
     {
@@ -2959,7 +3577,10 @@
       "tr": "Öneri yap",
       "en": "Make a suggestion",
       "es": "Haz una propuesta",
-      "ku": "Pêşniyarekê bike"
+      "ku": "Pêşniyarekê bike",
+      "fr": "Faites une suggestion",
+      "it": "Fai un suggerimento",
+      "ar": "قدّم اقتراحًا"
      },
      "say": "Wir könnten … / Ich schlage vor, …",
      "keys": [
@@ -2975,7 +3596,10 @@
       "tr": "Zaman",
       "en": "Time",
       "es": "Hora",
-      "ku": "Dem"
+      "ku": "Dem",
+      "fr": "Temps",
+      "it": "Tempo",
+      "ar": "وقت"
      },
      "say": "am Freitagnachmittag",
      "keys": [
@@ -2992,7 +3616,10 @@
       "tr": "Yer",
       "en": "Place",
       "es": "Lugar",
-      "ku": "Cih"
+      "ku": "Cih",
+      "fr": "Lieu",
+      "it": "Posto",
+      "ar": "مكان"
      },
      "say": "im Besprechungsraum / in einem Restaurant",
      "keys": [
@@ -3009,7 +3636,10 @@
       "tr": "Hediye",
       "en": "Present",
       "es": "Regalo",
-      "ku": "Diyarî"
+      "ku": "Diyarî",
+      "fr": "Présent",
+      "it": "Presente",
+      "ar": "حاضر"
      },
      "say": "Wir sammeln Geld für ein Geschenk.",
      "keys": [
@@ -3025,7 +3655,10 @@
       "tr": "Kabul et",
       "en": "Agree",
       "es": "Aceptar",
-      "ku": "Qebûl bike"
+      "ku": "Qebûl bike",
+      "fr": "Accepter",
+      "it": "Essere d'accordo",
+      "ar": "يوافق"
      },
      "say": "Das ist eine gute Idee.",
      "keys": [
@@ -3041,7 +3674,10 @@
       "tr": "İtiraz et",
       "en": "Disagree",
       "es": "Rechazar",
-      "ku": "Red bike"
+      "ku": "Red bike",
+      "fr": "Être en désaccord",
+      "it": "Non sono d'accordo",
+      "ar": "غير موافق"
      },
      "say": "Ich bin nicht sicher, ob …",
      "keys": [
@@ -3063,14 +3699,20 @@
     "tr": "Zor bir durum",
     "en": "A difficult situation",
     "es": "Una situación difícil",
-    "ku": "Rewşeke dijwar"
+    "ku": "Rewşeke dijwar",
+    "fr": "Une situation difficile",
+    "it": "Una situazione difficile",
+    "ar": "وضع صعب"
    },
    "prompt": "Erzählen Sie von einer schwierigen Situation in Ihrem Leben.",
    "help": {
     "tr": "Ne zaman, ne oldu, nasıl hissettin, nasıl çözdün, ne öğrendin? (geçmiş zaman)",
     "en": "When, what happened, how you felt, how you solved it, what you learned. (past tense)",
     "es": "Cuándo ocurrió, qué pasó, cómo te sentiste, cómo lo resolviste y qué aprendiste. (pasado)",
-    "ku": "Kengî, çi qewimî, tu çawa hîs kirî, tu çawa çareser kir, çi fêr bûyî. (dema borî)"
+    "ku": "Kengî, çi qewimî, tu çawa hîs kirî, tu çawa çareser kir, çi fêr bûyî. (dema borî)",
+    "fr": "Quand, que s'est-il passé, comment vous vous êtes senti, comment vous avez résolu le problème, qu'en avez-vous appris ? (passé simple)",
+    "it": "Quando, cosa è successo, come ti sei sentito, come hai risolto il problema, cosa hai imparato. (tempo passato)",
+    "ar": "متى، وماذا حدث، وكيف شعرت، وكيف حللت المشكلة، وماذا تعلمت. (بصيغة الماضي)"
    },
    "points": [
     {
@@ -3078,7 +3720,10 @@
       "tr": "Ne zaman",
       "en": "When",
       "es": "Cuándo",
-      "ku": "Kengî"
+      "ku": "Kengî",
+      "fr": "Quand",
+      "it": "Quando",
+      "ar": "متى"
      },
      "say": "Vor zwei Jahren … / Als ich …",
      "keys": [
@@ -3093,7 +3738,10 @@
       "tr": "Ne oldu",
       "en": "What happened",
       "es": "Qué pasó",
-      "ku": "Çi bû"
+      "ku": "Çi bû",
+      "fr": "Ce qui s'est passé",
+      "it": "Quello che è successo",
+      "ar": "ماذا حدث"
      },
      "say": "Es ist … passiert.",
      "keys": [
@@ -3109,7 +3757,10 @@
       "tr": "Duygular",
       "en": "Feelings",
       "es": "Sentimientos",
-      "ku": "Hest"
+      "ku": "Hest",
+      "fr": "Sentiments",
+      "it": "Sentimenti",
+      "ar": "المشاعر"
      },
      "say": "Ich war sehr nervös.",
      "keys": [
@@ -3127,7 +3778,10 @@
       "tr": "Çözüm",
       "en": "Solution",
       "es": "Solución",
-      "ku": "Çareserî"
+      "ku": "Çareserî",
+      "fr": "Solution",
+      "it": "Soluzione",
+      "ar": "حل"
      },
      "say": "Zum Glück … / Am Ende …",
      "keys": [
@@ -3143,7 +3797,10 @@
       "tr": "Ne öğrendin",
       "en": "What you learned",
       "es": "Qué aprendiste",
-      "ku": "Tiştê ku te fêr bû"
+      "ku": "Tiştê ku te fêr bû",
+      "fr": "Ce que vous avez appris",
+      "it": "Cosa hai imparato",
+      "ar": "ما تعلمته"
      },
      "say": "Seitdem … / Ich habe gelernt, …",
      "keys": [
@@ -3164,14 +3821,20 @@
     "tr": "Görüş: Evden çalışma",
     "en": "Opinion: working from home",
     "es": "Opinión: trabajar desde casa",
-    "ku": "Nêrîn: ji malê kar kirin"
+    "ku": "Nêrîn: ji malê kar kirin",
+    "fr": "Opinion : le télétravail",
+    "it": "Opinione: lavorare da casa",
+    "ar": "رأي: العمل من المنزل"
    },
    "prompt": "Ist Homeoffice besser als Arbeiten im Büro? Sagen Sie Ihre Meinung.",
    "help": {
     "tr": "Görüşünü söyle, gerekçe ve örnek ver, karşı görüşü de an, sonuç çıkar.",
     "en": "Give your opinion, reasons and an example, mention the other side, conclude.",
     "es": "Da tu opinión, expón tus razones y un ejemplo, menciona el otro punto de vista y concluye.",
-    "ku": "Nêrîna xwe bibêje, sedem û mînakekê bide, aliyê din jî bibêje û encamê derxe."
+    "ku": "Nêrîna xwe bibêje, sedem û mînakekê bide, aliyê din jî bibêje û encamê derxe.",
+    "fr": "Donnez votre avis, vos raisons et un exemple, mentionnez l'autre point de vue, concluez.",
+    "it": "Esprimi la tua opinione, motivala con un esempio, menziona anche il punto di vista opposto e concludi.",
+    "ar": "قدم رأيك وأسبابك ومثالاً، واذكر الجانب الآخر، ثم اختتم."
    },
    "points": [
     {
@@ -3179,7 +3842,10 @@
       "tr": "Görüşün",
       "en": "Your opinion",
       "es": "Tu opinión",
-      "ku": "Nêrîna te"
+      "ku": "Nêrîna te",
+      "fr": "Votre opinion",
+      "it": "La tua opinione",
+      "ar": "رأيك"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -3195,7 +3861,10 @@
       "tr": "Gerekçe söyle",
       "en": "Give a reason",
       "es": "Da una razón",
-      "ku": "Sedemekê bibêje"
+      "ku": "Sedemekê bibêje",
+      "fr": "Donnez une raison",
+      "it": "Fornire una motivazione",
+      "ar": "أعطِ سبباً"
      },
      "say": "…, weil …",
      "keys": [
@@ -3212,7 +3881,10 @@
       "tr": "Bir örnek ver",
       "en": "Give an example",
       "es": "Da un ejemplo",
-      "ku": "Mînakekê bide"
+      "ku": "Mînakekê bide",
+      "fr": "Donnez un exemple",
+      "it": "Fai un esempio",
+      "ar": "أعط مثالاً"
      },
      "say": "Zum Beispiel …",
      "keys": [
@@ -3227,7 +3899,10 @@
       "tr": "Karşı görüş",
       "en": "The other side",
       "es": "El otro punto de vista",
-      "ku": "Aliyê din"
+      "ku": "Aliyê din",
+      "fr": "L'autre côté",
+      "it": "l'altro lato",
+      "ar": "الجانب الآخر"
      },
      "say": "Andererseits …",
      "keys": [
@@ -3243,7 +3918,10 @@
       "tr": "Sonuç",
       "en": "Conclusion",
       "es": "Conclusión",
-      "ku": "Encam"
+      "ku": "Encam",
+      "fr": "Conclusion",
+      "it": "Conclusione",
+      "ar": "خاتمة"
      },
      "say": "Insgesamt …",
      "keys": [
@@ -3265,14 +3943,20 @@
     "tr": "Sunum: Şehirde mi köyde mi?",
     "en": "Presentation: city or countryside?",
     "es": "Presentación: ¿ciudad o campo?",
-    "ku": "Pêşkêşkirin: bajar an gund?"
+    "ku": "Pêşkêşkirin: bajar an gund?",
+    "fr": "Présentation : ville ou campagne ?",
+    "it": "Presentazione: città o campagna?",
+    "ar": "العرض التقديمي: المدينة أم الريف؟"
    },
    "prompt": "Präsentieren Sie das Thema „Leben in der Stadt oder auf dem Land?“.",
    "help": {
     "tr": "Konuyu tanıt, deneyimin, ülkendeki durum, artılar/eksiler, görüşün.",
     "en": "Introduce the topic, your experience, your country, pros and cons, your opinion.",
     "es": "Presenta el tema, cuenta tu experiencia y la situación en tu país, habla de ventajas y desventajas y da tu opinión.",
-    "ku": "Mijarê nas bike, serpêhatiya xwe û welatê xwe bibêje, alîyên baş û nebaş û nêrîna xwe rave bike."
+    "ku": "Mijarê nas bike, serpêhatiya xwe û welatê xwe bibêje, alîyên baş û nebaş û nêrîna xwe rave bike.",
+    "fr": "Présentez le sujet, votre expérience, votre pays, les avantages et les inconvénients, votre opinion.",
+    "it": "Introduci l'argomento, la tua esperienza, il tuo paese, i pro e i contro, la tua opinione.",
+    "ar": "قدّم الموضوع، تجربتك، بلدك، الإيجابيات والسلبيات، ورأيك."
    },
    "points": [
     {
@@ -3280,7 +3964,10 @@
       "tr": "Konuyu tanıt",
       "en": "Introduce the topic",
       "es": "Presenta el tema",
-      "ku": "Mijarê nas bike"
+      "ku": "Mijarê nas bike",
+      "fr": "Présentez le sujet",
+      "it": "Introduci l'argomento",
+      "ar": "تقديم الموضوع"
      },
      "say": "Mein Thema ist …",
      "keys": [
@@ -3297,7 +3984,10 @@
       "tr": "Kendi deneyimin",
       "en": "Your own experience",
       "es": "Tu propia experiencia",
-      "ku": "Serpêhatiya te"
+      "ku": "Serpêhatiya te",
+      "fr": "Votre propre expérience",
+      "it": "La tua esperienza personale",
+      "ar": "تجربتك الخاصة"
      },
      "say": "Ich persönlich habe …",
      "keys": [
@@ -3314,7 +4004,10 @@
       "tr": "Ülkendeki durum",
       "en": "The situation in your country",
       "es": "La situación en tu país",
-      "ku": "Rewşa li welatê te"
+      "ku": "Rewşa li welatê te",
+      "fr": "La situation dans votre pays",
+      "it": "La situazione nel tuo paese",
+      "ar": "الوضع في بلدك"
      },
      "say": "In meinem Heimatland …",
      "keys": [
@@ -3330,7 +4023,10 @@
       "tr": "Avantajlar",
       "en": "Advantages",
       "es": "Ventajas",
-      "ku": "Feyde"
+      "ku": "Feyde",
+      "fr": "Avantages",
+      "it": "Dettagli",
+      "ar": "المزايا"
      },
      "say": "Ein Vorteil ist, dass …",
      "keys": [
@@ -3346,7 +4042,10 @@
       "tr": "Dezavantajlar",
       "en": "Disadvantages",
       "es": "Desventajas",
-      "ku": "Ziyan"
+      "ku": "Ziyan",
+      "fr": "Inconvénients",
+      "it": "Svantaggi",
+      "ar": "العيوب"
      },
      "say": "Ein Nachteil ist, dass …",
      "keys": [
@@ -3363,7 +4062,10 @@
       "tr": "Görüşün ve sonuç",
       "en": "Your opinion and conclusion",
       "es": "Tu opinión y conclusión",
-      "ku": "Nêrîn û encama te"
+      "ku": "Nêrîn û encama te",
+      "fr": "Votre opinion et votre conclusion",
+      "it": "La tua opinione e conclusione",
+      "ar": "رأيك واستنتاجك"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -3387,14 +4089,20 @@
     "tr": "Sunum: Şehir merkezinde otomobil yasağı",
     "en": "Presentation: banning cars from city centres",
     "es": "Presentación: prohibir los coches en el centro de la ciudad",
-    "ku": "Pêşkêşkirin: qedexekirina otomobîlan li navenda bajêr"
+    "ku": "Pêşkêşkirin: qedexekirina otomobîlan li navenda bajêr",
+    "fr": "Présentation : interdire les voitures dans les centres-villes",
+    "it": "Presentazione: vietare le auto nei centri urbani",
+    "ar": "عرض تقديمي: حظر السيارات من مراكز المدن"
    },
    "prompt": "Halten Sie einen kurzen Vortrag: „Sollten Autos aus den Innenstädten verbannt werden?“",
    "help": {
     "tr": "Goethe B2 gibi: giriş, artılar, eksiler, örnek, ülkendeki durum, sonuç.",
     "en": "Like Goethe B2: introduction, pros, cons, an example, your country, conclusion.",
     "es": "Como en Goethe B2: introducción, ventajas, desventajas, un ejemplo, tu país y conclusión.",
-    "ku": "Mîna Goethe B2: destpêk, alîyên baş, alîyên nebaş, mînakek, rewşa welatê te, encam."
+    "ku": "Mîna Goethe B2: destpêk, alîyên baş, alîyên nebaş, mînakek, rewşa welatê te, encam.",
+    "fr": "Comme Goethe B2 : introduction, avantages, inconvénients, un exemple, votre pays, conclusion.",
+    "it": "Come Goethe B2: introduzione, vantaggi, svantaggi, un esempio, il tuo paese, conclusione.",
+    "ar": "على غرار غوته B2: مقدمة، الإيجابيات، السلبيات، مثال، بلدك، خاتمة."
    },
    "points": [
     {
@@ -3402,7 +4110,10 @@
       "tr": "Konuyu tanıt",
       "en": "Introduce the topic",
       "es": "Presenta el tema",
-      "ku": "Mijarê nas bike"
+      "ku": "Mijarê nas bike",
+      "fr": "Présentez le sujet",
+      "it": "Introduci l'argomento",
+      "ar": "تقديم الموضوع"
      },
      "say": "Mein Thema ist …",
      "keys": [
@@ -3419,7 +4130,10 @@
       "tr": "Avantajlar",
       "en": "Advantages",
       "es": "Ventajas",
-      "ku": "Feyde"
+      "ku": "Feyde",
+      "fr": "Avantages",
+      "it": "Dettagli",
+      "ar": "المزايا"
      },
      "say": "Ein Vorteil ist, dass …",
      "keys": [
@@ -3435,7 +4149,10 @@
       "tr": "Dezavantajlar",
       "en": "Disadvantages",
       "es": "Desventajas",
-      "ku": "Ziyan"
+      "ku": "Ziyan",
+      "fr": "Inconvénients",
+      "it": "Svantaggi",
+      "ar": "العيوب"
      },
      "say": "Ein Nachteil ist, dass …",
      "keys": [
@@ -3452,7 +4169,10 @@
       "tr": "Bir örnek ver",
       "en": "Give an example",
       "es": "Da un ejemplo",
-      "ku": "Mînakekê bide"
+      "ku": "Mînakekê bide",
+      "fr": "Donnez un exemple",
+      "it": "Fai un esempio",
+      "ar": "أعط مثالاً"
      },
      "say": "Zum Beispiel …",
      "keys": [
@@ -3467,7 +4187,10 @@
       "tr": "Ülkendeki durum",
       "en": "The situation in your country",
       "es": "La situación en tu país",
-      "ku": "Rewşa li welatê te"
+      "ku": "Rewşa li welatê te",
+      "fr": "La situation dans votre pays",
+      "it": "La situazione nel tuo paese",
+      "ar": "الوضع في بلدك"
      },
      "say": "In meinem Heimatland …",
      "keys": [
@@ -3483,7 +4206,10 @@
       "tr": "Görüşün ve sonuç",
       "en": "Your opinion and conclusion",
       "es": "Tu opinión y conclusión",
-      "ku": "Nêrîn û encama te"
+      "ku": "Nêrîn û encama te",
+      "fr": "Votre opinion et votre conclusion",
+      "it": "La tua opinione e conclusione",
+      "ar": "رأيك واستنتاجك"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -3507,14 +4233,20 @@
     "tr": "Tartışma: Gençler ve sosyal medya",
     "en": "Discussion: teenagers and social media",
     "es": "Debate: adolescentes y redes sociales",
-    "ku": "Nîqaş: ciwan û medyaya civakî"
+    "ku": "Nîqaş: ciwan û medyaya civakî",
+    "fr": "Discussion : les adolescents et les réseaux sociaux",
+    "it": "Discussione: adolescenti e social media",
+    "ar": "نقاش: المراهقون ووسائل التواصل الاجتماعي"
    },
    "prompt": "Diskutieren Sie: „Soziale Medien sollten erst ab 16 Jahren erlaubt sein.“",
    "help": {
     "tr": "Görüşünü savun, gerekçe ver, karşı argümanı kabul et ve çürüt, uzlaşma öner.",
     "en": "Defend your view, give reasons, acknowledge and answer the counter-argument, suggest a compromise.",
     "es": "Defiende tu opinión, da razones, reconoce y responde al argumento contrario, y propón un compromiso.",
-    "ku": "Nêrîna xwe biparêze, sedeman bibêje, nerazîbûna aliyê din qebûl bike û bersivê bide, lihevhatinekê pêşniyar bike."
+    "ku": "Nêrîna xwe biparêze, sedeman bibêje, nerazîbûna aliyê din qebûl bike û bersivê bide, lihevhatinekê pêşniyar bike.",
+    "fr": "Défendez votre point de vue, donnez des raisons, reconnaissez et répondez à l'argument contraire, proposez un compromis.",
+    "it": "Difendi il tuo punto di vista, fornisci delle motivazioni, riconosci e rispondi alle obiezioni, proponi un compromesso.",
+    "ar": "دافع عن وجهة نظرك، وقدم الأسباب، واعترف بالحجة المضادة وأجب عليها، واقترح حلاً وسطاً."
    },
    "points": [
     {
@@ -3522,7 +4254,10 @@
       "tr": "Tutumun",
       "en": "Your position",
       "es": "Tu postura",
-      "ku": "Helwesta te"
+      "ku": "Helwesta te",
+      "fr": "Votre position",
+      "it": "La tua forza",
+      "ar": "موقعك"
      },
      "say": "Ich vertrete die Ansicht, dass …",
      "keys": [
@@ -3538,7 +4273,10 @@
       "tr": "Gerekçe söyle",
       "en": "Give a reason",
       "es": "Da una razón",
-      "ku": "Sedemekê bibêje"
+      "ku": "Sedemekê bibêje",
+      "fr": "Donnez une raison",
+      "it": "Fornire una motivazione",
+      "ar": "أعطِ سبباً"
      },
      "say": "…, weil …",
      "keys": [
@@ -3555,7 +4293,10 @@
       "tr": "Karşı argümanı kabul et",
       "en": "Acknowledge the other side",
       "es": "Reconoce el otro punto de vista",
-      "ku": "Aliyê din qebûl bike"
+      "ku": "Aliyê din qebûl bike",
+      "fr": "Reconnaître l'autre côté",
+      "it": "Riconoscere l'altra parte",
+      "ar": "اعترف بالجانب الآخر"
      },
      "say": "Da haben Sie zwar recht, aber …",
      "keys": [
@@ -3571,7 +4312,10 @@
       "tr": "İtiraz et",
       "en": "Disagree",
       "es": "Rechazar",
-      "ku": "Red bike"
+      "ku": "Red bike",
+      "fr": "Être en désaccord",
+      "it": "Non sono d'accordo",
+      "ar": "غير موافق"
      },
      "say": "Da muss ich widersprechen.",
      "keys": [
@@ -3587,7 +4331,10 @@
       "tr": "Uzlaşma öner",
       "en": "Suggest a compromise",
       "es": "Propón un compromiso",
-      "ku": "Lihevhatinekê pêşniyar bike"
+      "ku": "Lihevhatinekê pêşniyar bike",
+      "fr": "Proposez un compromis",
+      "it": "Proponi un compromesso",
+      "ar": "اقترح حلاً وسطاً"
      },
      "say": "Ein Kompromiss wäre …",
      "keys": [
@@ -3609,14 +4356,20 @@
     "tr": "Sunum: Hayat boyu öğrenme",
     "en": "Presentation: lifelong learning",
     "es": "Presentación: aprendizaje permanente",
-    "ku": "Pêşkêşkirin: fêrbûna heta dawiya jiyanê"
+    "ku": "Pêşkêşkirin: fêrbûna heta dawiya jiyanê",
+    "fr": "Présentation : l'apprentissage tout au long de la vie",
+    "it": "Presentazione: apprendimento permanente",
+    "ar": "عرض تقديمي: التعلم مدى الحياة"
    },
    "prompt": "Halten Sie einen kurzen Vortrag zum Thema „Lebenslanges Lernen“.",
    "help": {
     "tr": "Giriş, artılar, zorluklar, örnek, ülkendeki durum, sonuç.",
     "en": "Introduction, advantages, difficulties, an example, your country, conclusion.",
     "es": "Introducción, ventajas, dificultades, un ejemplo, tu país y conclusión.",
-    "ku": "Destpêk, feyde, zehmetî, mînakek, rewşa welatê te, encam."
+    "ku": "Destpêk, feyde, zehmetî, mînakek, rewşa welatê te, encam.",
+    "fr": "Introduction, avantages, difficultés, un exemple, votre pays, conclusion.",
+    "it": "Introduzione, vantaggi, difficoltà, un esempio, il tuo paese, conclusione.",
+    "ar": "مقدمة، مزايا، صعوبات، مثال، بلدك، خاتمة."
    },
    "points": [
     {
@@ -3624,7 +4377,10 @@
       "tr": "Konuyu tanıt",
       "en": "Introduce the topic",
       "es": "Presenta el tema",
-      "ku": "Mijarê nas bike"
+      "ku": "Mijarê nas bike",
+      "fr": "Présentez le sujet",
+      "it": "Introduci l'argomento",
+      "ar": "تقديم الموضوع"
      },
      "say": "Mein Thema ist …",
      "keys": [
@@ -3641,7 +4397,10 @@
       "tr": "Avantajlar",
       "en": "Advantages",
       "es": "Ventajas",
-      "ku": "Feyde"
+      "ku": "Feyde",
+      "fr": "Avantages",
+      "it": "Dettagli",
+      "ar": "المزايا"
      },
      "say": "Ein Vorteil ist, dass …",
      "keys": [
@@ -3657,7 +4416,10 @@
       "tr": "Dezavantajlar",
       "en": "Disadvantages",
       "es": "Desventajas",
-      "ku": "Ziyan"
+      "ku": "Ziyan",
+      "fr": "Inconvénients",
+      "it": "Svantaggi",
+      "ar": "العيوب"
      },
      "say": "Ein Nachteil ist, dass …",
      "keys": [
@@ -3674,7 +4436,10 @@
       "tr": "Bir örnek ver",
       "en": "Give an example",
       "es": "Da un ejemplo",
-      "ku": "Mînakekê bide"
+      "ku": "Mînakekê bide",
+      "fr": "Donnez un exemple",
+      "it": "Fai un esempio",
+      "ar": "أعط مثالاً"
      },
      "say": "Zum Beispiel …",
      "keys": [
@@ -3689,7 +4454,10 @@
       "tr": "Ülkendeki durum",
       "en": "The situation in your country",
       "es": "La situación en tu país",
-      "ku": "Rewşa li welatê te"
+      "ku": "Rewşa li welatê te",
+      "fr": "La situation dans votre pays",
+      "it": "La situazione nel tuo paese",
+      "ar": "الوضع في بلدك"
      },
      "say": "In meinem Heimatland …",
      "keys": [
@@ -3705,7 +4473,10 @@
       "tr": "Görüşün ve sonuç",
       "en": "Your opinion and conclusion",
       "es": "Tu opinión y conclusión",
-      "ku": "Nêrîn û encama te"
+      "ku": "Nêrîn û encama te",
+      "fr": "Votre opinion et votre conclusion",
+      "it": "La tua opinione e conclusione",
+      "ar": "رأيك واستنتاجك"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -3729,14 +4500,20 @@
     "tr": "Tartışma: Dört günlük çalışma haftası",
     "en": "Discussion: the four-day week",
     "es": "Debate: la semana laboral de cuatro días",
-    "ku": "Nîqaş: hefteya kar a çar rojî"
+    "ku": "Nîqaş: hefteya kar a çar rojî",
+    "fr": "Discussion : la semaine de quatre jours",
+    "it": "Discussione: la settimana di quattro giorni",
+    "ar": "مناقشة: أسبوع العمل ذو الأربعة أيام"
    },
    "prompt": "Diskutieren Sie: „Die Vier-Tage-Woche sollte für alle eingeführt werden.“",
    "help": {
     "tr": "Görüşünü savun, gerekçe ve örnek ver, karşı argümanı ele al, uzlaşma öner.",
     "en": "Defend your view, reasons and an example, deal with the counter-argument, suggest a compromise.",
     "es": "Defiende tu opinión, da razones y un ejemplo, responde al argumento contrario y propón un compromiso.",
-    "ku": "Nêrîna xwe biparêze, sedeman û mînakekê bide, bersiva nerazîbûnê binirxîne û lihevhatinekê pêşniyar bike."
+    "ku": "Nêrîna xwe biparêze, sedeman û mînakekê bide, bersiva nerazîbûnê binirxîne û lihevhatinekê pêşniyar bike.",
+    "fr": "Défendez votre point de vue, vos raisons et un exemple, traitez l'argument contraire, proposez un compromis.",
+    "it": "Sostieni il tuo punto di vista, motivandolo con un esempio, confuta le obiezioni e proponi un compromesso.",
+    "ar": "دافع عن وجهة نظرك، وأسبابك، وقدم مثالاً، وتناول الحجة المضادة، واقترح حلاً وسطاً."
    },
    "points": [
     {
@@ -3744,7 +4521,10 @@
       "tr": "Tutumun",
       "en": "Your position",
       "es": "Tu postura",
-      "ku": "Helwesta te"
+      "ku": "Helwesta te",
+      "fr": "Votre position",
+      "it": "La tua forza",
+      "ar": "موقعك"
      },
      "say": "Ich bin davon überzeugt, dass …",
      "keys": [
@@ -3760,7 +4540,10 @@
       "tr": "Gerekçe söyle",
       "en": "Give a reason",
       "es": "Da una razón",
-      "ku": "Sedemekê bibêje"
+      "ku": "Sedemekê bibêje",
+      "fr": "Donnez une raison",
+      "it": "Fornire una motivazione",
+      "ar": "أعطِ سبباً"
      },
      "say": "…, weil …",
      "keys": [
@@ -3777,7 +4560,10 @@
       "tr": "Bir örnek ver",
       "en": "Give an example",
       "es": "Da un ejemplo",
-      "ku": "Mînakekê bide"
+      "ku": "Mînakekê bide",
+      "fr": "Donnez un exemple",
+      "it": "Fai un esempio",
+      "ar": "أعط مثالاً"
      },
      "say": "Zum Beispiel …",
      "keys": [
@@ -3792,7 +4578,10 @@
       "tr": "Karşı argüman",
       "en": "Counter-argument",
       "es": "Argumento contrario",
-      "ku": "Bersiva dijber"
+      "ku": "Bersiva dijber",
+      "fr": "Contre-argument",
+      "it": "Controargomentazione",
+      "ar": "حجة مضادة"
      },
      "say": "Man könnte einwenden, dass …",
      "keys": [
@@ -3808,7 +4597,10 @@
       "tr": "Uzlaşma öner",
       "en": "Suggest a compromise",
       "es": "Propón un compromiso",
-      "ku": "Lihevhatinekê pêşniyar bike"
+      "ku": "Lihevhatinekê pêşniyar bike",
+      "fr": "Proposez un compromis",
+      "it": "Proponi un compromesso",
+      "ar": "اقترح حلاً وسطاً"
      },
      "say": "Ein Mittelweg wäre …",
      "keys": [
@@ -3830,14 +4622,20 @@
     "tr": "Başarısız bir proje",
     "en": "A project that went wrong",
     "es": "Un proyecto que salió mal",
-    "ku": "Projeyeke ku serneket"
+    "ku": "Projeyeke ku serneket",
+    "fr": "Un projet qui a mal tourné",
+    "it": "Un progetto andato male",
+    "ar": "مشروع لم ينجح"
    },
    "prompt": "Berichten Sie von einem Projekt oder Plan, der nicht geklappt hat. Was würden Sie heute anders machen?",
    "help": {
     "tr": "Ne oldu, neden, sonuçları, bugün ne farklı yapardın (Konjunktiv II), ne öğrendin.",
     "en": "What happened, why, the consequences, what you would do differently (Konjunktiv II), what you learned.",
     "es": "Qué pasó, por qué, cuáles fueron las consecuencias, qué harías de otra manera (Konjunktiv II) y qué aprendiste.",
-    "ku": "Çi qewimî, çima, encam; tu ê niha çi cuda bikira (Konjunktiv II), û çi fêr bûyî."
+    "ku": "Çi qewimî, çima, encam; tu ê niha çi cuda bikira (Konjunktiv II), û çi fêr bûyî.",
+    "fr": "Que s'est-il passé, pourquoi, les conséquences, ce que vous feriez différemment ( Konjunktiv II), ce que vous avez appris.",
+    "it": "Cosa è successo, perché, le conseguenze, cosa faresti diversamente ( Konjunktiv II), cosa hai imparato.",
+    "ar": "ما الذي حدث، ولماذا، والنتائج، وما الذي ستفعله بشكل مختلف ( Konjunktiv II)، وما الذي تعلمته."
    },
    "points": [
     {
@@ -3845,7 +4643,10 @@
       "tr": "Ne oldu",
       "en": "What happened",
       "es": "Qué pasó",
-      "ku": "Çi bû"
+      "ku": "Çi bû",
+      "fr": "Ce qui s'est passé",
+      "it": "Quello che è successo",
+      "ar": "ماذا حدث"
      },
      "say": "Vor einem Jahr wollte ich …",
      "keys": [
@@ -3861,7 +4662,10 @@
       "tr": "Neden",
       "en": "Why",
       "es": "Por qué",
-      "ku": "Çima"
+      "ku": "Çima",
+      "fr": "Pourquoi",
+      "it": "Perché",
+      "ar": "لماذا"
      },
      "say": "Das lag vor allem daran, dass …",
      "keys": [
@@ -3877,7 +4681,10 @@
       "tr": "Sonuçlar",
       "en": "Consequences",
       "es": "Consecuencias",
-      "ku": "Encam"
+      "ku": "Encam",
+      "fr": "Conséquences",
+      "it": "Conseguenze",
+      "ar": "عواقب"
      },
      "say": "Dadurch / Folglich …",
      "keys": [
@@ -3893,7 +4700,10 @@
       "tr": "Farklı yapardın",
       "en": "What you would change",
       "es": "Qué cambiarías",
-      "ku": "Tiştê ku tu dixwazî biguherînî"
+      "ku": "Tiştê ku tu dixwazî biguherînî",
+      "fr": "Ce que vous changeriez",
+      "it": "Cosa cambieresti?",
+      "ar": "ما الذي ستغيره؟"
      },
      "say": "Heute würde ich … / hätte ich …",
      "keys": [
@@ -3908,7 +4718,10 @@
       "tr": "Ders",
       "en": "Lesson",
       "es": "Lección",
-      "ku": "Fêrî"
+      "ku": "Fêrî",
+      "fr": "Leçon",
+      "it": "Lezione",
+      "ar": "درس"
      },
      "say": "Rückblickend habe ich gelernt, …",
      "keys": [
@@ -3929,14 +4742,20 @@
     "tr": "Telefonda şikâyet",
     "en": "A complaint on the phone",
     "es": "Una reclamación por teléfono",
-    "ku": "Gazindeyekê bi telefonê bike"
+    "ku": "Gazindeyekê bi telefonê bike",
+    "fr": "Une plainte au téléphone",
+    "it": "Un reclamo al telefono",
+    "ar": "شكوى عبر الهاتف"
    },
    "prompt": "Rufen Sie die Hausverwaltung an: Die Heizung ist seit einer Woche kaputt.",
    "help": {
     "tr": "Kendini tanıt, sorunu anlat, ne zamandır olduğunu söyle, kibarca rica et, süre iste, teşekkür et.",
     "en": "Introduce yourself, describe the problem and since when, ask politely, ask for a deadline, thank them.",
     "es": "Preséntate, describe el problema y desde cuándo existe, pide algo amablemente, solicita un plazo y da las gracias.",
-    "ku": "Xwe nas bike, pirsgirêkê rave bike û bêje ji kengî ve heye, bi rêz daxwaz bike, demeke dawiyê bixwaze û spas bike."
+    "ku": "Xwe nas bike, pirsgirêkê rave bike û bêje ji kengî ve heye, bi rêz daxwaz bike, demeke dawiyê bixwaze û spas bike.",
+    "fr": "Présentez-vous, décrivez le problème et depuis quand, formulez votre demande poliment, demandez une date limite, remerciez-les.",
+    "it": "Presentati, descrivi il problema e indica da quanto tempo persiste, chiedi gentilmente, chiedi una scadenza e ringrazia.",
+    "ar": "عرّف بنفسك، واشرح المشكلة، واسأل بأدب، واطلب تحديد موعد نهائي، ثم اشكرهم."
    },
    "points": [
     {
@@ -3944,7 +4763,10 @@
       "tr": "Kendini tanıt",
       "en": "Introduce yourself",
       "es": "Preséntate",
-      "ku": "Xwe nas bike"
+      "ku": "Xwe nas bike",
+      "fr": "Présentez-vous",
+      "it": "Presentati",
+      "ar": "عرّف بنفسك"
      },
      "say": "Guten Tag, mein Name ist …",
      "keys": [
@@ -3959,7 +4781,10 @@
       "tr": "Sorun",
       "en": "The problem",
       "es": "El problema",
-      "ku": "Pirsgirêk"
+      "ku": "Pirsgirêk",
+      "fr": "Le problème",
+      "it": "Il problema",
+      "ar": "المشكلة"
      },
      "say": "Die Heizung funktioniert nicht.",
      "keys": [
@@ -3975,7 +4800,10 @@
       "tr": "Ne zamandan beri",
       "en": "Since when",
       "es": "Desde cuándo",
-      "ku": "Ji kengî ve"
+      "ku": "Ji kengî ve",
+      "fr": "Depuis quand",
+      "it": "Da quando",
+      "ar": "منذ متى"
      },
      "say": "seit einer Woche",
      "keys": [
@@ -3987,7 +4815,10 @@
       "tr": "Kibar rica",
       "en": "Polite request",
       "es": "Petición amable",
-      "ku": "Daxwaza bi rêz"
+      "ku": "Daxwaza bi rêz",
+      "fr": "demande polie",
+      "it": "Richiesta cortese",
+      "ar": "طلب مهذب"
      },
      "say": "Könnten Sie bitte …?",
      "keys": [
@@ -4002,7 +4833,10 @@
       "tr": "Süre",
       "en": "Deadline",
       "es": "Plazo",
-      "ku": "Demê dawîn"
+      "ku": "Demê dawîn",
+      "fr": "Date limite",
+      "it": "Scadenza",
+      "ar": "موعد التسليم"
      },
      "say": "bis spätestens Freitag",
      "keys": [
@@ -4017,7 +4851,10 @@
       "tr": "Teşekkür",
       "en": "Thank them",
       "es": "Dales las gracias",
-      "ku": "Spas bike"
+      "ku": "Spas bike",
+      "fr": "Remerciez-les",
+      "it": "Ringraziali",
+      "ar": "شكراً لهم"
      },
      "say": "Vielen Dank für Ihre Hilfe.",
      "keys": [

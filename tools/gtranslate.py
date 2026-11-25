@@ -83,6 +83,13 @@ def from_html(text):
     return html.unescape(text).replace(' \n', '\n').strip()
 
 
+def tidy(text, lang):
+    """Google leaves a space before punctuation next to a protected German word ("Dativ :", "für ،").
+    French keeps its space before : ; ! ? (that is French typography)."""
+    marks = r'[,.،؛]' if lang == 'fr' else r'[,.:;!?،؛]'
+    return re.sub(r'[ \u00a0]+(' + marks + ')', r'\1', text)
+
+
 def call(key, texts, lang):
     body = json.dumps({'q': [to_html(t) for t in texts], 'source': 'en', 'target': lang, 'format': 'html'}).encode()
     request = urllib.request.Request(f'https://translation.googleapis.com/language/translate/v2?key={key}', data=body,
@@ -90,7 +97,7 @@ def call(key, texts, lang):
     for attempt in range(6):
         try:
             with urllib.request.urlopen(request, timeout=60) as reply:
-                return [from_html(t['translatedText']) for t in json.load(reply)['data']['translations']]
+                return [tidy(from_html(t['translatedText']), lang) for t in json.load(reply)['data']['translations']]
         except urllib.error.HTTPError as e:
             if e.code not in (429, 500, 503):
                 message = json.load(e).get('error', {}).get('message', '')

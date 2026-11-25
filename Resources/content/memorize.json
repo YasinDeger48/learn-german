@@ -9,13 +9,19 @@
     "tr": "sein (olmak)",
     "en": "sein (to be)",
     "es": "sein (ser/estar)",
-    "ku": "sein (to be)"
+    "ku": "sein (to be)",
+    "fr": "sein (être)",
+    "it": "essere (essere)",
+    "ar": "sein (يكون)"
    },
    "intro": {
     "tr": "En önemli fiil; düzensizdir, mutlaka ezberle.",
     "en": "The most important verb; irregular, learn it by heart.",
     "es": "El verbo más importante; es irregular, apréndelo de memoria.",
-    "ku": "Lêkera herî girîng e; nerêkûpêk e, wê ji ber bike."
+    "ku": "Lêkera herî girîng e; nerêkûpêk e, wê ji ber bike.",
+    "fr": "Le verbe le plus important ; irrégulier, apprenez-le par cœur.",
+    "it": "Il verbo più importante; irregolare, imparalo a memoria.",
+    "ar": "الفعل الأهم؛ فعل شاذ، احفظه عن ظهر قلب."
    },
    "ask": "sein: {q} ___",
    "rows": [
@@ -60,13 +66,19 @@
     "tr": "haben (sahip olmak)",
     "en": "haben (to have)",
     "es": "haben (tener)",
-    "ku": "haben (to have)"
+    "ku": "haben (to have)",
+    "fr": "avoir",
+    "it": "avere (avere)",
+    "ar": "haben (يملك)"
    },
    "intro": {
     "tr": "Perfekt için de gerekir (hat gemacht).",
     "en": "Also needed for the Perfekt (hat gemacht).",
     "es": "También se necesita para el Perfekt (hat gemacht).",
-    "ku": "Ji bo Perfekt jî pêwîst e (hat gemacht)."
+    "ku": "Ji bo Perfekt jî pêwîst e (hat gemacht).",
+    "fr": "Également nécessaire pour le Perfekt (hat gemacht).",
+    "it": "Necessario anche per il Perfekt (hat gemacht).",
+    "ar": "هناك حاجة أيضًا إلى Perfekt (قبعة Gemacht)."
    },
    "ask": "haben: {q} ___",
    "rows": [
@@ -120,7 +132,10 @@
     "tr": "ich ve er aynı: ich kann, er kann. İkinci fiil cümle sonuna gider.",
     "en": "ich and er are the same: ich kann, er kann. The second verb goes to the end.",
     "es": "ich y er son iguales: ich kann, er kann. El segundo verbo va al final.",
-    "ku": "ich û er wek hev in: ich kann, er kann. Lêkera duyemîn diçe dawiya hevokê."
+    "ku": "ich û er wek hev in: ich kann, er kann. Lêkera duyemîn diçe dawiya hevokê.",
+    "fr": "ich et euh sont identiques : ich kann, er kann. Le deuxième verbe va jusqu'à la fin.",
+    "it": "ich ed er sono la stessa cosa: ich kann, er kann. Il secondo verbo va alla fine.",
+    "ar": "ich وer هما نفس الشيء: ich kann، er kann. الفعل الثاني يذهب إلى النهاية."
    },
    "ask": "{q} ___",
    "rows": [
@@ -260,13 +275,19 @@
     "tr": "Düzensiz fiiller",
     "en": "Irregular verbs",
     "es": "Verbos irregulares",
-    "ku": "Lêkerên nerêkûpêk"
+    "ku": "Lêkerên nerêkûpêk",
+    "fr": "Verbes irréguliers",
+    "it": "Verbi irregolari",
+    "ar": "الأفعال الشاذة"
    },
    "intro": {
     "tr": "er-biçimi ve Perfekt birlikte ezberlenir.",
     "en": "Learn the er-form and the Perfekt together.",
     "es": "Aprende juntos la forma de er y el Perfekt.",
-    "ku": "Forma er û Perfekt bi hev re fêr bibe."
+    "ku": "Forma er û Perfekt bi hev re fêr bibe.",
+    "fr": "Apprenez ensemble la forme en er et la Perfekt.",
+    "it": "Impara insieme la forma in -er e il Perfekt.",
+    "ar": "تعلم صيغة er وصيغة الماضي Perfekt معًا."
    },
    "ask": "{q}: er … / Perfekt?",
    "rows": [
@@ -377,13 +398,19 @@
     "tr": "Artikel tablosu (der/die/das)",
     "en": "Article table (der/die/das)",
     "es": "Tabla de artículos (der/die/das)",
-    "ku": "Tabloya artikêlan (der/die/das)"
+    "ku": "Tabloya artikêlan (der/die/das)",
+    "fr": "Tableau des articles (der/die/das)",
+    "it": "Tabella degli articoli (der/die/das)",
+    "ar": "جدول المقالات (der/die/das)"
    },
    "intro": {
     "tr": "Akkusativ'te sadece eril değişir (der → den). Dativ: dem, der, dem, den.",
     "en": "In the Akkusativ only the masculine changes (der → den). Dativ: dem, der, dem, den.",
     "es": "En Akkusativ solo cambia el masculino (der → den). Dativ: dem, der, dem, den.",
-    "ku": "Di Akkusativ de tenê forma nêr diguhere (der → den). Dativ: dem, der, dem, den."
+    "ku": "Di Akkusativ de tenê forma nêr diguhere (der → den). Dativ: dem, der, dem, den.",
+    "fr": "In the Akkusativ only the masculine changes (der → den). Dativ: dem, der, dem, den.",
+    "it": "In the Akkusativ only the masculine changes (der → den). Dativ: dem, der, dem, den.",
+    "ar": "In the Akkusativ only the masculine changes (der → den). Dativ: dem, der, dem, den."
    },
    "ask": "{q}: ?",
    "rows": [
@@ -458,13 +485,19 @@
     "tr": "ein / kein",
     "en": "ein / kein",
     "es": "ein / kein",
-    "ku": "ein / kein"
+    "ku": "ein / kein",
+    "fr": "ein / kein",
+    "it": "ein / kein",
+    "ar": "ein / kein"
    },
    "intro": {
     "tr": "kein, ein gibi çekilir; çoğulu da vardır: keine.",
     "en": "kein works like ein and also has a plural: keine.",
     "es": "kein funciona como ein y también tiene plural: keine.",
-    "ku": "kein mîna ein tê guhertin û forma pirjimar jî heye: keine."
+    "ku": "kein mîna ein tê guhertin û forma pirjimar jî heye: keine.",
+    "fr": "kein fonctionne comme ein et a aussi un pluriel : keine.",
+    "it": "kein funziona come ein e ha anche un plurale: keine.",
+    "ar": "يعمل kein مثل ein وله أيضًا صيغة جمع: keine."
    },
    "ask": "{q}: ?",
    "rows": [
@@ -529,13 +562,19 @@
     "tr": "Şahıs zamirleri",
     "en": "Personal pronouns",
     "es": "Pronombres personales",
-    "ku": "Cînavkên kesane"
+    "ku": "Cînavkên kesane",
+    "fr": "Pronoms personnels",
+    "it": "pronomi personali",
+    "ar": "الضمائر الشخصية"
    },
    "intro": {
     "tr": "Nominativ → Akkusativ → Dativ: ich → mich → mir.",
     "en": "Nominativ → Akkusativ → Dativ: ich → mich → mir.",
     "es": "Nominativ → Akkusativ → Dativ: ich → mich → mir.",
-    "ku": "Nominativ → Akkusativ → Dativ: ich → mich → mir."
+    "ku": "Nominativ → Akkusativ → Dativ: ich → mich → mir.",
+    "fr": "Nominativ → Akkusativ → Dativ: ich → mich → mir.",
+    "it": "Nominativ → Akkusativ → Dativ: ich → mich → mir.",
+    "ar": "Nominativ → Akkusativ → Dativ: ich → mich → mir."
    },
    "ask": "{q}: ?",
    "rows": [
@@ -618,13 +657,19 @@
     "tr": "İyelik (mein, dein …)",
     "en": "Possessives (mein, dein …)",
     "es": "Posesivos (mein, dein …)",
-    "ku": "Xwedîtiyê (mein, dein …)"
+    "ku": "Xwedîtiyê (mein, dein …)",
+    "fr": "Possessifs (mein, dein…)",
+    "it": "Possessivi (mein, dein …)",
+    "ar": "صيغ الملكية (mein، dein...)"
    },
    "intro": {
     "tr": "Dişil ve çoğulda -e: meine Mutter, meine Eltern.",
     "en": "Feminine and plural add -e: meine Mutter, meine Eltern.",
     "es": "En femenino y plural se añade -e: meine Mutter, meine Eltern.",
-    "ku": "Ji bo mê û pirjimar -e tê zêdekirin: meine Mutter, meine Eltern."
+    "ku": "Ji bo mê û pirjimar -e tê zêdekirin: meine Mutter, meine Eltern.",
+    "fr": "Féminin et pluriel ajouter -e : meine Mutter, meine Eltern.",
+    "it": "Femminile e plurale aggiungono -e: meine Mutter, meine Eltern.",
+    "ar": "المؤنث والجمع يضاف -e: meine Mutter، meine Eltern."
    },
    "ask": "{q} → ?",
    "rows": [
@@ -684,13 +729,19 @@
     "tr": "Edatlar: hangi hal?",
     "en": "Prepositions: which case?",
     "es": "Preposiciones: ¿qué caso?",
-    "ku": "Pêşdaçek: kîjan hal?"
+    "ku": "Pêşdaçek: kîjan hal?",
+    "fr": "Prépositions : quel cas ?",
+    "it": "Preposizioni: in quale caso?",
+    "ar": "حروف الجر: أي حالة؟"
    },
    "intro": {
     "tr": "Dativ: aus, bei, mit, nach, seit, von, zu. Akkusativ: durch, für, gegen, ohne, um. İkili: Wo? Dativ / Wohin? Akkusativ.",
     "en": "Dativ: aus, bei, mit, nach, seit, von, zu. Akkusativ: durch, für, gegen, ohne, um. Two-way: Wo? Dativ / Wohin? Akkusativ.",
     "es": "Dativ: aus, bei, mit, nach, seit, von, zu. Akkusativ: durch, für, gegen, ohne, um. Dos casos: Wo? Dativ / Wohin? Akkusativ.",
-    "ku": "Dativ: aus, bei, mit, nach, seit, von, zu. Akkusativ: durch, für, gegen, ohne, um. Du halî: Wo? Dativ / Wohin? Akkusativ."
+    "ku": "Dativ: aus, bei, mit, nach, seit, von, zu. Akkusativ: durch, für, gegen, ohne, um. Du halî: Wo? Dativ / Wohin? Akkusativ.",
+    "fr": "Dativ : aus, bei, mit, nach, seit, von, zu. Akkusativ : durch, für, gegen, ohne, um. Bidirectionnel : Wo ? Dativ /Wohin ? Akkusativ.",
+    "it": "Dativ: aus, bei, mit, nach, seit, von, zu. Akkusativ: durch, für, gegen, ohne, um. A doppio senso: Wo? Dativ /Wohin? Akkusativ.",
+    "ar": "Dativ: aus، bei، mit، nach، seit، von، zu. Akkusativ: durch، für، gegen، ohne، um. في اتجاهين: واو؟ Dativ / ووهين؟ Akkusativ."
    },
    "ask": "{q} + ?",
    "rows": [
@@ -810,13 +861,19 @@
     "tr": "Soru kelimeleri",
     "en": "Question words",
     "es": "Palabras interrogativas",
-    "ku": "Pirsiyarên pirsê"
+    "ku": "Pirsiyarên pirsê",
+    "fr": "Mots interrogatifs",
+    "it": "Parole interrogative",
+    "ar": "كلمات الاستفهام"
    },
    "intro": {
     "tr": "W-sorularında fiil ikinci sırada: Wo wohnst du?",
     "en": "In W-questions the verb comes second: Wo wohnst du?",
     "es": "En las preguntas W, el verbo va en segunda posición: Wo wohnst du?",
-    "ku": "Di pirsên W de lêker di rêza duyemîn de tê: Wo wohnst du?"
+    "ku": "Di pirsên W de lêker di rêza duyemîn de tê: Wo wohnst du?",
+    "fr": "Dans les questions W, le verbe vient en deuxième position : Wo wohnst du ?",
+    "it": "Nelle domande-W il verbo viene per secondo: Wo wohnst du?",
+    "ar": "في أسئلة W يأتي الفعل في المرتبة الثانية: Wo wohnst du؟"
    },
    "ask": "{q}",
    "rows": [
@@ -825,7 +882,10 @@
       "tr": "Kim?",
       "en": "Who?",
       "es": "¿Quién?",
-      "ku": "Kî?"
+      "ku": "Kî?",
+      "fr": "OMS?",
+      "it": "Chi?",
+      "ar": "من؟"
      },
      "a": "Wer?",
      "x": "Wer ist das?"
@@ -835,7 +895,10 @@
       "tr": "Ne?",
       "en": "What?",
       "es": "¿Qué?",
-      "ku": "Çi?"
+      "ku": "Çi?",
+      "fr": "Quoi?",
+      "it": "Che cosa?",
+      "ar": "ماذا؟"
      },
      "a": "Was?",
      "x": "Was machst du?"
@@ -845,7 +908,10 @@
       "tr": "Nerede?",
       "en": "Where?",
       "es": "¿Dónde?",
-      "ku": "Li ku derê?"
+      "ku": "Li ku derê?",
+      "fr": "Où?",
+      "it": "Dove?",
+      "ar": "أين؟"
      },
      "a": "Wo?",
      "x": "Wo wohnst du?"
@@ -855,7 +921,10 @@
       "tr": "Nereye?",
       "en": "Where to?",
       "es": "¿Adónde?",
-      "ku": "Ber bi ku ve?"
+      "ku": "Ber bi ku ve?",
+      "fr": "Où aller ?",
+      "it": "Dove andare?",
+      "ar": "إلى أين؟"
      },
      "a": "Wohin?",
      "x": "Wohin fährst du?"
@@ -865,7 +934,10 @@
       "tr": "Nereden?",
       "en": "Where from?",
       "es": "¿De dónde?",
-      "ku": "Ji ku derê?"
+      "ku": "Ji ku derê?",
+      "fr": "D'où vient-il ?",
+      "it": "Da dove?",
+      "ar": "من أين؟"
      },
      "a": "Woher?",
      "x": "Woher kommst du?"
@@ -875,7 +947,10 @@
       "tr": "Ne zaman?",
       "en": "When?",
       "es": "¿Cuándo?",
-      "ku": "Kengî?"
+      "ku": "Kengî?",
+      "fr": "Quand?",
+      "it": "Quando?",
+      "ar": "متى؟"
      },
      "a": "Wann?",
      "x": "Wann beginnt der Kurs?"
@@ -885,7 +960,10 @@
       "tr": "Nasıl?",
       "en": "How?",
       "es": "¿Cómo?",
-      "ku": "Çawa?"
+      "ku": "Çawa?",
+      "fr": "Comment?",
+      "it": "Come?",
+      "ar": "كيف؟"
      },
      "a": "Wie?",
      "x": "Wie heißt du?"
@@ -895,7 +973,10 @@
       "tr": "Neden?",
       "en": "Why?",
       "es": "¿Por qué?",
-      "ku": "Çima?"
+      "ku": "Çima?",
+      "fr": "Pourquoi?",
+      "it": "Perché?",
+      "ar": "لماذا؟"
      },
      "a": "Warum?",
      "x": "Warum lernst du Deutsch?"
@@ -905,7 +986,10 @@
       "tr": "Kaç tane?",
       "en": "How many?",
       "es": "¿Cuántos?",
-      "ku": "Çend?"
+      "ku": "Çend?",
+      "fr": "Combien?",
+      "it": "Quanti?",
+      "ar": "كم عدد؟"
      },
      "a": "Wie viele?",
      "x": "Wie viele Kinder hast du?"
@@ -915,7 +999,10 @@
       "tr": "Ne kadar?",
       "en": "How much?",
       "es": "¿Cuánto?",
-      "ku": "Çiqas?"
+      "ku": "Çiqas?",
+      "fr": "Combien?",
+      "it": "Quanto?",
+      "ar": "كم ثمن؟"
      },
      "a": "Wie viel?",
      "x": "Wie viel kostet das?"
@@ -925,7 +1012,10 @@
       "tr": "Hangi?",
       "en": "Which?",
       "es": "¿Cuál?",
-      "ku": "Kîjan?"
+      "ku": "Kîjan?",
+      "fr": "Lequel?",
+      "it": "Quale?",
+      "ar": "أيّ؟"
      },
      "a": "Welcher / Welche / Welches?",
      "x": "Welche Farbe magst du?"
@@ -935,7 +1025,10 @@
       "tr": "Kimi?",
       "en": "Whom?",
       "es": "¿A quién?",
-      "ku": "Kîjan kesî?"
+      "ku": "Kîjan kesî?",
+      "fr": "Qui?",
+      "it": "Chi?",
+      "ar": "مَن؟"
      },
      "a": "Wen?",
      "x": "Wen besuchst du?"
@@ -945,7 +1038,10 @@
       "tr": "Kime?",
       "en": "To whom?",
       "es": "¿A quién?",
-      "ku": "Ji kê re?"
+      "ku": "Ji kê re?",
+      "fr": "À qui ?",
+      "it": "A cui?",
+      "ar": "إلى من؟"
      },
      "a": "Wem?",
      "x": "Wem gehört das?"
@@ -961,13 +1057,19 @@
     "tr": "Günler ve aylar",
     "en": "Days and months",
     "es": "Días y meses",
-    "ku": "Roj û meh"
+    "ku": "Roj û meh",
+    "fr": "Jours et mois",
+    "it": "Giorni e mesi",
+    "ar": "الأيام والشهور"
    },
    "intro": {
     "tr": "Günlerde \"am\", aylarda \"im\": am Montag, im Mai.",
     "en": "Days take \"am\", months \"im\": am Montag, im Mai.",
     "es": "Con los días se usa «am» y con los meses «im»: am Montag, im Mai.",
-    "ku": "Rojan \"am\" werdigirin, mehan \"im\": am Montag, im Mai."
+    "ku": "Rojan \"am\" werdigirin, mehan \"im\": am Montag, im Mai.",
+    "fr": "Les jours prennent \"am\", les mois \"im\" : am Montag, im Mai.",
+    "it": "I giorni si indicano con \"am\", i mesi \"im\": am Montag, im Mai.",
+    "ar": "الأيام تأخذ \"am\"، والشهور تأخذ \"im\": am Montag، im Mai."
    },
    "ask": "{q}",
    "rows": [
@@ -977,7 +1079,9 @@
       "en": "Monday",
       "es": "lunes",
       "ku": "Duşem",
-      "fr": "lundi"
+      "fr": "lundi",
+      "it": "Lunedi",
+      "ar": "الاثنين"
      },
      "a": "Montag"
     },
@@ -988,7 +1092,8 @@
       "es": "martes",
       "ku": "Sêşem",
       "fr": "mardi",
-      "it": "martedì"
+      "it": "martedì",
+      "ar": "يوم الثلاثاء"
      },
      "a": "Dienstag"
     },
@@ -998,7 +1103,9 @@
       "en": "Wednesday",
       "es": "miércoles",
       "ku": "Çarşem",
-      "fr": "mercredi"
+      "fr": "mercredi",
+      "it": "Mercoledì",
+      "ar": "الأربعاء"
      },
      "a": "Mittwoch"
     },
@@ -1009,7 +1116,8 @@
       "es": "jueves",
       "ku": "Pêncşem",
       "fr": "jeudi",
-      "it": "giovedì"
+      "it": "giovedì",
+      "ar": "يوم الخميس"
      },
      "a": "Donnerstag"
     },
@@ -1020,7 +1128,8 @@
       "es": "viernes",
       "ku": "Înê",
       "fr": "vendredi",
-      "it": "venerdì"
+      "it": "venerdì",
+      "ar": "جمعة"
      },
      "a": "Freitag"
     },
@@ -1030,7 +1139,9 @@
       "en": "Saturday",
       "es": "sábado",
       "ku": "Şemî",
-      "fr": "samedi"
+      "fr": "samedi",
+      "it": "Sabato",
+      "ar": "السبت"
      },
      "a": "Samstag"
     },
@@ -1041,7 +1152,8 @@
       "es": "domingo",
       "ku": "Yekşem",
       "fr": "dimanche",
-      "it": "domenica"
+      "it": "domenica",
+      "ar": "الأحد"
      },
      "a": "Sonntag"
     },
@@ -1051,7 +1163,9 @@
       "en": "January",
       "es": "enero",
       "ku": "Çile",
-      "fr": "janvier"
+      "fr": "janvier",
+      "it": "Gennaio",
+      "ar": "يناير"
      },
      "a": "Januar"
     },
@@ -1062,7 +1176,8 @@
       "es": "febrero",
       "ku": "Sibat",
       "fr": "février",
-      "it": "febbraio"
+      "it": "febbraio",
+      "ar": "فبراير"
      },
      "a": "Februar"
     },
@@ -1071,7 +1186,10 @@
       "tr": "Mart",
       "en": "March",
       "es": "Marzo",
-      "ku": "Adar"
+      "ku": "Adar",
+      "fr": "Mars",
+      "it": "Marzo",
+      "ar": "يمشي"
      },
      "a": "März"
     },
@@ -1080,7 +1198,10 @@
       "tr": "Nisan",
       "en": "April",
       "es": "Abril",
-      "ku": "Nîsan"
+      "ku": "Nîsan",
+      "fr": "Avril",
+      "it": "aprile",
+      "ar": "أبريل"
      },
      "a": "April"
     },
@@ -1090,7 +1211,9 @@
       "en": "May",
       "es": "mayo",
       "ku": "Gulan",
-      "fr": "mai"
+      "fr": "mai",
+      "it": "Maggio",
+      "ar": "يمكن"
      },
      "a": "Mai"
     },
@@ -1100,7 +1223,9 @@
       "en": "June",
       "es": "junio",
       "ku": "Hezîran",
-      "fr": "juin"
+      "fr": "juin",
+      "it": "Giugno",
+      "ar": "يونيو"
      },
      "a": "Juni"
     },
@@ -1110,7 +1235,9 @@
       "en": "July",
       "es": "julio",
       "ku": "Tîrmeh",
-      "fr": "juillet"
+      "fr": "juillet",
+      "it": "Luglio",
+      "ar": "يوليو"
      },
      "a": "Juli"
     },
@@ -1121,7 +1248,8 @@
       "es": "agosto",
       "ku": "Tebax",
       "fr": "août",
-      "it": "agosto"
+      "it": "agosto",
+      "ar": "أغسطس"
      },
      "a": "August"
     },
@@ -1132,7 +1260,8 @@
       "es": "septiembre",
       "ku": "Îlon",
       "fr": "septembre",
-      "it": "settembre"
+      "it": "settembre",
+      "ar": "سبتمبر"
      },
      "a": "September"
     },
@@ -1142,7 +1271,9 @@
       "en": "October",
       "es": "octubre",
       "ku": "Cotmeh",
-      "fr": "octobre"
+      "fr": "octobre",
+      "it": "ottobre",
+      "ar": "أكتوبر"
      },
      "a": "Oktober"
     },
@@ -1152,7 +1283,9 @@
       "en": "November",
       "es": "noviembre",
       "ku": "Mijdar",
-      "fr": "novembre"
+      "fr": "novembre",
+      "it": "novembre",
+      "ar": "نوفمبر"
      },
      "a": "November"
     },
@@ -1163,7 +1296,8 @@
       "es": "diciembre",
       "ku": "Kanûn",
       "fr": "décembre",
-      "it": "dicembre"
+      "it": "dicembre",
+      "ar": "ديسمبر"
      },
      "a": "Dezember"
     }
@@ -1178,13 +1312,19 @@
     "tr": "Saat söyleme",
     "en": "Telling the time",
     "es": "Decir la hora",
-    "ku": "Saet gotin"
+    "ku": "Saet gotin",
+    "fr": "Donner l'heure",
+    "it": "Dire l'ora",
+    "ar": "معرفة الوقت"
    },
    "intro": {
     "tr": "\"halb neun\" = 8:30 (dokuza yarım var)! Resmî: acht Uhr dreißig.",
     "en": "\"halb neun\" = 8:30 (half to nine)! Formal: acht Uhr dreißig.",
     "es": "«halb neun» = 8:30 (¡las ocho y media)! Formal: acht Uhr dreißig.",
-    "ku": "\"halb neun\" = 8:30 (nîv saet kêm ji neh)! Bi fermî: acht Uhr dreißig."
+    "ku": "\"halb neun\" = 8:30 (nîv saet kêm ji neh)! Bi fermî: acht Uhr dreißig.",
+    "fr": "\"halb neun\" = 8h30 (neuf heures moins la moitié) ! Formel : acht Uhr dreißig.",
+    "it": "\"halb neun\" = 8:30 (nove meno mezza)! Formale: acht Uhr dreißig.",
+    "ar": "\"halb neun\" = 8:30 (من النصف إلى تسعة)! رسمي: acht Uhr dreißig."
    },
    "ask": "{q} → ?",
    "rows": [
@@ -1239,13 +1379,19 @@
     "tr": "Sayılar (tuzaklı olanlar)",
     "en": "Numbers (the tricky ones)",
     "es": "Números (los más complicados)",
-    "ku": "Hejmar (yên dijwar)"
+    "ku": "Hejmar (yên dijwar)",
+    "fr": "Les chiffres (les plus difficiles)",
+    "it": "Numeri (quelli difficili)",
+    "ar": "الأرقام (الأرقام الصعبة)"
    },
    "intro": {
     "tr": "Birler önce okunur: 21 = einundzwanzig (bir-ve-yirmi).",
     "en": "Units come first: 21 = einundzwanzig (one-and-twenty).",
     "es": "Primero van las unidades: 21 = einundzwanzig (uno y veinte).",
-    "ku": "Yekî pêşî tê: 21 = einundzwanzig (yek û bîst)."
+    "ku": "Yekî pêşî tê: 21 = einundzwanzig (yek û bîst).",
+    "fr": "Les unités viennent en premier : 21 = einundzwanzig (un et vingt).",
+    "it": "Prima vengono le unità: 21 = einundzwanzig (ventiuno).",
+    "ar": "الوحدات تأتي أولاً: 21 = einundzwanzig (واحد وعشرون)."
    },
    "ask": "{q} = ?",
    "rows": [
@@ -1312,13 +1458,19 @@
     "tr": "Kurtarıcı cümleler",
     "en": "Survival phrases",
     "es": "Frases útiles",
-    "ku": "Hevokên alîkar"
+    "ku": "Hevokên alîkar",
+    "fr": "Phrases de survie",
+    "it": "Frasi di sopravvivenza",
+    "ar": "عبارات النجاة"
    },
    "intro": {
     "tr": "İlk gün işine yarayacak cümleler.",
     "en": "Phrases you will need on day one.",
     "es": "Frases que necesitarás desde el primer día.",
-    "ku": "Hevokên ku di roja yekem de dê pêwîst bibin."
+    "ku": "Hevokên ku di roja yekem de dê pêwîst bibin.",
+    "fr": "Phrases dont vous aurez besoin dès le premier jour.",
+    "it": "Frasi che ti serviranno il primo giorno.",
+    "ar": "عبارات ستحتاجها في اليوم الأول."
    },
    "ask": "{q}",
    "rows": [
@@ -1327,7 +1479,10 @@
       "tr": "Anlamadım.",
       "en": "I don't understand.",
       "es": "No entiendo.",
-      "ku": "Ez fam nakim."
+      "ku": "Ez fam nakim.",
+      "fr": "Je ne comprends pas.",
+      "it": "Non capisco.",
+      "ar": "لا أفهم."
      },
      "a": "Ich verstehe das nicht."
     },
@@ -1336,7 +1491,10 @@
       "tr": "Tekrar eder misiniz?",
       "en": "Can you repeat that?",
       "es": "¿Puedes repetirlo?",
-      "ku": "Dikarî wê dubare bikî?"
+      "ku": "Dikarî wê dubare bikî?",
+      "fr": "Pouvez-vous répéter cela ?",
+      "it": "Puoi ripetere?",
+      "ar": "هل يمكنك تكرار ذلك؟"
      },
      "a": "Können Sie das bitte wiederholen?"
     },
@@ -1345,7 +1503,10 @@
       "tr": "Daha yavaş konuşur musunuz?",
       "en": "Can you speak more slowly?",
       "es": "¿Puedes hablar más despacio?",
-      "ku": "Dikarî hêdîtir biaxivî?"
+      "ku": "Dikarî hêdîtir biaxivî?",
+      "fr": "Pouvez-vous parler plus lentement ?",
+      "it": "Puoi parlare più lentamente?",
+      "ar": "هل يمكنك التحدث ببطء أكثر؟"
      },
      "a": "Können Sie bitte langsamer sprechen?"
     },
@@ -1354,7 +1515,10 @@
       "tr": "Bu Almancada ne demek?",
       "en": "What is that in German?",
       "es": "¿Cómo se dice eso en alemán?",
-      "ku": "Ev bi Almanî çi ye?"
+      "ku": "Ev bi Almanî çi ye?",
+      "fr": "Comment dit-on cela en allemand ?",
+      "it": "Come si dice in tedesco?",
+      "ar": "ماذا يعني ذلك بالألمانية؟"
      },
      "a": "Was heißt das auf Deutsch?"
     },
@@ -1363,7 +1527,10 @@
       "tr": "Nasıl yazılır?",
       "en": "How do you spell it?",
       "es": "¿Cómo se deletrea?",
-      "ku": "Tu çawa wê tîp bi tîp dibêjî?"
+      "ku": "Tu çawa wê tîp bi tîp dibêjî?",
+      "fr": "Comment l'épelez-vous?",
+      "it": "Come lo scrivi?",
+      "ar": "كيف يمكن توضيح ذلك؟"
      },
      "a": "Wie schreibt man das?"
     },
@@ -1372,7 +1539,10 @@
       "tr": "Affedersiniz!",
       "en": "Excuse me!",
       "es": "¡Disculpe!",
-      "ku": "Bibore!"
+      "ku": "Bibore!",
+      "fr": "Excusez-moi!",
+      "it": "Mi scusi!",
+      "ar": "اعذرني!"
      },
      "a": "Entschuldigung!"
     },
@@ -1381,7 +1551,10 @@
       "tr": "Rica ederim.",
       "en": "You're welcome.",
       "es": "De nada.",
-      "ku": "Ser çavan."
+      "ku": "Ser çavan.",
+      "fr": "Vous êtes les bienvenus.",
+      "it": "Prego.",
+      "ar": "على الرحب والسعة."
      },
      "a": "Gern geschehen."
     },
@@ -1390,7 +1563,10 @@
       "tr": "Bu ne kadar?",
       "en": "How much is it?",
       "es": "¿Cuánto cuesta?",
-      "ku": "Ev çiqas e?"
+      "ku": "Ev çiqas e?",
+      "fr": "Combien ça coûte?",
+      "it": "Quanto costa?",
+      "ar": "كم سعره؟"
      },
      "a": "Wie viel kostet das?"
     },
@@ -1451,81 +1627,141 @@
    "kind": "rules",
    "title": {
     "tr": "E-posta kalıbı",
-    "en": "E-mail pattern"
+    "en": "E-mail pattern",
+    "es": "Patrón de correo electrónico",
+    "fr": "Modèle de courriel",
+    "it": "modello di e-mail",
+    "ku": "Şêweya e-nameyê",
+    "ar": "نمط البريد الإلكتروني"
    },
    "intro": {
     "tr": "Kısa mesaj hep aynı sırayla yazılır. Arkadaşa du, öğretmene / otele Sie.",
-    "en": "A short message always has the same order. du to friends, Sie to a teacher or a hotel."
+    "en": "A short message always has the same order. du to friends, Sie to a teacher or a hotel.",
+    "es": "Un mensaje corto siempre tiene el mismo orden. du para amigos, Sie para un profesor o un hotel.",
+    "fr": "Un message court suit toujours le même ordre : « du » à des amis, « Sie » à un professeur ou à un hôtel.",
+    "it": "Un messaggio breve ha sempre lo stesso ordine. Ad esempio, a un amico, a un insegnante o a un hotel.",
+    "ku": "Peyameke kurt her tim heman rêz heye. ji bo hevalan, ji bo mamoste an ji bo otêlekê.",
+    "ar": "الرسالة القصيرة لها نفس الترتيب دائمًا. سواءً كانت للأصدقاء، أو للمعلم أو الفندق."
    },
    "ask": "{q}",
    "rows": [
     {
      "q": {
       "tr": "1. Hitap (samimi)",
-      "en": "1. Greeting (informal)"
+      "en": "1. Greeting (informal)",
+      "es": "1. Saludo (informal)",
+      "fr": "1. Salutation (informelle)",
+      "it": "1. Saluto (informale)",
+      "ku": "1. Silavkirin (nefermî)",
+      "ar": "1. التحية (غير رسمية)"
      },
      "a": "Liebe Sara, / Lieber Tom, / Hallo Murat,"
     },
     {
      "q": {
       "tr": "1. Hitap (resmî)",
-      "en": "1. Greeting (formal)"
+      "en": "1. Greeting (formal)",
+      "es": "1. Saludo (formal)",
+      "fr": "1. Salutation (formelle)",
+      "it": "1. Saluto (formale)",
+      "ku": "1. Silavkirin (fermî)",
+      "ar": "1. التحية (رسمية)"
      },
      "a": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Braun,"
     },
     {
      "q": {
       "tr": "2. Giriş",
-      "en": "2. Opening"
+      "en": "2. Opening",
+      "es": "2. Apertura",
+      "fr": "2. Ouverture",
+      "it": "2. Apertura",
+      "ku": "2. Vekirin",
+      "ar": "2. الافتتاح"
      },
      "a": "wie geht es dir? / ich schreibe Ihnen, weil …"
     },
     {
      "q": {
       "tr": "3. Konu",
-      "en": "3. The reason"
+      "en": "3. The reason",
+      "es": "3. El motivo",
+      "fr": "3. La raison",
+      "it": "3. Il motivo",
+      "ku": "3. Sedem",
+      "ar": "3. السبب"
      },
      "a": "Leider kann ich morgen nicht kommen."
     },
     {
      "q": {
       "tr": "4. Rica / soru",
-      "en": "4. Request / question"
+      "en": "4. Request / question",
+      "es": "4. Solicitud / pregunta",
+      "fr": "4. Demande / question",
+      "it": "4. Richiesta / domanda",
+      "ku": "4. Daxwaz / pirs",
+      "ar": "4. طلب / سؤال"
      },
      "a": "Kannst du …? / Können Sie bitte …?"
     },
     {
      "q": {
       "tr": "5. Zaman ve yer",
-      "en": "5. Time and place"
+      "en": "5. Time and place",
+      "es": "5. Tiempo y lugar",
+      "fr": "5. Heure et lieu",
+      "it": "5. Tempo e luogo",
+      "ku": "5. Dem û cih",
+      "ar": "5. الزمان والمكان"
      },
      "a": "am Samstag um 19 Uhr bei mir zu Hause"
     },
     {
      "q": {
       "tr": "6. Kapanış",
-      "en": "6. Closing"
+      "en": "6. Closing",
+      "es": "6. Cierre",
+      "fr": "6. Clôture",
+      "it": "6. Chiusura",
+      "ku": "6. Girtin",
+      "ar": "6. الختام"
      },
      "a": "Ich freue mich auf dich! / Ich freue mich auf Ihre Antwort."
     },
     {
      "q": {
       "tr": "7. Selam (samimi)",
-      "en": "7. Sign-off (informal)"
+      "en": "7. Sign-off (informal)",
+      "es": "7. Despedida (informal)",
+      "fr": "7. Signature (informelle)",
+      "it": "7. Firma (informale)",
+      "ku": "7. Îmzekirin (nefermî)",
+      "ar": "7. التوقيع (بشكل غير رسمي)"
      },
      "a": "Viele Grüße / Liebe Grüße, Elif"
     },
     {
      "q": {
       "tr": "7. Selam (resmî)",
-      "en": "7. Sign-off (formal)"
+      "en": "7. Sign-off (formal)",
+      "es": "7. Firma (formal)",
+      "fr": "7. Signature (formelle)",
+      "it": "7. Firma (formale)",
+      "ku": "7. Îmzekirin (fermî)",
+      "ar": "7. التوقيع (رسمي)"
      },
      "a": "Mit freundlichen Grüßen, Elif Yılmaz"
     },
     {
      "q": {
       "tr": "Dikkat",
-      "en": "Watch out"
+      "en": "Watch out",
+      "es": "Cuidado",
+      "fr": "Attention",
+      "it": "Attento",
+      "ku": "Şîyar bin",
+      "ar": "احذر"
      },
      "a": "Hitaptan sonra virgül, ilk kelime küçük harfle: \"Liebe Sara, wie geht es dir?\""
     }
@@ -1538,67 +1774,117 @@
    "kind": "rules",
    "title": {
     "tr": "Cümle kuralları",
-    "en": "Word order rules"
+    "en": "Word order rules",
+    "es": "Reglas de orden de palabras",
+    "fr": "Règles de l'ordre des mots",
+    "it": "Regole di ordine delle parole",
+    "ku": "Rêzikên rêzkirina peyvan",
+    "ar": "قواعد ترتيب الكلمات"
    },
    "intro": {
     "tr": "Bu kuralları bilen cümlelerin çoğunu doğru kurar.",
-    "en": "Know these and most of your sentences will be right."
+    "en": "Know these and most of your sentences will be right.",
+    "es": "Si conoces estos datos, la mayoría de tus oraciones serán correctas.",
+    "fr": "En connaissant ces règles, la plupart de vos phrases seront correctes.",
+    "it": "Conoscendo queste regole, la maggior parte delle tue frasi saranno corrette.",
+    "ku": "Van bizanibe û piraniya hevokên te dê rast bin.",
+    "ar": "اعرف هذه الأمور وستكون معظم جملك صحيحة."
    },
    "ask": "{q}",
    "rows": [
     {
      "q": {
       "tr": "Fiil hep 2. sırada",
-      "en": "The verb is always second"
+      "en": "The verb is always second",
+      "es": "El verbo siempre va en segundo lugar.",
+      "fr": "Le verbe est toujours en deuxième position.",
+      "it": "Il verbo è sempre al secondo posto",
+      "ku": "Lêker her tim duyemîn e",
+      "ar": "الفعل دائمًا هو الثاني"
      },
      "a": "Heute gehe ich ins Kino."
     },
     {
      "q": {
       "tr": "Evet/hayır sorusunda fiil başta",
-      "en": "Yes/no question: verb first"
+      "en": "Yes/no question: verb first",
+      "es": "Pregunta de sí/no: verbo primero",
+      "fr": "Question fermée (oui/non) : le verbe en premier",
+      "it": "Domanda sì/no: verbo prima",
+      "ku": "Pirsa Erê/Na: pêşî lêker",
+      "ar": "سؤال بنعم/لا: الفعل أولاً"
      },
      "a": "Kommst du mit?"
     },
     {
      "q": {
       "tr": "Modal fiil: ikinci fiil sonda",
-      "en": "Modal verb: the other verb at the end"
+      "en": "Modal verb: the other verb at the end",
+      "es": "Verbo modal: el otro verbo al final",
+      "fr": "Verbe modal : l’autre verbe à la fin",
+      "it": "Verbo modale: l'altro verbo alla fine",
+      "ku": "Lêkera modal: lêkera din li dawiyê",
+      "ar": "الفعل الناقص: الفعل الآخر في النهاية"
      },
      "a": "Ich kann sehr gut schwimmen."
     },
     {
      "q": {
       "tr": "Ayrılabilen fiil: ön ek sonda",
-      "en": "Separable verb: prefix at the end"
+      "en": "Separable verb: prefix at the end",
+      "es": "Verbo separable: prefijo al final",
+      "fr": "Verbe séparable : préfixe à la fin",
+      "it": "Verbo separabile: prefisso alla fine",
+      "ku": "Lêkera veqetandî: pêşgir li dawiyê",
+      "ar": "فعل قابل للفصل: بادئة في النهاية"
      },
      "a": "Ich stehe um sieben Uhr auf."
     },
     {
      "q": {
       "tr": "Perfekt: Partizip sonda",
-      "en": "Perfekt: participle at the end"
+      "en": "Perfekt: participle at the end",
+      "es": "Perfekt: participio al final",
+      "fr": "Perfekt : participe à la fin",
+      "it": "Perfekt: participio finale",
+      "ku": "Perfekt: beşdarbûna di dawiyê de",
+      "ar": "Perfekt: اسم الفاعل في النهاية"
      },
      "a": "Ich habe gestern Pizza gegessen."
     },
     {
      "q": {
       "tr": "weil / dass / wenn: fiil sonda",
-      "en": "weil / dass / wenn: verb at the end"
+      "en": "weil / dass / wenn: verb at the end",
+      "es": "weil/dass/wenn: verbo al final",
+      "fr": "weil / dass / wenn : verbe à la fin",
+      "it": "weil / dass / wenn: verbo alla fine",
+      "ku": "weil / dass / wenn: lêkera dawî",
+      "ar": "weil / dass / wenn: فعل في آخره"
      },
      "a": "Ich bleibe zu Hause, weil ich krank bin."
     },
     {
      "q": {
       "tr": "nicht → fiil/sıfat, kein → isim",
-      "en": "nicht → verb/adjective, kein → noun"
+      "en": "nicht → verb/adjective, kein → noun",
+      "es": "nicht → verb/adjective, kein → noun",
+      "fr": "nicht → verb/adjective, kein → noun",
+      "it": "nicht → verb/adjective, kein → noun",
+      "ku": "nicht → verb/adjective, kein → noun",
+      "ar": "nicht → verb/adjective, kein → noun"
      },
      "a": "Ich komme nicht. Ich habe kein Auto."
     },
     {
      "q": {
       "tr": "Zaman – sebep – nasıl – yer",
-      "en": "Time – reason – manner – place"
+      "en": "Time – reason – manner – place",
+      "es": "Tiempo – razón – manera – lugar",
+      "fr": "Temps – raison – manière – lieu",
+      "it": "Tempo – ragione – modo – luogo",
+      "ku": "Dem - sedem - rêbaz - cih",
+      "ar": "الوقت – السبب – الطريقة – المكان"
      },
      "a": "Ich fahre morgen wegen der Arbeit mit dem Zug nach Berlin."
     }
