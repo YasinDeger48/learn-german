@@ -351,5 +351,22 @@
  "done.finish": "Finish",
  "done.perfectSub": "No mistakes – perfect round bonus: +{0} XP.",
  "done.sub": "Well done. Every question brings you closer to your goal.",
- "done.subMistakes": "{0} questions went to \"My mistakes\" – review them for extra XP."
+ "done.subMistakes": "{0} questions went to \"My mistakes\" – review them for extra XP.",
+ "practice.ready": "{0}% ready",
+ "practice.nextMistakes": "Fix your mistakes",
+ "practice.nextMistakesNote": "{0} questions waiting",
+ "practice.nextContinue": "Continue: {0}",
+ "practice.nextNote": "{0} questions · about {1} min · up to {2} XP",
+ "practice.bestExam": "best: {0}%",
+ "practice.matchSub": "word game",
+ "grammar.summary": "{0} of {1} topics done",
+ "grammar.summaryMistakes": "{0} topics done · {1} with mistakes to fix",
+ "grammar.filterAll": "All",
+ "grammar.filterOpen": "In progress",
+ "grammar.filterMistakes": "Mistakes · {0}",
+ "grammar.filterEmpty": "Nothing here.",
+ "grammar.done": "done",
+ "grammar.new": "new",
+ "grammar.mistakesShort": "{0} mistakes",
+ "grammar.fixHint": "Fix the mistakes to turn the badge green"
 }

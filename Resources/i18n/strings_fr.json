@@ -351,5 +351,22 @@
  "done.finish": "Terminer",
  "done.perfectSub": "Aucune erreur – bonus tour parfait : +{0} XP.",
  "done.sub": "Bien joué. Chaque question te rapproche de ton objectif.",
- "done.subMistakes": "{0} questions sont dans « Mes erreurs » – revois-les pour gagner des XP."
+ "done.subMistakes": "{0} questions sont dans « Mes erreurs » – revois-les pour gagner des XP.",
+ "practice.ready": "{0} % prêt",
+ "practice.nextMistakes": "Corrige tes erreurs",
+ "practice.nextMistakesNote": "{0} questions en attente",
+ "practice.nextContinue": "Continuer : {0}",
+ "practice.nextNote": "{0} questions · environ {1} min · jusqu'à {2} XP",
+ "practice.bestExam": "meilleur : {0} %",
+ "practice.matchSub": "jeu de mots",
+ "grammar.summary": "{0} sur {1} thèmes terminés",
+ "grammar.summaryMistakes": "{0} thèmes terminés · {1} avec des erreurs à corriger",
+ "grammar.filterAll": "Tous",
+ "grammar.filterOpen": "En cours",
+ "grammar.filterMistakes": "Erreurs · {0}",
+ "grammar.filterEmpty": "Rien ici.",
+ "grammar.done": "terminé",
+ "grammar.new": "nouveau",
+ "grammar.mistakesShort": "{0} erreurs",
+ "grammar.fixHint": "Corrige les erreurs pour que le badge devienne vert"
 }

@@ -351,5 +351,22 @@
  "done.finish": "Bitir",
  "done.perfectSub": "Hiç hata yok – mükemmel tur bonusu: +{0} XP.",
  "done.sub": "Aferin. Her soru seni hedefine yaklaştırıyor.",
- "done.subMistakes": "{0} soru \"Hatalarım\"a eklendi – tekrar et, XP kazan."
+ "done.subMistakes": "{0} soru \"Hatalarım\"a eklendi – tekrar et, XP kazan.",
+ "practice.ready": "%{0} hazırsın",
+ "practice.nextMistakes": "Hatalarını düzelt",
+ "practice.nextMistakesNote": "{0} soru seni bekliyor",
+ "practice.nextContinue": "Devam et: {0}",
+ "practice.nextNote": "{0} soru · ≈ {1} dk · {2} XP’ye kadar",
+ "practice.bestExam": "en iyi: %{0}",
+ "practice.matchSub": "kelime oyunu",
+ "grammar.summary": "{1} konudan {0} tanesi tamam",
+ "grammar.summaryMistakes": "{0} konu tamam · {1} konuda düzeltilecek hata var",
+ "grammar.filterAll": "Tümü",
+ "grammar.filterOpen": "Devam eden",
+ "grammar.filterMistakes": "Hatalı · {0}",
+ "grammar.filterEmpty": "Burada konu yok.",
+ "grammar.done": "tamam",
+ "grammar.new": "yeni",
+ "grammar.mistakesShort": "{0} hata",
+ "grammar.fixHint": "Hataları düzelt, rozeti yeşile çevir"
 }

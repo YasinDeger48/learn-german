@@ -351,5 +351,22 @@
  "done.finish": "Fine",
  "done.perfectSub": "Nessun errore – bonus giro perfetto: +{0} XP.",
  "done.sub": "Ben fatto. Ogni domanda ti avvicina all'obiettivo.",
- "done.subMistakes": "{0} domande sono in \"I miei errori\": ripassale per guadagnare XP."
+ "done.subMistakes": "{0} domande sono in \"I miei errori\": ripassale per guadagnare XP.",
+ "practice.ready": "{0}% pronto",
+ "practice.nextMistakes": "Correggi i tuoi errori",
+ "practice.nextMistakesNote": "{0} domande in attesa",
+ "practice.nextContinue": "Continua: {0}",
+ "practice.nextNote": "{0} domande · circa {1} min · fino a {2} XP",
+ "practice.bestExam": "migliore: {0}%",
+ "practice.matchSub": "gioco di parole",
+ "grammar.summary": "{0} di {1} argomenti fatti",
+ "grammar.summaryMistakes": "{0} argomenti fatti · {1} con errori da correggere",
+ "grammar.filterAll": "Tutti",
+ "grammar.filterOpen": "In corso",
+ "grammar.filterMistakes": "Errori · {0}",
+ "grammar.filterEmpty": "Niente qui.",
+ "grammar.done": "fatto",
+ "grammar.new": "nuovo",
+ "grammar.mistakesShort": "{0} errori",
+ "grammar.fixHint": "Correggi gli errori per far diventare verde il badge"
 }

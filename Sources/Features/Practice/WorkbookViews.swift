@@ -77,45 +77,95 @@ struct A1ThemeView: View {
 
 struct A1GrammarListView: View {
     @EnvironmentObject private var model: A1Model
+    @State private var filter = Filter.all
+
+    enum Filter: CaseIterable { case all, open, mistakes }
+
+    private var topics: [A1GrammarTopic] {
+        let all = model.content?.grammar ?? []
+        switch filter {
+        case .all: return all
+        case .open: return all.filter { model.topicStatus($0.id) == .open }
+        case .mistakes: return all.filter { model.topicStatus($0.id) == .mistakes }
+        }
+    }
 
     var body: some View {
-        List {
-            Section {
-                ForEach(model.content?.grammar ?? []) { topic in
-                    NavigationLink(value: A1Route.grammar(topic.id)) {
-                        let p = model.topicProgress(topic.id)
-                        HStack(spacing: 12) {
-                            TopicBadge(status: model.topicStatus(topic.id), number: topic.id)
-                            VStack(alignment: .leading, spacing: 2) {
-                                Text(topic.de)
-                                Text(topic.name.text).font(.caption).foregroundStyle(.secondary)
-                                if p.wrong > 0 {
-                                    Text(t("grammar.openMistakes", p.wrong)).font(.caption2.weight(.semibold)).foregroundColor(.orange)
-                                }
-                            }
-                            Spacer()
-                            Text("\(min(p.seen, p.total))/\(p.total)")
-                                .font(.caption.monospacedDigit())
-                                .foregroundStyle(.secondary)
-                        }
-                    }
+        let all = model.content?.grammar ?? []
+        let done = all.filter { model.topicStatus($0.id) == .done }.count
+        let withMistakes = all.filter { model.topicStatus($0.id) == .mistakes }.count
+        ScrollView {
+            VStack(alignment: .leading, spacing: 10) {
+                Text(withMistakes > 0 ? t("grammar.summaryMistakes", done, withMistakes) : t("grammar.summary", done, all.count))
+                    .font(.subheadline).foregroundColor(DS.muted)
+                HStack(spacing: 8) {
+                    chip(.all, t("grammar.filterAll"))
+                    chip(.open, t("grammar.filterOpen"))
+                    chip(.mistakes, t("grammar.filterMistakes", withMistakes))
                 }
-            } footer: {
-                HStack(spacing: 14) {
-                    legend(.done, t("grammar.legendDone"))
-                    legend(.mistakes, t("grammar.legendMistakes"))
-                    legend(.open, t("grammar.legendOpen"))
+                .padding(.bottom, 4)
+                ForEach(topics) { topic in
+                    NavigationLink(value: A1Route.grammar(topic.id)) { topicCard(topic) }
+                        .buttonStyle(.plain)
+                }
+                if topics.isEmpty {
+                    Text(t("grammar.filterEmpty")).font(.subheadline).foregroundColor(DS.muted)
+                        .frame(maxWidth: .infinity).padding(.vertical, 30)
                 }
             }
+            .padding(.horizontal, DS.gutter)
+            .padding(.bottom, 24)
         }
-        .listStyle(.insetGrouped)
+        .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("workbook.grammarTitle"))
     }
 
-    private func legend(_ status: TopicStatus, _ text: String) -> some View {
-        HStack(spacing: 4) {
-            Circle().fill(TopicBadge.color(status)).frame(width: 8, height: 8)
-            Text(text)
+    private func chip(_ value: Filter, _ title: String) -> some View {
+        let on = filter == value
+        let warn = value == .mistakes
+        return Button {
+            filter = value
+        } label: {
+            Text(title)
+                .font(.subheadline.weight(.semibold))
+                .foregroundColor(on ? (warn ? DS.onGold : Color(UIColor.systemBackground)) : DS.ink)
+                .padding(.horizontal, 14)
+                .frame(minHeight: 36)
+                .background(on ? (warn ? DS.gold : DS.ink) : DS.surface, in: Capsule())
+        }
+        .buttonStyle(.plain)
+        .accessibilityAddTraits(on ? .isSelected : [])
+    }
+
+    private func topicCard(_ topic: A1GrammarTopic) -> some View {
+        let p = model.topicProgress(topic.id)
+        let status = model.topicStatus(topic.id)
+        let seen = min(p.seen, p.total)
+        let progress = status == .done ? 1 : (p.total == 0 ? 0 : Double(seen) / Double(min(p.total, 30)))
+        let color = TopicBadge.color(status)
+        return HStack(spacing: 14) {
+            TopicBadge(status: status, number: topic.id, size: 44)
+            VStack(alignment: .leading, spacing: 6) {
+                HStack(alignment: .firstTextBaseline) {
+                    Text(topic.de).font(.system(size: 16, weight: .bold)).foregroundColor(DS.ink).lineLimit(2)
+                    Spacer(minLength: 6)
+                    Text(status == .done ? t("grammar.done") : (p.wrong > 0 ? t("grammar.mistakesShort", p.wrong) : (seen == 0 ? t("grammar.new") : "\(seen)/\(min(p.total, 30))")))
+                        .font(.footnote.weight(.bold))
+                        .foregroundColor(status == .done ? DS.success : (p.wrong > 0 ? DS.goldDeep : DS.muted))
+                }
+                Text(topic.name.text).font(.caption).foregroundColor(DS.muted).lineLimit(1)
+                ProgressView(value: min(1, progress)).tint(status == .open ? DS.accent : color)
+                if p.wrong > 0 {
+                    Text(t("grammar.fixHint")).font(.caption2).foregroundColor(DS.muted)
+                }
+            }
+        }
+        .padding(14)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+        .overlay {
+            if status == .mistakes {
+                RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(DS.gold, lineWidth: 2)
+            }
         }
     }
 }
@@ -124,6 +174,7 @@ struct A1GrammarListView: View {
 struct TopicBadge: View {
     let status: TopicStatus
     let number: Int
+    var size: CGFloat = 30
 
     static func color(_ status: TopicStatus) -> Color {
         switch status {
@@ -145,12 +196,12 @@ struct TopicBadge: View {
         ZStack {
             Circle().fill(TopicBadge.color(status))
             if let icon {
-                Image(systemName: icon).font(.system(size: 13, weight: .bold)).foregroundColor(.white)
+                Image(systemName: icon).font(.system(size: size * 0.43, weight: .bold)).foregroundColor(.white)
             } else {
-                Text("\(number)").font(.system(size: 12, weight: .semibold)).foregroundColor(.white)
+                Text("\(number)").font(.system(size: size * 0.4, weight: .semibold)).foregroundColor(.white)
             }
         }
-        .frame(width: 30, height: 30)
+        .frame(width: size, height: size)
         .accessibilityLabel(status == .done ? t("grammar.legendDone") : (status == .mistakes ? t("grammar.legendMistakes") : t("grammar.legendOpen")))
     }
 }

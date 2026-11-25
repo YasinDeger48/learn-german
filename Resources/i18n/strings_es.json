@@ -351,5 +351,22 @@
  "done.finish": "Terminar",
  "done.perfectSub": "Sin errores – bonus de ronda perfecta: +{0} XP.",
  "done.sub": "Bien hecho. Cada pregunta te acerca a tu meta.",
- "done.subMistakes": "{0} preguntas pasaron a \"Mis errores\": repásalas para ganar XP."
+ "done.subMistakes": "{0} preguntas pasaron a \"Mis errores\": repásalas para ganar XP.",
+ "practice.ready": "{0} % listo",
+ "practice.nextMistakes": "Corrige tus errores",
+ "practice.nextMistakesNote": "{0} preguntas esperando",
+ "practice.nextContinue": "Continuar: {0}",
+ "practice.nextNote": "{0} preguntas · unos {1} min · hasta {2} XP",
+ "practice.bestExam": "mejor: {0} %",
+ "practice.matchSub": "juego de palabras",
+ "grammar.summary": "{0} de {1} temas hechos",
+ "grammar.summaryMistakes": "{0} temas hechos · {1} con errores por corregir",
+ "grammar.filterAll": "Todos",
+ "grammar.filterOpen": "En curso",
+ "grammar.filterMistakes": "Errores · {0}",
+ "grammar.filterEmpty": "No hay nada aquí.",
+ "grammar.done": "hecho",
+ "grammar.new": "nuevo",
+ "grammar.mistakesShort": "{0} errores",
+ "grammar.fixHint": "Corrige los errores para que la insignia se ponga verde"
 }
