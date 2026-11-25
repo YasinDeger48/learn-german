@@ -124,6 +124,123 @@ UNITS = [
 ]
 
 
+# A2: one unit per text topic of daily_a2.json (6 texts each). A2 words are not grouped by situation,
+# so a unit's words come from the glossaries of its texts ("vocab").
+def unit2(n, topic, title, goal, grammar, speaking, phrases):
+    return {'id': f'a2-{n:02d}', 'level': 'A2', 'number': n, 'title': {'tr': title[0], 'en': title[1]},
+            'goal': {'tr': goal[0], 'en': goal[1]}, 'cover': f'unit-a2-{n:02d}', 'themes': [], 'grammar': grammar,
+            'topic': topic, 'texts': [], 'speaking': speaking, 'writing': [], 'phrases': phrases}
+
+
+UNITS_A2 = [
+    unit2(1, 'Alltag', ('Günlük hayat', 'Everyday life'),
+          ('Dün ne yaptığını Perfekt ile anlatır, günlük işlerini sıralarsın.', 'Tell what you did yesterday in the Perfekt and describe your routine.'),
+          [4, 6], ['a2-3'],
+          [ph('Gestern bin ich früh aufgestanden.', 'Dün erken kalktım.', 'Yesterday I got up early.'),
+           ph('Ich habe den ganzen Tag gearbeitet.', 'Bütün gün çalıştım.', 'I worked all day.'),
+           ph('Am Abend räume ich die Küche auf.', 'Akşam mutfağı topluyorum.', 'In the evening I tidy up the kitchen.'),
+           ph('Was hast du am Wochenende gemacht?', 'Hafta sonu ne yaptın?', 'What did you do at the weekend?'),
+           ph('Ich kaufe noch schnell Brot ein.', 'Bir de hızlıca ekmek alıyorum.', "I'll just quickly buy some bread.")]),
+    unit2(2, 'Wohnen', ('Evde ve komşularla', 'At home and with neighbours'),
+          ('Eşyaların nerede durduğunu ve nereye koyduğunu söyler, komşunla konuşursun.', 'Say where things are and where you put them, talk to your neighbours.'),
+          [2, 3], ['a2-6'],
+          [ph('Das Bild hängt über dem Sofa.', 'Resim kanepenin üstünde asılı.', 'The picture hangs above the sofa.'),
+           ph('Ich stelle den Tisch ans Fenster.', 'Masayı pencerenin önüne koyuyorum.', "I'm putting the table by the window."),
+           ph('Unsere Nachbarn sind sehr nett.', 'Komşularımız çok iyi.', 'Our neighbours are very nice.'),
+           ph('Kannst du bitte leiser sein?', 'Biraz daha sessiz olabilir misin?', 'Can you be a bit quieter, please?'),
+           ph('Die Wohnung liegt im dritten Stock.', 'Daire üçüncü katta.', 'The flat is on the third floor.')]),
+    unit2(3, 'Einkaufen', ('Alışveriş ve değişim', 'Shopping and returns'),
+          ('Ne istediğini sıfatlarla anlatır, bir ürünü değiştirir ya da iade edersin.', 'Describe what you want with adjectives, exchange or return a product.'),
+          [8, 13], ['a2-2'],
+          [ph('Ich suche einen warmen Pullover.', 'Sıcak bir kazak arıyorum.', "I'm looking for a warm jumper."),
+           ph('Kann ich das umtauschen?', 'Bunu değiştirebilir miyim?', 'Can I exchange this?'),
+           ph('Die Hose ist leider zu klein.', 'Pantolon maalesef çok küçük.', 'Unfortunately the trousers are too small.'),
+           ph('Haben Sie den Kassenbon noch?', 'Fişiniz duruyor mu?', 'Do you still have the receipt?'),
+           ph('Ich nehme die rote Tasche.', 'Kırmızı çantayı alıyorum.', "I'll take the red bag.")]),
+    unit2(4, 'Mobilität', ('Yolda', 'On the move'),
+          ('Ulaşımla ilgili sorunu anlatır, yol tarif eder ve sorarsın.', 'Explain a problem on the way, ask for and give directions.'),
+          [1, 15], ['a2-1'],
+          [ph('Der Zug hat zwanzig Minuten Verspätung.', 'Trenin yirmi dakika rötarı var.', 'The train is twenty minutes late.'),
+           ph('Ich fahre mit dem Fahrrad zur Arbeit.', 'İşe bisikletle gidiyorum.', 'I cycle to work.'),
+           ph('Steigen Sie an der nächsten Haltestelle aus.', 'Bir sonraki durakta inin.', 'Get off at the next stop.'),
+           ph('Ich habe meinen Anschluss verpasst.', 'Aktarmamı kaçırdım.', 'I missed my connection.'),
+           ph('Fahr bitte langsamer!', 'Lütfen daha yavaş sür!', 'Please drive more slowly!')]),
+    unit2(5, 'Gesundheit', ('Sağlık', 'Health'),
+          ('Nasıl hissettiğini anlatır, doktorun tavsiyelerini anlar ve aktarırsın.', 'Say how you feel, understand and pass on the doctor\'s advice.'),
+          [10, 7], ['a2-4'],
+          [ph('Ich fühle mich nicht gut.', 'Kendimi iyi hissetmiyorum.', "I don't feel well."),
+           ph('Sie müssen dreimal am Tag eine Tablette nehmen.', 'Günde üç kez bir tablet almanız gerekiyor.', 'You have to take one tablet three times a day.'),
+           ph('Ich muss mich ausruhen.', 'Dinlenmem gerekiyor.', 'I have to rest.'),
+           ph('Seit wann haben Sie Fieber?', 'Ne zamandan beri ateşiniz var?', 'How long have you had a temperature?'),
+           ph('Trinken Sie viel Wasser!', 'Bol su için!', 'Drink lots of water!')]),
+    unit2(6, 'Arbeit', ('İş hayatı', 'Working life'),
+          ('İşini ve nedenlerini anlatır, iş yerinde rica ve öneride bulunursun.', 'Talk about your job and give reasons, make requests and suggestions at work.'),
+          [5, 9], ['a2-5'],
+          [ph('Ich komme später, weil der Bus nicht fährt.', 'Otobüs çalışmadığı için geç geleceğim.', "I'll be late because the bus isn't running."),
+           ph('Die Besprechung beginnt um zehn.', 'Toplantı onda başlıyor.', 'The meeting starts at ten.'),
+           ph('Ich glaube, dass wir mehr Zeit brauchen.', 'Bence daha fazla zamana ihtiyacımız var.', 'I think that we need more time.'),
+           ph('Könnten Sie mir bitte helfen?', 'Bana yardım edebilir misiniz lütfen?', 'Could you help me, please?'),
+           ph('Ich arbeite gern im Team.', 'Ekipte çalışmayı severim.', 'I like working in a team.')]),
+    unit2(7, 'Freizeit', ('Boş zaman ve anılar', 'Free time and memories'),
+          ('Hobilerini ve çocukluğunu anlatır, wenn ve als ile ne zaman olduğunu söylersin.', 'Talk about hobbies and your childhood, say when with wenn and als.'),
+          [14, 11], ['a2-1'],
+          [ph('Als ich Kind war, habe ich viel gemalt.', 'Çocukken çok resim yapardım.', 'When I was a child I painted a lot.'),
+           ph('Wenn das Wetter schön ist, gehen wir wandern.', 'Hava güzel olunca yürüyüşe gidiyoruz.', "When the weather is nice we go hiking."),
+           ph('Ich spiele seit drei Jahren Gitarre.', 'Üç yıldır gitar çalıyorum.', "I've been playing the guitar for three years."),
+           ph('Hast du Lust, mitzukommen?', 'Bizimle gelmek ister misin?', 'Do you feel like coming along?'),
+           ph('Das Konzert war toll.', 'Konser harikaydı.', 'The concert was great.')]),
+    unit2(8, 'Digitales', ('Dijital hayat', 'Digital life'),
+          ('Telefon ve internetle ilgili sorunları anlatır, bir şeyi nasıl yapacağını sorarsın.', 'Describe problems with your phone and the internet, ask how to do something.'),
+          [9, 8], ['a2-5'],
+          [ph('Mein Handy funktioniert nicht mehr.', 'Telefonum artık çalışmıyor.', "My phone doesn't work any more."),
+           ph('Ich schicke dir das Foto per Nachricht.', 'Fotoğrafı sana mesajla gönderiyorum.', "I'll send you the photo in a message."),
+           ph('Weißt du, wie das WLAN-Passwort lautet?', 'Wi-Fi şifresinin ne olduğunu biliyor musun?', 'Do you know what the Wi-Fi password is?'),
+           ph('Ich habe die App heruntergeladen.', 'Uygulamayı indirdim.', 'I have downloaded the app.'),
+           ph('Der Akku ist fast leer.', 'Şarj neredeyse bitti.', 'The battery is almost empty.')]),
+    unit2(9, 'Lernen', ('Öğrenmek', 'Learning'),
+          ('Nasıl öğrendiğini ve planlarını anlatır, zu + mastar ile niyetini söylersin.', 'Talk about how you learn and your plans, say what you intend with zu + infinitive.'),
+          [16], ['a2-5'],
+          [ph('Ich versuche, jeden Tag zu lernen.', 'Her gün çalışmaya çalışıyorum.', 'I try to study every day.'),
+           ph('Ich habe vergessen, die Hausaufgaben zu machen.', 'Ödevleri yapmayı unuttum.', 'I forgot to do the homework.'),
+           ph('Was bedeutet dieses Wort?', 'Bu kelime ne demek?', 'What does this word mean?'),
+           ph('Ich mache im Mai eine Prüfung.', 'Mayısta bir sınava gireceğim.', "I'm taking an exam in May."),
+           ph('Es macht Spaß, neue Leute kennenzulernen.', 'Yeni insanlarla tanışmak eğlenceli.', 'It is fun to meet new people.')]),
+    unit2(10, 'Umwelt', ('Çevre', 'The environment'),
+          ('Çevre için ne yaptığını anlatır, şeyleri karşılaştırırsın.', 'Say what you do for the environment and compare things.'),
+          [12], ['a2-6'],
+          [ph('Ich trenne den Müll.', 'Çöpleri ayırıyorum.', 'I separate the rubbish.'),
+           ph('Das Fahrrad ist besser als das Auto.', 'Bisiklet arabadan daha iyi.', 'The bike is better than the car.'),
+           ph('Wir kaufen am liebsten regionales Gemüse.', 'En çok yöresel sebze almayı seviyoruz.', 'We prefer to buy local vegetables.'),
+           ph('Bring die Flaschen bitte zum Container.', 'Şişeleri lütfen konteynere götür.', 'Please take the bottles to the container.'),
+           ph('Im Park ist es am ruhigsten.', 'En sakin yer park.', 'It is quietest in the park.')]),
+]
+
+
+def fill_a2(units):
+    """Texts of each unit's topic, and up to 18 words from their glossaries (nouns first)."""
+    daily = json.load(open(os.path.join(REPO, 'Resources', 'content', 'daily_a2.json'), encoding='utf-8'))['texts']
+    for u in units:
+        topic = u.pop('topic')
+        texts = [t for t in daily if t['topic'] == topic]
+        assert len(texts) >= 3, (u['id'], topic)
+        u['texts'] = [t['id'] for t in texts]
+        seen, nouns, others = set(), [], []
+        for t in texts:
+            for g in t['glossary']:
+                key = g['lemma'].lower()
+                if key in seen or len(g['lemma']) > 24:
+                    continue
+                seen.add(key)
+                item = {'de': g['lemma'], 'tr': g['mean']['tr'], 'en': g['mean']['en']}
+                if g.get('art') in ('der', 'die', 'das'):
+                    item = {'de': g['lemma'], 'art': g['art'], 'tr': g['mean']['tr'], 'en': g['mean']['en']}
+                    nouns.append(item)
+                else:
+                    others.append(item)
+        u['vocab'] = (nouns[:12] + others)[:18]
+        assert len(u['vocab']) >= 12, u['id']
+
+
 def main():
     import sys
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -145,10 +262,17 @@ def main():
         assert len(u['phrases']) == 5
         words = {w['id'] for w in a1['words']}
         assert set(u['pictures']) <= words, u['id']
+    fill_a2(UNITS_A2)
+    a2 = json.load(open(os.path.join(REPO, 'Resources', 'content', 'a2.json'), encoding='utf-8'))
+    a2_topics = {t['id'] for t in a2['grammar']}
+    for u in UNITS_A2:
+        assert set(u['grammar']) <= a2_topics, u['id']
+        assert set(u['speaking']) <= speaking, u['id']
+        assert len(u['phrases']) == 5
     with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
-        json.dump({'units': UNITS}, f, ensure_ascii=False, indent=1)
+        json.dump({'units': UNITS + UNITS_A2}, f, ensure_ascii=False, indent=1)
         f.write('\n')
-    print(f'{len(UNITS)} units -> {OUT}')
+    print(f'{len(UNITS)} A1 + {len(UNITS_A2)} A2 units -> {OUT}')
 
 
 if __name__ == '__main__':

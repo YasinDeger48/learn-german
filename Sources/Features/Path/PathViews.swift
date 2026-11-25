@@ -9,6 +9,16 @@ struct UnitPhrase: Decodable, Hashable {
     var meaning: String { Localizer.shared.language == .tr ? tr : en }
 }
 
+/// A word of a unit that is not in the level's word list (A2+: taken from the glossaries of the unit's texts).
+struct UnitWord: Decodable, Hashable {
+    let de: String
+    let art: String?
+    let tr: String
+    let en: String
+    var meaning: String { Localizer.shared.language == .tr ? tr : en }
+    var full: String { art.map { "\($0) \(de)" } ?? de }
+}
+
 struct LearningUnit: Decodable, Identifiable, Hashable {
     let id: String
     let level: String
@@ -24,6 +34,8 @@ struct LearningUnit: Decodable, Identifiable, Hashable {
     let phrases: [UnitPhrase]
     /// Word ids with a picture card (Resources/Covers/wp-<level>-<id>.jpg, made by tools/word_pictures.py).
     let pictures: [Int]?
+    /// Words from the unit's texts, used instead of themes when present.
+    let vocab: [UnitWord]?
 
     /// The unit's own picture, else the cover of its first text.
     var image: UIImage? { Covers.image(cover) ?? texts.lazy.compactMap { Covers.image($0) }.first }
@@ -102,8 +114,31 @@ enum UnitStore {
 
 extension A1Model {
     func unitWordSession(_ unit: LearningUnit, count: Int = 10) -> [A1Question] {
+        if let vocab = unit.vocab, vocab.count >= 4 { return unitVocabSession(unit, vocab: vocab, count: count) }
         let per = max(1, count / max(1, unit.themes.count))
         return Array(unit.themes.flatMap { session(theme: $0, count: per) }.shuffled().prefix(count))
+    }
+
+    /// Meaning, German word and article questions made from the unit's own word list.
+    func unitVocabSession(_ unit: LearningUnit, vocab: [UnitWord], count: Int) -> [A1Question] {
+        let label = unit.title.text
+        var out: [A1Question] = []
+        for (index, word) in vocab.enumerated() {
+            let wrongMeanings = vocab.filter { $0.meaning != word.meaning }.map(\.meaning).shuffled().prefix(3)
+            out.append(A1Question(id: "uv-\(unit.id)-\(index)", mode: .wordToTr, kind: .choice, label: label, prompt: word.full,
+                                  speakAfter: word.full, options: ([word.meaning] + wrongMeanings).shuffled(), answer: word.meaning,
+                                  explanation: "\(word.full) = \(word.meaning)"))
+            let wrongWords = vocab.filter { $0.full != word.full }.map(\.full).shuffled().prefix(3)
+            out.append(A1Question(id: "uvt-\(unit.id)-\(index)", mode: .trToWord, kind: .choice, label: label, prompt: word.meaning,
+                                  speakAfter: word.full, options: ([word.full] + wrongWords).shuffled(), answer: word.full,
+                                  explanation: "\(word.full) = \(word.meaning)"))
+            if let art = word.art {
+                out.append(A1Question(id: "uva-\(unit.id)-\(index)", mode: .artikel, kind: .choice, label: label,
+                                      prompt: "___ \(word.de)", detail: word.meaning, speakAfter: word.full,
+                                      options: ["der", "die", "das"], answer: art, explanation: word.full))
+            }
+        }
+        return Array(out.shuffled().prefix(count))
     }
 
     func unitGrammarSession(_ unit: LearningUnit, count: Int = 8) -> [A1Question] {
@@ -391,6 +426,7 @@ struct UnitView: View {
     private func subtitle(_ step: UnitStep) -> String {
         switch step {
         case .words:
+            if let vocab = unit.vocab, !vocab.isEmpty { return vocab.prefix(3).map(\.full).joined(separator: " · ") }
             let names = unit.themes.compactMap { id in model.content?.themes.first { $0.id == id }?.name.text }
             return names.joined(separator: " · ")
         case .phrases: return unit.phrases.first.map { "„\($0.de)“" } ?? ""
@@ -478,12 +514,29 @@ struct UnitWordsView: View {
     @EnvironmentObject private var model: A1Model
     let unit: LearningUnit
 
-    private var cards: [A1Word] {
+    private struct Card: Identifiable {
+        let id: String
+        let article: String?
+        let de: String
+        let meaning: String
+        let picture: String?
+        var full: String { article.map { "\($0) \(de)" } ?? de }
+    }
+
+    private var cards: [Card] {
+        if let vocab = unit.vocab, !vocab.isEmpty {
+            return vocab.enumerated().map { index, word in
+                Card(id: "v\(index)", article: word.art, de: word.de, meaning: word.meaning, picture: nil)
+            }
+        }
         let all = model.content?.words ?? []
         let byID = Dictionary(all.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
-        let picked = (unit.pictures ?? []).compactMap { byID[$0] }
-        if !picked.isEmpty { return picked }
-        return Array(all.filter { unit.themes.contains($0.theme) && $0.isNoun }.prefix(16))
+        var picked = (unit.pictures ?? []).compactMap { byID[$0] }
+        if picked.isEmpty { picked = Array(all.filter { unit.themes.contains($0.theme) && $0.isNoun }.prefix(16)) }
+        return picked.map { word in
+            Card(id: "w\(word.id)", article: word.isNoun ? word.type : nil, de: word.de, meaning: word.mean.text,
+                 picture: "wp-\(unit.level.lowercased())-\(word.id)")
+        }
     }
 
     var body: some View {
@@ -514,14 +567,14 @@ struct UnitWordsView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 
-    private func card(_ word: A1Word) -> some View {
-        let color = word.isNoun ? a1ArticleColor(word.type) : DS.muted
+    private func card(_ word: Card) -> some View {
+        let color = word.article.map { a1ArticleColor($0) } ?? DS.muted
         return Button {
-            A1Speaker.shared.say(word.withArticle)
+            A1Speaker.shared.say(word.full)
         } label: {
             VStack(spacing: 6) {
                 Group {
-                    if let image = Covers.image("wp-\(unit.level.lowercased())-\(word.id)") {
+                    if let name = word.picture, let image = Covers.image(name) {
                         Image(uiImage: image).resizable().scaledToFill()
                     } else {
                         ZStack {
@@ -533,15 +586,15 @@ struct UnitWordsView: View {
                 .frame(height: 96)
                 .frame(maxWidth: .infinity)
                 .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-                (word.isNoun ? Text(word.type + " ").foregroundColor(color) + Text(word.de).foregroundColor(DS.ink) : Text(word.de).foregroundColor(DS.ink))
+                (word.article.map { Text($0 + " ").foregroundColor(color) + Text(word.de).foregroundColor(DS.ink) } ?? Text(word.de).foregroundColor(DS.ink))
                     .font(.system(size: 13, weight: .semibold))
                     .lineLimit(1)
                     .minimumScaleFactor(0.7)
-                Text(word.mean.text).font(.caption2).foregroundColor(DS.muted).lineLimit(1)
+                Text(word.meaning).font(.caption2).foregroundColor(DS.muted).lineLimit(1)
             }
         }
         .buttonStyle(.plain)
-        .accessibilityLabel("\(word.withArticle), \(word.mean.text)")
+        .accessibilityLabel("\(word.full), \(word.meaning)")
     }
 }
 
