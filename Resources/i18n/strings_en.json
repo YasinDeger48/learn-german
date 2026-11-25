@@ -346,6 +346,7 @@
  "goal.doneSub": "{0} XP today · extra practice still counts",
  "goal.changeHint": "Change the daily goal",
  "goal.choose": "Daily goal",
+ "goal.change": "Change goal",
  "goal.option.20": "Relaxed · {0} XP",
  "goal.option.50": "Regular · {0} XP",
  "goal.option.100": "Serious · {0} XP",

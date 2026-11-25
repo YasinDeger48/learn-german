@@ -15,7 +15,6 @@ struct TodayView: View {
                 greeting.padding(.top, 4)
                 PathContinueCard().padding(.top, 16)
                 LessonCard().padding(.top, 12)
-                DailyGoalCard().padding(.top, 12)
                 ReviewCard(model: practiceModel).padding(.top, 12)
                 dailyCard.padding(.top, 16)
                 if let word = wordOfDay { wordCard(word).padding(.top, 14) }
@@ -25,6 +24,7 @@ struct TodayView: View {
             .padding(.bottom, 24)
         }
         .deschlyPage()
+        .overlay { GoalIsland() }
         .navigationTitle(t("tab.today"))
         .onAppear { levels.active = practiceModel.level }
         .onChange(of: daily.level) { _ in levels.active = practiceModel.level }

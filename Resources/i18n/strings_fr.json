@@ -346,6 +346,7 @@
  "goal.doneSub": "{0} XP aujourd'hui · le reste compte aussi",
  "goal.changeHint": "Changer l'objectif du jour",
  "goal.choose": "Ton objectif du jour",
+ "goal.change": "Changer d'objectif",
  "goal.option.20": "Détendu · {0} XP",
  "goal.option.50": "Régulier · {0} XP",
  "goal.option.100": "Intensif · {0} XP",

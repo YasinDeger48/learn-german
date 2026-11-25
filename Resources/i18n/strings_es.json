@@ -346,6 +346,7 @@
  "goal.doneSub": "{0} XP hoy · lo extra también cuenta",
  "goal.changeHint": "Cambiar la meta diaria",
  "goal.choose": "Tu meta diaria",
+ "goal.change": "Cambiar meta",
  "goal.option.20": "Tranquilo · {0} XP",
  "goal.option.50": "Constancia · {0} XP",
  "goal.option.100": "Intenso · {0} XP",

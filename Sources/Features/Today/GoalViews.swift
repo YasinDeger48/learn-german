@@ -90,6 +90,126 @@ struct DailyGoalCard: View {
     }
 }
 
+/// Today's goal as a small black "island" tucked into the screen edge, like the iPhone's Dynamic Island.
+/// Tap: it opens into a card (ring, what is left, change the goal); tap outside: it closes.
+/// Drag: move it up or down, or across the middle to the other edge. The place is remembered.
+/// When the daily goal is reached it opens by itself for a moment.
+struct GoalIsland: View {
+    @ObservedObject private var store = StreakStore.shared
+    /// Top of the island as a share of the available height, and the edge it sits on.
+    @AppStorage("goalIsland.y") private var savedY: Double = 0.62
+    @AppStorage("goalIsland.left") private var onLeft = false
+    @State private var open = false
+    @State private var drag: CGSize = .zero
+    @State private var choosing = false
+
+    private let spring = Animation.spring(response: 0.42, dampingFraction: 0.78)
+    private var ringColor: Color { store.goalReachedToday ? DS.success : DS.gold }
+
+    var body: some View {
+        GeometryReader { geo in
+            let top = min(max(savedY * geo.size.height + (open ? 0 : drag.height), 8), max(8, geo.size.height - (open ? 190 : 60)))
+            ZStack(alignment: onLeft ? .topLeading : .topTrailing) {
+                if open {
+                    // Tap anywhere else to close.
+                    Color.black.opacity(0.001)
+                        .onTapGesture { withAnimation(spring) { open = false } }
+                }
+                island
+                    .offset(x: open ? (onLeft ? 12 : -12) : (onLeft ? -14 : 14) + drag.width, y: top)
+                    .onTapGesture { withAnimation(spring) { open.toggle() } }
+                    .gesture(DragGesture(minimumDistance: 8)
+                        .onChanged { value in if !open { drag = value.translation } }
+                        .onEnded { value in
+                            guard !open else { return }
+                            let height = max(1, geo.size.height)
+                            let newY = (savedY * height + value.translation.height) / height
+                            let crossed = onLeft ? value.translation.width > geo.size.width / 2 : value.translation.width < -geo.size.width / 2
+                            withAnimation(spring) {
+                                savedY = min(max(newY, 0.02), 0.92)
+                                if crossed { onLeft.toggle() }
+                                drag = .zero
+                            }
+                        })
+            }
+            .frame(width: geo.size.width, height: geo.size.height, alignment: onLeft ? .topLeading : .topTrailing)
+        }
+        .confirmationDialog(t("goal.choose"), isPresented: $choosing, titleVisibility: .visible) {
+            ForEach(XP.goals, id: \.self) { goal in
+                Button(t("goal.option.\(goal)", goal) + (goal == store.goal ? " ✓" : "")) { store.setGoal(goal) }
+            }
+        }
+        .onReceive(NotificationCenter.default.publisher(for: StreakStore.goalReached)) { _ in
+            withAnimation(spring) { open = true }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) { withAnimation(spring) { open = false } }
+        }
+    }
+
+    private var island: some View {
+        Group {
+            if open { openCard } else { closedPill }
+        }
+        .background(Color.black, in: RoundedRectangle(cornerRadius: open ? 30 : 22, style: .continuous))
+        .shadow(color: .black.opacity(0.22), radius: open ? 18 : 8, y: 5)
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isButton)
+        .accessibilityHint(t("goal.changeHint"))
+    }
+
+    /// Small: ring and today's XP. The side toward the edge has extra room, since it reaches into the edge.
+    private var closedPill: some View {
+        HStack(spacing: 7) {
+            GoalRing(progress: store.goalProgress, size: 26, lineWidth: 4, color: ringColor) {
+                if store.goalReachedToday {
+                    Image(systemName: "checkmark").font(.system(size: 10, weight: .heavy)).foregroundColor(DS.success)
+                }
+            }
+            Text("\(store.xpToday)").font(.system(size: 15, weight: .heavy)).monospacedDigit().foregroundColor(.white)
+                .contentTransition(.numericText())
+                .animation(.easeOut(duration: 0.3), value: store.xpToday)
+        }
+        .padding(.vertical, 8)
+        .padding(.leading, onLeft ? 24 : 10)
+        .padding(.trailing, onLeft ? 10 : 24)
+    }
+
+    private var openCard: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack(spacing: 14) {
+                GoalRing(progress: store.goalProgress, size: 62, lineWidth: 8, color: ringColor) {
+                    if store.goalReachedToday {
+                        Image(systemName: "checkmark").font(.system(size: 22, weight: .heavy)).foregroundColor(DS.success)
+                    } else {
+                        Text("\(Int(store.goalProgress * 100))%").font(.system(size: 14, weight: .heavy)).foregroundColor(.white)
+                    }
+                }
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(t("goal.title").uppercased()).font(.caption2.weight(.bold)).foregroundColor(.white.opacity(0.6))
+                    Text(store.goalReachedToday ? t("goal.done") : t("goal.left", store.goal - store.xpToday))
+                        .font(.system(size: 17, weight: .bold)).foregroundColor(.white)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Text(store.goalReachedToday ? t("goal.doneSub", store.xpToday)
+                         : "\(store.xpToday) / \(store.goal) XP · " + t("goal.minutes", max(1, (store.goal - store.xpToday + 8) / 9)))
+                        .font(.footnote).foregroundColor(.white.opacity(0.7))
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+            Button {
+                choosing = true
+            } label: {
+                Label(t("goal.change"), systemImage: "slider.horizontal.3")
+                    .font(.system(size: 14, weight: .semibold))
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity, minHeight: 36)
+                    .background(Color.white.opacity(0.14), in: Capsule())
+            }
+            .buttonStyle(.plain)
+        }
+        .padding(16)
+        .frame(width: 300)
+    }
+}
+
 /// "N reviews due today" on Today: spaced repetition of answered questions. Hidden when nothing is due.
 struct ReviewCard: View {
     @ObservedObject var model: A1Model

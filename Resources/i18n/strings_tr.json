@@ -346,6 +346,7 @@
  "goal.doneSub": "Bugün {0} XP · fazlası da sayılır",
  "goal.changeHint": "Günlük hedefi değiştir",
  "goal.choose": "Günlük hedefin",
+ "goal.change": "Hedefi değiştir",
  "goal.option.20": "Rahat · {0} XP",
  "goal.option.50": "Düzenli · {0} XP",
  "goal.option.100": "Ciddi · {0} XP",

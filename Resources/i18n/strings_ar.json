@@ -346,6 +346,7 @@
  "goal.doneSub": "{0} XP اليوم · ويستمر احتساب التدريب الإضافي",
  "goal.changeHint": "غيّر الهدف اليومي",
  "goal.choose": "الهدف اليومي",
+ "goal.change": "تغيير الهدف",
  "goal.option.20": "مريح · {0} XP",
  "goal.option.50": "منتظم · {0} XP",
  "goal.option.100": "مكثّف · {0} XP",
