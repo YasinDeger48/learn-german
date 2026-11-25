@@ -31,8 +31,6 @@
   <key>DeschlyAdBanner</key><string>ca-app-pub-2051677494226499/6330623448</string>
   <key>DeschlyAdInterstitial</key><string>ca-app-pub-2051677494226499/4114563184</string>
   <key>DeschlyAdRewarded</key><string>ca-app-pub-2051677494226499/8856267329</string>
-  <key>UIBackgroundModes</key>
-  <array><string>audio</string></array>
   <key>NSUserTrackingUsageDescription</key>
   <string>Your choice decides whether ads in the free version can be personalised. Deschly works the same either way.</string>
   <key>SKAdNetworkItems</key>

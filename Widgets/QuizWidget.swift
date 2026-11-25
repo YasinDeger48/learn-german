@@ -197,8 +197,6 @@ struct QuizView: View {
 
     private var afterButtons: some View {
         HStack(spacing: 6) {
-            WidgetIconButton(intent: SpeakIntent(text: entry.word.full), symbol: "speaker.wave.2.fill", background: .white.opacity(0.2),
-                             size: 34, label: WidgetText.listen(tr))
             Button(intent: NextQuizIntent()) {
                 Text(WidgetText.next(tr))
                     .font(.system(size: 13, weight: .heavy))

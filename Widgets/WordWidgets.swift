@@ -77,7 +77,6 @@ struct NightView: View {
                         Spacer(minLength: 0)
                         HStack(spacing: 8) {
                             Spacer()
-                            WidgetIconButton(intent: SpeakIntent(text: w.full), symbol: "speaker.wave.2.fill", label: WidgetText.listen(entry.turkish))
                             WidgetIconButton(intent: NextWordIntent(), symbol: "arrow.forward", foreground: Palette.night,
                                              background: Palette.gold, label: WidgetText.next(entry.turkish))
                         }
@@ -95,7 +94,6 @@ struct NightView: View {
                     Text(w.meaning(entry.turkish)).font(.system(size: 13)).foregroundColor(Palette.cream.opacity(0.7)).lineLimit(2)
                     Spacer(minLength: 0)
                     HStack {
-                        WidgetIconButton(intent: SpeakIntent(text: w.full), symbol: "speaker.wave.2.fill", label: WidgetText.listen(entry.turkish))
                         Spacer()
                         WidgetIconButton(intent: NextWordIntent(), symbol: "arrow.forward", foreground: Palette.night,
                                          background: Palette.gold, label: WidgetText.next(entry.turkish))
@@ -167,8 +165,8 @@ struct PaperView: View {
                     Text(entry.level).font(.system(size: 11, weight: .bold)).foregroundColor(Palette.muted)
                 }
                 Spacer(minLength: 6)
-                WidgetIconButton(intent: SpeakIntent(text: w.full), symbol: "speaker.wave.2.fill", background: Palette.night,
-                                 label: WidgetText.listen(entry.turkish))
+                WidgetIconButton(intent: NextWordIntent(), symbol: "arrow.forward", foreground: Palette.gold,
+                                 background: Palette.night, label: WidgetText.next(entry.turkish))
             }
         }
         .containerBackground(for: .widget) { Palette.paper }
@@ -205,8 +203,6 @@ struct ColorView: View {
                         Spacer(minLength: 0)
                         HStack(spacing: 8) {
                             Spacer()
-                            WidgetIconButton(intent: SpeakIntent(text: w.full), symbol: "speaker.wave.2.fill", background: .white.opacity(0.22),
-                                             label: WidgetText.listen(entry.turkish))
                             WidgetIconButton(intent: NextWordIntent(), symbol: "arrow.forward", foreground: Palette.article(w.a),
                                              background: .white, label: WidgetText.next(entry.turkish))
                         }
@@ -222,8 +218,8 @@ struct ColorView: View {
                     HStack {
                         Text(entry.level).font(.system(size: 10, weight: .heavy)).foregroundColor(.white.opacity(0.7))
                         Spacer()
-                        WidgetIconButton(intent: SpeakIntent(text: w.full), symbol: "speaker.wave.2.fill", background: .white.opacity(0.22),
-                                         label: WidgetText.listen(entry.turkish))
+                        WidgetIconButton(intent: NextWordIntent(), symbol: "arrow.forward", foreground: Palette.article(w.a),
+                                         background: .white, label: WidgetText.next(entry.turkish))
                     }
                 }
             }
@@ -271,8 +267,6 @@ struct LinaView: View {
                     VStack(alignment: .trailing, spacing: 8) {
                         bubble(line.s, meaning, big: true)
                         HStack(spacing: 8) {
-                            WidgetIconButton(intent: SpeakIntent(text: line.s), symbol: "speaker.wave.2.fill", background: Palette.der,
-                                             label: WidgetText.listen(entry.turkish))
                             WidgetIconButton(intent: NextWordIntent(), symbol: "arrow.forward", foreground: Palette.night,
                                              background: Palette.gold, label: WidgetText.next(entry.turkish))
                         }
@@ -285,8 +279,8 @@ struct LinaView: View {
                     HStack(alignment: .bottom) {
                         lina.frame(width: 54, height: 54)
                         Spacer()
-                        WidgetIconButton(intent: SpeakIntent(text: line.s), symbol: "speaker.wave.2.fill", background: Palette.der,
-                                         label: WidgetText.listen(entry.turkish))
+                        WidgetIconButton(intent: NextWordIntent(), symbol: "arrow.forward", foreground: Palette.night,
+                                         background: Palette.gold, label: WidgetText.next(entry.turkish))
                     }
                 }
             }

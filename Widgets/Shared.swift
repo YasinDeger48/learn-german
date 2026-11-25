@@ -3,7 +3,7 @@ import SwiftUI
 import WidgetKit
 
 // Shared pieces of the Deschly widgets: the word list (Resources/widget_words.json, made by
-// tools/widget_words.py), configuration, the "listen" and "next" buttons, colours.
+// tools/widget_words.py), configuration, the "next" button, colours.
 
 struct WidgetWord: Codable, Hashable {
     let d: String
@@ -188,8 +188,7 @@ struct WidgetIconButton<I: AppIntent>: View {
     }
 }
 
-/// Words: listen and next in the user's language.
+/// Button words in the user's language.
 enum WidgetText {
-    static func listen(_ turkish: Bool) -> String { turkish ? "Dinle" : "Listen" }
     static func next(_ turkish: Bool) -> String { turkish ? "Sonraki" : "Next" }
 }

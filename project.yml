@@ -16,7 +16,6 @@ targets:
     platform: iOS
     sources:
       - path: Sources
-      - path: Shared
       - path: Resources
         buildPhase: resources
         excludes:
@@ -45,7 +44,6 @@ targets:
     platform: iOS
     deploymentTarget: "17.0"
     sources:
-      - path: Shared
       - path: Widgets
         excludes:
           - "Info.plist"
