@@ -90,6 +90,16 @@ struct DailyGoalCard: View {
     }
 }
 
+/// Where the islands on Today are, so they never cover each other. Both islands sit in the same overlay,
+/// measured in the coordinate space `IslandLayout.space`. The word island reports its frame; the goal island
+/// moves itself above it when they would overlap (also while it is dragged).
+final class IslandLayout: ObservableObject {
+    static let shared = IslandLayout()
+    static let space = "todayIslands"
+    /// The word island's frame; .zero when it is closed.
+    @Published var wordFrame: CGRect = .zero
+}
+
 /// Today's goal as a small black "island" tucked into the screen edge, like the iPhone's Dynamic Island.
 /// Tap: it opens into a card (ring, what is left, change the goal); tap outside: it closes.
 /// Drag: move it up or down, or across the middle to the other edge. The place is remembered.
@@ -102,13 +112,15 @@ struct GoalIsland: View {
     @State private var open = false
     @State private var drag: CGSize = .zero
     @State private var choosing = false
+    @State private var islandSize: CGSize = .zero
+    @ObservedObject private var layout = IslandLayout.shared
 
     private let spring = Animation.spring(response: 0.42, dampingFraction: 0.78)
     private var ringColor: Color { store.goalReachedToday ? DS.success : DS.gold }
 
     var body: some View {
         GeometryReader { geo in
-            let top = islandTop(height: geo.size.height)
+            let top = islandTop(height: geo.size.height, width: geo.size.width)
             ZStack(alignment: onLeft ? .topLeading : .topTrailing) {
                 if open {
                     // Tap anywhere else to close.
@@ -116,7 +128,13 @@ struct GoalIsland: View {
                         .onTapGesture { withAnimation(spring) { open = false } }
                 }
                 island
+                    .background(GeometryReader { g in
+                        Color.clear
+                            .onAppear { islandSize = g.size }
+                            .onChange(of: g.size) { islandSize = $0 }
+                    })
                     .offset(x: islandX, y: top)
+                    .animation(spring, value: layout.wordFrame)
                     .onTapGesture { withAnimation(spring) { open.toggle() } }
                     .gesture(DragGesture(minimumDistance: 8)
                         .onChanged { value in if !open { drag = value.translation } }
@@ -147,11 +165,17 @@ struct GoalIsland: View {
         }
     }
 
-    /// Top of the island in the available height, kept on screen.
-    private func islandTop(height: CGFloat) -> CGFloat {
+    /// Top of the island in the available height: kept on screen, and above the word island when they would overlap.
+    private func islandTop(height: CGFloat, width: CGFloat) -> CGFloat {
         let wanted: CGFloat = CGFloat(savedY) * height + (open ? 0 : drag.height)
         let lowest: CGFloat = max(8, height - (open ? 190 : 60))
-        return min(max(wanted, 8), lowest)
+        let top: CGFloat = min(max(wanted, 8), lowest)
+        let word: CGRect = layout.wordFrame
+        guard word != .zero, islandSize.width > 0 else { return top }
+        let left: CGFloat = onLeft ? islandX : width - islandSize.width + islandX
+        let mine = CGRect(x: left, y: top, width: islandSize.width, height: islandSize.height)
+        guard mine.intersects(word.insetBy(dx: -8, dy: -8)) else { return top }
+        return max(8, word.minY - islandSize.height - 12)
     }
 
     /// Closed: reaching 14 pt into the edge (and following a drag). Open: 12 pt inside the screen.
@@ -273,11 +297,23 @@ struct WordIsland: View {
                 }
                 .background(Color.black, in: RoundedRectangle(cornerRadius: state.open ? 28 : 22, style: .continuous))
                 .shadow(color: .black.opacity(0.22), radius: state.open ? 18 : 8, y: 5)
-                .offset(x: state.open ? 12 : -14)
+                .background(GeometryReader { g in
+                    Color.clear
+                        .onAppear { report(g.frame(in: .named(IslandLayout.space))) }
+                        .onChange(of: g.frame(in: .named(IslandLayout.space))) { report($0) }
+                })
+                .offset(x: offsetX)
                 .padding(.bottom, 12)
                 .transition(.move(edge: .leading).combined(with: .opacity))
             }
         }
+    }
+
+    private var offsetX: CGFloat { state.open ? 12 : -14 }
+
+    /// The frame on screen (the measured frame does not include the offset).
+    private func report(_ frame: CGRect) {
+        IslandLayout.shared.wordFrame = state.closed ? .zero : frame.offsetBy(dx: offsetX, dy: 0)
     }
 
     private var pill: some View {
@@ -305,7 +341,10 @@ struct WordIsland: View {
                         .frame(width: 28, height: 28).background(Color.white.opacity(0.12), in: Circle())
                 }
                 .accessibilityLabel(t("common.close"))
-                Button { withAnimation(spring) { state.closed = true } } label: {
+                Button {
+                    withAnimation(spring) { state.closed = true }
+                    IslandLayout.shared.wordFrame = .zero
+                } label: {
                     Image(systemName: "xmark").font(.system(size: 12, weight: .bold))
                         .frame(width: 28, height: 28).background(Color.white.opacity(0.12), in: Circle())
                 }

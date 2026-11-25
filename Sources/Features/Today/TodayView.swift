@@ -28,6 +28,7 @@ struct TodayView: View {
                 if let word = wordOfDay { WordIsland(word: word) }
                 GoalIsland()
             }
+            .coordinateSpace(name: IslandLayout.space)
         }
         .navigationTitle(t("tab.today"))
         .onAppear { levels.active = practiceModel.level }
