@@ -1,0 +1,589 @@
+{
+ "greeting": [
+  "liebe",
+  "lieber",
+  "hallo",
+  "hi",
+  "sehr geehrte",
+  "sehr geehrter",
+  "guten tag"
+ ],
+ "closing": [
+  "grüße",
+  "gruß",
+  "bis bald",
+  "tschüss",
+  "bis dann",
+  "bis morgen"
+ ],
+ "tasks": [
+  {
+   "id": "a1-f1",
+   "level": "A1",
+   "kind": "form",
+   "title": {
+    "tr": "Form: Dil kursu kaydı",
+    "en": "Form: language course"
+   },
+   "text": "Maria López kommt aus Spanien. Sie ist 34 Jahre alt und wohnt in der Gartenstraße 5 in 80331 München. Sie möchte einen Deutschkurs am Abend machen, weil sie am Tag arbeitet. Sie bezahlt bar.",
+   "fields": [
+    {
+     "label": "Familienname",
+     "answers": [
+      "López",
+      "Lopez"
+     ]
+    },
+    {
+     "label": "Herkunftsland",
+     "answers": [
+      "Spanien"
+     ]
+    },
+    {
+     "label": "Alter",
+     "answers": [
+      "34",
+      "vierunddreißig"
+     ]
+    },
+    {
+     "label": "PLZ, Wohnort",
+     "answers": [
+      "80331 München",
+      "80331",
+      "München"
+     ]
+    },
+    {
+     "label": "Kurszeit (morgens / abends)",
+     "answers": [
+      "abends",
+      "am Abend",
+      "Abend"
+     ]
+    },
+    {
+     "label": "Zahlung (bar / Karte)",
+     "answers": [
+      "bar"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a1-f2",
+   "level": "A1",
+   "kind": "form",
+   "title": {
+    "tr": "Form: Otel rezervasyonu",
+    "en": "Form: hotel booking"
+   },
+   "text": "Peter Wagner und seine Frau möchten vom 12. bis 15. Mai im Hotel Sonne übernachten. Sie brauchen ein Doppelzimmer mit Frühstück. Ihre Kinder kommen nicht mit. Herr Wagner hat die Telefonnummer 0171 2345678.",
+   "fields": [
+    {
+     "label": "Name",
+     "answers": [
+      "Wagner",
+      "Peter Wagner"
+     ]
+    },
+    {
+     "label": "Anreise",
+     "answers": [
+      "12. Mai",
+      "12.5.",
+      "12.05.",
+      "12. 5.",
+      "12 Mai",
+      "12.5",
+      "12.05"
+     ]
+    },
+    {
+     "label": "Abreise",
+     "answers": [
+      "15. Mai",
+      "15.5.",
+      "15.05.",
+      "15. 5.",
+      "15 Mai",
+      "15.5",
+      "15.05"
+     ]
+    },
+    {
+     "label": "Zimmer (Einzel / Doppel)",
+     "answers": [
+      "Doppelzimmer",
+      "Doppel"
+     ]
+    },
+    {
+     "label": "Personen",
+     "answers": [
+      "2",
+      "zwei"
+     ]
+    },
+    {
+     "label": "Frühstück (ja / nein)",
+     "answers": [
+      "ja"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a1-f3",
+   "level": "A1",
+   "kind": "form",
+   "title": {
+    "tr": "Form: Spor salonu üyeliği",
+    "en": "Form: gym membership"
+   },
+   "text": "Lea Schmidt ist Studentin. Sie ist am 3. April 2001 geboren. Sie möchte zweimal pro Woche trainieren, am liebsten am Morgen. Ihre E-Mail-Adresse ist lea.schmidt@web.de.",
+   "fields": [
+    {
+     "label": "Vorname",
+     "answers": [
+      "Lea"
+     ]
+    },
+    {
+     "label": "Geburtsdatum",
+     "answers": [
+      "03.04.2001",
+      "3.4.2001",
+      "3. April 2001",
+      "03.04.01",
+      "3.4.01"
+     ]
+    },
+    {
+     "label": "Beruf",
+     "answers": [
+      "Studentin",
+      "Student"
+     ]
+    },
+    {
+     "label": "Wie oft pro Woche?",
+     "answers": [
+      "2",
+      "zweimal",
+      "zwei",
+      "2 mal",
+      "2x"
+     ]
+    },
+    {
+     "label": "Tageszeit",
+     "answers": [
+      "morgens",
+      "am Morgen",
+      "Morgen"
+     ]
+    },
+    {
+     "label": "E-Mail",
+     "answers": [
+      "lea.schmidt@web.de"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a1-f4",
+   "level": "A1",
+   "kind": "form",
+   "title": {
+    "tr": "Form: Kütüphane kartı",
+    "en": "Form: library card"
+   },
+   "text": "Ahmet Demir ist 27 Jahre alt. Er wohnt in der Lindenallee 8 in 50667 Köln und arbeitet als Koch. Er hat keine Kinder. Er möchte die Bibliothek am Wochenende besuchen.",
+   "fields": [
+    {
+     "label": "Familienname",
+     "answers": [
+      "Demir"
+     ]
+    },
+    {
+     "label": "Straße, Hausnummer",
+     "answers": [
+      "Lindenallee 8"
+     ]
+    },
+    {
+     "label": "Wohnort",
+     "answers": [
+      "Köln",
+      "50667 Köln"
+     ]
+    },
+    {
+     "label": "Beruf",
+     "answers": [
+      "Koch"
+     ]
+    },
+    {
+     "label": "Kinder (Anzahl)",
+     "answers": [
+      "0",
+      "keine",
+      "null",
+      "kein"
+     ]
+    },
+    {
+     "label": "Alter",
+     "answers": [
+      "27",
+      "siebenundzwanzig"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a1-m1",
+   "level": "A1",
+   "kind": "message",
+   "title": {
+    "tr": "E-posta: Kursa gelemiyorum",
+    "en": "E-mail: I cannot come to class"
+   },
+   "prompt": "Sie können morgen nicht zum Deutschkurs kommen. Schreiben Sie Ihrer Lehrerin, Frau Weber, eine E-Mail.",
+   "help": {
+    "tr": "Neden gelemediğini yaz, ödevi sor, ne zaman tekrar geleceğini söyle.",
+    "en": "Say why you cannot come, ask about the homework, say when you come again."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Neden gelemiyorsun",
+      "en": "Why not"
+     },
+     "say": "Ich bin leider krank. / Ich habe einen Termin.",
+     "keys": [
+      "krank",
+      "arzt",
+      "termin",
+      "weil",
+      "leider",
+      "muss"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ödevi sor",
+      "en": "Ask about homework"
+     },
+     "say": "Was sind die Hausaufgaben?",
+     "keys": [
+      "hausaufgabe"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne zaman geliyorsun",
+      "en": "When you come back"
+     },
+     "say": "Am Donnerstag komme ich wieder.",
+     "keys": [
+      "wieder",
+      "nächste",
+      "montag",
+      "dienstag",
+      "mittwoch",
+      "donnerstag",
+      "freitag"
+     ]
+    }
+   ],
+   "minWords": 25,
+   "sample": "Liebe Frau Weber, leider kann ich morgen nicht zum Kurs kommen. Ich bin krank und muss zum Arzt. Was sind die Hausaufgaben? Am Donnerstag komme ich wieder. Viele Grüße, Elif"
+  },
+  {
+   "id": "a1-m2",
+   "level": "A1",
+   "kind": "message",
+   "title": {
+    "tr": "Mesaj: Doğum günü daveti",
+    "en": "Message: birthday invitation"
+   },
+   "prompt": "Sie haben am Samstag Geburtstag und machen eine Party. Schreiben Sie Ihrem Freund Tom eine Einladung.",
+   "help": {
+    "tr": "Ne zaman, nerede olduğunu ve ne getirmesi gerektiğini yaz.",
+    "en": "Say when, where and what he should bring."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Ne zaman",
+      "en": "When"
+     },
+     "say": "am Samstag um 19 Uhr",
+     "keys": [
+      "samstag",
+      "uhr",
+      "abend"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Nerede",
+      "en": "Where"
+     },
+     "say": "bei mir zu Hause / im Garten",
+     "keys": [
+      "bei mir",
+      "zu hause",
+      "garten",
+      "wohnung",
+      "in der",
+      "im"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne getirsin",
+      "en": "What to bring"
+     },
+     "say": "Kannst du einen Salat mitbringen?",
+     "keys": [
+      "mitbringen",
+      "bringst",
+      "bring",
+      "salat",
+      "kuchen",
+      "getränke"
+     ]
+    }
+   ],
+   "minWords": 25,
+   "sample": "Hallo Tom, am Samstag habe ich Geburtstag und mache eine Party. Sie beginnt um 19 Uhr bei mir zu Hause. Kannst du bitte einen Salat mitbringen? Ich freue mich auf dich! Viele Grüße, Murat"
+  },
+  {
+   "id": "a1-m3",
+   "level": "A1",
+   "kind": "message",
+   "title": {
+    "tr": "E-posta: Kalorifer bozuk",
+    "en": "E-mail: the heating is broken"
+   },
+   "prompt": "Die Heizung in Ihrer Wohnung ist kaputt. Schreiben Sie dem Hausmeister, Herrn Braun, eine E-Mail.",
+   "help": {
+    "tr": "Sorunu yaz, ne zamandan beri olduğunu söyle, ne zaman evde olduğunu yaz.",
+    "en": "Describe the problem, since when, and when you are at home."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Sorun",
+      "en": "The problem"
+     },
+     "say": "Die Heizung ist kaputt.",
+     "keys": [
+      "heizung",
+      "kaputt",
+      "funktioniert nicht",
+      "kalt"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne zamandan beri",
+      "en": "Since when"
+     },
+     "say": "seit Montag",
+     "keys": [
+      "seit"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne zaman evdesin",
+      "en": "When you are at home"
+     },
+     "say": "Ich bin am Nachmittag zu Hause.",
+     "keys": [
+      "zu hause",
+      "da",
+      "nachmittag",
+      "vormittag",
+      "abend",
+      "uhr"
+     ]
+    }
+   ],
+   "minWords": 25,
+   "sample": "Sehr geehrter Herr Braun, in meiner Wohnung ist die Heizung kaputt. Das Problem gibt es seit Montag und es ist sehr kalt. Ich bin jeden Tag ab 16 Uhr zu Hause. Können Sie bitte kommen? Mit freundlichen Grüßen, Anna Kaya"
+  },
+  {
+   "id": "a1-m4",
+   "level": "A1",
+   "kind": "message",
+   "title": {
+    "tr": "Mesaj: Sinemaya gidelim",
+    "en": "Message: let's go to the cinema"
+   },
+   "prompt": "Sie möchten am Wochenende mit Ihrer Freundin Sara ins Kino gehen. Schreiben Sie ihr eine Nachricht.",
+   "help": {
+    "tr": "Hangi filmi, ne zaman ve nerede buluşacağınızı yaz.",
+    "en": "Say which film, when, and where you meet."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Film / sinema",
+      "en": "Film or cinema"
+     },
+     "say": "Möchtest du den neuen Film sehen?",
+     "keys": [
+      "film",
+      "kino"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne zaman",
+      "en": "When"
+     },
+     "say": "am Sonntag um 18 Uhr",
+     "keys": [
+      "samstag",
+      "sonntag",
+      "uhr",
+      "wochenende"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Buluşma yeri",
+      "en": "Where to meet"
+     },
+     "say": "Wir treffen uns vor dem Kino.",
+     "keys": [
+      "treffen",
+      "vor dem",
+      "am bahnhof",
+      "bei mir",
+      "haltestelle"
+     ]
+    }
+   ],
+   "minWords": 25,
+   "sample": "Hallo Sara, hast du am Sonntag Zeit? Ich möchte den neuen Film im Kino sehen. Er beginnt um 18 Uhr. Wir treffen uns um Viertel vor sechs vor dem Kino. Schreib mir bitte! Liebe Grüße, Ece"
+  },
+  {
+   "id": "a1-m5",
+   "level": "A1",
+   "kind": "message",
+   "title": {
+    "tr": "Kart: Hediye için teşekkür",
+    "en": "Card: thanks for a present"
+   },
+   "prompt": "Ihre Tante hat Ihnen ein Geschenk geschickt. Schreiben Sie ihr eine kurze Karte.",
+   "help": {
+    "tr": "Teşekkür et, hediyenin neden hoşuna gittiğini yaz, onu yemeğe davet et.",
+    "en": "Thank her, say why you like the present, invite her for a meal."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Teşekkür",
+      "en": "Thank you"
+     },
+     "say": "Vielen Dank für das Geschenk!",
+     "keys": [
+      "danke",
+      "vielen dank"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Neden beğendin",
+      "en": "Why you like it"
+     },
+     "say": "Der Schal ist sehr schön und warm.",
+     "keys": [
+      "schön",
+      "gefällt",
+      "toll",
+      "super",
+      "praktisch",
+      "warm"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Davet",
+      "en": "Invitation"
+     },
+     "say": "Kommst du am Sonntag zum Essen?",
+     "keys": [
+      "essen",
+      "einladen",
+      "kommst du",
+      "besuch"
+     ]
+    }
+   ],
+   "minWords": 25,
+   "sample": "Liebe Tante Ayşe, vielen Dank für das Geschenk! Der Schal ist sehr schön und warm, er gefällt mir sehr. Möchtest du am Sonntag zum Essen kommen? Ich koche für dich. Viele Grüße, deine Selin"
+  },
+  {
+   "id": "a1-m6",
+   "level": "A1",
+   "kind": "message",
+   "title": {
+    "tr": "E-posta: Otelden bilgi iste",
+    "en": "E-mail: ask a hotel"
+   },
+   "prompt": "Sie möchten im Juli drei Nächte in Hamburg bleiben. Schreiben Sie dem Hotel Hafenblick eine E-Mail.",
+   "help": {
+    "tr": "Boş oda olup olmadığını, fiyatı ve kahvaltıyı sor.",
+    "en": "Ask if there is a free room, the price and about breakfast."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Boş oda",
+      "en": "Free room"
+     },
+     "say": "Haben Sie vom 3. bis 6. Juli ein Zimmer frei?",
+     "keys": [
+      "zimmer",
+      "frei"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Fiyat",
+      "en": "Price"
+     },
+     "say": "Was kostet das Zimmer pro Nacht?",
+     "keys": [
+      "kostet",
+      "preis",
+      "wie viel"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kahvaltı",
+      "en": "Breakfast"
+     },
+     "say": "Ist das Frühstück inklusive?",
+     "keys": [
+      "frühstück"
+     ]
+    }
+   ],
+   "minWords": 25,
+   "sample": "Sehr geehrte Damen und Herren, haben Sie vom 3. bis 6. Juli ein Einzelzimmer frei? Was kostet das Zimmer pro Nacht? Ist das Frühstück inklusive? Vielen Dank für Ihre Antwort. Mit freundlichen Grüßen, Can Öztürk"
+  }
+ ]
+}

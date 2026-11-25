@@ -586,5 +586,22 @@
  "lesson.intro": "Üç kısa adım. Bugün neye ihtiyacın varsa uygulama seçer.",
  "lesson.practiceSub": "15 soru: yeni kelimeler ve tekrar zamanı gelenler",
  "lesson.speakSub": "3 cümleyi sesli söyle",
- "lesson.bonus": "Hepsi tamam: +{0} XP bonus"
+ "lesson.bonus": "Hepsi tamam: +{0} XP bonus",
+ "modules.writingTasks": "Sınav yazma görevleri",
+ "modules.writingTasksSub": "Form doldur, kısa mesaj yaz",
+ "write.soon": "Bu seviyenin yazma görevleri yakında.",
+ "write.forms": "Teil 1 · Form doldurma",
+ "write.formsSub": "Metni oku ve formu doldur.",
+ "write.messages": "Teil 2 · Kısa mesaj",
+ "write.messagesSub": "Üç nokta üzerine yaklaşık 30 kelime; selamlama ve kapanışla.",
+ "write.formIntro": "Metni oku, sonra formu doldur.",
+ "write.formResult": "{1} alandan {0} doğru",
+ "write.check": "Kontrol et",
+ "write.again": "Tekrar dene",
+ "write.rightAnswer": "Doğrusu: {0}",
+ "write.greeting": "Selamlama (Liebe …, Hallo …)",
+ "write.closing": "Kapanış (Viele Grüße …)",
+ "write.length": "En az {0} kelime",
+ "write.placeholder": "Mesajını Almanca yaz…",
+ "write.words": "{0} kelime"
 }

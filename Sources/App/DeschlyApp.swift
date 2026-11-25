@@ -55,6 +55,8 @@ enum AppRoute: Hashable {
     case allTexts
     case readingHome
     case lesson
+    case writing
+    case writingTask(String)
     /// ExamModule raw value, for the level that is active (LevelModels.active).
     case module(String)
     case basics
@@ -218,6 +220,12 @@ struct AppDestination: View {
             }
         case .readingHome:
             ReadingHomeView()
+        case .writing:
+            WritingHomeView().environmentObject(levels.current)
+        case .writingTask(let id):
+            if let task = WritingBank.task(id) {
+                if task.kind == "form" { WritingFormView(task: task) } else { WritingMessageView(task: task) }
+            }
         case .lesson:
             LessonView().environmentObject(levels.hasPractice(daily.level) ? levels.model(daily.level) : levels.a1)
         case .module(let raw):

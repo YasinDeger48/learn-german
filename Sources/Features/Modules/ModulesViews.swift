@@ -339,7 +339,11 @@ struct ModuleView: View {
             link(A1Route.speaking, "mic.fill", t("speak.title"), t("speak.sub"), nil)
             link(A1Route.speakRepeat, "repeat", t("speak.repeatTitle"), nil, nil)
         case .schreiben:
-            break
+            let tasks = WritingBank.tasks(model.level)
+            if !tasks.isEmpty {
+                let done = tasks.filter { (WritingBank.best($0.id) ?? 0) >= 60 }.count
+                link(AppRoute.writing, "square.and.pencil", t("modules.writingTasks"), t("modules.writingTasksSub"), "\(done)/\(tasks.count)")
+            }
         }
         for mode in module.modes where model.totalFor(mode) > 0 {
             let total = model.totalFor(mode)

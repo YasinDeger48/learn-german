@@ -586,5 +586,22 @@
  "lesson.intro": "Three short steps. The app picks what you need today.",
  "lesson.practiceSub": "15 questions: new words and what is due for review",
  "lesson.speakSub": "Say 3 sentences out loud",
- "lesson.bonus": "All done: +{0} XP bonus"
+ "lesson.bonus": "All done: +{0} XP bonus",
+ "modules.writingTasks": "Exam writing tasks",
+ "modules.writingTasksSub": "Fill in forms, write short messages",
+ "write.soon": "Writing tasks for this level are coming soon.",
+ "write.forms": "Part 1 · Forms",
+ "write.formsSub": "Read the text and fill in the form.",
+ "write.messages": "Part 2 · Short messages",
+ "write.messagesSub": "About 30 words on three points, with a greeting and a closing.",
+ "write.formIntro": "Read the text, then fill in the form.",
+ "write.formResult": "{0} of {1} right",
+ "write.check": "Check",
+ "write.again": "Try again",
+ "write.rightAnswer": "Right: {0}",
+ "write.greeting": "Greeting (Liebe …, Hallo …)",
+ "write.closing": "Closing (Viele Grüße …)",
+ "write.length": "At least {0} words",
+ "write.placeholder": "Write your message in German…",
+ "write.words": "{0} words"
 }
