@@ -1,0 +1,740 @@
+{
+ "units": [
+  {
+   "id": "a1-01",
+   "level": "A1",
+   "number": 1,
+   "title": {
+    "tr": "Merhaba, ben …",
+    "en": "Hello, I am …"
+   },
+   "goal": {
+    "tr": "Kendini tanıtır, adını heceler, nereden geldiğini söylersin.",
+    "en": "Introduce yourself, spell your name, say where you are from."
+   },
+   "cover": "unit-a1-01",
+   "themes": [
+    0,
+    2
+   ],
+   "grammar": [
+    1,
+    2
+   ],
+   "texts": [
+    "a1-010",
+    "a1-029",
+    "a1-060"
+   ],
+   "speaking": [
+    "a1-1",
+    "a1-7"
+   ],
+   "writing": [
+    "a1-f1"
+   ],
+   "phrases": [
+    {
+     "de": "Hallo, ich heiße Elif.",
+     "tr": "Merhaba, benim adım Elif.",
+     "en": "Hello, my name is Elif."
+    },
+    {
+     "de": "Ich komme aus der Türkei.",
+     "tr": "Türkiye'denim.",
+     "en": "I come from Turkey."
+    },
+    {
+     "de": "Ich wohne in Köln.",
+     "tr": "Köln'de oturuyorum.",
+     "en": "I live in Cologne."
+    },
+    {
+     "de": "Wie heißen Sie?",
+     "tr": "Adınız ne?",
+     "en": "What is your name?"
+    },
+    {
+     "de": "Freut mich!",
+     "tr": "Memnun oldum!",
+     "en": "Nice to meet you!"
+    }
+   ]
+  },
+  {
+   "id": "a1-02",
+   "level": "A1",
+   "number": 2,
+   "title": {
+    "tr": "Ailem",
+    "en": "My family"
+   },
+   "goal": {
+    "tr": "Aileni anlatır, yaşları ve meslekleri söylersin.",
+    "en": "Talk about your family, ages and jobs."
+   },
+   "cover": "unit-a1-02",
+   "themes": [
+    1
+   ],
+   "grammar": [
+    9,
+    4
+   ],
+   "texts": [
+    "a1-008",
+    "a1-034",
+    "a1-047"
+   ],
+   "speaking": [
+    "a1-2",
+    "a1-14"
+   ],
+   "writing": [
+    "a1-m2"
+   ],
+   "phrases": [
+    {
+     "de": "Das ist meine Mutter.",
+     "tr": "Bu benim annem.",
+     "en": "This is my mother."
+    },
+    {
+     "de": "Ich habe einen Bruder und eine Schwester.",
+     "tr": "Bir erkek ve bir kız kardeşim var.",
+     "en": "I have a brother and a sister."
+    },
+    {
+     "de": "Mein Vater ist 58 Jahre alt.",
+     "tr": "Babam 58 yaşında.",
+     "en": "My father is 58 years old."
+    },
+    {
+     "de": "Bist du verheiratet?",
+     "tr": "Evli misin?",
+     "en": "Are you married?"
+    },
+    {
+     "de": "Wir haben zwei Kinder.",
+     "tr": "İki çocuğumuz var.",
+     "en": "We have two children."
+    }
+   ]
+  },
+  {
+   "id": "a1-03",
+   "level": "A1",
+   "number": 3,
+   "title": {
+    "tr": "Yemek ve içmek",
+    "en": "Food and drink"
+   },
+   "goal": {
+    "tr": "Restoranda sipariş verir, ne sevdiğini söylersin.",
+    "en": "Order in a restaurant and say what you like."
+   },
+   "cover": "unit-a1-03",
+   "themes": [
+    4
+   ],
+   "grammar": [
+    6,
+    21
+   ],
+   "texts": [
+    "a1-014",
+    "a1-007",
+    "a1-023",
+    "a1-039"
+   ],
+   "speaking": [
+    "a1-8",
+    "a1-17"
+   ],
+   "writing": [
+    "a1-m5"
+   ],
+   "phrases": [
+    {
+     "de": "Ich hätte gern einen Kaffee.",
+     "tr": "Bir kahve alabilir miyim?",
+     "en": "I'd like a coffee."
+    },
+    {
+     "de": "Was möchten Sie trinken?",
+     "tr": "Ne içmek istersiniz?",
+     "en": "What would you like to drink?"
+    },
+    {
+     "de": "Ich esse gern Fisch.",
+     "tr": "Balık yemeyi severim.",
+     "en": "I like eating fish."
+    },
+    {
+     "de": "Die Rechnung, bitte.",
+     "tr": "Hesap, lütfen.",
+     "en": "The bill, please."
+    },
+    {
+     "de": "Guten Appetit!",
+     "tr": "Afiyet olsun!",
+     "en": "Enjoy your meal!"
+    }
+   ]
+  },
+  {
+   "id": "a1-04",
+   "level": "A1",
+   "number": 4,
+   "title": {
+    "tr": "Alışveriş",
+    "en": "Shopping"
+   },
+   "goal": {
+    "tr": "Fiyat sorar, beden ve renk söyler, alışveriş yaparsın.",
+    "en": "Ask prices, say sizes and colours, buy things."
+   },
+   "cover": "unit-a1-04",
+   "themes": [
+    5
+   ],
+   "grammar": [
+    5,
+    11
+   ],
+   "texts": [
+    "a1-004",
+    "a1-020",
+    "a1-031",
+    "a1-045",
+    "a1-049"
+   ],
+   "speaking": [
+    "a1-4",
+    "a1-11"
+   ],
+   "writing": [],
+   "phrases": [
+    {
+     "de": "Was kostet das?",
+     "tr": "Bu ne kadar?",
+     "en": "How much is this?"
+    },
+    {
+     "de": "Haben Sie das in Größe M?",
+     "tr": "Bunun M bedeni var mı?",
+     "en": "Do you have this in size M?"
+    },
+    {
+     "de": "Ich nehme die blaue Jacke.",
+     "tr": "Mavi ceketi alıyorum.",
+     "en": "I'll take the blue jacket."
+    },
+    {
+     "de": "Kann ich mit Karte bezahlen?",
+     "tr": "Kartla ödeyebilir miyim?",
+     "en": "Can I pay by card?"
+    },
+    {
+     "de": "Ich brauche keine Tüte.",
+     "tr": "Poşete ihtiyacım yok.",
+     "en": "I don't need a bag."
+    }
+   ]
+  },
+  {
+   "id": "a1-05",
+   "level": "A1",
+   "number": 5,
+   "title": {
+    "tr": "Evim",
+    "en": "My home"
+   },
+   "goal": {
+    "tr": "Evini ve odalarını anlatır, bir sorunu bildirirsin.",
+    "en": "Describe your home and rooms, report a problem."
+   },
+   "cover": "unit-a1-05",
+   "themes": [
+    6
+   ],
+   "grammar": [
+    18,
+    7
+   ],
+   "texts": [
+    "a1-002",
+    "a1-025",
+    "a1-038",
+    "a1-055",
+    "a1-018"
+   ],
+   "speaking": [
+    "a1-6",
+    "a1-9",
+    "a1-19"
+   ],
+   "writing": [
+    "a1-m3"
+   ],
+   "phrases": [
+    {
+     "de": "Meine Wohnung hat drei Zimmer.",
+     "tr": "Evim üç odalı.",
+     "en": "My flat has three rooms."
+    },
+    {
+     "de": "Die Küche ist klein, aber hell.",
+     "tr": "Mutfak küçük ama aydınlık.",
+     "en": "The kitchen is small but bright."
+    },
+    {
+     "de": "Das Sofa steht im Wohnzimmer.",
+     "tr": "Kanepe oturma odasında duruyor.",
+     "en": "The sofa is in the living room."
+    },
+    {
+     "de": "Die Heizung ist kaputt.",
+     "tr": "Kalorifer bozuk.",
+     "en": "The heating is broken."
+    },
+    {
+     "de": "Wie hoch ist die Miete?",
+     "tr": "Kira ne kadar?",
+     "en": "How much is the rent?"
+    }
+   ]
+  },
+  {
+   "id": "a1-06",
+   "level": "A1",
+   "number": 6,
+   "title": {
+    "tr": "Günüm ve saatler",
+    "en": "My day and the time"
+   },
+   "goal": {
+    "tr": "Saati söyler, günlük rutinini ve randevularını anlatırsın.",
+    "en": "Tell the time, talk about your day and appointments."
+   },
+   "cover": "unit-a1-06",
+   "themes": [
+    3
+   ],
+   "grammar": [
+    19,
+    13,
+    17
+   ],
+   "texts": [
+    "a1-032",
+    "a1-053",
+    "a1-003"
+   ],
+   "speaking": [
+    "a1-3"
+   ],
+   "writing": [
+    "a1-f3"
+   ],
+   "phrases": [
+    {
+     "de": "Wie spät ist es?",
+     "tr": "Saat kaç?",
+     "en": "What time is it?"
+    },
+    {
+     "de": "Es ist halb acht.",
+     "tr": "Saat yedi buçuk.",
+     "en": "It's half past seven."
+    },
+    {
+     "de": "Ich stehe um sechs Uhr auf.",
+     "tr": "Saat altıda kalkıyorum.",
+     "en": "I get up at six."
+    },
+    {
+     "de": "Am Montag habe ich einen Termin.",
+     "tr": "Pazartesi bir randevum var.",
+     "en": "I have an appointment on Monday."
+    },
+    {
+     "de": "Hast du heute Abend Zeit?",
+     "tr": "Bu akşam vaktin var mı?",
+     "en": "Are you free tonight?"
+    }
+   ]
+  },
+  {
+   "id": "a1-07",
+   "level": "A1",
+   "number": 7,
+   "title": {
+    "tr": "Şehirde yol bulmak",
+    "en": "Finding your way in town"
+   },
+   "goal": {
+    "tr": "Yol sorar, yön tarif eder, toplu taşımayı kullanırsın.",
+    "en": "Ask the way, give directions, use public transport."
+   },
+   "cover": "unit-a1-07",
+   "themes": [
+    7
+   ],
+   "grammar": [
+    14,
+    18
+   ],
+   "texts": [
+    "a1-035",
+    "a1-022",
+    "a1-001"
+   ],
+   "speaking": [
+    "a1-13"
+   ],
+   "writing": [
+    "a1-m4"
+   ],
+   "phrases": [
+    {
+     "de": "Entschuldigung, wo ist der Bahnhof?",
+     "tr": "Affedersiniz, tren istasyonu nerede?",
+     "en": "Excuse me, where is the station?"
+    },
+    {
+     "de": "Gehen Sie geradeaus und dann links.",
+     "tr": "Düz gidin, sonra sola dönün.",
+     "en": "Go straight on and then left."
+    },
+    {
+     "de": "Die Apotheke ist neben der Bank.",
+     "tr": "Eczane bankanın yanında.",
+     "en": "The pharmacy is next to the bank."
+    },
+    {
+     "de": "Ich nehme die U-Bahn.",
+     "tr": "Metroya biniyorum.",
+     "en": "I'm taking the underground."
+    },
+    {
+     "de": "Wie weit ist es?",
+     "tr": "Ne kadar uzak?",
+     "en": "How far is it?"
+    }
+   ]
+  },
+  {
+   "id": "a1-08",
+   "level": "A1",
+   "number": 8,
+   "title": {
+    "tr": "Doktorda",
+    "en": "At the doctor"
+   },
+   "goal": {
+    "tr": "Nerenin ağrıdığını söyler, randevu alırsın.",
+    "en": "Say what hurts and make an appointment."
+   },
+   "cover": "unit-a1-08",
+   "themes": [
+    10
+   ],
+   "grammar": [
+    12
+   ],
+   "texts": [
+    "a1-006",
+    "a1-043",
+    "a1-026",
+    "a1-057"
+   ],
+   "speaking": [
+    "a1-15"
+   ],
+   "writing": [
+    "a1-m1"
+   ],
+   "phrases": [
+    {
+     "de": "Ich habe Kopfschmerzen.",
+     "tr": "Başım ağrıyor.",
+     "en": "I have a headache."
+    },
+    {
+     "de": "Mir ist schlecht.",
+     "tr": "Midem bulanıyor.",
+     "en": "I feel sick."
+    },
+    {
+     "de": "Ich brauche einen Termin.",
+     "tr": "Bir randevuya ihtiyacım var.",
+     "en": "I need an appointment."
+    },
+    {
+     "de": "Sie müssen im Bett bleiben.",
+     "tr": "Yatakta kalmanız gerekiyor.",
+     "en": "You have to stay in bed."
+    },
+    {
+     "de": "Gute Besserung!",
+     "tr": "Geçmiş olsun!",
+     "en": "Get well soon!"
+    }
+   ]
+  },
+  {
+   "id": "a1-09",
+   "level": "A1",
+   "number": 9,
+   "title": {
+    "tr": "İş ve kurs",
+    "en": "Work and class"
+   },
+   "goal": {
+    "tr": "Mesleğini ve çalışma saatlerini anlatır, kursta yardım istersin.",
+    "en": "Talk about your job and hours, ask for help in class."
+   },
+   "cover": "unit-a1-09",
+   "themes": [
+    8
+   ],
+   "grammar": [
+    10,
+    20
+   ],
+   "texts": [
+    "a1-019",
+    "a1-044",
+    "a1-036",
+    "a1-040",
+    "a1-016"
+   ],
+   "speaking": [
+    "a1-12",
+    "a1-16",
+    "a1-20"
+   ],
+   "writing": [
+    "a1-f4"
+   ],
+   "phrases": [
+    {
+     "de": "Ich arbeite als Krankenpfleger.",
+     "tr": "Hemşire olarak çalışıyorum.",
+     "en": "I work as a nurse."
+    },
+    {
+     "de": "Meine Arbeit beginnt um acht.",
+     "tr": "İşim sekizde başlıyor.",
+     "en": "My work starts at eight."
+    },
+    {
+     "de": "Können Sie das bitte wiederholen?",
+     "tr": "Tekrar edebilir misiniz?",
+     "en": "Could you repeat that, please?"
+    },
+    {
+     "de": "Ich habe heute frei.",
+     "tr": "Bugün izinliyim.",
+     "en": "I'm off today."
+    },
+    {
+     "de": "Wie schreibt man das?",
+     "tr": "Bu nasıl yazılır?",
+     "en": "How do you spell that?"
+    }
+   ]
+  },
+  {
+   "id": "a1-10",
+   "level": "A1",
+   "number": 10,
+   "title": {
+    "tr": "Boş zaman",
+    "en": "Free time"
+   },
+   "goal": {
+    "tr": "Hobilerini anlatır, hafta sonu için plan yaparsın.",
+    "en": "Talk about hobbies and make weekend plans."
+   },
+   "cover": "unit-a1-10",
+   "themes": [
+    9,
+    11
+   ],
+   "grammar": [
+    15
+   ],
+   "texts": [
+    "a1-005",
+    "a1-013",
+    "a1-027",
+    "a1-037",
+    "a1-030",
+    "a1-021",
+    "a1-052",
+    "a1-033"
+   ],
+   "speaking": [
+    "a1-10",
+    "a1-5"
+   ],
+   "writing": [
+    "a1-m4"
+   ],
+   "phrases": [
+    {
+     "de": "Am Wochenende spiele ich Fußball.",
+     "tr": "Hafta sonu futbol oynuyorum.",
+     "en": "At the weekend I play football."
+    },
+    {
+     "de": "Ich lese gern Bücher.",
+     "tr": "Kitap okumayı severim.",
+     "en": "I like reading books."
+    },
+    {
+     "de": "Wollen wir ins Kino gehen?",
+     "tr": "Sinemaya gidelim mi?",
+     "en": "Shall we go to the cinema?"
+    },
+    {
+     "de": "Gestern habe ich einen Film gesehen.",
+     "tr": "Dün bir film izledim.",
+     "en": "Yesterday I watched a film."
+    },
+    {
+     "de": "Das Wetter ist heute schön.",
+     "tr": "Bugün hava güzel.",
+     "en": "The weather is nice today."
+    }
+   ]
+  },
+  {
+   "id": "a1-11",
+   "level": "A1",
+   "number": 11,
+   "title": {
+    "tr": "Yolculuk",
+    "en": "Travelling"
+   },
+   "goal": {
+    "tr": "Bilet alır, otel ayırtır, yolculuğunu anlatırsın.",
+    "en": "Buy a ticket, book a hotel, talk about your trip."
+   },
+   "cover": "unit-a1-11",
+   "themes": [
+    7
+   ],
+   "grammar": [
+    16
+   ],
+   "texts": [
+    "a1-009",
+    "a1-017",
+    "a1-042",
+    "a1-046",
+    "a1-058"
+   ],
+   "speaking": [
+    "a1-18"
+   ],
+   "writing": [
+    "a1-m6",
+    "a1-f2"
+   ],
+   "phrases": [
+    {
+     "de": "Eine Fahrkarte nach Berlin, bitte.",
+     "tr": "Berlin'e bir bilet, lütfen.",
+     "en": "A ticket to Berlin, please."
+    },
+    {
+     "de": "Wann fährt der nächste Zug?",
+     "tr": "Sonraki tren ne zaman kalkıyor?",
+     "en": "When does the next train leave?"
+    },
+    {
+     "de": "Ich habe ein Zimmer reserviert.",
+     "tr": "Bir oda ayırttım.",
+     "en": "I have booked a room."
+    },
+    {
+     "de": "Der Urlaub war super.",
+     "tr": "Tatil harikaydı.",
+     "en": "The holiday was great."
+    },
+    {
+     "de": "Von welchem Gleis fährt der Zug?",
+     "tr": "Tren hangi perondan kalkıyor?",
+     "en": "Which platform does the train leave from?"
+    }
+   ]
+  },
+  {
+   "id": "a1-12",
+   "level": "A1",
+   "number": 12,
+   "title": {
+    "tr": "Resmî işler",
+    "en": "Offices and services"
+   },
+   "goal": {
+    "tr": "Belediyede, bankada ve postanede işini halledersin.",
+    "en": "Get things done at the town hall, the bank and the post office."
+   },
+   "cover": "unit-a1-12",
+   "themes": [
+    14
+   ],
+   "grammar": [
+    22,
+    8
+   ],
+   "texts": [
+    "a1-028",
+    "a1-041",
+    "a1-011",
+    "a1-015",
+    "a1-056",
+    "a1-050",
+    "a1-051",
+    "a1-048"
+   ],
+   "speaking": [
+    "a1-7"
+   ],
+   "writing": [
+    "a1-f1"
+   ],
+   "phrases": [
+    {
+     "de": "Ich möchte mich anmelden.",
+     "tr": "Adres kaydı yaptırmak istiyorum.",
+     "en": "I would like to register."
+    },
+    {
+     "de": "Welche Unterlagen brauche ich?",
+     "tr": "Hangi belgelere ihtiyacım var?",
+     "en": "Which documents do I need?"
+    },
+    {
+     "de": "Wo muss ich unterschreiben?",
+     "tr": "Nereyi imzalamam gerekiyor?",
+     "en": "Where do I have to sign?"
+    },
+    {
+     "de": "Ich möchte ein Paket abholen.",
+     "tr": "Bir paket almak istiyorum.",
+     "en": "I would like to pick up a parcel."
+    },
+    {
+     "de": "Haben Sie einen Termin?",
+     "tr": "Randevunuz var mı?",
+     "en": "Do you have an appointment?"
+    }
+   ]
+  }
+ ]
+}

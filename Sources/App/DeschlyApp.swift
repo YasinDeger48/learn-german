@@ -54,6 +54,8 @@ enum AppRoute: Hashable {
     case savedWordsQuiz
     case allTexts
     case readingHome
+    case unit(String)
+    case examHome
     case lesson
     case writing
     case verbLab
@@ -74,13 +76,14 @@ enum AppRoute: Hashable {
     case settings
 }
 
-/// Tabs follow the exam: today's learning, the four exam modules, the mock exam, and the profile.
+/// Tabs: today's learning, the step-by-step path, free practice (the four exam modules), the mock exam, the profile.
 enum AppTab: Int, CaseIterable {
-    case today, modules, exam, profile
+    case today, path, modules, exam, profile
 
     var titleKey: String {
         switch self {
         case .today: return "tab.today"
+        case .path: return "tab.path"
         case .modules: return "tab.modules"
         case .exam: return "tab.exam"
         case .profile: return "tab.profile"
@@ -90,6 +93,7 @@ enum AppTab: Int, CaseIterable {
     var icon: String {
         switch self {
         case .today: return "sun.max"
+        case .path: return "map"
         case .modules: return "square.grid.2x2"
         case .exam: return "checkmark.seal"
         case .profile: return "person.crop.circle"
@@ -115,6 +119,10 @@ struct RootView: View {
             }
             .tabItem { Label(t(AppTab.today.titleKey), systemImage: AppTab.today.icon) }
             .tag(AppTab.today)
+
+            NavigationStack { PathView().appRoutes() }
+                .tabItem { Label(t(AppTab.path.titleKey), systemImage: AppTab.path.icon) }
+                .tag(AppTab.path)
 
             NavigationStack { ModulesHomeView().appRoutes() }
                 .tabItem { Label(t(AppTab.modules.titleKey), systemImage: AppTab.modules.icon) }
@@ -226,6 +234,10 @@ struct AppDestination: View {
             }
         case .readingHome:
             ReadingHomeView()
+        case .unit(let id):
+            if let unit = UnitBank.unit(id) { UnitView(unit: unit).environmentObject(levels.model(unit.level)) }
+        case .examHome:
+            ExamHomeView()
         case .memorize:
             MemorizeHomeView().environmentObject(levels.current)
         case .memorizeSheet(let id):
