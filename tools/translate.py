@@ -41,6 +41,8 @@ SETS = {
     'b1': ['b1.json', 'daily_b1.json', 'verbs_b1.json'],
     'b2': ['b2.json', 'daily_b2.json', 'verbs_b2.json'],
 }
+# Only files that exist (a level may have no verb lab yet); Deschly Studio reads these lists too.
+SETS = {name: [f for f in files if os.path.exists(os.path.join(CONTENT, f))] for name, files in SETS.items()}
 BATCH_CHARS = 9000
 BATCH_MAX = 160
 
