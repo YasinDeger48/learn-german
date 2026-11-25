@@ -6,6 +6,7 @@ struct TodayView: View {
     @EnvironmentObject private var daily: DailyModel
     @EnvironmentObject private var levels: LevelModels
     let open: (AppRoute) -> Void
+    @State private var showStreak = false
 
     var body: some View {
         ScrollView {
@@ -25,13 +26,11 @@ struct TodayView: View {
         .onChange(of: daily.level) { _ in levels.active = practiceModel.level }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
-                HStack(spacing: 4) {
-                    Image(systemName: "flame.fill").foregroundColor(.orange)
-                    Text("\(a1.state.streak)").font(.subheadline.weight(.semibold)).monospacedDigit()
-                }
-                .accessibilityElement(children: .combine)
-                .accessibilityLabel(t("today.streak", a1.state.streak))
+                StreakButton { showStreak = true }
             }
+        }
+        .sheet(isPresented: $showStreak) {
+            StreakView(open: open).environmentObject(daily)
         }
     }
 

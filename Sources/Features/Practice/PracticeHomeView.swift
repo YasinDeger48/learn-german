@@ -161,7 +161,7 @@ struct PracticeHomeView: View {
                 }
                 ProgressView(value: model.readiness).tint(DS.das)
                 HStack {
-                    stat("\(model.state.streak)", t("practice.statStreak"), "flame.fill", .orange)
+                    stat("\(StreakStore.shared.current)", t("practice.statStreak"), "flame.fill", .orange)
                     stat("\(model.todayCount)", t("practice.statToday"), "checkmark.circle.fill", DS.das)
                     stat(model.state.exams.last.map { "\($0)" } ?? "–", t("practice.statExam"), "graduationcap.fill", .indigo)
                 }

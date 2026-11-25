@@ -318,5 +318,21 @@
  "reading.quizDone": "Quiz ✓ 100%",
  "reading.quizRetry": "Quiz {0}% · get all right",
  "today.quizRetry": "Quiz {0}% · try again",
- "settings.adPrivacy": "Ad privacy options"
+ "settings.adPrivacy": "Ad privacy options",
+ "streak.title": "Your streak",
+ "streak.hint": "Shows your learning days",
+ "streak.doneToday": "Today is done. See you tomorrow!",
+ "streak.atRisk": "Learn something today to keep your streak – {0} h {1} min left.",
+ "streak.start": "Answer one question or read today’s text to start a streak.",
+ "streak.best": "best streak",
+ "streak.totalDays": "learning days",
+ "streak.todayActions": "answers today",
+ "streak.lastWeeks": "Last 5 weeks",
+ "streak.lastWeeksA11y": "Calendar of the last 5 weeks, {0} learning days in total",
+ "streak.less": "less",
+ "streak.more": "more",
+ "streak.readToday": "Read today's text",
+ "streak.practice": "Quick practice",
+ "streak.remind": "Remind me every day",
+ "streak.rule": "Every answered question, sprint or finished reading quiz counts – at every level."
 }

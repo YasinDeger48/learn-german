@@ -48,7 +48,7 @@ struct A1QuizView: View {
             if !started {
                 ProgressView()
             } else if limitReached {
-                DailyLimitView(answered: index, correct: score, streak: model.state.streak,
+                DailyLimitView(answered: index, correct: score, streak: StreakStore.shared.current,
                                level: model.level, readiness: model.readiness,
                                onWatchAd: ads.rewardedReady ? watchAd : nil)
             } else if session.isEmpty {

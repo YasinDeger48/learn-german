@@ -318,5 +318,21 @@
  "reading.quizDone": "Quiz ✓ 100%",
  "reading.quizRetry": "Quiz {0}% · tutte giuste",
  "today.quizRetry": "Quiz {0}% · riprova",
- "settings.adPrivacy": "Opzioni privacy annunci"
+ "settings.adPrivacy": "Opzioni privacy annunci",
+ "streak.title": "La tua serie",
+ "streak.hint": "Mostra i tuoi giorni di studio",
+ "streak.doneToday": "Oggi è fatto. A domani!",
+ "streak.atRisk": "Studia qualcosa oggi per mantenere la serie – mancano {0} h {1} min.",
+ "streak.start": "Rispondi a una domanda o leggi il testo di oggi per iniziare una serie.",
+ "streak.best": "serie migliore",
+ "streak.totalDays": "giorni di studio",
+ "streak.todayActions": "risposte oggi",
+ "streak.lastWeeks": "Ultime 5 settimane",
+ "streak.lastWeeksA11y": "Calendario delle ultime 5 settimane, {0} giorni di studio in totale",
+ "streak.less": "meno",
+ "streak.more": "più",
+ "streak.readToday": "Leggi il testo di oggi",
+ "streak.practice": "Esercizio veloce",
+ "streak.remind": "Ricordamelo ogni giorno",
+ "streak.rule": "Conta ogni domanda risposta, sprint o quiz di lettura finito, a ogni livello."
 }

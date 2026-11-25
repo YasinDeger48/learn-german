@@ -318,5 +318,21 @@
  "reading.quizDone": "Quiz ✓ %100",
  "reading.quizRetry": "Quiz %{0} · hepsini doğru yap",
  "today.quizRetry": "Quiz %{0} · tekrar dene",
- "settings.adPrivacy": "Reklam gizlilik seçenekleri"
+ "settings.adPrivacy": "Reklam gizlilik seçenekleri",
+ "streak.title": "Serin",
+ "streak.hint": "Çalıştığın günleri gösterir",
+ "streak.doneToday": "Bugün tamam. Yarın görüşürüz!",
+ "streak.atRisk": "Serini korumak için bugün bir şey çalış – {0} sa {1} dk kaldı.",
+ "streak.start": "Seriye başlamak için bir soru çöz ya da günün metnini oku.",
+ "streak.best": "en uzun seri",
+ "streak.totalDays": "çalışılan gün",
+ "streak.todayActions": "bugünkü cevap",
+ "streak.lastWeeks": "Son 5 hafta",
+ "streak.lastWeeksA11y": "Son 5 haftanın takvimi, toplam {0} çalışılan gün",
+ "streak.less": "az",
+ "streak.more": "çok",
+ "streak.readToday": "Günün metnini oku",
+ "streak.practice": "Hızlı alıştırma",
+ "streak.remind": "Her gün hatırlat",
+ "streak.rule": "Çözdüğün her soru, sprint ya da bitirdiğin okuma quiz’i sayılır – her seviyede."
 }

@@ -318,5 +318,21 @@
  "reading.quizDone": "Quiz ✓ 100 %",
  "reading.quizRetry": "Quiz {0} % · tout juste",
  "today.quizRetry": "Quiz {0} % · réessaie",
- "settings.adPrivacy": "Options de confidentialité des annonces"
+ "settings.adPrivacy": "Options de confidentialité des annonces",
+ "streak.title": "Ta série",
+ "streak.hint": "Affiche tes jours d'apprentissage",
+ "streak.doneToday": "C'est fait pour aujourd'hui. À demain !",
+ "streak.atRisk": "Apprends quelque chose aujourd'hui pour garder ta série – il reste {0} h {1} min.",
+ "streak.start": "Réponds à une question ou lis le texte du jour pour commencer une série.",
+ "streak.best": "meilleure série",
+ "streak.totalDays": "jours d'apprentissage",
+ "streak.todayActions": "réponses aujourd'hui",
+ "streak.lastWeeks": "5 dernières semaines",
+ "streak.lastWeeksA11y": "Calendrier des 5 dernières semaines, {0} jours d'apprentissage au total",
+ "streak.less": "moins",
+ "streak.more": "plus",
+ "streak.readToday": "Lire le texte du jour",
+ "streak.practice": "Exercice rapide",
+ "streak.remind": "Me le rappeler chaque jour",
+ "streak.rule": "Chaque question répondue, sprint ou quiz de lecture terminé compte, à tous les niveaux."
 }
