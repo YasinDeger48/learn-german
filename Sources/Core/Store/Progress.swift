@@ -49,7 +49,11 @@ final class A1Model: ObservableObject {
     private(set) var byID: [String: A1Question] = [:]
     private var modeTotals: [A1Mode: Int] = [:]
     private var a1Total = 0
-    @Published private(set) var state: A1SavedState
+    @Published private(set) var state: A1SavedState { didSet { recount() } }
+    /// Counted once when the progress or the questions change, not on every screen update
+    /// (screens ask for these many times per render; counting walked through every answered question each time).
+    private var seenByMode: [A1Mode: Int] = [:]
+    private var learnedCount = 0
     private var observer: NSObjectProtocol?
 
     private var languageWatch: AnyCancellable?
@@ -94,6 +98,7 @@ final class A1Model: ObservableObject {
             DispatchQueue.main.async {
                 self.content = loaded
                 self.byID = map
+                self.recount()
                 self.modeTotals = totals
                 self.a1Total = a1
                 self.questions = built
@@ -110,11 +115,19 @@ final class A1Model: ObservableObject {
     }
 
     var total: Int { a1Total }
-    var learned: Int {
-        state.correct.reduce(0) { count, id in
-            guard let q = byID[id], !A1Model.isCore(q) else { return count }
-            return count + 1
+    var learned: Int { learnedCount }
+
+    private func recount() {
+        var seen: [A1Mode: Int] = [:]
+        for id in state.seen {
+            if let q = byID[id], !A1Model.isCore(q) { seen[q.mode, default: 0] += 1 }
         }
+        var learned = 0
+        for id in state.correct {
+            if let q = byID[id], !A1Model.isCore(q) { learned += 1 }
+        }
+        seenByMode = seen
+        learnedCount = learned
     }
     var coreTotal: Int { questions.count - a1Total }
     var coreLearned: Int { max(0, state.correct.count - learned) }
@@ -122,12 +135,7 @@ final class A1Model: ObservableObject {
 
     func totalFor(_ mode: A1Mode) -> Int { modeTotals[mode] ?? 0 }
 
-    func seenCount(_ mode: A1Mode) -> Int {
-        state.seen.reduce(0) { count, id in
-            guard let q = byID[id], q.mode == mode, !A1Model.isCore(q) else { return count }
-            return count + 1
-        }
-    }
+    func seenCount(_ mode: A1Mode) -> Int { seenByMode[mode] ?? 0 }
 
     static func dayString(_ date: Date) -> String {
         let f = DateFormatter()
