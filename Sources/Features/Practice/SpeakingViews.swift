@@ -435,6 +435,8 @@ struct SpeakRepeatView: View {
 
 struct SpeakTaskView: View {
     let task: SpeakingTask
+    /// Mock exam: points covered and points in the task, called when an answer is finished.
+    var onFinish: ((Int, Int) -> Void)? = nil
     @StateObject private var listener = SpeechListener()
     @State private var answer = ""
     @State private var seconds = 0
@@ -589,6 +591,7 @@ struct SpeakTaskView: View {
         answer = heard
         withAnimation { done = true }
         let count = task.points.filter { SpeechScore.mentions(heard, $0.keys) }.count
+        onFinish?(SpeechScore.split(heard).count >= 5 ? count : 0, task.points.count)
         let words = SpeechScore.split(heard).count
         guard words >= 5 else { return }
         let previous = SpeakingBank.best(task.id) ?? 0

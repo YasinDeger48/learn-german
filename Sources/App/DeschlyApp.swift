@@ -53,26 +53,37 @@ enum AppRoute: Hashable {
     case savedWords
     case savedWordsQuiz
     case allTexts
+    case readingHome
+    /// ExamModule raw value, for the level that is active (LevelModels.active).
+    case module(String)
+    case basics
+    case examRun
+    case certificate(String)
+    case certificates
+    case badges
+    case levels
+    case settings
 }
 
+/// Tabs follow the exam: today's learning, the four exam modules, the mock exam, and the profile.
 enum AppTab: Int, CaseIterable {
-    case today, levels, reading, settings
+    case today, modules, exam, profile
 
     var titleKey: String {
         switch self {
         case .today: return "tab.today"
-        case .levels: return "tab.levels"
-        case .reading: return "tab.reading"
-        case .settings: return "tab.settings"
+        case .modules: return "tab.modules"
+        case .exam: return "tab.exam"
+        case .profile: return "tab.profile"
         }
     }
 
     var icon: String {
         switch self {
         case .today: return "sun.max"
-        case .levels: return "chart.bar"
-        case .reading: return "book"
-        case .settings: return "gearshape"
+        case .modules: return "square.grid.2x2"
+        case .exam: return "checkmark.seal"
+        case .profile: return "person.crop.circle"
         }
     }
 }
@@ -86,6 +97,7 @@ struct RootView: View {
     @State private var goalToast = false
     @State private var tab: AppTab = .today
     @State private var todayPath = NavigationPath()
+    @State private var profilePath = NavigationPath()
 
     var body: some View {
         TabView(selection: $tab) {
@@ -95,17 +107,22 @@ struct RootView: View {
             .tabItem { Label(t(AppTab.today.titleKey), systemImage: AppTab.today.icon) }
             .tag(AppTab.today)
 
-            NavigationStack { LevelsView().appRoutes() }
-                .tabItem { Label(t(AppTab.levels.titleKey), systemImage: AppTab.levels.icon) }
-                .tag(AppTab.levels)
+            NavigationStack { ModulesHomeView().appRoutes() }
+                .tabItem { Label(t(AppTab.modules.titleKey), systemImage: AppTab.modules.icon) }
+                .tag(AppTab.modules)
 
-            NavigationStack { ReadingHomeView().appRoutes() }
-                .tabItem { Label(t(AppTab.reading.titleKey), systemImage: AppTab.reading.icon) }
-                .tag(AppTab.reading)
+            NavigationStack { ExamHomeView().appRoutes() }
+                .tabItem { Label(t(AppTab.exam.titleKey), systemImage: AppTab.exam.icon) }
+                .tag(AppTab.exam)
 
-            NavigationStack { SettingsView() }
-                .tabItem { Label(t(AppTab.settings.titleKey), systemImage: AppTab.settings.icon) }
-                .tag(AppTab.settings)
+            NavigationStack(path: $profilePath) {
+                ProfileView(open: { route in
+                    tab = .today
+                    todayPath.append(route)
+                }).appRoutes()
+            }
+            .tabItem { Label(t(AppTab.profile.titleKey), systemImage: AppTab.profile.icon) }
+            .tag(AppTab.profile)
         }
         .onAppear {
             // Consent and ads only for the free version, after onboarding.
@@ -198,6 +215,24 @@ struct AppDestination: View {
             } else {
                 ComingSoonView(level: level)
             }
+        case .readingHome:
+            ReadingHomeView()
+        case .module(let raw):
+            if let module = ExamModule(rawValue: raw) { ModuleView(module: module).environmentObject(levels.current) }
+        case .basics:
+            WordsBasicsView().environmentObject(levels.current)
+        case .examRun:
+            ExamRunView().environmentObject(levels.current)
+        case .certificate(let id):
+            if let certificate = ExamStore.certificate(id) { CertificateDetailView(certificate: certificate) }
+        case .certificates:
+            CertificatesListView()
+        case .badges:
+            BadgesView()
+        case .levels:
+            LevelsView()
+        case .settings:
+            SettingsView()
         }
     }
 }
