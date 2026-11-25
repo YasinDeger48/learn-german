@@ -21,6 +21,7 @@
   .levels { display: flex; gap: 6px; flex-wrap: wrap; }
   .lv { border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 8px; padding: 5px 10px; cursor: pointer; font: inherit; }
   .lv small { color: var(--muted); margin-left: 6px; }
+  a.lv { text-decoration: none; }
   .lv.on { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
   .spacer { flex: 1; }
   button.main { background: var(--accent); color: #fff; border: 0; border-radius: 8px; padding: 6px 12px; font: inherit; cursor: pointer; }
@@ -81,6 +82,7 @@
 <body>
 <header>
   <h1>deschly<b>.</b> studio</h1>
+  <nav class="levels"><a class="lv on" href="/">Texts</a><a class="lv" href="/inbox">ChatGPT inbox · Units · Publish</a></nav>
   <div class="levels" id="levels"></div>
   <div class="spacer"></div>
   <button class="plain" id="prompts">Copy prompts for missing covers</button>

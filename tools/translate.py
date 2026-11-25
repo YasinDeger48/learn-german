@@ -167,6 +167,8 @@ def content_id(en):
 
 def fits(source, text):
     """Rough sign that `text` translates `source`: same placeholders, similar length."""
+    if len(source) < 16 or len(text) < 16:  # short words and labels vary a lot in length between languages
+        return check(source, text)
     return check(source, text) and 0.35 < len(text) / max(1, len(source)) < 3.2
 
 
@@ -211,6 +213,42 @@ def read_answers(path):
         if isinstance(obj.get('t'), str) and obj['t'].strip():
             out[str(obj.get('id'))] = obj['t'].strip()
     return out
+
+
+def check_answer(lang, path):
+    """Dry run of import for one answer file."""
+    en = ui_tables(lang)[0]
+    set_name, _, n = os.path.basename(path)[:-4].partition('_cevap_')
+    manifest_path = os.path.join(OUTDIR, lang, f'{set_name}_istek_{n}.json')
+    answers = read_answers(path)
+    if not answers:
+        return {'lines': 0, 'ok': 0, 'problems': ['no JSON lines found']}
+    problems = []
+    if all(i.isdigit() for i in answers):
+        if not os.path.exists(manifest_path):
+            return {'lines': len(answers), 'ok': 0, 'problems': ['no request with this number']}
+        manifest = pick_manifest(set_name, answers, manifest_path, en)
+    else:
+        manifest = {}
+        for other in glob.glob(os.path.join(OUTDIR, '*', f'{set_name}_istek_*.json')):
+            manifest.update(json.load(open(other, encoding='utf-8')))
+        if set_name == 'ui':
+            manifest.update({k: k for k in en})
+    ok = 0
+    for i, text in answers.items():
+        if i not in manifest:
+            problems.append(f'unknown id {i}')
+            continue
+        source = en.get(manifest[i], '') if set_name == 'ui' else manifest[i]
+        if not fits(source, text):
+            problems.append(f'{i}: does not fit "{source[:40]}" -> "{text[:40]}"')
+        else:
+            ok += 1
+    if os.path.exists(manifest_path):
+        expected = len(json.load(open(manifest_path, encoding='utf-8')))
+        if len(answers) < expected:
+            problems.insert(0, f'{expected - len(answers)} of {expected} lines missing (answer cut off? ask ChatGPT to continue)')
+    return {'lines': len(answers), 'ok': ok, 'problems': problems}
 
 
 def import_(lang):

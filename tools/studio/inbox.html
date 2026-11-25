@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deschly Studio · Inbox</title>
+<style>
+  :root {
+    --bg: #f5f5f2; --panel: #ffffff; --ink: #16171a; --muted: #6b6f76; --line: #e3e3de;
+    --accent: #2f5bea; --ok: #157a41; --fix: #b7791f; --bad: #c8323a; --chip: #eef0f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121315; --panel: #1b1c1f; --ink: #ececea; --muted: #9a9ea6; --line: #2c2e33;
+            --accent: #6d8cff; --ok: #3fbf74; --fix: #e3a73d; --bad: #ff6b6b; --chip: #24262b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.45 -apple-system, "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--ink); }
+  header { display: flex; align-items: center; gap: 16px; padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 2; flex-wrap: wrap; }
+  header h1 { font-size: 17px; margin: 0; }
+  header h1 b { color: var(--accent); }
+  .nav { display: flex; gap: 6px; flex-wrap: wrap; }
+  .lv { border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 8px; padding: 5px 10px; cursor: pointer; font: inherit; text-decoration: none; }
+  .lv.on { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+  .spacer { flex: 1; }
+  button.main { background: var(--accent); color: #fff; border: 0; border-radius: 8px; padding: 6px 12px; font: inherit; cursor: pointer; }
+  button.main:disabled { opacity: .45; cursor: default; }
+  button.plain { background: var(--chip); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px; font: inherit; cursor: pointer; }
+  main { display: grid; grid-template-columns: 320px 1fr; height: calc(100vh - 53px); }
+  aside { border-right: 1px solid var(--line); overflow: auto; background: var(--panel); }
+  .group { padding: 10px 12px 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .row { padding: 8px 12px; border-bottom: 1px solid var(--line); cursor: pointer; }
+  .row:hover { background: var(--chip); }
+  .row.on { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  .row .t { font-weight: 600; }
+  .row .m { color: var(--muted); font-size: 12px; }
+  .bar { height: 4px; background: var(--line); border-radius: 2px; margin-top: 5px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--ok); }
+  section.detail { overflow: auto; padding: 16px 20px 60px; }
+  .empty { color: var(--muted); padding: 40px; text-align: center; }
+  h2 { margin: 0 0 4px; font-size: 22px; }
+  .sub { color: var(--muted); margin-bottom: 12px; }
+  .tools { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; align-items: center; }
+  table { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  th, td { padding: 7px 10px; border-top: 1px solid var(--line); text-align: left; vertical-align: middle; }
+  th { font-size: 12px; color: var(--muted); font-weight: 600; border-top: 0; }
+  .ok { color: var(--ok); font-weight: 600; } .bad { color: var(--bad); font-weight: 600; } .wait { color: var(--muted); }
+  .paste { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px; margin: 14px 0; }
+  .paste textarea { width: 100%; min-height: 160px; border: 1px solid var(--line); border-radius: 8px; padding: 8px; background: var(--bg); color: var(--ink); font: 12px/1.4 ui-monospace, Consolas, monospace; }
+  .problems { margin: 8px 0 0; padding-left: 18px; color: var(--bad); font-size: 13px; max-height: 220px; overflow: auto; }
+  pre.out { white-space: pre-wrap; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px; font-size: 12px; max-height: 300px; overflow: auto; }
+  .drop { border: 2px dashed var(--line); border-radius: 12px; padding: 22px; text-align: center; color: var(--muted); background: var(--panel); margin-bottom: 14px; cursor: pointer; }
+  .drop.hover { border-color: var(--accent); color: var(--accent); }
+  .units { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .unit { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  .unit img, .unit .ph { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: grid; place-items: center; background: var(--chip); color: var(--muted); font-size: 12px; }
+  .unit .b { padding: 8px 10px; }
+  .unit .t { font-weight: 600; }
+  .unit .m { color: var(--muted); font-size: 12px; }
+  .thumbs { display: grid; grid-template-columns: repeat(8, 1fr); gap: 6px; margin: 10px 0; }
+  .thumbs img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; background: var(--chip); }
+  .chips { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+  .chip { border: 1px solid var(--line); background: var(--chip); border-radius: 999px; padding: 3px 10px; cursor: pointer; font: inherit; color: var(--ink); font-size: 12px; }
+  .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .steps { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; margin-bottom: 14px; }
+  .steps ol { margin: 6px 0 0; padding-left: 18px; }
+  .toast { position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 8px 14px; border-radius: 8px; opacity: 0; transition: opacity .2s; pointer-events: none; max-width: 80vw; }
+  .toast.show { opacity: 1; }
+  @media (max-width: 760px) { main { grid-template-columns: 1fr; height: auto; } aside { max-height: 40vh; } .thumbs { grid-template-columns: repeat(4, 1fr); } }
+</style>
+</head>
+<body>
+<header>
+  <h1>deschly<b>.</b> studio</h1>
+  <nav class="nav">
+    <a class="lv" href="/">Texts</a>
+    <button class="lv" data-tab="inbox">ChatGPT inbox</button>
+    <button class="lv" data-tab="units">Units &amp; pictures</button>
+    <button class="lv" data-tab="publish">Publish</button>
+  </nav>
+  <div class="spacer"></div>
+  <span class="wait" id="changes"></span>
+</header>
+<main id="main"></main>
+<div class="toast" id="toast"></div>
+<input type="file" id="file" accept="image/png,image/jpeg,image/webp" multiple hidden>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const state = { tab: 'inbox', data: null, job: null, n: null, checks: {}, level: 'A1', bust: Date.now(), lastGrid: [] };
+
+function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 3000); }
+async function api(path, opts) { const r = await fetch(path, opts); const j = await r.json().catch(() => ({})); if (!r.ok) throw new Error(j.error || r.statusText); return j; }
+
+async function load() {
+  state.data = await api('/api/inbox');
+  const n = state.data.changes.length;
+  $('#changes').textContent = n ? `${n} unsaved file${n > 1 ? 's' : ''} → Publish` : 'All saved';
+  render();
+}
+
+function render() {
+  document.querySelectorAll('[data-tab]').forEach(b => b.classList.toggle('on', b.dataset.tab === state.tab));
+  history.replaceState(null, '', '#' + state.tab);
+  if (state.tab === 'inbox') renderInbox();
+  else if (state.tab === 'units') renderUnits();
+  else renderPublish();
+}
+
+// ---------- ChatGPT inbox
+
+function renderInbox() {
+  const jobs = state.data.jobs;
+  let group = '';
+  const list = jobs.map(j => {
+    const head = j.group !== group ? `<div class="group">${esc(group = j.group)}</div>` : '';
+    const prog = j.progress ? `<div class="bar"><i style="width:${(100 * j.progress[0] / Math.max(1, j.progress[1])).toFixed(1)}%"></i></div>` : '';
+    const sub = j.progress ? `${j.progress[0]}/${j.progress[1]} in the app · ` : '';
+    return `${head}<div class="row ${state.job === j.id ? 'on' : ''}" data-job="${j.id}"><div class="t">${esc(j.title)}</div>
+      <div class="m">${sub}${j.answers.length}/${j.requests.length} answers</div>${prog}</div>`;
+  }).join('') || '<div class="empty">No requests. Run the export commands first.</div>';
+  $('#main').innerHTML = `<aside>${list}</aside><section class="detail" id="detail"></section>`;
+  $('aside').onclick = e => { const r = e.target.closest('[data-job]'); if (r) openJob(r.dataset.job); };
+  if (state.job && jobs.some(j => j.id === state.job)) openJob(state.job, true);
+  else $('#detail').innerHTML = `<div class="steps"><b>How it works</b><ol>
+      <li>Choose a job on the left.</li>
+      <li><b>Copy</b> a request and paste it into ChatGPT.</li>
+      <li>Paste ChatGPT's whole answer here and press <b>Save and check</b>. Problems show in red.</li>
+      <li>When the answers look good, press <b>Import into the app</b>, then go to <b>Publish</b>.</li></ol></div>`;
+}
+
+async function openJob(id, keep) {
+  state.job = id;
+  document.querySelectorAll('[data-job]').forEach(r => r.classList.toggle('on', r.dataset.job === id));
+  const j = state.data.jobs.find(x => x.id === id);
+  if (!keep || !j.requests.includes(state.n)) state.n = j.requests.find(n => !j.answers.includes(n)) ?? j.requests[0];
+  drawJob(j);
+  for (const n of j.answers) {
+    if (state.checks[id + n]) continue;
+    state.checks[id + n] = await api(`/api/inbox/check?job=${encodeURIComponent(id)}&n=${n}`).catch(e => ({ ok: 0, lines: 0, problems: [e.message] }));
+    if (state.job === id) drawJob(j);
+  }
+}
+
+function status(j, n) {
+  if (!j.answers.includes(n)) return '<span class="wait">waiting for ChatGPT</span>';
+  const c = state.checks[j.id + n];
+  if (!c) return '<span class="wait">checking…</span>';
+  if (!c.problems.length) return `<span class="ok">✓ ${c.ok}/${c.lines} ok</span>`;
+  return `<span class="bad">${c.ok}/${c.lines} ok · ${c.problems.length} problem${c.problems.length > 1 ? 's' : ''}</span>`;
+}
+
+function drawJob(j) {
+  const c = state.checks[j.id + state.n];
+  const answered = j.answers.length;
+  $('#detail').innerHTML = `
+    <h2>${esc(j.title)}</h2>
+    <div class="sub">${j.requests.length} requests · ${answered} answered${j.progress ? ` · ${j.progress[0]}/${j.progress[1]} already in the app` : ''} · guide: ${esc(j.guide)}</div>
+    <div class="tools">
+      <button class="plain" id="openfolder">Open folder</button>
+      <button class="main" id="import" ${answered ? '' : 'disabled'}>Import into the app</button>
+    </div>
+    <div class="paste">
+      <div class="tools">
+        <b>Request</b>
+        <select id="pick">${j.requests.map(n => `<option value="${n}" ${n === state.n ? 'selected' : ''}>${String(n).padStart(2, '0')}${j.answers.includes(n) ? ' ✓' : ''}</option>`).join('')}</select>
+        <button class="plain" id="copy">Copy request ${String(state.n).padStart(2, '0')}</button>
+        <span class="wait">then paste ChatGPT's whole answer below</span>
+      </div>
+      <textarea id="answer" placeholder="Paste the answer for request ${String(state.n).padStart(2, '0')} here (JSON lines; code fences are fine)"></textarea>
+      <div class="tools" style="margin:8px 0 0"><button class="main" id="saveanswer">Save and check</button>
+        ${c ? status(j, state.n) : ''}</div>
+      ${c && c.problems.length ? `<ul class="problems">${c.problems.slice(0, 40).map(p => `<li>${esc(p)}</li>`).join('')}${c.problems.length > 40 ? `<li>… ${c.problems.length - 40} more</li>` : ''}</ul>` : ''}
+    </div>
+    <table><tr><th>#</th><th>Answer</th><th></th></tr>
+      ${j.requests.map(n => `<tr><td>${String(n).padStart(2, '0')}</td><td>${status(j, n)}</td>
+        <td style="text-align:right"><button class="plain" data-copy="${n}">Copy</button> <button class="plain" data-select="${n}">Paste answer</button></td></tr>`).join('')}
+    </table>
+    <pre class="out" id="out" hidden></pre>`;
+  $('#openfolder').onclick = () => api(`/api/inbox/open?job=${encodeURIComponent(j.id)}`, { method: 'POST' }).catch(e => toast(e.message));
+  $('#pick').onchange = e => { state.n = +e.target.value; drawJob(j); };
+  $('#copy').onclick = () => copyRequest(j, state.n);
+  $('#saveanswer').onclick = () => saveAnswer(j);
+  $('#import').onclick = () => importJob(j);
+  $('#detail table').onclick = e => {
+    const c = e.target.closest('[data-copy]'), s = e.target.closest('[data-select]');
+    if (c) copyRequest(j, +c.dataset.copy);
+    if (s) { state.n = +s.dataset.select; drawJob(j); $('#answer').focus(); }
+  };
+}
+
+async function copyRequest(j, n) {
+  const r = await api(`/api/inbox/request?job=${encodeURIComponent(j.id)}&n=${n}`);
+  await navigator.clipboard.writeText(r.text);
+  state.n = n; drawJob(j);
+  toast(`Request ${String(n).padStart(2, '0')} copied: paste it into ChatGPT`);
+}
+
+async function saveAnswer(j) {
+  const text = $('#answer').value;
+  if (!text.trim()) return toast('Paste the answer first');
+  try {
+    const r = await api(`/api/inbox/answer?job=${encodeURIComponent(j.id)}&n=${state.n}`, { method: 'POST', body: text });
+    state.checks[j.id + state.n] = r;
+    toast(r.problems.length ? 'Saved, but there are problems (see red)' : 'Saved: all lines fine');
+    await load();
+  } catch (e) { toast('Not saved: ' + e.message); }
+}
+
+async function importJob(j) {
+  $('#import').disabled = true;
+  try {
+    const r = await api(`/api/inbox/import?job=${encodeURIComponent(j.id)}`, { method: 'POST' });
+    $('#out').hidden = false; $('#out').textContent = r.output || 'Done.';
+    toast('Imported. Check the output, then Publish.');
+    state.checks = {};
+    await load();
+    $('#out') && ($('#out').hidden = false, $('#out').textContent = r.output || 'Done.');
+  } catch (e) { toast(e.message); }
+}
+
+// ---------- Units & pictures
+
+function renderUnits() {
+  const units = state.data.units.filter(u => u.level === state.level);
+  const levels = [...new Set(state.data.units.map(u => u.level))];
+  const covers = state.data.units.filter(u => u.hasCover).length;
+  $('#main').innerHTML = `<section class="detail" style="grid-column: 1 / -1">
+    <h2>Units &amp; pictures</h2>
+    <div class="sub">${covers}/${state.data.units.length} unit pictures. Prompts: icerik\\gorseller\\UNITE_A1_resimler.txt (A2, B1, B2 alike) and KELIME_IZGARALARI_A1.txt.</div>
+    <div class="drop" id="drop">Drop pictures here (several at once) or click to choose.<br>
+      Names decide where they go: <b>unit-a1-03.jpg</b> = unit picture · <b>words-a1-03.jpg</b> = 4×4 word grid (cut into 16 cards).</div>
+    ${state.lastGrid.length ? `<b>Last word grid</b><div class="thumbs">${state.lastGrid.map(p => `<img src="/img/${p}.jpg?v=${state.bust}" title="${p}">`).join('')}</div>` : ''}
+    <div class="chips">${levels.map(l => `<button class="chip ${l === state.level ? 'on' : ''}" data-level="${l}">${l}</button>`).join('')}</div>
+    <div class="units">${units.map(u => `<div class="unit">
+      ${u.hasCover ? `<img src="/img/${u.cover}.jpg?v=${state.bust}" alt="">` : `<div class="ph">${u.cover}.jpg missing</div>`}
+      <div class="b"><div class="t">${u.number}. ${esc(u.titleTr)}</div>
+        <div class="m">${esc(u.title)} · ${u.cover}${u.grid ? ` · word cards ${u.gridDone}/${u.gridTotal} (${u.grid})` : ''}</div></div></div>`).join('')}</div>
+  </section>`;
+  const drop = $('#drop');
+  drop.onclick = () => $('#file').click();
+  drop.ondragover = e => { e.preventDefault(); drop.classList.add('hover'); };
+  drop.ondragleave = () => drop.classList.remove('hover');
+  drop.ondrop = e => { e.preventDefault(); drop.classList.remove('hover'); uploadAll([...e.dataTransfer.files]); };
+  document.querySelector('.chips').onclick = e => { const b = e.target.closest('[data-level]'); if (b) { state.level = b.dataset.level; renderUnits(); } };
+}
+
+async function uploadAll(files) {
+  let done = 0;
+  for (const f of files) {
+    try {
+      const r = await api('/api/picture?name=' + encodeURIComponent(f.name), { method: 'POST', body: f });
+      if (r.pictures.length > 1) state.lastGrid = r.pictures;
+      done++;
+      toast(r.message);
+    } catch (e) { toast(e.message); await new Promise(r => setTimeout(r, 1800)); }
+  }
+  state.bust = Date.now();
+  await load();
+  if (done) toast(`${done} of ${files.length} picture${files.length > 1 ? 's' : ''} saved`);
+}
+
+// ---------- Publish
+
+function renderPublish() {
+  const files = state.data.changes;
+  $('#main').innerHTML = `<section class="detail" style="grid-column: 1 / -1; max-width: 900px">
+    <h2>Publish</h2>
+    <div class="steps"><b>Order</b><ol>
+      <li><b>Publish to the website folder</b>: copies content, translations and pictures to deschly-site (apps download them).</li>
+      <li><b>Save</b>: commits the changed content files in git (only content, translations, unit and word pictures).</li>
+      <li>Upload: <b>Gizlilik-Sitesi-Yukle.cmd</b> (website) and <b>GitHub-iOS-Yukle.cmd</b> (app, needs a build).</li></ol></div>
+    <div class="tools"><button class="main" id="publish">1 · Publish to the website folder</button>
+      <button class="main" id="save" ${files.length ? '' : 'disabled'}>2 · Save (${files.length} file${files.length === 1 ? '' : 's'})</button></div>
+    ${files.length ? `<table><tr><th>Unsaved files</th></tr>${files.slice(0, 200).map(f => `<tr><td>${esc(f)}</td></tr>`).join('')}</table>` : '<div class="wait">Nothing to save.</div>'}
+    <pre class="out" id="out" hidden></pre>
+  </section>`;
+  $('#publish').onclick = async () => {
+    $('#publish').disabled = true;
+    try { const r = await api('/api/publish', { method: 'POST' }); $('#out').hidden = false; $('#out').textContent = r.output; toast('Published to the website folder'); }
+    catch (e) { toast(e.message); }
+    $('#publish').disabled = false;
+  };
+  $('#save').onclick = async () => {
+    const r = await api('/api/save-content', { method: 'POST' });
+    toast(r.message); await load();
+  };
+}
+
+document.querySelector('.nav').onclick = e => { const b = e.target.closest('[data-tab]'); if (b) { state.tab = b.dataset.tab; render(); } };
+$('#file').onchange = e => { const f = [...e.target.files]; e.target.value = ''; if (f.length) uploadAll(f); };
+const start = location.hash.slice(1);
+if (['inbox', 'units', 'publish'].includes(start)) state.tab = start;
+load().catch(e => toast(e.message));
+</script>
+</body>
+</html>

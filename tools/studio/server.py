@@ -1,4 +1,5 @@
-"""Deschly Studio: a local tool to review the daily texts and their cover pictures.
+"""Deschly Studio: a local tool to review the daily texts and their cover pictures, and the ChatGPT inbox
+(requests, answers, checks, imports, unit and word pictures, publishing): see inbox.py.
 
     python -I -X utf8 tools/studio/server.py          (opens http://127.0.0.1:8765)
 
@@ -25,6 +26,8 @@ TOOLS = os.path.dirname(STUDIO)
 REPO = os.path.dirname(TOOLS)
 sys.path.insert(0, TOOLS)
 import covers  # noqa: E402
+sys.path.insert(0, STUDIO)
+import inbox  # noqa: E402
 
 CONTENT = os.path.join(REPO, 'Resources', 'content')
 COVERS = os.path.join(REPO, 'Resources', 'Covers')
@@ -216,11 +219,67 @@ class Handler(BaseHTTPRequestHandler):
         tid = path[len(prefix):]
         return tid if re.fullmatch(r'[a-z][0-9]-\d{3}', tid) else None
 
+    def query(self, url):
+        q = parse_qs(url.query)
+        job = q.get('job', [''])[0]
+        n = int(q.get('n', ['0'])[0] or 0)
+        return job, n
+
+    def inbox_get(self, url):
+        path = url.path
+        job, n = self.query(url)
+        try:
+            if path == '/api/inbox':
+                return self.send(200, {'jobs': inbox.jobs(), 'units': inbox.unit_status(),
+                                       'changes': inbox.content_changes()})
+            if path == '/api/inbox/request':
+                return self.send(200, {'text': inbox.request_text(job, n)})
+            if path == '/api/inbox/check':
+                return self.send(200, inbox.check(job, n))
+        except (ValueError, KeyError) as e:
+            return self.send(400, {'error': str(e) or 'bad request'})
+        return None
+
+    def inbox_post(self, url):
+        path = url.path
+        job, n = self.query(url)
+        try:
+            with lock:
+                if path == '/api/inbox/answer':
+                    return self.send(200, inbox.save_answer(job, n, self.body().decode('utf-8')))
+                if path == '/api/inbox/import':
+                    return self.send(200, {'output': inbox.import_job(job)})
+                if path == '/api/inbox/open':
+                    inbox.open_folder(job)
+                    return self.send(200, {'ok': True})
+                if path == '/api/picture':
+                    name = parse_qs(url.query).get('name', [''])[0]
+                    return self.send(200, inbox.put_picture(name, self.body()))
+                if path == '/api/publish':
+                    return self.send(200, {'output': inbox.publish()})
+                if path == '/api/save-content':
+                    return self.send(200, inbox.save_content())
+        except (ValueError, KeyError) as e:
+            return self.send(400, {'error': str(e) or 'bad request'})
+        return None
+
     def do_GET(self):
         url = urlparse(self.path)
         path = url.path
         if path in ('/', '/index.html'):
             return self.send(200, open(os.path.join(STUDIO, 'index.html'), 'rb').read(), 'text/html; charset=utf-8')
+        if path in ('/inbox', '/inbox.html'):
+            return self.send(200, open(os.path.join(STUDIO, 'inbox.html'), 'rb').read(), 'text/html; charset=utf-8')
+        if path.startswith('/api/inbox'):
+            if self.inbox_get(url) is None:
+                self.send(404, {'error': 'not found'})
+            return
+        if path.startswith('/img/') and path.endswith('.jpg'):
+            name = path[5:-4]
+            file = os.path.join(COVERS, f'{name}.jpg')
+            if re.fullmatch(r'[a-z0-9-]+', name) and os.path.exists(file):
+                return self.send(200, open(file, 'rb').read(), 'image/jpeg')
+            return self.send(404, {'error': 'no picture'})
         if path == '/api/summary':
             return self.send(200, {'levels': summary(), 'changes': len(changes())})
         if path.startswith('/api/texts/'):
@@ -245,6 +304,10 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         url = urlparse(self.path)
         path = url.path
+        if path.startswith(('/api/inbox', '/api/picture', '/api/publish', '/api/save-content')):
+            if self.inbox_post(url) is None:
+                self.send(404, {'error': 'not found'})
+            return
         if path.startswith('/api/cover/'):
             tid = self.text_id(path, '/api/cover/')
             if not tid or not text_detail(tid):
@@ -285,8 +348,9 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def main():
-    server = ThreadingHTTPServer(('127.0.0.1', PORT), Handler)
-    url = f'http://127.0.0.1:{PORT}/'
+    port = int(sys.argv[sys.argv.index('--port') + 1]) if '--port' in sys.argv else PORT
+    server = ThreadingHTTPServer(('127.0.0.1', port), Handler)
+    url = f'http://127.0.0.1:{port}/'
     print(f'Deschly Studio: {url}  (close this window to stop)')
     if '--no-browser' not in sys.argv:
         threading.Timer(0.5, lambda: webbrowser.open(url)).start()

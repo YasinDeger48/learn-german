@@ -147,6 +147,35 @@ def valid(e):
     return problems
 
 
+def check_file(level, path):
+    """Dry run of import for one answer file: how many lines are usable, and why the others are not."""
+    level = level.lower()
+    known = {w['de'].lower() for w in verbs_by_level()[level]}
+    entries, problems = [], []
+    for n, line in enumerate(open(path, encoding='utf-8-sig'), 1):
+        line = line.strip().rstrip(',')
+        if not line.startswith('{'):
+            continue
+        try:
+            entries.append((n, json.loads(line)))
+        except json.JSONDecodeError:
+            problems.append(f'line {n}: not JSON')
+    frames = template_frames([e for _, e in entries])
+    if frames:
+        return {'lines': len(entries), 'ok': 0,
+                'problems': ['WHOLE FILE REJECTED: template sentences (' + ' | '.join(frames[:4]) + ')'] + problems}
+    ok = 0
+    for n, e in entries:
+        why = valid(e)
+        if str(e.get('v', '')).lower() not in known:
+            why.append(f'"{e.get("v")}" is not a {level.upper()} verb')
+        if why:
+            problems.append(f'line {n} ({e.get("v", "?")}): ' + '; '.join(why))
+        else:
+            ok += 1
+    return {'lines': len(entries), 'ok': ok, 'problems': problems}
+
+
 def import_answers(level):
     level = level.lower()
     known = {w['de'].lower(): w for w in verbs_by_level()[level]}
