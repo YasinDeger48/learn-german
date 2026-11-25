@@ -40,14 +40,24 @@ struct Badge: Identifiable, Hashable {
 final class BadgeStore: ObservableObject {
     static let shared = BadgeStore()
 
-    static let all: [Badge] =
-        [Badge(kind: .welcome, target: 1)] +
-        [3, 7, 14, 30, 60, 100, 365].map { Badge(kind: .streak, target: $0) } +
-        [100, 500, 1000, 2500, 5000, 10000].map { Badge(kind: .xp, target: $0) } +
-        [50, 250, 1000, 2500].map { Badge(kind: .correct, target: $0) } +
-        [1, 10, 50].map { Badge(kind: .perfect, target: $0) } +
-        [1, 10, 30, 100].map { Badge(kind: .reading, target: $0) } +
-        [1, 7, 30].map { Badge(kind: .goal, target: $0) }
+    /// Targets per kind, in the order shown. (Built in a loop: one long `+` chain is too slow for the type checker.)
+    private static let targets: [(Badge.Kind, [Int])] = [
+        (.welcome, [1]),
+        (.streak, [3, 7, 14, 30, 60, 100, 365]),
+        (.xp, [100, 500, 1000, 2500, 5000, 10000]),
+        (.correct, [50, 250, 1000, 2500]),
+        (.perfect, [1, 10, 50]),
+        (.reading, [1, 10, 30, 100]),
+        (.goal, [1, 7, 30]),
+    ]
+
+    static let all: [Badge] = {
+        var badges: [Badge] = []
+        for (kind, values) in targets {
+            for target in values { badges.append(Badge(kind: kind, target: target)) }
+        }
+        return badges
+    }()
 
     /// Streak days that get a full-screen celebration.
     static let milestones: Set<Int> = [7, 14, 30, 60, 100, 365]

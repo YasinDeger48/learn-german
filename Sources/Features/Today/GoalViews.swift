@@ -108,7 +108,7 @@ struct GoalIsland: View {
 
     var body: some View {
         GeometryReader { geo in
-            let top = min(max(savedY * geo.size.height + (open ? 0 : drag.height), 8), max(8, geo.size.height - (open ? 190 : 60)))
+            let top = islandTop(height: geo.size.height)
             ZStack(alignment: onLeft ? .topLeading : .topTrailing) {
                 if open {
                     // Tap anywhere else to close.
@@ -116,15 +116,17 @@ struct GoalIsland: View {
                         .onTapGesture { withAnimation(spring) { open = false } }
                 }
                 island
-                    .offset(x: open ? (onLeft ? 12 : -12) : (onLeft ? -14 : 14) + drag.width, y: top)
+                    .offset(x: islandX, y: top)
                     .onTapGesture { withAnimation(spring) { open.toggle() } }
                     .gesture(DragGesture(minimumDistance: 8)
                         .onChanged { value in if !open { drag = value.translation } }
                         .onEnded { value in
                             guard !open else { return }
-                            let height = max(1, geo.size.height)
-                            let newY = (savedY * height + value.translation.height) / height
-                            let crossed = onLeft ? value.translation.width > geo.size.width / 2 : value.translation.width < -geo.size.width / 2
+                            let height: Double = max(1, Double(geo.size.height))
+                            let newY: Double = (savedY * height + Double(value.translation.height)) / height
+                            let half: CGFloat = geo.size.width / 2
+                            let moved: CGFloat = value.translation.width
+                            let crossed: Bool = onLeft ? moved > half : moved < -half
                             withAnimation(spring) {
                                 savedY = min(max(newY, 0.02), 0.92)
                                 if crossed { onLeft.toggle() }
@@ -143,6 +145,20 @@ struct GoalIsland: View {
             withAnimation(spring) { open = true }
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) { withAnimation(spring) { open = false } }
         }
+    }
+
+    /// Top of the island in the available height, kept on screen.
+    private func islandTop(height: CGFloat) -> CGFloat {
+        let wanted: CGFloat = CGFloat(savedY) * height + (open ? 0 : drag.height)
+        let lowest: CGFloat = max(8, height - (open ? 190 : 60))
+        return min(max(wanted, 8), lowest)
+    }
+
+    /// Closed: reaching 14 pt into the edge (and following a drag). Open: 12 pt inside the screen.
+    private var islandX: CGFloat {
+        if open { return onLeft ? 12 : -12 }
+        let tucked: CGFloat = onLeft ? -14 : 14
+        return tucked + drag.width
     }
 
     private var island: some View {
