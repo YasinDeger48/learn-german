@@ -24,6 +24,8 @@ final class SpeechListener: ObservableObject {
     private var silence: DispatchWorkItem?
     private var limit: DispatchWorkItem?
     private var onFinish: ((String) -> Void)?
+    /// When the microphone level was last published (audio thread only).
+    private var lastLevelUpdate: TimeInterval = 0
     /// Bumped by every start, so a late stop / callback of an earlier listening is ignored.
     private var generation = 0
 
@@ -189,6 +191,9 @@ final class SpeechListener: ObservableObject {
         for i in stride(from: 0, to: n, by: 4) { sum += data[i] * data[i] }
         let rms = sqrt(sum / Float(max(1, n / 4)))
         let level = CGFloat(min(1, max(0, (20 * log10(max(rms, 0.000_01)) + 50) / 40)))
+        let now = Date().timeIntervalSince1970
+        guard now - lastLevelUpdate >= 0.066 else { return }
+        lastLevelUpdate = now
         DispatchQueue.main.async { self.loudness = self.loudness * 0.6 + level * 0.4 }
     }
 }

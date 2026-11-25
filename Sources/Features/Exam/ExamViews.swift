@@ -469,7 +469,10 @@ struct CertificateDetailView: View {
             // ImageRenderer works on the main thread: wait for the push animation to finish first.
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) { if pdf == nil { pdf = makePDF() } }
         }
-        .onChange(of: name) { _ in pdf = makePDF() }
+        .onChange(of: name) { typed in
+            // Draw again only when typing pauses (ImageRenderer on every key made typing lag).
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { if name == typed { pdf = makePDF() } }
+        }
     }
 
     /// Draws the card into a one-page PDF in the temporary folder.

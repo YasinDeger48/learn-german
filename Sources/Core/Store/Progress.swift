@@ -137,12 +137,17 @@ final class A1Model: ObservableObject {
 
     func seenCount(_ mode: A1Mode) -> Int { seenByMode[mode] ?? 0 }
 
-    static func dayString(_ date: Date) -> String {
+    static func dayString(_ date: Date) -> String { dayFormatter.string(from: date) }
+
+    /// Made once (a new DateFormatter per call was the cost of the streak count). Formatting is thread-safe.
+    private static let dayFormatter: DateFormatter = {
         let f = DateFormatter()
         f.calendar = Calendar(identifier: .gregorian)
+        f.locale = Locale(identifier: "en_US_POSIX")
+        f.timeZone = TimeZone.autoupdatingCurrent
         f.dateFormat = "yyyy-MM-dd"
-        return f.string(from: date)
-    }
+        return f
+    }()
 
     var todayCount: Int { state.lastDay == A1Model.dayString(Date()) ? state.today : 0 }
 

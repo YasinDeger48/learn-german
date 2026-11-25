@@ -167,12 +167,34 @@ struct LinaAvatar: View {
 
 /// Cover illustration of a daily text (Resources/Covers/<id>.jpg). Nothing is shown when a text has no cover yet.
 enum Covers {
+    /// Decoded pictures, kept while memory allows (the system empties it when memory is low).
+    private static let cache: NSCache<NSString, UIImage> = {
+        let cache = NSCache<NSString, UIImage>()
+        cache.countLimit = 60
+        cache.totalCostLimit = 120 * 1024 * 1024
+        return cache
+    }()
+    /// Ids without a picture, so the files are not looked for again on every render.
+    private static var missing = Set<String>()
+    private static let lock = NSLock()
+
     static func image(_ id: String) -> UIImage? {
-        if let url = ContentStore.cached("covers/\(id).jpg"), let image = UIImage(contentsOfFile: url.path) {
-            return image
+        lock.lock()
+        let known = cache.object(forKey: id as NSString)
+        let none = missing.contains(id)
+        lock.unlock()
+        if let known { return known }
+        if none { return nil }
+        let path = ContentStore.cached("covers/\(id).jpg")?.path ?? Bundle.main.path(forResource: id, ofType: "jpg")
+        guard let path, let file = UIImage(contentsOfFile: path) else {
+            lock.lock(); missing.insert(id); lock.unlock()
+            return nil
         }
-        guard let path = Bundle.main.path(forResource: id, ofType: "jpg") else { return nil }
-        return UIImage(contentsOfFile: path)
+        // Decode now, once, instead of at every draw.
+        let image = file.preparingForDisplay() ?? file
+        let cost = Int(image.size.width * image.size.height * image.scale * image.scale * 4)
+        lock.lock(); cache.setObject(image, forKey: id as NSString, cost: cost); lock.unlock()
+        return image
     }
 }
 

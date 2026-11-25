@@ -15,13 +15,24 @@ enum ReviewStore {
 
     private static func key(_ level: String) -> String { "\(level.lowercased())Reviews" }
 
+    /// Read from UserDefaults once per level, then kept in memory; every change goes through save().
+    private static var memory: [String: [String: ReviewItem]] = [:]
+    private static let lock = NSLock()
+
     static func load(_ level: String) -> [String: ReviewItem] {
-        guard let data = UserDefaults.standard.data(forKey: key(level)),
-              let items = try? JSONDecoder().decode([String: ReviewItem].self, from: data) else { return [:] }
+        lock.lock()
+        defer { lock.unlock() }
+        if let items = memory[level] { return items }
+        let items = UserDefaults.standard.data(forKey: key(level))
+            .flatMap { try? JSONDecoder().decode([String: ReviewItem].self, from: $0) } ?? [:]
+        memory[level] = items
         return items
     }
 
     static func save(_ items: [String: ReviewItem], _ level: String) {
+        lock.lock()
+        memory[level] = items
+        lock.unlock()
         if let data = try? JSONEncoder().encode(items) { UserDefaults.standard.set(data, forKey: key(level)) }
     }
 
