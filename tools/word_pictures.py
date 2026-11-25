@@ -7,8 +7,8 @@
 
 Pictures are saved as Resources/Covers/wp-<level>-<word id>.jpg (square, 360 px), so Covers.image() finds them
 in the app and tools/publish_content.py can publish them like the covers.
-The grid is cut into equal cells; each cell is trimmed to the sticker (pixels that differ from the background)
-and centred on the background colour.
+The stickers are found by the empty background between them (rows first, then four per row); each one is
+trimmed to what differs from the background and centred on the background colour with a wide margin.
 """
 import glob
 import json
@@ -86,25 +86,71 @@ def prompts():
     print('->', out)
 
 
+def runs(profile, minimum=3):
+    """(start, end) of the stretches where the profile has content."""
+    out, start = [], None
+    for i, v in enumerate(list(profile) + [0]):
+        if v >= minimum and start is None:
+            start = i
+        elif v < minimum and start is not None:
+            out.append((start, i))
+            start = None
+    return out
+
+
+def four(parts, length):
+    """Merges stretches until there are four (closest neighbours first); None when there are fewer."""
+    parts = [p for p in parts if p[1] - p[0] > length * 0.01]  # specks
+    if len(parts) < 4:
+        return None
+    while len(parts) > 4:
+        gaps = [parts[i + 1][0] - parts[i][1] for i in range(len(parts) - 1)]
+        i = gaps.index(min(gaps))
+        parts[i:i + 2] = [(parts[i][0], parts[i + 1][1])]
+    return parts
+
+
 def cut(unit_id, path):
+    """Finds the 16 stickers by the empty background between them (ChatGPT's grids are not exactly even),
+    so no sticker is cut off and no piece of a neighbour comes along; falls back to equal cells."""
     from PIL import Image, ImageChops
     ids = PICTURE_WORDS[unit_id]
     img = Image.open(path).convert('RGB')
     w, h = img.size
     background = img.getpixel((3, 3))
+    mask = ImageChops.difference(img, Image.new('RGB', img.size, background)).convert('L').point(lambda v: 255 if v > 24 else 0)
+    pixels = mask.load()
+
+    def profile(box, axis):
+        x0, y0, x1, y1 = box
+        if axis == 'y':
+            return [sum(1 for x in range(x0, x1, 2) if pixels[x, y]) for y in range(y0, y1)]
+        return [sum(1 for y in range(y0, y1, 2) if pixels[x, y]) for x in range(x0, x1)]
+
+    cells = []
+    rows = four(runs(profile((0, 0, w, h), 'y')), h)
+    if rows:
+        for y0, y1 in rows:
+            cols = four(runs(profile((0, y0, w, y1), 'x')), w)
+            if not cols:
+                cells = []
+                break
+            cells += [(x0, y0, x1, y1) for x0, x1 in cols]
+    if len(cells) != 16:
+        print(f'  {unit_id}: no clear gaps, cutting equal cells')
+        cells = [(c * w // 4, r * h // 4, (c + 1) * w // 4, (r + 1) * h // 4) for r in range(4) for c in range(4)]
+
     os.makedirs(COVERS, exist_ok=True)
     saved = 0
     for i, wid in enumerate(ids):
-        row, col = divmod(i, 4)
-        cell = img.crop((col * w // 4, row * h // 4, (col + 1) * w // 4, (row + 1) * h // 4))
-        # Trim to what differs from the background, then centre on a square with a small margin.
-        diff = ImageChops.difference(cell, Image.new('RGB', cell.size, background)).convert('L').point(lambda v: 255 if v > 24 else 0)
-        box = diff.getbbox()
+        box = mask.crop(cells[i]).getbbox()
         if not box:
             print(f'  {unit_id} #{i + 1}: empty cell')
             continue
-        sticker = cell.crop(box)
-        side = int(max(sticker.size) * 1.12)
+        x0, y0 = cells[i][:2]
+        sticker = img.crop((x0 + box[0], y0 + box[1], x0 + box[2], y0 + box[3]))
+        # Centre on a square with a generous margin, so the picture fits the rounded card.
+        side = int(max(sticker.size) * 1.3)
         square = Image.new('RGB', (side, side), background)
         square.paste(sticker, ((side - sticker.width) // 2, (side - sticker.height) // 2))
         square.resize((SIZE, SIZE), Image.LANCZOS).save(os.path.join(COVERS, f'wp-a1-{wid}.jpg'), quality=85)
