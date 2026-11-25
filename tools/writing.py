@@ -26,8 +26,11 @@ def point(tr, en, say, *keys):
 
 
 def message(id, title, prompt, help, points, sample, min_words=25):
+    # Formal (Sie) when writing to a teacher, a caretaker, a hotel …; informal (du) to friends and family.
+    formal = any(w in prompt for w in ('Frau', 'Herr', 'Hotel', 'Hausmeister'))
     return {'id': id, 'level': 'A1', 'kind': 'message', 'title': {'tr': title[0], 'en': title[1]}, 'prompt': prompt,
-            'help': {'tr': help[0], 'en': help[1]}, 'points': points, 'minWords': min_words, 'sample': sample}
+            'help': {'tr': help[0], 'en': help[1]}, 'points': points, 'minWords': min_words, 'sample': sample,
+            'formal': formal}
 
 
 TASKS = [
@@ -126,11 +129,38 @@ GREETING = ['liebe', 'lieber', 'hallo', 'hi', 'sehr geehrte', 'sehr geehrter', '
 CLOSING = ['grüße', 'gruß', 'bis bald', 'tschüss', 'bis dann', 'bis morgen']
 
 
+def block(tr, en, *phrases):
+    return {'title': {'tr': tr, 'en': en}, 'phrases': list(phrases)}
+
+
+# The e-mail pattern: the order of a short message and ready phrases for each step (… = fill in).
+PATTERN = {
+    'informal': [
+        block('1 · Hitap', '1 · Greeting', 'Liebe …,', 'Lieber …,', 'Hallo …,'),
+        block('2 · Giriş', '2 · Opening', 'wie geht es dir?', 'danke für deine Nachricht.', 'ich schreibe dir, weil …'),
+        block('3 · Konu', '3 · The reason', 'Leider kann ich am … nicht kommen.', 'Ich bin krank.', 'Am Samstag habe ich Geburtstag.', 'Ich mache eine Party.'),
+        block('4 · Rica / soru', '4 · Request / question', 'Kannst du …?', 'Hast du am … Zeit?', 'Kannst du bitte … mitbringen?', 'Möchtest du mitkommen?'),
+        block('5 · Zaman ve yer', '5 · Time and place', 'am Samstag um … Uhr', 'bei mir zu Hause', 'Wir treffen uns vor dem …'),
+        block('6 · Kapanış', '6 · Closing', 'Ich freue mich auf dich!', 'Schreib mir bitte.', 'Bis bald!'),
+        block('7 · Selam', '7 · Sign-off', 'Viele Grüße', 'Liebe Grüße', 'Bis dann'),
+    ],
+    'formal': [
+        block('1 · Hitap', '1 · Greeting', 'Sehr geehrte Frau …,', 'Sehr geehrter Herr …,', 'Sehr geehrte Damen und Herren,'),
+        block('2 · Giriş', '2 · Opening', 'ich schreibe Ihnen, weil …', 'vielen Dank für Ihre E-Mail.'),
+        block('3 · Konu', '3 · The reason', 'Leider kann ich morgen nicht kommen.', 'Ich habe ein Problem mit …', 'Ich möchte vom … bis … in Hamburg bleiben.'),
+        block('4 · Rica / soru', '4 · Request / question', 'Können Sie bitte …?', 'Haben Sie noch ein Zimmer frei?', 'Was kostet …?', 'Ich möchte gern wissen, …'),
+        block('5 · Zaman ve yer', '5 · Time and place', 'am … um … Uhr', 'Ich bin ab … Uhr zu Hause.', 'seit Montag'),
+        block('6 · Kapanış', '6 · Closing', 'Vielen Dank im Voraus.', 'Ich freue mich auf Ihre Antwort.'),
+        block('7 · Selam', '7 · Sign-off', 'Mit freundlichen Grüßen', 'Viele Grüße'),
+    ],
+}
+
+
 def main():
     ids = [t['id'] for t in TASKS]
     assert len(ids) == len(set(ids))
     with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
-        json.dump({'greeting': GREETING, 'closing': CLOSING, 'tasks': TASKS}, f, ensure_ascii=False, indent=1)
+        json.dump({'greeting': GREETING, 'closing': CLOSING, 'pattern': PATTERN, 'tasks': TASKS}, f, ensure_ascii=False, indent=1)
         f.write('\n')
     print(f'{len(TASKS)} writing tasks -> {OUT}')
 

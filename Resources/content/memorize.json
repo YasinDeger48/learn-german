@@ -1261,6 +1261,93 @@
    ]
   },
   {
+   "id": "email",
+   "level": "A1",
+   "icon": "envelope.fill",
+   "kind": "rules",
+   "title": {
+    "tr": "E-posta kalıbı",
+    "en": "E-mail pattern"
+   },
+   "intro": {
+    "tr": "Kısa mesaj hep aynı sırayla yazılır. Arkadaşa du, öğretmene / otele Sie.",
+    "en": "A short message always has the same order. du to friends, Sie to a teacher or a hotel."
+   },
+   "ask": "{q}",
+   "rows": [
+    {
+     "q": {
+      "tr": "1. Hitap (samimi)",
+      "en": "1. Greeting (informal)"
+     },
+     "a": "Liebe Sara, / Lieber Tom, / Hallo Murat,"
+    },
+    {
+     "q": {
+      "tr": "1. Hitap (resmî)",
+      "en": "1. Greeting (formal)"
+     },
+     "a": "Sehr geehrte Frau Weber, / Sehr geehrter Herr Braun,"
+    },
+    {
+     "q": {
+      "tr": "2. Giriş",
+      "en": "2. Opening"
+     },
+     "a": "wie geht es dir? / ich schreibe Ihnen, weil …"
+    },
+    {
+     "q": {
+      "tr": "3. Konu",
+      "en": "3. The reason"
+     },
+     "a": "Leider kann ich morgen nicht kommen."
+    },
+    {
+     "q": {
+      "tr": "4. Rica / soru",
+      "en": "4. Request / question"
+     },
+     "a": "Kannst du …? / Können Sie bitte …?"
+    },
+    {
+     "q": {
+      "tr": "5. Zaman ve yer",
+      "en": "5. Time and place"
+     },
+     "a": "am Samstag um 19 Uhr bei mir zu Hause"
+    },
+    {
+     "q": {
+      "tr": "6. Kapanış",
+      "en": "6. Closing"
+     },
+     "a": "Ich freue mich auf dich! / Ich freue mich auf Ihre Antwort."
+    },
+    {
+     "q": {
+      "tr": "7. Selam (samimi)",
+      "en": "7. Sign-off (informal)"
+     },
+     "a": "Viele Grüße / Liebe Grüße, Elif"
+    },
+    {
+     "q": {
+      "tr": "7. Selam (resmî)",
+      "en": "7. Sign-off (formal)"
+     },
+     "a": "Mit freundlichen Grüßen, Elif Yılmaz"
+    },
+    {
+     "q": {
+      "tr": "Dikkat",
+      "en": "Watch out"
+     },
+     "a": "Hitaptan sonra virgül, ilk kelime küçük harfle: \"Liebe Sara, wie geht es dir?\""
+    }
+   ]
+  },
+  {
    "id": "wordorder",
    "level": "A1",
    "icon": "list.number",

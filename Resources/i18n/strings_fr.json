@@ -624,5 +624,10 @@
  "mem.sub": "Tables to learn by heart, with a test",
  "mem.intro": "The things every learner must know by heart. Read the table, listen, then test yourself.",
  "mem.rows": "{0} items",
- "mem.drill": "Learn it · {0} questions"
+ "mem.drill": "Learn it · {0} questions",
+ "write.showPattern": "E-mail pattern",
+ "write.hidePattern": "Hide pattern",
+ "write.informal": "Friend (du)",
+ "write.formal": "Formal (Sie)",
+ "write.patternHint": "Tap a phrase to add it. Replace … with your own words."
 }

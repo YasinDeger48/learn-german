@@ -20,11 +20,25 @@ struct WritingTask: Decodable, Identifiable, Hashable {
     let points: [SpeakingPoint]?
     let minWords: Int?
     let sample: String?
+    /// Sie (true) or du (false) for the e-mail pattern.
+    let formal: Bool?
+}
+
+/// One step of the e-mail pattern with ready phrases.
+struct WritingBlock: Decodable, Hashable {
+    let title: LocText
+    let phrases: [String]
+}
+
+struct WritingPattern: Decodable {
+    let informal: [WritingBlock]
+    let formal: [WritingBlock]
 }
 
 private struct WritingFile: Decodable {
     let greeting: [String]
     let closing: [String]
+    let pattern: WritingPattern?
     let tasks: [WritingTask]
 }
 
@@ -35,6 +49,7 @@ enum WritingBank {
     static func task(_ id: String) -> WritingTask? { file?.tasks.first { $0.id == id } }
     static var greeting: [String] { file?.greeting ?? [] }
     static var closing: [String] { file?.closing ?? [] }
+    static func pattern(formal: Bool) -> [WritingBlock] { (formal ? file?.pattern?.formal : file?.pattern?.informal) ?? [] }
 
     /// Best result in percent.
     static func best(_ id: String) -> Int? { UserDefaults.standard.object(forKey: "write.best.\(id)") as? Int }
@@ -194,9 +209,12 @@ struct WritingMessageView: View {
     let task: WritingTask
     @State private var text = ""
     @State private var checked = false
+    @State private var showPattern = false
+    @State private var formal: Bool?
     @FocusState private var focused: Bool
 
     private var points: [SpeakingPoint] { task.points ?? [] }
+    private var isFormal: Bool { formal ?? task.formal ?? false }
     private var words: Int { SpeechScore.split(text).count }
 
     /// The three points plus greeting and closing.
@@ -248,7 +266,17 @@ struct WritingMessageView: View {
                             .padding(.horizontal, 15).padding(.vertical, 18).allowsHitTesting(false)
                     }
                 }
-                Text(t("write.words", words)).font(.caption.monospacedDigit()).foregroundColor(DS.muted)
+                HStack {
+                    Text(t("write.words", words)).font(.caption.monospacedDigit()).foregroundColor(DS.muted)
+                    Spacer()
+                    if !checked {
+                        Button { withAnimation { showPattern.toggle() } } label: {
+                            Label(showPattern ? t("write.hidePattern") : t("write.showPattern"), systemImage: "list.bullet.rectangle")
+                                .font(DS.text(13, .semibold))
+                        }
+                    }
+                }
+                if showPattern && !checked { patternPanel }
 
                 if checked, let sample = task.sample {
                     VStack(alignment: .leading, spacing: 8) {
@@ -286,6 +314,55 @@ struct WritingMessageView: View {
                 Button(t("common.done")) { focused = false }
             }
         }
+    }
+
+    /// The seven steps of a short message; a tap adds the phrase to the text (… marks what to fill in).
+    private var patternPanel: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Picker("", selection: Binding(get: { isFormal }, set: { formal = $0 })) {
+                Text(t("write.informal")).tag(false)
+                Text(t("write.formal")).tag(true)
+            }
+            .pickerStyle(.segmented)
+            ForEach(Array(WritingBank.pattern(formal: isFormal).enumerated()), id: \.offset) { _, block in
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(block.title.text).font(.caption.weight(.bold)).foregroundColor(DS.muted)
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 8) {
+                            ForEach(block.phrases, id: \.self) { phrase in
+                                Button { insert(phrase) } label: {
+                                    Text(phrase)
+                                        .font(DS.text(14))
+                                        .foregroundColor(DS.ink)
+                                        .padding(.horizontal, 12)
+                                        .frame(minHeight: 36)
+                                        .background(DS.surface, in: Capsule())
+                                        .overlay(Capsule().stroke(DS.hairline, lineWidth: 1))
+                                }
+                                .buttonStyle(.plain)
+                            }
+                        }
+                    }
+                }
+            }
+            Text(t("write.patternHint")).font(.caption).foregroundColor(DS.muted)
+        }
+        .padding(14)
+        .background(DS.gold.opacity(0.12), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+    }
+
+    /// Greetings start the text, sign-offs go on a new line, everything else follows with a space.
+    private func insert(_ phrase: String) {
+        let trimmed = text.trimmingCharacters(in: .whitespacesAndNewlines)
+        let signOff = ["Grüße", "Bis dann"].contains { phrase.contains($0) }
+        if trimmed.isEmpty {
+            text = phrase
+        } else if signOff || trimmed.hasSuffix(",") && phrase.first?.isUppercase == true {
+            text = trimmed + "\n" + phrase
+        } else {
+            text = trimmed + " " + phrase
+        }
+        if signOff { text += ",\n" }
     }
 
     private func check() {

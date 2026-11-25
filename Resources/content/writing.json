@@ -16,6 +16,166 @@
   "bis dann",
   "bis morgen"
  ],
+ "pattern": {
+  "informal": [
+   {
+    "title": {
+     "tr": "1 · Hitap",
+     "en": "1 · Greeting"
+    },
+    "phrases": [
+     "Liebe …,",
+     "Lieber …,",
+     "Hallo …,"
+    ]
+   },
+   {
+    "title": {
+     "tr": "2 · Giriş",
+     "en": "2 · Opening"
+    },
+    "phrases": [
+     "wie geht es dir?",
+     "danke für deine Nachricht.",
+     "ich schreibe dir, weil …"
+    ]
+   },
+   {
+    "title": {
+     "tr": "3 · Konu",
+     "en": "3 · The reason"
+    },
+    "phrases": [
+     "Leider kann ich am … nicht kommen.",
+     "Ich bin krank.",
+     "Am Samstag habe ich Geburtstag.",
+     "Ich mache eine Party."
+    ]
+   },
+   {
+    "title": {
+     "tr": "4 · Rica / soru",
+     "en": "4 · Request / question"
+    },
+    "phrases": [
+     "Kannst du …?",
+     "Hast du am … Zeit?",
+     "Kannst du bitte … mitbringen?",
+     "Möchtest du mitkommen?"
+    ]
+   },
+   {
+    "title": {
+     "tr": "5 · Zaman ve yer",
+     "en": "5 · Time and place"
+    },
+    "phrases": [
+     "am Samstag um … Uhr",
+     "bei mir zu Hause",
+     "Wir treffen uns vor dem …"
+    ]
+   },
+   {
+    "title": {
+     "tr": "6 · Kapanış",
+     "en": "6 · Closing"
+    },
+    "phrases": [
+     "Ich freue mich auf dich!",
+     "Schreib mir bitte.",
+     "Bis bald!"
+    ]
+   },
+   {
+    "title": {
+     "tr": "7 · Selam",
+     "en": "7 · Sign-off"
+    },
+    "phrases": [
+     "Viele Grüße",
+     "Liebe Grüße",
+     "Bis dann"
+    ]
+   }
+  ],
+  "formal": [
+   {
+    "title": {
+     "tr": "1 · Hitap",
+     "en": "1 · Greeting"
+    },
+    "phrases": [
+     "Sehr geehrte Frau …,",
+     "Sehr geehrter Herr …,",
+     "Sehr geehrte Damen und Herren,"
+    ]
+   },
+   {
+    "title": {
+     "tr": "2 · Giriş",
+     "en": "2 · Opening"
+    },
+    "phrases": [
+     "ich schreibe Ihnen, weil …",
+     "vielen Dank für Ihre E-Mail."
+    ]
+   },
+   {
+    "title": {
+     "tr": "3 · Konu",
+     "en": "3 · The reason"
+    },
+    "phrases": [
+     "Leider kann ich morgen nicht kommen.",
+     "Ich habe ein Problem mit …",
+     "Ich möchte vom … bis … in Hamburg bleiben."
+    ]
+   },
+   {
+    "title": {
+     "tr": "4 · Rica / soru",
+     "en": "4 · Request / question"
+    },
+    "phrases": [
+     "Können Sie bitte …?",
+     "Haben Sie noch ein Zimmer frei?",
+     "Was kostet …?",
+     "Ich möchte gern wissen, …"
+    ]
+   },
+   {
+    "title": {
+     "tr": "5 · Zaman ve yer",
+     "en": "5 · Time and place"
+    },
+    "phrases": [
+     "am … um … Uhr",
+     "Ich bin ab … Uhr zu Hause.",
+     "seit Montag"
+    ]
+   },
+   {
+    "title": {
+     "tr": "6 · Kapanış",
+     "en": "6 · Closing"
+    },
+    "phrases": [
+     "Vielen Dank im Voraus.",
+     "Ich freue mich auf Ihre Antwort."
+    ]
+   },
+   {
+    "title": {
+     "tr": "7 · Selam",
+     "en": "7 · Sign-off"
+    },
+    "phrases": [
+     "Mit freundlichen Grüßen",
+     "Viele Grüße"
+    ]
+   }
+  ]
+ },
  "tasks": [
   {
    "id": "a1-f1",
@@ -303,7 +463,8 @@
     }
    ],
    "minWords": 25,
-   "sample": "Liebe Frau Weber, leider kann ich morgen nicht zum Kurs kommen. Ich bin krank und muss zum Arzt. Was sind die Hausaufgaben? Am Donnerstag komme ich wieder. Viele Grüße, Elif"
+   "sample": "Liebe Frau Weber, leider kann ich morgen nicht zum Kurs kommen. Ich bin krank und muss zum Arzt. Was sind die Hausaufgaben? Am Donnerstag komme ich wieder. Viele Grüße, Elif",
+   "formal": true
   },
   {
    "id": "a1-m2",
@@ -363,7 +524,8 @@
     }
    ],
    "minWords": 25,
-   "sample": "Hallo Tom, am Samstag habe ich Geburtstag und mache eine Party. Sie beginnt um 19 Uhr bei mir zu Hause. Kannst du bitte einen Salat mitbringen? Ich freue mich auf dich! Viele Grüße, Murat"
+   "sample": "Hallo Tom, am Samstag habe ich Geburtstag und mache eine Party. Sie beginnt um 19 Uhr bei mir zu Hause. Kannst du bitte einen Salat mitbringen? Ich freue mich auf dich! Viele Grüße, Murat",
+   "formal": false
   },
   {
    "id": "a1-m3",
@@ -419,7 +581,8 @@
     }
    ],
    "minWords": 25,
-   "sample": "Sehr geehrter Herr Braun, in meiner Wohnung ist die Heizung kaputt. Das Problem gibt es seit Montag und es ist sehr kalt. Ich bin jeden Tag ab 16 Uhr zu Hause. Können Sie bitte kommen? Mit freundlichen Grüßen, Anna Kaya"
+   "sample": "Sehr geehrter Herr Braun, in meiner Wohnung ist die Heizung kaputt. Das Problem gibt es seit Montag und es ist sehr kalt. Ich bin jeden Tag ab 16 Uhr zu Hause. Können Sie bitte kommen? Mit freundlichen Grüßen, Anna Kaya",
+   "formal": true
   },
   {
    "id": "a1-m4",
@@ -475,7 +638,8 @@
     }
    ],
    "minWords": 25,
-   "sample": "Hallo Sara, hast du am Sonntag Zeit? Ich möchte den neuen Film im Kino sehen. Er beginnt um 18 Uhr. Wir treffen uns um Viertel vor sechs vor dem Kino. Schreib mir bitte! Liebe Grüße, Ece"
+   "sample": "Hallo Sara, hast du am Sonntag Zeit? Ich möchte den neuen Film im Kino sehen. Er beginnt um 18 Uhr. Wir treffen uns um Viertel vor sechs vor dem Kino. Schreib mir bitte! Liebe Grüße, Ece",
+   "formal": false
   },
   {
    "id": "a1-m5",
@@ -532,7 +696,8 @@
     }
    ],
    "minWords": 25,
-   "sample": "Liebe Tante Ayşe, vielen Dank für das Geschenk! Der Schal ist sehr schön und warm, er gefällt mir sehr. Möchtest du am Sonntag zum Essen kommen? Ich koche für dich. Viele Grüße, deine Selin"
+   "sample": "Liebe Tante Ayşe, vielen Dank für das Geschenk! Der Schal ist sehr schön und warm, er gefällt mir sehr. Möchtest du am Sonntag zum Essen kommen? Ich koche für dich. Viele Grüße, deine Selin",
+   "formal": false
   },
   {
    "id": "a1-m6",
@@ -583,7 +748,8 @@
     }
    ],
    "minWords": 25,
-   "sample": "Sehr geehrte Damen und Herren, haben Sie vom 3. bis 6. Juli ein Einzelzimmer frei? Was kostet das Zimmer pro Nacht? Ist das Frühstück inklusive? Vielen Dank für Ihre Antwort. Mit freundlichen Grüßen, Can Öztürk"
+   "sample": "Sehr geehrte Damen und Herren, haben Sie vom 3. bis 6. Juli ein Einzelzimmer frei? Was kostet das Zimmer pro Nacht? Ist das Frühstück inklusive? Vielen Dank für Ihre Antwort. Mit freundlichen Grüßen, Can Öztürk",
+   "formal": true
   }
  ]
 }
