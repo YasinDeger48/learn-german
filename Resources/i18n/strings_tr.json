@@ -444,5 +444,7 @@
  "review.cardSub": "Tam unutmak üzereyken, kalıcı olsun diye · {0}",
  "hoeren.gapDetail": "Dinle: hangi kelime eksik?",
  "hoeren.whichSentence": "Welchen Satz hörst du?",
- "hoeren.sentenceDetail": "Hangi cümleyi duyuyorsun?"
+ "hoeren.sentenceDetail": "Hangi cümleyi duyuyorsun?",
+ "settings.appInfo": "Uygulama hakkında",
+ "settings.appInfoFooter": "Yedek, gizlilik ve sürüm."
 }

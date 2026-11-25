@@ -444,5 +444,7 @@
  "review.cardSub": "At the right moment, so it sticks · {0}",
  "hoeren.gapDetail": "Listen: which word is missing?",
  "hoeren.whichSentence": "Welchen Satz hörst du?",
- "hoeren.sentenceDetail": "Which sentence do you hear?"
+ "hoeren.sentenceDetail": "Which sentence do you hear?",
+ "settings.appInfo": "About the app",
+ "settings.appInfoFooter": "Backup, privacy and version."
 }

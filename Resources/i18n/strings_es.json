@@ -444,5 +444,7 @@
  "review.cardSub": "Justo a tiempo, para que se quede · {0}",
  "hoeren.gapDetail": "Escucha: ¿qué palabra falta?",
  "hoeren.whichSentence": "Welchen Satz hörst du?",
- "hoeren.sentenceDetail": "¿Qué frase oyes?"
+ "hoeren.sentenceDetail": "¿Qué frase oyes?",
+ "settings.appInfo": "Acerca de la app",
+ "settings.appInfoFooter": "Copia de seguridad, privacidad y versión."
 }

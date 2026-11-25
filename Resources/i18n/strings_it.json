@@ -444,5 +444,7 @@
  "review.cardSub": "Al momento giusto, per ricordare · {0}",
  "hoeren.gapDetail": "Ascolta: quale parola manca?",
  "hoeren.whichSentence": "Welchen Satz hörst du?",
- "hoeren.sentenceDetail": "Quale frase senti?"
+ "hoeren.sentenceDetail": "Quale frase senti?",
+ "settings.appInfo": "Informazioni sull'app",
+ "settings.appInfoFooter": "Backup, privacy e versione."
 }

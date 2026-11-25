@@ -444,5 +444,7 @@
  "review.cardSub": "Au bon moment, pour retenir · {0}",
  "hoeren.gapDetail": "Écoute : quel mot manque ?",
  "hoeren.whichSentence": "Welchen Satz hörst du?",
- "hoeren.sentenceDetail": "Quelle phrase entends-tu ?"
+ "hoeren.sentenceDetail": "Quelle phrase entends-tu ?",
+ "settings.appInfo": "À propos de l'app",
+ "settings.appInfoFooter": "Sauvegarde, confidentialité et version."
 }

@@ -1,15 +1,10 @@
 import SwiftUI
 
-/// Language, daily reminder, backup and app info.
+/// Language, daily reminder, and one row for backup and app info.
 struct SettingsView: View {
     @EnvironmentObject private var daily: DailyModel
     @EnvironmentObject private var localizer: Localizer
-    @State private var exporting = false
-    @State private var importing = false
-    @State private var document: BackupDocument?
-    @State private var status: String?
     @State private var permissionDenied = false
-    @ObservedObject private var ads = AdsManager.shared
     @State private var showPlacement = false
     @AppStorage(Reminders.wordsKey) private var notifyWords = true
     @AppStorage(Reminders.streakKey) private var notifyStreak = true
@@ -64,41 +59,86 @@ struct SettingsView: View {
                     Text(permissionDenied ? t("settings.permissionDenied") : t("settings.dailyFooter"))
                 }
                 Section {
-                    Button(t("settings.backupSave")) {
-                        document = BackupService.make()
-                        exporting = document != nil
+                    NavigationLink {
+                        AboutAppView()
+                    } label: {
+                        HStack {
+                            Label(t("settings.appInfo"), systemImage: "info.circle")
+                            Spacer()
+                            Text(AboutAppView.version).foregroundStyle(.secondary)
+                        }
                     }
-                    Button(t("settings.backupRestore")) { importing = true }
-                    if let status { Text(status).font(.footnote).foregroundStyle(.secondary) }
-                } header: {
-                    Text(t("settings.backup"))
                 } footer: {
-                    Text(t("settings.backupFooter"))
-                }
-                Section(t("settings.about")) {
-                    Link(t("settings.privacy"), destination: LegalLinks.privacy)
-                    if ads.privacyOptionsRequired {
-                        Button(t("settings.adPrivacy")) { ads.showPrivacyOptions() }
-                    }
-                    HStack {
-                        Text(t("settings.version"))
-                        Spacer()
-                        Text(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0")
-                            .foregroundStyle(.secondary)
-                    }
-                    Text(t("settings.credits")).font(.footnote).foregroundStyle(.secondary)
+                    Text(t("settings.appInfoFooter"))
                 }
             }
             .scrollContentBackground(.hidden)
             .background(DS.ground.ignoresSafeArea())
             .navigationTitle(t("settings.title"))
             .sheet(isPresented: $showPlacement) { PlacementSheet() }
-            .fileExporter(isPresented: $exporting, document: document, contentType: .json, defaultFilename: "Deschly-Backup") { result in
-                if case .success = result { status = t("backup.saved") } else { status = t("backup.saveFailed") }
+        .tint(DS.accent)
+    }
+}
+
+/// About the app: backup, privacy, version and credits on one page.
+struct AboutAppView: View {
+    @State private var exporting = false
+    @State private var importing = false
+    @State private var document: BackupDocument?
+    @State private var status: String?
+    @ObservedObject private var ads = AdsManager.shared
+
+    static var version: String {
+        Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"
+    }
+
+    var body: some View {
+        Form {
+            Section {
+                Button {
+                    document = BackupService.make()
+                    exporting = document != nil
+                } label: {
+                    Label(t("settings.backupSave"), systemImage: "square.and.arrow.up")
+                }
+                Button { importing = true } label: {
+                    Label(t("settings.backupRestore"), systemImage: "square.and.arrow.down")
+                }
+                if let status { Text(status).font(.footnote).foregroundStyle(.secondary) }
+            } header: {
+                Text(t("settings.backup"))
+            } footer: {
+                Text(t("settings.backupFooter"))
             }
-            .fileImporter(isPresented: $importing, allowedContentTypes: [.json]) { result in
-                if case .success(let url) = result { status = t(BackupService.restore(from: url)) }
+            Section(t("settings.about")) {
+                Link(destination: LegalLinks.privacy) {
+                    Label(t("settings.privacy"), systemImage: "hand.raised")
+                }
+                if ads.privacyOptionsRequired {
+                    Button { ads.showPrivacyOptions() } label: {
+                        Label(t("settings.adPrivacy"), systemImage: "megaphone")
+                    }
+                }
+                HStack {
+                    Label(t("settings.version"), systemImage: "number")
+                    Spacer()
+                    Text(Self.version).foregroundStyle(.secondary)
+                }
             }
+            Section {
+                Text(t("settings.credits")).font(.footnote).foregroundStyle(.secondary)
+            }
+        }
+        .scrollContentBackground(.hidden)
+        .background(DS.ground.ignoresSafeArea())
+        .navigationTitle(t("settings.appInfo"))
+        .navigationBarTitleDisplayMode(.inline)
+        .fileExporter(isPresented: $exporting, document: document, contentType: .json, defaultFilename: "Deschly-Backup") { result in
+            if case .success = result { status = t("backup.saved") } else { status = t("backup.saveFailed") }
+        }
+        .fileImporter(isPresented: $importing, allowedContentTypes: [.json]) { result in
+            if case .success(let url) = result { status = t(BackupService.restore(from: url)) }
+        }
         .tint(DS.accent)
     }
 }
