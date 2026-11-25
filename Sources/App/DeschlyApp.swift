@@ -57,6 +57,9 @@ enum AppRoute: Hashable {
     case lesson
     case writing
     case verbLab
+    case memorize
+    case memorizeSheet(String)
+    case memorizeDrill(String)
     case verb(String)
     case verbGame(String)
     case writingTask(String)
@@ -223,6 +226,19 @@ struct AppDestination: View {
             }
         case .readingHome:
             ReadingHomeView()
+        case .memorize:
+            MemorizeHomeView().environmentObject(levels.current)
+        case .memorizeSheet(let id):
+            if let sheet = MemorizeBank.sheet(id) { MemorizeSheetView(sheet: sheet) }
+        case .memorizeDrill(let id):
+            if let sheet = MemorizeBank.sheet(id) {
+                A1QuizView(title: sheet.title.text, onFinish: { correct, total in
+                    MemorizeBank.save(sheet.id, percent: total == 0 ? 0 : correct * 100 / total)
+                }) {
+                    MemorizeBank.drill(sheet)
+                }
+                .environmentObject(levels.current)
+            }
         case .verbLab:
             VerbLabHomeView().environmentObject(levels.current)
         case .verb(let infinitive):

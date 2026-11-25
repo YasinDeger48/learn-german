@@ -619,5 +619,10 @@
  "verb.separable": "separable",
  "verb.reflexive": "reflexive",
  "verb.whichTense": "Which tense is this?",
- "verb.meaningOf": "What does it mean?"
+ "verb.meaningOf": "What does it mean?",
+ "mem.title": "Must know",
+ "mem.sub": "Tables to learn by heart, with a test",
+ "mem.intro": "The things every learner must know by heart. Read the table, listen, then test yourself.",
+ "mem.rows": "{0} items",
+ "mem.drill": "Learn it · {0} questions"
 }

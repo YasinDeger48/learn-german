@@ -1,0 +1,1337 @@
+{
+ "sheets": [
+  {
+   "id": "sein",
+   "level": "A1",
+   "icon": "person.fill",
+   "kind": "drill",
+   "title": {
+    "tr": "sein (olmak)",
+    "en": "sein (to be)"
+   },
+   "intro": {
+    "tr": "En önemli fiil; düzensizdir, mutlaka ezberle.",
+    "en": "The most important verb; irregular, learn it by heart."
+   },
+   "ask": "sein: {q} ___",
+   "rows": [
+    {
+     "q": "sein · ich",
+     "a": "bin",
+     "x": "Ich bin müde."
+    },
+    {
+     "q": "sein · du",
+     "a": "bist",
+     "x": "Bist du zu Hause?"
+    },
+    {
+     "q": "sein · er/sie/es",
+     "a": "ist",
+     "x": "Er ist Lehrer."
+    },
+    {
+     "q": "sein · wir",
+     "a": "sind",
+     "x": "Wir sind aus der Türkei."
+    },
+    {
+     "q": "sein · ihr",
+     "a": "seid",
+     "x": "Ihr seid nett."
+    },
+    {
+     "q": "sein · sie/Sie",
+     "a": "sind",
+     "x": "Sind Sie Frau Kaya?"
+    }
+   ]
+  },
+  {
+   "id": "haben",
+   "level": "A1",
+   "icon": "hand.raised.fill",
+   "kind": "drill",
+   "title": {
+    "tr": "haben (sahip olmak)",
+    "en": "haben (to have)"
+   },
+   "intro": {
+    "tr": "Perfekt için de gerekir (hat gemacht).",
+    "en": "Also needed for the Perfekt (hat gemacht)."
+   },
+   "ask": "haben: {q} ___",
+   "rows": [
+    {
+     "q": "haben · ich",
+     "a": "habe",
+     "x": "Ich habe Hunger."
+    },
+    {
+     "q": "haben · du",
+     "a": "hast",
+     "x": "Hast du Zeit?"
+    },
+    {
+     "q": "haben · er/sie/es",
+     "a": "hat",
+     "x": "Sie hat zwei Kinder."
+    },
+    {
+     "q": "haben · wir",
+     "a": "haben",
+     "x": "Wir haben ein Auto."
+    },
+    {
+     "q": "haben · ihr",
+     "a": "habt",
+     "x": "Habt ihr Fragen?"
+    },
+    {
+     "q": "haben · sie/Sie",
+     "a": "haben",
+     "x": "Haben Sie Wasser?"
+    }
+   ]
+  },
+  {
+   "id": "modal",
+   "level": "A1",
+   "icon": "slider.horizontal.3",
+   "kind": "drill",
+   "title": {
+    "tr": "Modal fiiller",
+    "en": "Modal verbs"
+   },
+   "intro": {
+    "tr": "ich ve er aynı: ich kann, er kann. İkinci fiil cümle sonuna gider.",
+    "en": "ich and er are the same: ich kann, er kann. The second verb goes to the end."
+   },
+   "ask": "{q} ___",
+   "rows": [
+    {
+     "q": "können · ich",
+     "a": "kann",
+     "x": "Ich kann schwimmen."
+    },
+    {
+     "q": "können · du",
+     "a": "kannst"
+    },
+    {
+     "q": "können · er/sie/es",
+     "a": "kann"
+    },
+    {
+     "q": "können · wir",
+     "a": "können"
+    },
+    {
+     "q": "können · ihr",
+     "a": "könnt"
+    },
+    {
+     "q": "können · sie/Sie",
+     "a": "können"
+    },
+    {
+     "q": "müssen · ich",
+     "a": "muss",
+     "x": "Ich muss arbeiten."
+    },
+    {
+     "q": "müssen · du",
+     "a": "musst"
+    },
+    {
+     "q": "müssen · er/sie/es",
+     "a": "muss"
+    },
+    {
+     "q": "müssen · wir",
+     "a": "müssen"
+    },
+    {
+     "q": "müssen · ihr",
+     "a": "müsst"
+    },
+    {
+     "q": "müssen · sie/Sie",
+     "a": "müssen"
+    },
+    {
+     "q": "wollen · ich",
+     "a": "will",
+     "x": "Ich will nach Hause."
+    },
+    {
+     "q": "wollen · du",
+     "a": "willst"
+    },
+    {
+     "q": "wollen · er/sie/es",
+     "a": "will"
+    },
+    {
+     "q": "wollen · wir",
+     "a": "wollen"
+    },
+    {
+     "q": "wollen · ihr",
+     "a": "wollt"
+    },
+    {
+     "q": "wollen · sie/Sie",
+     "a": "wollen"
+    },
+    {
+     "q": "möchten · ich",
+     "a": "möchte",
+     "x": "Ich möchte einen Kaffee."
+    },
+    {
+     "q": "möchten · du",
+     "a": "möchtest"
+    },
+    {
+     "q": "möchten · er/sie/es",
+     "a": "möchte"
+    },
+    {
+     "q": "möchten · wir",
+     "a": "möchten"
+    },
+    {
+     "q": "möchten · ihr",
+     "a": "möchtet"
+    },
+    {
+     "q": "möchten · sie/Sie",
+     "a": "möchten"
+    },
+    {
+     "q": "dürfen · ich",
+     "a": "darf",
+     "x": "Darf ich fragen?"
+    },
+    {
+     "q": "dürfen · du",
+     "a": "darfst"
+    },
+    {
+     "q": "dürfen · er/sie/es",
+     "a": "darf"
+    },
+    {
+     "q": "dürfen · wir",
+     "a": "dürfen"
+    },
+    {
+     "q": "dürfen · ihr",
+     "a": "dürft"
+    },
+    {
+     "q": "dürfen · sie/Sie",
+     "a": "dürfen"
+    }
+   ]
+  },
+  {
+   "id": "irregular",
+   "level": "A1",
+   "icon": "exclamationmark.triangle.fill",
+   "kind": "drill",
+   "title": {
+    "tr": "Düzensiz fiiller",
+    "en": "Irregular verbs"
+   },
+   "intro": {
+    "tr": "er-biçimi ve Perfekt birlikte ezberlenir.",
+    "en": "Learn the er-form and the Perfekt together."
+   },
+   "ask": "{q}: er … / Perfekt?",
+   "rows": [
+    {
+     "q": "fahren",
+     "a": "er fährt · ist gefahren"
+    },
+    {
+     "q": "essen",
+     "a": "er isst · hat gegessen"
+    },
+    {
+     "q": "sprechen",
+     "a": "er spricht · hat gesprochen"
+    },
+    {
+     "q": "sehen",
+     "a": "er sieht · hat gesehen"
+    },
+    {
+     "q": "lesen",
+     "a": "er liest · hat gelesen"
+    },
+    {
+     "q": "nehmen",
+     "a": "er nimmt · hat genommen"
+    },
+    {
+     "q": "geben",
+     "a": "er gibt · hat gegeben"
+    },
+    {
+     "q": "schlafen",
+     "a": "er schläft · hat geschlafen"
+    },
+    {
+     "q": "laufen",
+     "a": "er läuft · ist gelaufen"
+    },
+    {
+     "q": "helfen",
+     "a": "er hilft · hat geholfen"
+    },
+    {
+     "q": "treffen",
+     "a": "er trifft · hat getroffen"
+    },
+    {
+     "q": "vergessen",
+     "a": "er vergisst · hat vergessen"
+    },
+    {
+     "q": "wissen",
+     "a": "er weiß · hat gewusst"
+    },
+    {
+     "q": "gefallen",
+     "a": "es gefällt · hat gefallen"
+    },
+    {
+     "q": "tragen",
+     "a": "er trägt · hat getragen"
+    },
+    {
+     "q": "waschen",
+     "a": "er wäscht · hat gewaschen"
+    },
+    {
+     "q": "halten",
+     "a": "er hält · hat gehalten"
+    },
+    {
+     "q": "werden",
+     "a": "er wird · ist geworden"
+    },
+    {
+     "q": "kommen",
+     "a": "er kommt · ist gekommen"
+    },
+    {
+     "q": "gehen",
+     "a": "er geht · ist gegangen"
+    },
+    {
+     "q": "bleiben",
+     "a": "er bleibt · ist geblieben"
+    },
+    {
+     "q": "trinken",
+     "a": "er trinkt · hat getrunken"
+    },
+    {
+     "q": "finden",
+     "a": "er findet · hat gefunden"
+    },
+    {
+     "q": "schreiben",
+     "a": "er schreibt · hat geschrieben"
+    }
+   ]
+  },
+  {
+   "id": "articles",
+   "level": "A1",
+   "icon": "textformat",
+   "kind": "drill",
+   "title": {
+    "tr": "Artikel tablosu (der/die/das)",
+    "en": "Article table (der/die/das)"
+   },
+   "intro": {
+    "tr": "Akkusativ'te sadece eril değişir (der → den). Dativ: dem, der, dem, den.",
+    "en": "In the Akkusativ only the masculine changes (der → den). Dativ: dem, der, dem, den."
+   },
+   "ask": "{q}: ?",
+   "rows": [
+    {
+     "q": "maskulin · Nominativ",
+     "a": "der",
+     "x": "Der Mann ist hier."
+    },
+    {
+     "q": "maskulin · Akkusativ",
+     "a": "den",
+     "x": "Ich sehe den Mann."
+    },
+    {
+     "q": "maskulin · Dativ",
+     "a": "dem",
+     "x": "Ich helfe dem Mann."
+    },
+    {
+     "q": "feminin · Nominativ",
+     "a": "die",
+     "x": "Die Frau ist hier."
+    },
+    {
+     "q": "feminin · Akkusativ",
+     "a": "die",
+     "x": "Ich sehe die Frau."
+    },
+    {
+     "q": "feminin · Dativ",
+     "a": "der",
+     "x": "Ich helfe der Frau."
+    },
+    {
+     "q": "neutral · Nominativ",
+     "a": "das",
+     "x": "Das Kind ist hier."
+    },
+    {
+     "q": "neutral · Akkusativ",
+     "a": "das",
+     "x": "Ich sehe das Kind."
+    },
+    {
+     "q": "neutral · Dativ",
+     "a": "dem",
+     "x": "Ich helfe dem Kind."
+    },
+    {
+     "q": "Plural · Nominativ",
+     "a": "die",
+     "x": "Die Kinder sind hier."
+    },
+    {
+     "q": "Plural · Akkusativ",
+     "a": "die",
+     "x": "Ich sehe die Kinder."
+    },
+    {
+     "q": "Plural · Dativ",
+     "a": "den",
+     "x": "Ich helfe den Kindern."
+    }
+   ]
+  },
+  {
+   "id": "ein",
+   "level": "A1",
+   "icon": "textformat.abc",
+   "kind": "drill",
+   "title": {
+    "tr": "ein / kein",
+    "en": "ein / kein"
+   },
+   "intro": {
+    "tr": "kein, ein gibi çekilir; çoğulu da vardır: keine.",
+    "en": "kein works like ein and also has a plural: keine."
+   },
+   "ask": "{q}: ?",
+   "rows": [
+    {
+     "q": "maskulin · Nominativ",
+     "a": "ein",
+     "x": "Das ist ein Tisch."
+    },
+    {
+     "q": "maskulin · Akkusativ",
+     "a": "einen",
+     "x": "Ich habe einen Bruder."
+    },
+    {
+     "q": "maskulin · Dativ",
+     "a": "einem",
+     "x": "mit einem Freund"
+    },
+    {
+     "q": "feminin · Nominativ",
+     "a": "eine",
+     "x": "Das ist eine Lampe."
+    },
+    {
+     "q": "feminin · Akkusativ",
+     "a": "eine",
+     "x": "Ich kaufe eine Jacke."
+    },
+    {
+     "q": "feminin · Dativ",
+     "a": "einer",
+     "x": "mit einer Freundin"
+    },
+    {
+     "q": "neutral · Nominativ",
+     "a": "ein",
+     "x": "Das ist ein Haus."
+    },
+    {
+     "q": "neutral · Akkusativ",
+     "a": "ein",
+     "x": "Ich habe ein Auto."
+    },
+    {
+     "q": "Plural · Akkusativ (kein)",
+     "a": "keine",
+     "x": "Ich habe keine Kinder."
+    },
+    {
+     "q": "maskulin · Akkusativ (kein)",
+     "a": "keinen",
+     "x": "Ich habe keinen Hunger."
+    }
+   ]
+  },
+  {
+   "id": "pronouns",
+   "level": "A1",
+   "icon": "person.2.fill",
+   "kind": "drill",
+   "title": {
+    "tr": "Şahıs zamirleri",
+    "en": "Personal pronouns"
+   },
+   "intro": {
+    "tr": "Nominativ → Akkusativ → Dativ: ich → mich → mir.",
+    "en": "Nominativ → Akkusativ → Dativ: ich → mich → mir."
+   },
+   "ask": "{q}: ?",
+   "rows": [
+    {
+     "q": "ich · Akkusativ",
+     "a": "mich"
+    },
+    {
+     "q": "du · Akkusativ",
+     "a": "dich"
+    },
+    {
+     "q": "er · Akkusativ",
+     "a": "ihn"
+    },
+    {
+     "q": "sie · Akkusativ",
+     "a": "sie"
+    },
+    {
+     "q": "es · Akkusativ",
+     "a": "es"
+    },
+    {
+     "q": "wir · Akkusativ",
+     "a": "uns"
+    },
+    {
+     "q": "ihr · Akkusativ",
+     "a": "euch"
+    },
+    {
+     "q": "Sie · Akkusativ",
+     "a": "Sie"
+    },
+    {
+     "q": "ich · Dativ",
+     "a": "mir"
+    },
+    {
+     "q": "du · Dativ",
+     "a": "dir"
+    },
+    {
+     "q": "er · Dativ",
+     "a": "ihm"
+    },
+    {
+     "q": "sie · Dativ",
+     "a": "ihr"
+    },
+    {
+     "q": "es · Dativ",
+     "a": "ihm"
+    },
+    {
+     "q": "wir · Dativ",
+     "a": "uns"
+    },
+    {
+     "q": "ihr · Dativ",
+     "a": "euch"
+    },
+    {
+     "q": "sie (Plural) · Dativ",
+     "a": "ihnen"
+    },
+    {
+     "q": "Sie · Dativ",
+     "a": "Ihnen"
+    }
+   ]
+  },
+  {
+   "id": "possessive",
+   "level": "A1",
+   "icon": "key.fill",
+   "kind": "drill",
+   "title": {
+    "tr": "İyelik (mein, dein …)",
+    "en": "Possessives (mein, dein …)"
+   },
+   "intro": {
+    "tr": "Dişil ve çoğulda -e: meine Mutter, meine Eltern.",
+    "en": "Feminine and plural add -e: meine Mutter, meine Eltern."
+   },
+   "ask": "{q} → ?",
+   "rows": [
+    {
+     "q": "ich",
+     "a": "mein",
+     "x": "mein Vater"
+    },
+    {
+     "q": "du",
+     "a": "dein",
+     "x": "dein Handy"
+    },
+    {
+     "q": "er",
+     "a": "sein",
+     "x": "sein Auto"
+    },
+    {
+     "q": "sie",
+     "a": "ihr",
+     "x": "ihr Bruder"
+    },
+    {
+     "q": "es",
+     "a": "sein",
+     "x": "sein Spielzeug"
+    },
+    {
+     "q": "wir",
+     "a": "unser",
+     "x": "unser Haus"
+    },
+    {
+     "q": "ihr",
+     "a": "euer",
+     "x": "euer Garten"
+    },
+    {
+     "q": "sie (Plural)",
+     "a": "ihr",
+     "x": "ihr Hund"
+    },
+    {
+     "q": "Sie",
+     "a": "Ihr",
+     "x": "Ihr Pass"
+    }
+   ]
+  },
+  {
+   "id": "prepositions",
+   "level": "A1",
+   "icon": "arrow.triangle.branch",
+   "kind": "drill",
+   "title": {
+    "tr": "Edatlar: hangi hal?",
+    "en": "Prepositions: which case?"
+   },
+   "intro": {
+    "tr": "Dativ: aus, bei, mit, nach, seit, von, zu. Akkusativ: durch, für, gegen, ohne, um. İkili: Wo? Dativ / Wohin? Akkusativ.",
+    "en": "Dativ: aus, bei, mit, nach, seit, von, zu. Akkusativ: durch, für, gegen, ohne, um. Two-way: Wo? Dativ / Wohin? Akkusativ."
+   },
+   "ask": "{q} + ?",
+   "rows": [
+    {
+     "q": "aus",
+     "a": "Dativ",
+     "x": "aus der Türkei"
+    },
+    {
+     "q": "bei",
+     "a": "Dativ",
+     "x": "beim Arzt"
+    },
+    {
+     "q": "mit",
+     "a": "Dativ",
+     "x": "mit dem Bus"
+    },
+    {
+     "q": "nach",
+     "a": "Dativ",
+     "x": "nach der Arbeit"
+    },
+    {
+     "q": "seit",
+     "a": "Dativ",
+     "x": "seit einem Jahr"
+    },
+    {
+     "q": "von",
+     "a": "Dativ",
+     "x": "vom Bahnhof"
+    },
+    {
+     "q": "zu",
+     "a": "Dativ",
+     "x": "zum Supermarkt"
+    },
+    {
+     "q": "durch",
+     "a": "Akkusativ",
+     "x": "durch den Park"
+    },
+    {
+     "q": "für",
+     "a": "Akkusativ",
+     "x": "für dich"
+    },
+    {
+     "q": "gegen",
+     "a": "Akkusativ",
+     "x": "gegen den Baum"
+    },
+    {
+     "q": "ohne",
+     "a": "Akkusativ",
+     "x": "ohne Zucker"
+    },
+    {
+     "q": "um",
+     "a": "Akkusativ",
+     "x": "um den Tisch"
+    },
+    {
+     "q": "in",
+     "a": "Wo? Dativ · Wohin? Akkusativ",
+     "x": "im Kino / ins Kino"
+    },
+    {
+     "q": "an",
+     "a": "Wo? Dativ · Wohin? Akkusativ",
+     "x": "am Fenster / ans Fenster"
+    },
+    {
+     "q": "auf",
+     "a": "Wo? Dativ · Wohin? Akkusativ",
+     "x": "auf dem Tisch / auf den Tisch"
+    },
+    {
+     "q": "neben",
+     "a": "Wo? Dativ · Wohin? Akkusativ",
+     "x": "neben dem Bett"
+    },
+    {
+     "q": "unter",
+     "a": "Wo? Dativ · Wohin? Akkusativ",
+     "x": "unter dem Stuhl"
+    },
+    {
+     "q": "über",
+     "a": "Wo? Dativ · Wohin? Akkusativ",
+     "x": "über dem Sofa"
+    },
+    {
+     "q": "vor",
+     "a": "Wo? Dativ · Wohin? Akkusativ",
+     "x": "vor dem Haus"
+    },
+    {
+     "q": "hinter",
+     "a": "Wo? Dativ · Wohin? Akkusativ",
+     "x": "hinter der Tür"
+    },
+    {
+     "q": "zwischen",
+     "a": "Wo? Dativ · Wohin? Akkusativ",
+     "x": "zwischen den Häusern"
+    }
+   ]
+  },
+  {
+   "id": "questions",
+   "level": "A1",
+   "icon": "questionmark.circle.fill",
+   "kind": "drill",
+   "title": {
+    "tr": "Soru kelimeleri",
+    "en": "Question words"
+   },
+   "intro": {
+    "tr": "W-sorularında fiil ikinci sırada: Wo wohnst du?",
+    "en": "In W-questions the verb comes second: Wo wohnst du?"
+   },
+   "ask": "{q}",
+   "rows": [
+    {
+     "q": {
+      "tr": "Kim?",
+      "en": "Who?"
+     },
+     "a": "Wer?",
+     "x": "Wer ist das?"
+    },
+    {
+     "q": {
+      "tr": "Ne?",
+      "en": "What?"
+     },
+     "a": "Was?",
+     "x": "Was machst du?"
+    },
+    {
+     "q": {
+      "tr": "Nerede?",
+      "en": "Where?"
+     },
+     "a": "Wo?",
+     "x": "Wo wohnst du?"
+    },
+    {
+     "q": {
+      "tr": "Nereye?",
+      "en": "Where to?"
+     },
+     "a": "Wohin?",
+     "x": "Wohin fährst du?"
+    },
+    {
+     "q": {
+      "tr": "Nereden?",
+      "en": "Where from?"
+     },
+     "a": "Woher?",
+     "x": "Woher kommst du?"
+    },
+    {
+     "q": {
+      "tr": "Ne zaman?",
+      "en": "When?"
+     },
+     "a": "Wann?",
+     "x": "Wann beginnt der Kurs?"
+    },
+    {
+     "q": {
+      "tr": "Nasıl?",
+      "en": "How?"
+     },
+     "a": "Wie?",
+     "x": "Wie heißt du?"
+    },
+    {
+     "q": {
+      "tr": "Neden?",
+      "en": "Why?"
+     },
+     "a": "Warum?",
+     "x": "Warum lernst du Deutsch?"
+    },
+    {
+     "q": {
+      "tr": "Kaç tane?",
+      "en": "How many?"
+     },
+     "a": "Wie viele?",
+     "x": "Wie viele Kinder hast du?"
+    },
+    {
+     "q": {
+      "tr": "Ne kadar?",
+      "en": "How much?"
+     },
+     "a": "Wie viel?",
+     "x": "Wie viel kostet das?"
+    },
+    {
+     "q": {
+      "tr": "Hangi?",
+      "en": "Which?"
+     },
+     "a": "Welcher / Welche / Welches?",
+     "x": "Welche Farbe magst du?"
+    },
+    {
+     "q": {
+      "tr": "Kimi?",
+      "en": "Whom?"
+     },
+     "a": "Wen?",
+     "x": "Wen besuchst du?"
+    },
+    {
+     "q": {
+      "tr": "Kime?",
+      "en": "To whom?"
+     },
+     "a": "Wem?",
+     "x": "Wem gehört das?"
+    }
+   ]
+  },
+  {
+   "id": "days",
+   "level": "A1",
+   "icon": "calendar",
+   "kind": "drill",
+   "title": {
+    "tr": "Günler ve aylar",
+    "en": "Days and months"
+   },
+   "intro": {
+    "tr": "Günlerde \"am\", aylarda \"im\": am Montag, im Mai.",
+    "en": "Days take \"am\", months \"im\": am Montag, im Mai."
+   },
+   "ask": "{q}",
+   "rows": [
+    {
+     "q": {
+      "tr": "Pazartesi",
+      "en": "Monday"
+     },
+     "a": "Montag"
+    },
+    {
+     "q": {
+      "tr": "Salı",
+      "en": "Tuesday"
+     },
+     "a": "Dienstag"
+    },
+    {
+     "q": {
+      "tr": "Çarşamba",
+      "en": "Wednesday"
+     },
+     "a": "Mittwoch"
+    },
+    {
+     "q": {
+      "tr": "Perşembe",
+      "en": "Thursday"
+     },
+     "a": "Donnerstag"
+    },
+    {
+     "q": {
+      "tr": "Cuma",
+      "en": "Friday"
+     },
+     "a": "Freitag"
+    },
+    {
+     "q": {
+      "tr": "Cumartesi",
+      "en": "Saturday"
+     },
+     "a": "Samstag"
+    },
+    {
+     "q": {
+      "tr": "Pazar",
+      "en": "Sunday"
+     },
+     "a": "Sonntag"
+    },
+    {
+     "q": {
+      "tr": "Ocak",
+      "en": "January"
+     },
+     "a": "Januar"
+    },
+    {
+     "q": {
+      "tr": "Şubat",
+      "en": "February"
+     },
+     "a": "Februar"
+    },
+    {
+     "q": {
+      "tr": "Mart",
+      "en": "March"
+     },
+     "a": "März"
+    },
+    {
+     "q": {
+      "tr": "Nisan",
+      "en": "April"
+     },
+     "a": "April"
+    },
+    {
+     "q": {
+      "tr": "Mayıs",
+      "en": "May"
+     },
+     "a": "Mai"
+    },
+    {
+     "q": {
+      "tr": "Haziran",
+      "en": "June"
+     },
+     "a": "Juni"
+    },
+    {
+     "q": {
+      "tr": "Temmuz",
+      "en": "July"
+     },
+     "a": "Juli"
+    },
+    {
+     "q": {
+      "tr": "Ağustos",
+      "en": "August"
+     },
+     "a": "August"
+    },
+    {
+     "q": {
+      "tr": "Eylül",
+      "en": "September"
+     },
+     "a": "September"
+    },
+    {
+     "q": {
+      "tr": "Ekim",
+      "en": "October"
+     },
+     "a": "Oktober"
+    },
+    {
+     "q": {
+      "tr": "Kasım",
+      "en": "November"
+     },
+     "a": "November"
+    },
+    {
+     "q": {
+      "tr": "Aralık",
+      "en": "December"
+     },
+     "a": "Dezember"
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "level": "A1",
+   "icon": "clock.fill",
+   "kind": "drill",
+   "title": {
+    "tr": "Saat söyleme",
+    "en": "Telling the time"
+   },
+   "intro": {
+    "tr": "\"halb neun\" = 8:30 (dokuza yarım var)! Resmî: acht Uhr dreißig.",
+    "en": "\"halb neun\" = 8:30 (half to nine)! Formal: acht Uhr dreißig."
+   },
+   "ask": "{q} → ?",
+   "rows": [
+    {
+     "q": "8:00",
+     "a": "acht Uhr"
+    },
+    {
+     "q": "8:15",
+     "a": "Viertel nach acht"
+    },
+    {
+     "q": "8:30",
+     "a": "halb neun"
+    },
+    {
+     "q": "8:45",
+     "a": "Viertel vor neun"
+    },
+    {
+     "q": "8:10",
+     "a": "zehn nach acht"
+    },
+    {
+     "q": "8:50",
+     "a": "zehn vor neun"
+    },
+    {
+     "q": "8:25",
+     "a": "fünf vor halb neun"
+    },
+    {
+     "q": "8:35",
+     "a": "fünf nach halb neun"
+    },
+    {
+     "q": "12:00",
+     "a": "zwölf Uhr / Mittag"
+    },
+    {
+     "q": "0:00",
+     "a": "Mitternacht"
+    }
+   ]
+  },
+  {
+   "id": "numbers",
+   "level": "A1",
+   "icon": "number",
+   "kind": "drill",
+   "title": {
+    "tr": "Sayılar (tuzaklı olanlar)",
+    "en": "Numbers (the tricky ones)"
+   },
+   "intro": {
+    "tr": "Birler önce okunur: 21 = einundzwanzig (bir-ve-yirmi).",
+    "en": "Units come first: 21 = einundzwanzig (one-and-twenty)."
+   },
+   "ask": "{q} = ?",
+   "rows": [
+    {
+     "q": "13",
+     "a": "dreizehn"
+    },
+    {
+     "q": "16",
+     "a": "sechzehn"
+    },
+    {
+     "q": "17",
+     "a": "siebzehn"
+    },
+    {
+     "q": "20",
+     "a": "zwanzig"
+    },
+    {
+     "q": "21",
+     "a": "einundzwanzig"
+    },
+    {
+     "q": "30",
+     "a": "dreißig"
+    },
+    {
+     "q": "45",
+     "a": "fünfundvierzig"
+    },
+    {
+     "q": "67",
+     "a": "siebenundsechzig"
+    },
+    {
+     "q": "99",
+     "a": "neunundneunzig"
+    },
+    {
+     "q": "100",
+     "a": "hundert"
+    },
+    {
+     "q": "101",
+     "a": "hunderteins"
+    },
+    {
+     "q": "1000",
+     "a": "tausend"
+    },
+    {
+     "q": "2026",
+     "a": "zweitausendsechsundzwanzig"
+    }
+   ]
+  },
+  {
+   "id": "survival",
+   "level": "A1",
+   "icon": "lifepreserver.fill",
+   "kind": "drill",
+   "title": {
+    "tr": "Kurtarıcı cümleler",
+    "en": "Survival phrases"
+   },
+   "intro": {
+    "tr": "İlk gün işine yarayacak cümleler.",
+    "en": "Phrases you will need on day one."
+   },
+   "ask": "{q}",
+   "rows": [
+    {
+     "q": {
+      "tr": "Anlamadım.",
+      "en": "I don't understand."
+     },
+     "a": "Ich verstehe das nicht."
+    },
+    {
+     "q": {
+      "tr": "Tekrar eder misiniz?",
+      "en": "Can you repeat that?"
+     },
+     "a": "Können Sie das bitte wiederholen?"
+    },
+    {
+     "q": {
+      "tr": "Daha yavaş konuşur musunuz?",
+      "en": "Can you speak more slowly?"
+     },
+     "a": "Können Sie bitte langsamer sprechen?"
+    },
+    {
+     "q": {
+      "tr": "Bu Almancada ne demek?",
+      "en": "What is that in German?"
+     },
+     "a": "Was heißt das auf Deutsch?"
+    },
+    {
+     "q": {
+      "tr": "Nasıl yazılır?",
+      "en": "How do you spell it?"
+     },
+     "a": "Wie schreibt man das?"
+    },
+    {
+     "q": {
+      "tr": "Affedersiniz!",
+      "en": "Excuse me!"
+     },
+     "a": "Entschuldigung!"
+    },
+    {
+     "q": {
+      "tr": "Rica ederim.",
+      "en": "You're welcome."
+     },
+     "a": "Gern geschehen."
+    },
+    {
+     "q": {
+      "tr": "Bu ne kadar?",
+      "en": "How much is it?"
+     },
+     "a": "Wie viel kostet das?"
+    },
+    {
+     "q": {
+      "tr": "Tuvalet nerede?",
+      "en": "Where is the toilet?"
+     },
+     "a": "Wo ist die Toilette?"
+    },
+    {
+     "q": {
+      "tr": "Bilmiyorum.",
+      "en": "I don't know."
+     },
+     "a": "Ich weiß es nicht."
+    },
+    {
+     "q": {
+      "tr": "Bana yardım edebilir misiniz?",
+      "en": "Can you help me?"
+     },
+     "a": "Können Sie mir helfen?"
+    },
+    {
+     "q": {
+      "tr": "Biraz Almanca konuşuyorum.",
+      "en": "I speak a little German."
+     },
+     "a": "Ich spreche ein bisschen Deutsch."
+    }
+   ]
+  },
+  {
+   "id": "wordorder",
+   "level": "A1",
+   "icon": "list.number",
+   "kind": "rules",
+   "title": {
+    "tr": "Cümle kuralları",
+    "en": "Word order rules"
+   },
+   "intro": {
+    "tr": "Bu kuralları bilen cümlelerin çoğunu doğru kurar.",
+    "en": "Know these and most of your sentences will be right."
+   },
+   "ask": "{q}",
+   "rows": [
+    {
+     "q": {
+      "tr": "Fiil hep 2. sırada",
+      "en": "The verb is always second"
+     },
+     "a": "Heute gehe ich ins Kino."
+    },
+    {
+     "q": {
+      "tr": "Evet/hayır sorusunda fiil başta",
+      "en": "Yes/no question: verb first"
+     },
+     "a": "Kommst du mit?"
+    },
+    {
+     "q": {
+      "tr": "Modal fiil: ikinci fiil sonda",
+      "en": "Modal verb: the other verb at the end"
+     },
+     "a": "Ich kann sehr gut schwimmen."
+    },
+    {
+     "q": {
+      "tr": "Ayrılabilen fiil: ön ek sonda",
+      "en": "Separable verb: prefix at the end"
+     },
+     "a": "Ich stehe um sieben Uhr auf."
+    },
+    {
+     "q": {
+      "tr": "Perfekt: Partizip sonda",
+      "en": "Perfekt: participle at the end"
+     },
+     "a": "Ich habe gestern Pizza gegessen."
+    },
+    {
+     "q": {
+      "tr": "weil / dass / wenn: fiil sonda",
+      "en": "weil / dass / wenn: verb at the end"
+     },
+     "a": "Ich bleibe zu Hause, weil ich krank bin."
+    },
+    {
+     "q": {
+      "tr": "nicht → fiil/sıfat, kein → isim",
+      "en": "nicht → verb/adjective, kein → noun"
+     },
+     "a": "Ich komme nicht. Ich habe kein Auto."
+    },
+    {
+     "q": {
+      "tr": "Zaman – sebep – nasıl – yer",
+      "en": "Time – reason – manner – place"
+     },
+     "a": "Ich fahre morgen wegen der Arbeit mit dem Zug nach Berlin."
+    }
+   ]
+  }
+ ]
+}

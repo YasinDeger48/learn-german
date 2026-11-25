@@ -210,6 +210,11 @@ struct ModulesHomeView: View {
                               value: "\(doneTopics)/\(topics.count)")
                 }
                 Divider().padding(.leading, 56)
+                NavigationLink(value: AppRoute.memorize) {
+                    ModuleRow(icon: "brain.head.profile", color: .pink, title: t("mem.title"), subtitle: t("mem.sub"),
+                              value: "\(MemorizeBank.sheets(upTo: model.level).count)")
+                }
+                Divider().padding(.leading, 56)
                 NavigationLink(value: AppRoute.verbLab) {
                     ModuleRow(icon: "flask.fill", color: .indigo, title: t("verb.title"), subtitle: t("verb.sub"),
                               value: VerbBank.verbs(model.level).isEmpty ? nil : "\(VerbBank.verbs(model.level).count)")

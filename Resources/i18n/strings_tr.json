@@ -619,5 +619,10 @@
  "verb.separable": "ayrılabilen",
  "verb.reflexive": "dönüşlü",
  "verb.whichTense": "Bu hangi zaman?",
- "verb.meaningOf": "Anlamı ne?"
+ "verb.meaningOf": "Anlamı ne?",
+ "mem.title": "Mutlaka bil",
+ "mem.sub": "Ezberlenmesi gereken tablolar ve testleri",
+ "mem.intro": "Her öğrencinin ezbere bilmesi gerekenler. Tabloyu oku, dinle, sonra kendini test et.",
+ "mem.rows": "{0} madde",
+ "mem.drill": "Ezberle · {0} soru"
 }
