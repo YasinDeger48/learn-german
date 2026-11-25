@@ -16,6 +16,7 @@ PER_LEVEL = 600
 
 def main():
     out = {}
+    lina, seen = [], set()
     for level in ('a1', 'a2', 'b1', 'b2'):
         data = json.load(open(os.path.join(REPO, 'Resources', 'content', f'{level}.json'), encoding='utf-8'))
         words = []
@@ -36,6 +37,17 @@ def main():
         # Spread over the list so a capped set still mixes nouns, verbs and other words.
         step = max(1, len(words) // PER_LEVEL)
         out[level.upper()] = words[::step][:PER_LEVEL]
+        # Short everyday sentences for Lina's speech bubble (A1, A2).
+        if level in ('a1', 'a2'):
+            for w in data['words']:
+                for ex in w.get('ex', [])[:1]:
+                    sentence = ex['de']
+                    if 2 <= len(sentence.split()) <= 8 and sentence not in seen:
+                        seen.add(sentence)
+                        lina.append({'s': sentence, 'tr': ex['mean'].get('tr', ''),
+                                     'en': ex['mean'].get('en') or ex['mean'].get('tr', ''), 'l': level.upper()})
+    step = max(1, len(lina) // 500)
+    out['LINA'] = lina[::step][:500]
     dest = os.path.join(REPO, 'Widgets', 'Resources', 'widget_words.json')
     os.makedirs(os.path.dirname(dest), exist_ok=True)
     json.dump(out, open(dest, 'w', encoding='utf-8', newline='\n'), ensure_ascii=False, separators=(',', ':'))
