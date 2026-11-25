@@ -1,0 +1,30 @@
+b1.w.686 :: blood sample
+b1.w.686.ex.0 :: The doctor sent the blood sample to the lab that same morning.
+b1.w.687 :: curb; curb stone
+b1.w.687.ex.0 :: I was able to cross at the lowered curb easily with the stroller.
+b1.w.688 :: usable; useful
+b1.w.688.ex.0 :: In the end, only one of the three old cables was usable.
+b1.w.689 :: stamp collection
+b1.w.689.ex.0 :: He is only missing two stamps from Denmark to complete his collection.
+b1.w.690 :: office supplies; stationery
+b1.w.690.ex.0 :: Paper and pens are among the office supplies we order together.
+b1.w.691 :: attic
+b1.w.691.ex.0 :: Our old school things were in a box in the attic.
+b1.w.692 :: former; at that time
+b1.w.692.ex.0 :: My former landlady had the basement cleared out before winter.
+b1.w.693 :: data volume; amount of data
+b1.w.693.ex.0 :: The large amount of data could not be sent in a single email.
+b1.w.694 :: permanently; on a permanent basis
+b1.w.694.ex.0 :: After the repair, the small outdoor staircase is meant to remain usable permanently.
+b1.w.695 :: by the narrowest possible margin
+b1.w.695.ex.0 :: Our team lost the last game in overtime by the narrowest possible margin.
+b1.w.696 :: close-up; detail photograph
+b1.w.696.ex.0 :: The close-up shows small cracks next to the handle.
+b1.w.697 :: uniform; work clothes
+b1.w.697.ex.0 :: She was easy to recognize across the large grounds in her uniform.
+b1.w.698 :: rotary knob; dial
+b1.w.698.ex.0 :: You can adjust the oven temperature with the knob on the left.
+b1.w.699 :: urgent; pressing
+b1.w.699.ex.0 :: The request was so urgent that I replied that same evening.
+b1.w.700 :: print run; circulation
+b1.w.700.ex.0 :: The print run was increased in May because of the many orders.

@@ -1,0 +1,30 @@
+b1.w.971 :: to record in the minutes; to document
+b1.w.971.ex.0 :: The secretary recorded the decision in the minutes and sent them to all members.
+b1.w.972 :: in certain places; locally
+b1.w.972.ex.0 :: Because of the storm, some streets in the village were flooded in places.
+b1.w.973 :: to squeeze; to crush
+b1.w.973.ex.0 :: While carrying the boxes, I got two fingers squeezed between them.
+b1.w.974 :: lawful; legal
+b1.w.974.ex.0 :: The employee could not determine whether the entrance had been closed lawfully.
+b1.w.975 :: smoothly; without problems
+b1.w.975.ex.0 :: This time, the handover went surprisingly smoothly with the new list.
+b1.w.976 :: completely; entirely
+b1.w.976.ex.0 :: The entire first edition of the small book sold out in May.
+b1.w.977 :: completely; in every respect
+b1.w.977.ex.0 :: After the repair, the customer was completely satisfied with the service.
+b1.w.978 :: considerate; thoughtful
+b1.w.978.ex.0 :: The young people were considerate and turned their music down early.
+b1.w.979 :: to shake; to rattle
+b1.w.979.ex.0 :: The storm shook the shutters so violently at night that we woke up.
+b1.w.980 :: together with; including
+b1.w.980.ex.0 :: The caretaker carried the old umbrella together with its stand down to the basement.
+b1.w.981 :: suddenly; abruptly
+b1.w.981.ex.0 :: When the lights went out, the hall suddenly became quiet.
+b1.w.982 :: simple; plain
+b1.w.982.ex.0 :: He chose a simple design with little text for the invitation.
+b1.w.983 :: to mediate; to settle a dispute
+b1.w.983.ex.0 :: The coach settled the argument between the two young players.
+b1.w.984 :: to rest; to spare
+b1.w.984.ex.0 :: After the long run, he rested his sore knee for several days.
+b1.w.985 :: gently; without causing damage
+b1.w.985.ex.0 :: The delicate fabric can be washed gently in cold water.

@@ -1,0 +1,15 @@
+b1.gi.220 :: The Pr?teritum form of schwimmen for this subject is schwamm. Despite the cold, Lea swam another lap in the lake.
+b1.gi.221 :: The Pr?teritum form of tanzen for this subject is tanzte. Daniel danced with his aunt for almost the entire evening at the celebration.
+b1.gi.222 :: The Pr?teritum form of tragen for this subject is trugen. In autumn, our neighbors carried the old garden chairs down to the basement.
+b1.gi.223 :: The Pr?teritum form of planen for this subject is plante. Each class planned its own program for the school festival.
+b1.gi.224 :: The Pr?teritum form of kommen for this subject is kam. Less than ten minutes later, another phone call came in.
+b1.gi.225 :: The Pr?teritum form of fragen for this subject is fragte. At the counter, the customer asked for a receipt for the course.
+b1.gi.226 :: The Pr?teritum form of springen for this subject is sprangen. Two little cats suddenly jumped out from behind the curtain.
+b1.gi.227 :: The Pr?teritum form of warten for this subject is wartete. A new resident was already waiting for us on the third floor.
+b1.gi.228 :: The Pr?teritum form of f?hren for this subject is f?hrte. Back then, a narrow wooden bridge still crossed the river.
+b1.gi.229 :: The Pr?teritum form of fallen for this subject is fiel. A large branch fell onto the sidewalk next to the bus stop yesterday.
+b1.gi.230 :: The Pr?teritum form of wischen for this subject is wischte. Sara wiped the chalk off the board with an old cloth.
+b1.gi.231 :: The Pr?teritum form of nehmen for this subject is nahm. Because the number was hard to read, I picked up the wrong parcel first.
+b1.gi.232 :: The Pr?teritum form of erkl?ren for this subject is erkl?rte. The coach explained the exercise once more just before the break.
+b1.gi.233 :: The Pr?teritum form of bleiben for this subject is blieb. The delivery remained in the warehouse by the station for a whole month.
+b1.gi.234 :: The Pr?teritum form of erreichen for this subject is erreichtet. Although it was already late, you still caught the last train.

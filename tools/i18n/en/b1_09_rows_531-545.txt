@@ -1,0 +1,30 @@
+b1.w.371 :: follow-up question; inquiry
+b1.w.371.ex.0 :: The employee gave me his extension number in case I had a follow-up question about the contract.
+b1.w.372 :: consideration; respect
+b1.w.372.ex.0 :: Out of consideration for the neighbors, we turn the music down.
+b1.w.373 :: collection drive; collection campaign
+b1.w.373.ex.0 :: Every family brought a book for the school library during the collection drive.
+b1.w.374 :: of course; naturally
+b1.w.374.ex.0 :: Of course, you can also return the books on Monday.
+b1.w.375 :: visibly; noticeably
+b1.w.375.ex.0 :: The children were visibly relieved when the dog came back.
+b1.w.376 :: seating arrangement
+b1.w.376.ex.0 :: The teacher changed the seating arrangement on Monday because of a new student.
+b1.w.377 :: special leave
+b1.w.377.ex.0 :: She requested a day of special leave for her appointment at the government office.
+b1.w.378 :: at the latest
+b1.w.378.ex.0 :: The materials must be at the school by Friday at the latest.
+b1.w.379 :: language level
+b1.w.379.ex.0 :: Before registration, the school checked my language level in a short conversation.
+b1.w.380 :: city tour; sightseeing tour
+b1.w.380.ex.0 :: On the city tour, we saw the old bridge from both sides.
+b1.w.381 :: stall fee; vendor fee
+b1.w.381.ex.0 :: My aunt pays the stall fee for the weekly market when she registers.
+b1.w.382 :: job search
+b1.w.382.ex.0 :: While looking for a job, she attended two free courses.
+b1.w.383 :: for hours
+b1.w.383.ex.0 :: The children worked for hours in the garden to build their little hut.
+b1.w.384 :: agenda; list of topics
+b1.w.384.ex.0 :: At the parents' request, the route to school was added to the agenda.
+b1.w.385 :: appointment change
+b1.w.385.ex.0 :: Because the appointment changed, I made different plans for my free afternoon.

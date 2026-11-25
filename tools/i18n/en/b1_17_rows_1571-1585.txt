@@ -1,0 +1,15 @@
+b1.gi.325 :: The paired conjunction is sowohl ? als auch. The event is suitable for both young people and adults.
+b1.gi.326 :: The paired conjunction is weder ? noch. Neither the date nor the price is legible on the receipt.
+b1.gi.327 :: The paired conjunction is entweder ? oder. For dessert, we will have either the pears or the last apple.
+b1.gi.328 :: The paired conjunction is nicht nur ? sondern auch. The team not only painted the room but also installed new lamps.
+b1.gi.329 :: The paired conjunction is je ? desto. The more often he traveled that route, the more confident he felt.
+b1.gi.330 :: Obwohl introduces an unexpected situation in a subordinate clause, and the conjugated verb goes at the end. Although the hall was almost empty, the band played a full concert.
+b1.gi.331 :: Bevor introduces an action that happens earlier in a subordinate clause, and the conjugated verb goes at the end. Please check the house number before you put the parcel outside the door.
+b1.gi.332 :: Seitdem indicates when an ongoing situation began in a subordinate clause, and the conjugated verb goes at the end. Since the bridge has been closed, I take a different route every morning.
+b1.gi.333 :: Bis indicates when the waiting will end in a subordinate clause, and the conjugated verb goes at the end. We are waiting in the foyer until the last group leaves the hall.
+b1.gi.334 :: Damit expresses the purpose of an action in a subordinate clause, and the conjugated verb goes at the end. Add your number so that the technician can contact you directly.
+b1.gi.335 :: Falls introduces a possible condition in a subordinate clause, and the conjugated verb goes at the end. If the elevator breaks down tomorrow, we will meet on the ground floor.
+b1.gi.336 :: Sodass introduces the result of the preceding action in a subordinate clause, and the conjugated verb goes at the end. The sun was low, so we could hardly read the display board.
+b1.gi.337 :: Obwohl introduces an unexpected situation in a subordinate clause, and the conjugated verb goes at the end. Hanna rode her bike even though it had been raining heavily for hours.
+b1.gi.338 :: Bevor introduces an action that happens earlier in a subordinate clause, and the conjugated verb goes at the end. Juri spread out a drop cloth before he started painting.
+b1.gi.339 :: Seitdem indicates when an ongoing situation began in a subordinate clause, and the conjugated verb goes at the end. Since I started working shifts, I usually do my shopping in the evening.

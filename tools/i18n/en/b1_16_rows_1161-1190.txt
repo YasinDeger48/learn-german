@@ -1,0 +1,30 @@
+b1.g.1.name :: Konjunktiv II: wishes, requests, advice
+b1.g.1.rule :: Polite request: K??nnten Sie ???? W??rden Sie ???? Wish: Ich h??tte gern ??? / Ich w??re gern ??? Advice: Du solltest ??? / An deiner Stelle w??rde ich ??? Conjugation: ich/er w??rde, h??tte, w??re, k??nnte, sollte ?? du w??rdest, h??ttest, w??rst ?? wir/sie/Sie w??rden, h??tten, w??ren ?? ihr w??rdet, h??ttet, w??rt.
+b1.g.1.ex.0 :: If I were you, I would ask about the warranty before buying it.
+b1.g.1.ex.1 :: Could you show me the way to the nearest pharmacy?
+b1.g.1.ex.2 :: First, you should request the missing invoice from the seller.
+b1.g.2.name :: Konjunktiv II: unreal conditions
+b1.g.2.rule :: Wenn ich Zeit h??tte, w??rde ich kommen. (I do not have time.) The verb goes at the end of the wenn-clause; without wenn, the verb comes first: H??tte ich Zeit, w??rde ich kommen. sein ??? w??re, haben ??? h??tte, k??nnen ??? k??nnte, m??ssen ??? m??sste; most other verbs use w??rde + infinitive.
+b1.g.2.ex.0 :: If our apartment had an elevator, Grandma could visit us more often.
+b1.g.2.ex.1 :: You could enlarge the photo if you had the original file.
+b1.g.2.ex.2 :: If the doorbell were louder, I would hear the delivery person even from the basement.
+b1.g.3.name :: Passive (present tense)
+b1.g.3.rule :: werden + past participle: Das Paket wird heute geliefert. Use it when the person doing the action is unimportant; if you name the person, use von + dative: Die Briefe werden von der Post gebracht. ich werde, du wirst, er wird, wir/sie werden.
+b1.g.3.ex.0 :: The entrance card is issued at reception on the first visit.
+b1.g.3.ex.1 :: Solar panels are currently being installed on the roof.
+b1.g.3.ex.2 :: In very hot weather, our lawn is watered only late in the evening.
+b1.g.4.name :: Passive: past tenses
+b1.g.4.rule :: Pr??teritum: wurde + past participle: Das Haus wurde 1990 gebaut. Perfekt: ist + past participle + worden: Der Brief ist gestern verschickt worden. (Use worden, not geworden!)
+b1.g.4.ex.0 :: The faulty microphone was replaced with a new one just yesterday.
+b1.g.4.ex.1 :: During the renovation, the old window was carefully removed.
+b1.g.4.ex.2 :: Has the air quality in the underground car park already been checked?
+b1.g.5.name :: Passive with modal verbs
+b1.g.5.rule :: Modal verb + past participle + werden (at the end): Der Antrag muss bis Freitag abgegeben werden. Das Fenster kann nicht ge??ffnet werden. Past tense: Der Antrag musste ??? abgegeben werden.
+b1.g.5.ex.0 :: The cool box must be cleaned thoroughly before the trip.
+b1.g.5.ex.1 :: Photos may only be taken at the construction site with permission.
+b1.g.5.ex.2 :: The shipment can be tracked online with this number.
+b1.g.6.name :: Relative clauses (der/die/das, accusative/dative)
+b1.g.6.rule :: The relative pronoun takes gender and number from the noun and its case from its role in the relative clause; the verb goes at the end. Nominative: der/die/das/die ?? accusative: den/die/das/die ?? dative: dem/der/dem/denen ?? genitive: dessen/deren. Der Mann, dem ich helfe, ???
+b1.g.6.ex.0 :: The colleague who is at reception today knows all the rooms.
+b1.g.6.ex.1 :: A child who is bothered by the cold air is staying inside today.
+b1.g.6.ex.2 :: The applicants who are still missing documents will get a message tomorrow.

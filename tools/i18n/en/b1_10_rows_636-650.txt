@@ -1,0 +1,30 @@
+b1.w.491 :: durable; keeps well
+b1.w.491.ex.0 :: Once opened, the juice keeps for only a few days in the refrigerator.
+b1.w.492 :: stop announcement
+b1.w.492.ex.0 :: I did not hear the bus stop announcement because the music was loud.
+b1.w.493 :: handrail
+b1.w.493.ex.0 :: The handrail on the outdoor stairs became slippery with the first frost.
+b1.w.494 :: trip home; journey home
+b1.w.494.ex.0 :: Arzu preferred to take the train rather than the car for the trip home.
+b1.w.495 :: in need of help; vulnerable
+b1.w.495.ex.0 :: The neighbors are organizing grocery shopping for older people who need help.
+b1.w.496 :: to question; to examine critically
+b1.w.496.ex.0 :: In the course, she learned to question news critically before forwarding it.
+b1.w.497 :: information board; notice board
+b1.w.497.ex.0 :: The information board shows which paths are closed when it rains.
+b1.w.498 :: to add; to include
+b1.w.498.ex.0 :: While cooking, I added two more ripe tomatoes from the balcony.
+b1.w.499 :: card reader
+b1.w.499.ex.0 :: The card reader stopped working just as the shop got busy.
+b1.w.500 :: to mark; to label
+b1.w.500.ex.0 :: A green arrow on the wall marks the path to the courtyard.
+b1.w.501 :: doorbell system; intercom system
+b1.w.501.ex.0 :: The doorbell system in the whole building stopped working after the power outage.
+b1.w.502 :: estimate; cost estimate
+b1.w.502.ex.0 :: The repair shop sent a cost estimate for fixing the brakes.
+b1.w.503 :: sample; tasting portion
+b1.w.503.ex.0 :: At the farm festival, guests were given a sample of the new apple juice.
+b1.w.504 :: customer service
+b1.w.504.ex.0 :: No one at customer service could say when the correct item would arrive.
+b1.w.505 :: charging time; loading time
+b1.w.505.ex.0 :: This adapter considerably reduces the battery's charging time.

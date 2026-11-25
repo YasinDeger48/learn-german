@@ -1,0 +1,30 @@
+b1.w.131 :: whereas; by contrast
+b1.w.131.ex.0 :: The bus stops right in front of the school, whereas the tram only goes as far as the park.
+b1.w.132 :: at any time; whenever you like
+b1.w.132.ex.0 :: You can change your email address at any time.
+b1.w.133 :: afterward; retroactively
+b1.w.133.ex.0 :: I registered the second guest with the hotel afterward.
+b1.w.134 :: apparently; evidently
+b1.w.134.ex.0 :: Apparently, the room had been booked twice because two groups were waiting outside the door.
+b1.w.135 :: in writing; in written form
+b1.w.135.ex.0 :: I want to receive the confirmation in writing before I book the trip.
+b1.w.136 :: carefully; thoroughly
+b1.w.136.ex.0 :: Check the names on the envelopes carefully before you send them.
+b1.w.137 :: partly; partially
+b1.w.137.ex.0 :: The sidewalk is partly closed, but you can still get to the pharmacy.
+b1.w.138 :: immediately; promptly
+b1.w.138.ex.0 :: As soon as the package arrives, I will contact the seller promptly.
+b1.w.139 :: absolutely; definitely
+b1.w.139.ex.0 :: Be sure to bring your ID, or we will not be able to pick up the car.
+b1.w.140 :: non-binding; without obligation
+b1.w.140.ex.0 :: The first repair estimate is non-binding.
+b1.w.141 :: probably; presumably
+b1.w.141.ex.0 :: The appointment will probably last longer than an hour.
+b1.w.142 :: temporarily
+b1.w.142.ex.0 :: The stop was temporarily moved to the other side of the road.
+b1.w.143 :: numerous; many
+b1.w.143.ex.0 :: Many families from the neighborhood came to the swap event.
+b1.w.144 :: undoubtedly; without a doubt
+b1.w.144.ex.0 :: The bike is undoubtedly lighter, but it is also considerably more expensive.
+b1.w.145 :: weighing up; consideration
+b1.w.145.ex.0 :: After briefly weighing the options, we decided to take the train.

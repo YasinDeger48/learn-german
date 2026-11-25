@@ -1,0 +1,30 @@
+b1.w.191 :: independence; self-reliance
+b1.w.191.ex.0 :: The training is intended to help children get to school independently.
+b1.w.192 :: fundraising campaign; charity drive
+b1.w.192.ex.0 :: Thanks to the fundraising campaign, the association was able to buy new books.
+b1.w.193 :: community center; neighborhood meeting place
+b1.w.193.ex.0 :: At the neighborhood center, people can cook together on Saturdays.
+b1.w.194 :: filling a position; appointment
+b1.w.194.ex.0 :: Management will decide who gets the position only after the second interview.
+b1.w.195 :: participation requirement
+b1.w.195.ex.0 :: One requirement for taking part is that all the children can swim.
+b1.w.196 :: arranging an appointment
+b1.w.196.ex.0 :: The doctor's office is easiest to reach in the morning to arrange an appointment.
+b1.w.197 :: changeover; transition
+b1.w.197.ex.0 :: The changeover to the new timetable went well on the first day.
+b1.w.198 :: handover report; handover record
+b1.w.198.ex.0 :: The handover report lists the meter readings and the number of keys.
+b1.w.199 :: consumer advice service
+b1.w.199.ex.0 :: The consumer advice service reviewed my mobile phone contract with me.
+b1.w.200 :: availability
+b1.w.200.ex.0 :: You can check the availability of rental bikes directly in the app.
+b1.w.201 :: to depict; to show
+b1.w.201.ex.0 :: The plan shows only the rooms on the ground floor.
+b1.w.202 :: illustration; diagram
+b1.w.202.ex.0 :: The illustration shows how the shelf is attached to the wall.
+b1.w.203 :: to cancel; to abandon
+b1.w.203.ex.0 :: We had to cut our hike short because a thunderstorm was coming.
+b1.w.204 :: wastebasket; trash can
+b1.w.204.ex.0 :: The wastebasket under the table is full; I will empty it right away.
+b1.w.205 :: drain
+b1.w.205.ex.0 :: The bathroom drain was clogged, so the water would not drain away.

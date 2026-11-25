@@ -1,0 +1,30 @@
+b1.w.656 :: to impair; to affect negatively
+b1.w.656.ex.0 :: Despite the closed windows, the street noise significantly affected the recording.
+b1.w.657 :: to survey; to ask
+b1.w.657.ex.0 :: For its survey, the class questioned people at three bus stops.
+b1.w.658 :: to teach; to show someone how
+b1.w.658.ex.0 :: When I was a child, my uncle taught me how to swim in the lake.
+b1.w.659 :: casually; in passing
+b1.w.659.ex.0 :: At lunch, Tom casually mentioned his new vacation plans.
+b1.w.660 :: membership fee payment
+b1.w.660.ex.0 :: Starting in May, the association will use a new account for annual membership fee payments.
+b1.w.661 :: to join; to become a member
+b1.w.661.ex.0 :: Mara joined the small theater group after the trial class.
+b1.w.662 :: circle of acquaintances
+b1.w.662.ex.0 :: Many people from her circle of acquaintances came to the opening of the small caf?.
+b1.w.663 :: to load; to fill
+b1.w.663.ex.0 :: The two of them loaded the trailer before breakfast.
+b1.w.664 :: to light; to illuminate
+b1.w.664.ex.0 :: Two small lamps light the path between the gate and the garden shed.
+b1.w.665 :: lighting; illumination
+b1.w.665.ex.0 :: Without the new lighting, we could hardly see the steps.
+b1.w.666 :: remarkable; noteworthy
+b1.w.666.ex.0 :: The neighbors' quick response during the storm was truly remarkable.
+b1.w.667 :: to criticize; to complain about
+b1.w.667.ex.0 :: The customer complained that the new jacket's zipper was not sturdy.
+b1.w.668 :: adjacent; neighboring
+b1.w.668.ex.0 :: The two neighboring schools have shared a small gym for years.
+b1.w.669 :: need for advice; need for consultation
+b1.w.669.ex.0 :: After the change, older female customers needed considerably more advice.
+b1.w.670 :: to entitle; to authorize
+b1.w.670.ex.0 :: The card also entitles you to use the small gym.

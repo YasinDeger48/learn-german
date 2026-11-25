@@ -1,0 +1,30 @@
+b1.w.926 :: nationwide; throughout the country
+b1.w.926.ex.0 :: After its great success, the exhibition was shown in several cities across the country.
+b1.w.927 :: long-term rental
+b1.w.927.ex.0 :: The bike shop offered a lower monthly price for a long-term rental.
+b1.w.928 :: silently; noiselessly
+b1.w.928.ex.0 :: Despite its size, the heavy glass door closed almost silently.
+b1.w.929 :: practical; close to real life
+b1.w.929.ex.0 :: The teacher looked for practical examples for the exercises on the Perfekt.
+b1.w.930 :: teaching material; course materials
+b1.w.930.ex.0 :: The teaching material for the first week is already in the shared folder.
+b1.w.931 :: reckless; careless
+b1.w.931.ex.0 :: It would be reckless to continue driving without lights in this visibility.
+b1.w.932 :: powerful; capable
+b1.w.932.ex.0 :: The old computer is still powerful enough for basic office tasks.
+b1.w.933 :: steering; steering system
+b1.w.933.ex.0 :: The steering felt unusual after the tires were changed.
+b1.w.934 :: library card; reader's card
+b1.w.934.ex.0 :: I did not need to show my library card to return the books at the machine.
+b1.w.935 :: legible; readable
+b1.w.935.ex.0 :: Please write your place of residence as legibly as possible in the field.
+b1.w.936 :: delivery confirmation
+b1.w.936.ex.0 :: The delivery confirmation arrived before the courier had left the courtyard.
+b1.w.937 :: curly
+b1.w.937.ex.0 :: In the old photo, my aunt still had curly hair.
+b1.w.938 :: to untie; to release
+b1.w.938.ex.0 :: After everyone had boarded, the person steering the boat untied the rope.
+b1.w.939 :: to let go; to release
+b1.w.939.ex.0 :: Do not let go of the rope until the crate is safely on the ground.
+b1.w.940 :: complete; with no gaps
+b1.w.940.ex.0 :: The tenant brought a complete list of her payments to the appointment.

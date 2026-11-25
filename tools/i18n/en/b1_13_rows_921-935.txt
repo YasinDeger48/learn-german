@@ -1,0 +1,30 @@
+b1.w.761 :: year in review; annual review
+b1.w.761.ex.0 :: In the year in review, the editorial team recalled the closure of the old outdoor pool.
+b1.w.762 :: cash count; balancing the books
+b1.w.762.ex.0 :: At the end-of-day cash count, the association's register was exactly two euros short.
+b1.w.763 :: sound; tone
+b1.w.763.ex.0 :: The violin's gentle tone suited the small room very well.
+b1.w.764 :: climbing wall
+b1.w.764.ex.0 :: At the climbing wall, the children first tried the route on the far left.
+b1.w.765 :: bone injury
+b1.w.765.ex.0 :: The first examination showed that there was probably no bone injury.
+b1.w.766 :: hotplate; burner
+b1.w.766.ex.0 :: We heated water for tea on the room's only hotplate.
+b1.w.767 :: loss of contact; cutoff in communication
+b1.w.767.ex.0 :: After they suddenly lost contact, she did not reach her friend until weeks later.
+b1.w.768 :: headrest
+b1.w.768.ex.0 :: The headrest on the driver's seat could not be adjusted properly that morning.
+b1.w.769 :: hospital visit; visit to a sick person
+b1.w.769.ex.0 :: Yasmin brought fruit and two magazines to her neighbor during her visit.
+b1.w.770 :: cargo bike; utility bicycle
+b1.w.770.ex.0 :: The family brought all their groceries home in one trip on the cargo bike.
+b1.w.771 :: walking route; passageway
+b1.w.771.ex.0 :: The passage from the checkout to the stage must remain clear during rehearsal.
+b1.w.772 :: delivery address
+b1.w.772.ex.0 :: I only noticed the wrong delivery address after submitting the order.
+b1.w.773 :: noise disturbance; noise nuisance
+b1.w.773.ex.0 :: Because of the noise at night, the tenants asked to speak with the building management.
+b1.w.774 :: ventilation grille; air vent
+b1.w.774.ex.0 :: Dust had collected beneath the ventilation grille over the winter.
+b1.w.775 :: rent arrears; overdue rent
+b1.w.775.ex.0 :: The tenant brought all the receipts to the meeting about the overdue rent.

@@ -1,0 +1,30 @@
+b1.w.851 :: final result; end result
+b1.w.851.ex.0 :: What surprised us most about the final result was the small difference between the groups.
+b1.w.852 :: to unload
+b1.w.852.ex.0 :: The volunteers unloaded the vehicle behind the hall before nine.
+b1.w.853 :: to defuse; to ease tensions
+b1.w.853.ex.0 :: With a short break, the manager was able to ease the tension in the argument a little.
+b1.w.854 :: to record; to enter
+b1.w.854.ex.0 :: At reception, the employee first enters the names into the computer.
+b1.w.855 :: refreshment; refreshing drink
+b1.w.855.ex.0 :: After the run, there was a free refreshment at the counter.
+b1.w.856 :: harvest season
+b1.w.856.ex.0 :: During harvest season, many neighbors helped out on the small farm.
+b1.w.857 :: to endure; to put up with
+b1.w.857.ex.0 :: In summer, I can hardly put up with the noise when the window is open.
+b1.w.858 :: to mention
+b1.w.858.ex.0 :: During the conversation, Niko briefly mentioned the suggestion from the last meeting.
+b1.w.859 :: labeling; labeling process
+b1.w.859.ex.0 :: We use a different color for labeling each size.
+b1.w.860 :: traffic lane
+b1.w.860.ex.0 :: The right lane is still closed after the storm.
+b1.w.861 :: window frame
+b1.w.861.ex.0 :: Some water collected at the bottom of the window frame after the rain.
+b1.w.862 :: holiday childcare; vacation care
+b1.w.862.ex.0 :: Parents could register their children for holiday childcare until the end of May.
+b1.w.863 :: fish farming; fish breeding
+b1.w.863.ex.0 :: Fish farming in the village has been done without large machines for years.
+b1.w.864 :: bottle opener
+b1.w.864.ex.0 :: The bottle could be opened with the small opener on the key ring.
+b1.w.865 :: flight connection
+b1.w.865.ex.0 :: Because the flight connection was inconvenient, our group is traveling by train this time.

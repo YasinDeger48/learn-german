@@ -1,0 +1,30 @@
+b1.w.866 :: to keep clear; to leave unobstructed
+b1.w.866.ex.0 :: During the delivery, please keep the path between the entrance doors clear.
+b1.w.867 :: room; freedom of movement
+b1.w.867.ex.0 :: The course gives participants plenty of room for their own ideas.
+b1.w.868 :: recreational facility; leisure complex
+b1.w.868.ex.0 :: The new recreational facility by the lake is busy even on weekdays.
+b1.w.869 :: cream cheese
+b1.w.869.ex.0 :: At the end, she mixed some cream cheese into the warm dough.
+b1.w.870 :: pedestrian crossing; crosswalk
+b1.w.870.ex.0 :: The cars stopped in time at the pedestrian crossing in front of the kindergarten.
+b1.w.871 :: fill quantity; contents
+b1.w.871.ex.0 :: The permitted fill quantity is printed on the bottle just below the cap.
+b1.w.872 :: fork in the path; junction
+b1.w.872.ex.0 :: At the second fork, the hikers took the steeper path.
+b1.w.873 :: gas connection; gas hookup
+b1.w.873.ex.0 :: Before the move, a professional checked the gas connection in the kitchen.
+b1.w.874 :: used car
+b1.w.874.ex.0 :: Before buying the used car, he had a repair shop inspect it.
+b1.w.875 :: birthday greeting
+b1.w.875.ex.0 :: The class wrote a short birthday greeting on the group card.
+b1.w.876 :: patience
+b1.w.876.ex.0 :: We needed more patience than tools to assemble the shelf.
+b1.w.877 :: something in return; compensation
+b1.w.877.ex.0 :: In return, I later helped my neighbor with his move.
+b1.w.878 :: cash gift
+b1.w.878.ex.0 :: Yasmin used the cash gift from her aunt to buy a secondhand desk.
+b1.w.879 :: community hall; town hall
+b1.w.879.ex.0 :: The community hall had already been booked for Sunday's shared meal.
+b1.w.880 :: to end up; to get into
+b1.w.880.ex.0 :: Because of the strong wind, our small boat ended up in the reeds.

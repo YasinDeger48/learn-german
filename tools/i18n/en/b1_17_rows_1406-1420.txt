@@ -1,0 +1,15 @@
+b1.gi.160 :: With Probleme machen, the person affected takes the dative. A child who is bothered by the cold air is staying inside today.
+b1.gi.161 :: The relative pronoun der is used because the person who will do the action is the subject. Do you know someone who can pick up the key at the weekend?
+b1.gi.162 :: With zeigen, the people being shown something take the dative. The guests whom we showed the entrance to a moment ago are sitting there.
+b1.gi.163 :: Brief is a masculine accusative object. There is a letter on the table that nobody wants to open.
+b1.gi.164 :: Technikerin is the subject of sich k?mmern in the relative clause. The technician who will take care of the faulty heating system is coming tomorrow.
+b1.gi.165 :: Hotel is a neuter accusative object, so it takes das. The hotel that my parents booked is right by the lake.
+b1.gi.166 :: Leute is plural and the subject of wohnen. The people who live next to us are moving in spring.
+b1.gi.167 :: With schicken, the recipient takes the dative. Frau Klein is the doctor to whom I sent my test results.
+b1.gi.168 :: Although Bus is an object in the main clause, it is the subject of wartet in the relative clause. Can you see the bus that is waiting behind the truck?
+b1.gi.169 :: Suchen takes the accusative, and the feminine relative pronoun is die. At last, she found the list that she had been looking for since Monday.
+b1.gi.170 :: With fehlen, the people missing something are expressed with plural dative denen. The applicants who are still missing documents will receive a message tomorrow.
+b1.gi.171 :: Although B?ro is dative in the main clause, it is the subject of hat, so the pronoun is das. Mia works in an office that has direct access to the courtyard.
+b1.gi.172 :: Riss is a masculine accusative object, so it takes den. He showed me the crack that he had only noticed while cleaning.
+b1.gi.173 :: Geh?ren takes the dative, and the feminine pronoun is der. The student who owns the dictionary is waiting outside by the door.
+b1.gi.174 :: St?hle is plural and the subject of the relative clause, so the pronoun is die. We are short two chairs that are sturdy enough for the garden.

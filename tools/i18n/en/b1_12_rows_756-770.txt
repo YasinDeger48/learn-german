@@ -1,0 +1,30 @@
+b1.w.551 :: drawer handle
+b1.w.551.ex.0 :: I first noticed that the wood was damp when I touched the drawer handle.
+b1.w.552 :: protective clothing
+b1.w.552.ex.0 :: You may only operate this machine in the warehouse while wearing protective clothing.
+b1.w.553 :: side panel; side piece
+b1.w.553.ex.0 :: One side panel of the new bookcase was missing from the delivery.
+b1.w.554 :: visibility; range of vision
+b1.w.554.ex.0 :: Because of the fog, visibility on the country road fell below fifty meters.
+b1.w.555 :: special price; discounted price
+b1.w.555.ex.0 :: The special price is available only for the last showing on Sunday.
+b1.w.556 :: carefree; without worry
+b1.w.556.ex.0 :: With the spare key in my backpack, I was able to go for a walk without worrying again.
+b1.w.557 :: closure; road closure
+b1.w.557.ex.0 :: The bridge closure makes my commute considerably longer.
+b1.w.558 :: voice message
+b1.w.558.ex.0 :: Instead of typing, he sent me a voice message from the train.
+b1.w.559 :: instead
+b1.w.559.ex.0 :: The bus was not running, so I took my bicycle instead.
+b1.w.560 :: dust-free
+b1.w.560.ex.0 :: After sanding, the surface must be dust-free before painting.
+b1.w.561 :: sample; random check
+b1.w.561.ex.0 :: A random check found three incorrectly labeled boxes in the warehouse.
+b1.w.562 :: electricity meter
+b1.w.562.ex.0 :: At the turn of the year, we photograph the electricity meter in the basement for our records.
+b1.w.563 :: continuously adjustable; stepless
+b1.w.563.ex.0 :: The lamp's height can be adjusted continuously with a control knob.
+b1.w.564 :: flawless; in perfect condition
+b1.w.564.ex.0 :: Despite its age, the small refrigerator in the workshop works perfectly.
+b1.w.565 :: daily requirement; daily need
+b1.w.565.ex.0 :: The daily amount of water you need also depends on the weather and your activity level.

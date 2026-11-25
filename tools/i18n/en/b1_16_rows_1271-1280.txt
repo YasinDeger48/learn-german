@@ -1,0 +1,10 @@
+b1.gi.10 :: For a wish, suggestion, or request, use k??nnten with wir, plural sie, or formal Sie. Could you show me the way to the nearest pharmacy?
+b1.gi.11 :: For a wish, suggestion, or request, use sollte with ich or the third-person singular. This letter should preferably be sent today.
+b1.gi.12 :: For a wish, suggestion, or request, use h??tten with wir, plural sie, or formal Sie. We would like a room without street noise for the registration.
+b1.gi.13 :: For a wish, suggestion, or request, use w??rdest with du. How would you distribute the limited number of places among the members?
+b1.gi.14 :: For a wish, suggestion, or request, use w??re with ich or the third-person singular. Would it be convenient for you to move the appointment to Thursday?
+b1.gi.15 :: For a wish, suggestion, or request, use sollten with wir, plural sie, or formal Sie. The technicians should record their measurements immediately as a precaution.
+b1.gi.16 :: For a wish, suggestion, or request, use k??nntet with ihr. You could use a little milk instead of cream for the soup.
+b1.gi.17 :: For a wish, suggestion, or request, use w??rden with wir, plural sie, or formal Sie. The travelers would rather be driven directly to the hotel.
+b1.gi.18 :: For a wish, suggestion, or request, use w??re with ich or the third-person singular. My sister would really like to be at the graduation ceremony.
+b1.gi.19 :: For a wish, suggestion, or request, use h??ttet with ihr. Would you prefer a longer break between courses?

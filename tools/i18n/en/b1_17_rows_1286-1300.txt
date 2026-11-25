@@ -1,0 +1,15 @@
+b1.gi.130 :: In the passive after a modal verb, use the past participle followed by the infinitive werden. Photos may only be taken at the construction site with permission.
+b1.gi.131 :: In the passive after a modal verb, use the past participle followed by the infinitive werden. The water level in the basement should be measured before moving in.
+b1.gi.132 :: In the passive after a modal verb, use the past participle followed by the infinitive werden. For safety reasons, the detour must be announced in advance.
+b1.gi.133 :: In the passive after a modal verb, use the past participle followed by the infinitive werden. How can the results be presented in a way everyone can understand?
+b1.gi.134 :: In the passive after a modal verb, use the past participle followed by the infinitive werden. Private messages should not be read aloud during the meeting.
+b1.gi.135 :: In the passive with a modal verb, the past participle geleistet comes before werden. Signatures may only be made here in black ink.
+b1.gi.136 :: In the passive with a modal verb, the past participle gewechselt comes before werden. The bandage on the right foot must be changed today.
+b1.gi.137 :: In the passive with a modal verb, the past participle informiert comes before werden. All members should be informed of the change by email.
+b1.gi.138 :: In the passive with a modal verb, the past participle entfernt comes before werden. Labels with incorrect prices can be removed easily.
+b1.gi.139 :: In the passive with a modal verb, the past participle eingefroren comes before werden. The remaining portions may only be frozen after they have cooled.
+b1.gi.140 :: In the passive with a modal verb, the past participle verfolgt comes before werden. The shipment can be tracked online with this number.
+b1.gi.141 :: In the passive with a modal verb, the past participle getragen comes before werden. During the move, the piano must be carried with particular care.
+b1.gi.142 :: In the passive with a modal verb, the past participle ?berwiesen comes before werden. The amount should be transferred directly to the association's account.
+b1.gi.143 :: In the passive with a modal verb, the past participle getrocknet comes before werden. The wet mats must be dried thoroughly after training.
+b1.gi.144 :: In the passive with a modal verb, the past participle erleichtert comes before werden. A second ramp could make the entrance easier to access.

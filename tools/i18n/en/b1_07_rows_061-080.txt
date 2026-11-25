@@ -1,0 +1,20 @@
+b1.w.31 :: delivery delay
+b1.w.31.ex.0 :: Because of a delivery delay, the wardrobe will not arrive until after the move.
+b1.w.32 :: payslip
+b1.w.32.ex.0 :: Two shifts are missing from the April payslip.
+b1.w.33 :: measure; action
+b1.w.33.ex.0 :: One simple measure to combat the heat was to plant trees in the schoolyard.
+b1.w.34 :: employee participation in decision-making
+b1.w.34.ex.0 :: The employees want more say in the new shift schedule.
+b1.w.35 :: misunderstanding
+b1.w.35.ex.0 :: Because of a misunderstanding about the appointment, we went to the doctor's office on the wrong day.
+b1.w.36 :: follow-up inquiry
+b1.w.36.ex.0 :: The hotel only told me the cost of breakfast after I asked again.
+b1.w.37 :: proof; certificate
+b1.w.37.ex.0 :: For the internship, I need proof of the years I attended school.
+b1.w.38 :: side job
+b1.w.38.ex.0 :: As a side job, she teaches language classes on Saturdays.
+b1.w.39 :: branch; office
+b1.w.39.ex.0 :: The branch in our town accepts parcels even after six o'clock.
+b1.w.40 :: emergency solution; temporary fix
+b1.w.40.ex.0 :: The sofa in the office was a temporary solution for one night.

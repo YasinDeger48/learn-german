@@ -1,0 +1,30 @@
+b1.w.716 :: to slip from someone's hand
+b1.w.716.ex.0 :: While washing the dishes, a glass slipped from his hand and fell into the sink.
+b1.w.717 :: to discourage; to demotivate
+b1.w.717.ex.0 :: The first rejection discouraged her, but her friend supported her.
+b1.w.718 :: pleasing; encouraging
+b1.w.718.ex.0 :: It was especially encouraging that several young people had signed up this time, too.
+b1.w.719 :: to make easier; to facilitate
+b1.w.719.ex.0 :: A clearly visible number makes it easier for emergency services to find the entrance.
+b1.w.720 :: exhaustion
+b1.w.720.ex.0 :: After the long climb, the group sat down by the shore from exhaustion.
+b1.w.721 :: evident; apparent
+b1.w.721.ex.0 :: It was not clear from the message which room we were meeting in.
+b1.w.722 :: for the first time; initially
+b1.w.722.ex.0 :: The new rule will apply for the first time to registrations next spring.
+b1.w.723 :: to expand; to extend
+b1.w.723.ex.0 :: The editorial team added two more dates in July to the overview.
+b1.w.724 :: in stages; phase by phase
+b1.w.724.ex.0 :: Because courses are still running, the building is being renovated in stages.
+b1.w.725 :: fabulous; wonderful
+b1.w.725.ex.0 :: The view over the river was wonderful on that clear morning.
+b1.w.726 :: carpool; carpooling
+b1.w.726.ex.0 :: Since the timetable changed, three colleagues have been carpooling to the morning shift.
+b1.w.727 :: district heating
+b1.w.727.ex.0 :: Since we connected to district heating, we no longer need our own boiler.
+b1.w.728 :: to stick on; to attach with glue
+b1.w.728.ex.0 :: The child attached the string to the back with tape.
+b1.w.729 :: to get stuck; to be stuck
+b1.w.729.ex.0 :: We were stuck in traffic for almost twenty minutes because of roadwork.
+b1.w.730 :: fever thermometer
+b1.w.730.ex.0 :: Our thermometer is in the small drawer next to the bandages.

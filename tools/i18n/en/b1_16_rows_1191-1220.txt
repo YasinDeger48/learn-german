@@ -1,0 +1,30 @@
+b1.g.7.name :: Relative clauses with prepositions, wo, and was
+b1.g.7.rule :: The preposition comes before the relative pronoun: die Kollegin, mit der ich arbeite ?? das Thema, ??ber das wir sprechen. Use wo for places: die Stadt, wo ich wohne. After alles, etwas, nichts, and das, use was: Alles, was du sagst, ???
+b1.g.7.ex.0 :: The woman I built the stall with lives next door.
+b1.g.7.ex.1 :: The question that nobody has answered yet is at the very top.
+b1.g.7.ex.2 :: One thing that really surprised me was the quiet in the hall.
+b1.g.8.name :: Pr??teritum (written past tense)
+b1.g.8.rule :: Regular verbs: stem + -te: machte, wohnte, arbeitete. Irregular verbs change the vowel: gehen ??? ging, kommen ??? kam, sehen ??? sah, finden ??? fand. ich and er/sie have the same form, with no ending: ich ging, er ging ?? du gingst, wir gingen.
+b1.g.8.ex.0 :: When the rain got heavier, Eva closed the shop early.
+b1.g.8.ex.1 :: Despite the cold, Lea swam one more lap in the lake.
+b1.g.8.ex.2 :: Sara wiped the chalk off the board with an old cloth.
+b1.g.9.name :: Plusquamperfekt and nachdem
+b1.g.9.rule :: hatte/war + past participle: an event that happened before another event in the past. Nachdem ich gegessen hatte, ging ich spazieren. The nachdem-clause uses Plusquamperfekt; the main clause uses Pr??teritum (or Perfekt).
+b1.g.9.ex.0 :: After I had turned off the stove, I left the apartment.
+b1.g.9.ex.1 :: The team celebrated after everyone involved had signed the contract.
+b1.g.9.ex.2 :: Our caretaker called the emergency service after the elevator had become stuck.
+b1.g.10.name :: Genitive and genitive prepositions
+b1.g.10.rule :: des + -s/-es (masculine, neuter), der (feminine, plural): das Auto des Nachbarn, die Tasche der Lehrerin. Genitive prepositions: wegen des Regens, trotz der K??lte, w??hrend des Kurses, innerhalb einer Woche, statt eines Briefes.
+b1.g.10.ex.0 :: Because the traffic light was broken, a police officer directed the traffic.
+b1.g.10.ex.1 :: He read three books from the city library within a month.
+b1.g.10.ex.2 :: Two windows of the house face the quiet inner courtyard.
+b1.g.11.name :: Two-part conjunctions
+b1.g.11.rule :: sowohl ??? als auch (both ??? and) ?? weder ??? noch (neither ??? nor) ?? entweder ??? oder (either ??? or) ?? nicht nur ??? sondern auch (not only ??? but also) ?? zwar ??? aber (although ??? but) ?? je ??? desto (the ???, the ???): Je fr??her wir fahren, desto weniger Verkehr gibt es.
+b1.g.11.ex.0 :: The apartment has both a balcony and a small garden.
+b1.g.11.ex.1 :: The company delivers to both private customers and small businesses.
+b1.g.11.ex.2 :: Both the empty jars and the old garden chairs are stored in the basement.
+b1.g.12.name :: Subordinate clauses: obwohl, bevor, seitdem, bis, damit, falls, sodass
+b1.g.12.rule :: obwohl: although ?? bevor: before ?? seitdem: since ?? bis: until ?? damit: so that (purpose, with two different subjects) ?? falls: if, in case ?? sodass: so that, with the result that. The conjugated verb goes at the end.
+b1.g.12.ex.0 :: Although the hall was almost empty, the band played a full concert.
+b1.g.12.ex.1 :: Leave the cake until the icing has become completely firm.
+b1.g.12.ex.2 :: The ticket was damaged, so the machine could not read the code.

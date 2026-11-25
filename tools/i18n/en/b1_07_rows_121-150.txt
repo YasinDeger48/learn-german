@@ -1,0 +1,30 @@
+b1.w.61 :: responsibility
+b1.w.61.ex.0 :: Who is responsible for the youth center keys this week?
+b1.w.62 :: agreement
+b1.w.62.ex.0 :: According to the agreement, we will share the garden expenses starting in June.
+b1.w.63 :: extension; renewal
+b1.w.63.ex.0 :: I need a new photo to renew my library card.
+b1.w.64 :: placement; arrangement
+b1.w.64.ex.0 :: My daughter found an internship through the school's placement service.
+b1.w.65 :: requirement; prerequisite
+b1.w.65.ex.0 :: You do not need your own bicycle to take part in the course.
+b1.w.66 :: incident
+b1.w.66.ex.0 :: After the incident at the entrance, the school informed the parents.
+b1.w.67 :: maintenance; servicing
+b1.w.67.ex.0 :: The elevator will be out of service until the afternoon during maintenance.
+b1.w.68 :: objection; appeal
+b1.w.68.ex.0 :: In her appeal, the tenant explains why she thinks the bill is wrong.
+b1.w.69 :: responsibility; jurisdiction
+b1.w.69.ex.0 :: The city, not the association, is responsible for the playground.
+b1.w.70 :: subsidy; grant
+b1.w.70.ex.0 :: The company gives a small subsidy for the monthly travel pass.
+b1.w.71 :: to weigh; to consider
+b1.w.71.ex.0 :: We weighed whether moving would be worthwhile to shorten the commute.
+b1.w.72 :: to recognize; to accept
+b1.w.72.ex.0 :: The school recognizes the certificate from abroad.
+b1.w.73 :: to challenge; to appeal
+b1.w.73.ex.0 :: The tenants want to challenge the decision together.
+b1.w.74 :: to make up for; to compensate
+b1.w.74.ex.0 :: I can make up the missing hour on Friday.
+b1.w.75 :: to evaluate; to analyze
+b1.w.75.ex.0 :: The association is evaluating the survey responses over the weekend.

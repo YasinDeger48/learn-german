@@ -1,0 +1,15 @@
+b1.gi.340 :: Bis indicates when the waiting will end in a subordinate clause, and the conjugated verb goes at the end. Leave the cake until the icing has become completely firm.
+b1.gi.341 :: Damit expresses the purpose of an action in a subordinate clause, and the conjugated verb goes at the end. The teacher opened the window so that the class could get some fresh air.
+b1.gi.342 :: Falls introduces a possible condition in a subordinate clause, and the conjugated verb goes at the end. Give me a quick call if you can't find anyone at the station.
+b1.gi.343 :: Sodass introduces the result of the preceding action in a subordinate clause, and the conjugated verb goes at the end. The printer had run out, so no more invitations could be printed.
+b1.gi.344 :: Obwohl introduces an unexpected situation in a subordinate clause, and the conjugated verb goes at the end. Although she was tired, Elif still helped her neighbor move.
+b1.gi.345 :: Bevor introduces an action that happens earlier in a subordinate clause, and the conjugated verb goes at the end. Let reception know before you enter the building for the first time.
+b1.gi.346 :: Seitdem indicates when an ongoing situation began in a subordinate clause, and the conjugated verb goes at the end. It has become quieter since fewer trains have been passing through the city at night.
+b1.gi.347 :: Bis indicates when the waiting will end in a subordinate clause, and the conjugated verb goes at the end. Keep the door open until all the instruments have been brought into the room.
+b1.gi.348 :: Damit expresses the purpose of an action in a subordinate clause, and the conjugated verb goes at the end. I set my alarm earlier so that I can catch the first bus.
+b1.gi.349 :: Falls introduces a possible condition in a subordinate clause, and the conjugated verb goes at the end. If you still have questions, I will send you my notes.
+b1.gi.350 :: Sodass introduces the result of the preceding action in a subordinate clause, and the conjugated verb goes at the end. The ticket was damaged, so the machine could not read the code.
+b1.gi.351 :: Obwohl introduces an unexpected situation in a subordinate clause, and the conjugated verb goes at the end. The dog stayed calm even though a loud bang could be heard outside several times.
+b1.gi.352 :: Bevor introduces an action that happens earlier in a subordinate clause, and the conjugated verb goes at the end. Test the brakes in the courtyard before you ride onto the street.
+b1.gi.353 :: Seitdem indicates when an ongoing situation began in a subordinate clause, and the conjugated verb goes at the end. We use less heating since the living-room windows were replaced.
+b1.gi.354 :: Bis indicates when the waiting will end in a subordinate clause, and the conjugated verb goes at the end. You can wait at the entrance until the doctor calls you.

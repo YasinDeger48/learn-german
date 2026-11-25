@@ -1,0 +1,30 @@
+b1.gi.480 :: The doctor called the patient in from the waiting room.
+b1.gi.481 :: I only told my colleague about the small accident later.
+b1.gi.482 :: The manager informed a tourist about the change in departure time.
+b1.gi.483 :: We received the first detailed draft for the house from the architect.
+b1.gi.484 :: The boy's mother came to pick up the jacket he had forgotten.
+b1.gi.485 :: At the zoo, the keeper gave a young bear some fresh food.
+b1.gi.486 :: The seller promised the customer a discount on the screen.
+b1.gi.487 :: At the end, the association thanked the president for his visit.
+b1.gi.488 :: We photographed the elephant behind the fence from a distance.
+b1.gi.489 :: The expert's opinion particularly interested the listeners.
+b1.gi.490 :: At reception, Sofia asked a gentleman for his room number.
+b1.gi.491 :: I share the basement room with a neighbor from upstairs.
+b1.gi.492 :: During the demonstration, the manager explained the new machine to an interested person.
+b1.gi.493 :: The new intern's ID from Vienna was lying on the desk.
+b1.gi.494 :: The host handed the microphone to a diplomat from Canada.
+b1.gi.495 :: Beside the town hall, a reporter interviewed a witness to the attack.
+b1.gi.496 :: He only noticed the delivery courier when he looked again.
+b1.gi.497 :: At the travel agency, she spoke with a candidate from Portugal.
+b1.gi.498 :: We got useful information from the first speaker from abroad.
+b1.gi.499 :: The student's glasses were at the very back, under the newspapers.
+b1.gi.500 :: During practice, the coach spoke with an injured athlete.
+b1.gi.501 :: In the forest, the children found a rabbit's tracks in the snow.
+b1.gi.502 :: After the competition, the reporter asked the favorite athlete a question.
+b1.gi.503 :: On the street, I greeted a Frenchman from the language course.
+b1.gi.504 :: According to the assistant's message, the branch will remain closed tomorrow.
+b1.gi.505 :: The child gave their godfather a handmade card as a farewell gift.
+b1.gi.506 :: Around noon, the police asked a passerby for a brief statement.
+b1.gi.507 :: At the concert, I sat right next to a well-known pianist.
+b1.gi.508 :: Behind the hall, I met a conductor from the orchestra.
+b1.gi.509 :: We sent the lawyer a copy of the first page.

@@ -1,0 +1,15 @@
+b1.gi.175 :: With empfehlen, the thing being recommended takes the accusative. There is a snack bar next to the park that I can recommend to you.
+b1.gi.176 :: With zur?ckgeben, the person receiving something back takes the dative. Is this the woman you returned the phone to yesterday?
+b1.gi.177 :: Familien is the subject of renovieren in the relative clause. Several families who are renovating their apartments are storing furniture in the basement.
+b1.gi.178 :: The masculine accusative object of finden is marked with den. Whose dog is the one you found on your walk?
+b1.gi.179 :: With leihen, the person borrowing something takes the dative. A friend to whom I had lent my tools brought them back.
+b1.gi.180 :: Mit takes the dative; the feminine form is der. The woman with whom I set up the stall lives next door.
+b1.gi.181 :: In takes the dative for location; the masculine form is dem. Where is the folder in which you put the receipts?
+b1.gi.182 :: F?r takes the accusative; the masculine form is den. The course I signed up for starts in May.
+b1.gi.183 :: The relative pronoun was follows the word alles. Everything you need for your first day at work is there.
+b1.gi.184 :: Wo is used in a relative clause referring to a place. My brother lives in Bonn, where he is also doing his vocational training.
+b1.gi.185 :: Nach takes the dative; the feminine form is der. The training session after which we are allowed to test the devices lasts two hours.
+b1.gi.186 :: Was can follow the demonstrative pronoun das. He often forgets what he has just read.
+b1.gi.187 :: Aus takes the dative; the plural form is denen. Here are the boards out of which we want to build the bench.
+b1.gi.188 :: Vor takes the dative for location; the neuter form is dem. The office in front of which the delivery van was parked yesterday will remain closed.
+b1.gi.189 :: Wo is used in a relative clause referring to a place. The meeting took place in Kiel, where my aunt studied.

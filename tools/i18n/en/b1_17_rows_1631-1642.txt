@@ -1,0 +1,12 @@
+b1.gi.385 :: Statt ? zu expresses doing one action instead of another. The kitchen now uses cloth towels instead of constantly buying new paper.
+b1.gi.386 :: Um ? zu expresses purpose. I am saving the address so I can find it quickly again tomorrow.
+b1.gi.387 :: Ohne ? zu expresses not doing something. The bus stopped briefly without opening its doors.
+b1.gi.388 :: Statt ? zu expresses doing one action instead of another. Instead of buying new glasses, the association asked to borrow some.
+b1.gi.389 :: Um ? zu expresses purpose. The child put on gloves to continue building the snowman.
+b1.gi.390 :: For things rather than people, the preposition auf combines with wo to form worauf. Are you waiting for the parcel or for a phone call?
+b1.gi.391 :: For things rather than people, the preposition aus combines with wo to form woraus. Is the filling made from apples or plums?
+b1.gi.392 :: For things rather than people, the preposition ?ber combines with wo to form wor?ber. What are you most looking forward to at your new workplace?
+b1.gi.393 :: For things rather than people, the preposition f?r combines with wo to form wof?r. What have you chosen for the trip, the forest or the old town?
+b1.gi.394 :: For things rather than people, the preposition von combines with wo to form wovon. Does the delivery time depend on the weather or the route?
+b1.gi.395 :: For things rather than people, the preposition an combines with wo to form woran. What do you often think about on the way, the appointment or the weekend?
+b1.gi.396 :: For things rather than people, the preposition mit combines with wo to form womit. What are you expecting tomorrow, rain or strong winds?

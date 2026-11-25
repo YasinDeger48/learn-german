@@ -1,0 +1,15 @@
+b1.gi.55 :: In an unreal condition, use k??nnte with ich or the third-person singular. A window in the bathroom could help if the ventilation failed again.
+b1.gi.56 :: In an unreal condition, use w??ren with wir, plural sie, or formal Sie. If the data were complete, the statement could be checked immediately.
+b1.gi.57 :: In an unreal condition, use w??rde with ich or the third-person singular. I would carry less cash if the market accepted card payments.
+b1.gi.58 :: In an unreal condition, use w??rde with ich or the third-person singular. If the driveway were clear, the garbage collection would not have to wait until tomorrow.
+b1.gi.59 :: In an unreal condition, use w??ren with wir, plural sie, or formal Sie. If both printers were broken, the participants would have to fill out the form by hand.
+b1.gi.60 :: In the present passive, wird agrees with the subject and the main verb is in the past participle. The entrance card is issued at reception on the first visit.
+b1.gi.61 :: In the present passive, werden agrees with the subject and the main verb is in the past participle. The lockers at the swimming pool are checked every evening.
+b1.gi.62 :: In the present passive, wird agrees with the subject and the main verb is in the past participle. Why is the garbage sorted by color here?
+b1.gi.63 :: In the present passive, werden agrees with the subject and the main verb is in the past participle. New timetables are being put up at the stop right now.
+b1.gi.64 :: In the present passive, wirst agrees with the subject and the main verb is in the past participle. As a beginner, you are being trained by an experienced colleague.
+b1.gi.65 :: In the present passive, werde agrees with the subject and the main verb is in the past participle. I am asked about my medications during the examination.
+b1.gi.66 :: In the present passive, wird agrees with the subject and the main verb is in the past participle. The bridge is being closed to traffic right now.
+b1.gi.67 :: In the present passive, werdet agrees with the subject and the main verb is in the past participle. Are you (plural) asked for your tickets at the entrance?
+b1.gi.68 :: In the present passive, werden agrees with the subject and the main verb is in the past participle. Which number should heating problems be reported to?
+b1.gi.69 :: In the present passive, wird agrees with the subject and the main verb is in the past participle. The winner is being announced live on the radio today.

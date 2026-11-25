@@ -1,0 +1,30 @@
+b1.w.221 :: answering machine; voicemail
+b1.w.221.ex.0 :: The doctor's office announces its new summer opening hours on the answering machine.
+b1.w.222 :: to acquire; to purchase
+b1.w.222.ex.0 :: The association bought two used devices for the course.
+b1.w.223 :: mailing address
+b1.w.223.ex.0 :: Please write your full mailing address in the upper-left corner of the envelope.
+b1.w.224 :: to bring up; to address
+b1.w.224.ex.0 :: After viewing the house, I brought up the heating with the landlord.
+b1.w.225 :: instruction; direction
+b1.w.225.ex.0 :: The instruction on the device helped me on my first try.
+b1.w.226 :: present; in attendance
+b1.w.226.ex.0 :: All the working group's members were personally present when the decision was made.
+b1.w.227 :: workflow; work process
+b1.w.227.ex.0 :: The new workflow saves time because we enter the addresses only once.
+b1.w.228 :: employment agency
+b1.w.228.ex.0 :: My sister made an appointment for career advice at the employment agency.
+b1.w.229 :: work instruction; operating instruction
+b1.w.229.ex.0 :: Before starting the machine, I read the work instructions once again.
+b1.w.230 :: employment contract
+b1.w.230.ex.0 :: I did not sign my employment contract until after the second interview.
+b1.w.231 :: in the long term; permanently
+b1.w.231.ex.0 :: Taking a taxi will become too expensive in the long term.
+b1.w.232 :: stay; visit
+b1.w.232.ex.0 :: During my stay in Leipzig, I could reach almost everywhere on foot.
+b1.w.233 :: to stand out; to be noticed
+b1.w.233.ex.0 :: I only noticed that one of the prices was wrong when I paid.
+b1.w.234 :: surcharge; extra charge
+b1.w.234.ex.0 :: A room overlooking the garden costs a small extra charge per night.
+b1.w.235 :: division; allocation
+b1.w.235.ex.0 :: With the new division of tasks, we finish work earlier on Fridays.

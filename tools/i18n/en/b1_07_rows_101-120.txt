@@ -1,0 +1,20 @@
+b1.w.51 :: insurance excess; deductible
+b1.w.51.ex.0 :: The insurance covers the repair, but my deductible is one hundred euros.
+b1.w.52 :: regular customers; loyal clientele
+b1.w.52.ex.0 :: Since the move, many of the regular customers have continued to come to the shop.
+b1.w.53 :: deputy; substitute
+b1.w.53.ex.0 :: While the others are on vacation, Cem is acting as the deputy in the office.
+b1.w.54 :: cancellation
+b1.w.54.ex.0 :: I received a confirmation after canceling the hotel.
+b1.w.55 :: certificate of attendance
+b1.w.55.ex.0 :: The course attendance certificate arrived by mail a week later.
+b1.w.56 :: handover
+b1.w.56.ex.0 :: When the apartment was handed over, we took photos of the damage in the hallway.
+b1.w.57 :: overview; summary
+b1.w.57.ex.0 :: The overview shows how much we have spent on tickets this month.
+b1.w.58 :: survey; poll
+b1.w.58.ex.0 :: In the survey, local residents could list three things they wanted for their park.
+b1.w.59 :: retraining; vocational retraining
+b1.w.59.ex.0 :: After the factory closed, he began retraining as a bus driver.
+b1.w.60 :: inconvenience
+b1.w.60.ex.0 :: The shop apologized for the inconvenience with the delivery.

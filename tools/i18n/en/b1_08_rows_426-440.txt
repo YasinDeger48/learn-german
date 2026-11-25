@@ -1,0 +1,30 @@
+b1.w.266 :: report; news report
+b1.w.266.ex.0 :: The radio report explains why several bus routes are not running today.
+b1.w.267 :: start of one's career; entry into a profession
+b1.w.267.ex.0 :: Starting her career was easier because she had done an internship before.
+b1.w.268 :: to damage
+b1.w.268.ex.0 :: We accidentally damaged the hallway wall while carrying things.
+b1.w.269 :: to obtain; to procure
+b1.w.269.ex.0 :: Our teacher is obtaining two more large tables for the exhibition.
+b1.w.270 :: certificate; written confirmation
+b1.w.270.ex.0 :: My son needs a certificate from school for swimming practice.
+b1.w.271 :: to speed up; to accelerate
+b1.w.271.ex.0 :: The online form made course registration considerably faster.
+b1.w.272 :: to limit; to restrict
+b1.w.272.ex.0 :: The museum limits group size to twelve people per tour.
+b1.w.273 :: order deadline
+b1.w.273.ex.0 :: The ordering deadline is Thursday because no goods are delivered on Mondays.
+b1.w.274 :: to deny; to dispute
+b1.w.274.ex.0 :: The driver denies parking the vehicle at the entrance.
+b1.w.275 :: to affect; to concern
+b1.w.275.ex.0 :: The change affects only families whose children are cared for in the afternoon.
+b1.w.276 :: to look after; to supervise
+b1.w.276.ex.0 :: In the afternoon, two staff members look after the children in the next room.
+b1.w.277 :: population; residents
+b1.w.277.ex.0 :: A large part of the population regularly takes the bus to work.
+b1.w.278 :: to prefer
+b1.w.278.ex.0 :: When shopping, I prefer products from our own region.
+b1.w.279 :: to preserve; to keep
+b1.w.279.ex.0 :: The family keeps the old letters in a dry box.
+b1.w.280 :: to evaluate; to assess
+b1.w.280.ex.0 :: After the trial month, the team evaluates the new shift schedule together.

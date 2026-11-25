@@ -1,0 +1,10 @@
+b1.gi.20 :: For a wish, suggestion, or request, use solltest with du. First, you should ask the seller for the missing invoice.
+b1.gi.21 :: For a wish, suggestion, or request, use w??rden with wir, plural sie, or formal Sie. What would you recommend to a child who is afraid of dogs?
+b1.gi.22 :: For a wish, suggestion, or request, use h??tte with ich or the third-person singular. I would like a piece of the plum cake.
+b1.gi.23 :: For a wish, suggestion, or request, use k??nnte with ich or the third-person singular. With a little luck, the tailor could shorten the trousers by Saturday.
+b1.gi.24 :: For a wish, suggestion, or request, use w??ren with wir, plural sie, or formal Sie. In a larger team, the three of us would feel less alone.
+b1.gi.25 :: For a wish, suggestion, or request, use h??ttest with du. If only you had more confidence in your own ideas!
+b1.gi.26 :: For a wish, suggestion, or request, use k??nnte with ich or the third-person singular. The crowding at the entrance could be prevented by making two separate lines.
+b1.gi.27 :: For a wish, suggestion, or request, use w??rde with ich or the third-person singular. After a night shift like that, I would postpone the meeting until tomorrow.
+b1.gi.28 :: For a wish, suggestion, or request, use w??rt with ihr. Dear parents, would you be willing to help tidy up the gym?
+b1.gi.29 :: For a wish, suggestion, or request, use w??rst with du. Where would you most like to be right now, in the city or in the countryside?

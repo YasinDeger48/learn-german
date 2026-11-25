@@ -1,0 +1,30 @@
+b1.w.611 :: cancellation; deregistration
+b1.w.611.ex.0 :: Course registration had to be canceled in writing by the end of the month.
+b1.w.612 :: inspection; acceptance check
+b1.w.612.ex.0 :: During the handover inspection, both parties checked the walls and windows.
+b1.w.613 :: paragraph; heel
+b1.w.613.ex.0 :: In the final paragraph, the author explains the main advantage of the arrangement.
+b1.w.614 :: spacer; spacing piece
+b1.w.614.ex.0 :: The repairman placed small plastic spacers between the tiles.
+b1.w.615 :: to feel; to examine by touch
+b1.w.615.ex.0 :: The doctor carefully felt her wrist after the fall.
+b1.w.616 :: to process; to handle
+b1.w.616.ex.0 :: The shop handles exchanges directly at the checkout in the back.
+b1.w.617 :: carelessly; thoughtlessly
+b1.w.617.ex.0 :: Someone had carelessly put the still-damp blanket on top of the box.
+b1.w.618 :: farmland; arable land
+b1.w.618.ex.0 :: Behind the village, wide fields begin, crossed by several narrow paths.
+b1.w.619 :: document folder; file folder
+b1.w.619.ex.0 :: Her document folder remained closed throughout the interview.
+b1.w.620 :: alarm system
+b1.w.620.ex.0 :: An open window set off the shop's alarm system during the night.
+b1.w.621 :: extension; annex
+b1.w.621.ex.0 :: Since March, the music classes have been held in the school's bright annex.
+b1.w.622 :: enclosed; attached
+b1.w.622.ex.0 :: Attached is a copy of the receipt for the fee that was transferred.
+b1.w.623 :: to hint; to suggest
+b1.w.623.ex.0 :: On the phone, the manager hinted that the plan might change.
+b1.w.624 :: to rub someone the wrong way; to cause offense
+b1.w.624.ex.0 :: Lukas rubbed people the wrong way at the first meeting with his direct questions.
+b1.w.625 :: journey to; approach
+b1.w.625.ex.0 :: The easiest way to get to the trade fair is to take the first train.

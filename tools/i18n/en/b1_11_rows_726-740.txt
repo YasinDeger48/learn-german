@@ -1,0 +1,30 @@
+b1.w.581 :: optionally; as an option
+b1.w.581.ex.0 :: For lunch, you can choose either a green salad or soup.
+b1.w.582 :: queue ticket; waiting number
+b1.w.582.ex.0 :: My queue ticket was crumpled, but the number was still easy to read.
+b1.w.583 :: waterproof
+b1.w.583.ex.0 :: The small bag stayed waterproof in the rain during the boat trip.
+b1.w.584 :: waterproofness; water resistance
+b1.w.584.ex.0 :: Waterproofness is especially important to me when buying a raincoat.
+b1.w.585 :: change of clothes; spare clothes
+b1.w.585.ex.0 :: The parents packed a change of clothes for the trip, just in case.
+b1.w.586 :: to put away; to clear away
+b1.w.586.ex.0 :: We cleared the boxes out of the hallway before the guests arrived.
+b1.w.587 :: signpost; direction sign
+b1.w.587.ex.0 :: Behind the parking lot, a wooden sign pointed to the lookout.
+b1.w.588 :: largely; mostly
+b1.w.588.ex.0 :: After two days off, the back pain had mostly disappeared.
+b1.w.589 :: appreciation; esteem
+b1.w.589.ex.0 :: A sincere compliment shows more appreciation than a generic email sent to everyone.
+b1.w.590 :: contradictory; inconsistent
+b1.w.590.ex.0 :: The departure information was so contradictory that I asked at the ticket counter.
+b1.w.591 :: reopening
+b1.w.591.ex.0 :: The neighbors brought cakes and flowers to the library's reopening.
+b1.w.592 :: arbitrarily; randomly
+b1.w.592.ex.0 :: The tasks were assigned according to the team's experience, not at random.
+b1.w.593 :: living area; floor area
+b1.w.593.ex.0 :: Only part of the open balcony is included in the living area.
+b1.w.594 :: payment deadline
+b1.w.594.ex.0 :: I received a friendly reminder one week before the payment deadline.
+b1.w.595 :: time required; time commitment
+b1.w.595.ex.0 :: I had greatly underestimated how long the painting would take.

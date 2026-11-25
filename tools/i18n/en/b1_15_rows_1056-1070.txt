@@ -1,0 +1,30 @@
+b1.w.896 :: mainly; primarily
+b1.w.896.ex.0 :: At the market, my aunt mainly sells vegetables from her garden.
+b1.w.897 :: main cause; primary reason
+b1.w.897.ex.0 :: The driver named the closed railway crossing as the main cause of the delay.
+b1.w.898 :: delicate; tricky
+b1.w.898.ex.0 :: The question about rent was especially delicate at the first meeting.
+b1.w.899 :: heating bill; heating cost statement
+b1.w.899.ex.0 :: The heating bill for last winter did not arrive until summer.
+b1.w.900 :: hectic; frantic
+b1.w.900.ex.0 :: Things became hectic at the platform when a different track was announced.
+b1.w.901 :: to lift out; to highlight
+b1.w.901.ex.0 :: The two of them lifted the heavy pot out of the vehicle.
+b1.w.902 :: place of origin; source location
+b1.w.902.ex.0 :: A sign at the stall showed where the strawberries came from.
+b1.w.903 :: traditional; conventional
+b1.w.903.ex.0 :: The conventional lamp uses more electricity than the small new model.
+b1.w.904 :: relief effort; aid campaign
+b1.w.904.ex.0 :: The relief effort for the affected families began right after the storm.
+b1.w.905 :: now and then; occasionally
+b1.w.905.ex.0 :: My neighbor occasionally works at the library on weekends.
+b1.w.906 :: to listen carefully
+b1.w.906.ex.0 :: If you listen carefully, you can hear church bells in the background.
+b1.w.907 :: to look closely
+b1.w.907.ex.0 :: Berrin looked more closely at the second photo and recognized the old sign.
+b1.w.908 :: to sit down
+b1.w.908.ex.0 :: After the long walk, Nele sat down on the first empty bench she found.
+b1.w.909 :: background music
+b1.w.909.ex.0 :: The loud background music from the next room was distracting during the interview.
+b1.w.910 :: to leave in safekeeping; to deposit
+b1.w.910.ex.0 :: The family left the spare key with a neighbor on the ground floor.

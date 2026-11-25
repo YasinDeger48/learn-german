@@ -1,0 +1,30 @@
+b1.w.161 :: bottleneck; temporary shortage
+b1.w.161.ex.0 :: Because of a temporary shortage, we were able to deliver only a third of the orders this week.
+b1.w.162 :: relief; easing of the burden
+b1.w.162.ex.0 :: The shuttle service is a great help to many families.
+b1.w.163 :: compensation; damages
+b1.w.163.ex.0 :: The company offered compensation because of the delay.
+b1.w.164 :: diet; eating habits
+b1.w.164.ex.0 :: Everyone in our family has slightly different eating habits.
+b1.w.165 :: volunteer work
+b1.w.165.ex.0 :: I met my neighbors while volunteering in the park.
+b1.w.166 :: extension of the deadline
+b1.w.166.ex.0 :: He applied for an extension because some documents were missing.
+b1.w.167 :: building management
+b1.w.167.ex.0 :: The building management will inform us about the roof work tomorrow.
+b1.w.168 :: hazard; dangerous spot
+b1.w.168.ex.0 :: The parents reported the dark intersection as a dangerous spot.
+b1.w.169 :: equal treatment
+b1.w.169.ex.0 :: When people register, the association makes sure all members are treated equally.
+b1.w.170 :: handling; operation
+b1.w.170.ex.0 :: How to operate the device is explained on an illustrated sheet.
+b1.w.171 :: information event; briefing session
+b1.w.171.ex.0 :: After the information session, I was able to ask questions about registration.
+b1.w.172 :: daycare center; childcare center
+b1.w.172.ex.0 :: The daycare center opens earlier now that more parents work shifts.
+b1.w.173 :: communication
+b1.w.173.ex.0 :: Since we started having short meetings, communication within the team has improved.
+b1.w.174 :: competition; competitors
+b1.w.174.ex.0 :: Despite strong competition, the small shop has many loyal customers.
+b1.w.175 :: proof of achievement; performance record
+b1.w.175.ex.0 :: She was able to submit an internship report as proof of her work.

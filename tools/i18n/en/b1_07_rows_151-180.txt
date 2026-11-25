@@ -1,0 +1,30 @@
+b1.w.76 :: to report; to object to
+b1.w.76.ex.0 :: I immediately reported the damaged delivery to the retailer.
+b1.w.77 :: to fear; to be concerned
+b1.w.77.ex.0 :: The parents are worried that there will not be enough places in the new course.
+b1.w.78 :: to limit
+b1.w.78.ex.0 :: The school limits the number of guests to two per child.
+b1.w.79 :: to take into account; to consider
+b1.w.79.ex.0 :: When planning, we took into account that some families are only free in the evening.
+b1.w.80 :: to certify; to confirm
+b1.w.80.ex.0 :: The school certifies that I completed the course.
+b1.w.81 :: to restrict; to limit
+b1.w.81.ex.0 :: The construction work is restricting traffic in front of the school.
+b1.w.82 :: to object; to point out
+b1.w.82.ex.0 :: One mother objects, pointing out that the last bus leaves at eight.
+b1.w.83 :: to relieve; to ease the burden on
+b1.w.83.ex.0 :: The new shuttle service helps parents who work early in the morning.
+b1.w.84 :: to correspond to; to meet
+b1.w.84.ex.0 :: The shelf that was delivered does not match the measurements in the advertisement.
+b1.w.85 :: to disappoint
+b1.w.85.ex.0 :: The sudden cancellation disappointed all of us.
+b1.w.86 :: to explain; to clarify
+b1.w.86.ex.0 :: The employee explains the process using an example.
+b1.w.87 :: to make more difficult; to hinder
+b1.w.87.ex.0 :: The lack of an elevator makes it harder to access the doctor's office.
+b1.w.88 :: to reimburse; to refund
+b1.w.88.ex.0 :: The shop reimbursed me for the return shipping costs.
+b1.w.89 :: to ensure; to guarantee
+b1.w.89.ex.0 :: Having a second person at reception should ensure short waiting times.
+b1.w.90 :: to emphasize; to highlight
+b1.w.90.ex.0 :: In the report, the school particularly highlights the volunteers' work.

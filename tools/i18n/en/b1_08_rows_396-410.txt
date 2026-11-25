@@ -1,0 +1,30 @@
+b1.w.236 :: explicitly; expressly
+b1.w.236.ex.0 :: The teacher explicitly said that we do not need any new books.
+b1.w.237 :: starting point
+b1.w.237.ex.0 :: We chose the train station as the starting point for the hike.
+b1.w.238 :: of all days; just when
+b1.w.238.ex.0 :: Of all days, the first bus was canceled on the day of my exam.
+b1.w.239 :: to help out temporarily
+b1.w.239.ex.0 :: My sister is helping out at the bakery on Saturday.
+b1.w.240 :: to trigger; to set off
+b1.w.240.ex.0 :: The open window set off an alarm in the office.
+b1.w.241 :: exception
+b1.w.241.ex.0 :: The manager made an exception today so someone could visit a sick person.
+b1.w.242 :: to rule out; to exclude
+b1.w.242.ex.0 :: We cannot rule out an additional fee with this offer.
+b1.w.243 :: out of order; out of service
+b1.w.243.ex.0 :: The elevator is out of service until Monday, so we are taking the stairs.
+b1.w.244 :: to suspend; to pause
+b1.w.244.ex.0 :: The school is suspending the sports course for a week because of the heat.
+b1.w.245 :: view; prospect
+b1.w.245.ex.0 :: The view from the room was lovely, but the elevator was broken.
+b1.w.246 :: equipment; amenities
+b1.w.246.ex.0 :: The holiday apartment comes with two bicycles and a washing machine.
+b1.w.247 :: selection; choice
+b1.w.247.ex.0 :: The small bakery had a surprisingly large selection for the celebration.
+b1.w.248 :: author reading
+b1.w.248.ex.0 :: At the author's reading, the writer also talked about her childhood.
+b1.w.249 :: construction work; building project
+b1.w.249.ex.0 :: The construction work on the bridge will probably continue until the end of September.
+b1.w.250 :: construction fence
+b1.w.250.ex.0 :: There is still room for a safe footpath behind the construction fence.

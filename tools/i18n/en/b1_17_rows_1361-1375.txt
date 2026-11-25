@@ -1,0 +1,15 @@
+b1.gi.100 :: The present perfect passive is formed with sein + past participle + worden. During the renovation, the old window was carefully removed.
+b1.gi.101 :: In the Pr??teritum passive, wurdet agrees with the subject and the main verb is in the past participle. Were you (plural) taken to the hospital right after the accident?
+b1.gi.102 :: The present perfect passive is formed with sein + past participle + worden. When were the first invitations for the city festival sent?
+b1.gi.103 :: In the Pr??teritum passive, wurden agrees with the subject and the main verb is in the past participle. Back then, all the letters were still sorted by hand at the town hall.
+b1.gi.104 :: The present perfect passive is formed with sein + past participle + worden. The error was only discovered during the second check.
+b1.gi.105 :: In the Pr??teritum passive, wurde agrees with the subject and the main verb is in the past participle. Last Monday, I was asked for my signature.
+b1.gi.106 :: The present perfect passive is formed with sein + past participle + worden. Where was the film about migratory birds made?
+b1.gi.107 :: In the Pr??teritum passive, wurden agrees with the subject and the main verb is in the past participle. In the last match, three goals were disallowed for offside.
+b1.gi.108 :: The present perfect passive is formed with sein + past participle + worden. Rare coins from Italy have been loaned for the new exhibition.
+b1.gi.109 :: In the Pr??teritum passive, wurden agrees with the subject and the main verb is in the past participle. You were called back on the same day after your complaint.
+b1.gi.110 :: The present perfect passive is formed with sein + past participle + worden. Has the air quality in the underground car park already been checked?
+b1.gi.111 :: In the Pr??teritum passive, wurde agrees with the subject and the main verb is in the past participle. The password for the association account was changed just now without warning.
+b1.gi.112 :: The present perfect passive is formed with sein + past participle + worden. The remaining portions were eventually distributed to the neighbors.
+b1.gi.113 :: In the Pr??teritum passive, wurdest agrees with the subject and the main verb is in the past participle. Why were you asked your age before the concert yesterday?
+b1.gi.114 :: The present perfect passive is formed with sein + past participle + worden. For this reason, the rate was increased last year.

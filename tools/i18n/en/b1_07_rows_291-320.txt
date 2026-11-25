@@ -1,0 +1,30 @@
+b1.w.146 :: credit; recognition of prior learning
+b1.w.146.ex.0 :: The school is checking whether the previous course can be credited.
+b1.w.147 :: share; proportion
+b1.w.147.ex.0 :: A large proportion of the participants travel by public transport.
+b1.w.148 :: applicant
+b1.w.148.ex.0 :: The applicant must sign on the last page.
+b1.w.149 :: workload
+b1.w.149.ex.0 :: The workload at the hotel is particularly high during the holiday season.
+b1.w.150 :: authorization; permission
+b1.w.150.ex.0 :: You need authorization from the office to enter the room.
+b1.w.151 :: advisor; consultant
+b1.w.151.ex.0 :: The advisor discussed three possible paths to vocational training with me.
+b1.w.152 :: career counseling
+b1.w.152.ex.0 :: During career counseling, I found out which jobs match my interests.
+b1.w.153 :: employment; occupation
+b1.w.153.ex.0 :: She is looking for a job that also lets her work in the afternoon.
+b1.w.154 :: confirmation email
+b1.w.154.ex.0 :: The course confirmation email ended up in the spam folder.
+b1.w.155 :: care worker; supervisor
+b1.w.155.ex.0 :: After school, a care worker waits with the children at the entrance.
+b1.w.156 :: data protection; privacy
+b1.w.156.ex.0 :: To protect people's data, the association makes sure not to display addresses publicly.
+b1.w.157 :: personal contribution; share of the cost
+b1.w.157.ex.0 :: Each family pays five euros toward the cost of the trip.
+b1.w.158 :: onboarding; training period
+b1.w.158.ex.0 :: During onboarding, I can ask my experienced colleague questions at any time.
+b1.w.159 :: savings; cost reduction
+b1.w.159.ex.0 :: The savings on electricity showed up on the bill after a month.
+b1.w.160 :: attitude; opinion
+b1.w.160.ex.0 :: The new bike path changed her attitude toward cycling.

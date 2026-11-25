@@ -1,0 +1,30 @@
+b1.w.671 :: strenuous; arduous
+b1.w.671.ex.0 :: The steep path was much more strenuous with a heavy backpack.
+b1.w.672 :: order overview; order summary
+b1.w.672.ex.0 :: You can also find the quantity of each item in the order overview.
+b1.w.673 :: to sprinkle; to top with
+b1.w.673.ex.0 :: Cem sprinkled freshly chopped parsley over the soup before serving it.
+b1.w.674 :: steady; consistent
+b1.w.674.ex.0 :: Demand for used bicycles remained surprisingly steady in the fall.
+b1.w.675 :: operational disruption; service disruption
+b1.w.675.ex.0 :: Because of a service disruption, no trains are running through the tunnel today.
+b1.w.676 :: to press; to operate
+b1.w.676.ex.0 :: To open the door, press the green button on the left.
+b1.w.677 :: freedom of movement
+b1.w.677.ex.0 :: The dancers had much more freedom of movement in the taller hall.
+b1.w.678 :: application form
+b1.w.678.ex.0 :: The only thing missing from the application form was his signature in the bottom right corner.
+b1.w.679 :: to approve; to grant
+b1.w.679.ex.0 :: The city approved funding for the association to repair the roof.
+b1.w.680 :: tried and tested; proven
+b1.w.680.ex.0 :: For the hike, I preferred to wear my tried-and-tested shoes from last summer.
+b1.w.681 :: irrigation; watering
+b1.w.681.ex.0 :: Rainwater makes it possible to water the garden beds even during dry weeks.
+b1.w.682 :: library card
+b1.w.682.ex.0 :: You can also borrow digital magazines for free with a library card.
+b1.w.683 :: to bend
+b1.w.683.ex.0 :: Ada bent the wire into a small ring in the workshop.
+b1.w.684 :: caption
+b1.w.684.ex.0 :: The short caption gives the place and year the photo was taken.
+b1.w.685 :: point of view; angle
+b1.w.685.ex.0 :: From the upstairs window, you can see the courtyard from a different angle.

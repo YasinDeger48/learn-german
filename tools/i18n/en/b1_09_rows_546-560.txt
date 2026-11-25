@@ -1,0 +1,30 @@
+b1.w.386 :: usually; as a rule
+b1.w.386.ex.0 :: The delivery usually arrives in the morning, but on Friday it will not come until the afternoon.
+b1.w.387 :: practice session; practice class
+b1.w.387.ex.0 :: During the practice session, we make phone calls in pairs and switch roles.
+b1.w.388 :: detour
+b1.w.388.ex.0 :: Today, the detour goes through the village instead of over the bridge.
+b1.w.389 :: unexpectedly
+b1.w.389.ex.0 :: The second train was unexpectedly empty, so we could sit together.
+b1.w.390 :: vacation request
+b1.w.390.ex.0 :: My vacation request for August was approved only after the shift schedule was ready.
+b1.w.391 :: change; alteration
+b1.w.391.ex.0 :: The customers noticed a change in the service after just one week.
+b1.w.392 :: landlady
+b1.w.392.ex.0 :: The landlady called the repairman the very next morning.
+b1.w.393 :: contract amendment; contract change
+b1.w.393.ex.0 :: The contract amendment only takes effect after both parties have signed it.
+b1.w.394 :: power of attorney; authorization
+b1.w.394.ex.0 :: My father gave me authorization to pick up the package.
+b1.w.395 :: happy anticipation; excitement
+b1.w.395.ex.0 :: My daughter packed her suitcase already because she was excited about the trip.
+b1.w.396 :: plan; project
+b1.w.396.ex.0 :: The project became smaller because we are short of a week.
+b1.w.397 :: witness
+b1.w.397.ex.0 :: A witness was able to describe where the dog ran after the accident.
+b1.w.398 :: acceptance; confirmation
+b1.w.398.ex.0 :: As soon as I received confirmation that I had been accepted onto the course, I bought the tickets.
+b1.w.399 :: additional fee; surcharge
+b1.w.399.ex.0 :: I had to pay an additional fee for the second suitcase at the counter.
+b1.w.400 :: purpose
+b1.w.400.ex.0 :: The purpose of the letter was explained clearly in the first paragraph.

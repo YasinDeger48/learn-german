@@ -1,0 +1,30 @@
+b1.w.296 :: to submit; to file
+b1.w.296.ex.0 :: I have to submit the application to the city by Thursday at the latest.
+b1.w.297 :: institution; organization
+b1.w.297.ex.0 :: This organization offers advice to people with questions about their rental contracts.
+b1.w.298 :: effort; commitment
+b1.w.298.ex.0 :: Without the parents' efforts, the school festival could not have taken place.
+b1.w.299 :: to estimate; to assess
+b1.w.299.ex.0 :: Without photos, the repair shop could not assess the damage correctly.
+b1.w.300 :: assessment; opinion
+b1.w.300.ex.0 :: In the coach's opinion, my assessment before the match was too cautious.
+b1.w.301 :: submission; entry
+b1.w.301.ex.0 :: Our entry in the photo competition came in second.
+b1.w.302 :: to save; to reduce
+b1.w.302.ex.0 :: With the new windows, we save on heating costs in winter.
+b1.w.303 :: female resident; inhabitant
+b1.w.303.ex.0 :: A resident asked for better lighting at the playground behind the town hall.
+b1.w.304 :: recommendation
+b1.w.304.ex.0 :: On my colleague's recommendation, I tried the affordable repair shop.
+b1.w.305 :: distance
+b1.w.305.ex.0 :: The distance between the station and the hotel is shorter than it looks on the map.
+b1.w.306 :: to escape; to get away
+b1.w.306.ex.0 :: The cat escaped through the open window.
+b1.w.307 :: to dispose of
+b1.w.307.ex.0 :: I will dispose of the old batteries at the supermarket on my next shopping trip.
+b1.w.308 :: to arise; to be built
+b1.w.308.ex.0 :: A small park for the neighborhood is being built behind the school.
+b1.w.309 :: draft; design
+b1.w.309.ex.0 :: Two of my colleagues will read the first draft of the letter to parents tomorrow.
+b1.w.310 :: successful
+b1.w.310.ex.0 :: The search was successful; in the end, we found two free rooms.

@@ -1,0 +1,20 @@
+b1.w.1 :: vote; ballot
+b1.w.1.ex.0 :: Twelve members voted for the new date in the association's ballot.
+b1.w.2 :: absence
+b1.w.2.ex.0 :: While I am away, my colleague answers customers' questions.
+b1.w.3 :: recognition; acceptance
+b1.w.3.ex.0 :: I need to have two certificates translated so that my degree will be recognized.
+b1.w.4 :: requirement
+b1.w.4.ex.0 :: The requirements for the position are clear: You need to speak German well and be able to work on Saturdays.
+b1.w.5 :: contact person
+b1.w.5.ex.0 :: My contact person on the course showed me where I could find the forms.
+b1.w.6 :: employment relationship
+b1.w.6.ex.0 :: Her employment ends in June, but she has already found a new job.
+b1.w.7 :: survey; interview
+b1.w.7.ex.0 :: In the survey, many passengers asked for more buses at the weekend.
+b1.w.8 :: reason; justification
+b1.w.8.ex.0 :: The explanation for the cancellation says that the swimming pool needs to be repaired.
+b1.w.9 :: work experience
+b1.w.9.ex.0 :: For this job, my experience in sales matters more than the grade on my certificate.
+b1.w.10 :: complaint
+b1.w.10.ex.0 :: After the third power cut, the tenant sent a written complaint.

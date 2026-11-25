@@ -1,0 +1,15 @@
+b1.gi.355 :: Damit expresses the purpose of an action in a subordinate clause, and the conjugated verb goes at the end. The driver spoke slowly so that everyone understood the detour notice.
+b1.gi.356 :: Falls introduces a possible condition in a subordinate clause, and the conjugated verb goes at the end. Take spare batteries in case the flashlight runs out on the way.
+b1.gi.357 :: Sodass introduces the result of the preceding action in a subordinate clause, and the conjugated verb goes at the end. The rooms were clearly labeled, so nobody had to search for long.
+b1.gi.358 :: Damit expresses the purpose of an action in a subordinate clause, and the conjugated verb goes at the end. The plants need more light so that they can keep growing in winter.
+b1.gi.359 :: Bis indicates when the waiting will end in a subordinate clause, and the conjugated verb goes at the end. Wait on the bus until we find a safe place to get off.
+b1.gi.360 :: Um ? zu expresses purpose. Sara brought a blanket so she would not get cold on the way.
+b1.gi.361 :: Ohne ? zu expresses not doing something. Niko left the house without taking his keys with him.
+b1.gi.362 :: Statt ? zu expresses doing one action instead of another. Derya walked home instead of waiting for the bus.
+b1.gi.363 :: Um ? zu expresses purpose. The customer needed his old receipts in order to check the bill.
+b1.gi.364 :: Ohne ? zu expresses not doing something. The driver continued without paying attention to the sign by the road.
+b1.gi.365 :: Statt ? zu expresses doing one action instead of another. We talked instead of merely blaming each other.
+b1.gi.366 :: Um ? zu expresses purpose. The association is raising money to buy new chairs for the hall.
+b1.gi.367 :: Ohne ? zu expresses not doing something. Eva closed the door very quietly without waking anyone.
+b1.gi.368 :: Um ? zu expresses purpose. The children invented a game to make better use of the time.
+b1.gi.369 :: Ohne ? zu expresses not doing something. The parcel was returned without having been opened on the way.

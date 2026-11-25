@@ -1,0 +1,30 @@
+b1.w.506 :: lifespan; service life
+b1.w.506.ex.0 :: Regular care extends the lifespan of leather shoes, even in winter.
+b1.w.507 :: reading corner
+b1.w.507.ex.0 :: The children really like the reading corner behind the stairs.
+b1.w.508 :: supply chain
+b1.w.508.ex.0 :: The new products will arrive later because of problems in the supply chain.
+b1.w.509 :: delivery note; packing slip
+b1.w.509.ex.0 :: Today, the quantity on the delivery note matched the number of items delivered.
+b1.w.510 :: to loosen
+b1.w.510.ex.0 :: The mechanic loosened both screws a little before removing the wheel.
+b1.w.511 :: payslip; wage slip
+b1.w.511.ex.0 :: These days, my payslip arrives as a PDF instead of in an envelope.
+b1.w.512 :: humidity; air humidity
+b1.w.512.ex.0 :: The humidity in our small kitchen rises quickly while we are cooking.
+b1.w.513 :: incomplete; patchy
+b1.w.513.ex.0 :: My memory of the first few minutes after the fall is patchy.
+b1.w.514 :: scarce item; hard-to-find product
+b1.w.514.ex.0 :: After the storm, batteries suddenly became hard to find in the shops.
+b1.w.515 :: registered address; address on file
+b1.w.515.ex.0 :: Since moving, my registered address finally matches my rental contract again.
+b1.w.516 :: rent-free
+b1.w.516.ex.0 :: During the renovation, we were able to stay with friends rent-free for a month.
+b1.w.517 :: minimum quantity
+b1.w.517.ex.0 :: The minimum quantity for free shipping is six bottles.
+b1.w.518 :: effortlessly; with ease
+b1.w.518.ex.0 :: Thanks to the wide ramp, I got inside easily with the stroller.
+b1.w.519 :: waste sorting; separating waste
+b1.w.519.ex.0 :: There are three different bins behind the kitchen for sorting waste.
+b1.w.520 :: discount; reduction
+b1.w.520.ex.0 :: The seller offered me a discount because of a small scratch.

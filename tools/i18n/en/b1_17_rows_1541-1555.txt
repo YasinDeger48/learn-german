@@ -1,0 +1,15 @@
+b1.gi.295 :: The genitive marks possession and begins here with des. The dog's fur was still wet after its bath.
+b1.gi.296 :: The genitive marks possession and begins here with des. Thanks to the rescheduling of the appointment, she was still able to attend.
+b1.gi.297 :: The genitive marks possession and begins here with der. The handle of the pan is too thick for small hands.
+b1.gi.298 :: The genitive marks possession and begins here with der. He sorted the contents of the drawer by color.
+b1.gi.299 :: The genitive marks possession and begins here with der. The windows of both classrooms will be replaced in summer.
+b1.gi.300 :: The paired conjunction is sowohl ? als auch. The apartment has both a balcony and a small garden.
+b1.gi.301 :: The paired conjunction is weder ? noch. Before departure, neither the timetable nor the stop was known.
+b1.gi.302 :: The paired conjunction is entweder ? oder. Either we take the boxes away today, or we wait until Monday.
+b1.gi.303 :: The paired conjunction is nicht nur ? sondern auch. The new radio is not only cheaper but also easier to use.
+b1.gi.304 :: The paired conjunction is je ? desto. The longer we waited at the checkout, the more restless the children became.
+b1.gi.305 :: The paired conjunction is sowohl ? als auch. With this card, you can travel on both the bus and the train.
+b1.gi.306 :: The paired conjunction is weder ? noch. After the storm, neither the doorbell nor the elevator worked in the building.
+b1.gi.307 :: The paired conjunction is entweder ? oder. You can bring either your ID card or your passport to the examination.
+b1.gi.308 :: The paired conjunction is nicht nur ? sondern auch. Lina forgot not only the key but also the shopping bag.
+b1.gi.309 :: The paired conjunction is je ? desto. The higher the water level rose, the more often we checked the basement.

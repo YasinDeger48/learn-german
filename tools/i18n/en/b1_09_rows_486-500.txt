@@ -1,0 +1,30 @@
+b1.w.311 :: to increase; to raise
+b1.w.311.ex.0 :: The association will not increase the membership fee until the beginning of next year.
+b1.w.312 :: rest; recovery
+b1.w.312.ex.0 :: After the long shift, I need the whole evening to recover.
+b1.w.313 :: memory; reminder
+b1.w.313.ex.0 :: Our daughter brought home a stone as a souvenir of the trip.
+b1.w.314 :: explanation
+b1.w.314.ex.0 :: The children understood the plan too after her brief explanation.
+b1.w.315 :: to determine; to find out
+b1.w.315.ex.0 :: The repairman first finds out where the water is getting into the wall.
+b1.w.316 :: to renew; to renovate
+b1.w.316.ex.0 :: The city will renovate the path behind the sports field in the fall.
+b1.w.317 :: seriously
+b1.w.317.ex.0 :: We seriously discussed whether we wanted to take over the shop.
+b1.w.318 :: to exhaust; to wear out
+b1.w.318.ex.0 :: Long conversations exhaust me more than working in the courtyard does.
+b1.w.319 :: expectation
+b1.w.319.ex.0 :: My expectations for the course were different from my brother's.
+b1.w.320 :: to achieve; to make
+b1.w.320.ex.0 :: The class made a small profit from the cake sale.
+b1.w.336 :: fortunately; luckily
+b1.w.336.ex.0 :: Fortunately, the teacher had a second copy of the worksheet with her.
+b1.w.337 :: half-time; halftime
+b1.w.337.ex.0 :: At halftime, the coach substituted two tired players.
+b1.w.338 :: origin; source
+b1.w.338.ex.0 :: At the fruit stand, I sometimes ask where the apples come from.
+b1.w.339 :: obstacle; barrier
+b1.w.339.ex.0 :: The biggest obstacle to taking part is the lack of a bus connection.
+b1.w.340 :: to put oneself in someone's shoes; to empathize
+b1.w.340.ex.0 :: After the conversation, can you put yourself in your new colleague's shoes more easily?

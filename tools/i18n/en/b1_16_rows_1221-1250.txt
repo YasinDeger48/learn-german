@@ -1,0 +1,30 @@
+b1.g.13.name :: um ??? zu, ohne ??? zu, statt ??? zu
+b1.g.13.rule :: um ??? zu: purpose, same subject: Ich lerne, um die Pr??fung zu bestehen. ohne ??? zu: without doing something: Er ging, ohne zu gr????en. statt ??? zu: instead of doing something: Statt zu arbeiten, schl??ft er. With separable verbs, zu goes inside the verb: anzurufen.
+b1.g.13.ex.0 :: Sara took a blanket with her so she would not get cold on the way.
+b1.g.13.ex.1 :: Instead of taking a taxi, he borrowed a bicycle.
+b1.g.13.ex.2 :: To save money on the trip, she bought a monthly pass.
+b1.g.14.name :: Verbs with prepositions, da(r)- and wo(r)-
+b1.g.14.rule :: warten auf, sich freuen ??ber/auf, denken an, sich k??mmern um, sprechen ??ber, Angst haben vor ??? For things: darauf, daran, dar??ber; questions: worauf? woran? wor??ber? For people, use a preposition + pronoun: auf ihn, mit ihr, an wen? Add -r- before a vowel: dar-auf, wor-an.
+b1.g.14.ex.0 :: What are you waiting for, the package or a phone call?
+b1.g.14.ex.1 :: What is the team working on right now, the website or the new flyer?
+b1.g.14.ex.2 :: We need the contract, and today we are reminding the administration about it.
+b1.g.15.name :: Indirect questions
+b1.g.15.rule :: Yes/no question ??? ob: Ich wei?? nicht, ob er kommt. Keep the question word: K??nnen Sie mir sagen, wann der Zug f??hrt? The conjugated verb goes at the end.
+b1.g.15.ex.0 :: Do you know whether the supermarket has opened already or is still closed?
+b1.g.15.ex.1 :: Tell us how many seats are still available for the evening performance.
+b1.g.15.ex.2 :: The sales assistant asked how many packages were ready for shipping.
+b1.g.16.name :: lassen
+b1.g.16.rule :: To have something done by someone else: Ich lasse mein Auto reparieren. To give permission: Lass mich bitte ausreden! To leave something behind: Ich habe den Schirm im Bus gelassen. ich lasse, du l??sst, er l??sst ?? Pr??teritum lie??.
+b1.g.16.ex.0 :: Tomorrow I will have the loose hinge on the door repaired.
+b1.g.16.ex.1 :: I cannot have the new stove connected until Tuesday.
+b1.g.16.ex.2 :: You will probably have the key copied at the locksmith's.
+b1.g.17.name :: n-declension
+b1.g.17.rule :: Some masculine nouns take -(e)n in every case except nominative: der Kunde ??? den/dem/des Kunden, der Kollege, der Nachbar, der Student, der Mensch, der Junge, der Herr (dem Herrn). Ich helfe dem Nachbarn.
+b1.g.17.ex.0 :: The doctor called the patient in from the waiting room.
+b1.g.17.ex.1 :: At reception, Sofia asked a gentleman for his room number.
+b1.g.17.ex.2 :: During practice, the coach spoke with an injured athlete.
+b1.g.18.name :: Futur I (future tense)
+b1.g.18.rule :: werden + infinitive (at the end): Ich werde morgen anrufen. Also used for predictions: Er wird wohl krank sein. In everyday speech, present tense + a time expression is often enough: Morgen rufe ich an.
+b1.g.18.ex.0 :: Tomorrow I will call the repair shop right after breakfast.
+b1.g.18.ex.1 :: The school will order new tables before the end of the year.
+b1.g.18.ex.2 :: Will you visit your grandparents before the holiday this time?

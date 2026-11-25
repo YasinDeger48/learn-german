@@ -1,0 +1,30 @@
+b1.w.776 :: local rent index; rent comparison table
+b1.w.776.ex.0 :: Ayla looked for apartments of a similar size in the local rent index.
+b1.w.777 :: mosquito protection; insect repellent
+b1.w.777.ex.0 :: When camping by the lake, we needed mosquito repellent by the afternoon.
+b1.w.778 :: female tutor
+b1.w.778.ex.0 :: The tutor sat down with Deniz at a quiet table.
+b1.w.779 :: nighttime quiet hours
+b1.w.779.ex.0 :: To observe quiet hours, the manager closes the common room at ten.
+b1.w.780 :: new beginning; fresh start
+b1.w.780.ex.0 :: Training in another city was a fresh start for Timo.
+b1.w.781 :: notebook
+b1.w.781.ex.0 :: I found the neighbor's phone number again in my notebook.
+b1.w.782 :: maintenance effort; care required
+b1.w.782.ex.0 :: The plants on the roof require surprisingly little care.
+b1.w.783 :: postal item; mail shipment
+b1.w.783.ex.0 :: A damaged postal item was handed directly to the customer at the station.
+b1.w.784 :: press release
+b1.w.784.ex.0 :: The editorial team learned about the planned station renovation from the press release.
+b1.w.785 :: inspection report; test report
+b1.w.785.ex.0 :: The inspection report contains three points the repairman still needs to consider.
+b1.w.786 :: bicycle rack
+b1.w.786.ex.0 :: A new bicycle rack was installed in front of the left entrance yesterday.
+b1.w.787 :: tire pressure
+b1.w.787.ex.0 :: Because of the long drive, Ben checked the tire pressure before breakfast.
+b1.w.788 :: product complaint; claim
+b1.w.788.ex.0 :: For the product complaint, the seller asked for the original receipt.
+b1.w.789 :: route planning
+b1.w.789.ex.0 :: When planning the route, we also took the children's long breaks into account.
+b1.w.790 :: back; reverse side
+b1.w.790.ex.0 :: On the back of the admission ticket, Nils spotted a small site map.

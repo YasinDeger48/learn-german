@@ -1,0 +1,30 @@
+b1.w.986 :: to shrink; to become smaller
+b1.w.986.ex.0 :: Unfortunately, the green shirt shrank considerably in the first wash.
+b1.w.987 :: to fluctuate; to vary
+b1.w.987.ex.0 :: The ticket price fluctuated considerably over the course of the month.
+b1.w.988 :: to remain silent; to say nothing
+b1.w.988.ex.0 :: Jonas remained silent about this question throughout the conversation.
+b1.w.989 :: to estimate; to guess
+b1.w.989.ex.0 :: The driver estimated the waiting time at about twenty minutes.
+b1.w.990 :: independently; on one's own
+b1.w.990.ex.0 :: After the introduction, most participants filled out the form on their own.
+b1.w.991 :: to lower; to reduce
+b1.w.991.ex.0 :: To save energy, the association lowered the temperature in the hall at night.
+b1.w.992 :: to stretch; to put up
+b1.w.992.ex.0 :: The volunteers stretched a tarp over the tables before the rain.
+b1.w.993 :: to stack
+b1.w.993.ex.0 :: Jana carefully stacked the flat crates for transport.
+b1.w.994 :: to increase; to improve
+b1.w.994.ex.0 :: A longer course helped him improve his running endurance.
+b1.w.995 :: to trip; to stumble
+b1.w.995.ex.0 :: Cem almost tripped over a forgotten bag in the dark hallway.
+b1.w.996 :: to disturb; to interrupt
+b1.w.996.ex.0 :: The loud phone disturbed the other guests while they were reading.
+b1.w.997 :: to fall; to tumble
+b1.w.997.ex.0 :: The runner fell on the wet path just before reaching the finish.
+b1.w.998 :: to clean; to scrub
+b1.w.998.ex.0 :: Lena cleaned the narrow grout lines in the bathroom with a soft brush.
+b1.w.999 :: to be mistaken; to get something wrong
+b1.w.999.ex.0 :: I was almost a week off about the date.
+b1.w.1000 :: similarity
+b1.w.1000.ex.0 :: We only noticed the similarity between the two pictures when we compared them.

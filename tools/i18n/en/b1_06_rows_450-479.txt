@@ -1,0 +1,30 @@
+b1.gi.450 :: I will have the loose hinge on the door repaired tomorrow.
+b1.gi.451 :: The security staff made the visitors wait in the foyer.
+b1.gi.452 :: Please let the bread cool for a little while before cutting it.
+b1.gi.453 :: The reservation number can be checked quickly at reception.
+b1.gi.454 :: Yesterday we had the old sofa picked up.
+b1.gi.455 :: Why don't you let the dog play with the others?
+b1.gi.456 :: This stain can be removed easily with cold water.
+b1.gi.457 :: The manager had us practice the procedure on the machine twice.
+b1.gi.458 :: Do you also have the drawing enlarged at the copy shop?
+b1.gi.459 :: The doctor had the patient walk a few more steps.
+b1.gi.460 :: I cannot have the new stove connected until Tuesday.
+b1.gi.461 :: Please let the soup continue cooking over low heat.
+b1.gi.462 :: My parents have their thick winter coat cleaned once a year.
+b1.gi.463 :: The suitcase cannot be opened without the small key.
+b1.gi.464 :: When the road was clear, the police officer let us continue.
+b1.gi.465 :: Today, the youth club staff let the children decide for themselves.
+b1.gi.466 :: Ms. Lenz had the sleeves of her jacket shortened.
+b1.gi.467 :: When the work is difficult, I have my sister help me.
+b1.gi.468 :: The snail is barely visible under the leaf.
+b1.gi.469 :: Let's have another coffee together after the course.
+b1.gi.470 :: You will probably have the key copied at the locksmith's.
+b1.gi.471 :: After the frost, the window could only be opened with difficulty.
+b1.gi.472 :: Unfortunately, the death of the old tree cannot be prevented.
+b1.gi.473 :: Children, please let the older woman get off first.
+b1.gi.474 :: Our neighbors are currently having a specialist company replace the wobbly handrail.
+b1.gi.475 :: The headline can easily be translated into another language.
+b1.gi.476 :: The caretaker had the broken doorbell checked.
+b1.gi.477 :: The shop assistant let the children sit on the bench for a while.
+b1.gi.478 :: The result can be clearly read from the two lines.
+b1.gi.479 :: In this heat, you should have the children's room aired out in the morning.

@@ -1,0 +1,15 @@
+b1.gi.145 :: With modal verbs in the passive, the past participle comes before the infinitive werden. The children's photos must not be published in the report.
+b1.gi.146 :: In the passive with a modal verb, the past participle gef?llt comes before werden. The empty tank must be filled completely today.
+b1.gi.147 :: In the passive with a modal verb, the past participle gel?st comes before werden. This screw can be loosened carefully with a suitable tool.
+b1.gi.148 :: In the passive with a modal verb, the past participle beschriftet comes before werden. The new signs must be labeled correctly by next week.
+b1.gi.149 :: In the passive with a modal verb, the past participle abgestellt comes before werden. No bicycle may be left at the foot of the stairs.
+b1.gi.150 :: Kollegin is feminine and is the subject of the relative clause. The colleague who is handling reception today knows all the rooms.
+b1.gi.151 :: Fahrrad is neuter and the accusative object of bringen. Where is the bicycle that you took for repair yesterday?
+b1.gi.152 :: With erkl?ren, the person receiving the explanation takes the dative. The customer to whom I explained the bill will come again tomorrow.
+b1.gi.153 :: Laden is the subject of verkauft in the relative clause. We are looking for the shop that sells second-hand books for half price.
+b1.gi.154 :: Fotos is plural and the accusative object of ausw?hlen. Here are the photos that I chose for the calendar.
+b1.gi.155 :: helfen takes the dative, and the feminine dative relative pronoun is der. The neighbor whom I helped carry her things is inviting me.
+b1.gi.156 :: Mantel is a masculine accusative object, so the relative pronoun is den. Is this the coat that you left behind at the concert?
+b1.gi.157 :: With schwerfallen, the person having difficulty takes the dative, and the plural pronoun is denen. Our team supports children who find starting school difficult.
+b1.gi.158 :: Ger?t is neuter and the subject of the relative clause. The device blinking beside the checkout shows available spaces.
+b1.gi.159 :: Seite is feminine and the accusative object of kopieren. Unfortunately, the page that you copied for the meeting is missing.

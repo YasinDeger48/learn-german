@@ -1,0 +1,30 @@
+b1.w.536 :: course of the trip; itinerary
+b1.w.536.ex.0 :: Looking back, the trip was more relaxed than we had originally planned.
+b1.w.537 :: repair time; repair duration
+b1.w.537.ex.0 :: The repair shop could not say much on the phone about the expected repair time.
+b1.w.538 :: remaining term; time left
+b1.w.538.ex.0 :: With only two months left on the contract, switching now is hardly worthwhile.
+b1.w.539 :: phone number; telephone number
+b1.w.539.ex.0 :: You can reach the local taxi company at this number in the evenings, too.
+b1.w.540 :: non-slip; slip-resistant
+b1.w.540.ex.0 :: You need non-slip shoes for sports in the gym.
+b1.w.541 :: to give feedback; to report back
+b1.w.541.ex.0 :: Several guests reported that the music at the entrance was too loud.
+b1.w.542 :: back seat
+b1.w.542.ex.0 :: Someone had left a wet jacket on the back seat.
+b1.w.543 :: repayment; refund
+b1.w.543.ex.0 :: It took almost three full weeks for the money to be refunded.
+b1.w.544 :: pollutant; harmful substance
+b1.w.544.ex.0 :: Fortunately, the lab found no dangerous pollutants in the soil.
+b1.w.545 :: ticket hall; booking hall
+b1.w.545.ex.0 :: A long line formed in the ticket hall just before noon.
+b1.w.546 :: umbrella stand
+b1.w.546.ex.0 :: There is a heavy, dark metal umbrella stand next to the door.
+b1.w.547 :: sofa bed; sleeper sofa
+b1.w.547.ex.0 :: Our sofa bed unfolds easily, even in that narrow room.
+b1.w.548 :: snow removal; snow clearing
+b1.w.548.ex.0 :: This week, our neighbor is responsible for clearing the snow in front of the house.
+b1.w.549 :: spelling; written form
+b1.w.549.ex.0 :: I check the spelling of uncommon names twice before sending the message.
+b1.w.550 :: step by step; gradually
+b1.w.550.ex.0 :: The library is gradually switching its lending process to the new system.

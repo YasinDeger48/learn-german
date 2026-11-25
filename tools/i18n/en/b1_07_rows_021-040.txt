@@ -1,0 +1,20 @@
+b1.w.11 :: staff meeting
+b1.w.11.ex.0 :: We can ask questions about the new working hours at the staff meeting.
+b1.w.12 :: job interview
+b1.w.12.ex.0 :: In the job interview, I gave an example of a difficult team situation.
+b1.w.13 :: awareness; consciousness
+b1.w.13.ex.0 :: The film changed our awareness of food waste.
+b1.w.14 :: standing order; automatic payment
+b1.w.14.ex.0 :: I set up a standing order for the rent so I would not forget it.
+b1.w.15 :: introduction; launch
+b1.w.15.ex.0 :: After a short introduction, we were able to try out the new software ourselves.
+b1.w.16 :: consent
+b1.w.16.ex.0 :: The school needs the parents' consent for the class photo.
+b1.w.17 :: accessibility; availability
+b1.w.17.ex.0 :: It has become easier to reach the doctor's office since you can also make appointments by email.
+b1.w.18 :: reimbursement; refund
+b1.w.18.ex.0 :: Because of the train delay, I applied for a refund of part of the ticket price.
+b1.w.19 :: shortage of skilled workers
+b1.w.19.ex.0 :: Many workshops cannot find enough staff because of the shortage of skilled workers.
+b1.w.20 :: absence; missed time
+b1.w.20.ex.0 :: The school records every absence, even if a child misses only one lesson.

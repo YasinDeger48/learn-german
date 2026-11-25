@@ -1,0 +1,30 @@
+b1.w.596 :: target group; intended audience
+b1.w.596.ex.0 :: The target group especially includes young people who do not have their own computer.
+b1.w.597 :: to reset
+b1.w.597.ex.0 :: After the update, I had to reset the app password.
+b1.w.598 :: previously; before that
+b1.w.598.ex.0 :: I found the book exactly where the empty box had been before.
+b1.w.599 :: practical; fit for purpose
+b1.w.599.ex.0 :: For a short trip, a light cart with large wheels is practical.
+b1.w.600 :: hesitant; uncertain
+b1.w.600.ex.0 :: When the costs came up, the group initially answered hesitantly.
+b1.w.601 :: to crumble; to flake off
+b1.w.601.ex.0 :: After the frost, the old plaster under the window began to crumble.
+b1.w.602 :: to cover; to cover up
+b1.w.602.ex.0 :: Jan covered the paint buckets with a tarp before the rain.
+b1.w.603 :: to seal; to make watertight
+b1.w.603.ex.0 :: The workers resealed the small window in the stairwell.
+b1.w.604 :: departure board
+b1.w.604.ex.0 :: A red number was lit next to our train on the departure board.
+b1.w.605 :: to drain; to flow away
+b1.w.605.ex.0 :: After it was cleaned, the water in the shower started draining again.
+b1.w.606 :: to carry away; to vent
+b1.w.606.ex.0 :: The ventilation system carries moist air out of the kitchen.
+b1.w.607 :: remote; isolated
+b1.w.607.ex.0 :: We did not reach the remote cabin until just before dinner.
+b1.w.608 :: to scrape off
+b1.w.608.ex.0 :: Elif carefully scraped off the glue with an old card.
+b1.w.609 :: shortcut
+b1.w.609.ex.0 :: The shortcut through the park was closed after the rain.
+b1.w.610 :: to drain; to let out
+b1.w.610.ex.0 :: The mechanic drained the water from the tank before transporting it.

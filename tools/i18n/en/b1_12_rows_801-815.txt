@@ -1,0 +1,30 @@
+b1.w.641 :: vocational training position; apprenticeship
+b1.w.641.ex.0 :: After three rejections, Mert found an apprenticeship at a hotel.
+b1.w.642 :: to fade; to bleach
+b1.w.642.ex.0 :: The sunny side of the red curtain has faded badly.
+b1.w.643 :: to spread out; to lay out
+b1.w.643.ex.0 :: They spread the map of the hiking area out on the floor.
+b1.w.644 :: to sweep out
+b1.w.644.ex.0 :: After the market, Armin swept the stall all the way to the back wall.
+b1.w.645 :: to dig out; to unearth
+b1.w.645.ex.0 :: The child dug a small seashell out of the wet sand.
+b1.w.646 :: notice board; display case
+b1.w.646.ex.0 :: The association's upcoming event dates are posted on the notice board by the door.
+b1.w.647 :: to leak; to spill out
+b1.w.647.ex.0 :: Half a liter of milk leaked into my bag.
+b1.w.648 :: decisive; crucial
+b1.w.648.ex.0 :: In the end, the short travel time was decisive for our choice.
+b1.w.649 :: hopeless; unlikely to succeed
+b1.w.649.ex.0 :: Without the second key, the search initially seemed quite hopeless.
+b1.w.650 :: to sort out; to remove
+b1.w.650.ex.0 :: Before the book swap, we carefully sorted out all the damaged books.
+b1.w.651 :: exhibition room; gallery space
+b1.w.651.ex.0 :: In the exhibition room at the back, short videos explain the history of the bridge.
+b1.w.652 :: to leave; to withdraw from
+b1.w.652.ex.0 :: Ines left the local choir after she moved away.
+b1.w.653 :: away; on the road
+b1.w.653.ex.0 :: On Saturday, our team will play away for the first time this season.
+b1.w.654 :: development plan; zoning plan
+b1.w.654.ex.0 :: The development plan includes another green space next to the school.
+b1.w.655 :: to influence; to affect
+b1.w.655.ex.0 :: The weather has a considerable effect on visitor numbers at the outdoor pool.

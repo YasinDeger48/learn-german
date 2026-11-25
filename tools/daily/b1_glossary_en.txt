@@ -195,3 +195,196 @@ tropfen :: to drip
 die Warnung :: warning
 weitergeben :: to pass on
 betroffen :: affected
+die Zahnarztpraxis :: dental practice
+der Kirschkern :: cherry stone
+das Wartezimmer :: waiting room
+davon ausgehen :: to assume
+die Werkstatt :: workshop
+die Kante :: edge
+die Behandlung :: treatment
+der Setzling :: seedling
+der Hahn :: tap
+die Pumpe :: pump
+das Beet :: flower bed
+das Gewächshaus :: greenhouse
+das Fass :: barrel
+die Gießkanne :: watering can
+die Gepäckablage :: luggage rack
+der Griff :: handle
+die Außentasche :: outer pocket
+das Schloss :: lock
+der Gepäckanhänger :: luggage tag
+der Schnürsenkel :: shoelace
+der Lesesaal :: reading room
+der Ordner :: folder
+der Dateiname :: file name
+die Erlaubnis :: permission
+das Aufnahmedatum :: date taken
+die Druckerei :: print shop
+falten :: to fold
+die Rückseite :: back side
+der Mietvertrag :: rental contract
+der Stapel :: stack
+das Exemplar :: copy
+die Abholung :: collection
+die Schicht :: shift
+annehmen :: to accept (a delivery)
+die Fußmatte :: doormat
+das Erdgeschoss :: ground floor
+die Abrechnung :: statement
+der Umschlag :: envelope
+die Quittung :: receipt
+die Unterlagen :: documents
+die Mappe :: folder
+das Bürgerbüro :: citizens' office
+der Automat :: machine
+der Einschaltknopf :: power button
+der Vorhang :: curtain
+der Antrag :: application
+die Kuchenform :: cake tin
+der Kinderwagen :: pram
+festhängen :: to be stuck
+der Bahnsteig :: platform
+das Fundbüro :: lost property office
+der Wagen :: carriage
+entsorgen :: to dispose of
+das Referat :: presentation
+der öffentliche Verkehr :: public transport
+freihalten :: to keep free
+der Vergleich :: comparison
+übersehen :: to overlook
+der Orientierungslauf :: orienteering race
+die Streckenkarte :: course map
+die Schwebebahn :: suspension railway
+der Hinweis :: notice
+der Abstand :: gap, distance
+die Stufe :: step
+der Aussichtspunkt :: viewpoint
+der Lieferwagen :: van
+das Geländer :: railing
+ausmessen :: to measure
+der Durchgang :: passage
+die Rückwand :: back panel
+der Schraubendreher :: screwdriver
+der Kratzer :: scratch
+der Stummfilm :: silent film
+die Vorstellung :: screening
+das Foyer :: foyer
+die Verfolgung :: chase
+der Abspann :: end credits
+der Wochenmarkt :: weekly market
+die Sorte :: variety
+die Waage :: scales
+die Druckstelle :: bruise
+der Fahrradkorb :: bike basket
+das Kompott :: compote
+die Menge :: amount
+fahrbereit :: ready to ride
+das Vorderrad :: front wheel
+klappern :: to rattle
+der Anhänger :: tag
+der Sattel :: saddle
+das Klebeband :: adhesive tape
+der Lenker :: handlebars
+buchstabieren :: to spell
+der Kopfhörer :: headphones
+abreißen :: to tear off
+das Lager :: warehouse
+umleiten :: to redirect
+die Einstellung :: setting
+die Bestellnummer :: order number
+die Kassette :: cassette
+der Stecker :: plug
+die Hülle :: case, cover
+summen :: to hum
+der Abwasch :: washing-up
+die Turnstunde :: gym class
+die Vorwoche :: previous week
+der Geräteraum :: equipment room
+rutschen :: to slip
+die Geschäftsstelle :: club office
+die Wiederholung :: repetition
+beibehalten :: to keep up
+beitragen :: to contribute
+die Fensterbank :: windowsill
+der Hof :: courtyard
+der Ausschank :: drinks counter
+verschlossen :: locked
+ausschenken :: to serve (drinks)
+das Treppenhaus :: stairwell
+das Interview :: interview
+die Ware :: goods
+ausgerechnet :: of all things
+steif :: stiff, formal
+der Ausschnitt :: excerpt
+die Veröffentlichung :: publication
+abholen :: to pick up
+der Pfeil :: arrow
+der Hinterhof :: backyard
+der Übungsraum :: practice room
+verlegen :: to move, to relocate
+die Baustelle :: building site
+verschwommen :: blurred
+das Zutatenblatt :: ingredients list
+der Bügel :: temple (of glasses)
+vertauschen :: to mix up
+das Brillenetui :: glasses case
+der Tresen :: counter
+das Gestell :: frame
+die Bescheinigung :: certificate
+der Eintrag :: entry
+die Kundennummer :: customer number
+das Postfach :: mailbox
+abonnieren :: to subscribe
+ablegen :: to file
+die Schublade :: drawer
+der Baumarkt :: DIY store
+das Gewinde :: thread (of a screw)
+die Verpackung :: packaging
+sortieren :: to sort
+der Ersatz :: replacement
+das Maß :: measurement
+die Linde :: lime tree
+die Leitung :: pipe, line
+die Wurzel :: root
+die Gärtnerei :: nursery (plants)
+der Duft :: scent
+das Sonnensegel :: sun sail
+die Pflanzung :: planting
+der Bücherschrank :: book exchange cabinet
+der Entwurf :: draft
+stumm schalten :: to mute
+abbiegen :: to turn
+das Wandbild :: mural
+hochladen :: to upload
+mithilfe :: with the help of
+die Bewerberin :: applicant (f.)
+das Pfeifen :: whistling
+belegt :: taken, occupied
+die Teeküche :: office kitchenette
+gegenüberliegend :: opposite
+undicht :: leaky
+das Trikot :: jersey
+das Vereinsheim :: clubhouse
+die Umkleide :: changing room
+die Aufstellung :: line-up
+der Platzwart :: groundskeeper
+die Seitenlinie :: sideline
+der Anpfiff :: kick-off whistle
+der Fernbus :: long-distance bus
+der Fensterplatz :: window seat
+der Gang :: aisle
+zusteigen :: to get on
+die Ausstellung :: exhibition
+bedruckt :: printed
+der Rundgang :: tour
+aufspannen :: to open (an umbrella)
+das Pflaster :: paving
+der Schirmständer :: umbrella stand
+die Innenseite :: inside
+die Stange :: pole
+der Streifen :: stripe
+nachmessen :: to measure again
+ausverkauft :: sold out
+der Rand :: edge
+abschneiden :: to cut off

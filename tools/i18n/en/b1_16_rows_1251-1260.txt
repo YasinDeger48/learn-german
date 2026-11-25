@@ -1,0 +1,10 @@
+b1.g.19.name :: Adjective declension: with and without articles
+b1.g.19.rule :: After der/die/das, adjectives usually take -e/-en; after ein/kein/mein, the adjective shows gender: ein neuer Tisch, ein neues Bett. Without an article, the adjective takes the article ending: frischer Kaffee, mit frischem Brot, kalte Milch, frische Eier.
+b1.g.19.ex.0 :: schmalem;schmales;schmale
+b1.g.19.ex.1 :: starker;starken;starke
+b1.g.19.ex.2 :: reife;reifem;reifer
+b1.g.20.name :: Reflexive verbs with dative
+b1.g.20.rule :: If the sentence also has another object, the reflexive pronoun is in the dative: Ich wasche mir die H??nde. Ich merke mir die Nummer. Ich stelle mir das vor. Du kaufst dir ein Buch. mir/dir differ only for ich and du; the others are sich, uns, euch, sich.
+b1.g.20.ex.0 :: I just cannot remember the new phone number.
+b1.g.20.ex.1 :: Are you (plural) looking for a place to wait right by the entrance?
+b1.g.20.ex.2 :: The boy quickly dried his feet by the pool.

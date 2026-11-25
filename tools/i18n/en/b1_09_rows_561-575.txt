@@ -1,0 +1,30 @@
+b1.w.401 :: to cushion; to absorb
+b1.w.401.ex.0 :: A thick mat cushions a jump better than a wooden floor.
+b1.w.402 :: to quiz; to test someone on
+b1.w.402.ex.0 :: Before the exam, my sister quizzed me on the most important words.
+b1.w.403 :: submission deadline
+b1.w.403.ex.0 :: The lecturer extended the submission deadline because of the technical problems.
+b1.w.404 :: to separate; to set apart
+b1.w.404.ex.0 :: A low fence separates the playground from the parking lot.
+b1.w.405 :: collection deadline; pickup period
+b1.w.405.ex.0 :: The pickup deadline is tomorrow, even though the branch is closed today.
+b1.w.406 :: schedule; program
+b1.w.406.ex.0 :: Our schedule allows for a short break between the presentations.
+b1.w.407 :: to tear off; to rip off
+b1.w.407.ex.0 :: You can tear off the paper strip at the opening with two fingers.
+b1.w.408 :: to estimate roughly
+b1.w.408.ex.0 :: I cannot estimate the length of the line very well from the window.
+b1.w.409 :: to drop someone off; to set down
+b1.w.409.ex.0 :: Can you drop me off in front of the pharmacy after practice?
+b1.w.410 :: to prop up; to support
+b1.w.410.ex.0 :: The repairman propped up the loose shelf with a board.
+b1.w.411 :: to take turns
+b1.w.411.ex.0 :: We took turns driving regularly on the long trip.
+b1.w.412 :: to install; to attach
+b1.w.412.ex.0 :: The caretaker installed a new lamp next to the entrance.
+b1.w.413 :: to dampen; to moisten
+b1.w.413.ex.0 :: Sara moistened the dry fabric with a little water before ironing it.
+b1.w.414 :: to lift; to raise
+b1.w.414.ex.0 :: The two of us were able to lift the table and pull the blanket underneath.
+b1.w.415 :: to build on; to continue from
+b1.w.415.ex.0 :: The new course continues from the exercises we did in the spring.

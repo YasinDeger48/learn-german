@@ -1,0 +1,30 @@
+b1.w.791 :: key handover; handing over the keys
+b1.w.791.ex.0 :: At the key handover, we also counted the keys to the basement storage unit.
+b1.w.792 :: side street
+b1.w.792.ex.0 :: There were still two free parking spaces on the narrow side street.
+b1.w.793 :: viewing window; inspection window
+b1.w.793.ex.0 :: Lina watched the cleaning process through the machine's viewing window.
+b1.w.794 :: summer heat
+b1.w.794.ex.0 :: Several neighbors put up light-colored curtains to protect their windows from the summer heat.
+b1.w.795 :: donation account
+b1.w.795.ex.0 :: The donation account for the rebuilding effort was posted on the association's website.
+b1.w.796 :: power supply; electricity supply
+b1.w.796.ex.0 :: The village's power supply was interrupted for several hours after the storm.
+b1.w.797 :: daily routine; schedule
+b1.w.797.ex.0 :: My new commute changed my daily routine more than I expected.
+b1.w.798 :: tank of fuel; full tank
+b1.w.798.ex.0 :: We reached the coast and drove back on one tank of fuel.
+b1.w.799 :: passage; part of a text
+b1.w.799.ex.0 :: While reading, the group paused at the most important passage.
+b1.w.800 :: tone of voice
+b1.w.800.ex.0 :: From his friendly tone, she concluded that he was not angry.
+b1.w.801 :: sequence; order
+b1.w.801.ex.0 :: The order of the exercises changed after the first break.
+b1.w.802 :: collection; removal
+b1.w.802.ex.0 :: The garden waste will not be collected until April this year.
+b1.w.803 :: pickup; collection
+b1.w.803.ex.0 :: You only need your customer number to pick up the books you ordered.
+b1.w.804 :: prior arrangement; agreement
+b1.w.804.ex.0 :: The room was empty on Friday because no arrangements had been made with the other group.
+b1.w.805 :: age limit
+b1.w.805.ex.0 :: This time, the age limit for entering the competition is sixteen.

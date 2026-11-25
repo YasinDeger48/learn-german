@@ -1,0 +1,30 @@
+b1.w.476 :: remote control
+b1.w.476.ex.0 :: Our dog has pulled the remote control out from under the sofa again.
+b1.w.477 :: to tie; to fasten
+b1.w.477.ex.0 :: She tied the tarp to the railing with a short rope.
+b1.w.478 :: fluid intake
+b1.w.478.ex.0 :: It is especially important for older people to drink enough fluids in very hot weather.
+b1.w.479 :: questionable; uncertain
+b1.w.479.ex.0 :: Because so many people called in sick, it is uncertain whether the game will take place.
+b1.w.480 :: activation; unlocking
+b1.w.480.ex.0 :: The account will only be activated after the ID has been checked.
+b1.w.481 :: funding; support
+b1.w.481.ex.0 :: Thanks to a grant, the youth club was able to buy new musical instruments.
+b1.w.482 :: building entrance
+b1.w.482.ex.0 :: The wheelchair can fit through the wide entrance at the back of the building.
+b1.w.483 :: to approve; to authorize
+b1.w.483.ex.0 :: The manager approved the vacation only after meeting with the team.
+b1.w.484 :: luggage rack
+b1.w.484.ex.0 :: The handle of my old umbrella was sticking out of the luggage rack.
+b1.w.485 :: noiselessly; quietly
+b1.w.485.ex.0 :: The new elevator runs almost silently, even on the top floor.
+b1.w.486 :: total weight
+b1.w.486.ex.0 :: The total weight of the order must not exceed twenty kilograms.
+b1.w.487 :: speed limit
+b1.w.487.ex.0 :: A lower speed limit applies before the tunnel in foggy weather.
+b1.w.488 :: equivalent; of equal value
+b1.w.488.ex.0 :: The seller offered me an equivalent model as a replacement.
+b1.w.489 :: credit; refund
+b1.w.489.ex.0 :: Once the goods have been checked, the credit will appear in your customer account.
+b1.w.490 :: hook
+b1.w.490.ex.0 :: A single hook is not enough for the heavy mirror.

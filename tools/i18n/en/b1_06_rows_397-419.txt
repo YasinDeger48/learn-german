@@ -1,0 +1,23 @@
+b1.gi.397 :: What did you ask about then, the size or the price?
+b1.gi.398 :: What does this rule actually provide, more peace or more security?
+b1.gi.399 :: What does the thick cover protect against, dust or moisture?
+b1.gi.400 :: What is the team working on right now, the website or the new flyer?
+b1.gi.401 :: What did you talk about, the repair or a replacement?
+b1.gi.402 :: What does the lid belong to, this pot or the small pan?
+b1.gi.403 :: What do we recognize the original by, its color or its stamp?
+b1.gi.404 :: What did the travelers complain about, the noise or the delay?
+b1.gi.405 :: What do you want to start with, the kitchen or the hallway?
+b1.gi.406 :: The bill is arriving tomorrow, and I have been waiting for it for a week.
+b1.gi.407 :: The concert was great, and we are still talking about it today.
+b1.gi.408 :: The brake is making a noise, and the mechanic is taking care of it.
+b1.gi.409 :: Your warning was important, and I want to thank you for it once again.
+b1.gi.410 :: We need the contract, and today we are reminding the administration about it.
+b1.gi.411 :: How much space we have matters, because the choice of tent depends on it.
+b1.gi.412 :: I knew nothing about the noise in the courtyard, but a neighbor told me about it.
+b1.gi.413 :: The gate closes quickly, and the attendant warned us about it.
+b1.gi.414 :: The program ends at six, and we are counting on that.
+b1.gi.415 :: We are short of money for a new valve, and the association is raising funds for it now.
+b1.gi.416 :: The cut boards are here, and the carpenter is building a bench out of them.
+b1.gi.417 :: The new section is much longer, and we are still working on it.
+b1.gi.418 :: An exam is coming up, and everyone is already preparing for it.
+b1.gi.419 :: The delivery still has not arrived, and the customer is asking about it at the counter.

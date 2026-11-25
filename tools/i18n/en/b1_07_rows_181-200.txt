@@ -1,0 +1,20 @@
+b1.w.91 :: to prove; to document
+b1.w.91.ex.0 :: I can prove that I attended with the certificate.
+b1.w.92 :: to affect; to have an impact
+b1.w.92.ex.0 :: The new timetable has a positive effect on my commute.
+b1.w.93 :: to campaign; to stand up for
+b1.w.93.ex.0 :: Local residents are campaigning for a safe route to school.
+b1.w.94 :: to agree
+b1.w.94.ex.0 :: After two discussions, we agreed on a later date.
+b1.w.95 :: to inquire; to find out
+b1.w.95.ex.0 :: I am asking the city about the cost of the permit.
+b1.w.96 :: to be suitable
+b1.w.96.ex.0 :: The room is suitable for group classes because it has two entrances.
+b1.w.97 :: to depend on; to be based on
+b1.w.97.ex.0 :: The price depends on the size of the room.
+b1.w.98 :: to resist; to oppose
+b1.w.98.ex.0 :: Local residents are opposing the closure of the last playground.
+b1.w.99 :: to revise; to edit
+b1.w.99.ex.0 :: After the interview, I revised my r?sum?.
+b1.w.100 :: to check; to inspect
+b1.w.100.ex.0 :: Before the trip, the seller also checks the tire pressure.

@@ -1,0 +1,30 @@
+b1.gi.420 :: Do you know whether the supermarket has opened already or is still closed?
+b1.gi.421 :: Please tell me when the next train leaves: at four or at five.
+b1.gi.422 :: The coach asked why nobody had come to the scheduled practice.
+b1.gi.423 :: Can you show me how to adjust the screen brightness?
+b1.gi.424 :: I do not know whether we have to buy the tickets online.
+b1.gi.425 :: Ms. Stein wanted to know where you had left her umbrella.
+b1.gi.426 :: Find out who can volunteer to take care of reception tomorrow.
+b1.gi.427 :: Will you tell us what you would most like to eat on the trip?
+b1.gi.428 :: The children want to know how long it takes to get to the airport.
+b1.gi.429 :: Please explain where I should send the documents.
+b1.gi.430 :: Tell us how many seats are still available for the evening performance.
+b1.gi.431 :: Selin asks whether the bill will be paid by the association or by her.
+b1.gi.432 :: Nobody could say when the system error would have been fixed.
+b1.gi.433 :: The caretaker asked where the broken chairs should go after the repair.
+b1.gi.434 :: Can you explain why this lamp is not working despite the new battery?
+b1.gi.435 :: He knew exactly who had warned him about the wrong bus.
+b1.gi.436 :: The doctor wanted to know what he had eaten before the appointment.
+b1.gi.437 :: Please write down where you put the second box of books.
+b1.gi.438 :: We are checking whether the room is still available on Thursday.
+b1.gi.439 :: Please tell us how to get to the other platform when changing trains.
+b1.gi.440 :: The sales assistant asked how many packages were ready for shipping.
+b1.gi.441 :: I cannot estimate how long the paint needs to dry on the wood.
+b1.gi.442 :: At the ticket counter, Timo asked whether the train runs on this public holiday.
+b1.gi.443 :: Please explain why the red mailbox at the entrance was removed.
+b1.gi.444 :: Does anyone know exactly when the training session starts on Friday?
+b1.gi.445 :: Sofia showed me where she keeps her plants while she is on vacation.
+b1.gi.446 :: We asked where the driver had taken the lost property.
+b1.gi.447 :: Please tell me what I can bring you from the market.
+b1.gi.448 :: The neighbors are arguing about who should keep the courtyard clean regularly.
+b1.gi.449 :: I had not understood how to open the new door from the inside.

@@ -1,0 +1,15 @@
+b1.gi.40 :: For an unreal condition, use k??nntest with du. If you had the original file, you could enlarge the photo.
+b1.gi.41 :: For an unreal condition, use w??re with ich or the third-person singular. If I were not allergic to cats, I would take the animal in.
+b1.gi.42 :: For an unreal condition, use k??nnten with wir, plural sie, or formal Sie. If there were a bench outside the doctor's office, people waiting could sit outdoors.
+b1.gi.43 :: For an unreal condition, use k??nnte with ich or the third-person singular. If the print were larger, my father could read his emails himself.
+b1.gi.44 :: For an unreal condition, use w??re with ich or the third-person singular. Your cake would be moister if you used less flour.
+b1.gi.45 :: For an unreal condition, use h??ttet with ihr. If you had less luggage, the five of us could take one taxi.
+b1.gi.46 :: For an unreal condition, use m??ssten with wir, plural sie, or formal Sie. If the heating failed, the guests would have to move to another room.
+b1.gi.47 :: For an unreal condition, use w??rst with du. If you lived nearby, we could meet spontaneously more often.
+b1.gi.48 :: For an unreal condition, use w??rde with ich or the third-person singular. I would go to the concert if there were still tickets.
+b1.gi.49 :: For an unreal condition, use w??rden with wir, plural sie, or formal Sie. Our plants would bloom longer if the balcony got more sun.
+b1.gi.50 :: For an unreal condition, use w??re with ich or the third-person singular. If the doorbell were louder, I would hear the courier even from the basement.
+b1.gi.51 :: For an unreal condition, use k??nntest with du. With better shoes, you could walk more safely on this path in the rain.
+b1.gi.52 :: For an unreal condition, use w??rde with ich or the third-person singular. Without your help, I would not be able to get the desk through the door.
+b1.gi.53 :: For an unreal condition, use w??rde with ich or the third-person singular. The rent would put less strain on us if the additional costs were lower.
+b1.gi.54 :: For an unreal condition, use w??rdet with ihr. At the same pace, you would catch the connecting train only if you were lucky.

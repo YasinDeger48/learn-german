@@ -1,0 +1,30 @@
+b1.w.461 :: to classify; to put into context
+b1.w.461.ex.0 :: The article helps me put the figures from the survey into context.
+b1.w.462 :: consent; agreement
+b1.w.462.ex.0 :: We need the consent of everyone shown in the photos.
+b1.w.463 :: to wrap
+b1.w.463.ex.0 :: Mia wrapped each cup in newspaper for the trip.
+b1.w.464 :: energy consumption; energy use
+b1.w.464.ex.0 :: Our energy consumption has dropped considerably with the new heating system.
+b1.w.465 :: unnecessary; dispensable
+b1.w.465.ex.0 :: In my view, a second driver is unnecessary for such a short trip.
+b1.w.466 :: to take out; to remove
+b1.w.466.ex.0 :: The lab technician took a small sample from the container for the test.
+b1.w.467 :: to untangle
+b1.w.467.ex.0 :: Before the children could play, Ronja untangled the two jump ropes.
+b1.w.468 :: to ask and find out
+b1.w.468.ex.0 :: You can ask the staff at the counter for the exact departure time.
+b1.w.469 :: replacement delivery
+b1.w.469.ex.0 :: A larger box containing two new glasses arrived as a replacement.
+b1.w.470 :: spare part number
+b1.w.470.ex.0 :: I slowly read the spare part number to the technician on the phone.
+b1.w.471 :: to acquire; to purchase
+b1.w.471.ex.0 :: The family bought the old piano at an auction in the neighboring town.
+b1.w.472 :: ticket machine
+b1.w.472.ex.0 :: Only a red light was still flashing on the broken ticket machine.
+b1.w.473 :: direction of travel
+b1.w.473.ex.0 :: An arrow on the platform points in the correct direction of travel.
+b1.w.474 :: foldable; collapsible
+b1.w.474.ex.0 :: A foldable bottle takes up almost no space in your backpack once it is empty.
+b1.w.475 :: faulty; defective
+b1.w.475.ex.0 :: The faulty page was replaced before the magazine went to print.

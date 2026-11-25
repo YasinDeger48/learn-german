@@ -1,0 +1,30 @@
+b1.w.206 :: statement; invoice breakdown
+b1.w.206.ex.0 :: My March statement is missing the last trip to Bonn.
+b1.w.207 :: section; stretch
+b1.w.207.ex.0 :: Because of the construction work, we have to walk our bikes along this section of the cycle path.
+b1.w.208 :: alternately; taking turns
+b1.w.208.ex.0 :: We take turns driving so no one has to drive the entire way.
+b1.w.209 :: variety; change
+b1.w.209.ex.0 :: The course adds variety to my week because we always do something different.
+b1.w.210 :: to differ; to deviate
+b1.w.210.ex.0 :: The actual costs differ considerably from the first estimate.
+b1.w.211 :: government building; public office
+b1.w.211.ex.0 :: In the morning, a line is already waiting outside the government building to get in.
+b1.w.212 :: provider change; switching providers
+b1.w.212.ex.0 :: Switching providers was easier than we thought after the first conversation.
+b1.w.213 :: recognized; accredited
+b1.w.213.ex.0 :: The position requires a qualification recognized in Germany.
+b1.w.214 :: tense; strained
+b1.w.214.ex.0 :: I was tense before the first interview and spoke very quickly.
+b1.w.215 :: dependent on; reliant on
+b1.w.215.ex.0 :: Without my own car, I depend on the bus connection.
+b1.w.216 :: habit
+b1.w.216.ex.0 :: My habit of reading the news at night often keeps me awake.
+b1.w.217 :: to announce
+b1.w.217.ex.0 :: The city announced construction work for next week.
+b1.w.218 :: attachment; facility
+b1.w.218.ex.0 :: I am sending a photo of the damaged cupboard door as an attachment.
+b1.w.219 :: occasion; reason
+b1.w.219.ex.0 :: My father always bakes the cake himself for this special occasion.
+b1.w.220 :: instructions; guide
+b1.w.220.ex.0 :: Thanks to the illustrated instructions, we were able to assemble the frame without help.

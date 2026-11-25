@@ -1,0 +1,30 @@
+b1.w.116 :: conditionally; to a limited extent
+b1.w.116.ex.0 :: The old tablet is only somewhat suitable for the online course.
+b1.w.117 :: fixed-term; limited-term
+b1.w.117.ex.0 :: My job contract is fixed-term until the end of August.
+b1.w.118 :: for example
+b1.w.118.ex.0 :: You can send the documents, for example, as a PDF.
+b1.w.119 :: for work; professionally
+b1.w.119.ex.0 :: She is in Hamburg on business this week.
+b1.w.120 :: accordingly; as a result
+b1.w.120.ex.0 :: The number of guests went down, so we ordered less food.
+b1.w.121 :: on average
+b1.w.121.ex.0 :: It takes me an average of thirty-five minutes to get to work by bus.
+b1.w.122 :: as a volunteer; on a voluntary basis
+b1.w.122.ex.0 :: My sister volunteers at the city library.
+b1.w.123 :: independently; on one's own
+b1.w.123.ex.0 :: After the introduction, I was able to operate the new printer on my own.
+b1.w.124 :: on the one hand
+b1.w.124.ex.0 :: On the one hand, the apartment is brighter; on the other, it is considerably more expensive.
+b1.w.125 :: consistent; uniform
+b1.w.125.ex.0 :: The same registration rules apply to all groups.
+b1.w.126 :: required; necessary
+b1.w.126.ex.0 :: A valid ID is required to pick it up.
+b1.w.127 :: considerably; significantly
+b1.w.127.ex.0 :: Since the bridge was closed, the trip to school has become considerably longer.
+b1.w.128 :: as expected
+b1.w.128.ex.0 :: As expected, the cheap tickets were already sold out in the morning.
+b1.w.129 :: if necessary
+b1.w.129.ex.0 :: If necessary, bring a copy of the contract with you.
+b1.w.130 :: in principle; generally
+b1.w.130.ex.0 :: In principle, you can take bicycles on the train as long as there is enough space.

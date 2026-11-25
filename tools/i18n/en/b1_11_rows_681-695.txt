@@ -1,0 +1,30 @@
+b1.w.521 :: to check again; to verify
+b1.w.521.ex.0 :: Before paying, Aylin checked the price on the receipt again.
+b1.w.522 :: as a side job; part-time on the side
+b1.w.522.ex.0 :: She runs the small shop as a side job and opens only on weekends.
+b1.w.523 :: side entrance
+b1.w.523.ex.0 :: A yellow arrow directs the delivery driver to the side entrance of the building.
+b1.w.524 :: to restart; to reboot
+b1.w.524.ex.0 :: We should restart the computer before the next video call.
+b1.w.525 :: curiosity
+b1.w.525.ex.0 :: Out of curiosity, the girl asked the beekeeper about his clothes.
+b1.w.526 :: note-taking feature
+b1.w.526.ex.0 :: I use the note-taking feature to highlight new words directly in the text.
+b1.w.527 :: cardboard box
+b1.w.527.ex.0 :: An old cardboard box became a garage for the children's toy cars.
+b1.w.528 :: perfectly fitting; made to measure
+b1.w.528.ex.0 :: We need a perfectly fitting wooden frame for the crooked window.
+b1.w.529 :: staff change; change of personnel
+b1.w.529.ex.0 :: After the staff change, nobody at the shop knew my name anymore.
+b1.w.530 :: skincare product; care product
+b1.w.530.ex.0 :: During the trip, I tried a new skincare product.
+b1.w.531 :: allocation of places; assignment of spots
+b1.w.531.ex.0 :: This year, children from the neighborhood have priority when places are assigned.
+b1.w.532 :: internship placement
+b1.w.532.ex.0 :: Zeynep found an internship at a veterinary clinic through an acquaintance.
+b1.w.533 :: trial week
+b1.w.533.ex.0 :: During the trial week, I can also attend the beginner swimming course.
+b1.w.534 :: use of rooms; room usage
+b1.w.534.ex.0 :: The two associations always decide together how the space will be used.
+b1.w.535 :: rain gutter
+b1.w.535.ex.0 :: Water was still dripping from the rain gutter into the empty courtyard.

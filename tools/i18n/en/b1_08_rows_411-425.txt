@@ -1,0 +1,30 @@
+b1.w.251 :: to apply for; to request
+b1.w.251.ex.0 :: The association applied for a permit for the renovation work.
+b1.w.252 :: to commission; to hire
+b1.w.252.ex.0 :: The building management hired a company to clean the courtyard.
+b1.w.253 :: to impress
+b1.w.253.ex.0 :: I was impressed by how calmly Lea stayed during the interview.
+b1.w.254 :: encounter; meeting
+b1.w.254.ex.0 :: I learned about the association through a chance encounter on the train.
+b1.w.255 :: to inspect; to walk through
+b1.w.255.ex.0 :: The building management inspected the courtyard with the tenants.
+b1.w.256 :: beginning; start
+b1.w.256.ex.0 :: At the start of the holiday season, trains to the coast are especially crowded.
+b1.w.257 :: to treat; to deal with
+b1.w.257.ex.0 :: The doctor treats the injury and explains the next steps.
+b1.w.258 :: treatment
+b1.w.258.ex.0 :: After the first treatment, Mia could move her arm better again.
+b1.w.259 :: to fix; to solve
+b1.w.259.ex.0 :: The repair shop fixed the problem that same afternoon.
+b1.w.260 :: contribution; membership fee
+b1.w.260.ex.0 :: Our sports club membership fee is deducted from our account in January.
+b1.w.261 :: receipt
+b1.w.261.ex.0 :: Keep the receipt in case the shop asks for it when you exchange the item.
+b1.w.262 :: to prove; to document
+b1.w.262.ex.0 :: I can prove with photos that the window was already broken.
+b1.w.263 :: notification; alert
+b1.w.263.ex.0 :: I received a notification on my phone just before the appointment.
+b1.w.264 :: observation
+b1.w.264.ex.0 :: His observation about traffic changed the discussion at the parents' council.
+b1.w.265 :: consultation; advice
+b1.w.265.ex.0 :: After the consultation, I finally knew which form was right for me.

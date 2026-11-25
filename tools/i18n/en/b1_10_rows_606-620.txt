@@ -1,0 +1,30 @@
+b1.w.446 :: career change
+b1.w.446.ex.0 :: Before changing careers, she asked two friends for their honest advice.
+b1.w.447 :: to stock; to equip
+b1.w.447.ex.0 :: The team stocks the shelves with new products shortly before opening.
+b1.w.448 :: company party; staff celebration
+b1.w.448.ex.0 :: Because several employees called in sick, the company party will not take place until June this year.
+b1.w.449 :: payment method
+b1.w.449.ex.0 :: Cash is the only payment method for drinks at the mobile stand.
+b1.w.450 :: whereas; in contrast
+b1.w.450.ex.0 :: Our street is quiet at night, whereas the square stays lively for a long time.
+b1.w.451 :: to portray; to depict
+b1.w.451.ex.0 :: The drawing depicts the planned renovation from the neighbors' point of view.
+b1.w.452 :: data backup; data protection
+b1.w.452.ex.0 :: Without regular data backups, the photos from the school festival would have been lost.
+b1.w.453 :: conceivable; possible
+b1.w.453.ex.0 :: Another date would be possible as long as we hear about it early enough.
+b1.w.454 :: business trip
+b1.w.454.ex.0 :: On his first business trip, Erhan had to represent the company on his own.
+b1.w.455 :: double-sided; on both sides
+b1.w.455.ex.0 :: Please print the directions double-sided so that we use less paper.
+b1.w.456 :: leverage; pressure tactic
+b1.w.456.ex.0 :: The seller wanted to use the delivery delay as leverage to demand a higher price.
+b1.w.457 :: to pass on; to communicate
+b1.w.457.ex.0 :: The assistant radioed the number of the car they were looking for.
+b1.w.458 :: fitted kitchen; built-in kitchen
+b1.w.458.ex.0 :: The fitted kitchen will stay in the apartment when the family moves out.
+b1.w.459 :: to store; to put into storage
+b1.w.459.ex.0 :: We store the garden chairs in the garage over the winter.
+b1.w.460 :: to initiate; to start
+b1.w.460.ex.0 :: When there is a complaint, the management first initiates an internal review.

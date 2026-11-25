@@ -1,0 +1,30 @@
+b1.w.956 :: power adapter; power supply
+b1.w.956.ex.0 :: Without the right power adapter, the screen could not be turned on.
+b1.w.957 :: newsletter
+b1.w.957.ex.0 :: I usually read the library's newsletter on my way to work.
+b1.w.958 :: to resign; to step down
+b1.w.958.ex.0 :: After the election, the former chair officially stepped down from the position.
+b1.w.959 :: emergency service; on-call service
+b1.w.959.ex.0 :: The emergency service could only offer us a temporary solution that evening.
+b1.w.960 :: if necessary; if need be
+b1.w.960.ex.0 :: If necessary, we could pick up the heavy speakers with a larger vehicle.
+b1.w.961 :: use; usage
+b1.w.961.ex.0 :: New members must register in advance to use the workshop.
+b1.w.962 :: fasting; on an empty stomach
+b1.w.962.ex.0 :: The boy had to come to the doctor's office fasting for an early morning blood test.
+b1.w.963 :: superficial; shallow
+b1.w.963.ex.0 :: The discussion remained superficial because the group had little time.
+b1.w.964 :: to arrange; to organize
+b1.w.964.ex.0 :: Lara organized her documents by date for the meeting.
+b1.w.965 :: delivery person; parcel courier
+b1.w.965.ex.0 :: With our permission, the courier left the box beside the stairs.
+b1.w.966 :: fit; cut
+b1.w.966.ex.0 :: The tight waistband was what bothered him most about the fit of the trousers.
+b1.w.967 :: bottle deposit receipt; deposit voucher
+b1.w.967.ex.0 :: You can redeem the deposit voucher at the same checkout where you shop.
+b1.w.968 :: to pick; to pluck
+b1.w.968.ex.0 :: Before it rained, my father picked the ripe pears in the garden.
+b1.w.969 :: to burst; to blow out
+b1.w.969.ex.0 :: A tire on the trailer suddenly burst while the luggage was being loaded.
+b1.w.970 :: inbox
+b1.w.970.ex.0 :: In her crowded inbox, the customer initially missed the important message.

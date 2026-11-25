@@ -1,0 +1,30 @@
+b1.w.731 :: fingertip
+b1.w.731.ex.0 :: Lara carefully checked with her fingertip whether the paint was dry.
+b1.w.732 :: in terms of area; by floor space
+b1.w.732.ex.0 :: In terms of floor space, the library is smaller than the gym next to the school.
+b1.w.733 :: hands-free; without holding the handlebars
+b1.w.733.ex.0 :: On the empty square, he finally learned to ride a bicycle without holding the handlebars.
+b1.w.734 :: no earlier than; at the earliest
+b1.w.734.ex.0 :: You can expect the delivery no earlier than Wednesday afternoon.
+b1.w.735 :: manager; executive
+b1.w.735.ex.0 :: The new manager first listened to her employees' suggestions.
+b1.w.736 :: subject to a fee; chargeable
+b1.w.736.ex.0 :: Starting in July, all parking spaces right in front of the town hall will be paid parking.
+b1.w.737 :: suitable; appropriate
+b1.w.737.ex.0 :: These shoes are especially suitable for damp forest paths.
+b1.w.738 :: opposite; contrasting
+b1.w.738.ex.0 :: During the discussion, two opposing ideas about quiet clashed.
+b1.w.739 :: headwind
+b1.w.739.ex.0 :: Because of the headwind, we made slow progress across the open field.
+b1.w.740 :: grounds; site
+b1.w.740.ex.0 :: The grounds behind the hall are well suited to small concerts.
+b1.w.741 :: nonprofit; charitable
+b1.w.741.ex.0 :: The nonprofit association offers free courses during the holidays.
+b1.w.742 :: shared kitchen; communal kitchen
+b1.w.742.ex.0 :: The residents often meet on Sundays to cook in the shared kitchen.
+b1.w.743 :: justified; warranted
+b1.w.743.ex.0 :: Given the long wait, he found her anger completely justified.
+b1.w.744 :: slight; minor
+b1.w.744.ex.0 :: There was only a slight price difference between the two offers.
+b1.w.745 :: skillfully; cleverly
+b1.w.745.ex.0 :: The student skillfully untied the knot with a thin wooden stick.

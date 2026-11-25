@@ -1,0 +1,30 @@
+b1.w.911 :: heat-resistant; heatproof
+b1.w.911.ex.0 :: We need a heat-resistant cork mat for the hot pot.
+b1.w.912 :: collection of ideas; brainstorming list
+b1.w.912.ex.0 :: Each group chose two suggestions for the festival from the collection of ideas.
+b1.w.913 :: identical; exactly the same
+b1.w.913.ex.0 :: The two forms are almost identical except for the number at the bottom.
+b1.w.914 :: information desk; information center
+b1.w.914.ex.0 :: We got a map showing the accessible route from the information desk.
+b1.w.915 :: cable tie; zip tie
+b1.w.915.ex.0 :: Juri fastened the cable to the lower frame with a cable tie.
+b1.w.916 :: downside; reverse side
+b1.w.916.ex.0 :: The long waiting times were the downside of the especially low-priced offer.
+b1.w.917 :: clothes hanger
+b1.w.917.ex.0 :: The assistant brought three more hangers for the wet jackets.
+b1.w.918 :: to stick; to jam
+b1.w.918.ex.0 :: The garden shed door has been sticking again since the last rain.
+b1.w.919 :: to clarify; to settle
+b1.w.919.ex.0 :: The couple clarified the parking issue before making the booking.
+b1.w.920 :: to crease; to fold
+b1.w.920.ex.0 :: Please fold the sheet along the thin gray line first.
+b1.w.921 :: cooking time
+b1.w.921.ex.0 :: Chopped potatoes have a much shorter cooking time than usual.
+b1.w.922 :: circulation; circulatory system
+b1.w.922.ex.0 :: Standing for a long time in the heat affected his circulation.
+b1.w.923 :: temporarily; for a short time
+b1.w.923.ex.0 :: The entrance was temporarily closed at noon because of a malfunction.
+b1.w.924 :: loading area; cargo bed
+b1.w.924.ex.0 :: There was room for only one table in the vehicle's cargo area.
+b1.w.925 :: to store; to keep in storage
+b1.w.925.ex.0 :: In summer, the association stores its tents in a dry basement room.

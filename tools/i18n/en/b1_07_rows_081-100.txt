@@ -1,0 +1,20 @@
+b1.w.41 :: public; general public
+b1.w.41.ex.0 :: The meeting is open to the public, but space is limited.
+b1.w.42 :: need for care
+b1.w.42.ex.0 :: The family is discussing their grandfather's care needs with an advice center.
+b1.w.43 :: mandatory appointment
+b1.w.43.ex.0 :: Monday's safety training is mandatory for everyone at the company.
+b1.w.44 :: price comparison
+b1.w.44.ex.0 :: A price comparison showed that buying locally is worthwhile.
+b1.w.45 :: paying in installments
+b1.w.45.ex.0 :: When buying in installments, I pay the same amount for the bicycle every month.
+b1.w.46 :: recycling
+b1.w.46.ex.0 :: When recycling glass, it is important to sort the colors correctly.
+b1.w.47 :: order; sequence
+b1.w.47.ex.0 :: At the construction site, the manager explains the order in which the rooms will be painted.
+b1.w.48 :: withdrawal; cancellation
+b1.w.48.ex.0 :: According to the contract, you can withdraw from the course until Friday.
+b1.w.49 :: property damage
+b1.w.49.ex.0 :: Fortunately, the accident caused only minor damage to the bicycle.
+b1.w.50 :: shift supervisor
+b1.w.50.ex.0 :: The shift supervisor asks me to leave the spare key at reception.

@@ -1,0 +1,30 @@
+b1.w.701 :: passage; through traffic
+b1.w.701.ex.0 :: Because of the market, delivery vans cannot pass through until noon.
+b1.w.702 :: to air out thoroughly
+b1.w.702.ex.0 :: After cooking, we aired out the whole room for a short time.
+b1.w.703 :: to cross; to walk through
+b1.w.703.ex.0 :: Early in the morning, the hikers walked through the quiet valley.
+b1.w.704 :: real time
+b1.w.704.ex.0 :: The app shows delayed buses and trains in real time.
+b1.w.705 :: feature; characteristic
+b1.w.705.ex.0 :: A useful feature of this bag is that its fabric can be wiped clean easily.
+b1.w.706 :: to include; to involve
+b1.w.706.ex.0 :: The manager also included the new members in the discussion.
+b1.w.707 :: to seep in; to penetrate
+b1.w.707.ex.0 :: During the storm, water seeped in through the partly open basement window.
+b1.w.708 :: to trap; to catch
+b1.w.708.ex.0 :: The woman caught her coat in the door while closing it.
+b1.w.709 :: entrance staff; ushers
+b1.w.709.ex.0 :: The entrance staff checked the tickets at the stairs to the hall.
+b1.w.710 :: preserving jar; canning jar
+b1.w.710.ex.0 :: We used an empty preserving jar as a vase for the flowers.
+b1.w.711 :: to memorize; to keep in mind
+b1.w.711.ex.0 :: She memorized the order of the steps before the exam.
+b1.w.712 :: to collect; to gather
+b1.w.712.ex.0 :: After class, the teacher collected the completed worksheets.
+b1.w.713 :: shift; period of duty
+b1.w.713.ex.0 :: When her shift ended, Rike returned the safety vest to reception.
+b1.w.714 :: accessible; available for inspection
+b1.w.714.ex.0 :: Members can view the complete list in the office starting Monday.
+b1.w.715 :: accommodating; helpful
+b1.w.715.ex.0 :: The sales assistant was very accommodating and extended the exchange period.

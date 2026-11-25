@@ -1,0 +1,30 @@
+b1.w.356 :: to have a say; to participate in a decision
+b1.w.356.ex.0 :: The children are also allowed to have a say in choosing the destination for the trip.
+b1.w.357 :: as early/as much as possible
+b1.w.357.ex.0 :: Come to the repair shop as early as possible; it gets very busy in the afternoon.
+b1.w.358 :: monthly
+b1.w.358.ex.0 :: We pay a small monthly fee for the shared garden.
+b1.w.359 :: gradually; little by little
+b1.w.359.ex.0 :: Everyone gradually got used to the new schedule.
+b1.w.360 :: additional payment; back payment
+b1.w.360.ex.0 :: We had to make a small additional payment for hot water in March.
+b1.w.361 :: on the side; while doing something else
+b1.w.361.ex.0 :: While cooking, I listen to German news on the radio.
+b1.w.362 :: on top of that; what is more
+b1.w.362.ex.0 :: The room is smaller than we expected and, on top of that, very noisy.
+b1.w.363 :: upper limit; maximum
+b1.w.363.ex.0 :: The workshop has a maximum group size of eight people.
+b1.w.364 :: officially
+b1.w.364.ex.0 :: The guided tour does not officially start until eleven, so we still have time.
+b1.w.365 :: town center; center of the village
+b1.w.365.ex.0 :: A new footpath connects the station to the town center.
+b1.w.366 :: trial work; work trial
+b1.w.366.ex.0 :: After the trial work, the manager discussed the contract with me.
+b1.w.367 :: exam anxiety
+b1.w.367.ex.0 :: Because of her exam anxiety, she practices the oral tasks with her friend.
+b1.w.368 :: cycling route; bike route
+b1.w.368.ex.0 :: The recommended cycling route follows the river and avoids the main road.
+b1.w.369 :: to let someone know in good time
+b1.w.369.ex.0 :: Please let us know in good time if you cannot come on the trip.
+b1.w.370 :: against the rules; rule-breaking
+b1.w.370.ex.0 :: The bicycle was parked right in front of the school entrance, against the rules.

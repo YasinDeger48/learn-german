@@ -1,0 +1,20 @@
+b1.w.21 :: progress
+b1.w.21.ex.0 :: My biggest achievement is that I can now talk on the phone without help.
+b1.w.22 :: professional development; further training
+b1.w.22.ex.0 :: My colleague is taking a course on how to deal with difficult customers.
+b1.w.23 :: fee increase
+b1.w.23.ex.0 :: The parents want to know why the childcare fee was increased.
+b1.w.24 :: permission; approval
+b1.w.24.ex.0 :: We need permission from the city for the street festival.
+b1.w.25 :: floor plan
+b1.w.25.ex.0 :: On the floor plan, I can see that the second room is right next to the kitchen.
+b1.w.26 :: liability
+b1.w.26.ex.0 :: In its letter, the association explains who is liable if something is damaged.
+b1.w.27 :: challenge
+b1.w.27.ex.0 :: My first phone call to the government office was a bigger challenge than writing the email.
+b1.w.28 :: helpfulness; willingness to help
+b1.w.28.ex.0 :: The team's helpfulness surprised her on her first day at the company.
+b1.w.29 :: maintenance
+b1.w.29.ex.0 :: The association works with a repair shop to maintain the bicycles.
+b1.w.30 :: knowledge; skill
+b1.w.30.ex.0 :: During the interview, I was able to demonstrate my Excel skills with an example.

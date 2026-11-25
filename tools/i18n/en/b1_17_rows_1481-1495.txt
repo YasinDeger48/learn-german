@@ -1,0 +1,15 @@
+b1.gi.235 :: The Pr?teritum form of ausschalten for this subject is schaltete, with the separable prefix aus at the end. The caretaker switched off the doorbell until it could be repaired.
+b1.gi.236 :: The Pr?teritum form of schreiben for this subject is schrieb. The administration wrote a precise schedule only after the meeting.
+b1.gi.237 :: The Pr?teritum form of leuchten for this subject is leuchtete. In low light, the bright strip at the entrance shone clearly.
+b1.gi.238 :: The Pr?teritum form of bringen for this subject is brachte. The child brought its teacher a bouquet as a farewell gift.
+b1.gi.239 :: The Pr?teritum form of teilen for this subject is teilten. Two young people from the neighboring village shared the last seat in the carriage.
+b1.gi.240 :: An earlier action is expressed with the past participle and the Pr?teritum form hatte of haben. After I had turned off the stove, I left the apartment.
+b1.gi.241 :: An earlier action is expressed with the past participle and the Pr?teritum form waren of sein. The guests went for a walk after they had arrived at the hotel.
+b1.gi.242 :: An earlier action is expressed with the past participle and the Pr?teritum form hattest of haben. The seller gave you the key only after you had paid.
+b1.gi.243 :: An earlier action is expressed with the past participle and the Pr?teritum form wart of sein. I called you after you had boarded the wrong train.
+b1.gi.244 :: An earlier action is expressed with the past participle and the Pr?teritum form hatte of haben. After the repair shop had called, we picked up the bicycle.
+b1.gi.245 :: An earlier action is expressed with the past participle and the Pr?teritum form hattet of haben. You could shower only after you had turned on the water.
+b1.gi.246 :: An earlier action is expressed with the past participle and the Pr?teritum form hatte of haben. We changed buses after the bus had stopped at the station.
+b1.gi.247 :: An earlier action is expressed with the past participle and the Pr?teritum form waren of sein. After we had arrived at the summit, it began to snow.
+b1.gi.248 :: An earlier action is expressed with the past participle and the Pr?teritum form hatte of haben. She threw away the box after she had unpacked the glasses.
+b1.gi.249 :: An earlier action is expressed with the past participle and the Pr?teritum form warst of sein. After you had fallen asleep, your sister turned the music down.

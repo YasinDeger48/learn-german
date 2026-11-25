@@ -1,0 +1,30 @@
+b1.w.321 :: passenger
+b1.w.321.ex.0 :: A passenger helped the driver identify the owner of the lost bag.
+b1.w.322 :: timetable change
+b1.w.322.ex.0 :: Since the timetable changed, I arrive at the office five minutes earlier in the morning.
+b1.w.323 :: financing
+b1.w.323.ex.0 :: The association has been raising money for months to finance the new playground.
+b1.w.324 :: to leave clear; to keep free
+b1.w.324.ex.0 :: Please keep the driveway clear; a large delivery van is coming tomorrow.
+b1.w.325 :: early; in good time
+b1.w.325.ex.0 :: Anyone who wants to travel in summer should book their accommodation early.
+b1.w.326 :: fee notice; payment notice
+b1.w.326.ex.0 :: I received the fee notice for my new ID yesterday.
+b1.w.327 :: memorial day
+b1.w.327.ex.0 :: On the memorial day, older residents told stories about the village's history.
+b1.w.328 :: mutually; one another
+b1.w.328.ex.0 :: We give each other feedback before sending the letters.
+b1.w.329 :: hearing protection; ear protection
+b1.w.329.ex.0 :: Everyone working in the noisy workshop wears hearing protection.
+b1.w.330 :: sum of money; amount
+b1.w.330.ex.0 :: The amount in the account matches the bill.
+b1.w.331 :: municipality; community
+b1.w.331.ex.0 :: Our municipality is organizing a free course for older people this summer.
+b1.w.332 :: community
+b1.w.332.ex.0 :: A small community has formed since we started sharing the courtyard.
+b1.w.333 :: to permit; to allow
+b1.w.333.ex.0 :: The school allows photography only with the parents' permission.
+b1.w.334 :: profit; proceeds
+b1.w.334.ex.0 :: Our class is donating the proceeds from the cake sale to the animal shelter.
+b1.w.335 :: usually; generally
+b1.w.335.ex.0 :: I usually pick up the children right after school on Tuesdays.

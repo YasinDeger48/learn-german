@@ -1,0 +1,30 @@
+b1.w.836 :: lightning strike
+b1.w.836.ex.0 :: After the lightning strike, the lights went out along the entire street.
+b1.w.837 :: flooring; floor covering
+b1.w.837.ex.0 :: We chose easy-to-clean flooring for the kitchen.
+b1.w.838 :: fragment; broken piece
+b1.w.838.ex.0 :: The children found a fragment of the old vase under the chest of drawers.
+b1.w.839 :: stage rehearsal
+b1.w.839.ex.0 :: At the final stage rehearsal, the director changed the characters' entrances.
+b1.w.840 :: citizens' initiative; community action group
+b1.w.840.ex.0 :: A citizens' initiative is collecting signatures for a safe route to school.
+b1.w.841 :: roof hatch
+b1.w.841.ex.0 :: Warm air escaped easily through the open roof hatch.
+b1.w.842 :: seal; gasket
+b1.w.842.ex.0 :: Thanks to the new seal, rain no longer gets in through the window.
+b1.w.843 :: revolving door
+b1.w.843.ex.0 :: It is hard to use the revolving door at the entrance with a large bag.
+b1.w.844 :: print shop; printing works
+b1.w.844.ex.0 :: The print shop is delivering the finished programs to the hall on Friday.
+b1.w.845 :: property; ownership
+b1.w.845.ex.0 :: Even while borrowed, the books remain the property of the city library.
+b1.w.846 :: to classify; to place at a level
+b1.w.846.ex.0 :: After the conversation, the teacher classified him as advanced.
+b1.w.847 :: to enter; to write down
+b1.w.847.ex.0 :: Please enter the correct house number in the second field.
+b1.w.848 :: start date; date of joining
+b1.w.848.ex.0 :: The exact start date is listed in the first section of the new contract.
+b1.w.849 :: to receive; to welcome
+b1.w.849.ex.0 :: An employee welcomed us at the entrance with two small name tags.
+b1.w.850 :: reception area; lobby
+b1.w.850.ex.0 :: There were brochures about courses for the coming months in the reception area.

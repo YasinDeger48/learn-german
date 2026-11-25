@@ -1,0 +1,30 @@
+b1.w.566 :: participation fee
+b1.w.566.ex.0 :: Meals for both days are included in the participation fee.
+b1.w.567 :: audio recording
+b1.w.567.ex.0 :: In the audio recording, you can hear passing cars as well as voices.
+b1.w.568 :: tote bag; shopping bag
+b1.w.568.ex.0 :: Fortunately, my reusable shopping bag still fit in my jacket pocket.
+b1.w.569 :: soaking wet; dripping wet
+b1.w.569.ex.0 :: After the downpour, I put my soaking wet trousers on the radiator.
+b1.w.570 :: to divert; to reroute
+b1.w.570.ex.0 :: Because of the construction work, the city is diverting traffic onto the side street.
+b1.w.571 :: right to exchange; exchange policy
+b1.w.571.ex.0 :: The sales assistant explained my right to exchange the item when I bought it.
+b1.w.572 :: moving box
+b1.w.572.ex.0 :: The top moving box contained only towels and lightweight bedding.
+b1.w.573 :: to underestimate
+b1.w.573.ex.0 :: During the move, we had greatly underestimated how heavy the books were.
+b1.w.574 :: unchanged
+b1.w.574.ex.0 :: Even after the repair, the faint noise in the hallway remained unchanged.
+b1.w.575 :: expiration date; best-before date
+b1.w.575.ex.0 :: The expiration date on the damaged package is almost impossible to read now.
+b1.w.576 :: in vain; unsuccessfully
+b1.w.576.ex.0 :: On Sunday, I looked in vain for an open shop nearby.
+b1.w.577 :: extension cord
+b1.w.577.ex.0 :: With an extension cord, the connection reaches all the way to the far corner.
+b1.w.578 :: lockable; closable
+b1.w.578.ex.0 :: At the outdoor pool, we keep our valuables in a lockable box.
+b1.w.579 :: screening; demonstration
+b1.w.579.ex.0 :: All the seats for the first screening had been taken by morning.
+b1.w.580 :: to move forward; to bring forward
+b1.w.580.ex.0 :: Because of the weather warning, the school moved the trip forward by one day.

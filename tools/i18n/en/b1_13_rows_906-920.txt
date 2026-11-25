@@ -1,0 +1,30 @@
+b1.w.746 :: facial expression
+b1.w.746.ex.0 :: I could tell from her facial expression that she already knew the news.
+b1.w.747 :: separately; separately from
+b1.w.747.ex.0 :: The two invoices were sent separately to the customers concerned.
+b1.w.748 :: takes getting used to
+b1.w.748.ex.0 :: The new daily routine took some getting used to for the whole family at first.
+b1.w.749 :: spice blend; seasoning mix
+b1.w.749.ex.0 :: This spice blend tastes milder than the one we have used so far.
+b1.w.750 :: black ice warning
+b1.w.750.ex.0 :: After the black ice warning, Pinar preferred to push her bicycle to the main road.
+b1.w.751 :: believable; credible
+b1.w.751.ex.0 :: Her explanation sounded believable because she could give the exact times.
+b1.w.752 :: carry-on luggage; hand luggage
+b1.w.752.ex.0 :: He had only a book and a thick cardigan in his carry-on luggage.
+b1.w.753 :: stapler
+b1.w.753.ex.0 :: Our stapler can staple at most ten pages without bending the staple.
+b1.w.754 :: assistant; support worker
+b1.w.754.ex.0 :: As an assistant at the library, she sorts the returned books every Saturday.
+b1.w.755 :: return trip; outward and return journey
+b1.w.755.ex.0 :: We would have paid more for the round trip by taxi.
+b1.w.756 :: handshake
+b1.w.756.ex.0 :: The coach greeted the parents of the new players with a brief handshake.
+b1.w.757 :: snack stand; food stand
+b1.w.757.ex.0 :: The smell of fried onions was already coming from the food stand outside the stadium.
+b1.w.758 :: summary; synopsis
+b1.w.758.ex.0 :: After reading, our group wrote a short summary for the poster.
+b1.w.759 :: inner courtyard
+b1.w.759.ex.0 :: When the weather is nice, the children play table tennis in the school's inner courtyard.
+b1.w.760 :: annual fee; yearly contribution
+b1.w.760.ex.0 :: The association pays the rent for its rooms from the annual membership fee.

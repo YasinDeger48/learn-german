@@ -1,0 +1,30 @@
+b1.w.101 :: to convince
+b1.w.101.ex.0 :: The second offer convinced us because assembly was already included in the price.
+b1.w.102 :: to implement; to put into practice
+b1.w.102.ex.0 :: The city wants to implement the new plan in the spring.
+b1.w.103 :: to arrange; to initiate
+b1.w.103.ex.0 :: The landlord arranged for the repair to be done that same day.
+b1.w.104 :: to avoid
+b1.w.104.ex.0 :: By booking an early appointment, I avoid a long wait.
+b1.w.105 :: to teach; to convey
+b1.w.105.ex.0 :: The course teaches the most important rules for dealing with customers.
+b1.w.106 :: to require; to obligate
+b1.w.106.ex.0 :: The contract requires us to leave the room clean after the party.
+b1.w.107 :: to tighten; to make stricter
+b1.w.107.ex.0 :: After several accidents, the swimming pool tightened its entry rules.
+b1.w.108 :: to represent; to stand in for
+b1.w.108.ex.0 :: Can you represent me at the meeting on Monday?
+b1.w.109 :: to attend; to keep an appointment
+b1.w.109.ex.0 :: I cannot attend the appointment on Wednesday because I have to work.
+b1.w.110 :: to revoke; to withdraw
+b1.w.110.ex.0 :: I would like to revoke my consent to the publication of the photo.
+b1.w.111 :: to disagree; to object
+b1.w.111.ex.0 :: During the discussion, a neighbor politely disagreed with me.
+b1.w.112 :: to agree; to approve
+b1.w.112.ex.0 :: I agree with the idea of swapping books in the courtyard.
+b1.w.113 :: gradually; little by little
+b1.w.113.ex.0 :: Gradually, I am understanding the announcements on the train without help, too.
+b1.w.114 :: using; by means of
+b1.w.114.ex.0 :: The coach explains the exercise using a short video.
+b1.w.115 :: sufficient; enough
+b1.w.115.ex.0 :: Two pots and a frying pan are enough for the first few weeks.

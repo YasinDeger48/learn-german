@@ -1,0 +1,30 @@
+b1.w.416 :: arrangement; layout
+b1.w.416.ex.0 :: The new arrangement of the tables keeps the entrance clear.
+b1.w.417 :: without complaint; without any problems
+b1.w.417.ex.0 :: The retailer took back the incorrectly delivered device without any problems.
+b1.w.418 :: deposit; down payment
+b1.w.418.ex.0 :: My aunt has already paid a deposit for the holiday home.
+b1.w.419 :: work clothes
+b1.w.419.ex.0 :: We hang wet work clothes in a heated room here.
+b1.w.420 :: to keep; to store
+b1.w.420.ex.0 :: I keep the receipt until the warranty expires.
+b1.w.421 :: to catch; to collect
+b1.w.421.ex.0 :: A shallow bucket caught the water dripping from the leaking pipe.
+b1.w.422 :: to dissolve; to melt
+b1.w.422.ex.0 :: To make the sauce, you first dissolve the sugar in warm water.
+b1.w.423 :: upright; vertical
+b1.w.423.ex.0 :: The plant will stay upright if you give it a sturdy stake.
+b1.w.424 :: to increase; to add to
+b1.w.424.ex.0 :: Because of the new registrations, the association is increasing its materials budget.
+b1.w.425 :: to thin out
+b1.w.425.ex.0 :: Lotte is thinning out the seedlings so the remaining carrots can grow.
+b1.w.426 :: extensively; at length
+b1.w.426.ex.0 :: Before leaving, we had one last long breakfast in the garden.
+b1.w.427 :: temporary worker; helping hand
+b1.w.427.ex.0 :: On Saturdays, a temporary worker helps put the new products on the shelves.
+b1.w.428 :: to unfold; to fold out
+b1.w.428.ex.0 :: When the weather is dry, the vendors unfold their tables outside.
+b1.w.429 :: to make use of; to take advantage of
+b1.w.429.ex.0 :: We took advantage of a break in the rain to do a quick shop in the village.
+b1.w.430 :: to align; to arrange
+b1.w.430.ex.0 :: She aligned the pictures on the wall with a spirit level.

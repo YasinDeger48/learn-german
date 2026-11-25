@@ -1,0 +1,30 @@
+b1.w.281 :: resident; inhabitant
+b1.w.281.ex.0 :: The residents decided together to paint the benches in the courtyard.
+b1.w.282 :: consciously; deliberately
+b1.w.282.ex.0 :: We deliberately chose a quieter street for the route to school.
+b1.w.283 :: whatever you do, don't; definitely not
+b1.w.283.ex.0 :: Don't forget the key, or we'll be locked out later.
+b1.w.284 :: as a result; following that
+b1.w.284.ex.0 :: The scanner stopped working, so a colleague took the documents to the office in person.
+b1.w.285 :: permanent solution
+b1.w.285.ex.0 :: The table in the hallway is useful, but it is not a permanent solution for the course.
+b1.w.286 :: to learn something new; to learn more
+b1.w.286.ex.0 :: I learned something new in every conversation with the customers.
+b1.w.287 :: to carry out; to conduct
+b1.w.287.ex.0 :: The school is conducting a survey about routes to school in the spring.
+b1.w.288 :: continuously; throughout
+b1.w.288.ex.0 :: During the holidays, the museum is open continuously from ten to six.
+b1.w.289 :: to hold out; to keep going
+b1.w.289.ex.0 :: Despite the long wait, the group held out until the end.
+b1.w.290 :: former; previous
+b1.w.290.ex.0 :: A former classmate of mine now works at the repair shop next door.
+b1.w.291 :: to introduce; to implement
+b1.w.291.ex.0 :: Starting in June, the company is introducing the same rule for every shift.
+b1.w.292 :: to intervene
+b1.w.292.ex.0 :: The teacher had to intervene when two children began arguing loudly.
+b1.w.293 :: reasonably; fairly
+b1.w.293.ex.0 :: After three hours of sleep, I was feeling reasonably fit again.
+b1.w.294 :: income
+b1.w.294.ex.0 :: Since her income is irregular, she puts some money aside every month.
+b1.w.295 :: to schedule; to plan for
+b1.w.295.ex.0 :: We are allowing twenty minutes for the transfer in Cologne.

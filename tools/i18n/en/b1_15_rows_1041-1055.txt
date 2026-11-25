@@ -1,0 +1,30 @@
+b1.w.881 :: background noise; ambient sound
+b1.w.881.ex.0 :: Unfortunately, the background noise in the caf? was too loud for the recording.
+b1.w.882 :: flavor; flavor option
+b1.w.882.ex.0 :: With this ice cream, you can combine two flavors in the same cup.
+b1.w.883 :: point of view; aspect
+b1.w.883.ex.0 :: From this point of view, taking the shorter route is a sensible choice.
+b1.w.884 :: local public health department
+b1.w.884.ex.0 :: The school forwarded the letter directly to the local public health department.
+b1.w.885 :: health insurance card
+b1.w.885.ex.0 :: Her health insurance card was in her bag next to her vaccination record.
+b1.w.886 :: greenhouse
+b1.w.886.ex.0 :: The small plants were able to survive the cold nights in the greenhouse.
+b1.w.887 :: to grant; to give
+b1.w.887.ex.0 :: The company gave the group a discount for booking early.
+b1.w.888 :: to glide; to sail smoothly
+b1.w.888.ex.0 :: The small boat glided almost silently across the lake that morning.
+b1.w.889 :: to smooth; to even out
+b1.w.889.ex.0 :: Before painting, the repairman smoothed the edge with fine sandpaper.
+b1.w.890 :: floor area; footprint
+b1.w.890.ex.0 :: Only a small floor area is available for the new shed.
+b1.w.891 :: size information; size specification
+b1.w.891.ex.0 :: The exact size information below the photo helped me when I placed the order.
+b1.w.892 :: rubber ring; rubber band
+b1.w.892.ex.0 :: The loose rubber ring fell to the floor when the lid was opened.
+b1.w.893 :: hail damage
+b1.w.893.ex.0 :: I did not notice the hail damage to the car until the next morning.
+b1.w.894 :: more or less; reasonably
+b1.w.894.ex.0 :: After two hours, the unfinished drawing already looked reasonably neat.
+b1.w.895 :: craft; trade
+b1.w.895.ex.0 :: This family has practiced the traditional craft for several generations.

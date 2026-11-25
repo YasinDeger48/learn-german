@@ -1,0 +1,30 @@
+b1.w.806 :: transport connection; accessibility
+b1.w.806.ex.0 :: Many students are moving to this area because it has good transport connections.
+b1.w.807 :: clue; indication
+b1.w.807.ex.0 :: The old city map gave us a clue for continuing the search.
+b1.w.808 :: delivery; arrival of goods
+b1.w.808.ex.0 :: Fresh goods are usually delivered before six o'clock.
+b1.w.809 :: right; entitlement
+b1.w.809.ex.0 :: Under the contract, she is entitled to two additional days off.
+b1.w.810 :: sympathy; condolences
+b1.w.810.ex.0 :: The family was grateful for the sympathy shown by so many neighbors.
+b1.w.811 :: loss of appetite
+b1.w.811.ex.0 :: Because his loss of appetite continued, he finally called the doctor's office.
+b1.w.812 :: work permit
+b1.w.812.ex.0 :: Her work permit had to be renewed in good time before she changed jobs.
+b1.w.813 :: work sample; sample of work
+b1.w.813.ex.0 :: She brought two work samples from her last course to the job interview.
+b1.w.814 :: edition; print run; condition
+b1.w.814.ex.0 :: The new edition no longer includes outdated ticket prices.
+b1.w.815 :: entrance exam; admission test
+b1.w.815.ex.0 :: My brother practiced the piano every evening for the entrance exam.
+b1.w.816 :: inscription; label
+b1.w.816.ex.0 :: The writing on the container was almost unreadable after the rain.
+b1.w.817 :: client; person placing an order
+b1.w.817.ex.0 :: The client asked for one last photo before printing.
+b1.w.818 :: stamina; endurance
+b1.w.818.ex.0 :: A long bike ride takes more stamina than strength.
+b1.w.819 :: destination for a trip; excursion destination
+b1.w.819.ex.0 :: In rainy weather, the technology museum is our favorite family destination.
+b1.w.820 :: capacity utilization; occupancy
+b1.w.820.ex.0 :: Because the pool was so busy, it opened earlier on the weekend.

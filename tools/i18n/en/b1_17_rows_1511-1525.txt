@@ -1,0 +1,15 @@
+b1.gi.265 :: An earlier action is expressed with the past participle and the Pr?teritum form hattest of haben. Your phone battery died after you had left the group.
+b1.gi.266 :: An earlier action is expressed with the past participle and the Pr?teritum form war of sein. My uncle wrote to us after his wife had recovered.
+b1.gi.267 :: An earlier action is expressed with the past participle and the Pr?teritum form hatten of haben. We took the bins outside after we had sorted the rubbish.
+b1.gi.268 :: An earlier action is expressed with the past participle and the Pr?teritum form waren of sein. Both children were tired after they had climbed the tower.
+b1.gi.269 :: An earlier action is expressed with the past participle and the Pr?teritum form wart of sein. You arrived at the stadium after walking along the river.
+b1.gi.270 :: In written German, the preposition wegen is followed here by the genitive form der. A police officer directed traffic because the traffic light was broken.
+b1.gi.271 :: In written German, the preposition trotz is followed here by the genitive form des. Despite the strong wind, the farmers' market stayed open until noon.
+b1.gi.272 :: In written German, the preposition innerhalb is followed here by the genitive form einer. The company must reply to my message within a week.
+b1.gi.273 :: In written German, the preposition w?hrend is followed here by the genitive form des. The lights in the hall suddenly went out during the last match.
+b1.gi.274 :: The genitive marks possession and begins here with des. The elevator repair took longer than originally planned.
+b1.gi.275 :: The genitive marks possession and begins here with der. She recognized the plant by the color of its flowers.
+b1.gi.276 :: The genitive marks possession and begins here with des. I like the pattern of the new rug under your desk.
+b1.gi.277 :: The genitive marks possession and begins here with des. The cause of the error was not found until the next morning.
+b1.gi.278 :: In written German, the preposition trotz is followed here by the genitive form der. Despite the crowded train, we still arrived at the performance on time.
+b1.gi.279 :: The genitive marks possession and begins here with des. The back of the form must also be filled in with a black pen.

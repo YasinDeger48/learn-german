@@ -1,0 +1,30 @@
+b1.w.941 :: decisive; determining
+b1.w.941.ex.0 :: The location was especially important in choosing the hall.
+b1.w.942 :: several times; repeatedly
+b1.w.942.ex.0 :: The teacher reminded us several times that the exam time had changed.
+b1.w.943 :: multilingual
+b1.w.943.ex.0 :: The participants designed the multilingual sign at the entrance together.
+b1.w.944 :: minimum distance; required spacing
+b1.w.944.ex.0 :: We followed the required minimum distance when arranging the chairs.
+b1.w.945 :: in the medium term
+b1.w.945.ex.0 :: In the medium term, the library wants to create additional quiet places to study.
+b1.w.946 :: intermediate level; middle school level
+b1.w.946.ex.0 :: The intermediate-level books are on the shelf next to the door.
+b1.w.947 :: laborious; difficult
+b1.w.947.ex.0 :: Without an elevator, carrying the heavy boxes upstairs was difficult.
+b1.w.948 :: to imitate; to mimic
+b1.w.948.ex.0 :: The children imitated the sounds of the old machines while playing.
+b1.w.949 :: to touch up; to make improvements
+b1.w.949.ex.0 :: After the paint dried, the painter had to touch up the bottom corner.
+b1.w.950 :: thoughtful; pensive
+b1.w.950.ex.0 :: After the conversation, my brother seemed thoughtful all the way home.
+b1.w.951 :: to make up for; to catch up on
+b1.w.951.ex.0 :: Because of the storm, the class made up the trip in May.
+b1.w.952 :: demonstrably; verifiably
+b1.w.952.ex.0 :: It was documented that the shipment was not sent from the warehouse until Friday.
+b1.w.953 :: to recount; to count again
+b1.w.953.ex.0 :: Before leaving, the teacher counted all the children again.
+b1.w.954 :: obvious; the logical choice
+b1.w.954.ex.0 :: Since the distance was short, the bicycle seemed like the obvious choice.
+b1.w.955 :: secondary; unimportant
+b1.w.955.ex.0 :: For a repair, the color of the screw is unimportant to me.

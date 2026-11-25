@@ -1,0 +1,15 @@
+b1.gi.205 :: Durch takes the accusative; the masculine form is den. The entrance through which the parcels are delivered is in the courtyard.
+b1.gi.206 :: Wo can follow a phrase indicating a place. There is already snow in the mountains where my father used to work.
+b1.gi.207 :: Neben takes the dative for location; the feminine form is der. This is the bench beside which your bicycle was standing yesterday.
+b1.gi.208 :: Was refers to the offer of help. She offered to help, which we all thought was very kind.
+b1.gi.209 :: An takes the dative for location; the plural form is denen. Which are the spots where we have to drive especially slowly?
+b1.gi.210 :: The Pr?teritum form of schlie?en for this subject is schloss. When the rain became heavier, Eva closed the shop earlier.
+b1.gi.211 :: The Pr?teritum form of pr?fen for this subject is pr?fte. The technician checked the cable first because the screen stayed dark.
+b1.gi.212 :: The Pr?teritum form of finden for this subject is fand. After he arrived, Amir found the key under the doormat.
+b1.gi.213 :: The Pr?teritum form of sprechen for this subject is sprachen. We talked about her trip almost the whole way.
+b1.gi.214 :: The Pr?teritum form of geben for this subject is gab. Luckily, the saleswoman gave me a suitable box yesterday.
+b1.gi.215 :: The Pr?teritum form of warten for this subject is warteten. The children waited very quietly in the hallway during the rehearsal.
+b1.gi.216 :: The Pr?teritum form of fahren for this subject is fuhr. At seven o'clock, the first bus suddenly drove backward.
+b1.gi.217 :: The Pr?teritum form of suchen for this subject is suchte. Before the move, her sister looked for an affordable van.
+b1.gi.218 :: The Pr?teritum form of gehen for this subject is gingen. The two dogs no longer went outside during the thunderstorm.
+b1.gi.219 :: The Pr?teritum form of holen for this subject is holte. Nils took a crumpled map of the area out of his backpack.

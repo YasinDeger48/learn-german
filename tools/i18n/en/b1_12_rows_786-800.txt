@@ -1,0 +1,30 @@
+b1.w.626 :: to request; to ask for
+b1.w.626.ex.0 :: The office requested another copy of the certificate for the registration.
+b1.w.627 :: susceptible; prone to
+b1.w.627.ex.0 :: The old lock is especially susceptible to dirt and moisture.
+b1.w.628 :: persistent; prolonged
+b1.w.628.ex.0 :: The persistent rain caused the water level in the stream to rise very quickly.
+b1.w.629 :: to screw on; to attach with screws
+b1.w.629.ex.0 :: Ada screwed on the handles only after the paint had dried.
+b1.w.630 :: risk of infection
+b1.w.630.ex.0 :: The team stayed home to reduce the risk of infection at the office.
+b1.w.631 :: storage; keeping
+b1.w.631.ex.0 :: A large, flat folder is suitable for storing the drawings.
+b1.w.632 :: to use up; to consume
+b1.w.632.ex.0 :: By Christmas, we had used up all the supplies from the garden.
+b1.w.633 :: print; imprint
+b1.w.633.ex.0 :: After the first wash, the print was hardly recognizable.
+b1.w.634 :: stairway; staircase access
+b1.w.634.ex.0 :: The rear stairway will remain open to everyone during the construction work.
+b1.w.635 :: supervisor; attendant
+b1.w.635.ex.0 :: Before swimming, the supervisor counted the children by the pool.
+b1.w.636 :: to unlock; to open with a key
+b1.w.636.ex.0 :: Around seven, the caretaker unlocks the side door to the hall.
+b1.w.637 :: to visit; to seek out
+b1.w.637.ex.0 :: Because of the persistent pain, Fatih finally went to see his family doctor.
+b1.w.638 :: to thaw; to defrost
+b1.w.638.ex.0 :: The vegetables thawed slowly in the bottom compartment overnight.
+b1.w.639 :: time-consuming; elaborate
+b1.w.639.ex.0 :: Replacing the entire door would be much more time-consuming than this repair.
+b1.w.640 :: expansion; development
+b1.w.640.ex.0 :: Work to expand the cycle path is expected to begin before autumn.

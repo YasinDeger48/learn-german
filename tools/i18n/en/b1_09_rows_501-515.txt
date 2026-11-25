@@ -1,0 +1,30 @@
+b1.w.341 :: to point out; to draw attention to
+b1.w.341.ex.0 :: The employee pointed out to me that the registration period is short.
+b1.w.342 :: afterward; following
+b1.w.342.ex.0 :: After the course, some participants go out to eat together.
+b1.w.343 :: in advance
+b1.w.343.ex.0 :: We had to pay for the room in advance, although we will not arrive until tomorrow.
+b1.w.344 :: vaccination
+b1.w.344.ex.0 :: She stayed at the doctor's office for a little while after the vaccination.
+b1.w.345 :: by mistake; mistakenly
+b1.w.345.ex.0 :: I sent the package to the old address by mistake.
+b1.w.346 :: allotment garden; community garden plot
+b1.w.346.ex.0 :: Every spring, my aunt plants herbs and tomatoes in her allotment garden.
+b1.w.347 :: small thing; little something
+b1.w.347.ex.0 :: I only wanted to bring a little something to the visit tomorrow.
+b1.w.348 :: air conditioning
+b1.w.348.ex.0 :: We opened all the windows because the air conditioning had broken down.
+b1.w.349 :: in the future; from now on
+b1.w.349.ex.0 :: From now on, we will meet at the city library to study.
+b1.w.350 :: course director; course administration
+b1.w.350.ex.0 :: The course director is helping me find another date for the exam.
+b1.w.351 :: location; situation
+b1.w.351.ex.0 :: The apartment is in a good location, even though the building is old.
+b1.w.352 :: only; merely
+b1.w.352.ex.0 :: I only need my ID and course number to register.
+b1.w.353 :: loan period
+b1.w.353.ex.0 :: The loan period for the novel ends tomorrow, so I will renew it online.
+b1.w.354 :: praise
+b1.w.354.ex.0 :: My colleague's praise made me feel better on this long day.
+b1.w.355 :: rent increase
+b1.w.355.ex.0 :: After the announced rent increase, the family planned its expenses again.

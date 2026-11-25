@@ -1,0 +1,30 @@
+b1.w.176 :: learning strategy
+b1.w.176.ex.0 :: My learning strategy is to use new words in a message right away.
+b1.w.177 :: list of defects; snag list
+b1.w.177.ex.0 :: Before handing over the keys, we made a list of defects together.
+b1.w.178 :: incident report form
+b1.w.178.ex.0 :: The damage report form is available in the entrance area.
+b1.w.179 :: rent adjustment; rent increase
+b1.w.179.ex.0 :: We were informed about the rent adjustment two months in advance.
+b1.w.180 :: tenants' council
+b1.w.180.ex.0 :: The tenants' council wants a designated place for bicycles in the courtyard.
+b1.w.181 :: repair; correction of a defect
+b1.w.181.ex.0 :: The door still stuck after the first repair, so further work was needed.
+b1.w.182 :: retake exam; supplementary exam
+b1.w.182.ex.0 :: Anyone who narrowly failed math can take a retake exam in August.
+b1.w.183 :: human resources department
+b1.w.183.ex.0 :: I sent my new address to the human resources department.
+b1.w.184 :: exam procedure; exam format
+b1.w.184.ex.0 :: On the first day of the course, the teacher explains how the exam will work.
+b1.w.185 :: room availability; range of rooms
+b1.w.185.ex.0 :: There are enough rooms for small groups, but not for the whole association.
+b1.w.186 :: response time
+b1.w.186.ex.0 :: The response time for complaints has decreased since the staff change.
+b1.w.187 :: refund; reimbursement
+b1.w.187.ex.0 :: The refund for the canceled concert was credited to my account.
+b1.w.188 :: feedback form
+b1.w.188.ex.0 :: On the feedback form, I was able to suggest starting the course later.
+b1.w.189 :: damage report; claim report
+b1.w.189.ex.0 :: I attached three photos of the broken window to the damage report.
+b1.w.190 :: protective measure
+b1.w.190.ex.0 :: As a protective measure, the school separated delivery traffic from the main entrance.

@@ -1,0 +1,30 @@
+b1.w.821 :: outdoor lighting
+b1.w.821.ex.0 :: After the power outage, the outdoor light at the entrance did not come on at first.
+b1.w.822 :: exchange; discussion
+b1.w.822.ex.0 :: Talking with the other parents helped us make our decision.
+b1.w.823 :: highway exit
+b1.w.823.ex.0 :: After the next highway exit, there is a long construction zone with no shoulder.
+b1.w.824 :: baking time
+b1.w.824.ex.0 :: The baking time is shorter when you use two small pans.
+b1.w.825 :: craft instructions; craft guide
+b1.w.825.ex.0 :: With the illustrated craft instructions, the children were able to make a pinwheel on their own.
+b1.w.826 :: construction style; design
+b1.w.826.ex.0 :: The open design lets a lot of light into the small house.
+b1.w.827 :: condition; requirement
+b1.w.827.ex.0 :: Under this condition, we can use the room in winter as well.
+b1.w.828 :: need; desire
+b1.w.828.ex.0 :: The new rule takes the residents' need for quiet into account.
+b1.w.829 :: enthusiasm
+b1.w.829.ex.0 :: The children tried the new instrument for the first time with great enthusiasm.
+b1.w.830 :: treatment room
+b1.w.830.ex.0 :: There were two chairs and a small table in the bright treatment room.
+b1.w.831 :: surface; coating
+b1.w.831.ex.0 :: The new surface on the path becomes less slippery when wet.
+b1.w.832 :: vocational school; trade school
+b1.w.832.ex.0 :: Enes goes to vocational school after work twice a week.
+b1.w.833 :: company holiday; annual shutdown
+b1.w.833.ex.0 :: We are not accepting new orders in August because of the company holiday.
+b1.w.834 :: female librarian
+b1.w.834.ex.0 :: The librarian quietly showed us the way to the reading room at the back.
+b1.w.835 :: baking sheet; sheet metal
+b1.w.835.ex.0 :: There was still room for four small rolls on the large baking sheet.

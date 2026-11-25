@@ -1,0 +1,30 @@
+b1.w.431 :: selection process
+b1.w.431.ex.0 :: The selection process includes a short interview with the department manager.
+b1.w.432 :: to step aside; to avoid
+b1.w.432.ex.0 :: On the narrow sidewalk, I stepped aside for a woman with a stroller.
+b1.w.433 :: alternative route; detour route
+b1.w.433.ex.0 :: When the water rises, the detour goes through two small villages.
+b1.w.434 :: building permit
+b1.w.434.ex.0 :: The owner needs to get a building permit for the new garage first.
+b1.w.435 :: to supervise; to watch over
+b1.w.435.ex.0 :: During the break, a teacher supervises the children in the courtyard.
+b1.w.436 :: unfortunately; regrettably
+b1.w.436.ex.0 :: Unfortunately, the last place had already been taken that morning.
+b1.w.437 :: operating error; user error
+b1.w.437.ex.0 :: Apparently, a user error caused the incorrect result.
+b1.w.438 :: to fill; to fill up
+b1.w.438.ex.0 :: The team fills the small bottles right next to the machine.
+b1.w.439 :: to settle; to pay off
+b1.w.439.ex.0 :: Emil paid the room bill as soon as he arrived.
+b1.w.440 :: accompanying person; companion
+b1.w.440.ex.0 :: Each child may bring one accompanying person to practice on Saturday.
+b1.w.441 :: temporarily; as a makeshift solution
+b1.w.441.ex.0 :: Until the handle arrived, we kept the door shut with a cord as a temporary fix.
+b1.w.442 :: container; vessel
+b1.w.442.ex.0 :: The flowers need a sturdy, tall container for transport.
+b1.w.443 :: to burden; to strain
+b1.w.443.ex.0 :: Since the change, the long travel times have put a lot of strain on her daily life.
+b1.w.444 :: ventilation
+b1.w.444.ex.0 :: Better ventilation would make working in the basement more pleasant.
+b1.w.445 :: username
+b1.w.445.ex.0 :: You can find your username at the top right, next to the blue icon.
