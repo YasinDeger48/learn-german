@@ -66,7 +66,10 @@ export type ReviewState = { status?: 'ok' | 'fix'; note?: string; at?: string }
 
 export type TextRow = { id: string; title: string; topic: string; cover: boolean; review: ReviewState; issues: string[] }
 
-export type Glossary = { form: string; lemma: string; art?: string; mean: { tr: string; en?: string }; pron?: string }
+/** Texts in the learner languages: tr and en always, es / fr / it / ku / ar when translated. */
+export type Langs = { tr: string; en?: string; [lang: string]: string | undefined }
+
+export type Glossary = { form: string; lemma: string; art?: string; mean: Langs; pron?: string }
 
 export type Question = { type: 'mc' | 'tf'; q: string; options: string[]; answer: number }
 
@@ -81,7 +84,7 @@ export type TextDetail = {
     title: string
     topic?: string
     paragraphs: string[]
-    trans?: { tr?: string; en?: string }[]
+    trans?: Partial<Langs>[]
     glossary: Glossary[]
     questions: Question[]
   }
@@ -119,7 +122,7 @@ export type UnitFull = {
   texts: { id: string; title: string; cover: boolean }[]
   speaking: { id: string; title: string }[]
   writing: { id: string; title: string }[]
-  phrases: { de: string; tr: string; en: string; added?: boolean }[]
+  phrases: { de: string; tr: string; en: string; added?: boolean; [lang: string]: string | boolean | undefined }[]
   words: { de: string; article: string | null; meaning: string; picture: string | null }[]
 }
 
@@ -154,7 +157,8 @@ export type WordRow = {
   pron: string
   tr: string
   en: string
-  examples: { de: string; tr: string; en: string }[]
+  mean: Langs
+  examples: { de: string; tr: string; en: string; mean: Langs }[]
   broken: boolean
   added?: boolean
 }

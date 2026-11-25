@@ -10,6 +10,7 @@ import { DropZone } from '@/components/ui/drop-zone'
 import { Editable } from '@/components/ui/editable'
 import { useToast } from '@/components/ui/toast'
 import { api, type UnitFull } from '@/lib/api'
+import { langDir, useSecondLang } from '@/lib/lang'
 import { cn } from '@/lib/utils'
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2']
@@ -31,6 +32,7 @@ function Step({ n, icon: Icon, title, sub, children }: { n: number; icon: Lucide
 }
 
 function Detail({ unit, bust, onBust }: { unit: UnitFull; bust: number; onBust: () => void }) {
+  const [second] = useSecondLang()
   const toast = useToast()
   const client = useQueryClient()
   const pictures = unit.words.filter((w) => w.picture).length
@@ -103,7 +105,7 @@ function Detail({ unit, bust, onBust }: { unit: UnitFull; bust: number; onBust: 
             <li key={i} className="grid gap-0.5 rounded-lg border border-line-soft px-3 py-2">
               <span><Editable className="font-semibold" value={p.de} target={at(`phrases.${i}.de`)} refresh={refresh} />{p.added && <AddedMark refresh={refresh} remove={{ file: 'units.json', collection: 'units', item: { de: p.de }, parent: { keyField: 'id', key: unit.id, path: 'phrases' } }} />}</span>
               <Editable className="text-xs text-muted" value={p.tr} target={at(`phrases.${i}.tr`)} refresh={refresh} />
-              <Editable className="text-xs text-muted" value={p.en} target={at(`phrases.${i}.en`)} refresh={refresh} />
+              <Editable className="text-xs text-muted" dir={langDir(second)} value={typeof p[second] === 'string' ? String(p[second]) : ''} placeholder="not translated" target={at(`phrases.${i}.${second}`)} refresh={refresh} />
             </li>
           ))}
         </ul>

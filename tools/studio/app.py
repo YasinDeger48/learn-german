@@ -295,7 +295,9 @@ def words(level: str):
         mean = w.get('mean') or {}
         out.append({'id': w['id'], 'de': w['de'], 'type': w['type'], 'theme': themes.get(w.get('theme'), ''),
                     'plural': w.get('plural'), 'pron': w.get('pron', ''), 'tr': mean.get('tr', ''), 'en': mean.get('en', ''),
-                    'examples': [{'de': e['de'], 'tr': e['mean'].get('tr', ''), 'en': e['mean'].get('en', '')} for e in w.get('ex', [])],
+                    'mean': mean,
+                    'examples': [{'de': e['de'], 'tr': e['mean'].get('tr', ''), 'en': e['mean'].get('en', ''), 'mean': e['mean']}
+                                 for e in w.get('ex', [])],
                     'broken': any(broken(x) for x in [mean.get('tr'), mean.get('en')] + [e['mean'].get('en') for e in w.get('ex', [])])})
     mine = set(added_ids(f'{lv}.json', 'words'))
     for w in out:
@@ -313,7 +315,8 @@ def grammar(level: str):
         mine = [i for i in items if i['topic'] == g['id']]
         out.append({
             'id': g['id'], 'de': g['de'], 'name': g['name'], 'rule': g['rule'],
-            'examples': [{'de': e['de'], 'tr': e['mean'].get('tr', ''), 'en': e['mean'].get('en', '')} for e in g.get('examples', [])],
+            'examples': [{'de': e['de'], 'tr': e['mean'].get('tr', ''), 'en': e['mean'].get('en', ''), 'mean': e['mean']}
+                         for e in g.get('examples', [])],
             'items': [{'q': i['q'], 'answer': i['options'][0] if i['options'] else '', 'options': i['options'],
                        'why': i.get('why', {}), 'broken': broken((i.get('why') or {}).get('en')) or broken((i.get('why') or {}).get('tr'))}
                       for i in mine],
@@ -390,9 +393,29 @@ async def edit_text(request: Request):
         with lock:
             old = content_edits.edit(str(body.get('file', '')), str(body.get('collection', '')), str(body.get('keyField', '')),
                                      body.get('key'), str(body.get('path', '')), str(body.get('value', '')))
+            remember_translation(body)
         return {'ok': True, 'old': old}
     except (OSError, ValueError, KeyError, IndexError) as e:
         bad(e)
+
+
+def remember_translation(body):
+    """A Studio edit of es/fr/it/ku/ar also goes into tools/i18n/content_<lang>.json (English → translation),
+    so importing ChatGPT answers later does not bring the old translation back."""
+    path = str(body.get('path', ''))
+    lang = path.rsplit('.', 1)[-1]
+    if lang not in LANG_CODES:
+        return
+    _, _, data = content_edits.read_file(str(body.get('file', '')))
+    node, _ = content_edits.locate(data, str(body.get('collection', '')), str(body.get('keyField', '')), body.get('key'), path)
+    english = node.get('en') if isinstance(node, dict) else None
+    if not isinstance(english, str) or not english.strip():
+        return
+    memory = os.path.join(TOOLS, 'i18n', f'content_{lang}.json')
+    known = json.load(open(memory, encoding='utf-8')) if os.path.exists(memory) else {}
+    known[english] = str(body.get('value', '')).strip()
+    with open(memory, 'w', encoding='utf-8', newline='\n') as f:
+        json.dump(known, f, ensure_ascii=False, indent=0)
 
 
 @app.get('/api/edits')

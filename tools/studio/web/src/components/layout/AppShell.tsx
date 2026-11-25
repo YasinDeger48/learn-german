@@ -14,6 +14,7 @@ import {
   type LucideIcon,
 } from 'lucide-react'
 import { NavLink, Outlet } from 'react-router-dom'
+import { LangPicker } from '@/components/ui/lang-picker'
 import { api } from '@/lib/api'
 import { cn, fmt } from '@/lib/utils'
 
@@ -89,6 +90,7 @@ export function AppShell() {
         {workflow.map((item) => (
           <NavItem key={item.to} item={item} />
         ))}
+        <LangPicker />
         <div className="mt-auto border-t border-white/10 px-2.5 pt-3.5 text-xs leading-relaxed text-nav-muted">
           <div>{data ? (data.unsaved ? `${data.unsaved} unsaved file${data.unsaved > 1 ? 's' : ''}` : 'All changes saved') : '…'}</div>
           <div>

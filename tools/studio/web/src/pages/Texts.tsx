@@ -10,6 +10,7 @@ import { DropZone } from '@/components/ui/drop-zone'
 import { Editable } from '@/components/ui/editable'
 import { useToast } from '@/components/ui/toast'
 import { api, type Glossary, type TextDetail, type TextRow } from '@/lib/api'
+import { langDir, langName, useSecondLang } from '@/lib/lang'
 import { cn } from '@/lib/utils'
 
 const FILTERS = [
@@ -49,6 +50,7 @@ function Marked({ text, glossary }: { text: string; glossary: Glossary[] }) {
 }
 
 function Detail({ id, bust, onBust, onReviewed }: { id: string; bust: number; onBust: () => void; onReviewed: (status: string) => void }) {
+  const [second] = useSecondLang()
   const toast = useToast()
   const client = useQueryClient()
   const { data, error, isLoading } = useQuery({ queryKey: ['text', id], queryFn: () => api.text(id) })
@@ -98,7 +100,7 @@ function Detail({ id, bust, onBust, onReviewed }: { id: string; bust: number; on
   const editRefresh = ['text', 'texts']
   const trans = t.trans || []
   const words = t.paragraphs.join(' ').split(/\s+/).length
-  const part = (lang: 'tr' | 'en') => trans.map((x) => x[lang]).filter(Boolean)
+  const part = (lang: string) => trans.map((x) => x[lang]).filter(Boolean)
 
   return (
     <div className="flex min-w-0 flex-1 flex-col gap-[18px]">
@@ -181,9 +183,13 @@ function Detail({ id, bust, onBust, onReviewed }: { id: string; bust: number; on
           {!part('tr').length && <p className="text-bad">—</p>}
         </Card>
         <Card className="px-4 py-3.5">
-          <h3 className="mt-0 mb-2 text-xs font-semibold tracking-wider text-muted uppercase">English</h3>
-          {trans.map((x, i) => x.en ? <p key={i} className="mt-0 mb-2.5 leading-relaxed"><Editable multiline value={x.en} target={at(`trans.${i}.en`)} refresh={editRefresh} /></p> : null)}
-          {!part('en').length && <p className="text-bad">—</p>}
+          <h3 className="mt-0 mb-2 text-xs font-semibold tracking-wider text-muted uppercase">{langName(second)}{second !== 'en' && !part(second).length ? ' · not translated yet' : ''}</h3>
+          {trans.map((x, i) => (x.en || x[second]) ? (
+            <p key={i} className="mt-0 mb-2.5 leading-relaxed">
+              <Editable multiline dir={langDir(second)} value={x[second] || ''} placeholder={second === 'en' ? 'empty' : `not translated · English: ${x.en}`} target={at(`trans.${i}.${second}`)} refresh={editRefresh} />
+            </p>
+          ) : null)}
+          {!part(second).length && second === 'en' && <p className="text-bad">—</p>}
         </Card>
       </div>
 
@@ -196,7 +202,7 @@ function Detail({ id, bust, onBust, onReviewed }: { id: string; bust: number; on
                 <tr key={g.lemma + g.form} className="border-t border-line-soft">
                   <td className="px-4 py-1.5 font-semibold whitespace-nowrap">{g.art ? `${g.art} ` : ''}{g.lemma}</td>
                   <td className="px-2 py-1.5"><Editable value={g.mean.tr} target={at(`glossary.${i}.mean.tr`)} refresh={editRefresh} /></td>
-                  <td className="px-4 py-1.5 text-muted">{g.mean.en ? <Editable value={g.mean.en} target={at(`glossary.${i}.mean.en`)} refresh={editRefresh} /> : '—'}</td>
+                  <td className="px-4 py-1.5 text-muted">{g.mean.en ? <Editable dir={langDir(second)} value={g.mean[second] || ''} placeholder="not translated" target={at(`glossary.${i}.mean.${second}`)} refresh={editRefresh} /> : '—'}</td>
                 </tr>
               ))}
             </tbody>

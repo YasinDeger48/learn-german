@@ -10,6 +10,7 @@ import { Card } from '@/components/ui/card'
 import { Editable } from '@/components/ui/editable'
 import { LevelTabs } from '@/components/ui/level-tabs'
 import { api } from '@/lib/api'
+import { inLang, langDir, langName, useSecondLang } from '@/lib/lang'
 import { cn, fmt } from '@/lib/utils'
 
 const ARTICLE: Record<string, string> = { der: 'text-[#2F5BEA]', die: 'text-[#C8323A]', das: 'text-[#157A41]' }
@@ -24,6 +25,7 @@ const TYPES = [
 const PAGE = 200
 
 export function Words() {
+  const [second] = useSecondLang()
   const { level: param } = useParams()
   const level = (param || 'A1').toUpperCase()
   const navigate = useNavigate()
@@ -105,7 +107,7 @@ export function Words() {
                   <th className="px-4 py-2.5 font-semibold">Word</th>
                   <th className="px-2 py-2.5 font-semibold">Plural</th>
                   <th className="px-2 py-2.5 font-semibold">Türkçe</th>
-                  <th className="px-2 py-2.5 font-semibold">English</th>
+                  <th className="px-2 py-2.5 font-semibold">{langName(second)}</th>
                   <th className="px-4 py-2.5 font-semibold">Theme</th>
                 </tr>
               </thead>
@@ -122,7 +124,7 @@ export function Words() {
                       </td>
                       <td className="px-2 py-2 text-muted">{w.plural ? <Editable value={w.plural} target={at(w.id, 'plural')} refresh={refresh} /> : ''}</td>
                       <td className="px-2 py-2"><Editable value={w.tr} target={at(w.id, 'mean.tr')} refresh={refresh} /></td>
-                      <td className="px-2 py-2 text-ink-soft"><Editable value={w.en} target={at(w.id, 'mean.en')} refresh={refresh} /></td>
+                      <td className="px-2 py-2 text-ink-soft"><Editable dir={langDir(second)} value={inLang(w.mean, second)} placeholder="not translated" target={at(w.id, `mean.${second}`)} refresh={refresh} /></td>
                       <td className="px-4 py-2 text-xs text-muted">{w.theme}</td>
                     </tr>
                     {open === w.id && (
@@ -133,7 +135,7 @@ export function Words() {
                             <div key={i} className="mb-2.5 grid gap-0.5">
                               <Editable className="font-medium" value={e.de} target={at(w.id, `ex.${i}.de`)} refresh={refresh} />
                               <Editable className="text-xs text-muted" value={e.tr} target={at(w.id, `ex.${i}.mean.tr`)} refresh={refresh} />
-                              <Editable className="text-xs text-muted" value={e.en} target={at(w.id, `ex.${i}.mean.en`)} refresh={refresh} />
+                              <Editable className="text-xs text-muted" dir={langDir(second)} value={inLang(e.mean, second)} placeholder="not translated" target={at(w.id, `ex.${i}.mean.${second}`)} refresh={refresh} />
                             </div>
                           ))}
                           {!w.examples.length && <div className="text-muted">No examples.</div>}

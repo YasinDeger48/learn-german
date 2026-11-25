@@ -54,6 +54,10 @@ def write_file(path, raw, data):
             f.write('\n')
 
 
+# Learner languages: a missing translation (e.g. "ku" next to "en") can be added by an edit.
+LANGS = ('tr', 'en', 'es', 'fr', 'it', 'ku', 'ar')
+
+
 # What makes an added item the same item again (after a file was regenerated).
 IDENTITY = {'words': ('de', 'type'), 'grammarItems': ('q',), 'phrases': ('de',)}
 
@@ -146,6 +150,8 @@ def locate(data, collection, key_field, key, path):
     try:
         current = node[last]
     except (IndexError, KeyError, TypeError):
+        if isinstance(node, dict) and last in LANGS and isinstance(node.get('en'), str):
+            return node, last  # translation not there yet: it can be written
         raise ValueError(f'no field {path}') from None
     if not isinstance(current, str):
         raise ValueError(f'{path} is not a text')
@@ -159,7 +165,7 @@ def edit(file, collection, key_field, key, path, value):
         raise ValueError('empty text')
     full, raw, data = read_file(file)
     node, last = locate(data, collection, key_field, key, path)
-    old = node[last]
+    old = node.get(last, '') if isinstance(node, dict) else node[last]
     if old == value:
         return old
     node[last] = value
@@ -209,7 +215,7 @@ def apply_all(quiet=False):
             except ValueError as err:
                 failed.append((e, str(err)))
                 continue
-            if node[last] == e['value']:
+            if (node.get(last) if isinstance(node, dict) else node[last]) == e['value']:
                 already += 1
             else:
                 node[last] = e['value']
