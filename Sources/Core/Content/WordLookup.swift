@@ -16,6 +16,8 @@ final class WordLookup {
     static let shared = WordLookup()
 
     private var table: [String: A1Word] = [:]
+    /// Resources/content/lexicon.json: every other form found in the texts (tools/lexicon.py).
+    private var lexicon: [String: DailyGloss] = [:]
     private var ready = false
     private let lock = NSLock()
 
@@ -32,6 +34,9 @@ final class WordLookup {
             }
         }
         table = result
+        var forms: [String: DailyGloss] = [:]
+        for gloss in Bundled.decode(Lexicon.self, "lexicon")?.forms ?? [] { forms[gloss.form.lowercased()] = gloss }
+        lexicon = forms
         ready = true
     }
 
@@ -55,6 +60,9 @@ final class WordLookup {
         let isReady = ready
         lock.unlock()
         guard isReady else { return nil }
+        if table[core] == nil, let gloss = lexicon[core] {
+            return WordInfo(word: gloss.lemma, article: gloss.art, pron: gloss.pron, meaning: gloss.mean.text, extra: gloss.extra)
+        }
         if let word = table[core] ?? stemMatch(core) {
             let article = ["der", "die", "das"].contains(word.type) ? word.type : nil
             let extra = word.plural.map { "Pl. \($0)" } ?? word.perfekt
@@ -71,4 +79,9 @@ final class WordLookup {
         }
         return nil
     }
+}
+
+/// lexicon.json: {"forms": [glossary entries]}.
+struct Lexicon: Decodable {
+    let forms: [DailyGloss]
 }
