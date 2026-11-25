@@ -46,6 +46,10 @@ struct DailyReadingView: View {
     @State private var showTranslation = false
     @State private var playing = false
     @State private var speedIndex = 0
+    /// Long-press bubble: token id and what it shows.
+    @State private var bubbleID: String?
+    @State private var bubble: WordInfo?
+    @State private var bubbleWord = ""
     @Environment(\.dismiss) private var dismiss
 
     private let speeds: [Float] = [1.0, 0.8, 0.6]
@@ -70,7 +74,11 @@ struct DailyReadingView: View {
                     VStack(alignment: .leading, spacing: 16) {
                         ForEach(Array(text.paragraphs.enumerated()), id: \.offset) { index, paragraph in
                             VStack(alignment: .leading, spacing: 8) {
-                                FlowLayout { ForEach(Array(tokens(paragraph).enumerated()), id: \.offset) { _, token in tokenView(token) } }
+                                FlowLayout {
+                                    ForEach(Array(tokens(paragraph).enumerated()), id: \.offset) { i, token in
+                                        tokenView(token, id: "\(index)-\(i)")
+                                    }
+                                }
                                 if showTranslation, index < text.trans.count {
                                     Text(text.trans[index].text)
                                         .font(DS.text(15))
@@ -124,7 +132,10 @@ struct DailyReadingView: View {
                 .font(DS.text(14, .semibold))
             }
         }
-        .onAppear { daily.markRead(text) }
+        .onAppear {
+            daily.markRead(text)
+            DispatchQueue.global(qos: .userInitiated).async { WordLookup.shared.prepare() }
+        }
         .onDisappear { A1Speaker.shared.stop() }
     }
 
@@ -176,27 +187,86 @@ struct DailyReadingView: View {
         }
     }
 
-    @ViewBuilder
-    private func tokenView(_ token: Token) -> some View {
-        if let gloss = token.gloss {
-            Button {
-                selected = gloss
-                A1Speaker.shared.say(gloss.display)
-            } label: {
-                Text(token.text)
-                    .font(DS.text(19))
-                    .foregroundColor(DS.ink)
-                    .padding(.bottom, 2)
-                    .overlay(alignment: .bottom) {
-                        Rectangle().fill(gloss.art.map(a1ArticleColor) ?? DS.muted).frame(height: 2)
-                    }
-                    .background(selected == gloss ? DS.gold.opacity(0.25) : Color.clear)
+    /// Tap a marked word: the card below. Long-press any word: a bubble above it with meaning and pronunciation.
+    private func tokenView(_ token: Token, id: String) -> some View {
+        let open = bubbleID == id
+        return Text(token.text)
+            .font(DS.text(19))
+            .foregroundColor(DS.ink)
+            .padding(.bottom, 2)
+            .overlay(alignment: .bottom) {
+                if let gloss = token.gloss {
+                    Rectangle().fill(gloss.art.map(a1ArticleColor) ?? DS.muted).frame(height: 2)
+                }
             }
-            .buttonStyle(.plain)
-            .accessibilityHint(t("reading.tapHint"))
-        } else {
-            Text(token.text).font(DS.text(19)).foregroundColor(DS.ink)
+            .background((open || (token.gloss != nil && selected == token.gloss)) ? DS.gold.opacity(0.25) : Color.clear,
+                        in: RoundedRectangle(cornerRadius: 4, style: .continuous))
+            .overlay(alignment: .top) {
+                if open {
+                    wordBubble
+                        .fixedSize()
+                        .alignmentGuide(.top) { d in d[.bottom] + 8 }
+                        .transition(.scale(scale: 0.85, anchor: .bottom).combined(with: .opacity))
+                }
+            }
+            .zIndex(open ? 1 : 0)
+            .contentShape(Rectangle())
+            .onTapGesture {
+                bubbleID = nil
+                if let gloss = token.gloss {
+                    selected = gloss
+                    A1Speaker.shared.say(gloss.display)
+                }
+            }
+            .onLongPressGesture(minimumDuration: 0.35) { showBubble(token, id: id) }
+            .accessibilityAddTraits(token.gloss != nil ? .isButton : [])
+            .accessibilityHint(token.gloss != nil ? t("reading.tapHint") : t("reading.holdHint"))
+            .accessibilityAction(named: Text(t("reading.holdAction"))) { showBubble(token, id: id) }
+    }
+
+    private func showBubble(_ token: Token, id: String) {
+        UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+        let info = WordLookup.shared.info(for: token.text, glossary: text.glossary)
+        bubbleWord = token.text.trimmingCharacters(in: CharacterSet(charactersIn: ".,!?;:„“\"()–…‚‘'»«"))
+        withAnimation(.spring(response: 0.28, dampingFraction: 0.8)) {
+            bubble = info
+            bubbleID = id
         }
+        A1Speaker.shared.say(info.map { ($0.article.map { "\($0) " } ?? "") + $0.word } ?? bubbleWord)
+        // Close by itself after a while, unless another word was opened.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            if bubbleID == id { withAnimation(.easeOut(duration: 0.2)) { bubbleID = nil } }
+        }
+    }
+
+    private var wordBubble: some View {
+        VStack(alignment: .leading, spacing: 3) {
+            HStack(alignment: .firstTextBaseline, spacing: 5) {
+                if let article = bubble?.article {
+                    Text(article).font(.system(size: 14, weight: .heavy)).foregroundColor(a1ArticleColor(article))
+                }
+                Text(bubble?.word ?? bubbleWord).font(.system(size: 17, weight: .bold)).foregroundColor(DS.onNight)
+            }
+            if let pron = bubble?.pron, !pron.isEmpty, a1ShowsPron() {
+                Text("[\(pron)]").font(.system(size: 13)).foregroundColor(DS.onNightMuted)
+            }
+            Text(bubble?.meaning ?? t("reading.notInDictionary"))
+                .font(.system(size: 15, weight: .semibold))
+                .foregroundColor(bubble == nil ? DS.onNightMuted : DS.gold)
+                .frame(maxWidth: 220, alignment: .leading)
+                .fixedSize(horizontal: false, vertical: true)
+            if let extra = bubble?.extra {
+                Text(extra).font(.system(size: 12)).foregroundColor(DS.onNightMuted)
+            }
+        }
+        .padding(.horizontal, 12)
+        .padding(.vertical, 9)
+        .background(DS.night, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .overlay(alignment: .bottom) {
+            Triangle().fill(DS.night).frame(width: 14, height: 7).offset(y: 7)
+        }
+        .shadow(color: .black.opacity(0.25), radius: 12, y: 6)
+        .accessibilityElement(children: .combine)
     }
 
     private var legend: some View {
@@ -410,5 +480,17 @@ struct SavedWordsView: View {
         .listStyle(.insetGrouped)
         .navigationTitle(t("saved.title"))
         .toolbar { if !items.isEmpty { EditButton() } }
+    }
+}
+
+/// The little arrow under the word bubble.
+struct Triangle: Shape {
+    func path(in rect: CGRect) -> Path {
+        var p = Path()
+        p.move(to: CGPoint(x: rect.minX, y: rect.minY))
+        p.addLine(to: CGPoint(x: rect.maxX, y: rect.minY))
+        p.addLine(to: CGPoint(x: rect.midX, y: rect.maxY))
+        p.closeSubpath()
+        return p
     }
 }

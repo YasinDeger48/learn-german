@@ -195,7 +195,7 @@
  "reading.archive": "Earlier days",
  "reading.gap": "Complete the sentence from the text",
  "reading.hideTranslation": "Hide translation",
- "reading.legend": "· tap an underlined word",
+ "reading.legend": "· tap underlined words, hold any word",
  "reading.listenText": "Listen to the text",
  "reading.meaning": "What does this word from the text mean?",
  "reading.more": "More reading",
@@ -424,5 +424,8 @@
  "notify.streakTitle": "Your streak is waiting",
  "notify.streakBody": "One question is enough to keep it. Lina is ready when you are.",
  "settings.notifyWords": "Words and mini quiz during the day",
- "settings.notifyStreak": "Evening reminder for my streak"
+ "settings.notifyStreak": "Evening reminder for my streak",
+ "reading.holdHint": "Touch and hold for meaning and pronunciation",
+ "reading.holdAction": "Show meaning",
+ "reading.notInDictionary": "Not in the word list yet"
 }

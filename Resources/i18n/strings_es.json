@@ -195,7 +195,7 @@
  "reading.archive": "Días anteriores",
  "reading.gap": "Completa la frase del texto",
  "reading.hideTranslation": "Ocultar traducción",
- "reading.legend": "· toca una palabra subrayada",
+ "reading.legend": "· toca las subrayadas, mantén pulsada cualquiera",
  "reading.listenText": "Escuchar el texto",
  "reading.meaning": "¿Qué significa esta palabra del texto?",
  "reading.more": "Más lectura",
@@ -424,5 +424,8 @@
  "notify.streakTitle": "Tu racha te espera",
  "notify.streakBody": "Basta una pregunta para mantenerla. Lina está lista.",
  "settings.notifyWords": "Palabras y mini quiz durante el día",
- "settings.notifyStreak": "Recordatorio de racha por la tarde"
+ "settings.notifyStreak": "Recordatorio de racha por la tarde",
+ "reading.holdHint": "Mantén pulsado para ver significado y pronunciación",
+ "reading.holdAction": "Mostrar significado",
+ "reading.notInDictionary": "Aún no está en la lista"
 }

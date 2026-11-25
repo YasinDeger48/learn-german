@@ -195,7 +195,7 @@
  "reading.archive": "Önceki günler",
  "reading.gap": "Metindeki cümleyi tamamla",
  "reading.hideTranslation": "Çeviriyi gizle",
- "reading.legend": "· altı çizili kelimeye dokun",
+ "reading.legend": "· altı çizili kelimeye dokun, her kelimeye basılı tut",
  "reading.listenText": "Metni dinle",
  "reading.meaning": "Metindeki bu kelime ne demek?",
  "reading.more": "Daha fazla okuma",
@@ -424,5 +424,8 @@
  "notify.streakTitle": "Serin seni bekliyor",
  "notify.streakBody": "Serini korumak için tek bir soru yeter. Lina hazır.",
  "settings.notifyWords": "Gün içinde kelime ve mini quiz",
- "settings.notifyStreak": "Akşam seri hatırlatması"
+ "settings.notifyStreak": "Akşam seri hatırlatması",
+ "reading.holdHint": "Anlam ve okunuş için basılı tut",
+ "reading.holdAction": "Anlamını göster",
+ "reading.notInDictionary": "Henüz kelime listesinde yok"
 }

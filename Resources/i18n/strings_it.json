@@ -195,7 +195,7 @@
  "reading.archive": "Giorni precedenti",
  "reading.gap": "Completa la frase del testo",
  "reading.hideTranslation": "Nascondi traduzione",
- "reading.legend": "· tocca una parola sottolineata",
+ "reading.legend": "· tocca le sottolineate, tieni premuta qualsiasi parola",
  "reading.listenText": "Ascolta il testo",
  "reading.meaning": "Cosa significa questa parola del testo?",
  "reading.more": "Altre letture",
@@ -424,5 +424,8 @@
  "notify.streakTitle": "La tua serie ti aspetta",
  "notify.streakBody": "Basta una domanda per mantenerla. Lina è pronta.",
  "settings.notifyWords": "Parole e mini quiz durante il giorno",
- "settings.notifyStreak": "Promemoria serale per la serie"
+ "settings.notifyStreak": "Promemoria serale per la serie",
+ "reading.holdHint": "Tieni premuto per significato e pronuncia",
+ "reading.holdAction": "Mostra significato",
+ "reading.notInDictionary": "Non ancora nella lista"
 }
