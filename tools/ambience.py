@@ -29,16 +29,18 @@ AGENT = 'deschly-ambience-tool/1.0'
 KINDS = {
     'bus': ('bus interior ambience', ['bus', 'busse', 'haltestelle', 'straßenbahn', 'tram', 'u-bahn', 's-bahn', 'busfahr']),
     'train': ('train station ambience', ['zug', 'züge', 'bahnhof', 'bahnsteig', 'gleis', 'ice', 'fernzug', 'regionalzug']),
-    'cafe': ('cafe ambience people talking', ['café', 'cafe', 'restaurant', 'kantine', 'kellner', 'bäckerei', 'imbiss', 'mensa']),
-    'office': ('office ambience', ['büro', 'kollege', 'kollegin', 'besprechung', 'meeting', 'schreibtisch', 'drucker', 'firma', 'abteilung']),
+    'cafe': ('cafe restaurant ambience', ['café', 'cafe', 'restaurant', 'kantine', 'kellner', 'bäckerei', 'imbiss', 'mensa']),
+    'office': ('office typing keyboard ambience', ['büro', 'kollege', 'kollegin', 'besprechung', 'meeting', 'schreibtisch', 'drucker', 'firma', 'abteilung']),
     'shop': ('supermarket ambience', ['supermarkt', 'markt', 'kasse', 'laden', 'geschäft', 'einkauf', 'kunde', 'kundin', 'wochenmarkt']),
     'home': ('kitchen room tone ambience', ['küche', 'wohnung', 'wohnzimmer', 'balkon', 'zuhause', 'kochen', 'frühstück', 'familie']),
     'nature': ('park birds ambience', ['park', 'garten', 'wald', 'see', 'spaziergang', 'vögel', 'wiese', 'natur', 'beet', 'baum']),
-    'rain': ('rain on window ambience', ['regen', 'regnet', 'gewitter', 'regenschirm', 'unwetter']),
+    'rain': ('rain falling ambience', ['regen', 'regnet', 'gewitter', 'regenschirm', 'unwetter']),
     'school': ('classroom ambience', ['schule', 'klasse', 'kurs', 'lehrer', 'lehrerin', 'unterricht', 'uni', 'seminar', 'prüfung']),
     'street': ('city street ambience traffic', ['straße', 'kreuzung', 'ampel', 'verkehr', 'fahrrad', 'innenstadt', 'stadt', 'bürgersteig', 'auto']),
 }
 MIN_HITS = 2
+# Kinds whose search also needs the Freesound tag (plain searches find other sounds first).
+TAGGED = {'rain'}
 # Hand-picked where the word count chooses badly.
 OVERRIDES = {'a1-001': 'street'}
 
@@ -100,10 +102,13 @@ def sounds():
     os.makedirs(WORK, exist_ok=True)
     os.makedirs(os.path.join(OUT, 'ambience'), exist_ok=True)
     made = {}
+    only = sys.argv[2:]
     for kind, (query, _) in KINDS.items():
+        if only and kind not in only:
+            continue
         params = {
             'query': query,
-            'filter': 'license:"Creative Commons 0" duration:[50 TO 900]',
+            'filter': 'license:"Creative Commons 0" duration:[50 TO 900]' + (f' tag:{kind}' if kind in TAGGED else ''),
             'sort': 'rating_desc',
             'fields': 'id,name,username,license,duration,previews,num_ratings,avg_rating',
             'page_size': 15,
