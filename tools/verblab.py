@@ -1,10 +1,12 @@
 """Verb lab (Fiil Laboratuvarı): every tense, questions, common phrases and complex sentences for each verb.
 
-    python -I -X utf8 tools/verblab.py export A1     ../icerik/fiil/A1_fiil_istek_NN.txt (prompt + 30 verbs each)
+    python -I -X utf8 tools/verblab.py export A1     ../icerik/fiil/A1_fiil_istek_NN.txt (prompt + 15 verbs each)
     python -I -X utf8 tools/verblab.py import A1     reads ../icerik/fiil/A1_fiil_cevap_*.txt -> Resources/content/verbs_a1.json
     python -I -X utf8 tools/verblab.py status
 
 Each verb appears once, at the lowest level that has it. Export only lists verbs that are not imported yet.
+Import rejects a whole answer file when its sentences come from a template (the same opening in many verbs: a sign
+that a script filled them in) and single lines whose irregular forms are wrong (see IRREGULAR).
 """
 import glob
 import json
@@ -15,7 +17,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(REPO, 'Resources', 'content')
 FOLDER = os.path.join(os.path.dirname(REPO), 'icerik', 'fiil')
 LEVELS = ['a1', 'a2', 'b1', 'b2']
-BATCH = 30
+BATCH = 15
 PERSONS = 6  # ich, du, er/sie/es, wir, ihr, sie/Sie
 
 
@@ -60,6 +62,11 @@ Kurallar:
 - "common": bu fiille en sık kullanılan 3 kalıp ya da ifade.
 - "complex": 2 yan cümleli örnek (weil, dass, wenn, als, obwohl, damit, ob, Relativsatz arasından), "note" alanında Türkçe kısa açıklama.
 - Türkçe ve İngilizce çeviriler doğal olsun. Listedeki her fiil için bir satır yaz, sırayı koru, hiçbirini atlama.
+- ÇOK ÖNEMLİ: Program, betik ya da şablon KULLANMA. Her cümleyi o fiil için ayrı düşünerek yaz: nesnesi, yeri, zamanı olan,
+  gerçek hayatta söylenebilecek bir cümle. "Ich habe gestern …", "Ich glaube, dass du heute …", "Wenn ich Zeit habe, …",
+  "Wann … du heute?" gibi her fiilde aynı kalıbı tekrarlama; bu tür cevaplar otomatik reddedilir.
+- Düzensiz fiillerin Präteritum ve Partizip II biçimlerini kontrol et (gefallen → gefiel, hat gefallen; werden → werdet!).
+- Emir kipi olmayan ya da çok garip olan fiillerde (wissen, mögen, gefallen, kennen …) "imperativ" için ["—","—","—"] yaz.
 
 '''
 
@@ -79,6 +86,40 @@ def export(level):
     print(f'{level.upper()}: {len(verbs)} verbs -> {len(batches)} lists in {FOLDER}')
 
 
+# Spot checks for common irregular verbs: ich-form Präteritum and Perfekt (er).
+IRREGULAR = {
+    'sein': ('war', 'ist gewesen'), 'haben': ('hatte', 'hat gehabt'), 'werden': ('wurde', 'ist geworden'),
+    'gehen': ('ging', 'ist gegangen'), 'kommen': ('kam', 'ist gekommen'), 'fahren': ('fuhr', 'ist gefahren'),
+    'essen': ('aß', 'hat gegessen'), 'trinken': ('trank', 'hat getrunken'), 'sehen': ('sah', 'hat gesehen'),
+    'lesen': ('las', 'hat gelesen'), 'schreiben': ('schrieb', 'hat geschrieben'), 'sprechen': ('sprach', 'hat gesprochen'),
+    'nehmen': ('nahm', 'hat genommen'), 'geben': ('gab', 'hat gegeben'), 'finden': ('fand', 'hat gefunden'),
+    'helfen': ('half', 'hat geholfen'), 'gefallen': ('gefiel', 'hat gefallen'), 'schlafen': ('schlief', 'hat geschlafen'),
+    'bleiben': ('blieb', 'ist geblieben'), 'bringen': ('brachte', 'hat gebracht'), 'denken': ('dachte', 'hat gedacht'),
+    'wissen': ('wusste', 'hat gewusst'), 'kennen': ('kannte', 'hat gekannt'), 'laufen': ('lief', 'ist gelaufen'),
+    'tragen': ('trug', 'hat getragen'), 'treffen': ('traf', 'hat getroffen'), 'vergessen': ('vergaß', 'hat vergessen'),
+    'verlieren': ('verlor', 'hat verloren'), 'liegen': ('lag', 'hat gelegen'), 'sitzen': ('saß', 'hat gesessen'),
+    'stehen': ('stand', 'hat gestanden'), 'rufen': ('rief', 'hat gerufen'), 'heißen': ('hieß', 'hat geheißen'),
+    'beginnen': ('begann', 'hat begonnen'), 'fliegen': ('flog', 'ist geflogen'), 'waschen': ('wusch', 'hat gewaschen'),
+    'tun': ('tat', 'hat getan'), 'ziehen': ('zog', 'ist gezogen'), 'singen': ('sang', 'hat gesungen'), 'sterben': ('starb', 'ist gestorben'),
+}
+
+
+def template_frames(entries):
+    """Openings (first three words) shared by many verbs of one answer file: the mark of a filled-in template."""
+    from collections import Counter
+    counts = Counter()
+    for e in entries:
+        frames = set()
+        for key in ('examples', 'questions', 'common', 'complex'):
+            for x in e.get(key) or []:
+                if isinstance(x, dict) and x.get('de'):
+                    words = x['de'].replace(',', ' ').split()
+                    frames.add(' '.join(words[:3]).lower())
+        counts.update(frames)
+    limit = max(4, len(entries) * 0.4)
+    return [f for f, n in counts.items() if n > limit] if len(entries) >= 8 else []
+
+
 def valid(e):
     """Problems of one answer line (empty list = fine)."""
     problems = []
@@ -90,6 +131,12 @@ def valid(e):
             problems.append(f'{key} needs {PERSONS} forms')
     if not isinstance(e.get('imperativ'), list) or len(e['imperativ']) != 3:
         problems.append('imperativ needs 3 forms')
+    elif any('?' in str(x) or '...' in str(x) for x in e['imperativ']):
+        problems.append('imperativ is not an imperative')
+    known = IRREGULAR.get(str(e.get('v', '')).lower())
+    if known and isinstance(e.get('praeteritum'), list) and e['praeteritum']:
+        if str(e['praeteritum'][0]).strip() != known[0] or not str(e.get('perfekt', '')).strip().startswith(known[1]):
+            problems.append(f'wrong forms (expected {known[0]}, {known[1]})')
     tenses = {x.get('t') for x in e.get('examples', []) if isinstance(x, dict)}
     if not {'praesens', 'praeteritum', 'perfekt', 'futur'} <= tenses:
         problems.append('examples miss a tense')
@@ -106,6 +153,18 @@ def import_answers(level):
     verbs = {v['v'].lower(): v for v in load(level)}
     added, skipped = 0, []
     for path in sorted(glob.glob(os.path.join(FOLDER, f'{level.upper()}_fiil_cevap_*.txt'))):
+        entries = []
+        for line in open(path, encoding='utf-8-sig'):
+            line = line.strip().rstrip(',')
+            if line.startswith('{'):
+                try:
+                    entries.append(json.loads(line))
+                except json.JSONDecodeError:
+                    pass
+        frames = template_frames(entries)
+        if frames:
+            skipped.append((os.path.basename(path), 0, 'WHOLE FILE REJECTED, template sentences: ' + ' | '.join(frames[:4])))
+            continue
         for n, line in enumerate(open(path, encoding='utf-8-sig'), 1):
             line = line.strip().rstrip(',')
             if not line.startswith('{'):
