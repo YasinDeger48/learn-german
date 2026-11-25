@@ -656,5 +656,13 @@
  "unit.phrasesIntro": "Her kalıbı dinle (normal ve yavaş), sesli söyle, sonra alıştırmaya geç.",
  "unit.practisePhrases": "Kalıpları çalış",
  "unit.wordsIntro": "Kelimeyi artikeliyle duymak için karta dokun. Renk = artikel: mavi der, kırmızı die, yeşil das.",
- "unit.practiseWords": "Kelimeleri çalış"
+ "unit.practiseWords": "Kelimeleri çalış",
+ "numbers.quiz.title": "Rastgele sayı",
+ "numbers.quiz.new": "Rastgele",
+ "numbers.quiz.listen": "Dinle",
+ "numbers.quiz.read": "Oku",
+ "numbers.quiz.pick": "Hangi sayı?",
+ "numbers.quiz.right": "Doğru!",
+ "numbers.quiz.wrong": "Doğrusu: {0}",
+ "numbers.quiz.score": "Üst üste {0} doğru"
 }

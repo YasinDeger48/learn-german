@@ -371,6 +371,139 @@ struct A1WordRow: View {
     }
 }
 
+/// Random number drill at the top of the numbers page: the dice gives a number (heard, or written in German)
+/// and the learner picks its digits from four. Wrong options are typical mix-ups: swapped digits (47 / 74), ±1, ±10.
+struct NumberQuizSection: View {
+    enum Band: Int, CaseIterable, Identifiable {
+        case small, tens, hundreds, thousands
+
+        var id: Int { rawValue }
+        var label: String {
+            switch self {
+            case .small: return "0–20"
+            case .tens: return "21–99"
+            case .hundreds: return "100–999"
+            case .thousands: return "1000+"
+            }
+        }
+        var bounds: ClosedRange<Int> {
+            switch self {
+            case .small: return 0...20
+            case .tens: return 21...99
+            case .hundreds: return 100...999
+            case .thousands: return 1000...99_999
+            }
+        }
+    }
+
+    @State private var band: Band = .tens
+    @State private var listen = true
+    @State private var number: Int?
+    @State private var options: [Int] = []
+    @State private var picked: Int?
+    @State private var streak = 0
+
+    var body: some View {
+        Section {
+            Picker(t("numbers.quiz.title"), selection: $band) {
+                ForEach(Band.allCases) { Text($0.label).tag($0) }
+            }
+            .pickerStyle(.segmented)
+            .onChange(of: band) { _ in next() }
+            Picker(t("numbers.quiz.title"), selection: $listen) {
+                Text(t("numbers.quiz.listen")).tag(true)
+                Text(t("numbers.quiz.read")).tag(false)
+            }
+            .pickerStyle(.segmented)
+            Button { next() } label: {
+                Label(t("numbers.quiz.new"), systemImage: "dice.fill")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity, minHeight: 36)
+            }
+            .buttonStyle(.borderedProminent)
+            if let n = number {
+                HStack {
+                    if listen {
+                        Text(t("numbers.quiz.pick")).font(.headline)
+                    } else {
+                        Text(a1GermanNumber(n)).font(.title3.bold()).foregroundStyle(a1Accent)
+                    }
+                    Spacer()
+                    A1SpeakButton(text: a1GermanNumber(n))
+                    A1SpeakButton(text: a1GermanNumber(n), slow: true)
+                }
+                LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
+                    ForEach(options, id: \.self) { option in
+                        Button { choose(option) } label: {
+                            Text(digits(option))
+                                .font(.title3.monospacedDigit().bold())
+                                .foregroundColor(DS.ink)
+                                .frame(maxWidth: .infinity, minHeight: 50)
+                                .background(fill(option), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                        }
+                        .buttonStyle(.plain)
+                        .disabled(picked != nil)
+                    }
+                }
+                .padding(.vertical, 4)
+                if let picked = picked {
+                    Text(picked == n ? t("numbers.quiz.right") : t("numbers.quiz.wrong", "\(digits(n)) = \(a1GermanNumber(n))"))
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundColor(picked == n ? DS.success : DS.error)
+                }
+            }
+        } header: {
+            Text(t("numbers.quiz.title"))
+        } footer: {
+            if streak > 1 { Text(t("numbers.quiz.score", streak)) }
+        }
+    }
+
+    private func digits(_ n: Int) -> String { n.formatted(.number.locale(Locale(identifier: "de_DE"))) }
+
+    private func fill(_ option: Int) -> Color {
+        guard let picked = picked, let number = number else { return DS.chip }
+        if option == number { return DS.success.opacity(0.25) }
+        return option == picked ? DS.error.opacity(0.25) : DS.chip
+    }
+
+    private func next() {
+        var n = Int.random(in: band.bounds)
+        if n == number { n = Int.random(in: band.bounds) }
+        number = n
+        picked = nil
+        options = choices(for: n)
+        if listen { A1Speaker.shared.say(a1GermanNumber(n)) }
+    }
+
+    private func choose(_ option: Int) {
+        guard let number = number, picked == nil else { return }
+        picked = option
+        streak = option == number ? streak + 1 : 0
+        if option == number { StreakStore.shared.record() }
+    }
+
+    /// The number and three look-alikes: swapped last two digits first (the classic German mix-up), then ±1, ±10, ±100.
+    private func choices(for n: Int) -> [Int] {
+        var seen: Set<Int> = [n]
+        var result = [n]
+        func add(_ value: Int) {
+            guard value >= 0, value < 1_000_000, !seen.contains(value), result.count < 4 else { return }
+            seen.insert(value)
+            result.append(value)
+        }
+        let text = Array(String(n))
+        if text.count >= 2 {
+            var swapped = text
+            swapped.swapAt(text.count - 1, text.count - 2)
+            if swapped.first != "0", let value = Int(String(swapped)) { add(value) }
+        }
+        for value in [n + 1, n - 1, n + 10, n - 10, n + 100, n - 100, n + 2].shuffled() { add(value) }
+        while result.count < 4 { add(Int.random(in: band.bounds)) }
+        return result.shuffled()
+    }
+}
+
 struct A1NumbersLearnView: View {
     @State private var input = "347"
 
@@ -381,6 +514,7 @@ struct A1NumbersLearnView: View {
 
     var body: some View {
         List {
+            NumberQuizSection()
             Section {
                 TextField(t("numbers.input"), text: $input)
                     .keyboardType(.numberPad)

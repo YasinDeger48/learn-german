@@ -656,5 +656,13 @@
  "unit.phrasesIntro": "Listen to each phrase (normal and slow), say it aloud, then practise.",
  "unit.practisePhrases": "Practise the phrases",
  "unit.wordsIntro": "Tap a card to hear the word with its article. Colour = article: blue der, red die, green das.",
- "unit.practiseWords": "Practise the words"
+ "unit.practiseWords": "Practise the words",
+ "numbers.quiz.title": "Random number",
+ "numbers.quiz.new": "Random",
+ "numbers.quiz.listen": "Listen",
+ "numbers.quiz.read": "Read",
+ "numbers.quiz.pick": "Which number is it?",
+ "numbers.quiz.right": "Right!",
+ "numbers.quiz.wrong": "It was {0}",
+ "numbers.quiz.score": "{0} right in a row"
 }

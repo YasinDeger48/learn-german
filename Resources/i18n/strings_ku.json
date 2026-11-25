@@ -656,5 +656,13 @@
  "unit.phrasesIntro": "Li her îfadeyê guhdarî bike (normal û hêdî), bi dengê bilind bêje, paşê pratîkê bike.",
  "unit.practisePhrases": "Bi îfadeyan pratîkê bike",
  "unit.wordsIntro": "Li ser kartê bitikîne da ku peyvê bi artikela xwe re bibihîze. Reng = artikel: şîn der, sor die, kesk das.",
- "unit.practiseWords": "Bi peyvan pratîkê bike"
+ "unit.practiseWords": "Bi peyvan pratîkê bike",
+ "numbers.quiz.title": "Hejmara rasthatî",
+ "numbers.quiz.new": "Rasthatî",
+ "numbers.quiz.listen": "Guhdarî bike",
+ "numbers.quiz.read": "Bixwîne",
+ "numbers.quiz.pick": "Ev kîjan hejmar e?",
+ "numbers.quiz.right": "Rast e!",
+ "numbers.quiz.wrong": "Ya rast: {0}",
+ "numbers.quiz.score": "{0} rast li pey hev"
 }

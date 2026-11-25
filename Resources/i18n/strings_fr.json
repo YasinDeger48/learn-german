@@ -656,5 +656,13 @@
  "unit.phrasesIntro": "Écoute chaque expression (à vitesse normale puis lente), répète-la à voix haute, puis entraîne-toi.",
  "unit.practisePhrases": "S’entraîner avec les expressions",
  "unit.wordsIntro": "Touche une carte pour entendre le mot avec son article. Couleur = article : bleu der, rouge die, vert das.",
- "unit.practiseWords": "S’entraîner avec les mots"
+ "unit.practiseWords": "S’entraîner avec les mots",
+ "numbers.quiz.title": "Nombre au hasard",
+ "numbers.quiz.new": "Au hasard",
+ "numbers.quiz.listen": "Écouter",
+ "numbers.quiz.read": "Lire",
+ "numbers.quiz.pick": "Quel nombre est-ce ?",
+ "numbers.quiz.right": "Correct !",
+ "numbers.quiz.wrong": "C'était {0}",
+ "numbers.quiz.score": "{0} bonnes réponses de suite"
 }

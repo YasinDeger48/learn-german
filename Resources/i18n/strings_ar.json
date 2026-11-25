@@ -656,5 +656,13 @@
  "unit.phrasesIntro": "استمع إلى كل عبارة (بالسرعة العادية والبطيئة)، وقلها بصوت مرتفع، ثم تدرّب عليها.",
  "unit.practisePhrases": "تدرّب على العبارات",
  "unit.wordsIntro": "اضغط على بطاقة لسماع الكلمة مع أداة تعريفها. اللون = أداة التعريف: الأزرق der، الأحمر die، الأخضر das.",
- "unit.practiseWords": "تدرّب على الكلمات"
+ "unit.practiseWords": "تدرّب على الكلمات",
+ "numbers.quiz.title": "رقم عشوائي",
+ "numbers.quiz.new": "عشوائي",
+ "numbers.quiz.listen": "استمع",
+ "numbers.quiz.read": "اقرأ",
+ "numbers.quiz.pick": "ما هذا الرقم؟",
+ "numbers.quiz.right": "صحيح!",
+ "numbers.quiz.wrong": "الصحيح: {0}",
+ "numbers.quiz.score": "{0} إجابات صحيحة متتالية"
 }

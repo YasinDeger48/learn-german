@@ -656,5 +656,13 @@
  "unit.phrasesIntro": "Ascolta ogni frase (a velocità normale e lenta), ripetila ad alta voce e poi esercitati.",
  "unit.practisePhrases": "Esercitati con le frasi",
  "unit.wordsIntro": "Tocca una scheda per ascoltare la parola con il suo articolo. Colore = articolo: blu der, rosso die, verde das.",
- "unit.practiseWords": "Esercitati con le parole"
+ "unit.practiseWords": "Esercitati con le parole",
+ "numbers.quiz.title": "Numero a caso",
+ "numbers.quiz.new": "A caso",
+ "numbers.quiz.listen": "Ascolta",
+ "numbers.quiz.read": "Leggi",
+ "numbers.quiz.pick": "Che numero è?",
+ "numbers.quiz.right": "Giusto!",
+ "numbers.quiz.wrong": "Era {0}",
+ "numbers.quiz.score": "{0} giuste di fila"
 }

@@ -656,5 +656,13 @@
  "unit.phrasesIntro": "Escucha cada frase (a velocidad normal y lenta), repítela en voz alta y luego practícala.",
  "unit.practisePhrases": "Practicar las frases",
  "unit.wordsIntro": "Toca una tarjeta para oír la palabra con su artículo. Color = artículo: azul der, rojo die, verde das.",
- "unit.practiseWords": "Practicar las palabras"
+ "unit.practiseWords": "Practicar las palabras",
+ "numbers.quiz.title": "Número al azar",
+ "numbers.quiz.new": "Al azar",
+ "numbers.quiz.listen": "Escuchar",
+ "numbers.quiz.read": "Leer",
+ "numbers.quiz.pick": "¿Qué número es?",
+ "numbers.quiz.right": "¡Correcto!",
+ "numbers.quiz.wrong": "Era {0}",
+ "numbers.quiz.score": "{0} aciertos seguidos"
 }
