@@ -213,6 +213,16 @@ final class DailyModel: ObservableObject {
         return text(id: nextID)
     }
 
+    /// All texts of the current level: not finished first, in their order.
+    func allTexts() -> [DailyText] {
+        let list = texts[level] ?? []
+        return list.filter { !isCompleted($0) } + list.filter { isCompleted($0) }
+    }
+
+    func text(id: String) -> DailyText? {
+        texts.values.lazy.flatMap { $0 }.first { $0.id == id }
+    }
+
     /// Texts shown on earlier days (and finished today's texts), newest first, each text once.
     func archive(days: Int = 30) -> [(date: Date, text: DailyText)] {
         let plan = currentPlan(level)
