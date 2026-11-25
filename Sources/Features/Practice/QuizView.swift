@@ -319,25 +319,41 @@ struct A1QuizView: View {
                 case .typing: typingArea(q)
                 }
                 if revealed { feedback(q) }
-                Button(role: .destructive) {
-                    askFinish = true
-                } label: {
-                    Label(t("done.finish"), systemImage: "flag.checkered")
-                        .font(.system(size: 16, weight: .semibold))
-                        .frame(maxWidth: .infinity, minHeight: 44)
-                }
-                .buttonStyle(.bordered)
-                .padding(.top, 8)
             }
             .padding(16)
         }
         .scrollDismissesKeyboard(.interactively)
-        .confirmationDialog(t("quiz.finishAsk"), isPresented: $askFinish, titleVisibility: .visible) {
-            Button(t("done.finish"), role: .destructive) { finishNow() }
-            Button(t("common.cancel"), role: .cancel) {}
-        } message: {
-            Text(exam ? t("quiz.finishExamNote") : t("quiz.finishNote"))
+        .safeAreaInset(edge: .bottom) { finishBar }
+    }
+
+    /// "Finish" pinned at the bottom, just above the tab bar. The question is attached to the button itself,
+    /// so it opens from the button (newer iOS) or as a sheet from the bottom (older iOS), not at the top.
+    private var finishBar: some View {
+        HStack {
+            Text(t("quiz.progress", min(index + 1, session.count), session.count))
+                .font(DS.text(13).monospacedDigit())
+                .foregroundStyle(.secondary)
+            Spacer()
+            Button(role: .destructive) {
+                askFinish = true
+            } label: {
+                Label(t("done.finish"), systemImage: "flag.checkered")
+                    .font(.system(size: 15, weight: .semibold))
+                    .padding(.horizontal, 6)
+                    .frame(minHeight: 36)
+            }
+            .buttonStyle(.bordered)
+            .confirmationDialog(t("quiz.finishAsk"), isPresented: $askFinish, titleVisibility: .visible) {
+                Button(t("done.finish"), role: .destructive) { finishNow() }
+                Button(t("common.cancel"), role: .cancel) {}
+            } message: {
+                Text(exam ? t("quiz.finishExamNote") : t("quiz.finishNote"))
+            }
         }
+        .padding(.horizontal, 16)
+        .padding(.vertical, 8)
+        .background(.bar)
+        .overlay(alignment: .top) { Divider() }
     }
 
     /// Ends the round early. In an exam the unanswered questions count as wrong (the score stays out of the full round);
