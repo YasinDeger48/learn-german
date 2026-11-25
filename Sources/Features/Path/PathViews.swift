@@ -6,7 +6,9 @@ struct UnitPhrase: Decodable, Hashable {
     let de: String
     let tr: String
     let en: String
-    var meaning: String { Localizer.shared.language == .tr ? tr : en }
+    /// Other learner languages (tools/translate.py adds them).
+    var es: String?, fr: String?, it: String?, ku: String?, ar: String?
+    var meaning: String { localText(tr: tr, en: en, es: es, fr: fr, it: it, ku: ku, ar: ar) }
 }
 
 /// A word of a unit that is not in the level's word list (A2+: taken from the glossaries of the unit's texts).
@@ -15,7 +17,8 @@ struct UnitWord: Decodable, Hashable {
     let art: String?
     let tr: String
     let en: String
-    var meaning: String { Localizer.shared.language == .tr ? tr : en }
+    var es: String?, fr: String?, it: String?, ku: String?, ar: String?
+    var meaning: String { localText(tr: tr, en: en, es: es, fr: fr, it: it, ku: ku, ar: ar) }
     var full: String { art.map { "\($0) \(de)" } ?? de }
 }
 

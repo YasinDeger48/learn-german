@@ -124,6 +124,13 @@ func t(_ key: String, _ args: CustomStringConvertible...) -> String {
     return text
 }
 
+/// Text in the learner's language from flat content fields ({"de": …, "tr": …, "en": …, "es": …}),
+/// like LocText: current language, then English, then Turkish.
+func localText(tr: String?, en: String?, es: String?, fr: String?, it: String?, ku: String?, ar: String?) -> String {
+    let all: [String: String?] = ["tr": tr, "en": en, "es": es, "fr": fr, "it": it, "ku": ku, "ar": ar]
+    return LocText(all.compactMapValues { $0 }).text
+}
+
 /// A content text in every learner language: {"tr": "...", "en": "..."}.
 /// Decodes from a plain string too, so older data keeps working.
 struct LocText: Codable, Hashable {

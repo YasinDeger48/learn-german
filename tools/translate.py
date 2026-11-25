@@ -11,7 +11,9 @@ Requests go to ../icerik/ceviri/<lang>/<set>_istek_NN.txt, ChatGPT's answers are
 Ids are the UI key, or "c" + a hash of the English text for content, so an answer still lands on the right text
 when it was made from another language's request. Old numbered answers are matched to the request they fit best.
 
-Content: every {"tr": …, "en": …} object in Resources/content/*.json is a learner-language text. The English text is
+Content: every object with "tr" and "en" texts in Resources/content/*.json is a learner-language text: plain
+{"tr": …, "en": …} (LocText) and flat ones like a unit phrase {"de": …, "tr": …, "en": …} or a verb; the translation
+is written next to them ("es": …). The English text is
 the source (Turkish is given as context); translations are remembered in tools/i18n/content_<lang>.json
 (English → translation), so a regenerated content file gets them back with `import`. Missing translations fall
 back to English in the app (LocText).
@@ -33,23 +35,24 @@ LANGS = {'es': 'Spanish', 'fr': 'French', 'it': 'Italian', 'ku': 'Kurmanji Kurdi
 ALL_LANGS = {'tr', 'en', *LANGS}
 INFORMAL = {'es': 'tú', 'fr': 'tu', 'it': 'tu', 'ku': 'tu', 'ar': 'أنت'}
 SETS = {
-    'a1': ['a1.json', 'daily_a1.json', 'lexicon.json', 'units.json', 'writing.json', 'speaking.json', 'memorize.json'],
-    'a2': ['a2.json', 'daily_a2.json'],
-    'b1': ['b1.json', 'daily_b1.json'],
-    'b2': ['b2.json', 'daily_b2.json'],
+    'a1': ['a1.json', 'daily_a1.json', 'lexicon.json', 'units.json', 'writing.json', 'speaking.json', 'memorize.json',
+           'verbs_a1.json'],
+    'a2': ['a2.json', 'daily_a2.json', 'verbs_a2.json'],
+    'b1': ['b1.json', 'daily_b1.json', 'verbs_b1.json'],
+    'b2': ['b2.json', 'daily_b2.json', 'verbs_b2.json'],
 }
 BATCH_CHARS = 9000
 BATCH_MAX = 160
 
 
 def is_loc(o):
-    return isinstance(o, dict) and isinstance(o.get('en'), str) and isinstance(o.get('tr'), str) and set(o) <= ALL_LANGS
+    return isinstance(o, dict) and isinstance(o.get('en'), str) and isinstance(o.get('tr'), str)
 
 
 def walk(o, found):
     if is_loc(o):
         found.append(o)
-    elif isinstance(o, dict):
+    if isinstance(o, dict):
         for v in o.values():
             walk(v, found)
     elif isinstance(o, list):
@@ -96,6 +99,8 @@ def content_missing(lang, set_name):
     _, known = memory(lang)
     seen, out = set(), []
     for name in SETS[set_name]:
+        if not os.path.exists(os.path.join(CONTENT, name)):  # e.g. a level without a verb lab yet
+            continue
         found = []
         walk(load_content(name)[2], found)
         for o in found:

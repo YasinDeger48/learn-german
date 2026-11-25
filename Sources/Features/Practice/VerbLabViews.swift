@@ -9,8 +9,10 @@ struct VerbSentence: Decodable, Hashable {
     let tr: String
     let en: String?
     let note: String?
+    /// Other learner languages (tools/translate.py adds them).
+    var es: String?, fr: String?, it: String?, ku: String?, ar: String?
 
-    var meaning: String { (Localizer.shared.language == .tr ? tr : en) ?? tr }
+    var meaning: String { localText(tr: tr, en: en, es: es, fr: fr, it: it, ku: ku, ar: ar) }
 }
 
 struct VerbEntry: Decodable, Identifiable, Hashable {
@@ -29,9 +31,10 @@ struct VerbEntry: Decodable, Identifiable, Hashable {
     let questions: [VerbSentence]
     let common: [VerbSentence]
     let complex: [VerbSentence]
+    var es: String?, fr: String?, it: String?, ku: String?, ar: String?
 
     var id: String { v }
-    var meaning: String { Localizer.shared.language == .tr ? tr : en }
+    var meaning: String { localText(tr: tr, en: en, es: es, fr: fr, it: it, ku: ku, ar: ar) }
 
     static let persons = ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"]
 
