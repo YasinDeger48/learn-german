@@ -145,6 +145,54 @@ export type VerbEntry = {
 
 export type VerbList = { level: string; ready: number; verbs: { v: string; meaning: string; entry: VerbEntry | null }[] }
 
+export type WordRow = {
+  id: number
+  de: string
+  type: string
+  theme: string
+  plural?: string
+  pron: string
+  tr: string
+  en: string
+  examples: { de: string; tr: string; en: string }[]
+  broken: boolean
+}
+
+export type GrammarTopic = {
+  id: number
+  de: string
+  name: Loc
+  rule: Loc
+  examples: { de: string; tr: string; en: string }[]
+  items: { q: string; answer: string; options: string[]; why: Partial<Loc>; broken: boolean }[]
+}
+
+export type TaskPoint = { label: Loc; say: string; keys: string[] }
+
+export type WritingTask = {
+  id: string
+  level: string
+  kind: 'form' | 'message'
+  title: Loc
+  text?: string
+  fields?: { label: string; answers: string[] }[]
+  prompt?: string
+  help?: Loc
+  points?: TaskPoint[]
+  minWords?: number
+  sample?: string
+  formal?: boolean
+}
+
+export type SpeakingTask = { id: string; level: string; seconds: number; title: Loc; prompt: string; help: Loc; points: TaskPoint[]; sample: string }
+
+export type PatternBlock = { title: Loc; phrases: string[] }
+
+export type TranslationStats = {
+  languages: { code: string; name: string; ui: { total: number; done: number }; sets: { set: string; total: number; done: number }[] }[]
+  sample?: { en: string; tr: string; text: string; where: 'app' | 'content' }[]
+}
+
 async function call<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(path, init)
   const body = await response.json().catch(() => ({}))
@@ -186,6 +234,12 @@ export const api = {
   // Path units and verb lab
   units: () => call<UnitFull[]>('/api/units'),
   verbs: (level: string) => call<VerbList>(`/api/verbs/${level}`),
+
+  // Lists
+  words: (level: string) => call<{ level: string; themes: string[]; words: WordRow[] }>(`/api/words/${level}`),
+  grammar: (level: string) => call<{ level: string; topics: GrammarTopic[]; broken: number }>(`/api/grammar/${level}`),
+  tasks: () => call<{ writing: WritingTask[]; speaking: SpeakingTask[]; pattern?: { informal: PatternBlock[]; formal: PatternBlock[] } }>('/api/tasks'),
+  translations: (sample = '') => call<TranslationStats>(`/api/translations?sample=${sample}`),
 
   // Media
   covers: () => call<CoverRow[]>('/api/media/covers'),

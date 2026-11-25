@@ -271,6 +271,103 @@ def verbs(level: str):
     return {'level': level.upper(), 'ready': len(ready), 'verbs': out}
 
 
+# ---------------------------------------------------------------- words, grammar, tasks, translations
+
+def broken(text):
+    """Text damaged by a wrong encoding somewhere on the way (ü → ??)."""
+    return isinstance(text, str) and ('??' in text or '\ufffd' in text)
+
+
+def level_file(level):
+    lv = level.lower()
+    if lv not in ('a1', 'a2', 'b1', 'b2'):
+        raise HTTPException(404, 'unknown level')
+    return lv, load(f'{lv}.json')
+
+
+@app.get('/api/words/{level}')
+def words(level: str):
+    lv, data = level_file(level)
+    themes = {t['id']: t['name'].get('tr', t['de']) for t in data.get('themes', [])}
+    out = []
+    for w in data['words']:
+        mean = w.get('mean') or {}
+        out.append({'id': w['id'], 'de': w['de'], 'type': w['type'], 'theme': themes.get(w.get('theme'), ''),
+                    'plural': w.get('plural'), 'pron': w.get('pron', ''), 'tr': mean.get('tr', ''), 'en': mean.get('en', ''),
+                    'examples': [{'de': e['de'], 'tr': e['mean'].get('tr', ''), 'en': e['mean'].get('en', '')} for e in w.get('ex', [])],
+                    'broken': any(broken(x) for x in [mean.get('tr'), mean.get('en')] + [e['mean'].get('en') for e in w.get('ex', [])])})
+    return {'level': lv.upper(), 'themes': sorted(set(themes.values())), 'words': out}
+
+
+@app.get('/api/grammar/{level}')
+def grammar(level: str):
+    lv, data = level_file(level)
+    items = data.get('grammarItems', [])
+    out = []
+    for g in data['grammar']:
+        mine = [i for i in items if i['topic'] == g['id']]
+        out.append({
+            'id': g['id'], 'de': g['de'], 'name': g['name'], 'rule': g['rule'],
+            'examples': [{'de': e['de'], 'tr': e['mean'].get('tr', ''), 'en': e['mean'].get('en', '')} for e in g.get('examples', [])],
+            'items': [{'q': i['q'], 'answer': i['options'][0] if i['options'] else '', 'options': i['options'],
+                       'why': i.get('why', {}), 'broken': broken((i.get('why') or {}).get('en')) or broken((i.get('why') or {}).get('tr'))}
+                      for i in mine],
+        })
+    return {'level': lv.upper(), 'topics': out, 'broken': sum(1 for t in out for i in t['items'] if i['broken'])}
+
+
+@app.get('/api/tasks')
+def tasks():
+    return {'writing': load('writing.json')['tasks'], 'speaking': load('speaking.json')['tasks'],
+            'pattern': load('writing.json').get('pattern')}
+
+
+def content_totals():
+    """Unique English source texts per content set (what each language has to translate)."""
+    totals = {}
+    for set_name, files in translate.SETS.items():
+        seen = set()
+        for name in files:
+            found = []
+            translate.walk(translate.load_content(name)[2], found)
+            seen.update(o['en'] for o in found if o['en'].strip())
+        totals[set_name] = seen
+    return totals
+
+
+@app.get('/api/translations')
+def translations(sample: str = ''):
+    totals = content_totals()
+    en_ui = json.load(open(os.path.join(REPO, 'Resources', 'i18n', 'strings_en.json'), encoding='utf-8'))
+    langs = []
+    for code, name in (('es', 'Español'), ('fr', 'Français'), ('it', 'Italiano'), ('ku', 'Kurmancî'), ('ar', 'العربية')):
+        known = translate.memory(code)[1]
+        sets = [{'set': k, 'total': len(v), 'done': sum(1 for t in v if t in known)} for k, v in totals.items()]
+        ui_left = len(translate.ui_missing(code))
+        langs.append({'code': code, 'name': name, 'ui': {'total': len(en_ui), 'done': len(en_ui) - ui_left}, 'sets': sets})
+    out = {'languages': langs}
+    if sample in LANG_CODES:
+        import random
+        known = translate.memory(sample)[1]
+        tr_of = {}
+        for files in translate.SETS.values():
+            for name in files:
+                found = []
+                translate.walk(translate.load_content(name)[2], found)
+                for o in found:
+                    tr_of.setdefault(o['en'], o['tr'])
+        own = json.load(open(os.path.join(REPO, 'Resources', 'i18n', f'strings_{sample}.json'), encoding='utf-8'))
+        tr_ui = json.load(open(os.path.join(REPO, 'Resources', 'i18n', 'strings_tr.json'), encoding='utf-8'))
+        ui_pairs = [{'en': en_ui[k], 'tr': tr_ui.get(k, ''), 'text': own[k], 'where': 'app'} for k in en_ui if own.get(k) and own[k] != en_ui[k]]
+        content_pairs = [{'en': en, 'tr': tr_of.get(en, ''), 'text': text, 'where': 'content'} for en, text in known.items()]
+        rng = random.Random()
+        out['sample'] = rng.sample(ui_pairs, min(12, len(ui_pairs))) + rng.sample(content_pairs, min(18, len(content_pairs)))
+    return out
+
+
+LANG_CODES = ('es', 'fr', 'it', 'ku', 'ar')
+
+
 # ---------------------------------------------------------------- media
 
 @app.get('/api/media/covers')
