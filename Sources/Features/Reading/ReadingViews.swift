@@ -414,7 +414,10 @@ struct DailyReadingView: View {
         return VStack(alignment: .leading, spacing: 3) {
             HStack(alignment: .firstTextBaseline, spacing: 5) {
                 if let article = bubble?.article {
-                    Text(article).font(.system(size: 14, weight: .heavy)).foregroundColor(a1ArticleColor(article))
+                    // White on the article colour: dark blue / red / green text would be hard to read on the dark bubble.
+                    Text(article).font(.system(size: 13, weight: .heavy)).foregroundColor(.white)
+                        .padding(.horizontal, 6).padding(.vertical, 1)
+                        .background(a1ArticleColor(article), in: Capsule())
                 }
                 Text(bubble?.word ?? bubbleWord).font(.system(size: 17, weight: .bold)).foregroundColor(DS.onNight)
                     .fixedSize(horizontal: false, vertical: true)
