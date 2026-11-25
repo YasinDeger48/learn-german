@@ -36,6 +36,8 @@ struct BadgesView: View {
     @ObservedObject private var streak = StreakStore.shared
     @ObservedObject private var badges = BadgeStore.shared
     @Environment(\.dismiss) private var dismiss
+    /// As a sheet, it holds badge celebrations back (a second sheet cannot open over it).
+    @State private var holdID = UUID()
 
     var body: some View {
         if asSheet {
@@ -44,6 +46,8 @@ struct BadgesView: View {
                     ToolbarItem(placement: .confirmationAction) { Button(t("common.done")) { dismiss() } }
                 }
             }
+            .onAppear { BadgeStore.shared.quizShown(holdID) }
+            .onDisappear { BadgeStore.shared.quizHidden(holdID) }
         } else {
             page
         }

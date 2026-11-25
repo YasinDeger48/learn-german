@@ -21,7 +21,13 @@ enum ContentStore {
 
     static let folder: URL = {
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-        return base.appendingPathComponent("Content", isDirectory: true)
+        var url = base.appendingPathComponent("Content", isDirectory: true)
+        // Apple's storage rule: content that can be downloaded again must not go into iCloud backups.
+        try? FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
+        var values = URLResourceValues()
+        values.isExcludedFromBackup = true
+        try? url.setResourceValues(values)
+        return url
     }()
 
     /// A downloaded copy of a content file ("a1.json", "covers/a1-001.jpg"), if there is one.

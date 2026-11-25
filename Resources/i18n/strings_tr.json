@@ -460,7 +460,7 @@
  "speak.sub": "Tekrar et ve konuş",
  "speak.subTasks": "Tekrar et · görevler {0}/{1}",
  "speak.headline": "Sesli söyle",
- "speak.intro": "iPhone seni dinler ve Almancanı kontrol eder. Hiçbir şey kaydedilmez veya saklanmaz.",
+ "speak.intro": "iPhone seni dinler ve Almancanı Apple konuşma tanıma ile kontrol eder; bu, Apple sunucularında işlenebilir. Deschly hiçbir şeyi kaydetmez veya saklamaz.",
  "speak.repeatTitle": "Tekrar et",
  "speak.repeatSub": "Dinle, sonra sen söyle · {0} cümle",
  "speak.tasksTitle": "Konuşma görevleri",

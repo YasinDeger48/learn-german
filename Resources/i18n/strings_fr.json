@@ -460,7 +460,7 @@
  "speak.sub": "Répète et parle",
  "speak.subTasks": "Répète · tâches {0}/{1}",
  "speak.headline": "Dis-le à voix haute",
- "speak.intro": "Ton iPhone écoute et vérifie ton allemand. Rien n'est enregistré ni conservé.",
+ "speak.intro": "Ton iPhone t'écoute et vérifie ton allemand avec la reconnaissance vocale d'Apple, qui peut le traiter sur les serveurs d'Apple. Deschly n'enregistre et ne garde rien.",
  "speak.repeatTitle": "Répète",
  "speak.repeatSub": "Écoute puis répète · {0} phrases",
  "speak.tasksTitle": "Tâches orales",

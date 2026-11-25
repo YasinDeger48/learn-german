@@ -219,6 +219,7 @@ struct PathView: View {
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var daily: DailyModel
     @State private var level = "A1"
+    @State private var levelChosen = false
     @State private var refresh = 0
 
     private enum Row: Identifiable {
@@ -295,7 +296,12 @@ struct PathView: View {
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("tab.path"))
-        .onAppear { if UnitBank.levels.contains(daily.level) { level = daily.level } }
+        .onAppear {
+            // Only the first time: coming back from a unit keeps the level the learner picked here.
+            guard !levelChosen else { return }
+            levelChosen = true
+            if UnitBank.levels.contains(daily.level) { level = daily.level }
+        }
         .onReceive(NotificationCenter.default.publisher(for: UnitStore.changed)) { _ in refresh += 1 }
     }
 
@@ -510,7 +516,9 @@ struct UnitView: View {
             }
         case .speak:
             if let task = unit.speaking.compactMap({ SpeakingBank.task($0) }).first {
-                SpeakTaskView(task: task) { _, _ in UnitStore.mark(.speak, unit.id) }
+                SpeakTaskView(task: task) { covered, _ in
+                    if covered > 0 { UnitStore.mark(.speak, unit.id) }  // silence does not finish the step
+                }
             }
         case .test:
             A1QuizView(title: t("unit.step.test"), onFinish: { correct, total in

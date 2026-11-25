@@ -279,6 +279,7 @@ enum VerbGame {
                                   speakAfter: speak, options: options, answer: answer, explanation: why))
         }
         // Forms: two persons in Präsens, one in Präteritum, the Perfekt and the Futur.
+        guard verb.praesens.count >= 6, verb.praeteritum.count >= 6 else { return out }
         let persons = Array(0..<6).shuffled()
         for (n, p) in persons.prefix(2).enumerated() {
             choice("pr\(n)", "\(VerbEntry.persons[p]) ___", "Präsens · \(verb.v)", verb.praesens[p], verb.praesens + verb.praeteritum,

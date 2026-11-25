@@ -135,6 +135,7 @@ final class StreakStore: ObservableObject {
         }
         save()
         if before < state.goal && before + points >= state.goal {
+            markGoalDay(today)
             NotificationCenter.default.post(name: StreakStore.goalReached, object: nil)
         }
     }
@@ -215,8 +216,24 @@ final class StreakStore: ObservableObject {
         save()
     }
 
-    /// Days on which the daily goal (as set now) was reached.
-    var goalDays: Int { state.xp.values.filter { $0 >= state.goal }.count }
+    /// Days on which the daily goal was reached, with the goal of that day. (Counting again with today's goal
+    /// gave the goal badges at once when the goal was lowered.) The first time, seeded from the XP history.
+    var goalDays: Int { goalDaySet().count }
+
+    private static let goalDaysKey = "goalReachedDays"
+
+    private func goalDaySet() -> Set<String> {
+        if let saved = UserDefaults.standard.stringArray(forKey: StreakStore.goalDaysKey) { return Set(saved) }
+        let seeded = Set(state.xp.filter { $0.value >= state.goal }.map(\.key))
+        UserDefaults.standard.set(Array(seeded), forKey: StreakStore.goalDaysKey)
+        return seeded
+    }
+
+    private func markGoalDay(_ day: String) {
+        var days = goalDaySet()
+        days.insert(day)
+        UserDefaults.standard.set(Array(days), forKey: StreakStore.goalDaysKey)
+    }
 
     /// The streak ends tonight unless the learner does something today.
     var atRisk: Bool { !activeToday && current > 0 }

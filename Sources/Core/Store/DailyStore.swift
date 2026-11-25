@@ -107,7 +107,10 @@ final class DailyModel: ObservableObject {
 
     /// Days since 1 Jan 2026 in the phone's calendar: the same text for everyone on the same day.
     static func dayNumber(_ date: Date) -> Int {
-        let calendar = Calendar.current
+        // Gregorian on purpose: with a Hijri or Japanese phone calendar "year 2026" is another date and the
+        // number stayed 0 (the same text and word every day). The time zone is still the phone's.
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = .current
         let start = calendar.date(from: DateComponents(year: 2026, month: 1, day: 1)) ?? Date(timeIntervalSince1970: 0)
         return max(0, calendar.dateComponents([.day], from: calendar.startOfDay(for: start), to: calendar.startOfDay(for: date)).day ?? 0)
     }

@@ -460,7 +460,7 @@
  "speak.sub": "Ripeti e parla",
  "speak.subTasks": "Ripeti · compiti {0}/{1}",
  "speak.headline": "Dillo ad alta voce",
- "speak.intro": "Il tuo iPhone ascolta e controlla il tuo tedesco. Niente viene registrato o salvato.",
+ "speak.intro": "Il tuo iPhone ti ascolta e controlla il tuo tedesco con il riconoscimento vocale di Apple, che può elaborarlo sui server di Apple. Deschly non registra né conserva nulla.",
  "speak.repeatTitle": "Ripeti",
  "speak.repeatSub": "Ascolta e ripeti · {0} frasi",
  "speak.tasksTitle": "Compiti orali",

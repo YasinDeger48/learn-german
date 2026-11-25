@@ -24,6 +24,8 @@ final class SpeechListener: ObservableObject {
     private var silence: DispatchWorkItem?
     private var limit: DispatchWorkItem?
     private var onFinish: ((String) -> Void)?
+    /// Bumped by every start, so a late stop / callback of an earlier listening is ignored.
+    private var generation = 0
 
     init() { refreshAccess() }
 
@@ -99,13 +101,15 @@ final class SpeechListener: ObservableObject {
             return false
         }
 
+        generation += 1
+        let current = generation
         self.engine = engine
         self.request = request
         self.onFinish = onFinish
         listening = true
         task = recognizer.recognitionTask(with: request) { [weak self] result, error in
             DispatchQueue.main.async {
-                guard let self, self.onFinish != nil else { return }
+                guard let self, self.generation == current, self.onFinish != nil else { return }
                 if let result {
                     self.transcript = result.bestTranscription.formattedString
                     // Confidence is only filled in (above 0) for the final result.
@@ -131,8 +135,12 @@ final class SpeechListener: ObservableObject {
         guard listening else { return }
         stopAudio()
         request?.endAudio()
-        // The final result usually comes at once; if not, finish with what we have.
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) { [weak self] in self?.finish() }
+        // The final result usually comes at once; if not, finish with what we have (only this listening).
+        let current = generation
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) { [weak self] in
+            guard let self, self.generation == current else { return }
+            self.finish()
+        }
     }
 
     /// Stops without reporting.

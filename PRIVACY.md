@@ -1,15 +1,8 @@
-# Almanca Derslerim – Gizlilik Politikası / Privacy Policy
+# Deschly – Privacy Policy
 
-**Türkçe**
+The current privacy policy (English, Türkçe, Deutsch) is published at
+https://yasindeger48.github.io/deschly-site/ and kept in the `deschly-site` repository (`index.html`).
 
-Almanca Derslerim hiçbir kişisel veri toplamaz, kaydetmez veya paylaşmaz. Uygulamada hesap, reklam, analiz veya takip yoktur.
-Ders ilerlemesi, favoriler, notlar ve quiz sonuçları yalnızca cihazınızda saklanır. Yedek dosyasını yalnızca siz oluşturur ve paylaşırsınız.
-Almanca sesli okuma iPhone'un yerleşik konuşma özelliğiyle cihazda yapılır. Video bağlantıları YouTube'da açılır; orada YouTube'un kendi gizlilik politikası geçerlidir.
-
-**English**
-
-Almanca Derslerim does not collect, store or share any personal data. The app has no accounts, ads, analytics or tracking.
-Lesson progress, favourites, notes and quiz results are stored only on your device. Backup files are created and shared only by you.
-German speech uses the iPhone's built-in speech synthesis on the device. Video links open in YouTube, where YouTube's own privacy policy applies.
-
-Kontakt / İletişim: GitHub – https://github.com/YasinDeger48/learn-german/issues
+Short version: learning progress stays on the device; the free version shows Google AdMob ads (personalised only
+with consent); speaking practice uses Apple speech recognition, which may process audio on Apple's servers, and
+Deschly stores nothing; content updates and recorded audio are downloaded from the website on GitHub Pages.

@@ -37,7 +37,7 @@ enum ReadingQuiz {
                 out.append(A1Question(id: id("q\(index)"), mode: .reading, kind: .choice, label: label, prompt: item.q,
                                       detail: t("reading.trueFalse"), context: context,
                                       options: ["Richtig", "Falsch"], answer: answer))
-            } else if let options = item.options, item.answer < options.count {
+            } else if let options = item.options, item.answer >= 0, item.answer < options.count {
                 out.append(A1Question(id: id("q\(index)"), mode: .reading, kind: .choice, label: label, prompt: item.q,
                                       context: context, options: options.shuffled(), answer: options[item.answer]))
             }
