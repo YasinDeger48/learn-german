@@ -63,12 +63,29 @@ enum DS {
 // MARK: - Components
 
 /// Lina, the Deschly mascot (Resources/Images/lina.png).
+/// How Lina looks: the usual picture, or one of her happy / sad pictures after an answer.
+enum LinaMood { case calm, happy, sad }
+
 struct LinaAvatar: View {
     var size: CGFloat = 56
+    var mood: LinaMood = .calm
+    /// Chooses among the mood's pictures; the same number always gives the same picture.
+    var variant: Int = 0
+
+    /// Resources/Images/lina-happy-1…3.png and lina-sad-1…3.png (made with ChatGPT, see
+    /// icerik/gorseller/LINA_DUYGULAR.txt). Missing pictures fall back to the usual Lina.
+    private var picture: UIImage? {
+        if mood != .calm {
+            let name = mood == .happy ? "lina-happy" : "lina-sad"
+            let all = (1...3).compactMap { UIImage(named: "\(name)-\($0)") }
+            if !all.isEmpty { return all[abs(variant) % all.count] }
+        }
+        return UIImage(named: "lina")
+    }
 
     var body: some View {
         Group {
-            if let image = UIImage(named: "lina") {
+            if let image = picture {
                 Image(uiImage: image).resizable().scaledToFill()
             } else {
                 DS.gold

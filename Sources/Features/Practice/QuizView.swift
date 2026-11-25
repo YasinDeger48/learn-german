@@ -123,7 +123,7 @@ struct A1QuizView: View {
         let seconds = Int(Date().timeIntervalSince(startedAt))
         return ScrollView {
             VStack(spacing: 14) {
-                LinaAvatar(size: 104)
+                LinaAvatar(size: 104, mood: points >= 60 ? .happy : .sad, variant: score)
                     .clipShape(Circle())
                     .padding(.top, 12)
                 Text(summaryTitle(points: points, total: total))
@@ -543,7 +543,7 @@ struct A1QuizView: View {
     private func feedback(_ q: A1Question) -> some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack(spacing: 12) {
-                LinaAvatar(size: 44)
+                LinaAvatar(size: 44, mood: wasCorrect ? .happy : .sad, variant: index)
                 VStack(alignment: .leading, spacing: 2) {
                     Text(wasCorrect ? linaPraise : "Kein Problem!")
                         .font(DS.display(21, heavy: false))
