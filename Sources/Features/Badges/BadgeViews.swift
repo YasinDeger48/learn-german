@@ -54,6 +54,7 @@ struct BadgesView: View {
             .map { ($0, badges.value($0)) })
         return ScrollView {
                 VStack(alignment: .leading, spacing: 14) {
+                    DailyGoalCard()
                     if badges.onlyWelcome { waitingCard }
                     levelCard
                     if let next = badges.nextGoal {

@@ -23,23 +23,60 @@ struct GoalRing<Center: View>: View {
     }
 }
 
-/// Total XP in the toolbar.
+/// Total XP in the toolbar. Every few seconds it turns into today's goal as a battery ("🔋 60 %") and back.
+/// Tapping it opens the badges page, which starts with the daily goal card.
 struct XPChip: View {
     @ObservedObject private var store = StreakStore.shared
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var showGoal = false
+    private let clock = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
+
+    private var percent: Int { Int((store.goalProgress * 100).rounded()) }
+
+    /// Battery symbols that exist since iOS 13.
+    private var battery: String {
+        if store.goalReachedToday { return "battery.100.bolt" }
+        switch percent {
+        case ..<13: return "battery.0"
+        case ..<38: return "battery.25"
+        case ..<63: return "battery.50"
+        case ..<88: return "battery.75"
+        default: return "battery.100"
+        }
+    }
+
+    private var goalColor: Color { store.goalReachedToday ? DS.success : (percent < 25 ? DS.die : DS.goldDeep) }
 
     var body: some View {
-        HStack(spacing: 4) {
-            Image(systemName: "star.fill").foregroundColor(DS.accent)
-            Text(store.state.totalXP.formatted()).font(.subheadline.weight(.semibold)).monospacedDigit()
-                .foregroundColor(DS.ink)
-                .contentTransition(.numericText())
-                .animation(.easeOut(duration: 0.3), value: store.state.totalXP)
+        ZStack {
+            if showGoal {
+                HStack(spacing: 4) {
+                    Image(systemName: battery).foregroundColor(goalColor)
+                    Text("\(percent)%").font(.subheadline.weight(.semibold)).monospacedDigit().foregroundColor(DS.ink)
+                }
+                .transition(.asymmetric(insertion: .move(edge: .bottom).combined(with: .opacity),
+                                        removal: .move(edge: .top).combined(with: .opacity)))
+            } else {
+                HStack(spacing: 4) {
+                    Image(systemName: "star.fill").foregroundColor(DS.accent)
+                    Text(store.state.totalXP.formatted()).font(.subheadline.weight(.semibold)).monospacedDigit()
+                        .foregroundColor(DS.ink)
+                        .contentTransition(.numericText())
+                        .animation(.easeOut(duration: 0.3), value: store.state.totalXP)
+                }
+                .transition(.asymmetric(insertion: .move(edge: .bottom).combined(with: .opacity),
+                                        removal: .move(edge: .top).combined(with: .opacity)))
+            }
         }
         .padding(.horizontal, 10)
         .padding(.vertical, 5)
-        .background(DS.accent.opacity(0.12), in: Capsule())
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel(t("xp.total", store.state.totalXP))
+        .background((showGoal ? goalColor : DS.accent).opacity(0.12), in: Capsule())
+        .clipShape(Capsule())
+        .onReceive(clock) { _ in
+            if reduceMotion { showGoal.toggle() } else { withAnimation(.easeInOut(duration: 0.4)) { showGoal.toggle() } }
+        }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(t("xp.total", store.state.totalXP) + ", " + t("goal.title") + " \(percent)%")
     }
 }
 
@@ -90,166 +127,6 @@ struct DailyGoalCard: View {
     }
 }
 
-/// Where the islands on Today are, so they never cover each other. Both islands sit in the same overlay,
-/// measured in the coordinate space `IslandLayout.space`. The word island reports its frame; the goal island
-/// moves itself above it when they would overlap (also while it is dragged).
-final class IslandLayout: ObservableObject {
-    static let shared = IslandLayout()
-    static let space = "todayIslands"
-    /// The word island's frame; .zero when it is closed.
-    @Published var wordFrame: CGRect = .zero
-}
-
-/// Today's goal as a small black "island" tucked into the screen edge, like the iPhone's Dynamic Island.
-/// Tap: it opens into a card (ring, what is left, change the goal); tap outside: it closes.
-/// Drag: move it up or down, or across the middle to the other edge. The place is remembered.
-/// When the daily goal is reached it opens by itself for a moment.
-struct GoalIsland: View {
-    @ObservedObject private var store = StreakStore.shared
-    /// Top of the island as a share of the available height, and the edge it sits on.
-    @AppStorage("goalIsland.y") private var savedY: Double = 0.62
-    @AppStorage("goalIsland.left") private var onLeft = false
-    @State private var open = false
-    @State private var drag: CGSize = .zero
-    @State private var choosing = false
-    @State private var islandSize: CGSize = .zero
-    @ObservedObject private var layout = IslandLayout.shared
-
-    private let spring = Animation.spring(response: 0.42, dampingFraction: 0.78)
-    private var ringColor: Color { store.goalReachedToday ? DS.success : DS.gold }
-
-    var body: some View {
-        GeometryReader { geo in
-            let top = islandTop(height: geo.size.height, width: geo.size.width)
-            ZStack(alignment: onLeft ? .topLeading : .topTrailing) {
-                if open {
-                    // Tap anywhere else to close.
-                    Color.black.opacity(0.001)
-                        .onTapGesture { withAnimation(spring) { open = false } }
-                }
-                island
-                    .background(GeometryReader { g in
-                        Color.clear
-                            .onAppear { islandSize = g.size }
-                            .onChange(of: g.size) { islandSize = $0 }
-                    })
-                    .offset(x: islandX, y: top)
-                    .animation(spring, value: layout.wordFrame)
-                    .onTapGesture { withAnimation(spring) { open.toggle() } }
-                    .gesture(DragGesture(minimumDistance: 8)
-                        .onChanged { value in if !open { drag = value.translation } }
-                        .onEnded { value in
-                            guard !open else { return }
-                            let height: Double = max(1, Double(geo.size.height))
-                            let newY: Double = (savedY * height + Double(value.translation.height)) / height
-                            let half: CGFloat = geo.size.width / 2
-                            let moved: CGFloat = value.translation.width
-                            let crossed: Bool = onLeft ? moved > half : moved < -half
-                            withAnimation(spring) {
-                                savedY = min(max(newY, 0.02), 0.92)
-                                if crossed { onLeft.toggle() }
-                                drag = .zero
-                            }
-                        })
-            }
-            .frame(width: geo.size.width, height: geo.size.height, alignment: onLeft ? .topLeading : .topTrailing)
-        }
-        .confirmationDialog(t("goal.choose"), isPresented: $choosing, titleVisibility: .visible) {
-            ForEach(XP.goals, id: \.self) { goal in
-                Button(t("goal.option.\(goal)", goal) + (goal == store.goal ? " ✓" : "")) { store.setGoal(goal) }
-            }
-        }
-        .onReceive(NotificationCenter.default.publisher(for: StreakStore.goalReached)) { _ in
-            withAnimation(spring) { open = true }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3) { withAnimation(spring) { open = false } }
-        }
-    }
-
-    /// Top of the island in the available height: kept on screen, and above the word island when they would overlap.
-    private func islandTop(height: CGFloat, width: CGFloat) -> CGFloat {
-        let wanted: CGFloat = CGFloat(savedY) * height + (open ? 0 : drag.height)
-        let lowest: CGFloat = max(8, height - (open ? 190 : 60))
-        let top: CGFloat = min(max(wanted, 8), lowest)
-        let word: CGRect = layout.wordFrame
-        guard word != .zero, islandSize.width > 0 else { return top }
-        let left: CGFloat = onLeft ? islandX : width - islandSize.width + islandX
-        let mine = CGRect(x: left, y: top, width: islandSize.width, height: islandSize.height)
-        guard mine.intersects(word.insetBy(dx: -8, dy: -8)) else { return top }
-        return max(8, word.minY - islandSize.height - 12)
-    }
-
-    /// Closed: reaching 14 pt into the edge (and following a drag). Open: 12 pt inside the screen.
-    private var islandX: CGFloat {
-        if open { return onLeft ? 12 : -12 }
-        let tucked: CGFloat = onLeft ? -14 : 14
-        return tucked + drag.width
-    }
-
-    private var island: some View {
-        Group {
-            if open { openCard } else { closedPill }
-        }
-        .background(Color.black, in: RoundedRectangle(cornerRadius: open ? 30 : 22, style: .continuous))
-        .shadow(color: .black.opacity(0.22), radius: open ? 18 : 8, y: 5)
-        .accessibilityElement(children: .combine)
-        .accessibilityAddTraits(.isButton)
-        .accessibilityHint(t("goal.changeHint"))
-    }
-
-    /// Small: ring and today's XP. The side toward the edge has extra room, since it reaches into the edge.
-    private var closedPill: some View {
-        HStack(spacing: 7) {
-            GoalRing(progress: store.goalProgress, size: 26, lineWidth: 4, color: ringColor) {
-                if store.goalReachedToday {
-                    Image(systemName: "checkmark").font(.system(size: 10, weight: .heavy)).foregroundColor(DS.success)
-                }
-            }
-            Text("\(store.xpToday)").font(.system(size: 15, weight: .heavy)).monospacedDigit().foregroundColor(.white)
-                .contentTransition(.numericText())
-                .animation(.easeOut(duration: 0.3), value: store.xpToday)
-        }
-        .padding(.vertical, 8)
-        .padding(.leading, onLeft ? 24 : 10)
-        .padding(.trailing, onLeft ? 10 : 24)
-    }
-
-    private var openCard: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(spacing: 14) {
-                GoalRing(progress: store.goalProgress, size: 62, lineWidth: 8, color: ringColor) {
-                    if store.goalReachedToday {
-                        Image(systemName: "checkmark").font(.system(size: 22, weight: .heavy)).foregroundColor(DS.success)
-                    } else {
-                        Text("\(Int(store.goalProgress * 100))%").font(.system(size: 14, weight: .heavy)).foregroundColor(.white)
-                    }
-                }
-                VStack(alignment: .leading, spacing: 3) {
-                    Text(t("goal.title").uppercased()).font(.caption2.weight(.bold)).foregroundColor(.white.opacity(0.6))
-                    Text(store.goalReachedToday ? t("goal.done") : t("goal.left", store.goal - store.xpToday))
-                        .font(.system(size: 17, weight: .bold)).foregroundColor(.white)
-                        .fixedSize(horizontal: false, vertical: true)
-                    Text(store.goalReachedToday ? t("goal.doneSub", store.xpToday)
-                         : "\(store.xpToday) / \(store.goal) XP · " + t("goal.minutes", max(1, (store.goal - store.xpToday + 8) / 9)))
-                        .font(.footnote).foregroundColor(.white.opacity(0.7))
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-            }
-            Button {
-                choosing = true
-            } label: {
-                Label(t("goal.change"), systemImage: "slider.horizontal.3")
-                    .font(.system(size: 14, weight: .semibold))
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity, minHeight: 36)
-                    .background(Color.white.opacity(0.14), in: Capsule())
-            }
-            .buttonStyle(.plain)
-        }
-        .padding(16)
-        .frame(width: 300)
-    }
-}
-
 /// Word of the day: a noun with an example from the learner's level. A new one every day and never
 /// yesterday's word again (also when the level changed); the choice is kept for the whole day.
 enum WordOfDay {
@@ -297,11 +174,6 @@ struct WordIsland: View {
                 }
                 .background(Color.black, in: RoundedRectangle(cornerRadius: state.open ? 28 : 22, style: .continuous))
                 .shadow(color: .black.opacity(0.22), radius: state.open ? 18 : 8, y: 5)
-                .background(GeometryReader { g in
-                    Color.clear
-                        .onAppear { report(g.frame(in: .named(IslandLayout.space))) }
-                        .onChange(of: g.frame(in: .named(IslandLayout.space))) { report($0) }
-                })
                 .offset(x: offsetX)
                 .padding(.bottom, 12)
                 .transition(.move(edge: .leading).combined(with: .opacity))
@@ -310,11 +182,6 @@ struct WordIsland: View {
     }
 
     private var offsetX: CGFloat { state.open ? 12 : -14 }
-
-    /// The frame on screen (the measured frame does not include the offset).
-    private func report(_ frame: CGRect) {
-        IslandLayout.shared.wordFrame = state.closed ? .zero : frame.offsetBy(dx: offsetX, dy: 0)
-    }
 
     private var pill: some View {
         HStack(spacing: 6) {
@@ -341,10 +208,7 @@ struct WordIsland: View {
                         .frame(width: 28, height: 28).background(Color.white.opacity(0.12), in: Circle())
                 }
                 .accessibilityLabel(t("common.close"))
-                Button {
-                    withAnimation(spring) { state.closed = true }
-                    IslandLayout.shared.wordFrame = .zero
-                } label: {
+                Button { withAnimation(spring) { state.closed = true } } label: {
                     Image(systemName: "xmark").font(.system(size: 12, weight: .bold))
                         .frame(width: 28, height: 28).background(Color.white.opacity(0.12), in: Circle())
                 }

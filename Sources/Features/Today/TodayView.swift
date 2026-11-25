@@ -24,11 +24,7 @@ struct TodayView: View {
         }
         .deschlyPage()
         .overlay {
-            ZStack {
-                if let word = wordOfDay { WordIsland(word: word) }
-                GoalIsland()
-            }
-            .coordinateSpace(name: IslandLayout.space)
+            if let word = wordOfDay { WordIsland(word: word) }
         }
         .navigationTitle(t("tab.today"))
         .onAppear { levels.active = practiceModel.level }
