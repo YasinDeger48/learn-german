@@ -43,4 +43,10 @@ plist=Info.plist
 /usr/libexec/PlistBuddy -c "Add :UISupportedInterfaceOrientations array" "$plist" || true
 /usr/libexec/PlistBuddy -c "Add :UISupportedInterfaceOrientations:0 string UIInterfaceOrientationPortrait" "$plist" || true
 plutil -lint "$plist"
+# The widget extension must carry the same version and build number as the app.
+widget_plist=Widgets/Info.plist
+short_version=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "$plist")
+/usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $short_version" "$widget_plist"
+/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $build_number" "$widget_plist"
+plutil -lint "$widget_plist"
 xcodegen generate

@@ -24,6 +24,7 @@ targets:
     dependencies:
       - package: GoogleMobileAds
       - package: GoogleUserMessagingPlatform
+      - target: DeschlyWidgets
     settings:
       base:
         PRODUCT_NAME: Almanca
@@ -37,3 +38,22 @@ targets:
         ENABLE_BITCODE: NO
         OTHER_LDFLAGS: ["-ObjC"]
     scheme: {}
+  DeschlyWidgets:
+    # Lock Screen and Home Screen widgets (iOS 17+; on iOS 16 the app works without them).
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Widgets
+        excludes:
+          - "Info.plist"
+    settings:
+      base:
+        PRODUCT_NAME: DeschlyWidgets
+        PRODUCT_BUNDLE_IDENTIFIER: com.yasindeger.almanca.widgets
+        INFOPLIST_FILE: Widgets/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_STYLE: Automatic
+        SKIP_INSTALL: YES
