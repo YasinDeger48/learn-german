@@ -503,6 +503,7 @@
  "voice.footer": "I testi di lettura usano la voce che scegli. Parole e frasi sono dette con una voce naturale.",
  "sounds.answers": "Suoni delle risposte",
  "sounds.answersSub": "Un suono molto lieve e breve per le risposte giuste e sbagliate.",
+ "sounds.vibrate": "Vibra con le risposte sbagliate",
  "ambience.setting": "Suoni d'ambiente",
  "ambience.settingSub": "Mentre il testo del giorno viene letto ad alta voce, in sottofondo suonano bar, treno, pioggia e altro.",
  "voice.fallback": "La voce naturale di questo testo non si è potuta aprire ora (forse manca internet); legge una voce di riserva.",

@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 /// Language, daily reminder, and one row for backup and app info.
 struct SettingsView: View {
@@ -11,6 +12,7 @@ struct SettingsView: View {
     @AppStorage(ReadingVoice.storageKey) private var voiceRaw = ReadingVoice.female.rawValue
     @ObservedObject private var ambience = AmbiencePlayer.shared
     @AppStorage(AnswerSound.storageKey) private var answerSounds = true
+    @AppStorage(AnswerSound.vibrateKey) private var wrongVibration = true
 
     private var reminderTime: Binding<Date> {
         Binding(get: {
@@ -74,6 +76,10 @@ struct SettingsView: View {
                     .onChange(of: answerSounds) { on in
                         if on { AnswerSound.play(correct: true) }
                     }
+                    Toggle(t("sounds.vibrate"), isOn: $wrongVibration)
+                        .onChange(of: wrongVibration) { on in
+                            if on { UINotificationFeedbackGenerator().notificationOccurred(.error) }
+                        }
                     Toggle(isOn: $ambience.enabled) {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(t("ambience.setting"))

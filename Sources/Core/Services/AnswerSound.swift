@@ -1,10 +1,14 @@
 import AVFoundation
+import UIKit
 
-/// Very soft right / wrong sounds after an answer (Settings → Voice → Answer sounds, on by default).
-/// Made in code (two short sine notes that fade out), so there are no audio files.
+/// Feedback after an answer: a very soft right / wrong sound (Settings → Answer sounds) and a vibration
+/// on a wrong answer (Settings → Vibrate on wrong answers); both on by default.
+/// The sounds are made in code (two short sine notes that fade out), so there are no audio files.
 enum AnswerSound {
     static let storageKey = "answerSounds"
+    static let vibrateKey = "wrongVibration"
     static var isOn: Bool { UserDefaults.standard.object(forKey: storageKey) as? Bool ?? true }
+    static var vibrates: Bool { UserDefaults.standard.object(forKey: vibrateKey) as? Bool ?? true }
 
     private static var player: AVAudioPlayer?
     /// A soft rising "ding-ding" and a low falling "dum-dum".
@@ -12,6 +16,11 @@ enum AnswerSound {
     private static let wrong = wav([(311.1, 0.09), (233.1, 0.18)])
 
     static func play(correct: Bool) {
+        if correct {
+            UINotificationFeedbackGenerator().notificationOccurred(.success)
+        } else if vibrates {
+            UINotificationFeedbackGenerator().notificationOccurred(.error)
+        }
         guard isOn else { return }
         let session = AVAudioSession.sharedInstance()
         // Respect the silent switch, unless spoken audio already set the playback category.

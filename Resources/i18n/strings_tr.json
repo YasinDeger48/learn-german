@@ -503,6 +503,7 @@
  "voice.footer": "Okuma metinleri seçtiğin sesle okunur. Kelimeler ve cümleler doğal sesle söylenir.",
  "sounds.answers": "Cevap sesleri",
  "sounds.answersSub": "Doğru ve yanlış cevapta çok hafif, kısa bir ses.",
+ "sounds.vibrate": "Yanlış cevapta titreşim",
  "ambience.setting": "Ortam sesleri",
  "ambience.settingSub": "Günün metni sesli okunurken arkada kafe, tren, yağmur gibi sesler çalar.",
  "voice.fallback": "Bu metnin doğal sesi şu an açılamadı (internet yok olabilir); yedek sesle okunuyor.",

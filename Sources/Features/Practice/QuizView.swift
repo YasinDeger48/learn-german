@@ -537,8 +537,6 @@ struct A1QuizView: View {
         model.record(q, correct: correct)
         if review && correct { StreakStore.shared.addXP(XP.correct * (XP.mistakeMultiplier - 1)) }
         if !free { pro.countAnswer() }
-        let feedback = UINotificationFeedbackGenerator()
-        feedback.notificationOccurred(correct ? .success : .error)
         AnswerSound.play(correct: correct)
     }
 
