@@ -12,6 +12,7 @@ struct StudyBackup: Codable {
     var daily: DailySavedState? = nil
     var streak: StreakState? = nil
     var reviews: [String: [String: ReviewItem]]? = nil
+    var certificates: [Certificate]? = nil
 }
 
 struct BackupDocument: FileDocument {
@@ -39,7 +40,8 @@ enum BackupService {
                                  b2: A1SavedState.load("B2"),
                                  daily: DailySavedState.load(),
                                  streak: StreakStore.shared.state,
-                                 reviews: ReviewStore.all())
+                                 reviews: ReviewStore.all(),
+                                 certificates: ExamStore.certificates())
         guard let data = try? JSONEncoder().encode(backup) else { return nil }
         return BackupDocument(data: data)
     }
@@ -59,6 +61,7 @@ enum BackupService {
             NotificationCenter.default.post(name: A1SavedState.changed, object: nil)
         }
         for (level, items) in backup.reviews ?? [:] { ReviewStore.merge(items, level) }
+        if let certificates = backup.certificates { ExamStore.merge(certificates) }
         if let streak = backup.streak {
             StreakStore.shared.merge(streak)
         }

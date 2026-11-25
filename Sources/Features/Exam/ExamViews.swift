@@ -53,6 +53,19 @@ enum ExamStore {
         return certificate
     }
 
+    /// From a backup: keeps the better certificate of each level.
+    static func merge(_ other: [Certificate]) {
+        var mine = certificates()
+        for certificate in other {
+            if let old = mine.first(where: { $0.level == certificate.level }), old.total >= certificate.total { continue }
+            mine.removeAll { $0.level == certificate.level }
+            mine.append(certificate)
+        }
+        mine.sort { $0.level < $1.level }
+        save(mine, certificatesKey)
+        NotificationCenter.default.post(name: changed, object: nil)
+    }
+
     private static func newID(_ level: String) -> String {
         let letters = Array("ABCDEFGHJKLMNPQRSTUVWXYZ23456789")
         let code = String((0..<4).map { _ in letters.randomElement()! })
