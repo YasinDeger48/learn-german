@@ -407,27 +407,32 @@ struct DailyReadingView: View {
     private func wordBubble(below: Bool) -> some View {
         // The arrow stays over the word even when the bubble moved sideways.
         let arrowX = max(-(bubbleSize.width / 2 - 20), min(bubbleSize.width / 2 - 20, -bubbleShift))
+        let meaning = bubble?.meaning ?? t("reading.notInDictionary")
+        // The bubble is sized to its content (fixedSize), so a long line would run out of it:
+        // long content gets a fixed width and wraps instead.
+        let longest = [bubble?.word ?? bubbleWord, meaning, bubble?.extra ?? ""].map(\.count).max() ?? 0
         return VStack(alignment: .leading, spacing: 3) {
             HStack(alignment: .firstTextBaseline, spacing: 5) {
                 if let article = bubble?.article {
                     Text(article).font(.system(size: 14, weight: .heavy)).foregroundColor(a1ArticleColor(article))
                 }
                 Text(bubble?.word ?? bubbleWord).font(.system(size: 17, weight: .bold)).foregroundColor(DS.onNight)
+                    .fixedSize(horizontal: false, vertical: true)
             }
             if let pron = bubble?.pron, !pron.isEmpty, a1ShowsPron() {
-                Text("[\(pron)]").font(.system(size: 13)).foregroundColor(DS.onNightMuted)
+                Text("[\(pron)]").font(.system(size: 13)).foregroundColor(DS.onNight.opacity(0.8))
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            Text(bubble?.meaning ?? t("reading.notInDictionary"))
+            Text(meaning)
                 .font(.system(size: 15, weight: .semibold))
-                .foregroundColor(bubble == nil ? DS.onNightMuted : DS.gold)
-                .frame(maxWidth: 220, alignment: .leading)
+                .foregroundColor(bubble == nil ? DS.onNight.opacity(0.8) : DS.gold)
                 .fixedSize(horizontal: false, vertical: true)
             if let extra = bubble?.extra {
-                Text(extra).font(.system(size: 12)).foregroundColor(DS.onNightMuted)
-                    .frame(maxWidth: 220, alignment: .leading)
+                Text(extra).font(.system(size: 13)).foregroundColor(DS.onNight.opacity(0.85))
                     .fixedSize(horizontal: false, vertical: true)
             }
         }
+        .frame(width: longest > 24 ? 240 : nil, alignment: .leading)
         .padding(.horizontal, 12)
         .padding(.vertical, 9)
         .background(DS.night, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
