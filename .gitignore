@@ -4,3 +4,4 @@ tools/i18n/missing_*.json
 # Deschly Studio
 tools/studio/.venv/
 tools/studio/web/node_modules/
+tools/studio/.written-covers.json

@@ -31,6 +31,7 @@ import inbox  # noqa: E402
 import server as classic  # noqa: E402  (text review helpers of the classic Studio)
 import translate  # noqa: E402
 import verblab  # noqa: E402
+import word_pictures  # noqa: E402
 
 CONTENT = os.path.join(REPO, 'Resources', 'content')
 COVERS = os.path.join(REPO, 'Resources', 'Covers')
@@ -193,12 +194,90 @@ def inbox_open(job: str):
 
 @app.post('/api/picture')
 async def picture(request: Request, name: str = Query(...)):
+    """A dropped picture: unit-a1-03 (unit), words-a1-03 (word grid) or a text id like a2-014 (text cover)."""
+    import re
     data = await request.body()
+    base = os.path.splitext(os.path.basename(name))[0].lower().strip()
     try:
         with lock:
+            if re.fullmatch(r'[a-z][0-9]-\d{3}', base):
+                if not classic.text_detail(base):
+                    raise ValueError(f'{base}: no text with this id')
+                reason = classic.put_cover(base, data, 0.0)
+                if reason:
+                    raise ValueError(f'{base}: {reason}')
+                return {'message': f'{base}: text cover saved', 'pictures': [base]}
             return inbox.put_picture(name, data)
     except (ValueError, KeyError) as e:
         bad(e)
+
+
+# ---------------------------------------------------------------- media
+
+@app.get('/api/media/covers')
+def media_covers():
+    review = classic.load_review()
+    out = []
+    for level, items in classic.load_texts().items():
+        for t in items:
+            out.append({'id': t['id'], 'level': level, 'title': t['title'], 'topic': t.get('topic', ''),
+                        'cover': classic.has_cover(t['id']), 'review': review.get(t['id'], {}).get('status')})
+    return out
+
+
+@app.get('/api/media/wordcards')
+def media_wordcards():
+    """The picture words of each unit (A1 for now) and whether their card exists."""
+    words = {w['id']: w for w in load('a1.json')['words']}
+    units = {u['id']: u for u in load('units.json')['units']}
+    out = []
+    for uid, ids in word_pictures.PICTURE_WORDS.items():
+        cards = []
+        for wid in ids:
+            w = words.get(wid, {})
+            article = w.get('type') if w.get('type') in ('der', 'die', 'das') else None
+            cards.append({'id': wid, 'de': w.get('de', ''), 'article': article, 'meaning': (w.get('mean') or {}).get('en', ''),
+                          'file': f'wp-a1-{wid}', 'exists': os.path.exists(os.path.join(COVERS, f'wp-a1-{wid}.jpg'))})
+        unit = units.get(uid, {})
+        out.append({'unit': uid, 'title': (unit.get('title') or {}).get('tr', uid), 'grid': f'words-{uid}', 'cards': cards})
+    return out
+
+
+@app.get('/api/media/audio')
+def media_audio():
+    folder = os.path.join(SITE, 'audio')
+    try:
+        index = json.load(open(os.path.join(folder, 'index.json'), encoding='utf-8'))
+    except (OSError, ValueError):
+        index = {}
+    try:
+        sounds = json.load(open(os.path.join(folder, 'ambience.json'), encoding='utf-8')).get('sounds', {})
+    except (OSError, ValueError):
+        sounds = {}
+    titles = {t['id']: t['title'] for items in classic.load_texts().values() for t in items}
+    texts = [{'id': tid, 'title': titles.get(tid, tid), 'voices': [v for v in ('f', 'm') if v in voices]}
+             for tid, voices in sorted(index.items())]
+    ambience = [{'kind': kind, 'name': info.get('name', ''), 'by': info.get('by', ''), 'license': info.get('license', ''),
+                 'source': info.get('source', '')} for kind, info in sorted(sounds.items())]
+    return {'counts': audio_counts(), 'texts': texts, 'ambience': ambience}
+
+
+@app.get('/audio/{voice}/{tid}.mp3')
+def audio_file(voice: str, tid: str):
+    if voice not in ('f', 'm'):
+        raise HTTPException(404, 'no audio')
+    path = os.path.join(SITE, 'audio', voice, f'{text_id(tid)}.mp3')
+    if not os.path.exists(path):
+        raise HTTPException(404, 'no audio')
+    return FileResponse(path, media_type='audio/mpeg')
+
+
+@app.get('/audio/ambience/{kind}.m4a')
+def ambience_file(kind: str):
+    path = os.path.join(SITE, 'audio', 'ambience', f'{kind}.m4a')
+    if not kind.isalpha() or not os.path.exists(path):
+        raise HTTPException(404, 'no audio')
+    return FileResponse(path, media_type='audio/mp4')
 
 
 @app.post('/api/publish')
@@ -338,7 +417,16 @@ def spa(path: str):
 
 def main():
     import uvicorn
+    import socket
     port = int(sys.argv[sys.argv.index('--port') + 1]) if '--port' in sys.argv else 8765
+    # Another Studio (e.g. the classic one) may still hold the port: take the next free one.
+    for candidate in range(port, port + 20):
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as probe:
+            if probe.connect_ex(('127.0.0.1', candidate)) != 0:
+                if candidate != port:
+                    print(f'Port {port} is busy (another Studio window still open?), using {candidate}.')
+                port = candidate
+                break
     url = f'http://127.0.0.1:{port}/'
     print(f'Deschly Studio: {url}  (close this window to stop)')
     if '--no-browser' not in sys.argv:

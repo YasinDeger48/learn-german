@@ -33,6 +33,9 @@ CONTENT = os.path.join(REPO, 'Resources', 'content')
 COVERS = os.path.join(REPO, 'Resources', 'Covers')
 ORIGINALS = os.path.normpath(os.path.join(REPO, '..', 'icerik', 'gorseller'))
 REVIEW = os.path.join(STUDIO, 'review.json')
+# Covers the Studio wrote and has not committed yet. Only these are saved: other tools and agents keep their own
+# (untracked) covers in the same folder, and those must not end up in a Studio commit.
+WRITTEN = os.path.join(STUDIO, '.written-covers.json')
 LEVELS = ['A1', 'A2', 'B1', 'B2']
 WORDS = {'A1': (60, 160), 'A2': (100, 170), 'B1': (180, 230), 'B2': (250, 280)}
 PORT = 8765
@@ -138,6 +141,19 @@ def image_ext(data):
     return None
 
 
+def written():
+    try:
+        return set(json.load(open(WRITTEN, encoding='utf-8')))
+    except (OSError, ValueError):
+        return set()
+
+
+def remember(text_id):
+    names = written() | {text_id}
+    with open(WRITTEN, 'w', encoding='utf-8', newline='\n') as f:
+        json.dump(sorted(names), f)
+
+
 def put_cover(text_id, data, crop_top):
     from PIL import Image
     ext = image_ext(data)
@@ -153,6 +169,7 @@ def put_cover(text_id, data, crop_top):
         data = open(os.path.join(COVERS, f'{text_id}.jpg'), 'rb').read()
         ext = '.jpg'
     open(os.path.join(ORIGINALS, text_id + ext), 'wb').write(data)
+    remember(text_id)
     return None
 
 
@@ -160,6 +177,7 @@ def remove_cover(text_id):
     path = os.path.join(COVERS, f'{text_id}.jpg')
     if os.path.exists(path):
         os.remove(path)
+    remember(text_id)
     removed = os.path.join(ORIGINALS, '_removed')
     for old in glob.glob(os.path.join(ORIGINALS, f'{text_id}.*')):
         os.makedirs(removed, exist_ok=True)
@@ -171,11 +189,10 @@ def git(*args):
                           capture_output=True, text=True, encoding='utf-8')
 
 
-STUDIO_PATHS = ['Resources/Covers', 'tools/studio/review.json']
-
-
 def changes():
-    out = git('status', '--porcelain', '--', *STUDIO_PATHS).stdout
+    """Changed files the Studio is responsible for: the covers it wrote and the review state."""
+    paths = ['tools/studio/review.json'] + [f'Resources/Covers/{name}.jpg' for name in sorted(written())]
+    out = git('status', '--porcelain', '--', *paths).stdout
     return [line[3:] for line in out.splitlines() if line.strip()]
 
 
@@ -189,10 +206,11 @@ def commit():
         parts.append(f'{covers_n} cover file(s)')
     if any(f.endswith('review.json') for f in files):
         parts.append('review state')
-    git('add', '-A', '--', *STUDIO_PATHS)
-    result = git('commit', '-q', '-m', f'Studio: {" and ".join(parts)}', '--', *STUDIO_PATHS)
+    git('add', '-A', '--', *files)
+    result = git('commit', '-q', '-m', f'Studio: {" and ".join(parts)}', '--', *files)
     if result.returncode != 0:
         return {'ok': False, 'message': (result.stderr or result.stdout).strip()[:300]}
+    os.remove(WRITTEN) if os.path.exists(WRITTEN) else None
     head = git('log', '--oneline', '-1').stdout.strip()
     return {'ok': True, 'message': f'Saved: {head}'}
 

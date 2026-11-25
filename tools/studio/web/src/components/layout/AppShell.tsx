@@ -66,7 +66,7 @@ export function AppShell() {
   ]
   const workflow: Item[] = [
     { to: '/inbox', label: 'ChatGPT inbox', icon: Inbox, count: data ? fmt(data.waiting) : undefined, badge: true },
-    { to: '/media', label: 'Media', icon: Image, soon: true },
+    { to: '/media', label: 'Media', icon: Image, count: data ? fmt(data.audio.female + data.audio.male + data.audio.words + texts!) : undefined },
     { to: '/translations', label: 'Translations', icon: Globe, count: data ? `${data.languages.length} lang.` : undefined },
     { to: '/publish', label: 'Publish', icon: Rocket, count: data ? String(data.unsaved) : undefined, badge: !!data?.unsaved },
   ]

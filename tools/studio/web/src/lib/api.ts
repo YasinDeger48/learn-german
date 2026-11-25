@@ -62,6 +62,48 @@ export type UnitStatus = {
 
 export type CheckResult = { lines: number; ok: number; problems: string[] }
 
+export type ReviewState = { status?: 'ok' | 'fix'; note?: string; at?: string }
+
+export type TextRow = { id: string; title: string; topic: string; cover: boolean; review: ReviewState; issues: string[] }
+
+export type Glossary = { form: string; lemma: string; art?: string; mean: { tr: string; en?: string }; pron?: string }
+
+export type Question = { type: 'mc' | 'tf'; q: string; options: string[]; answer: number }
+
+export type TextDetail = {
+  level: string
+  cover: boolean
+  review: ReviewState
+  issues: string[]
+  prompt: string
+  text: {
+    id: string
+    title: string
+    topic?: string
+    paragraphs: string[]
+    trans?: { tr?: string; en?: string }[]
+    glossary: Glossary[]
+    questions: Question[]
+  }
+}
+
+export type LevelSummary = { level: string; texts: number; covers: number; ok: number; fix: number }
+
+export type CoverRow = { id: string; level: string; title: string; topic: string; cover: boolean; review?: 'ok' | 'fix' }
+
+export type WordCardUnit = {
+  unit: string
+  title: string
+  grid: string
+  cards: { id: number; de: string; article: string | null; meaning: string; file: string; exists: boolean }[]
+}
+
+export type AudioInfo = {
+  counts: Overview['audio']
+  texts: { id: string; title: string; voices: ('f' | 'm')[] }[]
+  ambience: { kind: string; name: string; by: string; license: string; source: string }[]
+}
+
 async function call<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(path, init)
   const body = await response.json().catch(() => ({}))
@@ -88,4 +130,20 @@ export const api = {
   publish: () => call<{ output: string }>('/api/publish', { method: 'POST' }),
   save: () => call<{ ok: boolean; message: string }>('/api/save-content', { method: 'POST' }),
   changes: () => call<{ content: string[]; texts: string[] }>('/api/changes'),
+
+  // Daily texts (classic review endpoints)
+  textSummary: () => call<{ levels: LevelSummary[]; changes: number }>('/api/summary'),
+  texts: (level: string) => call<TextRow[]>(`/api/texts/${level}`),
+  text: (id: string) => call<TextDetail>(`/api/text/${id}`),
+  review: (id: string, status: '' | 'ok' | 'fix', note: string) =>
+    call<{ ok: boolean }>(`/api/review/${id}`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ status, note }) }),
+  putCover: (id: string, file: Blob, cropTop: number) => call<{ ok: boolean }>(`/api/cover/${id}?crop_top=${cropTop}`, { method: 'POST', body: file }),
+  removeCover: (id: string) => call<{ ok: boolean }>(`/api/cover/${id}`, { method: 'DELETE' }),
+  coverPrompts: (level: string) => call<{ count: number; text: string }>(`/api/prompts/${level}`),
+  saveTexts: () => call<{ ok: boolean; message: string }>('/api/commit', { method: 'POST' }),
+
+  // Media
+  covers: () => call<CoverRow[]>('/api/media/covers'),
+  wordcards: () => call<WordCardUnit[]>('/api/media/wordcards'),
+  audio: () => call<AudioInfo>('/api/media/audio'),
 }
