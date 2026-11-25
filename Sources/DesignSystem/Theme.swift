@@ -95,7 +95,15 @@ struct LinaAvatar: View {
     }
 
     /// The same picture with closed eyes ("<name>-blink.png"), if there is one: used for blinking.
-    private var blinkPicture: UIImage? { UIImage(named: pictureName + "-blink") }
+    private var blinkPicture: UIImage? {
+        let name = pictureName + "-blink"
+        if let known = LinaAvatar.hasBlink[name], !known { return nil }
+        let image = UIImage(named: name)
+        LinaAvatar.hasBlink[name] = image != nil
+        return image
+    }
+    /// Which closed-eye pictures exist (asked once per name).
+    private static var hasBlink: [String: Bool] = [:]
 
     private var picture: UIImage? {
         if blinking, let closed = blinkPicture { return closed }

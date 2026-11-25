@@ -47,6 +47,23 @@ enum Reminders {
         UNUserNotificationCenter.current().setNotificationCategories([quiz, word])
     }
 
+    /// Nouns and other words with an example per level, made once (the level file is up to 2 MB).
+    private static var lists: [String: (nouns: [A1Word], others: [A1Word])] = [:]
+    private static let listLock = NSLock()
+
+    private static func wordLists(_ level: String) -> (nouns: [A1Word], others: [A1Word]) {
+        listLock.lock()
+        if let known = lists[level] { listLock.unlock(); return known }
+        listLock.unlock()
+        let words = A1Content.load(level)?.words ?? []
+        let made = (nouns: words.filter { $0.isNoun && $0.theme != A1BankBuilder.coreTheme },
+                    others: words.filter { !$0.isNoun && !$0.ex.isEmpty && $0.theme != A1BankBuilder.coreTheme })
+        listLock.lock()
+        lists[level] = made
+        listLock.unlock()
+        return made
+    }
+
     static func refresh(_ model: DailyModel) {
         let center = UNUserNotificationCenter.current()
         let enabled = model.remindersOn
@@ -62,9 +79,7 @@ enum Reminders {
         let activeToday = StreakStore.shared.activeToday
         DispatchQueue.global(qos: .utility).async {
             // Words of the learner's level (practice levels only; others use A1).
-            let content = A1Content.load(LevelModels.practiceLevels.contains(level) ? level : "A1")
-            let nouns = content?.words.filter { $0.isNoun && $0.theme != A1BankBuilder.coreTheme } ?? []
-            let others = content?.words.filter { !$0.isNoun && !$0.ex.isEmpty && $0.theme != A1BankBuilder.coreTheme } ?? []
+            let (nouns, others) = wordLists(LevelModels.practiceLevels.contains(level) ? level : "A1")
             center.getPendingNotificationRequests { pending in
                 let ours = pending.map(\.identifier).filter {
                     $0.hasPrefix(dailyPrefix) || $0.hasPrefix(wordPrefix) || $0.hasPrefix(quizPrefix) || $0.hasPrefix(streakPrefix)

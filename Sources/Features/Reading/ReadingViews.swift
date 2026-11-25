@@ -291,7 +291,7 @@ struct DailyReadingView: View {
                 .accessibilityLabel(t("reading.speed"))
             }
             if audio.playing {
-                ProgressView(value: audio.progress).tint(DS.gold)
+                PlaybackProgressBar(feed: audio.progressFeed)
             }
             if ambience.enabled, let kind = ambience.kind(for: text.id) {
                 Label(t("ambience.on", t("ambience.kind.\(kind)")), systemImage: "waveform")

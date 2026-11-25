@@ -71,7 +71,22 @@ final class BadgeStore: ObservableObject {
         earned = Set(UserDefaults.standard.stringArray(forKey: BadgeStore.key) ?? [])
     }
 
+    /// Values of this moment (the badges page asks for every kind several times per render; some decode saved data).
+    private var memo: [Badge.Kind: Int] = [:]
+    private var memoAt = Date.distantPast
+
     func value(_ kind: Badge.Kind) -> Int {
+        if Date().timeIntervalSince(memoAt) > 1 {
+            memo = [:]
+            memoAt = Date()
+        }
+        if let known = memo[kind] { return known }
+        let result = computeValue(kind)
+        memo[kind] = result
+        return result
+    }
+
+    private func computeValue(_ kind: Badge.Kind) -> Int {
         let streak = StreakStore.shared
         switch kind {
         case .welcome: return 1
@@ -90,6 +105,7 @@ final class BadgeStore: ObservableObject {
     /// The first run only stores what was already reached, without celebrating old achievements.
     @discardableResult
     func refresh() -> [Badge] {
+        memo = [:]  // fresh values for earning
         let firstRun = UserDefaults.standard.stringArray(forKey: BadgeStore.key) == nil
         var values: [Badge.Kind: Int] = [:]
         var new: [Badge] = []

@@ -28,8 +28,6 @@ struct GoalRing<Center: View>: View {
 struct XPChip: View {
     @ObservedObject private var store = StreakStore.shared
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    @State private var showGoal = false
-    private let clock = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
 
     private var percent: Int { Int((store.goalProgress * 100).rounded()) }
 
@@ -48,6 +46,15 @@ struct XPChip: View {
     private var goalColor: Color { store.goalReachedToday ? DS.success : (percent < 25 ? DS.die : DS.goldDeep) }
 
     var body: some View {
+        // Every 3 seconds by the clock: a timer made in the view restarted with each re-render.
+        TimelineView(.periodic(from: Date(timeIntervalSince1970: 0), by: 3)) { context in
+            chip(showGoal: Int(context.date.timeIntervalSince1970 / 3) % 2 == 1)
+        }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(t("xp.total", store.state.totalXP) + ", " + t("goal.title") + " \(percent)%")
+    }
+
+    private func chip(showGoal: Bool) -> some View {
         ZStack {
             if showGoal {
                 HStack(spacing: 4) {
@@ -68,15 +75,11 @@ struct XPChip: View {
                                         removal: .move(edge: .top).combined(with: .opacity)))
             }
         }
+        .animation(reduceMotion ? nil : .easeInOut(duration: 0.4), value: showGoal)
         .padding(.horizontal, 10)
         .padding(.vertical, 5)
         .background((showGoal ? goalColor : DS.accent).opacity(0.12), in: Capsule())
         .clipShape(Capsule())
-        .onReceive(clock) { _ in
-            if reduceMotion { showGoal.toggle() } else { withAnimation(.easeInOut(duration: 0.4)) { showGoal.toggle() } }
-        }
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel(t("xp.total", store.state.totalXP) + ", " + t("goal.title") + " \(percent)%")
     }
 }
 

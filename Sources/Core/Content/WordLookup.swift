@@ -19,12 +19,14 @@ final class WordLookup {
     /// Resources/content/lexicon.json: every other form found in the texts (tools/lexicon.py).
     private var lexicon: [String: DailyGloss] = [:]
     private var ready = false
+    private var preparing = false
     private let lock = NSLock()
 
     func prepare() {
         lock.lock()
-        defer { lock.unlock() }
-        guard !ready else { return }
+        guard !ready, !preparing else { lock.unlock(); return }
+        preparing = true
+        lock.unlock()
         var result: [String: A1Word] = [:]
         // Higher levels first, so the simplest meaning (A1) wins for words that appear in several levels.
         for level in LevelModels.practiceLevels.reversed() {
@@ -33,11 +35,14 @@ final class WordLookup {
                 for key in WordLookup.keys(for: word) { result[key] = word }
             }
         }
-        table = result
         var forms: [String: DailyGloss] = [:]
         for gloss in Bundled.decode(Lexicon.self, "lexicon")?.forms ?? [] { forms[gloss.form.lowercased()] = gloss }
+        lock.lock()
+        table = result
         lexicon = forms
         ready = true
+        preparing = false
+        lock.unlock()
     }
 
     private static func keys(for word: A1Word) -> [String] {

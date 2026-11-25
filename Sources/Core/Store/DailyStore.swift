@@ -88,12 +88,22 @@ final class DailyModel: ObservableObject {
         level = UserDefaults.standard.string(forKey: "dailyLevel") ?? "A1"
         remindersOn = UserDefaults.standard.bool(forKey: "dailyReminders")
         reminderMinutes = UserDefaults.standard.object(forKey: "dailyReminderMinutes") as? Int ?? 8 * 60
+        // The learner's level (and A1) before the first screen; the other levels off the main thread right after.
         var loaded: [String: [DailyText]] = [:]
-        for lvl in DailyModel.levels {
+        let first = Set([level, "A1"])
+        for lvl in DailyModel.levels where first.contains(lvl) {
             if let file = Bundled.decode(DailyFile.self, "daily_\(lvl.lowercased())") { loaded[lvl] = file.texts }
         }
         texts = loaded
         if !isAvailable(level) { level = "A1" }
+        let rest = DailyModel.levels.filter { !first.contains($0) }
+        DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+            var more: [String: [DailyText]] = [:]
+            for lvl in rest {
+                if let file = Bundled.decode(DailyFile.self, "daily_\(lvl.lowercased())") { more[lvl] = file.texts }
+            }
+            DispatchQueue.main.async { self?.texts.merge(more) { current, _ in current } }
+        }
         observer = NotificationCenter.default.addObserver(forName: DailySavedState.changed, object: nil, queue: .main) { [weak self] _ in
             self?.state = DailySavedState.load()
         }

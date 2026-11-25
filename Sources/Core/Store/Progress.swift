@@ -53,6 +53,7 @@ final class A1Model: ObservableObject {
     /// Counted once when the progress or the questions change, not on every screen update
     /// (screens ask for these many times per render; counting walked through every answered question each time).
     private var seenByMode: [A1Mode: Int] = [:]
+    private var topicCounts: [Int: (seen: Int, total: Int, wrong: Int)] = [:]
     private var learnedCount = 0
     private var observer: NSObjectProtocol?
 
@@ -128,6 +129,18 @@ final class A1Model: ObservableObject {
         }
         seenByMode = seen
         learnedCount = learned
+        var topics: [Int: (seen: Int, total: Int, wrong: Int)] = [:]
+        for q in byID.values {
+            guard let topic = q.topic else { continue }
+            var entry = topics[topic] ?? (0, 0, 0)
+            entry.total += 1
+            if state.seen.contains(q.id) { entry.seen += 1 }
+            topics[topic] = entry
+        }
+        for id in state.wrong {
+            if let topic = byID[id]?.topic { topics[topic, default: (0, 0, 0)].wrong += 1 }
+        }
+        topicCounts = topics
     }
     var coreTotal: Int { questions.count - a1Total }
     var coreLearned: Int { max(0, state.correct.count - learned) }
@@ -297,15 +310,7 @@ enum TopicStatus {
 
 extension A1Model {
     /// Questions answered, questions in the topic, open mistakes.
-    func topicProgress(_ topic: Int) -> (seen: Int, total: Int, wrong: Int) {
-        var seen = 0, total = 0
-        for q in questions where q.topic == topic {
-            total += 1
-            if state.seen.contains(q.id) { seen += 1 }
-        }
-        let wrong = state.wrong.filter { byID[$0]?.topic == topic }.count
-        return (seen, total, wrong)
-    }
+    func topicProgress(_ topic: Int) -> (seen: Int, total: Int, wrong: Int) { topicCounts[topic] ?? (0, 0, 0) }
 
     /// A topic counts as finished after all its questions, or 30 of them for very large topics.
     func topicStatus(_ topic: Int) -> TopicStatus {

@@ -138,7 +138,7 @@ final class ContentUpdater {
             guard Self.isSafe(name), file.size > 0, file.size <= Self.maxSize(name) else { continue }
             if installed[name] == file.sha256, ContentStore.cached(name) != nil { continue }
             // Same as the bundled file: no download, and a stale download is removed.
-            if let bundled = ContentStore.bundled(name), Self.sha256(of: bundled) == file.sha256 {
+            if let bundled = ContentStore.bundled(name), bundledHash(name, bundled) == file.sha256 {
                 if let cached = ContentStore.cached(name) { try? fm.removeItem(at: cached) }
                 installed[name] = nil
                 continue
@@ -169,6 +169,19 @@ final class ContentUpdater {
     /// Only plain relative names like "a1.json" or "covers/a1-001.jpg".
     static func isSafe(_ name: String) -> Bool {
         name.range(of: #"^(covers/)?[a-z0-9_\-]+\.(json|jpg)$"#, options: .regularExpression) != nil
+    }
+
+    /// Hashes of the bundled files, remembered per app build (they only change with a new version).
+    private func bundledHash(_ name: String, _ url: URL) -> String? {
+        let key = "contentBundledHashes"
+        let defaults = UserDefaults.standard
+        var saved = defaults.dictionary(forKey: key) as? [String: String] ?? [:]
+        if saved["_build"] != ContentStore.appBuild { saved = ["_build": ContentStore.appBuild] }
+        if let known = saved[name] { return known }
+        guard let hash = Self.sha256(of: url) else { return nil }
+        saved[name] = hash
+        defaults.set(saved, forKey: key)
+        return hash
     }
 
     static func sha256(_ data: Data) -> String {

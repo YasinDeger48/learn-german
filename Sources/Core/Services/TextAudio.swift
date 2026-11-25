@@ -32,6 +32,17 @@ enum ReadingVoice: String, CaseIterable, Identifiable {
     }
 }
 
+/// Playback position of the text being read (0…1).
+final class PlaybackProgress: ObservableObject {
+    @Published var value: Double = 0
+}
+
+/// A thin bar that follows PlaybackProgress; the only view that redraws while a text plays.
+struct PlaybackProgressBar: View {
+    @ObservedObject var feed: PlaybackProgress
+    var body: some View { ProgressView(value: feed.value).tint(DS.gold) }
+}
+
 /// Plays a text's recorded voice. The MP3 is downloaded the first time and kept in Caches, so it then works
 /// offline. Speed changes keep the pitch.
 final class TextAudioPlayer: ObservableObject {
@@ -40,8 +51,10 @@ final class TextAudioPlayer: ObservableObject {
 
     @Published private(set) var playing = false
     @Published private(set) var loading = false
-    /// 0…1 of the current text.
-    @Published private(set) var progress: Double = 0
+    /// 0…1 of the current text. In its own object: only the progress bar observes it (it changes 4 times a second
+    /// and the whole reading screen used to redraw with it).
+    let progressFeed = PlaybackProgress()
+    var progress: Double { progressFeed.value }
 
     private var player: AVPlayer?
     private var endObserver: NSObjectProtocol?
@@ -99,9 +112,9 @@ final class TextAudioPlayer: ObservableObject {
         }
         timeObserver = player.addPeriodicTimeObserver(forInterval: CMTime(seconds: 0.25, preferredTimescale: 600), queue: .main) { [weak self] time in
             guard let duration = player.currentItem?.duration.seconds, duration.isFinite, duration > 0 else { return }
-            self?.progress = min(1, time.seconds / duration)
+            self?.progressFeed.value = min(1, time.seconds / duration)
         }
-        progress = 0
+        progressFeed.value = 0
         player.playImmediately(atRate: speed)
         playing = true
     }
@@ -249,16 +262,35 @@ final class WordAudio {
         defer { lock.unlock() }
         guard !loaded else { return }
         loaded = true
-        let cache = Self.folder.appendingPathComponent("words.json")
-        if let data = try? Data(contentsOf: cache), let file = try? JSONDecoder().decode(File.self, from: data) {
-            items = file.items
+        // The list is about 1 MB: decoded off the main thread, and downloaded again only when it changed
+        // (ETag) and at most every 12 hours, not on every launch.
+        DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+            let cache = Self.folder.appendingPathComponent("words.json")
+            if let data = try? Data(contentsOf: cache), let file = try? JSONDecoder().decode(File.self, from: data) {
+                DispatchQueue.main.async { if self?.items.isEmpty == true { self?.items = file.items } }
+            }
+            let defaults = UserDefaults.standard
+            let fresh = Date().timeIntervalSince1970 - defaults.double(forKey: "wordAudio.checked") < 12 * 3600
+            if fresh && FileManager.default.fileExists(atPath: cache.path) { return }
+            var request = URLRequest(url: TextAudioPlayer.base.appendingPathComponent("words.json"))
+            request.cachePolicy = .reloadIgnoringLocalCacheData
+            if FileManager.default.fileExists(atPath: cache.path), let tag = defaults.string(forKey: "wordAudio.etag") {
+                request.setValue(tag, forHTTPHeaderField: "If-None-Match")
+            }
+            URLSession.shared.dataTask(with: request) { data, response, _ in
+                guard let http = response as? HTTPURLResponse else { return }
+                if http.statusCode == 304 {
+                    defaults.set(Date().timeIntervalSince1970, forKey: "wordAudio.checked")
+                    return
+                }
+                guard http.statusCode == 200, let data,
+                      let file = try? JSONDecoder().decode(File.self, from: data) else { return }
+                try? data.write(to: cache, options: .atomic)
+                defaults.set(http.value(forHTTPHeaderField: "ETag"), forKey: "wordAudio.etag")
+                defaults.set(Date().timeIntervalSince1970, forKey: "wordAudio.checked")
+                DispatchQueue.main.async { self?.items = file.items }
+            }.resume()
         }
-        URLSession.shared.dataTask(with: TextAudioPlayer.base.appendingPathComponent("words.json")) { [weak self] data, response, _ in
-            guard let data, (response as? HTTPURLResponse)?.statusCode == 200,
-                  let file = try? JSONDecoder().decode(File.self, from: data) else { return }
-            try? data.write(to: cache, options: .atomic)
-            DispatchQueue.main.async { self?.items = file.items }
-        }.resume()
     }
 
     /// Key of a spoken line in words.json: the woman's / default voice uses the plain key,
