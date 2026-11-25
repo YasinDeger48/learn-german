@@ -14,7 +14,9 @@ final class SpeechListener: ObservableObject {
     @Published private(set) var loudness: CGFloat = 0
 
     private let recognizer = SFSpeechRecognizer(locale: Locale(identifier: "de-DE"))
-    private let engine = AVAudioEngine()
+    /// A new engine for every listening, made after the session is set to record: an engine whose microphone input
+    /// was touched while the app was only playing (the read-aloud before) has a 0-channel input and cannot listen.
+    private var engine: AVAudioEngine?
     private var request: SFSpeechAudioBufferRecognitionRequest?
     private var task: SFSpeechRecognitionTask?
     private var silence: DispatchWorkItem?
@@ -56,9 +58,11 @@ final class SpeechListener: ObservableObject {
     @discardableResult
     func start(hints: [String] = [], pause: TimeInterval = 1.6, maxSeconds: TimeInterval = 20,
                onFinish: @escaping (String) -> Void) -> Bool {
+        if access != .granted { refreshAccess() }  // permission may have been given in Settings meanwhile
         guard access == .granted, let recognizer, recognizer.isAvailable else { return false }
         cancel()
         A1Speaker.shared.stop()
+        TextAudioPlayer.shared.stop()
         transcript = ""
 
         let session = AVAudioSession.sharedInstance()
@@ -72,12 +76,14 @@ final class SpeechListener: ObservableObject {
         let request = SFSpeechAudioBufferRecognitionRequest()
         request.shouldReportPartialResults = true
         request.contextualStrings = Array(hints.prefix(100))
-        if recognizer.supportsOnDeviceRecognition { request.requiresOnDeviceRecognition = true }
+        // Not forced onto the device: without the German on-device model that fails at once ("unavailable");
+        // iOS uses the device when it can and Apple's server otherwise. Nothing is stored by the app.
+        request.requiresOnDeviceRecognition = false
 
+        let engine = AVAudioEngine()
         let input = engine.inputNode
         let format = input.outputFormat(forBus: 0)
         guard format.sampleRate > 0, format.channelCount > 0 else { return false }
-        input.removeTap(onBus: 0)
         input.installTap(onBus: 0, bufferSize: 1024, format: format) { [weak self] buffer, _ in
             request.append(buffer)
             self?.measure(buffer)
@@ -90,6 +96,7 @@ final class SpeechListener: ObservableObject {
             return false
         }
 
+        self.engine = engine
         self.request = request
         self.onFinish = onFinish
         listening = true
@@ -143,8 +150,11 @@ final class SpeechListener: ObservableObject {
     private func stopAudio() {
         silence?.cancel()
         limit?.cancel()
-        if engine.isRunning { engine.stop() }
-        engine.inputNode.removeTap(onBus: 0)
+        if let engine {
+            if engine.isRunning { engine.stop() }
+            engine.inputNode.removeTap(onBus: 0)
+        }
+        engine = nil
         listening = false
         loudness = 0
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
@@ -255,14 +265,26 @@ enum SpeechScore {
         return Result(words: words, score: score, heard: heard)
     }
 
-    /// For speaking tasks: does the answer contain one of the phrases? A phrase matches at the start of a word
-    /// ("gern" also finds "gerne"); very short ones (up to 3 letters: "da", "vor", "bis") only as whole words.
+    /// For speaking tasks: does the answer contain one of the phrases, word after word? Each word may be a
+    /// little different, as the recogniser writes it: "ich heiß" / "ich heisse" count for "ich heiße", "gerne" for
+    /// "gern". Very short words (up to 3 letters: "da", "vor", "bis") must match exactly.
     static func mentions(_ transcript: String, _ phrases: [String]) -> Bool {
-        let text = " " + split(transcript).map(key).joined(separator: " ") + " "
+        let heard = split(transcript).map(key).filter { !$0.isEmpty }
         return phrases.contains { phrase in
-            let p = split(phrase).map(key).filter { !$0.isEmpty }.joined(separator: " ")
-            guard !p.isEmpty else { return false }
-            return text.contains(p.count <= 3 ? " \(p) " : " \(p)")
+            let wanted = split(phrase).map(key).filter { !$0.isEmpty }
+            guard !wanted.isEmpty, heard.count >= wanted.count else { return false }
+            for start in 0...(heard.count - wanted.count) {
+                if wanted.indices.allSatisfy({ sameWord(heard[start + $0], wanted[$0]) }) { return true }
+            }
+            return false
         }
+    }
+
+    /// One word of a phrase: exact for short words; otherwise also a longer form ("gerne") or one letter off.
+    private static func sameWord(_ heard: String, _ wanted: String) -> Bool {
+        if wanted.count <= 3 { return heard == wanted }
+        if heard.hasPrefix(wanted) { return true }
+        if wanted.count >= 5 && wanted.hasPrefix(heard) && wanted.count - heard.count <= 2 { return true }  // "heiss" for "heisse"
+        return close(heard, wanted)
     }
 }
