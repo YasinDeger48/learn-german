@@ -7,12 +7,14 @@
    "title": {
     "tr": "Merhaba, ben …",
     "en": "Hello, I am …",
-    "es": "Hola, soy …"
+    "es": "Hola, soy …",
+    "ku": "Silav, ez … im"
    },
    "goal": {
     "tr": "Kendini tanıtır, adını heceler, nereden geldiğini söylersin.",
     "en": "Introduce yourself, spell your name, say where you are from.",
-    "es": "Preséntate, deletrea tu nombre y di de dónde eres."
+    "es": "Preséntate, deletrea tu nombre y di de dónde eres.",
+    "ku": "Xwe nas bike, navê xwe bi tîpan bêje û bibêje ji ku derê yî."
    },
    "cover": "unit-a1-01",
    "themes": [
@@ -45,19 +47,31 @@
      "de": "Ich komme aus der Türkei.",
      "tr": "Türkiye'denim.",
      "en": "I come from Turkey.",
-     "es": "Vengo de Turquía."
+     "es": "Vengo de Turquía.",
+     "ku": "Ez ji Tirkiyeyê têm.",
+     "fr": "Je viens de Turquie.",
+     "it": "Vengo dalla Turchia.",
+     "ar": "أنا من تركيا."
     },
     {
      "de": "Ich wohne in Köln.",
      "tr": "Köln'de oturuyorum.",
      "en": "I live in Cologne.",
-     "es": "Vivo en Colonia."
+     "es": "Vivo en Colonia.",
+     "ku": "Ez li Kölnê dijîm.",
+     "fr": "J'habite à Cologne.",
+     "it": "Abito a Colonia.",
+     "ar": "أسكن في كولونيا."
     },
     {
      "de": "Wie heißen Sie?",
      "tr": "Adınız ne?",
      "en": "What is your name?",
-     "es": "¿Cómo te llamas?"
+     "es": "¿Cómo te llamas?",
+     "ku": "Navê te çi ye?",
+     "fr": "Comment tu t'appelles ?",
+     "it": "Come ti chiami?",
+     "ar": "ما اسمك؟"
     },
     {
      "de": "Freut mich!",
@@ -91,12 +105,16 @@
    "title": {
     "tr": "Ailem",
     "en": "My family",
-    "es": "Mi familia"
+    "es": "Mi familia",
+    "ku": "Malbata min",
+    "fr": "Ma famille",
+    "it": "La mia famiglia"
    },
    "goal": {
     "tr": "Aileni anlatır, yaşları ve meslekleri söylersin.",
     "en": "Talk about your family, ages and jobs.",
-    "es": "Habla de tu familia, sus edades y profesiones."
+    "es": "Habla de tu familia, sus edades y profesiones.",
+    "ku": "Derbarê malbata xwe, temen û karên wan de biaxive."
    },
    "cover": "unit-a1-02",
    "themes": [
@@ -138,13 +156,21 @@
      "de": "Bist du verheiratet?",
      "tr": "Evli misin?",
      "en": "Are you married?",
-     "es": "¿Estás casado/a?"
+     "es": "¿Estás casado/a?",
+     "ku": "Tu zewicî yî?",
+     "fr": "Tu es marié(e) ?",
+     "it": "Sei sposato/a?",
+     "ar": "هل أنت متزوج؟"
     },
     {
      "de": "Wir haben zwei Kinder.",
      "tr": "İki çocuğumuz var.",
      "en": "We have two children.",
-     "es": "Tenemos dos hijos."
+     "es": "Tenemos dos hijos.",
+     "ku": "Du zarokên me hene.",
+     "fr": "Nous avons deux enfants.",
+     "it": "Abbiamo due figli.",
+     "ar": "لدينا طفلان."
     }
    ],
    "pictures": [
@@ -173,12 +199,17 @@
    "title": {
     "tr": "Yemek ve içmek",
     "en": "Food and drink",
-    "es": "Comida y bebida"
+    "es": "Comida y bebida",
+    "ku": "Xwarin û vexwarin",
+    "fr": "Nourriture et boissons",
+    "it": "Cibo e bevande",
+    "ar": "الطعام والشراب"
    },
    "goal": {
     "tr": "Restoranda sipariş verir, ne sevdiğini söylersin.",
     "en": "Order in a restaurant and say what you like.",
-    "es": "Pide en un restaurante y di qué te gusta."
+    "es": "Pide en un restaurante y di qué te gusta.",
+    "ku": "Li xwaringehê siparîş bike û bibêje tu ji çi hez dikî."
    },
    "cover": "unit-a1-03",
    "themes": [
@@ -206,7 +237,11 @@
      "de": "Ich hätte gern einen Kaffee.",
      "tr": "Bir kahve alabilir miyim?",
      "en": "I'd like a coffee.",
-     "es": "Me gustaría un café."
+     "es": "Me gustaría un café.",
+     "ku": "Ez qehweyekê dixwazim.",
+     "fr": "Je voudrais un café.",
+     "it": "Vorrei un caffè.",
+     "ar": "أريد قهوة."
     },
     {
      "de": "Was möchten Sie trinken?",
@@ -227,7 +262,11 @@
      "de": "Guten Appetit!",
      "tr": "Afiyet olsun!",
      "en": "Enjoy your meal!",
-     "es": "¡Que aproveche!"
+     "es": "¡Que aproveche!",
+     "ku": "Xwarina xweş!",
+     "fr": "Bon appétit !",
+     "it": "Buon appetito!",
+     "ar": "بالهناء والشفاء!"
     }
    ],
    "pictures": [
@@ -256,12 +295,14 @@
    "title": {
     "tr": "Alışveriş",
     "en": "Shopping",
-    "es": "Compras"
+    "es": "Compras",
+    "ku": "Kirîn"
    },
    "goal": {
     "tr": "Fiyat sorar, beden ve renk söyler, alışveriş yaparsın.",
     "en": "Ask prices, say sizes and colours, buy things.",
-    "es": "Pregunta los precios, di las tallas y los colores, y compra cosas."
+    "es": "Pregunta los precios, di las tallas y los colores, y compra cosas.",
+    "ku": "Bipirse biha çiqas e, mezinahî û rengan bibêje û tiştan bikire."
    },
    "cover": "unit-a1-04",
    "themes": [
@@ -303,7 +344,11 @@
      "de": "Kann ich mit Karte bezahlen?",
      "tr": "Kartla ödeyebilir miyim?",
      "en": "Can I pay by card?",
-     "es": "¿Puedo pagar con tarjeta?"
+     "es": "¿Puedo pagar con tarjeta?",
+     "ku": "Dikarim bi kartê pere bidim?",
+     "fr": "Je peux payer par carte ?",
+     "it": "Posso pagare con la carta?",
+     "ar": "هل يمكنني الدفع بالبطاقة؟"
     },
     {
      "de": "Ich brauche keine Tüte.",
@@ -337,12 +382,14 @@
    "title": {
     "tr": "Evim",
     "en": "My home",
-    "es": "Mi casa"
+    "es": "Mi casa",
+    "ku": "Mala min"
    },
    "goal": {
     "tr": "Evini ve odalarını anlatır, bir sorunu bildirirsin.",
     "en": "Describe your home and rooms, report a problem.",
-    "es": "Describe tu casa y las habitaciones; explica un problema."
+    "es": "Describe tu casa y las habitaciones; explica un problema.",
+    "ku": "Mala xwe û odeyan rave bike, pirsgirêkekê ragihîne."
    },
    "cover": "unit-a1-05",
    "themes": [
@@ -387,7 +434,11 @@
      "de": "Die Heizung ist kaputt.",
      "tr": "Kalorifer bozuk.",
      "en": "The heating is broken.",
-     "es": "La calefacción está averiada."
+     "es": "La calefacción está averiada.",
+     "ku": "Germkirin xirab e.",
+     "fr": "Le chauffage est en panne.",
+     "it": "Il riscaldamento è guasto.",
+     "ar": "التدفئة معطلة."
     },
     {
      "de": "Wie hoch ist die Miete?",
@@ -421,12 +472,14 @@
    "title": {
     "tr": "Günüm ve saatler",
     "en": "My day and the time",
-    "es": "Mi día y la hora"
+    "es": "Mi día y la hora",
+    "ku": "Roja min û dem"
    },
    "goal": {
     "tr": "Saati söyler, günlük rutinini ve randevularını anlatırsın.",
     "en": "Tell the time, talk about your day and appointments.",
-    "es": "Di la hora y habla de tu día y tus citas."
+    "es": "Di la hora y habla de tu día y tus citas.",
+    "ku": "Demê bibêje, derbarê rojana xwe û randevûyan de biaxive."
    },
    "cover": "unit-a1-06",
    "themes": [
@@ -453,7 +506,11 @@
      "de": "Wie spät ist es?",
      "tr": "Saat kaç?",
      "en": "What time is it?",
-     "es": "¿Qué hora es?"
+     "es": "¿Qué hora es?",
+     "ku": "Saet çend e?",
+     "fr": "Quelle heure est-il ?",
+     "it": "Che ora è?",
+     "ar": "كم الساعة؟"
     },
     {
      "de": "Es ist halb acht.",
@@ -502,12 +559,14 @@
    "title": {
     "tr": "Şehirde yol bulmak",
     "en": "Finding your way in town",
-    "es": "Orientarse en la ciudad"
+    "es": "Orientarse en la ciudad",
+    "ku": "Li bajêr rê bibîne"
    },
    "goal": {
     "tr": "Yol sorar, yön tarif eder, toplu taşımayı kullanırsın.",
     "en": "Ask the way, give directions, use public transport.",
-    "es": "Pregunta cómo llegar, da indicaciones y usa el transporte público."
+    "es": "Pregunta cómo llegar, da indicaciones y usa el transporte público.",
+    "ku": "Rê bipirse, rê nîşan bide û veguhestina giştî bikar bîne."
    },
    "cover": "unit-a1-07",
    "themes": [
@@ -533,7 +592,11 @@
      "de": "Entschuldigung, wo ist der Bahnhof?",
      "tr": "Affedersiniz, tren istasyonu nerede?",
      "en": "Excuse me, where is the station?",
-     "es": "Perdona, ¿dónde está la estación?"
+     "es": "Perdona, ¿dónde está la estación?",
+     "ku": "Bibore, stasyon li ku ye?",
+     "fr": "Excuse-moi, où est la gare ?",
+     "it": "Mi scusi, dov'è la stazione?",
+     "ar": "عذرًا، أين المحطة؟"
     },
     {
      "de": "Gehen Sie geradeaus und dann links.",
@@ -582,12 +645,14 @@
    "title": {
     "tr": "Doktorda",
     "en": "At the doctor",
-    "es": "En el médico"
+    "es": "En el médico",
+    "ku": "Li cem bijîşk"
    },
    "goal": {
     "tr": "Nerenin ağrıdığını söyler, randevu alırsın.",
     "en": "Say what hurts and make an appointment.",
-    "es": "Di qué te duele y pide una cita."
+    "es": "Di qué te duele y pide una cita.",
+    "ku": "Bibêje kû derdikeve û randevûyekê bistîne."
    },
    "cover": "unit-a1-08",
    "themes": [
@@ -613,7 +678,11 @@
      "de": "Ich habe Kopfschmerzen.",
      "tr": "Başım ağrıyor.",
      "en": "I have a headache.",
-     "es": "Tengo dolor de cabeza."
+     "es": "Tengo dolor de cabeza.",
+     "ku": "Serê min diêşe.",
+     "fr": "J'ai mal à la tête.",
+     "it": "Ho mal di testa.",
+     "ar": "لدي صداع."
     },
     {
      "de": "Mir ist schlecht.",
@@ -634,7 +703,11 @@
      "de": "Gute Besserung!",
      "tr": "Geçmiş olsun!",
      "en": "Get well soon!",
-     "es": "¡Que te mejores!"
+     "es": "¡Que te mejores!",
+     "ku": "Zû baş bibî!",
+     "fr": "Bon rétablissement !",
+     "it": "Guarisci presto!",
+     "ar": "أتمنى لك الشفاء العاجل!"
     }
    ],
    "pictures": [
@@ -663,12 +736,14 @@
    "title": {
     "tr": "İş ve kurs",
     "en": "Work and class",
-    "es": "Trabajo y clase"
+    "es": "Trabajo y clase",
+    "ku": "Kar û pol"
    },
    "goal": {
     "tr": "Mesleğini ve çalışma saatlerini anlatır, kursta yardım istersin.",
     "en": "Talk about your job and hours, ask for help in class.",
-    "es": "Habla de tu trabajo y horario, y pide ayuda en clase."
+    "es": "Habla de tu trabajo y horario, y pide ayuda en clase.",
+    "ku": "Derbarê kar û demjimêrên xwe de biaxive û di polê de alîkariyê bixwaze."
    },
    "cover": "unit-a1-09",
    "themes": [
@@ -708,7 +783,11 @@
      "de": "Können Sie das bitte wiederholen?",
      "tr": "Tekrar edebilir misiniz?",
      "en": "Could you repeat that, please?",
-     "es": "¿Puedes repetirlo, por favor?"
+     "es": "¿Puedes repetirlo, por favor?",
+     "ku": "Ji kerema xwe tu dikarî wê dubare bikî?",
+     "fr": "Tu peux répéter ça, s'il te plaît ?",
+     "it": "Può ripetere, per favore?",
+     "ar": "هل يمكنك تكرار ذلك من فضلك؟"
     },
     {
      "de": "Ich habe heute frei.",
@@ -747,12 +826,14 @@
    "title": {
     "tr": "Boş zaman",
     "en": "Free time",
-    "es": "Tiempo libre"
+    "es": "Tiempo libre",
+    "ku": "Demên vala"
    },
    "goal": {
     "tr": "Hobilerini anlatır, hafta sonu için plan yaparsın.",
     "en": "Talk about hobbies and make weekend plans.",
-    "es": "Habla de tus aficiones y haz planes para el fin de semana."
+    "es": "Habla de tus aficiones y haz planes para el fin de semana.",
+    "ku": "Derbarê hobiyên xwe de biaxive û planên dawiya hefteyê çêbike."
    },
    "cover": "unit-a1-10",
    "themes": [
@@ -789,13 +870,21 @@
      "de": "Ich lese gern Bücher.",
      "tr": "Kitap okumayı severim.",
      "en": "I like reading books.",
-     "es": "Me gusta leer libros."
+     "es": "Me gusta leer libros.",
+     "ku": "Ez ji xwendina pirtûkan hez dikim.",
+     "fr": "J'aime lire des livres.",
+     "it": "Mi piace leggere libri.",
+     "ar": "أحب قراءة الكتب."
     },
     {
      "de": "Wollen wir ins Kino gehen?",
      "tr": "Sinemaya gidelim mi?",
      "en": "Shall we go to the cinema?",
-     "es": "¿Vamos al cine?"
+     "es": "¿Vamos al cine?",
+     "ku": "Em biçin sînemayê?",
+     "fr": "On va au cinéma ?",
+     "it": "Andiamo al cinema?",
+     "ar": "هل نذهب إلى السينما؟"
     },
     {
      "de": "Gestern habe ich einen Film gesehen.",
@@ -834,12 +923,14 @@
    "title": {
     "tr": "Yolculuk",
     "en": "Travelling",
-    "es": "Viajes"
+    "es": "Viajes",
+    "ku": "Rêwîtî"
    },
    "goal": {
     "tr": "Bilet alır, otel ayırtır, yolculuğunu anlatırsın.",
     "en": "Buy a ticket, book a hotel, talk about your trip.",
-    "es": "Compra un billete, reserva un hotel y habla de tu viaje."
+    "es": "Compra un billete, reserva un hotel y habla de tu viaje.",
+    "ku": "Bilêtê bikire, otêlekê rezerv bike û derbarê rêwîtiya xwe de biaxive."
    },
    "cover": "unit-a1-11",
    "themes": [
@@ -915,12 +1006,14 @@
    "title": {
     "tr": "Resmî işler",
     "en": "Offices and services",
-    "es": "Oficinas y servicios"
+    "es": "Oficinas y servicios",
+    "ku": "Ofîs û karûbar"
    },
    "goal": {
     "tr": "Belediyede, bankada ve postanede işini halledersin.",
     "en": "Get things done at the town hall, the bank and the post office.",
-    "es": "Haz gestiones en el ayuntamiento, el banco y la oficina de correos."
+    "es": "Haz gestiones en el ayuntamiento, el banco y la oficina de correos.",
+    "ku": "Li şaredariyê, bankê û posteyê karên xwe bike."
    },
    "cover": "unit-a1-12",
    "themes": [
@@ -999,12 +1092,14 @@
    "title": {
     "tr": "Günlük hayat",
     "en": "Everyday life",
-    "es": "La vida cotidiana"
+    "es": "La vida cotidiana",
+    "ku": "Jiyana rojane"
    },
    "goal": {
     "tr": "Dün ne yaptığını Perfekt ile anlatır, günlük işlerini sıralarsın.",
     "en": "Tell what you did yesterday in the Perfekt and describe your routine.",
-    "es": "Cuenta qué hiciste ayer en Perfekt y describe tu rutina."
+    "es": "Cuenta qué hiciste ayer en Perfekt y describe tu rutina.",
+    "ku": "Bibêje duh çi kiriye bi Perfekt û rutina xwe rave bike."
    },
    "cover": "unit-a2-01",
    "themes": [],
@@ -1036,7 +1131,11 @@
      "de": "Ich habe den ganzen Tag gearbeitet.",
      "tr": "Bütün gün çalıştım.",
      "en": "I worked all day.",
-     "es": "Trabajé todo el día."
+     "es": "Trabajé todo el día.",
+     "ku": "Ez tevahiya rojê dixebitîm.",
+     "fr": "J'ai travaillé toute la journée.",
+     "it": "Ho lavorato tutto il giorno.",
+     "ar": "عملت طوال اليوم."
     },
     {
      "de": "Am Abend räume ich die Küche auf.",
@@ -1078,35 +1177,52 @@
      "art": "die",
      "tr": "zil",
      "en": "doorbell",
-     "es": "timbre"
+     "es": "timbre",
+     "ku": "zengilê derî",
+     "fr": "sonnette",
+     "it": "campanello",
+     "ar": "جرس الباب"
     },
     {
      "de": "Enkel",
      "art": "der",
      "tr": "erkek torun",
      "en": "grandson",
-     "es": "nieto"
+     "es": "nieto",
+     "ku": "nevî (kur)",
+     "fr": "petit-fils",
+     "it": "nipote (maschio, del nonno)",
+     "ar": "حفيد"
     },
     {
      "de": "Rückseite",
      "art": "die",
      "tr": "arka yüz",
      "en": "back",
-     "es": "espalda"
+     "es": "espalda",
+     "ku": "pişt",
+     "fr": "dos",
+     "it": "schiena",
+     "ar": "الظهر"
     },
     {
      "de": "Fahrkarte",
      "art": "die",
      "tr": "bilet",
      "en": "ticket",
-     "es": "billete; entrada"
+     "es": "billete; entrada",
+     "ku": "bilêt",
+     "fr": "billet",
+     "it": "biglietto",
+     "ar": "تذكرة"
     },
     {
      "de": "Zeichnung",
      "art": "die",
      "tr": "çizim",
      "en": "drawing",
-     "es": "dibujo"
+     "es": "dibujo",
+     "ku": "xêzkirin"
     },
     {
      "de": "Gemüsestand",
@@ -1125,7 +1241,10 @@
      "art": "die",
      "tr": "gezdirme kayışı",
      "en": "lead, leash",
-     "es": "correa"
+     "es": "correa",
+     "ku": "qeyiş, tasma",
+     "fr": "laisse",
+     "it": "guinzaglio"
     },
     {
      "de": "Anhänger",
@@ -1172,12 +1291,14 @@
    "title": {
     "tr": "Evde ve komşularla",
     "en": "At home and with neighbours",
-    "es": "En casa y con los vecinos"
+    "es": "En casa y con los vecinos",
+    "ku": "Li malê û bi cîranan re"
    },
    "goal": {
     "tr": "Eşyaların nerede durduğunu ve nereye koyduğunu söyler, komşunla konuşursun.",
     "en": "Say where things are and where you put them, talk to your neighbours.",
-    "es": "Di dónde están las cosas y dónde las pones; habla con tus vecinos."
+    "es": "Di dónde están las cosas y dónde las pones; habla con tus vecinos.",
+    "ku": "Bibêje tişt li ku ne û tu wan li ku datînî, bi cîranên xwe re biaxive."
    },
    "cover": "unit-a2-02",
    "themes": [],
@@ -1232,7 +1353,8 @@
      "art": "der",
      "tr": "koli",
      "en": "cardboard box",
-     "es": "caja de cartón"
+     "es": "caja de cartón",
+     "ku": "qutiya kartonî"
     },
     {
      "de": "Band",
@@ -1245,21 +1367,30 @@
      "art": "der",
      "tr": "apartman görevlisi",
      "en": "caretaker",
-     "es": "portero"
+     "es": "portero",
+     "ku": "qeyûm",
+     "fr": "gardien d'immeuble",
+     "it": "custode",
+     "ar": "حارس المبنى"
     },
     {
      "de": "Treppenhaus",
      "art": "das",
      "tr": "merdiven boşluğu",
      "en": "stairwell",
-     "es": "hueco de la escalera"
+     "es": "hueco de la escalera",
+     "ku": "valahiya derenceyê"
     },
     {
      "de": "Kinderwagen",
      "art": "der",
      "tr": "bebek arabası",
      "en": "pram",
-     "es": "cochecito de bebé"
+     "es": "cochecito de bebé",
+     "ku": "erebeya pitikan",
+     "fr": "poussette",
+     "it": "passeggino",
+     "ar": "عربة أطفال"
     },
     {
      "de": "Bank",
@@ -1272,7 +1403,8 @@
      "art": "der",
      "tr": "koridor",
      "en": "hallway",
-     "es": "pasillo"
+     "es": "pasillo",
+     "ku": "korîdora avahiyê"
     },
     {
      "de": "Hausverwaltung",
@@ -1291,14 +1423,20 @@
      "art": "der",
      "tr": "avlu",
      "en": "courtyard",
-     "es": "patio"
+     "es": "patio",
+     "ku": "hewş",
+     "fr": "cour intérieure",
+     "it": "cortile",
+     "ar": "فناء"
     },
     {
      "de": "Flohmarkt",
      "art": "der",
      "tr": "bit pazarı",
      "en": "flea market",
-     "es": "mercadillo"
+     "es": "mercadillo",
+     "ku": "bazara tiştên kevn",
+     "fr": "marché aux puces"
     },
     {
      "de": "Haken",
@@ -1315,7 +1453,11 @@
      "de": "eng",
      "tr": "dar",
      "en": "narrow, tight",
-     "es": "estrecho/a; ajustado/a"
+     "es": "estrecho/a; ajustado/a",
+     "ku": "teng",
+     "fr": "étroit(e) ; serré(e)",
+     "it": "stretto",
+     "ar": "ضيق"
     },
     {
      "de": "aus Spaß",
@@ -1341,12 +1483,14 @@
    "title": {
     "tr": "Alışveriş ve değişim",
     "en": "Shopping and returns",
-    "es": "Compras y devoluciones"
+    "es": "Compras y devoluciones",
+    "ku": "Kirîn û vegerandin"
    },
    "goal": {
     "tr": "Ne istediğini sıfatlarla anlatır, bir ürünü değiştirir ya da iade edersin.",
     "en": "Describe what you want with adjectives, exchange or return a product.",
-    "es": "Describe lo que quieres con adjetivos e intercambia o devuelve un producto."
+    "es": "Describe lo que quieres con adjetivos e intercambia o devuelve un producto.",
+    "ku": "Bi rengdêran bibêje tu çi dixwazî, hilberekê biguherîne an vegerîne."
    },
    "cover": "unit-a2-03",
    "themes": [],
@@ -1407,7 +1551,10 @@
      "art": "der",
      "tr": "kapak",
      "en": "lid",
-     "es": "tapa"
+     "es": "tapa",
+     "ku": "derpêş",
+     "fr": "couvercle",
+     "it": "coperchio"
     },
     {
      "de": "Lineal",
@@ -1420,14 +1567,22 @@
      "art": "die",
      "tr": "çilek",
      "en": "strawberry",
-     "es": "fresa"
+     "es": "fresa",
+     "ku": "tû",
+     "fr": "fraise",
+     "it": "fragola",
+     "ar": "فراولة"
     },
     {
      "de": "Stern",
      "art": "der",
      "tr": "yıldız",
      "en": "star",
-     "es": "estrella"
+     "es": "estrella",
+     "ku": "stêrk",
+     "fr": "étoile",
+     "it": "stella",
+     "ar": "نجم"
     },
     {
      "de": "Waage",
@@ -1440,28 +1595,42 @@
      "art": "die",
      "tr": "gösterge",
      "en": "display",
-     "es": "pantalla"
+     "es": "pantalla",
+     "ku": "dîmender",
+     "fr": "écran"
     },
     {
      "de": "Birne",
      "art": "die",
      "tr": "armut",
      "en": "pear",
-     "es": "pera"
+     "es": "pera",
+     "ku": "hirmî",
+     "fr": "poire",
+     "it": "pera",
+     "ar": "كمثرى"
     },
     {
      "de": "Kilo",
      "art": "das",
      "tr": "kilo",
      "en": "kilo",
-     "es": "kilo"
+     "es": "kilo",
+     "ku": "kîlo",
+     "fr": "kilo",
+     "it": "chilo",
+     "ar": "كيلوغرام"
     },
     {
      "de": "Vorhang",
      "art": "der",
      "tr": "perde",
      "en": "curtain",
-     "es": "cortina"
+     "es": "cortina",
+     "ku": "perde",
+     "fr": "rideau",
+     "it": "tenda",
+     "ar": "ستارة"
     },
     {
      "de": "Verpackung",
@@ -1474,19 +1643,30 @@
      "art": "der",
      "tr": "kumaş",
      "en": "fabric",
-     "es": "tela"
+     "es": "tela",
+     "ku": "qumaş",
+     "fr": "tissu",
+     "it": "tessuto"
     },
     {
      "de": "kostenlos",
      "tr": "ücretsiz",
      "en": "free (of charge)",
-     "es": "gratis"
+     "es": "gratis",
+     "ku": "belaş",
+     "fr": "gratuit(e)",
+     "it": "gratuito",
+     "ar": "مجاني"
     },
     {
      "de": "wiegen",
      "tr": "tartmak",
      "en": "to weigh",
-     "es": "pesar; tener un peso de"
+     "es": "pesar; tener un peso de",
+     "ku": "giranî pîvandin",
+     "fr": "peser",
+     "it": "pesare",
+     "ar": "يزن؛ يكون وزنه"
     },
     {
      "de": "sauer",
@@ -1502,7 +1682,11 @@
      "de": "tauschen",
      "tr": "değiş tokuş etmek",
      "en": "to swap",
-     "es": "intercambiar"
+     "es": "intercambiar",
+     "ku": "guhertin, takas kirin",
+     "fr": "échanger",
+     "it": "scambiare",
+     "ar": "يستبدل (بالمقايضة)"
     },
     {
      "de": "zufällig",
@@ -1518,12 +1702,14 @@
    "title": {
     "tr": "Yolda",
     "en": "On the move",
-    "es": "En movimiento"
+    "es": "En movimiento",
+    "ku": "Di rê de"
    },
    "goal": {
     "tr": "Ulaşımla ilgili sorunu anlatır, yol tarif eder ve sorarsın.",
     "en": "Explain a problem on the way, ask for and give directions.",
-    "es": "Explica un problema durante el trayecto, pregunta y da indicaciones."
+    "es": "Explica un problema durante el trayecto, pregunta y da indicaciones.",
+    "ku": "Pirsgirêkek di rê de rave bike, rê bipirse û rê nîşan bide."
    },
    "cover": "unit-a2-04",
    "themes": [],
@@ -1565,7 +1751,11 @@
      "de": "Ich habe meinen Anschluss verpasst.",
      "tr": "Aktarmamı kaçırdım.",
      "en": "I missed my connection.",
-     "es": "Perdí el transbordo."
+     "es": "Perdí el transbordo.",
+     "ku": "Min girêdana xwe winda kir.",
+     "fr": "J'ai raté ma correspondance.",
+     "it": "Ho perso la coincidenza.",
+     "ar": "فاتتني وصلة القطار."
     },
     {
      "de": "Fahr bitte langsamer!",
@@ -1579,21 +1769,31 @@
      "art": "der",
      "tr": "pil",
      "en": "battery",
-     "es": "batería"
+     "es": "batería",
+     "ku": "baterî",
+     "fr": "batterie",
+     "it": "batteria",
+     "ar": "بطارية"
     },
     {
      "de": "Anzeige",
      "art": "die",
      "tr": "gösterge",
      "en": "display",
-     "es": "pantalla"
+     "es": "pantalla",
+     "ku": "dîmender",
+     "fr": "écran"
     },
     {
      "de": "Hügel",
      "art": "der",
      "tr": "yokuş",
      "en": "hill",
-     "es": "colina"
+     "es": "colina",
+     "ku": "gir",
+     "fr": "colline",
+     "it": "collina",
+     "ar": "تل"
     },
     {
      "de": "Anbieter",
@@ -1612,21 +1812,30 @@
      "art": "die",
      "tr": "tramvay",
      "en": "tram",
-     "es": "tranvía"
+     "es": "tranvía",
+     "ku": "tramvay",
+     "fr": "tramway",
+     "it": "tram",
+     "ar": "ترام"
     },
     {
      "de": "Handschuh",
      "art": "der",
      "tr": "eldiven",
      "en": "glove",
-     "es": "guante"
+     "es": "guante",
+     "ku": "destik",
+     "fr": "gant",
+     "it": "guanto",
+     "ar": "قفاز"
     },
     {
      "de": "Stadtplan",
      "art": "der",
      "tr": "şehir haritası",
      "en": "city map",
-     "es": "plano de la ciudad"
+     "es": "plano de la ciudad",
+     "ku": "nexşeya bajarê"
     },
     {
      "de": "Fundbüro",
@@ -1666,7 +1875,10 @@
      "de": "gesperrt",
      "tr": "geçişe kapalı",
      "en": "closed (road)",
-     "es": "cerrado (carretera)"
+     "es": "cerrado (carretera)",
+     "ku": "girtî (rê)",
+     "fr": "fermé (route)",
+     "it": "chiusa (strada)"
     },
     {
      "de": "schieben",
@@ -1677,13 +1889,21 @@
      "de": "einsammeln",
      "tr": "toplamak",
      "en": "to collect",
-     "es": "coleccionar; reunir"
+     "es": "coleccionar; reunir",
+     "ku": "komkirin",
+     "fr": "collectionner, rassembler",
+     "it": "collezionare",
+     "ar": "يجمع"
     },
     {
      "de": "folgen",
      "tr": "izlemek",
      "en": "to follow",
-     "es": "seguir"
+     "es": "seguir",
+     "ku": "şopandin",
+     "fr": "suivre",
+     "it": "seguire",
+     "ar": "يتبع"
     }
    ]
   },
@@ -1694,12 +1914,14 @@
    "title": {
     "tr": "Sağlık",
     "en": "Health",
-    "es": "Salud"
+    "es": "Salud",
+    "ku": "Tenduristî"
    },
    "goal": {
     "tr": "Nasıl hissettiğini anlatır, doktorun tavsiyelerini anlar ve aktarırsın.",
     "en": "Say how you feel, understand and pass on the doctor's advice.",
-    "es": "Di cómo te sientes y comprende y transmite los consejos del médico."
+    "es": "Di cómo te sientes y comprende y transmite los consejos del médico.",
+    "ku": "Bibêje tu çawa hîs dikî, şîreta bijîşk fêm bike û veguheze."
    },
    "cover": "unit-a2-05",
    "themes": [],
@@ -1726,7 +1948,11 @@
      "de": "Ich fühle mich nicht gut.",
      "tr": "Kendimi iyi hissetmiyorum.",
      "en": "I don't feel well.",
-     "es": "No me encuentro bien."
+     "es": "No me encuentro bien.",
+     "ku": "Ez xwe baş hîs nakim.",
+     "fr": "Je ne me sens pas bien.",
+     "it": "Non mi sento bene.",
+     "ar": "لا أشعر أنني بخير."
     },
     {
      "de": "Sie müssen dreimal am Tag eine Tablette nehmen.",
@@ -1755,14 +1981,22 @@
      "art": "die",
      "tr": "muayene",
      "en": "examination",
-     "es": "revisión médica"
+     "es": "revisión médica",
+     "ku": "muayene",
+     "fr": "examen médical",
+     "it": "visita",
+     "ar": "فحص"
     },
     {
      "de": "Praxis",
      "art": "die",
      "tr": "muayenehane",
      "en": "doctor's practice",
-     "es": "consulta médica"
+     "es": "consulta médica",
+     "ku": "muayenexane",
+     "fr": "cabinet médical",
+     "it": "studio medico",
+     "ar": "عيادة الطبيب"
     },
     {
      "de": "Stelle",
@@ -1775,21 +2009,32 @@
      "art": "der",
      "tr": "ayna",
      "en": "mirror",
-     "es": "espejo"
+     "es": "espejo",
+     "ku": "neyne",
+     "fr": "miroir",
+     "it": "specchio",
+     "ar": "مرآة"
     },
     {
      "de": "Finger",
      "art": "der",
      "tr": "parmak",
      "en": "finger",
-     "es": "dedo"
+     "es": "dedo",
+     "ku": "tilî",
+     "fr": "doigt",
+     "it": "dito",
+     "ar": "إصبع"
     },
     {
      "de": "Brezel",
      "art": "die",
      "tr": "Alman simidi",
      "en": "pretzel",
-     "es": "pretzel"
+     "es": "pretzel",
+     "ku": "pretzel",
+     "fr": "bretzel",
+     "it": "pretzel"
     },
     {
      "de": "Physiotherapie",
@@ -1802,14 +2047,22 @@
      "art": "das",
      "tr": "diz",
      "en": "knee",
-     "es": "rodilla"
+     "es": "rodilla",
+     "ku": "çok",
+     "fr": "genou",
+     "it": "ginocchio",
+     "ar": "ركبة"
     },
     {
      "de": "Empfang",
      "art": "der",
      "tr": "resepsiyon",
      "en": "reception",
-     "es": "recepción"
+     "es": "recepción",
+     "ku": "resepsiyon",
+     "fr": "réception",
+     "it": "reception",
+     "ar": "الاستقبال"
     },
     {
      "de": "Gehstock",
@@ -1822,7 +2075,8 @@
      "art": "der",
      "tr": "adım",
      "en": "step",
-     "es": "paso"
+     "es": "paso",
+     "ku": "gav"
     },
     {
      "de": "Pfütze",
@@ -1859,7 +2113,10 @@
      "de": "kaum",
      "tr": "güçlükle, neredeyse hiç",
      "en": "hardly",
-     "es": "apenas"
+     "es": "apenas",
+     "ku": "hema hema qet",
+     "fr": "à peine",
+     "it": "quasi per niente"
     }
    ]
   },
@@ -1870,12 +2127,14 @@
    "title": {
     "tr": "İş hayatı",
     "en": "Working life",
-    "es": "La vida laboral"
+    "es": "La vida laboral",
+    "ku": "Jiyana karê"
    },
    "goal": {
     "tr": "İşini ve nedenlerini anlatır, iş yerinde rica ve öneride bulunursun.",
     "en": "Talk about your job and give reasons, make requests and suggestions at work.",
-    "es": "Habla de tu trabajo y da razones; haz peticiones y sugerencias en el trabajo."
+    "es": "Habla de tu trabajo y da razones; haz peticiones y sugerencias en el trabajo.",
+    "ku": "Derbarê karê xwe de biaxive û sedem bide, li karê daxwaz û pêşniyaran bike."
    },
    "cover": "unit-a2-06",
    "themes": [],
@@ -1930,7 +2189,11 @@
      "art": "die",
      "tr": "toplantı",
      "en": "meeting",
-     "es": "reunión"
+     "es": "reunión",
+     "ku": "civîn",
+     "fr": "réunion",
+     "it": "riunione",
+     "ar": "اجتماع"
     },
     {
      "de": "Geräusch",
@@ -1943,14 +2206,19 @@
      "art": "der",
      "tr": "buzdolabı",
      "en": "fridge",
-     "es": "nevera"
+     "es": "nevera",
+     "ku": "sarinc",
+     "fr": "réfrigérateur",
+     "it": "frigorifero",
+     "ar": "ثلاجة"
     },
     {
      "de": "Kabel",
      "art": "das",
      "tr": "kablo",
      "en": "cable",
-     "es": "cable"
+     "es": "cable",
+     "ku": "kablo"
     },
     {
      "de": "Zutat",
@@ -1975,7 +2243,11 @@
      "art": "der",
      "tr": "anahtar",
      "en": "key",
-     "es": "llave"
+     "es": "llave",
+     "ku": "mifte",
+     "fr": "clé",
+     "it": "chiave",
+     "ar": "مفتاح"
     },
     {
      "de": "Reinigungskraft",
@@ -1988,7 +2260,11 @@
      "art": "der",
      "tr": "çalışma masası",
      "en": "desk",
-     "es": "escritorio"
+     "es": "escritorio",
+     "ku": "maseya xebatê",
+     "fr": "bureau (meuble)",
+     "it": "scrivania",
+     "ar": "مكتب"
     },
     {
      "de": "Gießkanne",
@@ -2001,7 +2277,11 @@
      "art": "der",
      "tr": "saksı",
      "en": "pot",
-     "es": "olla"
+     "es": "olla",
+     "ku": "pot",
+     "fr": "casserole",
+     "it": "pentola",
+     "ar": "قدر"
     },
     {
      "de": "anschließen",
@@ -2017,7 +2297,11 @@
      "de": "trocken",
      "tr": "kuru",
      "en": "dry",
-     "es": "seco/a"
+     "es": "seco/a",
+     "ku": "hişk",
+     "fr": "sec/sèche",
+     "it": "asciutto",
+     "ar": "جاف"
     },
     {
      "de": "gießen",
@@ -2028,7 +2312,11 @@
      "de": "abholen",
      "tr": "gidip almak",
      "en": "to pick up",
-     "es": "recoger; pasar a buscar"
+     "es": "recoger; pasar a buscar",
+     "ku": "wergirtin",
+     "fr": "venir chercher",
+     "it": "venire a prendere",
+     "ar": "يصطحب"
     },
     {
      "de": "eintragen",
@@ -2044,12 +2332,14 @@
    "title": {
     "tr": "Boş zaman ve anılar",
     "en": "Free time and memories",
-    "es": "Tiempo libre y recuerdos"
+    "es": "Tiempo libre y recuerdos",
+    "ku": "Demên vala û bîranîn"
    },
    "goal": {
     "tr": "Hobilerini ve çocukluğunu anlatır, wenn ve als ile ne zaman olduğunu söylersin.",
     "en": "Talk about hobbies and your childhood, say when with wenn and als.",
-    "es": "Habla de tus aficiones y tu infancia; indica cuándo con wenn y als."
+    "es": "Habla de tus aficiones y tu infancia; indica cuándo con wenn y als.",
+    "ku": "Derbarê hobiyan û zarokatiya xwe de biaxive, bi wenn û als bibêje kengî."
    },
    "cover": "unit-a2-07",
    "themes": [],
@@ -2110,28 +2400,41 @@
      "art": "das",
      "tr": "çatı",
      "en": "roof",
-     "es": "tejado"
+     "es": "tejado",
+     "ku": "banê xanî",
+     "fr": "toit",
+     "it": "tetto",
+     "ar": "سقف"
     },
     {
      "de": "Taschentuch",
      "art": "das",
      "tr": "mendil",
      "en": "tissue, handkerchief",
-     "es": "pañuelo"
+     "es": "pañuelo",
+     "ku": "destmal",
+     "fr": "mouchoir",
+     "it": "fazzoletto"
     },
     {
      "de": "Bestätigung",
      "art": "die",
      "tr": "onay",
      "en": "confirmation",
-     "es": "confirmación"
+     "es": "confirmación",
+     "ku": "piştrastkirin",
+     "fr": "confirmation"
     },
     {
      "de": "Regenschirm",
      "art": "der",
      "tr": "şemsiye",
      "en": "umbrella",
-     "es": "paraguas"
+     "es": "paraguas",
+     "ku": "sêwî",
+     "fr": "parapluie",
+     "it": "ombrello",
+     "ar": "مظلة"
     },
     {
      "de": "Drachen",
@@ -2144,7 +2447,11 @@
      "art": "die",
      "tr": "çayırlık",
      "en": "meadow",
-     "es": "prado"
+     "es": "prado",
+     "ku": "çêmen",
+     "fr": "prairie",
+     "it": "prato",
+     "ar": "مرج"
     },
     {
      "de": "Schnur",
@@ -2157,7 +2464,8 @@
      "art": "der",
      "tr": "sopa",
      "en": "stick",
-     "es": "pegar"
+     "es": "pegar",
+     "ku": "dineqişînin"
     },
     {
      "de": "Bogen",
@@ -2170,7 +2478,8 @@
      "art": "das",
      "tr": "yapışkan bant",
      "en": "adhesive tape",
-     "es": "cinta adhesiva"
+     "es": "cinta adhesiva",
+     "ku": "bandê yapîşîn"
     },
     {
      "de": "Trikot",
@@ -2192,7 +2501,11 @@
      "de": "ausleihen",
      "tr": "ödünç almak",
      "en": "to borrow",
-     "es": "pedir prestado"
+     "es": "pedir prestado",
+     "ku": "deyn girtin",
+     "fr": "emprunter",
+     "it": "prendere in prestito",
+     "ar": "يستعير"
     },
     {
      "de": "proben",
@@ -2218,12 +2531,14 @@
    "title": {
     "tr": "Dijital hayat",
     "en": "Digital life",
-    "es": "La vida digital"
+    "es": "La vida digital",
+    "ku": "Jiyana dîjîtal"
    },
    "goal": {
     "tr": "Telefon ve internetle ilgili sorunları anlatır, bir şeyi nasıl yapacağını sorarsın.",
     "en": "Describe problems with your phone and the internet, ask how to do something.",
-    "es": "Describe problemas con el móvil e Internet y pregunta cómo hacer algo."
+    "es": "Describe problemas con el móvil e Internet y pregunta cómo hacer algo.",
+    "ku": "Pirsgirêkên bi telefon û înternetê re rave bike û bipirse tiştek çawa tê kirin."
    },
    "cover": "unit-a2-08",
    "themes": [],
@@ -2278,21 +2593,32 @@
      "art": "die",
      "tr": "resepsiyon",
      "en": "reception",
-     "es": "recepción"
+     "es": "recepción",
+     "ku": "resepsiyon",
+     "fr": "réception",
+     "it": "reception",
+     "ar": "الاستقبال"
     },
     {
      "de": "Handtuch",
      "art": "das",
      "tr": "havlu",
      "en": "towel",
-     "es": "toalla"
+     "es": "toalla",
+     "ku": "destmal",
+     "fr": "serviette",
+     "it": "asciugamano",
+     "ar": "منشفة"
     },
     {
      "de": "Nachricht",
      "art": "die",
      "tr": "mesaj",
      "en": "message",
-     "es": "mensaje; noticia"
+     "es": "mensaje; noticia",
+     "ku": "peyam",
+     "fr": "message",
+     "it": "messaggio"
     },
     {
      "de": "Taste",
@@ -2305,49 +2631,70 @@
      "art": "der",
      "tr": "ekran",
      "en": "screen",
-     "es": "pantalla"
+     "es": "pantalla",
+     "ku": "ekran",
+     "fr": "écran",
+     "it": "schermo",
+     "ar": "شاشة"
     },
     {
      "de": "Fehler",
      "art": "der",
      "tr": "hata",
      "en": "mistake",
-     "es": "error"
+     "es": "error",
+     "ku": "xeletî",
+     "fr": "erreur",
+     "it": "errore",
+     "ar": "خطأ"
     },
     {
      "de": "Schritt",
      "art": "der",
      "tr": "adım",
      "en": "step",
-     "es": "paso"
+     "es": "paso",
+     "ku": "gav"
     },
     {
      "de": "Wetter-App",
      "art": "die",
      "tr": "hava durumu uygulaması",
      "en": "weather app",
-     "es": "aplicación del tiempo"
+     "es": "aplicación del tiempo",
+     "ku": "sepana hewayê"
     },
     {
      "de": "Wolke",
      "art": "die",
      "tr": "bulut",
      "en": "cloud",
-     "es": "nube"
+     "es": "nube",
+     "ku": "ewr",
+     "fr": "nuage",
+     "it": "nuvola",
+     "ar": "سحابة"
     },
     {
      "de": "Rand",
      "art": "der",
      "tr": "kenar",
      "en": "edge",
-     "es": "borde"
+     "es": "borde",
+     "ku": "qerax",
+     "fr": "bord ; marge",
+     "it": "margine",
+     "ar": "هامش"
     },
     {
      "de": "Schatten",
      "art": "der",
      "tr": "gölge",
      "en": "shade, shadow",
-     "es": "sombra"
+     "es": "sombra",
+     "ku": "sî, siyê",
+     "fr": "ombre",
+     "it": "ombra"
     },
     {
      "de": "Untertitel",
@@ -2374,13 +2721,21 @@
      "de": "verschieden",
      "tr": "farklı",
      "en": "different",
-     "es": "diferente"
+     "es": "diferente",
+     "ku": "cuda",
+     "fr": "différent",
+     "it": "diverso",
+     "ar": "مختلف"
     },
     {
      "de": "lieber",
      "tr": "tercihen",
      "en": "rather, preferably",
-     "es": "preferiblemente; más bien"
+     "es": "preferiblemente; más bien",
+     "ku": "zêdetir tercîh kirin",
+     "fr": "plutôt ; de préférence",
+     "it": "piuttosto, preferibilmente",
+     "ar": "يفضل، بالأحرى"
     }
    ]
   },
@@ -2391,12 +2746,14 @@
    "title": {
     "tr": "Öğrenmek",
     "en": "Learning",
-    "es": "Aprender"
+    "es": "Aprender",
+    "ku": "Hînbûn"
    },
    "goal": {
     "tr": "Nasıl öğrendiğini ve planlarını anlatır, zu + mastar ile niyetini söylersin.",
     "en": "Talk about how you learn and your plans, say what you intend with zu + infinitive.",
-    "es": "Habla de cómo aprendes y de tus planes; expresa intenciones con zu + infinitivo."
+    "es": "Habla de cómo aprendes y de tus planes; expresa intenciones con zu + infinitivo.",
+    "ku": "Derbarê awayê hînbûna xwe û planên xwe de biaxive û bi zu + Infinitiv bibêje niyeta xwe çi ye."
    },
    "cover": "unit-a2-09",
    "themes": [],
@@ -2456,7 +2813,8 @@
      "art": "die",
      "tr": "durak",
      "en": "stop",
-     "es": "parada"
+     "es": "parada",
+     "ku": "rawestgeh"
     },
     {
      "de": "Kursbuch",
@@ -2469,7 +2827,11 @@
      "art": "die",
      "tr": "köprü",
      "en": "bridge",
-     "es": "puente"
+     "es": "puente",
+     "ku": "pir",
+     "fr": "pont",
+     "it": "ponte",
+     "ar": "جسر"
     },
     {
      "de": "Ersatzverkehr",
@@ -2488,14 +2850,17 @@
      "art": "der",
      "tr": "işe gidiş yolu",
      "en": "commute",
-     "es": "trayecto al trabajo"
+     "es": "trayecto al trabajo",
+     "ku": "rêya her roj a karê",
+     "fr": "trajet domicile-travail"
     },
     {
      "de": "Zeichen",
      "art": "das",
      "tr": "işaret",
      "en": "sign",
-     "es": "señal"
+     "es": "señal",
+     "ku": "nîşan"
     },
     {
      "de": "Armbanduhr",
@@ -2508,7 +2873,11 @@
      "art": "der",
      "tr": "alarm saati",
      "en": "alarm clock",
-     "es": "despertador"
+     "es": "despertador",
+     "ku": "saeta hişyariyê",
+     "fr": "réveil",
+     "it": "sveglia",
+     "ar": "منبّه"
     },
     {
      "de": "Rezept",
@@ -2526,13 +2895,21 @@
      "de": "einsteigen",
      "tr": "binmek",
      "en": "to get on",
-     "es": "subir (a un vehículo)"
+     "es": "subir (a un vehículo)",
+     "ku": "siwar bûn",
+     "fr": "monter",
+     "it": "salire",
+     "ar": "يركب"
     },
     {
      "de": "stehen bleiben",
      "tr": "durmak",
      "en": "to stop",
-     "es": "parar"
+     "es": "parar",
+     "ku": "rawestandin; dev ji tiştekî berdan",
+     "fr": "s'arrêter, arrêter",
+     "it": "smettere",
+     "ar": "يتوقف"
     },
     {
      "de": "kleben",
@@ -2548,13 +2925,21 @@
      "de": "parken",
      "tr": "park etmek",
      "en": "to park",
-     "es": "aparcar"
+     "es": "aparcar",
+     "ku": "park kirin",
+     "fr": "se garer",
+     "it": "parcheggiare",
+     "ar": "يركن"
     },
     {
      "de": "höflich",
      "tr": "kibar",
      "en": "polite",
-     "es": "educado/a; cortés"
+     "es": "educado/a; cortés",
+     "ku": "bi rêz",
+     "fr": "poli(e)",
+     "it": "educato",
+     "ar": "مهذب"
     }
    ]
   },
@@ -2565,12 +2950,14 @@
    "title": {
     "tr": "Çevre",
     "en": "The environment",
-    "es": "El medioambiente"
+    "es": "El medioambiente",
+    "ku": "Jîngeh"
    },
    "goal": {
     "tr": "Çevre için ne yaptığını anlatır, şeyleri karşılaştırırsın.",
     "en": "Say what you do for the environment and compare things.",
-    "es": "Di qué haces por el medioambiente y compara cosas."
+    "es": "Di qué haces por el medioambiente y compara cosas.",
+    "ku": "Bibêje tu ji bo jîngehê çi dikî û tiştan li hev berawird bike."
    },
    "cover": "unit-a2-10",
    "themes": [],
@@ -2642,7 +3029,11 @@
      "art": "der",
      "tr": "kova",
      "en": "bucket",
-     "es": "cubo"
+     "es": "cubo",
+     "ku": "kovan",
+     "fr": "seau",
+     "it": "secchio",
+     "ar": "دلو"
     },
     {
      "de": "Regenrinne",
@@ -2673,7 +3064,11 @@
      "art": "die",
      "tr": "mum",
      "en": "candle",
-     "es": "vela"
+     "es": "vela",
+     "ku": "mûm",
+     "fr": "bougie",
+     "it": "candela",
+     "ar": "شمعة"
     },
     {
      "de": "Lichterkette",
@@ -2692,7 +3087,8 @@
      "art": "die",
      "tr": "vida",
      "en": "screw",
-     "es": "tornillo"
+     "es": "tornillo",
+     "ku": "vît"
     },
     {
      "de": "leuchten",
@@ -2723,7 +3119,11 @@
      "de": "zurückkommen",
      "tr": "geri gelmek",
      "en": "to come back",
-     "es": "volver"
+     "es": "volver",
+     "ku": "vegerîn",
+     "fr": "revenir",
+     "it": "tornare",
+     "ar": "يعود"
     }
    ]
   },
@@ -2734,12 +3134,14 @@
    "title": {
     "tr": "Ev ve mahalle",
     "en": "Home and neighbourhood",
-    "es": "Casa y barrio"
+    "es": "Casa y barrio",
+    "ku": "Mal û derdor"
    },
    "goal": {
     "tr": "Evini ve mahalleni ayrıntılı anlatır, komşularla sorunları çözersin.",
     "en": "Describe your home and area in detail, solve problems with neighbours.",
-    "es": "Describe detalladamente tu casa y tu zona; resuelve problemas con los vecinos."
+    "es": "Describe detalladamente tu casa y tu zona; resuelve problemas con los vecinos.",
+    "ku": "Mala xwe û derdora wê bi hûrgulî rave bike, pirsgirêkên bi cîranan re çareser bike."
    },
    "cover": "unit-b1-01",
    "themes": [],
@@ -2803,7 +3205,8 @@
      "art": "die",
      "tr": "karışıklık",
      "en": "mix-up",
-     "es": "confusión"
+     "es": "confusión",
+     "ku": "tevlihevî"
     },
     {
      "de": "Pfütze",
@@ -2822,7 +3225,10 @@
      "art": "die",
      "tr": "kat",
      "en": "floor",
-     "es": "suelo"
+     "es": "suelo",
+     "ku": "erd, zevî",
+     "fr": "sol",
+     "it": "pavimento"
     },
     {
      "de": "Kreide",
@@ -2895,7 +3301,11 @@
      "de": "absagen",
      "tr": "iptal etmek",
      "en": "to cancel",
-     "es": "cancelar"
+     "es": "cancelar",
+     "ku": "betal kirin",
+     "fr": "annuler",
+     "it": "annullare",
+     "ar": "يلغي"
     }
    ]
   },
@@ -2906,12 +3316,14 @@
    "title": {
     "tr": "İş ve kariyer",
     "en": "Work and career",
-    "es": "Trabajo y carrera profesional"
+    "es": "Trabajo y carrera profesional",
+    "ku": "Kar û pîşe"
    },
    "goal": {
     "tr": "İş isteklerini nazikçe söyler, toplantıda soru sorar, görüş bildirirsin.",
     "en": "Make polite requests at work, ask questions in meetings, give your opinion.",
-    "es": "Haz peticiones amables en el trabajo, pregunta en reuniones y expresa tu opinión."
+    "es": "Haz peticiones amables en el trabajo, pregunta en reuniones y expresa tu opinión.",
+    "ku": "Di kar de bi rêz daxwazan bike, di civînan de pirsan bipirse û raya xwe bibêje."
    },
    "cover": "unit-b1-02",
    "themes": [],
@@ -2978,14 +3390,20 @@
      "art": "die",
      "tr": "sürüm",
      "en": "version",
-     "es": "versión"
+     "es": "versión",
+     "ku": "guherto",
+     "fr": "version"
     },
     {
      "de": "Bestellung",
      "art": "die",
      "tr": "sipariş",
      "en": "order",
-     "es": "orden"
+     "es": "orden",
+     "ku": "rêkûpêkî",
+     "fr": "ordre ; rangement",
+     "it": "ordine",
+     "ar": "نظام"
     },
     {
      "de": "Abschlussfeier",
@@ -3004,7 +3422,9 @@
      "art": "der",
      "tr": "buket",
      "en": "bouquet",
-     "es": "ramo"
+     "es": "ramo",
+     "ku": "guldeste",
+     "fr": "bouquet"
     },
     {
      "de": "Spalte",
@@ -3017,14 +3437,20 @@
      "art": "die",
      "tr": "çamaşırhane",
      "en": "laundry",
-     "es": "ropa para lavar; colada"
+     "es": "ropa para lavar; colada",
+     "ku": "cilên şuştinê",
+     "fr": "linge",
+     "it": "bucato",
+     "ar": "غسيل الملابس"
     },
     {
      "de": "Nachtschicht",
      "art": "die",
      "tr": "gece vardiyası",
      "en": "night shift",
-     "es": "turno de noche"
+     "es": "turno de noche",
+     "ku": "şifta şevê",
+     "fr": "équipe de nuit"
     },
     {
      "de": "Warnung",
@@ -3077,12 +3503,14 @@
    "title": {
     "tr": "Aile ve geçmiş",
     "en": "Family and the past",
-    "es": "La familia y el pasado"
+    "es": "La familia y el pasado",
+    "ku": "Malbat û rabirdû"
    },
    "goal": {
     "tr": "Aileni ve geçmişte olanları sırayla anlatırsın.",
     "en": "Talk about your family and tell past events in order.",
-    "es": "Habla de tu familia y cuenta en orden acontecimientos pasados."
+    "es": "Habla de tu familia y cuenta en orden acontecimientos pasados.",
+    "ku": "Derbarê malbata xwe de biaxive û bûyerên borî bi rêzê vegotine."
    },
    "cover": "unit-b1-03",
    "themes": [],
@@ -3148,21 +3576,30 @@
      "art": "das",
      "tr": "nakit",
      "en": "cash",
-     "es": "en efectivo"
+     "es": "en efectivo",
+     "ku": "pereyê pere",
+     "fr": "espèces",
+     "it": "contanti",
+     "ar": "نقدًا"
     },
     {
      "de": "Betrag",
      "art": "der",
      "tr": "tutar",
      "en": "amount",
-     "es": "importe"
+     "es": "importe",
+     "ku": "mîqdar",
+     "fr": "montant",
+     "it": "importo",
+     "ar": "المبلغ"
     },
     {
      "de": "Rollator",
      "art": "der",
      "tr": "tekerlekli yürüteç",
      "en": "walker",
-     "es": "caminante"
+     "es": "caminante",
+     "ku": "meşvan"
     },
     {
      "de": "Aufnahme",
@@ -3175,7 +3612,11 @@
      "art": "die",
      "tr": "dosya",
      "en": "file",
-     "es": "archivo"
+     "es": "archivo",
+     "ku": "pel (kompîtur)",
+     "fr": "fichier",
+     "it": "file",
+     "ar": "ملف"
     },
     {
      "de": "Zustimmung",
@@ -3200,14 +3641,22 @@
      "art": "der",
      "tr": "bebek arabası",
      "en": "pram",
-     "es": "cochecito de bebé"
+     "es": "cochecito de bebé",
+     "ku": "erebeya pitikan",
+     "fr": "poussette",
+     "it": "passeggino",
+     "ar": "عربة أطفال"
     },
     {
      "de": "Bahnsteig",
      "art": "der",
      "tr": "peron",
      "en": "platform",
-     "es": "andén"
+     "es": "andén",
+     "ku": "peron",
+     "fr": "quai",
+     "it": "binario",
+     "ar": "رصيف"
     },
     {
      "de": "freiwillig",
@@ -3228,7 +3677,11 @@
      "de": "versprechen",
      "tr": "söz vermek",
      "en": "to promise",
-     "es": "prometer"
+     "es": "prometer",
+     "ku": "soz dan",
+     "fr": "promettre",
+     "it": "promettere",
+     "ar": "يعد"
     },
     {
      "de": "erledigt",
@@ -3239,7 +3692,11 @@
      "de": "enttäuscht",
      "tr": "hayal kırıklığına uğramış",
      "en": "disappointed",
-     "es": "decepcionado/a"
+     "es": "decepcionado/a",
+     "ku": "hêvîşikestî",
+     "fr": "déçu(e)",
+     "it": "deluso",
+     "ar": "محبط"
     }
    ]
   },
@@ -3250,12 +3707,14 @@
    "title": {
     "tr": "Alışveriş ve tüketim",
     "en": "Shopping and consumption",
-    "es": "Compras y consumo"
+    "es": "Compras y consumo",
+    "ku": "Kirîn û xerckirin"
    },
    "goal": {
     "tr": "Ürünleri karşılaştırır, şikâyet eder, tüketim üzerine görüş bildirirsin.",
     "en": "Compare products, complain, discuss consumption.",
-    "es": "Compara productos, quéjate y habla sobre el consumo."
+    "es": "Compara productos, quéjate y habla sobre el consumo.",
+    "ku": "Berhem û hilberan li hev berawird bike, gilî bike û derbarê xerckirinê de biaxive."
    },
    "cover": "unit-b1-04",
    "themes": [],
@@ -3320,7 +3779,11 @@
      "art": "die",
      "tr": "rehberli gezi",
      "en": "guided tour",
-     "es": "visita guiada"
+     "es": "visita guiada",
+     "ku": "gerîna bi rêber",
+     "fr": "visite guidée",
+     "it": "visita guidata",
+     "ar": "جولة بصحبة مرشد"
     },
     {
      "de": "Kragen",
@@ -3333,7 +3796,8 @@
      "art": "die",
      "tr": "iade",
      "en": "return",
-     "es": "devolución"
+     "es": "devolución",
+     "ku": "veger"
     },
     {
      "de": "Lesegerät",
@@ -3346,35 +3810,47 @@
      "art": "das",
      "tr": "etiket",
      "en": "label",
-     "es": "etiqueta"
+     "es": "etiqueta",
+     "ku": "etiket",
+     "fr": "étiquette"
     },
     {
      "de": "Frist",
      "art": "die",
      "tr": "son tarih",
      "en": "deadline",
-     "es": "fecha límite"
+     "es": "fecha límite",
+     "ku": "demê dawî"
     },
     {
      "de": "Postleitzahl",
      "art": "die",
      "tr": "posta kodu",
      "en": "postcode",
-     "es": "código postal"
+     "es": "código postal",
+     "ku": "koda postê",
+     "fr": "code postal",
+     "it": "CAP",
+     "ar": "الرمز البريدي"
     },
     {
      "de": "Bestätigung",
      "art": "die",
      "tr": "onay",
      "en": "confirmation",
-     "es": "confirmación"
+     "es": "confirmación",
+     "ku": "piştrastkirin",
+     "fr": "confirmation"
     },
     {
      "de": "Wochenmarkt",
      "art": "der",
      "tr": "semt pazarı",
      "en": "weekly market",
-     "es": "mercado semanal"
+     "es": "mercado semanal",
+     "ku": "bazara hefteyî",
+     "fr": "marché hebdomadaire",
+     "it": "mercato settimanale"
     },
     {
      "de": "Sorte",
@@ -3391,7 +3867,8 @@
      "de": "vollständig",
      "tr": "eksiksiz",
      "en": "complete",
-     "es": "completo/a"
+     "es": "completo/a",
+     "ku": "temam"
     },
     {
      "de": "verhelfen",
@@ -3402,7 +3879,11 @@
      "de": "anprobieren",
      "tr": "denemek",
      "en": "to try on",
-     "es": "probarse (ropa)"
+     "es": "probarse (ropa)",
+     "ku": "li xwe kirin",
+     "fr": "essayer (un vêtement)",
+     "it": "provare (un vestito)",
+     "ar": "يجرب (ملابس)"
     },
     {
      "de": "sortieren",
@@ -3418,12 +3899,14 @@
    "title": {
     "tr": "Sağlık ve iyi yaşam",
     "en": "Health and well-being",
-    "es": "Salud y bienestar"
+    "es": "Salud y bienestar",
+    "ku": "Tenduristî û başbûn"
    },
    "goal": {
     "tr": "Şikâyetlerini ayrıntılı anlatır, tavsiye verir ve alırsın.",
     "en": "Describe symptoms in detail, give and take advice.",
-    "es": "Describe los síntomas en detalle y da y recibe consejos."
+    "es": "Describe los síntomas en detalle y da y recibe consejos.",
+    "ku": "Nîşanên nexweşiyê bi hûrgulî rave bike û şîretan bide û bistîne."
    },
    "cover": "unit-b1-05",
    "themes": [],
@@ -3488,7 +3971,9 @@
      "art": "der",
      "tr": "çıktı",
      "en": "printout",
-     "es": "copia impresa"
+     "es": "copia impresa",
+     "ku": "çap",
+     "fr": "impression"
     },
     {
      "de": "Physiotherapeutin",
@@ -3501,7 +3986,8 @@
      "art": "die",
      "tr": "güzergâh",
      "en": "route",
-     "es": "ruta"
+     "es": "ruta",
+     "ku": "rê"
     },
     {
      "de": "Steigung",
@@ -3532,7 +4018,11 @@
      "art": "das",
      "tr": "bekleme odası",
      "en": "waiting room",
-     "es": "sala de espera"
+     "es": "sala de espera",
+     "ku": "odeya bendewarî",
+     "fr": "salle d'attente",
+     "it": "sala d'attesa",
+     "ar": "غرفة الانتظار"
     },
     {
      "de": "Werkstatt",
@@ -3545,7 +4035,11 @@
      "art": "die",
      "tr": "kenar",
      "en": "edge",
-     "es": "borde"
+     "es": "borde",
+     "ku": "qerax",
+     "fr": "bord ; marge",
+     "it": "margine",
+     "ar": "هامش"
     },
     {
      "de": "durcheinanderbringen",
@@ -3571,7 +4065,10 @@
      "de": "sich fürchten",
      "tr": "korkmak",
      "en": "to be afraid",
-     "es": "tener miedo"
+     "es": "tener miedo",
+     "ku": "tirsîn",
+     "fr": "avoir peur",
+     "it": "avere paura"
     },
     {
      "de": "einzeichnen",
@@ -3587,12 +4084,14 @@
    "title": {
     "tr": "Resmî işler ve toplum",
     "en": "Offices and society",
-    "es": "Oficinas y sociedad"
+    "es": "Oficinas y sociedad",
+    "ku": "Ofîs û civak"
    },
    "goal": {
     "tr": "Resmî süreçleri anlar ve anlatır, toplumsal konularda konuşursun.",
     "en": "Understand and explain official procedures, talk about society.",
-    "es": "Comprende y explica trámites oficiales y habla de la sociedad."
+    "es": "Comprende y explica trámites oficiales y habla de la sociedad.",
+    "ku": "Pêvajoyên fermî fêm bike û rave bike, derbarê civakê de biaxive."
    },
    "cover": "unit-b1-06",
    "themes": [],
@@ -3664,14 +4163,22 @@
      "art": "die",
      "tr": "ücret",
      "en": "fee",
-     "es": "tasa; tarifa"
+     "es": "tasa; tarifa",
+     "ku": "xerc",
+     "fr": "frais",
+     "it": "tariffa",
+     "ar": "رسوم، أتعاب"
     },
     {
      "de": "Zeugnis",
      "art": "das",
      "tr": "diploma, belge",
      "en": "certificate",
-     "es": "certificado"
+     "es": "certificado",
+     "ku": "belge",
+     "fr": "certificat",
+     "it": "certificato",
+     "ar": "شهادة"
     },
     {
      "de": "Abholnummer",
@@ -3684,7 +4191,8 @@
      "art": "die",
      "tr": "karışıklık",
      "en": "mix-up",
-     "es": "confusión"
+     "es": "confusión",
+     "ku": "tevlihevî"
     },
     {
      "de": "Ablage",
@@ -3697,7 +4205,9 @@
      "art": "die",
      "tr": "belgeler",
      "en": "documents",
-     "es": "documentos"
+     "es": "documentos",
+     "ku": "belge",
+     "fr": "documents"
     },
     {
      "de": "Mappe",
@@ -3710,14 +4220,19 @@
      "art": "das",
      "tr": "vatandaşlık bürosu",
      "en": "citizens' office",
-     "es": "oficina de atención al ciudadano"
+     "es": "oficina de atención al ciudadano",
+     "ku": "ofîsa welatiyan",
+     "fr": "bureau des citoyens",
+     "it": "ufficio anagrafe",
+     "ar": "مكتب شؤون المواطنين"
     },
     {
      "de": "Automat",
      "art": "der",
      "tr": "otomat",
      "en": "machine",
-     "es": "máquina"
+     "es": "máquina",
+     "ku": "makîne"
     },
     {
      "de": "ablaufen",
@@ -3733,7 +4248,11 @@
      "de": "berichtigen",
      "tr": "düzeltmek",
      "en": "to correct",
-     "es": "corregir"
+     "es": "corregir",
+     "ku": "rastkirin",
+     "fr": "corriger",
+     "it": "correggere",
+     "ar": "يصحح"
     },
     {
      "de": "beglaubigt",
@@ -3759,12 +4278,14 @@
    "title": {
     "tr": "Medya",
     "en": "Media",
-    "es": "Medios de comunicación"
+    "es": "Medios de comunicación",
+    "ku": "Medya"
    },
    "goal": {
     "tr": "Haberleri ve sosyal medyayı tartışır, avantaj ve dezavantaj sayarsın.",
     "en": "Discuss news and social media, list pros and cons.",
-    "es": "Habla de las noticias y las redes sociales, y enumera ventajas y desventajas."
+    "es": "Habla de las noticias y las redes sociales, y enumera ventajas y desventajas.",
+    "ku": "Nûçeyan û medyaya civakî nîqaş bike, aliyên erênî û neyînî rêz bike."
    },
    "cover": "unit-b1-07",
    "themes": [],
@@ -3817,7 +4338,8 @@
      "art": "die",
      "tr": "okul gazetesi",
      "en": "school newspaper",
-     "es": "periódico escolar"
+     "es": "periódico escolar",
+     "ku": "rojnameya dibistanê"
     },
     {
      "de": "Überschrift",
@@ -3830,7 +4352,8 @@
      "art": "die",
      "tr": "yayın ekibi",
      "en": "editorial team",
-     "es": "equipo editorial"
+     "es": "equipo editorial",
+     "ku": "tîma weşanê"
     },
     {
      "de": "Beitrag",
@@ -3861,7 +4384,8 @@
      "art": "der",
      "tr": "arka plan",
      "en": "background",
-     "es": "fondo"
+     "es": "fondo",
+     "ku": "paşxane"
     },
     {
      "de": "Begleittext",
@@ -3874,14 +4398,19 @@
      "art": "die",
      "tr": "gecikme",
      "en": "delay",
-     "es": "retraso"
+     "es": "retraso",
+     "ku": "derengmayîn",
+     "fr": "retard",
+     "it": "ritardo",
+     "ar": "تأخير"
     },
     {
      "de": "Lesesaal",
      "art": "der",
      "tr": "okuma salonu",
      "en": "reading room",
-     "es": "sala de lectura"
+     "es": "sala de lectura",
+     "ku": "odeya xwendinê"
     },
     {
      "de": "Ordner",
@@ -3928,12 +4457,14 @@
    "title": {
     "tr": "Seyahat ve ulaşım",
     "en": "Travel and transport",
-    "es": "Viajes y transporte"
+    "es": "Viajes y transporte",
+    "ku": "Rêwîtî û veguhastin"
    },
    "goal": {
     "tr": "Bir yolculuğu planlar, sorunları anlatır, gelecek planlarını söylersin.",
     "en": "Plan a trip, explain problems, say what you will do.",
-    "es": "Planifica un viaje, explica problemas y di qué harás."
+    "es": "Planifica un viaje, explica problemas y di qué harás.",
+    "ku": "Rêwîtiyekê plan bike, pirsgirêkan rave bike û bibêje tu dê çi bikî."
    },
    "cover": "unit-b1-08",
    "themes": [],
@@ -3999,21 +4530,31 @@
      "art": "die",
      "tr": "aktarma bağlantısı",
      "en": "connection",
-     "es": "conexión; transbordo"
+     "es": "conexión; transbordo",
+     "ku": "têkilî, girêdan",
+     "fr": "correspondance",
+     "it": "coincidenza",
+     "ar": "وصلة، اتصال"
     },
     {
      "de": "Unterkunft",
      "art": "die",
      "tr": "konaklama yeri",
      "en": "accommodation",
-     "es": "alojamiento"
+     "es": "alojamiento",
+     "ku": "cihê mayînê",
+     "fr": "hébergement",
+     "it": "alloggio",
+     "ar": "مكان للإقامة"
     },
     {
      "de": "Bestätigung",
      "art": "die",
      "tr": "onay belgesi",
      "en": "confirmation",
-     "es": "confirmación"
+     "es": "confirmación",
+     "ku": "piştrastkirin",
+     "fr": "confirmation"
     },
     {
      "de": "Ehepaar",
@@ -4032,14 +4573,19 @@
      "art": "der",
      "tr": "damga",
      "en": "stamp",
-     "es": "sello"
+     "es": "sello",
+     "ku": "mor",
+     "fr": "timbre",
+     "it": "francobollo",
+     "ar": "طابع بريدي"
     },
     {
      "de": "Gepäckablage",
      "art": "die",
      "tr": "bagaj rafı",
      "en": "luggage rack",
-     "es": "portaequipajes"
+     "es": "portaequipajes",
+     "ku": "rawestgeha bagajê"
     },
     {
      "de": "Griff",
@@ -4078,19 +4624,31 @@
      "de": "absagen",
      "tr": "iptal etmek",
      "en": "to cancel",
-     "es": "cancelar"
+     "es": "cancelar",
+     "ku": "betal kirin",
+     "fr": "annuler",
+     "it": "annullare",
+     "ar": "يلغي"
     },
     {
      "de": "versäumen",
      "tr": "kaçırmak",
      "en": "to miss",
-     "es": "perder"
+     "es": "perder",
+     "ku": "winda kirin",
+     "fr": "rater",
+     "it": "perdere",
+     "ar": "يفوّت"
     },
     {
      "de": "abholen",
      "tr": "gidip almak",
      "en": "to pick up",
-     "es": "recoger; pasar a buscar"
+     "es": "recoger; pasar a buscar",
+     "ku": "wergirtin",
+     "fr": "venir chercher",
+     "it": "venire a prendere",
+     "ar": "يصطحب"
     }
    ]
   },
@@ -4101,12 +4659,14 @@
    "title": {
     "tr": "Eğitim",
     "en": "Education",
-    "es": "Educación"
+    "es": "Educación",
+    "ku": "Perwerde"
    },
    "goal": {
     "tr": "Eğitim yolunu ve hedeflerini anlatır, amaç bildirirsin.",
     "en": "Talk about your education and goals, express purpose.",
-    "es": "Habla de tu formación y tus objetivos, y expresa finalidad."
+    "es": "Habla de tu formación y tus objetivos, y expresa finalidad.",
+    "ku": "Derbarê perwerde û armancên xwe de biaxive, armancê diyar bike."
    },
    "cover": "unit-b1-09",
    "themes": [],
@@ -4151,7 +4711,11 @@
      "de": "Ich bereite mich auf die Prüfung vor.",
      "tr": "Sınava hazırlanıyorum.",
      "en": "I'm preparing for the exam.",
-     "es": "Me estoy preparando para el examen."
+     "es": "Me estoy preparando para el examen.",
+     "ku": "Ez ji bo îmtîhanê xwe amade dikim.",
+     "fr": "Je me prépare pour l'examen.",
+     "it": "Mi sto preparando per l'esame.",
+     "ar": "أستعد للامتحان."
     }
    ],
    "vocab": [
@@ -4214,27 +4778,35 @@
      "art": "der",
      "tr": "çıktı",
      "en": "printout",
-     "es": "copia impresa"
+     "es": "copia impresa",
+     "ku": "çap",
+     "fr": "impression"
     },
     {
      "de": "Vergleich",
      "art": "der",
      "tr": "karşılaştırma",
      "en": "comparison",
-     "es": "comparación"
+     "es": "comparación",
+     "ku": "berawird"
     },
     {
      "de": "Interview",
      "art": "das",
      "tr": "röportaj",
      "en": "interview",
-     "es": "entrevista"
+     "es": "entrevista",
+     "ku": "hevpeyvîn"
     },
     {
      "de": "verschieben",
      "tr": "ertelemek",
      "en": "to postpone",
-     "es": "posponer"
+     "es": "posponer",
+     "ku": "paşxistin",
+     "fr": "reporter",
+     "it": "rimandare",
+     "ar": "يؤجل"
     },
     {
      "de": "verschwenden",
@@ -4270,12 +4842,14 @@
    "title": {
     "tr": "Çevre ve gelecek",
     "en": "Environment and the future",
-    "es": "Medioambiente y futuro"
+    "es": "Medioambiente y futuro",
+    "ku": "Jîngeh û pêşeroj"
    },
    "goal": {
     "tr": "Çevre sorunlarını tartışır, gerçek dışı durumlar hakkında konuşursun.",
     "en": "Discuss environmental problems and talk about unreal situations.",
-    "es": "Habla de problemas medioambientales y de situaciones hipotéticas."
+    "es": "Habla de problemas medioambientales y de situaciones hipotéticas.",
+    "ku": "Pirsgirêkên jîngehê nîqaş bike û derbarê rewşên ne rastîn de biaxive."
    },
    "cover": "unit-b1-10",
    "themes": [],
@@ -4329,7 +4903,11 @@
      "art": "der",
      "tr": "iç avlu",
      "en": "courtyard",
-     "es": "patio"
+     "es": "patio",
+     "ku": "hewş",
+     "fr": "cour intérieure",
+     "it": "cortile",
+     "ar": "فناء"
     },
     {
      "de": "Hochbeet",
@@ -4360,7 +4938,8 @@
      "art": "die",
      "tr": "çoklu priz",
      "en": "power strip",
-     "es": "regleta"
+     "es": "regleta",
+     "ku": "prîza piralî"
     },
     {
      "de": "Imkerin",
@@ -4373,7 +4952,11 @@
      "art": "der",
      "tr": "indirim",
      "en": "discount",
-     "es": "descuento"
+     "es": "descuento",
+     "ku": "daxistin",
+     "fr": "réduction",
+     "it": "sconto",
+     "ar": "خصم"
     },
     {
      "de": "Marktleitung",
@@ -4398,7 +4981,8 @@
      "art": "der",
      "tr": "musluk",
      "en": "tap",
-     "es": "grifo"
+     "es": "grifo",
+     "ku": "mifteya avê"
     },
     {
      "de": "anfallen",
@@ -4409,7 +4993,8 @@
      "de": "zuständig",
      "tr": "sorumlu",
      "en": "responsible",
-     "es": "responsable (Nominativ, femenino)"
+     "es": "responsable (Nominativ, femenino)",
+     "ku": "berpirsiyar"
     },
     {
      "de": "anbringen",
@@ -4440,12 +5025,14 @@
    "title": {
     "tr": "Boş zaman, kültür ve gönüllülük",
     "en": "Free time, culture and volunteering",
-    "es": "Tiempo libre, cultura y voluntariado"
+    "es": "Tiempo libre, cultura y voluntariado",
+    "ku": "Demên vala, çand û dilxwazî"
    },
    "goal": {
     "tr": "Etkinlikleri anlatır, birlikte plan yapar, gönüllülük üzerine konuşursun.",
     "en": "Talk about events, plan together and discuss volunteering.",
-    "es": "Habla de actividades, haz planes en grupo y comenta el voluntariado."
+    "es": "Habla de actividades, haz planes en grupo y comenta el voluntariado.",
+    "ku": "Derbarê çalakiyan de biaxive, bi hev re plan çêbike û karê dilxwazî nîqaş bike."
    },
    "cover": "unit-b1-11",
    "themes": [],
@@ -4521,21 +5108,26 @@
      "art": "die",
      "tr": "sürüm",
      "en": "version",
-     "es": "versión"
+     "es": "versión",
+     "ku": "guherto",
+     "fr": "version"
     },
     {
      "de": "Übergang",
      "art": "der",
      "tr": "geçiş",
      "en": "transition",
-     "es": "transición"
+     "es": "transición",
+     "ku": "guhertin"
     },
     {
      "de": "Auftritt",
      "art": "der",
      "tr": "sahneye çıkış",
      "en": "performance",
-     "es": "actuación"
+     "es": "actuación",
+     "ku": "pêşandan",
+     "fr": "représentation"
     },
     {
      "de": "Pfeife",
@@ -4548,14 +5140,17 @@
      "art": "der",
      "tr": "kulüp",
      "en": "club",
-     "es": "club"
+     "es": "club",
+     "ku": "klûb",
+     "fr": "club, association"
     },
     {
      "de": "Hecke",
      "art": "die",
      "tr": "çit bitkisi",
      "en": "hedge",
-     "es": "seto"
+     "es": "seto",
+     "ku": "çît"
     },
     {
      "de": "Kreide",
@@ -4568,14 +5163,17 @@
      "art": "die",
      "tr": "prova",
      "en": "rehearsal",
-     "es": "ensayo"
+     "es": "ensayo",
+     "ku": "rehearsal"
     },
     {
      "de": "Bühne",
      "art": "die",
      "tr": "sahne",
      "en": "stage",
-     "es": "escenario"
+     "es": "escenario",
+     "ku": "qonax",
+     "fr": "scène"
     },
     {
      "de": "auftreten",
@@ -4596,7 +5194,11 @@
      "de": "markieren",
      "tr": "işaretlemek",
      "en": "to mark",
-     "es": "marcar"
+     "es": "marcar",
+     "ku": "nîşankirin",
+     "fr": "marquer",
+     "it": "segnare",
+     "ar": "يضع علامة"
     },
     {
      "de": "rücken",
@@ -4617,12 +5219,14 @@
    "title": {
     "tr": "Çalışma dünyası",
     "en": "The world of work",
-    "es": "El mundo laboral"
+    "es": "El mundo laboral",
+    "ku": "Cîhana karê"
    },
    "goal": {
     "tr": "Çalışma koşullarını tartışır, gerekçeli görüş bildirir, resmî dille konuşursun.",
     "en": "Discuss working conditions, argue your view and use formal language.",
-    "es": "Habla de las condiciones laborales, argumenta tu opinión y usa un lenguaje formal."
+    "es": "Habla de las condiciones laborales, argumenta tu opinión y usa un lenguaje formal.",
+    "ku": "Rewşên karê nîqaş bike, raya xwe bi argumanan piştgirî bike û zimanê fermî bikar bîne."
    },
    "cover": "unit-b2-01",
    "themes": [],
@@ -4725,14 +5329,18 @@
      "art": "die",
      "tr": "sürüm",
      "en": "version",
-     "es": "versión"
+     "es": "versión",
+     "ku": "guherto",
+     "fr": "version"
     },
     {
      "de": "Einarbeitung",
      "art": "die",
      "tr": "işe alıştırma",
      "en": "onboarding",
-     "es": "incorporación"
+     "es": "incorporación",
+     "ku": "destpêkirin",
+     "fr": "intégration"
     },
     {
      "de": "Zusage",
@@ -4760,7 +5368,11 @@
      "de": "erfordern",
      "tr": "gerektirmek",
      "en": "to require",
-     "es": "necesitar"
+     "es": "necesitar",
+     "ku": "pêdivî bûn",
+     "fr": "nécessiter",
+     "it": "richiedere, necessitare",
+     "ar": "يتطلب"
     },
     {
      "de": "nachträglich",
@@ -4771,7 +5383,8 @@
      "de": "nachvollziehbar",
      "tr": "izlenebilir",
      "en": "traceable",
-     "es": "rastreable"
+     "es": "rastreable",
+     "ku": "dikare were şopandin"
     },
     {
      "de": "vorliegen",
@@ -4787,12 +5400,14 @@
    "title": {
     "tr": "Şehir ve ulaşım",
     "en": "City and transport",
-    "es": "Ciudad y transporte"
+    "es": "Ciudad y transporte",
+    "ku": "Bajar û veguhastin"
    },
    "goal": {
     "tr": "Şehir planlamasını ve ulaşımı tartışır, durumları ve olanakları anlatırsın.",
     "en": "Discuss urban planning and transport, describe states and possibilities.",
-    "es": "Habla de la planificación urbana y el transporte, y describe situaciones y posibilidades."
+    "es": "Habla de la planificación urbana y el transporte, y describe situaciones y posibilidades.",
+    "ku": "Planên bajêr û veguhastinê nîqaş bike, rewş û îhtîmalan rave bike."
    },
    "cover": "unit-b2-02",
    "themes": [],
@@ -4859,7 +5474,11 @@
      "art": "der",
      "tr": "çekince",
      "en": "reservation",
-     "es": "reserva"
+     "es": "reserva",
+     "ku": "rezervasyon",
+     "fr": "réservation",
+     "it": "prenotazione",
+     "ar": "حجز"
     },
     {
      "de": "Verteiler",
@@ -4890,7 +5509,11 @@
      "art": "die",
      "tr": "anons",
      "en": "announcement",
-     "es": "aviso por megafonía"
+     "es": "aviso por megafonía",
+     "ku": "ragihandin",
+     "fr": "annonce",
+     "it": "annuncio",
+     "ar": "إعلان صوتي"
     },
     {
      "de": "Zugang",
@@ -4955,12 +5578,14 @@
    "title": {
     "tr": "Dijital dünya ve teknoloji",
     "en": "Digital world and technology",
-    "es": "El mundo digital y la tecnología"
+    "es": "El mundo digital y la tecnología",
+    "ku": "Cîhana dîjîtal û teknolojî"
    },
    "goal": {
     "tr": "Teknolojiyi ve etkilerini tartışır, bir şeyin nasıl yapıldığını açıklarsın.",
     "en": "Discuss technology and its effects, explain how something is done.",
-    "es": "Habla de la tecnología y sus efectos, y explica cómo se hace algo."
+    "es": "Habla de la tecnología y sus efectos, y explica cómo se hace algo.",
+    "ku": "Teknolojî û bandorên wê nîqaş bike, rave bike tiştek çawa tê kirin."
    },
    "cover": "unit-b2-03",
    "themes": [],
@@ -5020,7 +5645,11 @@
      "art": "der",
      "tr": "başvuru",
      "en": "application",
-     "es": "solicitud"
+     "es": "solicitud",
+     "ku": "serlêdan",
+     "fr": "demande",
+     "it": "domanda, richiesta",
+     "ar": "طلب (رسمي)"
     },
     {
      "de": "Auswertung",
@@ -5039,7 +5668,11 @@
      "art": "der",
      "tr": "telefon sinyali",
      "en": "reception",
-     "es": "recepción"
+     "es": "recepción",
+     "ku": "resepsiyon",
+     "fr": "réception",
+     "it": "reception",
+     "ar": "الاستقبال"
     },
     {
      "de": "Fehlermeldung",
@@ -5087,7 +5720,11 @@
      "de": "scheitern",
      "tr": "başaramamak",
      "en": "to fail",
-     "es": "fracasar"
+     "es": "fracasar",
+     "ku": "têkçûn",
+     "fr": "échouer",
+     "it": "fallire",
+     "ar": "يفشل"
     },
     {
      "de": "beibehalten",
@@ -5113,7 +5750,9 @@
      "de": "extern",
      "tr": "harici",
      "en": "external",
-     "es": "externo/a"
+     "es": "externo/a",
+     "ku": "derveyî",
+     "fr": "extérieur"
     }
    ]
   },
@@ -5124,12 +5763,14 @@
    "title": {
     "tr": "Medya ve haberler",
     "en": "Media and news",
-    "es": "Medios y noticias"
+    "es": "Medios y noticias",
+    "ku": "Medya û nûçe"
    },
    "goal": {
     "tr": "Haberleri dolaylı anlatımla aktarır, kaynakları eleştirel değerlendirirsin.",
     "en": "Report news in indirect speech and judge sources critically.",
-    "es": "Transmite noticias en estilo indirecto y evalúa críticamente las fuentes."
+    "es": "Transmite noticias en estilo indirecto y evalúa críticamente las fuentes.",
+    "ku": "Nûçeyan bi axaftina nerasterast ragihîne û çavkaniyan bi rexneyî nirxîne."
    },
    "cover": "unit-b2-04",
    "themes": [],
@@ -5205,7 +5846,8 @@
      "art": "die",
      "tr": "toplama noktası",
      "en": "collection point",
-     "es": "punto de recogida"
+     "es": "punto de recogida",
+     "ku": "cihê komkirinê"
     },
     {
      "de": "Vermutung",
@@ -5230,7 +5872,8 @@
      "art": "das",
      "tr": "yayımlanma",
      "en": "publication",
-     "es": "publicación"
+     "es": "publicación",
+     "ku": "weşandin"
     },
     {
      "de": "Fotostrecke",
@@ -5259,7 +5902,11 @@
      "de": "berichtigen",
      "tr": "düzeltmek",
      "en": "to correct",
-     "es": "corregir"
+     "es": "corregir",
+     "ku": "rastkirin",
+     "fr": "corriger",
+     "it": "correggere",
+     "ar": "يصحح"
     },
     {
      "de": "ablehnen",
@@ -5270,7 +5917,8 @@
      "de": "ursprünglich",
      "tr": "başlangıçta",
      "en": "originally",
-     "es": "originalmente"
+     "es": "originalmente",
+     "ku": "di destpêkê de"
     },
     {
      "de": "zugespitzt",
@@ -5291,12 +5939,14 @@
    "title": {
     "tr": "Sağlık ve aile",
     "en": "Health and family",
-    "es": "Salud y familia"
+    "es": "Salud y familia",
+    "ku": "Tenduristî û malbat"
    },
    "goal": {
     "tr": "Tahminde bulunur, olasılıkları dile getirir, sağlık konularını tartışırsın.",
     "en": "Make assumptions, express probability and discuss health topics.",
-    "es": "Haz suposiciones, expresa probabilidades y habla de temas de salud."
+    "es": "Haz suposiciones, expresa probabilidades y habla de temas de salud.",
+    "ku": "Texmînan bike, îhtîmalê diyar bike û mijarên tenduristiyê nîqaş bike."
    },
    "cover": "unit-b2-05",
    "themes": [],
@@ -5426,7 +6076,8 @@
      "de": "verwechseln",
      "tr": "karıştırmak",
      "en": "to confuse",
-     "es": "confundir"
+     "es": "confundir",
+     "ku": "tevlihev kirin"
     },
     {
      "de": "zögern",
@@ -5457,12 +6108,14 @@
    "title": {
     "tr": "Çevre ve tüketim",
     "en": "Environment and consumption",
-    "es": "Medioambiente y consumo"
+    "es": "Medioambiente y consumo",
+    "ku": "Jîngeh û xerckirin"
    },
    "goal": {
     "tr": "Tüketim alışkanlıklarını tartışır, koşul ve karşıtlık bildirirsin.",
     "en": "Discuss consumer habits and express conditions and contrasts.",
-    "es": "Habla de hábitos de consumo y expresa condiciones y contrastes."
+    "es": "Habla de hábitos de consumo y expresa condiciones y contrastes.",
+    "ku": "Kiryarên xerîdaran nîqaş bike û şert û dijberiyan diyar bike."
    },
    "cover": "unit-b2-06",
    "themes": [],
@@ -5517,7 +6170,9 @@
      "art": "die",
      "tr": "araç girişi",
      "en": "driveway",
-     "es": "entrada de vehículos"
+     "es": "entrada de vehículos",
+     "ku": "rêya ketinê",
+     "fr": "allée d'accès"
     },
     {
      "de": "Mulde",
@@ -5536,7 +6191,8 @@
      "art": "die",
      "tr": "kooperatif",
      "en": "cooperative",
-     "es": "cooperativa"
+     "es": "cooperativa",
+     "ku": "kooperatîf"
     },
     {
      "de": "Kundschaft",
@@ -5549,7 +6205,9 @@
      "art": "der",
      "tr": "harcanan emek",
      "en": "effort",
-     "es": "esfuerzo"
+     "es": "esfuerzo",
+     "ku": "hewldan",
+     "fr": "effort"
     },
     {
      "de": "Rundbrief",
@@ -5586,7 +6244,8 @@
      "art": "die",
      "tr": "işletme yönetimi",
      "en": "management",
-     "es": "gestión"
+     "es": "gestión",
+     "ku": "rêveberî"
     },
     {
      "de": "abschüssig",
@@ -5627,12 +6286,14 @@
    "title": {
     "tr": "Toplum ve haklar",
     "en": "Society and rights",
-    "es": "Sociedad y derechos"
+    "es": "Sociedad y derechos",
+    "ku": "Civak û maf"
    },
    "goal": {
     "tr": "Toplumsal konuları ve hakları tartışır, karmaşık cümleler kurarsın.",
     "en": "Discuss social issues and rights, build complex sentences.",
-    "es": "Habla de temas sociales y derechos, y construye oraciones complejas."
+    "es": "Habla de temas sociales y derechos, y construye oraciones complejas.",
+    "ku": "Pirsgirêkên civakî û mafan nîqaş bike, hevokên tevlihev ava bike."
    },
    "cover": "unit-b2-07",
    "themes": [],
@@ -5687,7 +6348,8 @@
      "art": "das",
      "tr": "saat aralığı",
      "en": "time slot",
-     "es": "franja horaria"
+     "es": "franja horaria",
+     "ku": "demjimêr"
     },
     {
      "de": "Andrang",
@@ -5764,7 +6426,8 @@
      "de": "vorab",
      "tr": "önceden",
      "en": "in advance",
-     "es": "con antelación"
+     "es": "con antelación",
+     "ku": "berê"
     },
     {
      "de": "sichten",
@@ -5785,7 +6448,11 @@
      "de": "vorzeitig",
      "tr": "erken, zamanından önce",
      "en": "early",
-     "es": "temprano"
+     "es": "temprano",
+     "ku": "zû",
+     "fr": "tôt",
+     "it": "presto",
+     "ar": "مبكرًا"
     }
    ]
   },
@@ -5796,12 +6463,14 @@
    "title": {
     "tr": "Para, hizmetler ve kurumlar",
     "en": "Money, services and institutions",
-    "es": "Dinero, servicios e instituciones"
+    "es": "Dinero, servicios e instituciones",
+    "ku": "Pere, karûbar û saziyên fermî"
    },
    "goal": {
     "tr": "Bankada, kurumlarda ve müşteri hizmetlerinde resmî dille işini halledersin.",
     "en": "Deal with banks, offices and customer service in formal language.",
-    "es": "Realiza gestiones en bancos, oficinas y atención al cliente con lenguaje formal."
+    "es": "Realiza gestiones en bancos, oficinas y atención al cliente con lenguaje formal.",
+    "ku": "Bi bankan, ofîsan û karûbarên xerîdaran re bi zimanê fermî mijûl bibe."
    },
    "cover": "unit-b2-08",
    "themes": [],
@@ -5888,7 +6557,11 @@
      "art": "die",
      "tr": "neden",
      "en": "cause",
-     "es": "causa"
+     "es": "causa",
+     "ku": "sedem",
+     "fr": "cause",
+     "it": "causa",
+     "ar": "سبب"
     },
     {
      "de": "Bremsbelag",
@@ -5901,7 +6574,8 @@
      "art": "das",
      "tr": "belirti",
      "en": "sign",
-     "es": "señal"
+     "es": "señal",
+     "ku": "nîşan"
     },
     {
      "de": "Sichtprüfung",
@@ -5956,7 +6630,10 @@
      "de": "ungültig",
      "tr": "geçersiz",
      "en": "invalid",
-     "es": "inválido"
+     "es": "inválido",
+     "ku": "ne derbasdar",
+     "fr": "invalide",
+     "it": "non valido"
     }
    ]
   },
@@ -5967,12 +6644,14 @@
    "title": {
     "tr": "Eğitim ve bilim",
     "en": "Education and science",
-    "es": "Educación y ciencia"
+    "es": "Educación y ciencia",
+    "ku": "Perwerde û zanist"
    },
    "goal": {
     "tr": "Bilimsel sonuçları aktarır, eğitim üzerine tartışır, sunum yaparsın.",
     "en": "Report scientific results, discuss education and give presentations.",
-    "es": "Presenta resultados científicos, habla de educación y hace exposiciones."
+    "es": "Presenta resultados científicos, habla de educación y hace exposiciones.",
+    "ku": "Encamên zanistî ragihîne, perwerdeyê nîqaş bike û pêşkêşiyan bike."
    },
    "cover": "unit-b2-09",
    "themes": [],
@@ -6027,7 +6706,8 @@
      "art": "der",
      "tr": "bakış açısı",
      "en": "position",
-     "es": "posición"
+     "es": "posición",
+     "ku": "helwest"
     },
     {
      "de": "Einwand",
@@ -6058,7 +6738,8 @@
      "art": "der",
      "tr": "işleyiş, süreç",
      "en": "procedure",
-     "es": "procedimiento"
+     "es": "procedimiento",
+     "ku": "rêbaz"
     },
     {
      "de": "Messpunkt",
@@ -6071,7 +6752,8 @@
      "art": "die",
      "tr": "izlenen yöntem",
      "en": "procedure",
-     "es": "procedimiento"
+     "es": "procedimiento",
+     "ku": "rêbaz"
     },
     {
      "de": "Unterstand",
@@ -6084,7 +6766,8 @@
      "art": "der",
      "tr": "konum",
      "en": "location",
-     "es": "ubicación"
+     "es": "ubicación",
+     "ku": "cîh"
     },
     {
      "de": "Versuchsgelände",
@@ -6137,12 +6820,14 @@
    "title": {
     "tr": "Kültür ve deneyimler",
     "en": "Culture and experiences",
-    "es": "Cultura y experiencias"
+    "es": "Cultura y experiencias",
+    "ku": "Çand û tecrûbe"
    },
    "goal": {
     "tr": "Deneyimlerini ve pişmanlıklarını anlatır, karşılaştırmalar yaparsın.",
     "en": "Talk about experiences and regrets and make comparisons.",
-    "es": "Habla de experiencias y arrepentimientos, y compara."
+    "es": "Habla de experiencias y arrepentimientos, y compara.",
+    "ku": "Derbarê tecrûbe û poşmaniyan de biaxive û tiştan li hev berawird bike."
    },
    "cover": "unit-b2-10",
    "themes": [],
@@ -6218,7 +6903,11 @@
      "art": "die",
      "tr": "yol tarifi",
      "en": "direction",
-     "es": "dirección"
+     "es": "dirección",
+     "ku": "alî",
+     "fr": "direction",
+     "it": "direzione",
+     "ar": "اتجاه"
     },
     {
      "de": "Vitrine",
@@ -6243,14 +6932,17 @@
      "art": "der",
      "tr": "içeri giriş",
      "en": "admission",
-     "es": "entrada"
+     "es": "entrada",
+     "ku": "ketin",
+     "fr": "admission"
     },
     {
      "de": "Ladenschluss",
      "art": "der",
      "tr": "dükkânın kapanışı",
      "en": "closing time",
-     "es": "hora de cierre"
+     "es": "hora de cierre",
+     "ku": "demê girtina dikanê"
     },
     {
      "de": "Vergabe",
@@ -6289,7 +6981,11 @@
      "de": "vorzeitig",
      "tr": "erken",
      "en": "early",
-     "es": "temprano"
+     "es": "temprano",
+     "ku": "zû",
+     "fr": "tôt",
+     "it": "presto",
+     "ar": "مبكرًا"
     },
     {
      "de": "überfordern",
