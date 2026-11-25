@@ -308,6 +308,67 @@ TASKS_B1 = [
 ]
 TASKS += TASKS_B1
 
+
+# B2 (Goethe B2 Schreiben): Teil 1 opinion in a forum (about 150 words), Teil 2 formal message (about 100 words).
+TASKS_B2 = [
+    message('b2-m1', ('Forum: Şehir merkezinde araba yasağı', 'Forum: a car ban in the city centre'),
+            'In einem Online-Forum wird diskutiert: „Sollten Autos aus den Innenstädten verbannt werden?“ Schreiben Sie einen Beitrag.',
+            ('Görüşünü gerekçelendir, avantaj ve dezavantajları tartış, başka şehirlerden örnek ver ve bir sonuç yaz.',
+             'Argue your view, weigh pros and cons, give an example from other cities and write a conclusion.'),
+            [point('Görüş', 'Opinion', 'Ich bin der Meinung, dass …', 'meiner meinung', 'ich bin der meinung', 'meines erachtens', 'ich halte', 'ich finde'),
+             point('Artı / eksi', 'Pros and cons', 'Einerseits …, andererseits …', 'einerseits', 'andererseits', 'vorteil', 'nachteil', 'dagegen'),
+             point('Örnek', 'Example', 'In Kopenhagen zum Beispiel …', 'zum beispiel', 'beispielsweise', 'etwa'),
+             point('Sonuç', 'Conclusion', 'Alles in allem …', 'alles in allem', 'zusammenfassend', 'abschließend', 'insgesamt')],
+            'Hallo zusammen, ich bin der Meinung, dass Autos nicht komplett aus den Innenstädten verbannt werden sollten, aber deutlich weniger Platz bekommen müssen. '
+            'Einerseits wären autofreie Zentren leiser, sauberer und sicherer. Kinder könnten freier spielen, und Cafés und Geschäfte hätten mehr Platz im Freien. '
+            'Andererseits sind viele Menschen auf das Auto angewiesen, etwa ältere Leute, Handwerker oder Familien, die außerhalb wohnen und schlechte Busverbindungen haben. '
+            'Ein komplettes Verbot würde diese Gruppen benachteiligen. In Kopenhagen zum Beispiel wurde der Autoverkehr schrittweise reduziert, während gleichzeitig '
+            'Radwege und der Nahverkehr ausgebaut wurden. Dadurch fahren heute viel mehr Menschen freiwillig Fahrrad, und die Geschäfte in der Innenstadt haben keine Kunden verloren, wie viele Händler anfangs befürchtet hatten. Auch in meiner eigenen Stadt wurde vor zwei Jahren eine Straße für Autos gesperrt; seitdem ist sie ein beliebter Treffpunkt. Alles in allem halte ich einen solchen Mittelweg '
+            'für sinnvoller als ein striktes Verbot: weniger Parkplätze, bessere Alternativen und Ausnahmen für diejenigen, die wirklich ein Auto brauchen. Viele Grüße, Deniz',
+            min_words=150, level='B2', formal=False),
+    message('b2-m2', ('Forum: Dört günlük çalışma haftası', 'Forum: the four-day week'),
+            'In einem Forum wird gefragt: „Ist die Vier-Tage-Woche ein Modell für die Zukunft?“ Schreiben Sie einen Beitrag.',
+            ('Görüşünü gerekçelendir, çalışanlar ve şirketler açısından tartış, kendi deneyimini ekle ve bir sonuç yaz.',
+             'Argue your view, discuss it for employees and companies, add your experience and write a conclusion.'),
+            [point('Görüş', 'Opinion', 'Meiner Meinung nach …', 'meiner meinung', 'ich bin der meinung', 'meines erachtens', 'ich halte', 'ich finde'),
+             point('Çalışanlar / şirketler', 'Employees and companies', 'Für Arbeitnehmer bedeutet das …, für Unternehmen …', 'arbeitnehmer', 'unternehmen', 'firmen', 'beschäftigte', 'arbeitgeber'),
+             point('Deneyim', 'Experience', 'In meiner Firma haben wir …', 'in meiner firma', 'ich selbst', 'meine erfahrung', 'bei uns'),
+             point('Sonuç', 'Conclusion', 'Zusammenfassend …', 'alles in allem', 'zusammenfassend', 'abschließend', 'insgesamt')],
+            'Hallo zusammen, meiner Meinung nach ist die Vier-Tage-Woche ein spannendes Modell, das aber nicht für jede Branche passt. Für Arbeitnehmer bedeutet ein '
+            'zusätzlicher freier Tag mehr Zeit für Familie, Erholung und Hobbys. Studien zeigen, dass ausgeruhte Beschäftigte oft konzentrierter arbeiten und seltener krank sind. '
+            'Für Unternehmen kann das ein Vorteil sein, zumal sie im Wettbewerb um Fachkräfte attraktiver werden. Allerdings lässt sich das Modell nicht überall umsetzen: '
+            'In Krankenhäusern, Schulen oder im Handel müssen Menschen jeden Tag da sein, sodass zusätzliches Personal nötig wäre. In meiner Firma haben wir es ein halbes Jahr '
+            'getestet. Die meisten Kollegen waren zufriedener und motivierter, aber manche Projekte haben länger gedauert, weil Absprachen schwieriger waren und Kunden uns freitags nicht erreichen konnten. Wir haben das schließlich gelöst, indem sich die Teams abwechseln, sodass immer jemand ansprechbar ist. Alles in allem finde ich, dass '
+            'Unternehmen die Vier-Tage-Woche ausprobieren sollten, sofern sie gut geplant wird. Viele Grüße, Aylin',
+            min_words=150, level='B2', formal=False),
+    message('b2-m3', ('Resmî: Fatura hatası şikâyeti', 'Formal: complaint about a wrong bill'),
+            'Ihr Internetanbieter hat Ihnen im letzten Monat einen zu hohen Betrag berechnet. Schreiben Sie dem Kundenservice.',
+            ('Sorunu açıkla, ne beklediğini yaz, bir süre belirt ve kibar ama kararlı ol.',
+             'Explain the problem, say what you expect, set a deadline; be polite but firm.'),
+            [point('Sorun', 'The problem', 'Für den Monat März wurden mir 89 Euro statt 39 Euro berechnet.', 'berechnet', 'rechnung', 'abgebucht', 'betrag'),
+             point('Beklenti', 'What you expect', 'Ich bitte Sie, mir die Differenz zu erstatten.', 'erstatten', 'zurücküberweisen', 'gutschrift', 'korrigieren'),
+             point('Süre', 'Deadline', 'Bitte bis zum 15. April.', 'bis zum', 'innerhalb', 'frist')],
+            'Sehr geehrte Damen und Herren, aufgrund eines Fehlers wurden mir für den Monat März 89 Euro statt der vereinbarten 39 Euro berechnet und von meinem Konto abgebucht. '
+            'Laut meinem Vertrag habe ich einen Tarif zum festen Monatspreis, und ich habe keine zusätzlichen Leistungen bestellt. Ich bitte Sie daher, die Rechnung zu korrigieren '
+            'und mir die Differenz von 50 Euro bis zum 15. April zu erstatten. Außerdem bitte ich um eine schriftliche Bestätigung, dass der Fehler in den nächsten Rechnungen nicht '
+            'mehr auftritt. Die Rechnung und meinen Kontoauszug finden Sie im Anhang. Sollte ich bis dahin nichts von Ihnen hören, werde ich mich an die Verbraucherzentrale wenden. Mit freundlichen Grüßen, Kerem Aydın',
+            min_words=100, level='B2', formal=True),
+    message('b2-m4', ('Resmî: Eğitim talebi', 'Formal: asking for further training'),
+            'Sie möchten an einer Weiterbildung teilnehmen. Schreiben Sie Ihrer Vorgesetzten, Frau Lorenz, eine E-Mail.',
+            ('Eğitimi tanıt, şirkete faydasını açıkla, işlerin nasıl aksamayacağını yaz ve bir görüşme iste.',
+             'Describe the course, explain the benefit for the company, say how your work will be covered and ask for a meeting.'),
+            [point('Eğitim', 'The course', 'Ich möchte an einem Kurs zum Projektmanagement teilnehmen.', 'weiterbildung', 'kurs', 'seminar', 'fortbildung'),
+             point('Fayda', 'Benefit', 'Davon würde auch unser Team profitieren.', 'profitieren', 'nutzen', 'vorteil', 'dadurch'),
+             point('İşler', 'Your work', 'Während meiner Abwesenheit übernimmt Herr Weber meine Aufgaben.', 'vertret', 'übernimmt', 'abwesenheit', 'aufgaben'),
+             point('Görüşme', 'Meeting', 'Hätten Sie diese Woche Zeit für ein kurzes Gespräch?', 'gespräch', 'termin', 'besprechen')],
+            'Sehr geehrte Frau Lorenz, ich möchte im Mai an einer zweitägigen Weiterbildung zum Thema Projektmanagement teilnehmen, die von der IHK angeboten wird. '
+            'In den letzten Monaten habe ich zunehmend Projekte koordiniert, und der Kurs würde mir helfen, Termine und Budgets besser zu planen. Davon würde auch unser Team '
+            'profitieren, da wir mehrere neue Kunden betreuen. Während meiner Abwesenheit übernimmt Herr Weber meine dringenden Aufgaben; das haben wir bereits abgesprochen. '
+            'Die Kursgebühr beträgt 480 Euro; ich wäre auch bereit, einen Teil davon selbst zu übernehmen, falls das Budget begrenzt ist. Hätten Sie diese Woche Zeit für ein kurzes Gespräch, um die Details zu besprechen? Mit freundlichen Grüßen, Selin Arslan',
+            min_words=100, level='B2', formal=True),
+]
+TASKS += TASKS_B2
+
 # A greeting and a closing are checked for every message as well.
 GREETING = ['liebe', 'lieber', 'hallo', 'hi', 'sehr geehrte', 'sehr geehrter', 'guten tag']
 CLOSING = ['grüße', 'gruß', 'bis bald', 'tschüss', 'bis dann', 'bis morgen', 'bis gleich']

@@ -1688,6 +1688,278 @@
    "minWords": 40,
    "sample": "Sehr geehrter Herr Becker, mein Name ist Selin Kaya und ich wohne seit zwei Jahren in der Stadt. Ich möchte beim Stadtfest gern mithelfen, weil ich neue Leute kennenlernen will. Könnten Sie mir sagen, wann die Helfer da sein müssen? Mit freundlichen Grüßen, Selin Kaya",
    "formal": true
+  },
+  {
+   "id": "b2-m1",
+   "level": "B2",
+   "kind": "message",
+   "title": {
+    "tr": "Forum: Şehir merkezinde araba yasağı",
+    "en": "Forum: a car ban in the city centre"
+   },
+   "prompt": "In einem Online-Forum wird diskutiert: „Sollten Autos aus den Innenstädten verbannt werden?“ Schreiben Sie einen Beitrag.",
+   "help": {
+    "tr": "Görüşünü gerekçelendir, avantaj ve dezavantajları tartış, başka şehirlerden örnek ver ve bir sonuç yaz.",
+    "en": "Argue your view, weigh pros and cons, give an example from other cities and write a conclusion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Ich bin der Meinung, dass …",
+     "keys": [
+      "meiner meinung",
+      "ich bin der meinung",
+      "meines erachtens",
+      "ich halte",
+      "ich finde"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Artı / eksi",
+      "en": "Pros and cons"
+     },
+     "say": "Einerseits …, andererseits …",
+     "keys": [
+      "einerseits",
+      "andererseits",
+      "vorteil",
+      "nachteil",
+      "dagegen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Örnek",
+      "en": "Example"
+     },
+     "say": "In Kopenhagen zum Beispiel …",
+     "keys": [
+      "zum beispiel",
+      "beispielsweise",
+      "etwa"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Alles in allem …",
+     "keys": [
+      "alles in allem",
+      "zusammenfassend",
+      "abschließend",
+      "insgesamt"
+     ]
+    }
+   ],
+   "minWords": 150,
+   "sample": "Hallo zusammen, ich bin der Meinung, dass Autos nicht komplett aus den Innenstädten verbannt werden sollten, aber deutlich weniger Platz bekommen müssen. Einerseits wären autofreie Zentren leiser, sauberer und sicherer. Kinder könnten freier spielen, und Cafés und Geschäfte hätten mehr Platz im Freien. Andererseits sind viele Menschen auf das Auto angewiesen, etwa ältere Leute, Handwerker oder Familien, die außerhalb wohnen und schlechte Busverbindungen haben. Ein komplettes Verbot würde diese Gruppen benachteiligen. In Kopenhagen zum Beispiel wurde der Autoverkehr schrittweise reduziert, während gleichzeitig Radwege und der Nahverkehr ausgebaut wurden. Dadurch fahren heute viel mehr Menschen freiwillig Fahrrad, und die Geschäfte in der Innenstadt haben keine Kunden verloren, wie viele Händler anfangs befürchtet hatten. Auch in meiner eigenen Stadt wurde vor zwei Jahren eine Straße für Autos gesperrt; seitdem ist sie ein beliebter Treffpunkt. Alles in allem halte ich einen solchen Mittelweg für sinnvoller als ein striktes Verbot: weniger Parkplätze, bessere Alternativen und Ausnahmen für diejenigen, die wirklich ein Auto brauchen. Viele Grüße, Deniz",
+   "formal": false
+  },
+  {
+   "id": "b2-m2",
+   "level": "B2",
+   "kind": "message",
+   "title": {
+    "tr": "Forum: Dört günlük çalışma haftası",
+    "en": "Forum: the four-day week"
+   },
+   "prompt": "In einem Forum wird gefragt: „Ist die Vier-Tage-Woche ein Modell für die Zukunft?“ Schreiben Sie einen Beitrag.",
+   "help": {
+    "tr": "Görüşünü gerekçelendir, çalışanlar ve şirketler açısından tartış, kendi deneyimini ekle ve bir sonuç yaz.",
+    "en": "Argue your view, discuss it for employees and companies, add your experience and write a conclusion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Meiner Meinung nach …",
+     "keys": [
+      "meiner meinung",
+      "ich bin der meinung",
+      "meines erachtens",
+      "ich halte",
+      "ich finde"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Çalışanlar / şirketler",
+      "en": "Employees and companies"
+     },
+     "say": "Für Arbeitnehmer bedeutet das …, für Unternehmen …",
+     "keys": [
+      "arbeitnehmer",
+      "unternehmen",
+      "firmen",
+      "beschäftigte",
+      "arbeitgeber"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Deneyim",
+      "en": "Experience"
+     },
+     "say": "In meiner Firma haben wir …",
+     "keys": [
+      "in meiner firma",
+      "ich selbst",
+      "meine erfahrung",
+      "bei uns"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Zusammenfassend …",
+     "keys": [
+      "alles in allem",
+      "zusammenfassend",
+      "abschließend",
+      "insgesamt"
+     ]
+    }
+   ],
+   "minWords": 150,
+   "sample": "Hallo zusammen, meiner Meinung nach ist die Vier-Tage-Woche ein spannendes Modell, das aber nicht für jede Branche passt. Für Arbeitnehmer bedeutet ein zusätzlicher freier Tag mehr Zeit für Familie, Erholung und Hobbys. Studien zeigen, dass ausgeruhte Beschäftigte oft konzentrierter arbeiten und seltener krank sind. Für Unternehmen kann das ein Vorteil sein, zumal sie im Wettbewerb um Fachkräfte attraktiver werden. Allerdings lässt sich das Modell nicht überall umsetzen: In Krankenhäusern, Schulen oder im Handel müssen Menschen jeden Tag da sein, sodass zusätzliches Personal nötig wäre. In meiner Firma haben wir es ein halbes Jahr getestet. Die meisten Kollegen waren zufriedener und motivierter, aber manche Projekte haben länger gedauert, weil Absprachen schwieriger waren und Kunden uns freitags nicht erreichen konnten. Wir haben das schließlich gelöst, indem sich die Teams abwechseln, sodass immer jemand ansprechbar ist. Alles in allem finde ich, dass Unternehmen die Vier-Tage-Woche ausprobieren sollten, sofern sie gut geplant wird. Viele Grüße, Aylin",
+   "formal": false
+  },
+  {
+   "id": "b2-m3",
+   "level": "B2",
+   "kind": "message",
+   "title": {
+    "tr": "Resmî: Fatura hatası şikâyeti",
+    "en": "Formal: complaint about a wrong bill"
+   },
+   "prompt": "Ihr Internetanbieter hat Ihnen im letzten Monat einen zu hohen Betrag berechnet. Schreiben Sie dem Kundenservice.",
+   "help": {
+    "tr": "Sorunu açıkla, ne beklediğini yaz, bir süre belirt ve kibar ama kararlı ol.",
+    "en": "Explain the problem, say what you expect, set a deadline; be polite but firm."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Sorun",
+      "en": "The problem"
+     },
+     "say": "Für den Monat März wurden mir 89 Euro statt 39 Euro berechnet.",
+     "keys": [
+      "berechnet",
+      "rechnung",
+      "abgebucht",
+      "betrag"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Beklenti",
+      "en": "What you expect"
+     },
+     "say": "Ich bitte Sie, mir die Differenz zu erstatten.",
+     "keys": [
+      "erstatten",
+      "zurücküberweisen",
+      "gutschrift",
+      "korrigieren"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Süre",
+      "en": "Deadline"
+     },
+     "say": "Bitte bis zum 15. April.",
+     "keys": [
+      "bis zum",
+      "innerhalb",
+      "frist"
+     ]
+    }
+   ],
+   "minWords": 100,
+   "sample": "Sehr geehrte Damen und Herren, aufgrund eines Fehlers wurden mir für den Monat März 89 Euro statt der vereinbarten 39 Euro berechnet und von meinem Konto abgebucht. Laut meinem Vertrag habe ich einen Tarif zum festen Monatspreis, und ich habe keine zusätzlichen Leistungen bestellt. Ich bitte Sie daher, die Rechnung zu korrigieren und mir die Differenz von 50 Euro bis zum 15. April zu erstatten. Außerdem bitte ich um eine schriftliche Bestätigung, dass der Fehler in den nächsten Rechnungen nicht mehr auftritt. Die Rechnung und meinen Kontoauszug finden Sie im Anhang. Sollte ich bis dahin nichts von Ihnen hören, werde ich mich an die Verbraucherzentrale wenden. Mit freundlichen Grüßen, Kerem Aydın",
+   "formal": true
+  },
+  {
+   "id": "b2-m4",
+   "level": "B2",
+   "kind": "message",
+   "title": {
+    "tr": "Resmî: Eğitim talebi",
+    "en": "Formal: asking for further training"
+   },
+   "prompt": "Sie möchten an einer Weiterbildung teilnehmen. Schreiben Sie Ihrer Vorgesetzten, Frau Lorenz, eine E-Mail.",
+   "help": {
+    "tr": "Eğitimi tanıt, şirkete faydasını açıkla, işlerin nasıl aksamayacağını yaz ve bir görüşme iste.",
+    "en": "Describe the course, explain the benefit for the company, say how your work will be covered and ask for a meeting."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Eğitim",
+      "en": "The course"
+     },
+     "say": "Ich möchte an einem Kurs zum Projektmanagement teilnehmen.",
+     "keys": [
+      "weiterbildung",
+      "kurs",
+      "seminar",
+      "fortbildung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Fayda",
+      "en": "Benefit"
+     },
+     "say": "Davon würde auch unser Team profitieren.",
+     "keys": [
+      "profitieren",
+      "nutzen",
+      "vorteil",
+      "dadurch"
+     ]
+    },
+    {
+     "label": {
+      "tr": "İşler",
+      "en": "Your work"
+     },
+     "say": "Während meiner Abwesenheit übernimmt Herr Weber meine Aufgaben.",
+     "keys": [
+      "vertret",
+      "übernimmt",
+      "abwesenheit",
+      "aufgaben"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Görüşme",
+      "en": "Meeting"
+     },
+     "say": "Hätten Sie diese Woche Zeit für ein kurzes Gespräch?",
+     "keys": [
+      "gespräch",
+      "termin",
+      "besprechen"
+     ]
+    }
+   ],
+   "minWords": 100,
+   "sample": "Sehr geehrte Frau Lorenz, ich möchte im Mai an einer zweitägigen Weiterbildung zum Thema Projektmanagement teilnehmen, die von der IHK angeboten wird. In den letzten Monaten habe ich zunehmend Projekte koordiniert, und der Kurs würde mir helfen, Termine und Budgets besser zu planen. Davon würde auch unser Team profitieren, da wir mehrere neue Kunden betreuen. Während meiner Abwesenheit übernimmt Herr Weber meine dringenden Aufgaben; das haben wir bereits abgesprochen. Die Kursgebühr beträgt 480 Euro; ich wäre auch bereit, einen Teil davon selbst zu übernehmen, falls das Budget begrenzt ist. Hätten Sie diese Woche Zeit für ein kurzes Gespräch, um die Details zu besprechen? Mit freundlichen Grüßen, Selin Arslan",
+   "formal": true
   }
  ]
 }

@@ -318,6 +318,99 @@ UNITS_B1 = [
 ]
 
 
+B2_WRITING = {1: 'b2-m2', 2: 'b2-m1', 3: 'b2-m3', 4: 'b2-m1', 5: 'b2-m2', 6: 'b2-m1', 7: 'b2-m3', 8: 'b2-m3', 9: 'b2-m4', 10: 'b2-m4'}
+
+
+def unit_b2(n, topics, title, goal, grammar, speaking, phrases):
+    return {'id': f'b2-{n:02d}', 'level': 'B2', 'number': n, 'title': {'tr': title[0], 'en': title[1]},
+            'goal': {'tr': goal[0], 'en': goal[1]}, 'cover': f'unit-b2-{n:02d}', 'themes': [], 'grammar': grammar,
+            'topic': topics, 'texts': [], 'speaking': speaking, 'writing': [B2_WRITING[n]], 'phrases': phrases}
+
+
+UNITS_B2 = [
+    unit_b2(1, ['Arbeit', 'Arbeitswelt', 'Beruf'], ('Çalışma dünyası', 'The world of work'),
+            ('Çalışma koşullarını tartışır, gerekçeli görüş bildirir, resmî dille konuşursun.', 'Discuss working conditions, argue your view and use formal language.'),
+            [10, 12], ['b2-4'],
+            [ph('Wir müssen eine Entscheidung treffen.', 'Bir karar vermemiz gerekiyor.', 'We have to make a decision.'),
+             ph('Da die Aufträge zunehmen, brauchen wir mehr Personal.', 'Siparişler arttığı için daha fazla personele ihtiyacımız var.', 'As orders are increasing we need more staff.'),
+             ph('Ich möchte das Thema zur Sprache bringen.', 'Bu konuyu gündeme getirmek istiyorum.', 'I would like to raise the subject.'),
+             ph('Dennoch bin ich mit dem Ergebnis zufrieden.', 'Yine de sonuçtan memnunum.', "Nevertheless I'm happy with the result."),
+             ph('Die Vier-Tage-Woche steht zur Diskussion.', 'Dört günlük çalışma haftası tartışılıyor.', 'The four-day week is under discussion.')]),
+    unit_b2(2, ['Wohnen', 'Stadtentwicklung', 'Verkehr'], ('Şehir ve ulaşım', 'City and transport'),
+            ('Şehir planlamasını ve ulaşımı tartışır, durumları ve olanakları anlatırsın.', 'Discuss urban planning and transport, describe states and possibilities.'),
+            [3, 4], ['b2-1'],
+            [ph('Die Straße ist seit Montag gesperrt.', 'Yol pazartesiden beri kapalı.', 'The road has been closed since Monday.'),
+             ph('Das Problem lässt sich leicht lösen.', 'Sorun kolayca çözülebilir.', 'The problem can be solved easily.'),
+             ph('Die Mieten sind kaum noch bezahlbar.', 'Kiralar artık neredeyse ödenemez halde.', 'Rents are hardly affordable any more.'),
+             ph('Der Antrag ist bis Freitag einzureichen.', 'Başvuru cuma gününe kadar teslim edilmeli.', 'The application must be submitted by Friday.'),
+             ph('Eine autofreie Innenstadt wäre lebenswerter.', 'Arabasız bir şehir merkezi daha yaşanabilir olurdu.', 'A car-free city centre would be more liveable.')]),
+    unit_b2(3, ['Digitales', 'Technik'], ('Dijital dünya ve teknoloji', 'Digital world and technology'),
+            ('Teknolojiyi ve etkilerini tartışır, bir şeyin nasıl yapıldığını açıklarsın.', 'Discuss technology and its effects, explain how something is done.'),
+            [13, 5], ['b2-2'],
+            [ph('Indem man Updates installiert, schützt man seine Daten.', 'Güncellemeleri yükleyerek verilerini korursun.', 'By installing updates you protect your data.'),
+             ph('Die neu entwickelte App spart viel Zeit.', 'Yeni geliştirilen uygulama çok zaman kazandırıyor.', 'The newly developed app saves a lot of time.'),
+             ph('Dadurch, dass alles digital ist, geht es schneller.', 'Her şey dijital olduğu için daha hızlı gidiyor.', 'Because everything is digital it is faster.'),
+             ph('Künstliche Intelligenz verändert viele Berufe.', 'Yapay zekâ birçok mesleği değiştiriyor.', 'Artificial intelligence is changing many jobs.'),
+             ph('Der Datenschutz wird oft unterschätzt.', 'Veri koruma çoğu zaman hafife alınıyor.', 'Data protection is often underestimated.')]),
+    unit_b2(4, ['Medien'], ('Medya ve haberler', 'Media and news'),
+            ('Haberleri dolaylı anlatımla aktarır, kaynakları eleştirel değerlendirirsin.', 'Report news in indirect speech and judge sources critically.'),
+            [2], ['b2-2'],
+            [ph('Der Minister sagte, er habe davon nichts gewusst.', 'Bakan bundan haberi olmadığını söyledi.', 'The minister said he had known nothing about it.'),
+             ph('Laut Bericht sei die Lage stabil.', 'Rapora göre durum istikrarlıymış.', 'According to the report the situation is stable.'),
+             ph('Man sollte Quellen immer überprüfen.', 'Kaynaklar her zaman kontrol edilmeli.', 'You should always check sources.'),
+             ph('Die Zeitung berichtet ausführlich über den Streik.', 'Gazete grevi ayrıntılı haberleştiriyor.', 'The newspaper reports on the strike in detail.'),
+             ph('Falschmeldungen verbreiten sich schnell.', 'Yalan haberler hızla yayılıyor.', 'Fake news spreads quickly.')]),
+    unit_b2(5, ['Gesundheit', 'Familie'], ('Sağlık ve aile', 'Health and family'),
+            ('Tahminde bulunur, olasılıkları dile getirir, sağlık konularını tartışırsın.', 'Make assumptions, express probability and discuss health topics.'),
+            [6, 7], ['b2-4'],
+            [ph('Er dürfte inzwischen zu Hause sein.', 'Şimdiye kadar evde olmalı.', 'He should be at home by now.'),
+             ph('Sie muss sehr müde gewesen sein.', 'Çok yorgun olmuş olmalı.', 'She must have been very tired.'),
+             ph('Bis nächstes Jahr wird sie ihr Studium abgeschlossen haben.', 'Seneye kadar okulunu bitirmiş olacak.', 'By next year she will have finished her studies.'),
+             ph('Stress wirkt sich auf die Gesundheit aus.', 'Stres sağlığı etkiler.', 'Stress affects your health.'),
+             ph('Familie und Beruf zu vereinbaren ist nicht leicht.', 'Aile ve işi bir arada yürütmek kolay değil.', 'Combining family and work is not easy.')]),
+    unit_b2(6, ['Umwelt', 'Verbrauch', 'Konsum'], ('Çevre ve tüketim', 'Environment and consumption'),
+            ('Tüketim alışkanlıklarını tartışır, koşul ve karşıtlık bildirirsin.', 'Discuss consumer habits and express conditions and contrasts.'),
+            [14, 16], ['b2-1'],
+            [ph('Sofern alle mitmachen, können wir viel erreichen.', 'Herkes katılırsa çok şey başarabiliriz.', 'Provided everyone joins in we can achieve a lot.'),
+             ph('Während ich wenig kaufe, kauft mein Bruder ständig Neues.', 'Ben az alırken kardeşim sürekli yeni şeyler alıyor.', 'While I buy little, my brother keeps buying new things.'),
+             ph('Statt neu zu kaufen, lasse ich Dinge reparieren.', 'Yenisini almak yerine eşyaları tamir ettiriyorum.', 'Instead of buying new I have things repaired.'),
+             ph('Er fährt Auto, ohne dass es nötig ist.', 'Gerek olmadan araba kullanıyor.', 'He drives without it being necessary.'),
+             ph('Nachhaltigkeit beginnt beim Einkaufen.', 'Sürdürülebilirlik alışverişte başlar.', 'Sustainability starts with shopping.')]),
+    unit_b2(7, ['Gesellschaft', 'Ehrenamt', 'Recht und Alltag'], ('Toplum ve haklar', 'Society and rights'),
+            ('Toplumsal konuları ve hakları tartışır, karmaşık cümleler kurarsın.', 'Discuss social issues and rights, build complex sentences.'),
+            [19, 20], ['b2-2'],
+            [ph('Wer sich engagiert, lernt viele Menschen kennen.', 'Gönüllü çalışan, birçok insanla tanışır.', 'Whoever gets involved meets lots of people.'),
+             ph('Es ist wichtig, dass jeder seine Rechte kennt.', 'Herkesin haklarını bilmesi önemli.', 'It is important that everyone knows their rights.'),
+             ph('Das ist etwas, worüber man sprechen sollte.', 'Bu, konuşulması gereken bir şey.', 'That is something one should talk about.'),
+             ph('Die Frau, deren Auto beschädigt wurde, rief die Polizei.', 'Arabası hasar gören kadın polisi aradı.', 'The woman whose car was damaged called the police.'),
+             ph('Ehrenamt stärkt den Zusammenhalt.', 'Gönüllülük dayanışmayı güçlendirir.', 'Volunteering strengthens cohesion.')]),
+    unit_b2(8, ['Finanzen', 'Wirtschaft', 'Service', 'Verwaltung'], ('Para, hizmetler ve kurumlar', 'Money, services and institutions'),
+            ('Bankada, kurumlarda ve müşteri hizmetlerinde resmî dille işini halledersin.', 'Deal with banks, offices and customer service in formal language.'),
+            [11, 8], ['b2-6'],
+            [ph('Aufgrund eines Fehlers wurde der Betrag doppelt abgebucht.', 'Bir hata nedeniyle tutar iki kez çekildi.', 'Due to an error the amount was debited twice.'),
+             ph('Ich bitte um eine schriftliche Bestätigung.', 'Yazılı bir onay rica ediyorum.', 'I request written confirmation.'),
+             ph('Hinsichtlich der Kosten habe ich noch eine Frage.', 'Masraflarla ilgili bir sorum daha var.', 'I have another question regarding the costs.'),
+             ph('Die Bearbeitung dauert etwa zwei Wochen.', 'İşlem yaklaşık iki hafta sürer.', 'Processing takes about two weeks.'),
+             ph('Ich möchte mein Konto kündigen.', 'Hesabımı kapatmak istiyorum.', 'I would like to close my account.')]),
+    unit_b2(9, ['Bildung', 'Wissenschaft'], ('Eğitim ve bilim', 'Education and science'),
+            ('Bilimsel sonuçları aktarır, eğitim üzerine tartışır, sunum yaparsın.', 'Report scientific results, discuss education and give presentations.'),
+            [9, 18], ['b2-3'],
+            [ph('Die Studie zeigt, dass Schlaf das Lernen verbessert.', 'Araştırma uykunun öğrenmeyi iyileştirdiğini gösteriyor.', 'The study shows that sleep improves learning.'),
+             ph('Ich beschäftige mich seit Jahren mit diesem Thema.', 'Yıllardır bu konuyla ilgileniyorum.', "I have been working on this topic for years."),
+             ph('Man ist nie zu alt, um etwas Neues zu lernen.', 'Yeni bir şey öğrenmek için asla çok yaşlı değilsin.', "You're never too old to learn something new."),
+             ph('Die Ergebnisse hängen von vielen Faktoren ab.', 'Sonuçlar birçok faktöre bağlı.', 'The results depend on many factors.'),
+             ph('Zusammenfassend lässt sich sagen, dass …', 'Özetle şunu söyleyebiliriz: …', 'In summary one can say that …')]),
+    unit_b2(10, ['Kultur', 'Freizeit', 'Reisen', 'Alltag'], ('Kültür ve deneyimler', 'Culture and experiences'),
+            ('Deneyimlerini ve pişmanlıklarını anlatır, karşılaştırmalar yaparsın.', 'Talk about experiences and regrets and make comparisons.'),
+            [1, 15, 17], ['b2-5'],
+            [ph('Hätte ich das gewusst, wäre ich früher gekommen.', 'Bunu bilseydim daha erken gelirdim.', 'If I had known that I would have come earlier.'),
+             ph('Er tut so, als ob er alles wüsste.', 'Her şeyi biliyormuş gibi davranıyor.', 'He acts as if he knew everything.'),
+             ph('Ich bin froh, die Reise gemacht zu haben.', 'Bu yolculuğu yapmış olduğuma seviniyorum.', "I'm glad to have made the trip."),
+             ph('Die Ausstellung hat mich tief beeindruckt.', 'Sergi beni derinden etkiledi.', 'The exhibition impressed me deeply.'),
+             ph('Das hätten wir besser planen sollen.', 'Bunu daha iyi planlamamız gerekirdi.', 'We should have planned that better.')]),
+]
+
+
 def fill_a2(units, level='a2'):
     """Texts of each unit's topic(s), and up to 18 words from their glossaries (nouns first)."""
     daily = json.load(open(os.path.join(REPO, 'Resources', 'content', f'daily_{level}.json'), encoding='utf-8'))['texts']
@@ -381,10 +474,18 @@ def main():
         assert set(u['writing']) <= writing, u['id']
         assert set(u['speaking']) <= speaking, u['id']
         assert len(u['phrases']) == 5
+    fill_a2(UNITS_B2, 'b2')
+    b2 = json.load(open(os.path.join(REPO, 'Resources', 'content', 'b2.json'), encoding='utf-8'))
+    b2_topics = {t['id'] for t in b2['grammar']}
+    for u in UNITS_B2:
+        assert set(u['grammar']) <= b2_topics, u['id']
+        assert set(u['writing']) <= writing, u['id']
+        assert set(u['speaking']) <= speaking, u['id']
+        assert len(u['phrases']) == 5
     with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
-        json.dump({'units': UNITS + UNITS_A2 + UNITS_B1}, f, ensure_ascii=False, indent=1)
+        json.dump({'units': UNITS + UNITS_A2 + UNITS_B1 + UNITS_B2}, f, ensure_ascii=False, indent=1)
         f.write('\n')
-    print(f'{len(UNITS)} A1 + {len(UNITS_A2)} A2 + {len(UNITS_B1)} B1 units -> {OUT}')
+    print(f'{len(UNITS)} A1 + {len(UNITS_A2)} A2 + {len(UNITS_B1)} B1 + {len(UNITS_B2)} B2 units -> {OUT}')
 
 
 if __name__ == '__main__':

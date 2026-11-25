@@ -4372,6 +4372,1646 @@
      "en": "to identify"
     }
    ]
+  },
+  {
+   "id": "b2-01",
+   "level": "B2",
+   "number": 1,
+   "title": {
+    "tr": "Çalışma dünyası",
+    "en": "The world of work"
+   },
+   "goal": {
+    "tr": "Çalışma koşullarını tartışır, gerekçeli görüş bildirir, resmî dille konuşursun.",
+    "en": "Discuss working conditions, argue your view and use formal language."
+   },
+   "cover": "unit-b2-01",
+   "themes": [],
+   "grammar": [
+    10,
+    12
+   ],
+   "texts": [
+    "b2-002",
+    "b2-004",
+    "b2-013",
+    "b2-024",
+    "b2-041",
+    "b2-049"
+   ],
+   "speaking": [
+    "b2-4"
+   ],
+   "writing": [
+    "b2-m2"
+   ],
+   "phrases": [
+    {
+     "de": "Wir müssen eine Entscheidung treffen.",
+     "tr": "Bir karar vermemiz gerekiyor.",
+     "en": "We have to make a decision."
+    },
+    {
+     "de": "Da die Aufträge zunehmen, brauchen wir mehr Personal.",
+     "tr": "Siparişler arttığı için daha fazla personele ihtiyacımız var.",
+     "en": "As orders are increasing we need more staff."
+    },
+    {
+     "de": "Ich möchte das Thema zur Sprache bringen.",
+     "tr": "Bu konuyu gündeme getirmek istiyorum.",
+     "en": "I would like to raise the subject."
+    },
+    {
+     "de": "Dennoch bin ich mit dem Ergebnis zufrieden.",
+     "tr": "Yine de sonuçtan memnunum.",
+     "en": "Nevertheless I'm happy with the result."
+    },
+    {
+     "de": "Die Vier-Tage-Woche steht zur Diskussion.",
+     "tr": "Dört günlük çalışma haftası tartışılıyor.",
+     "en": "The four-day week is under discussion."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Modellversuch",
+     "art": "der",
+     "tr": "deneme uygulaması",
+     "en": "pilot project"
+    },
+    {
+     "de": "Aussicht",
+     "art": "die",
+     "tr": "beklenti, olasılık",
+     "en": "prospect"
+    },
+    {
+     "de": "Ansprechpartner",
+     "art": "der",
+     "tr": "irtibat kişisi",
+     "en": "contact person"
+    },
+    {
+     "de": "Überstunde",
+     "art": "die",
+     "tr": "fazla mesai",
+     "en": "hour of overtime"
+    },
+    {
+     "de": "Verteilung",
+     "art": "die",
+     "tr": "dağılım",
+     "en": "distribution"
+    },
+    {
+     "de": "Handbuch",
+     "art": "das",
+     "tr": "el kitabı",
+     "en": "handbook"
+    },
+    {
+     "de": "Arbeitsablauf",
+     "art": "der",
+     "tr": "iş akışı",
+     "en": "workflow"
+    },
+    {
+     "de": "Ausnahme",
+     "art": "die",
+     "tr": "istisna",
+     "en": "exception"
+    },
+    {
+     "de": "Fassung",
+     "art": "die",
+     "tr": "sürüm",
+     "en": "version"
+    },
+    {
+     "de": "Einarbeitung",
+     "art": "die",
+     "tr": "işe alıştırma",
+     "en": "onboarding"
+    },
+    {
+     "de": "Zusage",
+     "art": "die",
+     "tr": "onay, taahhüt",
+     "en": "commitment"
+    },
+    {
+     "de": "Abschrift",
+     "art": "die",
+     "tr": "yazılı döküm",
+     "en": "transcript"
+    },
+    {
+     "de": "unverändert",
+     "tr": "değişmeden",
+     "en": "unchanged"
+    },
+    {
+     "de": "erfassen",
+     "tr": "kaydetmek",
+     "en": "to record"
+    },
+    {
+     "de": "erfordern",
+     "tr": "gerektirmek",
+     "en": "to require"
+    },
+    {
+     "de": "nachträglich",
+     "tr": "sonradan",
+     "en": "after the fact"
+    },
+    {
+     "de": "nachvollziehbar",
+     "tr": "izlenebilir",
+     "en": "traceable"
+    },
+    {
+     "de": "vorliegen",
+     "tr": "hazır bulunmak",
+     "en": "to be available"
+    }
+   ]
+  },
+  {
+   "id": "b2-02",
+   "level": "B2",
+   "number": 2,
+   "title": {
+    "tr": "Şehir ve ulaşım",
+    "en": "City and transport"
+   },
+   "goal": {
+    "tr": "Şehir planlamasını ve ulaşımı tartışır, durumları ve olanakları anlatırsın.",
+    "en": "Discuss urban planning and transport, describe states and possibilities."
+   },
+   "cover": "unit-b2-02",
+   "themes": [],
+   "grammar": [
+    3,
+    4
+   ],
+   "texts": [
+    "b2-003",
+    "b2-008",
+    "b2-012",
+    "b2-038",
+    "b2-052",
+    "b2-057"
+   ],
+   "speaking": [
+    "b2-1"
+   ],
+   "writing": [
+    "b2-m1"
+   ],
+   "phrases": [
+    {
+     "de": "Die Straße ist seit Montag gesperrt.",
+     "tr": "Yol pazartesiden beri kapalı.",
+     "en": "The road has been closed since Monday."
+    },
+    {
+     "de": "Das Problem lässt sich leicht lösen.",
+     "tr": "Sorun kolayca çözülebilir.",
+     "en": "The problem can be solved easily."
+    },
+    {
+     "de": "Die Mieten sind kaum noch bezahlbar.",
+     "tr": "Kiralar artık neredeyse ödenemez halde.",
+     "en": "Rents are hardly affordable any more."
+    },
+    {
+     "de": "Der Antrag ist bis Freitag einzureichen.",
+     "tr": "Başvuru cuma gününe kadar teslim edilmeli.",
+     "en": "The application must be submitted by Friday."
+    },
+    {
+     "de": "Eine autofreie Innenstadt wäre lebenswerter.",
+     "tr": "Arabasız bir şehir merkezi daha yaşanabilir olurdu.",
+     "en": "A car-free city centre would be more liveable."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Stellplatz",
+     "art": "der",
+     "tr": "park yeri",
+     "en": "parking space"
+    },
+    {
+     "de": "Pflanzkübel",
+     "art": "der",
+     "tr": "büyük bitki saksısı",
+     "en": "planter"
+    },
+    {
+     "de": "Vorbehalt",
+     "art": "der",
+     "tr": "çekince",
+     "en": "reservation"
+    },
+    {
+     "de": "Verteiler",
+     "art": "der",
+     "tr": "dağıtım listesi",
+     "en": "mailing list"
+    },
+    {
+     "de": "Doppelbuchung",
+     "art": "die",
+     "tr": "çifte rezervasyon",
+     "en": "double booking"
+    },
+    {
+     "de": "Leitstelle",
+     "art": "die",
+     "tr": "kontrol merkezi",
+     "en": "control center"
+    },
+    {
+     "de": "Unterführung",
+     "art": "die",
+     "tr": "alt geçit",
+     "en": "underpass"
+    },
+    {
+     "de": "Durchsage",
+     "art": "die",
+     "tr": "anons",
+     "en": "announcement"
+    },
+    {
+     "de": "Zugang",
+     "art": "der",
+     "tr": "giriş noktası",
+     "en": "access point"
+    },
+    {
+     "de": "Wortlaut",
+     "art": "der",
+     "tr": "ifadenin tam metni",
+     "en": "wording"
+    },
+    {
+     "de": "Bucht",
+     "art": "die",
+     "tr": "otobüs cebi",
+     "en": "bus bay"
+    },
+    {
+     "de": "Begehung",
+     "art": "die",
+     "tr": "yerinde inceleme",
+     "en": "site visit"
+    },
+    {
+     "de": "umstritten",
+     "tr": "tartışmalı",
+     "en": "controversial"
+    },
+    {
+     "de": "freihalten",
+     "tr": "boş tutmak",
+     "en": "to keep clear"
+    },
+    {
+     "de": "ausweichen",
+     "tr": "başka yöne sapmak",
+     "en": "to move aside"
+    },
+    {
+     "de": "provisorisch",
+     "tr": "geçici",
+     "en": "temporary"
+    },
+    {
+     "de": "einholen",
+     "tr": "görüş veya bilgi almak",
+     "en": "to obtain"
+    },
+    {
+     "de": "unleserlich",
+     "tr": "okunaksız",
+     "en": "illegible"
+    }
+   ]
+  },
+  {
+   "id": "b2-03",
+   "level": "B2",
+   "number": 3,
+   "title": {
+    "tr": "Dijital dünya ve teknoloji",
+    "en": "Digital world and technology"
+   },
+   "goal": {
+    "tr": "Teknolojiyi ve etkilerini tartışır, bir şeyin nasıl yapıldığını açıklarsın.",
+    "en": "Discuss technology and its effects, explain how something is done."
+   },
+   "cover": "unit-b2-03",
+   "themes": [],
+   "grammar": [
+    13,
+    5
+   ],
+   "texts": [
+    "b2-001",
+    "b2-018",
+    "b2-032",
+    "b2-043",
+    "b2-054"
+   ],
+   "speaking": [
+    "b2-2"
+   ],
+   "writing": [
+    "b2-m3"
+   ],
+   "phrases": [
+    {
+     "de": "Indem man Updates installiert, schützt man seine Daten.",
+     "tr": "Güncellemeleri yükleyerek verilerini korursun.",
+     "en": "By installing updates you protect your data."
+    },
+    {
+     "de": "Die neu entwickelte App spart viel Zeit.",
+     "tr": "Yeni geliştirilen uygulama çok zaman kazandırıyor.",
+     "en": "The newly developed app saves a lot of time."
+    },
+    {
+     "de": "Dadurch, dass alles digital ist, geht es schneller.",
+     "tr": "Her şey dijital olduğu için daha hızlı gidiyor.",
+     "en": "Because everything is digital it is faster."
+    },
+    {
+     "de": "Künstliche Intelligenz verändert viele Berufe.",
+     "tr": "Yapay zekâ birçok mesleği değiştiriyor.",
+     "en": "Artificial intelligence is changing many jobs."
+    },
+    {
+     "de": "Der Datenschutz wird oft unterschätzt.",
+     "tr": "Veri koruma çoğu zaman hafife alınıyor.",
+     "en": "Data protection is often underestimated."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Terminvergabe",
+     "art": "die",
+     "tr": "randevu verme",
+     "en": "appointment scheduling"
+    },
+    {
+     "de": "Antrag",
+     "art": "der",
+     "tr": "başvuru",
+     "en": "application"
+    },
+    {
+     "de": "Auswertung",
+     "art": "die",
+     "tr": "değerlendirme",
+     "en": "analysis"
+    },
+    {
+     "de": "Befragung",
+     "art": "die",
+     "tr": "anket",
+     "en": "survey"
+    },
+    {
+     "de": "Empfang",
+     "art": "der",
+     "tr": "telefon sinyali",
+     "en": "reception"
+    },
+    {
+     "de": "Fehlermeldung",
+     "art": "die",
+     "tr": "hata mesajı",
+     "en": "error message"
+    },
+    {
+     "de": "Flugmodus",
+     "art": "der",
+     "tr": "uçak modu",
+     "en": "airplane mode"
+    },
+    {
+     "de": "Tempo",
+     "art": "das",
+     "tr": "hız",
+     "en": "pace"
+    },
+    {
+     "de": "Suchanfrage",
+     "art": "die",
+     "tr": "arama sorgusu",
+     "en": "search query"
+    },
+    {
+     "de": "Fachbegriff",
+     "art": "der",
+     "tr": "uzmanlık terimi",
+     "en": "technical term"
+    },
+    {
+     "de": "Treffer",
+     "art": "der",
+     "tr": "eşleşen sonuç",
+     "en": "match"
+    },
+    {
+     "de": "Einweisung",
+     "art": "die",
+     "tr": "kullanıma ilişkin eğitim",
+     "en": "instruction"
+    },
+    {
+     "de": "scheitern",
+     "tr": "başaramamak",
+     "en": "to fail"
+    },
+    {
+     "de": "beibehalten",
+     "tr": "sürdürmek",
+     "en": "to retain"
+    },
+    {
+     "de": "abbrechen",
+     "tr": "yarıda bırakmak",
+     "en": "to discontinue"
+    },
+    {
+     "de": "dauerhaft",
+     "tr": "kalıcı olarak",
+     "en": "permanently"
+    },
+    {
+     "de": "abrufen",
+     "tr": "erişip almak",
+     "en": "to retrieve"
+    },
+    {
+     "de": "extern",
+     "tr": "harici",
+     "en": "external"
+    }
+   ]
+  },
+  {
+   "id": "b2-04",
+   "level": "B2",
+   "number": 4,
+   "title": {
+    "tr": "Medya ve haberler",
+    "en": "Media and news"
+   },
+   "goal": {
+    "tr": "Haberleri dolaylı anlatımla aktarır, kaynakları eleştirel değerlendirirsin.",
+    "en": "Report news in indirect speech and judge sources critically."
+   },
+   "cover": "unit-b2-04",
+   "themes": [],
+   "grammar": [
+    2
+   ],
+   "texts": [
+    "b2-009",
+    "b2-035",
+    "b2-047",
+    "b2-059"
+   ],
+   "speaking": [
+    "b2-2"
+   ],
+   "writing": [
+    "b2-m1"
+   ],
+   "phrases": [
+    {
+     "de": "Der Minister sagte, er habe davon nichts gewusst.",
+     "tr": "Bakan bundan haberi olmadığını söyledi.",
+     "en": "The minister said he had known nothing about it."
+    },
+    {
+     "de": "Laut Bericht sei die Lage stabil.",
+     "tr": "Rapora göre durum istikrarlıymış.",
+     "en": "According to the report the situation is stable."
+    },
+    {
+     "de": "Man sollte Quellen immer überprüfen.",
+     "tr": "Kaynaklar her zaman kontrol edilmeli.",
+     "en": "You should always check sources."
+    },
+    {
+     "de": "Die Zeitung berichtet ausführlich über den Streik.",
+     "tr": "Gazete grevi ayrıntılı haberleştiriyor.",
+     "en": "The newspaper reports on the strike in detail."
+    },
+    {
+     "de": "Falschmeldungen verbreiten sich schnell.",
+     "tr": "Yalan haberler hızla yayılıyor.",
+     "en": "Fake news spreads quickly."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Jubiläum",
+     "art": "das",
+     "tr": "yıl dönümü",
+     "en": "anniversary"
+    },
+    {
+     "de": "Bildunterschrift",
+     "art": "die",
+     "tr": "fotoğraf altyazısı",
+     "en": "photo caption"
+    },
+    {
+     "de": "Abzug",
+     "art": "der",
+     "tr": "fotoğraf baskısı",
+     "en": "photographic print"
+    },
+    {
+     "de": "Zeitungsarchiv",
+     "art": "das",
+     "tr": "gazete arşivi",
+     "en": "newspaper archive"
+    },
+    {
+     "de": "Sammelstelle",
+     "art": "die",
+     "tr": "toplama noktası",
+     "en": "collection point"
+    },
+    {
+     "de": "Vermutung",
+     "art": "die",
+     "tr": "tahmin",
+     "en": "supposition"
+    },
+    {
+     "de": "Schülerredaktion",
+     "art": "die",
+     "tr": "okul gazetesi yayın ekibi",
+     "en": "student newsroom"
+    },
+    {
+     "de": "Ausgabe",
+     "art": "die",
+     "tr": "dağıtım",
+     "en": "serving"
+    },
+    {
+     "de": "Erscheinen",
+     "art": "das",
+     "tr": "yayımlanma",
+     "en": "publication"
+    },
+    {
+     "de": "Fotostrecke",
+     "art": "die",
+     "tr": "fotoğraf dizisi",
+     "en": "photo feature"
+    },
+    {
+     "de": "Durchgang",
+     "art": "der",
+     "tr": "geçit",
+     "en": "passage"
+    },
+    {
+     "de": "Baumaterial",
+     "art": "das",
+     "tr": "yapı malzemesi",
+     "en": "building material"
+    },
+    {
+     "de": "belegen",
+     "tr": "belgelemek",
+     "en": "to substantiate"
+    },
+    {
+     "de": "berichtigen",
+     "tr": "düzeltmek",
+     "en": "to correct"
+    },
+    {
+     "de": "ablehnen",
+     "tr": "reddetmek",
+     "en": "to reject"
+    },
+    {
+     "de": "ursprünglich",
+     "tr": "başlangıçta",
+     "en": "originally"
+    },
+    {
+     "de": "zugespitzt",
+     "tr": "çarpıcı biçimde sivriltilmiş",
+     "en": "provocative"
+    },
+    {
+     "de": "sich übertragen lassen",
+     "tr": "genellenebilmek",
+     "en": "can be generalized"
+    }
+   ]
+  },
+  {
+   "id": "b2-05",
+   "level": "B2",
+   "number": 5,
+   "title": {
+    "tr": "Sağlık ve aile",
+    "en": "Health and family"
+   },
+   "goal": {
+    "tr": "Tahminde bulunur, olasılıkları dile getirir, sağlık konularını tartışırsın.",
+    "en": "Make assumptions, express probability and discuss health topics."
+   },
+   "cover": "unit-b2-05",
+   "themes": [],
+   "grammar": [
+    6,
+    7
+   ],
+   "texts": [
+    "b2-015",
+    "b2-021",
+    "b2-030",
+    "b2-046",
+    "b2-058"
+   ],
+   "speaking": [
+    "b2-4"
+   ],
+   "writing": [
+    "b2-m2"
+   ],
+   "phrases": [
+    {
+     "de": "Er dürfte inzwischen zu Hause sein.",
+     "tr": "Şimdiye kadar evde olmalı.",
+     "en": "He should be at home by now."
+    },
+    {
+     "de": "Sie muss sehr müde gewesen sein.",
+     "tr": "Çok yorgun olmuş olmalı.",
+     "en": "She must have been very tired."
+    },
+    {
+     "de": "Bis nächstes Jahr wird sie ihr Studium abgeschlossen haben.",
+     "tr": "Seneye kadar okulunu bitirmiş olacak.",
+     "en": "By next year she will have finished her studies."
+    },
+    {
+     "de": "Stress wirkt sich auf die Gesundheit aus.",
+     "tr": "Stres sağlığı etkiler.",
+     "en": "Stress affects your health."
+    },
+    {
+     "de": "Familie und Beruf zu vereinbaren ist nicht leicht.",
+     "tr": "Aile ve işi bir arada yürütmek kolay değil.",
+     "en": "Combining family and work is not easy."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Überweisung",
+     "art": "die",
+     "tr": "sevk belgesi",
+     "en": "referral"
+    },
+    {
+     "de": "Rückfrage",
+     "art": "die",
+     "tr": "ek soru",
+     "en": "follow-up question"
+    },
+    {
+     "de": "Krankenkasse",
+     "art": "die",
+     "tr": "sağlık sigortası kurumu",
+     "en": "health insurer"
+    },
+    {
+     "de": "Folgetermin",
+     "art": "der",
+     "tr": "takip randevusu",
+     "en": "follow-up appointment"
+    },
+    {
+     "de": "Anforderung",
+     "art": "die",
+     "tr": "gereklilik",
+     "en": "requirement"
+    },
+    {
+     "de": "Tonband",
+     "art": "das",
+     "tr": "ses bandı",
+     "en": "audio tape"
+    },
+    {
+     "de": "Weitergabe",
+     "art": "die",
+     "tr": "paylaşma",
+     "en": "sharing"
+    },
+    {
+     "de": "Abschnitt",
+     "art": "der",
+     "tr": "bölüm",
+     "en": "section"
+    },
+    {
+     "de": "Schrittzähler",
+     "art": "der",
+     "tr": "adım sayacı",
+     "en": "pedometer"
+    },
+    {
+     "de": "Wettbewerb",
+     "art": "der",
+     "tr": "yarışma",
+     "en": "competition"
+    },
+    {
+     "de": "Abschlussbesprechung",
+     "art": "die",
+     "tr": "son görüşme",
+     "en": "final meeting"
+    },
+    {
+     "de": "Anliegen",
+     "art": "das",
+     "tr": "danışma konusu",
+     "en": "concern"
+    },
+    {
+     "de": "erforderlich",
+     "tr": "gerekli",
+     "en": "required"
+    },
+    {
+     "de": "verwechseln",
+     "tr": "karıştırmak",
+     "en": "to confuse"
+    },
+    {
+     "de": "zögern",
+     "tr": "tereddüt etmek",
+     "en": "to hesitate"
+    },
+    {
+     "de": "aufzeichnen",
+     "tr": "kaydetmek",
+     "en": "to record"
+    },
+    {
+     "de": "digitalisieren",
+     "tr": "dijital ortama aktarmak",
+     "en": "to digitize"
+    },
+    {
+     "de": "übervorsichtig",
+     "tr": "fazla temkinli",
+     "en": "overcautious"
+    }
+   ]
+  },
+  {
+   "id": "b2-06",
+   "level": "B2",
+   "number": 6,
+   "title": {
+    "tr": "Çevre ve tüketim",
+    "en": "Environment and consumption"
+   },
+   "goal": {
+    "tr": "Tüketim alışkanlıklarını tartışır, koşul ve karşıtlık bildirirsin.",
+    "en": "Discuss consumer habits and express conditions and contrasts."
+   },
+   "cover": "unit-b2-06",
+   "themes": [],
+   "grammar": [
+    14,
+    16
+   ],
+   "texts": [
+    "b2-005",
+    "b2-011",
+    "b2-014",
+    "b2-034",
+    "b2-042",
+    "b2-060"
+   ],
+   "speaking": [
+    "b2-1"
+   ],
+   "writing": [
+    "b2-m1"
+   ],
+   "phrases": [
+    {
+     "de": "Sofern alle mitmachen, können wir viel erreichen.",
+     "tr": "Herkes katılırsa çok şey başarabiliriz.",
+     "en": "Provided everyone joins in we can achieve a lot."
+    },
+    {
+     "de": "Während ich wenig kaufe, kauft mein Bruder ständig Neues.",
+     "tr": "Ben az alırken kardeşim sürekli yeni şeyler alıyor.",
+     "en": "While I buy little, my brother keeps buying new things."
+    },
+    {
+     "de": "Statt neu zu kaufen, lasse ich Dinge reparieren.",
+     "tr": "Yenisini almak yerine eşyaları tamir ettiriyorum.",
+     "en": "Instead of buying new I have things repaired."
+    },
+    {
+     "de": "Er fährt Auto, ohne dass es nötig ist.",
+     "tr": "Gerek olmadan araba kullanıyor.",
+     "en": "He drives without it being necessary."
+    },
+    {
+     "de": "Nachhaltigkeit beginnt beim Einkaufen.",
+     "tr": "Sürdürülebilirlik alışverişte başlar.",
+     "en": "Sustainability starts with shopping."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Zufahrt",
+     "art": "die",
+     "tr": "araç girişi",
+     "en": "driveway"
+    },
+    {
+     "de": "Mulde",
+     "art": "die",
+     "tr": "sığ çukur",
+     "en": "shallow basin"
+    },
+    {
+     "de": "Wasserstand",
+     "art": "der",
+     "tr": "su seviyesi",
+     "en": "water level"
+    },
+    {
+     "de": "Genossenschaft",
+     "art": "die",
+     "tr": "kooperatif",
+     "en": "cooperative"
+    },
+    {
+     "de": "Kundschaft",
+     "art": "die",
+     "tr": "müşteri kitlesi",
+     "en": "customers"
+    },
+    {
+     "de": "Aufwand",
+     "art": "der",
+     "tr": "harcanan emek",
+     "en": "effort"
+    },
+    {
+     "de": "Rundbrief",
+     "art": "der",
+     "tr": "genel bülten",
+     "en": "newsletter"
+    },
+    {
+     "de": "Naht",
+     "art": "die",
+     "tr": "dikiş",
+     "en": "seam"
+    },
+    {
+     "de": "Reißverschluss",
+     "art": "der",
+     "tr": "fermuar",
+     "en": "zipper"
+    },
+    {
+     "de": "Wasserdichtigkeit",
+     "art": "die",
+     "tr": "su geçirmezlik",
+     "en": "waterproofing"
+    },
+    {
+     "de": "Gebrauchsspur",
+     "art": "die",
+     "tr": "kullanım izi",
+     "en": "sign of wear"
+    },
+    {
+     "de": "Betriebsleitung",
+     "art": "die",
+     "tr": "işletme yönetimi",
+     "en": "management"
+    },
+    {
+     "de": "abschüssig",
+     "tr": "eğimli",
+     "en": "sloping"
+    },
+    {
+     "de": "versickern",
+     "tr": "toprağa sızmak",
+     "en": "to soak into soil"
+    },
+    {
+     "de": "entsiegeln",
+     "tr": "geçirimsiz zemin kaplamasını kaldırmak",
+     "en": "to remove impermeable paving"
+    },
+    {
+     "de": "angrenzend",
+     "tr": "bitişik",
+     "en": "adjoining"
+    },
+    {
+     "de": "herausnehmbar",
+     "tr": "çıkarılabilir",
+     "en": "removable"
+    },
+    {
+     "de": "angesichts",
+     "tr": "karşısında, göz önüne alındığında",
+     "en": "given"
+    }
+   ]
+  },
+  {
+   "id": "b2-07",
+   "level": "B2",
+   "number": 7,
+   "title": {
+    "tr": "Toplum ve haklar",
+    "en": "Society and rights"
+   },
+   "goal": {
+    "tr": "Toplumsal konuları ve hakları tartışır, karmaşık cümleler kurarsın.",
+    "en": "Discuss social issues and rights, build complex sentences."
+   },
+   "cover": "unit-b2-07",
+   "themes": [],
+   "grammar": [
+    19,
+    20
+   ],
+   "texts": [
+    "b2-006",
+    "b2-020",
+    "b2-033",
+    "b2-050",
+    "b2-053",
+    "b2-055"
+   ],
+   "speaking": [
+    "b2-2"
+   ],
+   "writing": [
+    "b2-m3"
+   ],
+   "phrases": [
+    {
+     "de": "Wer sich engagiert, lernt viele Menschen kennen.",
+     "tr": "Gönüllü çalışan, birçok insanla tanışır.",
+     "en": "Whoever gets involved meets lots of people."
+    },
+    {
+     "de": "Es ist wichtig, dass jeder seine Rechte kennt.",
+     "tr": "Herkesin haklarını bilmesi önemli.",
+     "en": "It is important that everyone knows their rights."
+    },
+    {
+     "de": "Das ist etwas, worüber man sprechen sollte.",
+     "tr": "Bu, konuşulması gereken bir şey.",
+     "en": "That is something one should talk about."
+    },
+    {
+     "de": "Die Frau, deren Auto beschädigt wurde, rief die Polizei.",
+     "tr": "Arabası hasar gören kadın polisi aradı.",
+     "en": "The woman whose car was damaged called the police."
+    },
+    {
+     "de": "Ehrenamt stärkt den Zusammenhalt.",
+     "tr": "Gönüllülük dayanışmayı güçlendirir.",
+     "en": "Volunteering strengthens cohesion."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Zeitfenster",
+     "art": "das",
+     "tr": "saat aralığı",
+     "en": "time slot"
+    },
+    {
+     "de": "Andrang",
+     "art": "der",
+     "tr": "yoğun talep, kalabalık",
+     "en": "high demand"
+    },
+    {
+     "de": "Eigentümerin",
+     "art": "die",
+     "tr": "mülk sahibi",
+     "en": "property owner"
+    },
+    {
+     "de": "Pflege",
+     "art": "die",
+     "tr": "bakım",
+     "en": "maintenance"
+    },
+    {
+     "de": "Verpflichtung",
+     "art": "die",
+     "tr": "yükümlülük",
+     "en": "commitment"
+    },
+    {
+     "de": "Ortschaft",
+     "art": "die",
+     "tr": "yerleşim yeri",
+     "en": "locality"
+    },
+    {
+     "de": "Begehung",
+     "art": "die",
+     "tr": "yerinde inceleme",
+     "en": "walk-through"
+    },
+    {
+     "de": "Höchstzahl",
+     "art": "die",
+     "tr": "üst sayı sınırı",
+     "en": "maximum number"
+    },
+    {
+     "de": "Mengenbegrenzung",
+     "art": "die",
+     "tr": "miktar sınırlaması",
+     "en": "quantity limit"
+    },
+    {
+     "de": "Untertasse",
+     "art": "die",
+     "tr": "fincan tabağı",
+     "en": "saucer"
+    },
+    {
+     "de": "Warteliste",
+     "art": "die",
+     "tr": "bekleme listesi",
+     "en": "waiting list"
+    },
+    {
+     "de": "Zuordnung",
+     "art": "die",
+     "tr": "gruplara ayırma",
+     "en": "assignment"
+    },
+    {
+     "de": "ehrenamtlich",
+     "tr": "gönüllü olarak",
+     "en": "voluntary"
+    },
+    {
+     "de": "vorab",
+     "tr": "önceden",
+     "en": "in advance"
+    },
+    {
+     "de": "sichten",
+     "tr": "gözden geçirmek",
+     "en": "to inspect"
+    },
+    {
+     "de": "zuweisen",
+     "tr": "yönlendirmek, tahsis etmek",
+     "en": "to assign"
+    },
+    {
+     "de": "vermerken",
+     "tr": "not etmek",
+     "en": "to note down"
+    },
+    {
+     "de": "vorzeitig",
+     "tr": "erken, zamanından önce",
+     "en": "early"
+    }
+   ]
+  },
+  {
+   "id": "b2-08",
+   "level": "B2",
+   "number": 8,
+   "title": {
+    "tr": "Para, hizmetler ve kurumlar",
+    "en": "Money, services and institutions"
+   },
+   "goal": {
+    "tr": "Bankada, kurumlarda ve müşteri hizmetlerinde resmî dille işini halledersin.",
+    "en": "Deal with banks, offices and customer service in formal language."
+   },
+   "cover": "unit-b2-08",
+   "themes": [],
+   "grammar": [
+    11,
+    8
+   ],
+   "texts": [
+    "b2-016",
+    "b2-019",
+    "b2-022",
+    "b2-028",
+    "b2-029",
+    "b2-037",
+    "b2-044",
+    "b2-045"
+   ],
+   "speaking": [
+    "b2-6"
+   ],
+   "writing": [
+    "b2-m3"
+   ],
+   "phrases": [
+    {
+     "de": "Aufgrund eines Fehlers wurde der Betrag doppelt abgebucht.",
+     "tr": "Bir hata nedeniyle tutar iki kez çekildi.",
+     "en": "Due to an error the amount was debited twice."
+    },
+    {
+     "de": "Ich bitte um eine schriftliche Bestätigung.",
+     "tr": "Yazılı bir onay rica ediyorum.",
+     "en": "I request written confirmation."
+    },
+    {
+     "de": "Hinsichtlich der Kosten habe ich noch eine Frage.",
+     "tr": "Masraflarla ilgili bir sorum daha var.",
+     "en": "I have another question regarding the costs."
+    },
+    {
+     "de": "Die Bearbeitung dauert etwa zwei Wochen.",
+     "tr": "İşlem yaklaşık iki hafta sürer.",
+     "en": "Processing takes about two weeks."
+    },
+    {
+     "de": "Ich möchte mein Konto kündigen.",
+     "tr": "Hesabımı kapatmak istiyorum.",
+     "en": "I would like to close my account."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Abrechnungszeitraum",
+     "art": "der",
+     "tr": "hesap dönemi",
+     "en": "billing period"
+    },
+    {
+     "de": "Aufstellung",
+     "art": "die",
+     "tr": "kalem kalem döküm",
+     "en": "itemized breakdown"
+    },
+    {
+     "de": "Übergabeprotokoll",
+     "art": "das",
+     "tr": "teslim tutanağı",
+     "en": "handover record"
+    },
+    {
+     "de": "Zählerstand",
+     "art": "der",
+     "tr": "sayaç değeri",
+     "en": "meter reading"
+    },
+    {
+     "de": "Anlage",
+     "art": "die",
+     "tr": "ek belge",
+     "en": "attachment"
+    },
+    {
+     "de": "Ursache",
+     "art": "die",
+     "tr": "neden",
+     "en": "cause"
+    },
+    {
+     "de": "Bremsbelag",
+     "art": "der",
+     "tr": "fren balatası",
+     "en": "brake pad"
+    },
+    {
+     "de": "Anzeichen",
+     "art": "das",
+     "tr": "belirti",
+     "en": "sign"
+    },
+    {
+     "de": "Sichtprüfung",
+     "art": "die",
+     "tr": "gözle kontrol",
+     "en": "visual inspection"
+    },
+    {
+     "de": "Abweichung",
+     "art": "die",
+     "tr": "fark, sapma",
+     "en": "discrepancy"
+    },
+    {
+     "de": "Halterung",
+     "art": "die",
+     "tr": "tutucu parça",
+     "en": "bracket"
+    },
+    {
+     "de": "Vorgang",
+     "art": "der",
+     "tr": "işlem dosyası",
+     "en": "case file"
+    },
+    {
+     "de": "abgleichen",
+     "tr": "karşılaştırıp doğrulamak",
+     "en": "to check against"
+    },
+    {
+     "de": "verbuchen",
+     "tr": "hesaba kaydetmek",
+     "en": "to post a payment"
+    },
+    {
+     "de": "griffbereit",
+     "tr": "el altında",
+     "en": "to hand"
+    },
+    {
+     "de": "vorsichtshalber",
+     "tr": "tedbir olarak",
+     "en": "as a precaution"
+    },
+    {
+     "de": "vermeintlich",
+     "tr": "öyle sanılan",
+     "en": "supposed"
+    },
+    {
+     "de": "ungültig",
+     "tr": "geçersiz",
+     "en": "invalid"
+    }
+   ]
+  },
+  {
+   "id": "b2-09",
+   "level": "B2",
+   "number": 9,
+   "title": {
+    "tr": "Eğitim ve bilim",
+    "en": "Education and science"
+   },
+   "goal": {
+    "tr": "Bilimsel sonuçları aktarır, eğitim üzerine tartışır, sunum yaparsın.",
+    "en": "Report scientific results, discuss education and give presentations."
+   },
+   "cover": "unit-b2-09",
+   "themes": [],
+   "grammar": [
+    9,
+    18
+   ],
+   "texts": [
+    "b2-010",
+    "b2-023",
+    "b2-027",
+    "b2-036",
+    "b2-040",
+    "b2-056"
+   ],
+   "speaking": [
+    "b2-3"
+   ],
+   "writing": [
+    "b2-m4"
+   ],
+   "phrases": [
+    {
+     "de": "Die Studie zeigt, dass Schlaf das Lernen verbessert.",
+     "tr": "Araştırma uykunun öğrenmeyi iyileştirdiğini gösteriyor.",
+     "en": "The study shows that sleep improves learning."
+    },
+    {
+     "de": "Ich beschäftige mich seit Jahren mit diesem Thema.",
+     "tr": "Yıllardır bu konuyla ilgileniyorum.",
+     "en": "I have been working on this topic for years."
+    },
+    {
+     "de": "Man ist nie zu alt, um etwas Neues zu lernen.",
+     "tr": "Yeni bir şey öğrenmek için asla çok yaşlı değilsin.",
+     "en": "You're never too old to learn something new."
+    },
+    {
+     "de": "Die Ergebnisse hängen von vielen Faktoren ab.",
+     "tr": "Sonuçlar birçok faktöre bağlı.",
+     "en": "The results depend on many factors."
+    },
+    {
+     "de": "Zusammenfassend lässt sich sagen, dass …",
+     "tr": "Özetle şunu söyleyebiliriz: …",
+     "en": "In summary one can say that …"
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Standpunkt",
+     "art": "der",
+     "tr": "bakış açısı",
+     "en": "position"
+    },
+    {
+     "de": "Einwand",
+     "art": "der",
+     "tr": "itiraz",
+     "en": "objection"
+    },
+    {
+     "de": "Rückmeldung",
+     "art": "die",
+     "tr": "geri bildirim",
+     "en": "feedback"
+    },
+    {
+     "de": "Behauptung",
+     "art": "die",
+     "tr": "iddia",
+     "en": "claim"
+    },
+    {
+     "de": "Rückfrage",
+     "art": "die",
+     "tr": "açıklayıcı takip sorusu",
+     "en": "follow-up question"
+    },
+    {
+     "de": "Ablauf",
+     "art": "der",
+     "tr": "işleyiş, süreç",
+     "en": "procedure"
+    },
+    {
+     "de": "Messpunkt",
+     "art": "der",
+     "tr": "ölçüm noktası",
+     "en": "measurement point"
+    },
+    {
+     "de": "Vorgehensweise",
+     "art": "die",
+     "tr": "izlenen yöntem",
+     "en": "procedure"
+    },
+    {
+     "de": "Unterstand",
+     "art": "der",
+     "tr": "gölgelik, korunak",
+     "en": "shelter"
+    },
+    {
+     "de": "Standort",
+     "art": "der",
+     "tr": "konum",
+     "en": "location"
+    },
+    {
+     "de": "Versuchsgelände",
+     "art": "das",
+     "tr": "deney alanı",
+     "en": "research site"
+    },
+    {
+     "de": "Geräteschuppen",
+     "art": "der",
+     "tr": "alet kulübesi",
+     "en": "tool shed"
+    },
+    {
+     "de": "sich blamieren",
+     "tr": "mahcup olmak",
+     "en": "to embarrass oneself"
+    },
+    {
+     "de": "verzichten",
+     "tr": "vazgeçmek",
+     "en": "to dispense with"
+    },
+    {
+     "de": "sich erwärmen",
+     "tr": "ısınmak",
+     "en": "to heat up"
+    },
+    {
+     "de": "sich stauen",
+     "tr": "birikmek",
+     "en": "to build up"
+    },
+    {
+     "de": "einheitlich",
+     "tr": "tek tip",
+     "en": "uniform"
+    },
+    {
+     "de": "berücksichtigen",
+     "tr": "dikkate almak",
+     "en": "to take into account"
+    }
+   ]
+  },
+  {
+   "id": "b2-10",
+   "level": "B2",
+   "number": 10,
+   "title": {
+    "tr": "Kültür ve deneyimler",
+    "en": "Culture and experiences"
+   },
+   "goal": {
+    "tr": "Deneyimlerini ve pişmanlıklarını anlatır, karşılaştırmalar yaparsın.",
+    "en": "Talk about experiences and regrets and make comparisons."
+   },
+   "cover": "unit-b2-10",
+   "themes": [],
+   "grammar": [
+    1,
+    15,
+    17
+   ],
+   "texts": [
+    "b2-007",
+    "b2-017",
+    "b2-025",
+    "b2-026",
+    "b2-031",
+    "b2-039",
+    "b2-048",
+    "b2-051"
+   ],
+   "speaking": [
+    "b2-5"
+   ],
+   "writing": [
+    "b2-m4"
+   ],
+   "phrases": [
+    {
+     "de": "Hätte ich das gewusst, wäre ich früher gekommen.",
+     "tr": "Bunu bilseydim daha erken gelirdim.",
+     "en": "If I had known that I would have come earlier."
+    },
+    {
+     "de": "Er tut so, als ob er alles wüsste.",
+     "tr": "Her şeyi biliyormuş gibi davranıyor.",
+     "en": "He acts as if he knew everything."
+    },
+    {
+     "de": "Ich bin froh, die Reise gemacht zu haben.",
+     "tr": "Bu yolculuğu yapmış olduğuma seviniyorum.",
+     "en": "I'm glad to have made the trip."
+    },
+    {
+     "de": "Die Ausstellung hat mich tief beeindruckt.",
+     "tr": "Sergi beni derinden etkiledi.",
+     "en": "The exhibition impressed me deeply."
+    },
+    {
+     "de": "Das hätten wir besser planen sollen.",
+     "tr": "Bunu daha iyi planlamamız gerekirdi.",
+     "en": "We should have planned that better."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Audioguide",
+     "art": "der",
+     "tr": "sesli rehber",
+     "en": "audio guide"
+    },
+    {
+     "de": "Bodenbelag",
+     "art": "der",
+     "tr": "zemin kaplaması",
+     "en": "flooring"
+    },
+    {
+     "de": "Orientierung",
+     "art": "die",
+     "tr": "yön bulma",
+     "en": "finding one's way"
+    },
+    {
+     "de": "Weganweisung",
+     "art": "die",
+     "tr": "yol tarifi",
+     "en": "direction"
+    },
+    {
+     "de": "Vitrine",
+     "art": "die",
+     "tr": "vitrin",
+     "en": "display case"
+    },
+    {
+     "de": "Ladenlokal",
+     "art": "das",
+     "tr": "dükkân olarak kullanılan yer",
+     "en": "retail premises"
+    },
+    {
+     "de": "Abdunkeln",
+     "art": "das",
+     "tr": "ışığı karartma",
+     "en": "dimming the lights"
+    },
+    {
+     "de": "Einlass",
+     "art": "der",
+     "tr": "içeri giriş",
+     "en": "admission"
+    },
+    {
+     "de": "Ladenschluss",
+     "art": "der",
+     "tr": "dükkânın kapanışı",
+     "en": "closing time"
+    },
+    {
+     "de": "Vergabe",
+     "art": "die",
+     "tr": "dağıtım, tahsis",
+     "en": "allocation"
+    },
+    {
+     "de": "Anfahrtsweg",
+     "art": "der",
+     "tr": "ulaşım mesafesi",
+     "en": "travel distance"
+    },
+    {
+     "de": "Laufkundin",
+     "art": "die",
+     "tr": "rezervasyonsuz gelen müşteri",
+     "en": "walk-in customer"
+    },
+    {
+     "de": "ausführlich",
+     "tr": "ayrıntılı",
+     "en": "detailed"
+    },
+    {
+     "de": "sehbehindert",
+     "tr": "görme engelli",
+     "en": "visually impaired"
+    },
+    {
+     "de": "dauerhaft",
+     "tr": "kalıcı olarak",
+     "en": "permanently"
+    },
+    {
+     "de": "vorzeitig",
+     "tr": "erken",
+     "en": "early"
+    },
+    {
+     "de": "überfordern",
+     "tr": "zorlamak, bunaltmak",
+     "en": "to overwhelm"
+    },
+    {
+     "de": "vorhersehbar",
+     "tr": "öngörülebilir",
+     "en": "predictable"
+    }
+   ]
   }
  ]
 }
