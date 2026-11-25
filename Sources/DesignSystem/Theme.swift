@@ -73,26 +73,62 @@ struct LinaAvatar: View {
     /// Chooses among the mood's pictures; the same number always gives the same picture.
     var variant: Int = 0
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    /// Animation state: happy = a small hop, sad = head tilts down, curious = gentle sway.
+    @State private var moved = false
+    @State private var blinking = false
+    private let blinkClock = Timer.publish(every: 3.6, on: .main, in: .common).autoconnect()
+
     /// Resources/Images/lina-happy-1…3.png, lina-sad-1…3.png and lina-curious.png (made with ChatGPT, see
     /// icerik/gorseller/LINA_DUYGULAR.txt). Missing pictures fall back to the usual Lina.
-    private var picture: UIImage? {
+    private var pictureName: String {
         switch mood {
         case .calm:
-            break
+            return "lina"
         case .curious:
-            if let image = UIImage(named: "lina-curious") { return image }
+            return UIImage(named: "lina-curious") != nil ? "lina-curious" : "lina"
         case .happy, .sad:
-            let name = mood == .happy ? "lina-happy" : "lina-sad"
-            let all = (1...3).compactMap { UIImage(named: "\(name)-\($0)") }
-            if !all.isEmpty { return all[abs(variant) % all.count] }
+            let base = mood == .happy ? "lina-happy" : "lina-sad"
+            let names = (1...3).map { "\(base)-\($0)" }.filter { UIImage(named: $0) != nil }
+            return names.isEmpty ? "lina" : names[abs(variant) % names.count]
         }
-        return UIImage(named: "lina")
+    }
+
+    /// The same picture with closed eyes ("<name>-blink.png"), if there is one: used for blinking.
+    private var blinkPicture: UIImage? { UIImage(named: pictureName + "-blink") }
+
+    private var picture: UIImage? {
+        if blinking, let closed = blinkPicture { return closed }
+        return UIImage(named: pictureName)
+    }
+
+    private var lift: CGFloat {
+        guard moved else { return 0 }
+        switch mood {
+        case .happy: return -size * 0.06
+        case .sad: return size * 0.03
+        default: return 0
+        }
+    }
+
+    private var tilt: Double {
+        guard moved else { return mood == .curious ? -2.5 : 0 }
+        switch mood {
+        case .happy: return 4
+        case .sad: return -5
+        case .curious: return 2.5
+        case .calm: return 0
+        }
     }
 
     var body: some View {
         Group {
             if let image = picture {
+                // A little larger than the tile, so moving never shows an empty edge.
                 Image(uiImage: image).resizable().scaledToFill()
+                    .scaleEffect(mood == .calm ? 1 : 1.1)
+                    .rotationEffect(.degrees(tilt), anchor: .bottom)
+                    .offset(y: lift)
             } else {
                 DS.gold
             }
@@ -100,6 +136,32 @@ struct LinaAvatar: View {
         .frame(width: size, height: size)
         .clipShape(RoundedRectangle(cornerRadius: size * 0.32, style: .continuous))
         .accessibilityLabel("Lina")
+        .onAppear { animate() }
+        .onReceive(blinkClock) { _ in blink() }
+    }
+
+    private func animate() {
+        guard !reduceMotion else { return }
+        moved = false
+        switch mood {
+        case .happy:
+            withAnimation(.spring(response: 0.28, dampingFraction: 0.45)) { moved = true }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.32) {
+                withAnimation(.spring(response: 0.35, dampingFraction: 0.5)) { moved = false }
+            }
+        case .sad:
+            withAnimation(.easeInOut(duration: 0.7).delay(0.1)) { moved = true }
+        case .curious:
+            withAnimation(.easeInOut(duration: 1.6).repeatForever(autoreverses: true)) { moved = true }
+        case .calm:
+            break
+        }
+    }
+
+    private func blink() {
+        guard !reduceMotion, blinkPicture != nil, !blinking else { return }
+        blinking = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.14) { blinking = false }
     }
 }
 
