@@ -483,5 +483,13 @@
  "speak.sample": "Örnek cevap",
  "speak.listenSample": "Dinle",
  "speak.timeHint": "Yaklaşık {0} saniye konuş",
- "speak.yourText": "Senin cevabın"
+ "speak.yourText": "Senin cevabın",
+ "voice.female": "Anna · doğal ses",
+ "voice.female.sub": "Kadın sesi, gerçek insan gibi",
+ "voice.male": "Max · doğal ses",
+ "voice.male.sub": "Erkek sesi, gerçek insan gibi",
+ "voice.device": "iPhone sesi",
+ "voice.device.sub": "İnternetsiz çalışır",
+ "voice.choose": "Ses seç",
+ "voice.fallback": "Bu metnin doğal sesi henüz yok ya da internet yok; iPhone sesiyle okunuyor."
 }

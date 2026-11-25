@@ -45,8 +45,12 @@ struct DailyReadingView: View {
     let text: DailyText
     @State private var selected: DailyGloss?
     @State private var showTranslation = false
-    @State private var playing = false
+    /// The iPhone voice is reading (the recorded voices report their own state).
+    @State private var deviceReading = false
     @State private var speedIndex = 0
+    @AppStorage(ReadingVoice.storageKey) private var voiceRaw = ReadingVoice.female.rawValue
+    @ObservedObject private var audio = TextAudioPlayer.shared
+    @State private var voiceNote: String?
     /// Long-press bubble: token id and what it shows.
     @State private var bubbleID: String?
     @State private var bubble: WordInfo?
@@ -140,41 +144,117 @@ struct DailyReadingView: View {
             daily.markRead(text)
             DispatchQueue.global(qos: .userInitiated).async { WordLookup.shared.prepare() }
         }
-        .onDisappear { A1Speaker.shared.stop() }
+        .onDisappear { stopReading() }
+    }
+
+    private var voice: ReadingVoice { ReadingVoice(rawValue: voiceRaw) ?? .female }
+    private var isPlaying: Bool { audio.playing || deviceReading }
+
+    private func togglePlay() {
+        if isPlaying || audio.loading {
+            stopReading()
+            return
+        }
+        voiceNote = nil
+        if voice == .device {
+            readWithDevice()
+        } else {
+            audio.play(textID: text.id, voice: voice, speed: speeds[speedIndex]) {
+                voiceNote = t("voice.fallback")
+                readWithDevice()
+            }
+        }
+    }
+
+    private func readWithDevice() {
+        A1Speaker.shared.read(text.fullText, speed: speeds[speedIndex])
+        deviceReading = true
+    }
+
+    private func stopReading() {
+        audio.stop()
+        A1Speaker.shared.stop()
+        deviceReading = false
+    }
+
+    private func choose(_ newVoice: ReadingVoice) {
+        let wasPlaying = isPlaying
+        voiceRaw = newVoice.rawValue
+        if wasPlaying {
+            stopReading()
+            togglePlay()
+        }
+    }
+
+    private var voiceMenu: some View {
+        Menu {
+            ForEach(ReadingVoice.allCases) { option in
+                Button { choose(option) } label: {
+                    Label {
+                        Text(option.title)
+                        Text(option.subtitle)
+                    } icon: {
+                        Image(systemName: option == voice ? "checkmark" : option.icon)
+                    }
+                }
+            }
+        } label: {
+            HStack(spacing: 4) {
+                Image(systemName: voice.icon).font(.system(size: 11, weight: .bold))
+                Text(voice.title).lineLimit(1)
+                Image(systemName: "chevron.down").font(.system(size: 9, weight: .bold))
+            }
+            .font(DS.text(13, .semibold))
+            .foregroundColor(DS.ink)
+        }
+        .accessibilityLabel(t("voice.choose"))
     }
 
     private var player: some View {
-        HStack(spacing: 12) {
-            Button {
-                if playing {
-                    A1Speaker.shared.stop()
-                    playing = false
-                } else {
-                    A1Speaker.shared.read(text.fullText, speed: speeds[speedIndex])
-                    playing = true
-                }
-            } label: {
-                Image(systemName: playing ? "pause.fill" : "play.fill")
-                    .font(.system(size: 16, weight: .bold))
-                    .foregroundColor(DS.ground)
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(spacing: 12) {
+                Button { togglePlay() } label: {
+                    ZStack {
+                        if audio.loading {
+                            ProgressView().tint(DS.ground)
+                        } else {
+                            Image(systemName: isPlaying ? "pause.fill" : "play.fill")
+                                .font(.system(size: 16, weight: .bold))
+                                .foregroundColor(DS.ground)
+                        }
+                    }
                     .frame(width: 48, height: 48)
                     .background(DS.ink, in: Circle())
+                }
+                .buttonStyle(.pressable)
+                .accessibilityLabel(isPlaying ? t("reading.stop") : t("common.listen"))
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(isPlaying ? t("reading.playing") : t("reading.listenText"))
+                        .font(DS.text(12, .medium))
+                        .foregroundColor(DS.muted)
+                    voiceMenu
+                }
+                Spacer()
+                Button(speedLabels[speedIndex]) {
+                    speedIndex = (speedIndex + 1) % speeds.count
+                    if audio.playing {
+                        audio.setSpeed(speeds[speedIndex])
+                    } else if deviceReading {
+                        A1Speaker.shared.read(text.fullText, speed: speeds[speedIndex])
+                    }
+                }
+                .font(DS.text(12, .semibold))
+                .foregroundColor(DS.ink)
+                .frame(minWidth: 52, minHeight: 34)
+                .overlay(Capsule().stroke(DS.hairline, lineWidth: 1))
+                .accessibilityLabel(t("reading.speed"))
             }
-            .buttonStyle(.pressable)
-            .accessibilityLabel(playing ? t("reading.stop") : t("common.listen"))
-            Text(playing ? t("reading.playing") : t("reading.listenText"))
-                .font(DS.text(14, .medium))
-                .foregroundColor(DS.muted)
-            Spacer()
-            Button(speedLabels[speedIndex]) {
-                speedIndex = (speedIndex + 1) % speeds.count
-                if playing { A1Speaker.shared.read(text.fullText, speed: speeds[speedIndex]) }
+            if audio.playing {
+                ProgressView(value: audio.progress).tint(DS.gold)
             }
-            .font(DS.text(12, .semibold))
-            .foregroundColor(DS.ink)
-            .frame(minWidth: 52, minHeight: 34)
-            .overlay(Capsule().stroke(DS.hairline, lineWidth: 1))
-            .accessibilityLabel(t("reading.speed"))
+            if let voiceNote {
+                Text(voiceNote).font(DS.text(12)).foregroundColor(DS.muted)
+            }
         }
     }
 

@@ -483,5 +483,13 @@
  "speak.sample": "Sample answer",
  "speak.listenSample": "Listen",
  "speak.timeHint": "Speak for about {0} seconds",
- "speak.yourText": "Your answer"
+ "speak.yourText": "Your answer",
+ "voice.female": "Anna · natural",
+ "voice.female.sub": "A woman's voice, like a real person",
+ "voice.male": "Max · natural",
+ "voice.male.sub": "A man's voice, like a real person",
+ "voice.device": "iPhone voice",
+ "voice.device.sub": "Works without internet",
+ "voice.choose": "Choose a voice",
+ "voice.fallback": "No natural voice for this text yet, or no internet: the iPhone voice is reading."
 }
