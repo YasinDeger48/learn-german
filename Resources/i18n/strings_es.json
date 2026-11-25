@@ -654,5 +654,7 @@
  "unit.testAgain": "You got {0}%; {1}% is needed to pass. Try again.",
  "unit.extra": "Extra: writing tasks",
  "unit.phrasesIntro": "Listen to each phrase (normal and slow), say it aloud, then practise.",
- "unit.practisePhrases": "Practise the phrases"
+ "unit.practisePhrases": "Practise the phrases",
+ "unit.wordsIntro": "Tap a card to hear the word with its article. Colour = article: blue der, red die, green das.",
+ "unit.practiseWords": "Practise the words"
 }

@@ -22,6 +22,8 @@ struct LearningUnit: Decodable, Identifiable, Hashable {
     let speaking: [String]
     let writing: [String]
     let phrases: [UnitPhrase]
+    /// Word ids with a picture card (Resources/Covers/wp-<level>-<id>.jpg, made by tools/word_pictures.py).
+    let pictures: [Int]?
 
     /// The unit's own picture, else the cover of its first text.
     var image: UIImage? { Covers.image(cover) ?? texts.lazy.compactMap { Covers.image($0) }.first }
@@ -444,9 +446,7 @@ struct UnitView: View {
     private func destination(_ step: UnitStep) -> some View {
         switch step {
         case .words:
-            A1QuizView(title: step.title, onFinish: { _, _ in UnitStore.mark(.words, unit.id) }) {
-                model.unitWordSession(unit)
-            }
+            UnitWordsView(unit: unit)
         case .phrases:
             UnitPhrasesView(unit: unit)
         case .grammar:
@@ -470,6 +470,78 @@ struct UnitView: View {
                 model.unitTestSession(unit)
             }
         }
+    }
+}
+
+/// Step 1: the unit's words as picture cards (tap to hear), then a practice round.
+struct UnitWordsView: View {
+    @EnvironmentObject private var model: A1Model
+    let unit: LearningUnit
+
+    private var cards: [A1Word] {
+        let all = model.content?.words ?? []
+        let byID = Dictionary(all.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
+        let picked = (unit.pictures ?? []).compactMap { byID[$0] }
+        if !picked.isEmpty { return picked }
+        return Array(all.filter { unit.themes.contains($0.theme) && $0.isNoun }.prefix(16))
+    }
+
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 14) {
+                Text(t("unit.wordsIntro")).font(.subheadline).foregroundColor(DS.muted)
+                LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)],
+                          spacing: 12) {
+                    ForEach(cards) { word in card(word) }
+                }
+                NavigationLink {
+                    A1QuizView(title: t("unit.step.words"), onFinish: { _, _ in UnitStore.mark(.words, unit.id) }) {
+                        model.unitWordSession(unit)
+                    }
+                } label: {
+                    Text(t("unit.practiseWords"))
+                        .font(DS.text(16, .semibold))
+                        .foregroundColor(DS.onGold)
+                        .frame(maxWidth: .infinity, minHeight: 54)
+                        .background(DS.gold, in: Capsule())
+                }
+                .buttonStyle(.pressable)
+            }
+            .padding(DS.gutter)
+        }
+        .background(DS.ground.ignoresSafeArea())
+        .navigationTitle(t("unit.step.words"))
+        .navigationBarTitleDisplayMode(.inline)
+    }
+
+    private func card(_ word: A1Word) -> some View {
+        let color = word.isNoun ? a1ArticleColor(word.type) : DS.muted
+        return Button {
+            A1Speaker.shared.say(word.withArticle)
+        } label: {
+            VStack(spacing: 6) {
+                Group {
+                    if let image = Covers.image("wp-\(unit.level.lowercased())-\(word.id)") {
+                        Image(uiImage: image).resizable().scaledToFill()
+                    } else {
+                        ZStack {
+                            color.opacity(0.12)
+                            Text(String(word.de.prefix(1))).font(.system(size: 34, weight: .heavy)).foregroundColor(color.opacity(0.7))
+                        }
+                    }
+                }
+                .frame(height: 96)
+                .frame(maxWidth: .infinity)
+                .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                (word.isNoun ? Text(word.type + " ").foregroundColor(color) + Text(word.de).foregroundColor(DS.ink) : Text(word.de).foregroundColor(DS.ink))
+                    .font(.system(size: 13, weight: .semibold))
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
+                Text(word.mean.text).font(.caption2).foregroundColor(DS.muted).lineLimit(1)
+            }
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel("\(word.withArticle), \(word.mean.text)")
     }
 }
 

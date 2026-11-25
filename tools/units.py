@@ -125,6 +125,11 @@ UNITS = [
 
 
 def main():
+    import sys
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from word_pictures import PICTURE_WORDS
+    for u in UNITS:
+        u['pictures'] = PICTURE_WORDS.get(u['id'], [])
     a1 = json.load(open(os.path.join(REPO, 'Resources', 'content', 'a1.json'), encoding='utf-8'))
     themes = {t['id'] for t in a1['themes']}
     topics = {t['id'] for t in a1['grammar']}
@@ -138,6 +143,8 @@ def main():
         assert set(u['speaking']) <= speaking, u['id']
         assert set(u['writing']) <= writing, u['id']
         assert len(u['phrases']) == 5
+        words = {w['id'] for w in a1['words']}
+        assert set(u['pictures']) <= words, u['id']
     with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
         json.dump({'units': UNITS}, f, ensure_ascii=False, indent=1)
         f.write('\n')

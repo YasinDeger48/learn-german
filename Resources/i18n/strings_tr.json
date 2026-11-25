@@ -654,5 +654,7 @@
  "unit.testAgain": "%{0} aldın; geçmek için %{1} gerekiyor. Tekrar dene.",
  "unit.extra": "Ek: yazma görevleri",
  "unit.phrasesIntro": "Her kalıbı dinle (normal ve yavaş), sesli söyle, sonra alıştırmaya geç.",
- "unit.practisePhrases": "Kalıpları çalış"
+ "unit.practisePhrases": "Kalıpları çalış",
+ "unit.wordsIntro": "Kelimeyi artikeliyle duymak için karta dokun. Renk = artikel: mavi der, kırmızı die, yeşil das.",
+ "unit.practiseWords": "Kelimeleri çalış"
 }
