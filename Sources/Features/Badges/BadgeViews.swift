@@ -35,15 +35,16 @@ struct BadgesView: View {
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
-        let values = Dictionary(uniqueKeysWithValues: [Badge.Kind.streak, .xp, .correct, .perfect, .reading, .goal]
+        let values = Dictionary(uniqueKeysWithValues: [Badge.Kind.welcome, .streak, .xp, .correct, .perfect, .reading, .goal]
             .map { ($0, badges.value($0)) })
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 14) {
+                    if badges.onlyWelcome { waitingCard }
                     levelCard
                     if let next = badges.nextGoal {
                         HStack(spacing: 12) {
-                            BadgeIcon(badge: next.badge, earned: false, progress: Double(next.value) / Double(next.badge.target), size: 44)
+                            BadgeIcon(badge: next.badge, earned: false, progress: Double(next.value) / Double(max(1, next.badge.target)), size: 44)
                             VStack(alignment: .leading, spacing: 2) {
                                 Text(t("badges.next")).font(.caption.weight(.semibold)).foregroundColor(DS.muted)
                                 Text(next.badge.title).font(.headline)
@@ -62,7 +63,7 @@ struct BadgesView: View {
                             let earned = badges.isEarned(badge)
                             let value = values[badge.kind] ?? 0
                             VStack(spacing: 8) {
-                                BadgeIcon(badge: badge, earned: earned, progress: Double(value) / Double(badge.target))
+                                BadgeIcon(badge: badge, earned: earned, progress: Double(value) / Double(max(1, badge.target)))
                                 Text(badge.title).font(.system(size: 12, weight: .semibold))
                                     .foregroundColor(earned ? DS.ink : DS.muted)
                                     .multilineTextAlignment(.center).lineLimit(2).minimumScaleFactor(0.85)
@@ -90,10 +91,37 @@ struct BadgesView: View {
         }
     }
 
+    /// No badge yet: Lina waits with the user for the first one.
+    private var waitingCard: some View {
+        HStack(spacing: 14) {
+            ZStack(alignment: .bottomTrailing) {
+                LinaAvatar(size: 76)
+                    .clipShape(Circle())
+                Image(systemName: "rosette")
+                    .font(.system(size: 15, weight: .bold))
+                    .foregroundColor(DS.onGold)
+                    .frame(width: 30, height: 30)
+                    .background(DS.gold, in: Circle())
+                    .overlay(Circle().stroke(DS.surface, lineWidth: 3))
+                    .offset(x: 4, y: 4)
+            }
+            VStack(alignment: .leading, spacing: 4) {
+                Text(t("badges.emptyTitle")).font(DS.display(20)).foregroundColor(DS.ink)
+                Text(t("badges.emptySub")).font(.subheadline).foregroundColor(DS.muted)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(16)
+        .background(LinearGradient(colors: [DS.gold.opacity(0.22), DS.gold.opacity(0.08)], startPoint: .topLeading, endPoint: .bottomTrailing),
+                    in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+        .accessibilityElement(children: .combine)
+    }
+
     private var levelCard: some View {
         let range = streak.xpLevelRange
-        let inLevel = streak.state.totalXP - range.start
         let span = max(1, range.end - range.start)
+        let inLevel = min(span, max(0, streak.state.totalXP - range.start))
         return VStack(alignment: .leading, spacing: 8) {
             HStack(alignment: .firstTextBaseline) {
                 Text(t("badges.level", streak.xpLevel)).font(.system(size: 20, weight: .heavy))
@@ -101,7 +129,7 @@ struct BadgesView: View {
                 Text("\(streak.state.totalXP.formatted()) / \(range.end.formatted()) XP").font(.footnote.monospacedDigit()).foregroundColor(DS.muted)
             }
             ProgressView(value: Double(inLevel), total: Double(span)).tint(DS.accent)
-            Text(t("badges.toNext", range.end - streak.state.totalXP, streak.xpLevel + 1)).font(.footnote).foregroundColor(DS.muted)
+            Text(t("badges.toNext", max(0, range.end - streak.state.totalXP), streak.xpLevel + 1)).font(.footnote).foregroundColor(DS.muted)
         }
         .padding(16)
         .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
@@ -186,6 +214,9 @@ struct CelebrationView: View {
                 BadgeIcon(badge: first, earned: true, size: 140)
                 Text("Neues Abzeichen!").font(DS.display(32))
                 Text(first.title).font(.title3.weight(.semibold))
+                if first.kind == .welcome {
+                    Text(t("badge.welcomeSub")).foregroundColor(DS.muted).multilineTextAlignment(.center)
+                }
             }
             let others = badges.filter { $0.id != (milestone ?? badges.first)?.id }
             if !others.isEmpty {

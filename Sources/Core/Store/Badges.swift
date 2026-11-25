@@ -2,7 +2,8 @@ import SwiftUI
 
 /// One achievement. Values come from data the app already keeps; only the earned ids are stored.
 struct Badge: Identifiable, Hashable {
-    enum Kind: String { case streak, xp, correct, perfect, reading, goal }
+    /// `welcome`: "Curious about German", earned by starting the app.
+    enum Kind: String { case welcome, streak, xp, correct, perfect, reading, goal }
 
     let kind: Kind
     let target: Int
@@ -11,6 +12,7 @@ struct Badge: Identifiable, Hashable {
 
     var icon: String {
         switch kind {
+        case .welcome: return "lightbulb.fill"
         case .streak: return "flame.fill"
         case .xp: return "star.fill"
         case .correct: return "checkmark.seal.fill"
@@ -22,6 +24,7 @@ struct Badge: Identifiable, Hashable {
 
     var colors: [Color] {
         switch kind {
+        case .welcome: return [Color(red: 1, green: 0.62, blue: 0.70), Color(red: 0.86, green: 0.22, blue: 0.45)]
         case .streak: return [Color(red: 1, green: 0.70, blue: 0.28), Color(red: 0.91, green: 0.35, blue: 0.05)]
         case .xp: return [Color(red: 0.43, green: 0.55, blue: 1), Color(red: 0.18, green: 0.36, blue: 0.92)]
         case .correct: return [Color(red: 0.37, green: 0.82, blue: 0.54), Color(red: 0.08, green: 0.48, blue: 0.25)]
@@ -38,6 +41,7 @@ final class BadgeStore: ObservableObject {
     static let shared = BadgeStore()
 
     static let all: [Badge] =
+        [Badge(kind: .welcome, target: 1)] +
         [3, 7, 14, 30, 60, 100, 365].map { Badge(kind: .streak, target: $0) } +
         [100, 500, 1000, 2500, 5000, 10000].map { Badge(kind: .xp, target: $0) } +
         [50, 250, 1000, 2500].map { Badge(kind: .correct, target: $0) } +
@@ -60,6 +64,7 @@ final class BadgeStore: ObservableObject {
     func value(_ kind: Badge.Kind) -> Int {
         let streak = StreakStore.shared
         switch kind {
+        case .welcome: return 1
         case .streak: return streak.best
         case .xp: return streak.state.totalXP
         case .correct: return LevelModels.practiceLevels.reduce(0) { $0 + A1SavedState.load($1).correct.count }
@@ -86,9 +91,10 @@ final class BadgeStore: ObservableObject {
         guard !new.isEmpty || firstRun else { return [] }
         earned.formUnion(new.map(\.id))
         UserDefaults.standard.set(Array(earned), forKey: BadgeStore.key)
-        if firstRun { return [] }
-        pending.append(contentsOf: new)
-        return new
+        // On the first run old achievements are stored quietly; only the welcome badge is celebrated.
+        let celebrate = firstRun ? new.filter { $0.kind == .welcome } : new
+        pending.append(contentsOf: celebrate)
+        return celebrate
     }
 
     /// Takes the queued celebrations (shown once).
@@ -97,6 +103,9 @@ final class BadgeStore: ObservableObject {
         pending = []
         return items
     }
+
+    /// Only the welcome badge (or nothing) earned so far.
+    var onlyWelcome: Bool { earned.subtracting([Badge(kind: .welcome, target: 1).id]).isEmpty }
 
     /// Next badge to aim for: the unearned one closest to done.
     var nextGoal: (badge: Badge, value: Int)? {
