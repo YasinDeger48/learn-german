@@ -54,8 +54,8 @@
  "mode.daily.title": "Cosa dici? · Trova l'errore",
  "mode.grammar.sub": "22 argomenti di grammatica A1",
  "mode.grammar.title": "Domande di grammatica",
- "mode.hoeren.sub": "Dialoghi, annunci, messaggi · 2 volte",
- "mode.hoeren.title": "Ascolto d'esame (Hören 1–3)",
+ "mode.hoeren.sub": "Ascolta, capisci, scegli · due volte",
+ "mode.hoeren.title": "Ascolto (Hören)",
  "mode.listen.sub": "Parole, frasi, numeri e orari",
  "mode.listen.title": "Ascolta e scegli (Hören)",
  "mode.numbers.sub": "Numeri, orari, ordinali",
@@ -441,5 +441,8 @@
  "review.title": "Ripasso intelligente",
  "review.due": "{0} domande da ripassare oggi",
  "review.cardTitle": "Oggi hai {0} ripassi",
- "review.cardSub": "Al momento giusto, per ricordare · {0}"
+ "review.cardSub": "Al momento giusto, per ricordare · {0}",
+ "hoeren.gapDetail": "Ascolta: quale parola manca?",
+ "hoeren.whichSentence": "Welchen Satz hörst du?",
+ "hoeren.sentenceDetail": "Quale frase senti?"
 }

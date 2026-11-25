@@ -54,8 +54,8 @@
  "mode.daily.title": "Que dis-tu ? · Trouve l'erreur",
  "mode.grammar.sub": "22 points de grammaire A1",
  "mode.grammar.title": "Questions de grammaire",
- "mode.hoeren.sub": "Dialogues, annonces, messages · 2 fois",
- "mode.hoeren.title": "Écoute d'examen (Hören 1–3)",
+ "mode.hoeren.sub": "Écoute, comprends, choisis · deux fois",
+ "mode.hoeren.title": "Compréhension orale (Hören)",
  "mode.listen.sub": "Mots, phrases, nombres et heures",
  "mode.listen.title": "Écoute et choisis (Hören)",
  "mode.numbers.sub": "Nombres, heures, ordinaux",
@@ -441,5 +441,8 @@
  "review.title": "Révision intelligente",
  "review.due": "{0} questions à revoir aujourd'hui",
  "review.cardTitle": "{0} révisions aujourd'hui",
- "review.cardSub": "Au bon moment, pour retenir · {0}"
+ "review.cardSub": "Au bon moment, pour retenir · {0}",
+ "hoeren.gapDetail": "Écoute : quel mot manque ?",
+ "hoeren.whichSentence": "Welchen Satz hörst du?",
+ "hoeren.sentenceDetail": "Quelle phrase entends-tu ?"
 }

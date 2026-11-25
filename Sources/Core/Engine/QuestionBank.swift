@@ -133,11 +133,47 @@ struct A1BankBuilder {
         addReading()
         addDaily()
         addHoeren()
+        if content.hoeren.isEmpty { addTextListening() }
         if level != "A1" {
             // Word questions carry A1 topic numbers; only grammar items belong to this level's topics.
             for i in out.indices where !out[i].id.hasPrefix("gr-") { out[i].topic = nil }
         }
         return out
+    }
+
+    /// Listening for levels without exam dialogues: sentences of the level's daily texts are spoken.
+    /// "Which word did you hear?" (gap in the sentence) and "Which sentence did you hear?" (three from the same text).
+    private mutating func addTextListening() {
+        guard let file = Bundled.decode(DailyFile.self, "daily_\(level.lowercased())") else { return }
+        let punctuation = CharacterSet(charactersIn: ".,!?;:„“\"()–…")
+        for text in file.texts {
+            let sentences = ReadingQuiz.sentences(of: text).filter { (5...16).contains($0.split(separator: " ").count) }
+            guard sentences.count >= 3 else { continue }
+            let forms = Array(Set(text.glossary.map(\.form)))
+            // 1. The word that was heard, as a gap.
+            for sentence in sentences {
+                let tokens = sentence.split(separator: " ").map(String.init)
+                guard let hit = tokens.firstIndex(where: { token in
+                    forms.contains { $0.lowercased() == token.trimmingCharacters(in: punctuation).lowercased() }
+                }) else { continue }
+                let word = tokens[hit].trimmingCharacters(in: punctuation)
+                let wrong = forms.filter { $0.lowercased() != word.lowercased() }.shuffled().prefix(3)
+                guard wrong.count == 3 else { break }
+                var gapped = tokens
+                gapped[hit] = tokens[hit].replacingOccurrences(of: word, with: "_____")
+                out.append(A1Question(id: "th-\(text.id)-g", mode: .hoeren, kind: .choice, label: text.title,
+                                      prompt: gapped.joined(separator: " "), detail: t("hoeren.gapDetail"), speakFirst: sentence,
+                                      options: ([word] + wrong).shuffled(), answer: word, explanation: "„\(sentence)“"))
+                break
+            }
+            // 2. Which of three sentences was heard.
+            let picked = Array(sentences.shuffled().prefix(3))
+            if let heard = picked.first {
+                out.append(A1Question(id: "th-\(text.id)-s", mode: .hoeren, kind: .choice, label: text.title,
+                                      prompt: t("hoeren.whichSentence"), detail: t("hoeren.sentenceDetail"), speakFirst: heard,
+                                      options: picked.shuffled(), answer: heard, explanation: "„\(heard)“"))
+            }
+        }
     }
 
     private mutating func addHoeren() {

@@ -54,8 +54,8 @@
  "mode.daily.title": "¿Qué dices? · Encuentra el error",
  "mode.grammar.sub": "22 temas de gramática A1",
  "mode.grammar.title": "Preguntas de gramática",
- "mode.hoeren.sub": "Diálogos, anuncios, mensajes · 2 veces",
- "mode.hoeren.title": "Audición de examen (Hören 1–3)",
+ "mode.hoeren.sub": "Escucha, entiende y elige · se oye dos veces",
+ "mode.hoeren.title": "Comprensión auditiva (Hören)",
  "mode.listen.sub": "Palabras, frases, números y horas",
  "mode.listen.title": "Escucha y elige (Hören)",
  "mode.numbers.sub": "Números, horas, ordinales",
@@ -441,5 +441,8 @@
  "review.title": "Repaso inteligente",
  "review.due": "{0} preguntas para repasar hoy",
  "review.cardTitle": "Hoy tienes {0} repasos",
- "review.cardSub": "Justo a tiempo, para que se quede · {0}"
+ "review.cardSub": "Justo a tiempo, para que se quede · {0}",
+ "hoeren.gapDetail": "Escucha: ¿qué palabra falta?",
+ "hoeren.whichSentence": "Welchen Satz hörst du?",
+ "hoeren.sentenceDetail": "¿Qué frase oyes?"
 }

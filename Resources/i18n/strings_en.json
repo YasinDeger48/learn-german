@@ -54,8 +54,8 @@
  "mode.daily.title": "What do you say? · Find the mistake",
  "mode.grammar.sub": "22 A1 grammar topics",
  "mode.grammar.title": "Grammar questions",
- "mode.hoeren.sub": "Dialogues, announcements, voicemails · twice",
- "mode.hoeren.title": "Exam listening (Hören 1–3)",
+ "mode.hoeren.sub": "Hear it, understand it, choose · played twice",
+ "mode.hoeren.title": "Listening (Hören)",
  "mode.listen.sub": "Words, sentences, numbers and times",
  "mode.listen.title": "Listen and choose (Hören)",
  "mode.numbers.sub": "Numbers, clock times, ordinals",
@@ -441,5 +441,8 @@
  "review.title": "Smart review",
  "review.due": "{0} questions due today",
  "review.cardTitle": "{0} reviews today",
- "review.cardSub": "At the right moment, so it sticks · {0}"
+ "review.cardSub": "At the right moment, so it sticks · {0}",
+ "hoeren.gapDetail": "Listen: which word is missing?",
+ "hoeren.whichSentence": "Welchen Satz hörst du?",
+ "hoeren.sentenceDetail": "Which sentence do you hear?"
 }
