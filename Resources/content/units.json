@@ -163,7 +163,8 @@
    "number": 3,
    "title": {
     "tr": "Yemek ve içmek",
-    "en": "Food and drink"
+    "en": "Food and drink",
+    "es": "Comida y bebida"
    },
    "goal": {
     "tr": "Restoranda sipariş verir, ne sevdiğini söylersin.",

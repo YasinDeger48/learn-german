@@ -1868,7 +1868,8 @@
    "seconds": 60,
    "title": {
     "tr": "Yemek ve içecek",
-    "en": "Food and drink"
+    "en": "Food and drink",
+    "es": "Comida y bebida"
    },
    "prompt": "Was essen und trinken Sie gern? Wie ist das in Ihrem Land?",
    "help": {
