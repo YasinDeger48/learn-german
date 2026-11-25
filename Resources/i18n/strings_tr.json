@@ -334,5 +334,22 @@
  "streak.readToday": "Günün metnini oku",
  "streak.practice": "Hızlı alıştırma",
  "streak.remind": "Her gün hatırlat",
- "streak.rule": "Çözdüğün her soru, sprint ya da bitirdiğin okuma quiz’i sayılır – her seviyede."
+ "streak.rule": "Çözdüğün her soru, sprint ya da bitirdiğin okuma quiz’i sayılır – her seviyede.",
+ "xp.total": "Toplam {0} XP",
+ "goal.title": "Günlük hedef",
+ "goal.left": "{0} XP daha, bugün tamam!",
+ "goal.minutes": "≈ {0} dakikalık alıştırma",
+ "goal.done": "Günlük hedef tamam!",
+ "goal.doneSub": "Bugün {0} XP · fazlası da sayılır",
+ "goal.changeHint": "Günlük hedefi değiştir",
+ "goal.choose": "Günlük hedefin",
+ "goal.option.20": "Rahat · {0} XP",
+ "goal.option.50": "Düzenli · {0} XP",
+ "goal.option.100": "Ciddi · {0} XP",
+ "done.combo": "üst üste doğru",
+ "done.time": "süre",
+ "done.finish": "Bitir",
+ "done.perfectSub": "Hiç hata yok – mükemmel tur bonusu: +{0} XP.",
+ "done.sub": "Aferin. Her soru seni hedefine yaklaştırıyor.",
+ "done.subMistakes": "{0} soru \"Hatalarım\"a eklendi – tekrar et, XP kazan."
 }

@@ -163,10 +163,12 @@ final class A1Model: ObservableObject {
         state = s
         s.save(level)
         StreakStore.shared.record()
+        StreakStore.shared.addXP(correct ? XP.correct : XP.wrong)
     }
 
     func saveSprint(_ score: Int) {
         StreakStore.shared.record()
+        StreakStore.shared.addXP(score)
         guard score > state.bestSprint else { return }
         state.bestSprint = score
         state.save(level)

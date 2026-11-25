@@ -334,5 +334,22 @@
  "streak.readToday": "Leggi il testo di oggi",
  "streak.practice": "Esercizio veloce",
  "streak.remind": "Ricordamelo ogni giorno",
- "streak.rule": "Conta ogni domanda risposta, sprint o quiz di lettura finito, a ogni livello."
+ "streak.rule": "Conta ogni domanda risposta, sprint o quiz di lettura finito, a ogni livello.",
+ "xp.total": "{0} XP in totale",
+ "goal.title": "Obiettivo giornaliero",
+ "goal.left": "Ancora {0} XP e oggi è fatto!",
+ "goal.minutes": "circa {0} min di esercizio",
+ "goal.done": "Obiettivo di oggi raggiunto!",
+ "goal.doneSub": "{0} XP oggi · anche il resto conta",
+ "goal.changeHint": "Cambia l'obiettivo giornaliero",
+ "goal.choose": "Il tuo obiettivo giornaliero",
+ "goal.option.20": "Tranquillo · {0} XP",
+ "goal.option.50": "Regolare · {0} XP",
+ "goal.option.100": "Intenso · {0} XP",
+ "done.combo": "di fila",
+ "done.time": "tempo",
+ "done.finish": "Fine",
+ "done.perfectSub": "Nessun errore – bonus giro perfetto: +{0} XP.",
+ "done.sub": "Ben fatto. Ogni domanda ti avvicina all'obiettivo.",
+ "done.subMistakes": "{0} domande sono in \"I miei errori\": ripassale per guadagnare XP."
 }

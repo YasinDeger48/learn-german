@@ -129,6 +129,7 @@ final class DailyModel: ObservableObject {
         let percent = Int((Double(correct) / Double(total) * 100).rounded())
         state.quizzes[text.id] = max(state.quizzes[text.id] ?? 0, percent)
         StreakStore.shared.record()
+        StreakStore.shared.addXP(percent >= 100 ? XP.readingDone : XP.readingTried)
         state.read.insert(text.id)
         state.save()
     }

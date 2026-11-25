@@ -12,6 +12,7 @@ struct TodayView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
                 greeting.padding(.top, 4)
+                DailyGoalCard().padding(.top, 16)
                 levelTabs.padding(.top, 16)
                 dailyCard.padding(.top, 16)
                 if let word = wordOfDay { wordCard(word).padding(.top, 14) }
@@ -26,7 +27,10 @@ struct TodayView: View {
         .onChange(of: daily.level) { _ in levels.active = practiceModel.level }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
-                StreakButton { showStreak = true }
+                HStack(spacing: 8) {
+                    StreakButton { showStreak = true }
+                    XPChip()
+                }
             }
         }
         .sheet(isPresented: $showStreak) {

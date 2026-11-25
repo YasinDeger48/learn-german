@@ -39,6 +39,10 @@ struct A1QuizView: View {
     @State private var missed: [A1Question] = []
     @State private var showText = false
     @State private var examSaved = false
+    @State private var combo = 0
+    @State private var bestCombo = 0
+    @State private var startedAt = Date()
+    @Environment(\.dismiss) private var dismiss
     /// Today's free questions are used up (free version only).
     @State private var limitReached = false
     @FocusState private var typingFocused: Bool
@@ -67,6 +71,7 @@ struct A1QuizView: View {
         .onAppear {
             if !started {
                 session = makeSession()
+                startedAt = Date()
                 started = true
                 pro.refreshQuota()
                 limitReached = !free && !pro.canPractice
@@ -101,51 +106,122 @@ struct A1QuizView: View {
         .padding(24)
     }
 
+    private var perfect: Bool { !session.isEmpty && score == session.count && session.count >= 5 }
+
+    private var sessionXP: Int {
+        score * XP.correct + (session.count - score) * XP.wrong + (perfect ? XP.perfectBonus : 0)
+    }
+
     private var summary: some View {
         let total = session.count
         let points = total == 0 ? 0 : Int((Double(score) / Double(total) * 100).rounded())
-        return List {
-            Section {
-                VStack(spacing: 8) {
-                    if exam {
-                        Text(t("quiz.points", points)).font(DS.display(40))
-                        Text(points >= 60 ? t("quiz.passed") : t("quiz.notPassed"))
-                            .font(DS.text(15, .medium))
-                            .foregroundStyle(points >= 60 ? DS.success : DS.error)
-                    } else {
-                        Text(t("quiz.score", score, total)).font(DS.display(40))
-                    }
+        let seconds = Int(Date().timeIntervalSince(startedAt))
+        return ScrollView {
+            VStack(spacing: 14) {
+                LinaAvatar(size: 104)
+                    .clipShape(Circle())
+                    .padding(.top, 12)
+                Text(summaryTitle(points: points, total: total))
+                    .font(DS.display(30))
+                    .multilineTextAlignment(.center)
+                Text(summarySubtitle(points: points))
+                    .font(.subheadline)
+                    .foregroundColor(exam ? (points >= 60 ? DS.success : DS.error) : DS.muted)
+                    .multilineTextAlignment(.center)
+                HStack(spacing: 8) {
+                    summaryTile("+\(sessionXP)", "XP", DS.accent)
+                    summaryTile("\(bestCombo)×", t("done.combo"), .orange)
+                    summaryTile(String(format: "%d:%02d", seconds / 60, seconds % 60), t("done.time"), DS.success)
                 }
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 12)
-                Button {
-                    restart()
-                } label: {
-                    Text(onFinish == nil ? t("quiz.continueNew") : t("quiz.again"))
-                }
-                .buttonStyle(PillButtonStyle())
-                .listRowBackground(Color.clear)
-            }
-            if !missed.isEmpty {
-                Section(t("quiz.missedSection")) {
-                    ForEach(missed) { q in
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(q.prompt).font(.subheadline)
-                            Text("✓ \(q.answer)").font(.subheadline.bold()).foregroundStyle(DS.success)
+                goalCard
+                if !missed.isEmpty {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text(t("quiz.missedSection")).font(.headline)
+                        ForEach(missed) { q in
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(q.prompt).font(.subheadline)
+                                Text("✓ \(q.answer)").font(.subheadline.bold()).foregroundColor(DS.success)
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(12)
+                            .background(DS.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
                         }
                     }
                 }
+                VStack(spacing: 10) {
+                    Button {
+                        restart()
+                    } label: {
+                        Text(onFinish == nil ? t("quiz.continueNew") : t("quiz.again"))
+                            .font(.system(size: 17, weight: .bold))
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity, minHeight: 54)
+                            .background(DS.accent, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    }
+                    Button(t("done.finish")) { dismiss() }
+                        .font(.system(size: 16, weight: .semibold))
+                        .frame(maxWidth: .infinity, minHeight: 44)
+                }
+                .padding(.top, 4)
             }
+            .padding(.horizontal, 20)
+            .padding(.bottom, 20)
         }
-        .scrollContentBackground(.hidden)
         .onAppear {
             if !examSaved {
                 examSaved = true
                 if exam { model.saveExam(points) }
+                if perfect { StreakStore.shared.addXP(XP.perfectBonus) }
                 onFinish?(score, total)
                 ads.quizFinished(isPro: pro.isPro)
             }
         }
+    }
+
+    private func summaryTitle(points: Int, total: Int) -> String {
+        if exam { return t("quiz.points", points) }
+        if perfect { return "Perfekt! \(score)/\(total)" }
+        if points >= 70 { return "Gut gemacht! \(score)/\(total)" }
+        return "Weiter so! \(score)/\(total)"
+    }
+
+    private func summarySubtitle(points: Int) -> String {
+        if exam { return points >= 60 ? t("quiz.passed") : t("quiz.notPassed") }
+        if perfect { return t("done.perfectSub", XP.perfectBonus) }
+        return missed.isEmpty ? t("done.sub") : t("done.subMistakes", missed.count)
+    }
+
+    private func summaryTile(_ value: String, _ label: String, _ color: Color) -> some View {
+        VStack(spacing: 2) {
+            Text(value).font(.system(size: 22, weight: .heavy)).foregroundColor(color).monospacedDigit()
+            Text(label).font(.caption).foregroundColor(DS.muted).lineLimit(1).minimumScaleFactor(0.8)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 12)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+    }
+
+    private var goalCard: some View {
+        let store = StreakStore.shared
+        return HStack(spacing: 14) {
+            GoalRing(progress: store.goalProgress, size: 56, lineWidth: 7,
+                     color: store.goalReachedToday ? DS.success : DS.accent) {
+                if store.goalReachedToday {
+                    Image(systemName: "checkmark").font(.system(size: 18, weight: .heavy)).foregroundColor(DS.success)
+                } else {
+                    Text("\(Int(store.goalProgress * 100))%").font(.system(size: 12, weight: .bold))
+                }
+            }
+            VStack(alignment: .leading, spacing: 2) {
+                Text(store.goalReachedToday ? t("goal.done") : t("goal.left", store.goal - store.xpToday))
+                    .font(.system(size: 16, weight: .bold))
+                Text("\(store.xpToday) / \(store.goal) XP · " + t("today.streak", store.current))
+                    .font(.footnote).foregroundColor(DS.muted)
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(14)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
     }
 
     private func restart() {
@@ -154,6 +230,9 @@ struct A1QuizView: View {
         score = 0
         missed = []
         examSaved = false
+        combo = 0
+        bestCombo = 0
+        startedAt = Date()
         resetAnswer()
         limitReached = !free && !pro.canPractice
         if !limitReached { playIfNeeded() }
@@ -389,8 +468,11 @@ struct A1QuizView: View {
         wasCorrect = correct
         if correct {
             score += 1
+            combo += 1
+            bestCombo = max(bestCombo, combo)
         } else {
             missed.append(q)
+            combo = 0
         }
         model.record(q, correct: correct)
         if !free { pro.countAnswer() }

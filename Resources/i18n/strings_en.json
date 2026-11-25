@@ -334,5 +334,22 @@
  "streak.readToday": "Read today's text",
  "streak.practice": "Quick practice",
  "streak.remind": "Remind me every day",
- "streak.rule": "Every answered question, sprint or finished reading quiz counts – at every level."
+ "streak.rule": "Every answered question, sprint or finished reading quiz counts – at every level.",
+ "xp.total": "{0} XP in total",
+ "goal.title": "Daily goal",
+ "goal.left": "{0} XP more and today is done!",
+ "goal.minutes": "about {0} min of practice",
+ "goal.done": "Daily goal reached!",
+ "goal.doneSub": "{0} XP today · extra practice still counts",
+ "goal.changeHint": "Change the daily goal",
+ "goal.choose": "Daily goal",
+ "goal.option.20": "Relaxed · {0} XP",
+ "goal.option.50": "Regular · {0} XP",
+ "goal.option.100": "Serious · {0} XP",
+ "done.combo": "in a row",
+ "done.time": "time",
+ "done.finish": "Finish",
+ "done.perfectSub": "No mistakes – perfect round bonus: +{0} XP.",
+ "done.sub": "Well done. Every question brings you closer to your goal.",
+ "done.subMistakes": "{0} questions went to \"My mistakes\" – review them for extra XP."
 }

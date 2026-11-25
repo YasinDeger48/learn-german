@@ -334,5 +334,22 @@
  "streak.readToday": "Leer el texto de hoy",
  "streak.practice": "Práctica rápida",
  "streak.remind": "Recuérdamelo cada día",
- "streak.rule": "Cuenta cada pregunta respondida, sprint o quiz de lectura terminado, en todos los niveles."
+ "streak.rule": "Cuenta cada pregunta respondida, sprint o quiz de lectura terminado, en todos los niveles.",
+ "xp.total": "{0} XP en total",
+ "goal.title": "Meta diaria",
+ "goal.left": "¡{0} XP más y hoy está hecho!",
+ "goal.minutes": "unos {0} min de práctica",
+ "goal.done": "¡Meta diaria cumplida!",
+ "goal.doneSub": "{0} XP hoy · lo extra también cuenta",
+ "goal.changeHint": "Cambiar la meta diaria",
+ "goal.choose": "Tu meta diaria",
+ "goal.option.20": "Tranquilo · {0} XP",
+ "goal.option.50": "Regular · {0} XP",
+ "goal.option.100": "Intenso · {0} XP",
+ "done.combo": "seguidas",
+ "done.time": "tiempo",
+ "done.finish": "Terminar",
+ "done.perfectSub": "Sin errores – bonus de ronda perfecta: +{0} XP.",
+ "done.sub": "Bien hecho. Cada pregunta te acerca a tu meta.",
+ "done.subMistakes": "{0} preguntas pasaron a \"Mis errores\": repásalas para ganar XP."
 }
