@@ -491,5 +491,19 @@
  "voice.device": "Voce dell'iPhone",
  "voice.device.sub": "Funziona senza internet",
  "voice.choose": "Scegli una voce",
- "voice.fallback": "Nessuna voce naturale per questo testo o niente internet: legge la voce dell'iPhone."
+ "voice.fallback": "Nessuna voce naturale per questo testo o niente internet: legge la voce dell'iPhone.",
+ "ambience.toggle": "Suono di sottofondo",
+ "ambience.onValue": "Attivo",
+ "ambience.offValue": "Disattivo",
+ "ambience.on": "Sottofondo: {0}",
+ "ambience.kind.bus": "autobus",
+ "ambience.kind.train": "stazione",
+ "ambience.kind.cafe": "bar",
+ "ambience.kind.office": "ufficio",
+ "ambience.kind.shop": "supermercato",
+ "ambience.kind.home": "casa",
+ "ambience.kind.nature": "parco",
+ "ambience.kind.rain": "pioggia",
+ "ambience.kind.school": "aula",
+ "ambience.kind.street": "strada"
 }

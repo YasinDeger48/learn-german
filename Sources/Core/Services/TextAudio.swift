@@ -118,3 +118,90 @@ final class TextAudioPlayer: ObservableObject {
         playing = false
     }
 }
+
+// MARK: - Background sound
+
+/// A quiet loop under the reading voice (bus, café, office…), chosen per text by tools/ambience.py.
+/// audio/ambience.json and the loops come from the website and are kept in Caches.
+final class AmbiencePlayer: ObservableObject {
+    static let shared = AmbiencePlayer()
+    private static let enabledKey = "ambienceOn"
+    private static let volume: Float = 0.22
+
+    @Published var enabled: Bool = UserDefaults.standard.bool(forKey: AmbiencePlayer.enabledKey) {
+        didSet { UserDefaults.standard.set(enabled, forKey: Self.enabledKey) }
+    }
+    /// Text id → kind ("bus", "cafe", …).
+    @Published private(set) var kinds: [String: String] = [:]
+
+    private var player: AVAudioPlayer?
+    private var loaded = false
+    private var wanted: String?
+
+    private struct File: Decodable {
+        let texts: [String: String]
+    }
+
+    private static var folder: URL {
+        let url = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0].appendingPathComponent("TextAudio")
+        try? FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
+        return url
+    }
+
+    /// Reads the cached list at once, then refreshes it from the website (once per launch).
+    func load() {
+        guard !loaded else { return }
+        loaded = true
+        let cache = Self.folder.appendingPathComponent("ambience.json")
+        if let data = try? Data(contentsOf: cache), let file = try? JSONDecoder().decode(File.self, from: data) {
+            kinds = file.texts
+        }
+        let url = TextAudioPlayer.base.appendingPathComponent("ambience.json")
+        URLSession.shared.dataTask(with: url) { [weak self] data, response, _ in
+            guard let data, (response as? HTTPURLResponse)?.statusCode == 200,
+                  let file = try? JSONDecoder().decode(File.self, from: data) else { return }
+            try? data.write(to: cache, options: .atomic)
+            DispatchQueue.main.async { self?.kinds = file.texts }
+        }.resume()
+    }
+
+    func kind(for textID: String) -> String? { kinds[textID] }
+
+    /// Starts the text's loop if the learner turned background sound on.
+    func start(textID: String) {
+        stop()
+        guard enabled, let kind = kinds[textID] else { return }
+        wanted = textID
+        let local = Self.folder.appendingPathComponent("amb-\(kind).m4a")
+        if FileManager.default.fileExists(atPath: local.path) {
+            play(local)
+            return
+        }
+        let remote = TextAudioPlayer.base.appendingPathComponent("ambience/\(kind).m4a")
+        URLSession.shared.dataTask(with: remote) { [weak self] data, response, _ in
+            guard let data, data.count > 1000, (response as? HTTPURLResponse)?.statusCode == 200,
+                  (try? data.write(to: local, options: .atomic)) != nil else { return }
+            DispatchQueue.main.async {
+                guard let self, self.wanted == textID else { return }
+                self.play(local)
+            }
+        }.resume()
+    }
+
+    private func play(_ url: URL) {
+        guard let player = try? AVAudioPlayer(contentsOf: url) else { return }
+        player.numberOfLoops = -1
+        player.volume = 0
+        player.play()
+        player.setVolume(Self.volume, fadeDuration: 1.5)
+        self.player = player
+    }
+
+    func stop() {
+        wanted = nil
+        guard let player else { return }
+        self.player = nil
+        player.setVolume(0, fadeDuration: 0.6)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) { player.stop() }
+    }
+}

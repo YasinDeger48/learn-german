@@ -20,6 +20,10 @@ targets:
         buildPhase: resources
         excludes:
           - "**/*.txt"
+          # Only A1 covers ship inside the app; A2–B2 come from the website (tools/publish_content.py).
+          - "Covers/a2-*.jpg"
+          - "Covers/b1-*.jpg"
+          - "Covers/b2-*.jpg"
       - path: Assets.xcassets
     dependencies:
       - package: GoogleMobileAds

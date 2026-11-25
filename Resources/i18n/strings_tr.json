@@ -491,5 +491,19 @@
  "voice.device": "iPhone sesi",
  "voice.device.sub": "İnternetsiz çalışır",
  "voice.choose": "Ses seç",
- "voice.fallback": "Bu metnin doğal sesi henüz yok ya da internet yok; iPhone sesiyle okunuyor."
+ "voice.fallback": "Bu metnin doğal sesi henüz yok ya da internet yok; iPhone sesiyle okunuyor.",
+ "ambience.toggle": "Ortam sesi",
+ "ambience.onValue": "Açık",
+ "ambience.offValue": "Kapalı",
+ "ambience.on": "Ortam sesi: {0}",
+ "ambience.kind.bus": "otobüs",
+ "ambience.kind.train": "tren istasyonu",
+ "ambience.kind.cafe": "kafe",
+ "ambience.kind.office": "ofis",
+ "ambience.kind.shop": "market",
+ "ambience.kind.home": "ev",
+ "ambience.kind.nature": "park",
+ "ambience.kind.rain": "yağmur",
+ "ambience.kind.school": "sınıf",
+ "ambience.kind.street": "sokak"
 }

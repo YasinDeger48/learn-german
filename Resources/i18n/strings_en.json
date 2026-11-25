@@ -491,5 +491,19 @@
  "voice.device": "iPhone voice",
  "voice.device.sub": "Works without internet",
  "voice.choose": "Choose a voice",
- "voice.fallback": "No natural voice for this text yet, or no internet: the iPhone voice is reading."
+ "voice.fallback": "No natural voice for this text yet, or no internet: the iPhone voice is reading.",
+ "ambience.toggle": "Background sound",
+ "ambience.onValue": "On",
+ "ambience.offValue": "Off",
+ "ambience.on": "Background: {0}",
+ "ambience.kind.bus": "bus",
+ "ambience.kind.train": "train station",
+ "ambience.kind.cafe": "café",
+ "ambience.kind.office": "office",
+ "ambience.kind.shop": "supermarket",
+ "ambience.kind.home": "home",
+ "ambience.kind.nature": "park",
+ "ambience.kind.rain": "rain",
+ "ambience.kind.school": "classroom",
+ "ambience.kind.street": "street"
 }

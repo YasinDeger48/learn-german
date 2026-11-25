@@ -50,6 +50,10 @@ struct DailyReadingView: View {
     @State private var speedIndex = 0
     @AppStorage(ReadingVoice.storageKey) private var voiceRaw = ReadingVoice.female.rawValue
     @ObservedObject private var audio = TextAudioPlayer.shared
+    @ObservedObject private var ambience = AmbiencePlayer.shared
+    @State private var deviceStarted = Date.distantPast
+    /// The iPhone voice has no "finished" event here: check now and then.
+    private let speechClock = Timer.publish(every: 0.7, on: .main, in: .common).autoconnect()
     @State private var voiceNote: String?
     /// Long-press bubble: token id and what it shows.
     @State private var bubbleID: String?
@@ -142,9 +146,19 @@ struct DailyReadingView: View {
         }
         .onAppear {
             daily.markRead(text)
+            ambience.load()
             DispatchQueue.global(qos: .userInitiated).async { WordLookup.shared.prepare() }
         }
         .onDisappear { stopReading() }
+        .onChange(of: audio.playing) { playing in
+            if !playing && !deviceReading && !audio.loading { ambience.stop() }
+        }
+        .onReceive(speechClock) { _ in
+            if deviceReading, Date().timeIntervalSince(deviceStarted) > 1.5, !A1Speaker.shared.isSpeaking {
+                deviceReading = false
+                ambience.stop()
+            }
+        }
     }
 
     private var voice: ReadingVoice { ReadingVoice(rawValue: voiceRaw) ?? .female }
@@ -156,6 +170,7 @@ struct DailyReadingView: View {
             return
         }
         voiceNote = nil
+        ambience.start(textID: text.id)
         if voice == .device {
             readWithDevice()
         } else {
@@ -168,13 +183,38 @@ struct DailyReadingView: View {
 
     private func readWithDevice() {
         A1Speaker.shared.read(text.fullText, speed: speeds[speedIndex])
+        deviceStarted = Date()
         deviceReading = true
     }
 
     private func stopReading() {
         audio.stop()
         A1Speaker.shared.stop()
+        ambience.stop()
         deviceReading = false
+    }
+
+    /// Background sound on/off; only for texts that have one.
+    @ViewBuilder
+    private var ambienceButton: some View {
+        if ambience.kind(for: text.id) != nil {
+            Button {
+                ambience.enabled.toggle()
+                if ambience.enabled {
+                    if isPlaying { ambience.start(textID: text.id) }
+                } else {
+                    ambience.stop()
+                }
+            } label: {
+                Image(systemName: ambience.enabled ? "waveform.circle.fill" : "waveform.circle")
+                    .font(.system(size: 22, weight: .semibold))
+                    .foregroundColor(ambience.enabled ? DS.goldDeep : DS.muted)
+                    .frame(width: 36, height: 36)
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(t("ambience.toggle"))
+            .accessibilityValue(ambience.enabled ? t("ambience.onValue") : t("ambience.offValue"))
+        }
     }
 
     private func choose(_ newVoice: ReadingVoice) {
@@ -235,6 +275,7 @@ struct DailyReadingView: View {
                     voiceMenu
                 }
                 Spacer()
+                ambienceButton
                 Button(speedLabels[speedIndex]) {
                     speedIndex = (speedIndex + 1) % speeds.count
                     if audio.playing {
@@ -251,6 +292,11 @@ struct DailyReadingView: View {
             }
             if audio.playing {
                 ProgressView(value: audio.progress).tint(DS.gold)
+            }
+            if ambience.enabled, let kind = ambience.kind(for: text.id) {
+                Label(t("ambience.on", t("ambience.kind.\(kind)")), systemImage: "waveform")
+                    .font(DS.text(12, .medium))
+                    .foregroundColor(DS.goldDeep)
             }
             if let voiceNote {
                 Text(voiceNote).font(DS.text(12)).foregroundColor(DS.muted)
