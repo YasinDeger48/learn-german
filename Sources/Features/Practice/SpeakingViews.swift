@@ -468,6 +468,8 @@ struct SpeakTaskView: View {
     @State private var done = false
     @State private var earned = 0
     @State private var startFailed = false
+    /// Same switch as in repeat-after-me: off = no hint for the recogniser (honest), on = it expects the task's phrases.
+    @AppStorage("speak.useHints") private var useHints = false
     private let clock = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
     private var text: String { listener.listening ? listener.transcript : answer }
@@ -487,12 +489,25 @@ struct SpeakTaskView: View {
                     HStack(spacing: 10) {
                         Label(t("speak.timeHint", task.seconds), systemImage: "timer")
                         Spacer()
+                        Button { withAnimation { useHints.toggle() } } label: {
+                            Image(systemName: useHints ? "lightbulb.fill" : "lightbulb")
+                                .foregroundColor(useHints ? DS.onGold : .white)
+                                .frame(width: 34, height: 34)
+                                .background(useHints ? DS.gold : Color.white.opacity(0.2), in: Circle())
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityLabel(useHints ? t("speak.hintOn") : t("speak.hintOff"))
                         Button { A1Speaker.shared.say(task.prompt) } label: {
                             Image(systemName: "speaker.wave.2.fill").foregroundColor(DS.onGold)
                                 .frame(width: 34, height: 34).background(DS.gold, in: Circle())
                         }
                         .buttonStyle(.plain)
                         .accessibilityLabel(t("common.listen"))
+                    }
+                    if useHints {
+                        Label(t("speak.hintNote"), systemImage: "lightbulb.fill")
+                            .font(.caption).foregroundColor(.white.opacity(0.95))
+                            .fixedSize(horizontal: false, vertical: true)
                     }
                     .font(.caption.weight(.semibold)).foregroundColor(.white.opacity(0.9))
                     .padding(.top, 2)
@@ -606,7 +621,7 @@ struct SpeakTaskView: View {
         seconds = 0
         done = false
         earned = 0
-        let hints = task.points.map(\.say)
+        let hints = useHints ? task.points.map(\.say) : []
         startFailed = !listener.start(hints: hints, pause: 5, maxSeconds: Double(max(60, task.seconds + 30))) { heard in
             finish(heard)
         }
