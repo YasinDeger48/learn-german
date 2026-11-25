@@ -150,10 +150,13 @@ def parse_answers():
             f, lemma = str(e.get('f', '')).strip(), str(e.get('lemma', '')).strip()
             tr, en = str(e.get('tr', '')).strip(), str(e.get('en', '')).strip()
             art = str(e.get('art', '') or '').strip().lower()
+            note = str(e.get('note', '') or '').strip()
+            if art in ('der/die', 'die/der'):  # nouns made from adjectives or participles (der/die Mitarbeitende)
+                note = ' · '.join(x for x in ['der/die', note] if x)
+                art = ''
             if not f or not lemma or not tr or not en or art not in ('', 'der', 'die', 'das'):
                 bad.append((os.path.basename(path), line[:60]))
                 continue
-            note = str(e.get('note', '') or '').strip()
             entries[f.lower()] = {
                 'form': f, 'lemma': lemma, 'art': art or None,
                 'pron': pron(f'{art} {lemma}' if art else lemma),
