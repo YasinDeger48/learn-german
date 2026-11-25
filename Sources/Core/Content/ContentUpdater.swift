@@ -80,6 +80,22 @@ enum ContentStore {
     }
 }
 
+extension Data {
+    /// "caaa3f…" → bytes; nil for anything that is not an even number of hex digits.
+    init?(hexString: String) {
+        guard hexString.count % 2 == 0 else { return nil }
+        var bytes: [UInt8] = []
+        var index = hexString.startIndex
+        while index < hexString.endIndex {
+            let next = hexString.index(index, offsetBy: 2)
+            guard let byte = UInt8(hexString[index..<next], radix: 16) else { return nil }
+            bytes.append(byte)
+            index = next
+        }
+        self.init(bytes)
+    }
+}
+
 struct ContentManifest: Decodable {
     struct File: Decodable {
         let sha256: String
@@ -121,12 +137,28 @@ final class ContentUpdater {
         }
     }
 
+    /// Ed25519 public key of the content signature (tools/content_signing.py; the private key is not in the repo).
+    /// Only a manifest signed with it is used, so changed files on the website alone cannot reach the app.
+    static let publicKey = "caaa3f090fac05992293f68cfab7cbec548474a63988afb99c8e6e74c6edb4b1"
+
+    static func signatureIsValid(_ manifest: Data, _ signature: Data) -> Bool {
+        guard let raw = Data(hexString: publicKey),
+              let key = try? Curve25519.Signing.PublicKey(rawRepresentation: raw) else { return false }
+        return key.isValidSignature(signature, for: manifest)
+    }
+
     /// Returns true when the check finished (with or without new files).
     private func update() async -> Bool {
         let manifestURL = ContentStore.baseURL.appendingPathComponent("manifest.json")
         guard let (data, response) = try? await session.data(from: manifestURL),
               (response as? HTTPURLResponse)?.statusCode == 200,
               let manifest = try? JSONDecoder().decode(ContentManifest.self, from: data) else { return false }
+        let signatureURL = ContentStore.baseURL.appendingPathComponent("manifest.sig")
+        guard let (sigText, sigReply) = try? await session.data(from: signatureURL),
+              (sigReply as? HTTPURLResponse)?.statusCode == 200,
+              let signature = Data(base64Encoded: String(decoding: sigText, as: UTF8.self)
+                  .trimmingCharacters(in: .whitespacesAndNewlines)),
+              Self.signatureIsValid(data, signature) else { return true }  // unsigned or not ours: keep what we have
         guard manifest.schema == ContentStore.schema else { return true }  // made for another app version
 
         var installed = UserDefaults.standard.dictionary(forKey: Self.installedKey) as? [String: String] ?? [:]

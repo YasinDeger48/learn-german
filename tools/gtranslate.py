@@ -92,8 +92,8 @@ def tidy(text, lang):
 
 def call(key, texts, lang):
     body = json.dumps({'q': [to_html(t) for t in texts], 'source': 'en', 'target': lang, 'format': 'html'}).encode()
-    request = urllib.request.Request(f'https://translation.googleapis.com/language/translate/v2?key={key}', data=body,
-                                     headers={'Content-Type': 'application/json', 'User-Agent': AGENT})
+    request = urllib.request.Request(f'https://translation.googleapis.com/language/translate/v2', data=body,
+                                     headers={'Content-Type': 'application/json', 'User-Agent': AGENT, 'X-Goog-Api-Key': key})
     for attempt in range(6):
         try:
             with urllib.request.urlopen(request, timeout=60) as reply:

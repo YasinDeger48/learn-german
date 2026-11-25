@@ -78,7 +78,13 @@ def main():
     with open(manifest_path, 'w', encoding='utf-8', newline='\n') as f:
         json.dump({'schema': SCHEMA, 'files': new}, f, ensure_ascii=False, indent=1, sort_keys=True)
         f.write('\n')
-    print(f'written to {SITE}; now push the site (Gizlilik-Sitesi-Yukle.cmd)')
+    # The app installs content only with a valid signature of exactly this manifest (manifest.sig).
+    sys.path.insert(0, HERE)
+    import content_signing
+    if not content_signing.sign_file(manifest_path):
+        sys.exit('No signing key (../tts/content_signing_key.txt): apps would refuse this content. '
+                 'Restore the key, or make one with tools/content_signing.py keygen and update the app.')
+    print(f'written and signed to {SITE}; now push the site (Gizlilik-Sitesi-Yukle.cmd)')
 
 
 if __name__ == '__main__':

@@ -49,8 +49,8 @@ def synthesize(key, voice, content):
         'voice': {'languageCode': 'de-DE', 'name': voice},
         'audioConfig': {'audioEncoding': 'MP3', 'speakingRate': RATE, 'sampleRateHertz': 24000},
     }).encode('utf-8')
-    request = urllib.request.Request(f'https://texttospeech.googleapis.com/v1/text:synthesize?key={key}', data=body,
-                                     headers={'Content-Type': 'application/json', 'User-Agent': AGENT}, method='POST')
+    request = urllib.request.Request(f'https://texttospeech.googleapis.com/v1/text:synthesize', data=body,
+                                     headers={'Content-Type': 'application/json', 'User-Agent': AGENT, 'X-Goog-Api-Key': key}, method='POST')
     with urllib.request.urlopen(request, timeout=120) as reply:
         return base64.b64decode(json.load(reply)['audioContent'])
 
