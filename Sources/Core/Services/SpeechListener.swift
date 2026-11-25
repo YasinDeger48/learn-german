@@ -12,6 +12,8 @@ final class SpeechListener: ObservableObject {
     @Published private(set) var access: Access = .unknown
     /// 0…1, how loud the microphone is, for the ring around the button.
     @Published private(set) var loudness: CGFloat = 0
+    /// Words (SpeechScore.key) the recogniser was not sure about (confidence under 0.45 in the final result).
+    @Published private(set) var unsureWords: Set<String> = []
 
     private let recognizer = SFSpeechRecognizer(locale: Locale(identifier: "de-DE"))
     /// A new engine for every listening, made after the session is set to record: an engine whose microphone input
@@ -64,6 +66,7 @@ final class SpeechListener: ObservableObject {
         A1Speaker.shared.stop()
         TextAudioPlayer.shared.stop()
         transcript = ""
+        unsureWords = []
 
         let session = AVAudioSession.sharedInstance()
         do {
@@ -105,6 +108,10 @@ final class SpeechListener: ObservableObject {
                 guard let self, self.onFinish != nil else { return }
                 if let result {
                     self.transcript = result.bestTranscription.formattedString
+                    // Confidence is only filled in (above 0) for the final result.
+                    self.unsureWords = Set(result.bestTranscription.segments
+                        .filter { $0.confidence > 0 && $0.confidence < 0.45 }
+                        .map { SpeechScore.key($0.substring) })
                     if result.isFinal { self.finish(); return }
                     self.armSilence(pause)
                 } else if error != nil {
@@ -185,6 +192,8 @@ enum SpeechScore {
     struct Word: Hashable {
         let text: String
         let ok: Bool
+        /// Heard, but the recogniser was not sure: shown in orange and counted half.
+        var unclear = false
     }
 
     struct Result: Hashable {
@@ -233,7 +242,8 @@ enum SpeechScore {
         return row[b.count]
     }
 
-    static func check(target: String, heard: String) -> Result {
+    /// `unsure`: keys of heard words the recogniser was not sure about (SpeechListener.unsureWords).
+    static func check(target: String, heard: String, unsure: Set<String> = []) -> Result {
         let shown = split(target)
         let targetKeys = shown.map(key)
         let heardKeys = split(heard).map(key).filter { !$0.isEmpty }
@@ -249,10 +259,13 @@ enum SpeechScore {
             }
         }
         var matched = Set<Int>()
+        var unclear = Set<Int>()
         var i = n, j = m
         while i > 0 && j > 0 {
             if close(targetKeys[i - 1], heardKeys[j - 1]) && table[i][j] == table[i - 1][j - 1] + 1 {
-                matched.insert(i - 1); i -= 1; j -= 1
+                matched.insert(i - 1)
+                if unsure.contains(heardKeys[j - 1]) { unclear.insert(i - 1) }
+                i -= 1; j -= 1
             } else if table[i - 1][j] >= table[i][j - 1] {
                 i -= 1
             } else {
@@ -260,8 +273,13 @@ enum SpeechScore {
             }
         }
         let counted = targetKeys.indices.filter { !targetKeys[$0].isEmpty }
-        let words = shown.indices.map { Word(text: shown[$0], ok: targetKeys[$0].isEmpty || matched.contains($0)) }
-        let score = counted.isEmpty ? 0 : Int((Double(counted.filter { matched.contains($0) }.count) / Double(counted.count) * 100).rounded())
+        let words = shown.indices.map {
+            Word(text: shown[$0], ok: targetKeys[$0].isEmpty || matched.contains($0), unclear: unclear.contains($0))
+        }
+        let points: Double = counted.reduce(0) { sum, k in
+            sum + (matched.contains(k) ? (unclear.contains(k) ? 0.5 : 1) : 0)
+        }
+        let score = counted.isEmpty ? 0 : Int((points / Double(counted.count) * 100).rounded())
         return Result(words: words, score: score, heard: heard)
     }
 

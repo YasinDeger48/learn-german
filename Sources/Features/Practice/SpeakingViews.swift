@@ -253,6 +253,8 @@ struct SpeakRepeatView: View {
     @State private var xp = 0
     @State private var finished = false
     @State private var startFailed = false
+    /// Off: the recogniser gets no hint, so the check is honest. On: it expects this sentence and accepts more easily.
+    @AppStorage("speak.useHints") private var useHints = false
     @Environment(\.dismiss) private var dismiss
 
     private var item: A1Example? { index < items.count ? items[index] : nil }
@@ -295,9 +297,12 @@ struct SpeakRepeatView: View {
             VStack(alignment: .leading, spacing: 10) {
                 if let result {
                     result.words.reduce(Text("")) { text, word in
-                        text + Text(word.text + " ").foregroundColor(word.ok ? DS.success : DS.error)
+                        text + Text(word.text + " ").foregroundColor(word.unclear ? DS.goldDeep : (word.ok ? DS.success : DS.error))
                     }
                     .font(DS.text(24, .semibold))
+                    if result.words.contains(where: \.unclear) {
+                        Text(t("speak.unclear")).font(DS.text(13)).foregroundColor(DS.goldDeep)
+                    }
                 } else {
                     Text(item.de).font(DS.text(24, .semibold)).foregroundColor(DS.ink)
                 }
@@ -308,8 +313,23 @@ struct SpeakRepeatView: View {
                 HStack(spacing: 10) {
                     listenButton(t("common.listen"), "speaker.wave.2.fill") { A1Speaker.shared.say(item.de) }
                     listenButton(t("speak.slow"), "tortoise.fill") { A1Speaker.shared.say(item.de, slow: true) }
+                    Spacer(minLength: 0)
+                    Button { withAnimation { useHints.toggle() } } label: {
+                        Image(systemName: useHints ? "lightbulb.fill" : "lightbulb")
+                            .font(.system(size: 15, weight: .semibold))
+                            .foregroundColor(useHints ? DS.goldDeep : DS.muted)
+                            .frame(width: 34, height: 34)
+                            .background(useHints ? DS.gold.opacity(0.2) : DS.chip, in: Circle())
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel(useHints ? t("speak.hintOn") : t("speak.hintOff"))
                 }
                 .padding(.top, 4)
+                if useHints {
+                    Label(t("speak.hintNote"), systemImage: "lightbulb.fill")
+                        .font(DS.text(12)).foregroundColor(DS.goldDeep)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(18)
@@ -378,14 +398,14 @@ struct SpeakRepeatView: View {
             return
         }
         withAnimation { result = nil }
-        let hints = SpeechScore.split(item.de).map { a1Core($0) }
+        let hints = useHints ? SpeechScore.split(item.de).map { a1Core($0) } : []
         startFailed = !listener.start(hints: hints, pause: 1.6, maxSeconds: 15) { heard in
             score(item, heard)
         }
     }
 
     private func score(_ item: A1Example, _ heard: String) {
-        let check = SpeechScore.check(target: item.de, heard: heard)
+        let check = SpeechScore.check(target: item.de, heard: heard, unsure: listener.unsureWords)
         withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) { result = check }
         guard !heard.isEmpty else { return }
         let before = best[index] ?? 0
