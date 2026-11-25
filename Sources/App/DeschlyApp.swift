@@ -150,6 +150,11 @@ struct RootView: View {
         .onChange(of: scenePhase) { phase in
             if phase == .active { checkProgress() }
         }
+        // Any XP or streak change anywhere (units, exam, lessons, speaking, writing, reading, games, the lock-screen
+        // quiz) checks the badges right away, instead of only after quizzes or when the app comes back.
+        .onReceive(StreakStore.shared.$state.dropFirst().debounce(for: .seconds(0.7), scheduler: RunLoop.main)) { _ in
+            checkBadges()
+        }
         .sheet(item: $celebration) { CelebrationView(badges: $0.badges) }
         // Daily goal reached: a short success haptic and a banner at the top, like system confirmations.
         .onReceive(NotificationCenter.default.publisher(for: StreakStore.goalReached)) { _ in
@@ -191,9 +196,16 @@ struct RootView: View {
     /// Streak freezes for missed days, then badges earned outside a quiz (shown once).
     private func checkProgress() {
         StreakStore.shared.refreshFreezes(isPro: pro.isPro)
-        BadgeStore.shared.refresh()
-        let pending = BadgeStore.shared.takePending()
-        if !pending.isEmpty && celebration == nil { celebration = Celebration(badges: pending) }
+        checkBadges()
+    }
+
+    /// Stores newly earned badges and celebrates them, except over an open quiz (its summary shows them).
+    private func checkBadges() {
+        let store = BadgeStore.shared
+        store.refresh()
+        guard store.openQuizzes.isEmpty, celebration == nil else { return }
+        let pending = store.takePending()
+        if !pending.isEmpty { celebration = Celebration(badges: pending) }
     }
 }
 

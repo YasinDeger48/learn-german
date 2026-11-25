@@ -107,6 +107,12 @@ final class BadgeStore: ObservableObject {
         return celebrate
     }
 
+    /// Quiz screens on display. While one is open, new badges are stored but not celebrated over the questions:
+    /// the round summary shows them (RootView celebrates everything else at once).
+    private(set) var openQuizzes: Set<UUID> = []
+    func quizShown(_ id: UUID) { openQuizzes.insert(id) }
+    func quizHidden(_ id: UUID) { openQuizzes.remove(id) }
+
     /// Takes the queued celebrations (shown once).
     func takePending() -> [Badge] {
         let items = pending

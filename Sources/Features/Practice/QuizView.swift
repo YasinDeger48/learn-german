@@ -44,6 +44,8 @@ struct A1QuizView: View {
     @State private var startedAt = Date()
     @State private var newBadges: [Badge] = []
     @State private var celebration: Celebration?
+    /// This quiz screen, for BadgeStore (no badge celebration over the questions).
+    @State private var screenID = UUID()
     @Environment(\.dismiss) private var dismiss
     /// Today's free questions are used up (free version only).
     @State private var limitReached = false
@@ -70,9 +72,13 @@ struct A1QuizView: View {
         .tint(DS.accent)
         .navigationTitle(title)
         .navigationBarTitleDisplayMode(.inline)
-        .onDisappear { A1Speaker.shared.stop() }
+        .onDisappear {
+            A1Speaker.shared.stop()
+            BadgeStore.shared.quizHidden(screenID)
+        }
         .sheet(item: $celebration) { CelebrationView(badges: $0.badges) }
         .onAppear {
+            BadgeStore.shared.quizShown(screenID)
             if !started {
                 session = makeSession()
                 startedAt = Date()
