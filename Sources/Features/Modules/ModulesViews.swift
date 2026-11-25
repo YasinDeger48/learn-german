@@ -210,6 +210,11 @@ struct ModulesHomeView: View {
                               value: "\(doneTopics)/\(topics.count)")
                 }
                 Divider().padding(.leading, 56)
+                NavigationLink(value: AppRoute.verbLab) {
+                    ModuleRow(icon: "flask.fill", color: .indigo, title: t("verb.title"), subtitle: t("verb.sub"),
+                              value: VerbBank.verbs(model.level).isEmpty ? nil : "\(VerbBank.verbs(model.level).count)")
+                }
+                Divider().padding(.leading, 56)
                 NavigationLink(value: AppRoute.practice(model.level)) {
                     ModuleRow(icon: "square.grid.2x2.fill", color: .orange, title: t("modules.allPractice"),
                               subtitle: t("modules.allPracticeSub"), value: nil)

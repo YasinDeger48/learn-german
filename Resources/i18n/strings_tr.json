@@ -603,5 +603,21 @@
  "write.closing": "Kapanış (Viele Grüße …)",
  "write.length": "En az {0} kelime",
  "write.placeholder": "Mesajını Almanca yaz…",
- "write.words": "{0} kelime"
+ "write.words": "{0} kelime",
+ "verb.title": "Fiil Laboratuvarı",
+ "verb.sub": "Tüm zamanlar, sorular, kalıplar, karmaşık cümleler",
+ "verb.empty": "Fiil Laboratuvarı hazırlanıyor",
+ "verb.emptySub": "Bu seviyenin fiilleri yakında içerik güncellemesiyle gelecek.",
+ "verb.count": "{0} fiil",
+ "verb.search": "Fiil ara",
+ "verb.tense": "Zaman",
+ "verb.examples": "Zamanlar",
+ "verb.questions": "Sorular",
+ "verb.common": "Kalıplar",
+ "verb.complex": "Karmaşık",
+ "verb.play": "Bu fiille oyna",
+ "verb.separable": "ayrılabilen",
+ "verb.reflexive": "dönüşlü",
+ "verb.whichTense": "Bu hangi zaman?",
+ "verb.meaningOf": "Anlamı ne?"
 }

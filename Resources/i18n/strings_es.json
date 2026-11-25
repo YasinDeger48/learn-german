@@ -603,5 +603,21 @@
  "write.closing": "Closing (Viele Grüße …)",
  "write.length": "At least {0} words",
  "write.placeholder": "Write your message in German…",
- "write.words": "{0} words"
+ "write.words": "{0} words",
+ "verb.title": "Verb lab",
+ "verb.sub": "Every tense, questions, phrases, complex sentences",
+ "verb.empty": "The verb lab is being prepared",
+ "verb.emptySub": "The verbs of this level come with a content update soon.",
+ "verb.count": "{0} verbs",
+ "verb.search": "Search a verb",
+ "verb.tense": "Tense",
+ "verb.examples": "Tenses",
+ "verb.questions": "Questions",
+ "verb.common": "Phrases",
+ "verb.complex": "Complex",
+ "verb.play": "Play with this verb",
+ "verb.separable": "separable",
+ "verb.reflexive": "reflexive",
+ "verb.whichTense": "Which tense is this?",
+ "verb.meaningOf": "What does it mean?"
 }

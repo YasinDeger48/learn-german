@@ -56,6 +56,9 @@ enum AppRoute: Hashable {
     case readingHome
     case lesson
     case writing
+    case verbLab
+    case verb(String)
+    case verbGame(String)
     case writingTask(String)
     /// ExamModule raw value, for the level that is active (LevelModels.active).
     case module(String)
@@ -220,6 +223,17 @@ struct AppDestination: View {
             }
         case .readingHome:
             ReadingHomeView()
+        case .verbLab:
+            VerbLabHomeView().environmentObject(levels.current)
+        case .verb(let infinitive):
+            if let verb = VerbBank.verb(infinitive) { VerbDetailView(verb: verb) }
+        case .verbGame(let infinitive):
+            if let verb = VerbBank.verb(infinitive) {
+                A1QuizView(title: verb.v) {
+                    VerbGame.questions(verb, others: VerbBank.verbs(levels.current.level))
+                }
+                .environmentObject(levels.current)
+            }
         case .writing:
             WritingHomeView().environmentObject(levels.current)
         case .writingTask(let id):
