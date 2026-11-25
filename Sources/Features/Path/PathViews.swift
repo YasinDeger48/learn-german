@@ -681,12 +681,14 @@ struct PathContinueCard: View {
                         }
                     }
                     .padding(.horizontal, 16)
-                    HStack(spacing: 5) {
+                    // The six steps: done = green tick, next = gold ring, the rest faint.
+                    HStack(spacing: 0) {
                         ForEach(UnitStep.allCases) { step in
-                            Capsule().fill(done.contains(step.rawValue) ? DS.gold : Color.white.opacity(0.18)).frame(height: 6)
+                            stepDot(step, done: done.contains(step.rawValue), next: next == step)
+                                .frame(maxWidth: .infinity)
                         }
                     }
-                    .padding(.horizontal, 16)
+                    .padding(.horizontal, 12)
                     .padding(.bottom, 16)
                 }
                 .background(DS.night, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
@@ -696,5 +698,18 @@ struct PathContinueCard: View {
             .id(refresh)
             .onReceive(NotificationCenter.default.publisher(for: UnitStore.changed)) { _ in refresh += 1 }
         }
+    }
+
+    private func stepDot(_ step: UnitStep, done: Bool, next: Bool) -> some View {
+        ZStack {
+            Circle().fill(done ? DS.success : Color.white.opacity(next ? 0.16 : 0.08))
+            if next { Circle().stroke(DS.gold, lineWidth: 2) }
+            Image(systemName: done ? "checkmark" : step.icon)
+                .font(.system(size: done ? 13 : 11, weight: .heavy))
+                .foregroundColor(done ? .white : (next ? DS.gold : Color.white.opacity(0.4)))
+        }
+        .frame(width: 30, height: 30)
+        .accessibilityElement()
+        .accessibilityLabel(step.title + (done ? ", ✓" : ""))
     }
 }

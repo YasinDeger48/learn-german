@@ -17,14 +17,18 @@ struct TodayView: View {
                 LessonCard().padding(.top, 12)
                 ReviewCard(model: practiceModel).padding(.top, 12)
                 dailyCard.padding(.top, 16)
-                if let word = wordOfDay { wordCard(word).padding(.top, 14) }
                 TodayPractice(model: practiceModel).padding(.top, 22)
             }
             .padding(.horizontal, DS.gutter)
-            .padding(.bottom, 24)
+            .padding(.bottom, 110)  // room to scroll the last rows above the word island
         }
         .deschlyPage()
-        .overlay { GoalIsland() }
+        .overlay {
+            ZStack {
+                if let word = wordOfDay { WordIsland(word: word) }
+                GoalIsland()
+            }
+        }
         .navigationTitle(t("tab.today"))
         .onAppear { levels.active = practiceModel.level }
         .onChange(of: daily.level) { _ in levels.active = practiceModel.level }
@@ -143,12 +147,11 @@ struct TodayView: View {
         return "HEUTE\n" + f.string(from: Date())
     }
 
-    /// A noun with an example, the same for everyone on the same day.
+    /// A noun with an example from the learner's level, new every day (WordOfDay).
     private var wordOfDay: A1Word? {
-        guard let words = a1.content?.words else { return nil }
-        let nouns = words.filter { $0.isNoun && !$0.ex.isEmpty && $0.theme != A1BankBuilder.coreTheme }
-        guard !nouns.isEmpty else { return nil }
-        return nouns[(DailyModel.dayNumber(Date()) * 37) % nouns.count]
+        let model = practiceModel
+        guard let words = (model.content ?? a1.content)?.words else { return nil }
+        return WordOfDay.pick(from: words, level: model.content == nil ? "A1" : model.level)
     }
 
     private func wordCard(_ word: A1Word) -> some View {

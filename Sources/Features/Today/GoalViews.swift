@@ -226,6 +226,123 @@ struct GoalIsland: View {
     }
 }
 
+/// Word of the day: a noun with an example from the learner's level. A new one every day and never
+/// yesterday's word again (also when the level changed); the choice is kept for the whole day.
+enum WordOfDay {
+    private static let dayKey = "wordOfDay.day"
+    private static let idKey = "wordOfDay.id"
+
+    static func pick(from words: [A1Word], level: String) -> A1Word? {
+        let nouns = words.filter { $0.isNoun && !$0.ex.isEmpty && $0.theme != A1BankBuilder.coreTheme }
+        guard !nouns.isEmpty else { return nil }
+        let defaults = UserDefaults.standard
+        let today = A1Model.dayString(Date())
+        let stored = defaults.string(forKey: idKey)
+        if defaults.string(forKey: dayKey) == today, let word = nouns.first(where: { "\(level)-\($0.id)" == stored }) {
+            return word
+        }
+        var index = (DailyModel.dayNumber(Date()) * 37 + 11) % nouns.count
+        if nouns.count > 1 && "\(level)-\(nouns[index].id)" == stored { index = (index + 1) % nouns.count }
+        defaults.set(today, forKey: dayKey)
+        defaults.set("\(level)-\(nouns[index].id)", forKey: idKey)
+        return nouns[index]
+    }
+}
+
+/// Open / closed state of the word island. Not saved on purpose: every app start shows the word again, open.
+final class WordIslandState: ObservableObject {
+    static let shared = WordIslandState()
+    @Published var open = true
+    @Published var closed = false
+}
+
+/// The word of the day as a small black island at the bottom left of Today. Open: the word, its meaning and an
+/// example with a listen button; the arrow folds it into a small pill at the edge, the cross closes it until the
+/// app starts again.
+struct WordIsland: View {
+    let word: A1Word
+    @ObservedObject private var state = WordIslandState.shared
+    private let spring = Animation.spring(response: 0.42, dampingFraction: 0.8)
+
+    var body: some View {
+        ZStack(alignment: .bottomLeading) {
+            Color.clear
+            if !state.closed {
+                Group {
+                    if state.open { card } else { pill }
+                }
+                .background(Color.black, in: RoundedRectangle(cornerRadius: state.open ? 28 : 22, style: .continuous))
+                .shadow(color: .black.opacity(0.22), radius: state.open ? 18 : 8, y: 5)
+                .offset(x: state.open ? 12 : -14)
+                .padding(.bottom, 12)
+                .transition(.move(edge: .leading).combined(with: .opacity))
+            }
+        }
+    }
+
+    private var pill: some View {
+        HStack(spacing: 6) {
+            Image(systemName: "character.book.closed.fill").font(.system(size: 14, weight: .bold)).foregroundColor(DS.gold)
+            Text(word.de).font(.system(size: 14, weight: .bold)).foregroundColor(.white).lineLimit(1)
+        }
+        .padding(.vertical, 10)
+        .padding(.leading, 24)
+        .padding(.trailing, 12)
+        .contentShape(Rectangle())
+        .onTapGesture { withAnimation(spring) { state.open = true } }
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isButton)
+        .accessibilityLabel(t("today.wordOfDay") + ": " + word.withArticle)
+    }
+
+    private var card: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack(spacing: 6) {
+                Text(t("today.wordOfDay").uppercased()).font(.caption2.weight(.bold)).foregroundColor(.white.opacity(0.6))
+                Spacer()
+                Button { withAnimation(spring) { state.open = false } } label: {
+                    Image(systemName: "chevron.down").font(.system(size: 12, weight: .bold))
+                        .frame(width: 28, height: 28).background(Color.white.opacity(0.12), in: Circle())
+                }
+                .accessibilityLabel(t("common.close"))
+                Button { withAnimation(spring) { state.closed = true } } label: {
+                    Image(systemName: "xmark").font(.system(size: 12, weight: .bold))
+                        .frame(width: 28, height: 28).background(Color.white.opacity(0.12), in: Circle())
+                }
+                .accessibilityLabel(t("common.close"))
+            }
+            .foregroundColor(.white)
+            HStack(alignment: .firstTextBaseline, spacing: 6) {
+                Text(word.type).font(.system(size: 13, weight: .heavy)).foregroundColor(.white)
+                    .padding(.horizontal, 6).padding(.vertical, 1)
+                    .background(a1ArticleColor(word.type), in: Capsule())
+                Text(word.de).font(.system(size: 22, weight: .heavy)).foregroundColor(.white)
+            }
+            Text(a1PronLead(word.pron) + word.mean.text).font(.system(size: 14, weight: .semibold)).foregroundColor(DS.gold)
+                .fixedSize(horizontal: false, vertical: true)
+            if let example = word.ex.first {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("„\(example.de)“").font(.system(size: 14)).italic().foregroundColor(.white.opacity(0.9))
+                    Text(example.mean.text).font(.footnote).foregroundColor(.white.opacity(0.6))
+                }
+                .fixedSize(horizontal: false, vertical: true)
+            }
+            Button {
+                A1Speaker.shared.play([A1Line(s: -1, t: word.withArticle)] + word.ex.prefix(1).map { A1Line(s: -1, t: $0.de) })
+            } label: {
+                Label(t("common.listen"), systemImage: "speaker.wave.2.fill")
+                    .font(.system(size: 14, weight: .semibold))
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity, minHeight: 36)
+                    .background(Color.white.opacity(0.14), in: Capsule())
+            }
+            .buttonStyle(.plain)
+        }
+        .padding(16)
+        .frame(width: 300)
+    }
+}
+
 /// "N reviews due today" on Today: spaced repetition of answered questions. Hidden when nothing is due.
 struct ReviewCard: View {
     @ObservedObject var model: A1Model
