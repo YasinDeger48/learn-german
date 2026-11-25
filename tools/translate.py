@@ -7,7 +7,9 @@
     python -I -X utf8 tools/translate.py import es             reads every answer file of that language
 
 Requests go to ../icerik/ceviri/<lang>/<set>_istek_NN.txt, ChatGPT's answers are saved next to them as
-<set>_cevap_NN.txt (one JSON object per line: {"id": 12, "t": "..."}).
+<set>_cevap_NN.txt (one JSON object per line: {"id": "tab.path", "t": "..."}).
+Ids are the UI key, or "c" + a hash of the English text for content, so an answer still lands on the right text
+when it was made from another language's request. Old numbered answers are matched to the request they fit best.
 
 Content: every {"tr": …, "en": …} object in Resources/content/*.json is a learner-language text. The English text is
 the source (Turkish is given as context); translations are remembered in tools/i18n/content_<lang>.json
@@ -15,6 +17,7 @@ the source (Turkish is given as context); translations are remembered in tools/i
 back to English in the app (LocText).
 """
 import glob
+import hashlib
 import json
 import os
 import re
@@ -148,13 +151,45 @@ def export(lang, set_name):
     for n, batch in enumerate(batches, 1):
         manifest = {}
         lines = rules(lang, set_name)
-        for i, (key, en, tr) in enumerate(batch, 1):
-            manifest[str(i)] = key if set_name == 'ui' else en
-            lines.append(json.dumps({'id': i, 'en': en, 'tr': tr}, ensure_ascii=False))
+        for key, en, tr in batch:
+            ident = key if set_name == 'ui' else content_id(en)
+            manifest[ident] = key if set_name == 'ui' else en
+            lines.append(json.dumps({'id': ident, 'en': en, 'tr': tr}, ensure_ascii=False))
         base = os.path.join(folder, f'{set_name}_istek_{n:02d}')
         open(base + '.txt', 'w', encoding='utf-8', newline='\r\n').write('\n'.join(lines) + '\n')
         json.dump(manifest, open(base + '.json', 'w', encoding='utf-8', newline='\n'), ensure_ascii=False)
     print(f'{lang} {set_name}: {len(items)} texts in {len(batches)} requests -> {folder}')
+
+
+def content_id(en):
+    return 'c' + hashlib.sha1(en.encode('utf-8')).hexdigest()[:9]
+
+
+def fits(source, text):
+    """Rough sign that `text` translates `source`: same placeholders, similar length."""
+    return check(source, text) and 0.35 < len(text) / max(1, len(source)) < 3.2
+
+
+def pick_manifest(set_name, answers, own_path, en):
+    """Numbered answers: the request (of any language, same set) whose texts they fit best; own request on a tie."""
+    def source(manifest, i):
+        value = manifest.get(i)
+        return None if value is None else (en.get(value, '') if set_name == 'ui' else value)
+
+    def score(manifest):
+        hits = sum(1 for i, t in answers.items() if source(manifest, i) is not None and fits(source(manifest, i), t))
+        return hits / max(1, len(answers))
+
+    own = json.load(open(own_path, encoding='utf-8'))
+    best, best_score, best_path = own, score(own), own_path
+    for path in glob.glob(os.path.join(OUTDIR, '*', f'{set_name}_istek_*.json')):
+        manifest = json.load(open(path, encoding='utf-8'))
+        value = score(manifest)
+        if value > best_score + 0.05:
+            best, best_score, best_path = manifest, value, path
+    if best_path != own_path:
+        print(f'  {os.path.basename(own_path)[:-5]}: answers follow {os.path.relpath(best_path, OUTDIR)} (fit {best_score:.0%})')
+    return best
 
 
 def check(source, text):
@@ -189,11 +224,22 @@ def import_(lang):
         if not os.path.exists(manifest_path):
             print(f'  no request for {os.path.basename(answer)}')
             continue
-        manifest = json.load(open(manifest_path, encoding='utf-8'))
         answers = read_answers(answer)
-        missing = [i for i in manifest if i not in answers]
-        if missing:
-            print(f'  {os.path.basename(answer)}: {len(missing)} of {len(manifest)} lines missing')
+        if all(i.isdigit() for i in answers):
+            manifest = pick_manifest(set_name, answers, manifest_path, en)
+            missing = [i for i in manifest if i not in answers]
+            if missing:
+                print(f'  {os.path.basename(answer)}: {len(missing)} of {len(manifest)} lines missing')
+        else:
+            # Key / hash ids: valid for any request of this set.
+            manifest = {}
+            for path in glob.glob(os.path.join(OUTDIR, '*', f'{set_name}_istek_*.json')):
+                manifest.update(json.load(open(path, encoding='utf-8')))
+            if set_name == 'ui':
+                manifest.update({k: k for k in en})
+            unknown = [i for i in answers if i not in manifest]
+            if unknown:
+                print(f'  {os.path.basename(answer)}: {len(unknown)} unknown ids, e.g. {unknown[0]}')
         for i, text in answers.items():
             if i not in manifest:
                 continue
