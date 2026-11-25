@@ -51,6 +51,24 @@ enum ContentStore {
             (Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "")
     }
 
+    /// Broken downloaded content must not lock the app in a crash loop until the next release: if the app ended
+    /// within 10 seconds of starting twice in a row while downloads are in use, they are dropped and the bundled
+    /// files are used again. Call at launch, before any content is read.
+    static func guardAgainstCrashLoop() {
+        let key = "contentEarlyExits"
+        let defaults = UserDefaults.standard
+        let hasDownloads = (defaults.dictionary(forKey: ContentUpdater.installedKey) ?? [:]).isEmpty == false
+        let early = defaults.integer(forKey: key)
+        if hasDownloads && early >= 2 {
+            try? FileManager.default.removeItem(at: folder)
+            defaults.removeObject(forKey: ContentUpdater.installedKey)
+            defaults.set(0, forKey: key)
+            return
+        }
+        defaults.set(early + 1, forKey: key)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10) { defaults.set(0, forKey: key) }
+    }
+
     /// A new app version brings newer bundled files: drop downloads made by an older version.
     static func clearIfAppChanged() {
         let key = "contentCacheBuild"
@@ -114,9 +132,10 @@ final class ContentUpdater {
         var installed = UserDefaults.standard.dictionary(forKey: Self.installedKey) as? [String: String] ?? [:]
         let fm = FileManager.default
         try? fm.createDirectory(at: ContentStore.folder, withIntermediateDirectories: true)
+        var downloaded = 0
 
-        for (name, file) in manifest.files.sorted(by: { $0.key < $1.key }) {
-            guard Self.isSafe(name) else { continue }
+        for (name, file) in manifest.files.sorted(by: { $0.key < $1.key }).prefix(Self.maxFiles) {
+            guard Self.isSafe(name), file.size > 0, file.size <= Self.maxSize(name) else { continue }
             if installed[name] == file.sha256, ContentStore.cached(name) != nil { continue }
             // Same as the bundled file: no download, and a stale download is removed.
             if let bundled = ContentStore.bundled(name), Self.sha256(of: bundled) == file.sha256 {
@@ -124,10 +143,14 @@ final class ContentUpdater {
                 installed[name] = nil
                 continue
             }
+            guard downloaded + file.size <= Self.maxPerCheck else { break }  // the rest waits for the next check
             guard let (body, reply) = try? await session.data(from: ContentStore.baseURL.appendingPathComponent(name)),
                   (reply as? HTTPURLResponse)?.statusCode == 200,
                   body.count == file.size,
                   Self.sha256(body) == file.sha256 else { continue }
+            downloaded += body.count
+            // A JSON file must at least be valid JSON before it replaces the bundled one.
+            if name.hasSuffix(".json"), (try? JSONSerialization.jsonObject(with: body)) == nil { continue }
             let dest = ContentStore.folder.appendingPathComponent(name)
             try? fm.createDirectory(at: dest.deletingLastPathComponent(), withIntermediateDirectories: true)
             if (try? body.write(to: dest, options: .atomic)) != nil {
@@ -137,6 +160,11 @@ final class ContentUpdater {
         UserDefaults.standard.set(installed, forKey: Self.installedKey)
         return true
     }
+
+    /// Limits, so a wrong or hostile manifest cannot fill the phone: files, size per file, size per check.
+    static let maxFiles = 3000
+    static let maxPerCheck = 120 * 1024 * 1024
+    static func maxSize(_ name: String) -> Int { name.hasSuffix(".json") ? 12 * 1024 * 1024 : 4 * 1024 * 1024 }
 
     /// Only plain relative names like "a1.json" or "covers/a1-001.jpg".
     static func isSafe(_ name: String) -> Bool {

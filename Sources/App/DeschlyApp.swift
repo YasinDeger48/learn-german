@@ -8,6 +8,7 @@ struct DeschlyApp: App {
     init() {
         // Must run before any content is read: a new app version starts from its own bundled files.
         ContentStore.clearIfAppChanged()
+        ContentStore.guardAgainstCrashLoop()
         UNUserNotificationCenter.current().delegate = NotificationHandler.shared
         Reminders.registerCategories()
     }
