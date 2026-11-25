@@ -504,13 +504,13 @@ struct SpeakTaskView: View {
                         .buttonStyle(.plain)
                         .accessibilityLabel(t("common.listen"))
                     }
+                    .font(.caption.weight(.semibold)).foregroundColor(.white.opacity(0.9))
+                    .padding(.top, 2)
                     if useHints {
                         Label(t("speak.hintNote"), systemImage: "lightbulb.fill")
                             .font(.caption).foregroundColor(.white.opacity(0.95))
                             .fixedSize(horizontal: false, vertical: true)
                     }
-                    .font(.caption.weight(.semibold)).foregroundColor(.white.opacity(0.9))
-                    .padding(.top, 2)
                 }
                 .padding(18)
                 .background(SpeakStyle.gradient, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
