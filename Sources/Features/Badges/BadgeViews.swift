@@ -91,21 +91,24 @@ struct BadgesView: View {
         }
     }
 
-    /// No badge yet: Lina waits with the user for the first one.
+    private var welcome: Badge { Badge(kind: .welcome, target: 1) }
+
+    /// Only the welcome badge so far: curious Lina shows it and waits with the user for the next one.
     private var waitingCard: some View {
         HStack(spacing: 14) {
             ZStack(alignment: .bottomTrailing) {
-                LinaAvatar(size: 76)
+                LinaAvatar(size: 76, mood: .curious)
                     .clipShape(Circle())
-                Image(systemName: "rosette")
-                    .font(.system(size: 15, weight: .bold))
-                    .foregroundColor(DS.onGold)
-                    .frame(width: 30, height: 30)
-                    .background(DS.gold, in: Circle())
+                BadgeIcon(badge: welcome, earned: true, size: 30)
                     .overlay(Circle().stroke(DS.surface, lineWidth: 3))
                     .offset(x: 4, y: 4)
             }
             VStack(alignment: .leading, spacing: 4) {
+                if badges.isEarned(welcome) {
+                    Label(t("badges.firstEarned", welcome.title), systemImage: "checkmark.seal.fill")
+                        .font(.caption.weight(.bold))
+                        .foregroundColor(DS.success)
+                }
                 Text(t("badges.emptyTitle")).font(DS.display(20)).foregroundColor(DS.ink)
                 Text(t("badges.emptySub")).font(.subheadline).foregroundColor(DS.muted)
                     .fixedSize(horizontal: false, vertical: true)
@@ -210,6 +213,15 @@ struct CelebrationView: View {
                         .padding(.horizontal, 14).padding(.vertical, 10)
                         .background(Color(red: 0.89, green: 0.95, blue: 1), in: Capsule())
                 }
+            } else if let first = badges.first, first.kind == .welcome {
+                ZStack(alignment: .bottomTrailing) {
+                    LinaAvatar(size: 150, mood: .curious).clipShape(Circle())
+                    BadgeIcon(badge: first, earned: true, size: 52)
+                        .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                }
+                Text("Neues Abzeichen!").font(DS.display(32))
+                Text(first.title).font(.title3.weight(.semibold))
+                Text(t("badge.welcomeSub")).foregroundColor(DS.muted).multilineTextAlignment(.center)
             } else if let first = badges.first {
                 BadgeIcon(badge: first, earned: true, size: 140)
                 Text("Neues Abzeichen!").font(DS.display(32))

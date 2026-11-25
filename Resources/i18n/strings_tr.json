@@ -384,6 +384,7 @@
  "badges.title": "Rozetler",
  "badges.emptyTitle": "Rozetler seni bekliyor!",
  "badges.emptySub": "İlk alıştırmanı bitir, sıradaki rozeti birlikte kazanalım.",
+ "badges.firstEarned": "İlk rozetin: {0}",
  "badges.level": "Seviye {0}",
  "badges.toNext": "Seviye {1} için {0} XP kaldı",
  "badges.next": "SIRADAKİ ROZET",

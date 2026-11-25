@@ -384,6 +384,7 @@
  "badges.title": "Insignias",
  "badges.emptyTitle": "¡Tus insignias te esperan!",
  "badges.emptySub": "Termina tu primera práctica y ganemos juntos la próxima insignia.",
+ "badges.firstEarned": "Tu primera insignia: {0}",
  "badges.level": "Nivel {0}",
  "badges.toNext": "{0} XP para el nivel {1}",
  "badges.next": "PRÓXIMA INSIGNIA",

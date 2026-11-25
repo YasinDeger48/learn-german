@@ -63,8 +63,9 @@ enum DS {
 // MARK: - Components
 
 /// Lina, the Deschly mascot (Resources/Images/lina.png).
-/// How Lina looks: the usual picture, or one of her happy / sad pictures after an answer.
-enum LinaMood { case calm, happy, sad }
+/// How Lina looks: the usual picture, one of her happy / sad pictures after an answer,
+/// or curious (the "Curious about German" badge).
+enum LinaMood { case calm, happy, sad, curious }
 
 struct LinaAvatar: View {
     var size: CGFloat = 56
@@ -72,10 +73,15 @@ struct LinaAvatar: View {
     /// Chooses among the mood's pictures; the same number always gives the same picture.
     var variant: Int = 0
 
-    /// Resources/Images/lina-happy-1…3.png and lina-sad-1…3.png (made with ChatGPT, see
+    /// Resources/Images/lina-happy-1…3.png, lina-sad-1…3.png and lina-curious.png (made with ChatGPT, see
     /// icerik/gorseller/LINA_DUYGULAR.txt). Missing pictures fall back to the usual Lina.
     private var picture: UIImage? {
-        if mood != .calm {
+        switch mood {
+        case .calm:
+            break
+        case .curious:
+            if let image = UIImage(named: "lina-curious") { return image }
+        case .happy, .sad:
             let name = mood == .happy ? "lina-happy" : "lina-sad"
             let all = (1...3).compactMap { UIImage(named: "\(name)-\($0)") }
             if !all.isEmpty { return all[abs(variant) % all.count] }

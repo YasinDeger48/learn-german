@@ -384,6 +384,7 @@
  "badges.title": "Badge",
  "badges.emptyTitle": "I tuoi badge ti aspettano!",
  "badges.emptySub": "Finisci il tuo primo esercizio e vinciamo insieme il prossimo badge.",
+ "badges.firstEarned": "Il tuo primo badge: {0}",
  "badges.level": "Livello {0}",
  "badges.toNext": "{0} XP al livello {1}",
  "badges.next": "PROSSIMO BADGE",

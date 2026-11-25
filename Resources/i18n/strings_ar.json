@@ -384,6 +384,7 @@
  "badges.title": "الشارات",
  "badges.emptyTitle": "شاراتك بانتظارك!",
  "badges.emptySub": "أنهِ أول تمرين لك ولنربح معًا الشارة التالية.",
+ "badges.firstEarned": "شارتك الأولى: {0}",
  "badges.level": "المستوى {0}",
  "badges.toNext": "بقي {0} XP للوصول إلى المستوى {1}",
  "badges.next": "الشارة التالية",

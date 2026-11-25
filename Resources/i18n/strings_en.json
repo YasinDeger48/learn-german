@@ -384,6 +384,7 @@
  "badges.title": "Badges",
  "badges.emptyTitle": "Your badges are waiting!",
  "badges.emptySub": "Finish your first practice and let's win the next badge together.",
+ "badges.firstEarned": "Your first badge: {0}",
  "badges.level": "Level {0}",
  "badges.toNext": "{0} XP to level {1}",
  "badges.next": "NEXT BADGE",

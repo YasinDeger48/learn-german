@@ -384,6 +384,7 @@
  "badges.title": "Nîşan",
  "badges.emptyTitle": "Nîşanên te li benda te ne!",
  "badges.emptySub": "Yekem perwerdeya xwe biqedîne, em ê bi hev re nîşana din qezenc bikin.",
+ "badges.firstEarned": "Nîşana te ya yekem: {0}",
  "badges.level": "Ast {0}",
  "badges.toNext": "{0} XP ji bo asta {1}",
  "badges.next": "NÎŞANA DIN",
