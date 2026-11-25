@@ -6,18 +6,21 @@
    "seconds": 45,
    "title": {
     "tr": "Kendini tanıt",
-    "en": "Introduce yourself"
+    "en": "Introduce yourself",
+    "es": "Preséntate"
    },
    "prompt": "Stellen Sie sich bitte vor.",
    "help": {
     "tr": "Adın, yaşın, nereden geldiğin, nerede yaşadığın, dillerin, mesleğin ve hobin.",
-    "en": "Your name, age, where you come from and live, languages, job and hobby."
+    "en": "Your name, age, where you come from and live, languages, job and hobby.",
+    "es": "Tu nombre, edad, procedencia y lugar de residencia, idiomas, profesión y aficiones."
    },
    "points": [
     {
      "label": {
       "tr": "Adın",
-      "en": "Name"
+      "en": "Name",
+      "es": "Nombre"
      },
      "say": "Ich heiße …",
      "keys": [
@@ -29,7 +32,8 @@
     {
      "label": {
       "tr": "Yaşın",
-      "en": "Age"
+      "en": "Age",
+      "es": "Edad"
      },
      "say": "Ich bin … Jahre alt.",
      "keys": [
@@ -40,7 +44,8 @@
     {
      "label": {
       "tr": "Nereden geldiğin",
-      "en": "Country"
+      "en": "Country",
+      "es": "País"
      },
      "say": "Ich komme aus …",
      "keys": [
@@ -51,7 +56,8 @@
     {
      "label": {
       "tr": "Nerede yaşadığın",
-      "en": "Where you live"
+      "en": "Where you live",
+      "es": "Dónde vives"
      },
      "say": "Ich wohne in …",
      "keys": [
@@ -63,7 +69,8 @@
     {
      "label": {
       "tr": "Diller",
-      "en": "Languages"
+      "en": "Languages",
+      "es": "Idiomas"
      },
      "say": "Ich spreche …",
      "keys": [
@@ -74,7 +81,8 @@
     {
      "label": {
       "tr": "Meslek",
-      "en": "Job"
+      "en": "Job",
+      "es": "Trabajo"
      },
      "say": "Ich arbeite als …",
      "keys": [
@@ -89,7 +97,8 @@
     {
      "label": {
       "tr": "Hobi",
-      "en": "Hobby"
+      "en": "Hobby",
+      "es": "Afición"
      },
      "say": "Mein Hobby ist …",
      "keys": [
@@ -109,18 +118,21 @@
    "seconds": 45,
    "title": {
     "tr": "Ailem",
-    "en": "My family"
+    "en": "My family",
+    "es": "Mi familia"
    },
    "prompt": "Erzählen Sie über Ihre Familie.",
    "help": {
     "tr": "Ailende kimler var, adları, yaşları, nerede yaşıyorlar, ne iş yapıyorlar?",
-    "en": "Who is in your family, their names, ages, where they live and what they do."
+    "en": "Who is in your family, their names, ages, where they live and what they do.",
+    "es": "Quiénes forman tu familia, cómo se llaman, qué edad tienen, dónde viven y a qué se dedican."
    },
    "points": [
     {
      "label": {
       "tr": "Aile üyeleri",
-      "en": "Family members"
+      "en": "Family members",
+      "es": "Familiares"
      },
      "say": "Ich habe einen Bruder und …",
      "keys": [
@@ -137,7 +149,8 @@
     {
      "label": {
       "tr": "İsimler",
-      "en": "Names"
+      "en": "Names",
+      "es": "Nombres"
      },
      "say": "Meine Mutter heißt …",
      "keys": [
@@ -148,7 +161,8 @@
     {
      "label": {
       "tr": "Yaşlar",
-      "en": "Ages"
+      "en": "Ages",
+      "es": "Edades"
      },
      "say": "Er ist … Jahre alt.",
      "keys": [
@@ -159,7 +173,8 @@
     {
      "label": {
       "tr": "Nerede yaşıyorlar",
-      "en": "Where they live"
+      "en": "Where they live",
+      "es": "Dónde viven"
      },
      "say": "Sie wohnen in …",
      "keys": [
@@ -172,7 +187,8 @@
     {
      "label": {
       "tr": "Ne iş yapıyorlar",
-      "en": "What they do"
+      "en": "What they do",
+      "es": "A qué se dedican"
      },
      "say": "Mein Vater arbeitet als …",
      "keys": [
@@ -194,18 +210,21 @@
    "seconds": 45,
    "title": {
     "tr": "Günüm",
-    "en": "My day"
+    "en": "My day",
+    "es": "Mi día"
    },
    "prompt": "Wie sieht Ihr Tag aus?",
    "help": {
     "tr": "Kaçta kalkarsın, kahvaltı, iş/okul, öğle, akşam ne yaparsın?",
-    "en": "When you get up, breakfast, work or school, lunch and evening."
+    "en": "When you get up, breakfast, work or school, lunch and evening.",
+    "es": "A qué hora te levantas, desayuno, trabajo o escuela, almuerzo y noche."
    },
    "points": [
     {
      "label": {
       "tr": "Kalkış saati",
-      "en": "Getting up"
+      "en": "Getting up",
+      "es": "Hora de levantarse"
      },
      "say": "Ich stehe um sieben Uhr auf.",
      "keys": [
@@ -217,7 +236,8 @@
     {
      "label": {
       "tr": "Kahvaltı",
-      "en": "Breakfast"
+      "en": "Breakfast",
+      "es": "El desayuno"
      },
      "say": "Ich frühstücke …",
      "keys": [
@@ -228,7 +248,8 @@
     {
      "label": {
       "tr": "Saat",
-      "en": "Times"
+      "en": "Times",
+      "es": "Horarios"
      },
      "say": "Um acht Uhr …",
      "keys": [
@@ -238,7 +259,8 @@
     {
      "label": {
       "tr": "İş veya okul",
-      "en": "Work or school"
+      "en": "Work or school",
+      "es": "Trabajo o escuela"
      },
      "say": "Dann gehe ich zur Arbeit.",
      "keys": [
@@ -253,7 +275,8 @@
     {
      "label": {
       "tr": "Akşam",
-      "en": "Evening"
+      "en": "Evening",
+      "es": "Noche"
      },
      "say": "Am Abend …",
      "keys": [
@@ -270,18 +293,21 @@
    "seconds": 40,
    "title": {
     "tr": "Alışverişte",
-    "en": "Shopping"
+    "en": "Shopping",
+    "es": "Compras"
    },
    "prompt": "Sie sind im Supermarkt. Fragen Sie nach Produkten und Preisen.",
    "help": {
     "tr": "Bir şey iste, fiyatını sor, teşekkür et.",
-    "en": "Ask for something, ask the price, say thank you."
+    "en": "Ask for something, ask the price, say thank you.",
+    "es": "Pide algo, pregunta el precio y da las gracias."
    },
    "points": [
     {
      "label": {
       "tr": "Kibarca selam",
-      "en": "Greet politely"
+      "en": "Greet politely",
+      "es": "Saluda amablemente"
      },
      "say": "Guten Tag!",
      "keys": [
@@ -294,7 +320,8 @@
     {
      "label": {
       "tr": "Bir şey iste",
-      "en": "Ask for something"
+      "en": "Ask for something",
+      "es": "Pide algo"
      },
      "say": "Ich möchte …",
      "keys": [
@@ -307,7 +334,8 @@
     {
      "label": {
       "tr": "Fiyat sor",
-      "en": "Ask the price"
+      "en": "Ask the price",
+      "es": "Pregunta el precio"
      },
      "say": "Was kostet …?",
      "keys": [
@@ -319,7 +347,8 @@
     {
      "label": {
       "tr": "Miktar",
-      "en": "Amount"
+      "en": "Amount",
+      "es": "Cantidad"
      },
      "say": "ein Kilo, zwei Flaschen …",
      "keys": [
@@ -334,7 +363,8 @@
     {
      "label": {
       "tr": "Teşekkür et",
-      "en": "Say thank you"
+      "en": "Say thank you",
+      "es": "Da las gracias"
      },
      "say": "Danke schön!",
      "keys": [
@@ -351,18 +381,21 @@
    "seconds": 45,
    "title": {
     "tr": "Hafta sonum",
-    "en": "My weekend"
+    "en": "My weekend",
+    "es": "Mi fin de semana"
    },
    "prompt": "Was machen Sie am Wochenende?",
    "help": {
     "tr": "Cumartesi ve pazar ne yaparsın, kiminle, nerede?",
-    "en": "What you do on Saturday and Sunday, with whom, where."
+    "en": "What you do on Saturday and Sunday, with whom, where.",
+    "es": "Qué haces los sábados y domingos, con quién y dónde."
    },
    "points": [
     {
      "label": {
       "tr": "Cumartesi/Pazar",
-      "en": "Saturday or Sunday"
+      "en": "Saturday or Sunday",
+      "es": "Sábado o domingo"
      },
      "say": "Am Samstag …",
      "keys": [
@@ -374,7 +407,8 @@
     {
      "label": {
       "tr": "Ne yapıyorsun",
-      "en": "Activities"
+      "en": "Activities",
+      "es": "Actividades"
      },
      "say": "Ich gehe einkaufen / spazieren.",
      "keys": [
@@ -390,7 +424,8 @@
     {
      "label": {
       "tr": "Kiminle",
-      "en": "With whom"
+      "en": "With whom",
+      "es": "Con quién"
      },
      "say": "mit meiner Familie / mit Freunden",
      "keys": [
@@ -404,7 +439,8 @@
     {
      "label": {
       "tr": "Ne seviyorsun",
-      "en": "What you like"
+      "en": "What you like",
+      "es": "Qué te gusta"
      },
      "say": "Ich … gern.",
      "keys": [
@@ -422,18 +458,21 @@
    "seconds": 40,
    "title": {
     "tr": "Evim",
-    "en": "My home"
+    "en": "My home",
+    "es": "Mi casa"
    },
    "prompt": "Beschreiben Sie Ihre Wohnung.",
    "help": {
     "tr": "Kaç oda var, nasıl, en sevdiğin yer neresi?",
-    "en": "How many rooms, what they are like, your favourite place."
+    "en": "How many rooms, what they are like, your favourite place.",
+    "es": "Cuántas habitaciones hay, cómo son y cuál es tu lugar favorito."
    },
    "points": [
     {
      "label": {
       "tr": "Ev / daire",
-      "en": "Flat or house"
+      "en": "Flat or house",
+      "es": "Piso o casa"
      },
      "say": "Ich wohne in einer Wohnung.",
      "keys": [
@@ -445,7 +484,8 @@
     {
      "label": {
       "tr": "Odalar",
-      "en": "Rooms"
+      "en": "Rooms",
+      "es": "Habitaciones"
      },
      "say": "Sie hat drei Zimmer.",
      "keys": [
@@ -460,7 +500,8 @@
     {
      "label": {
       "tr": "Nasıl",
-      "en": "What it is like"
+      "en": "What it is like",
+      "es": "Cómo es"
      },
      "say": "Die Küche ist klein, aber hell.",
      "keys": [
@@ -476,7 +517,8 @@
     {
      "label": {
       "tr": "En sevdiğin yer",
-      "en": "Favourite place"
+      "en": "Favourite place",
+      "es": "Lugar favorito"
      },
      "say": "Mein Lieblingsplatz ist …",
      "keys": [
@@ -494,18 +536,21 @@
    "seconds": 40,
    "title": {
     "tr": "Adını hecele, numaranı söyle",
-    "en": "Spell your name, say your number"
+    "en": "Spell your name, say your number",
+    "es": "Deletrea tu nombre, di tu número"
    },
    "prompt": "Buchstabieren Sie Ihren Namen und sagen Sie Ihre Telefonnummer.",
    "help": {
     "tr": "Adını ve soyadını harf harf söyle, telefon numaranı ve adresini söyle.",
-    "en": "Spell your first and last name, say your phone number and address."
+    "en": "Spell your first and last name, say your phone number and address.",
+    "es": "Deletrea tu nombre y apellidos, y di tu número de teléfono y tu dirección."
    },
    "points": [
     {
      "label": {
       "tr": "Ad ve soyad",
-      "en": "Name"
+      "en": "Name",
+      "es": "Nombre"
      },
      "say": "Mein Name ist … Mein Nachname ist …",
      "keys": [
@@ -518,7 +563,8 @@
     {
      "label": {
       "tr": "Heceleme",
-      "en": "Spelling"
+      "en": "Spelling",
+      "es": "Deletreo"
      },
      "say": "Ich buchstabiere: E – L – I – F",
      "keys": [
@@ -529,7 +575,8 @@
     {
      "label": {
       "tr": "Telefon",
-      "en": "Phone number"
+      "en": "Phone number",
+      "es": "Número de teléfono"
      },
      "say": "Meine Telefonnummer ist …",
      "keys": [
@@ -541,7 +588,8 @@
     {
      "label": {
       "tr": "Adres",
-      "en": "Address"
+      "en": "Address",
+      "es": "Dirección"
      },
      "say": "Ich wohne in der …straße …",
      "keys": [
@@ -559,18 +607,21 @@
    "seconds": 60,
    "title": {
     "tr": "Kartlar: Yemek ve içecek",
-    "en": "Cards: food and drink"
+    "en": "Cards: food and drink",
+    "es": "Tarjetas: comida y bebida"
    },
    "prompt": "Thema: Essen und Trinken. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
-    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
+    "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo."
    },
    "points": [
     {
      "label": {
       "tr": "Soru sor",
-      "en": "Ask a question"
+      "en": "Ask a question",
+      "es": "Haz una pregunta"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -594,7 +645,8 @@
     {
      "label": {
       "tr": "Cevap ver",
-      "en": "Answer it"
+      "en": "Answer it",
+      "es": "Respóndela"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -606,7 +658,8 @@
     {
      "label": {
       "tr": "Kart: Kahvaltı",
-      "en": "Card: Breakfast"
+      "en": "Card: Breakfast",
+      "es": "Tarjeta: desayuno"
      },
      "say": "Was isst du zum Frühstück?",
      "keys": [
@@ -616,7 +669,8 @@
     {
      "label": {
       "tr": "Kart: Et",
-      "en": "Card: Meat"
+      "en": "Card: Meat",
+      "es": "Tarjeta: carne"
      },
      "say": "Isst du gern Fleisch?",
      "keys": [
@@ -626,7 +680,8 @@
     {
      "label": {
       "tr": "Kart: Kahve",
-      "en": "Card: Coffee"
+      "en": "Card: Coffee",
+      "es": "Tarjeta: café"
      },
      "say": "Trinkst du Kaffee?",
      "keys": [
@@ -636,7 +691,8 @@
     {
      "label": {
       "tr": "Kart: Akşam yemeği",
-      "en": "Card: Dinner"
+      "en": "Card: Dinner",
+      "es": "Tarjeta: cena"
      },
      "say": "Wann isst du zu Abend?",
      "keys": [
@@ -653,18 +709,21 @@
    "seconds": 60,
    "title": {
     "tr": "Kartlar: Ev",
-    "en": "Cards: home"
+    "en": "Cards: home",
+    "es": "Tarjetas: casa"
    },
    "prompt": "Thema: Wohnen. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
-    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
+    "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo."
    },
    "points": [
     {
      "label": {
       "tr": "Soru sor",
-      "en": "Ask a question"
+      "en": "Ask a question",
+      "es": "Haz una pregunta"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -688,7 +747,8 @@
     {
      "label": {
       "tr": "Cevap ver",
-      "en": "Answer it"
+      "en": "Answer it",
+      "es": "Respóndela"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -700,7 +760,8 @@
     {
      "label": {
       "tr": "Kart: Oda",
-      "en": "Card: Room"
+      "en": "Card: Room",
+      "es": "Tarjeta: habitación"
      },
      "say": "Wie viele Zimmer hat deine Wohnung?",
      "keys": [
@@ -710,7 +771,8 @@
     {
      "label": {
       "tr": "Kart: Mutfak",
-      "en": "Card: Kitchen"
+      "en": "Card: Kitchen",
+      "es": "Tarjeta: cocina"
      },
      "say": "Ist deine Küche groß?",
      "keys": [
@@ -720,7 +782,8 @@
     {
      "label": {
       "tr": "Kart: Kira",
-      "en": "Card: Rent"
+      "en": "Card: Rent",
+      "es": "Tarjeta: alquiler"
      },
      "say": "Wie hoch ist die Miete?",
      "keys": [
@@ -730,7 +793,8 @@
     {
      "label": {
       "tr": "Kart: Balkon",
-      "en": "Card: Balcony"
+      "en": "Card: Balcony",
+      "es": "Tarjeta: balcón"
      },
      "say": "Hast du einen Balkon?",
      "keys": [
@@ -746,18 +810,21 @@
    "seconds": 60,
    "title": {
     "tr": "Kartlar: Boş zaman",
-    "en": "Cards: free time"
+    "en": "Cards: free time",
+    "es": "Tarjetas: tiempo libre"
    },
    "prompt": "Thema: Freizeit. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
-    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
+    "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo."
    },
    "points": [
     {
      "label": {
       "tr": "Soru sor",
-      "en": "Ask a question"
+      "en": "Ask a question",
+      "es": "Haz una pregunta"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -781,7 +848,8 @@
     {
      "label": {
       "tr": "Cevap ver",
-      "en": "Answer it"
+      "en": "Answer it",
+      "es": "Respóndela"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -793,7 +861,8 @@
     {
      "label": {
       "tr": "Kart: Spor",
-      "en": "Card: Sport"
+      "en": "Card: Sport",
+      "es": "Tarjeta: deporte"
      },
      "say": "Machst du Sport?",
      "keys": [
@@ -803,7 +872,8 @@
     {
      "label": {
       "tr": "Kart: Sinema",
-      "en": "Card: Cinema"
+      "en": "Card: Cinema",
+      "es": "Tarjeta: cine"
      },
      "say": "Gehst du gern ins Kino?",
      "keys": [
@@ -813,7 +883,8 @@
     {
      "label": {
       "tr": "Kart: Müzik",
-      "en": "Card: Music"
+      "en": "Card: Music",
+      "es": "Tarjeta: música"
      },
      "say": "Welche Musik hörst du?",
      "keys": [
@@ -823,7 +894,8 @@
     {
      "label": {
       "tr": "Kart: Hafta sonu",
-      "en": "Card: Weekend"
+      "en": "Card: Weekend",
+      "es": "Tarjeta: fin de semana"
      },
      "say": "Was machst du am Wochenende?",
      "keys": [
@@ -839,18 +911,21 @@
    "seconds": 60,
    "title": {
     "tr": "Kartlar: Alışveriş",
-    "en": "Cards: shopping"
+    "en": "Cards: shopping",
+    "es": "Tarjetas: compras"
    },
    "prompt": "Thema: Einkaufen. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
-    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
+    "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo."
    },
    "points": [
     {
      "label": {
       "tr": "Soru sor",
-      "en": "Ask a question"
+      "en": "Ask a question",
+      "es": "Haz una pregunta"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -874,7 +949,8 @@
     {
      "label": {
       "tr": "Cevap ver",
-      "en": "Answer it"
+      "en": "Answer it",
+      "es": "Respóndela"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -886,7 +962,8 @@
     {
      "label": {
       "tr": "Kart: Süpermarket",
-      "en": "Card: Supermarket"
+      "en": "Card: Supermarket",
+      "es": "Tarjeta: supermercado"
      },
      "say": "Wo kaufst du ein?",
      "keys": [
@@ -898,7 +975,8 @@
     {
      "label": {
       "tr": "Kart: Fiyat",
-      "en": "Card: Price"
+      "en": "Card: Price",
+      "es": "Tarjeta: precio"
      },
      "say": "Was kostet ein Kilo Äpfel?",
      "keys": [
@@ -909,7 +987,8 @@
     {
      "label": {
       "tr": "Kart: Giysi",
-      "en": "Card: Clothes"
+      "en": "Card: Clothes",
+      "es": "Tarjeta: ropa"
      },
      "say": "Wo kaufst du Kleidung?",
      "keys": [
@@ -921,7 +1000,8 @@
     {
      "label": {
       "tr": "Kart: Gün",
-      "en": "Card: Day"
+      "en": "Card: Day",
+      "es": "Tarjeta: día"
      },
      "say": "Wann gehst du einkaufen?",
      "keys": [
@@ -937,18 +1017,21 @@
    "seconds": 60,
    "title": {
     "tr": "Kartlar: İş ve okul",
-    "en": "Cards: work and school"
+    "en": "Cards: work and school",
+    "es": "Tarjetas: trabajo y escuela"
    },
    "prompt": "Thema: Arbeit und Schule. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
-    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
+    "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo."
    },
    "points": [
     {
      "label": {
       "tr": "Soru sor",
-      "en": "Ask a question"
+      "en": "Ask a question",
+      "es": "Haz una pregunta"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -972,7 +1055,8 @@
     {
      "label": {
       "tr": "Cevap ver",
-      "en": "Answer it"
+      "en": "Answer it",
+      "es": "Respóndela"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -984,7 +1068,8 @@
     {
      "label": {
       "tr": "Kart: Meslek",
-      "en": "Card: Job"
+      "en": "Card: Job",
+      "es": "Tarjeta: trabajo"
      },
      "say": "Was bist du von Beruf?",
      "keys": [
@@ -994,7 +1079,8 @@
     {
      "label": {
       "tr": "Kart: İş saati",
-      "en": "Card: Working hours"
+      "en": "Card: Working hours",
+      "es": "Tarjeta: horario laboral"
      },
      "say": "Wann beginnt deine Arbeit?",
      "keys": [
@@ -1005,7 +1091,8 @@
     {
      "label": {
       "tr": "Kart: Meslektaş",
-      "en": "Card: Colleagues"
+      "en": "Card: Colleagues",
+      "es": "Tarjeta: compañeros de trabajo"
      },
      "say": "Wie sind deine Kollegen?",
      "keys": [
@@ -1017,7 +1104,8 @@
     {
      "label": {
       "tr": "Kart: Kurs",
-      "en": "Card: Course"
+      "en": "Card: Course",
+      "es": "Tarjeta: curso"
      },
      "say": "Wann hast du Deutschkurs?",
      "keys": [
@@ -1033,18 +1121,21 @@
    "seconds": 60,
    "title": {
     "tr": "Kartlar: Yolculuk",
-    "en": "Cards: travel"
+    "en": "Cards: travel",
+    "es": "Tarjetas: viajes"
    },
    "prompt": "Thema: Reisen und Verkehr. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
-    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
+    "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo."
    },
    "points": [
     {
      "label": {
       "tr": "Soru sor",
-      "en": "Ask a question"
+      "en": "Ask a question",
+      "es": "Haz una pregunta"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -1068,7 +1159,8 @@
     {
      "label": {
       "tr": "Cevap ver",
-      "en": "Answer it"
+      "en": "Answer it",
+      "es": "Respóndela"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -1080,7 +1172,8 @@
     {
      "label": {
       "tr": "Kart: Otobüs",
-      "en": "Card: Bus"
+      "en": "Card: Bus",
+      "es": "Tarjeta: autobús"
      },
      "say": "Fährst du mit dem Bus?",
      "keys": [
@@ -1090,7 +1183,8 @@
     {
      "label": {
       "tr": "Kart: Bilet",
-      "en": "Card: Ticket"
+      "en": "Card: Ticket",
+      "es": "Tarjeta: billete"
      },
      "say": "Wo kaufst du die Fahrkarte?",
      "keys": [
@@ -1101,7 +1195,8 @@
     {
      "label": {
       "tr": "Kart: Tatil",
-      "en": "Card: Holiday"
+      "en": "Card: Holiday",
+      "es": "Tarjeta: vacaciones"
      },
      "say": "Wohin fährst du im Urlaub?",
      "keys": [
@@ -1111,7 +1206,8 @@
     {
      "label": {
       "tr": "Kart: Tren",
-      "en": "Card: Train"
+      "en": "Card: Train",
+      "es": "Tarjeta: tren"
      },
      "say": "Fährst du gern Zug?",
      "keys": [
@@ -1127,18 +1223,21 @@
    "seconds": 60,
    "title": {
     "tr": "Kartlar: Aile ve arkadaşlar",
-    "en": "Cards: family and friends"
+    "en": "Cards: family and friends",
+    "es": "Tarjetas: familia y amigos"
    },
    "prompt": "Thema: Familie und Freunde. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
-    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
+    "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo."
    },
    "points": [
     {
      "label": {
       "tr": "Soru sor",
-      "en": "Ask a question"
+      "en": "Ask a question",
+      "es": "Haz una pregunta"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -1162,7 +1261,8 @@
     {
      "label": {
       "tr": "Cevap ver",
-      "en": "Answer it"
+      "en": "Answer it",
+      "es": "Respóndela"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -1174,7 +1274,8 @@
     {
      "label": {
       "tr": "Kart: Kardeş",
-      "en": "Card: Siblings"
+      "en": "Card: Siblings",
+      "es": "Tarjeta: hermanos"
      },
      "say": "Hast du Geschwister?",
      "keys": [
@@ -1186,7 +1287,8 @@
     {
      "label": {
       "tr": "Kart: Ebeveynler",
-      "en": "Card: Parents"
+      "en": "Card: Parents",
+      "es": "Tarjeta: padres"
      },
      "say": "Wo wohnen deine Eltern?",
      "keys": [
@@ -1196,7 +1298,8 @@
     {
      "label": {
       "tr": "Kart: Doğum günü",
-      "en": "Card: Birthday"
+      "en": "Card: Birthday",
+      "es": "Tarjeta: cumpleaños"
      },
      "say": "Wann hast du Geburtstag?",
      "keys": [
@@ -1206,7 +1309,8 @@
     {
      "label": {
       "tr": "Kart: Arkadaş",
-      "en": "Card: Friend"
+      "en": "Card: Friend",
+      "es": "Tarjeta: amigo"
      },
      "say": "Wer ist dein bester Freund?",
      "keys": [
@@ -1223,18 +1327,21 @@
    "seconds": 60,
    "title": {
     "tr": "Kartlar: Sağlık",
-    "en": "Cards: health"
+    "en": "Cards: health",
+    "es": "Tarjetas: salud"
    },
    "prompt": "Thema: Gesundheit. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
-    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself.",
+    "es": "Goethe A1 Sprechen, parte 2: haz una pregunta para cada tarjeta y luego respóndela tú mismo."
    },
    "points": [
     {
      "label": {
       "tr": "Soru sor",
-      "en": "Ask a question"
+      "en": "Ask a question",
+      "es": "Haz una pregunta"
      },
      "say": "Was …? Wo …? Hast du …?",
      "keys": [
@@ -1258,7 +1365,8 @@
     {
      "label": {
       "tr": "Cevap ver",
-      "en": "Answer it"
+      "en": "Answer it",
+      "es": "Respóndela"
      },
      "say": "Ich … / Ja, … / Nein, …",
      "keys": [
@@ -1270,7 +1378,8 @@
     {
      "label": {
       "tr": "Kart: Doktor",
-      "en": "Card: Doctor"
+      "en": "Card: Doctor",
+      "es": "Tarjeta: médico"
      },
      "say": "Wann gehst du zum Arzt?",
      "keys": [
@@ -1282,7 +1391,8 @@
     {
      "label": {
       "tr": "Kart: Baş ağrısı",
-      "en": "Card: Headache"
+      "en": "Card: Headache",
+      "es": "Tarjeta: dolor de cabeza"
      },
      "say": "Was machst du bei Kopfschmerzen?",
      "keys": [
@@ -1293,7 +1403,8 @@
     {
      "label": {
       "tr": "Kart: Uyku",
-      "en": "Card: Sleep"
+      "en": "Card: Sleep",
+      "es": "Tarjeta: sueño"
      },
      "say": "Wie lange schläfst du?",
      "keys": [
@@ -1305,7 +1416,8 @@
     {
      "label": {
       "tr": "Kart: Meyve",
-      "en": "Card: Fruit"
+      "en": "Card: Fruit",
+      "es": "Tarjeta: fruta"
      },
      "say": "Isst du viel Obst?",
      "keys": [
@@ -1321,18 +1433,21 @@
    "seconds": 45,
    "title": {
     "tr": "Rica: Ofiste",
-    "en": "Requests: at the office"
+    "en": "Requests: at the office",
+    "es": "Peticiones: en la oficina"
    },
    "prompt": "Im Büro: Bitten Sie um diese Dinge und reagieren Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
-    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react."
+    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react.",
+    "es": "Goethe A1 Sprechen, parte 3: pide cada cosa amablemente y luego reacciona."
    },
    "points": [
     {
      "label": {
       "tr": "Kibarca rica et",
-      "en": "Ask politely"
+      "en": "Ask politely",
+      "es": "Pide amablemente"
      },
      "say": "Können Sie bitte …? / Kannst du bitte …?",
      "keys": [
@@ -1348,7 +1463,8 @@
     {
      "label": {
       "tr": "Cevap ver / teşekkür et",
-      "en": "React or thank"
+      "en": "React or thank",
+      "es": "Responde o da las gracias"
      },
      "say": "Ja, gern. / Natürlich. / Danke!",
      "keys": [
@@ -1364,7 +1480,8 @@
     {
      "label": {
       "tr": "Kalem",
-      "en": "A pen"
+      "en": "A pen",
+      "es": "Un bolígrafo"
      },
      "say": "Können Sie mir bitte einen Stift geben?",
      "keys": [
@@ -1376,7 +1493,8 @@
     {
      "label": {
       "tr": "Pencere",
-      "en": "The window"
+      "en": "The window",
+      "es": "La ventana"
      },
      "say": "Können Sie bitte das Fenster öffnen?",
      "keys": [
@@ -1386,7 +1504,8 @@
     {
      "label": {
       "tr": "Kahve",
-      "en": "Coffee"
+      "en": "Coffee",
+      "es": "Café"
      },
      "say": "Ich hätte gern einen Kaffee, bitte.",
      "keys": [
@@ -1396,7 +1515,8 @@
     {
      "label": {
       "tr": "Telefon",
-      "en": "Telephone"
+      "en": "Telephone",
+      "es": "Teléfono"
      },
      "say": "Darf ich kurz Ihr Telefon benutzen?",
      "keys": [
@@ -1412,18 +1532,21 @@
    "seconds": 45,
    "title": {
     "tr": "Rica: Restoranda",
-    "en": "Requests: at the restaurant"
+    "en": "Requests: at the restaurant",
+    "es": "Peticiones: en el restaurante"
    },
    "prompt": "Im Restaurant: Bitten Sie um diese Dinge und reagieren Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
-    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react."
+    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react.",
+    "es": "Goethe A1 Sprechen, parte 3: pide cada cosa amablemente y luego reacciona."
    },
    "points": [
     {
      "label": {
       "tr": "Kibarca rica et",
-      "en": "Ask politely"
+      "en": "Ask politely",
+      "es": "Pide amablemente"
      },
      "say": "Können Sie bitte …? / Kannst du bitte …?",
      "keys": [
@@ -1439,7 +1562,8 @@
     {
      "label": {
       "tr": "Cevap ver / teşekkür et",
-      "en": "React or thank"
+      "en": "React or thank",
+      "es": "Responde o da las gracias"
      },
      "say": "Ja, gern. / Natürlich. / Danke!",
      "keys": [
@@ -1455,7 +1579,8 @@
     {
      "label": {
       "tr": "Menü",
-      "en": "The menu"
+      "en": "The menu",
+      "es": "El menú"
      },
      "say": "Kann ich bitte die Speisekarte haben?",
      "keys": [
@@ -1466,7 +1591,8 @@
     {
      "label": {
       "tr": "Su",
-      "en": "Water"
+      "en": "Water",
+      "es": "Agua"
      },
      "say": "Ich möchte ein Glas Wasser, bitte.",
      "keys": [
@@ -1476,7 +1602,8 @@
     {
      "label": {
       "tr": "Hesap",
-      "en": "The bill"
+      "en": "The bill",
+      "es": "La cuenta"
      },
      "say": "Die Rechnung, bitte.",
      "keys": [
@@ -1488,7 +1615,8 @@
     {
      "label": {
       "tr": "Peçete",
-      "en": "A napkin"
+      "en": "A napkin",
+      "es": "Una servilleta"
      },
      "say": "Haben Sie eine Serviette?",
      "keys": [
@@ -1504,18 +1632,21 @@
    "seconds": 45,
    "title": {
     "tr": "Rica: İstasyonda",
-    "en": "Requests: at the station"
+    "en": "Requests: at the station",
+    "es": "Peticiones: en la estación"
    },
    "prompt": "Am Bahnhof: Bitten Sie um diese Dinge und reagieren Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
-    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react."
+    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react.",
+    "es": "Goethe A1 Sprechen, parte 3: pide cada cosa amablemente y luego reacciona."
    },
    "points": [
     {
      "label": {
       "tr": "Kibarca rica et",
-      "en": "Ask politely"
+      "en": "Ask politely",
+      "es": "Pide amablemente"
      },
      "say": "Können Sie bitte …? / Kannst du bitte …?",
      "keys": [
@@ -1531,7 +1662,8 @@
     {
      "label": {
       "tr": "Cevap ver / teşekkür et",
-      "en": "React or thank"
+      "en": "React or thank",
+      "es": "Responde o da las gracias"
      },
      "say": "Ja, gern. / Natürlich. / Danke!",
      "keys": [
@@ -1547,7 +1679,8 @@
     {
      "label": {
       "tr": "Bilet",
-      "en": "A ticket"
+      "en": "A ticket",
+      "es": "Un billete"
      },
      "say": "Eine Fahrkarte nach Berlin, bitte.",
      "keys": [
@@ -1558,7 +1691,8 @@
     {
      "label": {
       "tr": "Peron",
-      "en": "The platform"
+      "en": "The platform",
+      "es": "El andén"
      },
      "say": "Von welchem Gleis fährt der Zug?",
      "keys": [
@@ -1568,7 +1702,8 @@
     {
      "label": {
       "tr": "Saat",
-      "en": "The time"
+      "en": "The time",
+      "es": "La hora"
      },
      "say": "Wann fährt der nächste Zug?",
      "keys": [
@@ -1579,7 +1714,8 @@
     {
      "label": {
       "tr": "Yardım",
-      "en": "Help with a bag"
+      "en": "Help with a bag",
+      "es": "Ayuda con una bolsa"
      },
      "say": "Können Sie mir bitte mit dem Koffer helfen?",
      "keys": [
@@ -1596,18 +1732,21 @@
    "seconds": 45,
    "title": {
     "tr": "Rica: Komşuya",
-    "en": "Requests: to a neighbour"
+    "en": "Requests: to a neighbour",
+    "es": "Peticiones: a un vecino"
    },
    "prompt": "Beim Nachbarn: Bitten Sie um diese Dinge und reagieren Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
-    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react."
+    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react.",
+    "es": "Goethe A1 Sprechen, parte 3: pide cada cosa amablemente y luego reacciona."
    },
    "points": [
     {
      "label": {
       "tr": "Kibarca rica et",
-      "en": "Ask politely"
+      "en": "Ask politely",
+      "es": "Pide amablemente"
      },
      "say": "Können Sie bitte …? / Kannst du bitte …?",
      "keys": [
@@ -1623,7 +1762,8 @@
     {
      "label": {
       "tr": "Cevap ver / teşekkür et",
-      "en": "React or thank"
+      "en": "React or thank",
+      "es": "Responde o da las gracias"
      },
      "say": "Ja, gern. / Natürlich. / Danke!",
      "keys": [
@@ -1639,7 +1779,8 @@
     {
      "label": {
       "tr": "Tuz",
-      "en": "Salt"
+      "en": "Salt",
+      "es": "Sal"
      },
      "say": "Hast du vielleicht Salz für mich?",
      "keys": [
@@ -1649,7 +1790,8 @@
     {
      "label": {
       "tr": "Merdiven",
-      "en": "A ladder"
+      "en": "A ladder",
+      "es": "Una escalera"
      },
      "say": "Kannst du mir deine Leiter leihen?",
      "keys": [
@@ -1659,7 +1801,8 @@
     {
      "label": {
       "tr": "Paket",
-      "en": "A parcel"
+      "en": "A parcel",
+      "es": "Un paquete"
      },
      "say": "Kannst du mein Paket annehmen?",
      "keys": [
@@ -1669,7 +1812,8 @@
     {
      "label": {
       "tr": "Çiçekler",
-      "en": "The flowers"
+      "en": "The flowers",
+      "es": "Las flores"
      },
      "say": "Kannst du am Wochenende meine Blumen gießen?",
      "keys": [
@@ -1686,18 +1830,21 @@
    "seconds": 45,
    "title": {
     "tr": "Rica: Kursta",
-    "en": "Requests: in class"
+    "en": "Requests: in class",
+    "es": "Peticiones: en clase"
    },
    "prompt": "Im Deutschkurs: Bitten Sie um diese Dinge und reagieren Sie.",
    "help": {
     "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
-    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react."
+    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react.",
+    "es": "Goethe A1 Sprechen, parte 3: pide cada cosa amablemente y luego reacciona."
    },
    "points": [
     {
      "label": {
       "tr": "Kibarca rica et",
-      "en": "Ask politely"
+      "en": "Ask politely",
+      "es": "Pide amablemente"
      },
      "say": "Können Sie bitte …? / Kannst du bitte …?",
      "keys": [
@@ -1713,7 +1860,8 @@
     {
      "label": {
       "tr": "Cevap ver / teşekkür et",
-      "en": "React or thank"
+      "en": "React or thank",
+      "es": "Responde o da las gracias"
      },
      "say": "Ja, gern. / Natürlich. / Danke!",
      "keys": [
@@ -1729,7 +1877,8 @@
     {
      "label": {
       "tr": "Tekrar",
-      "en": "Repeat"
+      "en": "Repeat",
+      "es": "Repetir"
      },
      "say": "Können Sie das bitte wiederholen?",
      "keys": [
@@ -1741,7 +1890,8 @@
     {
      "label": {
       "tr": "Yavaş",
-      "en": "Slowly"
+      "en": "Slowly",
+      "es": "Despacio"
      },
      "say": "Können Sie bitte langsamer sprechen?",
      "keys": [
@@ -1751,7 +1901,8 @@
     {
      "label": {
       "tr": "Sözlük",
-      "en": "A dictionary"
+      "en": "A dictionary",
+      "es": "Un diccionario"
      },
      "say": "Darf ich Ihr Wörterbuch benutzen?",
      "keys": [
@@ -1761,7 +1912,8 @@
     {
      "label": {
       "tr": "Yazmak",
-      "en": "Write it"
+      "en": "Write it",
+      "es": "Escríbelo"
      },
      "say": "Können Sie das Wort an die Tafel schreiben?",
      "keys": [
@@ -1778,18 +1930,21 @@
    "seconds": 60,
    "title": {
     "tr": "Son tatilim",
-    "en": "My last holiday"
+    "en": "My last holiday",
+    "es": "Mis últimas vacaciones"
    },
    "prompt": "Erzählen Sie von Ihrem letzten Urlaub.",
    "help": {
     "tr": "Nereye gittin, kiminle, ne yaptın, hava nasıldı, nasıl buldun? (Perfekt)",
-    "en": "Where you went, with whom, what you did, the weather, how you liked it. (Perfekt)"
+    "en": "Where you went, with whom, what you did, the weather, how you liked it. (Perfekt)",
+    "es": "Adónde fuiste, con quién, qué hiciste, qué tiempo hizo y qué te pareció. (Perfekt)"
    },
    "points": [
     {
      "label": {
       "tr": "Nereye",
-      "en": "Where"
+      "en": "Where",
+      "es": "Dónde"
      },
      "say": "Ich bin nach … gefahren.",
      "keys": [
@@ -1803,7 +1958,8 @@
     {
      "label": {
       "tr": "Kiminle",
-      "en": "With whom"
+      "en": "With whom",
+      "es": "Con quién"
      },
      "say": "mit meiner Familie",
      "keys": [
@@ -1816,7 +1972,8 @@
     {
      "label": {
       "tr": "Ne yaptın",
-      "en": "What you did"
+      "en": "What you did",
+      "es": "Qué hiciste"
      },
      "say": "Wir haben … besucht.",
      "keys": [
@@ -1832,7 +1989,8 @@
     {
      "label": {
       "tr": "Hava",
-      "en": "Weather"
+      "en": "Weather",
+      "es": "El tiempo"
      },
      "say": "Das Wetter war …",
      "keys": [
@@ -1847,7 +2005,8 @@
     {
      "label": {
       "tr": "Nasıl buldun",
-      "en": "How you liked it"
+      "en": "How you liked it",
+      "es": "Qué te pareció"
      },
      "say": "Es hat mir gut gefallen.",
      "keys": [
@@ -1874,13 +2033,15 @@
    "prompt": "Was essen und trinken Sie gern? Wie ist das in Ihrem Land?",
    "help": {
     "tr": "Kahvaltı, en sevdiğin yemek, yemek yapıyor musun, ülkende ne yenir?",
-    "en": "Breakfast, your favourite dish, do you cook, what people eat in your country."
+    "en": "Breakfast, your favourite dish, do you cook, what people eat in your country.",
+    "es": "Desayuno, tu plato favorito, si cocinas y qué come la gente en tu país."
    },
    "points": [
     {
      "label": {
       "tr": "Kahvaltı",
-      "en": "Breakfast"
+      "en": "Breakfast",
+      "es": "El desayuno"
      },
      "say": "Zum Frühstück esse ich …",
      "keys": [
@@ -1890,7 +2051,8 @@
     {
      "label": {
       "tr": "En sevdiğin yemek",
-      "en": "Favourite food"
+      "en": "Favourite food",
+      "es": "Comida favorita"
      },
      "say": "Mein Lieblingsessen ist …",
      "keys": [
@@ -1903,7 +2065,8 @@
     {
      "label": {
       "tr": "Yemek yapmak",
-      "en": "Cooking"
+      "en": "Cooking",
+      "es": "Cocinar"
      },
      "say": "Ich koche oft / selten.",
      "keys": [
@@ -1915,7 +2078,8 @@
     {
      "label": {
       "tr": "Ülkende",
-      "en": "In your country"
+      "en": "In your country",
+      "es": "En tu país"
      },
      "say": "In meinem Land isst man …",
      "keys": [
@@ -1929,7 +2093,8 @@
     {
      "label": {
       "tr": "Ne sıklıkla",
-      "en": "How often"
+      "en": "How often",
+      "es": "Con qué frecuencia"
      },
      "say": "oft, manchmal, nie",
      "keys": [
@@ -1950,18 +2115,21 @@
    "seconds": 60,
    "title": {
     "tr": "Birlikte plan yapın: doğum günü",
-    "en": "Plan together: a birthday"
+    "en": "Plan together: a birthday",
+    "es": "Planear juntos: un cumpleaños"
    },
    "prompt": "Ihr Freund hat Geburtstag. Planen Sie zusammen eine kleine Party.",
    "help": {
     "tr": "Öneri yap, gün ve saat, yemek ve içecek, kabul et veya başka bir şey öner.",
-    "en": "Make suggestions, day and time, food and drinks, agree or suggest something else."
+    "en": "Make suggestions, day and time, food and drinks, agree or suggest something else.",
+    "es": "Haz propuestas, hablad del día y la hora, la comida y las bebidas; acepta o sugiere otra cosa."
    },
    "points": [
     {
      "label": {
       "tr": "Öneri yap",
-      "en": "Make a suggestion"
+      "en": "Make a suggestion",
+      "es": "Haz una propuesta"
      },
      "say": "Wollen wir …? / Wie wäre es mit …?",
      "keys": [
@@ -1976,7 +2144,8 @@
     {
      "label": {
       "tr": "Gün ve saat",
-      "en": "Day and time"
+      "en": "Day and time",
+      "es": "Día y hora"
      },
      "say": "am Samstag um sieben Uhr",
      "keys": [
@@ -1990,7 +2159,8 @@
     {
      "label": {
       "tr": "Yer",
-      "en": "Place"
+      "en": "Place",
+      "es": "Lugar"
      },
      "say": "bei mir / im Restaurant",
      "keys": [
@@ -2005,7 +2175,8 @@
     {
      "label": {
       "tr": "Yemek ve içecek",
-      "en": "Food and drinks"
+      "en": "Food and drinks",
+      "es": "Comida y bebidas"
      },
      "say": "Ich mache einen Kuchen.",
      "keys": [
@@ -2020,7 +2191,8 @@
     {
      "label": {
       "tr": "Kabul / ret",
-      "en": "Agree or disagree"
+      "en": "Agree or disagree",
+      "es": "Aceptar o rechazar"
      },
      "say": "Gute Idee! / Leider …",
      "keys": [
@@ -2041,18 +2213,21 @@
    "seconds": 60,
    "title": {
     "tr": "Sağlık ve spor",
-    "en": "Health and sport"
+    "en": "Health and sport",
+    "es": "Salud y deporte"
    },
    "prompt": "Was machen Sie für Ihre Gesundheit?",
    "help": {
     "tr": "Spor, ne sıklıkla, sağlıklı beslenme, hastayken ne yaparsın?",
-    "en": "Sport, how often, healthy food, what you do when you are ill."
+    "en": "Sport, how often, healthy food, what you do when you are ill.",
+    "es": "Deporte, con qué frecuencia, comida saludable y qué haces cuando estás enfermo."
    },
    "points": [
     {
      "label": {
       "tr": "Spor",
-      "en": "Sport"
+      "en": "Sport",
+      "es": "Deporte"
      },
      "say": "Ich gehe joggen / schwimmen.",
      "keys": [
@@ -2069,7 +2244,8 @@
     {
      "label": {
       "tr": "Ne sıklıkla",
-      "en": "How often"
+      "en": "How often",
+      "es": "Con qué frecuencia"
      },
      "say": "zweimal pro Woche",
      "keys": [
@@ -2085,7 +2261,8 @@
     {
      "label": {
       "tr": "Beslenme",
-      "en": "Food"
+      "en": "Food",
+      "es": "Comida"
      },
      "say": "Ich esse viel Obst und Gemüse.",
      "keys": [
@@ -2099,7 +2276,8 @@
     {
      "label": {
       "tr": "Hastayken",
-      "en": "When ill"
+      "en": "When ill",
+      "es": "Cuando estás enfermo"
      },
      "say": "Wenn ich krank bin, …",
      "keys": [
@@ -2121,18 +2299,21 @@
    "seconds": 60,
    "title": {
     "tr": "İş ya da okul",
-    "en": "Work or school"
+    "en": "Work or school",
+    "es": "Trabajo o escuela"
    },
    "prompt": "Erzählen Sie von Ihrer Arbeit oder Ihrer Schule.",
    "help": {
     "tr": "Nerede, ne yapıyorsun, arkadaşların, neyi seviyorsun, gelecek planın.",
-    "en": "Where, what you do, colleagues or classmates, what you like, future plans."
+    "en": "Where, what you do, colleagues or classmates, what you like, future plans.",
+    "es": "Dónde, qué haces, compañeros de trabajo o de clase, qué te gusta y tus planes para el futuro."
    },
    "points": [
     {
      "label": {
       "tr": "Nerede",
-      "en": "Where"
+      "en": "Where",
+      "es": "Dónde"
      },
      "say": "Ich arbeite bei … / Ich gehe zur …",
      "keys": [
@@ -2147,7 +2328,8 @@
     {
      "label": {
       "tr": "Ne yapıyorsun",
-      "en": "What you do"
+      "en": "What you do",
+      "es": "Qué haces"
      },
      "say": "Ich muss jeden Tag …",
      "keys": [
@@ -2161,7 +2343,8 @@
     {
      "label": {
       "tr": "İş/okul arkadaşları",
-      "en": "Colleagues"
+      "en": "Colleagues",
+      "es": "Compañeros"
      },
      "say": "Meine Kollegen sind …",
      "keys": [
@@ -2176,7 +2359,8 @@
     {
      "label": {
       "tr": "Ne düşünüyorsun",
-      "en": "What you think"
+      "en": "What you think",
+      "es": "Qué piensas"
      },
      "say": "Die Arbeit gefällt mir, weil …",
      "keys": [
@@ -2191,7 +2375,8 @@
     {
      "label": {
       "tr": "Gelecek",
-      "en": "Future"
+      "en": "Future",
+      "es": "Futuro"
      },
      "say": "Später möchte ich …",
      "keys": [
@@ -2211,18 +2396,21 @@
    "seconds": 60,
    "title": {
     "tr": "Yaşadığın yer",
-    "en": "Where you live"
+    "en": "Where you live",
+    "es": "Dónde vives"
    },
    "prompt": "Wo wohnen Sie und wie gefällt es Ihnen dort?",
    "help": {
     "tr": "Şehir/mahalle, ev, komşular, sevdiğin ve sevmediğin şeyler.",
-    "en": "Town or area, your home, neighbours, what you like and do not like."
+    "en": "Town or area, your home, neighbours, what you like and do not like.",
+    "es": "Ciudad o zona, tu casa, vecinos, qué te gusta y qué no."
    },
    "points": [
     {
      "label": {
       "tr": "Şehir / mahalle",
-      "en": "Town or area"
+      "en": "Town or area",
+      "es": "Ciudad o zona"
      },
      "say": "Ich wohne in … im Zentrum / am Stadtrand.",
      "keys": [
@@ -2237,7 +2425,8 @@
     {
      "label": {
       "tr": "Ev",
-      "en": "Home"
+      "en": "Home",
+      "es": "Casa"
      },
      "say": "Meine Wohnung hat …",
      "keys": [
@@ -2250,7 +2439,8 @@
     {
      "label": {
       "tr": "Komşular",
-      "en": "Neighbours"
+      "en": "Neighbours",
+      "es": "Vecinos"
      },
      "say": "Meine Nachbarn sind …",
      "keys": [
@@ -2262,7 +2452,8 @@
     {
      "label": {
       "tr": "Sevdiğin",
-      "en": "What you like"
+      "en": "What you like",
+      "es": "Qué te gusta"
      },
      "say": "Mir gefällt, dass …",
      "keys": [
@@ -2277,7 +2468,8 @@
     {
      "label": {
       "tr": "Sevmediğin",
-      "en": "What you do not like"
+      "en": "What you do not like",
+      "es": "Lo que no te gusta"
      },
      "say": "Leider ist es …",
      "keys": [
@@ -2298,18 +2490,21 @@
    "seconds": 90,
    "title": {
     "tr": "Sunum: İnternetten alışveriş",
-    "en": "Presentation: online shopping"
+    "en": "Presentation: online shopping",
+    "es": "Presentación: compras por internet"
    },
    "prompt": "Präsentieren Sie das Thema „Online einkaufen“.",
    "help": {
     "tr": "Goethe B1 Teil 2 gibi: konuyu tanıt, deneyimin, ülkendeki durum, artılar/eksiler, görüşün.",
-    "en": "Like Goethe B1 part 2: introduce the topic, your experience, your country, pros and cons, your opinion."
+    "en": "Like Goethe B1 part 2: introduce the topic, your experience, your country, pros and cons, your opinion.",
+    "es": "Como en Goethe B1, parte 2: presenta el tema, cuenta tu experiencia y la situación en tu país, habla de ventajas y desventajas y da tu opinión."
    },
    "points": [
     {
      "label": {
       "tr": "Konuyu tanıt",
-      "en": "Introduce the topic"
+      "en": "Introduce the topic",
+      "es": "Presenta el tema"
      },
      "say": "Mein Thema ist …",
      "keys": [
@@ -2324,7 +2519,8 @@
     {
      "label": {
       "tr": "Kendi deneyimin",
-      "en": "Your own experience"
+      "en": "Your own experience",
+      "es": "Tu propia experiencia"
      },
      "say": "Ich persönlich habe …",
      "keys": [
@@ -2339,7 +2535,8 @@
     {
      "label": {
       "tr": "Ülkendeki durum",
-      "en": "The situation in your country"
+      "en": "The situation in your country",
+      "es": "La situación en tu país"
      },
      "say": "In meinem Heimatland …",
      "keys": [
@@ -2353,7 +2550,8 @@
     {
      "label": {
       "tr": "Avantajlar",
-      "en": "Advantages"
+      "en": "Advantages",
+      "es": "Ventajas"
      },
      "say": "Ein Vorteil ist, dass …",
      "keys": [
@@ -2367,7 +2565,8 @@
     {
      "label": {
       "tr": "Dezavantajlar",
-      "en": "Disadvantages"
+      "en": "Disadvantages",
+      "es": "Desventajas"
      },
      "say": "Ein Nachteil ist, dass …",
      "keys": [
@@ -2382,7 +2581,8 @@
     {
      "label": {
       "tr": "Görüşün ve sonuç",
-      "en": "Your opinion and conclusion"
+      "en": "Your opinion and conclusion",
+      "es": "Tu opinión y conclusión"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -2404,18 +2604,21 @@
    "seconds": 90,
    "title": {
     "tr": "Sunum: Çocuklar ve akıllı telefon",
-    "en": "Presentation: children and smartphones"
+    "en": "Presentation: children and smartphones",
+    "es": "Presentación: niños y teléfonos inteligentes"
    },
    "prompt": "Präsentieren Sie das Thema „Brauchen Kinder ein eigenes Smartphone?“.",
    "help": {
     "tr": "Konuyu tanıt, deneyimin, ülkendeki durum, artılar/eksiler, görüşün.",
-    "en": "Introduce the topic, your experience, your country, pros and cons, your opinion."
+    "en": "Introduce the topic, your experience, your country, pros and cons, your opinion.",
+    "es": "Presenta el tema, cuenta tu experiencia y la situación en tu país, habla de ventajas y desventajas y da tu opinión."
    },
    "points": [
     {
      "label": {
       "tr": "Konuyu tanıt",
-      "en": "Introduce the topic"
+      "en": "Introduce the topic",
+      "es": "Presenta el tema"
      },
      "say": "Mein Thema ist …",
      "keys": [
@@ -2430,7 +2633,8 @@
     {
      "label": {
       "tr": "Kendi deneyimin",
-      "en": "Your own experience"
+      "en": "Your own experience",
+      "es": "Tu propia experiencia"
      },
      "say": "Ich persönlich habe …",
      "keys": [
@@ -2445,7 +2649,8 @@
     {
      "label": {
       "tr": "Ülkendeki durum",
-      "en": "The situation in your country"
+      "en": "The situation in your country",
+      "es": "La situación en tu país"
      },
      "say": "In meinem Heimatland …",
      "keys": [
@@ -2459,7 +2664,8 @@
     {
      "label": {
       "tr": "Avantajlar",
-      "en": "Advantages"
+      "en": "Advantages",
+      "es": "Ventajas"
      },
      "say": "Ein Vorteil ist, dass …",
      "keys": [
@@ -2473,7 +2679,8 @@
     {
      "label": {
       "tr": "Dezavantajlar",
-      "en": "Disadvantages"
+      "en": "Disadvantages",
+      "es": "Desventajas"
      },
      "say": "Ein Nachteil ist, dass …",
      "keys": [
@@ -2488,7 +2695,8 @@
     {
      "label": {
       "tr": "Görüşün ve sonuç",
-      "en": "Your opinion and conclusion"
+      "en": "Your opinion and conclusion",
+      "es": "Tu opinión y conclusión"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -2510,18 +2718,21 @@
    "seconds": 90,
    "title": {
     "tr": "Birlikte plan yapın: veda partisi",
-    "en": "Plan together: a farewell party"
+    "en": "Plan together: a farewell party",
+    "es": "Planear juntos: una fiesta de despedida"
    },
    "prompt": "Eine Kollegin verlässt die Firma. Planen Sie zusammen eine Abschiedsfeier.",
    "help": {
     "tr": "Goethe B1 Teil 1 gibi: öneri yap, zaman, yer, hediye, kabul et veya itiraz et.",
-    "en": "Like Goethe B1 part 1: suggest, time, place, present, agree or disagree."
+    "en": "Like Goethe B1 part 1: suggest, time, place, present, agree or disagree.",
+    "es": "Como en Goethe B1, parte 1: proponed algo, hablad de la hora y el lugar, del regalo; aceptad o rechazad propuestas."
    },
    "points": [
     {
      "label": {
       "tr": "Öneri yap",
-      "en": "Make a suggestion"
+      "en": "Make a suggestion",
+      "es": "Haz una propuesta"
      },
      "say": "Wir könnten … / Ich schlage vor, …",
      "keys": [
@@ -2535,7 +2746,8 @@
     {
      "label": {
       "tr": "Zaman",
-      "en": "Time"
+      "en": "Time",
+      "es": "Hora"
      },
      "say": "am Freitagnachmittag",
      "keys": [
@@ -2550,7 +2762,8 @@
     {
      "label": {
       "tr": "Yer",
-      "en": "Place"
+      "en": "Place",
+      "es": "Lugar"
      },
      "say": "im Besprechungsraum / in einem Restaurant",
      "keys": [
@@ -2565,7 +2778,8 @@
     {
      "label": {
       "tr": "Hediye",
-      "en": "Present"
+      "en": "Present",
+      "es": "Regalo"
      },
      "say": "Wir sammeln Geld für ein Geschenk.",
      "keys": [
@@ -2579,7 +2793,8 @@
     {
      "label": {
       "tr": "Kabul et",
-      "en": "Agree"
+      "en": "Agree",
+      "es": "Aceptar"
      },
      "say": "Das ist eine gute Idee.",
      "keys": [
@@ -2593,7 +2808,8 @@
     {
      "label": {
       "tr": "İtiraz et",
-      "en": "Disagree"
+      "en": "Disagree",
+      "es": "Rechazar"
      },
      "say": "Ich bin nicht sicher, ob …",
      "keys": [
@@ -2613,18 +2829,21 @@
    "seconds": 90,
    "title": {
     "tr": "Zor bir durum",
-    "en": "A difficult situation"
+    "en": "A difficult situation",
+    "es": "Una situación difícil"
    },
    "prompt": "Erzählen Sie von einer schwierigen Situation in Ihrem Leben.",
    "help": {
     "tr": "Ne zaman, ne oldu, nasıl hissettin, nasıl çözdün, ne öğrendin? (geçmiş zaman)",
-    "en": "When, what happened, how you felt, how you solved it, what you learned. (past tense)"
+    "en": "When, what happened, how you felt, how you solved it, what you learned. (past tense)",
+    "es": "Cuándo ocurrió, qué pasó, cómo te sentiste, cómo lo resolviste y qué aprendiste. (pasado)"
    },
    "points": [
     {
      "label": {
       "tr": "Ne zaman",
-      "en": "When"
+      "en": "When",
+      "es": "Cuándo"
      },
      "say": "Vor zwei Jahren … / Als ich …",
      "keys": [
@@ -2637,7 +2856,8 @@
     {
      "label": {
       "tr": "Ne oldu",
-      "en": "What happened"
+      "en": "What happened",
+      "es": "Qué pasó"
      },
      "say": "Es ist … passiert.",
      "keys": [
@@ -2651,7 +2871,8 @@
     {
      "label": {
       "tr": "Duygular",
-      "en": "Feelings"
+      "en": "Feelings",
+      "es": "Sentimientos"
      },
      "say": "Ich war sehr nervös.",
      "keys": [
@@ -2667,7 +2888,8 @@
     {
      "label": {
       "tr": "Çözüm",
-      "en": "Solution"
+      "en": "Solution",
+      "es": "Solución"
      },
      "say": "Zum Glück … / Am Ende …",
      "keys": [
@@ -2681,7 +2903,8 @@
     {
      "label": {
       "tr": "Ne öğrendin",
-      "en": "What you learned"
+      "en": "What you learned",
+      "es": "Qué aprendiste"
      },
      "say": "Seitdem … / Ich habe gelernt, …",
      "keys": [
@@ -2700,18 +2923,21 @@
    "seconds": 90,
    "title": {
     "tr": "Görüş: Evden çalışma",
-    "en": "Opinion: working from home"
+    "en": "Opinion: working from home",
+    "es": "Opinión: trabajar desde casa"
    },
    "prompt": "Ist Homeoffice besser als Arbeiten im Büro? Sagen Sie Ihre Meinung.",
    "help": {
     "tr": "Görüşünü söyle, gerekçe ve örnek ver, karşı görüşü de an, sonuç çıkar.",
-    "en": "Give your opinion, reasons and an example, mention the other side, conclude."
+    "en": "Give your opinion, reasons and an example, mention the other side, conclude.",
+    "es": "Da tu opinión, expón tus razones y un ejemplo, menciona el otro punto de vista y concluye."
    },
    "points": [
     {
      "label": {
       "tr": "Görüşün",
-      "en": "Your opinion"
+      "en": "Your opinion",
+      "es": "Tu opinión"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -2725,7 +2951,8 @@
     {
      "label": {
       "tr": "Gerekçe söyle",
-      "en": "Give a reason"
+      "en": "Give a reason",
+      "es": "Da una razón"
      },
      "say": "…, weil …",
      "keys": [
@@ -2740,7 +2967,8 @@
     {
      "label": {
       "tr": "Bir örnek ver",
-      "en": "Give an example"
+      "en": "Give an example",
+      "es": "Da un ejemplo"
      },
      "say": "Zum Beispiel …",
      "keys": [
@@ -2753,7 +2981,8 @@
     {
      "label": {
       "tr": "Karşı görüş",
-      "en": "The other side"
+      "en": "The other side",
+      "es": "El otro punto de vista"
      },
      "say": "Andererseits …",
      "keys": [
@@ -2767,7 +2996,8 @@
     {
      "label": {
       "tr": "Sonuç",
-      "en": "Conclusion"
+      "en": "Conclusion",
+      "es": "Conclusión"
      },
      "say": "Insgesamt …",
      "keys": [
@@ -2787,18 +3017,21 @@
    "seconds": 90,
    "title": {
     "tr": "Sunum: Şehirde mi köyde mi?",
-    "en": "Presentation: city or countryside?"
+    "en": "Presentation: city or countryside?",
+    "es": "Presentación: ¿ciudad o campo?"
    },
    "prompt": "Präsentieren Sie das Thema „Leben in der Stadt oder auf dem Land?“.",
    "help": {
     "tr": "Konuyu tanıt, deneyimin, ülkendeki durum, artılar/eksiler, görüşün.",
-    "en": "Introduce the topic, your experience, your country, pros and cons, your opinion."
+    "en": "Introduce the topic, your experience, your country, pros and cons, your opinion.",
+    "es": "Presenta el tema, cuenta tu experiencia y la situación en tu país, habla de ventajas y desventajas y da tu opinión."
    },
    "points": [
     {
      "label": {
       "tr": "Konuyu tanıt",
-      "en": "Introduce the topic"
+      "en": "Introduce the topic",
+      "es": "Presenta el tema"
      },
      "say": "Mein Thema ist …",
      "keys": [
@@ -2813,7 +3046,8 @@
     {
      "label": {
       "tr": "Kendi deneyimin",
-      "en": "Your own experience"
+      "en": "Your own experience",
+      "es": "Tu propia experiencia"
      },
      "say": "Ich persönlich habe …",
      "keys": [
@@ -2828,7 +3062,8 @@
     {
      "label": {
       "tr": "Ülkendeki durum",
-      "en": "The situation in your country"
+      "en": "The situation in your country",
+      "es": "La situación en tu país"
      },
      "say": "In meinem Heimatland …",
      "keys": [
@@ -2842,7 +3077,8 @@
     {
      "label": {
       "tr": "Avantajlar",
-      "en": "Advantages"
+      "en": "Advantages",
+      "es": "Ventajas"
      },
      "say": "Ein Vorteil ist, dass …",
      "keys": [
@@ -2856,7 +3092,8 @@
     {
      "label": {
       "tr": "Dezavantajlar",
-      "en": "Disadvantages"
+      "en": "Disadvantages",
+      "es": "Desventajas"
      },
      "say": "Ein Nachteil ist, dass …",
      "keys": [
@@ -2871,7 +3108,8 @@
     {
      "label": {
       "tr": "Görüşün ve sonuç",
-      "en": "Your opinion and conclusion"
+      "en": "Your opinion and conclusion",
+      "es": "Tu opinión y conclusión"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -2893,18 +3131,21 @@
    "seconds": 120,
    "title": {
     "tr": "Sunum: Şehir merkezinde otomobil yasağı",
-    "en": "Presentation: banning cars from city centres"
+    "en": "Presentation: banning cars from city centres",
+    "es": "Presentación: prohibir los coches en el centro de la ciudad"
    },
    "prompt": "Halten Sie einen kurzen Vortrag: „Sollten Autos aus den Innenstädten verbannt werden?“",
    "help": {
     "tr": "Goethe B2 gibi: giriş, artılar, eksiler, örnek, ülkendeki durum, sonuç.",
-    "en": "Like Goethe B2: introduction, pros, cons, an example, your country, conclusion."
+    "en": "Like Goethe B2: introduction, pros, cons, an example, your country, conclusion.",
+    "es": "Como en Goethe B2: introducción, ventajas, desventajas, un ejemplo, tu país y conclusión."
    },
    "points": [
     {
      "label": {
       "tr": "Konuyu tanıt",
-      "en": "Introduce the topic"
+      "en": "Introduce the topic",
+      "es": "Presenta el tema"
      },
      "say": "Mein Thema ist …",
      "keys": [
@@ -2919,7 +3160,8 @@
     {
      "label": {
       "tr": "Avantajlar",
-      "en": "Advantages"
+      "en": "Advantages",
+      "es": "Ventajas"
      },
      "say": "Ein Vorteil ist, dass …",
      "keys": [
@@ -2933,7 +3175,8 @@
     {
      "label": {
       "tr": "Dezavantajlar",
-      "en": "Disadvantages"
+      "en": "Disadvantages",
+      "es": "Desventajas"
      },
      "say": "Ein Nachteil ist, dass …",
      "keys": [
@@ -2948,7 +3191,8 @@
     {
      "label": {
       "tr": "Bir örnek ver",
-      "en": "Give an example"
+      "en": "Give an example",
+      "es": "Da un ejemplo"
      },
      "say": "Zum Beispiel …",
      "keys": [
@@ -2961,7 +3205,8 @@
     {
      "label": {
       "tr": "Ülkendeki durum",
-      "en": "The situation in your country"
+      "en": "The situation in your country",
+      "es": "La situación en tu país"
      },
      "say": "In meinem Heimatland …",
      "keys": [
@@ -2975,7 +3220,8 @@
     {
      "label": {
       "tr": "Görüşün ve sonuç",
-      "en": "Your opinion and conclusion"
+      "en": "Your opinion and conclusion",
+      "es": "Tu opinión y conclusión"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -2997,18 +3243,21 @@
    "seconds": 120,
    "title": {
     "tr": "Tartışma: Gençler ve sosyal medya",
-    "en": "Discussion: teenagers and social media"
+    "en": "Discussion: teenagers and social media",
+    "es": "Debate: adolescentes y redes sociales"
    },
    "prompt": "Diskutieren Sie: „Soziale Medien sollten erst ab 16 Jahren erlaubt sein.“",
    "help": {
     "tr": "Görüşünü savun, gerekçe ver, karşı argümanı kabul et ve çürüt, uzlaşma öner.",
-    "en": "Defend your view, give reasons, acknowledge and answer the counter-argument, suggest a compromise."
+    "en": "Defend your view, give reasons, acknowledge and answer the counter-argument, suggest a compromise.",
+    "es": "Defiende tu opinión, da razones, reconoce y responde al argumento contrario, y propón un compromiso."
    },
    "points": [
     {
      "label": {
       "tr": "Tutumun",
-      "en": "Your position"
+      "en": "Your position",
+      "es": "Tu postura"
      },
      "say": "Ich vertrete die Ansicht, dass …",
      "keys": [
@@ -3022,7 +3271,8 @@
     {
      "label": {
       "tr": "Gerekçe söyle",
-      "en": "Give a reason"
+      "en": "Give a reason",
+      "es": "Da una razón"
      },
      "say": "…, weil …",
      "keys": [
@@ -3037,7 +3287,8 @@
     {
      "label": {
       "tr": "Karşı argümanı kabul et",
-      "en": "Acknowledge the other side"
+      "en": "Acknowledge the other side",
+      "es": "Reconoce el otro punto de vista"
      },
      "say": "Da haben Sie zwar recht, aber …",
      "keys": [
@@ -3051,7 +3302,8 @@
     {
      "label": {
       "tr": "İtiraz et",
-      "en": "Disagree"
+      "en": "Disagree",
+      "es": "Rechazar"
      },
      "say": "Da muss ich widersprechen.",
      "keys": [
@@ -3065,7 +3317,8 @@
     {
      "label": {
       "tr": "Uzlaşma öner",
-      "en": "Suggest a compromise"
+      "en": "Suggest a compromise",
+      "es": "Propón un compromiso"
      },
      "say": "Ein Kompromiss wäre …",
      "keys": [
@@ -3085,18 +3338,21 @@
    "seconds": 120,
    "title": {
     "tr": "Sunum: Hayat boyu öğrenme",
-    "en": "Presentation: lifelong learning"
+    "en": "Presentation: lifelong learning",
+    "es": "Presentación: aprendizaje permanente"
    },
    "prompt": "Halten Sie einen kurzen Vortrag zum Thema „Lebenslanges Lernen“.",
    "help": {
     "tr": "Giriş, artılar, zorluklar, örnek, ülkendeki durum, sonuç.",
-    "en": "Introduction, advantages, difficulties, an example, your country, conclusion."
+    "en": "Introduction, advantages, difficulties, an example, your country, conclusion.",
+    "es": "Introducción, ventajas, dificultades, un ejemplo, tu país y conclusión."
    },
    "points": [
     {
      "label": {
       "tr": "Konuyu tanıt",
-      "en": "Introduce the topic"
+      "en": "Introduce the topic",
+      "es": "Presenta el tema"
      },
      "say": "Mein Thema ist …",
      "keys": [
@@ -3111,7 +3367,8 @@
     {
      "label": {
       "tr": "Avantajlar",
-      "en": "Advantages"
+      "en": "Advantages",
+      "es": "Ventajas"
      },
      "say": "Ein Vorteil ist, dass …",
      "keys": [
@@ -3125,7 +3382,8 @@
     {
      "label": {
       "tr": "Dezavantajlar",
-      "en": "Disadvantages"
+      "en": "Disadvantages",
+      "es": "Desventajas"
      },
      "say": "Ein Nachteil ist, dass …",
      "keys": [
@@ -3140,7 +3398,8 @@
     {
      "label": {
       "tr": "Bir örnek ver",
-      "en": "Give an example"
+      "en": "Give an example",
+      "es": "Da un ejemplo"
      },
      "say": "Zum Beispiel …",
      "keys": [
@@ -3153,7 +3412,8 @@
     {
      "label": {
       "tr": "Ülkendeki durum",
-      "en": "The situation in your country"
+      "en": "The situation in your country",
+      "es": "La situación en tu país"
      },
      "say": "In meinem Heimatland …",
      "keys": [
@@ -3167,7 +3427,8 @@
     {
      "label": {
       "tr": "Görüşün ve sonuç",
-      "en": "Your opinion and conclusion"
+      "en": "Your opinion and conclusion",
+      "es": "Tu opinión y conclusión"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -3189,18 +3450,21 @@
    "seconds": 120,
    "title": {
     "tr": "Tartışma: Dört günlük çalışma haftası",
-    "en": "Discussion: the four-day week"
+    "en": "Discussion: the four-day week",
+    "es": "Debate: la semana laboral de cuatro días"
    },
    "prompt": "Diskutieren Sie: „Die Vier-Tage-Woche sollte für alle eingeführt werden.“",
    "help": {
     "tr": "Görüşünü savun, gerekçe ve örnek ver, karşı argümanı ele al, uzlaşma öner.",
-    "en": "Defend your view, reasons and an example, deal with the counter-argument, suggest a compromise."
+    "en": "Defend your view, reasons and an example, deal with the counter-argument, suggest a compromise.",
+    "es": "Defiende tu opinión, da razones y un ejemplo, responde al argumento contrario y propón un compromiso."
    },
    "points": [
     {
      "label": {
       "tr": "Tutumun",
-      "en": "Your position"
+      "en": "Your position",
+      "es": "Tu postura"
      },
      "say": "Ich bin davon überzeugt, dass …",
      "keys": [
@@ -3214,7 +3478,8 @@
     {
      "label": {
       "tr": "Gerekçe söyle",
-      "en": "Give a reason"
+      "en": "Give a reason",
+      "es": "Da una razón"
      },
      "say": "…, weil …",
      "keys": [
@@ -3229,7 +3494,8 @@
     {
      "label": {
       "tr": "Bir örnek ver",
-      "en": "Give an example"
+      "en": "Give an example",
+      "es": "Da un ejemplo"
      },
      "say": "Zum Beispiel …",
      "keys": [
@@ -3242,7 +3508,8 @@
     {
      "label": {
       "tr": "Karşı argüman",
-      "en": "Counter-argument"
+      "en": "Counter-argument",
+      "es": "Argumento contrario"
      },
      "say": "Man könnte einwenden, dass …",
      "keys": [
@@ -3256,7 +3523,8 @@
     {
      "label": {
       "tr": "Uzlaşma öner",
-      "en": "Suggest a compromise"
+      "en": "Suggest a compromise",
+      "es": "Propón un compromiso"
      },
      "say": "Ein Mittelweg wäre …",
      "keys": [
@@ -3276,18 +3544,21 @@
    "seconds": 120,
    "title": {
     "tr": "Başarısız bir proje",
-    "en": "A project that went wrong"
+    "en": "A project that went wrong",
+    "es": "Un proyecto que salió mal"
    },
    "prompt": "Berichten Sie von einem Projekt oder Plan, der nicht geklappt hat. Was würden Sie heute anders machen?",
    "help": {
     "tr": "Ne oldu, neden, sonuçları, bugün ne farklı yapardın (Konjunktiv II), ne öğrendin.",
-    "en": "What happened, why, the consequences, what you would do differently (Konjunktiv II), what you learned."
+    "en": "What happened, why, the consequences, what you would do differently (Konjunktiv II), what you learned.",
+    "es": "Qué pasó, por qué, cuáles fueron las consecuencias, qué harías de otra manera (Konjunktiv II) y qué aprendiste."
    },
    "points": [
     {
      "label": {
       "tr": "Ne oldu",
-      "en": "What happened"
+      "en": "What happened",
+      "es": "Qué pasó"
      },
      "say": "Vor einem Jahr wollte ich …",
      "keys": [
@@ -3301,7 +3572,8 @@
     {
      "label": {
       "tr": "Neden",
-      "en": "Why"
+      "en": "Why",
+      "es": "Por qué"
      },
      "say": "Das lag vor allem daran, dass …",
      "keys": [
@@ -3315,7 +3587,8 @@
     {
      "label": {
       "tr": "Sonuçlar",
-      "en": "Consequences"
+      "en": "Consequences",
+      "es": "Consecuencias"
      },
      "say": "Dadurch / Folglich …",
      "keys": [
@@ -3329,7 +3602,8 @@
     {
      "label": {
       "tr": "Farklı yapardın",
-      "en": "What you would change"
+      "en": "What you would change",
+      "es": "Qué cambiarías"
      },
      "say": "Heute würde ich … / hätte ich …",
      "keys": [
@@ -3342,7 +3616,8 @@
     {
      "label": {
       "tr": "Ders",
-      "en": "Lesson"
+      "en": "Lesson",
+      "es": "Lección"
      },
      "say": "Rückblickend habe ich gelernt, …",
      "keys": [
@@ -3361,18 +3636,21 @@
    "seconds": 90,
    "title": {
     "tr": "Telefonda şikâyet",
-    "en": "A complaint on the phone"
+    "en": "A complaint on the phone",
+    "es": "Una reclamación por teléfono"
    },
    "prompt": "Rufen Sie die Hausverwaltung an: Die Heizung ist seit einer Woche kaputt.",
    "help": {
     "tr": "Kendini tanıt, sorunu anlat, ne zamandır olduğunu söyle, kibarca rica et, süre iste, teşekkür et.",
-    "en": "Introduce yourself, describe the problem and since when, ask politely, ask for a deadline, thank them."
+    "en": "Introduce yourself, describe the problem and since when, ask politely, ask for a deadline, thank them.",
+    "es": "Preséntate, describe el problema y desde cuándo existe, pide algo amablemente, solicita un plazo y da las gracias."
    },
    "points": [
     {
      "label": {
       "tr": "Kendini tanıt",
-      "en": "Introduce yourself"
+      "en": "Introduce yourself",
+      "es": "Preséntate"
      },
      "say": "Guten Tag, mein Name ist …",
      "keys": [
@@ -3385,7 +3663,8 @@
     {
      "label": {
       "tr": "Sorun",
-      "en": "The problem"
+      "en": "The problem",
+      "es": "El problema"
      },
      "say": "Die Heizung funktioniert nicht.",
      "keys": [
@@ -3399,7 +3678,8 @@
     {
      "label": {
       "tr": "Ne zamandan beri",
-      "en": "Since when"
+      "en": "Since when",
+      "es": "Desde cuándo"
      },
      "say": "seit einer Woche",
      "keys": [
@@ -3409,7 +3689,8 @@
     {
      "label": {
       "tr": "Kibar rica",
-      "en": "Polite request"
+      "en": "Polite request",
+      "es": "Petición amable"
      },
      "say": "Könnten Sie bitte …?",
      "keys": [
@@ -3422,7 +3703,8 @@
     {
      "label": {
       "tr": "Süre",
-      "en": "Deadline"
+      "en": "Deadline",
+      "es": "Plazo"
      },
      "say": "bis spätestens Freitag",
      "keys": [
@@ -3435,7 +3717,8 @@
     {
      "label": {
       "tr": "Teşekkür",
-      "en": "Thank them"
+      "en": "Thank them",
+      "es": "Dales las gracias"
      },
      "say": "Vielen Dank für Ihre Hilfe.",
      "keys": [

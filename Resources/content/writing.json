@@ -22,7 +22,8 @@
    {
     "title": {
      "tr": "1 · Hitap",
-     "en": "1 · Greeting"
+     "en": "1 · Greeting",
+     "es": "1 · Saludo"
     },
     "phrases": [
      "Liebe …,",
@@ -33,7 +34,8 @@
    {
     "title": {
      "tr": "2 · Giriş",
-     "en": "2 · Opening"
+     "en": "2 · Opening",
+     "es": "2 · Introducción"
     },
     "phrases": [
      "wie geht es dir?",
@@ -44,7 +46,8 @@
    {
     "title": {
      "tr": "3 · Konu",
-     "en": "3 · The reason"
+     "en": "3 · The reason",
+     "es": "3 · Motivo"
     },
     "phrases": [
      "Leider kann ich am … nicht kommen.",
@@ -58,7 +61,8 @@
    {
     "title": {
      "tr": "4 · Rica / soru",
-     "en": "4 · Request / question"
+     "en": "4 · Request / question",
+     "es": "4 · Petición / pregunta"
     },
     "phrases": [
      "Kannst du …?",
@@ -70,7 +74,8 @@
    {
     "title": {
      "tr": "5 · Zaman ve yer",
-     "en": "5 · Time and place"
+     "en": "5 · Time and place",
+     "es": "5 · Hora y lugar"
     },
     "phrases": [
      "am Samstag um … Uhr",
@@ -81,7 +86,8 @@
    {
     "title": {
      "tr": "6 · Kapanış",
-     "en": "6 · Closing"
+     "en": "6 · Closing",
+     "es": "6 · Despedida"
     },
     "phrases": [
      "Ich freue mich auf dich!",
@@ -92,7 +98,8 @@
    {
     "title": {
      "tr": "7 · Selam",
-     "en": "7 · Sign-off"
+     "en": "7 · Sign-off",
+     "es": "7 · Fórmula de despedida"
     },
     "phrases": [
      "Viele Grüße",
@@ -105,7 +112,8 @@
    {
     "title": {
      "tr": "1 · Hitap",
-     "en": "1 · Greeting"
+     "en": "1 · Greeting",
+     "es": "1 · Saludo"
     },
     "phrases": [
      "Sehr geehrte Frau …,",
@@ -116,7 +124,8 @@
    {
     "title": {
      "tr": "2 · Giriş",
-     "en": "2 · Opening"
+     "en": "2 · Opening",
+     "es": "2 · Introducción"
     },
     "phrases": [
      "ich schreibe Ihnen, weil …",
@@ -126,7 +135,8 @@
    {
     "title": {
      "tr": "3 · Konu",
-     "en": "3 · The reason"
+     "en": "3 · The reason",
+     "es": "3 · Motivo"
     },
     "phrases": [
      "Leider kann ich morgen nicht kommen.",
@@ -139,7 +149,8 @@
    {
     "title": {
      "tr": "4 · Rica / soru",
-     "en": "4 · Request / question"
+     "en": "4 · Request / question",
+     "es": "4 · Petición / pregunta"
     },
     "phrases": [
      "Können Sie bitte …?",
@@ -152,7 +163,8 @@
    {
     "title": {
      "tr": "5 · Zaman ve yer",
-     "en": "5 · Time and place"
+     "en": "5 · Time and place",
+     "es": "5 · Hora y lugar"
     },
     "phrases": [
      "am … um … Uhr",
@@ -163,7 +175,8 @@
    {
     "title": {
      "tr": "6 · Kapanış",
-     "en": "6 · Closing"
+     "en": "6 · Closing",
+     "es": "6 · Despedida"
     },
     "phrases": [
      "Vielen Dank im Voraus.",
@@ -173,7 +186,8 @@
    {
     "title": {
      "tr": "7 · Selam",
-     "en": "7 · Sign-off"
+     "en": "7 · Sign-off",
+     "es": "7 · Fórmula de despedida"
     },
     "phrases": [
      "Mit freundlichen Grüßen",
@@ -189,7 +203,8 @@
    "kind": "form",
    "title": {
     "tr": "Form: Dil kursu kaydı",
-    "en": "Form: language course"
+    "en": "Form: language course",
+    "es": "Formulario: curso de idiomas"
    },
    "text": "Maria López kommt aus Spanien. Sie ist 34 Jahre alt und wohnt in der Gartenstraße 5 in 80331 München. Sie möchte einen Deutschkurs am Abend machen, weil sie am Tag arbeitet. Sie bezahlt bar.",
    "fields": [
@@ -243,7 +258,8 @@
    "kind": "form",
    "title": {
     "tr": "Form: Otel rezervasyonu",
-    "en": "Form: hotel booking"
+    "en": "Form: hotel booking",
+    "es": "Formulario: reserva de hotel"
    },
    "text": "Peter Wagner und seine Frau möchten vom 12. bis 15. Mai im Hotel Sonne übernachten. Sie brauchen ein Doppelzimmer mit Frühstück. Ihre Kinder kommen nicht mit. Herr Wagner hat die Telefonnummer 0171 2345678.",
    "fields": [
@@ -306,7 +322,8 @@
    "kind": "form",
    "title": {
     "tr": "Form: Spor salonu üyeliği",
-    "en": "Form: gym membership"
+    "en": "Form: gym membership",
+    "es": "Formulario: abono del gimnasio"
    },
    "text": "Lea Schmidt ist Studentin. Sie ist am 3. April 2001 geboren. Sie möchte zweimal pro Woche trainieren, am liebsten am Morgen. Ihre E-Mail-Adresse ist lea.schmidt@web.de.",
    "fields": [
@@ -365,7 +382,8 @@
    "kind": "form",
    "title": {
     "tr": "Form: Kütüphane kartı",
-    "en": "Form: library card"
+    "en": "Form: library card",
+    "es": "Formulario: tarjeta de biblioteca"
    },
    "text": "Ahmet Demir ist 27 Jahre alt. Er wohnt in der Lindenallee 8 in 50667 Köln und arbeitet als Koch. Er hat keine Kinder. Er möchte die Bibliothek am Wochenende besuchen.",
    "fields": [
@@ -418,18 +436,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Kursa gelemiyorum",
-    "en": "E-mail: I cannot come to class"
+    "en": "E-mail: I cannot come to class",
+    "es": "Correo: no puedo ir a clase"
    },
    "prompt": "Sie können morgen nicht zum Deutschkurs kommen. Schreiben Sie Ihrer Lehrerin, Frau Weber, eine E-Mail.",
    "help": {
     "tr": "Neden gelemediğini yaz, ödevi sor, ne zaman tekrar geleceğini söyle.",
-    "en": "Say why you cannot come, ask about the homework, say when you come again."
+    "en": "Say why you cannot come, ask about the homework, say when you come again.",
+    "es": "Explica por qué no puedes ir, pregunta por los deberes y di cuándo volverás."
    },
    "points": [
     {
      "label": {
       "tr": "Neden gelemiyorsun",
-      "en": "Why not"
+      "en": "Why not",
+      "es": "Por qué no puedes ir"
      },
      "say": "Ich bin leider krank. / Ich habe einen Termin.",
      "keys": [
@@ -444,7 +465,8 @@
     {
      "label": {
       "tr": "Ödevi sor",
-      "en": "Ask about homework"
+      "en": "Ask about homework",
+      "es": "Pregunta por los deberes"
      },
      "say": "Was sind die Hausaufgaben?",
      "keys": [
@@ -454,7 +476,8 @@
     {
      "label": {
       "tr": "Ne zaman geliyorsun",
-      "en": "When you come back"
+      "en": "When you come back",
+      "es": "Cuándo vuelves"
      },
      "say": "Am Donnerstag komme ich wieder.",
      "keys": [
@@ -478,18 +501,21 @@
    "kind": "message",
    "title": {
     "tr": "Mesaj: Doğum günü daveti",
-    "en": "Message: birthday invitation"
+    "en": "Message: birthday invitation",
+    "es": "Mensaje: invitación de cumpleaños"
    },
    "prompt": "Sie haben am Samstag Geburtstag und machen eine Party. Schreiben Sie Ihrem Freund Tom eine Einladung.",
    "help": {
     "tr": "Ne zaman, nerede olduğunu ve ne getirmesi gerektiğini yaz.",
-    "en": "Say when, where and what he should bring."
+    "en": "Say when, where and what he should bring.",
+    "es": "Di cuándo y dónde será, y qué debería traer."
    },
    "points": [
     {
      "label": {
       "tr": "Ne zaman",
-      "en": "When"
+      "en": "When",
+      "es": "Cuándo"
      },
      "say": "am Samstag um 19 Uhr",
      "keys": [
@@ -501,7 +527,8 @@
     {
      "label": {
       "tr": "Nerede",
-      "en": "Where"
+      "en": "Where",
+      "es": "Dónde"
      },
      "say": "bei mir zu Hause / im Garten",
      "keys": [
@@ -516,7 +543,8 @@
     {
      "label": {
       "tr": "Ne getirsin",
-      "en": "What to bring"
+      "en": "What to bring",
+      "es": "Qué traer"
      },
      "say": "Kannst du einen Salat mitbringen?",
      "keys": [
@@ -539,18 +567,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Kalorifer bozuk",
-    "en": "E-mail: the heating is broken"
+    "en": "E-mail: the heating is broken",
+    "es": "Correo: la calefacción está averiada"
    },
    "prompt": "Die Heizung in Ihrer Wohnung ist kaputt. Schreiben Sie dem Hausmeister, Herrn Braun, eine E-Mail.",
    "help": {
     "tr": "Sorunu yaz, ne zamandan beri olduğunu söyle, ne zaman evde olduğunu yaz.",
-    "en": "Describe the problem, since when, and when you are at home."
+    "en": "Describe the problem, since when, and when you are at home.",
+    "es": "Describe el problema, desde cuándo ocurre y cuándo estás en casa."
    },
    "points": [
     {
      "label": {
       "tr": "Sorun",
-      "en": "The problem"
+      "en": "The problem",
+      "es": "El problema"
      },
      "say": "Die Heizung ist kaputt.",
      "keys": [
@@ -563,7 +594,8 @@
     {
      "label": {
       "tr": "Ne zamandan beri",
-      "en": "Since when"
+      "en": "Since when",
+      "es": "Desde cuándo"
      },
      "say": "seit Montag",
      "keys": [
@@ -573,7 +605,8 @@
     {
      "label": {
       "tr": "Ne zaman evdesin",
-      "en": "When you are at home"
+      "en": "When you are at home",
+      "es": "Cuándo estás en casa"
      },
      "say": "Ich bin am Nachmittag zu Hause.",
      "keys": [
@@ -596,18 +629,21 @@
    "kind": "message",
    "title": {
     "tr": "Mesaj: Sinemaya gidelim",
-    "en": "Message: let's go to the cinema"
+    "en": "Message: let's go to the cinema",
+    "es": "Mensaje: vamos al cine"
    },
    "prompt": "Sie möchten am Wochenende mit Ihrer Freundin Sara ins Kino gehen. Schreiben Sie ihr eine Nachricht.",
    "help": {
     "tr": "Hangi filmi, ne zaman ve nerede buluşacağınızı yaz.",
-    "en": "Say which film, when, and where you meet."
+    "en": "Say which film, when, and where you meet.",
+    "es": "Di qué película, cuándo y dónde quedáis."
    },
    "points": [
     {
      "label": {
       "tr": "Film / sinema",
-      "en": "Film or cinema"
+      "en": "Film or cinema",
+      "es": "Película o cine"
      },
      "say": "Möchtest du den neuen Film sehen?",
      "keys": [
@@ -618,7 +654,8 @@
     {
      "label": {
       "tr": "Ne zaman",
-      "en": "When"
+      "en": "When",
+      "es": "Cuándo"
      },
      "say": "am Sonntag um 18 Uhr",
      "keys": [
@@ -631,7 +668,8 @@
     {
      "label": {
       "tr": "Buluşma yeri",
-      "en": "Where to meet"
+      "en": "Where to meet",
+      "es": "Dónde quedar"
      },
      "say": "Wir treffen uns vor dem Kino.",
      "keys": [
@@ -653,18 +691,21 @@
    "kind": "message",
    "title": {
     "tr": "Kart: Hediye için teşekkür",
-    "en": "Card: thanks for a present"
+    "en": "Card: thanks for a present",
+    "es": "Tarjeta: gracias por un regalo"
    },
    "prompt": "Ihre Tante hat Ihnen ein Geschenk geschickt. Schreiben Sie ihr eine kurze Karte.",
    "help": {
     "tr": "Teşekkür et, hediyenin neden hoşuna gittiğini yaz, onu yemeğe davet et.",
-    "en": "Thank her, say why you like the present, invite her for a meal."
+    "en": "Thank her, say why you like the present, invite her for a meal.",
+    "es": "Dale las gracias, di por qué te gusta el regalo e invítala a comer."
    },
    "points": [
     {
      "label": {
       "tr": "Teşekkür",
-      "en": "Thank you"
+      "en": "Thank you",
+      "es": "Agradecimiento"
      },
      "say": "Vielen Dank für das Geschenk!",
      "keys": [
@@ -675,7 +716,8 @@
     {
      "label": {
       "tr": "Neden beğendin",
-      "en": "Why you like it"
+      "en": "Why you like it",
+      "es": "Por qué te gusta"
      },
      "say": "Der Schal ist sehr schön und warm.",
      "keys": [
@@ -690,7 +732,8 @@
     {
      "label": {
       "tr": "Davet",
-      "en": "Invitation"
+      "en": "Invitation",
+      "es": "Invitación"
      },
      "say": "Kommst du am Sonntag zum Essen?",
      "keys": [
@@ -711,18 +754,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Otelden bilgi iste",
-    "en": "E-mail: ask a hotel"
+    "en": "E-mail: ask a hotel",
+    "es": "Correo: consulta a un hotel"
    },
    "prompt": "Sie möchten im Juli drei Nächte in Hamburg bleiben. Schreiben Sie dem Hotel Hafenblick eine E-Mail.",
    "help": {
     "tr": "Boş oda olup olmadığını, fiyatı ve kahvaltıyı sor.",
-    "en": "Ask if there is a free room, the price and about breakfast."
+    "en": "Ask if there is a free room, the price and about breakfast.",
+    "es": "Pregunta si hay una habitación libre, cuál es el precio y si hay desayuno."
    },
    "points": [
     {
      "label": {
       "tr": "Boş oda",
-      "en": "Free room"
+      "en": "Free room",
+      "es": "Habitación libre"
      },
      "say": "Haben Sie vom 3. bis 6. Juli ein Zimmer frei?",
      "keys": [
@@ -733,7 +779,8 @@
     {
      "label": {
       "tr": "Fiyat",
-      "en": "Price"
+      "en": "Price",
+      "es": "Precio"
      },
      "say": "Was kostet das Zimmer pro Nacht?",
      "keys": [
@@ -745,7 +792,8 @@
     {
      "label": {
       "tr": "Kahvaltı",
-      "en": "Breakfast"
+      "en": "Breakfast",
+      "es": "El desayuno"
      },
      "say": "Ist das Frühstück inklusive?",
      "keys": [
@@ -763,18 +811,21 @@
    "kind": "message",
    "title": {
     "tr": "Mesaj: Akşam yemeğine geç kalıyorum",
-    "en": "Message: I'm late for dinner"
+    "en": "Message: I'm late for dinner",
+    "es": "Mensaje: llegaré tarde a cenar"
    },
    "prompt": "Sie sind heute Abend bei Ihrer Freundin Julia zum Essen eingeladen, aber Sie kommen später. Schreiben Sie Julia eine Nachricht.",
    "help": {
     "tr": "Neden geç kaldığını, ne zaman geleceğini yaz ve bir şey getirip getirmeyeceğini sor.",
-    "en": "Say why you are late and when you will come, and ask if you should bring something."
+    "en": "Say why you are late and when you will come, and ask if you should bring something.",
+    "es": "Di por qué llegarás tarde y cuándo vendrás, y pregunta si debes traer algo."
    },
    "points": [
     {
      "label": {
       "tr": "Neden geç",
-      "en": "Why late"
+      "en": "Why late",
+      "es": "Por qué llegas tarde"
      },
      "say": "Ich komme später, weil ich länger arbeiten muss.",
      "keys": [
@@ -787,7 +838,8 @@
     {
      "label": {
       "tr": "Ne zaman",
-      "en": "When"
+      "en": "When",
+      "es": "Cuándo"
      },
      "say": "Ich bin um halb acht bei dir.",
      "keys": [
@@ -800,7 +852,8 @@
     {
      "label": {
       "tr": "Bir şey getireyim mi",
-      "en": "Shall I bring something"
+      "en": "Shall I bring something",
+      "es": "¿Llevo algo?"
      },
      "say": "Soll ich etwas mitbringen?",
      "keys": [
@@ -820,18 +873,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Komşulara parti haberi",
-    "en": "E-mail: telling the neighbours about a party"
+    "en": "E-mail: telling the neighbours about a party",
+    "es": "Correo: avisar a los vecinos de una fiesta"
    },
    "prompt": "Sie machen am Samstag eine Party in Ihrer Wohnung. Schreiben Sie Ihrer Nachbarin, Frau Klein, eine E-Mail.",
    "help": {
     "tr": "Partiyi haber ver, gürültü için özür dile ve onu da davet et.",
-    "en": "Tell her about the party, apologise for the noise and invite her too."
+    "en": "Tell her about the party, apologise for the noise and invite her too.",
+    "es": "Cuéntale sobre la fiesta, discúlpate por el ruido e invítala también."
    },
    "points": [
     {
      "label": {
       "tr": "Parti",
-      "en": "The party"
+      "en": "The party",
+      "es": "La fiesta"
      },
      "say": "Am Samstag mache ich eine Party.",
      "keys": [
@@ -844,7 +900,8 @@
     {
      "label": {
       "tr": "Özür",
-      "en": "Apology"
+      "en": "Apology",
+      "es": "Disculpa"
      },
      "say": "Es tut mir leid, wenn es laut wird.",
      "keys": [
@@ -857,7 +914,8 @@
     {
      "label": {
       "tr": "Davet",
-      "en": "Invitation"
+      "en": "Invitation",
+      "es": "Invitación"
      },
      "say": "Möchten Sie auch kommen?",
      "keys": [
@@ -879,18 +937,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Yanlış ürün geldi",
-    "en": "E-mail: the wrong product arrived"
+    "en": "E-mail: the wrong product arrived",
+    "es": "Correo: llegó el producto equivocado"
    },
    "prompt": "Sie haben im Online-Shop „Modehaus Berg“ eine blaue Jacke bestellt, aber eine rote bekommen. Schreiben Sie dem Kundenservice eine E-Mail.",
    "help": {
     "tr": "Ne sipariş ettiğini, ne geldiğini yaz ve ne istediğini söyle (değişim ya da para iadesi).",
-    "en": "Say what you ordered and what arrived, and what you want (an exchange or your money back)."
+    "en": "Say what you ordered and what arrived, and what you want (an exchange or your money back).",
+    "es": "Di qué pediste, qué llegó y qué quieres (un cambio o que te devuelvan el dinero)."
    },
    "points": [
     {
      "label": {
       "tr": "Sipariş",
-      "en": "Your order"
+      "en": "Your order",
+      "es": "Tu pedido"
      },
      "say": "Ich habe eine blaue Jacke bestellt.",
      "keys": [
@@ -901,7 +962,8 @@
     {
      "label": {
       "tr": "Sorun",
-      "en": "The problem"
+      "en": "The problem",
+      "es": "El problema"
      },
      "say": "Ich habe aber eine rote Jacke bekommen.",
      "keys": [
@@ -914,7 +976,8 @@
     {
      "label": {
       "tr": "İsteğin",
-      "en": "What you want"
+      "en": "What you want",
+      "es": "Qué quieres"
      },
      "say": "Ich möchte die Jacke umtauschen.",
      "keys": [
@@ -935,18 +998,21 @@
    "kind": "message",
    "title": {
     "tr": "Mesaj: Tren rötar yaptı",
-    "en": "Message: the train is late"
+    "en": "Message: the train is late",
+    "es": "Mensaje: el tren llega tarde"
    },
    "prompt": "Sie sind mit Ihrem Kollegen Jonas zu einem Termin verabredet. Ihr Zug hat Verspätung. Schreiben Sie Jonas eine Nachricht.",
    "help": {
     "tr": "Ne olduğunu, ne zaman varacağını yaz ve ondan bir rica et.",
-    "en": "Say what happened and when you will arrive, and ask him for a favour."
+    "en": "Say what happened and when you will arrive, and ask him for a favour.",
+    "es": "Di qué pasó y cuándo llegarás, y pídele un favor."
    },
    "points": [
     {
      "label": {
       "tr": "Ne oldu",
-      "en": "What happened"
+      "en": "What happened",
+      "es": "Qué pasó"
      },
      "say": "Mein Zug hat Verspätung.",
      "keys": [
@@ -960,7 +1026,8 @@
     {
      "label": {
       "tr": "Ne zaman varıyorsun",
-      "en": "When you arrive"
+      "en": "When you arrive",
+      "es": "Cuándo llegas"
      },
      "say": "Ich bin gegen zehn Uhr da.",
      "keys": [
@@ -972,7 +1039,8 @@
     {
      "label": {
       "tr": "Rica",
-      "en": "A favour"
+      "en": "A favour",
+      "es": "Un favor"
      },
      "say": "Kannst du bitte schon anfangen?",
      "keys": [
@@ -992,18 +1060,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Hastayım, işe gelemiyorum",
-    "en": "E-mail: I'm ill and can't come to work"
+    "en": "E-mail: I'm ill and can't come to work",
+    "es": "Correo: estoy enfermo y no puedo ir al trabajo"
    },
    "prompt": "Sie sind krank und können nicht zur Arbeit gehen. Schreiben Sie Ihrem Chef, Herrn Hoffmann, eine E-Mail.",
    "help": {
     "tr": "Neyin olduğunu, doktorun ne dediğini ve ne zaman döneceğini yaz.",
-    "en": "Say what is wrong, what the doctor said and when you will be back."
+    "en": "Say what is wrong, what the doctor said and when you will be back.",
+    "es": "Di qué te pasa, qué dijo el médico y cuándo volverás."
    },
    "points": [
     {
      "label": {
       "tr": "Neyin var",
-      "en": "What's wrong"
+      "en": "What's wrong",
+      "es": "Qué te pasa"
      },
      "say": "Ich habe Fieber und Halsschmerzen.",
      "keys": [
@@ -1017,7 +1088,8 @@
     {
      "label": {
       "tr": "Doktor",
-      "en": "The doctor"
+      "en": "The doctor",
+      "es": "El médico"
      },
      "say": "Der Arzt hat gesagt, dass ich zu Hause bleiben muss.",
      "keys": [
@@ -1030,7 +1102,8 @@
     {
      "label": {
       "tr": "Dönüş",
-      "en": "When you are back"
+      "en": "When you are back",
+      "es": "Cuándo vuelves"
      },
      "say": "Ich komme am Montag wieder.",
      "keys": [
@@ -1054,18 +1127,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Staj hakkında bilgi",
-    "en": "E-mail: asking about an internship"
+    "en": "E-mail: asking about an internship",
+    "es": "Correo: consulta sobre unas prácticas"
    },
    "prompt": "Sie haben eine Anzeige für ein Praktikum in einem Hotel gelesen. Schreiben Sie Frau Schulz von der Firma eine E-Mail.",
    "help": {
     "tr": "Kendini kısaca tanıt, çalışma saatlerini sor ve neden ilgilendiğini yaz.",
-    "en": "Introduce yourself briefly, ask about the working hours and say why you are interested."
+    "en": "Introduce yourself briefly, ask about the working hours and say why you are interested.",
+    "es": "Preséntate brevemente, pregunta por el horario y explica por qué te interesa."
    },
    "points": [
     {
      "label": {
       "tr": "Tanıtım",
-      "en": "About you"
+      "en": "About you",
+      "es": "Sobre ti"
      },
      "say": "Ich bin 22 Jahre alt und lerne Deutsch.",
      "keys": [
@@ -1078,7 +1154,8 @@
     {
      "label": {
       "tr": "Saatler",
-      "en": "Working hours"
+      "en": "Working hours",
+      "es": "Horario laboral"
      },
      "say": "Wie sind die Arbeitszeiten?",
      "keys": [
@@ -1090,7 +1167,8 @@
     {
      "label": {
       "tr": "Neden",
-      "en": "Why"
+      "en": "Why",
+      "es": "Por qué"
      },
      "say": "Ich interessiere mich für das Praktikum, weil ich gern mit Menschen arbeite.",
      "keys": [
@@ -1110,18 +1188,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Hafta sonu konserdeydim",
-    "en": "E-mail: I was at a concert at the weekend"
+    "en": "E-mail: I was at a concert at the weekend",
+    "es": "Correo: estuve en un concierto el fin de semana"
    },
    "prompt": "Sie waren am Wochenende auf einem Konzert. Schreiben Sie Ihrem Freund Max eine E-Mail.",
    "help": {
     "tr": "Nerede olduğunu, nasıl geçtiğini anlat ve onu bir sonraki konsere davet et.",
-    "en": "Say where you were and how it was, and invite him to the next concert."
+    "en": "Say where you were and how it was, and invite him to the next concert.",
+    "es": "Di dónde estuviste y cómo fue, e invítalo al próximo concierto."
    },
    "points": [
     {
      "label": {
       "tr": "Nerede",
-      "en": "Where"
+      "en": "Where",
+      "es": "Dónde"
      },
      "say": "Am Samstag war ich auf einem Konzert im Park.",
      "keys": [
@@ -1134,7 +1215,8 @@
     {
      "label": {
       "tr": "Nasıl geçti",
-      "en": "How it was"
+      "en": "How it was",
+      "es": "Cómo fue"
      },
      "say": "Die Musik war super und es hat viel Spaß gemacht.",
      "keys": [
@@ -1148,7 +1230,8 @@
     {
      "label": {
       "tr": "Davet",
-      "en": "Invitation"
+      "en": "Invitation",
+      "es": "Invitación"
      },
      "say": "Hast du Lust, nächsten Monat mitzukommen?",
      "keys": [
@@ -1169,18 +1252,21 @@
    "kind": "message",
    "title": {
     "tr": "Mesaj: Telefonum bozuldu",
-    "en": "Message: my phone is broken"
+    "en": "Message: my phone is broken",
+    "es": "Mensaje: se me ha estropeado el móvil"
    },
    "prompt": "Ihr Handy ist kaputt und Sie haben jetzt eine neue Nummer. Schreiben Sie Ihrer Freundin Mia eine Nachricht.",
    "help": {
     "tr": "Ne olduğunu yaz, yeni numaranı ver ve fotoğrafları tekrar göndermesini rica et.",
-    "en": "Say what happened, give your new number and ask her to send the photos again."
+    "en": "Say what happened, give your new number and ask her to send the photos again.",
+    "es": "Explica qué pasó, da tu nuevo número y pídele que vuelva a enviar las fotos."
    },
    "points": [
     {
      "label": {
       "tr": "Ne oldu",
-      "en": "What happened"
+      "en": "What happened",
+      "es": "Qué pasó"
      },
      "say": "Mein Handy ist kaputt.",
      "keys": [
@@ -1193,7 +1279,8 @@
     {
      "label": {
       "tr": "Yeni numara",
-      "en": "New number"
+      "en": "New number",
+      "es": "Nuevo número"
      },
      "say": "Meine neue Nummer ist 0176 …",
      "keys": [
@@ -1203,7 +1290,8 @@
     {
      "label": {
       "tr": "Fotoğraflar",
-      "en": "The photos"
+      "en": "The photos",
+      "es": "Las fotos"
      },
      "say": "Kannst du mir die Fotos noch einmal schicken?",
      "keys": [
@@ -1223,18 +1311,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Dil kursu hakkında soru",
-    "en": "E-mail: asking about a language course"
+    "en": "E-mail: asking about a language course",
+    "es": "Correo: consulta sobre un curso de idiomas"
    },
    "prompt": "Sie möchten einen B1-Kurs an der Sprachschule „Lingua“ machen. Schreiben Sie der Sprachschule eine E-Mail.",
    "help": {
     "tr": "Hangi kursu istediğini yaz, saatleri ve fiyatı sor.",
-    "en": "Say which course you want and ask about the times and the price."
+    "en": "Say which course you want and ask about the times and the price.",
+    "es": "Di qué curso quieres y pregunta por los horarios y el precio."
    },
    "points": [
     {
      "label": {
       "tr": "Hangi kurs",
-      "en": "Which course"
+      "en": "Which course",
+      "es": "Qué curso"
      },
      "say": "Ich möchte gern einen B1-Kurs machen.",
      "keys": [
@@ -1245,7 +1336,8 @@
     {
      "label": {
       "tr": "Saatler",
-      "en": "Times"
+      "en": "Times",
+      "es": "Horarios"
      },
      "say": "Wann findet der Kurs statt?",
      "keys": [
@@ -1260,7 +1352,8 @@
     {
      "label": {
       "tr": "Fiyat",
-      "en": "Price"
+      "en": "Price",
+      "es": "Precio"
      },
      "say": "Was kostet der Kurs?",
      "keys": [
@@ -1281,18 +1374,21 @@
    "kind": "message",
    "title": {
     "tr": "Mesaj: Parkı birlikte temizleyelim",
-    "en": "Message: let's clean the park together"
+    "en": "Message: let's clean the park together",
+    "es": "Mensaje: limpiemos juntos el parque"
    },
    "prompt": "In Ihrem Viertel gibt es am Samstag einen Aufräumtag im Park. Schreiben Sie Ihrem Freund Paul eine Nachricht.",
    "help": {
     "tr": "Ne olduğunu, ne zaman başladığını yaz ve ne getirmesi gerektiğini söyle.",
-    "en": "Say what it is and when it starts, and what he should bring."
+    "en": "Say what it is and when it starts, and what he should bring.",
+    "es": "Di de qué se trata, cuándo empieza y qué debería traer."
    },
    "points": [
     {
      "label": {
       "tr": "Ne",
-      "en": "What"
+      "en": "What",
+      "es": "Qué"
      },
      "say": "Am Samstag räumen wir den Park auf.",
      "keys": [
@@ -1305,7 +1401,8 @@
     {
      "label": {
       "tr": "Ne zaman",
-      "en": "When"
+      "en": "When",
+      "es": "Cuándo"
      },
      "say": "Wir treffen uns um zehn Uhr am Eingang.",
      "keys": [
@@ -1317,7 +1414,8 @@
     {
      "label": {
       "tr": "Ne getirsin",
-      "en": "What to bring"
+      "en": "What to bring",
+      "es": "Qué traer"
      },
      "say": "Bring bitte Handschuhe mit.",
      "keys": [
@@ -1338,18 +1436,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Yeni evime taşındım",
-    "en": "E-mail: I have moved"
+    "en": "E-mail: I have moved",
+    "es": "Correo: me he mudado"
    },
    "prompt": "Sie sind vor kurzem umgezogen. Schreiben Sie Ihrer Freundin Hanna eine E-Mail.",
    "help": {
     "tr": "Yeni evini anlat, taşınmanın nasıl geçtiğini yaz ve onu ziyarete davet et; bir tarih öner.",
-    "en": "Describe your new home, say how the move went and invite her to visit; suggest a date."
+    "en": "Describe your new home, say how the move went and invite her to visit; suggest a date.",
+    "es": "Describe tu nueva casa, cuenta cómo fue la mudanza e invítala a visitarte; sugiere una fecha."
    },
    "points": [
     {
      "label": {
       "tr": "Yeni ev",
-      "en": "The new home"
+      "en": "The new home",
+      "es": "La nueva casa"
      },
      "say": "Die Wohnung, die ich gefunden habe, ist hell und hat einen Balkon.",
      "keys": [
@@ -1362,7 +1463,8 @@
     {
      "label": {
       "tr": "Taşınma",
-      "en": "The move"
+      "en": "The move",
+      "es": "La mudanza"
      },
      "say": "Der Umzug war anstrengend, aber meine Freunde haben mir geholfen.",
      "keys": [
@@ -1375,7 +1477,8 @@
     {
      "label": {
       "tr": "Davet ve tarih",
-      "en": "Invitation and date"
+      "en": "Invitation and date",
+      "es": "Invitación y fecha"
      },
      "say": "Hättest du am Samstag, dem 12., Zeit?",
      "keys": [
@@ -1398,18 +1501,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Tatilden selamlar",
-    "en": "E-mail: greetings from my holiday"
+    "en": "E-mail: greetings from my holiday",
+    "es": "Correo: saludos desde mis vacaciones"
    },
    "prompt": "Sie haben eine Reise gemacht, aber nicht alles hat geklappt. Schreiben Sie Ihrem Freund Lukas eine E-Mail.",
    "help": {
     "tr": "Nereye gittiğini, neyin iyi neyin kötü gittiğini yaz ve bir sonraki yolculuk için öneride bulun.",
-    "en": "Say where you went, what went well and what went wrong, and suggest the next trip together."
+    "en": "Say where you went, what went well and what went wrong, and suggest the next trip together.",
+    "es": "Di adónde fuiste, qué salió bien y qué salió mal, y propón hacer juntos el próximo viaje."
    },
    "points": [
     {
      "label": {
       "tr": "Nereye",
-      "en": "Where"
+      "en": "Where",
+      "es": "Dónde"
      },
      "say": "Letzte Woche war ich in Wien.",
      "keys": [
@@ -1423,7 +1529,8 @@
     {
      "label": {
       "tr": "İyi ve kötü",
-      "en": "Good and bad"
+      "en": "Good and bad",
+      "es": "Lo bueno y lo malo"
      },
      "say": "Obwohl der Zug Verspätung hatte, war die Stadt wunderschön.",
      "keys": [
@@ -1437,7 +1544,8 @@
     {
      "label": {
       "tr": "Öneri",
-      "en": "Suggestion"
+      "en": "Suggestion",
+      "es": "Propuesta"
      },
      "say": "Nächstes Mal könnten wir zusammen fahren.",
      "keys": [
@@ -1458,18 +1566,21 @@
    "kind": "message",
    "title": {
     "tr": "Forum: Evden çalışmak",
-    "en": "Forum: working from home"
+    "en": "Forum: working from home",
+    "es": "Foro: trabajar desde casa"
    },
    "prompt": "In einem Online-Forum wird gefragt: „Ist Homeoffice besser als Arbeiten im Büro?“ Schreiben Sie Ihre Meinung.",
    "help": {
     "tr": "Görüşünü söyle, gerekçe ver ve kendi deneyiminden bir örnek ekle.",
-    "en": "Give your opinion, give reasons and add an example from your own experience."
+    "en": "Give your opinion, give reasons and add an example from your own experience.",
+    "es": "Expresa tu opinión, da razones y añade un ejemplo de tu propia experiencia."
    },
    "points": [
     {
      "label": {
       "tr": "Görüş",
-      "en": "Opinion"
+      "en": "Opinion",
+      "es": "Opinión"
      },
      "say": "Meiner Meinung nach ist eine Mischung am besten.",
      "keys": [
@@ -1483,7 +1594,8 @@
     {
      "label": {
       "tr": "Gerekçe",
-      "en": "Reasons"
+      "en": "Reasons",
+      "es": "Razones"
      },
      "say": "Einerseits spart man Zeit, andererseits fehlt der Kontakt.",
      "keys": [
@@ -1498,7 +1610,8 @@
     {
      "label": {
       "tr": "Deneyim",
-      "en": "Your experience"
+      "en": "Your experience",
+      "es": "Tu experiencia"
      },
      "say": "Ich selbst arbeite zweimal pro Woche zu Hause.",
      "keys": [
@@ -1519,18 +1632,21 @@
    "kind": "message",
    "title": {
     "tr": "Forum: Çocuklar ve akıllı telefon",
-    "en": "Forum: children and smartphones"
+    "en": "Forum: children and smartphones",
+    "es": "Foro: niños y teléfonos inteligentes"
    },
    "prompt": "In einem Online-Forum wird diskutiert: „Sollten Kinder unter zwölf Jahren ein eigenes Smartphone haben?“ Schreiben Sie Ihre Meinung.",
    "help": {
     "tr": "Görüşünü söyle, avantaj ve dezavantaj say, bir öneride bulun.",
-    "en": "Give your opinion, name advantages and disadvantages, make a suggestion."
+    "en": "Give your opinion, name advantages and disadvantages, make a suggestion.",
+    "es": "Expresa tu opinión, indica ventajas y desventajas, y haz una propuesta."
    },
    "points": [
     {
      "label": {
       "tr": "Görüş",
-      "en": "Opinion"
+      "en": "Opinion",
+      "es": "Opinión"
      },
      "say": "Ich finde, dass Kinder erst später ein Smartphone brauchen.",
      "keys": [
@@ -1543,7 +1659,8 @@
     {
      "label": {
       "tr": "Artı ve eksi",
-      "en": "Pros and cons"
+      "en": "Pros and cons",
+      "es": "Ventajas y desventajas"
      },
      "say": "Ein Vorteil ist …, ein Nachteil ist …",
      "keys": [
@@ -1557,7 +1674,8 @@
     {
      "label": {
       "tr": "Öneri",
-      "en": "Suggestion"
+      "en": "Suggestion",
+      "es": "Propuesta"
      },
      "say": "Eltern sollten klare Regeln machen.",
      "keys": [
@@ -1578,18 +1696,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Toplantıya katılamıyorum",
-    "en": "E-mail: I can't come to the meeting"
+    "en": "E-mail: I can't come to the meeting",
+    "es": "Correo: no puedo asistir a la reunión"
    },
    "prompt": "Sie können nicht zu einem wichtigen Termin mit Ihrer Kursleiterin, Frau Dr. Neumann, kommen. Schreiben Sie ihr eine E-Mail.",
    "help": {
     "tr": "Kibarca özür dile, nedenini yaz ve yeni bir tarih öner.",
-    "en": "Apologise politely, give the reason and suggest a new date."
+    "en": "Apologise politely, give the reason and suggest a new date.",
+    "es": "Discúlpate amablemente, da el motivo y propón otra fecha."
    },
    "points": [
     {
      "label": {
       "tr": "Özür",
-      "en": "Apology"
+      "en": "Apology",
+      "es": "Disculpa"
      },
      "say": "Leider kann ich am Donnerstag nicht kommen.",
      "keys": [
@@ -1602,7 +1723,8 @@
     {
      "label": {
       "tr": "Neden",
-      "en": "Reason"
+      "en": "Reason",
+      "es": "Motivo"
      },
      "say": "Ich muss an dem Tag arbeiten.",
      "keys": [
@@ -1615,7 +1737,8 @@
     {
      "label": {
       "tr": "Yeni tarih",
-      "en": "New date"
+      "en": "New date",
+      "es": "Nueva fecha"
      },
      "say": "Wäre es möglich, das Gespräch zu verschieben?",
      "keys": [
@@ -1636,18 +1759,21 @@
    "kind": "message",
    "title": {
     "tr": "E-posta: Gönüllü olmak istiyorum",
-    "en": "E-mail: I would like to volunteer"
+    "en": "E-mail: I would like to volunteer",
+    "es": "Correo: me gustaría hacer voluntariado"
    },
    "prompt": "Ein Verein sucht Freiwillige für ein Stadtfest. Schreiben Sie Herrn Becker vom Verein eine E-Mail.",
    "help": {
     "tr": "Kendini tanıt, neden katılmak istediğini yaz ve bir şey sor.",
-    "en": "Introduce yourself, say why you want to take part and ask a question."
+    "en": "Introduce yourself, say why you want to take part and ask a question.",
+    "es": "Preséntate, explica por qué quieres participar y haz una pregunta."
    },
    "points": [
     {
      "label": {
       "tr": "Tanıtım",
-      "en": "About you"
+      "en": "About you",
+      "es": "Sobre ti"
      },
      "say": "Ich heiße … und wohne seit zwei Jahren in der Stadt.",
      "keys": [
@@ -1660,7 +1786,8 @@
     {
      "label": {
       "tr": "Neden",
-      "en": "Why"
+      "en": "Why",
+      "es": "Por qué"
      },
      "say": "Ich möchte mithelfen, weil ich neue Leute kennenlernen will.",
      "keys": [
@@ -1673,7 +1800,8 @@
     {
      "label": {
       "tr": "Soru",
-      "en": "Question"
+      "en": "Question",
+      "es": "Pregunta"
      },
      "say": "Könnten Sie mir sagen, wann die Helfer da sein müssen?",
      "keys": [
@@ -1695,18 +1823,21 @@
    "kind": "message",
    "title": {
     "tr": "Forum: Şehir merkezinde araba yasağı",
-    "en": "Forum: a car ban in the city centre"
+    "en": "Forum: a car ban in the city centre",
+    "es": "Foro: prohibir los coches en el centro de la ciudad"
    },
    "prompt": "In einem Online-Forum wird diskutiert: „Sollten Autos aus den Innenstädten verbannt werden?“ Schreiben Sie einen Beitrag.",
    "help": {
     "tr": "Görüşünü gerekçelendir, avantaj ve dezavantajları tartış, başka şehirlerden örnek ver ve bir sonuç yaz.",
-    "en": "Argue your view, weigh pros and cons, give an example from other cities and write a conclusion."
+    "en": "Argue your view, weigh pros and cons, give an example from other cities and write a conclusion.",
+    "es": "Defiende tu opinión, sopesa las ventajas y desventajas, da un ejemplo de otras ciudades y escribe una conclusión."
    },
    "points": [
     {
      "label": {
       "tr": "Görüş",
-      "en": "Opinion"
+      "en": "Opinion",
+      "es": "Opinión"
      },
      "say": "Ich bin der Meinung, dass …",
      "keys": [
@@ -1720,7 +1851,8 @@
     {
      "label": {
       "tr": "Artı / eksi",
-      "en": "Pros and cons"
+      "en": "Pros and cons",
+      "es": "Ventajas y desventajas"
      },
      "say": "Einerseits …, andererseits …",
      "keys": [
@@ -1734,7 +1866,8 @@
     {
      "label": {
       "tr": "Örnek",
-      "en": "Example"
+      "en": "Example",
+      "es": "Ejemplo"
      },
      "say": "In Kopenhagen zum Beispiel …",
      "keys": [
@@ -1746,7 +1879,8 @@
     {
      "label": {
       "tr": "Sonuç",
-      "en": "Conclusion"
+      "en": "Conclusion",
+      "es": "Conclusión"
      },
      "say": "Alles in allem …",
      "keys": [
@@ -1767,18 +1901,21 @@
    "kind": "message",
    "title": {
     "tr": "Forum: Dört günlük çalışma haftası",
-    "en": "Forum: the four-day week"
+    "en": "Forum: the four-day week",
+    "es": "Foro: la semana laboral de cuatro días"
    },
    "prompt": "In einem Forum wird gefragt: „Ist die Vier-Tage-Woche ein Modell für die Zukunft?“ Schreiben Sie einen Beitrag.",
    "help": {
     "tr": "Görüşünü gerekçelendir, çalışanlar ve şirketler açısından tartış, kendi deneyimini ekle ve bir sonuç yaz.",
-    "en": "Argue your view, discuss it for employees and companies, add your experience and write a conclusion."
+    "en": "Argue your view, discuss it for employees and companies, add your experience and write a conclusion.",
+    "es": "Defiende tu opinión, habla de las consecuencias para empleados y empresas, añade tu experiencia y escribe una conclusión."
    },
    "points": [
     {
      "label": {
       "tr": "Görüş",
-      "en": "Opinion"
+      "en": "Opinion",
+      "es": "Opinión"
      },
      "say": "Meiner Meinung nach …",
      "keys": [
@@ -1792,7 +1929,8 @@
     {
      "label": {
       "tr": "Çalışanlar / şirketler",
-      "en": "Employees and companies"
+      "en": "Employees and companies",
+      "es": "Empleados y empresas"
      },
      "say": "Für Arbeitnehmer bedeutet das …, für Unternehmen …",
      "keys": [
@@ -1806,7 +1944,8 @@
     {
      "label": {
       "tr": "Deneyim",
-      "en": "Experience"
+      "en": "Experience",
+      "es": "Experiencia"
      },
      "say": "In meiner Firma haben wir …",
      "keys": [
@@ -1819,7 +1958,8 @@
     {
      "label": {
       "tr": "Sonuç",
-      "en": "Conclusion"
+      "en": "Conclusion",
+      "es": "Conclusión"
      },
      "say": "Zusammenfassend …",
      "keys": [
@@ -1840,18 +1980,21 @@
    "kind": "message",
    "title": {
     "tr": "Resmî: Fatura hatası şikâyeti",
-    "en": "Formal: complaint about a wrong bill"
+    "en": "Formal: complaint about a wrong bill",
+    "es": "Formal: reclamación por una factura incorrecta"
    },
    "prompt": "Ihr Internetanbieter hat Ihnen im letzten Monat einen zu hohen Betrag berechnet. Schreiben Sie dem Kundenservice.",
    "help": {
     "tr": "Sorunu açıkla, ne beklediğini yaz, bir süre belirt ve kibar ama kararlı ol.",
-    "en": "Explain the problem, say what you expect, set a deadline; be polite but firm."
+    "en": "Explain the problem, say what you expect, set a deadline; be polite but firm.",
+    "es": "Explica el problema, di qué esperas y fija un plazo; sé amable pero firme."
    },
    "points": [
     {
      "label": {
       "tr": "Sorun",
-      "en": "The problem"
+      "en": "The problem",
+      "es": "El problema"
      },
      "say": "Für den Monat März wurden mir 89 Euro statt 39 Euro berechnet.",
      "keys": [
@@ -1864,7 +2007,8 @@
     {
      "label": {
       "tr": "Beklenti",
-      "en": "What you expect"
+      "en": "What you expect",
+      "es": "Qué esperas"
      },
      "say": "Ich bitte Sie, mir die Differenz zu erstatten.",
      "keys": [
@@ -1877,7 +2021,8 @@
     {
      "label": {
       "tr": "Süre",
-      "en": "Deadline"
+      "en": "Deadline",
+      "es": "Plazo"
      },
      "say": "Bitte bis zum 15. April.",
      "keys": [
@@ -1897,18 +2042,21 @@
    "kind": "message",
    "title": {
     "tr": "Resmî: Eğitim talebi",
-    "en": "Formal: asking for further training"
+    "en": "Formal: asking for further training",
+    "es": "Formal: solicitud de formación continua"
    },
    "prompt": "Sie möchten an einer Weiterbildung teilnehmen. Schreiben Sie Ihrer Vorgesetzten, Frau Lorenz, eine E-Mail.",
    "help": {
     "tr": "Eğitimi tanıt, şirkete faydasını açıkla, işlerin nasıl aksamayacağını yaz ve bir görüşme iste.",
-    "en": "Describe the course, explain the benefit for the company, say how your work will be covered and ask for a meeting."
+    "en": "Describe the course, explain the benefit for the company, say how your work will be covered and ask for a meeting.",
+    "es": "Describe el curso, explica su beneficio para la empresa, di cómo se cubrirá tu trabajo y pide una reunión."
    },
    "points": [
     {
      "label": {
       "tr": "Eğitim",
-      "en": "The course"
+      "en": "The course",
+      "es": "El curso"
      },
      "say": "Ich möchte an einem Kurs zum Projektmanagement teilnehmen.",
      "keys": [
@@ -1921,7 +2069,8 @@
     {
      "label": {
       "tr": "Fayda",
-      "en": "Benefit"
+      "en": "Benefit",
+      "es": "Beneficio"
      },
      "say": "Davon würde auch unser Team profitieren.",
      "keys": [
@@ -1934,7 +2083,8 @@
     {
      "label": {
       "tr": "İşler",
-      "en": "Your work"
+      "en": "Your work",
+      "es": "Tu trabajo"
      },
      "say": "Während meiner Abwesenheit übernimmt Herr Weber meine Aufgaben.",
      "keys": [
@@ -1947,7 +2097,8 @@
     {
      "label": {
       "tr": "Görüşme",
-      "en": "Meeting"
+      "en": "Meeting",
+      "es": "Reunión"
      },
      "say": "Hätten Sie diese Woche Zeit für ein kurzes Gespräch?",
      "keys": [
