@@ -427,5 +427,15 @@
  "settings.notifyStreak": "Recordatorio de racha por la tarde",
  "reading.holdHint": "Mantén pulsado para ver significado y pronunciación",
  "reading.holdAction": "Mostrar significado",
- "reading.notInDictionary": "Aún no está en la lista"
+ "reading.notInDictionary": "Aún no está en la lista",
+ "levels.mine": "MI NIVEL",
+ "reading.levelProgress": "Textos de {0}",
+ "reading.levelProgressNote": "Un texto está hecho cuando su quiz está todo correcto.",
+ "reading.allTexts": "Todos los textos {0}",
+ "reading.statusDoneShort": "Hecho",
+ "reading.statusTriedShort": "Quiz {0} %",
+ "reading.statusOpenedShort": "Abierto",
+ "reading.statusNew": "Nuevo",
+ "reading.filterOpen": "Pendientes",
+ "reading.filterDone": "Hechos"
 }

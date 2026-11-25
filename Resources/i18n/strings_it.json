@@ -427,5 +427,15 @@
  "settings.notifyStreak": "Promemoria serale per la serie",
  "reading.holdHint": "Tieni premuto per significato e pronuncia",
  "reading.holdAction": "Mostra significato",
- "reading.notInDictionary": "Non ancora nella lista"
+ "reading.notInDictionary": "Non ancora nella lista",
+ "levels.mine": "IL MIO LIVELLO",
+ "reading.levelProgress": "Testi {0}",
+ "reading.levelProgressNote": "Un testo è fatto quando il suo quiz è tutto giusto.",
+ "reading.allTexts": "Tutti i testi {0}",
+ "reading.statusDoneShort": "Fatto",
+ "reading.statusTriedShort": "Quiz {0}%",
+ "reading.statusOpenedShort": "Aperto",
+ "reading.statusNew": "Nuovo",
+ "reading.filterOpen": "Da fare",
+ "reading.filterDone": "Fatti"
 }

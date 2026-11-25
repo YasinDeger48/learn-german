@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Levels A1–B2 as a native grouped list. A1 opens the practice area; the others show their status.
+/// Levels A1–B2 as cards: colour band, readiness ring, what the level covers, and "your level".
 struct LevelsView: View {
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var daily: DailyModel
@@ -9,53 +9,83 @@ struct LevelsView: View {
         let code: String
         let nameKey: String
         let topicsKey: String
-        let color: Color
+        let colors: [Color]
     }
 
     private let rows = [
-        Level(code: "A1", nameKey: "level.a1.name", topicsKey: "level.a1.topics", color: DS.das),
-        Level(code: "A2", nameKey: "level.a2.name", topicsKey: "level.a2.topics", color: DS.accent),
-        Level(code: "B1", nameKey: "level.b1.name", topicsKey: "level.b1.topics", color: .purple),
-        Level(code: "B2", nameKey: "level.b2.name", topicsKey: "level.b2.topics", color: .orange),
+        Level(code: "A1", nameKey: "level.a1.name", topicsKey: "level.a1.topics",
+              colors: [Color(red: 0.37, green: 0.82, blue: 0.54), Color(red: 0.08, green: 0.48, blue: 0.25)]),
+        Level(code: "A2", nameKey: "level.a2.name", topicsKey: "level.a2.topics",
+              colors: [Color(red: 0.43, green: 0.55, blue: 1), Color(red: 0.18, green: 0.36, blue: 0.92)]),
+        Level(code: "B1", nameKey: "level.b1.name", topicsKey: "level.b1.topics",
+              colors: [Color(red: 0.72, green: 0.61, blue: 1), Color(red: 0.36, green: 0.25, blue: 0.84)]),
+        Level(code: "B2", nameKey: "level.b2.name", topicsKey: "level.b2.topics",
+              colors: [Color(red: 1, green: 0.70, blue: 0.28), Color(red: 0.91, green: 0.35, blue: 0.05)]),
     ]
 
     var body: some View {
-        List {
-            Section {
+        ScrollView {
+            VStack(spacing: 12) {
                 ForEach(rows, id: \.code) { level in
-                    NavigationLink(value: AppRoute.practice(level.code)) { row(level) }
+                    NavigationLink(value: AppRoute.practice(level.code)) { card(level) }
+                        .buttonStyle(.pressable)
                 }
-            } footer: {
                 Text(t("levels.subtitle"))
+                    .font(.footnote)
+                    .foregroundColor(DS.muted)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 4)
             }
+            .padding(.horizontal, DS.gutter)
+            .padding(.bottom, 24)
         }
-        .listStyle(.insetGrouped)
+        .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("tab.levels"))
     }
 
-    private func row(_ level: Level) -> some View {
-        HStack(spacing: 14) {
+    private func card(_ level: Level) -> some View {
+        let practice = levels.hasPractice(level.code)
+        let readiness = practice ? levels.model(level.code).readiness : 0
+        let mine = daily.level == level.code
+        return HStack(spacing: 14) {
             Text(level.code)
-                .font(.headline)
+                .font(.system(size: 20, weight: .heavy))
                 .foregroundColor(.white)
-                .frame(width: 44, height: 44)
-                .background(level.color, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
-            VStack(alignment: .leading, spacing: 3) {
-                Text(t(level.nameKey)).font(.body.weight(.semibold))
-                Text(t(level.topicsKey)).font(.footnote).foregroundStyle(.secondary).lineLimit(1)
-                if levels.hasPractice(level.code) {
-                    ProgressView(value: levels.model(level.code).readiness).tint(level.color).padding(.top, 2)
+                .frame(width: 58, height: 58)
+                .background(LinearGradient(colors: level.colors, startPoint: .topLeading, endPoint: .bottomTrailing),
+                            in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            VStack(alignment: .leading, spacing: 4) {
+                HStack(spacing: 6) {
+                    Text(t(level.nameKey)).font(.system(size: 17, weight: .bold)).foregroundColor(DS.ink)
+                    if mine {
+                        Text(t("levels.mine"))
+                            .font(.system(size: 10, weight: .heavy))
+                            .foregroundColor(DS.onGold)
+                            .padding(.horizontal, 6).padding(.vertical, 2)
+                            .background(DS.gold, in: Capsule())
+                    }
                 }
+                Text(t(level.topicsKey)).font(.footnote).foregroundColor(DS.muted).lineLimit(2)
+                    .multilineTextAlignment(.leading)
             }
-            Spacer(minLength: 8)
-            if levels.hasPractice(level.code) {
-                Text("\(Int((levels.model(level.code).readiness * 100).rounded()))%").font(.subheadline.monospacedDigit()).foregroundStyle(.secondary)
-            } else if daily.isAvailable(level.code) {
-                Text(t("levels.readingOnly")).font(.caption).foregroundStyle(.secondary)
+            Spacer(minLength: 6)
+            if practice {
+                GoalRing(progress: readiness, size: 50, lineWidth: 6, color: level.colors.last ?? DS.accent) {
+                    Text("\(Int((readiness * 100).rounded()))%").font(.system(size: 12, weight: .bold)).monospacedDigit()
+                        .foregroundColor(DS.ink)
+                }
             } else {
-                Text(t("levels.soon")).font(.caption).foregroundStyle(.secondary)
+                Text(daily.isAvailable(level.code) ? t("levels.readingOnly") : t("levels.soon"))
+                    .font(.caption).foregroundColor(DS.muted)
             }
         }
-        .padding(.vertical, 4)
+        .padding(14)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+        .overlay {
+            if mine {
+                RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(DS.gold, lineWidth: 2)
+            }
+        }
+        .accessibilityElement(children: .combine)
     }
 }

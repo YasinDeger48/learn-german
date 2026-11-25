@@ -90,6 +90,12 @@ final class DailyModel: ObservableObject {
 
     var today: DailyText? { text(on: Date()) }
 
+    /// All texts of the current level: not finished first, in their order.
+    func allTexts() -> [DailyText] {
+        let list = texts[level] ?? []
+        return list.filter { !isCompleted($0) } + list.filter { isCompleted($0) }
+    }
+
     func text(id: String) -> DailyText? {
         texts.values.lazy.flatMap { $0 }.first { $0.id == id }
     }

@@ -348,86 +348,218 @@ struct DailyReadingView: View {
     }
 }
 
-/// Reading tab: today's text, earlier days and the A1 workbook texts, as a native grouped list.
+/// Reading tab: today's text as a big cover card, progress in the level, earlier days as a carousel,
+/// every text of the level, saved words and the workbook texts.
 struct ReadingHomeView: View {
     @EnvironmentObject private var daily: DailyModel
     @EnvironmentObject private var a1: A1Model
 
     var body: some View {
-        List {
-            if let today = daily.today {
-                Section(t("reading.today")) {
-                    NavigationLink(value: AppRoute.reading(today.id)) { row(today, note: nil, large: true) }
+        let all = daily.allTexts()
+        let done = all.filter { daily.isCompleted($0) }.count
+        ScrollView {
+            VStack(alignment: .leading, spacing: 18) {
+                if let today = daily.today {
+                    NavigationLink(value: AppRoute.reading(today.id)) { todayCard(today) }
+                        .buttonStyle(.pressable)
                 }
-            }
-            let archive = daily.archive()
-            if !archive.isEmpty {
-                Section(t("reading.archive")) {
-                    ForEach(Array(archive.enumerated()), id: \.offset) { _, item in
-                        NavigationLink(value: AppRoute.reading(item.text.id)) {
-                            row(item.text, note: item.date.formatted(.dateTime.day().month(.abbreviated)), large: false)
+                if !all.isEmpty {
+                    VStack(alignment: .leading, spacing: 8) {
+                        HStack {
+                            Text(t("reading.levelProgress", daily.level)).font(.headline)
+                            Spacer()
+                            Text("\(done)/\(all.count)").font(.subheadline.weight(.semibold).monospacedDigit()).foregroundColor(DS.success)
                         }
+                        ProgressView(value: Double(done), total: Double(max(1, all.count))).tint(DS.success)
+                        Text(t("reading.levelProgressNote")).font(.footnote).foregroundColor(DS.muted)
+                    }
+                    .padding(16)
+                    .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                }
+                let archive = daily.archive()
+                if !archive.isEmpty {
+                    VStack(alignment: .leading, spacing: 10) {
+                        Text(t("reading.archive")).font(.title3.weight(.bold))
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 12) {
+                                ForEach(Array(archive.enumerated()), id: \.offset) { _, item in
+                                    NavigationLink(value: AppRoute.reading(item.text.id)) {
+                                        TextTile(text: item.text, note: item.date.formatted(.dateTime.day().month(.abbreviated)))
+                                            .frame(width: 168)
+                                    }
+                                    .buttonStyle(.pressable)
+                                }
+                            }
+                            .padding(.horizontal, DS.gutter)
+                        }
+                        .padding(.horizontal, -DS.gutter)
                     }
                 }
-            }
-            Section {
-                NavigationLink(value: AppRoute.savedWords) {
-                    HStack {
-                        Label(t("saved.title"), systemImage: "bookmark.fill")
-                        Spacer()
-                        Text("\(daily.state.savedWords.count)").foregroundStyle(.secondary).monospacedDigit()
+                VStack(spacing: 0) {
+                    NavigationLink(value: AppRoute.allTexts) {
+                        menuRow("square.grid.2x2.fill", DS.accent, t("reading.allTexts", daily.level), "\(all.count)")
+                    }
+                    Divider().padding(.leading, 52)
+                    NavigationLink(value: AppRoute.savedWords) {
+                        menuRow("bookmark.fill", DS.goldDeep, t("saved.title"), "\(daily.state.savedWords.count)")
+                    }
+                    Divider().padding(.leading, 52)
+                    NavigationLink(value: A1Route.texts) {
+                        menuRow("doc.richtext.fill", .teal, t("practice.texts", a1.content?.texts.count ?? 0), nil)
                     }
                 }
+                .buttonStyle(.pressable)
+                .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
             }
-            Section(t("reading.more")) {
-                NavigationLink(value: A1Route.texts) {
-                    Label(t("practice.texts", a1.content?.texts.count ?? 0), systemImage: "doc.richtext")
-                }
-            }
+            .padding(.horizontal, DS.gutter)
+            .padding(.bottom, 24)
         }
-        .listStyle(.insetGrouped)
+        .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("reading.title"))
         .safeAreaInset(edge: .bottom) { AdBanner() }
     }
 
-    private func row(_ text: DailyText, note: String?, large: Bool) -> some View {
-        HStack(spacing: 12) {
-            if let cover = Covers.image(text.id) {
-                CoverImage(image: cover, height: large ? 64 : 48, radius: 10).frame(width: large ? 96 : 72)
-            } else {
-                Image(systemName: "book.closed")
-                    .font(.title3)
-                    .foregroundColor(.white)
-                    .frame(width: large ? 64 : 48, height: large ? 64 : 48)
-                    .background(DS.accent, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+    private func todayCard(_ text: DailyText) -> some View {
+        VStack(alignment: .leading, spacing: 0) {
+            ZStack(alignment: .topLeading) {
+                if let cover = Covers.image(text.id) {
+                    Image(uiImage: cover).resizable().scaledToFill()
+                        .frame(height: 190).frame(maxWidth: .infinity).clipped()
+                } else {
+                    LinearGradient(colors: [DS.accent, DS.night], startPoint: .topLeading, endPoint: .bottomTrailing)
+                        .frame(height: 120)
+                }
+                Text(t("reading.today").uppercased())
+                    .font(.system(size: 11, weight: .heavy))
+                    .foregroundColor(DS.onGold)
+                    .padding(.horizontal, 8).padding(.vertical, 4)
+                    .background(DS.gold, in: Capsule())
+                    .padding(12)
             }
-            VStack(alignment: .leading, spacing: 3) {
-                Text(text.title).font(large ? .headline : .body)
-                Text([note, "\(text.level) · \(text.topic) · \(text.minutes) min"].compactMap { $0 }.joined(separator: " · "))
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
-                    .lineLimit(1)
+            VStack(alignment: .leading, spacing: 6) {
+                Text("\(text.level) · \(text.topic) · \(text.minutes) min").font(.footnote).foregroundColor(DS.onNightMuted)
+                Text(text.title).font(DS.display(24)).foregroundColor(DS.onNight).lineLimit(2)
+                HStack {
+                    ReadingStatusBadge(status: daily.status(text), dark: true)
+                    Spacer()
+                    Image(systemName: "arrow.right")
+                        .font(.system(size: 15, weight: .bold))
+                        .foregroundColor(DS.onGold)
+                        .frame(width: 40, height: 40)
+                        .background(DS.gold, in: Circle())
+                }
             }
-            Spacer(minLength: 4)
-            switch daily.status(text) {
-            case .done:
-                Image(systemName: "checkmark.circle.fill")
-                    .foregroundColor(DS.success)
-                    .accessibilityLabel(t("reading.statusDone"))
-            case .tried(let score):
-                Text("\(score)%")
-                    .font(.subheadline.weight(.semibold).monospacedDigit())
-                    .foregroundColor(DS.goldDeep)
-                    .accessibilityLabel(t("reading.statusTried", score))
-            case .opened:
-                Image(systemName: "circle.dashed")
-                    .foregroundColor(.secondary)
-                    .accessibilityLabel(t("reading.statusOpened"))
-            case .new:
-                EmptyView()
-            }
+            .padding(16)
         }
-        .padding(.vertical, large ? 4 : 0)
+        .background(DS.night)
+        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+    }
+
+    private func menuRow(_ icon: String, _ color: Color, _ title: String, _ value: String?) -> some View {
+        HStack(spacing: 12) {
+            Image(systemName: icon).font(.system(size: 17, weight: .semibold)).foregroundColor(color).frame(width: 26)
+            Text(title).foregroundColor(DS.ink)
+            Spacer(minLength: 6)
+            if let value { Text(value).font(.subheadline.monospacedDigit()).foregroundColor(DS.muted) }
+            Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(.tertiary)
+        }
+        .padding(.horizontal, 14)
+        .frame(minHeight: 50)
+        .contentShape(Rectangle())
+    }
+}
+
+/// Status of a daily text as a small label: done, quiz score, opened or new.
+struct ReadingStatusBadge: View {
+    let status: ReadingStatus
+    var dark = false
+
+    var body: some View {
+        switch status {
+        case .done:
+            Label(t("reading.statusDoneShort"), systemImage: "checkmark.circle.fill")
+                .font(.caption.weight(.semibold)).foregroundColor(DS.success)
+        case .tried(let score):
+            Label(t("reading.statusTriedShort", score), systemImage: "arrow.clockwise")
+                .font(.caption.weight(.semibold)).foregroundColor(dark ? DS.gold : DS.goldDeep)
+        case .opened:
+            Label(t("reading.statusOpenedShort"), systemImage: "circle.dashed")
+                .font(.caption).foregroundColor(dark ? DS.onNightMuted : DS.muted)
+        case .new:
+            Label(t("reading.statusNew"), systemImage: "sparkles")
+                .font(.caption.weight(.semibold)).foregroundColor(dark ? DS.onNight : DS.accent)
+        }
+    }
+}
+
+/// A text as a small card with its cover, for carousels and grids.
+struct TextTile: View {
+    @EnvironmentObject private var daily: DailyModel
+    let text: DailyText
+    var note: String?
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            Group {
+                if let cover = Covers.image(text.id) {
+                    Image(uiImage: cover).resizable().scaledToFill()
+                } else {
+                    LinearGradient(colors: [DS.accent.opacity(0.85), DS.night], startPoint: .topLeading, endPoint: .bottomTrailing)
+                        .overlay(Image(systemName: "book.closed").font(.title2).foregroundColor(.white.opacity(0.8)))
+                }
+            }
+            .frame(height: 100)
+            .frame(maxWidth: .infinity)
+            .clipped()
+            VStack(alignment: .leading, spacing: 4) {
+                Text(text.title).font(.system(size: 14, weight: .bold)).foregroundColor(DS.ink).lineLimit(2)
+                    .multilineTextAlignment(.leading)
+                    .frame(maxWidth: .infinity, minHeight: 36, alignment: .topLeading)
+                Text(note ?? text.topic).font(.caption2).foregroundColor(DS.muted).lineLimit(1)
+                ReadingStatusBadge(status: daily.status(text))
+            }
+            .padding(10)
+        }
+        .background(DS.surface)
+        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+    }
+}
+
+/// Every daily text of the learner's level, newest unread first, with a filter.
+struct AllTextsView: View {
+    @EnvironmentObject private var daily: DailyModel
+    @State private var filter = 0
+
+    var body: some View {
+        let all = daily.allTexts()
+        let shown: [DailyText] = {
+            switch filter {
+            case 1: return all.filter { !daily.isCompleted($0) }
+            case 2: return all.filter { daily.isCompleted($0) }
+            default: return all
+            }
+        }()
+        ScrollView {
+            VStack(alignment: .leading, spacing: 12) {
+                Picker("", selection: $filter) {
+                    Text(t("grammar.filterAll")).tag(0)
+                    Text(t("reading.filterOpen")).tag(1)
+                    Text(t("reading.filterDone")).tag(2)
+                }
+                .pickerStyle(.segmented)
+                LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
+                    ForEach(shown) { text in
+                        NavigationLink(value: AppRoute.reading(text.id)) { TextTile(text: text) }
+                            .buttonStyle(.pressable)
+                    }
+                }
+            }
+            .padding(.horizontal, DS.gutter)
+            .padding(.bottom, 24)
+        }
+        .background(DS.ground.ignoresSafeArea())
+        .navigationTitle(t("reading.allTexts", daily.level))
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

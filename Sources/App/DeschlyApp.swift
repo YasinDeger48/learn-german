@@ -52,6 +52,7 @@ enum AppRoute: Hashable {
     case practice(String)
     case savedWords
     case savedWordsQuiz
+    case allTexts
 }
 
 enum AppTab: Int, CaseIterable {
@@ -187,6 +188,8 @@ struct AppDestination: View {
             }
         case .savedWords:
             SavedWordsView()
+        case .allTexts:
+            AllTextsView()
         case .savedWordsQuiz:
             A1QuizView(title: t("saved.title"), free: true) { daily.savedWordsQuiz() }
         case .practice(let level):

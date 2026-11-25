@@ -427,5 +427,15 @@
  "settings.notifyStreak": "Evening reminder for my streak",
  "reading.holdHint": "Touch and hold for meaning and pronunciation",
  "reading.holdAction": "Show meaning",
- "reading.notInDictionary": "Not in the word list yet"
+ "reading.notInDictionary": "Not in the word list yet",
+ "levels.mine": "MY LEVEL",
+ "reading.levelProgress": "Texts in {0}",
+ "reading.levelProgressNote": "A text is done when its quiz is fully correct.",
+ "reading.allTexts": "All {0} texts",
+ "reading.statusDoneShort": "Done",
+ "reading.statusTriedShort": "Quiz {0}%",
+ "reading.statusOpenedShort": "Opened",
+ "reading.statusNew": "New",
+ "reading.filterOpen": "To do",
+ "reading.filterDone": "Done"
 }

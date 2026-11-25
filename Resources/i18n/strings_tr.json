@@ -427,5 +427,15 @@
  "settings.notifyStreak": "Akşam seri hatırlatması",
  "reading.holdHint": "Anlam ve okunuş için basılı tut",
  "reading.holdAction": "Anlamını göster",
- "reading.notInDictionary": "Henüz kelime listesinde yok"
+ "reading.notInDictionary": "Henüz kelime listesinde yok",
+ "levels.mine": "SEVİYEM",
+ "reading.levelProgress": "{0} metinleri",
+ "reading.levelProgressNote": "Quiz’i tam doğru yapılan metin tamamlanmış sayılır.",
+ "reading.allTexts": "Tüm {0} metinleri",
+ "reading.statusDoneShort": "Tamam",
+ "reading.statusTriedShort": "Quiz %{0}",
+ "reading.statusOpenedShort": "Açıldı",
+ "reading.statusNew": "Yeni",
+ "reading.filterOpen": "Yapılacak",
+ "reading.filterDone": "Tamamlanan"
 }
