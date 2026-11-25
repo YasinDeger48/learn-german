@@ -212,6 +212,65 @@ async def picture(request: Request, name: str = Query(...)):
         bad(e)
 
 
+# ---------------------------------------------------------------- path units and verb lab
+
+@app.get('/api/units')
+def units_full():
+    """Every unit with what its steps point at, resolved to titles (read-only view of units.json)."""
+    units = load('units.json')['units']
+    speaking = {t['id']: t for t in load('speaking.json')['tasks']}
+    writing = {t['id']: t for t in load('writing.json')['tasks']}
+    texts = {t['id']: t for items in classic.load_texts().values() for t in items}
+    by_level = {}
+    out = []
+    for u in units:
+        lv = u['level'].lower()
+        if lv not in by_level:
+            data = load(f'{lv}.json')
+            by_level[lv] = {'grammar': {g['id']: g for g in data['grammar']},
+                            'themes': {t['id']: t for t in data.get('themes', [])},
+                            'words': {w['id']: w for w in data['words']}}
+        ref = by_level[lv]
+        words = []
+        if u.get('vocab'):
+            words = [{'de': w['de'], 'article': w.get('art'), 'meaning': w['tr'], 'picture': None} for w in u['vocab']]
+        else:
+            for wid in u.get('pictures') or []:
+                w = ref['words'].get(wid)
+                if not w:
+                    continue
+                article = w['type'] if w['type'] in ('der', 'die', 'das') else None
+                file = f'wp-{lv}-{wid}'
+                words.append({'de': w['de'], 'article': article, 'meaning': w['mean'].get('tr', ''),
+                              'picture': file if os.path.exists(os.path.join(COVERS, file + '.jpg')) else None})
+        out.append({
+            'id': u['id'], 'level': u['level'], 'number': u['number'], 'title': u['title'], 'goal': u['goal'],
+            'cover': u['cover'], 'hasCover': os.path.exists(os.path.join(COVERS, u['cover'] + '.jpg')),
+            'themes': [ref['themes'][t]['name']['tr'] for t in u['themes'] if t in ref['themes']],
+            'grammar': [{'id': g, 'de': ref['grammar'][g]['de'], 'name': ref['grammar'][g]['name'].get('tr', '')}
+                        for g in u['grammar'] if g in ref['grammar']],
+            'texts': [{'id': t, 'title': texts[t]['title'] if t in texts else t, 'cover': classic.has_cover(t)} for t in u['texts']],
+            'speaking': [{'id': t, 'title': speaking[t]['title']['tr'] if t in speaking else t} for t in u['speaking']],
+            'writing': [{'id': t, 'title': writing[t]['title']['tr'] if t in writing else t} for t in u['writing']],
+            'phrases': u['phrases'],
+            'words': words,
+        })
+    return out
+
+
+@app.get('/api/verbs/{level}')
+def verbs(level: str):
+    lv = level.lower()
+    if lv not in ('a1', 'a2', 'b1', 'b2'):
+        raise HTTPException(404, 'unknown level')
+    ready = {v['v'].lower(): v for v in verblab.load(lv)}
+    out = []
+    for w in verblab.verbs_by_level()[lv]:
+        entry = ready.get(w['de'].lower())
+        out.append({'v': w['de'], 'meaning': (w.get('mean') or {}).get('tr', ''), 'entry': entry})
+    return {'level': level.upper(), 'ready': len(ready), 'verbs': out}
+
+
 # ---------------------------------------------------------------- media
 
 @app.get('/api/media/covers')

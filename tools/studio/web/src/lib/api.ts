@@ -104,6 +104,47 @@ export type AudioInfo = {
   ambience: { kind: string; name: string; by: string; license: string; source: string }[]
 }
 
+export type Loc = { tr: string; en: string }
+
+export type UnitFull = {
+  id: string
+  level: string
+  number: number
+  title: Loc
+  goal: Loc
+  cover: string
+  hasCover: boolean
+  themes: string[]
+  grammar: { id: number; de: string; name: string }[]
+  texts: { id: string; title: string; cover: boolean }[]
+  speaking: { id: string; title: string }[]
+  writing: { id: string; title: string }[]
+  phrases: { de: string; tr: string; en: string }[]
+  words: { de: string; article: string | null; meaning: string; picture: string | null }[]
+}
+
+export type Sentence = { de: string; tr: string; en: string; t?: string; note?: string }
+
+export type VerbEntry = {
+  v: string
+  tr: string
+  en: string
+  praesens: string[]
+  praeteritum: string[]
+  perfekt: string
+  futur: string
+  imperativ: string[]
+  trennbar: boolean
+  reflexiv: boolean
+  rektion?: string
+  examples: Sentence[]
+  questions: Sentence[]
+  common: Sentence[]
+  complex: Sentence[]
+}
+
+export type VerbList = { level: string; ready: number; verbs: { v: string; meaning: string; entry: VerbEntry | null }[] }
+
 async function call<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(path, init)
   const body = await response.json().catch(() => ({}))
@@ -141,6 +182,10 @@ export const api = {
   removeCover: (id: string) => call<{ ok: boolean }>(`/api/cover/${id}`, { method: 'DELETE' }),
   coverPrompts: (level: string) => call<{ count: number; text: string }>(`/api/prompts/${level}`),
   saveTexts: () => call<{ ok: boolean; message: string }>('/api/commit', { method: 'POST' }),
+
+  // Path units and verb lab
+  units: () => call<UnitFull[]>('/api/units'),
+  verbs: (level: string) => call<VerbList>(`/api/verbs/${level}`),
 
   // Media
   covers: () => call<CoverRow[]>('/api/media/covers'),
