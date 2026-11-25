@@ -20,6 +20,16 @@ enum ReadingVoice: String, CaseIterable, Identifiable {
     }
 
     static let storageKey = "readingVoice"
+
+    /// What the learner can choose (Settings, reading screen). The device voice is never offered:
+    /// it only reads when there is no recording or no internet.
+    static let choices: [ReadingVoice] = [.female, .male]
+
+    /// The chosen voice; an old "device" choice counts as Anna.
+    static func from(_ raw: String) -> ReadingVoice {
+        let voice = ReadingVoice(rawValue: raw) ?? .female
+        return voice == .device ? .female : voice
+    }
 }
 
 /// Plays a text's recorded voice. The MP3 is downloaded the first time and kept in Caches, so it then works
@@ -251,12 +261,73 @@ final class WordAudio {
         }.resume()
     }
 
-    /// Plays the recording of `text` if there is one (and the learner did not choose the iPhone voice).
+    /// Key of a spoken line in words.json: the woman's / default voice uses the plain key,
+    /// the man's lines "1|…" and the announcer's "2|…" (tools/word_audio.py).
+    static func lineKey(_ line: A1Line) -> String {
+        line.s == 1 || line.s == 2 ? "\(line.s)|\(key(line.t))" : key(line.t)
+    }
+
+    private static func local(_ hash: String) -> URL { folder.appendingPathComponent("w-\(hash).mp3") }
+
+    /// Bumped by every start and stop, so an older line sequence stops going on.
+    private var sequence = 0
+
+    /// Plays recorded lines one after the other (0.5 s between lines, 2 s between rounds, like the iPhone voice did).
+    /// Returns false when one of the lines has no recording; `fallback` runs when a download fails.
+    func play(lines: [A1Line], slow: Bool, times: Int, fallback: @escaping () -> Void) -> Bool {
+        load()
+        let hashes = lines.compactMap { items[Self.lineKey($0)] }
+        guard !lines.isEmpty, hashes.count == lines.count else { return false }
+        stop()
+        let token = sequence
+        let group = DispatchGroup()
+        var failed = false
+        for hash in Set(hashes) where !FileManager.default.fileExists(atPath: Self.local(hash).path) {
+            group.enter()
+            let local = Self.local(hash)
+            URLSession.shared.dataTask(with: TextAudioPlayer.base.appendingPathComponent("w/\(hash).mp3")) { data, response, _ in
+                let saved = data.map { $0.count > 500 } == true && (response as? HTTPURLResponse)?.statusCode == 200
+                    && (try? data?.write(to: local, options: .atomic)) != nil
+                DispatchQueue.main.async {
+                    if !saved { failed = true }
+                    group.leave()
+                }
+            }.resume()
+        }
+        group.notify(queue: .main) { [weak self] in
+            guard let self, self.sequence == token else { return }
+            if failed {
+                fallback()
+                return
+            }
+            var queue: [(url: URL, gap: Double)] = []
+            let rounds = max(1, times)
+            for round in 0..<rounds {
+                for (index, hash) in hashes.enumerated() {
+                    let last = index == hashes.count - 1
+                    let gap: Double = last ? (round < rounds - 1 ? 2.0 : 0) : 0.5
+                    queue.append((url: Self.local(hash), gap: gap))
+                }
+            }
+            self.playNext(queue, slow: slow, token: token)
+        }
+        return true
+    }
+
+    private func playNext(_ queue: [(url: URL, gap: Double)], slow: Bool, token: Int) {
+        guard sequence == token, let first = queue.first else { return }
+        start(first.url, slow: slow)
+        let length = (player?.duration ?? 0) / (slow ? 0.7 : 1)
+        DispatchQueue.main.asyncAfter(deadline: .now() + length + first.gap) { [weak self] in
+            self?.playNext(Array(queue.dropFirst()), slow: slow, token: token)
+        }
+    }
+
+    /// Plays the recording of `text` if there is one.
     /// Returns false when there is none; `fallback` runs when the download fails.
     func play(_ text: String, slow: Bool, fallback: @escaping () -> Void) -> Bool {
         load()
-        guard UserDefaults.standard.string(forKey: ReadingVoice.storageKey) != ReadingVoice.device.rawValue,
-              let hash = items[Self.key(text)] else { return false }
+        guard let hash = items[Self.key(text)] else { return false }
         pending = hash
         let local = Self.folder.appendingPathComponent("w-\(hash).mp3")
         if FileManager.default.fileExists(atPath: local.path) {
@@ -289,6 +360,7 @@ final class WordAudio {
 
     func stop() {
         pending = nil
+        sequence += 1
         player?.stop()
         player = nil
     }

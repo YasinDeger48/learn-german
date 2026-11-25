@@ -8,6 +8,7 @@ struct SettingsView: View {
     @State private var showPlacement = false
     @AppStorage(Reminders.wordsKey) private var notifyWords = true
     @AppStorage(Reminders.streakKey) private var notifyStreak = true
+    @AppStorage(ReadingVoice.storageKey) private var voiceRaw = ReadingVoice.female.rawValue
 
     private var reminderTime: Binding<Date> {
         Binding(get: {
@@ -45,6 +46,27 @@ struct SettingsView: View {
                         }
                     }
                     .pickerStyle(.navigationLink)
+                }
+                Section {
+                    Picker(t("voice.choose"), selection: Binding(get: { ReadingVoice.from(voiceRaw) }, set: { voiceRaw = $0.rawValue })) {
+                        ForEach(ReadingVoice.choices) { voice in
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(voice.title)
+                                Text(voice.subtitle).font(.caption).foregroundColor(.secondary)
+                            }
+                            .tag(voice)
+                        }
+                    }
+                    .pickerStyle(.navigationLink)
+                    Button {
+                        A1Speaker.shared.say("Hallo! Ich bin Lina. Wir lernen zusammen Deutsch.")
+                    } label: {
+                        Label(t("voice.try"), systemImage: "speaker.wave.2.fill")
+                    }
+                } header: {
+                    Text(t("voice.section"))
+                } footer: {
+                    Text(t("voice.footer"))
                 }
                 Section {
                     Toggle(t("settings.remind"), isOn: remindersBinding)

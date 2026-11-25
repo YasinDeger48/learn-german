@@ -38,20 +38,23 @@ final class A1Speaker {
         }
     }
 
-    /// Single words with a recorded natural voice (WordAudio) play that; everything else uses the iPhone voice.
+    /// Words and sentences with a recorded natural voice (WordAudio, Google) play that;
+    /// the device voice reads only what has no recording yet, or when there is no internet.
     func say(_ text: String, slow: Bool = false, times: Int = 1) {
-        if times == 1 {
-            synth.stopSpeaking(at: .immediate)
-            let recorded = WordAudio.shared.play(text, slow: slow) { [weak self] in
-                self?.play([A1Line(s: -1, t: text)], slow: slow, times: times)
-            }
-            if recorded { return }
-        }
         play([A1Line(s: -1, t: text)], slow: slow, times: times)
     }
 
     /// Plays the lines in order; `times: 2` repeats everything like in the exam.
     func play(_ lines: [A1Line], slow: Bool = false, times: Int = 1) {
+        synth.stopSpeaking(at: .immediate)
+        let recorded = WordAudio.shared.play(lines: lines, slow: slow, times: times) { [weak self] in
+            self?.speak(lines, slow: slow, times: times)
+        }
+        if !recorded { speak(lines, slow: slow, times: times) }
+    }
+
+    /// The device voice.
+    private func speak(_ lines: [A1Line], slow: Bool, times: Int) {
         let session = AVAudioSession.sharedInstance()
         try? session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
         try? session.setActive(true)

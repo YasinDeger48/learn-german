@@ -161,7 +161,7 @@ struct DailyReadingView: View {
         }
     }
 
-    private var voice: ReadingVoice { ReadingVoice(rawValue: voiceRaw) ?? .female }
+    private var voice: ReadingVoice { ReadingVoice.from(voiceRaw) }
     private var isPlaying: Bool { audio.playing || deviceReading }
 
     private func togglePlay() {
@@ -228,7 +228,7 @@ struct DailyReadingView: View {
 
     private var voiceMenu: some View {
         Menu {
-            ForEach(ReadingVoice.allCases) { option in
+            ForEach(ReadingVoice.choices) { option in
                 Button { choose(option) } label: {
                     Label {
                         Text(option.title)
