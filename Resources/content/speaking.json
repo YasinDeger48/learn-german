@@ -489,6 +489,1290 @@
    "sample": "Ich wohne in einer kleinen Wohnung im zweiten Stock. Sie hat zwei Zimmer, eine Küche und ein Bad. Das Wohnzimmer ist hell und gemütlich. Die Küche ist klein, aber neu. Mein Lieblingsplatz ist der Balkon. Dort trinke ich morgens Kaffee."
   },
   {
+   "id": "a1-7",
+   "level": "A1",
+   "seconds": 40,
+   "title": {
+    "tr": "Adını hecele, numaranı söyle",
+    "en": "Spell your name, say your number"
+   },
+   "prompt": "Buchstabieren Sie Ihren Namen und sagen Sie Ihre Telefonnummer.",
+   "help": {
+    "tr": "Adını ve soyadını harf harf söyle, telefon numaranı ve adresini söyle.",
+    "en": "Spell your first and last name, say your phone number and address."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Ad ve soyad",
+      "en": "Name"
+     },
+     "say": "Mein Name ist … Mein Nachname ist …",
+     "keys": [
+      "mein name",
+      "ich heiße",
+      "nachname",
+      "vorname"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Heceleme",
+      "en": "Spelling"
+     },
+     "say": "Ich buchstabiere: E – L – I – F",
+     "keys": [
+      "buchstabiere",
+      "buchstabieren"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Telefon",
+      "en": "Phone number"
+     },
+     "say": "Meine Telefonnummer ist …",
+     "keys": [
+      "telefonnummer",
+      "handynummer",
+      "nummer"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Adres",
+      "en": "Address"
+     },
+     "say": "Ich wohne in der …straße …",
+     "keys": [
+      "straße",
+      "adresse",
+      "ich wohne"
+     ]
+    }
+   ],
+   "sample": "Mein Name ist Elif Yılmaz. Ich buchstabiere: E – L – I – F. Mein Nachname ist Y – I – L – M – A – Z. Meine Telefonnummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben. Ich wohne in der Bergstraße zwölf in Köln."
+  },
+  {
+   "id": "a1-8",
+   "level": "A1",
+   "seconds": 60,
+   "title": {
+    "tr": "Kartlar: Yemek ve içecek",
+    "en": "Cards: food and drink"
+   },
+   "prompt": "Thema: Essen und Trinken. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Soru sor",
+      "en": "Ask a question"
+     },
+     "say": "Was …? Wo …? Hast du …?",
+     "keys": [
+      "was",
+      "wo",
+      "wann",
+      "wie",
+      "hast du",
+      "magst du",
+      "bist du",
+      "gehst du",
+      "isst du",
+      "trinkst du",
+      "arbeitest du",
+      "wohnst du",
+      "fährst du",
+      "machst du",
+      "kaufst du"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver",
+      "en": "Answer it"
+     },
+     "say": "Ich … / Ja, … / Nein, …",
+     "keys": [
+      "ich",
+      "ja",
+      "nein"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Kahvaltı",
+      "en": "Card: Breakfast"
+     },
+     "say": "Was isst du zum Frühstück?",
+     "keys": [
+      "frühstück"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Et",
+      "en": "Card: Meat"
+     },
+     "say": "Isst du gern Fleisch?",
+     "keys": [
+      "fleisch"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Kahve",
+      "en": "Card: Coffee"
+     },
+     "say": "Trinkst du Kaffee?",
+     "keys": [
+      "kaffee"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Akşam yemeği",
+      "en": "Card: Dinner"
+     },
+     "say": "Wann isst du zu Abend?",
+     "keys": [
+      "abend",
+      "abendessen"
+     ]
+    }
+   ],
+   "sample": "Was isst du zum Frühstück? Ich esse Brot mit Käse. Isst du gern Fleisch? Nein, ich esse lieber Gemüse. Trinkst du Kaffee? Ja, ich trinke jeden Morgen zwei Tassen Kaffee. Wann isst du zu Abend? Ich esse um sieben Uhr."
+  },
+  {
+   "id": "a1-9",
+   "level": "A1",
+   "seconds": 60,
+   "title": {
+    "tr": "Kartlar: Ev",
+    "en": "Cards: home"
+   },
+   "prompt": "Thema: Wohnen. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Soru sor",
+      "en": "Ask a question"
+     },
+     "say": "Was …? Wo …? Hast du …?",
+     "keys": [
+      "was",
+      "wo",
+      "wann",
+      "wie",
+      "hast du",
+      "magst du",
+      "bist du",
+      "gehst du",
+      "isst du",
+      "trinkst du",
+      "arbeitest du",
+      "wohnst du",
+      "fährst du",
+      "machst du",
+      "kaufst du"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver",
+      "en": "Answer it"
+     },
+     "say": "Ich … / Ja, … / Nein, …",
+     "keys": [
+      "ich",
+      "ja",
+      "nein"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Oda",
+      "en": "Card: Room"
+     },
+     "say": "Wie viele Zimmer hat deine Wohnung?",
+     "keys": [
+      "zimmer"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Mutfak",
+      "en": "Card: Kitchen"
+     },
+     "say": "Ist deine Küche groß?",
+     "keys": [
+      "küche"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Kira",
+      "en": "Card: Rent"
+     },
+     "say": "Wie hoch ist die Miete?",
+     "keys": [
+      "miete"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Balkon",
+      "en": "Card: Balcony"
+     },
+     "say": "Hast du einen Balkon?",
+     "keys": [
+      "balkon"
+     ]
+    }
+   ],
+   "sample": "Wie viele Zimmer hat deine Wohnung? Meine Wohnung hat drei Zimmer. Ist deine Küche groß? Nein, sie ist klein. Wie hoch ist die Miete? Die Miete ist achthundert Euro. Hast du einen Balkon? Ja, ich habe einen kleinen Balkon."
+  },
+  {
+   "id": "a1-10",
+   "level": "A1",
+   "seconds": 60,
+   "title": {
+    "tr": "Kartlar: Boş zaman",
+    "en": "Cards: free time"
+   },
+   "prompt": "Thema: Freizeit. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Soru sor",
+      "en": "Ask a question"
+     },
+     "say": "Was …? Wo …? Hast du …?",
+     "keys": [
+      "was",
+      "wo",
+      "wann",
+      "wie",
+      "hast du",
+      "magst du",
+      "bist du",
+      "gehst du",
+      "isst du",
+      "trinkst du",
+      "arbeitest du",
+      "wohnst du",
+      "fährst du",
+      "machst du",
+      "kaufst du"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver",
+      "en": "Answer it"
+     },
+     "say": "Ich … / Ja, … / Nein, …",
+     "keys": [
+      "ich",
+      "ja",
+      "nein"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Spor",
+      "en": "Card: Sport"
+     },
+     "say": "Machst du Sport?",
+     "keys": [
+      "sport"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Sinema",
+      "en": "Card: Cinema"
+     },
+     "say": "Gehst du gern ins Kino?",
+     "keys": [
+      "kino"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Müzik",
+      "en": "Card: Music"
+     },
+     "say": "Welche Musik hörst du?",
+     "keys": [
+      "musik"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Hafta sonu",
+      "en": "Card: Weekend"
+     },
+     "say": "Was machst du am Wochenende?",
+     "keys": [
+      "wochenende"
+     ]
+    }
+   ],
+   "sample": "Machst du Sport? Ja, ich spiele zweimal pro Woche Fußball. Gehst du gern ins Kino? Ja, sehr gern. Welche Musik hörst du? Ich höre Popmusik. Was machst du am Wochenende? Am Wochenende treffe ich Freunde."
+  },
+  {
+   "id": "a1-11",
+   "level": "A1",
+   "seconds": 60,
+   "title": {
+    "tr": "Kartlar: Alışveriş",
+    "en": "Cards: shopping"
+   },
+   "prompt": "Thema: Einkaufen. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Soru sor",
+      "en": "Ask a question"
+     },
+     "say": "Was …? Wo …? Hast du …?",
+     "keys": [
+      "was",
+      "wo",
+      "wann",
+      "wie",
+      "hast du",
+      "magst du",
+      "bist du",
+      "gehst du",
+      "isst du",
+      "trinkst du",
+      "arbeitest du",
+      "wohnst du",
+      "fährst du",
+      "machst du",
+      "kaufst du"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver",
+      "en": "Answer it"
+     },
+     "say": "Ich … / Ja, … / Nein, …",
+     "keys": [
+      "ich",
+      "ja",
+      "nein"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Süpermarket",
+      "en": "Card: Supermarket"
+     },
+     "say": "Wo kaufst du ein?",
+     "keys": [
+      "supermarkt",
+      "einkaufen",
+      "kaufst"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Fiyat",
+      "en": "Card: Price"
+     },
+     "say": "Was kostet ein Kilo Äpfel?",
+     "keys": [
+      "kostet",
+      "preis"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Giysi",
+      "en": "Card: Clothes"
+     },
+     "say": "Wo kaufst du Kleidung?",
+     "keys": [
+      "kleidung",
+      "hose",
+      "jacke"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Gün",
+      "en": "Card: Day"
+     },
+     "say": "Wann gehst du einkaufen?",
+     "keys": [
+      "wann"
+     ]
+    }
+   ],
+   "sample": "Wo kaufst du ein? Ich kaufe im Supermarkt ein. Was kostet ein Kilo Äpfel? Ein Kilo kostet zwei Euro. Wo kaufst du Kleidung? Ich kaufe Kleidung online. Wann gehst du einkaufen? Ich gehe am Samstag einkaufen."
+  },
+  {
+   "id": "a1-12",
+   "level": "A1",
+   "seconds": 60,
+   "title": {
+    "tr": "Kartlar: İş ve okul",
+    "en": "Cards: work and school"
+   },
+   "prompt": "Thema: Arbeit und Schule. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Soru sor",
+      "en": "Ask a question"
+     },
+     "say": "Was …? Wo …? Hast du …?",
+     "keys": [
+      "was",
+      "wo",
+      "wann",
+      "wie",
+      "hast du",
+      "magst du",
+      "bist du",
+      "gehst du",
+      "isst du",
+      "trinkst du",
+      "arbeitest du",
+      "wohnst du",
+      "fährst du",
+      "machst du",
+      "kaufst du"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver",
+      "en": "Answer it"
+     },
+     "say": "Ich … / Ja, … / Nein, …",
+     "keys": [
+      "ich",
+      "ja",
+      "nein"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Meslek",
+      "en": "Card: Job"
+     },
+     "say": "Was bist du von Beruf?",
+     "keys": [
+      "beruf"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: İş saati",
+      "en": "Card: Working hours"
+     },
+     "say": "Wann beginnt deine Arbeit?",
+     "keys": [
+      "arbeit",
+      "beginnt"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Meslektaş",
+      "en": "Card: Colleagues"
+     },
+     "say": "Wie sind deine Kollegen?",
+     "keys": [
+      "kollegen",
+      "kollege",
+      "kollegin"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Kurs",
+      "en": "Card: Course"
+     },
+     "say": "Wann hast du Deutschkurs?",
+     "keys": [
+      "kurs"
+     ]
+    }
+   ],
+   "sample": "Was bist du von Beruf? Ich bin Krankenpfleger. Wann beginnt deine Arbeit? Meine Arbeit beginnt um sieben Uhr. Wie sind deine Kollegen? Meine Kollegen sind sehr nett. Wann hast du Deutschkurs? Ich habe am Montag und Mittwoch Kurs."
+  },
+  {
+   "id": "a1-13",
+   "level": "A1",
+   "seconds": 60,
+   "title": {
+    "tr": "Kartlar: Yolculuk",
+    "en": "Cards: travel"
+   },
+   "prompt": "Thema: Reisen und Verkehr. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Soru sor",
+      "en": "Ask a question"
+     },
+     "say": "Was …? Wo …? Hast du …?",
+     "keys": [
+      "was",
+      "wo",
+      "wann",
+      "wie",
+      "hast du",
+      "magst du",
+      "bist du",
+      "gehst du",
+      "isst du",
+      "trinkst du",
+      "arbeitest du",
+      "wohnst du",
+      "fährst du",
+      "machst du",
+      "kaufst du"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver",
+      "en": "Answer it"
+     },
+     "say": "Ich … / Ja, … / Nein, …",
+     "keys": [
+      "ich",
+      "ja",
+      "nein"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Otobüs",
+      "en": "Card: Bus"
+     },
+     "say": "Fährst du mit dem Bus?",
+     "keys": [
+      "bus"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Bilet",
+      "en": "Card: Ticket"
+     },
+     "say": "Wo kaufst du die Fahrkarte?",
+     "keys": [
+      "fahrkarte",
+      "ticket"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Tatil",
+      "en": "Card: Holiday"
+     },
+     "say": "Wohin fährst du im Urlaub?",
+     "keys": [
+      "urlaub"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Tren",
+      "en": "Card: Train"
+     },
+     "say": "Fährst du gern Zug?",
+     "keys": [
+      "zug"
+     ]
+    }
+   ],
+   "sample": "Fährst du mit dem Bus zur Arbeit? Nein, ich fahre mit dem Fahrrad. Wo kaufst du die Fahrkarte? Am Automaten. Wohin fährst du im Urlaub? Ich fahre in die Türkei. Fährst du gern Zug? Ja, Zug fahren ist bequem."
+  },
+  {
+   "id": "a1-14",
+   "level": "A1",
+   "seconds": 60,
+   "title": {
+    "tr": "Kartlar: Aile ve arkadaşlar",
+    "en": "Cards: family and friends"
+   },
+   "prompt": "Thema: Familie und Freunde. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Soru sor",
+      "en": "Ask a question"
+     },
+     "say": "Was …? Wo …? Hast du …?",
+     "keys": [
+      "was",
+      "wo",
+      "wann",
+      "wie",
+      "hast du",
+      "magst du",
+      "bist du",
+      "gehst du",
+      "isst du",
+      "trinkst du",
+      "arbeitest du",
+      "wohnst du",
+      "fährst du",
+      "machst du",
+      "kaufst du"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver",
+      "en": "Answer it"
+     },
+     "say": "Ich … / Ja, … / Nein, …",
+     "keys": [
+      "ich",
+      "ja",
+      "nein"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Kardeş",
+      "en": "Card: Siblings"
+     },
+     "say": "Hast du Geschwister?",
+     "keys": [
+      "geschwister",
+      "bruder",
+      "schwester"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Ebeveynler",
+      "en": "Card: Parents"
+     },
+     "say": "Wo wohnen deine Eltern?",
+     "keys": [
+      "eltern"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Doğum günü",
+      "en": "Card: Birthday"
+     },
+     "say": "Wann hast du Geburtstag?",
+     "keys": [
+      "geburtstag"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Arkadaş",
+      "en": "Card: Friend"
+     },
+     "say": "Wer ist dein bester Freund?",
+     "keys": [
+      "freund",
+      "freundin"
+     ]
+    }
+   ],
+   "sample": "Hast du Geschwister? Ja, ich habe eine Schwester. Wo wohnen deine Eltern? Meine Eltern wohnen in Izmir. Wann hast du Geburtstag? Ich habe im Mai Geburtstag. Wer ist dein bester Freund? Mein bester Freund heißt Murat."
+  },
+  {
+   "id": "a1-15",
+   "level": "A1",
+   "seconds": 60,
+   "title": {
+    "tr": "Kartlar: Sağlık",
+    "en": "Cards: health"
+   },
+   "prompt": "Thema: Gesundheit. Stellen Sie zu jeder Karte eine Frage und antworten Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 2: her kart için bir soru sor, sonra soruyu kendin cevapla.",
+    "en": "Goethe A1 Sprechen part 2: ask one question for each card, then answer it yourself."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Soru sor",
+      "en": "Ask a question"
+     },
+     "say": "Was …? Wo …? Hast du …?",
+     "keys": [
+      "was",
+      "wo",
+      "wann",
+      "wie",
+      "hast du",
+      "magst du",
+      "bist du",
+      "gehst du",
+      "isst du",
+      "trinkst du",
+      "arbeitest du",
+      "wohnst du",
+      "fährst du",
+      "machst du",
+      "kaufst du"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver",
+      "en": "Answer it"
+     },
+     "say": "Ich … / Ja, … / Nein, …",
+     "keys": [
+      "ich",
+      "ja",
+      "nein"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Doktor",
+      "en": "Card: Doctor"
+     },
+     "say": "Wann gehst du zum Arzt?",
+     "keys": [
+      "arzt",
+      "ärztin",
+      "doktor"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Baş ağrısı",
+      "en": "Card: Headache"
+     },
+     "say": "Was machst du bei Kopfschmerzen?",
+     "keys": [
+      "kopfschmerzen",
+      "kopf"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Uyku",
+      "en": "Card: Sleep"
+     },
+     "say": "Wie lange schläfst du?",
+     "keys": [
+      "schläfst",
+      "schlafen",
+      "schlafe"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kart: Meyve",
+      "en": "Card: Fruit"
+     },
+     "say": "Isst du viel Obst?",
+     "keys": [
+      "obst"
+     ]
+    }
+   ],
+   "sample": "Wann gehst du zum Arzt? Ich gehe zum Arzt, wenn ich krank bin. Was machst du bei Kopfschmerzen? Ich trinke Wasser und schlafe. Wie lange schläfst du? Ich schlafe sieben Stunden. Isst du viel Obst? Ja, ich esse jeden Tag einen Apfel."
+  },
+  {
+   "id": "a1-16",
+   "level": "A1",
+   "seconds": 45,
+   "title": {
+    "tr": "Rica: Ofiste",
+    "en": "Requests: at the office"
+   },
+   "prompt": "Im Büro: Bitten Sie um diese Dinge und reagieren Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
+    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Kibarca rica et",
+      "en": "Ask politely"
+     },
+     "say": "Können Sie bitte …? / Kannst du bitte …?",
+     "keys": [
+      "können sie",
+      "könnten sie",
+      "kannst du",
+      "bitte",
+      "darf ich",
+      "ich möchte",
+      "ich hätte gern"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver / teşekkür et",
+      "en": "React or thank"
+     },
+     "say": "Ja, gern. / Natürlich. / Danke!",
+     "keys": [
+      "danke",
+      "gern",
+      "natürlich",
+      "ja klar",
+      "kein problem",
+      "hier bitte",
+      "leider"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kalem",
+      "en": "A pen"
+     },
+     "say": "Können Sie mir bitte einen Stift geben?",
+     "keys": [
+      "stift",
+      "kuli",
+      "kugelschreiber"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Pencere",
+      "en": "The window"
+     },
+     "say": "Können Sie bitte das Fenster öffnen?",
+     "keys": [
+      "fenster"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kahve",
+      "en": "Coffee"
+     },
+     "say": "Ich hätte gern einen Kaffee, bitte.",
+     "keys": [
+      "kaffee"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Telefon",
+      "en": "Telephone"
+     },
+     "say": "Darf ich kurz Ihr Telefon benutzen?",
+     "keys": [
+      "telefon"
+     ]
+    }
+   ],
+   "sample": "Entschuldigung, können Sie mir bitte einen Stift geben? Danke! Es ist so warm hier. Können Sie bitte das Fenster öffnen? Ich hätte gern einen Kaffee, bitte. Und darf ich kurz Ihr Telefon benutzen? – Ja, natürlich. – Vielen Dank!"
+  },
+  {
+   "id": "a1-17",
+   "level": "A1",
+   "seconds": 45,
+   "title": {
+    "tr": "Rica: Restoranda",
+    "en": "Requests: at the restaurant"
+   },
+   "prompt": "Im Restaurant: Bitten Sie um diese Dinge und reagieren Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
+    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Kibarca rica et",
+      "en": "Ask politely"
+     },
+     "say": "Können Sie bitte …? / Kannst du bitte …?",
+     "keys": [
+      "können sie",
+      "könnten sie",
+      "kannst du",
+      "bitte",
+      "darf ich",
+      "ich möchte",
+      "ich hätte gern"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver / teşekkür et",
+      "en": "React or thank"
+     },
+     "say": "Ja, gern. / Natürlich. / Danke!",
+     "keys": [
+      "danke",
+      "gern",
+      "natürlich",
+      "ja klar",
+      "kein problem",
+      "hier bitte",
+      "leider"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Menü",
+      "en": "The menu"
+     },
+     "say": "Kann ich bitte die Speisekarte haben?",
+     "keys": [
+      "speisekarte",
+      "karte"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Su",
+      "en": "Water"
+     },
+     "say": "Ich möchte ein Glas Wasser, bitte.",
+     "keys": [
+      "wasser"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Hesap",
+      "en": "The bill"
+     },
+     "say": "Die Rechnung, bitte.",
+     "keys": [
+      "rechnung",
+      "bezahlen",
+      "zahlen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Peçete",
+      "en": "A napkin"
+     },
+     "say": "Haben Sie eine Serviette?",
+     "keys": [
+      "serviette"
+     ]
+    }
+   ],
+   "sample": "Guten Abend! Kann ich bitte die Speisekarte haben? Ich möchte ein Glas Wasser und eine Suppe, bitte. Haben Sie noch eine Serviette? Danke! … Die Rechnung, bitte. Ich möchte mit Karte bezahlen."
+  },
+  {
+   "id": "a1-18",
+   "level": "A1",
+   "seconds": 45,
+   "title": {
+    "tr": "Rica: İstasyonda",
+    "en": "Requests: at the station"
+   },
+   "prompt": "Am Bahnhof: Bitten Sie um diese Dinge und reagieren Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
+    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Kibarca rica et",
+      "en": "Ask politely"
+     },
+     "say": "Können Sie bitte …? / Kannst du bitte …?",
+     "keys": [
+      "können sie",
+      "könnten sie",
+      "kannst du",
+      "bitte",
+      "darf ich",
+      "ich möchte",
+      "ich hätte gern"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver / teşekkür et",
+      "en": "React or thank"
+     },
+     "say": "Ja, gern. / Natürlich. / Danke!",
+     "keys": [
+      "danke",
+      "gern",
+      "natürlich",
+      "ja klar",
+      "kein problem",
+      "hier bitte",
+      "leider"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Bilet",
+      "en": "A ticket"
+     },
+     "say": "Eine Fahrkarte nach Berlin, bitte.",
+     "keys": [
+      "fahrkarte",
+      "ticket"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Peron",
+      "en": "The platform"
+     },
+     "say": "Von welchem Gleis fährt der Zug?",
+     "keys": [
+      "gleis"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Saat",
+      "en": "The time"
+     },
+     "say": "Wann fährt der nächste Zug?",
+     "keys": [
+      "wann",
+      "zug"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Yardım",
+      "en": "Help with a bag"
+     },
+     "say": "Können Sie mir bitte mit dem Koffer helfen?",
+     "keys": [
+      "koffer",
+      "helfen"
+     ]
+    }
+   ],
+   "sample": "Guten Tag, eine Fahrkarte nach Berlin, bitte. Wann fährt der nächste Zug? Und von welchem Gleis fährt er? Können Sie mir bitte mit dem Koffer helfen? Er ist sehr schwer. – Ja, gern. – Danke schön!"
+  },
+  {
+   "id": "a1-19",
+   "level": "A1",
+   "seconds": 45,
+   "title": {
+    "tr": "Rica: Komşuya",
+    "en": "Requests: to a neighbour"
+   },
+   "prompt": "Beim Nachbarn: Bitten Sie um diese Dinge und reagieren Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
+    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Kibarca rica et",
+      "en": "Ask politely"
+     },
+     "say": "Können Sie bitte …? / Kannst du bitte …?",
+     "keys": [
+      "können sie",
+      "könnten sie",
+      "kannst du",
+      "bitte",
+      "darf ich",
+      "ich möchte",
+      "ich hätte gern"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver / teşekkür et",
+      "en": "React or thank"
+     },
+     "say": "Ja, gern. / Natürlich. / Danke!",
+     "keys": [
+      "danke",
+      "gern",
+      "natürlich",
+      "ja klar",
+      "kein problem",
+      "hier bitte",
+      "leider"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Tuz",
+      "en": "Salt"
+     },
+     "say": "Hast du vielleicht Salz für mich?",
+     "keys": [
+      "salz"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Merdiven",
+      "en": "A ladder"
+     },
+     "say": "Kannst du mir deine Leiter leihen?",
+     "keys": [
+      "leiter"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Paket",
+      "en": "A parcel"
+     },
+     "say": "Kannst du mein Paket annehmen?",
+     "keys": [
+      "paket"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Çiçekler",
+      "en": "The flowers"
+     },
+     "say": "Kannst du am Wochenende meine Blumen gießen?",
+     "keys": [
+      "blumen",
+      "gießen"
+     ]
+    }
+   ],
+   "sample": "Hallo, ich koche gerade. Hast du vielleicht Salz für mich? Danke! Kannst du mir morgen deine Leiter leihen? Und kannst du mein Paket annehmen? Ich bin am Freitag nicht da. Kannst du am Wochenende meine Blumen gießen? – Ja klar, kein Problem!"
+  },
+  {
+   "id": "a1-20",
+   "level": "A1",
+   "seconds": 45,
+   "title": {
+    "tr": "Rica: Kursta",
+    "en": "Requests: in class"
+   },
+   "prompt": "Im Deutschkurs: Bitten Sie um diese Dinge und reagieren Sie.",
+   "help": {
+    "tr": "Goethe A1 Sprechen Teil 3: her şey için kibarca rica et, sonra cevap ver.",
+    "en": "Goethe A1 Sprechen part 3: ask politely for each thing, then react."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Kibarca rica et",
+      "en": "Ask politely"
+     },
+     "say": "Können Sie bitte …? / Kannst du bitte …?",
+     "keys": [
+      "können sie",
+      "könnten sie",
+      "kannst du",
+      "bitte",
+      "darf ich",
+      "ich möchte",
+      "ich hätte gern"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Cevap ver / teşekkür et",
+      "en": "React or thank"
+     },
+     "say": "Ja, gern. / Natürlich. / Danke!",
+     "keys": [
+      "danke",
+      "gern",
+      "natürlich",
+      "ja klar",
+      "kein problem",
+      "hier bitte",
+      "leider"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Tekrar",
+      "en": "Repeat"
+     },
+     "say": "Können Sie das bitte wiederholen?",
+     "keys": [
+      "wiederholen",
+      "noch einmal",
+      "nochmal"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Yavaş",
+      "en": "Slowly"
+     },
+     "say": "Können Sie bitte langsamer sprechen?",
+     "keys": [
+      "langsam"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sözlük",
+      "en": "A dictionary"
+     },
+     "say": "Darf ich Ihr Wörterbuch benutzen?",
+     "keys": [
+      "wörterbuch"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Yazmak",
+      "en": "Write it"
+     },
+     "say": "Können Sie das Wort an die Tafel schreiben?",
+     "keys": [
+      "schreiben",
+      "tafel"
+     ]
+    }
+   ],
+   "sample": "Entschuldigung, können Sie das bitte wiederholen? Und können Sie bitte langsamer sprechen? Darf ich Ihr Wörterbuch benutzen? Können Sie das Wort an die Tafel schreiben? – Natürlich, gern. – Vielen Dank!"
+  },
+  {
    "id": "a2-1",
    "level": "A2",
    "seconds": 60,

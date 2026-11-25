@@ -8,6 +8,7 @@ Point keys are matched after lower-casing, ß → ss and removing accents, at th
 """
 import json
 import os
+import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(REPO, 'Resources', 'content', 'speaking.json')
@@ -307,6 +308,11 @@ TASKS = [
 
 
 def main():
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import speaking_a1_more
+    # A1 tasks first (the original six, then the exam-part tasks), then the other levels.
+    a1 = [t for t in TASKS if t['level'] == 'A1'] + speaking_a1_more.TASKS
+    TASKS[:] = a1 + [t for t in TASKS if t['level'] != 'A1']
     ids = [t['id'] for t in TASKS]
     assert len(ids) == len(set(ids))
     for t in TASKS:
