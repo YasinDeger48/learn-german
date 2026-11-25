@@ -16,16 +16,19 @@ jobs:
   upload:
     runs-on: macos-15
     timeout-minutes: 30
+    # The private key (ASC_KEY_P8) is given only to the steps that need it, not to the whole job:
+    # "Prepare Xcode project" downloads and runs XcodeGen and must not be able to read it.
     env:
       ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
       ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
-      ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
       APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
     steps:
       - uses: actions/checkout@v5
 
       - name: Check secrets
         shell: bash
+        env:
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
         run: |
           missing=0
           for name in ASC_KEY_ID ASC_ISSUER_ID ASC_KEY_P8 APPLE_TEAM_ID; do
@@ -39,6 +42,8 @@ jobs:
 
       - name: Install API key
         shell: bash
+        env:
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
         run: |
           mkdir -p ~/.appstoreconnect/private_keys
           printf '%s\n' "$ASC_KEY_P8" > ~/.appstoreconnect/private_keys/AuthKey_$ASC_KEY_ID.p8
@@ -78,3 +83,8 @@ jobs:
             -authenticationKeyPath ~/.appstoreconnect/private_keys/AuthKey_$ASC_KEY_ID.p8 \
             -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID"
           echo "Uploaded build ${{ github.run_number }}. It appears in App Store Connect → TestFlight after processing (10–30 min)."
+
+      - name: Remove API key
+        if: always()
+        shell: bash
+        run: rm -f ~/.appstoreconnect/private_keys/AuthKey_*.p8
