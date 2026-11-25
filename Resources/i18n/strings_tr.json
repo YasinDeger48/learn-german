@@ -574,5 +574,17 @@
  "profile.level": "Seviye",
  "profile.badges": "Rozetler",
  "profile.streakCalendar": "Seri takvimi",
- "profile.achievements": "Başarılar"
+ "profile.achievements": "Başarılar",
+ "lesson.title": "Bugünün dersi",
+ "lesson.headline": "Başla · yaklaşık 12 dk",
+ "lesson.sub": "Yeni kelimeler, tekrar, günün metni ve konuşma",
+ "lesson.doneTitle": "Ders tamam!",
+ "lesson.doneSub": "Yarın yeni ders seni bekliyor",
+ "lesson.step.practice": "Kelimeler",
+ "lesson.step.text": "Metin",
+ "lesson.step.speak": "Konuşma",
+ "lesson.intro": "Üç kısa adım. Bugün neye ihtiyacın varsa uygulama seçer.",
+ "lesson.practiceSub": "15 soru: yeni kelimeler ve tekrar zamanı gelenler",
+ "lesson.speakSub": "3 cümleyi sesli söyle",
+ "lesson.bonus": "Hepsi tamam: +{0} XP bonus"
 }

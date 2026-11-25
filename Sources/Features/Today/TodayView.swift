@@ -13,7 +13,8 @@ struct TodayView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
                 greeting.padding(.top, 4)
-                DailyGoalCard().padding(.top, 16)
+                LessonCard().padding(.top, 16)
+                DailyGoalCard().padding(.top, 12)
                 ReviewCard(model: practiceModel).padding(.top, 12)
                 dailyCard.padding(.top, 16)
                 if let word = wordOfDay { wordCard(word).padding(.top, 14) }

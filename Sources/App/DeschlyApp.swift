@@ -54,6 +54,7 @@ enum AppRoute: Hashable {
     case savedWordsQuiz
     case allTexts
     case readingHome
+    case lesson
     /// ExamModule raw value, for the level that is active (LevelModels.active).
     case module(String)
     case basics
@@ -217,6 +218,8 @@ struct AppDestination: View {
             }
         case .readingHome:
             ReadingHomeView()
+        case .lesson:
+            LessonView().environmentObject(levels.hasPractice(daily.level) ? levels.model(daily.level) : levels.a1)
         case .module(let raw):
             if let module = ExamModule(rawValue: raw) { ModuleView(module: module).environmentObject(levels.current) }
         case .basics:

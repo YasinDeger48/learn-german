@@ -574,5 +574,17 @@
  "profile.level": "Level",
  "profile.badges": "Badges",
  "profile.streakCalendar": "Streak calendar",
- "profile.achievements": "Achievements"
+ "profile.achievements": "Achievements",
+ "lesson.title": "Today's lesson",
+ "lesson.headline": "Start · about 12 min",
+ "lesson.sub": "New words, review, the text of the day and speaking",
+ "lesson.doneTitle": "Lesson done!",
+ "lesson.doneSub": "Come back tomorrow for the next one",
+ "lesson.step.practice": "Words",
+ "lesson.step.text": "Text",
+ "lesson.step.speak": "Speaking",
+ "lesson.intro": "Three short steps. The app picks what you need today.",
+ "lesson.practiceSub": "15 questions: new words and what is due for review",
+ "lesson.speakSub": "Say 3 sentences out loud",
+ "lesson.bonus": "All done: +{0} XP bonus"
 }

@@ -241,6 +241,10 @@ struct MicButton: View {
 
 struct SpeakRepeatView: View {
     @EnvironmentObject private var model: A1Model
+    /// Sentences per round (today's lesson uses 3).
+    var count = 8
+    /// Called when the round is finished (today's lesson).
+    var onFinish: (() -> Void)? = nil
     @StateObject private var listener = SpeechListener()
     @State private var items: [A1Example] = []
     @State private var index = 0
@@ -272,7 +276,7 @@ struct SpeakRepeatView: View {
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             listener.refreshAccess()
-            if items.isEmpty { items = SpeakingBank.sentences(model.content) }
+            if items.isEmpty { items = SpeakingBank.sentences(model.content, count: count) }
         }
         .onDisappear {
             listener.cancel()
@@ -403,6 +407,7 @@ struct SpeakRepeatView: View {
             index += 1
         } else {
             finished = true
+            onFinish?()
         }
     }
 
@@ -417,7 +422,7 @@ struct SpeakRepeatView: View {
                 Text("+\(xp) XP").font(.system(size: 22, weight: .heavy)).foregroundColor(DS.goldDeep)
             }
             Button(t("speak.newRound")) {
-                items = SpeakingBank.sentences(model.content)
+                items = SpeakingBank.sentences(model.content, count: count)
                 index = 0
                 best = [:]
                 xp = 0
