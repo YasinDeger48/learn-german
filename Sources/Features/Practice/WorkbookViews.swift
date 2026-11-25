@@ -106,7 +106,7 @@ struct A1GrammarListView: View {
                 .padding(.bottom, 4)
                 ForEach(topics) { topic in
                     NavigationLink(value: A1Route.grammar(topic.id)) { topicCard(topic) }
-                        .buttonStyle(.plain)
+                        .buttonStyle(.pressable)
                 }
                 if topics.isEmpty {
                     Text(t("grammar.filterEmpty")).font(.subheadline).foregroundColor(DS.muted)
@@ -133,7 +133,7 @@ struct A1GrammarListView: View {
                 .frame(minHeight: 36)
                 .background(on ? (warn ? DS.gold : DS.ink) : DS.surface, in: Capsule())
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
         .accessibilityAddTraits(on ? .isSelected : [])
     }
 

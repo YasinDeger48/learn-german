@@ -165,7 +165,7 @@ struct PracticeHomeView: View {
                 .padding(12)
                 .background(Color.white, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
             }
-            .buttonStyle(.plain)
+            .buttonStyle(.pressable)
         }
         .padding(18)
         .background(LinearGradient(colors: [Color(red: 0.118, green: 0.227, blue: 0.62), Color(red: 0.184, green: 0.357, blue: 0.918),
@@ -219,7 +219,7 @@ struct PracticeHomeView: View {
             .padding(14)
             .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
     }
 
     // MARK: Speed games
@@ -245,7 +245,7 @@ struct PracticeHomeView: View {
             .frame(maxWidth: .infinity, minHeight: 56)
             .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
     }
 
     // MARK: Workbook
@@ -289,7 +289,7 @@ struct PracticeHomeView: View {
             .frame(minHeight: 50)
             .contentShape(Rectangle())
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
     }
 
     private func color(_ mode: A1Mode) -> Color {

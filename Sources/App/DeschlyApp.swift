@@ -1,5 +1,6 @@
 import Combine
 import SwiftUI
+import UIKit
 import UserNotifications
 
 @main
@@ -81,6 +82,7 @@ struct RootView: View {
     @Environment(\.scenePhase) private var scenePhase
     @State private var celebration: Celebration?
     @ObservedObject private var notifications = NotificationHandler.shared
+    @State private var goalToast = false
     @State private var tab: AppTab = .today
     @State private var todayPath = NavigationPath()
 
@@ -113,6 +115,28 @@ struct RootView: View {
             if phase == .active { checkProgress() }
         }
         .sheet(item: $celebration) { CelebrationView(badges: $0.badges) }
+        // Daily goal reached: a short success haptic and a banner at the top, like system confirmations.
+        .onReceive(NotificationCenter.default.publisher(for: StreakStore.goalReached)) { _ in
+            UINotificationFeedbackGenerator().notificationOccurred(.success)
+            withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) { goalToast = true }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.6) {
+                withAnimation(.easeOut(duration: 0.25)) { goalToast = false }
+            }
+        }
+        .overlay(alignment: .top) {
+            if goalToast {
+                Label(t("goal.done"), systemImage: "checkmark.circle.fill")
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundColor(.white)
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 10)
+                    .background(DS.success, in: Capsule())
+                    .shadow(color: .black.opacity(0.2), radius: 10, y: 4)
+                    .padding(.top, 6)
+                    .transition(.move(edge: .top).combined(with: .opacity))
+                    .accessibilityAddTraits(.isStaticText)
+            }
+        }
         // Taps on notifications: open the daily text or the level's practice on the Today tab.
         .onReceive(notifications.$openTextID.compactMap { $0 }) { id in
             tab = .today

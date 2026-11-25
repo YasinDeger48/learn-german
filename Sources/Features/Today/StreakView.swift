@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 /// The flame in the Today toolbar: streak number, orange when today is done, grey while today is open.
 struct StreakButton: View {
@@ -12,6 +13,8 @@ struct StreakButton: View {
                     .foregroundColor(streak.activeToday ? .orange : Color(UIColor.tertiaryLabel))
                 Text("\(streak.current)").font(.subheadline.weight(.semibold)).monospacedDigit()
                     .foregroundColor(DS.ink)
+                    .contentTransition(.numericText())
+                    .animation(.easeOut(duration: 0.3), value: streak.current)
             }
             .padding(.horizontal, 10)
             .padding(.vertical, 5)

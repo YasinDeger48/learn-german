@@ -38,11 +38,17 @@ enum DS {
 
     /// System font (SF Pro), like Apple's own apps. Sizes scale with Dynamic Type through `relativeTo`.
     static func display(_ size: CGFloat, heavy: Bool = true) -> Font {
-        .system(size: size, weight: heavy ? .bold : .semibold, design: .default)
+        .system(size: scaled(size, max: 1.25), weight: heavy ? .bold : .semibold, design: .default)
     }
 
     static func text(_ size: CGFloat, _ weight: Font.Weight = .regular) -> Font {
-        .system(size: size, weight: weight)
+        .system(size: scaled(size, max: 1.4), weight: weight)
+    }
+
+    /// Follows the iPhone's text size (Settings → Display → Text Size), within limits so cards keep their shape.
+    static func scaled(_ size: CGFloat, max factor: CGFloat) -> CGFloat {
+        let value = UIFontMetrics.default.scaledValue(for: size)
+        return min(Swift.max(value, size * 0.85), size * factor)
     }
 
     /// Bundled brand face, used only for the "deschly." wordmark.
@@ -236,3 +242,18 @@ extension View {
 
 /// Shared accent for older practice screens.
 var a1Accent: Color { DS.accent }
+
+/// Native press feedback for cards and rows drawn as buttons: a slight shrink and dim while touched,
+/// like system lists and App Store cards.
+struct PressableButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.97 : 1)
+            .opacity(configuration.isPressed ? 0.85 : 1)
+            .animation(.spring(response: 0.25, dampingFraction: 0.8), value: configuration.isPressed)
+    }
+}
+
+extension ButtonStyle where Self == PressableButtonStyle {
+    static var pressable: PressableButtonStyle { PressableButtonStyle() }
+}

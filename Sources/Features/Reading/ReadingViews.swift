@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 /// Wraps word tokens like text, so single words can be tapped.
 struct FlowLayout: Layout {
@@ -116,7 +117,7 @@ struct DailyReadingView: View {
                     .frame(minHeight: 60)
                     .background(DS.gold, in: Capsule())
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.pressable)
             }
             .padding(.horizontal, DS.gutter)
             .padding(.bottom, 12)
@@ -156,7 +157,7 @@ struct DailyReadingView: View {
                     .frame(width: 48, height: 48)
                     .background(DS.ink, in: Circle())
             }
-            .buttonStyle(.plain)
+            .buttonStyle(.pressable)
             .accessibilityLabel(playing ? t("reading.stop") : t("common.listen"))
             Text(playing ? t("reading.playing") : t("reading.listenText"))
                 .font(DS.text(14, .medium))
@@ -306,7 +307,7 @@ struct DailyReadingView: View {
                         .frame(width: 36, height: 36)
                         .background(Color.white.opacity(0.12), in: Circle())
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.pressable)
                 .accessibilityLabel(t("common.close"))
             }
             let details = [gloss.pron.flatMap { a1ShowsPron() ? "[\($0)]" : nil }, gloss.extra].compactMap { $0 }
@@ -326,7 +327,7 @@ struct DailyReadingView: View {
                         .frame(minHeight: 40)
                         .background(DS.gold, in: Capsule())
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.pressable)
                 Button {
                     A1Speaker.shared.say(gloss.display, slow: true)
                 } label: {
@@ -337,7 +338,7 @@ struct DailyReadingView: View {
                         .frame(minHeight: 40)
                         .overlay(Capsule().stroke(Color.white.opacity(0.25), lineWidth: 1))
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.pressable)
             }
             .padding(.top, 4)
         }

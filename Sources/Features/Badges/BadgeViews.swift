@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 /// Round badge: gradient when earned, grey with a progress ring when not.
 struct BadgeIcon: View {

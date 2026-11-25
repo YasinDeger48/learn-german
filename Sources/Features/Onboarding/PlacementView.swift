@@ -72,7 +72,7 @@ struct PlacementTestView: View {
                                 .background(color(for: option, q) ?? DS.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
                                 .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).stroke(DS.hairline, lineWidth: color(for: option, q) == nil ? 1 : 0))
                         }
-                        .buttonStyle(.plain)
+                        .buttonStyle(.pressable)
                         .disabled(picked != nil)
                     }
                     Button(text("placement.dontKnow")) { choose("", q) }
@@ -166,7 +166,7 @@ struct LevelPickerList: View {
                     .padding(12)
                     .background(on ? DS.night : DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.pressable)
                 .accessibilityAddTraits(on ? .isSelected : [])
             }
         }

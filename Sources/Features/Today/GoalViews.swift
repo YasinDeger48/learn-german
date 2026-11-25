@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 /// A ring that fills toward a goal.
 struct GoalRing<Center: View>: View {
@@ -31,6 +32,8 @@ struct XPChip: View {
             Image(systemName: "star.fill").foregroundColor(DS.accent)
             Text(store.state.totalXP.formatted()).font(.subheadline.weight(.semibold)).monospacedDigit()
                 .foregroundColor(DS.ink)
+                .contentTransition(.numericText())
+                .animation(.easeOut(duration: 0.3), value: store.state.totalXP)
         }
         .padding(.horizontal, 10)
         .padding(.vertical, 5)
@@ -56,6 +59,8 @@ struct DailyGoalCard: View {
                     } else {
                         VStack(spacing: 0) {
                             Text("\(store.xpToday)").font(.system(size: 20, weight: .heavy)).monospacedDigit()
+                                .contentTransition(.numericText())
+                                .animation(.easeOut(duration: 0.3), value: store.xpToday)
                             Text("/ \(store.goal) XP").font(.caption2).foregroundColor(DS.muted)
                         }
                     }
@@ -75,7 +80,7 @@ struct DailyGoalCard: View {
             .padding(16)
             .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
         .accessibilityHint(t("goal.changeHint"))
         .confirmationDialog(t("goal.choose"), isPresented: $choosing, titleVisibility: .visible) {
             ForEach(XP.goals, id: \.self) { goal in

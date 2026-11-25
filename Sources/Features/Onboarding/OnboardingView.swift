@@ -88,7 +88,7 @@ struct OnboardingView: View {
                         .background(active ? DS.night : DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
                         .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(active ? Color.clear : DS.hairline, lineWidth: 1))
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.pressable)
                     .accessibilityAddTraits(active ? .isSelected : [])
                 }
             }
@@ -160,7 +160,7 @@ struct OnboardingView: View {
             .padding(14)
             .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
     }
 
     private var resultStep: some View {

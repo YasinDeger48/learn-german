@@ -35,9 +35,9 @@ struct TodayView: View {
             }
         }
         .sheet(isPresented: $showStreak) {
-            StreakView(open: open).environmentObject(daily)
+            StreakView(open: open).environmentObject(daily).presentationDragIndicator(.visible)
         }
-        .sheet(isPresented: $showBadges) { BadgesView() }
+        .sheet(isPresented: $showBadges) { BadgesView().presentationDragIndicator(.visible) }
     }
 
     /// Quick practice follows the level chosen above (A1, A2 …); levels without practice fall back to A1.
@@ -129,7 +129,7 @@ struct TodayView: View {
                 .background(DS.night)
                 .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
             }
-            .buttonStyle(.plain)
+            .buttonStyle(.pressable)
         }
     }
 
@@ -165,7 +165,7 @@ struct TodayView: View {
                     .background(DS.ground, in: Circle())
                     .overlay(Circle().stroke(DS.hairline, lineWidth: 1))
             }
-            .buttonStyle(.plain)
+            .buttonStyle(.pressable)
             .accessibilityLabel(t("common.listen"))
         }
         .deschlyCard(padding: 14)
@@ -222,6 +222,6 @@ struct TodayPractice: View {
             .frame(minHeight: 50)
             .contentShape(Rectangle())
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
     }
 }

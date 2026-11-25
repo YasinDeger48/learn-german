@@ -239,7 +239,7 @@ struct PaywallView: View {
                 }
             }
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
         .padding(.top, 6)
         .accessibilityAddTraits(isOn ? .isSelected : [])
     }
@@ -260,7 +260,7 @@ struct PaywallView: View {
             .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous)
                 .stroke(isOn ? DS.accent : DS.hairline, lineWidth: isOn ? 2 : 1))
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
         .accessibilityAddTraits(isOn ? .isSelected : [])
     }
 
@@ -521,7 +521,7 @@ struct FreeQuestionsBanner: View {
             .padding(.vertical, 14)
             .background(ProStyle.diagonal, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
         .task { await pro.loadProducts() }
     }
 }
@@ -597,6 +597,6 @@ struct ProSettingsSection: View {
             .padding(16)
             .background(ProStyle.diagonal, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
     }
 }
