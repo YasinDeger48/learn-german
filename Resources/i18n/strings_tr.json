@@ -437,5 +437,9 @@
  "reading.statusOpenedShort": "Açıldı",
  "reading.statusNew": "Yeni",
  "reading.filterOpen": "Yapılacak",
- "reading.filterDone": "Tamamlanan"
+ "reading.filterDone": "Tamamlanan",
+ "review.title": "Akıllı tekrar",
+ "review.due": "Bugün {0} soru tekrar zamanında",
+ "review.cardTitle": "Bugün {0} tekrarın var",
+ "review.cardSub": "Tam unutmak üzereyken, kalıcı olsun diye · {0}"
 }

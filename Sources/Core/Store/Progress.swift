@@ -162,6 +162,7 @@ final class A1Model: ObservableObject {
         }
         state = s
         s.save(level)
+        ReviewStore.record(q.id, correct: correct, level: level)
         StreakStore.shared.record()
         StreakStore.shared.addXP(correct ? XP.correct : XP.wrong)
     }

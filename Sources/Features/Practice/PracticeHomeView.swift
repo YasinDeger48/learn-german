@@ -13,6 +13,7 @@ enum A1Route: Hashable {
     case grammarList
     case grammar(Int)
     case grammarQuiz(Int)
+    case review
     case texts
     case text(Int)
     case wordList
@@ -32,6 +33,8 @@ struct A1Destination: View {
             A1QuizView(title: t("practice.mixed")) { model.session() }
         case .exam:
             A1QuizView(title: t("practice.exam"), exam: true) { model.examSession() }
+        case .review:
+            A1QuizView(title: t("review.title")) { model.reviewSession() }
         case .mistakes:
             A1QuizView(title: t("practice.mistakes"), review: true) { model.mistakeSession() }
         case .sprint:
@@ -124,6 +127,10 @@ struct PracticeHomeView: View {
     private var next: (route: A1Route, title: String, note: String) {
         if !model.state.wrong.isEmpty {
             return (.mistakes, t("practice.nextMistakes"), t("practice.nextMistakesNote", model.state.wrong.count))
+        }
+        let due = model.dueReviewIDs.count
+        if due > 0 {
+            return (.review, t("review.title"), t("review.due", due))
         }
         if let topic = model.content?.grammar.first(where: { model.topicStatus($0.id) != .done }) {
             return (.grammar(topic.id), t("practice.nextContinue", topic.de), t("practice.nextNote", 10, 3, 10 * XP.correct))

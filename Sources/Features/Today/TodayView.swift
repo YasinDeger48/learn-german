@@ -14,6 +14,7 @@ struct TodayView: View {
             VStack(alignment: .leading, spacing: 0) {
                 greeting.padding(.top, 4)
                 DailyGoalCard().padding(.top, 16)
+                ReviewCard(model: practiceModel).padding(.top, 12)
                 dailyCard.padding(.top, 16)
                 if let word = wordOfDay { wordCard(word).padding(.top, 14) }
                 TodayPractice(model: practiceModel).padding(.top, 22)

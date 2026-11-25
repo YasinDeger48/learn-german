@@ -89,3 +89,34 @@ struct DailyGoalCard: View {
         }
     }
 }
+
+/// "N reviews due today" on Today: spaced repetition of answered questions. Hidden when nothing is due.
+struct ReviewCard: View {
+    @ObservedObject var model: A1Model
+
+    var body: some View {
+        let due = model.ready ? model.dueReviewIDs.count : 0
+        if due > 0 {
+            NavigationLink(value: A1Route.review) {
+                HStack(spacing: 14) {
+                    Image(systemName: "arrow.triangle.2.circlepath")
+                        .font(.system(size: 18, weight: .bold))
+                        .foregroundColor(.white)
+                        .frame(width: 46, height: 46)
+                        .background(LinearGradient(colors: [Color(red: 0.55, green: 0.42, blue: 1), Color(red: 0.36, green: 0.25, blue: 0.84)],
+                                                   startPoint: .topLeading, endPoint: .bottomTrailing),
+                                    in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(t("review.cardTitle", due)).font(.system(size: 16, weight: .bold)).foregroundColor(DS.ink)
+                        Text(t("review.cardSub", model.level)).font(.footnote).foregroundColor(DS.muted)
+                    }
+                    Spacer(minLength: 0)
+                    Image(systemName: "chevron.right").font(.footnote.weight(.bold)).foregroundStyle(.tertiary)
+                }
+                .padding(14)
+                .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+            }
+            .buttonStyle(.pressable)
+        }
+    }
+}

@@ -437,5 +437,9 @@
  "reading.statusOpenedShort": "Ouvert",
  "reading.statusNew": "Nouveau",
  "reading.filterOpen": "À faire",
- "reading.filterDone": "Terminés"
+ "reading.filterDone": "Terminés",
+ "review.title": "Révision intelligente",
+ "review.due": "{0} questions à revoir aujourd'hui",
+ "review.cardTitle": "{0} révisions aujourd'hui",
+ "review.cardSub": "Au bon moment, pour retenir · {0}"
 }

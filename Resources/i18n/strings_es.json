@@ -437,5 +437,9 @@
  "reading.statusOpenedShort": "Abierto",
  "reading.statusNew": "Nuevo",
  "reading.filterOpen": "Pendientes",
- "reading.filterDone": "Hechos"
+ "reading.filterDone": "Hechos",
+ "review.title": "Repaso inteligente",
+ "review.due": "{0} preguntas para repasar hoy",
+ "review.cardTitle": "Hoy tienes {0} repasos",
+ "review.cardSub": "Justo a tiempo, para que se quede · {0}"
 }

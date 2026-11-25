@@ -437,5 +437,9 @@
  "reading.statusOpenedShort": "Opened",
  "reading.statusNew": "New",
  "reading.filterOpen": "To do",
- "reading.filterDone": "Done"
+ "reading.filterDone": "Done",
+ "review.title": "Smart review",
+ "review.due": "{0} questions due today",
+ "review.cardTitle": "{0} reviews today",
+ "review.cardSub": "At the right moment, so it sticks · {0}"
 }

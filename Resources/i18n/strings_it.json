@@ -437,5 +437,9 @@
  "reading.statusOpenedShort": "Aperto",
  "reading.statusNew": "Nuovo",
  "reading.filterOpen": "Da fare",
- "reading.filterDone": "Fatti"
+ "reading.filterDone": "Fatti",
+ "review.title": "Ripasso intelligente",
+ "review.due": "{0} domande da ripassare oggi",
+ "review.cardTitle": "Oggi hai {0} ripassi",
+ "review.cardSub": "Al momento giusto, per ricordare · {0}"
 }
