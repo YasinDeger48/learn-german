@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { DropZone } from '@/components/ui/drop-zone'
+import { Editable } from '@/components/ui/editable'
 import { useToast } from '@/components/ui/toast'
 import { api, type Glossary, type TextDetail, type TextRow } from '@/lib/api'
 import { cn } from '@/lib/utils'
@@ -93,6 +94,8 @@ function Detail({ id, bust, onBust, onReviewed }: { id: string; bust: number; on
   if (isLoading) return <Loading />
   if (error || !data) return <Failed error={error} />
   const t: TextDetail['text'] = data.text
+  const at = (path: string) => ({ file: `daily_${data.level.toLowerCase()}.json`, collection: 'texts', keyField: 'id', key: t.id, path })
+  const editRefresh = ['text', 'texts']
   const trans = t.trans || []
   const words = t.paragraphs.join(' ').split(/\s+/).length
   const part = (lang: 'tr' | 'en') => trans.map((x) => x[lang]).filter(Boolean)
@@ -131,7 +134,7 @@ function Detail({ id, bust, onBust, onReviewed }: { id: string; bust: number; on
         <div className="flex flex-col gap-3">
           <div>
             <div className="text-[13px] text-muted">{t.id} · {data.level}{t.topic ? ` · ${t.topic}` : ''} · {words} words</div>
-            <h2 className="m-0 text-2xl font-bold tracking-tight">{t.title}</h2>
+            <h2 className="m-0 text-2xl font-bold tracking-tight"><Editable value={t.title} target={at('title')} refresh={editRefresh} /></h2>
           </div>
           {data.issues.length ? (
             <ul className="m-0 flex flex-col gap-1 rounded-xl bg-bad-soft py-2.5 pr-3 pl-7 text-[13px] text-bad-ink">
@@ -163,16 +166,23 @@ function Detail({ id, bust, onBust, onReviewed }: { id: string; bust: number; on
       <div className="grid gap-4 lg:grid-cols-3">
         <Card className="px-4 py-3.5">
           <h3 className="mt-0 mb-2 text-xs font-semibold tracking-wider text-muted uppercase">Deutsch</h3>
-          {t.paragraphs.map((p, i) => <p key={i} className="mt-0 mb-2.5 leading-relaxed"><Marked text={p} glossary={t.glossary} /></p>)}
+          {t.paragraphs.map((p, i) => (
+            <p key={i} className="group/p mt-0 mb-2.5 leading-relaxed">
+              <Marked text={p} glossary={t.glossary} />
+              <span className="block opacity-0 transition-opacity group-hover/p:opacity-100 focus-within:opacity-100">
+                <Editable multiline className="text-xs text-muted" value={p} target={at(`paragraphs.${i}`)} refresh={editRefresh} placeholder="edit paragraph" />
+              </span>
+            </p>
+          ))}
         </Card>
         <Card className="px-4 py-3.5">
           <h3 className="mt-0 mb-2 text-xs font-semibold tracking-wider text-muted uppercase">Türkçe</h3>
-          {part('tr').map((p, i) => <p key={i} className="mt-0 mb-2.5 leading-relaxed">{p}</p>)}
+          {trans.map((x, i) => x.tr ? <p key={i} className="mt-0 mb-2.5 leading-relaxed"><Editable multiline value={x.tr} target={at(`trans.${i}.tr`)} refresh={editRefresh} /></p> : null)}
           {!part('tr').length && <p className="text-bad">—</p>}
         </Card>
         <Card className="px-4 py-3.5">
           <h3 className="mt-0 mb-2 text-xs font-semibold tracking-wider text-muted uppercase">English</h3>
-          {part('en').map((p, i) => <p key={i} className="mt-0 mb-2.5 leading-relaxed">{p}</p>)}
+          {trans.map((x, i) => x.en ? <p key={i} className="mt-0 mb-2.5 leading-relaxed"><Editable multiline value={x.en} target={at(`trans.${i}.en`)} refresh={editRefresh} /></p> : null)}
           {!part('en').length && <p className="text-bad">—</p>}
         </Card>
       </div>
@@ -182,11 +192,11 @@ function Detail({ id, bust, onBust, onReviewed }: { id: string; bust: number; on
           <h3 className="m-0 px-4 pt-3.5 pb-2 text-xs font-semibold tracking-wider text-muted uppercase">Glossary · {t.glossary.length}</h3>
           <table className="w-full border-collapse text-[13px]">
             <tbody>
-              {t.glossary.map((g) => (
+              {t.glossary.map((g, i) => (
                 <tr key={g.lemma + g.form} className="border-t border-line-soft">
                   <td className="px-4 py-1.5 font-semibold whitespace-nowrap">{g.art ? `${g.art} ` : ''}{g.lemma}</td>
-                  <td className="px-2 py-1.5">{g.mean.tr}</td>
-                  <td className="px-4 py-1.5 text-muted">{g.mean.en || '—'}</td>
+                  <td className="px-2 py-1.5"><Editable value={g.mean.tr} target={at(`glossary.${i}.mean.tr`)} refresh={editRefresh} /></td>
+                  <td className="px-4 py-1.5 text-muted">{g.mean.en ? <Editable value={g.mean.en} target={at(`glossary.${i}.mean.en`)} refresh={editRefresh} /> : '—'}</td>
                 </tr>
               ))}
             </tbody>
@@ -196,7 +206,7 @@ function Detail({ id, bust, onBust, onReviewed }: { id: string; bust: number; on
           <h3 className="mt-0 mb-2 text-xs font-semibold tracking-wider text-muted uppercase">Questions · correct answer in green</h3>
           {t.questions.map((q, i) => (
             <div key={i} className="mb-3">
-              <b>{i + 1}.</b> {q.q}
+              <b>{i + 1}.</b> <Editable value={q.q} target={at(`questions.${i}.q`)} refresh={editRefresh} />
               <ol className="mt-1 mb-0 pl-6">
                 {(q.type === 'tf' ? ['Richtig', 'Falsch'] : q.options).map((o, j) => (
                   <li key={j} className={cn(j === q.answer && 'font-semibold text-ok')}>{o}</li>

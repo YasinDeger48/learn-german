@@ -193,6 +193,11 @@ export type TranslationStats = {
   sample?: { en: string; tr: string; text: string; where: 'app' | 'content' }[]
 }
 
+/** Where an editable text lives: an item of a list in a content file, and a dotted path inside it. */
+export type EditTarget = { file: string; collection: string; keyField: string; key: string | number; path: string }
+
+export type EditRecord = EditTarget & { value: string; original: string; at: string }
+
 async function call<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(path, init)
   const body = await response.json().catch(() => ({}))
@@ -240,6 +245,11 @@ export const api = {
   grammar: (level: string) => call<{ level: string; topics: GrammarTopic[]; broken: number }>(`/api/grammar/${level}`),
   tasks: () => call<{ writing: WritingTask[]; speaking: SpeakingTask[]; pattern?: { informal: PatternBlock[]; formal: PatternBlock[] } }>('/api/tasks'),
   translations: (sample = '') => call<TranslationStats>(`/api/translations?sample=${sample}`),
+
+  // Editing
+  edit: (body: EditTarget & { value: string }) =>
+    call<{ ok: boolean; old: string }>('/api/edit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }),
+  edits: () => call<EditRecord[]>('/api/edits'),
 
   // Media
   covers: () => call<CoverRow[]>('/api/media/covers'),

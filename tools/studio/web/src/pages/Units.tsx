@@ -6,6 +6,7 @@ import { Failed, Loading, PageHeader } from '@/components/layout/PageHeader'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
 import { DropZone } from '@/components/ui/drop-zone'
+import { Editable } from '@/components/ui/editable'
 import { useToast } from '@/components/ui/toast'
 import { api, type UnitFull } from '@/lib/api'
 import { cn } from '@/lib/utils'
@@ -32,6 +33,8 @@ function Detail({ unit, bust, onBust }: { unit: UnitFull; bust: number; onBust: 
   const toast = useToast()
   const client = useQueryClient()
   const pictures = unit.words.filter((w) => w.picture).length
+  const at = (path: string) => ({ file: 'units.json', collection: 'units', keyField: 'id', key: unit.id, path })
+  const refresh = ['units']
 
   const upload = async (file: File) => {
     try {
@@ -61,9 +64,9 @@ function Detail({ unit, bust, onBust }: { unit: UnitFull; bust: number; onBust: 
         </DropZone>
         <div className="flex flex-col gap-2">
           <div className="text-[13px] text-muted">{unit.level} · Unit {unit.number} · {unit.id}</div>
-          <h2 className="m-0 text-2xl font-bold tracking-tight">{unit.title.tr}</h2>
-          <div className="text-muted">{unit.title.en}</div>
-          <div className="mt-2 rounded-xl bg-gold-soft px-3.5 py-2.5"><b>Goal:</b> {unit.goal.tr}<div className="text-xs text-muted">{unit.goal.en}</div></div>
+          <h2 className="m-0 text-2xl font-bold tracking-tight"><Editable value={unit.title.tr} target={at('title.tr')} refresh={refresh} /></h2>
+          <div className="text-muted"><Editable value={unit.title.en} target={at('title.en')} refresh={refresh} /></div>
+          <div className="mt-2 rounded-xl bg-gold-soft px-3.5 py-2.5"><b>Goal:</b> <Editable value={unit.goal.tr} target={at('goal.tr')} refresh={refresh} /><div className="text-xs text-muted"><Editable value={unit.goal.en} target={at('goal.en')} refresh={refresh} /></div></div>
           <div className="mt-1 flex flex-wrap gap-1.5">
             <Badge>{unit.words.length} words</Badge>
             <Badge>{unit.phrases.length} phrases</Badge>
@@ -71,7 +74,7 @@ function Detail({ unit, bust, onBust }: { unit: UnitFull; bust: number; onBust: 
             <Badge>{unit.texts.length} texts</Badge>
             {unit.level === 'A1' && <Badge tone={pictures === unit.words.length ? 'ok' : 'neutral'}>word cards {pictures}/{unit.words.length}</Badge>}
           </div>
-          <div className="mt-auto text-xs text-muted">Content comes from <code>tools/units.py</code>; editing here comes later.</div>
+          <div className="mt-auto text-xs text-muted">Hover a text and click the pencil to change it. Edits are kept in <code>tools/content_edits.json</code>, so they survive when <code>tools/units.py</code> runs again.</div>
         </div>
       </div>
 
@@ -95,10 +98,11 @@ function Detail({ unit, bust, onBust }: { unit: UnitFull; bust: number; onBust: 
 
       <Step n={2} icon={Quote} title="Phrases">
         <ul className="m-0 flex list-none flex-col gap-2 p-0">
-          {unit.phrases.map((p) => (
-            <li key={p.de} className="rounded-lg border border-line-soft px-3 py-2">
-              <div className="font-semibold">{p.de}</div>
-              <div className="text-xs text-muted">{p.tr} · {p.en}</div>
+          {unit.phrases.map((p, i) => (
+            <li key={i} className="grid gap-0.5 rounded-lg border border-line-soft px-3 py-2">
+              <Editable className="font-semibold" value={p.de} target={at(`phrases.${i}.de`)} refresh={refresh} />
+              <Editable className="text-xs text-muted" value={p.tr} target={at(`phrases.${i}.tr`)} refresh={refresh} />
+              <Editable className="text-xs text-muted" value={p.en} target={at(`phrases.${i}.en`)} refresh={refresh} />
             </li>
           ))}
         </ul>

@@ -6,6 +6,7 @@ import { Failed, Loading, PageHeader } from '@/components/layout/PageHeader'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
+import { Editable } from '@/components/ui/editable'
 import { LevelTabs } from '@/components/ui/level-tabs'
 import { api } from '@/lib/api'
 import { cn, fmt } from '@/lib/utils'
@@ -32,6 +33,10 @@ export function Words() {
   const [limit, setLimit] = useState(PAGE)
   const { data, error, isLoading } = useQuery({ queryKey: ['words', level], queryFn: () => api.words(level) })
 
+  const file = `${level.toLowerCase()}.json`
+  const at = (id: number, path: string) => ({ file, collection: 'words', keyField: 'id', key: id, path })
+  const refresh = ['words']
+
   const rows = useMemo(() => {
     const q = query.trim().toLowerCase()
     return (data?.words || []).filter((w) => {
@@ -43,7 +48,7 @@ export function Words() {
 
   return (
     <>
-      <PageHeader title="Words" description="The word list of each level with meanings, plurals and example sentences." />
+      <PageHeader title="Words" description="The word list of each level. Hover a meaning, plural or example and click the pencil to change it." />
       <LevelTabs level={level} onChange={(l) => { navigate(`/words/${l.toLowerCase()}`); setTheme(''); setLimit(PAGE) }} />
       {isLoading && <Loading />}
       {(error || (!isLoading && !data)) && <Failed error={error} />}
@@ -91,9 +96,9 @@ export function Words() {
                         {w.type === 'verb' && <Badge className="ml-1.5 px-1.5 py-0">verb</Badge>}
                         {w.broken && <Badge tone="bad" className="ml-1.5 px-1.5 py-0">broken text</Badge>}
                       </td>
-                      <td className="px-2 py-2 text-muted">{w.plural || ''}</td>
-                      <td className="px-2 py-2">{w.tr}</td>
-                      <td className="px-2 py-2 text-ink-soft">{w.en}</td>
+                      <td className="px-2 py-2 text-muted">{w.plural ? <Editable value={w.plural} target={at(w.id, 'plural')} refresh={refresh} /> : ''}</td>
+                      <td className="px-2 py-2"><Editable value={w.tr} target={at(w.id, 'mean.tr')} refresh={refresh} /></td>
+                      <td className="px-2 py-2 text-ink-soft"><Editable value={w.en} target={at(w.id, 'mean.en')} refresh={refresh} /></td>
                       <td className="px-4 py-2 text-xs text-muted">{w.theme}</td>
                     </tr>
                     {open === w.id && (
@@ -101,7 +106,11 @@ export function Words() {
                         <td colSpan={5} className="px-4 py-3">
                           <div className="mb-1.5 text-xs text-muted">Pronunciation help: [{w.pron}] · id {w.id}</div>
                           {w.examples.map((e, i) => (
-                            <div key={i} className="mb-1.5"><span className="font-medium">{e.de}</span> <span className="text-xs text-muted">— {e.tr} · {e.en}</span></div>
+                            <div key={i} className="mb-2.5 grid gap-0.5">
+                              <Editable className="font-medium" value={e.de} target={at(w.id, `ex.${i}.de`)} refresh={refresh} />
+                              <Editable className="text-xs text-muted" value={e.tr} target={at(w.id, `ex.${i}.mean.tr`)} refresh={refresh} />
+                              <Editable className="text-xs text-muted" value={e.en} target={at(w.id, `ex.${i}.mean.en`)} refresh={refresh} />
+                            </div>
                           ))}
                           {!w.examples.length && <div className="text-muted">No examples.</div>}
                         </td>

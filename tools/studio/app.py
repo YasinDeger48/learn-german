@@ -368,6 +368,29 @@ def translations(sample: str = ''):
 LANG_CODES = ('es', 'fr', 'it', 'ku', 'ar')
 
 
+# ---------------------------------------------------------------- editing
+
+import content_edits  # noqa: E402
+
+
+@app.post('/api/edit')
+async def edit_text(request: Request):
+    """One text field: {file, collection, keyField, key, path, value}. Recorded in tools/content_edits.json."""
+    body = json.loads(await request.body() or b'{}')
+    try:
+        with lock:
+            old = content_edits.edit(str(body.get('file', '')), str(body.get('collection', '')), str(body.get('keyField', '')),
+                                     body.get('key'), str(body.get('path', '')), str(body.get('value', '')))
+        return {'ok': True, 'old': old}
+    except (OSError, ValueError, KeyError, IndexError) as e:
+        bad(e)
+
+
+@app.get('/api/edits')
+def edits():
+    return list(reversed(content_edits.load_edits()))
+
+
 # ---------------------------------------------------------------- media
 
 @app.get('/api/media/covers')

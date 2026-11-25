@@ -40,6 +40,11 @@ def sha256(path):
 
 def main():
     check = '--check' in sys.argv
+    if not check:
+        # Hand edits from Deschly Studio first, so a regenerated content file never goes out without them.
+        sys.path.insert(0, HERE)
+        import content_edits
+        content_edits.apply_all()
     files = sources()
     # A content file must be valid JSON before it goes to every installed app.
     for name, path in files.items():

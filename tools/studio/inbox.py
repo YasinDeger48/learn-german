@@ -203,7 +203,7 @@ def git(*args):
 
 # Only what the Studio and the content tools write. Covers: only unit and word pictures (other agents may have
 # unsaved text covers in the same folder; those are saved from the Texts page).
-SAVE_PATHS = ['Resources/content', 'Resources/i18n', 'tools/i18n',
+SAVE_PATHS = ['Resources/content', 'Resources/i18n', 'tools/i18n', 'tools/content_edits.json',
               ':(glob)Resources/Covers/unit-*.jpg', ':(glob)Resources/Covers/wp-*.jpg']
 
 

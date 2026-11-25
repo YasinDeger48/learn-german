@@ -4,6 +4,8 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { Failed, Loading, PageHeader } from '@/components/layout/PageHeader'
 import { Badge } from '@/components/ui/badge'
 import { Card } from '@/components/ui/card'
+import { Editable } from '@/components/ui/editable'
+import type { EditTarget } from '@/lib/api'
 import { LevelTabs } from '@/components/ui/level-tabs'
 import { api, type GrammarTopic } from '@/lib/api'
 import { cn } from '@/lib/utils'
@@ -15,7 +17,11 @@ function Filled({ q, answer }: { q: string; answer: string }) {
   return <>{before}<b className="rounded bg-ok-soft px-1 text-ok-ink">{answer}</b>{after}</>
 }
 
-function Topic({ topic }: { topic: GrammarTopic }) {
+function Topic({ topic, level }: { topic: GrammarTopic; level: string }) {
+  const file = `${level.toLowerCase()}.json`
+  const rule = (path: string): EditTarget => ({ file, collection: 'grammar', keyField: 'id', key: topic.id, path })
+  const itemAt = (q: string, path: string): EditTarget => ({ file, collection: 'grammarItems', keyField: 'q', key: q, path })
+  const refresh = ['grammar']
   const [onlyBroken, setOnlyBroken] = useState(false)
   const broken = topic.items.filter((i) => i.broken).length
   const items = onlyBroken ? topic.items.filter((i) => i.broken) : topic.items
@@ -28,11 +34,11 @@ function Topic({ topic }: { topic: GrammarTopic }) {
       <div className="grid gap-4 lg:grid-cols-2">
         <Card className="px-4 py-3.5">
           <h3 className="mt-0 mb-2 text-xs font-semibold tracking-wider text-muted uppercase">Rule · Türkçe</h3>
-          <p className="m-0 leading-relaxed whitespace-pre-line">{topic.rule.tr}</p>
+          <p className="m-0 leading-relaxed whitespace-pre-line"><Editable multiline value={topic.rule.tr} target={rule('rule.tr')} refresh={refresh} /></p>
         </Card>
         <Card className="px-4 py-3.5">
           <h3 className="mt-0 mb-2 text-xs font-semibold tracking-wider text-muted uppercase">Rule · English</h3>
-          <p className="m-0 leading-relaxed whitespace-pre-line">{topic.rule.en}</p>
+          <p className="m-0 leading-relaxed whitespace-pre-line"><Editable multiline value={topic.rule.en} target={rule('rule.en')} refresh={refresh} /></p>
         </Card>
       </div>
       {topic.examples.length > 0 && (
@@ -59,8 +65,8 @@ function Topic({ topic }: { topic: GrammarTopic }) {
               <div className="mt-0.5 flex flex-wrap gap-1">
                 {item.options.slice(1).map((o) => <Badge key={o} className="px-2 py-0 font-normal">{o}</Badge>)}
               </div>
-              <div className="mt-1 text-xs text-muted">{item.why.tr}</div>
-              {item.why.en && <div className={cn('text-xs', item.broken ? 'font-semibold text-bad-ink' : 'text-muted')}>{item.why.en}</div>}
+              <div className="mt-1 text-xs text-muted"><Editable multiline value={item.why.tr || ''} target={itemAt(item.q, 'why.tr')} refresh={refresh} /></div>
+              {item.why.en && <div className={cn('text-xs', item.broken ? 'font-semibold text-bad-ink' : 'text-muted')}><Editable multiline value={item.why.en} target={itemAt(item.q, 'why.en')} refresh={refresh} /></div>}
             </li>
           ))}
         </ol>
@@ -111,7 +117,7 @@ export function Grammar() {
               )
             })}
           </aside>
-          {topic && <Topic key={`${level}-${topic.id}`} topic={topic} />}
+          {topic && <Topic key={`${level}-${topic.id}`} topic={topic} level={level} />}
         </div>
       )}
     </>

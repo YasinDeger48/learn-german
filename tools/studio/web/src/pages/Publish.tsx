@@ -12,7 +12,8 @@ export function Publish() {
   const client = useQueryClient()
   const [output, setOutput] = useState('')
   const { data, error, isLoading } = useQuery({ queryKey: ['changes'], queryFn: api.changes })
-  const refresh = () => Promise.all(['changes', 'overview', 'inbox'].map((key) => client.invalidateQueries({ queryKey: [key] })))
+  const edits = useQuery({ queryKey: ['edits'], queryFn: api.edits })
+  const refresh = () => Promise.all(['changes', 'overview', 'inbox', 'edits'].map((key) => client.invalidateQueries({ queryKey: [key] })))
 
   const publish = useMutation({
     mutationFn: api.publish,
@@ -53,6 +54,21 @@ export function Publish() {
             <ul className="m-0 max-h-[420px] list-none overflow-auto p-0">
               {files.map((f) => <li key={f} className="border-t border-line-soft px-[18px] py-2 font-mono text-xs first:border-t-0">{f}</li>)}
             </ul>
+          )}
+        </Card>
+        <Card className="overflow-hidden">
+          <CardHeader title={`Hand edits (${edits.data?.length ?? 0})`} action={<span className="text-xs text-muted">kept in tools/content_edits.json, re-applied before every publish</span>} />
+          {edits.data && edits.data.length > 0 ? (
+            <div className="max-h-[420px] overflow-auto">
+              {edits.data.slice(0, 100).map((e, i) => (
+                <div key={i} className="grid gap-0.5 border-t border-line-soft px-[18px] py-2 text-[13px] first:border-t-0">
+                  <div className="text-xs text-muted">{e.at.replace('T', ' ')} · {e.file} · {e.collection} {String(e.key)} · {e.path}</div>
+                  <div><span className="text-bad-ink line-through decoration-1">{e.original}</span> → <b>{e.value}</b></div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="px-[18px] py-4 text-muted">No hand edits yet. Hover a text in Words, Grammar, Path units or Daily texts and click the pencil.</div>
           )}
         </Card>
         {data.texts.length > 0 && (

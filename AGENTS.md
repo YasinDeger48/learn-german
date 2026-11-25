@@ -21,6 +21,9 @@ The owner talks to agents in Turkish: answer him in Turkish. Code, comments, com
 5. **Content files are the source of truth.** `Resources/content/*.json` are written by the tools in `tools/`
    (see below). Do not hand-edit the minified JSON and do not regenerate a whole file to change one part:
    add a small tool or extend the existing one.
+   Hand edits made in Deschly Studio are recorded in `tools/content_edits.json`. After you regenerate a content file,
+   run `python -I -X utf8 tools/content_edits.py` so they are applied again (`tools/units.py` and
+   `tools/publish_content.py` already do this).
 6. **No secrets in the repo.** API keys live in `../tts/anahtarlar.txt` (never commit it) and in GitHub Secrets.
 7. **This PC cannot build Swift** (Windows; CI builds on GitHub). Keep changes small and compile-safe: every type
    and function you call must exist. Do not leave half-finished code that references missing types.
@@ -47,6 +50,8 @@ The owner talks to agents in Turkish: answer him in Turkish. Code, comments, com
 | `lexicon.json` (meaning of every text word) | `tools/lexicon.py` |
 | `speaking.json` | `tools/speaking.py`, `tools/speaking_a1_more.py` |
 | `writing.json` | `tools/writing.py` |
+| Hand edits from Deschly Studio (any file) | `tools/content_edits.py` (`tools/content_edits.json`) |
+| Broken umlauts (`w??rde`) in content | `tools/fix_broken_text.py` |
 | `memorize.json` (Mutlaka bil) | `tools/memorize.py` |
 | `verbs_<level>.json` (verb lab) | `tools/verblab.py` |
 | Reading / word audio, background sounds | `tools/audio.py`, `tools/word_audio.py`, `tools/audio_pad.py`, `tools/ambience.py` |

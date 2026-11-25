@@ -486,6 +486,8 @@ def main():
         json.dump({'units': UNITS + UNITS_A2 + UNITS_B1 + UNITS_B2}, f, ensure_ascii=False, indent=1)
         f.write('\n')
     print(f'{len(UNITS)} A1 + {len(UNITS_A2)} A2 + {len(UNITS_B1)} B1 + {len(UNITS_B2)} B2 units -> {OUT}')
+    import content_edits  # hand edits made in Deschly Studio survive the rewrite
+    content_edits.apply_all()
 
 
 if __name__ == '__main__':
