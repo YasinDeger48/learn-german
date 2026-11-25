@@ -53,6 +53,10 @@ enum DailyQuota {
 /// Deschly Pro: purchases with StoreKit 2 (no account, Apple keeps the receipts) and the free daily limit.
 @MainActor
 final class ProStore: ObservableObject {
+    /// Info.plist "DeschlyFreeForAll" = true: everyone gets Pro (no ads, no daily limit, no paywall).
+    /// A switch for launch periods; set it back to false to turn ads and Pro sales on again.
+    nonisolated static let freeForAll = Bundle.main.object(forInfoDictionaryKey: "DeschlyFreeForAll") as? Bool ?? false
+
     @Published private(set) var products: [Product] = []
     @Published private(set) var isPro: Bool
     @Published private(set) var remaining: Int
@@ -71,7 +75,7 @@ final class ProStore: ObservableObject {
 
     init() {
         // Last known state, so the app does not flash the limit while StoreKit answers.
-        isPro = UserDefaults.standard.bool(forKey: cacheKey)
+        isPro = ProStore.freeForAll || UserDefaults.standard.bool(forKey: cacheKey)
         remaining = DailyQuota.remaining
         updates = Task { [weak self] in
             for await result in Transaction.updates {
@@ -145,7 +149,7 @@ final class ProStore: ObservableObject {
             }
         }
         trialEnds = trialEnd
-        isPro = active
+        isPro = active || ProStore.freeForAll
         UserDefaults.standard.set(active, forKey: cacheKey)
     }
 

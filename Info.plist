@@ -26,6 +26,7 @@
     <string>DeschlyText-Medium.ttf</string>
     <string>DeschlyText-SemiBold.ttf</string>
   </array>
+  <key>DeschlyFreeForAll</key><true/>
   <key>GADApplicationIdentifier</key><string>ca-app-pub-2051677494226499~9239410708</string>
   <key>DeschlyAdBanner</key><string>ca-app-pub-2051677494226499/6330623448</string>
   <key>DeschlyAdInterstitial</key><string>ca-app-pub-2051677494226499/4114563184</string>

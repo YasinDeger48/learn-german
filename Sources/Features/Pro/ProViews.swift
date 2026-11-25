@@ -536,7 +536,10 @@ struct ProSettingsSection: View {
 
     var body: some View {
         Group {
-            if pro.isPro {
+            if ProStore.freeForAll {
+                // Everything is free for now: no Pro section at all.
+                EmptyView()
+            } else if pro.isPro {
                 Section {
                     Label(t("pro.active"), systemImage: "checkmark.seal.fill").foregroundColor(DS.success)
                     if let end = pro.trialEnds {
