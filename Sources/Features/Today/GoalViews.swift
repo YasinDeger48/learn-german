@@ -23,63 +23,41 @@ struct GoalRing<Center: View>: View {
     }
 }
 
-/// Total XP in the toolbar. Every few seconds it turns into today's goal as a battery ("🔋 60 %") and back.
-/// Tapping it opens the badges page, which starts with the daily goal card.
+/// Today's goal in the toolbar: a small ring that fills with today's XP ("30/50"); when the goal is reached,
+/// a green tick with today's XP. Tapping it opens the badges page, which starts with the daily goal card
+/// (total XP and the level are there too). Design "A · Halka".
 struct XPChip: View {
     @ObservedObject private var store = StreakStore.shared
-    @Environment(\.accessibilityReduceMotion) private var reduceMotion
-
-    private var percent: Int { Int((store.goalProgress * 100).rounded()) }
-
-    /// Battery symbols that exist since iOS 13.
-    private var battery: String {
-        if store.goalReachedToday { return "battery.100.bolt" }
-        switch percent {
-        case ..<13: return "battery.0"
-        case ..<38: return "battery.25"
-        case ..<63: return "battery.50"
-        case ..<88: return "battery.75"
-        default: return "battery.100"
-        }
-    }
-
-    private var goalColor: Color { store.goalReachedToday ? DS.success : (percent < 25 ? DS.die : DS.goldDeep) }
 
     var body: some View {
-        // Every 3 seconds by the clock: a timer made in the view restarted with each re-render.
-        TimelineView(.periodic(from: Date(timeIntervalSince1970: 0), by: 3)) { context in
-            chip(showGoal: Int(context.date.timeIntervalSince1970 / 3) % 2 == 1)
-        }
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel(t("xp.total", store.state.totalXP) + ", " + t("goal.title") + " \(percent)%")
-    }
-
-    private func chip(showGoal: Bool) -> some View {
-        ZStack {
-            if showGoal {
-                HStack(spacing: 4) {
-                    Image(systemName: battery).foregroundColor(goalColor)
-                    Text("\(percent)%").font(.subheadline.weight(.semibold)).monospacedDigit().foregroundColor(DS.ink)
+        let done = store.goalReachedToday
+        HStack(spacing: 6) {
+            ZStack {
+                if done {
+                    Circle().fill(DS.success)
+                    Image(systemName: "checkmark").font(.system(size: 10, weight: .heavy)).foregroundColor(.white)
+                } else {
+                    Circle().stroke(DS.hairline, lineWidth: 3)
+                    Circle()
+                        .trim(from: 0, to: max(0.001, store.goalProgress))
+                        .stroke(DS.gold, style: StrokeStyle(lineWidth: 3, lineCap: .round))
+                        .rotationEffect(.degrees(-90))
+                        .animation(.easeOut(duration: 0.5), value: store.goalProgress)
                 }
-                .transition(.asymmetric(insertion: .move(edge: .bottom).combined(with: .opacity),
-                                        removal: .move(edge: .top).combined(with: .opacity)))
-            } else {
-                HStack(spacing: 4) {
-                    Image(systemName: "star.fill").foregroundColor(DS.accent)
-                    Text(store.state.totalXP.formatted()).font(.subheadline.weight(.semibold)).monospacedDigit()
-                        .foregroundColor(DS.ink)
-                        .contentTransition(.numericText())
-                        .animation(.easeOut(duration: 0.3), value: store.state.totalXP)
-                }
-                .transition(.asymmetric(insertion: .move(edge: .bottom).combined(with: .opacity),
-                                        removal: .move(edge: .top).combined(with: .opacity)))
             }
+            .frame(width: 18, height: 18)
+            Text(done ? "\(store.xpToday) XP" : "\(store.xpToday)/\(store.goal)")
+                .font(.subheadline.weight(.semibold)).monospacedDigit()
+                .foregroundColor(done ? DS.success : DS.ink)
+                .contentTransition(.numericText())
+                .animation(.easeOut(duration: 0.3), value: store.xpToday)
         }
-        .animation(reduceMotion ? nil : .easeInOut(duration: 0.4), value: showGoal)
-        .padding(.horizontal, 10)
+        .padding(.leading, 7)
+        .padding(.trailing, 11)
         .padding(.vertical, 5)
-        .background((showGoal ? goalColor : DS.accent).opacity(0.12), in: Capsule())
-        .clipShape(Capsule())
+        .background(done ? DS.success.opacity(0.14) : DS.chip, in: Capsule())
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(t("goal.title") + ": \(store.xpToday) / \(store.goal) XP")
     }
 }
 
