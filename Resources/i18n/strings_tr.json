@@ -221,7 +221,7 @@
  "settings.backupSave": "Yedek dosyası kaydet",
  "settings.credits": "Yazı tipleri: Bricolage Grotesque ve Geist (SIL Open Font License).",
  "settings.daily": "Günlük okuma",
- "settings.dailyFooter": "Hesap ve sunucu gerekmez. Bildirimi telefonun kendisi kurar.",
+ "settings.dailyFooter": "Seçtiğin saatte günün metni; 12:30’da kilit ekranından cevaplanan der/die/das quiz’i; 17:30’da günün kelimesi; 20:00’de ise sadece o gün çalışmadıysan seri hatırlatması. Hepsini iPhone’un kendisi kurar, hesap gerekmez.",
  "settings.language": "Dilin",
  "settings.permissionDenied": "Bildirim izni kapalı. iPhone Ayarlar → Deschly → Bildirimler bölümünden açabilirsin.",
  "settings.privacy": "Gizlilik politikası",
@@ -415,5 +415,14 @@
  "placement.desc.a2": "Günlük hayat: alışveriş, iş, geçmiş zaman",
  "placement.desc.b1": "Bağımsız: fikir bildirme, resmî işler, Konjunktiv II, Passiv",
  "placement.desc.b2": "İleri: haberler, iş hayatı, karmaşık cümleler",
- "settings.myLevel": "Seviyem"
+ "settings.myLevel": "Seviyem",
+ "notify.quizTitle": "der, die oder das?",
+ "notify.quizRight": "Richtig! Aferin",
+ "notify.quizWrong": "Az kaldı! Doğrusu:",
+ "notify.wordTitle": "Günün kelimesi: {0}",
+ "notify.practiceAction": "2 dakika çalış",
+ "notify.streakTitle": "Serin seni bekliyor",
+ "notify.streakBody": "Serini korumak için tek bir soru yeter. Lina hazır.",
+ "settings.notifyWords": "Gün içinde kelime ve mini quiz",
+ "settings.notifyStreak": "Akşam seri hatırlatması"
 }

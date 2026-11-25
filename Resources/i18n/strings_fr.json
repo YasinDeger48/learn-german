@@ -221,7 +221,7 @@
  "settings.backupSave": "Enregistrer une sauvegarde",
  "settings.credits": "Polices : Bricolage Grotesque et Geist (SIL Open Font License).",
  "settings.daily": "Lecture du jour",
- "settings.dailyFooter": "Ni compte ni serveur. Ton téléphone programme le rappel.",
+ "settings.dailyFooter": "Le texte du jour à ton heure, un quiz der/die/das auquel tu réponds depuis l’écran verrouillé à 12 h 30, un mot du jour à 17 h 30 et, à 20 h, un rappel de série seulement si tu n’as pas encore appris. Ton iPhone programme tout lui-même, sans compte.",
  "settings.language": "Ta langue",
  "settings.permissionDenied": "Les notifications sont désactivées. Active-les dans Réglages → Deschly → Notifications.",
  "settings.privacy": "Politique de confidentialité",
@@ -415,5 +415,14 @@
  "placement.desc.a2": "Vie quotidienne : courses, travail, passé",
  "placement.desc.b1": "Autonome : opinions, démarches, Konjunktiv II, Passiv",
  "placement.desc.b2": "Avancé : actualités, travail, phrases complexes",
- "settings.myLevel": "Mon niveau"
+ "settings.myLevel": "Mon niveau",
+ "notify.quizTitle": "der, die ou das ?",
+ "notify.quizRight": "Richtig ! Bravo",
+ "notify.quizWrong": "Presque ! C’est :",
+ "notify.wordTitle": "Mot du jour : {0}",
+ "notify.practiceAction": "S’entraîner 2 minutes",
+ "notify.streakTitle": "Ta série t’attend",
+ "notify.streakBody": "Une seule question suffit pour la garder. Lina est prête.",
+ "settings.notifyWords": "Mots et mini quiz dans la journée",
+ "settings.notifyStreak": "Rappel de série le soir"
 }

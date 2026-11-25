@@ -11,6 +11,8 @@ struct SettingsView: View {
     @State private var permissionDenied = false
     @ObservedObject private var ads = AdsManager.shared
     @State private var showPlacement = false
+    @AppStorage(Reminders.wordsKey) private var notifyWords = true
+    @AppStorage(Reminders.streakKey) private var notifyStreak = true
 
     private var reminderTime: Binding<Date> {
         Binding(get: {
@@ -47,6 +49,10 @@ struct SettingsView: View {
                     Toggle(t("settings.remind"), isOn: remindersBinding)
                     if daily.remindersOn {
                         DatePicker(t("settings.time"), selection: reminderTime, displayedComponents: .hourAndMinute)
+                        Toggle(t("settings.notifyWords"), isOn: $notifyWords)
+                            .onChange(of: notifyWords) { _ in Reminders.refresh(daily) }
+                        Toggle(t("settings.notifyStreak"), isOn: $notifyStreak)
+                            .onChange(of: notifyStreak) { _ in Reminders.refresh(daily) }
                     }
                     Picker(t("settings.myLevel"), selection: $daily.level) {
                         ForEach(DailyModel.levels.filter { daily.isAvailable($0) }, id: \.self) { Text($0).tag($0) }

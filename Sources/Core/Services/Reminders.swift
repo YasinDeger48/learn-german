@@ -1,11 +1,32 @@
 import Foundation
 import UserNotifications
 
-/// Local daily-reading reminders. No server: the phone schedules the next 30 days itself,
-/// each with that day's text title. Called again on every launch and settings change.
+/// Local notifications, no server. The phone schedules the next days itself:
+/// - the daily text at the reminder time,
+/// - two learning moments during the day: an article quiz answered right on the lock screen
+///   (der / die / das buttons) and a word of the day with an example,
+/// - an evening streak reminder, only on days without any learning (cancelled at the first answer).
+/// Called again on every launch, when the app becomes active and when a setting changes.
 enum Reminders {
-    private static let prefix = "daily-"
-    private static let days = 30
+    private static let dailyPrefix = "daily-"
+    private static let wordPrefix = "word-"
+    private static let quizPrefix = "quiz-"
+    private static let streakPrefix = "streak-"
+    private static let days = 14
+
+    static let quizCategory = "ARTICLE_QUIZ"
+    static let wordCategory = "WORD"
+
+    // Settings (UserDefaults, so @AppStorage in Settings can bind to them).
+    static let wordsKey = "notifyWords"
+    static let streakKey = "notifyStreak"
+    static var wordsOn: Bool { UserDefaults.standard.object(forKey: wordsKey) as? Bool ?? true }
+    static var streakOn: Bool { UserDefaults.standard.object(forKey: streakKey) as? Bool ?? true }
+
+    /// Learning moments during the day (hour, minute): quiz at noon, word in the afternoon.
+    private static let quizTime = (12, 30)
+    private static let wordTime = (17, 30)
+    private static let streakTime = (20, 0)
 
     static func requestPermission(_ done: @escaping (Bool) -> Void) {
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, _ in
@@ -13,37 +34,156 @@ enum Reminders {
         }
     }
 
+    /// The der / die / das buttons and the word actions; registered once at launch.
+    static func registerCategories() {
+        let articles = ["der", "die", "das"].map {
+            UNNotificationAction(identifier: "article.\($0)", title: $0, options: [])
+        }
+        let quiz = UNNotificationCategory(identifier: quizCategory, actions: articles, intentIdentifiers: [],
+                                          hiddenPreviewsBodyPlaceholder: "", options: [])
+        let practice = UNNotificationAction(identifier: "word.practice", title: t("notify.practiceAction"), options: [.foreground])
+        let word = UNNotificationCategory(identifier: wordCategory, actions: [practice], intentIdentifiers: [],
+                                          hiddenPreviewsBodyPlaceholder: "", options: [])
+        UNUserNotificationCenter.current().setNotificationCategories([quiz, word])
+    }
+
     static func refresh(_ model: DailyModel) {
         let center = UNUserNotificationCenter.current()
         let enabled = model.remindersOn
         let minutes = model.reminderMinutes
         let level = model.level
+        let wordsOn = self.wordsOn
+        let streakOn = self.streakOn
         let upcoming: [(Date, DailyText)] = (0..<days).compactMap { offset in
             guard let date = Calendar.current.date(byAdding: .day, value: offset, to: Date()),
                   let text = model.text(on: date, level: level) else { return nil }
             return (date, text)
         }
-        center.getPendingNotificationRequests { pending in
-            let old = pending.map(\.identifier).filter { $0.hasPrefix(prefix) }
-            center.removePendingNotificationRequests(withIdentifiers: old)
-            guard enabled else { return }
-            center.getNotificationSettings { settings in
-                guard settings.authorizationStatus == .authorized || settings.authorizationStatus == .provisional else { return }
-                for (date, text) in upcoming {
-                    var parts = Calendar.current.dateComponents([.year, .month, .day], from: date)
-                    parts.hour = minutes / 60
-                    parts.minute = minutes % 60
-                    guard let fire = Calendar.current.date(from: parts), fire > Date() else { continue }
-                    let content = UNMutableNotificationContent()
-                    content.title = t("notify.title")
-                    content.body = t("notify.body", text.title, text.level, text.minutes)
-                    content.sound = .default
-                    content.userInfo = ["textID": text.id]
-                    let trigger = UNCalendarNotificationTrigger(dateMatching: parts, repeats: false)
-                    let id = prefix + "\(parts.year ?? 0)-\(parts.month ?? 0)-\(parts.day ?? 0)"
-                    center.add(UNNotificationRequest(identifier: id, content: content, trigger: trigger))
+        let activeToday = StreakStore.shared.activeToday
+        DispatchQueue.global(qos: .utility).async {
+            // Words of the learner's level (practice levels only; others use A1).
+            let content = A1Content.load(LevelModels.practiceLevels.contains(level) ? level : "A1")
+            let nouns = content?.words.filter { $0.isNoun && $0.theme != A1BankBuilder.coreTheme } ?? []
+            let others = content?.words.filter { !$0.isNoun && !$0.ex.isEmpty && $0.theme != A1BankBuilder.coreTheme } ?? []
+            center.getPendingNotificationRequests { pending in
+                let ours = pending.map(\.identifier).filter {
+                    $0.hasPrefix(dailyPrefix) || $0.hasPrefix(wordPrefix) || $0.hasPrefix(quizPrefix) || $0.hasPrefix(streakPrefix)
+                }
+                center.removePendingNotificationRequests(withIdentifiers: ours)
+                guard enabled else { return }
+                center.getNotificationSettings { settings in
+                    guard settings.authorizationStatus == .authorized || settings.authorizationStatus == .provisional else { return }
+                    for (offset, item) in upcoming.enumerated() {
+                        let (date, text) = item
+                        let dayNumber = DailyModel.dayNumber(date)
+                        // Daily text.
+                        add(center, dailyPrefix, date, (minutes / 60, minutes % 60)) { c in
+                            c.title = t("notify.title")
+                            c.body = t("notify.body", text.title, text.level, text.minutes)
+                            c.userInfo = ["textID": text.id]
+                        }
+                        // Article quiz on the lock screen.
+                        if wordsOn, !nouns.isEmpty {
+                            let word = nouns[(dayNumber * 53 + 7) % nouns.count]
+                            add(center, quizPrefix, date, quizTime) { c in
+                                c.title = t("notify.quizTitle")
+                                c.body = "___ \(word.de)  ·  \(word.mean.text)"
+                                c.categoryIdentifier = quizCategory
+                                c.userInfo = ["article": word.type, "word": word.de, "meaning": word.mean.text, "level": level]
+                            }
+                        }
+                        // Word of the day with an example.
+                        if wordsOn, !others.isEmpty {
+                            let word = others[(dayNumber * 37 + 3) % others.count]
+                            let example = word.ex.first
+                            add(center, wordPrefix, date, wordTime) { c in
+                                c.title = t("notify.wordTitle", word.de)
+                                c.subtitle = word.mean.text
+                                c.body = example.map { "„\($0.de)“\n\($0.mean.text)" } ?? ""
+                                c.categoryIdentifier = wordCategory
+                                c.userInfo = ["level": level]
+                            }
+                        }
+                        // Evening streak reminder; today's is skipped when the learner was already active.
+                        if streakOn && !(offset == 0 && activeToday) {
+                            add(center, streakPrefix, date, streakTime) { c in
+                                c.title = t("notify.streakTitle")
+                                c.body = t("notify.streakBody")
+                            }
+                        }
+                    }
                 }
             }
         }
+    }
+
+    /// The first learning action of the day removes tonight's streak reminder.
+    static func cancelTodayStreakReminder() {
+        let parts = Calendar.current.dateComponents([.year, .month, .day], from: Date())
+        let id = streakPrefix + "\(parts.year ?? 0)-\(parts.month ?? 0)-\(parts.day ?? 0)"
+        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [id])
+    }
+
+    private static func add(_ center: UNUserNotificationCenter, _ prefix: String, _ date: Date, _ time: (Int, Int),
+                            fill: (UNMutableNotificationContent) -> Void) {
+        var parts = Calendar.current.dateComponents([.year, .month, .day], from: date)
+        parts.hour = time.0
+        parts.minute = time.1
+        guard let fire = Calendar.current.date(from: parts), fire > Date() else { return }
+        let content = UNMutableNotificationContent()
+        content.sound = .default
+        content.threadIdentifier = prefix
+        fill(content)
+        let trigger = UNCalendarNotificationTrigger(dateMatching: parts, repeats: false)
+        let id = prefix + "\(parts.year ?? 0)-\(parts.month ?? 0)-\(parts.day ?? 0)"
+        center.add(UNNotificationRequest(identifier: id, content: content, trigger: trigger))
+    }
+}
+
+/// Answers from the lock screen and taps on notifications.
+final class NotificationHandler: NSObject, ObservableObject, UNUserNotificationCenterDelegate {
+    static let shared = NotificationHandler()
+
+    /// A daily text to open (tap on the daily notification).
+    @Published var openTextID: String?
+    /// A level to practise (tap on "Practise" in the word notification).
+    @Published var openPractice: String?
+
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
+                                withCompletionHandler completionHandler: @escaping () -> Void) {
+        let info = response.notification.request.content.userInfo
+        let action = response.actionIdentifier
+        if action.hasPrefix("article."), let answer = info["article"] as? String, let word = info["word"] as? String {
+            let picked = String(action.dropFirst("article.".count))
+            let right = picked == answer
+            let meaning = info["meaning"] as? String ?? ""
+            DispatchQueue.main.async {
+                StreakStore.shared.record()
+                StreakStore.shared.addXP(right ? XP.correct : XP.wrong)
+                Reminders.cancelTodayStreakReminder()
+            }
+            let content = UNMutableNotificationContent()
+            content.title = right ? t("notify.quizRight") : t("notify.quizWrong")
+            content.body = "\(answer) \(word) · \(meaning)" + (right ? "  +\(XP.correct) XP" : "")
+            content.sound = right ? .default : nil
+            content.threadIdentifier = "quiz-answer"
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
+            center.add(UNNotificationRequest(identifier: "quiz-answer-\(UUID().uuidString)", content: content, trigger: trigger)) { _ in
+                completionHandler()
+            }
+            return
+        }
+        if action == "word.practice" || response.notification.request.content.categoryIdentifier == Reminders.wordCategory {
+            DispatchQueue.main.async { self.openPractice = info["level"] as? String }
+        } else if let id = info["textID"] as? String {
+            DispatchQueue.main.async { self.openTextID = id }
+        }
+        completionHandler()
+    }
+
+    /// Show notifications as banners also while the app is open.
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification,
+                                withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.banner, .sound])
     }
 }

@@ -221,7 +221,7 @@
  "settings.backupSave": "Guardar copia",
  "settings.credits": "Fuentes: Bricolage Grotesque y Geist (SIL Open Font License).",
  "settings.daily": "Lectura diaria",
- "settings.dailyFooter": "Sin cuenta ni servidor. El teléfono programa el aviso.",
+ "settings.dailyFooter": "El texto del día a tu hora, un quiz der/die/das que respondes desde la pantalla bloqueada a las 12:30, una palabra del día a las 17:30 y, a las 20:00, un aviso de racha solo si aún no has estudiado. Todo lo programa tu iPhone, sin cuenta.",
  "settings.language": "Tu idioma",
  "settings.permissionDenied": "Las notificaciones están desactivadas. Actívalas en Ajustes → Deschly → Notificaciones.",
  "settings.privacy": "Política de privacidad",
@@ -415,5 +415,14 @@
  "placement.desc.a2": "Vida diaria: compras, trabajo, pasado",
  "placement.desc.b1": "Independiente: opiniones, trámites, Konjunktiv II, Passiv",
  "placement.desc.b2": "Avanzado: noticias, trabajo, frases complejas",
- "settings.myLevel": "Mi nivel"
+ "settings.myLevel": "Mi nivel",
+ "notify.quizTitle": "¿der, die o das?",
+ "notify.quizRight": "¡Richtig! Muy bien",
+ "notify.quizWrong": "¡Casi! Es:",
+ "notify.wordTitle": "Palabra del día: {0}",
+ "notify.practiceAction": "Practicar 2 minutos",
+ "notify.streakTitle": "Tu racha te espera",
+ "notify.streakBody": "Basta una pregunta para mantenerla. Lina está lista.",
+ "settings.notifyWords": "Palabras y mini quiz durante el día",
+ "settings.notifyStreak": "Recordatorio de racha por la tarde"
 }

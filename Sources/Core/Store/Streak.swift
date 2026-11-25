@@ -105,7 +105,10 @@ final class StreakStore: ObservableObject {
             state.days = state.days.filter { keep.contains($0.key) }
         }
         save()
-        if !wasActive { NotificationCenter.default.post(name: StreakStore.changed, object: nil) }
+        if !wasActive {
+            NotificationCenter.default.post(name: StreakStore.changed, object: nil)
+            Reminders.cancelTodayStreakReminder()
+        }
     }
 
     func merge(_ other: StreakState) {

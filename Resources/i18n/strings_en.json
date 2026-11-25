@@ -221,7 +221,7 @@
  "settings.backupSave": "Save a backup file",
  "settings.credits": "Fonts: Bricolage Grotesque and Geist (SIL Open Font License).",
  "settings.daily": "Daily reading",
- "settings.dailyFooter": "No account or server needed. Your phone schedules the reminder itself.",
+ "settings.dailyFooter": "The daily text at your time, a der/die/das quiz you answer right on the lock screen at 12:30, a word of the day at 17:30, and at 20:00 a streak reminder only if you have not learned yet. Your iPhone schedules everything itself, no account needed.",
  "settings.language": "Your language",
  "settings.permissionDenied": "Notifications are off. Turn them on in iPhone Settings → Deschly → Notifications.",
  "settings.privacy": "Privacy policy",
@@ -415,5 +415,14 @@
  "placement.desc.a2": "Everyday life: shopping, work, past tense",
  "placement.desc.b1": "Independent: opinions, offices, Konjunktiv II, Passiv",
  "placement.desc.b2": "Advanced: news, work, complex sentences",
- "settings.myLevel": "My level"
+ "settings.myLevel": "My level",
+ "notify.quizTitle": "der, die or das?",
+ "notify.quizRight": "Richtig! Well done",
+ "notify.quizWrong": "Fast! It is:",
+ "notify.wordTitle": "Word of the day: {0}",
+ "notify.practiceAction": "Practise 2 minutes",
+ "notify.streakTitle": "Your streak is waiting",
+ "notify.streakBody": "One question is enough to keep it. Lina is ready when you are.",
+ "settings.notifyWords": "Words and mini quiz during the day",
+ "settings.notifyStreak": "Evening reminder for my streak"
 }

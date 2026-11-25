@@ -221,7 +221,7 @@
  "settings.backupSave": "Salva un backup",
  "settings.credits": "Caratteri: Bricolage Grotesque e Geist (SIL Open Font License).",
  "settings.daily": "Lettura quotidiana",
- "settings.dailyFooter": "Niente account né server. Il telefono programma il promemoria.",
+ "settings.dailyFooter": "Il testo del giorno alla tua ora, un quiz der/die/das a cui rispondi dalla schermata di blocco alle 12:30, una parola del giorno alle 17:30 e alle 20:00 un promemoria della serie solo se non hai ancora studiato. Fa tutto il tuo iPhone, senza account.",
  "settings.language": "La tua lingua",
  "settings.permissionDenied": "Le notifiche sono disattivate. Attivale in Impostazioni → Deschly → Notifiche.",
  "settings.privacy": "Informativa sulla privacy",
@@ -415,5 +415,14 @@
  "placement.desc.a2": "Vita quotidiana: spesa, lavoro, passato",
  "placement.desc.b1": "Autonomo: opinioni, uffici, Konjunktiv II, Passiv",
  "placement.desc.b2": "Avanzato: notizie, lavoro, frasi complesse",
- "settings.myLevel": "Il mio livello"
+ "settings.myLevel": "Il mio livello",
+ "notify.quizTitle": "der, die o das?",
+ "notify.quizRight": "Richtig! Bravo",
+ "notify.quizWrong": "Quasi! È:",
+ "notify.wordTitle": "Parola del giorno: {0}",
+ "notify.practiceAction": "Esercitati 2 minuti",
+ "notify.streakTitle": "La tua serie ti aspetta",
+ "notify.streakBody": "Basta una domanda per mantenerla. Lina è pronta.",
+ "settings.notifyWords": "Parole e mini quiz durante il giorno",
+ "settings.notifyStreak": "Promemoria serale per la serie"
 }

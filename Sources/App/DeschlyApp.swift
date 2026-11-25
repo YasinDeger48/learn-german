@@ -1,10 +1,14 @@
+import Combine
 import SwiftUI
+import UserNotifications
 
 @main
 struct DeschlyApp: App {
     init() {
         // Must run before any content is read: a new app version starts from its own bundled files.
         ContentStore.clearIfAppChanged()
+        UNUserNotificationCenter.current().delegate = NotificationHandler.shared
+        Reminders.registerCategories()
     }
 
     @StateObject private var levels = LevelModels()
@@ -76,6 +80,7 @@ struct RootView: View {
     @EnvironmentObject private var pro: ProStore
     @Environment(\.scenePhase) private var scenePhase
     @State private var celebration: Celebration?
+    @ObservedObject private var notifications = NotificationHandler.shared
     @State private var tab: AppTab = .today
     @State private var todayPath = NavigationPath()
 
@@ -108,6 +113,19 @@ struct RootView: View {
             if phase == .active { checkProgress() }
         }
         .sheet(item: $celebration) { CelebrationView(badges: $0.badges) }
+        // Taps on notifications: open the daily text or the level's practice on the Today tab.
+        .onReceive(notifications.$openTextID.compactMap { $0 }) { id in
+            tab = .today
+            todayPath = NavigationPath()
+            todayPath.append(AppRoute.reading(id))
+            notifications.openTextID = nil
+        }
+        .onReceive(notifications.$openPractice.compactMap { $0 }) { level in
+            tab = .today
+            todayPath = NavigationPath()
+            todayPath.append(AppRoute.practice(level))
+            notifications.openPractice = nil
+        }
     }
 
     /// Streak freezes for missed days, then badges earned outside a quiz (shown once).
