@@ -981,7 +981,9 @@
    "speaking": [
     "a2-3"
    ],
-   "writing": [],
+   "writing": [
+    "a2-m1"
+   ],
    "phrases": [
     {
      "de": "Gestern bin ich früh aufgestanden.",
@@ -1143,7 +1145,9 @@
    "speaking": [
     "a2-6"
    ],
-   "writing": [],
+   "writing": [
+    "a2-m2"
+   ],
    "phrases": [
     {
      "de": "Das Bild hängt über dem Sofa.",
@@ -1300,7 +1304,9 @@
    "speaking": [
     "a2-2"
    ],
-   "writing": [],
+   "writing": [
+    "a2-m3"
+   ],
    "phrases": [
     {
      "de": "Ich suche einen warmen Pullover.",
@@ -1462,7 +1468,9 @@
    "speaking": [
     "a2-1"
    ],
-   "writing": [],
+   "writing": [
+    "a2-m4"
+   ],
    "phrases": [
     {
      "de": "Der Zug hat zwanzig Minuten Verspätung.",
@@ -1624,7 +1632,9 @@
    "speaking": [
     "a2-4"
    ],
-   "writing": [],
+   "writing": [
+    "a2-m5"
+   ],
    "phrases": [
     {
      "de": "Ich fühle mich nicht gut.",
@@ -1786,7 +1796,9 @@
    "speaking": [
     "a2-5"
    ],
-   "writing": [],
+   "writing": [
+    "a2-m6"
+   ],
    "phrases": [
     {
      "de": "Ich komme später, weil der Bus nicht fährt.",
@@ -1948,7 +1960,9 @@
    "speaking": [
     "a2-1"
    ],
-   "writing": [],
+   "writing": [
+    "a2-m7"
+   ],
    "phrases": [
     {
      "de": "Als ich Kind war, habe ich viel gemalt.",
@@ -2110,7 +2124,9 @@
    "speaking": [
     "a2-5"
    ],
-   "writing": [],
+   "writing": [
+    "a2-m8"
+   ],
    "phrases": [
     {
      "de": "Mein Handy funktioniert nicht mehr.",
@@ -2266,7 +2282,9 @@
    "speaking": [
     "a2-5"
    ],
-   "writing": [],
+   "writing": [
+    "a2-m9"
+   ],
    "phrases": [
     {
      "de": "Ich versuche, jeden Tag zu lernen.",
@@ -2427,7 +2445,9 @@
    "speaking": [
     "a2-6"
    ],
-   "writing": [],
+   "writing": [
+    "a2-m10"
+   ],
    "phrases": [
     {
      "de": "Ich trenne den Müll.",

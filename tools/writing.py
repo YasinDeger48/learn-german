@@ -25,10 +25,11 @@ def point(tr, en, say, *keys):
     return {'label': {'tr': tr, 'en': en}, 'say': say, 'keys': list(keys)}
 
 
-def message(id, title, prompt, help, points, sample, min_words=25):
+def message(id, title, prompt, help, points, sample, min_words=25, level='A1', formal=None):
     # Formal (Sie) when writing to a teacher, a caretaker, a hotel …; informal (du) to friends and family.
-    formal = any(w in prompt for w in ('Frau', 'Herr', 'Hotel', 'Hausmeister'))
-    return {'id': id, 'level': 'A1', 'kind': 'message', 'title': {'tr': title[0], 'en': title[1]}, 'prompt': prompt,
+    if formal is None:
+        formal = any(w in prompt for w in ('Frau', 'Herr', 'Hotel', 'Hausmeister'))
+    return {'id': id, 'level': level, 'kind': 'message', 'title': {'tr': title[0], 'en': title[1]}, 'prompt': prompt,
             'help': {'tr': help[0], 'en': help[1]}, 'points': points, 'minWords': min_words, 'sample': sample,
             'formal': formal}
 
@@ -124,9 +125,121 @@ TASKS = [
             'Ist das Frühstück inklusive? Vielen Dank für Ihre Antwort. Mit freundlichen Grüßen, Can Öztürk'),
 ]
 
+# A2 (Goethe A2 Schreiben): Teil 1 a short message to a friend (about 30 words),
+# Teil 2 an e-mail to someone you say "Sie" to (about 40 words). Three points each.
+TASKS_A2 = [
+    message('a2-m1', ('Mesaj: Akşam yemeğine geç kalıyorum', "Message: I'm late for dinner"),
+            'Sie sind heute Abend bei Ihrer Freundin Julia zum Essen eingeladen, aber Sie kommen später. Schreiben Sie Julia eine Nachricht.',
+            ('Neden geç kaldığını, ne zaman geleceğini yaz ve bir şey getirip getirmeyeceğini sor.',
+             'Say why you are late and when you will come, and ask if you should bring something.'),
+            [point('Neden geç', 'Why late', 'Ich komme später, weil ich länger arbeiten muss.', 'weil', 'leider', 'später', 'muss'),
+             point('Ne zaman', 'When', 'Ich bin um halb acht bei dir.', 'uhr', 'halb', 'viertel', 'minuten'),
+             point('Bir şey getireyim mi', 'Shall I bring something', 'Soll ich etwas mitbringen?', 'mitbringen', 'soll ich', 'brauchst du')],
+            'Hallo Julia, es tut mir leid, aber ich komme heute später, weil ich länger arbeiten muss. Ich bin um halb acht bei dir. '
+            'Soll ich noch etwas mitbringen, vielleicht Brot oder einen Nachtisch? Liebe Grüße, Deniz',
+            min_words=30, level='A2', formal=False),
+    message('a2-m2', ('E-posta: Komşulara parti haberi', 'E-mail: telling the neighbours about a party'),
+            'Sie machen am Samstag eine Party in Ihrer Wohnung. Schreiben Sie Ihrer Nachbarin, Frau Klein, eine E-Mail.',
+            ('Partiyi haber ver, gürültü için özür dile ve onu da davet et.',
+             'Tell her about the party, apologise for the noise and invite her too.'),
+            [point('Parti', 'The party', 'Am Samstag mache ich eine Party.', 'party', 'feier', 'feiern', 'geburtstag'),
+             point('Özür', 'Apology', 'Es tut mir leid, wenn es laut wird.', 'tut mir leid', 'entschuldigung', 'laut', 'lärm'),
+             point('Davet', 'Invitation', 'Möchten Sie auch kommen?', 'möchten sie', 'kommen sie', 'einladen', 'eingeladen', 'herzlich willkommen')],
+            'Sehr geehrte Frau Klein, am Samstag feiere ich meinen Geburtstag und mache ab 19 Uhr eine kleine Party in meiner Wohnung. '
+            'Es tut mir leid, wenn es etwas laut wird. Um 23 Uhr machen wir die Musik leiser. Möchten Sie auch kommen? '
+            'Sie sind herzlich eingeladen. Mit freundlichen Grüßen, Emre Yıldız',
+            min_words=40, level='A2', formal=True),
+    message('a2-m3', ('E-posta: Yanlış ürün geldi', 'E-mail: the wrong product arrived'),
+            'Sie haben im Online-Shop „Modehaus Berg“ eine blaue Jacke bestellt, aber eine rote bekommen. Schreiben Sie dem Kundenservice eine E-Mail.',
+            ('Ne sipariş ettiğini, ne geldiğini yaz ve ne istediğini söyle (değişim ya da para iadesi).',
+             'Say what you ordered and what arrived, and what you want (an exchange or your money back).'),
+            [point('Sipariş', 'Your order', 'Ich habe eine blaue Jacke bestellt.', 'bestellt', 'bestellung'),
+             point('Sorun', 'The problem', 'Ich habe aber eine rote Jacke bekommen.', 'bekommen', 'falsch', 'geliefert', 'rote'),
+             point('İsteğin', 'What you want', 'Ich möchte die Jacke umtauschen.', 'umtauschen', 'zurückschicken', 'geld zurück', 'zurück')],
+            'Sehr geehrte Damen und Herren, am 4. März habe ich bei Ihnen eine blaue Jacke in Größe M bestellt. '
+            'Leider habe ich gestern eine rote Jacke bekommen. Ich möchte die Jacke gern umtauschen. '
+            'Können Sie mir bitte die blaue Jacke schicken? Mit freundlichen Grüßen, Aylin Koç',
+            min_words=40, level='A2', formal=True),
+    message('a2-m4', ('Mesaj: Tren rötar yaptı', 'Message: the train is late'),
+            'Sie sind mit Ihrem Kollegen Jonas zu einem Termin verabredet. Ihr Zug hat Verspätung. Schreiben Sie Jonas eine Nachricht.',
+            ('Ne olduğunu, ne zaman varacağını yaz ve ondan bir rica et.',
+             'Say what happened and when you will arrive, and ask him for a favour.'),
+            [point('Ne oldu', 'What happened', 'Mein Zug hat Verspätung.', 'verspätung', 'verpasst', 'zug', 'bus', 'später'),
+             point('Ne zaman varıyorsun', 'When you arrive', 'Ich bin gegen zehn Uhr da.', 'uhr', 'minuten', 'gegen'),
+             point('Rica', 'A favour', 'Kannst du bitte schon anfangen?', 'kannst du', 'bitte', 'sag')],
+            'Hallo Jonas, mein Zug hat leider zwanzig Minuten Verspätung und ich habe den Anschluss verpasst. '
+            'Ich bin gegen zehn Uhr da. Kannst du bitte schon mit dem Kunden anfangen? Bis gleich, Kerem',
+            min_words=30, level='A2', formal=False),
+    message('a2-m5', ('E-posta: Hastayım, işe gelemiyorum', "E-mail: I'm ill and can't come to work"),
+            'Sie sind krank und können nicht zur Arbeit gehen. Schreiben Sie Ihrem Chef, Herrn Hoffmann, eine E-Mail.',
+            ('Neyin olduğunu, doktorun ne dediğini ve ne zaman döneceğini yaz.',
+             'Say what is wrong, what the doctor said and when you will be back.'),
+            [point('Neyin var', "What's wrong", 'Ich habe Fieber und Halsschmerzen.', 'krank', 'fieber', 'schmerzen', 'erkältet', 'grippe'),
+             point('Doktor', 'The doctor', 'Der Arzt hat gesagt, dass ich zu Hause bleiben muss.', 'arzt', 'ärztin', 'krankschreibung', 'krankgeschrieben'),
+             point('Dönüş', 'When you are back', 'Ich komme am Montag wieder.', 'wieder', 'montag', 'dienstag', 'mittwoch', 'donnerstag', 'freitag', 'nächste woche')],
+            'Sehr geehrter Herr Hoffmann, leider bin ich krank. Ich habe Fieber und starke Halsschmerzen. '
+            'Ich war heute beim Arzt und er hat gesagt, dass ich bis Freitag zu Hause bleiben muss. '
+            'Am Montag komme ich wieder zur Arbeit. Die Krankschreibung schicke ich Ihnen per Post. Mit freundlichen Grüßen, Selin Arslan',
+            min_words=40, level='A2', formal=True),
+    message('a2-m6', ('E-posta: Staj hakkında bilgi', 'E-mail: asking about an internship'),
+            'Sie haben eine Anzeige für ein Praktikum in einem Hotel gelesen. Schreiben Sie Frau Schulz von der Firma eine E-Mail.',
+            ('Kendini kısaca tanıt, çalışma saatlerini sor ve neden ilgilendiğini yaz.',
+             'Introduce yourself briefly, ask about the working hours and say why you are interested.'),
+            [point('Tanıtım', 'About you', 'Ich bin 22 Jahre alt und lerne Deutsch.', 'ich bin', 'ich heiße', 'jahre alt', 'ich komme aus'),
+             point('Saatler', 'Working hours', 'Wie sind die Arbeitszeiten?', 'arbeitszeit', 'stunden', 'wann'),
+             point('Neden', 'Why', 'Ich interessiere mich für das Praktikum, weil ich gern mit Menschen arbeite.', 'weil', 'interessiere', 'gern')],
+            'Sehr geehrte Frau Schulz, ich habe Ihre Anzeige gelesen und interessiere mich für das Praktikum. '
+            'Ich bin 22 Jahre alt, komme aus der Türkei und lerne seit einem Jahr Deutsch. Ich möchte im Hotel arbeiten, weil ich gern mit Menschen arbeite. '
+            'Wie sind die Arbeitszeiten? Mit freundlichen Grüßen, Baran Çelik',
+            min_words=40, level='A2', formal=True),
+    message('a2-m7', ('E-posta: Hafta sonu konserdeydim', 'E-mail: I was at a concert at the weekend'),
+            'Sie waren am Wochenende auf einem Konzert. Schreiben Sie Ihrem Freund Max eine E-Mail.',
+            ('Nerede olduğunu, nasıl geçtiğini anlat ve onu bir sonraki konsere davet et.',
+             'Say where you were and how it was, and invite him to the next concert.'),
+            [point('Nerede', 'Where', 'Am Samstag war ich auf einem Konzert im Park.', 'war ich', 'bin ich', 'konzert', 'gewesen'),
+             point('Nasıl geçti', 'How it was', 'Die Musik war super und es hat viel Spaß gemacht.', 'war super', 'toll', 'spaß', 'gefallen', 'schön'),
+             point('Davet', 'Invitation', 'Hast du Lust, nächsten Monat mitzukommen?', 'lust', 'mitkommen', 'mitzukommen', 'kommst du')],
+            'Lieber Max, wie geht es dir? Am Samstag war ich mit Lena auf einem Konzert im Stadtpark. '
+            'Die Band war super und wir haben viel getanzt. Es hat wirklich Spaß gemacht! Im nächsten Monat spielt die Band wieder. '
+            'Hast du Lust mitzukommen? Viele Grüße, Ece',
+            min_words=40, level='A2', formal=False),
+    message('a2-m8', ('Mesaj: Telefonum bozuldu', 'Message: my phone is broken'),
+            'Ihr Handy ist kaputt und Sie haben jetzt eine neue Nummer. Schreiben Sie Ihrer Freundin Mia eine Nachricht.',
+            ('Ne olduğunu yaz, yeni numaranı ver ve fotoğrafları tekrar göndermesini rica et.',
+             'Say what happened, give your new number and ask her to send the photos again.'),
+            [point('Ne oldu', 'What happened', 'Mein Handy ist kaputt.', 'kaputt', 'funktioniert nicht', 'runtergefallen', 'heruntergefallen'),
+             point('Yeni numara', 'New number', 'Meine neue Nummer ist 0176 …', 'nummer'),
+             point('Fotoğraflar', 'The photos', 'Kannst du mir die Fotos noch einmal schicken?', 'foto', 'bilder', 'schicken')],
+            'Hallo Mia, mein Handy ist gestern runtergefallen und jetzt ist es kaputt. Meine neue Nummer ist 0176 5523190. '
+            'Kannst du mir bitte die Fotos vom Ausflug noch einmal schicken? Danke! Liebe Grüße, Zeynep',
+            min_words=30, level='A2', formal=False),
+    message('a2-m9', ('E-posta: Dil kursu hakkında soru', 'E-mail: asking about a language course'),
+            'Sie möchten einen B1-Kurs an der Sprachschule „Lingua“ machen. Schreiben Sie der Sprachschule eine E-Mail.',
+            ('Hangi kursu istediğini yaz, saatleri ve fiyatı sor.', 'Say which course you want and ask about the times and the price.'),
+            [point('Hangi kurs', 'Which course', 'Ich möchte gern einen B1-Kurs machen.', 'kurs', 'b1'),
+             point('Saatler', 'Times', 'Wann findet der Kurs statt?', 'wann', 'uhrzeit', 'abends', 'morgens', 'beginnt', 'findet'),
+             point('Fiyat', 'Price', 'Was kostet der Kurs?', 'kostet', 'preis', 'wie viel', 'gebühr')],
+            'Sehr geehrte Damen und Herren, ich habe einen A2-Kurs gemacht und möchte gern im Herbst einen B1-Kurs bei Ihnen besuchen. '
+            'Ich arbeite am Tag, deshalb suche ich einen Kurs am Abend. Wann findet der Kurs statt und was kostet er? '
+            'Vielen Dank für Ihre Antwort. Mit freundlichen Grüßen, Mert Aydın',
+            min_words=40, level='A2', formal=True),
+    message('a2-m10', ('Mesaj: Parkı birlikte temizleyelim', "Message: let's clean the park together"),
+            'In Ihrem Viertel gibt es am Samstag einen Aufräumtag im Park. Schreiben Sie Ihrem Freund Paul eine Nachricht.',
+            ('Ne olduğunu, ne zaman başladığını yaz ve ne getirmesi gerektiğini söyle.',
+             'Say what it is and when it starts, and what he should bring.'),
+            [point('Ne', 'What', 'Am Samstag räumen wir den Park auf.', 'aufräum', 'park', 'müll', 'sammeln'),
+             point('Ne zaman', 'When', 'Wir treffen uns um zehn Uhr am Eingang.', 'uhr', 'samstag', 'treffen'),
+             point('Ne getirsin', 'What to bring', 'Bring bitte Handschuhe mit.', 'mitbringen', 'bring', 'handschuhe', 'tüten')],
+            'Hallo Paul, am Samstag gibt es in unserem Viertel einen Aufräumtag. Wir sammeln Müll im Park. '
+            'Wir treffen uns um zehn Uhr am Eingang. Kommst du mit? Bring bitte Handschuhe mit! Viele Grüße, Lara',
+            min_words=30, level='A2', formal=False),
+]
+
+TASKS += TASKS_A2
+
 # A greeting and a closing are checked for every message as well.
 GREETING = ['liebe', 'lieber', 'hallo', 'hi', 'sehr geehrte', 'sehr geehrter', 'guten tag']
-CLOSING = ['grüße', 'gruß', 'bis bald', 'tschüss', 'bis dann', 'bis morgen']
+CLOSING = ['grüße', 'gruß', 'bis bald', 'tschüss', 'bis dann', 'bis morgen', 'bis gleich']
 
 
 def block(tr, en, *phrases):
@@ -138,7 +251,7 @@ PATTERN = {
     'informal': [
         block('1 · Hitap', '1 · Greeting', 'Liebe …,', 'Lieber …,', 'Hallo …,'),
         block('2 · Giriş', '2 · Opening', 'wie geht es dir?', 'danke für deine Nachricht.', 'ich schreibe dir, weil …'),
-        block('3 · Konu', '3 · The reason', 'Leider kann ich am … nicht kommen.', 'Ich bin krank.', 'Am Samstag habe ich Geburtstag.', 'Ich mache eine Party.'),
+        block('3 · Konu', '3 · The reason', 'Leider kann ich am … nicht kommen.', 'Ich bin krank.', 'Am Samstag habe ich Geburtstag.', 'Ich mache eine Party.', 'Es tut mir leid, aber …', 'Am Wochenende war ich …'),
         block('4 · Rica / soru', '4 · Request / question', 'Kannst du …?', 'Hast du am … Zeit?', 'Kannst du bitte … mitbringen?', 'Möchtest du mitkommen?'),
         block('5 · Zaman ve yer', '5 · Time and place', 'am Samstag um … Uhr', 'bei mir zu Hause', 'Wir treffen uns vor dem …'),
         block('6 · Kapanış', '6 · Closing', 'Ich freue mich auf dich!', 'Schreib mir bitte.', 'Bis bald!'),
@@ -147,8 +260,8 @@ PATTERN = {
     'formal': [
         block('1 · Hitap', '1 · Greeting', 'Sehr geehrte Frau …,', 'Sehr geehrter Herr …,', 'Sehr geehrte Damen und Herren,'),
         block('2 · Giriş', '2 · Opening', 'ich schreibe Ihnen, weil …', 'vielen Dank für Ihre E-Mail.'),
-        block('3 · Konu', '3 · The reason', 'Leider kann ich morgen nicht kommen.', 'Ich habe ein Problem mit …', 'Ich möchte vom … bis … in Hamburg bleiben.'),
-        block('4 · Rica / soru', '4 · Request / question', 'Können Sie bitte …?', 'Haben Sie noch ein Zimmer frei?', 'Was kostet …?', 'Ich möchte gern wissen, …'),
+        block('3 · Konu', '3 · The reason', 'Leider kann ich morgen nicht kommen.', 'Ich habe ein Problem mit …', 'Ich möchte vom … bis … in Hamburg bleiben.', 'Ich habe Ihre Anzeige gelesen.', 'Am … habe ich bei Ihnen … bestellt.'),
+        block('4 · Rica / soru', '4 · Request / question', 'Können Sie bitte …?', 'Könnten Sie mir bitte … schicken?', 'Haben Sie noch ein Zimmer frei?', 'Was kostet …?', 'Ich möchte gern wissen, …'),
         block('5 · Zaman ve yer', '5 · Time and place', 'am … um … Uhr', 'Ich bin ab … Uhr zu Hause.', 'seit Montag'),
         block('6 · Kapanış', '6 · Closing', 'Vielen Dank im Voraus.', 'Ich freue mich auf Ihre Antwort.'),
         block('7 · Selam', '7 · Sign-off', 'Mit freundlichen Grüßen', 'Viele Grüße'),
@@ -159,6 +272,14 @@ PATTERN = {
 def main():
     ids = [t['id'] for t in TASKS]
     assert len(ids) == len(set(ids))
+    for t in TASKS:
+        if t['kind'] != 'message':
+            continue
+        sample = t['sample'].lower()
+        assert len(t['sample'].split()) >= t['minWords'], (t['id'], len(t['sample'].split()))
+        for p in t['points']:
+            assert any(k in sample for k in p['keys']), (t['id'], p['label']['en'])
+        assert any(g in sample for g in GREETING) and any(c in sample for c in CLOSING), t['id']
     with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
         json.dump({'greeting': GREETING, 'closing': CLOSING, 'pattern': PATTERN, 'tasks': TASKS}, f, ensure_ascii=False, indent=1)
         f.write('\n')

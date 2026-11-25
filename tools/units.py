@@ -129,7 +129,7 @@ UNITS = [
 def unit2(n, topic, title, goal, grammar, speaking, phrases):
     return {'id': f'a2-{n:02d}', 'level': 'A2', 'number': n, 'title': {'tr': title[0], 'en': title[1]},
             'goal': {'tr': goal[0], 'en': goal[1]}, 'cover': f'unit-a2-{n:02d}', 'themes': [], 'grammar': grammar,
-            'topic': topic, 'texts': [], 'speaking': speaking, 'writing': [], 'phrases': phrases}
+            'topic': topic, 'texts': [], 'speaking': speaking, 'writing': [f'a2-m{n}'], 'phrases': phrases}
 
 
 UNITS_A2 = [
@@ -267,6 +267,7 @@ def main():
     a2_topics = {t['id'] for t in a2['grammar']}
     for u in UNITS_A2:
         assert set(u['grammar']) <= a2_topics, u['id']
+        assert set(u['writing']) <= writing, u['id']
         assert set(u['speaking']) <= speaking, u['id']
         assert len(u['phrases']) == 5
     with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
