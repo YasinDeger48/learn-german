@@ -51,6 +51,9 @@ struct DailyReadingView: View {
     @State private var bubbleID: String?
     @State private var bubble: WordInfo?
     @State private var bubbleWord = ""
+    /// Where the pressed word is on screen and how big the bubble is, to keep the bubble inside the screen.
+    @State private var bubbleAnchor: CGRect = .zero
+    @State private var bubbleSize: CGSize = .zero
     @Environment(\.dismiss) private var dismiss
 
     private let speeds: [Float] = [1.0, 0.8, 0.6]
@@ -202,12 +205,28 @@ struct DailyReadingView: View {
             }
             .background((open || (token.gloss != nil && selected == token.gloss)) ? DS.gold.opacity(0.25) : Color.clear,
                         in: RoundedRectangle(cornerRadius: 4, style: .continuous))
+            .background {
+                if open {
+                    GeometryReader { g in
+                        Color.clear
+                            .onAppear { bubbleAnchor = g.frame(in: .global) }
+                            .onChange(of: g.frame(in: .global)) { bubbleAnchor = $0 }
+                    }
+                }
+            }
             .overlay(alignment: .top) {
                 if open {
-                    wordBubble
+                    let below = bubbleBelow
+                    wordBubble(below: below)
                         .fixedSize()
-                        .alignmentGuide(.top) { d in d[.bottom] + 8 }
-                        .transition(.scale(scale: 0.85, anchor: .bottom).combined(with: .opacity))
+                        .background(GeometryReader { g in
+                            Color.clear
+                                .onAppear { bubbleSize = g.size }
+                                .onChange(of: g.size) { bubbleSize = $0 }
+                        })
+                        .offset(x: bubbleShift)
+                        .alignmentGuide(.top) { d in below ? d[.top] - bubbleAnchor.height - 8 : d[.bottom] + 8 }
+                        .transition(.scale(scale: 0.85, anchor: below ? .top : .bottom).combined(with: .opacity))
                 }
             }
             .zIndex(open ? 1 : 0)
@@ -240,8 +259,29 @@ struct DailyReadingView: View {
         }
     }
 
-    private var wordBubble: some View {
-        VStack(alignment: .leading, spacing: 3) {
+    /// Moves the bubble sideways so it stays 12 pt inside the screen edges.
+    private var bubbleShift: CGFloat {
+        let width = bubbleSize.width
+        guard width > 0, bubbleAnchor.width > 0 else { return 0 }
+        let screen = UIScreen.main.bounds.width
+        let margin: CGFloat = 12
+        let left = bubbleAnchor.midX - width / 2
+        let fitted = min(max(left, margin), max(margin, screen - margin - width))
+        return fitted - left
+    }
+
+    /// Opens below the word when there is no room above it (under the navigation bar).
+    private var bubbleBelow: Bool {
+        guard bubbleAnchor.height > 0 else { return false }
+        let top = (UIApplication.shared.connectedScenes.compactMap { $0 as? UIWindowScene }.first?
+            .windows.first?.safeAreaInsets.top ?? 47) + 44
+        return bubbleAnchor.minY - (bubbleSize.height > 0 ? bubbleSize.height : 90) - 12 < top
+    }
+
+    private func wordBubble(below: Bool) -> some View {
+        // The arrow stays over the word even when the bubble moved sideways.
+        let arrowX = max(-(bubbleSize.width / 2 - 20), min(bubbleSize.width / 2 - 20, -bubbleShift))
+        return VStack(alignment: .leading, spacing: 3) {
             HStack(alignment: .firstTextBaseline, spacing: 5) {
                 if let article = bubble?.article {
                     Text(article).font(.system(size: 14, weight: .heavy)).foregroundColor(a1ArticleColor(article))
@@ -258,13 +298,17 @@ struct DailyReadingView: View {
                 .fixedSize(horizontal: false, vertical: true)
             if let extra = bubble?.extra {
                 Text(extra).font(.system(size: 12)).foregroundColor(DS.onNightMuted)
+                    .frame(maxWidth: 220, alignment: .leading)
+                    .fixedSize(horizontal: false, vertical: true)
             }
         }
         .padding(.horizontal, 12)
         .padding(.vertical, 9)
         .background(DS.night, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-        .overlay(alignment: .bottom) {
-            Triangle().fill(DS.night).frame(width: 14, height: 7).offset(y: 7)
+        .overlay(alignment: below ? .top : .bottom) {
+            Triangle().fill(DS.night).frame(width: 14, height: 7)
+                .rotationEffect(.degrees(below ? 180 : 0))
+                .offset(x: bubbleSize.width > 0 ? arrowX : 0, y: below ? -7 : 7)
         }
         .shadow(color: .black.opacity(0.25), radius: 12, y: 6)
         .accessibilityElement(children: .combine)
