@@ -19,6 +19,9 @@ import sys
 import urllib.error
 import urllib.request
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import audio_pad  # noqa: E402
+
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.dirname(REPO)
 SITE_AUDIO = os.path.join(ROOT, 'deschly-site', 'audio')
@@ -89,7 +92,10 @@ def main():
             print(f'  {text_id} {short}: error {e.code} {e.read()[:160]!r}')
             continue
         os.makedirs(os.path.dirname(path), exist_ok=True)
-        open(path, 'wb').write(audio)
+        with open(path, 'wb') as f:
+            f.write(audio)
+        audio_pad.pad(path)
+        audio_pad.mark([path])
         index.setdefault(text_id, {})[short] = digest
         made += 1
         if made % 10 == 0:

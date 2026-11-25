@@ -20,6 +20,9 @@ import time
 import urllib.error
 import urllib.request
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import audio_pad  # noqa: E402
+
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.dirname(REPO)
 OUT = os.path.join(ROOT, 'deschly-site', 'audio')
@@ -101,6 +104,7 @@ def main():
         sys.exit('Over the limit: pass --max-chars=N')
 
     key = google_key()
+    tool = audio_pad.ffmpeg()
     failed = []
 
     def make(job):
@@ -111,6 +115,7 @@ def main():
                 audio = synthesize(key, text)
                 with open(path, 'wb') as f:  # only after a good answer, so a failure leaves no empty file
                     f.write(audio)
+                audio_pad.pad(path, tool)
                 return job, None
             except urllib.error.HTTPError as e:
                 if e.code != 429:
@@ -131,6 +136,7 @@ def main():
                 print(f'  {n}/{len(jobs)}')
                 json.dump({'items': items}, open(index_path, 'w', encoding='utf-8'), ensure_ascii=False, sort_keys=True)
     json.dump({'items': items}, open(index_path, 'w', encoding='utf-8'), ensure_ascii=False, sort_keys=True)
+    audio_pad.mark([j[2] for j in jobs if os.path.exists(j[2])])
     size = sum(os.path.getsize(os.path.join(folder, f)) for f in os.listdir(folder))
     print(f'made {len(jobs) - len(failed)}, failed {len(failed)}; words.json {len(items)} items; w/ folder {size / 1e6:.1f} MB')
     for text, error in failed[:15]:

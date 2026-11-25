@@ -189,15 +189,36 @@ final class A1Model: ObservableObject {
         s.save(level)
     }
 
-    /// Never-seen questions only, so the same question is not asked twice.
+    /// How much a question is worth asking now: new and weak questions often, well-known ones rarely.
+    /// Uses the spaced-repetition box (0 = just got it wrong … 5 = known for weeks) and the mistakes list.
+    private func weight(_ q: A1Question, reviews: [String: ReviewItem], wrong: Set<String>, today: String) -> Double {
+        if wrong.contains(q.id) { return 5 }
+        guard let item = reviews[q.id] else {
+            return state.seen.contains(q.id) ? 2 : 3  // never answered: new material comes often
+        }
+        let byBox: [Double] = [4, 2.5, 1.2, 0.5, 0.2, 0.08]
+        let base = byBox[min(max(item.box, 0), byBox.count - 1)]
+        return item.due <= today ? base * 2 : base  // due for review: twice as likely
+    }
+
+    /// A practice round that adapts to the learner: new questions and weak ones (wrong before, low box, due)
+    /// come often, questions known for a long time only now and then. Weighted random without repeats
+    /// (key = random^(1 / weight)), so every round is different. Mixed rounds spread over the games.
     func session(mode: A1Mode? = nil, theme: Int? = nil, topic: Int? = nil, count: Int = 20) -> [A1Question] {
         let pool = questions.filter { q in
             (mode == nil || q.mode == mode) && (topic == nil || q.topic == topic) &&
-                (theme == nil ? !A1Model.isCore(q) : q.theme == theme) && !state.seen.contains(q.id)
+                (theme == nil ? !A1Model.isCore(q) : q.theme == theme)
         }
-        if mode != nil { return Array(pool.shuffled().prefix(count)) }
-        // Mixed: spread the questions over the different games.
-        var buckets = Dictionary(grouping: pool.shuffled(), by: \.mode).values.map { Array($0) }
+        let reviews = ReviewStore.load(level)
+        let wrong = Set(state.wrong)
+        let today = A1Model.dayString(Date())
+        let ranked = pool
+            .map { q in (q, pow(Double.random(in: 0.000_001..<1), 1 / weight(q, reviews: reviews, wrong: wrong, today: today))) }
+            .sorted { $0.1 > $1.1 }
+            .map { $0.0 }
+        if mode != nil { return Array(ranked.prefix(count)) }
+        // Mixed: take from the different games in turn, each game in its ranked order.
+        var buckets = Dictionary(grouping: ranked, by: \.mode).values.map { Array($0) }
         var result: [A1Question] = []
         while result.count < count && !buckets.isEmpty {
             buckets.shuffle()
