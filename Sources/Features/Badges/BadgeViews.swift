@@ -30,15 +30,29 @@ struct BadgeIcon: View {
 
 /// XP level, weekly XP, the next goal and every badge.
 struct BadgesView: View {
+    /// Opened as a sheet (from Today): it brings its own navigation bar with Done.
+    /// Pushed from Profile it must NOT: a NavigationStack inside a NavigationStack leaves the row stuck.
+    var asSheet = false
     @ObservedObject private var streak = StreakStore.shared
     @ObservedObject private var badges = BadgeStore.shared
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
+        if asSheet {
+            NavigationStack {
+                page.toolbar {
+                    ToolbarItem(placement: .confirmationAction) { Button(t("common.done")) { dismiss() } }
+                }
+            }
+        } else {
+            page
+        }
+    }
+
+    private var page: some View {
         let values = Dictionary(uniqueKeysWithValues: [Badge.Kind.welcome, .streak, .xp, .correct, .perfect, .reading, .goal]
             .map { ($0, badges.value($0)) })
-        NavigationStack {
-            ScrollView {
+        return ScrollView {
                 VStack(alignment: .leading, spacing: 14) {
                     if badges.onlyWelcome { waitingCard }
                     levelCard
@@ -84,11 +98,7 @@ struct BadgesView: View {
             .background(DS.ground.ignoresSafeArea())
             .navigationTitle(t("badges.title"))
             .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .confirmationAction) { Button(t("common.done")) { dismiss() } }
-            }
             .onAppear { badges.refresh() }
-        }
     }
 
     private var welcome: Badge { Badge(kind: .welcome, target: 1) }

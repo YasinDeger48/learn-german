@@ -40,7 +40,7 @@ struct TodayView: View {
         .sheet(isPresented: $showStreak) {
             StreakView(open: open).environmentObject(daily).presentationDragIndicator(.visible)
         }
-        .sheet(isPresented: $showBadges) { BadgesView().presentationDragIndicator(.visible) }
+        .sheet(isPresented: $showBadges) { BadgesView(asSheet: true).presentationDragIndicator(.visible) }
     }
 
     /// Quick practice follows the level chosen above (A1, A2 …); levels without practice fall back to A1.

@@ -465,7 +465,10 @@ struct CertificateDetailView: View {
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("cert.title", certificate.level))
         .navigationBarTitleDisplayMode(.inline)
-        .onAppear { pdf = makePDF() }
+        .onAppear {
+            // ImageRenderer works on the main thread: wait for the push animation to finish first.
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) { if pdf == nil { pdf = makePDF() } }
+        }
         .onChange(of: name) { _ in pdf = makePDF() }
     }
 
