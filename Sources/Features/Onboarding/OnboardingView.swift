@@ -1,10 +1,16 @@
 import SwiftUI
 
-/// First launch: Lina greets, asks for the learner's language, then offers the daily reminder.
+/// First launch: Lina greets, asks for the learner's language, finds the level (short test or own choice),
+/// then offers the daily reminder.
 struct OnboardingView: View {
+    enum Step { case language, levelWay, test, result, pick, reminder }
+
     @EnvironmentObject private var daily: DailyModel
+    @EnvironmentObject private var levels: LevelModels
     @State private var language: AppLanguage = AppLanguage.device
-    @State private var step = 0
+    @State private var step = Step.language
+    @State private var recommended: String?
+    @State private var level = "A1"
     @State private var reminderTime = Calendar.current.date(from: DateComponents(hour: 8, minute: 0)) ?? Date()
 
     /// Strings for the language being chosen, before the app switches to it.
@@ -26,7 +32,20 @@ struct OnboardingView: View {
             }
             .padding(.top, 24)
 
-            if step == 0 { languageStep } else { reminderStep }
+            switch step {
+            case .language: languageStep
+            case .levelWay: levelWayStep
+            case .test:
+                PlacementTestView(text: preview) { result in
+                    recommended = result
+                    level = result
+                    step = .result
+                }
+                .padding(.top, 24)
+            case .result: resultStep
+            case .pick: pickStep
+            case .reminder: reminderStep
+            }
         }
         .padding(.horizontal, DS.gutter)
         .padding(.bottom, 24)
@@ -81,7 +100,7 @@ struct OnboardingView: View {
                 .frame(maxWidth: .infinity)
                 .padding(.bottom, 10)
             Button {
-                step = 1
+                step = .levelWay
             } label: {
                 HStack {
                     Text(preview("onboarding.start"))
@@ -91,6 +110,111 @@ struct OnboardingView: View {
             }
             .buttonStyle(PillButtonStyle())
         }
+    }
+
+    // MARK: Level
+
+    private var levelWayStep: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            Text(preview("placement.wayTitle"))
+                .font(DS.display(30))
+                .foregroundColor(DS.ink)
+                .padding(.top, 28)
+            Text(preview("placement.wayText"))
+                .font(DS.text(16))
+                .foregroundColor(DS.ink.opacity(0.8))
+                .padding(.top, 8)
+            VStack(spacing: 10) {
+                wayCard(icon: "checklist", color: DS.accent, title: preview("placement.wayTest"), sub: preview("placement.wayTestSub")) {
+                    step = .test
+                }
+                wayCard(icon: "hand.point.up.left.fill", color: .orange, title: preview("placement.wayPick"), sub: preview("placement.wayPickSub")) {
+                    recommended = nil
+                    step = .pick
+                }
+                wayCard(icon: "sparkles", color: DS.success, title: preview("placement.wayBeginner"), sub: preview("placement.wayBeginnerSub")) {
+                    level = "A1"
+                    finishLevel()
+                }
+            }
+            .padding(.top, 22)
+            Spacer()
+        }
+    }
+
+    private func wayCard(icon: String, color: Color, title: String, sub: String, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            HStack(spacing: 14) {
+                Image(systemName: icon)
+                    .font(.system(size: 18, weight: .semibold))
+                    .foregroundColor(.white)
+                    .frame(width: 46, height: 46)
+                    .background(color, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(title).font(.system(size: 16, weight: .bold)).foregroundColor(DS.ink)
+                    Text(sub).font(.footnote).foregroundColor(DS.muted).multilineTextAlignment(.leading)
+                }
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right").font(.footnote.weight(.bold)).foregroundStyle(.tertiary)
+            }
+            .padding(14)
+            .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+        }
+        .buttonStyle(.plain)
+    }
+
+    private var resultStep: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            Text(preview("placement.resultTitle").replacingOccurrences(of: "{0}", with: recommended ?? level))
+                .font(DS.display(30))
+                .foregroundColor(DS.ink)
+                .padding(.top, 28)
+            Text(preview("placement.resultBody"))
+                .font(DS.text(16))
+                .foregroundColor(DS.ink.opacity(0.8))
+                .padding(.top, 8)
+            ScrollView {
+                LevelPickerList(text: preview, recommended: recommended, selection: $level).padding(.vertical, 18)
+            }
+            Button {
+                finishLevel()
+            } label: {
+                Text(preview("placement.startWith").replacingOccurrences(of: "{0}", with: level))
+            }
+            .buttonStyle(PillButtonStyle())
+        }
+    }
+
+    private var pickStep: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            Text(preview("placement.pickTitle"))
+                .font(DS.display(30))
+                .foregroundColor(DS.ink)
+                .padding(.top, 28)
+            ScrollView {
+                LevelPickerList(text: preview, recommended: nil, selection: $level).padding(.vertical, 18)
+            }
+            Button {
+                finishLevel()
+            } label: {
+                Text(preview("placement.startWith").replacingOccurrences(of: "{0}", with: level))
+            }
+            .buttonStyle(PillButtonStyle())
+            Button {
+                step = .test
+            } label: {
+                Text(preview("placement.wayTest")).frame(maxWidth: .infinity)
+            }
+            .buttonStyle(GhostButtonStyle())
+            .padding(.top, 8)
+        }
+    }
+
+    /// The chosen level drives the daily text and the practice shown on Today.
+    private func finishLevel() {
+        if daily.isAvailable(level) { daily.level = level }
+        levels.active = level
+        step = .reminder
     }
 
     private var reminderStep: some View {

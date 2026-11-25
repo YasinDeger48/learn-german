@@ -14,7 +14,6 @@ struct TodayView: View {
             VStack(alignment: .leading, spacing: 0) {
                 greeting.padding(.top, 4)
                 DailyGoalCard().padding(.top, 16)
-                levelTabs.padding(.top, 16)
                 dailyCard.padding(.top, 16)
                 if let word = wordOfDay { wordCard(word).padding(.top, 14) }
                 TodayPractice(model: practiceModel).padding(.top, 22)
@@ -71,31 +70,6 @@ struct TodayView: View {
         default: break
         }
         return "Lina: Bereit für deinen Text?"
-    }
-
-    private var levelTabs: some View {
-        HStack(spacing: 22) {
-            ForEach(DailyModel.levels, id: \.self) { level in
-                let active = level == daily.level
-                let available = daily.isAvailable(level)
-                Button {
-                    if available { daily.level = level }
-                } label: {
-                    VStack(spacing: 8) {
-                        Text(level)
-                            .font(DS.text(15, active ? .semibold : .medium))
-                            .foregroundColor(active ? DS.ink : (available ? DS.muted : DS.muted.opacity(0.5)))
-                        Rectangle().fill(active ? DS.ink : Color.clear).frame(height: 2)
-                    }
-                    .frame(minWidth: 32, minHeight: 36)
-                }
-                .buttonStyle(.plain)
-                .disabled(!available)
-                .accessibilityLabel(available ? level : t("levels.soonA11y", level))
-            }
-            Spacer()
-        }
-        .overlay(alignment: .bottom) { Rectangle().fill(DS.hairline).frame(height: 1) }
     }
 
     @ViewBuilder

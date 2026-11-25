@@ -10,6 +10,7 @@ struct SettingsView: View {
     @State private var status: String?
     @State private var permissionDenied = false
     @ObservedObject private var ads = AdsManager.shared
+    @State private var showPlacement = false
 
     private var reminderTime: Binding<Date> {
         Binding(get: {
@@ -47,9 +48,10 @@ struct SettingsView: View {
                     if daily.remindersOn {
                         DatePicker(t("settings.time"), selection: reminderTime, displayedComponents: .hourAndMinute)
                     }
-                    Picker(t("settings.textLevel"), selection: $daily.level) {
+                    Picker(t("settings.myLevel"), selection: $daily.level) {
                         ForEach(DailyModel.levels.filter { daily.isAvailable($0) }, id: \.self) { Text($0).tag($0) }
                     }
+                    Button(t("placement.retake")) { showPlacement = true }
                 } header: {
                     Text(t("settings.daily"))
                 } footer: {
@@ -84,6 +86,7 @@ struct SettingsView: View {
             .scrollContentBackground(.hidden)
             .background(DS.ground.ignoresSafeArea())
             .navigationTitle(t("settings.title"))
+            .sheet(isPresented: $showPlacement) { PlacementSheet() }
             .fileExporter(isPresented: $exporting, document: document, contentType: .json, defaultFilename: "Deschly-Backup") { result in
                 if case .success = result { status = t("backup.saved") } else { status = t("backup.saveFailed") }
             }
