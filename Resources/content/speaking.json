@@ -1,0 +1,2166 @@
+{
+ "tasks": [
+  {
+   "id": "a1-1",
+   "level": "A1",
+   "seconds": 45,
+   "title": {
+    "tr": "Kendini tanıt",
+    "en": "Introduce yourself"
+   },
+   "prompt": "Stellen Sie sich bitte vor.",
+   "help": {
+    "tr": "Adın, yaşın, nereden geldiğin, nerede yaşadığın, dillerin, mesleğin ve hobin.",
+    "en": "Your name, age, where you come from and live, languages, job and hobby."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Adın",
+      "en": "Name"
+     },
+     "say": "Ich heiße …",
+     "keys": [
+      "ich heiße",
+      "mein name ist",
+      "ich bin"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Yaşın",
+      "en": "Age"
+     },
+     "say": "Ich bin … Jahre alt.",
+     "keys": [
+      "jahre alt",
+      "jahre"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Nereden geldiğin",
+      "en": "Country"
+     },
+     "say": "Ich komme aus …",
+     "keys": [
+      "ich komme aus",
+      "komme aus"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Nerede yaşadığın",
+      "en": "Where you live"
+     },
+     "say": "Ich wohne in …",
+     "keys": [
+      "ich wohne",
+      "wohne in",
+      "lebe in"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Diller",
+      "en": "Languages"
+     },
+     "say": "Ich spreche …",
+     "keys": [
+      "ich spreche",
+      "spreche"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Meslek",
+      "en": "Job"
+     },
+     "say": "Ich arbeite als …",
+     "keys": [
+      "ich arbeite",
+      "von beruf",
+      "ich studiere",
+      "ich bin schüler",
+      "ich bin student",
+      "ich lerne"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Hobi",
+      "en": "Hobby"
+     },
+     "say": "Mein Hobby ist …",
+     "keys": [
+      "hobby",
+      "gern",
+      "spiele",
+      "lese",
+      "mag"
+     ]
+    }
+   ],
+   "sample": "Hallo! Ich heiße Elif. Ich bin achtundzwanzig Jahre alt. Ich komme aus der Türkei, aus Izmir. Jetzt wohne ich in Köln. Ich spreche Türkisch, Englisch und ein bisschen Deutsch. Ich arbeite als Krankenschwester. Mein Hobby ist Lesen, und ich koche sehr gern."
+  },
+  {
+   "id": "a1-2",
+   "level": "A1",
+   "seconds": 45,
+   "title": {
+    "tr": "Ailem",
+    "en": "My family"
+   },
+   "prompt": "Erzählen Sie über Ihre Familie.",
+   "help": {
+    "tr": "Ailende kimler var, adları, yaşları, nerede yaşıyorlar, ne iş yapıyorlar?",
+    "en": "Who is in your family, their names, ages, where they live and what they do."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Aile üyeleri",
+      "en": "Family members"
+     },
+     "say": "Ich habe einen Bruder und …",
+     "keys": [
+      "ich habe",
+      "bruder",
+      "schwester",
+      "geschwister",
+      "eltern",
+      "mutter",
+      "vater",
+      "kinder"
+     ]
+    },
+    {
+     "label": {
+      "tr": "İsimler",
+      "en": "Names"
+     },
+     "say": "Meine Mutter heißt …",
+     "keys": [
+      "heißt",
+      "heißen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Yaşlar",
+      "en": "Ages"
+     },
+     "say": "Er ist … Jahre alt.",
+     "keys": [
+      "jahre alt",
+      "jahre"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Nerede yaşıyorlar",
+      "en": "Where they live"
+     },
+     "say": "Sie wohnen in …",
+     "keys": [
+      "wohnt",
+      "wohnen",
+      "lebt",
+      "leben"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne iş yapıyorlar",
+      "en": "What they do"
+     },
+     "say": "Mein Vater arbeitet als …",
+     "keys": [
+      "arbeitet",
+      "arbeiten",
+      "von beruf",
+      "studiert",
+      "geht zur schule",
+      "ist rentner",
+      "ist rentnerin"
+     ]
+    }
+   ],
+   "sample": "Meine Familie ist nicht groß. Meine Mutter heißt Ayşe, sie ist fünfundfünfzig Jahre alt. Mein Vater heißt Mehmet, er ist Rentner. Ich habe einen Bruder. Er heißt Can und ist zweiundzwanzig. Er studiert in Ankara. Meine Eltern wohnen in Bursa."
+  },
+  {
+   "id": "a1-3",
+   "level": "A1",
+   "seconds": 45,
+   "title": {
+    "tr": "Günüm",
+    "en": "My day"
+   },
+   "prompt": "Wie sieht Ihr Tag aus?",
+   "help": {
+    "tr": "Kaçta kalkarsın, kahvaltı, iş/okul, öğle, akşam ne yaparsın?",
+    "en": "When you get up, breakfast, work or school, lunch and evening."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Kalkış saati",
+      "en": "Getting up"
+     },
+     "say": "Ich stehe um sieben Uhr auf.",
+     "keys": [
+      "stehe",
+      "aufstehen",
+      "auf"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kahvaltı",
+      "en": "Breakfast"
+     },
+     "say": "Ich frühstücke …",
+     "keys": [
+      "frühstück",
+      "frühstücke"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Saat",
+      "en": "Times"
+     },
+     "say": "Um acht Uhr …",
+     "keys": [
+      "uhr"
+     ]
+    },
+    {
+     "label": {
+      "tr": "İş veya okul",
+      "en": "Work or school"
+     },
+     "say": "Dann gehe ich zur Arbeit.",
+     "keys": [
+      "arbeit",
+      "arbeite",
+      "schule",
+      "kurs",
+      "uni",
+      "büro"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Akşam",
+      "en": "Evening"
+     },
+     "say": "Am Abend …",
+     "keys": [
+      "abend",
+      "abends"
+     ]
+    }
+   ],
+   "sample": "Ich stehe um halb sieben auf. Ich frühstücke Brot mit Käse und trinke Tee. Um acht Uhr fahre ich mit dem Bus zur Arbeit. Mittags esse ich in der Kantine. Um fünf Uhr gehe ich nach Hause. Am Abend koche ich, und dann sehe ich fern."
+  },
+  {
+   "id": "a1-4",
+   "level": "A1",
+   "seconds": 40,
+   "title": {
+    "tr": "Alışverişte",
+    "en": "Shopping"
+   },
+   "prompt": "Sie sind im Supermarkt. Fragen Sie nach Produkten und Preisen.",
+   "help": {
+    "tr": "Bir şey iste, fiyatını sor, teşekkür et.",
+    "en": "Ask for something, ask the price, say thank you."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Kibarca selam",
+      "en": "Greet politely"
+     },
+     "say": "Guten Tag!",
+     "keys": [
+      "guten tag",
+      "hallo",
+      "entschuldigung",
+      "guten morgen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Bir şey iste",
+      "en": "Ask for something"
+     },
+     "say": "Ich möchte …",
+     "keys": [
+      "ich möchte",
+      "ich hätte gern",
+      "ich brauche",
+      "haben sie"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Fiyat sor",
+      "en": "Ask the price"
+     },
+     "say": "Was kostet …?",
+     "keys": [
+      "kostet",
+      "wie viel",
+      "wie teuer"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Miktar",
+      "en": "Amount"
+     },
+     "say": "ein Kilo, zwei Flaschen …",
+     "keys": [
+      "kilo",
+      "gramm",
+      "flasche",
+      "stück",
+      "packung",
+      "liter"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Teşekkür et",
+      "en": "Say thank you"
+     },
+     "say": "Danke schön!",
+     "keys": [
+      "danke",
+      "vielen dank"
+     ]
+    }
+   ],
+   "sample": "Guten Tag! Entschuldigung, haben Sie Tomaten? Ich möchte ein Kilo Tomaten und zwei Flaschen Wasser. Was kostet das Brot? Zwei Euro fünfzig? Gut, das nehme ich auch. Vielen Dank! Auf Wiedersehen!"
+  },
+  {
+   "id": "a1-5",
+   "level": "A1",
+   "seconds": 45,
+   "title": {
+    "tr": "Hafta sonum",
+    "en": "My weekend"
+   },
+   "prompt": "Was machen Sie am Wochenende?",
+   "help": {
+    "tr": "Cumartesi ve pazar ne yaparsın, kiminle, nerede?",
+    "en": "What you do on Saturday and Sunday, with whom, where."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Cumartesi/Pazar",
+      "en": "Saturday or Sunday"
+     },
+     "say": "Am Samstag …",
+     "keys": [
+      "samstag",
+      "sonntag",
+      "wochenende"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne yapıyorsun",
+      "en": "Activities"
+     },
+     "say": "Ich gehe einkaufen / spazieren.",
+     "keys": [
+      "gehe",
+      "spiele",
+      "besuche",
+      "koche",
+      "schlafe",
+      "treffe",
+      "mache"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kiminle",
+      "en": "With whom"
+     },
+     "say": "mit meiner Familie / mit Freunden",
+     "keys": [
+      "mit meiner",
+      "mit meinem",
+      "mit freunden",
+      "mit der familie",
+      "allein"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne seviyorsun",
+      "en": "What you like"
+     },
+     "say": "Ich … gern.",
+     "keys": [
+      "gern",
+      "mag",
+      "liebe"
+     ]
+    }
+   ],
+   "sample": "Am Samstag schlafe ich lange. Dann gehe ich mit meiner Freundin einkaufen. Am Abend treffe ich Freunde im Café. Am Sonntag besuche ich meine Familie. Wir essen zusammen und gehen im Park spazieren. Ich mag das Wochenende sehr."
+  },
+  {
+   "id": "a1-6",
+   "level": "A1",
+   "seconds": 40,
+   "title": {
+    "tr": "Evim",
+    "en": "My home"
+   },
+   "prompt": "Beschreiben Sie Ihre Wohnung.",
+   "help": {
+    "tr": "Kaç oda var, nasıl, en sevdiğin yer neresi?",
+    "en": "How many rooms, what they are like, your favourite place."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Ev / daire",
+      "en": "Flat or house"
+     },
+     "say": "Ich wohne in einer Wohnung.",
+     "keys": [
+      "wohnung",
+      "haus",
+      "zimmer"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Odalar",
+      "en": "Rooms"
+     },
+     "say": "Sie hat drei Zimmer.",
+     "keys": [
+      "zimmer",
+      "küche",
+      "bad",
+      "balkon",
+      "schlafzimmer",
+      "wohnzimmer"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Nasıl",
+      "en": "What it is like"
+     },
+     "say": "Die Küche ist klein, aber hell.",
+     "keys": [
+      "groß",
+      "klein",
+      "hell",
+      "schön",
+      "neu",
+      "alt",
+      "gemütlich"
+     ]
+    },
+    {
+     "label": {
+      "tr": "En sevdiğin yer",
+      "en": "Favourite place"
+     },
+     "say": "Mein Lieblingsplatz ist …",
+     "keys": [
+      "lieblings",
+      "gefällt",
+      "mag"
+     ]
+    }
+   ],
+   "sample": "Ich wohne in einer kleinen Wohnung im zweiten Stock. Sie hat zwei Zimmer, eine Küche und ein Bad. Das Wohnzimmer ist hell und gemütlich. Die Küche ist klein, aber neu. Mein Lieblingsplatz ist der Balkon. Dort trinke ich morgens Kaffee."
+  },
+  {
+   "id": "a2-1",
+   "level": "A2",
+   "seconds": 60,
+   "title": {
+    "tr": "Son tatilim",
+    "en": "My last holiday"
+   },
+   "prompt": "Erzählen Sie von Ihrem letzten Urlaub.",
+   "help": {
+    "tr": "Nereye gittin, kiminle, ne yaptın, hava nasıldı, nasıl buldun? (Perfekt)",
+    "en": "Where you went, with whom, what you did, the weather, how you liked it. (Perfekt)"
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Nereye",
+      "en": "Where"
+     },
+     "say": "Ich bin nach … gefahren.",
+     "keys": [
+      "bin nach",
+      "gefahren",
+      "geflogen",
+      "war in",
+      "waren in"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kiminle",
+      "en": "With whom"
+     },
+     "say": "mit meiner Familie",
+     "keys": [
+      "mit meiner",
+      "mit meinem",
+      "mit freunden",
+      "allein"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne yaptın",
+      "en": "What you did"
+     },
+     "say": "Wir haben … besucht.",
+     "keys": [
+      "besucht",
+      "gesehen",
+      "gemacht",
+      "gegessen",
+      "gebadet",
+      "geschwommen",
+      "gewandert"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Hava",
+      "en": "Weather"
+     },
+     "say": "Das Wetter war …",
+     "keys": [
+      "wetter",
+      "sonne",
+      "warm",
+      "heiß",
+      "regen",
+      "kalt"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Nasıl buldun",
+      "en": "How you liked it"
+     },
+     "say": "Es hat mir gut gefallen.",
+     "keys": [
+      "gefallen",
+      "war schön",
+      "war toll",
+      "super",
+      "wunderbar",
+      "nicht so gut"
+     ]
+    }
+   ],
+   "sample": "Letzten Sommer bin ich mit meiner Familie nach Antalya geflogen. Wir waren zehn Tage dort. Wir haben in einem kleinen Hotel am Meer gewohnt. Jeden Tag sind wir geschwommen, und abends haben wir Fisch gegessen. Das Wetter war sehr heiß, fast vierzig Grad. Einmal haben wir eine Bootstour gemacht. Der Urlaub hat mir sehr gut gefallen."
+  },
+  {
+   "id": "a2-2",
+   "level": "A2",
+   "seconds": 60,
+   "title": {
+    "tr": "Yemek ve içecek",
+    "en": "Food and drink"
+   },
+   "prompt": "Was essen und trinken Sie gern? Wie ist das in Ihrem Land?",
+   "help": {
+    "tr": "Kahvaltı, en sevdiğin yemek, yemek yapıyor musun, ülkende ne yenir?",
+    "en": "Breakfast, your favourite dish, do you cook, what people eat in your country."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Kahvaltı",
+      "en": "Breakfast"
+     },
+     "say": "Zum Frühstück esse ich …",
+     "keys": [
+      "frühstück"
+     ]
+    },
+    {
+     "label": {
+      "tr": "En sevdiğin yemek",
+      "en": "Favourite food"
+     },
+     "say": "Mein Lieblingsessen ist …",
+     "keys": [
+      "lieblingsessen",
+      "esse gern",
+      "mag",
+      "liebe"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Yemek yapmak",
+      "en": "Cooking"
+     },
+     "say": "Ich koche oft / selten.",
+     "keys": [
+      "koche",
+      "kochen",
+      "gekocht"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülkende",
+      "en": "In your country"
+     },
+     "say": "In meinem Land isst man …",
+     "keys": [
+      "in meinem land",
+      "bei uns",
+      "in der türkei",
+      "man isst",
+      "in meiner heimat"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne sıklıkla",
+      "en": "How often"
+     },
+     "say": "oft, manchmal, nie",
+     "keys": [
+      "oft",
+      "manchmal",
+      "selten",
+      "nie",
+      "jeden tag",
+      "immer"
+     ]
+    }
+   ],
+   "sample": "Zum Frühstück esse ich gern Brot, Oliven, Käse und Tomaten, und ich trinke schwarzen Tee. Mein Lieblingsessen ist Linsensuppe. Ich koche fast jeden Abend, am Wochenende auch für Freunde. In meinem Land isst man oft zusammen mit der ganzen Familie. Fast Food esse ich nur selten."
+  },
+  {
+   "id": "a2-3",
+   "level": "A2",
+   "seconds": 60,
+   "title": {
+    "tr": "Birlikte plan yapın: doğum günü",
+    "en": "Plan together: a birthday"
+   },
+   "prompt": "Ihr Freund hat Geburtstag. Planen Sie zusammen eine kleine Party.",
+   "help": {
+    "tr": "Öneri yap, gün ve saat, yemek ve içecek, kabul et veya başka bir şey öner.",
+    "en": "Make suggestions, day and time, food and drinks, agree or suggest something else."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Öneri yap",
+      "en": "Make a suggestion"
+     },
+     "say": "Wollen wir …? / Wie wäre es mit …?",
+     "keys": [
+      "wollen wir",
+      "wie wäre es",
+      "sollen wir",
+      "lass uns",
+      "wir können",
+      "wir könnten"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Gün ve saat",
+      "en": "Day and time"
+     },
+     "say": "am Samstag um sieben Uhr",
+     "keys": [
+      "am samstag",
+      "am freitag",
+      "am sonntag",
+      "uhr",
+      "wann"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Yer",
+      "en": "Place"
+     },
+     "say": "bei mir / im Restaurant",
+     "keys": [
+      "bei mir",
+      "bei dir",
+      "im restaurant",
+      "im park",
+      "zu hause",
+      "im café"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Yemek ve içecek",
+      "en": "Food and drinks"
+     },
+     "say": "Ich mache einen Kuchen.",
+     "keys": [
+      "kuchen",
+      "essen",
+      "getränke",
+      "pizza",
+      "salat",
+      "saft"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kabul / ret",
+      "en": "Agree or disagree"
+     },
+     "say": "Gute Idee! / Leider …",
+     "keys": [
+      "gute idee",
+      "einverstanden",
+      "okay",
+      "ja gern",
+      "leider",
+      "lieber"
+     ]
+    }
+   ],
+   "sample": "Nächste Woche hat Tom Geburtstag. Wollen wir eine kleine Party machen? Wie wäre es mit Samstag um sieben Uhr? Wir können die Party bei mir machen, meine Wohnung ist groß genug. Ich backe einen Schokoladenkuchen. Kannst du die Getränke kaufen? Und wir laden auch seine Kollegen ein. Gute Idee, oder?"
+  },
+  {
+   "id": "a2-4",
+   "level": "A2",
+   "seconds": 60,
+   "title": {
+    "tr": "Sağlık ve spor",
+    "en": "Health and sport"
+   },
+   "prompt": "Was machen Sie für Ihre Gesundheit?",
+   "help": {
+    "tr": "Spor, ne sıklıkla, sağlıklı beslenme, hastayken ne yaparsın?",
+    "en": "Sport, how often, healthy food, what you do when you are ill."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Spor",
+      "en": "Sport"
+     },
+     "say": "Ich gehe joggen / schwimmen.",
+     "keys": [
+      "sport",
+      "jogge",
+      "joggen",
+      "schwimme",
+      "fitness",
+      "fahrrad",
+      "laufe",
+      "yoga"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne sıklıkla",
+      "en": "How often"
+     },
+     "say": "zweimal pro Woche",
+     "keys": [
+      "pro woche",
+      "jeden tag",
+      "einmal",
+      "zweimal",
+      "dreimal",
+      "oft",
+      "selten"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Beslenme",
+      "en": "Food"
+     },
+     "say": "Ich esse viel Obst und Gemüse.",
+     "keys": [
+      "gesund",
+      "obst",
+      "gemüse",
+      "wasser",
+      "zucker"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Hastayken",
+      "en": "When ill"
+     },
+     "say": "Wenn ich krank bin, …",
+     "keys": [
+      "krank",
+      "arzt",
+      "ärztin",
+      "tee",
+      "im bett",
+      "medikament",
+      "tabletten"
+     ]
+    }
+   ],
+   "sample": "Ich mache dreimal pro Woche Sport. Am Montag und Mittwoch gehe ich ins Fitnessstudio, und am Samstag fahre ich Fahrrad. Ich esse viel Obst und Gemüse und trinke jeden Tag zwei Liter Wasser. Wenn ich krank bin, bleibe ich im Bett und trinke Tee mit Honig. Wenn es nicht besser wird, gehe ich zum Arzt."
+  },
+  {
+   "id": "a2-5",
+   "level": "A2",
+   "seconds": 60,
+   "title": {
+    "tr": "İş ya da okul",
+    "en": "Work or school"
+   },
+   "prompt": "Erzählen Sie von Ihrer Arbeit oder Ihrer Schule.",
+   "help": {
+    "tr": "Nerede, ne yapıyorsun, arkadaşların, neyi seviyorsun, gelecek planın.",
+    "en": "Where, what you do, colleagues or classmates, what you like, future plans."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Nerede",
+      "en": "Where"
+     },
+     "say": "Ich arbeite bei … / Ich gehe zur …",
+     "keys": [
+      "arbeite bei",
+      "arbeite als",
+      "arbeite in",
+      "gehe zur",
+      "studiere",
+      "besuche"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne yapıyorsun",
+      "en": "What you do"
+     },
+     "say": "Ich muss jeden Tag …",
+     "keys": [
+      "muss",
+      "mache",
+      "schreibe",
+      "helfe",
+      "lerne"
+     ]
+    },
+    {
+     "label": {
+      "tr": "İş/okul arkadaşları",
+      "en": "Colleagues"
+     },
+     "say": "Meine Kollegen sind …",
+     "keys": [
+      "kollegen",
+      "kollegin",
+      "mitschüler",
+      "team",
+      "lehrer",
+      "chef"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne düşünüyorsun",
+      "en": "What you think"
+     },
+     "say": "Die Arbeit gefällt mir, weil …",
+     "keys": [
+      "gefällt",
+      "mag",
+      "interessant",
+      "stressig",
+      "anstrengend",
+      "langweilig"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Gelecek",
+      "en": "Future"
+     },
+     "say": "Später möchte ich …",
+     "keys": [
+      "später",
+      "in zukunft",
+      "möchte",
+      "will",
+      "plane"
+     ]
+    }
+   ],
+   "sample": "Ich arbeite seit zwei Jahren als Verkäuferin in einem Modegeschäft. Ich berate Kunden und räume die Kleidung ein. Meine Kolleginnen sind sehr nett, wir machen oft zusammen Pause. Die Arbeit gefällt mir, aber am Samstag ist es sehr stressig. Später möchte ich eine Ausbildung als Kauffrau machen."
+  },
+  {
+   "id": "a2-6",
+   "level": "A2",
+   "seconds": 60,
+   "title": {
+    "tr": "Yaşadığın yer",
+    "en": "Where you live"
+   },
+   "prompt": "Wo wohnen Sie und wie gefällt es Ihnen dort?",
+   "help": {
+    "tr": "Şehir/mahalle, ev, komşular, sevdiğin ve sevmediğin şeyler.",
+    "en": "Town or area, your home, neighbours, what you like and do not like."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Şehir / mahalle",
+      "en": "Town or area"
+     },
+     "say": "Ich wohne in … im Zentrum / am Stadtrand.",
+     "keys": [
+      "wohne in",
+      "zentrum",
+      "stadtrand",
+      "stadtteil",
+      "dorf",
+      "stadt"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ev",
+      "en": "Home"
+     },
+     "say": "Meine Wohnung hat …",
+     "keys": [
+      "wohnung",
+      "haus",
+      "zimmer",
+      "miete"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Komşular",
+      "en": "Neighbours"
+     },
+     "say": "Meine Nachbarn sind …",
+     "keys": [
+      "nachbar",
+      "nachbarin",
+      "nachbarn"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sevdiğin",
+      "en": "What you like"
+     },
+     "say": "Mir gefällt, dass …",
+     "keys": [
+      "gefällt",
+      "gut finde",
+      "schön",
+      "praktisch",
+      "ruhig",
+      "nah"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sevmediğin",
+      "en": "What you do not like"
+     },
+     "say": "Leider ist es …",
+     "keys": [
+      "leider",
+      "zu laut",
+      "zu teuer",
+      "nicht so gut",
+      "nicht gefällt",
+      "weit"
+     ]
+    }
+   ],
+   "sample": "Ich wohne in Frankfurt, in einem Stadtteil im Norden. Meine Wohnung hat drei Zimmer und einen kleinen Balkon. Die Nachbarn sind freundlich, eine alte Dame gießt meine Blumen, wenn ich weg bin. Mir gefällt, dass der Supermarkt und die U-Bahn ganz nah sind. Leider ist die Miete sehr teuer, und die Straße ist laut."
+  },
+  {
+   "id": "b1-1",
+   "level": "B1",
+   "seconds": 90,
+   "title": {
+    "tr": "Sunum: İnternetten alışveriş",
+    "en": "Presentation: online shopping"
+   },
+   "prompt": "Präsentieren Sie das Thema „Online einkaufen“.",
+   "help": {
+    "tr": "Goethe B1 Teil 2 gibi: konuyu tanıt, deneyimin, ülkendeki durum, artılar/eksiler, görüşün.",
+    "en": "Like Goethe B1 part 2: introduce the topic, your experience, your country, pros and cons, your opinion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Konuyu tanıt",
+      "en": "Introduce the topic"
+     },
+     "say": "Mein Thema ist …",
+     "keys": [
+      "mein thema",
+      "ich möchte",
+      "ich spreche über",
+      "heute spreche",
+      "in meinem vortrag",
+      "es geht um"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kendi deneyimin",
+      "en": "Your own experience"
+     },
+     "say": "Ich persönlich habe …",
+     "keys": [
+      "ich persönlich",
+      "meine erfahrung",
+      "meiner erfahrung",
+      "ich selbst",
+      "bei mir",
+      "ich habe schon"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülkendeki durum",
+      "en": "The situation in your country"
+     },
+     "say": "In meinem Heimatland …",
+     "keys": [
+      "in meinem heimatland",
+      "in meinem land",
+      "in der türkei",
+      "bei uns",
+      "in meiner heimat"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantajlar",
+      "en": "Advantages"
+     },
+     "say": "Ein Vorteil ist, dass …",
+     "keys": [
+      "vorteil",
+      "positiv",
+      "dafür spricht",
+      "einerseits",
+      "gut ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Dezavantajlar",
+      "en": "Disadvantages"
+     },
+     "say": "Ein Nachteil ist, dass …",
+     "keys": [
+      "nachteil",
+      "negativ",
+      "dagegen spricht",
+      "andererseits",
+      "problem",
+      "schlecht ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Görüşün ve sonuç",
+      "en": "Your opinion and conclusion"
+     },
+     "say": "Meiner Meinung nach …",
+     "keys": [
+      "meiner meinung",
+      "ich finde",
+      "ich bin der meinung",
+      "ich denke",
+      "zum schluss",
+      "abschließend",
+      "zusammenfassend"
+     ]
+    }
+   ],
+   "sample": "Mein Thema heute ist „Online einkaufen“. Ich persönlich kaufe fast alle Bücher und Elektronik im Internet. Letztes Jahr habe ich zum Beispiel meinen Laptop online bestellt, das war günstiger als im Geschäft. In meinem Heimatland kaufen vor allem junge Leute online ein, ältere Menschen gehen lieber in die Läden. Ein Vorteil ist, dass man rund um die Uhr bestellen und Preise leicht vergleichen kann. Ein Nachteil ist, dass man die Sachen vorher nicht anprobieren kann, und es gibt viel Verpackungsmüll. Meiner Meinung nach ist Online-Shopping praktisch, aber für Kleidung gehe ich lieber selbst ins Geschäft. Vielen Dank fürs Zuhören."
+  },
+  {
+   "id": "b1-2",
+   "level": "B1",
+   "seconds": 90,
+   "title": {
+    "tr": "Sunum: Çocuklar ve akıllı telefon",
+    "en": "Presentation: children and smartphones"
+   },
+   "prompt": "Präsentieren Sie das Thema „Brauchen Kinder ein eigenes Smartphone?“.",
+   "help": {
+    "tr": "Konuyu tanıt, deneyimin, ülkendeki durum, artılar/eksiler, görüşün.",
+    "en": "Introduce the topic, your experience, your country, pros and cons, your opinion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Konuyu tanıt",
+      "en": "Introduce the topic"
+     },
+     "say": "Mein Thema ist …",
+     "keys": [
+      "mein thema",
+      "ich möchte",
+      "ich spreche über",
+      "heute spreche",
+      "in meinem vortrag",
+      "es geht um"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kendi deneyimin",
+      "en": "Your own experience"
+     },
+     "say": "Ich persönlich habe …",
+     "keys": [
+      "ich persönlich",
+      "meine erfahrung",
+      "meiner erfahrung",
+      "ich selbst",
+      "bei mir",
+      "ich habe schon"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülkendeki durum",
+      "en": "The situation in your country"
+     },
+     "say": "In meinem Heimatland …",
+     "keys": [
+      "in meinem heimatland",
+      "in meinem land",
+      "in der türkei",
+      "bei uns",
+      "in meiner heimat"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantajlar",
+      "en": "Advantages"
+     },
+     "say": "Ein Vorteil ist, dass …",
+     "keys": [
+      "vorteil",
+      "positiv",
+      "dafür spricht",
+      "einerseits",
+      "gut ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Dezavantajlar",
+      "en": "Disadvantages"
+     },
+     "say": "Ein Nachteil ist, dass …",
+     "keys": [
+      "nachteil",
+      "negativ",
+      "dagegen spricht",
+      "andererseits",
+      "problem",
+      "schlecht ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Görüşün ve sonuç",
+      "en": "Your opinion and conclusion"
+     },
+     "say": "Meiner Meinung nach …",
+     "keys": [
+      "meiner meinung",
+      "ich finde",
+      "ich bin der meinung",
+      "ich denke",
+      "zum schluss",
+      "abschließend",
+      "zusammenfassend"
+     ]
+    }
+   ],
+   "sample": "Ich möchte heute über die Frage sprechen, ob Kinder ein eigenes Smartphone brauchen. Meine Erfahrung ist, dass mein Neffe schon mit neun Jahren ein Handy bekommen hat. In meinem Heimatland haben viele Kinder ab der Grundschule ein Smartphone. Ein Vorteil ist, dass die Eltern ihre Kinder jederzeit erreichen können. Ein Nachteil ist aber, dass Kinder zu viel Zeit mit Spielen und Videos verbringen und weniger draußen spielen. Ich finde, ein einfaches Handy reicht für kleine Kinder. Ein Smartphone sollten sie erst ab zwölf bekommen."
+  },
+  {
+   "id": "b1-3",
+   "level": "B1",
+   "seconds": 90,
+   "title": {
+    "tr": "Birlikte plan yapın: veda partisi",
+    "en": "Plan together: a farewell party"
+   },
+   "prompt": "Eine Kollegin verlässt die Firma. Planen Sie zusammen eine Abschiedsfeier.",
+   "help": {
+    "tr": "Goethe B1 Teil 1 gibi: öneri yap, zaman, yer, hediye, kabul et veya itiraz et.",
+    "en": "Like Goethe B1 part 1: suggest, time, place, present, agree or disagree."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Öneri yap",
+      "en": "Make a suggestion"
+     },
+     "say": "Wir könnten … / Ich schlage vor, …",
+     "keys": [
+      "wir könnten",
+      "wie wäre es",
+      "ich schlage vor",
+      "sollen wir",
+      "was hältst du"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Zaman",
+      "en": "Time"
+     },
+     "say": "am Freitagnachmittag",
+     "keys": [
+      "am freitag",
+      "nachmittag",
+      "nach der arbeit",
+      "uhr",
+      "wann",
+      "termin"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Yer",
+      "en": "Place"
+     },
+     "say": "im Besprechungsraum / in einem Restaurant",
+     "keys": [
+      "im büro",
+      "raum",
+      "restaurant",
+      "café",
+      "kantine",
+      "garten"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Hediye",
+      "en": "Present"
+     },
+     "say": "Wir sammeln Geld für ein Geschenk.",
+     "keys": [
+      "geschenk",
+      "sammeln",
+      "blumen",
+      "gutschein",
+      "karte"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kabul et",
+      "en": "Agree"
+     },
+     "say": "Das ist eine gute Idee.",
+     "keys": [
+      "gute idee",
+      "einverstanden",
+      "das passt",
+      "genau",
+      "finde ich gut"
+     ]
+    },
+    {
+     "label": {
+      "tr": "İtiraz et",
+      "en": "Disagree"
+     },
+     "say": "Ich bin nicht sicher, ob …",
+     "keys": [
+      "nicht sicher",
+      "lieber",
+      "ich weiß nicht",
+      "aber",
+      "ich glaube nicht"
+     ]
+    }
+   ],
+   "sample": "Frau Berger verlässt nächsten Monat die Firma. Wir könnten am letzten Freitag eine kleine Feier machen, was meinst du? Ich schlage vor, dass wir um vier Uhr anfangen, dann können alle kommen. Der Besprechungsraum ist groß genug, oder wir gehen in das Café gegenüber. Für ein Geschenk könnten wir Geld sammeln, vielleicht einen Gutschein für ein Wellness-Wochenende. Einen großen Kuchen bestellen? Ich bin nicht sicher, ob das nötig ist, lieber bringt jeder etwas mit. Einverstanden?"
+  },
+  {
+   "id": "b1-4",
+   "level": "B1",
+   "seconds": 90,
+   "title": {
+    "tr": "Zor bir durum",
+    "en": "A difficult situation"
+   },
+   "prompt": "Erzählen Sie von einer schwierigen Situation in Ihrem Leben.",
+   "help": {
+    "tr": "Ne zaman, ne oldu, nasıl hissettin, nasıl çözdün, ne öğrendin? (geçmiş zaman)",
+    "en": "When, what happened, how you felt, how you solved it, what you learned. (past tense)"
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Ne zaman",
+      "en": "When"
+     },
+     "say": "Vor zwei Jahren … / Als ich …",
+     "keys": [
+      "vor ",
+      "als ich",
+      "letztes jahr",
+      "damals"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne oldu",
+      "en": "What happened"
+     },
+     "say": "Es ist … passiert.",
+     "keys": [
+      "passiert",
+      "war",
+      "hatte",
+      "musste",
+      "konnte"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Duygular",
+      "en": "Feelings"
+     },
+     "say": "Ich war sehr nervös.",
+     "keys": [
+      "nervös",
+      "traurig",
+      "angst",
+      "aufgeregt",
+      "gefühlt",
+      "wütend",
+      "sorgen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Çözüm",
+      "en": "Solution"
+     },
+     "say": "Zum Glück … / Am Ende …",
+     "keys": [
+      "zum glück",
+      "am ende",
+      "schließlich",
+      "geholfen",
+      "gelöst"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne öğrendin",
+      "en": "What you learned"
+     },
+     "say": "Seitdem … / Ich habe gelernt, …",
+     "keys": [
+      "gelernt",
+      "seitdem",
+      "heute weiß ich",
+      "jetzt"
+     ]
+    }
+   ],
+   "sample": "Vor drei Jahren bin ich allein nach Deutschland gekommen. Am ersten Tag habe ich am Bahnhof meinen Geldbeutel verloren. Ich war sehr nervös, weil ich niemanden kannte und kaum Deutsch sprechen konnte. Zum Glück hat mir eine Frau geholfen. Wir sind zusammen zum Fundbüro gegangen, und am Ende war der Geldbeutel wirklich dort. Seitdem frage ich schneller um Hilfe, und ich habe gelernt, dass die Leute oft hilfsbereiter sind, als man denkt."
+  },
+  {
+   "id": "b1-5",
+   "level": "B1",
+   "seconds": 90,
+   "title": {
+    "tr": "Görüş: Evden çalışma",
+    "en": "Opinion: working from home"
+   },
+   "prompt": "Ist Homeoffice besser als Arbeiten im Büro? Sagen Sie Ihre Meinung.",
+   "help": {
+    "tr": "Görüşünü söyle, gerekçe ve örnek ver, karşı görüşü de an, sonuç çıkar.",
+    "en": "Give your opinion, reasons and an example, mention the other side, conclude."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüşün",
+      "en": "Your opinion"
+     },
+     "say": "Meiner Meinung nach …",
+     "keys": [
+      "meiner meinung",
+      "ich finde",
+      "ich bin der meinung",
+      "ich denke",
+      "ich glaube"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Gerekçe söyle",
+      "en": "Give a reason"
+     },
+     "say": "…, weil …",
+     "keys": [
+      "weil",
+      "denn",
+      "da ",
+      "deshalb",
+      "deswegen",
+      "aus diesem grund"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Bir örnek ver",
+      "en": "Give an example"
+     },
+     "say": "Zum Beispiel …",
+     "keys": [
+      "zum beispiel",
+      "beispielsweise",
+      "etwa",
+      "ein beispiel"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Karşı görüş",
+      "en": "The other side"
+     },
+     "say": "Andererseits …",
+     "keys": [
+      "andererseits",
+      "allerdings",
+      "aber",
+      "trotzdem",
+      "auf der anderen seite"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Insgesamt …",
+     "keys": [
+      "insgesamt",
+      "zum schluss",
+      "deshalb",
+      "also",
+      "alles in allem"
+     ]
+    }
+   ],
+   "sample": "Meiner Meinung nach ist eine Mischung aus Homeoffice und Büro am besten. Zu Hause kann ich mich besser konzentrieren, weil es ruhiger ist. Außerdem spare ich jeden Tag eine Stunde Fahrzeit. Zum Beispiel schreibe ich lange Berichte immer im Homeoffice. Andererseits fehlt mir zu Hause der Kontakt zu den Kollegen, und manche Probleme kann man im Büro schneller lösen. Insgesamt finde ich zwei oder drei Tage Homeoffice pro Woche ideal."
+  },
+  {
+   "id": "b1-6",
+   "level": "B1",
+   "seconds": 90,
+   "title": {
+    "tr": "Sunum: Şehirde mi köyde mi?",
+    "en": "Presentation: city or countryside?"
+   },
+   "prompt": "Präsentieren Sie das Thema „Leben in der Stadt oder auf dem Land?“.",
+   "help": {
+    "tr": "Konuyu tanıt, deneyimin, ülkendeki durum, artılar/eksiler, görüşün.",
+    "en": "Introduce the topic, your experience, your country, pros and cons, your opinion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Konuyu tanıt",
+      "en": "Introduce the topic"
+     },
+     "say": "Mein Thema ist …",
+     "keys": [
+      "mein thema",
+      "ich möchte",
+      "ich spreche über",
+      "heute spreche",
+      "in meinem vortrag",
+      "es geht um"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kendi deneyimin",
+      "en": "Your own experience"
+     },
+     "say": "Ich persönlich habe …",
+     "keys": [
+      "ich persönlich",
+      "meine erfahrung",
+      "meiner erfahrung",
+      "ich selbst",
+      "bei mir",
+      "ich habe schon"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülkendeki durum",
+      "en": "The situation in your country"
+     },
+     "say": "In meinem Heimatland …",
+     "keys": [
+      "in meinem heimatland",
+      "in meinem land",
+      "in der türkei",
+      "bei uns",
+      "in meiner heimat"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantajlar",
+      "en": "Advantages"
+     },
+     "say": "Ein Vorteil ist, dass …",
+     "keys": [
+      "vorteil",
+      "positiv",
+      "dafür spricht",
+      "einerseits",
+      "gut ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Dezavantajlar",
+      "en": "Disadvantages"
+     },
+     "say": "Ein Nachteil ist, dass …",
+     "keys": [
+      "nachteil",
+      "negativ",
+      "dagegen spricht",
+      "andererseits",
+      "problem",
+      "schlecht ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Görüşün ve sonuç",
+      "en": "Your opinion and conclusion"
+     },
+     "say": "Meiner Meinung nach …",
+     "keys": [
+      "meiner meinung",
+      "ich finde",
+      "ich bin der meinung",
+      "ich denke",
+      "zum schluss",
+      "abschließend",
+      "zusammenfassend"
+     ]
+    }
+   ],
+   "sample": "In meinem Vortrag geht es um die Frage: Lebt man besser in der Stadt oder auf dem Land? Ich selbst bin in einem Dorf aufgewachsen und wohne jetzt in Hamburg. In meinem Heimatland ziehen viele junge Leute in die großen Städte, weil es dort mehr Arbeit gibt. Ein Vorteil der Stadt ist, dass man Kinos, Ärzte und Geschäfte in der Nähe hat. Ein Nachteil ist, dass die Mieten hoch sind und es oft laut ist. Ich finde, für junge Menschen ist die Stadt besser, aber später möchte ich mit meiner Familie lieber auf dem Land leben."
+  },
+  {
+   "id": "b2-1",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Sunum: Şehir merkezinde otomobil yasağı",
+    "en": "Presentation: banning cars from city centres"
+   },
+   "prompt": "Halten Sie einen kurzen Vortrag: „Sollten Autos aus den Innenstädten verbannt werden?“",
+   "help": {
+    "tr": "Goethe B2 gibi: giriş, artılar, eksiler, örnek, ülkendeki durum, sonuç.",
+    "en": "Like Goethe B2: introduction, pros, cons, an example, your country, conclusion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Konuyu tanıt",
+      "en": "Introduce the topic"
+     },
+     "say": "Mein Thema ist …",
+     "keys": [
+      "mein thema",
+      "ich möchte",
+      "ich spreche über",
+      "heute spreche",
+      "in meinem vortrag",
+      "es geht um"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantajlar",
+      "en": "Advantages"
+     },
+     "say": "Ein Vorteil ist, dass …",
+     "keys": [
+      "vorteil",
+      "positiv",
+      "dafür spricht",
+      "einerseits",
+      "gut ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Dezavantajlar",
+      "en": "Disadvantages"
+     },
+     "say": "Ein Nachteil ist, dass …",
+     "keys": [
+      "nachteil",
+      "negativ",
+      "dagegen spricht",
+      "andererseits",
+      "problem",
+      "schlecht ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Bir örnek ver",
+      "en": "Give an example"
+     },
+     "say": "Zum Beispiel …",
+     "keys": [
+      "zum beispiel",
+      "beispielsweise",
+      "etwa",
+      "ein beispiel"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülkendeki durum",
+      "en": "The situation in your country"
+     },
+     "say": "In meinem Heimatland …",
+     "keys": [
+      "in meinem heimatland",
+      "in meinem land",
+      "in der türkei",
+      "bei uns",
+      "in meiner heimat"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Görüşün ve sonuç",
+      "en": "Your opinion and conclusion"
+     },
+     "say": "Meiner Meinung nach …",
+     "keys": [
+      "meiner meinung",
+      "ich finde",
+      "ich bin der meinung",
+      "ich denke",
+      "zum schluss",
+      "abschließend",
+      "zusammenfassend"
+     ]
+    }
+   ],
+   "sample": "In meinem Vortrag möchte ich mich mit der Frage beschäftigen, ob Autos aus den Innenstädten verbannt werden sollten. Für ein Verbot spricht vor allem die bessere Luftqualität. Außerdem würden Fußgänger und Radfahrer mehr Platz bekommen. Dagegen spricht, dass Lieferanten, Handwerker und Menschen mit eingeschränkter Mobilität auf das Auto angewiesen sind. Ein gutes Beispiel ist Kopenhagen, wo der Ausbau der Radwege die Innenstadt deutlich lebenswerter gemacht hat. In meinem Heimatland ist das Auto dagegen noch ein Statussymbol, und der Nahverkehr ist vielerorts unzureichend. Zusammenfassend bin ich der Ansicht, dass ein schrittweiser Umbau sinnvoller ist als ein abruptes Verbot."
+  },
+  {
+   "id": "b2-2",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Tartışma: Gençler ve sosyal medya",
+    "en": "Discussion: teenagers and social media"
+   },
+   "prompt": "Diskutieren Sie: „Soziale Medien sollten erst ab 16 Jahren erlaubt sein.“",
+   "help": {
+    "tr": "Görüşünü savun, gerekçe ver, karşı argümanı kabul et ve çürüt, uzlaşma öner.",
+    "en": "Defend your view, give reasons, acknowledge and answer the counter-argument, suggest a compromise."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Tutumun",
+      "en": "Your position"
+     },
+     "say": "Ich vertrete die Ansicht, dass …",
+     "keys": [
+      "ich vertrete",
+      "meiner ansicht",
+      "ich bin überzeugt",
+      "meiner meinung",
+      "ich bin der meinung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Gerekçe söyle",
+      "en": "Give a reason"
+     },
+     "say": "…, weil …",
+     "keys": [
+      "weil",
+      "denn",
+      "da ",
+      "deshalb",
+      "deswegen",
+      "aus diesem grund"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Karşı argümanı kabul et",
+      "en": "Acknowledge the other side"
+     },
+     "say": "Da haben Sie zwar recht, aber …",
+     "keys": [
+      "zwar",
+      "das stimmt",
+      "recht",
+      "ich verstehe",
+      "nachvollziehen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "İtiraz et",
+      "en": "Disagree"
+     },
+     "say": "Da muss ich widersprechen.",
+     "keys": [
+      "widersprechen",
+      "sehe das anders",
+      "allerdings",
+      "jedoch",
+      "dennoch"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Uzlaşma öner",
+      "en": "Suggest a compromise"
+     },
+     "say": "Ein Kompromiss wäre …",
+     "keys": [
+      "kompromiss",
+      "einigen",
+      "vielleicht wäre",
+      "man könnte",
+      "mittelweg"
+     ]
+    }
+   ],
+   "sample": "Ich vertrete die Ansicht, dass eine Altersgrenze von sechzehn Jahren sinnvoll wäre, weil viele Jüngere den Druck durch Likes und Vergleiche kaum verarbeiten können. Studien zeigen, dass intensive Nutzung mit Schlafproblemen zusammenhängt. Sie haben zwar recht, dass soziale Medien auch Kontakte und Informationen bieten. Dennoch muss ich widersprechen, wenn Sie sagen, ein Verbot sei unrealistisch: Bei Alkohol akzeptieren wir Altersgrenzen ja auch. Ein Kompromiss wäre vielleicht, dass Jüngere spezielle Konten mit begrenzten Funktionen nutzen dürfen."
+  },
+  {
+   "id": "b2-3",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Sunum: Hayat boyu öğrenme",
+    "en": "Presentation: lifelong learning"
+   },
+   "prompt": "Halten Sie einen kurzen Vortrag zum Thema „Lebenslanges Lernen“.",
+   "help": {
+    "tr": "Giriş, artılar, zorluklar, örnek, ülkendeki durum, sonuç.",
+    "en": "Introduction, advantages, difficulties, an example, your country, conclusion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Konuyu tanıt",
+      "en": "Introduce the topic"
+     },
+     "say": "Mein Thema ist …",
+     "keys": [
+      "mein thema",
+      "ich möchte",
+      "ich spreche über",
+      "heute spreche",
+      "in meinem vortrag",
+      "es geht um"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantajlar",
+      "en": "Advantages"
+     },
+     "say": "Ein Vorteil ist, dass …",
+     "keys": [
+      "vorteil",
+      "positiv",
+      "dafür spricht",
+      "einerseits",
+      "gut ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Dezavantajlar",
+      "en": "Disadvantages"
+     },
+     "say": "Ein Nachteil ist, dass …",
+     "keys": [
+      "nachteil",
+      "negativ",
+      "dagegen spricht",
+      "andererseits",
+      "problem",
+      "schlecht ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Bir örnek ver",
+      "en": "Give an example"
+     },
+     "say": "Zum Beispiel …",
+     "keys": [
+      "zum beispiel",
+      "beispielsweise",
+      "etwa",
+      "ein beispiel"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülkendeki durum",
+      "en": "The situation in your country"
+     },
+     "say": "In meinem Heimatland …",
+     "keys": [
+      "in meinem heimatland",
+      "in meinem land",
+      "in der türkei",
+      "bei uns",
+      "in meiner heimat"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Görüşün ve sonuç",
+      "en": "Your opinion and conclusion"
+     },
+     "say": "Meiner Meinung nach …",
+     "keys": [
+      "meiner meinung",
+      "ich finde",
+      "ich bin der meinung",
+      "ich denke",
+      "zum schluss",
+      "abschließend",
+      "zusammenfassend"
+     ]
+    }
+   ],
+   "sample": "Heute spreche ich über lebenslanges Lernen. Einerseits ist es in einer Arbeitswelt, die sich ständig verändert, kaum noch verzichtbar. Wer sich regelmäßig weiterbildet, bleibt flexibel und hat bessere Chancen auf dem Arbeitsmarkt. Andererseits fehlt vielen Berufstätigen neben Arbeit und Familie schlicht die Zeit, und gute Kurse sind oft teuer. Meine Mutter hat zum Beispiel mit fünfzig noch einen Computerkurs gemacht und danach eine neue Stelle gefunden. In meinem Heimatland wird Weiterbildung zunehmend online angeboten, was den Zugang erleichtert. Abschließend möchte ich betonen, dass Arbeitgeber und Staat das Lernen stärker unterstützen sollten."
+  },
+  {
+   "id": "b2-4",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Tartışma: Dört günlük çalışma haftası",
+    "en": "Discussion: the four-day week"
+   },
+   "prompt": "Diskutieren Sie: „Die Vier-Tage-Woche sollte für alle eingeführt werden.“",
+   "help": {
+    "tr": "Görüşünü savun, gerekçe ve örnek ver, karşı argümanı ele al, uzlaşma öner.",
+    "en": "Defend your view, reasons and an example, deal with the counter-argument, suggest a compromise."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Tutumun",
+      "en": "Your position"
+     },
+     "say": "Ich bin davon überzeugt, dass …",
+     "keys": [
+      "überzeugt",
+      "meiner ansicht",
+      "ich vertrete",
+      "meiner meinung",
+      "ich halte"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Gerekçe söyle",
+      "en": "Give a reason"
+     },
+     "say": "…, weil …",
+     "keys": [
+      "weil",
+      "denn",
+      "da ",
+      "deshalb",
+      "deswegen",
+      "aus diesem grund"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Bir örnek ver",
+      "en": "Give an example"
+     },
+     "say": "Zum Beispiel …",
+     "keys": [
+      "zum beispiel",
+      "beispielsweise",
+      "etwa",
+      "ein beispiel"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Karşı argüman",
+      "en": "Counter-argument"
+     },
+     "say": "Man könnte einwenden, dass …",
+     "keys": [
+      "einwenden",
+      "zwar",
+      "kritiker",
+      "allerdings",
+      "jedoch"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Uzlaşma öner",
+      "en": "Suggest a compromise"
+     },
+     "say": "Ein Mittelweg wäre …",
+     "keys": [
+      "kompromiss",
+      "mittelweg",
+      "einigen",
+      "man könnte",
+      "zunächst"
+     ]
+    }
+   ],
+   "sample": "Ich halte die Vier-Tage-Woche grundsätzlich für eine gute Idee, denn ausgeruhte Mitarbeiter arbeiten konzentrierter und sind seltener krank. In Island zum Beispiel ist die Produktivität in Testprojekten gleich geblieben oder sogar gestiegen. Man könnte allerdings einwenden, dass das in Krankenhäusern, Schulen oder im Handel kaum umsetzbar ist, weil dort Personal fehlt. Deshalb wäre ein Mittelweg sinnvoll: Man könnte zunächst in Branchen beginnen, in denen es organisatorisch möglich ist, und die Ergebnisse auswerten."
+  },
+  {
+   "id": "b2-5",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Başarısız bir proje",
+    "en": "A project that went wrong"
+   },
+   "prompt": "Berichten Sie von einem Projekt oder Plan, der nicht geklappt hat. Was würden Sie heute anders machen?",
+   "help": {
+    "tr": "Ne oldu, neden, sonuçları, bugün ne farklı yapardın (Konjunktiv II), ne öğrendin.",
+    "en": "What happened, why, the consequences, what you would do differently (Konjunktiv II), what you learned."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Ne oldu",
+      "en": "What happened"
+     },
+     "say": "Vor einem Jahr wollte ich …",
+     "keys": [
+      "wollte",
+      "hatte",
+      "geplant",
+      "projekt",
+      "vorgenommen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Neden",
+      "en": "Why"
+     },
+     "say": "Das lag vor allem daran, dass …",
+     "keys": [
+      "lag daran",
+      "weil",
+      "aufgrund",
+      "wegen",
+      "der grund"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuçlar",
+      "en": "Consequences"
+     },
+     "say": "Dadurch / Folglich …",
+     "keys": [
+      "dadurch",
+      "folglich",
+      "deshalb",
+      "sodass",
+      "die folge"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Farklı yapardın",
+      "en": "What you would change"
+     },
+     "say": "Heute würde ich … / hätte ich …",
+     "keys": [
+      "würde",
+      "hätte",
+      "wäre",
+      "anders machen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ders",
+      "en": "Lesson"
+     },
+     "say": "Rückblickend habe ich gelernt, …",
+     "keys": [
+      "rückblickend",
+      "im nachhinein",
+      "gelernt",
+      "erkenntnis"
+     ]
+    }
+   ],
+   "sample": "Vor einem Jahr wollte ich mit zwei Freunden einen kleinen Online-Shop für handgemachten Schmuck aufbauen. Das Projekt ist gescheitert, was vor allem daran lag, dass wir keinen klaren Plan für das Marketing hatten. Dadurch haben wir kaum Kunden erreicht und nach sechs Monaten aufgegeben. Heute würde ich zuerst eine Marktanalyse machen, und ich hätte von Anfang an Aufgaben klarer verteilt. Rückblickend habe ich gelernt, dass eine gute Idee allein nicht reicht."
+  },
+  {
+   "id": "b2-6",
+   "level": "B2",
+   "seconds": 90,
+   "title": {
+    "tr": "Telefonda şikâyet",
+    "en": "A complaint on the phone"
+   },
+   "prompt": "Rufen Sie die Hausverwaltung an: Die Heizung ist seit einer Woche kaputt.",
+   "help": {
+    "tr": "Kendini tanıt, sorunu anlat, ne zamandır olduğunu söyle, kibarca rica et, süre iste, teşekkür et.",
+    "en": "Introduce yourself, describe the problem and since when, ask politely, ask for a deadline, thank them."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Kendini tanıt",
+      "en": "Introduce yourself"
+     },
+     "say": "Guten Tag, mein Name ist …",
+     "keys": [
+      "guten tag",
+      "mein name ist",
+      "hier spricht",
+      "ich wohne"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sorun",
+      "en": "The problem"
+     },
+     "say": "Die Heizung funktioniert nicht.",
+     "keys": [
+      "funktioniert nicht",
+      "kaputt",
+      "defekt",
+      "problem",
+      "kalt"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ne zamandan beri",
+      "en": "Since when"
+     },
+     "say": "seit einer Woche",
+     "keys": [
+      "seit"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kibar rica",
+      "en": "Polite request"
+     },
+     "say": "Könnten Sie bitte …?",
+     "keys": [
+      "könnten sie",
+      "würden sie",
+      "ich möchte sie bitten",
+      "wäre es möglich"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Süre",
+      "en": "Deadline"
+     },
+     "say": "bis spätestens Freitag",
+     "keys": [
+      "bis ",
+      "spätestens",
+      "so schnell wie möglich",
+      "wann"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Teşekkür",
+      "en": "Thank them"
+     },
+     "say": "Vielen Dank für Ihre Hilfe.",
+     "keys": [
+      "vielen dank",
+      "danke",
+      "ich bedanke mich"
+     ]
+    }
+   ],
+   "sample": "Guten Tag, mein Name ist Deniz Kaya, ich wohne in der Lindenstraße zwölf im dritten Stock. Ich rufe an, weil unsere Heizung seit einer Woche nicht funktioniert. Die Wohnung ist inzwischen sehr kalt, und wir haben ein kleines Kind. Ich habe schon zweimal eine E-Mail geschrieben, aber leider keine Antwort bekommen. Könnten Sie bitte so schnell wie möglich einen Techniker schicken, spätestens bis Freitag? Sonst müsste ich mich an den Mieterverein wenden. Vielen Dank für Ihre Hilfe."
+  }
+ ]
+}

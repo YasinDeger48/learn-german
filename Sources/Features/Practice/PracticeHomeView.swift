@@ -18,6 +18,9 @@ enum A1Route: Hashable {
     case text(Int)
     case wordList
     case numbersLearn
+    case speaking
+    case speakRepeat
+    case speakTask(String)
 }
 
 /// Every practice screen, reachable from any tab's NavigationStack.
@@ -61,6 +64,12 @@ struct A1Destination: View {
             A1WordListView()
         case .numbersLearn:
             A1NumbersLearnView()
+        case .speaking:
+            SpeakingHomeView()
+        case .speakRepeat:
+            SpeakRepeatView()
+        case .speakTask(let id):
+            if let task = SpeakingBank.task(id) { SpeakTaskView(task: task) }
         }
     }
 }
@@ -103,6 +112,7 @@ struct PracticeHomeView: View {
                 } else {
                     hero
                     if !pro.isPro { FreeQuestionsBanner { showPaywall = true } }
+                    speakingCard
                     modeGrid
                     speedRow
                     workbook
@@ -225,6 +235,32 @@ struct PracticeHomeView: View {
             .frame(maxWidth: .infinity, minHeight: 112, alignment: .topLeading)
             .padding(14)
             .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+        }
+        .buttonStyle(.pressable)
+    }
+
+    // MARK: Speaking
+
+    private var speakingCard: some View {
+        let tasks = SpeakingBank.tasks(model.level)
+        let done = tasks.filter { (SpeakingBank.best($0.id) ?? 0) >= $0.points.count }.count
+        return NavigationLink(value: A1Route.speaking) {
+            HStack(spacing: 14) {
+                Image(systemName: "mic.fill")
+                    .font(.system(size: 20, weight: .bold))
+                    .foregroundColor(DS.onGold)
+                    .frame(width: 46, height: 46)
+                    .background(DS.gold, in: Circle())
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(t("speak.title")).font(.system(size: 17, weight: .bold)).foregroundColor(.white)
+                    Text(tasks.isEmpty ? t("speak.sub") : t("speak.subTasks", done, tasks.count))
+                        .font(.footnote).foregroundColor(.white.opacity(0.85)).lineLimit(1)
+                }
+                Spacer(minLength: 4)
+                Image(systemName: "chevron.right").font(.footnote.weight(.bold)).foregroundColor(.white.opacity(0.8))
+            }
+            .padding(14)
+            .background(SpeakStyle.gradient, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
         }
         .buttonStyle(.pressable)
     }
