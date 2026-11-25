@@ -1,11 +1,12 @@
-"""Natural voice (Google Chirp 3 HD, "Anna") for single words: every level word as the app says it
+"""Natural voice (Google Neural2, a woman's voice) for single words: every level word as the app says it
 ("der Bahnhof", "gehen") and every glossary word of the daily texts.
 
     python -I -X utf8 tools/word_audio.py --dry     counts what is missing
     python -I -X utf8 tools/word_audio.py           makes the missing MP3s
 
 Output in ../deschly-site/audio/:
-    w/<hash>.mp3       one file per spoken text (hash = first 12 hex of sha1 of the exact text)
+    w/<hash>.mp3       one file per spoken text (hash = first 12 hex of sha1 of voice + '|' + text, so a new
+                       voice gets new names and phones do not keep playing cached old files)
     words.json         {"items": {"der bahnhof": "<hash>", …}}  key: lower case, single spaces
 The app (A1Speaker.say) plays the recording when the text is in words.json, else the iPhone voice.
 Key from ../tts/anahtarlar.txt (GOOGLE_KEY). Push the site afterwards.
@@ -27,7 +28,9 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.dirname(REPO)
 OUT = os.path.join(ROOT, 'deschly-site', 'audio')
 KEYS = os.path.join(ROOT, 'tts', 'anahtarlar.txt')
-VOICE = 'de-DE-Chirp3-HD-Achernar'
+# Neural2, not Chirp 3 HD: Chirp cuts the end of very short texts ("die Verspätung" stopped mid-sound),
+# Neural2 lets the word fade out naturally. Long texts (tools/audio.py) stay on Chirp.
+VOICE = 'de-DE-Neural2-G'
 RATE = 0.9
 AGENT = 'tts-batch-script/1.0'
 NOUN = {'der', 'die', 'das'}
@@ -82,14 +85,14 @@ def main():
     dry = '--dry' in sys.argv
     max_chars = next((int(a.split('=')[1]) for a in sys.argv if a.startswith('--max-chars=')), 200_000)
     index_path = os.path.join(OUT, 'words.json')
-    items = json.load(open(index_path, encoding='utf-8'))['items'] if os.path.exists(index_path) else {}
+    items = {}  # rebuilt every run from the files of the current voice
     folder = os.path.join(OUT, 'w')
     os.makedirs(folder, exist_ok=True)
 
     texts = spoken_texts()
     jobs = []
     for text in texts:
-        digest = hashlib.sha1(text.encode('utf-8')).hexdigest()[:12]
+        digest = hashlib.sha1(f'{VOICE}|{text}'.encode('utf-8')).hexdigest()[:12]
         path = os.path.join(folder, f'{digest}.mp3')
         if os.path.exists(path) and os.path.getsize(path) > 500:
             items[key_of(text)] = digest
