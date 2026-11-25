@@ -256,6 +256,8 @@ struct CelebrationView: View {
         .padding(.bottom, 16)
         .background(LinearGradient(colors: [milestone == nil ? DS.accent.opacity(0.10) : Color.orange.opacity(0.14), DS.ground],
                                    startPoint: .top, endPoint: .center).ignoresSafeArea())
+        .overlay { ConfettiBurst() }
+        .onAppear { UINotificationFeedbackGenerator().notificationOccurred(.success) }
     }
 
     private func milestoneTitle(_ days: Int) -> String {
@@ -271,6 +273,69 @@ struct CelebrationView: View {
     private var shareText: String {
         if let milestone { return t("celebrate.shareStreak", milestone.target) }
         return t("celebrate.shareBadge", badges.first?.title ?? "")
+    }
+}
+
+/// A short confetti burst from the upper middle of the screen (about 3 s), drawn with Canvas; no files.
+/// Nothing is shown when Reduce Motion is on. Does not take touches.
+struct ConfettiBurst: View {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var start = Date()
+    @State private var finished = false
+    @State private var pieces: [Piece] = (0..<70).map { _ in Piece() }
+
+    struct Piece {
+        /// Upwards and to the sides (radians; negative y is up).
+        let angle = Double.random(in: -Double.pi * 0.92 ... -Double.pi * 0.08)
+        let speed = Double.random(in: 420...820)
+        let spin = Double.random(in: -9...9)
+        let width = Double.random(in: 6...10)
+        let height = Double.random(in: 10...16)
+        let delay = Double.random(in: 0...0.12)
+        let sway = Double.random(in: 0...6.28)
+        let color: Color = [DS.gold, DS.der, DS.die, DS.das, Color(red: 1, green: 0.45, blue: 0.62)].randomElement() ?? DS.gold
+    }
+
+    private static let length: Double = 3.0
+    private static let gravity: Double = 1100
+
+    var body: some View {
+        Group {
+            if !reduceMotion && !finished {
+                TimelineView(.animation) { timeline in
+                    Canvas { context, size in
+                        draw(&context, size: size, time: timeline.date.timeIntervalSince(start))
+                    }
+                }
+            }
+        }
+        .allowsHitTesting(false)
+        .ignoresSafeArea()
+        .onAppear {
+            start = Date()
+            DispatchQueue.main.asyncAfter(deadline: .now() + Self.length + 0.2) { finished = true }
+        }
+    }
+
+    private func draw(_ context: inout GraphicsContext, size: CGSize, time: Double) {
+        let originX: Double = Double(size.width) / 2
+        let originY: Double = Double(size.height) * 0.3
+        for piece in pieces {
+            let t: Double = time - piece.delay
+            if t <= 0 { continue }
+            // Air slows the burst; gravity pulls the pieces down; a little sway like paper.
+            let travel: Double = piece.speed * (1 - exp(-2.2 * t)) / 2.2
+            let x: Double = originX + cos(piece.angle) * travel + sin(t * 3 + piece.sway) * 14
+            let y: Double = originY + sin(piece.angle) * travel + 0.5 * Self.gravity * t * t * 0.45
+            let fade: Double = min(1, max(0, (Self.length - t) / 0.7))
+            if fade <= 0 || y > Double(size.height) + 40 { continue }
+            var piecePen = context
+            piecePen.opacity = fade
+            piecePen.translateBy(x: CGFloat(x), y: CGFloat(y))
+            piecePen.rotate(by: .radians(piece.spin * t))
+            let rect = CGRect(x: -piece.width / 2, y: -piece.height / 2, width: piece.width, height: piece.height)
+            piecePen.fill(Path(roundedRect: rect, cornerRadius: 2), with: .color(piece.color))
+        }
     }
 }
 

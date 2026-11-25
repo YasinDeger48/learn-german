@@ -184,6 +184,9 @@ struct A1QuizView: View {
             .padding(.horizontal, 20)
             .padding(.bottom, 20)
         }
+        .overlay {
+            if !newBadges.isEmpty { ConfettiBurst() }
+        }
         .onAppear {
             if !examSaved {
                 examSaved = true
