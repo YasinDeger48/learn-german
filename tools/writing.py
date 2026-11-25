@@ -237,6 +237,77 @@ TASKS_A2 = [
 
 TASKS += TASKS_A2
 
+
+# B1 (Goethe B1 Schreiben): Teil 1 e-mail to a friend (about 80 words), Teil 2 opinion in an online forum
+# (about 80 words), Teil 3 polite e-mail to someone you say "Sie" to (about 40 words).
+TASKS_B1 = [
+    message('b1-m1', ('E-posta: Yeni evime taşındım', 'E-mail: I have moved'),
+            'Sie sind vor kurzem umgezogen. Schreiben Sie Ihrer Freundin Hanna eine E-Mail.',
+            ('Yeni evini anlat, taşınmanın nasıl geçtiğini yaz ve onu ziyarete davet et; bir tarih öner.',
+             'Describe your new home, say how the move went and invite her to visit; suggest a date.'),
+            [point('Yeni ev', 'The new home', 'Die Wohnung, die ich gefunden habe, ist hell und hat einen Balkon.', 'wohnung', 'zimmer', 'balkon', 'haus'),
+             point('Taşınma', 'The move', 'Der Umzug war anstrengend, aber meine Freunde haben mir geholfen.', 'umzug', 'umgezogen', 'kartons', 'geholfen'),
+             point('Davet ve tarih', 'Invitation and date', 'Hättest du am Samstag, dem 12., Zeit?', 'besuch', 'kommen', 'zeit', 'samstag', 'sonntag', 'wochenende')],
+            'Liebe Hanna, wie geht es dir? Stell dir vor, ich bin endlich umgezogen! Die Wohnung, die ich gefunden habe, liegt im Zentrum. '
+            'Sie ist hell, hat drei Zimmer und einen kleinen Balkon, auf dem ich morgens Kaffee trinke. Der Umzug war ziemlich anstrengend, '
+            'weil wir keinen Aufzug haben, aber zum Glück haben mir zwei Freunde geholfen. Jetzt stehen nur noch ein paar Kartons im Flur. '
+            'Hättest du Lust, mich zu besuchen? Wie wäre es mit Samstag, dem 12.? Ich koche für uns. Liebe Grüße, Ayla',
+            min_words=80, level='B1', formal=False),
+    message('b1-m2', ('E-posta: Tatilden selamlar', 'E-mail: greetings from my holiday'),
+            'Sie haben eine Reise gemacht, aber nicht alles hat geklappt. Schreiben Sie Ihrem Freund Lukas eine E-Mail.',
+            ('Nereye gittiğini, neyin iyi neyin kötü gittiğini yaz ve bir sonraki yolculuk için öneride bulun.',
+             'Say where you went, what went well and what went wrong, and suggest the next trip together.'),
+            [point('Nereye', 'Where', 'Letzte Woche war ich in Wien.', 'war ich', 'bin', 'gefahren', 'gereist', 'reise'),
+             point('İyi ve kötü', 'Good and bad', 'Obwohl der Zug Verspätung hatte, war die Stadt wunderschön.', 'obwohl', 'leider', 'verspätung', 'aber', 'schön'),
+             point('Öneri', 'Suggestion', 'Nächstes Mal könnten wir zusammen fahren.', 'nächstes mal', 'zusammen', 'könnten wir', 'hast du lust')],
+            'Hallo Lukas, ich bin gerade aus Wien zurückgekommen und muss dir unbedingt erzählen, wie es war. Die Stadt ist wunderschön: '
+            'Wir haben viele Museen besucht und jeden Tag in einem anderen Café gesessen. Leider hatte unser Zug auf der Hinfahrt drei Stunden '
+            'Verspätung, und am zweiten Tag hat es nur geregnet. Obwohl nicht alles geklappt hat, möchte ich unbedingt noch einmal hinfahren. '
+            'Nächstes Mal könnten wir zusammen fahren, vielleicht im Frühling, wenn es wärmer ist? Hast du Lust? Viele Grüße, Burak',
+            min_words=80, level='B1', formal=False),
+    message('b1-m3', ('Forum: Evden çalışmak', 'Forum: working from home'),
+            'In einem Online-Forum wird gefragt: „Ist Homeoffice besser als Arbeiten im Büro?“ Schreiben Sie Ihre Meinung.',
+            ('Görüşünü söyle, gerekçe ver ve kendi deneyiminden bir örnek ekle.', 'Give your opinion, give reasons and add an example from your own experience.'),
+            [point('Görüş', 'Opinion', 'Meiner Meinung nach ist eine Mischung am besten.', 'meiner meinung', 'ich finde', 'ich denke', 'ich bin der meinung', 'meines erachtens'),
+             point('Gerekçe', 'Reasons', 'Einerseits spart man Zeit, andererseits fehlt der Kontakt.', 'weil', 'denn', 'einerseits', 'andererseits', 'vorteil', 'nachteil'),
+             point('Deneyim', 'Your experience', 'Ich selbst arbeite zweimal pro Woche zu Hause.', 'ich selbst', 'bei mir', 'meine erfahrung', 'ich arbeite')],
+            'Hallo zusammen, meiner Meinung nach ist eine Mischung aus Homeoffice und Büro am besten. Einerseits spart man im Homeoffice viel Zeit, '
+            'weil man nicht pendeln muss, und man kann sich besser konzentrieren. Andererseits fehlt der Kontakt zu den Kollegen, und manche Probleme '
+            'lassen sich im Gespräch schneller lösen. Ich selbst arbeite zweimal pro Woche zu Hause und an den anderen Tagen im Büro. '
+            'So habe ich Ruhe für schwierige Aufgaben und trotzdem genug Austausch im Team. Das funktioniert für mich sehr gut. Viele Grüße, Elif',
+            min_words=80, level='B1', formal=False),
+    message('b1-m4', ('Forum: Çocuklar ve akıllı telefon', 'Forum: children and smartphones'),
+            'In einem Online-Forum wird diskutiert: „Sollten Kinder unter zwölf Jahren ein eigenes Smartphone haben?“ Schreiben Sie Ihre Meinung.',
+            ('Görüşünü söyle, avantaj ve dezavantaj say, bir öneride bulun.', 'Give your opinion, name advantages and disadvantages, make a suggestion.'),
+            [point('Görüş', 'Opinion', 'Ich finde, dass Kinder erst später ein Smartphone brauchen.', 'meiner meinung', 'ich finde', 'ich denke', 'ich bin der meinung'),
+             point('Artı ve eksi', 'Pros and cons', 'Ein Vorteil ist …, ein Nachteil ist …', 'vorteil', 'nachteil', 'einerseits', 'andererseits', 'gefahr'),
+             point('Öneri', 'Suggestion', 'Eltern sollten klare Regeln machen.', 'sollten', 'regeln', 'vorschlag', 'am besten')],
+            'Hallo zusammen, ich finde, dass Kinder unter zwölf Jahren noch kein eigenes Smartphone brauchen. Ein Vorteil ist natürlich, '
+            'dass Eltern ihre Kinder immer erreichen können. Ein großer Nachteil ist aber, dass viele Kinder zu viel Zeit am Bildschirm verbringen '
+            'und weniger draußen spielen. Außerdem gibt es im Internet Gefahren, die Kinder noch nicht verstehen. Am besten wäre ein einfaches Handy '
+            'zum Telefonieren. Wenn Kinder doch ein Smartphone bekommen, sollten Eltern klare Regeln machen, zum Beispiel kein Handy beim Essen und am Abend. Viele Grüße, Murat',
+            min_words=80, level='B1', formal=False),
+    message('b1-m5', ('E-posta: Toplantıya katılamıyorum', "E-mail: I can't come to the meeting"),
+            'Sie können nicht zu einem wichtigen Termin mit Ihrer Kursleiterin, Frau Dr. Neumann, kommen. Schreiben Sie ihr eine E-Mail.',
+            ('Kibarca özür dile, nedenini yaz ve yeni bir tarih öner.', 'Apologise politely, give the reason and suggest a new date.'),
+            [point('Özür', 'Apology', 'Leider kann ich am Donnerstag nicht kommen.', 'leider', 'entschuldigung', 'tut mir leid', 'entschuldigen'),
+             point('Neden', 'Reason', 'Ich muss an dem Tag arbeiten.', 'weil', 'da ich', 'muss', 'termin'),
+             point('Yeni tarih', 'New date', 'Wäre es möglich, das Gespräch zu verschieben?', 'verschieben', 'anderen termin', 'möglich', 'nächste woche')],
+            'Sehr geehrte Frau Dr. Neumann, leider kann ich am Donnerstag nicht zu unserem Gespräch kommen, weil ich an diesem Tag kurzfristig arbeiten muss. '
+            'Das tut mir sehr leid. Wäre es möglich, den Termin auf nächste Woche zu verschieben? Mit freundlichen Grüßen, Can Yılmaz',
+            min_words=40, level='B1', formal=True),
+    message('b1-m6', ('E-posta: Gönüllü olmak istiyorum', 'E-mail: I would like to volunteer'),
+            'Ein Verein sucht Freiwillige für ein Stadtfest. Schreiben Sie Herrn Becker vom Verein eine E-Mail.',
+            ('Kendini tanıt, neden katılmak istediğini yaz ve bir şey sor.', 'Introduce yourself, say why you want to take part and ask a question.'),
+            [point('Tanıtım', 'About you', 'Ich heiße … und wohne seit zwei Jahren in der Stadt.', 'ich heiße', 'mein name', 'ich bin', 'ich wohne'),
+             point('Neden', 'Why', 'Ich möchte mithelfen, weil ich neue Leute kennenlernen will.', 'weil', 'möchte', 'gern', 'interessiere'),
+             point('Soru', 'Question', 'Könnten Sie mir sagen, wann die Helfer da sein müssen?', 'könnten sie', 'ob', 'wann', 'wie viele', 'frage')],
+            'Sehr geehrter Herr Becker, mein Name ist Selin Kaya und ich wohne seit zwei Jahren in der Stadt. Ich möchte beim Stadtfest gern mithelfen, '
+            'weil ich neue Leute kennenlernen will. Könnten Sie mir sagen, wann die Helfer da sein müssen? Mit freundlichen Grüßen, Selin Kaya',
+            min_words=40, level='B1', formal=True),
+]
+TASKS += TASKS_B1
+
 # A greeting and a closing are checked for every message as well.
 GREETING = ['liebe', 'lieber', 'hallo', 'hi', 'sehr geehrte', 'sehr geehrter', 'guten tag']
 CLOSING = ['grüße', 'gruß', 'bis bald', 'tschüss', 'bis dann', 'bis morgen', 'bis gleich']

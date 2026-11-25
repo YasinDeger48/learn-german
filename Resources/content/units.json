@@ -2579,6 +2579,1799 @@
      "en": "to come back"
     }
    ]
+  },
+  {
+   "id": "b1-01",
+   "level": "B1",
+   "number": 1,
+   "title": {
+    "tr": "Ev ve mahalle",
+    "en": "Home and neighbourhood"
+   },
+   "goal": {
+    "tr": "Evini ve mahalleni ayrıntılı anlatır, komşularla sorunları çözersin.",
+    "en": "Describe your home and area in detail, solve problems with neighbours."
+   },
+   "cover": "unit-b1-01",
+   "themes": [],
+   "grammar": [
+    6,
+    7
+   ],
+   "texts": [
+    "b1-004",
+    "b1-012",
+    "b1-015",
+    "b1-021",
+    "b1-026",
+    "b1-036",
+    "b1-041",
+    "b1-048",
+    "b1-060"
+   ],
+   "speaking": [
+    "b1-6"
+   ],
+   "writing": [
+    "b1-m1"
+   ],
+   "phrases": [
+    {
+     "de": "Das ist die Wohnung, die ich gemietet habe.",
+     "tr": "Bu, kiraladığım daire.",
+     "en": "This is the flat that I rented."
+    },
+    {
+     "de": "Der Stadtteil, in dem ich wohne, ist sehr lebendig.",
+     "tr": "Oturduğum semt çok canlı.",
+     "en": "The district I live in is very lively."
+    },
+    {
+     "de": "Könnten wir eine Lösung finden?",
+     "tr": "Bir çözüm bulabilir miyiz?",
+     "en": "Could we find a solution?"
+    },
+    {
+     "de": "Die Nebenkosten sind im letzten Jahr gestiegen.",
+     "tr": "Yan giderler geçen yıl arttı.",
+     "en": "The extra costs went up last year."
+    },
+    {
+     "de": "Alles, was ich brauche, ist in der Nähe.",
+     "tr": "İhtiyacım olan her şey yakında.",
+     "en": "Everything I need is nearby."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Dichtung",
+     "art": "die",
+     "tr": "conta",
+     "en": "seal, gasket"
+    },
+    {
+     "de": "Verwechslung",
+     "art": "die",
+     "tr": "karışıklık",
+     "en": "mix-up"
+    },
+    {
+     "de": "Pfütze",
+     "art": "die",
+     "tr": "su birikintisi",
+     "en": "puddle"
+    },
+    {
+     "de": "Fluchtweg",
+     "art": "der",
+     "tr": "acil kaçış yolu",
+     "en": "escape route"
+    },
+    {
+     "de": "Etage",
+     "art": "die",
+     "tr": "kat",
+     "en": "floor"
+    },
+    {
+     "de": "Kreide",
+     "art": "die",
+     "tr": "tebeşir",
+     "en": "chalk"
+    },
+    {
+     "de": "Wartung",
+     "art": "die",
+     "tr": "bakım",
+     "en": "maintenance"
+    },
+    {
+     "de": "Mietwagen",
+     "art": "der",
+     "tr": "kiralık araç",
+     "en": "rental car"
+    },
+    {
+     "de": "Zielraum",
+     "art": "der",
+     "tr": "eşyanın gideceği oda",
+     "en": "destination room"
+    },
+    {
+     "de": "Fach",
+     "art": "das",
+     "tr": "göz, bölme",
+     "en": "compartment, shelf"
+    },
+    {
+     "de": "Mieterin",
+     "art": "die",
+     "tr": "kiracı",
+     "en": "tenant (f.)"
+    },
+    {
+     "de": "Sendung",
+     "art": "die",
+     "tr": "gönderi",
+     "en": "delivery, item of mail"
+    },
+    {
+     "de": "feucht",
+     "tr": "nemli",
+     "en": "damp"
+    },
+    {
+     "de": "beauftragen",
+     "tr": "görevlendirmek",
+     "en": "to hire, to commission"
+    },
+    {
+     "de": "eine Rechnung ausstellen",
+     "tr": "fatura kesmek",
+     "en": "to issue an invoice"
+    },
+    {
+     "de": "umfassen",
+     "tr": "kapsamak",
+     "en": "to include"
+    },
+    {
+     "de": "hinfällig",
+     "tr": "geçersiz",
+     "en": "void, no longer valid"
+    },
+    {
+     "de": "absagen",
+     "tr": "iptal etmek",
+     "en": "to cancel"
+    }
+   ]
+  },
+  {
+   "id": "b1-02",
+   "level": "B1",
+   "number": 2,
+   "title": {
+    "tr": "İş ve kariyer",
+    "en": "Work and career"
+   },
+   "goal": {
+    "tr": "İş isteklerini nazikçe söyler, toplantıda soru sorar, görüş bildirirsin.",
+    "en": "Make polite requests at work, ask questions in meetings, give your opinion."
+   },
+   "cover": "unit-b1-02",
+   "themes": [],
+   "grammar": [
+    1,
+    15
+   ],
+   "texts": [
+    "b1-003",
+    "b1-016",
+    "b1-030",
+    "b1-035",
+    "b1-045",
+    "b1-056"
+   ],
+   "speaking": [
+    "b1-5"
+   ],
+   "writing": [
+    "b1-m3"
+   ],
+   "phrases": [
+    {
+     "de": "Ich würde gern im Homeoffice arbeiten.",
+     "tr": "Evden çalışmak isterdim.",
+     "en": "I would like to work from home."
+    },
+    {
+     "de": "Könnten Sie mir sagen, wann das Meeting beginnt?",
+     "tr": "Toplantının ne zaman başladığını söyleyebilir misiniz?",
+     "en": "Could you tell me when the meeting starts?"
+    },
+    {
+     "de": "An Ihrer Stelle würde ich nachfragen.",
+     "tr": "Yerinizde olsam sorardım.",
+     "en": "If I were you I would ask."
+    },
+    {
+     "de": "Ich weiß nicht, ob ich die Stelle bekomme.",
+     "tr": "İşi alıp alamayacağımı bilmiyorum.",
+     "en": "I don't know whether I'll get the job."
+    },
+    {
+     "de": "Meiner Meinung nach ist das eine gute Idee.",
+     "tr": "Bence bu iyi bir fikir.",
+     "en": "In my opinion that is a good idea."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Frühschicht",
+     "art": "die",
+     "tr": "sabah vardiyası",
+     "en": "early shift"
+    },
+    {
+     "de": "Zusage",
+     "art": "die",
+     "tr": "onay, verilen söz",
+     "en": "confirmation, promise"
+    },
+    {
+     "de": "Fassung",
+     "art": "die",
+     "tr": "sürüm",
+     "en": "version"
+    },
+    {
+     "de": "Bestellung",
+     "art": "die",
+     "tr": "sipariş",
+     "en": "order"
+    },
+    {
+     "de": "Abschlussfeier",
+     "art": "die",
+     "tr": "mezuniyet kutlaması",
+     "en": "graduation party"
+    },
+    {
+     "de": "Großhändler",
+     "art": "der",
+     "tr": "toptancı",
+     "en": "wholesaler"
+    },
+    {
+     "de": "Strauß",
+     "art": "der",
+     "tr": "buket",
+     "en": "bouquet"
+    },
+    {
+     "de": "Spalte",
+     "art": "die",
+     "tr": "sütun",
+     "en": "column"
+    },
+    {
+     "de": "Wäscherei",
+     "art": "die",
+     "tr": "çamaşırhane",
+     "en": "laundry"
+    },
+    {
+     "de": "Nachtschicht",
+     "art": "die",
+     "tr": "gece vardiyası",
+     "en": "night shift"
+    },
+    {
+     "de": "Warnung",
+     "art": "die",
+     "tr": "uyarı",
+     "en": "warning"
+    },
+    {
+     "de": "Druckerei",
+     "art": "die",
+     "tr": "matbaa",
+     "en": "print shop"
+    },
+    {
+     "de": "infrage kommen",
+     "tr": "söz konusu olmak",
+     "en": "to be an option"
+    },
+    {
+     "de": "verrutschen",
+     "tr": "kaymak",
+     "en": "to slip"
+    },
+    {
+     "de": "einspringen",
+     "tr": "birinin yerine geçmek",
+     "en": "to stand in"
+    },
+    {
+     "de": "notieren",
+     "tr": "not etmek",
+     "en": "to note down"
+    },
+    {
+     "de": "versehentlich",
+     "tr": "yanlışlıkla",
+     "en": "by mistake"
+    },
+    {
+     "de": "kurzfristig",
+     "tr": "son anda",
+     "en": "at short notice"
+    }
+   ]
+  },
+  {
+   "id": "b1-03",
+   "level": "B1",
+   "number": 3,
+   "title": {
+    "tr": "Aile ve geçmiş",
+    "en": "Family and the past"
+   },
+   "goal": {
+    "tr": "Aileni ve geçmişte olanları sırayla anlatırsın.",
+    "en": "Talk about your family and tell past events in order."
+   },
+   "cover": "unit-b1-03",
+   "themes": [],
+   "grammar": [
+    8,
+    9
+   ],
+   "texts": [
+    "b1-001",
+    "b1-009",
+    "b1-020",
+    "b1-038",
+    "b1-046"
+   ],
+   "speaking": [
+    "b1-4"
+   ],
+   "writing": [
+    "b1-m2"
+   ],
+   "phrases": [
+    {
+     "de": "Als Kind wohnte ich bei meinen Großeltern.",
+     "tr": "Çocukken büyükannemlerde otururdum.",
+     "en": "As a child I lived with my grandparents."
+    },
+    {
+     "de": "Nachdem wir gegessen hatten, gingen wir spazieren.",
+     "tr": "Yemek yedikten sonra yürüyüşe çıktık.",
+     "en": "After we had eaten we went for a walk."
+    },
+    {
+     "de": "Meine Schwester und ich verstehen uns gut.",
+     "tr": "Kız kardeşimle iyi anlaşırız.",
+     "en": "My sister and I get on well."
+    },
+    {
+     "de": "Früher hatten wir keinen Fernseher.",
+     "tr": "Eskiden televizyonumuz yoktu.",
+     "en": "We didn't use to have a TV."
+    },
+    {
+     "de": "Damals war alles ganz anders.",
+     "tr": "O zamanlar her şey bambaşkaydı.",
+     "en": "Back then everything was very different."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Kassengerät",
+     "art": "das",
+     "tr": "kasa cihazı",
+     "en": "till, cash register"
+    },
+    {
+     "de": "Stadtrand",
+     "art": "der",
+     "tr": "şehrin dış kesimi",
+     "en": "outskirts"
+    },
+    {
+     "de": "Bargeld",
+     "art": "das",
+     "tr": "nakit",
+     "en": "cash"
+    },
+    {
+     "de": "Betrag",
+     "art": "der",
+     "tr": "tutar",
+     "en": "amount"
+    },
+    {
+     "de": "Rollator",
+     "art": "der",
+     "tr": "tekerlekli yürüteç",
+     "en": "walker"
+    },
+    {
+     "de": "Aufnahme",
+     "art": "die",
+     "tr": "kayıt",
+     "en": "recording"
+    },
+    {
+     "de": "Datei",
+     "art": "die",
+     "tr": "dosya",
+     "en": "file"
+    },
+    {
+     "de": "Zustimmung",
+     "art": "die",
+     "tr": "onay",
+     "en": "consent"
+    },
+    {
+     "de": "Strophe",
+     "art": "die",
+     "tr": "kıta",
+     "en": "verse"
+    },
+    {
+     "de": "Kuchenform",
+     "art": "die",
+     "tr": "kek kalıbı",
+     "en": "cake tin"
+    },
+    {
+     "de": "Kinderwagen",
+     "art": "der",
+     "tr": "bebek arabası",
+     "en": "pram"
+    },
+    {
+     "de": "Bahnsteig",
+     "art": "der",
+     "tr": "peron",
+     "en": "platform"
+    },
+    {
+     "de": "freiwillig",
+     "tr": "gönüllü olarak",
+     "en": "voluntarily"
+    },
+    {
+     "de": "einrichten",
+     "tr": "kurmak, ayarlamak",
+     "en": "to set up"
+    },
+    {
+     "de": "offen",
+     "tr": "ödenmemiş",
+     "en": "unpaid, outstanding"
+    },
+    {
+     "de": "versprechen",
+     "tr": "söz vermek",
+     "en": "to promise"
+    },
+    {
+     "de": "erledigt",
+     "tr": "halledilmiş",
+     "en": "done"
+    },
+    {
+     "de": "enttäuscht",
+     "tr": "hayal kırıklığına uğramış",
+     "en": "disappointed"
+    }
+   ]
+  },
+  {
+   "id": "b1-04",
+   "level": "B1",
+   "number": 4,
+   "title": {
+    "tr": "Alışveriş ve tüketim",
+    "en": "Shopping and consumption"
+   },
+   "goal": {
+    "tr": "Ürünleri karşılaştırır, şikâyet eder, tüketim üzerine görüş bildirirsin.",
+    "en": "Compare products, complain, discuss consumption."
+   },
+   "cover": "unit-b1-04",
+   "themes": [],
+   "grammar": [
+    19,
+    11
+   ],
+   "texts": [
+    "b1-014",
+    "b1-027",
+    "b1-043",
+    "b1-053"
+   ],
+   "speaking": [
+    "b1-1"
+   ],
+   "writing": [
+    "b1-m4"
+   ],
+   "phrases": [
+    {
+     "de": "Ich suche ein günstiges, aber gutes Handy.",
+     "tr": "Ucuz ama iyi bir telefon arıyorum.",
+     "en": "I'm looking for a cheap but good phone."
+    },
+    {
+     "de": "Das Gerät ist nicht nur teuer, sondern auch schwer.",
+     "tr": "Cihaz hem pahalı hem de ağır.",
+     "en": "The device is not only expensive but also heavy."
+    },
+    {
+     "de": "Entweder ich repariere es oder ich kaufe ein neues.",
+     "tr": "Ya tamir ettireceğim ya da yenisini alacağım.",
+     "en": "Either I repair it or I buy a new one."
+    },
+    {
+     "de": "Ich möchte mich beschweren.",
+     "tr": "Şikâyette bulunmak istiyorum.",
+     "en": "I'd like to make a complaint."
+    },
+    {
+     "de": "Online einzukaufen ist bequem, aber riskant.",
+     "tr": "İnternetten alışveriş rahat ama riskli.",
+     "en": "Shopping online is convenient but risky."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Innentasche",
+     "art": "die",
+     "tr": "iç cep",
+     "en": "inside pocket"
+    },
+    {
+     "de": "Veranstalter",
+     "art": "der",
+     "tr": "organizatör",
+     "en": "organiser"
+    },
+    {
+     "de": "Führung",
+     "art": "die",
+     "tr": "rehberli gezi",
+     "en": "guided tour"
+    },
+    {
+     "de": "Kragen",
+     "art": "der",
+     "tr": "yaka",
+     "en": "collar"
+    },
+    {
+     "de": "Rückgabe",
+     "art": "die",
+     "tr": "iade",
+     "en": "return"
+    },
+    {
+     "de": "Lesegerät",
+     "art": "das",
+     "tr": "okuyucu cihaz",
+     "en": "reader (device)"
+    },
+    {
+     "de": "Etikett",
+     "art": "das",
+     "tr": "etiket",
+     "en": "label"
+    },
+    {
+     "de": "Frist",
+     "art": "die",
+     "tr": "son tarih",
+     "en": "deadline"
+    },
+    {
+     "de": "Postleitzahl",
+     "art": "die",
+     "tr": "posta kodu",
+     "en": "postcode"
+    },
+    {
+     "de": "Bestätigung",
+     "art": "die",
+     "tr": "onay",
+     "en": "confirmation"
+    },
+    {
+     "de": "Wochenmarkt",
+     "art": "der",
+     "tr": "semt pazarı",
+     "en": "weekly market"
+    },
+    {
+     "de": "Sorte",
+     "art": "die",
+     "tr": "çeşit",
+     "en": "variety"
+    },
+    {
+     "de": "versehentlich",
+     "tr": "yanlışlıkla",
+     "en": "by mistake"
+    },
+    {
+     "de": "vollständig",
+     "tr": "eksiksiz",
+     "en": "complete"
+    },
+    {
+     "de": "verhelfen",
+     "tr": "elde etmesine yardımcı olmak",
+     "en": "to help (someone) get"
+    },
+    {
+     "de": "anprobieren",
+     "tr": "denemek",
+     "en": "to try on"
+    },
+    {
+     "de": "sortieren",
+     "tr": "ayırmak",
+     "en": "to sort"
+    }
+   ]
+  },
+  {
+   "id": "b1-05",
+   "level": "B1",
+   "number": 5,
+   "title": {
+    "tr": "Sağlık ve iyi yaşam",
+    "en": "Health and well-being"
+   },
+   "goal": {
+    "tr": "Şikâyetlerini ayrıntılı anlatır, tavsiye verir ve alırsın.",
+    "en": "Describe symptoms in detail, give and take advice."
+   },
+   "cover": "unit-b1-05",
+   "themes": [],
+   "grammar": [
+    20,
+    16
+   ],
+   "texts": [
+    "b1-005",
+    "b1-017",
+    "b1-031",
+    "b1-051"
+   ],
+   "speaking": [
+    "b1-4"
+   ],
+   "writing": [
+    "b1-m5"
+   ],
+   "phrases": [
+    {
+     "de": "Ich habe mir den Fuß verletzt.",
+     "tr": "Ayağımı incittim.",
+     "en": "I have hurt my foot."
+    },
+    {
+     "de": "Ich lasse mich nächste Woche untersuchen.",
+     "tr": "Gelecek hafta muayene olacağım.",
+     "en": "I'm having a check-up next week."
+    },
+    {
+     "de": "Du solltest mehr schlafen.",
+     "tr": "Daha çok uyumalısın.",
+     "en": "You should sleep more."
+    },
+    {
+     "de": "Ich putze mir dreimal am Tag die Zähne.",
+     "tr": "Günde üç kez dişlerimi fırçalarım.",
+     "en": "I brush my teeth three times a day."
+    },
+    {
+     "de": "Seitdem ich Sport mache, geht es mir besser.",
+     "tr": "Spor yaptığımdan beri daha iyiyim.",
+     "en": "Since I started doing sport I feel better."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Mine",
+     "art": "die",
+     "tr": "kalem içi",
+     "en": "refill (pen)"
+    },
+    {
+     "de": "Stichwort",
+     "art": "das",
+     "tr": "anahtar sözcük",
+     "en": "keyword"
+    },
+    {
+     "de": "Ausdruck",
+     "art": "der",
+     "tr": "çıktı",
+     "en": "printout"
+    },
+    {
+     "de": "Physiotherapeutin",
+     "art": "die",
+     "tr": "fizyoterapist",
+     "en": "physiotherapist (f.)"
+    },
+    {
+     "de": "Strecke",
+     "art": "die",
+     "tr": "güzergâh",
+     "en": "route"
+    },
+    {
+     "de": "Steigung",
+     "art": "die",
+     "tr": "yokuş, eğim",
+     "en": "slope, incline"
+    },
+    {
+     "de": "Amsel",
+     "art": "die",
+     "tr": "karatavuk",
+     "en": "blackbird"
+    },
+    {
+     "de": "Zahnarztpraxis",
+     "art": "die",
+     "tr": "diş hekimi muayenehanesi",
+     "en": "dental practice"
+    },
+    {
+     "de": "Kirschkern",
+     "art": "der",
+     "tr": "kiraz çekirdeği",
+     "en": "cherry stone"
+    },
+    {
+     "de": "Wartezimmer",
+     "art": "das",
+     "tr": "bekleme odası",
+     "en": "waiting room"
+    },
+    {
+     "de": "Werkstatt",
+     "art": "die",
+     "tr": "atölye",
+     "en": "workshop"
+    },
+    {
+     "de": "Kante",
+     "art": "die",
+     "tr": "kenar",
+     "en": "edge"
+    },
+    {
+     "de": "durcheinanderbringen",
+     "tr": "birbirine karıştırmak",
+     "en": "to mix up"
+    },
+    {
+     "de": "bei Bedarf",
+     "tr": "gerekirse",
+     "en": "if needed"
+    },
+    {
+     "de": "mitschreiben",
+     "tr": "yazıyla not almak",
+     "en": "to take notes"
+    },
+    {
+     "de": "aufbewahren",
+     "tr": "saklamak",
+     "en": "to keep"
+    },
+    {
+     "de": "sich fürchten",
+     "tr": "korkmak",
+     "en": "to be afraid"
+    },
+    {
+     "de": "einzeichnen",
+     "tr": "çizerek işaretlemek",
+     "en": "to mark (on a map)"
+    }
+   ]
+  },
+  {
+   "id": "b1-06",
+   "level": "B1",
+   "number": 6,
+   "title": {
+    "tr": "Resmî işler ve toplum",
+    "en": "Offices and society"
+   },
+   "goal": {
+    "tr": "Resmî süreçleri anlar ve anlatır, toplumsal konularda konuşursun.",
+    "en": "Understand and explain official procedures, talk about society."
+   },
+   "cover": "unit-b1-06",
+   "themes": [],
+   "grammar": [
+    3,
+    4
+   ],
+   "texts": [
+    "b1-006",
+    "b1-024",
+    "b1-037",
+    "b1-044",
+    "b1-052"
+   ],
+   "speaking": [
+    "b1-4"
+   ],
+   "writing": [
+    "b1-m5"
+   ],
+   "phrases": [
+    {
+     "de": "Der Antrag wird in zwei Wochen bearbeitet.",
+     "tr": "Başvuru iki hafta içinde işleme alınır.",
+     "en": "The application will be processed in two weeks."
+    },
+    {
+     "de": "Mein Pass wurde letztes Jahr verlängert.",
+     "tr": "Pasaportum geçen yıl uzatıldı.",
+     "en": "My passport was renewed last year."
+    },
+    {
+     "de": "Welche Unterlagen muss ich einreichen?",
+     "tr": "Hangi belgeleri teslim etmem gerekiyor?",
+     "en": "Which documents do I have to submit?"
+    },
+    {
+     "de": "Das Formular ist schon ausgefüllt worden.",
+     "tr": "Form zaten doldurulmuş.",
+     "en": "The form has already been filled in."
+    },
+    {
+     "de": "Ich hätte gern einen Termin beim Bürgeramt.",
+     "tr": "Vatandaşlık dairesinden bir randevu almak istiyorum.",
+     "en": "I'd like an appointment at the citizens' office."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Abholschein",
+     "art": "der",
+     "tr": "teslim alma belgesi",
+     "en": "collection slip"
+    },
+    {
+     "de": "Schalter",
+     "art": "der",
+     "tr": "gişe",
+     "en": "counter"
+    },
+    {
+     "de": "Sachbearbeiterin",
+     "art": "die",
+     "tr": "işlem görevlisi",
+     "en": "clerk (f.)"
+    },
+    {
+     "de": "Gebühr",
+     "art": "die",
+     "tr": "ücret",
+     "en": "fee"
+    },
+    {
+     "de": "Zeugnis",
+     "art": "das",
+     "tr": "diploma, belge",
+     "en": "certificate"
+    },
+    {
+     "de": "Abholnummer",
+     "art": "die",
+     "tr": "teslim alma numarası",
+     "en": "collection number"
+    },
+    {
+     "de": "Verwechslung",
+     "art": "die",
+     "tr": "karışıklık",
+     "en": "mix-up"
+    },
+    {
+     "de": "Ablage",
+     "art": "die",
+     "tr": "belge bölmesi",
+     "en": "tray, filing"
+    },
+    {
+     "de": "Unterlagen",
+     "art": "die",
+     "tr": "belgeler",
+     "en": "documents"
+    },
+    {
+     "de": "Mappe",
+     "art": "die",
+     "tr": "dosya",
+     "en": "folder"
+    },
+    {
+     "de": "Bürgerbüro",
+     "art": "das",
+     "tr": "vatandaşlık bürosu",
+     "en": "citizens' office"
+    },
+    {
+     "de": "Automat",
+     "art": "der",
+     "tr": "otomat",
+     "en": "machine"
+    },
+    {
+     "de": "ablaufen",
+     "tr": "süresi dolmak",
+     "en": "to expire"
+    },
+    {
+     "de": "einziehen",
+     "tr": "geri almak",
+     "en": "to withdraw, to take in"
+    },
+    {
+     "de": "berichtigen",
+     "tr": "düzeltmek",
+     "en": "to correct"
+    },
+    {
+     "de": "beglaubigt",
+     "tr": "onaylı",
+     "en": "certified"
+    },
+    {
+     "de": "verschließen",
+     "tr": "kapatmak",
+     "en": "to seal"
+    },
+    {
+     "de": "auswendig",
+     "tr": "ezbere",
+     "en": "by heart"
+    }
+   ]
+  },
+  {
+   "id": "b1-07",
+   "level": "B1",
+   "number": 7,
+   "title": {
+    "tr": "Medya",
+    "en": "Media"
+   },
+   "goal": {
+    "tr": "Haberleri ve sosyal medyayı tartışır, avantaj ve dezavantaj sayarsın.",
+    "en": "Discuss news and social media, list pros and cons."
+   },
+   "cover": "unit-b1-07",
+   "themes": [],
+   "grammar": [
+    5,
+    10
+   ],
+   "texts": [
+    "b1-010",
+    "b1-025",
+    "b1-034",
+    "b1-055"
+   ],
+   "speaking": [
+    "b1-2"
+   ],
+   "writing": [
+    "b1-m4"
+   ],
+   "phrases": [
+    {
+     "de": "Wegen des Streiks fallen viele Züge aus.",
+     "tr": "Grev yüzünden birçok tren iptal.",
+     "en": "Because of the strike many trains are cancelled."
+    },
+    {
+     "de": "Die Nachrichten müssen kritisch gelesen werden.",
+     "tr": "Haberler eleştirel okunmalı.",
+     "en": "The news must be read critically."
+    },
+    {
+     "de": "Trotz der Kritik nutzen viele soziale Medien.",
+     "tr": "Eleştirilere rağmen birçok kişi sosyal medya kullanıyor.",
+     "en": "Despite the criticism many people use social media."
+    },
+    {
+     "de": "Ein Vorteil ist, dass man schnell informiert ist.",
+     "tr": "Bir avantajı, insanın hızlı bilgilenmesi.",
+     "en": "One advantage is that you are informed quickly."
+    },
+    {
+     "de": "Während der Pause lese ich die Zeitung.",
+     "tr": "Mola sırasında gazete okurum.",
+     "en": "During the break I read the newspaper."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Schülerzeitung",
+     "art": "die",
+     "tr": "okul gazetesi",
+     "en": "school newspaper"
+    },
+    {
+     "de": "Überschrift",
+     "art": "die",
+     "tr": "başlık",
+     "en": "headline"
+    },
+    {
+     "de": "Redaktion",
+     "art": "die",
+     "tr": "yayın ekibi",
+     "en": "editorial team"
+    },
+    {
+     "de": "Beitrag",
+     "art": "der",
+     "tr": "gönderi",
+     "en": "article, post"
+    },
+    {
+     "de": "Renovierung",
+     "art": "die",
+     "tr": "tadilat",
+     "en": "renovation"
+    },
+    {
+     "de": "Ausleihe",
+     "art": "die",
+     "tr": "ödünç alma",
+     "en": "lending desk, loan"
+    },
+    {
+     "de": "Aufnahme",
+     "art": "die",
+     "tr": "kayıt",
+     "en": "recording"
+    },
+    {
+     "de": "Hintergrund",
+     "art": "der",
+     "tr": "arka plan",
+     "en": "background"
+    },
+    {
+     "de": "Begleittext",
+     "art": "der",
+     "tr": "açıklama metni",
+     "en": "caption"
+    },
+    {
+     "de": "Verzögerung",
+     "art": "die",
+     "tr": "gecikme",
+     "en": "delay"
+    },
+    {
+     "de": "Lesesaal",
+     "art": "der",
+     "tr": "okuma salonu",
+     "en": "reading room"
+    },
+    {
+     "de": "Ordner",
+     "art": "der",
+     "tr": "klasör",
+     "en": "folder"
+    },
+    {
+     "de": "auf Anhieb",
+     "tr": "ilk seferde",
+     "en": "straight away, at the first attempt"
+    },
+    {
+     "de": "veröffentlichen",
+     "tr": "yayımlamak",
+     "en": "to publish"
+    },
+    {
+     "de": "unverändert",
+     "tr": "değiştirilmeden",
+     "en": "unchanged"
+    },
+    {
+     "de": "herausschneiden",
+     "tr": "kesip çıkarmak",
+     "en": "to cut out"
+    },
+    {
+     "de": "stumm schalten",
+     "tr": "sessize almak",
+     "en": "to mute"
+    },
+    {
+     "de": "abbiegen",
+     "tr": "dönmek",
+     "en": "to turn"
+    }
+   ]
+  },
+  {
+   "id": "b1-08",
+   "level": "B1",
+   "number": 8,
+   "title": {
+    "tr": "Seyahat ve ulaşım",
+    "en": "Travel and transport"
+   },
+   "goal": {
+    "tr": "Bir yolculuğu planlar, sorunları anlatır, gelecek planlarını söylersin.",
+    "en": "Plan a trip, explain problems, say what you will do."
+   },
+   "cover": "unit-b1-08",
+   "themes": [],
+   "grammar": [
+    12,
+    18
+   ],
+   "texts": [
+    "b1-011",
+    "b1-019",
+    "b1-033",
+    "b1-050",
+    "b1-058"
+   ],
+   "speaking": [
+    "b1-3"
+   ],
+   "writing": [
+    "b1-m2"
+   ],
+   "phrases": [
+    {
+     "de": "Obwohl es geregnet hat, war die Reise schön.",
+     "tr": "Yağmur yağmasına rağmen yolculuk güzeldi.",
+     "en": "Although it rained the trip was nice."
+    },
+    {
+     "de": "Falls der Zug ausfällt, nehmen wir den Bus.",
+     "tr": "Tren iptal olursa otobüse bineriz.",
+     "en": "If the train is cancelled we will take the bus."
+    },
+    {
+     "de": "Nächstes Jahr werde ich nach Portugal fahren.",
+     "tr": "Seneye Portekiz'e gideceğim.",
+     "en": "Next year I will go to Portugal."
+    },
+    {
+     "de": "Bevor wir losfahren, tanken wir.",
+     "tr": "Yola çıkmadan önce benzin alırız.",
+     "en": "Before we set off we fill up."
+    },
+    {
+     "de": "Ich habe meinen Anschlusszug verpasst.",
+     "tr": "Aktarma trenimi kaçırdım.",
+     "en": "I missed my connecting train."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Zugbegleiter",
+     "art": "der",
+     "tr": "kondüktör",
+     "en": "train conductor"
+    },
+    {
+     "de": "Stellplatz",
+     "art": "der",
+     "tr": "ayrılmış yer",
+     "en": "reserved space"
+    },
+    {
+     "de": "Verbindung",
+     "art": "die",
+     "tr": "aktarma bağlantısı",
+     "en": "connection"
+    },
+    {
+     "de": "Unterkunft",
+     "art": "die",
+     "tr": "konaklama yeri",
+     "en": "accommodation"
+    },
+    {
+     "de": "Bestätigung",
+     "art": "die",
+     "tr": "onay belgesi",
+     "en": "confirmation"
+    },
+    {
+     "de": "Ehepaar",
+     "art": "das",
+     "tr": "evli çift",
+     "en": "married couple"
+    },
+    {
+     "de": "Alternative",
+     "art": "die",
+     "tr": "başka seçenek",
+     "en": "alternative"
+    },
+    {
+     "de": "Stempel",
+     "art": "der",
+     "tr": "damga",
+     "en": "stamp"
+    },
+    {
+     "de": "Gepäckablage",
+     "art": "die",
+     "tr": "bagaj rafı",
+     "en": "luggage rack"
+    },
+    {
+     "de": "Griff",
+     "art": "der",
+     "tr": "sap",
+     "en": "handle"
+    },
+    {
+     "de": "Außentasche",
+     "art": "die",
+     "tr": "dış cep",
+     "en": "outer pocket"
+    },
+    {
+     "de": "Schloss",
+     "art": "das",
+     "tr": "kilit",
+     "en": "lock"
+    },
+    {
+     "de": "ausgeben",
+     "tr": "teslim etmek",
+     "en": "to hand out"
+    },
+    {
+     "de": "hinterlegen",
+     "tr": "teslim alınmak üzere bırakmak",
+     "en": "to leave (for collection)"
+    },
+    {
+     "de": "kennzeichnen",
+     "tr": "işaretlemek",
+     "en": "to label, to mark"
+    },
+    {
+     "de": "absagen",
+     "tr": "iptal etmek",
+     "en": "to cancel"
+    },
+    {
+     "de": "versäumen",
+     "tr": "kaçırmak",
+     "en": "to miss"
+    },
+    {
+     "de": "abholen",
+     "tr": "gidip almak",
+     "en": "to pick up"
+    }
+   ]
+  },
+  {
+   "id": "b1-09",
+   "level": "B1",
+   "number": 9,
+   "title": {
+    "tr": "Eğitim",
+    "en": "Education"
+   },
+   "goal": {
+    "tr": "Eğitim yolunu ve hedeflerini anlatır, amaç bildirirsin.",
+    "en": "Talk about your education and goals, express purpose."
+   },
+   "cover": "unit-b1-09",
+   "themes": [],
+   "grammar": [
+    13,
+    14
+   ],
+   "texts": [
+    "b1-013",
+    "b1-018",
+    "b1-039",
+    "b1-049"
+   ],
+   "speaking": [
+    "b1-2"
+   ],
+   "writing": [
+    "b1-m5"
+   ],
+   "phrases": [
+    {
+     "de": "Ich lerne Deutsch, um in Deutschland zu studieren.",
+     "tr": "Almanya'da okumak için Almanca öğreniyorum.",
+     "en": "I'm learning German in order to study in Germany."
+    },
+    {
+     "de": "Ich interessiere mich für Informatik.",
+     "tr": "Bilgisayar bilimine ilgi duyuyorum.",
+     "en": "I'm interested in computer science."
+    },
+    {
+     "de": "Worauf freust du dich am meisten?",
+     "tr": "En çok neyi dört gözle bekliyorsun?",
+     "en": "What are you looking forward to most?"
+    },
+    {
+     "de": "Statt zu lernen, habe ich ferngesehen.",
+     "tr": "Ders çalışmak yerine televizyon izledim.",
+     "en": "Instead of studying I watched TV."
+    },
+    {
+     "de": "Ich bereite mich auf die Prüfung vor.",
+     "tr": "Sınava hazırlanıyorum.",
+     "en": "I'm preparing for the exam."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Vortrag",
+     "art": "der",
+     "tr": "sunum",
+     "en": "talk, presentation"
+    },
+    {
+     "de": "Abkürzung",
+     "art": "die",
+     "tr": "kestirme yol",
+     "en": "shortcut"
+    },
+    {
+     "de": "Folie",
+     "art": "die",
+     "tr": "slayt",
+     "en": "slide"
+    },
+    {
+     "de": "Aufkleber",
+     "art": "der",
+     "tr": "etiket",
+     "en": "sticker"
+    },
+    {
+     "de": "Rückgabedatum",
+     "art": "das",
+     "tr": "iade tarihi",
+     "en": "return date"
+    },
+    {
+     "de": "Ausleihe",
+     "art": "die",
+     "tr": "ödünç alma kaydı",
+     "en": "lending desk, loan"
+    },
+    {
+     "de": "Fach",
+     "art": "das",
+     "tr": "göz, bölme",
+     "en": "compartment, shelf"
+    },
+    {
+     "de": "Referat",
+     "art": "das",
+     "tr": "sunum",
+     "en": "presentation"
+    },
+    {
+     "de": "öffentliche Verkehr",
+     "art": "der",
+     "tr": "toplu taşıma",
+     "en": "public transport"
+    },
+    {
+     "de": "Ausdruck",
+     "art": "der",
+     "tr": "çıktı",
+     "en": "printout"
+    },
+    {
+     "de": "Vergleich",
+     "art": "der",
+     "tr": "karşılaştırma",
+     "en": "comparison"
+    },
+    {
+     "de": "Interview",
+     "art": "das",
+     "tr": "röportaj",
+     "en": "interview"
+    },
+    {
+     "de": "verschieben",
+     "tr": "ertelemek",
+     "en": "to postpone"
+    },
+    {
+     "de": "verschwenden",
+     "tr": "boşa harcamak",
+     "en": "to waste"
+    },
+    {
+     "de": "aus dem Kopf",
+     "tr": "ezberden",
+     "en": "from memory"
+    },
+    {
+     "de": "beleuchtet",
+     "tr": "aydınlatılmış",
+     "en": "lit"
+    },
+    {
+     "de": "dazwischen geraten",
+     "tr": "araya karışmak",
+     "en": "to get in between"
+    },
+    {
+     "de": "sich herausstellen",
+     "tr": "ortaya çıkmak",
+     "en": "to turn out"
+    }
+   ]
+  },
+  {
+   "id": "b1-10",
+   "level": "B1",
+   "number": 10,
+   "title": {
+    "tr": "Çevre ve gelecek",
+    "en": "Environment and the future"
+   },
+   "goal": {
+    "tr": "Çevre sorunlarını tartışır, gerçek dışı durumlar hakkında konuşursun.",
+    "en": "Discuss environmental problems and talk about unreal situations."
+   },
+   "cover": "unit-b1-10",
+   "themes": [],
+   "grammar": [
+    2,
+    17
+   ],
+   "texts": [
+    "b1-002",
+    "b1-007",
+    "b1-022",
+    "b1-032",
+    "b1-054"
+   ],
+   "speaking": [
+    "b1-6"
+   ],
+   "writing": [
+    "b1-m3"
+   ],
+   "phrases": [
+    {
+     "de": "Wenn alle weniger fliegen würden, wäre die Luft sauberer.",
+     "tr": "Herkes daha az uçsa hava daha temiz olurdu.",
+     "en": "If everyone flew less the air would be cleaner."
+    },
+    {
+     "de": "Ich hätte gern ein Elektroauto.",
+     "tr": "Bir elektrikli arabam olsun isterdim.",
+     "en": "I'd like to have an electric car."
+    },
+    {
+     "de": "Wir sollten mehr Energie sparen.",
+     "tr": "Daha çok enerji tasarrufu yapmalıyız.",
+     "en": "We should save more energy."
+    },
+    {
+     "de": "Der Klimawandel betrifft uns alle.",
+     "tr": "İklim değişikliği hepimizi etkiliyor.",
+     "en": "Climate change affects all of us."
+    },
+    {
+     "de": "Ich habe mit dem Nachbarn darüber gesprochen.",
+     "tr": "Komşuyla bunun hakkında konuştum.",
+     "en": "I talked to the neighbour about it."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Innenhof",
+     "art": "der",
+     "tr": "iç avlu",
+     "en": "courtyard"
+    },
+    {
+     "de": "Hochbeet",
+     "art": "das",
+     "tr": "yükseltilmiş sebze tarhı",
+     "en": "raised bed"
+    },
+    {
+     "de": "Hausverwaltung",
+     "art": "die",
+     "tr": "bina yönetimi",
+     "en": "property management"
+    },
+    {
+     "de": "Freiwillige",
+     "art": "der",
+     "tr": "gönüllü",
+     "en": "volunteer"
+    },
+    {
+     "de": "Ausfall",
+     "art": "der",
+     "tr": "arıza",
+     "en": "failure, outage"
+    },
+    {
+     "de": "Steckdosenleiste",
+     "art": "die",
+     "tr": "çoklu priz",
+     "en": "power strip"
+    },
+    {
+     "de": "Imkerin",
+     "art": "die",
+     "tr": "arıcı",
+     "en": "beekeeper (f.)"
+    },
+    {
+     "de": "Preisnachlass",
+     "art": "der",
+     "tr": "indirim",
+     "en": "discount"
+    },
+    {
+     "de": "Marktleitung",
+     "art": "die",
+     "tr": "pazar yönetimi",
+     "en": "market management"
+    },
+    {
+     "de": "Chip",
+     "art": "der",
+     "tr": "jeton",
+     "en": "token"
+    },
+    {
+     "de": "Setzling",
+     "art": "der",
+     "tr": "fide",
+     "en": "seedling"
+    },
+    {
+     "de": "Hahn",
+     "art": "der",
+     "tr": "musluk",
+     "en": "tap"
+    },
+    {
+     "de": "anfallen",
+     "tr": "ortaya çıkmak, yapılması gerekmek",
+     "en": "to arise, to come up"
+    },
+    {
+     "de": "zuständig",
+     "tr": "sorumlu",
+     "en": "responsible"
+    },
+    {
+     "de": "anbringen",
+     "tr": "takmak",
+     "en": "to fit, to put up"
+    },
+    {
+     "de": "ernten",
+     "tr": "hasat etmek",
+     "en": "to harvest"
+    },
+    {
+     "de": "vermuten",
+     "tr": "tahmin etmek",
+     "en": "to suspect"
+    },
+    {
+     "de": "widersprechen",
+     "tr": "karşı çıkmak",
+     "en": "to contradict"
+    }
+   ]
+  },
+  {
+   "id": "b1-11",
+   "level": "B1",
+   "number": 11,
+   "title": {
+    "tr": "Boş zaman, kültür ve gönüllülük",
+    "en": "Free time, culture and volunteering"
+   },
+   "goal": {
+    "tr": "Etkinlikleri anlatır, birlikte plan yapar, gönüllülük üzerine konuşursun.",
+    "en": "Talk about events, plan together and discuss volunteering."
+   },
+   "cover": "unit-b1-11",
+   "themes": [],
+   "grammar": [
+    8,
+    14
+   ],
+   "texts": [
+    "b1-008",
+    "b1-023",
+    "b1-028",
+    "b1-029",
+    "b1-040",
+    "b1-042",
+    "b1-047",
+    "b1-057",
+    "b1-059"
+   ],
+   "speaking": [
+    "b1-3"
+   ],
+   "writing": [
+    "b1-m6"
+   ],
+   "phrases": [
+    {
+     "de": "Am Wochenende helfe ich im Tierheim.",
+     "tr": "Hafta sonu hayvan barınağında yardım ediyorum.",
+     "en": "At the weekend I help at the animal shelter."
+    },
+    {
+     "de": "Hast du Lust, mit ins Theater zu kommen?",
+     "tr": "Tiyatroya gelmek ister misin?",
+     "en": "Do you feel like coming to the theatre?"
+    },
+    {
+     "de": "Die Ausstellung hat mir sehr gut gefallen.",
+     "tr": "Sergi çok hoşuma gitti.",
+     "en": "I liked the exhibition very much."
+    },
+    {
+     "de": "Wie wäre es mit Samstagabend?",
+     "tr": "Cumartesi akşamına ne dersin?",
+     "en": "How about Saturday evening?"
+    },
+    {
+     "de": "Ich engagiere mich im Sportverein.",
+     "tr": "Spor kulübünde gönüllü çalışıyorum.",
+     "en": "I'm involved in the sports club."
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Stimme",
+     "art": "die",
+     "tr": "çalgı partisi",
+     "en": "part (music)"
+    },
+    {
+     "de": "Generalprobe",
+     "art": "die",
+     "tr": "genel prova",
+     "en": "dress rehearsal"
+    },
+    {
+     "de": "Dirigent",
+     "art": "der",
+     "tr": "orkestra şefi",
+     "en": "conductor"
+    },
+    {
+     "de": "Fassung",
+     "art": "die",
+     "tr": "sürüm",
+     "en": "version"
+    },
+    {
+     "de": "Übergang",
+     "art": "der",
+     "tr": "geçiş",
+     "en": "transition"
+    },
+    {
+     "de": "Auftritt",
+     "art": "der",
+     "tr": "sahneye çıkış",
+     "en": "performance"
+    },
+    {
+     "de": "Pfeife",
+     "art": "die",
+     "tr": "düdük",
+     "en": "whistle"
+    },
+    {
+     "de": "Verein",
+     "art": "der",
+     "tr": "kulüp",
+     "en": "club"
+    },
+    {
+     "de": "Hecke",
+     "art": "die",
+     "tr": "çit bitkisi",
+     "en": "hedge"
+    },
+    {
+     "de": "Kreide",
+     "art": "die",
+     "tr": "tebeşir",
+     "en": "chalk"
+    },
+    {
+     "de": "Probe",
+     "art": "die",
+     "tr": "prova",
+     "en": "rehearsal"
+    },
+    {
+     "de": "Bühne",
+     "art": "die",
+     "tr": "sahne",
+     "en": "stage"
+    },
+    {
+     "de": "auftreten",
+     "tr": "sahneye çıkmak",
+     "en": "to perform"
+    },
+    {
+     "de": "verdecken",
+     "tr": "gizlemek",
+     "en": "to hide, to cover"
+    },
+    {
+     "de": "unklar",
+     "tr": "belirsiz",
+     "en": "unclear"
+    },
+    {
+     "de": "markieren",
+     "tr": "işaretlemek",
+     "en": "to mark"
+    },
+    {
+     "de": "rücken",
+     "tr": "yerini değiştirmek",
+     "en": "to move, to shift"
+    },
+    {
+     "de": "bestimmen",
+     "tr": "belirlemek",
+     "en": "to identify"
+    }
+   ]
   }
  ]
 }
