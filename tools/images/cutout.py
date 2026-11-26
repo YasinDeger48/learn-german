@@ -1,5 +1,5 @@
 """Removes the flat light background around Lina: flood fill from the edges over near-background pixels,
-then a soft one-pixel edge. Usage: cutout.py <in.png> <out.png>"""
+then a soft one-pixel edge. Usage: cutout.py <in.png> <out.png> [--keep-size]"""
 import sys
 from collections import deque
 
@@ -35,6 +35,7 @@ while queue:
     queue.extend(((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)))
 mask = mask.filter(ImageFilter.GaussianBlur(0.8))
 img.putalpha(mask)
-img = img.crop(img.getbbox())
+if '--keep-size' not in sys.argv:  # backgrounds keep their size (they tile), characters are cropped to the figure
+    img = img.crop(img.getbbox())
 img.save(dst)
 print('saved', dst, img.size)

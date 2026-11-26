@@ -160,6 +160,9 @@ struct TodayPractice: View {
                     .disabled(model.state.wrong.isEmpty)
                     .opacity(model.state.wrong.isEmpty ? 0.55 : 1)
             }
+            // The word run game, in the space under the tiles (owner's request 2026-11-27).
+            NavigationLink(value: A1Route.wordRun) { WordRunCard() }
+                .buttonStyle(.pressable)
         }
         .disabled(!model.ready)
     }
