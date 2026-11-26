@@ -161,6 +161,29 @@ def valid(e):
     return problems
 
 
+PREPOSITIONS = {'an', 'auf', 'aus', 'bei', 'für', 'gegen', 'in', 'mit', 'nach', 'über', 'um', 'unter', 'von', 'vor', 'zu'}
+
+
+def verb_base(text):
+    """"sich verlassen auf" -> "verlassen": the bare verb, to match an answer that left out "sich" or the preposition."""
+    words = str(text or '').lower().split()
+    if words and words[0] == 'sich':
+        words = words[1:]
+    while len(words) > 1 and words[-1] in PREPOSITIONS:
+        words = words[:-1]
+    return ' '.join(words)
+
+
+def known_key(v, known):
+    """The level list's key for an answer's verb: exact, else the one verb with the same bare form
+    ("beitragen" -> "beitragen zu"); None when it is not on the list or the bare form is ambiguous."""
+    v = str(v or '').lower().strip()
+    if v in known:
+        return v
+    matches = [k for k in known if verb_base(k) == verb_base(v)]
+    return matches[0] if len(matches) == 1 else None
+
+
 def check_file(level, path):
     """Dry run of import for one answer file: how many lines are usable, and why the others are not."""
     level = level.lower()
@@ -181,7 +204,7 @@ def check_file(level, path):
     ok = 0
     for n, e in entries:
         why = valid(e)
-        if str(e.get('v', '')).lower() not in known:
+        if known_key(e.get('v'), known) is None:
             why.append(f'"{e.get("v")}" is not a {level.upper()} verb')
         if why:
             problems.append(f'line {n} ({e.get("v", "?")}): ' + '; '.join(why))
@@ -218,12 +241,13 @@ def import_answers(level):
                 skipped.append((os.path.basename(path), n, 'not JSON'))
                 continue
             problems = valid(e)
-            if e.get('v', '').lower() not in known:
+            key = known_key(e.get('v'), known)
+            if key is None:
                 problems.append(f'"{e.get("v")}" is not a {level.upper()} verb')
             if problems:
                 skipped.append((os.path.basename(path), n, '; '.join(problems)))
                 continue
-            e['v'] = known[e['v'].lower()]['de']
+            e['v'] = known[key]['de']
             e['trennbar'] = bool(e.get('trennbar'))
             e['reflexiv'] = bool(e.get('reflexiv'))
             verbs[e['v'].lower()] = e
