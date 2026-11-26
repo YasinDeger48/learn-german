@@ -151,6 +151,8 @@ struct RootView: View {
         .onChange(of: scenePhase) { phase in
             if phase == .active { checkProgress() }
         }
+        // Another tab: whatever was reading or playing stops (a text kept reading on after leaving its tab).
+        .onChange(of: tab) { _ in TextAudioPlayer.stopEverything() }
         // Any XP or streak change anywhere (units, exam, lessons, speaking, writing, reading, games, the lock-screen
         // quiz) checks the badges right away, instead of only after quizzes or when the app comes back.
         .onReceive(StreakStore.shared.$state.dropFirst().debounce(for: .seconds(0.7), scheduler: RunLoop.main)) { _ in

@@ -83,9 +83,12 @@ final class TextAudioPlayer: ObservableObject {
         }
         loading = true
         let remote = Self.base.appendingPathComponent(folder).appendingPathComponent("\(textID).mp3")
+        let token = playToken
         request = URLSession.shared.dataTask(with: remote) { [weak self] data, response, _ in
             DispatchQueue.main.async {
-                guard let self else { return }
+                // Stopped meanwhile (the learner left the page): no playback and no fallback to the device voice.
+                // Before, the cancelled download counted as a failure and the device voice read the whole text.
+                guard let self, self.playToken == token else { return }
                 self.loading = false
                 guard let data, data.count > 1000, (response as? HTTPURLResponse)?.statusCode == 200,
                       (try? data.write(to: local, options: .atomic)) != nil else {
@@ -124,7 +127,18 @@ final class TextAudioPlayer: ObservableObject {
         player.rate = speed
     }
 
+    /// Bumped by every stop, so a download that finishes after it starts nothing.
+    private var playToken = 0
+
+    /// Everything that speaks or plays: the reading voice, words and sentences, background sound.
+    static func stopEverything() {
+        TextAudioPlayer.shared.stop()
+        A1Speaker.shared.stop()
+        AmbiencePlayer.shared.stop()
+    }
+
     func stop() {
+        playToken += 1
         request?.cancel()
         request = nil
         loading = false
