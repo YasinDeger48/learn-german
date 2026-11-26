@@ -8,6 +8,9 @@ struct TodayView: View {
     let open: (AppRoute) -> Void
     @State private var showStreak = false
     @State private var showBadges = false
+    /// Height of the islands at the bottom (pills or an open card), so the page leaves just enough room under the
+    /// last card to scroll it above them, and no empty space when they are small or closed.
+    @State private var islandsHeight: CGFloat = 90
 
     var body: some View {
         ScrollView {
@@ -19,7 +22,7 @@ struct TodayView: View {
                 TodayPractice(model: practiceModel).padding(.top, 22)
             }
             .padding(.horizontal, DS.gutter)
-            .padding(.bottom, 190)  // room to scroll the last rows above the islands
+            .padding(.bottom, islandsHeight + 24)  // room to scroll the last rows above the islands
         }
         .deschlyPage()
         .overlay(alignment: .bottomLeading) {
@@ -34,6 +37,11 @@ struct TodayView: View {
                 if let word = wordOfDay { WordIsland(word: word) }
             }
             .padding(.bottom, 12)
+            .background(GeometryReader { proxy in
+                Color.clear
+                    .onAppear { islandsHeight = proxy.size.height }
+                    .onChange(of: proxy.size.height) { islandsHeight = $0 }
+            })
         }
         .navigationTitle(t("tab.today"))
         .onAppear { levels.active = practiceModel.level }
