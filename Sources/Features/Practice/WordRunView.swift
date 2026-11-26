@@ -94,6 +94,10 @@ struct WordRunView: View {
     @State private var done = 0
     @State private var gain = ""
     @State private var heartBeat = false
+    /// The meaning box under the options: the last answered word (right, or the wrong pick), or all four meanings.
+    @State private var lastWord: WordPictureBank.Item?
+    @State private var lastRight = true
+    @AppStorage("run.showMeanings") private var showAllMeanings = false
 
     private static let ink = Color(red: 0.055, green: 0.059, blue: 0.047)
     private static let soft = Color(red: 0.42, green: 0.41, blue: 0.38)
@@ -219,34 +223,64 @@ struct WordRunView: View {
         .accessibilityLabel(t("run.box"))
     }
 
+    /// One glassy bar over the sky: boxes done, a track of ten steps with Lina's marker running along it to the flag,
+    /// and the score.
     private var hud: some View {
-        HStack(spacing: 10) {
+        HStack(spacing: 12) {
+            HStack(spacing: 5) {
+                Image(systemName: "shippingbox.fill").font(.system(size: 13, weight: .bold)).foregroundColor(DS.gold)
+                Text("\(done)/\(Self.boxes)").font(.system(size: 15, weight: .heavy, design: .rounded).monospacedDigit())
+                    .foregroundColor(.white)
+            }
             GeometryReader { proxy in
+                let fraction = CGFloat(done) / CGFloat(Self.boxes)
                 ZStack(alignment: .leading) {
-                    Capsule().fill(Color.white.opacity(0.9))
-                    Capsule()
-                        .fill(LinearGradient(colors: [Color(red: 0.49, green: 0.84, blue: 0.61), DS.gold], startPoint: .leading, endPoint: .trailing))
-                        .frame(width: max(0, (proxy.size.width - 6) * CGFloat(done) / CGFloat(Self.boxes)))
-                        .padding(3)
+                    HStack(spacing: 3) {
+                        ForEach(0..<Self.boxes, id: \.self) { step in
+                            Capsule()
+                                .fill(step < done ? AnyShapeStyle(LinearGradient(colors: [Color(red: 1, green: 0.88, blue: 0.54), DS.gold],
+                                                                                 startPoint: .top, endPoint: .bottom))
+                                      : AnyShapeStyle(Color.white.opacity(step == done ? 0.55 : 0.22)))
+                                .frame(height: 8)
+                        }
+                    }
+                    Image(systemName: "figure.run")
+                        .font(.system(size: 13, weight: .bold))
+                        .foregroundColor(Self.ink)
+                        .frame(width: 24, height: 24)
+                        .background(Color.white, in: Circle())
+                        .overlay(Circle().stroke(DS.gold, lineWidth: 2))
+                        .offset(x: max(0, min(proxy.size.width - 24, proxy.size.width * fraction - 12)))
                 }
+                .frame(height: 24)
+                .frame(maxHeight: .infinity)
             }
-            .frame(height: 16)
+            .frame(height: 24)
             .overlay(alignment: .trailing) {
-                Image(systemName: "flag.checkered").font(.system(size: 14, weight: .bold)).foregroundColor(Self.ink).offset(x: 4, y: -12)
+                Image(systemName: "flag.checkered").font(.system(size: 12, weight: .bold)).foregroundColor(.white)
+                    .offset(x: 14)
             }
-            .animation(.easeOut(duration: 0.4), value: done)
+            .padding(.trailing, 14)
+            .animation(.spring(response: 0.5, dampingFraction: 0.8), value: done)
             .accessibilityElement(children: .ignore)
             .accessibilityLabel(t("run.boxes", done, Self.boxes))
             HStack(spacing: 4) {
                 Image(systemName: "star.fill").font(.system(size: 12, weight: .bold))
                 Text("\(score)").font(.system(size: 15, weight: .heavy, design: .rounded).monospacedDigit())
+                    .contentTransition(.numericText())
             }
-            .foregroundColor(DS.gold)
-            .padding(.horizontal, 12)
-            .frame(minHeight: 34)
-            .background(Self.ink, in: Capsule())
+            .foregroundColor(Self.ink)
+            .padding(.horizontal, 11)
+            .frame(minHeight: 32)
+            .background(DS.gold, in: Capsule())
+            .animation(.easeOut(duration: 0.3), value: score)
         }
-        .padding(.horizontal, 16)
+        .padding(.leading, 14)
+        .padding(.trailing, 6)
+        .frame(minHeight: 46)
+        .background(Color.black.opacity(0.38), in: Capsule())
+        .overlay(Capsule().stroke(Color.white.opacity(0.18), lineWidth: 1))
+        .padding(.horizontal, 12)
         .padding(.top, 10)
         .overlay(alignment: .bottomLeading) {
             if streak >= 2 {
@@ -284,10 +318,55 @@ struct WordRunView: View {
                 LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
                     ForEach(questions[index].options) { option in optionButton(option) }
                 }
+                meaningBox(questions[index].options)
             }
             Spacer(minLength: 0)
         }
         .padding(16)
+    }
+
+    /// Under the options: what the last answered word means in the learner's language (owner's request), or, with
+    /// the eye on, the meaning of all four options (a help for beginners; off by default so the picture stays a riddle).
+    private func meaningBox(_ options: [WordPictureBank.Item]) -> some View {
+        HStack(alignment: .top, spacing: 10) {
+            VStack(alignment: .leading, spacing: 6) {
+                if showAllMeanings {
+                    ForEach(options) { option in
+                        HStack(spacing: 6) {
+                            Text(option.art).font(.system(size: 13, weight: .heavy, design: .rounded)).foregroundColor(a1ArticleColor(option.art))
+                            Text(option.word).font(.system(size: 15, weight: .semibold, design: .rounded)).foregroundColor(Self.ink)
+                            Text("= " + option.meaning).font(.system(size: 15, design: .rounded)).foregroundColor(Self.soft).lineLimit(1)
+                        }
+                    }
+                } else if let word = lastWord {
+                    HStack(spacing: 6) {
+                        Image(systemName: lastRight ? "checkmark.circle.fill" : "xmark.circle.fill")
+                            .foregroundColor(lastRight ? DS.das : Color(red: 0.89, green: 0.36, blue: 0.36))
+                        Text(word.art).font(.system(size: 15, weight: .heavy, design: .rounded)).foregroundColor(a1ArticleColor(word.art))
+                        Text(word.word).font(.system(size: 17, weight: .bold, design: .rounded)).foregroundColor(Self.ink)
+                    }
+                    Text(word.meaning).font(.system(size: 17, weight: .semibold, design: .rounded))
+                        .foregroundColor(Color(red: 0.23, green: 0.23, blue: 0.21))
+                } else {
+                    Text(t("run.meaningHint")).font(.system(size: 14, design: .rounded)).foregroundColor(Self.soft)
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            Button {
+                withAnimation(.easeOut(duration: 0.2)) { showAllMeanings.toggle() }
+            } label: {
+                Image(systemName: showAllMeanings ? "eye.slash.fill" : "eye.fill")
+                    .font(.system(size: 15, weight: .bold))
+                    .foregroundColor(Self.ink)
+                    .frame(width: 44, height: 44)
+                    .background(Color(red: 0.949, green: 0.933, blue: 0.886), in: Circle())
+            }
+            .accessibilityLabel(showAllMeanings ? t("run.hideMeanings") : t("run.showMeanings"))
+        }
+        .padding(12)
+        .background(Color.white, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Color(red: 0.886, green: 0.863, blue: 0.784), lineWidth: 1.5))
+        .accessibilityElement(children: .combine)
     }
 
     private func optionButton(_ option: WordPictureBank.Item) -> some View {
@@ -404,6 +483,7 @@ struct WordRunView: View {
         done = 0
         rightID = nil
         wrongID = nil
+        lastWord = nil
         withAnimation { phase = .arriving }
         arrive()
     }
@@ -425,6 +505,10 @@ struct WordRunView: View {
         guard phase == .waiting, questions.indices.contains(index) else { return }
         let item = questions[index].item
         A1Speaker.shared.say(option.full)
+        withAnimation(.easeOut(duration: 0.2)) {
+            lastWord = option
+            lastRight = option.id == item.id
+        }
         if option.id == item.id {
             AnswerSound.play(correct: true)
             streak += 1
