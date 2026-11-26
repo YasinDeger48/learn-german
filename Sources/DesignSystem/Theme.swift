@@ -84,7 +84,8 @@ struct LinaAvatar: View {
     private var pictureName: String {
         switch mood {
         case .calm:
-            return "lina"
+            // The old lina.png has a big "D" behind her: prefer the waving picture without it.
+            return LinaAvatar.calmName
         case .curious:
             return UIImage(named: "lina-curious") != nil ? "lina-curious" : "lina"
         case .happy, .sad:
@@ -102,6 +103,8 @@ struct LinaAvatar: View {
         LinaAvatar.hasBlink[name] = image != nil
         return image
     }
+    /// The calm Lina: lina-wave.png (no "D" behind her), else a happy one, else the old lina.png.
+    static let calmName: String = ["lina-wave", "lina-happy-1", "lina"].first { UIImage(named: $0) != nil } ?? "lina"
     /// Which closed-eye pictures exist (asked once per name).
     private static var hasBlink: [String: Bool] = [:]
 

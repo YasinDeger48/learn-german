@@ -22,7 +22,7 @@ struct LinaPro: View {
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
             Group {
-                if let image = UIImage(named: "lina") {
+                if let image = UIImage(named: LinaAvatar.calmName) {
                     Image(uiImage: image).resizable().scaledToFill()
                 } else {
                     DS.gold

@@ -1,0 +1,5148 @@
+{
+ "stories": [
+  {
+   "id": "a1-01-1",
+   "unit": "a1-01",
+   "kind": "dialog",
+   "title": "Hallo, Elif!",
+   "title_tr": "Merhaba Elif!",
+   "title_en": "Hello, Elif!",
+   "lines": [
+    {
+     "who": "Lina",
+     "de": "Hallo! Ich heiße Lina.",
+     "tr": "Merhaba! Benim adım Lina.",
+     "en": "Hello! My name is Lina."
+    },
+    {
+     "who": "Elif",
+     "de": "Hallo, ich heiße Elif.",
+     "tr": "Merhaba, benim adım Elif.",
+     "en": "Hello, my name is Elif."
+    },
+    {
+     "who": "Lina",
+     "de": "Wie heißen Sie?",
+     "tr": "Adınız ne?",
+     "en": "What is your name?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ich heiße Elif. Ich komme aus der Türkei.",
+     "tr": "Benim adım Elif. Türkiye'den geliyorum.",
+     "en": "My name is Elif. I come from Türkiye."
+    },
+    {
+     "who": "Lina",
+     "de": "Ich wohne in Köln und spreche Deutsch.",
+     "tr": "Köln'de oturuyorum ve Almanca konuşuyorum.",
+     "en": "I live in Cologne and speak German."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich wohne auch in Köln. Ich spreche Türkisch.",
+     "tr": "Ben de Köln'de oturuyorum. Türkçe konuşuyorum.",
+     "en": "I live in Cologne too. I speak Turkish."
+    },
+    {
+     "who": "Lina",
+     "de": "Freut mich! Ich heiße Lina.",
+     "tr": "Memnun oldum! Benim adım Lina.",
+     "en": "Nice to meet you! My name is Lina."
+    },
+    {
+     "who": "Elif",
+     "de": "Freut mich, Lina! Ich habe eine Frage.",
+     "tr": "Memnun oldum Lina! Bir sorum var.",
+     "en": "Nice to meet you, Lina! I have a question."
+    },
+    {
+     "who": "Lina",
+     "de": "Ja, bitte. Ich antworte gern.",
+     "tr": "Evet, lütfen. Memnuniyetle cevap veririm.",
+     "en": "Yes, please. I'm happy to answer."
+    },
+    {
+     "who": "Elif",
+     "de": "Danke. Ich lerne Deutsch.",
+     "tr": "Teşekkürler. Almanca öğreniyorum.",
+     "en": "Thank you. I'm learning German."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Kurs",
+     "lemma": "Kurs",
+     "art": "der",
+     "tr": "kurs",
+     "en": "course"
+    },
+    {
+     "form": "Deutsch",
+     "lemma": "Deutsch",
+     "art": "",
+     "tr": "Almanca",
+     "en": "German"
+    },
+    {
+     "form": "Türkisch",
+     "lemma": "Türkisch",
+     "art": "",
+     "tr": "Türkçe",
+     "en": "Turkish"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo wohnt Lina?",
+     "options": [
+      "In Köln",
+      "In Berlin",
+      "In der Türkei"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Woher kommt Elif?",
+     "options": [
+      "Aus Köln",
+      "Aus der Türkei",
+      "Aus Berlin"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif wohnt in Köln.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina spricht Türkisch.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-01-2",
+   "unit": "a1-01",
+   "kind": "story",
+   "title": "Zwei Namen, eine Stadt",
+   "title_tr": "İki isim, bir şehir",
+   "title_en": "Two names, one city",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif kommt aus der Türkei und wohnt in Köln.",
+     "tr": "Elif Türkiye'den geliyor ve Köln'de oturuyor.",
+     "en": "Elif comes from Türkiye and lives in Cologne."
+    },
+    {
+     "who": "",
+     "de": "Sie spricht sehr gut Türkisch und lernt Deutsch im Kurs.",
+     "tr": "Çok iyi Türkçe konuşuyor ve kursta Almanca öğreniyor.",
+     "en": "She speaks Turkish very well and learns German in the course."
+    },
+    {
+     "who": "",
+     "de": "Lina wohnt auch in Köln und spricht Deutsch.",
+     "tr": "Lina da Köln'de oturuyor ve Almanca konuşuyor.",
+     "en": "Lina also lives in Cologne and speaks German."
+    },
+    {
+     "who": "",
+     "de": "Elif hat eine Frage, und Lina antwortet freundlich.",
+     "tr": "Elif'in bir sorusu var ve Lina nazikçe cevap veriyor.",
+     "en": "Elif has a question, and Lina answers kindly."
+    },
+    {
+     "who": "",
+     "de": "Sie fragen nach Namen, Land und Stadt.",
+     "tr": "İsimleri, ülkeleri ve şehirleri hakkında soru soruyorlar.",
+     "en": "They ask about names, country, and city."
+    },
+    {
+     "who": "",
+     "de": "Elif sagt ihren Vornamen langsam und genau.",
+     "tr": "Elif adını yavaşça ve açıkça söylüyor.",
+     "en": "Elif says her first name slowly and clearly."
+    },
+    {
+     "who": "",
+     "de": "Lina versteht jedes Wort und lacht.",
+     "tr": "Lina her kelimeyi anlıyor ve gülüyor.",
+     "en": "Lina understands every word and laughs."
+    },
+    {
+     "who": "",
+     "de": "„Freut mich!“, sagt Lina. Elif ist sehr glücklich.",
+     "tr": "“Memnun oldum!” diyor Lina. Elif çok mutlu.",
+     "en": "“Nice to meet you!” Lina says. Elif is very happy."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Kurs",
+     "lemma": "Kurs",
+     "art": "der",
+     "tr": "kurs",
+     "en": "course"
+    },
+    {
+     "form": "Deutsch",
+     "lemma": "Deutsch",
+     "art": "",
+     "tr": "Almanca",
+     "en": "German"
+    },
+    {
+     "form": "Türkisch",
+     "lemma": "Türkisch",
+     "art": "",
+     "tr": "Türkçe",
+     "en": "Turkish"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo wohnt Elif?",
+     "options": [
+      "In Köln",
+      "In Ankara",
+      "In Berlin"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was lernt Elif?",
+     "options": [
+      "Englisch",
+      "Deutsch",
+      "Französisch"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Lina wohnt in Köln.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif versteht jedes Wort.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-02-1",
+   "unit": "a1-02",
+   "kind": "dialog",
+   "title": "Elifs Familie",
+   "title_tr": "Elif'in ailesi",
+   "title_en": "Elif's family",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Lina, ich habe Fotos. Mein Handy ist neu.",
+     "tr": "Lina, fotoğraflarım var. Telefonum yeni.",
+     "en": "Lina, I have photos. My phone is new."
+    },
+    {
+     "who": "Lina",
+     "de": "Zeigst du ein Foto?",
+     "tr": "Fotoğrafları gösterir misin?",
+     "en": "Will you show me the photos?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja. Das Foto zeigt meine Mutter. Sie heißt Aylin.",
+     "tr": "Evet. Bu benim annem. Adı Aylin.",
+     "en": "Yes. This is my mother. Her name is Aylin."
+    },
+    {
+     "who": "Lina",
+     "de": "Und wer ist der Junge?",
+     "tr": "Peki erkek çocuk kim?",
+     "en": "And who is the boy?"
+    },
+    {
+     "who": "Elif",
+     "de": "Das ist mein Bruder. Er ist 19 Jahre alt.",
+     "tr": "Bu benim erkek kardeşim. 19 yaşında.",
+     "en": "This is my brother. He is 19 years old."
+    },
+    {
+     "who": "Lina",
+     "de": "Ich habe einen Bruder und eine Schwester.",
+     "tr": "Bir erkek ve bir kız kardeşim var.",
+     "en": "I have a brother and a sister."
+    },
+    {
+     "who": "Elif",
+     "de": "Wie heißen deine Geschwister?",
+     "tr": "Kardeşlerinin adları ne?",
+     "en": "What are your siblings' names?"
+    },
+    {
+     "who": "Lina",
+     "de": "Meine Schwester heißt Mila. Mein Bruder heißt Tom.",
+     "tr": "Kız kardeşimin adı Mila. Erkek kardeşimin adı Tom.",
+     "en": "My sister's name is Mila. My brother's name is Tom."
+    },
+    {
+     "who": "Elif",
+     "de": "Bist du verheiratet?",
+     "tr": "Evli misin?",
+     "en": "Are you married?"
+    },
+    {
+     "who": "Lina",
+     "de": "Nein. Ich bin nicht verheiratet. Ich habe keine Kinder.",
+     "tr": "Hayır. Evli değilim. Çocuğum yok.",
+     "en": "No. I'm not married. I don't have children."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Handyfoto",
+     "lemma": "Handyfoto",
+     "art": "das",
+     "tr": "telefon fotoğrafı",
+     "en": "phone photo"
+    },
+    {
+     "form": "Foto",
+     "lemma": "Foto",
+     "art": "das",
+     "tr": "fotoğraf",
+     "en": "photo"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie heißt Elifs Mutter?",
+     "options": [
+      "Aylin",
+      "Mila",
+      "Lina"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie viele Geschwister hat Lina?",
+     "options": [
+      "Einen Bruder und eine Schwester",
+      "Zwei Brüder",
+      "Keine Geschwister"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat einen Bruder.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina ist verheiratet.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-02-2",
+   "unit": "a1-02",
+   "kind": "story",
+   "title": "Fotos von der Familie",
+   "title_tr": "Aile fotoğrafları",
+   "title_en": "Family photos",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif zeigt ein Handyfoto.",
+     "tr": "Elif'in fotoğrafları var. Lina'ya bir fotoğraf gösteriyor.",
+     "en": "Elif has photos. She shows Lina a photo."
+    },
+    {
+     "who": "",
+     "de": "Das Foto zeigt ihre Mutter und ihren Vater.",
+     "tr": "Fotoğrafta annesi ve babası var.",
+     "en": "The photo shows her mother and her father."
+    },
+    {
+     "who": "",
+     "de": "Es zeigt auch ihren Bruder und ihre Schwester.",
+     "tr": "Erkek ve kız kardeşi de fotoğrafta.",
+     "en": "It also shows her brother and sister."
+    },
+    {
+     "who": "",
+     "de": "Lina hat auch ein Foto.",
+     "tr": "Lina'nın da bir fotoğrafı var.",
+     "en": "Lina has a photo too."
+    },
+    {
+     "who": "",
+     "de": "„Das ist meine Mutter“, sagt Lina.",
+     "tr": "“Bu benim annem,” diyor Lina.",
+     "en": "“This is my mother,” Lina says."
+    },
+    {
+     "who": "",
+     "de": "„Mein Vater ist 58 Jahre alt“, sagt sie.",
+     "tr": "“Babam 58 yaşında,” diyor.",
+     "en": "“My father is 58 years old,” she says."
+    },
+    {
+     "who": "",
+     "de": "Lina hat einen Bruder und eine Schwester.",
+     "tr": "Lina'nın bir erkek ve bir kız kardeşi var.",
+     "en": "Lina has a brother and a sister."
+    },
+    {
+     "who": "",
+     "de": "Ihre Familien sind groß und sehr nett.",
+     "tr": "Aileleri büyük ve çok sevecen.",
+     "en": "Their families are large and very kind."
+    },
+    {
+     "who": "",
+     "de": "Elif und Lina sind glücklich und die Fotos sind schön.",
+     "tr": "Elif ve Lina seviniyor. Fotoğraflar güzel.",
+     "en": "Elif and Lina are happy. The photos are lovely."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Handyfoto",
+     "lemma": "Handyfoto",
+     "art": "das",
+     "tr": "telefon fotoğrafı",
+     "en": "phone photo"
+    },
+    {
+     "form": "Foto",
+     "lemma": "Foto",
+     "art": "das",
+     "tr": "fotoğraf",
+     "en": "photo"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was zeigt Elif?",
+     "options": [
+      "Lina",
+      "Tom",
+      "Herr Weber"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie alt ist Linas Vater?",
+     "options": [
+      "48 Jahre",
+      "58 Jahre",
+      "68 Jahre"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Das Foto zeigt Elifs Mutter.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina hat keine Geschwister.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-03-1",
+   "unit": "a1-03",
+   "kind": "dialog",
+   "title": "Im Café",
+   "title_tr": "Kafede",
+   "title_en": "At the café",
+   "lines": [
+    {
+     "who": "Kellner",
+     "de": "Guten Tag! Was möchten Sie trinken?",
+     "tr": "İyi günler! Ne içmek istersiniz?",
+     "en": "Good afternoon! What would you like to drink?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ich hätte gern einen Kaffee.",
+     "tr": "Bir kahve alabilir miyim?",
+     "en": "I'd like a coffee, please."
+    },
+    {
+     "who": "Kellner",
+     "de": "Möchten Sie auch Wasser?",
+     "tr": "Su da ister misiniz?",
+     "en": "Would you like water too?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, ein Wasser, bitte.",
+     "tr": "Evet, bir su lütfen.",
+     "en": "Yes, a water, please."
+    },
+    {
+     "who": "Lina",
+     "de": "Ich esse gern Fisch. Ich nehme den Fisch.",
+     "tr": "Balık yemeyi severim. Balık alıyorum.",
+     "en": "I like eating fish. I'll have the fish."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich nehme die Suppe und den Salat.",
+     "tr": "Çorba ve salata alıyorum.",
+     "en": "I'll have the soup and the salad."
+    },
+    {
+     "who": "Kellner",
+     "de": "Guten Appetit!",
+     "tr": "Afiyet olsun!",
+     "en": "Enjoy your meal!"
+    },
+    {
+     "who": "Lina",
+     "de": "Danke. Das Essen schmeckt sehr gut.",
+     "tr": "Teşekkürler. Yemek çok lezzetli.",
+     "en": "Thank you. The food tastes very good."
+    },
+    {
+     "who": "Elif",
+     "de": "Die Rechnung, bitte.",
+     "tr": "Hesap lütfen.",
+     "en": "The bill, please."
+    },
+    {
+     "who": "Kellner",
+     "de": "Das kostet zusammen 18 Euro.",
+     "tr": "Hepsi toplam 18 avro tutuyor.",
+     "en": "That comes to 18 euros in total."
+    },
+    {
+     "who": "Elif",
+     "de": "Kann ich mit Karte bezahlen?",
+     "tr": "Kartla ödeyebilir miyim?",
+     "en": "Can I pay by card?"
+    },
+    {
+     "who": "Kellner",
+     "de": "Ja, natürlich.",
+     "tr": "Evet, tabii.",
+     "en": "Yes, of course."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Café",
+     "lemma": "Café",
+     "art": "das",
+     "tr": "kafe",
+     "en": "café"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was bestellt Lina?",
+     "options": [
+      "Fisch",
+      "Suppe",
+      "Kuchen"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie bezahlt Elif?",
+     "options": [
+      "Mit Karte",
+      "Mit Geld aus der Türkei",
+      "Nicht"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif trinkt Wasser.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Das Essen schmeckt schlecht.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-03-2",
+   "unit": "a1-03",
+   "kind": "story",
+   "title": "Kaffee und Frühstück",
+   "title_tr": "Kahve ve kahvaltı",
+   "title_en": "Coffee and breakfast",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif und Lina gehen zusammen ins Café.",
+     "tr": "Elif ve Lina kafeye gidiyor.",
+     "en": "Elif and Lina go to the café."
+    },
+    {
+     "who": "",
+     "de": "Sie bestellen einen Kaffee, eine Suppe und einen Salat.",
+     "tr": "Kahve, çorba ve salata sipariş ediyorlar.",
+     "en": "They order coffee, soup, and salad."
+    },
+    {
+     "who": "",
+     "de": "Elif trinkt Wasser und isst ein Brötchen.",
+     "tr": "Elif su içiyor ve bir küçük ekmek yiyor.",
+     "en": "Elif drinks water and eats a bread roll."
+    },
+    {
+     "who": "",
+     "de": "Lina isst gern Fisch, und das Essen schmeckt sehr gut.",
+     "tr": "Lina balık yemeyi seviyor ve yemek çok lezzetli.",
+     "en": "Lina likes fish, and the food tastes very good."
+    },
+    {
+     "who": "",
+     "de": "Die Freundinnen bezahlen die Rechnung.",
+     "tr": "Arkadaşlar hesabı ödüyor.",
+     "en": "The friends pay the bill."
+    },
+    {
+     "who": "",
+     "de": "Elif und Lina kochen Eier, Nudeln und Suppe.",
+     "tr": "Elif ve Lina yumurta, makarna ve çorba hazırlıyor.",
+     "en": "Elif and Lina cook eggs, pasta, and soup."
+    },
+    {
+     "who": "",
+     "de": "Sie haben auch Brot, Butter und Käse.",
+     "tr": "Ekmek, tereyağı ve peynirleri de var.",
+     "en": "They also have bread, butter, and cheese."
+    },
+    {
+     "who": "",
+     "de": "Elif isst gern einen Apfel und trinkt Tee.",
+     "tr": "Elif elma yemeyi ve çay içmeyi seviyor.",
+     "en": "Elif likes eating an apple and drinking tea."
+    },
+    {
+     "who": "",
+     "de": "Das Frühstück ist sehr gut.",
+     "tr": "Kahvaltı çok güzel.",
+     "en": "The breakfast is very good."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Café",
+     "lemma": "Café",
+     "art": "das",
+     "tr": "kafe",
+     "en": "café"
+    },
+    {
+     "form": "gehen",
+     "lemma": "gehen",
+     "art": "",
+     "tr": "gitmek",
+     "en": "to go"
+    },
+    {
+     "form": "Frühstück",
+     "lemma": "Frühstück",
+     "art": "das",
+     "tr": "kahvaltı",
+     "en": "breakfast"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was essen Elif und Lina im Café?",
+     "options": [
+      "Suppe und Salat",
+      "Nudeln und Ei",
+      "Kuchen und Käse"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was kochen Elif und Lina?",
+     "options": [
+      "Eier, Nudeln und Suppe",
+      "Fisch und Kuchen",
+      "Nur Brot"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif trinkt Tee zum Frühstück.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina isst keinen Fisch.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-04-1",
+   "unit": "a1-04",
+   "kind": "dialog",
+   "title": "Die blaue Jacke",
+   "title_tr": "Mavi ceket",
+   "title_en": "The blue jacket",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Was kostet das?",
+     "tr": "Bu ne kadar?",
+     "en": "How much is this?"
+    },
+    {
+     "who": "Frau Schmidt",
+     "de": "Der Apfel kostet einen Euro.",
+     "tr": "Elmanın fiyatı bir avro.",
+     "en": "The apple costs one euro."
+    },
+    {
+     "who": "Lina",
+     "de": "Brauchst du noch Äpfel?",
+     "tr": "Başka elmaya ihtiyacın var mı?",
+     "en": "Do you need any more apples?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, ich nehme drei Äpfel und zwei Brötchen.",
+     "tr": "Evet, üç elma ve iki küçük ekmek alıyorum.",
+     "en": "Yes, I'll take three apples and two bread rolls."
+    },
+    {
+     "who": "Frau Schmidt",
+     "de": "Das kostet zusammen fünf Euro.",
+     "tr": "Hepsi toplam beş avro tutuyor.",
+     "en": "That comes to five euros in total."
+    },
+    {
+     "who": "Elif",
+     "de": "Danke. Ich brauche keine Tüte.",
+     "tr": "Teşekkürler. Poşete ihtiyacım yok.",
+     "en": "Thanks. I don't need a bag."
+    },
+    {
+     "who": "Lina",
+     "de": "Die blaue Jacke ist sehr schön.",
+     "tr": "Mavi ceket çok güzel.",
+     "en": "The blue jacket is very nice."
+    },
+    {
+     "who": "Elif",
+     "de": "Haben Sie das in Größe M?",
+     "tr": "Bunun M bedeni var mı?",
+     "en": "Do you have this in size M?"
+    },
+    {
+     "who": "Frau Schmidt",
+     "de": "Ja, natürlich.",
+     "tr": "Evet, tabii.",
+     "en": "Yes, of course."
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, ich nehme die blaue Jacke.",
+     "tr": "Evet, mavi ceketi alıyorum.",
+     "en": "Yes, I'll take the blue jacket."
+    },
+    {
+     "who": "Elif",
+     "de": "Kann ich mit Karte bezahlen?",
+     "tr": "Kartla ödeyebilir miyim?",
+     "en": "Can I pay by card?"
+    },
+    {
+     "who": "Frau Schmidt",
+     "de": "Ja, natürlich.",
+     "tr": "Evet, tabii.",
+     "en": "Yes, of course."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "besuchen",
+     "lemma": "besuchen",
+     "art": "",
+     "tr": "ziyaret etmek",
+     "en": "to visit"
+    },
+    {
+     "form": "Größe",
+     "lemma": "Größe",
+     "art": "die",
+     "tr": "beden",
+     "en": "size"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie viel kosten drei Äpfel und zwei Brötchen?",
+     "options": [
+      "Fünf Euro",
+      "Drei Euro",
+      "Einen Euro"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Welche Jacke nimmt Elif?",
+     "options": [
+      "Die rote Jacke",
+      "Die blaue Jacke",
+      "Den Mantel"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif braucht eine Tüte.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif bezahlt mit Karte.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "a1-04-2",
+   "unit": "a1-04",
+   "kind": "story",
+   "title": "Der Markt",
+   "title_tr": "Pazar",
+   "title_en": "The market",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif und Lina besuchen zusammen den Markt.",
+     "tr": "Elif ve Lina birlikte pazarı geziyor.",
+     "en": "Elif and Lina visit the market together."
+    },
+    {
+     "who": "",
+     "de": "Elif kauft drei Äpfel, zwei Brötchen und Käse.",
+     "tr": "Elif üç elma, iki küçük ekmek ve peynir alıyor.",
+     "en": "Elif buys three apples, two bread rolls, and cheese."
+    },
+    {
+     "who": "",
+     "de": "Sie fragt: „Was kostet das?“",
+     "tr": "“Bu ne kadar?” diye soruyor.",
+     "en": "She asks, “How much is this?”"
+    },
+    {
+     "who": "",
+     "de": "Ein Apfel kostet einen Euro, und Käse kostet drei Euro.",
+     "tr": "Bir elma bir avro, peynir de üç avro.",
+     "en": "An apple costs one euro, and cheese costs three euros."
+    },
+    {
+     "who": "",
+     "de": "Lina sucht einen Pullover, aber Elif findet eine Jacke.",
+     "tr": "Lina bir kazak arıyor ama Elif bir ceket buluyor.",
+     "en": "Lina is looking for a sweater, but Elif finds a jacket."
+    },
+    {
+     "who": "",
+     "de": "Elif nimmt die blaue Jacke in Größe M.",
+     "tr": "Elif M beden mavi ceketi alıyor.",
+     "en": "Elif takes the blue jacket in size M."
+    },
+    {
+     "who": "",
+     "de": "Sie trägt die Jacke.",
+     "tr": "Ceketi giyiyor.",
+     "en": "She wears the jacket."
+    },
+    {
+     "who": "",
+     "de": "Elif bezahlt mit Karte und braucht keine Tüte.",
+     "tr": "Elif kartla ödüyor ve poşete ihtiyacı yok.",
+     "en": "Elif pays by card and doesn't need a bag."
+    },
+    {
+     "who": "",
+     "de": "Lina ist glücklich, denn der Preis ist gut.",
+     "tr": "Lina mutlu çünkü fiyat iyi.",
+     "en": "Lina is happy because the price is good."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "besuchen",
+     "lemma": "besuchen",
+     "art": "",
+     "tr": "ziyaret etmek",
+     "en": "to visit"
+    },
+    {
+     "form": "Größe",
+     "lemma": "Größe",
+     "art": "die",
+     "tr": "beden",
+     "en": "size"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was kauft Elif am Markt?",
+     "options": [
+      "Äpfel, Brötchen und Käse",
+      "Fisch und Kuchen",
+      "Nur eine Jacke"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was sucht Lina?",
+     "options": [
+      "Einen Pullover",
+      "Eine Mütze",
+      "Eine Hose"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif braucht eine Tüte.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Jacke ist in Größe M.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "a1-05-1",
+   "unit": "a1-05",
+   "kind": "dialog",
+   "title": "Ein Zimmer für Elif",
+   "title_tr": "Elif'e bir oda",
+   "title_en": "A Room for Elif",
+   "lines": [
+    {
+     "who": "Lina",
+     "de": "Das Sofa steht im Wohnzimmer.",
+     "tr": "Kanepe oturma odasında duruyor.",
+     "en": "The sofa is in the living room."
+    },
+    {
+     "who": "Elif",
+     "de": "Die Küche ist klein, aber hell.",
+     "tr": "Mutfak küçük ama aydınlık.",
+     "en": "The kitchen is small but bright."
+    },
+    {
+     "who": "Lina",
+     "de": "Wie hoch ist die Miete?",
+     "tr": "Kira ne kadar?",
+     "en": "How much is the rent?"
+    },
+    {
+     "who": "Elif",
+     "de": "Die Miete ist nicht hoch.",
+     "tr": "Kira yüksek değil.",
+     "en": "The rent isn't high."
+    },
+    {
+     "who": "Lina",
+     "de": "Wo steht dein Bett?",
+     "tr": "Yatağın nerede duruyor?",
+     "en": "Where is your bed?"
+    },
+    {
+     "who": "Elif",
+     "de": "Mein Bett steht im Schlafzimmer.",
+     "tr": "Yatağım yatak odasında duruyor.",
+     "en": "My bed is in the bedroom."
+    },
+    {
+     "who": "Lina",
+     "de": "Ich stelle die Lampe neben das Sofa.",
+     "tr": "Lambayı kanepenin yanına koyuyorum.",
+     "en": "I'll put the lamp next to the sofa."
+    },
+    {
+     "who": "Elif",
+     "de": "Zwei Stühle stehen neben dem Tisch.",
+     "tr": "Masanın yanında iki sandalye duruyor.",
+     "en": "There are two chairs by the table here."
+    },
+    {
+     "who": "Lina",
+     "de": "Hast du auch einen Balkon?",
+     "tr": "Senin balkonun da var mı?",
+     "en": "Do you also have a balcony?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, aber mein Balkon ist klein.",
+     "tr": "Evet ama balkonum küçük.",
+     "en": "Yes, but my balcony is small."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wer wohnt in der neuen Wohnung?",
+     "options": [
+      "Lina",
+      "Elif",
+      "Frau Schmidt"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wo steht Elifs Bett?",
+     "options": [
+      "In der Küche",
+      "Im Wohnzimmer",
+      "Im Schlafzimmer"
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Die Küche ist groß.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat einen kleinen Balkon.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "a1-05-2",
+   "unit": "a1-05",
+   "kind": "story",
+   "title": "Elifs neue Wohnung",
+   "title_tr": "Elif'in yeni evi",
+   "title_en": "Elif's New Apartment",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif wohnt in einer neuen Wohnung in Köln.",
+     "tr": "Elif Köln'de yeni bir dairede oturuyor.",
+     "en": "Elif lives in a new apartment in Cologne."
+    },
+    {
+     "who": "",
+     "de": "Ihre Wohnung hat drei Zimmer.",
+     "tr": "Dairesinde üç oda var.",
+     "en": "Her apartment has three rooms."
+    },
+    {
+     "who": "",
+     "de": "Die Küche ist klein, aber hell.",
+     "tr": "Mutfak küçük ama aydınlık.",
+     "en": "The kitchen is small but bright."
+    },
+    {
+     "who": "",
+     "de": "Lina bringt eine Lampe und zwei Stühle.",
+     "tr": "Lina bir lamba ve iki sandalye getiriyor.",
+     "en": "Lina brings a lamp and two chairs."
+    },
+    {
+     "who": "",
+     "de": "Elif stellt die Stühle neben den Tisch.",
+     "tr": "Elif sandalyeleri masanın yanına koyuyor.",
+     "en": "Elif puts the chairs next to the table."
+    },
+    {
+     "who": "",
+     "de": "Sie legt ihre Tasche auf das Bett im Schlafzimmer.",
+     "tr": "Çantasını yatak odasındaki yatağın üstüne koyuyor.",
+     "en": "She puts her bag on the bed in the bedroom."
+    },
+    {
+     "who": "",
+     "de": "Das Sofa steht im Wohnzimmer.",
+     "tr": "Kanepe oturma odasında duruyor.",
+     "en": "The sofa is in the living room."
+    },
+    {
+     "who": "",
+     "de": "Die Miete ist nicht hoch.",
+     "tr": "Kira yüksek değil.",
+     "en": "The rent isn't high."
+    },
+    {
+     "who": "",
+     "de": "Elif freut sich: Ihr Zimmer ist schön und sauber.",
+     "tr": "Elif seviniyor: Odası güzel ve temiz.",
+     "en": "Elif is happy: her room is nice and clean."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie viele Zimmer hat die Wohnung?",
+     "options": [
+      "Zwei",
+      "Drei",
+      "Vier"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Was bringt Lina?",
+     "options": [
+      "Eine Lampe und zwei Stühle",
+      "Ein Bett und einen Tisch",
+      "Einen Kühlschrank"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Das Sofa steht im Schlafzimmer.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Miete ist nicht hoch.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "a1-06-1",
+   "unit": "a1-06",
+   "kind": "dialog",
+   "title": "Ein voller Montag",
+   "title_tr": "Yoğun bir pazartesi",
+   "title_en": "A Busy Monday",
+   "lines": [
+    {
+     "who": "Lina",
+     "de": "Wie spät ist es?",
+     "tr": "Saat kaç?",
+     "en": "What time is it?"
+    },
+    {
+     "who": "Elif",
+     "de": "Es ist halb acht.",
+     "tr": "Saat yedi buçuk.",
+     "en": "It's half past seven."
+    },
+    {
+     "who": "Lina",
+     "de": "Ich stehe um sechs Uhr auf.",
+     "tr": "Saat altıda kalkıyorum.",
+     "en": "I get up at six."
+    },
+    {
+     "who": "Elif",
+     "de": "Am Montag habe ich einen Termin.",
+     "tr": "Pazartesi bir randevum var.",
+     "en": "I have an appointment on Monday."
+    },
+    {
+     "who": "Lina",
+     "de": "Um wie viel Uhr beginnt der Kurs?",
+     "tr": "Kurs saat kaçta başlıyor?",
+     "en": "What time does the course start?"
+    },
+    {
+     "who": "Elif",
+     "de": "Der Kurs beginnt um acht Uhr.",
+     "tr": "Kurs saat sekizde başlıyor.",
+     "en": "The course starts at eight."
+    },
+    {
+     "who": "Lina",
+     "de": "Hast du heute Abend Zeit?",
+     "tr": "Bu akşam vaktin var mı?",
+     "en": "Do you have time this evening?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, um sieben Uhr.",
+     "tr": "Evet, saat yedide.",
+     "en": "Yes, at seven."
+    },
+    {
+     "who": "Lina",
+     "de": "Wir essen am Abend zusammen.",
+     "tr": "Akşam birlikte yemek yiyoruz.",
+     "en": "We'll eat together in the evening."
+    },
+    {
+     "who": "Elif",
+     "de": "Gern!",
+     "tr": "Memnuniyetle!",
+     "en": "Sure!"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann steht Lina auf?",
+     "options": [
+      "Um sechs Uhr",
+      "Um sieben Uhr",
+      "Um acht Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann beginnt der Kurs?",
+     "options": [
+      "Um sechs Uhr",
+      "Um sieben Uhr",
+      "Um acht Uhr"
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat am Montag einen Termin.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat heute Abend keine Zeit.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-06-2",
+   "unit": "a1-06",
+   "kind": "story",
+   "title": "Elifs Montag",
+   "title_tr": "Elif'in pazartesisi",
+   "title_en": "Elif's Monday",
+   "lines": [
+    {
+     "who": "",
+     "de": "Am Montag sagt Elif: „Ich stehe um sechs Uhr auf.“",
+     "tr": "Elif pazartesi şöyle diyor: “Saat altıda kalkıyorum.”",
+     "en": "On Monday, Elif says, “I get up at six.”"
+    },
+    {
+     "who": "",
+     "de": "Sie duscht und isst ein Ei zum Frühstück.",
+     "tr": "Duş alıyor ve kahvaltıda bir yumurta yiyor.",
+     "en": "She showers and eats an egg for breakfast."
+    },
+    {
+     "who": "",
+     "de": "Es ist halb acht. Elif fährt mit dem Bus zum Kurs.",
+     "tr": "Saat yedi buçuk. Elif kursa otobüsle gidiyor.",
+     "en": "It is half past seven. Elif takes the bus to the course."
+    },
+    {
+     "who": "",
+     "de": "Der Kurs beginnt um acht Uhr und dauert drei Stunden.",
+     "tr": "Kurs saat sekizde başlıyor ve üç saat sürüyor.",
+     "en": "The course starts at eight and lasts three hours."
+    },
+    {
+     "who": "",
+     "de": "Am Mittag trinkt Elif Wasser mit Lina.",
+     "tr": "Öğlen Elif, Lina'yla su içiyor.",
+     "en": "At noon, Elif drinks water with Lina."
+    },
+    {
+     "who": "",
+     "de": "Um vier Uhr hat sie einen Termin.",
+     "tr": "Saat dörtte bir randevusu var.",
+     "en": "She has an appointment at four."
+    },
+    {
+     "who": "",
+     "de": "Am Abend ist Elif in ihrer Wohnung und trinkt Tee.",
+     "tr": "Akşam Elif dairesinde ve çay içiyor.",
+     "en": "In the evening, Elif is in her apartment and drinks tea."
+    },
+    {
+     "who": "",
+     "de": "Am Wochenende bleibt Elif lange im Bett und hat frei.",
+     "tr": "Hafta sonunda Elif uzun süre yatakta kalıyor ve izinli.",
+     "en": "At the weekend, Elif stays in bed for a long time and has the day off."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was isst Elif zum Frühstück?",
+     "options": [
+      "Ein Ei",
+      "Ein Brot",
+      "Einen Apfel"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie lange dauert der Unterricht?",
+     "options": [
+      "Eine Stunde",
+      "Drei Stunden",
+      "Vier Stunden"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif fährt mit dem Bus zum Kurs.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Am Sonntag hat Elif einen Termin.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-07-1",
+   "unit": "a1-07",
+   "kind": "dialog",
+   "title": "Die Apotheke",
+   "title_tr": "Eczaneye giden yol",
+   "title_en": "The Way to the Pharmacy",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Entschuldigung, wo ist der Bahnhof?",
+     "tr": "Affedersiniz, tren istasyonu nerede?",
+     "en": "Excuse me, where is the train station?"
+    },
+    {
+     "who": "Mann",
+     "de": "Gehen Sie geradeaus und dann links.",
+     "tr": "Düz gidin, sonra sola dönün.",
+     "en": "Go straight ahead and then turn left."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich suche die Apotheke.",
+     "tr": "Eczaneyi arıyorum.",
+     "en": "I'm looking for the pharmacy."
+    },
+    {
+     "who": "Mann",
+     "de": "Die Apotheke ist neben der Bank.",
+     "tr": "Eczane bankanın yanında.",
+     "en": "The pharmacy is next to the bank."
+    },
+    {
+     "who": "Elif",
+     "de": "Wie weit ist es?",
+     "tr": "Ne kadar uzak?",
+     "en": "How far is it?"
+    },
+    {
+     "who": "Mann",
+     "de": "Der Platz ist neben der Haltestelle.",
+     "tr": "Meydan durağın yanında.",
+     "en": "The square is next to the stop."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich nehme den Bus zum Zentrum.",
+     "tr": "Merkeze otobüsle gidiyorum.",
+     "en": "I'll take the bus to the center."
+    },
+    {
+     "who": "Mann",
+     "de": "Die Straßenbahn fährt auch zum Zentrum.",
+     "tr": "Tramvay da merkeze gidiyor.",
+     "en": "The tram also goes to the center."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich steige an der Bank aus.",
+     "tr": "Bankanın yanında iniyorum.",
+     "en": "I'll get off by the bank."
+    },
+    {
+     "who": "Mann",
+     "de": "Ja, die Apotheke ist neben der Bank.",
+     "tr": "Evet, eczane bankanın yanında.",
+     "en": "Yes, the pharmacy is next to the bank."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was sucht Elif?",
+     "options": [
+      "Die Bank",
+      "Die Apotheke",
+      "Das Museum"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Womit fährt Elif zum Zentrum?",
+     "options": [
+      "Mit dem Bus",
+      "Mit dem Taxi",
+      "Mit dem Fahrrad"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Apotheke ist neben der Bank.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif fährt mit dem Auto.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-07-2",
+   "unit": "a1-07",
+   "kind": "story",
+   "title": "Elif findet die Apotheke",
+   "title_tr": "Elif eczaneyi buluyor",
+   "title_en": "Elif Finds the Pharmacy",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif ist in der Stadt und sucht die Apotheke.",
+     "tr": "Elif şehirde ve eczaneyi arıyor.",
+     "en": "Elif is in the city and is looking for the pharmacy."
+    },
+    {
+     "who": "",
+     "de": "Sie fragt einen Mann an der Haltestelle.",
+     "tr": "Durakta bir adama soru soruyor.",
+     "en": "She asks a man at the stop."
+    },
+    {
+     "who": "",
+     "de": "Er sagt: „Gehen Sie geradeaus und dann links.“",
+     "tr": "Adam, “Düz gidin, sonra sola dönün,” diyor.",
+     "en": "He says, “Go straight ahead and then turn left.”"
+    },
+    {
+     "who": "",
+     "de": "Elif nimmt den Bus zum Zentrum.",
+     "tr": "Elif merkeze otobüsle gidiyor.",
+     "en": "Elif takes the bus to the center."
+    },
+    {
+     "who": "",
+     "de": "Am Platz steigt sie in die Straßenbahn ein.",
+     "tr": "Meydanda tramvaya biniyor.",
+     "en": "At the square, she gets on the tram."
+    },
+    {
+     "who": "",
+     "de": "Im Zentrum steigt sie aus und sucht die Bank.",
+     "tr": "Merkezde iniyor ve bankayı arıyor.",
+     "en": "In the center, she gets off and looks for the bank."
+    },
+    {
+     "who": "",
+     "de": "Die Apotheke ist neben der Bank.",
+     "tr": "Eczane bankanın yanında.",
+     "en": "The pharmacy is next to the bank."
+    },
+    {
+     "who": "",
+     "de": "In der Apotheke kauft Elif ein Pflaster und Wasser.",
+     "tr": "Elif eczaneden bir yara bandı ve su alıyor.",
+     "en": "Elif buys a plaster and some water at the pharmacy."
+    },
+    {
+     "who": "",
+     "de": "Dann geht Elif zurück zum Kurs.",
+     "tr": "Sonra Elif kursa geri dönüyor.",
+     "en": "Then Elif goes back to the course."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin fährt Elif mit dem Bus?",
+     "options": [
+      "Zum Zentrum",
+      "Zum Dorf",
+      "Zum Museum"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was kauft Elif in der Apotheke?",
+     "options": [
+      "Ein Pflaster und Wasser",
+      "Einen Kuchen",
+      "Ein Ticket"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif fährt mit der Straßenbahn ins Zentrum.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Apotheke ist neben dem Kino.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-08-1",
+   "unit": "a1-08",
+   "kind": "dialog",
+   "title": "Ein Termin beim Arzt",
+   "title_tr": "Doktorda bir randevu",
+   "title_en": "An Appointment with the Doctor",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Guten Morgen, ich habe Kopfschmerzen.",
+     "tr": "Günaydın, başım ağrıyor.",
+     "en": "Good morning, I have a headache."
+    },
+    {
+     "who": "Arzt",
+     "de": "Haben Sie auch Fieber?",
+     "tr": "Ateşiniz de var mı?",
+     "en": "Do you also have a fever?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, und mir ist schlecht.",
+     "tr": "Evet, midem de bulanıyor.",
+     "en": "Yes, and I feel sick."
+    },
+    {
+     "who": "Arzt",
+     "de": "Brauchen Sie einen Termin?",
+     "tr": "Bir randevuya mı ihtiyacınız var?",
+     "en": "Do you need an appointment?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, ich brauche einen Termin.",
+     "tr": "Evet, bir randevuya ihtiyacım var.",
+     "en": "Yes, I need an appointment."
+    },
+    {
+     "who": "Arzt",
+     "de": "Kommen Sie heute um zehn Uhr.",
+     "tr": "Bugün saat onda gelin.",
+     "en": "Come at ten today."
+    },
+    {
+     "who": "Elif",
+     "de": "Wo ist Ihre Praxis?",
+     "tr": "Muayenehaneniz nerede?",
+     "en": "Where is your practice?"
+    },
+    {
+     "who": "Arzt",
+     "de": "Die Praxis ist neben der Apotheke.",
+     "tr": "Muayenehane eczanenin yanında.",
+     "en": "The practice is next to the pharmacy."
+    },
+    {
+     "who": "Elif",
+     "de": "Gut, ich komme um zehn Uhr.",
+     "tr": "Peki, saat onda geliyorum.",
+     "en": "All right, I'll come at ten."
+    },
+    {
+     "who": "Arzt",
+     "de": "Gute Besserung!",
+     "tr": "Geçmiş olsun!",
+     "en": "Get well soon!"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was tut Elif weh?",
+     "options": [
+      "Der Kopf",
+      "Der Fuß",
+      "Der Arm"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann kommt Elif in die Praxis?",
+     "options": [
+      "Um acht Uhr",
+      "Um zehn Uhr",
+      "Um zwölf Uhr"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat Fieber.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Praxis ist neben dem Bahnhof.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-08-2",
+   "unit": "a1-08",
+   "kind": "story",
+   "title": "Elif ist krank",
+   "title_tr": "Elif hasta",
+   "title_en": "Elif Is Sick",
+   "lines": [
+    {
+     "who": "",
+     "de": "Am Morgen hat Elif Kopfschmerzen.",
+     "tr": "Sabah Elif'in başı ağrıyor.",
+     "en": "Elif has a headache in the morning."
+    },
+    {
+     "who": "",
+     "de": "Ihr ist schlecht, und sie hat auch Fieber.",
+     "tr": "Midesi bulanıyor ve ateşi de var.",
+     "en": "She feels sick and also has a fever."
+    },
+    {
+     "who": "",
+     "de": "Elif spricht mit der Praxis und braucht einen Termin.",
+     "tr": "Elif muayenehaneyle konuşuyor ve bir randevuya ihtiyacı var.",
+     "en": "Elif speaks to the doctor's practice and needs an appointment."
+    },
+    {
+     "who": "",
+     "de": "Der Arzt zeigt ihr das Thermometer.",
+     "tr": "Doktor ona termometreyi gösteriyor.",
+     "en": "The doctor shows her the thermometer."
+    },
+    {
+     "who": "",
+     "de": "Er sagt: „Sie müssen im Bett bleiben.“",
+     "tr": "“Yatakta kalmanız gerekiyor,” diyor.",
+     "en": "He says, “You have to stay in bed.”"
+    },
+    {
+     "who": "",
+     "de": "Elif nimmt eine Tablette und liegt im Bett.",
+     "tr": "Elif bir tablet alıyor ve yatakta uzanıyor.",
+     "en": "Elif takes a tablet and lies in bed."
+    },
+    {
+     "who": "",
+     "de": "Sie trinkt Wasser und Tee.",
+     "tr": "Su ve çay içiyor.",
+     "en": "She drinks water and tea."
+    },
+    {
+     "who": "",
+     "de": "Lina bringt einen Apfel und sagt: „Gute Besserung!“",
+     "tr": "Lina bir elma getiriyor ve “Geçmiş olsun!” diyor.",
+     "en": "Lina brings an apple and says, “Get well soon!”"
+    },
+    {
+     "who": "",
+     "de": "Elif schläft am Abend.",
+     "tr": "Elif akşam uyuyor.",
+     "en": "Elif sleeps in the evening."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was hat Elif?",
+     "options": [
+      "Kopfschmerzen und Fieber",
+      "Durst und Hunger",
+      "Zahnschmerzen"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was bringt Lina?",
+     "options": [
+      "Einen Apfel",
+      "Eine Tablette",
+      "Ein Thermometer"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Arzt zeigt Elif ein Thermometer.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif trinkt am Abend Kaffee.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-09-1",
+   "unit": "a1-09",
+   "kind": "dialog",
+   "title": "Das Vorstellungsgespräch",
+   "title_tr": "İş görüşmesi",
+   "title_en": "The job interview",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Morgen ist die Prüfung.",
+     "tr": "Yarın sınav var.",
+     "en": "The exam is tomorrow."
+    },
+    {
+     "who": "Lina",
+     "de": "Du lernst heute viel für den Kurs.",
+     "tr": "Bugün kurs için çok çalışıyorsun.",
+     "en": "You're studying a lot for the course today."
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, aber am Mittag habe ich ein Vorstellungsgespräch.",
+     "tr": "Evet ama öğlen bir iş görüşmem var.",
+     "en": "Yes, but I have a job interview at noon."
+    },
+    {
+     "who": "Lina",
+     "de": "Heute habe ich frei. Ich komme gern mit.",
+     "tr": "Bugün izinliyim. Seve seve seninle gelirim.",
+     "en": "I have the day off today. I'd be happy to come with you."
+    },
+    {
+     "who": "Elif",
+     "de": "Die Teilzeitstelle ist in einer Firma.",
+     "tr": "Yarı zamanlı iş bir şirkette.",
+     "en": "The part-time position is at a company."
+    },
+    {
+     "who": "Lina",
+     "de": "Was fragt die Chefin?",
+     "tr": "Müdür ne soruyor?",
+     "en": "What does the manager ask?"
+    },
+    {
+     "who": "Elif",
+     "de": "Sie fragt nach meinem Namen und meiner Arbeit.",
+     "tr": "Adımı ve işimi soruyor.",
+     "en": "She asks about my name and my work."
+    },
+    {
+     "who": "Lina",
+     "de": "Können Sie das bitte wiederholen?",
+     "tr": "Bunu tekrar edebilir misiniz lütfen?",
+     "en": "Could you repeat that, please?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja. Und wie schreibt man das?",
+     "tr": "Evet. Peki bu nasıl yazılıyor?",
+     "en": "Yes. And how do you spell that?"
+    },
+    {
+     "who": "Lina",
+     "de": "Du buchstabierst deinen Namen. Das geht gut.",
+     "tr": "Adını harf harf söylersin. Bu iyi olur.",
+     "en": "You spell your name. That will go well."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "das Vorstellungsgespräch",
+     "lemma": "Vorstellungsgespräch",
+     "art": "das",
+     "tr": "iş görüşmesi",
+     "en": "job interview"
+    },
+    {
+     "form": "die Teilzeitstelle",
+     "lemma": "Teilzeitstelle",
+     "art": "die",
+     "tr": "yarı zamanlı iş",
+     "en": "part-time position"
+    },
+    {
+     "form": "die Chefin",
+     "lemma": "Chefin",
+     "art": "die",
+     "tr": "kadın yönetici",
+     "en": "female manager"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann hat Elif ein Vorstellungsgespräch?",
+     "options": [
+      "Am Mittag",
+      "Am Abend",
+      "Am Morgen"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo ist die Teilzeitstelle?",
+     "options": [
+      "In einer Firma",
+      "Im Kino",
+      "Im Kurs"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina hat heute frei.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Chefin fragt nach Elifs Hund.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-09-2",
+   "unit": "a1-09",
+   "kind": "story",
+   "title": "Ein wichtiger Tag",
+   "title_tr": "Önemli bir gün",
+   "title_en": "An important day",
+   "lines": [
+    {
+     "who": "",
+     "de": "Morgen ist die Prüfung, und Elif lernt heute im Kurs.",
+     "tr": "Yarın sınav var ve Elif bugün kursta çalışıyor.",
+     "en": "The exam is tomorrow, and Elif is studying in class today."
+    },
+    {
+     "who": "",
+     "de": "Um elf hat Elif ein Vorstellungsgespräch in einer Firma.",
+     "tr": "Saat on birde Elif'in bir şirkette iş görüşmesi var.",
+     "en": "At eleven, Elif has a job interview at a company."
+    },
+    {
+     "who": "",
+     "de": "Die Chefin fragt nach Elifs Namen.",
+     "tr": "Yönetici Elif'in adını soruyor.",
+     "en": "The manager asks Elif's name."
+    },
+    {
+     "who": "",
+     "de": "Elif sagt: „Ich heiße Elif und wohne in Köln.“",
+     "tr": "Elif, “Benim adım Elif ve Köln'de oturuyorum,” diyor.",
+     "en": "Elif says, “My name is Elif and I live in Cologne.”"
+    },
+    {
+     "who": "",
+     "de": "Die Chefin spricht schnell, aber Elif versteht nicht alles.",
+     "tr": "Yönetici hızlı konuşuyor ama Elif her şeyi anlamıyor.",
+     "en": "The manager speaks quickly, but Elif doesn't understand everything."
+    },
+    {
+     "who": "",
+     "de": "Elif fragt: „Können Sie das bitte wiederholen?“",
+     "tr": "Elif, “Bunu tekrar edebilir misiniz lütfen?” diye soruyor.",
+     "en": "Elif asks, “Could you repeat that, please?”"
+    },
+    {
+     "who": "",
+     "de": "Die Chefin sagt: „Meine Arbeit beginnt um acht.“",
+     "tr": "Yönetici, “İşim sekizde başlıyor,” diyor.",
+     "en": "The manager says, “My work starts at eight.”"
+    },
+    {
+     "who": "",
+     "de": "Elif hat heute frei und ist glücklich.",
+     "tr": "Elif bugün izinli ve mutlu.",
+     "en": "Elif has the day off today and is happy."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "das Vorstellungsgespräch",
+     "lemma": "Vorstellungsgespräch",
+     "art": "das",
+     "tr": "iş görüşmesi",
+     "en": "job interview"
+    },
+    {
+     "form": "die Firma",
+     "lemma": "Firma",
+     "art": "die",
+     "tr": "şirket",
+     "en": "company"
+    },
+    {
+     "form": "die Chefin",
+     "lemma": "Chefin",
+     "art": "die",
+     "tr": "kadın yönetici",
+     "en": "female manager"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was macht Elif heute im Kurs?",
+     "options": [
+      "Sie lernt.",
+      "Sie schläft.",
+      "Sie kocht."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann beginnt die Arbeit?",
+     "options": [
+      "Um acht",
+      "Um elf",
+      "Um zwölf"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif wohnt in Köln.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Chefin spricht langsam.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-10-1",
+   "unit": "a1-10",
+   "kind": "dialog",
+   "title": "Am See",
+   "title_tr": "Gölde",
+   "title_en": "At the lake",
+   "lines": [
+    {
+     "who": "Tom",
+     "de": "Am Wochenende spiele ich Fußball.",
+     "tr": "Hafta sonu futbol oynarım.",
+     "en": "I play football at the weekend."
+    },
+    {
+     "who": "Elif",
+     "de": "Das Wetter ist heute schön.",
+     "tr": "Bugün hava güzel.",
+     "en": "The weather is nice today."
+    },
+    {
+     "who": "Lina",
+     "de": "Wollen wir ins Kino gehen?",
+     "tr": "Sinemaya gidelim mi?",
+     "en": "Shall we go to the cinema?"
+    },
+    {
+     "who": "Elif",
+     "de": "Nein, ich möchte lieber zum See fahren.",
+     "tr": "Hayır, göle gitmeyi tercih ederim.",
+     "en": "No, I'd rather go to the lake."
+    },
+    {
+     "who": "Tom",
+     "de": "Ja. Ich nehme meine Kamera mit.",
+     "tr": "Olur. Kameramı yanıma alırım.",
+     "en": "Sure. I'll bring my camera."
+    },
+    {
+     "who": "Lina",
+     "de": "Ich lese gern Bücher, aber heute schwimme ich.",
+     "tr": "Kitap okumayı severim ama bugün yüzeceğim.",
+     "en": "I like reading books, but today I'll swim."
+    },
+    {
+     "who": "Elif",
+     "de": "Am Samstag fahre ich gern mit dem Bus.",
+     "tr": "Cumartesi günü otobüsle gitmeyi severim.",
+     "en": "I like taking the bus on Saturday."
+    },
+    {
+     "who": "Tom",
+     "de": "Am See mache ich Fotos.",
+     "tr": "Gölde fotoğraf çekiyorum.",
+     "en": "I'll take photos at the lake."
+    },
+    {
+     "who": "Lina",
+     "de": "Wir essen Brot und Käse.",
+     "tr": "Ekmek ve peynir yeriz.",
+     "en": "We'll eat bread and cheese."
+    },
+    {
+     "who": "Elif",
+     "de": "Der Ausflug ist super!",
+     "tr": "Gezi harika!",
+     "en": "The trip is great!"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin möchte Elif fahren?",
+     "options": [
+      "Zum See",
+      "Ins Kino",
+      "Zum Kurs"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was nimmt Tom mit?",
+     "options": [
+      "Eine Kamera",
+      "Ein Buch",
+      "Ein Fahrrad"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina liest gern Bücher.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Freunde fahren mit dem Taxi.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-10-2",
+   "unit": "a1-10",
+   "kind": "story",
+   "title": "Elifs Wochenende",
+   "title_tr": "Elif'in hafta sonu",
+   "title_en": "Elif's weekend",
+   "lines": [
+    {
+     "who": "",
+     "de": "Am Wochenende spiele ich Fußball, sagt Tom am Montag.",
+     "tr": "Tom pazartesi, “Hafta sonu futbol oynarım,” diyor.",
+     "en": "On Monday, Tom says, “I play football at the weekend.”"
+    },
+    {
+     "who": "",
+     "de": "Das Wetter ist heute schön, sagt Elif.",
+     "tr": "Elif, “Bugün hava güzel,” diyor.",
+     "en": "Elif says, “The weather is nice today.”"
+    },
+    {
+     "who": "",
+     "de": "Am Samstag ist Elif mit Lina zum See gefahren.",
+     "tr": "Cumartesi Elif, Lina'yla göle gitti.",
+     "en": "On Saturday, Elif went to the lake with Lina."
+    },
+    {
+     "who": "",
+     "de": "Die Freundinnen haben viel geschwommen und Fotos gemacht.",
+     "tr": "Arkadaşlar çok yüzdü ve fotoğraf çekti.",
+     "en": "The friends swam a lot and took photos."
+    },
+    {
+     "who": "",
+     "de": "Tom hat Fußball gespielt, und Lina hat ein Buch gelesen.",
+     "tr": "Tom futbol oynadı, Lina da bir kitap okudu.",
+     "en": "Tom played football, and Lina read a book."
+    },
+    {
+     "who": "",
+     "de": "Zum Mittagessen haben alle Brot und Käse gegessen.",
+     "tr": "Öğle yemeğinde herkes ekmek ve peynir yedi.",
+     "en": "Everyone ate bread and cheese for lunch."
+    },
+    {
+     "who": "",
+     "de": "Am Abend sind sie mit dem Bus zurückgefahren.",
+     "tr": "Akşam otobüsle geri döndüler.",
+     "en": "In the evening, they went back by bus."
+    },
+    {
+     "who": "",
+     "de": "Elif war müde, aber sehr glücklich.",
+     "tr": "Elif yorgundu ama çok mutluydu.",
+     "en": "Elif was tired but very happy."
+    },
+    {
+     "who": "",
+     "de": "Sie sagt: „Der Ausflug war super!“",
+     "tr": "“Gezi harikaydı!” diyor.",
+     "en": "She says, “The trip was great!”"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin sind Elif und Lina gefahren?",
+     "options": [
+      "Zum See",
+      "Ins Kino",
+      "Zum Markt"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie sind die Freunde zurückgefahren?",
+     "options": [
+      "Mit dem Bus",
+      "Mit dem Taxi",
+      "Mit dem Zug"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina hat ein Buch gelesen.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif war am Abend traurig.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-11-1",
+   "unit": "a1-11",
+   "kind": "dialog",
+   "title": "Eine Fahrt nach Berlin",
+   "title_tr": "Berlin'e bir yolculuk",
+   "title_en": "A trip to Berlin",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Eine Fahrkarte nach Berlin, bitte.",
+     "tr": "Berlin'e bir bilet lütfen.",
+     "en": "A ticket to Berlin, please."
+    },
+    {
+     "who": "Lina",
+     "de": "Wann fährt der nächste Zug?",
+     "tr": "Sonraki tren ne zaman kalkıyor?",
+     "en": "When does the next train leave?"
+    },
+    {
+     "who": "Elif",
+     "de": "Um zehn Uhr.",
+     "tr": "Saat onda.",
+     "en": "At ten o'clock."
+    },
+    {
+     "who": "Lina",
+     "de": "Von welchem Gleis fährt der Zug?",
+     "tr": "Tren hangi perondan kalkıyor?",
+     "en": "Which platform does the train leave from?"
+    },
+    {
+     "who": "Elif",
+     "de": "Von Gleis drei.",
+     "tr": "Üçüncü perondan.",
+     "en": "From platform three."
+    },
+    {
+     "who": "Lina",
+     "de": "Musst du in Bonn umsteigen?",
+     "tr": "Bonn'da aktarma yapman gerekiyor mu?",
+     "en": "Do you have to change trains in Bonn?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, ich steige in Bonn um.",
+     "tr": "Evet, Bonn'da aktarma yapıyorum.",
+     "en": "Yes, I'm changing trains in Bonn."
+    },
+    {
+     "who": "Lina",
+     "de": "Ich habe ein Zimmer reserviert.",
+     "tr": "Bir oda ayırttım.",
+     "en": "I've booked a room."
+    },
+    {
+     "who": "Elif",
+     "de": "Das Hotel ist im Zentrum.",
+     "tr": "Otel merkezde.",
+     "en": "The hotel is in the center."
+    },
+    {
+     "who": "Lina",
+     "de": "Dein Koffer ist schwer. Ich helfe dir.",
+     "tr": "Valizin ağır. Sana yardım ediyorum.",
+     "en": "Your suitcase is heavy. I'll help you."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann fährt der Zug?",
+     "options": [
+      "Um zehn Uhr",
+      "Um zwölf Uhr",
+      "Um acht Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo steigt Elif um?",
+     "options": [
+      "In Bonn",
+      "In Berlin",
+      "In Köln"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Zug fährt von Gleis drei.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina hat kein Zimmer reserviert.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-11-2",
+   "unit": "a1-11",
+   "kind": "story",
+   "title": "Elif in Berlin",
+   "title_tr": "Berlin'de Elif",
+   "title_en": "Elif in Berlin",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif sagt am Schalter: „Eine Fahrkarte nach Berlin, bitte.“",
+     "tr": "Elif gişede, “Berlin'e bir bilet lütfen,” diyor.",
+     "en": "At the counter, Elif says, “A ticket to Berlin, please.”"
+    },
+    {
+     "who": "",
+     "de": "Um zehn Uhr fährt der Zug von Gleis drei ab.",
+     "tr": "Tren saat onda üçüncü perondan kalkıyor.",
+     "en": "The train leaves from platform three at ten."
+    },
+    {
+     "who": "",
+     "de": "In Bonn steigt sie um und wartet zehn Minuten.",
+     "tr": "Bonn'da aktarma yapıyor ve on dakika bekliyor.",
+     "en": "She changes trains in Bonn and waits for ten minutes."
+    },
+    {
+     "who": "",
+     "de": "Am Nachmittag kommt sie in Berlin an.",
+     "tr": "Öğleden sonra Berlin'e varıyor.",
+     "en": "She arrives in Berlin in the afternoon."
+    },
+    {
+     "who": "",
+     "de": "Sie sagt: „Ich habe ein Zimmer reserviert.“",
+     "tr": "“Bir oda ayırttım,” diyor.",
+     "en": "She says, “I've booked a room.”"
+    },
+    {
+     "who": "",
+     "de": "Das Hotel ist im Zentrum, neben dem Museum.",
+     "tr": "Otel merkezde, müzenin yanında.",
+     "en": "The hotel is in the center, next to the museum."
+    },
+    {
+     "who": "",
+     "de": "Elif legt ihren Koffer ins Zimmer und geht zum Park.",
+     "tr": "Elif valizini odaya koyuyor ve parka gidiyor.",
+     "en": "Elif puts her suitcase in the room and goes to the park."
+    },
+    {
+     "who": "",
+     "de": "Sie ruft Lina an und ist glücklich.",
+     "tr": "Lina'yı arıyor ve mutlu.",
+     "en": "She calls Lina and is happy."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo steigt Elif um?",
+     "options": [
+      "In Bonn",
+      "In Berlin",
+      "In Hamburg"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo ist das Hotel?",
+     "options": [
+      "Im Zentrum",
+      "Am Strand",
+      "Am Bahnhof"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif fährt mit dem Zug nach Berlin.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Das Hotel liegt neben dem Krankenhaus.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-12-1",
+   "unit": "a1-12",
+   "kind": "dialog",
+   "title": "Beim Amt",
+   "title_tr": "Resmî dairede",
+   "title_en": "At the office",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Guten Morgen. Ich möchte mich anmelden.",
+     "tr": "Günaydın. Adres kaydı yaptırmak istiyorum.",
+     "en": "Good morning. I'd like to register my address."
+    },
+    {
+     "who": "Frau Becker",
+     "de": "Guten Morgen. Haben Sie einen Termin?",
+     "tr": "Günaydın. Randevunuz var mı?",
+     "en": "Good morning. Do you have an appointment?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, um zehn Uhr.",
+     "tr": "Evet, saat onda.",
+     "en": "Yes, at ten o'clock."
+    },
+    {
+     "who": "Frau Becker",
+     "de": "Bitte zeigen Sie Ihren Ausweis.",
+     "tr": "Lütfen kimliğinizi gösterin.",
+     "en": "Please show me your ID."
+    },
+    {
+     "who": "Elif",
+     "de": "Hier sind mein Ausweis und mein Pass.",
+     "tr": "Kimliğim ve pasaportum burada.",
+     "en": "Here are my ID and passport."
+    },
+    {
+     "who": "Frau Becker",
+     "de": "Bitte füllen Sie das Formular aus.",
+     "tr": "Lütfen formu doldurun.",
+     "en": "Please fill out the form."
+    },
+    {
+     "who": "Elif",
+     "de": "Welche Unterlagen brauche ich?",
+     "tr": "Hangi belgelere ihtiyacım var?",
+     "en": "Which documents do I need?"
+    },
+    {
+     "who": "Frau Becker",
+     "de": "Ihren Ausweis und das Formular.",
+     "tr": "Kimliğiniz ve form.",
+     "en": "Your ID and the form."
+    },
+    {
+     "who": "Elif",
+     "de": "Wo muss ich unterschreiben?",
+     "tr": "Nereyi imzalamam gerekiyor?",
+     "en": "Where do I have to sign?"
+    },
+    {
+     "who": "Frau Becker",
+     "de": "Bitte hier unten.",
+     "tr": "Lütfen burada, aşağıya.",
+     "en": "Here at the bottom, please."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann hat Elif einen Termin?",
+     "options": [
+      "Um zehn Uhr",
+      "Um acht Uhr",
+      "Um zwölf Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was zeigt Elif?",
+     "options": [
+      "Ihren Ausweis",
+      "Eine Kamera",
+      "Ein Ticket"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif füllt ein Formular aus.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif unterschreibt oben.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a1-12-2",
+   "unit": "a1-12",
+   "kind": "story",
+   "title": "Ein Konto für Elif",
+   "title_tr": "Elif için bir hesap",
+   "title_en": "An account for Elif",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif hat heute einen Termin beim Amt in Köln.",
+     "tr": "Elif'in bugün Köln'de resmî dairede randevusu var.",
+     "en": "Elif has an appointment at the office in Cologne today."
+    },
+    {
+     "who": "",
+     "de": "Sie sagt: „Ich möchte mich anmelden.“",
+     "tr": "“Adres kaydı yaptırmak istiyorum,” diyor.",
+     "en": "She says, “I'd like to register my address.”"
+    },
+    {
+     "who": "",
+     "de": "Frau Becker nimmt ihren Ausweis und das Formular.",
+     "tr": "Frau Becker kimliğini ve formu alıyor.",
+     "en": "Ms Becker takes her ID and the form."
+    },
+    {
+     "who": "",
+     "de": "Elif schreibt ihre Adresse und Hausnummer ins Formular.",
+     "tr": "Elif adresini ve kapı numarasını forma yazıyor.",
+     "en": "Elif writes her address and house number on the form."
+    },
+    {
+     "who": "",
+     "de": "Sie fragt: „Welche Unterlagen brauche ich?“",
+     "tr": "“Hangi belgelere ihtiyacım var?” diye soruyor.",
+     "en": "She asks, “Which documents do I need?”"
+    },
+    {
+     "who": "",
+     "de": "Am Mittag geht Elif zur Bank in der Stadt.",
+     "tr": "Öğlen Elif şehirdeki bankaya gidiyor.",
+     "en": "At noon, Elif goes to the bank in town."
+    },
+    {
+     "who": "",
+     "de": "Sie möchte ein Konto eröffnen.",
+     "tr": "Bir hesap açmak istiyor.",
+     "en": "She would like to open an account."
+    },
+    {
+     "who": "",
+     "de": "Elif zeigt ihren Ausweis und unterschreibt das Formular.",
+     "tr": "Elif kimliğini gösterip formu imzalıyor.",
+     "en": "Elif shows her ID and signs the form."
+    },
+    {
+     "who": "",
+     "de": "Jetzt hat sie ein Konto und ist sehr glücklich.",
+     "tr": "Artık bir hesabı var ve çok mutlu.",
+     "en": "Now she has an account and is very happy."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "eröffnen",
+     "lemma": "eröffnen",
+     "art": "",
+     "tr": "açmak (hesap açmak)",
+     "en": "to open (an account)"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin geht Elif am Mittag?",
+     "options": [
+      "Zur Bank",
+      "Zum Kino",
+      "Zum See"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was eröffnet Elif?",
+     "options": [
+      "Ein Konto",
+      "Ein Hotel",
+      "Ein Amt"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif schreibt die Adresse ins Formular.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif zeigt ihr Wörterbuch.",
+     "answer": 1
+    }
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "s-a1-01-1",
+   "level": "A1",
+   "topic": "Merhaba, ben …",
+   "title": "Hallo, Elif!",
+   "paragraphs": [
+    "Lina: Hallo! Ich heiße Lina.",
+    "Elif: Hallo, ich heiße Elif.",
+    "Lina: Wie heißen Sie?",
+    "Elif: Ich heiße Elif. Ich komme aus der Türkei.",
+    "Lina: Ich wohne in Köln und spreche Deutsch.",
+    "Elif: Ich wohne auch in Köln. Ich spreche Türkisch.",
+    "Lina: Freut mich! Ich heiße Lina.",
+    "Elif: Freut mich, Lina! Ich habe eine Frage.",
+    "Lina: Ja, bitte. Ich antworte gern.",
+    "Elif: Danke. Ich lerne Deutsch."
+   ],
+   "trans": [
+    {
+     "tr": "Lina: Merhaba! Benim adım Lina.",
+     "en": "Lina: Hello! My name is Lina."
+    },
+    {
+     "tr": "Elif: Merhaba, benim adım Elif.",
+     "en": "Elif: Hello, my name is Elif."
+    },
+    {
+     "tr": "Lina: Adınız ne?",
+     "en": "Lina: What is your name?"
+    },
+    {
+     "tr": "Elif: Benim adım Elif. Türkiye'den geliyorum.",
+     "en": "Elif: My name is Elif. I come from Türkiye."
+    },
+    {
+     "tr": "Lina: Köln'de oturuyorum ve Almanca konuşuyorum.",
+     "en": "Lina: I live in Cologne and speak German."
+    },
+    {
+     "tr": "Elif: Ben de Köln'de oturuyorum. Türkçe konuşuyorum.",
+     "en": "Elif: I live in Cologne too. I speak Turkish."
+    },
+    {
+     "tr": "Lina: Memnun oldum! Benim adım Lina.",
+     "en": "Lina: Nice to meet you! My name is Lina."
+    },
+    {
+     "tr": "Elif: Memnun oldum Lina! Bir sorum var.",
+     "en": "Elif: Nice to meet you, Lina! I have a question."
+    },
+    {
+     "tr": "Lina: Evet, lütfen. Memnuniyetle cevap veririm.",
+     "en": "Lina: Yes, please. I'm happy to answer."
+    },
+    {
+     "tr": "Elif: Teşekkürler. Almanca öğreniyorum.",
+     "en": "Elif: Thank you. I'm learning German."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Kurs",
+     "lemma": "Kurs",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kurs",
+      "en": "course"
+     }
+    },
+    {
+     "form": "Deutsch",
+     "lemma": "Deutsch",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "Almanca",
+      "en": "German"
+     }
+    },
+    {
+     "form": "Türkisch",
+     "lemma": "Türkisch",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "Türkçe",
+      "en": "Turkish"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo wohnt Lina?",
+     "options": [
+      "In Köln",
+      "In Berlin",
+      "In der Türkei"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Woher kommt Elif?",
+     "options": [
+      "Aus Köln",
+      "Aus der Türkei",
+      "Aus Berlin"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif wohnt in Köln.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina spricht Türkisch.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-01-2",
+   "level": "A1",
+   "topic": "Merhaba, ben …",
+   "title": "Zwei Namen, eine Stadt",
+   "paragraphs": [
+    "Elif kommt aus der Türkei und wohnt in Köln.",
+    "Sie spricht sehr gut Türkisch und lernt Deutsch im Kurs.",
+    "Lina wohnt auch in Köln und spricht Deutsch.",
+    "Elif hat eine Frage, und Lina antwortet freundlich.",
+    "Sie fragen nach Namen, Land und Stadt.",
+    "Elif sagt ihren Vornamen langsam und genau.",
+    "Lina versteht jedes Wort und lacht.",
+    "„Freut mich!“, sagt Lina. Elif ist sehr glücklich."
+   ],
+   "trans": [
+    {
+     "tr": "Elif Türkiye'den geliyor ve Köln'de oturuyor.",
+     "en": "Elif comes from Türkiye and lives in Cologne."
+    },
+    {
+     "tr": "Çok iyi Türkçe konuşuyor ve kursta Almanca öğreniyor.",
+     "en": "She speaks Turkish very well and learns German in the course."
+    },
+    {
+     "tr": "Lina da Köln'de oturuyor ve Almanca konuşuyor.",
+     "en": "Lina also lives in Cologne and speaks German."
+    },
+    {
+     "tr": "Elif'in bir sorusu var ve Lina nazikçe cevap veriyor.",
+     "en": "Elif has a question, and Lina answers kindly."
+    },
+    {
+     "tr": "İsimleri, ülkeleri ve şehirleri hakkında soru soruyorlar.",
+     "en": "They ask about names, country, and city."
+    },
+    {
+     "tr": "Elif adını yavaşça ve açıkça söylüyor.",
+     "en": "Elif says her first name slowly and clearly."
+    },
+    {
+     "tr": "Lina her kelimeyi anlıyor ve gülüyor.",
+     "en": "Lina understands every word and laughs."
+    },
+    {
+     "tr": "“Memnun oldum!” diyor Lina. Elif çok mutlu.",
+     "en": "“Nice to meet you!” Lina says. Elif is very happy."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Kurs",
+     "lemma": "Kurs",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kurs",
+      "en": "course"
+     }
+    },
+    {
+     "form": "Deutsch",
+     "lemma": "Deutsch",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "Almanca",
+      "en": "German"
+     }
+    },
+    {
+     "form": "Türkisch",
+     "lemma": "Türkisch",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "Türkçe",
+      "en": "Turkish"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo wohnt Elif?",
+     "options": [
+      "In Köln",
+      "In Ankara",
+      "In Berlin"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was lernt Elif?",
+     "options": [
+      "Englisch",
+      "Deutsch",
+      "Französisch"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Lina wohnt in Köln.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif versteht jedes Wort.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-02-1",
+   "level": "A1",
+   "topic": "Ailem",
+   "title": "Elifs Familie",
+   "paragraphs": [
+    "Elif: Lina, ich habe Fotos. Mein Handy ist neu.",
+    "Lina: Zeigst du ein Foto?",
+    "Elif: Ja. Das Foto zeigt meine Mutter. Sie heißt Aylin.",
+    "Lina: Und wer ist der Junge?",
+    "Elif: Das ist mein Bruder. Er ist 19 Jahre alt.",
+    "Lina: Ich habe einen Bruder und eine Schwester.",
+    "Elif: Wie heißen deine Geschwister?",
+    "Lina: Meine Schwester heißt Mila. Mein Bruder heißt Tom.",
+    "Elif: Bist du verheiratet?",
+    "Lina: Nein. Ich bin nicht verheiratet. Ich habe keine Kinder."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Lina, fotoğraflarım var. Telefonum yeni.",
+     "en": "Elif: Lina, I have photos. My phone is new."
+    },
+    {
+     "tr": "Lina: Fotoğrafları gösterir misin?",
+     "en": "Lina: Will you show me the photos?"
+    },
+    {
+     "tr": "Elif: Evet. Bu benim annem. Adı Aylin.",
+     "en": "Elif: Yes. This is my mother. Her name is Aylin."
+    },
+    {
+     "tr": "Lina: Peki erkek çocuk kim?",
+     "en": "Lina: And who is the boy?"
+    },
+    {
+     "tr": "Elif: Bu benim erkek kardeşim. 19 yaşında.",
+     "en": "Elif: This is my brother. He is 19 years old."
+    },
+    {
+     "tr": "Lina: Bir erkek ve bir kız kardeşim var.",
+     "en": "Lina: I have a brother and a sister."
+    },
+    {
+     "tr": "Elif: Kardeşlerinin adları ne?",
+     "en": "Elif: What are your siblings' names?"
+    },
+    {
+     "tr": "Lina: Kız kardeşimin adı Mila. Erkek kardeşimin adı Tom.",
+     "en": "Lina: My sister's name is Mila. My brother's name is Tom."
+    },
+    {
+     "tr": "Elif: Evli misin?",
+     "en": "Elif: Are you married?"
+    },
+    {
+     "tr": "Lina: Hayır. Evli değilim. Çocuğum yok.",
+     "en": "Lina: No. I'm not married. I don't have children."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Handyfoto",
+     "lemma": "Handyfoto",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "telefon fotoğrafı",
+      "en": "phone photo"
+     }
+    },
+    {
+     "form": "Foto",
+     "lemma": "Foto",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "fotoğraf",
+      "en": "photo"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie heißt Elifs Mutter?",
+     "options": [
+      "Aylin",
+      "Mila",
+      "Lina"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie viele Geschwister hat Lina?",
+     "options": [
+      "Einen Bruder und eine Schwester",
+      "Zwei Brüder",
+      "Keine Geschwister"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat einen Bruder.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina ist verheiratet.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-02-2",
+   "level": "A1",
+   "topic": "Ailem",
+   "title": "Fotos von der Familie",
+   "paragraphs": [
+    "Elif zeigt ein Handyfoto.",
+    "Das Foto zeigt ihre Mutter und ihren Vater.",
+    "Es zeigt auch ihren Bruder und ihre Schwester.",
+    "Lina hat auch ein Foto.",
+    "„Das ist meine Mutter“, sagt Lina.",
+    "„Mein Vater ist 58 Jahre alt“, sagt sie.",
+    "Lina hat einen Bruder und eine Schwester.",
+    "Ihre Familien sind groß und sehr nett.",
+    "Elif und Lina sind glücklich und die Fotos sind schön."
+   ],
+   "trans": [
+    {
+     "tr": "Elif'in fotoğrafları var. Lina'ya bir fotoğraf gösteriyor.",
+     "en": "Elif has photos. She shows Lina a photo."
+    },
+    {
+     "tr": "Fotoğrafta annesi ve babası var.",
+     "en": "The photo shows her mother and her father."
+    },
+    {
+     "tr": "Erkek ve kız kardeşi de fotoğrafta.",
+     "en": "It also shows her brother and sister."
+    },
+    {
+     "tr": "Lina'nın da bir fotoğrafı var.",
+     "en": "Lina has a photo too."
+    },
+    {
+     "tr": "“Bu benim annem,” diyor Lina.",
+     "en": "“This is my mother,” Lina says."
+    },
+    {
+     "tr": "“Babam 58 yaşında,” diyor.",
+     "en": "“My father is 58 years old,” she says."
+    },
+    {
+     "tr": "Lina'nın bir erkek ve bir kız kardeşi var.",
+     "en": "Lina has a brother and a sister."
+    },
+    {
+     "tr": "Aileleri büyük ve çok sevecen.",
+     "en": "Their families are large and very kind."
+    },
+    {
+     "tr": "Elif ve Lina seviniyor. Fotoğraflar güzel.",
+     "en": "Elif and Lina are happy. The photos are lovely."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Handyfoto",
+     "lemma": "Handyfoto",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "telefon fotoğrafı",
+      "en": "phone photo"
+     }
+    },
+    {
+     "form": "Foto",
+     "lemma": "Foto",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "fotoğraf",
+      "en": "photo"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was zeigt Elif?",
+     "options": [
+      "Lina",
+      "Tom",
+      "Herr Weber"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie alt ist Linas Vater?",
+     "options": [
+      "48 Jahre",
+      "58 Jahre",
+      "68 Jahre"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Das Foto zeigt Elifs Mutter.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina hat keine Geschwister.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-03-1",
+   "level": "A1",
+   "topic": "Yemek ve içmek",
+   "title": "Im Café",
+   "paragraphs": [
+    "Kellner: Guten Tag! Was möchten Sie trinken?",
+    "Elif: Ich hätte gern einen Kaffee.",
+    "Kellner: Möchten Sie auch Wasser?",
+    "Elif: Ja, ein Wasser, bitte.",
+    "Lina: Ich esse gern Fisch. Ich nehme den Fisch.",
+    "Elif: Ich nehme die Suppe und den Salat.",
+    "Kellner: Guten Appetit!",
+    "Lina: Danke. Das Essen schmeckt sehr gut.",
+    "Elif: Die Rechnung, bitte.",
+    "Kellner: Das kostet zusammen 18 Euro.",
+    "Elif: Kann ich mit Karte bezahlen?",
+    "Kellner: Ja, natürlich."
+   ],
+   "trans": [
+    {
+     "tr": "Kellner: İyi günler! Ne içmek istersiniz?",
+     "en": "Kellner: Good afternoon! What would you like to drink?"
+    },
+    {
+     "tr": "Elif: Bir kahve alabilir miyim?",
+     "en": "Elif: I'd like a coffee, please."
+    },
+    {
+     "tr": "Kellner: Su da ister misiniz?",
+     "en": "Kellner: Would you like water too?"
+    },
+    {
+     "tr": "Elif: Evet, bir su lütfen.",
+     "en": "Elif: Yes, a water, please."
+    },
+    {
+     "tr": "Lina: Balık yemeyi severim. Balık alıyorum.",
+     "en": "Lina: I like eating fish. I'll have the fish."
+    },
+    {
+     "tr": "Elif: Çorba ve salata alıyorum.",
+     "en": "Elif: I'll have the soup and the salad."
+    },
+    {
+     "tr": "Kellner: Afiyet olsun!",
+     "en": "Kellner: Enjoy your meal!"
+    },
+    {
+     "tr": "Lina: Teşekkürler. Yemek çok lezzetli.",
+     "en": "Lina: Thank you. The food tastes very good."
+    },
+    {
+     "tr": "Elif: Hesap lütfen.",
+     "en": "Elif: The bill, please."
+    },
+    {
+     "tr": "Kellner: Hepsi toplam 18 avro tutuyor.",
+     "en": "Kellner: That comes to 18 euros in total."
+    },
+    {
+     "tr": "Elif: Kartla ödeyebilir miyim?",
+     "en": "Elif: Can I pay by card?"
+    },
+    {
+     "tr": "Kellner: Evet, tabii.",
+     "en": "Kellner: Yes, of course."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Café",
+     "lemma": "Café",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kafe",
+      "en": "café"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was bestellt Lina?",
+     "options": [
+      "Fisch",
+      "Suppe",
+      "Kuchen"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie bezahlt Elif?",
+     "options": [
+      "Mit Karte",
+      "Mit Geld aus der Türkei",
+      "Nicht"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif trinkt Wasser.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Das Essen schmeckt schlecht.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-03-2",
+   "level": "A1",
+   "topic": "Yemek ve içmek",
+   "title": "Kaffee und Frühstück",
+   "paragraphs": [
+    "Elif und Lina gehen zusammen ins Café.",
+    "Sie bestellen einen Kaffee, eine Suppe und einen Salat.",
+    "Elif trinkt Wasser und isst ein Brötchen.",
+    "Lina isst gern Fisch, und das Essen schmeckt sehr gut.",
+    "Die Freundinnen bezahlen die Rechnung.",
+    "Elif und Lina kochen Eier, Nudeln und Suppe.",
+    "Sie haben auch Brot, Butter und Käse.",
+    "Elif isst gern einen Apfel und trinkt Tee.",
+    "Das Frühstück ist sehr gut."
+   ],
+   "trans": [
+    {
+     "tr": "Elif ve Lina kafeye gidiyor.",
+     "en": "Elif and Lina go to the café."
+    },
+    {
+     "tr": "Kahve, çorba ve salata sipariş ediyorlar.",
+     "en": "They order coffee, soup, and salad."
+    },
+    {
+     "tr": "Elif su içiyor ve bir küçük ekmek yiyor.",
+     "en": "Elif drinks water and eats a bread roll."
+    },
+    {
+     "tr": "Lina balık yemeyi seviyor ve yemek çok lezzetli.",
+     "en": "Lina likes fish, and the food tastes very good."
+    },
+    {
+     "tr": "Arkadaşlar hesabı ödüyor.",
+     "en": "The friends pay the bill."
+    },
+    {
+     "tr": "Elif ve Lina yumurta, makarna ve çorba hazırlıyor.",
+     "en": "Elif and Lina cook eggs, pasta, and soup."
+    },
+    {
+     "tr": "Ekmek, tereyağı ve peynirleri de var.",
+     "en": "They also have bread, butter, and cheese."
+    },
+    {
+     "tr": "Elif elma yemeyi ve çay içmeyi seviyor.",
+     "en": "Elif likes eating an apple and drinking tea."
+    },
+    {
+     "tr": "Kahvaltı çok güzel.",
+     "en": "The breakfast is very good."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Café",
+     "lemma": "Café",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kafe",
+      "en": "café"
+     }
+    },
+    {
+     "form": "gehen",
+     "lemma": "gehen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "gitmek",
+      "en": "to go"
+     }
+    },
+    {
+     "form": "Frühstück",
+     "lemma": "Frühstück",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kahvaltı",
+      "en": "breakfast"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was essen Elif und Lina im Café?",
+     "options": [
+      "Suppe und Salat",
+      "Nudeln und Ei",
+      "Kuchen und Käse"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was kochen Elif und Lina?",
+     "options": [
+      "Eier, Nudeln und Suppe",
+      "Fisch und Kuchen",
+      "Nur Brot"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif trinkt Tee zum Frühstück.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina isst keinen Fisch.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-04-1",
+   "level": "A1",
+   "topic": "Alışveriş",
+   "title": "Die blaue Jacke",
+   "paragraphs": [
+    "Elif: Was kostet das?",
+    "Frau Schmidt: Der Apfel kostet einen Euro.",
+    "Lina: Brauchst du noch Äpfel?",
+    "Elif: Ja, ich nehme drei Äpfel und zwei Brötchen.",
+    "Frau Schmidt: Das kostet zusammen fünf Euro.",
+    "Elif: Danke. Ich brauche keine Tüte.",
+    "Lina: Die blaue Jacke ist sehr schön.",
+    "Elif: Haben Sie das in Größe M?",
+    "Frau Schmidt: Ja, natürlich.",
+    "Elif: Ja, ich nehme die blaue Jacke.",
+    "Elif: Kann ich mit Karte bezahlen?",
+    "Frau Schmidt: Ja, natürlich."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Bu ne kadar?",
+     "en": "Elif: How much is this?"
+    },
+    {
+     "tr": "Frau Schmidt: Elmanın fiyatı bir avro.",
+     "en": "Frau Schmidt: The apple costs one euro."
+    },
+    {
+     "tr": "Lina: Başka elmaya ihtiyacın var mı?",
+     "en": "Lina: Do you need any more apples?"
+    },
+    {
+     "tr": "Elif: Evet, üç elma ve iki küçük ekmek alıyorum.",
+     "en": "Elif: Yes, I'll take three apples and two bread rolls."
+    },
+    {
+     "tr": "Frau Schmidt: Hepsi toplam beş avro tutuyor.",
+     "en": "Frau Schmidt: That comes to five euros in total."
+    },
+    {
+     "tr": "Elif: Teşekkürler. Poşete ihtiyacım yok.",
+     "en": "Elif: Thanks. I don't need a bag."
+    },
+    {
+     "tr": "Lina: Mavi ceket çok güzel.",
+     "en": "Lina: The blue jacket is very nice."
+    },
+    {
+     "tr": "Elif: Bunun M bedeni var mı?",
+     "en": "Elif: Do you have this in size M?"
+    },
+    {
+     "tr": "Frau Schmidt: Evet, tabii.",
+     "en": "Frau Schmidt: Yes, of course."
+    },
+    {
+     "tr": "Elif: Evet, mavi ceketi alıyorum.",
+     "en": "Elif: Yes, I'll take the blue jacket."
+    },
+    {
+     "tr": "Elif: Kartla ödeyebilir miyim?",
+     "en": "Elif: Can I pay by card?"
+    },
+    {
+     "tr": "Frau Schmidt: Evet, tabii.",
+     "en": "Frau Schmidt: Yes, of course."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "besuchen",
+     "lemma": "besuchen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "ziyaret etmek",
+      "en": "to visit"
+     }
+    },
+    {
+     "form": "Größe",
+     "lemma": "Größe",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "beden",
+      "en": "size"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie viel kosten drei Äpfel und zwei Brötchen?",
+     "options": [
+      "Fünf Euro",
+      "Drei Euro",
+      "Einen Euro"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Welche Jacke nimmt Elif?",
+     "options": [
+      "Die rote Jacke",
+      "Die blaue Jacke",
+      "Den Mantel"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif braucht eine Tüte.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif bezahlt mit Karte.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "s-a1-04-2",
+   "level": "A1",
+   "topic": "Alışveriş",
+   "title": "Der Markt",
+   "paragraphs": [
+    "Elif und Lina besuchen zusammen den Markt.",
+    "Elif kauft drei Äpfel, zwei Brötchen und Käse.",
+    "Sie fragt: „Was kostet das?“",
+    "Ein Apfel kostet einen Euro, und Käse kostet drei Euro.",
+    "Lina sucht einen Pullover, aber Elif findet eine Jacke.",
+    "Elif nimmt die blaue Jacke in Größe M.",
+    "Sie trägt die Jacke.",
+    "Elif bezahlt mit Karte und braucht keine Tüte.",
+    "Lina ist glücklich, denn der Preis ist gut."
+   ],
+   "trans": [
+    {
+     "tr": "Elif ve Lina birlikte pazarı geziyor.",
+     "en": "Elif and Lina visit the market together."
+    },
+    {
+     "tr": "Elif üç elma, iki küçük ekmek ve peynir alıyor.",
+     "en": "Elif buys three apples, two bread rolls, and cheese."
+    },
+    {
+     "tr": "“Bu ne kadar?” diye soruyor.",
+     "en": "She asks, “How much is this?”"
+    },
+    {
+     "tr": "Bir elma bir avro, peynir de üç avro.",
+     "en": "An apple costs one euro, and cheese costs three euros."
+    },
+    {
+     "tr": "Lina bir kazak arıyor ama Elif bir ceket buluyor.",
+     "en": "Lina is looking for a sweater, but Elif finds a jacket."
+    },
+    {
+     "tr": "Elif M beden mavi ceketi alıyor.",
+     "en": "Elif takes the blue jacket in size M."
+    },
+    {
+     "tr": "Ceketi giyiyor.",
+     "en": "She wears the jacket."
+    },
+    {
+     "tr": "Elif kartla ödüyor ve poşete ihtiyacı yok.",
+     "en": "Elif pays by card and doesn't need a bag."
+    },
+    {
+     "tr": "Lina mutlu çünkü fiyat iyi.",
+     "en": "Lina is happy because the price is good."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "besuchen",
+     "lemma": "besuchen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "ziyaret etmek",
+      "en": "to visit"
+     }
+    },
+    {
+     "form": "Größe",
+     "lemma": "Größe",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "beden",
+      "en": "size"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was kauft Elif am Markt?",
+     "options": [
+      "Äpfel, Brötchen und Käse",
+      "Fisch und Kuchen",
+      "Nur eine Jacke"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was sucht Lina?",
+     "options": [
+      "Einen Pullover",
+      "Eine Mütze",
+      "Eine Hose"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif braucht eine Tüte.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Jacke ist in Größe M.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "s-a1-05-1",
+   "level": "A1",
+   "topic": "Evim",
+   "title": "Ein Zimmer für Elif",
+   "paragraphs": [
+    "Lina: Das Sofa steht im Wohnzimmer.",
+    "Elif: Die Küche ist klein, aber hell.",
+    "Lina: Wie hoch ist die Miete?",
+    "Elif: Die Miete ist nicht hoch.",
+    "Lina: Wo steht dein Bett?",
+    "Elif: Mein Bett steht im Schlafzimmer.",
+    "Lina: Ich stelle die Lampe neben das Sofa.",
+    "Elif: Zwei Stühle stehen neben dem Tisch.",
+    "Lina: Hast du auch einen Balkon?",
+    "Elif: Ja, aber mein Balkon ist klein."
+   ],
+   "trans": [
+    {
+     "tr": "Lina: Kanepe oturma odasında duruyor.",
+     "en": "Lina: The sofa is in the living room."
+    },
+    {
+     "tr": "Elif: Mutfak küçük ama aydınlık.",
+     "en": "Elif: The kitchen is small but bright."
+    },
+    {
+     "tr": "Lina: Kira ne kadar?",
+     "en": "Lina: How much is the rent?"
+    },
+    {
+     "tr": "Elif: Kira yüksek değil.",
+     "en": "Elif: The rent isn't high."
+    },
+    {
+     "tr": "Lina: Yatağın nerede duruyor?",
+     "en": "Lina: Where is your bed?"
+    },
+    {
+     "tr": "Elif: Yatağım yatak odasında duruyor.",
+     "en": "Elif: My bed is in the bedroom."
+    },
+    {
+     "tr": "Lina: Lambayı kanepenin yanına koyuyorum.",
+     "en": "Lina: I'll put the lamp next to the sofa."
+    },
+    {
+     "tr": "Elif: Masanın yanında iki sandalye duruyor.",
+     "en": "Elif: There are two chairs by the table here."
+    },
+    {
+     "tr": "Lina: Senin balkonun da var mı?",
+     "en": "Lina: Do you also have a balcony?"
+    },
+    {
+     "tr": "Elif: Evet ama balkonum küçük.",
+     "en": "Elif: Yes, but my balcony is small."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wer wohnt in der neuen Wohnung?",
+     "options": [
+      "Lina",
+      "Elif",
+      "Frau Schmidt"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wo steht Elifs Bett?",
+     "options": [
+      "In der Küche",
+      "Im Wohnzimmer",
+      "Im Schlafzimmer"
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Die Küche ist groß.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat einen kleinen Balkon.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "s-a1-05-2",
+   "level": "A1",
+   "topic": "Evim",
+   "title": "Elifs neue Wohnung",
+   "paragraphs": [
+    "Elif wohnt in einer neuen Wohnung in Köln.",
+    "Ihre Wohnung hat drei Zimmer.",
+    "Die Küche ist klein, aber hell.",
+    "Lina bringt eine Lampe und zwei Stühle.",
+    "Elif stellt die Stühle neben den Tisch.",
+    "Sie legt ihre Tasche auf das Bett im Schlafzimmer.",
+    "Das Sofa steht im Wohnzimmer.",
+    "Die Miete ist nicht hoch.",
+    "Elif freut sich: Ihr Zimmer ist schön und sauber."
+   ],
+   "trans": [
+    {
+     "tr": "Elif Köln'de yeni bir dairede oturuyor.",
+     "en": "Elif lives in a new apartment in Cologne."
+    },
+    {
+     "tr": "Dairesinde üç oda var.",
+     "en": "Her apartment has three rooms."
+    },
+    {
+     "tr": "Mutfak küçük ama aydınlık.",
+     "en": "The kitchen is small but bright."
+    },
+    {
+     "tr": "Lina bir lamba ve iki sandalye getiriyor.",
+     "en": "Lina brings a lamp and two chairs."
+    },
+    {
+     "tr": "Elif sandalyeleri masanın yanına koyuyor.",
+     "en": "Elif puts the chairs next to the table."
+    },
+    {
+     "tr": "Çantasını yatak odasındaki yatağın üstüne koyuyor.",
+     "en": "She puts her bag on the bed in the bedroom."
+    },
+    {
+     "tr": "Kanepe oturma odasında duruyor.",
+     "en": "The sofa is in the living room."
+    },
+    {
+     "tr": "Kira yüksek değil.",
+     "en": "The rent isn't high."
+    },
+    {
+     "tr": "Elif seviniyor: Odası güzel ve temiz.",
+     "en": "Elif is happy: her room is nice and clean."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie viele Zimmer hat die Wohnung?",
+     "options": [
+      "Zwei",
+      "Drei",
+      "Vier"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Was bringt Lina?",
+     "options": [
+      "Eine Lampe und zwei Stühle",
+      "Ein Bett und einen Tisch",
+      "Einen Kühlschrank"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Das Sofa steht im Schlafzimmer.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Miete ist nicht hoch.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "s-a1-06-1",
+   "level": "A1",
+   "topic": "Günüm ve saatler",
+   "title": "Ein voller Montag",
+   "paragraphs": [
+    "Lina: Wie spät ist es?",
+    "Elif: Es ist halb acht.",
+    "Lina: Ich stehe um sechs Uhr auf.",
+    "Elif: Am Montag habe ich einen Termin.",
+    "Lina: Um wie viel Uhr beginnt der Kurs?",
+    "Elif: Der Kurs beginnt um acht Uhr.",
+    "Lina: Hast du heute Abend Zeit?",
+    "Elif: Ja, um sieben Uhr.",
+    "Lina: Wir essen am Abend zusammen.",
+    "Elif: Gern!"
+   ],
+   "trans": [
+    {
+     "tr": "Lina: Saat kaç?",
+     "en": "Lina: What time is it?"
+    },
+    {
+     "tr": "Elif: Saat yedi buçuk.",
+     "en": "Elif: It's half past seven."
+    },
+    {
+     "tr": "Lina: Saat altıda kalkıyorum.",
+     "en": "Lina: I get up at six."
+    },
+    {
+     "tr": "Elif: Pazartesi bir randevum var.",
+     "en": "Elif: I have an appointment on Monday."
+    },
+    {
+     "tr": "Lina: Kurs saat kaçta başlıyor?",
+     "en": "Lina: What time does the course start?"
+    },
+    {
+     "tr": "Elif: Kurs saat sekizde başlıyor.",
+     "en": "Elif: The course starts at eight."
+    },
+    {
+     "tr": "Lina: Bu akşam vaktin var mı?",
+     "en": "Lina: Do you have time this evening?"
+    },
+    {
+     "tr": "Elif: Evet, saat yedide.",
+     "en": "Elif: Yes, at seven."
+    },
+    {
+     "tr": "Lina: Akşam birlikte yemek yiyoruz.",
+     "en": "Lina: We'll eat together in the evening."
+    },
+    {
+     "tr": "Elif: Memnuniyetle!",
+     "en": "Elif: Sure!"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann steht Lina auf?",
+     "options": [
+      "Um sechs Uhr",
+      "Um sieben Uhr",
+      "Um acht Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann beginnt der Kurs?",
+     "options": [
+      "Um sechs Uhr",
+      "Um sieben Uhr",
+      "Um acht Uhr"
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat am Montag einen Termin.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat heute Abend keine Zeit.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-06-2",
+   "level": "A1",
+   "topic": "Günüm ve saatler",
+   "title": "Elifs Montag",
+   "paragraphs": [
+    "Am Montag sagt Elif: „Ich stehe um sechs Uhr auf.“",
+    "Sie duscht und isst ein Ei zum Frühstück.",
+    "Es ist halb acht. Elif fährt mit dem Bus zum Kurs.",
+    "Der Kurs beginnt um acht Uhr und dauert drei Stunden.",
+    "Am Mittag trinkt Elif Wasser mit Lina.",
+    "Um vier Uhr hat sie einen Termin.",
+    "Am Abend ist Elif in ihrer Wohnung und trinkt Tee.",
+    "Am Wochenende bleibt Elif lange im Bett und hat frei."
+   ],
+   "trans": [
+    {
+     "tr": "Elif pazartesi şöyle diyor: “Saat altıda kalkıyorum.”",
+     "en": "On Monday, Elif says, “I get up at six.”"
+    },
+    {
+     "tr": "Duş alıyor ve kahvaltıda bir yumurta yiyor.",
+     "en": "She showers and eats an egg for breakfast."
+    },
+    {
+     "tr": "Saat yedi buçuk. Elif kursa otobüsle gidiyor.",
+     "en": "It is half past seven. Elif takes the bus to the course."
+    },
+    {
+     "tr": "Kurs saat sekizde başlıyor ve üç saat sürüyor.",
+     "en": "The course starts at eight and lasts three hours."
+    },
+    {
+     "tr": "Öğlen Elif, Lina'yla su içiyor.",
+     "en": "At noon, Elif drinks water with Lina."
+    },
+    {
+     "tr": "Saat dörtte bir randevusu var.",
+     "en": "She has an appointment at four."
+    },
+    {
+     "tr": "Akşam Elif dairesinde ve çay içiyor.",
+     "en": "In the evening, Elif is in her apartment and drinks tea."
+    },
+    {
+     "tr": "Hafta sonunda Elif uzun süre yatakta kalıyor ve izinli.",
+     "en": "At the weekend, Elif stays in bed for a long time and has the day off."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was isst Elif zum Frühstück?",
+     "options": [
+      "Ein Ei",
+      "Ein Brot",
+      "Einen Apfel"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie lange dauert der Unterricht?",
+     "options": [
+      "Eine Stunde",
+      "Drei Stunden",
+      "Vier Stunden"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif fährt mit dem Bus zum Kurs.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Am Sonntag hat Elif einen Termin.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-07-1",
+   "level": "A1",
+   "topic": "Şehirde yol bulmak",
+   "title": "Die Apotheke",
+   "paragraphs": [
+    "Elif: Entschuldigung, wo ist der Bahnhof?",
+    "Mann: Gehen Sie geradeaus und dann links.",
+    "Elif: Ich suche die Apotheke.",
+    "Mann: Die Apotheke ist neben der Bank.",
+    "Elif: Wie weit ist es?",
+    "Mann: Der Platz ist neben der Haltestelle.",
+    "Elif: Ich nehme den Bus zum Zentrum.",
+    "Mann: Die Straßenbahn fährt auch zum Zentrum.",
+    "Elif: Ich steige an der Bank aus.",
+    "Mann: Ja, die Apotheke ist neben der Bank."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Affedersiniz, tren istasyonu nerede?",
+     "en": "Elif: Excuse me, where is the train station?"
+    },
+    {
+     "tr": "Mann: Düz gidin, sonra sola dönün.",
+     "en": "Mann: Go straight ahead and then turn left."
+    },
+    {
+     "tr": "Elif: Eczaneyi arıyorum.",
+     "en": "Elif: I'm looking for the pharmacy."
+    },
+    {
+     "tr": "Mann: Eczane bankanın yanında.",
+     "en": "Mann: The pharmacy is next to the bank."
+    },
+    {
+     "tr": "Elif: Ne kadar uzak?",
+     "en": "Elif: How far is it?"
+    },
+    {
+     "tr": "Mann: Meydan durağın yanında.",
+     "en": "Mann: The square is next to the stop."
+    },
+    {
+     "tr": "Elif: Merkeze otobüsle gidiyorum.",
+     "en": "Elif: I'll take the bus to the center."
+    },
+    {
+     "tr": "Mann: Tramvay da merkeze gidiyor.",
+     "en": "Mann: The tram also goes to the center."
+    },
+    {
+     "tr": "Elif: Bankanın yanında iniyorum.",
+     "en": "Elif: I'll get off by the bank."
+    },
+    {
+     "tr": "Mann: Evet, eczane bankanın yanında.",
+     "en": "Mann: Yes, the pharmacy is next to the bank."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was sucht Elif?",
+     "options": [
+      "Die Bank",
+      "Die Apotheke",
+      "Das Museum"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Womit fährt Elif zum Zentrum?",
+     "options": [
+      "Mit dem Bus",
+      "Mit dem Taxi",
+      "Mit dem Fahrrad"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Apotheke ist neben der Bank.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif fährt mit dem Auto.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-07-2",
+   "level": "A1",
+   "topic": "Şehirde yol bulmak",
+   "title": "Elif findet die Apotheke",
+   "paragraphs": [
+    "Elif ist in der Stadt und sucht die Apotheke.",
+    "Sie fragt einen Mann an der Haltestelle.",
+    "Er sagt: „Gehen Sie geradeaus und dann links.“",
+    "Elif nimmt den Bus zum Zentrum.",
+    "Am Platz steigt sie in die Straßenbahn ein.",
+    "Im Zentrum steigt sie aus und sucht die Bank.",
+    "Die Apotheke ist neben der Bank.",
+    "In der Apotheke kauft Elif ein Pflaster und Wasser.",
+    "Dann geht Elif zurück zum Kurs."
+   ],
+   "trans": [
+    {
+     "tr": "Elif şehirde ve eczaneyi arıyor.",
+     "en": "Elif is in the city and is looking for the pharmacy."
+    },
+    {
+     "tr": "Durakta bir adama soru soruyor.",
+     "en": "She asks a man at the stop."
+    },
+    {
+     "tr": "Adam, “Düz gidin, sonra sola dönün,” diyor.",
+     "en": "He says, “Go straight ahead and then turn left.”"
+    },
+    {
+     "tr": "Elif merkeze otobüsle gidiyor.",
+     "en": "Elif takes the bus to the center."
+    },
+    {
+     "tr": "Meydanda tramvaya biniyor.",
+     "en": "At the square, she gets on the tram."
+    },
+    {
+     "tr": "Merkezde iniyor ve bankayı arıyor.",
+     "en": "In the center, she gets off and looks for the bank."
+    },
+    {
+     "tr": "Eczane bankanın yanında.",
+     "en": "The pharmacy is next to the bank."
+    },
+    {
+     "tr": "Elif eczaneden bir yara bandı ve su alıyor.",
+     "en": "Elif buys a plaster and some water at the pharmacy."
+    },
+    {
+     "tr": "Sonra Elif kursa geri dönüyor.",
+     "en": "Then Elif goes back to the course."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin fährt Elif mit dem Bus?",
+     "options": [
+      "Zum Zentrum",
+      "Zum Dorf",
+      "Zum Museum"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was kauft Elif in der Apotheke?",
+     "options": [
+      "Ein Pflaster und Wasser",
+      "Einen Kuchen",
+      "Ein Ticket"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif fährt mit der Straßenbahn ins Zentrum.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Apotheke ist neben dem Kino.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-08-1",
+   "level": "A1",
+   "topic": "Doktorda",
+   "title": "Ein Termin beim Arzt",
+   "paragraphs": [
+    "Elif: Guten Morgen, ich habe Kopfschmerzen.",
+    "Arzt: Haben Sie auch Fieber?",
+    "Elif: Ja, und mir ist schlecht.",
+    "Arzt: Brauchen Sie einen Termin?",
+    "Elif: Ja, ich brauche einen Termin.",
+    "Arzt: Kommen Sie heute um zehn Uhr.",
+    "Elif: Wo ist Ihre Praxis?",
+    "Arzt: Die Praxis ist neben der Apotheke.",
+    "Elif: Gut, ich komme um zehn Uhr.",
+    "Arzt: Gute Besserung!"
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Günaydın, başım ağrıyor.",
+     "en": "Elif: Good morning, I have a headache."
+    },
+    {
+     "tr": "Arzt: Ateşiniz de var mı?",
+     "en": "Arzt: Do you also have a fever?"
+    },
+    {
+     "tr": "Elif: Evet, midem de bulanıyor.",
+     "en": "Elif: Yes, and I feel sick."
+    },
+    {
+     "tr": "Arzt: Bir randevuya mı ihtiyacınız var?",
+     "en": "Arzt: Do you need an appointment?"
+    },
+    {
+     "tr": "Elif: Evet, bir randevuya ihtiyacım var.",
+     "en": "Elif: Yes, I need an appointment."
+    },
+    {
+     "tr": "Arzt: Bugün saat onda gelin.",
+     "en": "Arzt: Come at ten today."
+    },
+    {
+     "tr": "Elif: Muayenehaneniz nerede?",
+     "en": "Elif: Where is your practice?"
+    },
+    {
+     "tr": "Arzt: Muayenehane eczanenin yanında.",
+     "en": "Arzt: The practice is next to the pharmacy."
+    },
+    {
+     "tr": "Elif: Peki, saat onda geliyorum.",
+     "en": "Elif: All right, I'll come at ten."
+    },
+    {
+     "tr": "Arzt: Geçmiş olsun!",
+     "en": "Arzt: Get well soon!"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was tut Elif weh?",
+     "options": [
+      "Der Kopf",
+      "Der Fuß",
+      "Der Arm"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann kommt Elif in die Praxis?",
+     "options": [
+      "Um acht Uhr",
+      "Um zehn Uhr",
+      "Um zwölf Uhr"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat Fieber.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Praxis ist neben dem Bahnhof.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-08-2",
+   "level": "A1",
+   "topic": "Doktorda",
+   "title": "Elif ist krank",
+   "paragraphs": [
+    "Am Morgen hat Elif Kopfschmerzen.",
+    "Ihr ist schlecht, und sie hat auch Fieber.",
+    "Elif spricht mit der Praxis und braucht einen Termin.",
+    "Der Arzt zeigt ihr das Thermometer.",
+    "Er sagt: „Sie müssen im Bett bleiben.“",
+    "Elif nimmt eine Tablette und liegt im Bett.",
+    "Sie trinkt Wasser und Tee.",
+    "Lina bringt einen Apfel und sagt: „Gute Besserung!“",
+    "Elif schläft am Abend."
+   ],
+   "trans": [
+    {
+     "tr": "Sabah Elif'in başı ağrıyor.",
+     "en": "Elif has a headache in the morning."
+    },
+    {
+     "tr": "Midesi bulanıyor ve ateşi de var.",
+     "en": "She feels sick and also has a fever."
+    },
+    {
+     "tr": "Elif muayenehaneyle konuşuyor ve bir randevuya ihtiyacı var.",
+     "en": "Elif speaks to the doctor's practice and needs an appointment."
+    },
+    {
+     "tr": "Doktor ona termometreyi gösteriyor.",
+     "en": "The doctor shows her the thermometer."
+    },
+    {
+     "tr": "“Yatakta kalmanız gerekiyor,” diyor.",
+     "en": "He says, “You have to stay in bed.”"
+    },
+    {
+     "tr": "Elif bir tablet alıyor ve yatakta uzanıyor.",
+     "en": "Elif takes a tablet and lies in bed."
+    },
+    {
+     "tr": "Su ve çay içiyor.",
+     "en": "She drinks water and tea."
+    },
+    {
+     "tr": "Lina bir elma getiriyor ve “Geçmiş olsun!” diyor.",
+     "en": "Lina brings an apple and says, “Get well soon!”"
+    },
+    {
+     "tr": "Elif akşam uyuyor.",
+     "en": "Elif sleeps in the evening."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was hat Elif?",
+     "options": [
+      "Kopfschmerzen und Fieber",
+      "Durst und Hunger",
+      "Zahnschmerzen"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was bringt Lina?",
+     "options": [
+      "Einen Apfel",
+      "Eine Tablette",
+      "Ein Thermometer"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Arzt zeigt Elif ein Thermometer.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif trinkt am Abend Kaffee.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-09-1",
+   "level": "A1",
+   "topic": "İş ve kurs",
+   "title": "Das Vorstellungsgespräch",
+   "paragraphs": [
+    "Elif: Morgen ist die Prüfung.",
+    "Lina: Du lernst heute viel für den Kurs.",
+    "Elif: Ja, aber am Mittag habe ich ein Vorstellungsgespräch.",
+    "Lina: Heute habe ich frei. Ich komme gern mit.",
+    "Elif: Die Teilzeitstelle ist in einer Firma.",
+    "Lina: Was fragt die Chefin?",
+    "Elif: Sie fragt nach meinem Namen und meiner Arbeit.",
+    "Lina: Können Sie das bitte wiederholen?",
+    "Elif: Ja. Und wie schreibt man das?",
+    "Lina: Du buchstabierst deinen Namen. Das geht gut."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Yarın sınav var.",
+     "en": "Elif: The exam is tomorrow."
+    },
+    {
+     "tr": "Lina: Bugün kurs için çok çalışıyorsun.",
+     "en": "Lina: You're studying a lot for the course today."
+    },
+    {
+     "tr": "Elif: Evet ama öğlen bir iş görüşmem var.",
+     "en": "Elif: Yes, but I have a job interview at noon."
+    },
+    {
+     "tr": "Lina: Bugün izinliyim. Seve seve seninle gelirim.",
+     "en": "Lina: I have the day off today. I'd be happy to come with you."
+    },
+    {
+     "tr": "Elif: Yarı zamanlı iş bir şirkette.",
+     "en": "Elif: The part-time position is at a company."
+    },
+    {
+     "tr": "Lina: Müdür ne soruyor?",
+     "en": "Lina: What does the manager ask?"
+    },
+    {
+     "tr": "Elif: Adımı ve işimi soruyor.",
+     "en": "Elif: She asks about my name and my work."
+    },
+    {
+     "tr": "Lina: Bunu tekrar edebilir misiniz lütfen?",
+     "en": "Lina: Could you repeat that, please?"
+    },
+    {
+     "tr": "Elif: Evet. Peki bu nasıl yazılıyor?",
+     "en": "Elif: Yes. And how do you spell that?"
+    },
+    {
+     "tr": "Lina: Adını harf harf söylersin. Bu iyi olur.",
+     "en": "Lina: You spell your name. That will go well."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "das Vorstellungsgespräch",
+     "lemma": "Vorstellungsgespräch",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "iş görüşmesi",
+      "en": "job interview"
+     }
+    },
+    {
+     "form": "die Teilzeitstelle",
+     "lemma": "Teilzeitstelle",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "yarı zamanlı iş",
+      "en": "part-time position"
+     }
+    },
+    {
+     "form": "die Chefin",
+     "lemma": "Chefin",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kadın yönetici",
+      "en": "female manager"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann hat Elif ein Vorstellungsgespräch?",
+     "options": [
+      "Am Mittag",
+      "Am Abend",
+      "Am Morgen"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo ist die Teilzeitstelle?",
+     "options": [
+      "In einer Firma",
+      "Im Kino",
+      "Im Kurs"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina hat heute frei.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Chefin fragt nach Elifs Hund.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-09-2",
+   "level": "A1",
+   "topic": "İş ve kurs",
+   "title": "Ein wichtiger Tag",
+   "paragraphs": [
+    "Morgen ist die Prüfung, und Elif lernt heute im Kurs.",
+    "Um elf hat Elif ein Vorstellungsgespräch in einer Firma.",
+    "Die Chefin fragt nach Elifs Namen.",
+    "Elif sagt: „Ich heiße Elif und wohne in Köln.“",
+    "Die Chefin spricht schnell, aber Elif versteht nicht alles.",
+    "Elif fragt: „Können Sie das bitte wiederholen?“",
+    "Die Chefin sagt: „Meine Arbeit beginnt um acht.“",
+    "Elif hat heute frei und ist glücklich."
+   ],
+   "trans": [
+    {
+     "tr": "Yarın sınav var ve Elif bugün kursta çalışıyor.",
+     "en": "The exam is tomorrow, and Elif is studying in class today."
+    },
+    {
+     "tr": "Saat on birde Elif'in bir şirkette iş görüşmesi var.",
+     "en": "At eleven, Elif has a job interview at a company."
+    },
+    {
+     "tr": "Yönetici Elif'in adını soruyor.",
+     "en": "The manager asks Elif's name."
+    },
+    {
+     "tr": "Elif, “Benim adım Elif ve Köln'de oturuyorum,” diyor.",
+     "en": "Elif says, “My name is Elif and I live in Cologne.”"
+    },
+    {
+     "tr": "Yönetici hızlı konuşuyor ama Elif her şeyi anlamıyor.",
+     "en": "The manager speaks quickly, but Elif doesn't understand everything."
+    },
+    {
+     "tr": "Elif, “Bunu tekrar edebilir misiniz lütfen?” diye soruyor.",
+     "en": "Elif asks, “Could you repeat that, please?”"
+    },
+    {
+     "tr": "Yönetici, “İşim sekizde başlıyor,” diyor.",
+     "en": "The manager says, “My work starts at eight.”"
+    },
+    {
+     "tr": "Elif bugün izinli ve mutlu.",
+     "en": "Elif has the day off today and is happy."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "das Vorstellungsgespräch",
+     "lemma": "Vorstellungsgespräch",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "iş görüşmesi",
+      "en": "job interview"
+     }
+    },
+    {
+     "form": "die Firma",
+     "lemma": "Firma",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "şirket",
+      "en": "company"
+     }
+    },
+    {
+     "form": "die Chefin",
+     "lemma": "Chefin",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kadın yönetici",
+      "en": "female manager"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was macht Elif heute im Kurs?",
+     "options": [
+      "Sie lernt.",
+      "Sie schläft.",
+      "Sie kocht."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann beginnt die Arbeit?",
+     "options": [
+      "Um acht",
+      "Um elf",
+      "Um zwölf"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif wohnt in Köln.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Chefin spricht langsam.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-10-1",
+   "level": "A1",
+   "topic": "Boş zaman",
+   "title": "Am See",
+   "paragraphs": [
+    "Tom: Am Wochenende spiele ich Fußball.",
+    "Elif: Das Wetter ist heute schön.",
+    "Lina: Wollen wir ins Kino gehen?",
+    "Elif: Nein, ich möchte lieber zum See fahren.",
+    "Tom: Ja. Ich nehme meine Kamera mit.",
+    "Lina: Ich lese gern Bücher, aber heute schwimme ich.",
+    "Elif: Am Samstag fahre ich gern mit dem Bus.",
+    "Tom: Am See mache ich Fotos.",
+    "Lina: Wir essen Brot und Käse.",
+    "Elif: Der Ausflug ist super!"
+   ],
+   "trans": [
+    {
+     "tr": "Tom: Hafta sonu futbol oynarım.",
+     "en": "Tom: I play football at the weekend."
+    },
+    {
+     "tr": "Elif: Bugün hava güzel.",
+     "en": "Elif: The weather is nice today."
+    },
+    {
+     "tr": "Lina: Sinemaya gidelim mi?",
+     "en": "Lina: Shall we go to the cinema?"
+    },
+    {
+     "tr": "Elif: Hayır, göle gitmeyi tercih ederim.",
+     "en": "Elif: No, I'd rather go to the lake."
+    },
+    {
+     "tr": "Tom: Olur. Kameramı yanıma alırım.",
+     "en": "Tom: Sure. I'll bring my camera."
+    },
+    {
+     "tr": "Lina: Kitap okumayı severim ama bugün yüzeceğim.",
+     "en": "Lina: I like reading books, but today I'll swim."
+    },
+    {
+     "tr": "Elif: Cumartesi günü otobüsle gitmeyi severim.",
+     "en": "Elif: I like taking the bus on Saturday."
+    },
+    {
+     "tr": "Tom: Gölde fotoğraf çekiyorum.",
+     "en": "Tom: I'll take photos at the lake."
+    },
+    {
+     "tr": "Lina: Ekmek ve peynir yeriz.",
+     "en": "Lina: We'll eat bread and cheese."
+    },
+    {
+     "tr": "Elif: Gezi harika!",
+     "en": "Elif: The trip is great!"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin möchte Elif fahren?",
+     "options": [
+      "Zum See",
+      "Ins Kino",
+      "Zum Kurs"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was nimmt Tom mit?",
+     "options": [
+      "Eine Kamera",
+      "Ein Buch",
+      "Ein Fahrrad"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina liest gern Bücher.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Freunde fahren mit dem Taxi.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-10-2",
+   "level": "A1",
+   "topic": "Boş zaman",
+   "title": "Elifs Wochenende",
+   "paragraphs": [
+    "Am Wochenende spiele ich Fußball, sagt Tom am Montag.",
+    "Das Wetter ist heute schön, sagt Elif.",
+    "Am Samstag ist Elif mit Lina zum See gefahren.",
+    "Die Freundinnen haben viel geschwommen und Fotos gemacht.",
+    "Tom hat Fußball gespielt, und Lina hat ein Buch gelesen.",
+    "Zum Mittagessen haben alle Brot und Käse gegessen.",
+    "Am Abend sind sie mit dem Bus zurückgefahren.",
+    "Elif war müde, aber sehr glücklich.",
+    "Sie sagt: „Der Ausflug war super!“"
+   ],
+   "trans": [
+    {
+     "tr": "Tom pazartesi, “Hafta sonu futbol oynarım,” diyor.",
+     "en": "On Monday, Tom says, “I play football at the weekend.”"
+    },
+    {
+     "tr": "Elif, “Bugün hava güzel,” diyor.",
+     "en": "Elif says, “The weather is nice today.”"
+    },
+    {
+     "tr": "Cumartesi Elif, Lina'yla göle gitti.",
+     "en": "On Saturday, Elif went to the lake with Lina."
+    },
+    {
+     "tr": "Arkadaşlar çok yüzdü ve fotoğraf çekti.",
+     "en": "The friends swam a lot and took photos."
+    },
+    {
+     "tr": "Tom futbol oynadı, Lina da bir kitap okudu.",
+     "en": "Tom played football, and Lina read a book."
+    },
+    {
+     "tr": "Öğle yemeğinde herkes ekmek ve peynir yedi.",
+     "en": "Everyone ate bread and cheese for lunch."
+    },
+    {
+     "tr": "Akşam otobüsle geri döndüler.",
+     "en": "In the evening, they went back by bus."
+    },
+    {
+     "tr": "Elif yorgundu ama çok mutluydu.",
+     "en": "Elif was tired but very happy."
+    },
+    {
+     "tr": "“Gezi harikaydı!” diyor.",
+     "en": "She says, “The trip was great!”"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin sind Elif und Lina gefahren?",
+     "options": [
+      "Zum See",
+      "Ins Kino",
+      "Zum Markt"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie sind die Freunde zurückgefahren?",
+     "options": [
+      "Mit dem Bus",
+      "Mit dem Taxi",
+      "Mit dem Zug"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina hat ein Buch gelesen.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif war am Abend traurig.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-11-1",
+   "level": "A1",
+   "topic": "Yolculuk",
+   "title": "Eine Fahrt nach Berlin",
+   "paragraphs": [
+    "Elif: Eine Fahrkarte nach Berlin, bitte.",
+    "Lina: Wann fährt der nächste Zug?",
+    "Elif: Um zehn Uhr.",
+    "Lina: Von welchem Gleis fährt der Zug?",
+    "Elif: Von Gleis drei.",
+    "Lina: Musst du in Bonn umsteigen?",
+    "Elif: Ja, ich steige in Bonn um.",
+    "Lina: Ich habe ein Zimmer reserviert.",
+    "Elif: Das Hotel ist im Zentrum.",
+    "Lina: Dein Koffer ist schwer. Ich helfe dir."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Berlin'e bir bilet lütfen.",
+     "en": "Elif: A ticket to Berlin, please."
+    },
+    {
+     "tr": "Lina: Sonraki tren ne zaman kalkıyor?",
+     "en": "Lina: When does the next train leave?"
+    },
+    {
+     "tr": "Elif: Saat onda.",
+     "en": "Elif: At ten o'clock."
+    },
+    {
+     "tr": "Lina: Tren hangi perondan kalkıyor?",
+     "en": "Lina: Which platform does the train leave from?"
+    },
+    {
+     "tr": "Elif: Üçüncü perondan.",
+     "en": "Elif: From platform three."
+    },
+    {
+     "tr": "Lina: Bonn'da aktarma yapman gerekiyor mu?",
+     "en": "Lina: Do you have to change trains in Bonn?"
+    },
+    {
+     "tr": "Elif: Evet, Bonn'da aktarma yapıyorum.",
+     "en": "Elif: Yes, I'm changing trains in Bonn."
+    },
+    {
+     "tr": "Lina: Bir oda ayırttım.",
+     "en": "Lina: I've booked a room."
+    },
+    {
+     "tr": "Elif: Otel merkezde.",
+     "en": "Elif: The hotel is in the center."
+    },
+    {
+     "tr": "Lina: Valizin ağır. Sana yardım ediyorum.",
+     "en": "Lina: Your suitcase is heavy. I'll help you."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann fährt der Zug?",
+     "options": [
+      "Um zehn Uhr",
+      "Um zwölf Uhr",
+      "Um acht Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo steigt Elif um?",
+     "options": [
+      "In Bonn",
+      "In Berlin",
+      "In Köln"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Zug fährt von Gleis drei.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina hat kein Zimmer reserviert.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-11-2",
+   "level": "A1",
+   "topic": "Yolculuk",
+   "title": "Elif in Berlin",
+   "paragraphs": [
+    "Elif sagt am Schalter: „Eine Fahrkarte nach Berlin, bitte.“",
+    "Um zehn Uhr fährt der Zug von Gleis drei ab.",
+    "In Bonn steigt sie um und wartet zehn Minuten.",
+    "Am Nachmittag kommt sie in Berlin an.",
+    "Sie sagt: „Ich habe ein Zimmer reserviert.“",
+    "Das Hotel ist im Zentrum, neben dem Museum.",
+    "Elif legt ihren Koffer ins Zimmer und geht zum Park.",
+    "Sie ruft Lina an und ist glücklich."
+   ],
+   "trans": [
+    {
+     "tr": "Elif gişede, “Berlin'e bir bilet lütfen,” diyor.",
+     "en": "At the counter, Elif says, “A ticket to Berlin, please.”"
+    },
+    {
+     "tr": "Tren saat onda üçüncü perondan kalkıyor.",
+     "en": "The train leaves from platform three at ten."
+    },
+    {
+     "tr": "Bonn'da aktarma yapıyor ve on dakika bekliyor.",
+     "en": "She changes trains in Bonn and waits for ten minutes."
+    },
+    {
+     "tr": "Öğleden sonra Berlin'e varıyor.",
+     "en": "She arrives in Berlin in the afternoon."
+    },
+    {
+     "tr": "“Bir oda ayırttım,” diyor.",
+     "en": "She says, “I've booked a room.”"
+    },
+    {
+     "tr": "Otel merkezde, müzenin yanında.",
+     "en": "The hotel is in the center, next to the museum."
+    },
+    {
+     "tr": "Elif valizini odaya koyuyor ve parka gidiyor.",
+     "en": "Elif puts her suitcase in the room and goes to the park."
+    },
+    {
+     "tr": "Lina'yı arıyor ve mutlu.",
+     "en": "She calls Lina and is happy."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo steigt Elif um?",
+     "options": [
+      "In Bonn",
+      "In Berlin",
+      "In Hamburg"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo ist das Hotel?",
+     "options": [
+      "Im Zentrum",
+      "Am Strand",
+      "Am Bahnhof"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif fährt mit dem Zug nach Berlin.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Das Hotel liegt neben dem Krankenhaus.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-12-1",
+   "level": "A1",
+   "topic": "Resmî işler",
+   "title": "Beim Amt",
+   "paragraphs": [
+    "Elif: Guten Morgen. Ich möchte mich anmelden.",
+    "Frau Becker: Guten Morgen. Haben Sie einen Termin?",
+    "Elif: Ja, um zehn Uhr.",
+    "Frau Becker: Bitte zeigen Sie Ihren Ausweis.",
+    "Elif: Hier sind mein Ausweis und mein Pass.",
+    "Frau Becker: Bitte füllen Sie das Formular aus.",
+    "Elif: Welche Unterlagen brauche ich?",
+    "Frau Becker: Ihren Ausweis und das Formular.",
+    "Elif: Wo muss ich unterschreiben?",
+    "Frau Becker: Bitte hier unten."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Günaydın. Adres kaydı yaptırmak istiyorum.",
+     "en": "Elif: Good morning. I'd like to register my address."
+    },
+    {
+     "tr": "Frau Becker: Günaydın. Randevunuz var mı?",
+     "en": "Frau Becker: Good morning. Do you have an appointment?"
+    },
+    {
+     "tr": "Elif: Evet, saat onda.",
+     "en": "Elif: Yes, at ten o'clock."
+    },
+    {
+     "tr": "Frau Becker: Lütfen kimliğinizi gösterin.",
+     "en": "Frau Becker: Please show me your ID."
+    },
+    {
+     "tr": "Elif: Kimliğim ve pasaportum burada.",
+     "en": "Elif: Here are my ID and passport."
+    },
+    {
+     "tr": "Frau Becker: Lütfen formu doldurun.",
+     "en": "Frau Becker: Please fill out the form."
+    },
+    {
+     "tr": "Elif: Hangi belgelere ihtiyacım var?",
+     "en": "Elif: Which documents do I need?"
+    },
+    {
+     "tr": "Frau Becker: Kimliğiniz ve form.",
+     "en": "Frau Becker: Your ID and the form."
+    },
+    {
+     "tr": "Elif: Nereyi imzalamam gerekiyor?",
+     "en": "Elif: Where do I have to sign?"
+    },
+    {
+     "tr": "Frau Becker: Lütfen burada, aşağıya.",
+     "en": "Frau Becker: Here at the bottom, please."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann hat Elif einen Termin?",
+     "options": [
+      "Um zehn Uhr",
+      "Um acht Uhr",
+      "Um zwölf Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was zeigt Elif?",
+     "options": [
+      "Ihren Ausweis",
+      "Eine Kamera",
+      "Ein Ticket"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif füllt ein Formular aus.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif unterschreibt oben.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a1-12-2",
+   "level": "A1",
+   "topic": "Resmî işler",
+   "title": "Ein Konto für Elif",
+   "paragraphs": [
+    "Elif hat heute einen Termin beim Amt in Köln.",
+    "Sie sagt: „Ich möchte mich anmelden.“",
+    "Frau Becker nimmt ihren Ausweis und das Formular.",
+    "Elif schreibt ihre Adresse und Hausnummer ins Formular.",
+    "Sie fragt: „Welche Unterlagen brauche ich?“",
+    "Am Mittag geht Elif zur Bank in der Stadt.",
+    "Sie möchte ein Konto eröffnen.",
+    "Elif zeigt ihren Ausweis und unterschreibt das Formular.",
+    "Jetzt hat sie ein Konto und ist sehr glücklich."
+   ],
+   "trans": [
+    {
+     "tr": "Elif'in bugün Köln'de resmî dairede randevusu var.",
+     "en": "Elif has an appointment at the office in Cologne today."
+    },
+    {
+     "tr": "“Adres kaydı yaptırmak istiyorum,” diyor.",
+     "en": "She says, “I'd like to register my address.”"
+    },
+    {
+     "tr": "Frau Becker kimliğini ve formu alıyor.",
+     "en": "Ms Becker takes her ID and the form."
+    },
+    {
+     "tr": "Elif adresini ve kapı numarasını forma yazıyor.",
+     "en": "Elif writes her address and house number on the form."
+    },
+    {
+     "tr": "“Hangi belgelere ihtiyacım var?” diye soruyor.",
+     "en": "She asks, “Which documents do I need?”"
+    },
+    {
+     "tr": "Öğlen Elif şehirdeki bankaya gidiyor.",
+     "en": "At noon, Elif goes to the bank in town."
+    },
+    {
+     "tr": "Bir hesap açmak istiyor.",
+     "en": "She would like to open an account."
+    },
+    {
+     "tr": "Elif kimliğini gösterip formu imzalıyor.",
+     "en": "Elif shows her ID and signs the form."
+    },
+    {
+     "tr": "Artık bir hesabı var ve çok mutlu.",
+     "en": "Now she has an account and is very happy."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "eröffnen",
+     "lemma": "eröffnen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "açmak (hesap açmak)",
+      "en": "to open (an account)"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin geht Elif am Mittag?",
+     "options": [
+      "Zur Bank",
+      "Zum Kino",
+      "Zum See"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was eröffnet Elif?",
+     "options": [
+      "Ein Konto",
+      "Ein Hotel",
+      "Ein Amt"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif schreibt die Adresse ins Formular.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif zeigt ihr Wörterbuch.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  }
+ ],
+ "units": {
+  "a1-01": [
+   "s-a1-01-1",
+   "s-a1-01-2"
+  ],
+  "a1-02": [
+   "s-a1-02-1",
+   "s-a1-02-2"
+  ],
+  "a1-03": [
+   "s-a1-03-1",
+   "s-a1-03-2"
+  ],
+  "a1-04": [
+   "s-a1-04-1",
+   "s-a1-04-2"
+  ],
+  "a1-05": [
+   "s-a1-05-1",
+   "s-a1-05-2"
+  ],
+  "a1-06": [
+   "s-a1-06-1",
+   "s-a1-06-2"
+  ],
+  "a1-07": [
+   "s-a1-07-1",
+   "s-a1-07-2"
+  ],
+  "a1-08": [
+   "s-a1-08-1",
+   "s-a1-08-2"
+  ],
+  "a1-09": [
+   "s-a1-09-1",
+   "s-a1-09-2"
+  ],
+  "a1-10": [
+   "s-a1-10-1",
+   "s-a1-10-2"
+  ],
+  "a1-11": [
+   "s-a1-11-1",
+   "s-a1-11-2"
+  ],
+  "a1-12": [
+   "s-a1-12-1",
+   "s-a1-12-2"
+  ]
+ }
+}
