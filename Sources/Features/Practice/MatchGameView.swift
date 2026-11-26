@@ -259,8 +259,7 @@ struct MatchGameView: View {
             modeButton(.picture, t("match.mode.picture"))
         }
         .padding(5)
-        .background(Color.white, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-        .shadow(color: Self.edge, radius: 0, y: 3)
+        .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Color.white).shadow(color: Self.edge, radius: 0, y: 3))
     }
 
     private func modeButton(_ value: MatchMode, _ title: String) -> some View {
@@ -542,22 +541,19 @@ private struct MatchResultView: View {
                         Spacer(minLength: 0)
                     }
                     .padding(12)
-                    .background(Color.white, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
-                    .shadow(color: Self.edge, radius: 0, y: 4)
+                    .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Color.white).shadow(color: Self.edge, radius: 0, y: 4))
                 }
 
                 HStack(spacing: 10) {
                     Button(action: finish) {
                         Text(t("match.finish")).font(.system(size: 16, weight: .bold, design: .rounded)).foregroundColor(Self.ink)
                             .frame(maxWidth: .infinity, minHeight: 56)
-                            .background(Color.white, in: Capsule())
-                            .shadow(color: Self.edge, radius: 0, y: 4)
+                            .background(Capsule().fill(Color.white).shadow(color: Self.edge, radius: 0, y: 4))
                     }
                     Button(action: again) {
                         Text(t("match.again")).font(.system(size: 16, weight: .heavy, design: .rounded)).foregroundColor(Self.ink)
                             .frame(maxWidth: .infinity, minHeight: 56)
-                            .background(DS.gold, in: Capsule())
-                            .shadow(color: Color(red: 0.79, green: 0.60, blue: 0.12), radius: 0, y: 4)
+                            .background(Capsule().fill(DS.gold).shadow(color: Color(red: 0.79, green: 0.60, blue: 0.12), radius: 0, y: 4))
                     }
                 }
                 .buttonStyle(.pressable)
@@ -578,8 +574,8 @@ private struct MatchResultView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(14)
-        .background(dark ? Self.ink : Color.white, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
-        .shadow(color: dark ? Color(red: 0.23, green: 0.23, blue: 0.21) : Self.edge, radius: 0, y: 4)
+        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(dark ? Self.ink : Color.white)
+            .shadow(color: dark ? Color(red: 0.23, green: 0.23, blue: 0.21) : Self.edge, radius: 0, y: 4))
         .accessibilityElement(children: .combine)
     }
 

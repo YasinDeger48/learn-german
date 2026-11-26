@@ -193,12 +193,20 @@ struct WordRunView: View {
 
     private var box: some View {
         let picture = questions.indices.contains(index) ? Covers.image(questions[index].item.picture) : nil
+        // The box picture's white window is a square of 51 % of the box, its middle 8.5 pt below the box's middle:
+        // the word picture sits on its own white card there, clipped, so it never spills over the box.
         return ZStack {
             if let image = RunArt.box { Image(uiImage: image).resizable().scaledToFit() }
             if let picture {
-                Image(uiImage: picture).resizable().scaledToFit()
-                    .frame(width: 50, height: 46)
-                    .offset(y: 7)
+                RoundedRectangle(cornerRadius: 9, style: .continuous)
+                    .fill(Color.white)
+                    .frame(width: 55, height: 55)
+                    .overlay(
+                        Image(uiImage: picture).resizable().scaledToFit()
+                            .frame(width: 47, height: 47)
+                    )
+                    .clipShape(RoundedRectangle(cornerRadius: 9, style: .continuous))
+                    .offset(y: 8.5)
             }
         }
         .frame(width: 112, height: 112)
@@ -298,11 +306,15 @@ struct WordRunView: View {
             }
             .padding(.horizontal, 12)
             .frame(maxWidth: .infinity, minHeight: 72)
-            .background(isRight ? Color(red: 0.867, green: 0.961, blue: 0.898) : (isWrong ? Color(red: 1, green: 0.894, blue: 0.894) : .white),
-                        in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+            // The raised edge is drawn under the card only: a shadow on the whole button doubled the text.
+            .background(
+                RoundedRectangle(cornerRadius: 20, style: .continuous)
+                    .fill(isRight ? Color(red: 0.867, green: 0.961, blue: 0.898) : (isWrong ? Color(red: 1, green: 0.894, blue: 0.894) : .white))
+                    .background(RoundedRectangle(cornerRadius: 20, style: .continuous)
+                        .fill(Color(red: 0.886, green: 0.863, blue: 0.784)).offset(y: 5))
+            )
             .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous)
                 .stroke(isRight ? DS.das : (isWrong ? Color(red: 0.89, green: 0.36, blue: 0.36) : .clear), lineWidth: 3))
-            .shadow(color: Color(red: 0.886, green: 0.863, blue: 0.784), radius: 0, y: 5)
         }
         .buttonStyle(.pressable)
         .disabled(phase != .waiting)

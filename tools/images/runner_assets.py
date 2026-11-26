@@ -24,6 +24,11 @@ SQUARES = ['lina-run-1', 'lina-run-2', 'lina-run-3', 'lina-run-4', 'lina-jump', 
            'lina-dance-1', 'lina-dance-2', 'lina-dance-3', 'lina-dance-4', 'lina-dance-5', 'lina-dance-6']
 
 
+# Parts Codex drew that the game draws itself: lina-jump came with a striped barrier under her feet (the prompt said
+# "over an obstacle"); everything below this share of the height is cleared (her shoes end above it).
+CLEAR_BELOW = {'lina-jump': 0.70}
+
+
 def backup(name):
     os.makedirs(KEEP, exist_ok=True)
     src = os.path.join(IMAGES, name)
@@ -42,6 +47,9 @@ def main():
             img = Image.open(original + '.cut.png').convert('RGBA')
             os.remove(original + '.cut.png')
         img = img.resize((512, 512), Image.LANCZOS)
+        if name in CLEAR_BELOW:
+            top = int(512 * CLEAR_BELOW[name])
+            img.paste((0, 0, 0, 0), (0, top, 512, 512))
         img.save(os.path.join(IMAGES, name + '.png'), optimize=True)
     far = backup('kosu-uzak.png')
     Image.open(far).convert('RGB').resize((1600, 800), Image.LANCZOS).save(os.path.join(IMAGES, 'kosu-uzak.jpg'), quality=84)
