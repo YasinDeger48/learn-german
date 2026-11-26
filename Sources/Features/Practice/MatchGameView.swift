@@ -259,7 +259,8 @@ struct MatchGameView: View {
             modeButton(.picture, t("match.mode.picture"))
         }
         .padding(5)
-        .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Color.white).shadow(color: Self.edge, radius: 0, y: 3))
+        .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Color.white))
+        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Self.edge, lineWidth: 1.5))
     }
 
     private func modeButton(_ value: MatchMode, _ title: String) -> some View {
@@ -628,12 +629,12 @@ private struct CandyStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         let pressed = configuration.isPressed
         let shape = RoundedRectangle(cornerRadius: 20, style: .continuous)
+        // Flat card with a thin border (owner: the 3D edge under the cards looked like a bad shadow).
         return configuration.label
             .frame(maxWidth: .infinity)
             .background(shape.fill(face))
-            .overlay { if let ring { shape.stroke(ring, lineWidth: 3) } }
-            .offset(y: pressed ? 4 : (state == .selected ? -3 : 0))
-            .background(shape.fill(edge).offset(y: state == .done ? 2 : 5))
+            .overlay { shape.stroke(ring ?? edge, lineWidth: ring == nil ? 1.5 : 3) }
+            .scaleEffect(pressed ? 0.97 : (state == .selected ? 1.03 : 1))
             .rotationEffect(.degrees(state == .selected ? -1 : 0))
             .opacity(state == .done ? 0.85 : 1)
             .contentShape(shape)
