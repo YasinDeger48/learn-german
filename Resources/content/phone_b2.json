@@ -1,0 +1,3270 @@
+{
+ "level": "B2",
+ "items": [
+  {
+   "id": "b2-t01",
+   "level": "B2",
+   "kind": "call",
+   "place": "office",
+   "title": "Über die Mieterhöhung sprechen",
+   "title_tr": "Kira artışını konuşmak",
+   "title_en": "Discussing the rent increase",
+   "lines": [
+    {
+     "who": "Frau Krämer",
+     "de": "Hausverwaltung Rheinblick, Krämer am Apparat. Guten Tag, Frau Yılmaz.",
+     "tr": "Rheinblick apartman yönetimi, Krämer ben. İyi günler Frau Yılmaz.",
+     "en": "Rheinblick property management, Krämer speaking. Good afternoon, Ms Yılmaz."
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag, Frau Krämer. Ich rufe wegen Ihres Schreibens vom 12. März an.",
+     "tr": "İyi günler Frau Krämer. 12 Mart tarihli yazınız hakkında arıyorum.",
+     "en": "Good afternoon, Ms Krämer. I'm calling about your letter dated 12 March."
+    },
+    {
+     "who": "Frau Krämer",
+     "de": "Sie meinen die angekündigte Erhöhung der Nettokaltmiete von 850 auf 940 Euro?",
+     "tr": "850 avrodan 940 avroya yapılacağı bildirilen net kira artışını mı kastediyorsunuz?",
+     "en": "Do you mean the announced increase in the net rent from 850 to 940 euros?"
+    },
+    {
+     "who": "Elif",
+     "de": "Genau. Könnten Sie mir bitte die Berechnung und die Vergleichswohnungen schriftlich zusenden?",
+     "tr": "Aynen. Hesaplamayı ve karşılaştırma dairelerini yazılı olarak gönderebilir misiniz?",
+     "en": "Exactly. Could you send me the calculation and the comparable apartments in writing?"
+    },
+    {
+     "who": "Frau Krämer",
+     "de": "Die Anpassung beruht auf dem Mietspiegel und wurde wegen gestiegener Kosten geprüft.",
+     "tr": "Düzenleme kira endeksine dayanıyor ve artan maliyetler nedeniyle incelendi.",
+     "en": "The adjustment is based on the rent index and was reviewed because of rising costs."
+    },
+    {
+     "who": "Elif",
+     "de": "Wie bitte, 940 Euro ab April? Ich hatte den ersten Mai notiert.",
+     "tr": "Efendim, nisandan itibaren 940 avro mu? Ben 1 Mayıs olarak not etmiştim.",
+     "en": "Sorry, 940 euros starting in April? I had noted 1 May."
+    },
+    {
+     "who": "Frau Krämer",
+     "de": "Sie haben recht: Wirksam wird die Erhöhung zum ersten Mai, nicht zum ersten April.",
+     "tr": "Haklısınız: artış 1 Nisan'da değil, 1 Mayıs'ta yürürlüğe giriyor.",
+     "en": "You're right: the increase takes effect on 1 May, not 1 April."
+    },
+    {
+     "who": "Elif",
+     "de": "Danke. Vergleichbare Wohnungen hier kosten laut Anzeige zwischen 880 und 910 Euro.",
+     "tr": "Teşekkürler. İlandaki benzer daireler burada 880 ile 910 avro arasında.",
+     "en": "Thank you. According to the listing, comparable apartments here cost between 880 and 910 euros."
+    },
+    {
+     "who": "Frau Krämer",
+     "de": "Die Ausstattung und die kürzlich erneuerten Fenster wurden bei der Bewertung ebenfalls berücksichtigt.",
+     "tr": "Değerlendirmede donanım ve yakın zamanda yenilenen pencereler de dikkate alındı.",
+     "en": "The furnishings and recently replaced windows were also taken into account in the assessment."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich möchte die Anpassung nicht grundsätzlich ablehnen, aber 940 Euro sind schwer tragbar.",
+     "tr": "Düzenlemeyi temelden reddetmek istemiyorum, ancak 940 avro ödemek zorlayıcı.",
+     "en": "I don't want to reject the adjustment outright, but 940 euros would be difficult to manage."
+    },
+    {
+     "who": "Frau Krämer",
+     "de": "Welchen Betrag könnten Sie sich vorstellen? Ich darf Ihren Vorschlag der Eigentümerin vorlegen.",
+     "tr": "Hangi tutarı düşünebilirsiniz? Önerinizi ev sahibine iletebilirim.",
+     "en": "What amount could you consider? I can present your proposal to the owner."
+    },
+    {
+     "who": "Elif",
+     "de": "Wären 900 Euro ab Mai möglich, mit einer erneuten Prüfung nach sechs Monaten?",
+     "tr": "Mayıs'tan itibaren 900 avro ve altı ay sonra yeniden değerlendirme mümkün olur mu?",
+     "en": "Would 900 euros from May, with a review after six months, be possible?"
+    },
+    {
+     "who": "Frau Krämer",
+     "de": "Ich kann das vorschlagen. Bitte schicken Sie Ihren Vergleich bis Freitag an die Nummer 0221 408 617.",
+     "tr": "Bunu önerebilirim. Lütfen karşılaştırmanızı cuma gününe kadar 0221 408 617 numarasına gönderin.",
+     "en": "I can propose that. Please send your comparison to 0221 408 617 by Friday."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich wiederhole: 0221 408 617, und die Unterlagen kommen bis Freitag. Vielen Dank, auf Wiederhören.",
+     "tr": "Tekrar ediyorum: 0221 408 617; belgeler cuma gününe kadar gelecek. Çok teşekkürler, hoşça kalın.",
+     "en": "Let me repeat: 0221 408 617, and the documents will arrive by Friday. Thank you, goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Ab wann soll die Mieterhöhung gelten?",
+     "options": [
+      "Ab dem ersten April.",
+      "Ab dem ersten Mai.",
+      "Ab dem ersten Juni."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Welchen Betrag schlägt Elif vor?",
+     "options": [
+      "900 Euro.",
+      "910 Euro.",
+      "940 Euro."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Hausverwaltung berücksichtigt die erneuerten Fenster bei der Bewertung.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif soll ihre Unterlagen bis Montag schicken.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "b2-t02",
+   "level": "B2",
+   "kind": "call",
+   "place": "office",
+   "title": "Eine Vertragsverlängerung anfechten",
+   "title_tr": "Sözleşme uzatmasına itiraz etmek",
+   "title_en": "Disputing a contract extension",
+   "lines": [
+    {
+     "who": "Herr Vogel",
+     "de": "Kundenservice NordMobil, Vogel am Apparat. Guten Tag.",
+     "tr": "NordMobil müşteri hizmetleri, Vogel ben. İyi günler.",
+     "en": "NordMobil customer service, Vogel speaking. Good afternoon."
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag, hier ist Elif Yılmaz. Meine Kundennummer lautet 583 194 27.",
+     "tr": "İyi günler, ben Elif Yılmaz. Müşteri numaram 583 194 27.",
+     "en": "Good afternoon, this is Elif Yılmaz. My customer number is 583 194 27."
+    },
+    {
+     "who": "Herr Vogel",
+     "de": "Einen Augenblick. Ich sehe eine Verlängerung Ihres Vertrags bis zum 31. März nächsten Jahres.",
+     "tr": "Bir dakika. Sözleşmenizin gelecek yılın 31 Mart'ına kadar uzatıldığını görüyorum.",
+     "en": "One moment. I see that your contract was extended until 31 March next year."
+    },
+    {
+     "who": "Elif",
+     "de": "Das überrascht mich. Ich habe am 14. Januar online gekündigt und eine Bestätigung erhalten.",
+     "tr": "Bu beni şaşırttı. 14 Ocak'ta internetten feshettim ve onay aldım.",
+     "en": "That's surprising. I cancelled online on 14 January and received a confirmation."
+    },
+    {
+     "who": "Herr Vogel",
+     "de": "Im System ist keine Kündigung hinterlegt. Können Sie mir die Bestätigungsnummer nennen?",
+     "tr": "Sistemde fesih kaydı yok. Onay numarasını söyleyebilir misiniz?",
+     "en": "There is no cancellation recorded in the system. Can you give me the confirmation number?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, bitte notieren Sie K, sieben, vier, zwei, neun. Soll ich sie wiederholen?",
+     "tr": "Evet, lütfen K, yedi, dört, iki, dokuz diye not edin. Tekrarlayayım mı?",
+     "en": "Yes, please note K, seven, four, two, nine. Shall I repeat it?"
+    },
+    {
+     "who": "Herr Vogel",
+     "de": "Danke, jetzt habe ich die Nachricht gefunden. Sie wurde am 14. Januar um 16 Uhr 08 bestätigt.",
+     "tr": "Teşekkürler, mesajı buldum. 14 Ocak saat 16.08'de onaylanmış.",
+     "en": "Thank you, I've found the message. It was confirmed on 14 January at 4:08 p.m."
+    },
+    {
+     "who": "Elif",
+     "de": "Dann widerspreche ich der Verlängerung. Die Kündigung erfolgte fristgerecht, das ist dokumentiert.",
+     "tr": "O halde uzatmaya itiraz ediyorum. Fesih zamanında yapıldı ve belgelenmiş durumda.",
+     "en": "Then I dispute the extension. The cancellation was made on time, and that is documented."
+    },
+    {
+     "who": "Herr Vogel",
+     "de": "Sie haben recht. Die Vertragslaufzeit wird korrigiert; Ihr ursprüngliches Ende ist der 30. April.",
+     "tr": "Haklısınız. Sözleşme süresi düzeltilecek; ilk bitiş tarihiniz 30 Nisan.",
+     "en": "You're right. The contract term will be corrected; your original end date is 30 April."
+    },
+    {
+     "who": "Elif",
+     "de": "Außerdem wurden im März 29 Euro 90 abgebucht. Wird dieser Betrag erstattet?",
+     "tr": "Ayrıca mart ayında 29 avro 90 sent çekildi. Bu tutar iade edilecek mi?",
+     "en": "Also, 29 euros and 90 cents were debited in March. Will that amount be refunded?"
+    },
+    {
+     "who": "Herr Vogel",
+     "de": "Die Rückzahlung wird innerhalb von fünf Werktagen veranlasst. Sie erhalten eine schriftliche Bestätigung.",
+     "tr": "İade beş iş günü içinde başlatılacak. Yazılı bir onay alacaksınız.",
+     "en": "The refund will be initiated within five working days. You'll receive written confirmation."
+    },
+    {
+     "who": "Elif",
+     "de": "Könnten Sie mir die Bestätigung bitte auch an elif.yilmaz@example.de senden?",
+     "tr": "Onayı elif.yilmaz@example.de adresine de gönderebilir misiniz?",
+     "en": "Could you also send the confirmation to elif.yilmaz@example.de, please?"
+    },
+    {
+     "who": "Herr Vogel",
+     "de": "Gern. Ich wiederhole: 29 Euro 90 werden erstattet, Vertragsende ist der 30. April.",
+     "tr": "Tabii. Tekrar ediyorum: 29 avro 90 sent iade edilecek, sözleşme 30 Nisan'da bitecek.",
+     "en": "Certainly. To repeat: 29 euros and 90 cents will be refunded, and the contract ends on 30 April."
+    },
+    {
+     "who": "Elif",
+     "de": "Vielen Dank für die Klärung. Dann warte ich auf Ihre Nachricht. Auf Wiederhören.",
+     "tr": "Açıklığa kavuşturduğunuz için teşekkürler. Mesajınızı bekliyorum. Hoşça kalın.",
+     "en": "Thank you for clearing that up. I'll wait for your message. Goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "An welchem Tag hat Elif online gekündigt?",
+     "options": [
+      "Am 4. Januar.",
+      "Am 14. Januar.",
+      "Am 24. Januar."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wann soll die Rückzahlung erfolgen?",
+     "options": [
+      "Innerhalb von fünf Werktagen.",
+      "Innerhalb von zehn Werktagen.",
+      "Am 30. April."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Kündigung wurde am 14. Januar um 16:08 Uhr bestätigt.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elifs Vertrag endet nun am 31. März nächsten Jahres.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "b2-t03",
+   "level": "B2",
+   "kind": "call",
+   "place": "office",
+   "title": "Das Vorstellungsgespräch am Telefon",
+   "title_tr": "Telefonda iş görüşmesi",
+   "title_en": "The job interview by phone",
+   "lines": [
+    {
+     "who": "Frau Berger",
+     "de": "Guten Tag, Berger von der Agentur Rheinblick. Spreche ich mit Elif Yılmaz?",
+     "tr": "İyi günler, Rheinblick Ajansı'ndan Berger ben. Elif Yılmaz ile mi görüşüyorum?",
+     "en": "Good afternoon, Berger from Rheinblick Agency. Am I speaking with Elif Yılmaz?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, guten Tag. Danke für Ihren Anruf zur Stelle als Projektkoordinatorin.",
+     "tr": "Evet, iyi günler. Proje koordinatörlüğü pozisyonu için aradığınız için teşekkürler.",
+     "en": "Yes, good afternoon. Thank you for calling about the project coordinator position."
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Gern. Welche Erfahrungen bringen Sie für die Koordination internationaler Teams mit?",
+     "tr": "Memnuniyetle. Uluslararası ekiplerin koordinasyonu konusunda ne tür deneyiminiz var?",
+     "en": "Of course. What experience do you bring in coordinating international teams?"
+    },
+    {
+     "who": "Elif",
+     "de": "Seit drei Jahren plane ich Termine und begleite Projekte mit Partnern in Deutschland und der Türkei.",
+     "tr": "Üç yıldır Almanya ve Türkiye'deki ortaklarla yürütülen projelerde takvim planlıyor ve sürece eşlik ediyorum.",
+     "en": "For three years, I've planned schedules and supported projects with partners in Germany and Turkey."
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Welche Stärke hilft Ihnen besonders, wenn mehrere Fristen gleichzeitig einzuhalten sind?",
+     "tr": "Birden fazla son tarihe aynı anda uyulması gerektiğinde hangi güçlü yanınız özellikle işe yarıyor?",
+     "en": "Which strength helps you most when several deadlines have to be met at once?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ich priorisiere transparent und spreche Verzögerungen früh an, statt sie zu verschweigen.",
+     "tr": "Öncelikleri şeffaf biçimde belirler, gecikmeleri gizlemek yerine erkenden dile getiririm.",
+     "en": "I set priorities transparently and raise delays early instead of concealing them."
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Das klingt überzeugend. Welche Gehaltsvorstellung haben Sie für eine Vollzeitstelle?",
+     "tr": "İkna edici görünüyor. Tam zamanlı bir pozisyon için maaş beklentiniz nedir?",
+     "en": "That sounds convincing. What salary do you expect for a full-time position?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ich stelle mir 48.000 Euro brutto jährlich vor, abhängig vom Gesamtpaket und den Aufgaben.",
+     "tr": "Toplam yan haklara ve görevlere bağlı olarak yıllık brüt 48.000 avro düşünüyorum.",
+     "en": "I have 48,000 euros gross per year in mind, depending on the overall package and responsibilities."
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Unser vorgesehener Rahmen liegt zunächst bei 46.000 Euro. Wäre das für Sie verhandelbar?",
+     "tr": "Öngördüğümüz aralık başlangıçta 46.000 avro. Bu tutar sizin için müzakereye açık mı?",
+     "en": "Our planned range is initially 46,000 euros. Would that be negotiable for you?"
+    },
+    {
+     "who": "Elif",
+     "de": "Bei einem Entwicklungsgespräch nach sechs Monaten könnte ich mir 46.500 Euro vorstellen.",
+     "tr": "Altı ay sonra gelişim değerlendirmesi yapılırsa 46.500 avroyu düşünebilirim.",
+     "en": "I could consider 46,500 euros if there is a performance review after six months."
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Das halte ich fest. Ab wann könnten Sie anfangen?",
+     "tr": "Bunu not ediyorum. Ne zaman başlayabilirsiniz?",
+     "en": "I'll make a note of that. When could you start?"
+    },
+    {
+     "who": "Elif",
+     "de": "Mein Arbeitsverhältnis endet am 30. April; ab dem ersten Mai wäre ich verfügbar.",
+     "tr": "Mevcut iş ilişkim 30 Nisan'da sona eriyor; 1 Mayıs'tan itibaren müsaitim.",
+     "en": "My current employment ends on 30 April; I would be available from 1 May."
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Vielen Dank. Wir melden uns bis Freitag, dem 21. März, mit den nächsten Schritten.",
+     "tr": "Teşekkürler. Sonraki adımlar için 21 Mart Cuma gününe kadar size döneceğiz.",
+     "en": "Thank you. We'll contact you with the next steps by Friday, 21 March."
+    },
+    {
+     "who": "Elif",
+     "de": "Danke für das Gespräch. Ich wiederhole: Rückmeldung bis zum 21. März. Auf Wiederhören.",
+     "tr": "Görüşme için teşekkürler. Tekrar ediyorum: 21 Mart'a kadar yanıt. Hoşça kalın.",
+     "en": "Thank you for the conversation. Let me repeat: a response by 21 March. Goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie lange arbeitet Elif bereits in der Projektkoordination?",
+     "options": [
+      "Seit einem Jahr.",
+      "Seit drei Jahren.",
+      "Seit fünf Jahren."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Welche Gehaltsvorstellung nennt Elif zuerst?",
+     "options": [
+      "46.000 Euro brutto.",
+      "46.500 Euro brutto.",
+      "48.000 Euro brutto."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Elif könnte ab dem ersten Mai anfangen.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Agentur verspricht eine Rückmeldung bis Ende April.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "b2-t04",
+   "level": "B2",
+   "kind": "call",
+   "place": "office",
+   "title": "Eine verschobene Operation klären",
+   "title_tr": "Ertelenen ameliyatı açıklığa kavuşturmak",
+   "title_en": "Clarifying a postponed operation",
+   "lines": [
+    {
+     "who": "Frau Neumann",
+     "de": "Patientenservice des St.-Marien-Klinikums, Neumann am Apparat. Guten Tag.",
+     "tr": "St. Marien Kliniği hasta hizmetleri, Neumann ben. İyi günler.",
+     "en": "Patient services at St. Marien Hospital, Neumann speaking. Good afternoon."
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag, mein Name ist Elif Yılmaz. Die Operation meiner Mutter wurde verschoben.",
+     "tr": "İyi günler, adım Elif Yılmaz. Annemin ameliyatı ertelendi.",
+     "en": "Good afternoon, my name is Elif Yılmaz. My mother's operation was postponed."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Wie lautet bitte der Name Ihrer Mutter und ihr Geburtsdatum?",
+     "tr": "Annenizin adını ve doğum tarihini alabilir miyim?",
+     "en": "May I have your mother's name and date of birth, please?"
+    },
+    {
+     "who": "Elif",
+     "de": "Aylin Yılmaz, geboren am 3. Februar 1962. Ich habe die Vollmacht bereits eingereicht.",
+     "tr": "Aylin Yılmaz, 3 Şubat 1962 doğumlu. Yetki belgesini daha önce sundum.",
+     "en": "Aylin Yılmaz, born on 3 February 1962. I have already submitted the authorization."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Danke, ich sehe den Vorgang. Der Eingriff am 7. Mai kann wegen eines Notfalls nicht stattfinden.",
+     "tr": "Teşekkürler, kaydı görüyorum. 7 Mayıs'taki ameliyat acil bir durum nedeniyle yapılamıyor.",
+     "en": "Thank you, I see the record. The operation on 7 May cannot take place because of an emergency."
+    },
+    {
+     "who": "Elif",
+     "de": "Das verstehe ich, aber die Mitteilung kam sehr kurzfristig. Gibt es einen Ersatztermin?",
+     "tr": "Bunu anlıyorum ama bildirim çok kısa süre önce geldi. Yeni bir tarih var mı?",
+     "en": "I understand, but the notice came at very short notice. Is there a replacement date?"
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Vorgesehen ist Mittwoch, der 21. Mai. Ihre Mutter soll um sechs Uhr morgens eintreffen.",
+     "tr": "Planlanan tarih 21 Mayıs Çarşamba. Annenizin sabah saat altıda gelmesi gerekiyor.",
+     "en": "The proposed date is Wednesday, 21 May. Your mother should arrive at six in the morning."
+    },
+    {
+     "who": "Elif",
+     "de": "Könnten Sie das bitte wiederholen: am einundzwanzigsten Mai um sechs Uhr?",
+     "tr": "Tekrar eder misiniz lütfen: 21 Mayıs saat altıda mı?",
+     "en": "Could you repeat that, please: 21 May at six o'clock?"
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Genau. Die Aufnahme erfolgt am Haupteingang, Haus B. Ab Mitternacht muss sie nüchtern bleiben.",
+     "tr": "Aynen. Kayıt ana girişte, B binasında yapılacak. Gece yarısından itibaren aç kalması gerekiyor.",
+     "en": "Exactly. Admission is at the main entrance, Building B. She must fast from midnight."
+    },
+    {
+     "who": "Elif",
+     "de": "Welche Erklärung können Sie zur Verschiebung geben? Wir müssen die Betreuung neu organisieren.",
+     "tr": "Ertelemeyle ilgili nasıl bir açıklama verebilirsiniz? Bakım düzenini yeniden ayarlamamız gerekiyor.",
+     "en": "What explanation can you give for the postponement? We need to reorganize her care."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Die ärztliche Leitung informiert Sie heute schriftlich; medizinische Einzelheiten darf ich telefonisch nicht nennen.",
+     "tr": "Tıbbi yönetim bugün size yazılı bilgi verecek; tıbbi ayrıntıları telefonda açıklayamam.",
+     "en": "The medical director will inform you in writing today; I cannot give medical details by phone."
+    },
+    {
+     "who": "Elif",
+     "de": "Bitte senden Sie die Information an die hinterlegte Adresse. Unter welcher Nummer erreiche ich Sie?",
+     "tr": "Lütfen bilgiyi kayıtlı adrese gönderin. Size hangi numaradan ulaşabilirim?",
+     "en": "Please send the information to the address on file. What number can I reach you at?"
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Unter 0221 730 481. Ich wiederhole: 0221 730 481, Patientenservice Haus B.",
+     "tr": "0221 730 481 numarasından. Tekrar ediyorum: 0221 730 481, B binası hasta hizmetleri.",
+     "en": "At 0221 730 481. To repeat: 0221 730 481, patient services, Building B."
+    },
+    {
+     "who": "Elif",
+     "de": "Vielen Dank für die Auskunft. Wir warten auf das Schreiben und kommen am 21. Mai. Auf Wiederhören.",
+     "tr": "Bilgi için teşekkürler. Yazıyı bekleyeceğiz ve 21 Mayıs'ta geleceğiz. Hoşça kalın.",
+     "en": "Thank you for the information. We'll wait for the letter and come on 21 May. Goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann soll Elifs Mutter zur Aufnahme erscheinen?",
+     "options": [
+      "Am 7. Mai um 6 Uhr.",
+      "Am 21. Mai um 6 Uhr.",
+      "Am 21. Mai um 7 Uhr."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wo findet die Aufnahme statt?",
+     "options": [
+      "Am Haupteingang, Haus B.",
+      "Am Seiteneingang, Haus A.",
+      "In der Notaufnahme, Haus C."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Eingriff am 7. Mai wurde wegen eines Notfalls verschoben.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif soll die medizinischen Einzelheiten sofort telefonisch erhalten.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "b2-t05",
+   "level": "B2",
+   "kind": "call",
+   "place": "office",
+   "title": "Raum und Haftung für ein Projekt klären",
+   "title_tr": "Proje için oda ve sorumluluğu netleştirmek",
+   "title_en": "Arranging a room and liability for a project",
+   "lines": [
+    {
+     "who": "Herr Lehmann",
+     "de": "Kulturverein Miteinander, Vorsitzender Lehmann. Guten Tag, wie kann ich Ihnen helfen?",
+     "tr": "Miteinander Kültür Derneği, başkan Lehmann ben. İyi günler, nasıl yardımcı olabilirim?",
+     "en": "Miteinander Cultural Association, chair Lehmann speaking. Good afternoon, how can I help?"
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag, hier ist Elif Yılmaz. Ich plane ein ehrenamtliches Sprachcafé für unsere Nachbarschaft.",
+     "tr": "İyi günler, ben Elif Yılmaz. Mahallemiz için gönüllü bir dil kafesi planlıyorum.",
+     "en": "Good afternoon, this is Elif Yılmaz. I'm planning a volunteer language café for our neighborhood."
+    },
+    {
+     "who": "Herr Lehmann",
+     "de": "Das klingt interessant. An welchem Tag und für wie viele Personen benötigen Sie einen Raum?",
+     "tr": "Kulağa ilginç geliyor. Hangi gün ve kaç kişi için odaya ihtiyacınız var?",
+     "en": "That sounds interesting. Which day and for how many people do you need a room?"
+    },
+    {
+     "who": "Elif",
+     "de": "Donnerstags von 18 bis 20 Uhr, ab dem 4. Juni. Wir rechnen mit ungefähr zwölf Teilnehmenden.",
+     "tr": "4 Haziran'dan başlayarak perşembe günleri 18.00-20.00 arası. Yaklaşık on iki katılımcı bekliyoruz.",
+     "en": "Thursdays from 6 to 8 p.m., starting 4 June. We expect about twelve participants."
+    },
+    {
+     "who": "Herr Lehmann",
+     "de": "Der Gruppenraum ist dann frei. Die Miete beträgt 35 Euro pro Abend, inklusive Heizung.",
+     "tr": "Grup odası o saatlerde boş. Isıtma dahil, akşam başına kira 35 avro.",
+     "en": "The group room is available then. Rent is 35 euros per evening, including heating."
+    },
+    {
+     "who": "Elif",
+     "de": "Für ein freiwilliges Projekt ist das auf Dauer schwierig. Wäre bei zwölf Terminen ein Nachlass möglich?",
+     "tr": "Gönüllü bir proje için bu tutar uzun vadede zorlayıcı. On iki buluşmada indirim mümkün mü?",
+     "en": "For a volunteer project, that is difficult over time. Could you offer a discount for twelve sessions?"
+    },
+    {
+     "who": "Herr Lehmann",
+     "de": "Wenn Sie den Raum regelmäßig buchen, könnte ich 28 Euro pro Abend anbieten.",
+     "tr": "Odayı düzenli rezerve ederseniz akşam başına 28 avro önerebilirim.",
+     "en": "If you book the room regularly, I could offer 28 euros per evening."
+    },
+    {
+     "who": "Elif",
+     "de": "Das wäre hilfreich. Wie ist die Haftung geregelt, falls jemand im Raum stürzt?",
+     "tr": "Bu yardımcı olur. Odada biri düşerse sorumluluk nasıl düzenleniyor?",
+     "en": "That would help. How is liability handled if someone falls in the room?"
+    },
+    {
+     "who": "Herr Lehmann",
+     "de": "Unsere Gebäudeversicherung deckt Schäden am Haus; für Personenschäden brauchen die Veranstalter eine Haftpflichtversicherung.",
+     "tr": "Bina sigortamız binadaki hasarı kapsıyor; kişisel yaralanmalarda organizatörlerin sorumluluk sigortası gerekir.",
+     "en": "Our building insurance covers damage to the property; organizers need liability insurance for personal injuries."
+    },
+    {
+     "who": "Elif",
+     "de": "Wir haben eine Vereinsversicherung. Ich lasse mir schriftlich bestätigen, dass das Sprachcafé eingeschlossen ist.",
+     "tr": "Dernek sigortamız var. Dil kafesinin kapsamda olduğunu yazılı olarak teyit ettireceğim.",
+     "en": "We have association insurance. I'll get written confirmation that the language café is covered."
+    },
+    {
+     "who": "Herr Lehmann",
+     "de": "Bitte senden Sie den Nachweis bis zum 20. Mai. Die Schlüsselübergabe wäre jeweils um 17 Uhr 45.",
+     "tr": "Lütfen belgeyi 20 Mayıs'a kadar gönderin. Anahtarlar her seferinde saat 17.45'te teslim edilebilir.",
+     "en": "Please send proof by 20 May. The keys could be handed over at 5:45 p.m. each time."
+    },
+    {
+     "who": "Elif",
+     "de": "Und die Reinigung? Wir würden aufräumen und den Raum bis 20 Uhr 15 verlassen.",
+     "tr": "Temizlik nasıl olacak? Toparlayıp odayı 20.15'e kadar boşaltabiliriz.",
+     "en": "And what about cleaning? We would tidy up and leave the room by 8:15 p.m."
+    },
+    {
+     "who": "Herr Lehmann",
+     "de": "Einverstanden. Ich notiere zwölf Abende zu 28 Euro und schicke Ihnen den Vertrag morgen.",
+     "tr": "Anlaştık. 28 avrodan on iki akşam olarak not ediyorum ve sözleşmeyi yarın gönderiyorum.",
+     "en": "Agreed. I'll note twelve evenings at 28 euros and send you the contract tomorrow."
+    },
+    {
+     "who": "Elif",
+     "de": "Vielen Dank. Ich wiederhole: Versicherungsnachweis bis zum 20. Mai, Schlüssel um 17 Uhr 45. Auf Wiederhören.",
+     "tr": "Teşekkürler. Tekrar ediyorum: sigorta belgesi 20 Mayıs'a kadar, anahtar 17.45'te. Hoşça kalın.",
+     "en": "Thank you. To repeat: proof of insurance by 20 May, keys at 5:45 p.m. Goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie hoch ist die vereinbarte Raummiete pro Abend?",
+     "options": [
+      "28 Euro.",
+      "35 Euro.",
+      "40 Euro."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Bis wann soll Elif den Versicherungsnachweis schicken?",
+     "options": [
+      "Bis zum 4. Juni.",
+      "Bis zum 20. Mai.",
+      "Bis zum 20. Juni."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Gebäudeversicherung deckt laut Herrn Lehmann auch Personenschäden der Teilnehmenden.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Schlüsselübergabe ist jeweils um 17:45 Uhr.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "b2-t06",
+   "level": "B2",
+   "kind": "call",
+   "place": "office",
+   "title": "Die Abbuchung prüfen",
+   "title_tr": "Açıklanamayan ödeme",
+   "title_en": "Checking the charge",
+   "lines": [
+    {
+     "who": "Frau Berger",
+     "de": "Kreissparkasse Köln, Frau Berger. Guten Tag.",
+     "tr": "Kreissparkasse Köln, Frau Berger. İyi günler.",
+     "en": "Kreissparkasse Köln, Frau Berger speaking. Good afternoon."
+    },
+    {
+     "who": "Elif",
+     "de": "Hier ist Elif Yılmaz. Am 18. November wurden 86,40 Euro abgebucht.",
+     "tr": "Ben Elif Yılmaz. 18 Kasım'da 86,40 avro çekilmiş.",
+     "en": "This is Elif Yılmaz. 86.40 euros were charged on 18 November."
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Nennen Sie bitte die letzten vier Ziffern Ihrer Karte.",
+     "tr": "Kartınızın son dört hanesini söyler misiniz?",
+     "en": "Please give me the last four digits of your card."
+    },
+    {
+     "who": "Elif",
+     "de": "4, 2, 7, 1. Mein Nachname wird Y-ı-l-m-a-z geschrieben.",
+     "tr": "4, 2, 7, 1. Soyadım Y-ı-l-m-a-z diye yazılıyor.",
+     "en": "4, 2, 7, 1. My surname is spelled Y-ı-l-m-a-z."
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Die Zahlung ging an Nordlicht Media. Kennen Sie diesen Händler?",
+     "tr": "Ödeme Nordlicht Media'ya gitmiş. Bu satıcıyı tanıyor musunuz?",
+     "en": "The payment went to Nordlicht Media. Do you know this merchant?"
+    },
+    {
+     "who": "Elif",
+     "de": "Nein, ich habe dort nichts bestellt und kein Abonnement abgeschlossen.",
+     "tr": "Hayır, oradan sipariş vermedim ve abonelik açmadım.",
+     "en": "No, I ordered nothing there and took out no subscription."
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Ich nehme eine Reklamation auf. Die Prüfung dauert bis zu 14 Tage.",
+     "tr": "İtirazınızı kayda alıyorum. İnceleme 14 güne kadar sürer.",
+     "en": "I'll register a dispute. The review takes up to 14 days."
+    },
+    {
+     "who": "Elif",
+     "de": "Wird der Betrag vorläufig zurückgebucht?",
+     "tr": "Tutar geçici olarak geri yatırılacak mı?",
+     "en": "Will the amount be provisionally credited back?"
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Das ist möglich, sobald Sie unser Formular unterschrieben einreichen.",
+     "tr": "Formumuzu imzalayıp sunduğunuzda bu mümkün.",
+     "en": "That's possible once you submit our signed form."
+    },
+    {
+     "who": "Elif",
+     "de": "Bitte senden Sie es heute an elif.yilmaz@mail.de.",
+     "tr": "Lütfen bugün elif.yilmaz@mail.de adresine gönderin.",
+     "en": "Please send it today to elif.yilmaz@mail.de."
+    },
+    {
+     "who": "Frau Berger",
+     "de": "Gern, innerhalb einer Stunde. Schreiben Sie Datum und Betrag dazu.",
+     "tr": "Tabii, bir saat içinde. Tarih ve tutarı da yazın.",
+     "en": "Certainly, within an hour. Include the date and amount."
+    },
+    {
+     "who": "Elif",
+     "de": "Also 18. November und 86,40 Euro. Vielen Dank, auf Wiederhören.",
+     "tr": "Yani 18 Kasım ve 86,40 avro. Teşekkürler, hoşça kalın.",
+     "en": "So, 18 November and 86.40 euros. Thank you, goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie hoch war die Abbuchung?",
+     "options": [
+      "68,40 Euro",
+      "86,40 Euro",
+      "96,40 Euro"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wie lange dauert die Prüfung?",
+     "options": [
+      "7 Tage",
+      "14 Tage",
+      "4 Wochen"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat ein Abonnement abgeschlossen.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Eine vorläufige Rückbuchung ist möglich.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "b2-t07",
+   "level": "B2",
+   "kind": "call",
+   "place": "street",
+   "title": "Das Umweltprojekt im Viertel",
+   "title_tr": "Mahalle çevre projesi",
+   "title_en": "The neighborhood project",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Elif Yılmaz, hallo?",
+     "tr": "Elif Yılmaz, alo?",
+     "en": "Elif Yılmaz speaking, hello?"
+    },
+    {
+     "who": "Frau König",
+     "de": "König von der Kölner Stadtzeitung. Passt ein kurzes Interview?",
+     "tr": "Kölner Stadtzeitung'dan König ben. Kısa bir röportaj uygun mu?",
+     "en": "König from the Kölner Stadtzeitung. Is a short interview convenient?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, gern. Worum geht es genau?",
+     "tr": "Evet, memnuniyetle. Konu tam olarak nedir?",
+     "en": "Yes, gladly. What exactly is it about?"
+    },
+    {
+     "who": "Frau König",
+     "de": "Um das Umweltprojekt am Eigelstein. Helfen Sie bei der Aufräumaktion?",
+     "tr": "Eigelstein çevre projesiyle ilgili. Temizlik etkinliğine yardım ediyor musunuz?",
+     "en": "It's about the Eigelstein project. Do you help with the clean-up?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, aber die Initiative kam von unserem Nachbarschaftsverein.",
+     "tr": "Evet, ama girişim mahalle derneğimizden geldi.",
+     "en": "Yes, but the initiative came from our neighborhood association."
+    },
+    {
+     "who": "Frau König",
+     "de": "Wie viele Freiwillige nehmen teil?",
+     "tr": "Kaç gönüllü katılıyor?",
+     "en": "How many volunteers take part?"
+    },
+    {
+     "who": "Elif",
+     "de": "Etwa 15 bis 20. Am 6. Dezember treffen wir uns um zehn vor der Stadtbibliothek.",
+     "tr": "Yaklaşık 15-20. 6 Aralık saat onda şehir kütüphanesi önünde buluşuyoruz.",
+     "en": "About 15 to 20. We meet outside the city library at ten on 6 December."
+    },
+    {
+     "who": "Frau König",
+     "de": "War das der 16. Dezember? Die Leitung ist schlecht.",
+     "tr": "16 Aralık mıydı? Hat kötü.",
+     "en": "Was that 16 December? The line is poor."
+    },
+    {
+     "who": "Elif",
+     "de": "Nein, der Sechste, sechs und nicht sechzehn. Ich maile Ihnen die Details.",
+     "tr": "Hayır, altısı, on altı değil. Detayları e-postalarım.",
+     "en": "No, the sixth, six and not sixteen. I'll email you the details."
+    },
+    {
+     "who": "Frau König",
+     "de": "Was ist das Ziel der Aktion?",
+     "tr": "Etkinliğin amacı nedir?",
+     "en": "What's the aim of the event?"
+    },
+    {
+     "who": "Elif",
+     "de": "Wir sammeln Müll und bitten Geschäfte, weniger Einwegverpackungen zu verwenden.",
+     "tr": "Çöp topluyor ve dükkânlardan daha az tek kullanımlık ambalaj istiyoruz.",
+     "en": "We collect litter and ask shops to use fewer disposable packages."
+    },
+    {
+     "who": "Frau König",
+     "de": "Darf ich Sie mit vollem Namen zitieren? Der Artikel erscheint Freitag.",
+     "tr": "Tam adınızla alıntı yapabilir miyim? Yazı cuma yayımlanacak.",
+     "en": "May I quote your full name? The article appears Friday."
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, aber bitte veröffentlichen Sie meine private Nummer nicht. Danke.",
+     "tr": "Evet, ama özel numaramı yayımlamayın lütfen. Teşekkürler.",
+     "en": "Yes, but please don't publish my private number. Thank you."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann treffen sich die Freiwilligen?",
+     "options": [
+      "6. Dezember um zehn",
+      "16. Dezember um zehn",
+      "6. Dezember um elf"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo treffen sie sich?",
+     "options": [
+      "Vor der Stadtbibliothek",
+      "Vor dem Rathaus",
+      "Am Bahnhof"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif allein gründete die Initiative.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die private Telefonnummer soll nicht erscheinen.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "b2-t08",
+   "level": "B2",
+   "kind": "call",
+   "place": "office",
+   "title": "Eine Beschwerde über das Hotel",
+   "title_tr": "Otel şikâyeti",
+   "title_en": "A hotel complaint",
+   "lines": [
+    {
+     "who": "Frau Hartmann",
+     "de": "Reisebüro Sonnenweg, Hartmann. Guten Tag.",
+     "tr": "Sonnenweg Seyahat, Hartmann. İyi günler.",
+     "en": "Sonnenweg Travel, Hartmann speaking. Good afternoon."
+    },
+    {
+     "who": "Elif",
+     "de": "Elif Yılmaz hier, wegen Buchung R-90418. Ich möchte mich beschweren.",
+     "tr": "R-90418 için Elif Yılmaz arıyor. Şikâyet etmek istiyorum.",
+     "en": "Elif Yılmaz calling about booking R-90418. I'd like to complain."
+    },
+    {
+     "who": "Frau Hartmann",
+     "de": "Um Ihren Aufenthalt in Antalya vom 3. bis 10. Oktober?",
+     "tr": "Antalya'da 3-10 Ekim konaklamanızla mı ilgili?",
+     "en": "About your Antalya stay from 3 to 10 October?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja. Das Hotel lag nicht am Strand, obwohl die Anzeige das versprach.",
+     "tr": "Evet. İlan öyle dese de otel sahilde değildi.",
+     "en": "Yes. The hotel wasn't by the beach, although the listing promised that."
+    },
+    {
+     "who": "Frau Hartmann",
+     "de": "Die Anzeige nannte 300 Meter. Wie weit war es wirklich?",
+     "tr": "İlanda 300 metre denmiş. Gerçekte ne kadardı?",
+     "en": "The listing said 300 meters. How far was it really?"
+    },
+    {
+     "who": "Elif",
+     "de": "Laut Hotel 1,4 Kilometer. Der Pool war die ganze Woche gesperrt.",
+     "tr": "Otele göre 1,4 kilometre. Havuz tüm hafta kapalıydı.",
+     "en": "According to the hotel, 1.4 kilometers. The pool was closed all week."
+    },
+    {
+     "who": "Frau Hartmann",
+     "de": "Haben Sie dafür Nachweise?",
+     "tr": "Bunun için kanıtınız var mı?",
+     "en": "Do you have evidence?"
+    },
+    {
+     "who": "Elif",
+     "de": "Fotos und eine Hotelnachricht vom 4. Oktober. Soll ich alles senden?",
+     "tr": "Fotoğraflar ve 4 Ekim tarihli otel mesajı var. Hepsini göndereyim mi?",
+     "en": "Photos and a hotel message dated 4 October. Should I send everything?"
+    },
+    {
+     "who": "Frau Hartmann",
+     "de": "Bitte an service@sonnenweg.de, mit Buchungsnummer im Betreff.",
+     "tr": "Lütfen service@sonnenweg.de adresine, konuya rezervasyon numarasıyla gönderin.",
+     "en": "Please send it to service@sonnenweg.de, with the booking number in the subject."
+    },
+    {
+     "who": "Elif",
+     "de": "Der Reisepreis war 1.120 Euro. Eine teilweise Erstattung wäre angemessen.",
+     "tr": "Seyahat 1.120 avroydu. Kısmi iade uygun olur.",
+     "en": "The trip cost 1,120 euros. A partial refund would be reasonable."
+    },
+    {
+     "who": "Frau Hartmann",
+     "de": "Ich kann bis zum 2. Dezember antworten, sobald alles geprüft ist.",
+     "tr": "Her şey incelenince 2 Aralık'a kadar yanıt verebilirim.",
+     "en": "I can respond by 2 December once everything has been reviewed."
+    },
+    {
+     "who": "Elif",
+     "de": "Einverstanden. Bitte bestätigen Sie den Eingang kurz. Vielen Dank.",
+     "tr": "Anlaştık. Ulaştığını kısaca teyit edin lütfen. Teşekkürler.",
+     "en": "Agreed. Please briefly confirm receipt. Thank you."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie weit war das Hotel vom Strand entfernt?",
+     "options": [
+      "300 Meter",
+      "1,4 Kilometer",
+      "3 Kilometer"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Bis wann kommt die Antwort?",
+     "options": [
+      "2. Dezember",
+      "4. Dezember",
+      "10. Dezember"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Pool war nur einen Tag geschlossen.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif soll die Buchungsnummer im Betreff angeben.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "b2-t09",
+   "level": "B2",
+   "kind": "call",
+   "place": "school",
+   "title": "Der Abschluss aus der Türkei",
+   "title_tr": "Türkiye diploması",
+   "title_en": "A Turkish degree",
+   "lines": [
+    {
+     "who": "Frau Seidel",
+     "de": "Universität Köln, Studierendenservice, Frau Seidel. Guten Tag.",
+     "tr": "Köln Üniversitesi Öğrenci Hizmetleri, Frau Seidel. İyi günler.",
+     "en": "University of Cologne Student Services, Frau Seidel. Good afternoon."
+    },
+    {
+     "who": "Elif",
+     "de": "Elif Yılmaz hier. Ich möchte meinen türkischen Bachelorabschluss anerkennen lassen.",
+     "tr": "Ben Elif Yılmaz. Türkiye lisans diplomamı tanıtmak istiyorum.",
+     "en": "Elif Yılmaz speaking. I'd like my Turkish bachelor's degree recognized."
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Für einen Master oder eine berufliche Anerkennung?",
+     "tr": "Yüksek lisans için mi, mesleki tanınma mı?",
+     "en": "For a master's or professional recognition?"
+    },
+    {
+     "who": "Elif",
+     "de": "Für den Master in Umweltwissenschaften. Die Frist endet am 15. Januar.",
+     "tr": "Çevre Bilimleri yüksek lisansına. Son tarih 15 Ocak.",
+     "en": "For the master's in Environmental Sciences. The deadline is 15 January."
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Wir brauchen Zeugnis, Fächerübersicht und beglaubigte Übersetzungen.",
+     "tr": "Diploma, ders dökümü ve onaylı çeviriler gerekiyor.",
+     "en": "We need the certificate, course list, and certified translations."
+    },
+    {
+     "who": "Elif",
+     "de": "Müssen auch Modulbeschreibungen übersetzt sein?",
+     "tr": "Ders tanımları da çevrilmeli mi?",
+     "en": "Do module descriptions also need translation?"
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Ja, falls daraus Inhalte hervorgehen. Die Originale behalten Sie.",
+     "tr": "Evet, içerikler anlaşılacaksa. Orijinaller sizde kalır.",
+     "en": "Yes, if their content needs to be clear. You keep the originals."
+    },
+    {
+     "who": "Elif",
+     "de": "Wie lange dauert die Prüfung?",
+     "tr": "İnceleme ne kadar sürüyor?",
+     "en": "How long does the review take?"
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Bei vollständigen Unterlagen etwa sechs Wochen. Im Dezember eventuell länger.",
+     "tr": "Belgeler tam ise yaklaşık altı hafta. Aralıkta daha uzun olabilir.",
+     "en": "About six weeks with complete documents. Possibly longer in December."
+    },
+    {
+     "who": "Elif",
+     "de": "Kann ich erst Scans schicken und Kopien nachreichen?",
+     "tr": "Önce taramalar gönderip kopyaları sonra sunabilir miyim?",
+     "en": "Can I send scans first and submit copies later?"
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Für eine Vorprüfung ja. Die endgültige Entscheidung braucht beglaubigte Kopien.",
+     "tr": "Ön inceleme için evet. Kesin karar için onaylı kopyalar gerekir.",
+     "en": "For a preliminary review, yes. The final decision requires certified copies."
+    },
+    {
+     "who": "Elif",
+     "de": "An welche Adresse? Bitte langsam buchstabieren.",
+     "tr": "Hangi adres? Yavaşça heceleyin lütfen.",
+     "en": "What address? Please spell it slowly."
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Anerkennung, Bindestrich, master, at uni-koeln.de. Wiederholt: anerkennung-master@uni-koeln.de.",
+     "tr": "Anerkennung, tire, master, uni-koeln.de. Tekrar: anerkennung-master@uni-koeln.de.",
+     "en": "Anerkennung, hyphen, master, at uni-koeln.de. Again: anerkennung-master@uni-koeln.de."
+    },
+    {
+     "who": "Elif",
+     "de": "Danke. Ich sende die Scans heute und Kopien bis Ende November. Auf Wiederhören.",
+     "tr": "Teşekkürler. Taramaları bugün, kopyaları kasım sonuna kadar gönderirim. Hoşça kalın.",
+     "en": "Thanks. I'll send scans today and copies by the end of November. Goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann endet die Bewerbungsfrist?",
+     "options": [
+      "15. Januar",
+      "15. Dezember",
+      "31. Januar"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie lange dauert die Prüfung?",
+     "options": [
+      "Vier Wochen",
+      "Sechs Wochen",
+      "Acht Wochen"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif braucht eine berufliche Anerkennung.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Scans genügen für eine Vorprüfung.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "b2-t10",
+   "level": "B2",
+   "kind": "call",
+   "place": "office",
+   "title": "Die Nachzahlung in Raten",
+   "title_tr": "Ek faturayı taksitlendirme",
+   "title_en": "Installments for the bill",
+   "lines": [
+    {
+     "who": "Herr Weber",
+     "de": "RheinEnergie Kundenservice, Weber. Guten Tag.",
+     "tr": "RheinEnergie Müşteri Hizmetleri, Weber. İyi günler.",
+     "en": "RheinEnergie customer service, Weber speaking. Good afternoon."
+    },
+    {
+     "who": "Elif",
+     "de": "Elif Yılmaz hier, wegen meiner Jahresabrechnung.",
+     "tr": "Yıllık faturam için Elif Yılmaz arıyor.",
+     "en": "Elif Yılmaz calling about my annual bill."
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Nennen Sie bitte Ihre Vertragskontonummer. Sie steht oben rechts.",
+     "tr": "Lütfen müşteri hesap numaranızı söyleyin. Sağ üstte.",
+     "en": "Please give me your account number. It's at the top right."
+    },
+    {
+     "who": "Elif",
+     "de": "731-408-26. Die Nachzahlung beträgt 642 Euro und ist am 12. Dezember fällig.",
+     "tr": "731-408-26. Ek ödeme 642 avro, vadesi 12 Aralık.",
+     "en": "731-408-26. The balance is 642 euros, due 12 December."
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Das stimmt. Ihr Verbrauch lag über dem Vorjahr, vor allem im Januar.",
+     "tr": "Doğru. Tüketiminiz geçen yıldan yüksekti, özellikle ocakta.",
+     "en": "That's right. Your consumption was higher than last year, especially in January."
+    },
+    {
+     "who": "Elif",
+     "de": "Prüfen Sie bitte, ob der Zählerstand korrekt übermittelt wurde.",
+     "tr": "Sayaç değerinin doğru iletilip iletilmediğini kontrol edin lütfen.",
+     "en": "Please check whether the meter reading was transmitted correctly."
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Der Stand vom 30. September wurde bestätigt. Ein Fehler ist unwahrscheinlich.",
+     "tr": "30 Eylül değeri doğrulandı. Hata olasılığı düşük.",
+     "en": "The 30 September reading was confirmed. An error is unlikely."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich kann nicht alles auf einmal zahlen. Sind vier Monatsraten möglich?",
+     "tr": "Hepsini bir anda ödeyemem. Dört aylık taksit olur mu?",
+     "en": "I can't pay it all at once. Are four monthly installments possible?"
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Ja, dreimal 160 Euro und eine Schlussrate von 162 Euro.",
+     "tr": "Evet, üç kez 160 avro ve son taksit 162 avro.",
+     "en": "Yes, three installments of 160 euros and a final payment of 162 euros."
+    },
+    {
+     "who": "Elif",
+     "de": "Wann wird die erste Rate fällig? Ich möchte Mahngebühren vermeiden.",
+     "tr": "İlk taksit ne zaman vadesi gelir? Gecikme ücretini önlemek istiyorum.",
+     "en": "When is the first installment due? I want to avoid late fees."
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Am 12. Dezember. Danach jeweils am Zwölften des Folgemonats.",
+     "tr": "12 Aralık'ta. Sonrasında takip eden ayın on ikisinde.",
+     "en": "On 12 December. Then on the twelfth of each following month."
+    },
+    {
+     "who": "Elif",
+     "de": "Bitte bestätigen Sie die Vereinbarung schriftlich, bevor ich zustimme.",
+     "tr": "Kabul etmeden önce anlaşmayı yazılı teyit edin lütfen.",
+     "en": "Please confirm the arrangement in writing before I agree."
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Natürlich. Die Bestätigung geht heute an Ihre gespeicherte E-Mail-Adresse.",
+     "tr": "Tabii. Onay bugün kayıtlı e-posta adresinize gider.",
+     "en": "Of course. The confirmation will go to your saved email address today."
+    },
+    {
+     "who": "Elif",
+     "de": "Dann bin ich einverstanden. Vielen Dank, auf Wiederhören.",
+     "tr": "O halde kabul ediyorum. Teşekkürler, hoşça kalın.",
+     "en": "Then I agree. Thank you, goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie hoch ist die Nachzahlung?",
+     "options": [
+      "624 Euro",
+      "642 Euro",
+      "662 Euro"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wie hoch ist die Schlussrate?",
+     "options": [
+      "160 Euro",
+      "162 Euro",
+      "164 Euro"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Der Zählerstand wurde bestätigt.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Alle Raten sind gleich hoch.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "b2-m01",
+   "level": "B2",
+   "kind": "message",
+   "place": "office",
+   "title": "Gespräch wegen der Mieterhöhung",
+   "title_tr": "Kira artışı hakkında görüşme",
+   "title_en": "Meeting about the rent increase",
+   "lines": [
+    {
+     "who": "Frau Weber",
+     "de": "Guten Tag, Frau Y?lmaz, hier ist Frau Weber von der Kanzlei K?nig.",
+     "tr": "İyi günler Frau Yılmaz, König Hukuk Bürosu'ndan Frau Weber. Kira artışıyla ilgili belgelerinizi inceledik.",
+     "en": "Good afternoon, Ms Yılmaz, this is Ms Weber from König law office. We have reviewed your documents about the rent increase."
+    },
+    {
+     "who": "Frau Weber",
+     "de": "Wir haben Ihre Unterlagen zur Mieterh?hung gepr?ft und k?nnten Dienstag, den 14. Mai, um 16 Uhr anbieten.",
+     "tr": "Görüşme için size 14 Mayıs Salı günü saat 16.00'yı önerebilirim. Lütfen kira sözleşmesini yanınızda getirin.",
+     "en": "I could offer you a consultation on Tuesday, 14 May, at 4 p.m. Please bring your rental contract."
+    },
+    {
+     "who": "Frau Weber",
+     "de": "Bitte bringen Sie den Mietvertrag und das Erh?hungsschreiben mit.",
+     "tr": "Artış mektubu ve mahallenizdeki karşılaştırmalı kira bilgilerini de bulduysanız getirmeniz yararlı olur.",
+     "en": "The increase notice and comparable rents in your neighborhood would also help, if you have already found them."
+    },
+    {
+     "who": "Frau Weber",
+     "de": "Der Termin dauert 45 Minuten. Unsere Nummer lautet 0221 458 73 20, nochmals: 0221 458 73 20.",
+     "tr": "Görüşme yaklaşık 45 dakika sürer. Sorularınız için bize 0221 458 73 20 numarasından ulaşabilirsiniz; tekrarlıyorum: 0221 458 73 20.",
+     "en": "The appointment takes about 45 minutes. For questions, call 0221 458 73 20; I repeat: 0221 458 73 20."
+    },
+    {
+     "who": "Frau Weber",
+     "de": "Bitte best?tigen Sie bis Freitag. Wir pr?fen dann die rechtliche Begr?ndung. Auf Wiederh?ren.",
+     "tr": "Lütfen randevuyu cumaya kadar onaylayın. Ardından istenen artışın hukuken gerekçeli olup olmadığını inceleyeceğiz. Hoşça kalın.",
+     "en": "Please confirm the appointment by Friday. We will then check whether the requested increase is legally justified. Goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Vergleichsmiete",
+     "lemma": "Vergleichsmiete",
+     "art": "die",
+     "tr": "karşılaştırmalı kira",
+     "en": "comparable rent"
+    },
+    {
+     "form": "begründet",
+     "lemma": "begründen",
+     "art": null,
+     "tr": "gerekçelendirilmiş",
+     "en": "justified"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann ist das Beratungsgespräch?",
+     "options": [
+      "Am Dienstag um 16 Uhr",
+      "Am Freitag um 16 Uhr",
+      "Am Dienstag um 14 Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Yılmaz soll den Mietvertrag mitbringen.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "b2-m02",
+   "level": "B2",
+   "kind": "message",
+   "place": "office",
+   "title": "Vertragsverlängerung im Gespräch",
+   "title_tr": "Sözleşme uzatması hakkında görüşme",
+   "title_en": "Discussing the contract extension",
+   "lines": [
+    {
+     "who": "Herr Brandt",
+     "de": "Guten Tag, Frau Y?lmaz, Herr Brandt aus der Personalabteilung. Wir m?chten Ihren Vertrag um ein Jahr verl?ngern.",
+     "tr": "İyi günler Frau Yılmaz, İnsan Kaynakları'ndan Herr Brandt. Sözleşmenizi bir yıl uzatmak isteriz.",
+     "en": "Good afternoon, Ms Yılmaz, this is Mr Brandt from Human Resources. We would like to extend your contract by one year."
+    },
+    {
+     "who": "Herr Brandt",
+     "de": "Das Angebot umfasst 3.200 Euro brutto und zwei zus?tzliche Urlaubstage. Es gilt ab dem 1. Juli.",
+     "tr": "Yeni teklif aylık brüt 3.200 avro ve iki ek izin günü içeriyor. Düzenleme 1 Temmuz'dan itibaren geçerli olacak.",
+     "en": "The new offer provides a gross monthly salary of 3,200 euros and two extra vacation days. The change takes effect on 1 July."
+    },
+    {
+     "who": "Herr Brandt",
+     "de": "Die Personalchefin erl?utert Ihnen die Aufgaben vor der Unterschrift.",
+     "tr": "İnsan Kaynakları müdürü, ek sözleşme imzalanmadan önce görevleri bizzat açıklamak istiyor.",
+     "en": "The head of Human Resources would like to explain the duties in person before the addendum is signed."
+    },
+    {
+     "who": "Herr Brandt",
+     "de": "Kommen Sie am 6. Juni um 10.30 Uhr in Raum 214? Bitte melden Sie sich am Empfang.",
+     "tr": "6 Haziran Perşembe günü saat 10.30'da 214 numaralı odadaki ofisimize gelir misiniz? Lütfen resepsiyona bildirin.",
+     "en": "Could you come to our office, room 214, on Thursday, 6 June, at 10:30? Please check in at reception."
+    },
+    {
+     "who": "Herr Brandt",
+     "de": "Passt es nicht, erreichen Sie mich unter 0221 610 42 18. Nochmals: 0221 610 42 18. Auf Wiederh?ren.",
+     "tr": "Saat uygun değilse bana 0221 610 42 18 numarasından ulaşabilirsiniz. Tekrar ediyorum: 0221 610 42 18. Hoşça kalın.",
+     "en": "If the time does not suit you, reach me at 0221 610 42 18. I repeat: 0221 610 42 18. Goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Nachtrag",
+     "lemma": "Nachtrag",
+     "art": "der",
+     "tr": "ek sözleşme",
+     "en": "addendum"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Ab wann gilt die Gehaltsanpassung?",
+     "options": [
+      "Ab dem 1. Juli",
+      "Ab dem 6. Juni",
+      "Ab dem 1. August"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der neue Vertrag läuft nur sechs Monate.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "b2-m03",
+   "level": "B2",
+   "kind": "message",
+   "place": "office",
+   "title": "Ein neuer Operationstermin",
+   "title_tr": "Yeni ameliyat tarihi",
+   "title_en": "A new surgery date",
+   "lines": [
+    {
+     "who": "Frau Neumann",
+     "de": "Guten Tag, Frau Y?lmaz, Frau Neumann von der chirurgischen Ambulanz der Uniklinik K?ln. Ich rufe wegen Ihrer Operation an.",
+     "tr": "İyi günler Frau Yılmaz, Köln Üniversite Hastanesi cerrahi polikliniğinden Frau Neumann. Ameliyatınız için arıyorum.",
+     "en": "Good afternoon, Ms Yılmaz, this is Ms Neumann from the surgical outpatient clinic at Cologne University Hospital. I am calling about your operation."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Ihr Termin am 18. Juni muss wegen eines nicht verf?gbaren Operationssaals verschoben werden.",
+     "tr": "Ameliyathane kısa sürede kullanılamaz hâle geldiği için 18 Haziran'daki randevunun ertelenmesi gerekiyor.",
+     "en": "Unfortunately, the appointment on 18 June must be postponed because the operating room has become unavailable at short notice."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Wir nehmen Sie am 24. Juni um 7.15 Uhr auf. Bitte kommen Sie n?chtern zum Haupteingang.",
+     "tr": "Sizi 24 Haziran Pazartesi günü saat 7.15'te kabul edebiliriz. Lütfen aç gelin ve ana girişte kayıt yaptırın.",
+     "en": "We could admit you on Monday, 24 June, at 7:15. Please arrive fasting and check in at the main entrance."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Besprechen Sie Ihre Medikamente vorher mit der Haus?rztin. Die Unterlagen kommen bis Freitag per Post.",
+     "tr": "İlaçlarınızı önceden aile hekiminizle görüşün. Yatış belgeleri en geç cuma günü postayla elinize ulaşacak.",
+     "en": "Please discuss your medication with your family doctor beforehand. Your admission papers will arrive by post by Friday at the latest."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Bei Fragen: 0221 478 61 90, nochmals: 0221 478 61 90. Gute Besserung und auf Wiederh?ren.",
+     "tr": "Sorularınız için lütfen 0221 478 61 90 numarasını arayın; tekrar ediyorum: 0221 478 61 90. Geçmiş olsun, hoşça kalın.",
+     "en": "For questions, please call 0221 478 61 90; again: 0221 478 61 90. Get well soon, goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "nüchtern",
+     "lemma": "nüchtern",
+     "art": null,
+     "tr": "aç karnına",
+     "en": "fasting"
+    },
+    {
+     "form": "Aufnahmeunterlagen",
+     "lemma": "Aufnahmeunterlage",
+     "art": "die",
+     "tr": "yatış belgeleri",
+     "en": "admission papers"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann soll Frau Yılmaz in der Klinik sein?",
+     "options": [
+      "Am 24. Juni um 7.15 Uhr",
+      "Am 18. Juni um 7.15 Uhr",
+      "Am 24. Juni um 8.15 Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Yılmaz soll vor der Operation frühstücken.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "b2-m04",
+   "level": "B2",
+   "kind": "message",
+   "place": "office",
+   "title": "Förderung für das Stadtteilprojekt",
+   "title_tr": "Mahalle projesi için hibe",
+   "title_en": "Funding for the neighborhood project",
+   "lines": [
+    {
+     "who": "Frau Peters",
+     "de": "Guten Tag, Frau Y?lmaz, Frau Peters vom Bezirksamt Ehrenfeld. Ihr Projektantrag wurde bewilligt.",
+     "tr": "İyi günler Frau Yılmaz, Ehrenfeld İlçe Belediyesi'nden Frau Peters. Mahalle projesi başvurunuz kabul edildi.",
+     "en": "Good afternoon, Ms Yılmaz, this is Ms Peters from the Ehrenfeld district office. Your application for the neighborhood project has been approved."
+    },
+    {
+     "who": "Frau Peters",
+     "de": "Die F?rderung betr?gt 4.800 Euro; h?chstens 600 Euro sind f?r Werbung vorgesehen.",
+     "tr": "Hibe miktarı 4.800 avrodur. Bunun en fazla 600 avrosu tanıtım çalışmaları için kullanılabilir.",
+     "en": "The grant amounts to 4,800 euros. No more than 600 euros may be used for public relations."
+    },
+    {
+     "who": "Frau Peters",
+     "de": "Reichen Sie bitte bis zum 30. August den Kostenplan und die unterschriebene Vereinbarung ein.",
+     "tr": "Lütfen 30 Ağustos'a kadar bir maliyet planı ve imzalı sözleşmeyi teslim edin.",
+     "en": "Please submit a budget plan and the signed agreement by 30 August."
+    },
+    {
+     "who": "Frau Peters",
+     "de": "Nach Pr?fung wird binnen zehn Werktagen gezahlt. Belege sind bis Ende Februar aufzubewahren.",
+     "tr": "Ödeme, incelemenin ardından on iş günü içinde başlatılacak. Belgeler şubat sonuna kadar saklanmalıdır.",
+     "en": "Payment will be arranged within ten working days after review. Receipts must be kept until the end of February."
+    },
+    {
+     "who": "Frau Peters",
+     "de": "Bei Fragen: 0221 221 87 40, nochmals: 0221 221 87 40. Gl?ckwunsch und auf Wiederh?ren.",
+     "tr": "Sorularınız için bana 0221 221 87 40 numarasından ulaşabilirsiniz. Numarayı tekrarlıyorum: 0221 221 87 40. Tebrikler, hoşça kalın.",
+     "en": "For questions, reach me at 0221 221 87 40. I repeat the number: 0221 221 87 40. Congratulations, goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "bewilligen",
+     "lemma": "bewilligen",
+     "art": null,
+     "tr": "onaylamak",
+     "en": "to approve"
+    },
+    {
+     "form": "Beleg",
+     "lemma": "Beleg",
+     "art": "der",
+     "tr": "belge, makbuz",
+     "en": "receipt"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Bis wann müssen die Unterlagen eingereicht werden?",
+     "options": [
+      "Bis zum 30. August",
+      "Bis Ende Februar",
+      "Bis zum 30. September"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die gesamte Förderung ist für Werbung vorgesehen.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "b2-m05",
+   "level": "B2",
+   "kind": "message",
+   "place": "office",
+   "title": "Angebot nach Ihrer Beschwerde",
+   "title_tr": "Şikâyetiniz üzerine teklif",
+   "title_en": "Offer following your complaint",
+   "lines": [
+    {
+     "who": "Frau Roth",
+     "de": "Guten Tag, Frau Y?lmaz, Frau Roth vom Reiseb?ro Sonnenweg. Ihre Beschwerde zur Reise vom 3. bis 10. Oktober wurde gepr?ft.",
+     "tr": "İyi günler Frau Yılmaz, Sonnenweg Seyahat Acentesi'nden Frau Roth. 3–10 Ekim arasındaki paket turla ilgili şikâyetinizi inceledik.",
+     "en": "Good afternoon, Ms Yılmaz, this is Ms Roth from Sonnenweg Travel. We have reviewed your complaint about the package tour from 3 to 10 October."
+    },
+    {
+     "who": "Frau Roth",
+     "de": "F?r den ausgefallenen Ausflug und zwei Tage ohne Warmwasser bieten wir 180 Euro Erstattung an.",
+     "tr": "İptal edilen gezi ve iki gün sıcak su olmaması nedeniyle size 180 avro iade teklif ediyoruz.",
+     "en": "Because the excursion was cancelled and there was no hot water for two days, we are offering you a refund of 180 euros."
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Die Erstattung wird binnen sieben Werktagen auf Ihr urspr?ngliches Zahlungsmittel ?berwiesen.",
+     "tr": "Tutar, yedi iş günü içinde ilk kullandığınız ödeme yöntemine aktarılabilir.",
+     "en": "The amount could be refunded to your original payment method within seven working days."
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Bitte antworten Sie bis 12. November. Ihre ?brigen Anspr?che bleiben unber?hrt.",
+     "tr": "Lütfen teklifi kabul edip etmediğinizi 12 Kasım'a kadar bize bildirin. Diğer talepleriniz bundan etkilenmez.",
+     "en": "Please let us know by 12 November whether you accept the offer. Your other claims remain unaffected."
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Sie erreichen mich unter 0221 390 56 12, nochmals: 0221 390 56 12. Danke und auf Wiederh?ren.",
+     "tr": "Bana 0221 390 56 12 numarasından ulaşabilirsiniz; tekrarlıyorum: 0221 390 56 12. Geri dönüşünüz için teşekkürler. Hoşça kalın.",
+     "en": "You can reach me at 0221 390 56 12; I repeat: 0221 390 56 12. Thank you for your response. Goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Erstattung",
+     "lemma": "Erstattung",
+     "art": "die",
+     "tr": "geri ödeme",
+     "en": "refund"
+    },
+    {
+     "form": "unberührt",
+     "lemma": "unberührt",
+     "art": null,
+     "tr": "etkilenmemiş",
+     "en": "unaffected"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie hoch ist die angebotene Erstattung?",
+     "options": [
+      "180 Euro",
+      "80 Euro",
+      "280 Euro"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Yılmaz muss bis zum 12. November antworten.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "b2-m06",
+   "level": "B2",
+   "kind": "message",
+   "place": "street",
+   "title": "Verschobener Sendetermin",
+   "title_tr": "Değişen yayın saati",
+   "title_en": "Rescheduled broadcast",
+   "lines": [
+    {
+     "who": "Herr Fischer",
+     "de": "Guten Tag, Frau Y?lmaz, Herr Fischer von Radio K?ln. Ihr Interview wird sp?ter ausgestrahlt.",
+     "tr": "İyi günler Frau Yılmaz, Radio Köln'den Herr Fischer. Mahalle projesi hakkındaki röportajınız daha geç yayınlanacak.",
+     "en": "Good afternoon, Ms Yılmaz, this is Mr Fischer from Radio Cologne. Your interview about the neighborhood project will be broadcast later."
+    },
+    {
+     "who": "Herr Fischer",
+     "de": "Wegen einer Sondersendung l?uft der Beitrag statt Mittwoch um 18 Uhr nun Donnerstag um 19.30 Uhr.",
+     "tr": "Güncel bir özel yayın nedeniyle program çarşamba saat 18.00'den perşembe 19.30'a ertelendi.",
+     "en": "Due to a current special broadcast, the segment is moving from Wednesday at 6 p.m. to Thursday at 7:30 p.m."
+    },
+    {
+     "who": "Herr Fischer",
+     "de": "Die Aufnahme bleibt unver?ndert. Sie m?ssen nicht erneut ins Studio kommen.",
+     "tr": "Kayıt değişmiyor; yani yeniden stüdyoya gelmeniz gerekmiyor.",
+     "en": "The recording remains unchanged, so you do not need to come to the studio again."
+    },
+    {
+     "who": "Herr Fischer",
+     "de": "Die Sendung dauert zw?lf Minuten. Bitte nennen Sie den 13. Juni als Sendetermin.",
+     "tr": "Program on iki dakika sürüyor. Yayın saatinden söz ederseniz lütfen 13 Haziran Perşembe deyin.",
+     "en": "The program lasts twelve minutes. If you mention the broadcast, please say Thursday, 13 June."
+    },
+    {
+     "who": "Herr Fischer",
+     "de": "Fragen? Die Redaktion: 0221 500 31 77, nochmals: 0221 500 31 77. Danke f?r Ihre Zeit. Auf Wiederh?ren.",
+     "tr": "Sorularınız için yayın kuruluna 0221 500 31 77 numarasından ulaşabilirsiniz; tekrar ediyorum: 0221 500 31 77. Zaman ayırdığınız için teşekkürler. Hoşça kalın.",
+     "en": "For questions, call the newsroom at 0221 500 31 77, again 0221 500 31 77. Thank you for your time. Goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "ausstrahlen",
+     "lemma": "ausstrahlen",
+     "art": null,
+     "tr": "yayınlamak",
+     "en": "to broadcast"
+    },
+    {
+     "form": "Sondersendung",
+     "lemma": "Sondersendung",
+     "art": "die",
+     "tr": "özel yayın",
+     "en": "special broadcast"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann wird das Interview ausgestrahlt?",
+     "options": [
+      "Am Donnerstag um 19.30 Uhr",
+      "Am Mittwoch um 18 Uhr",
+      "Am Donnerstag um 18 Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Yılmaz muss die Aufnahme im Studio wiederholen.",
+     "answer": 1
+    }
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "t-b2-t01",
+   "level": "B2",
+   "topic": "call",
+   "title": "Über die Mieterhöhung sprechen",
+   "paragraphs": [
+    "Frau Krämer: Hausverwaltung Rheinblick, Krämer am Apparat. Guten Tag, Frau Yılmaz.",
+    "Elif: Guten Tag, Frau Krämer. Ich rufe wegen Ihres Schreibens vom 12. März an.",
+    "Frau Krämer: Sie meinen die angekündigte Erhöhung der Nettokaltmiete von 850 auf 940 Euro?",
+    "Elif: Genau. Könnten Sie mir bitte die Berechnung und die Vergleichswohnungen schriftlich zusenden?",
+    "Frau Krämer: Die Anpassung beruht auf dem Mietspiegel und wurde wegen gestiegener Kosten geprüft.",
+    "Elif: Wie bitte, 940 Euro ab April? Ich hatte den ersten Mai notiert.",
+    "Frau Krämer: Sie haben recht: Wirksam wird die Erhöhung zum ersten Mai, nicht zum ersten April.",
+    "Elif: Danke. Vergleichbare Wohnungen hier kosten laut Anzeige zwischen 880 und 910 Euro.",
+    "Frau Krämer: Die Ausstattung und die kürzlich erneuerten Fenster wurden bei der Bewertung ebenfalls berücksichtigt.",
+    "Elif: Ich möchte die Anpassung nicht grundsätzlich ablehnen, aber 940 Euro sind schwer tragbar.",
+    "Frau Krämer: Welchen Betrag könnten Sie sich vorstellen? Ich darf Ihren Vorschlag der Eigentümerin vorlegen.",
+    "Elif: Wären 900 Euro ab Mai möglich, mit einer erneuten Prüfung nach sechs Monaten?",
+    "Frau Krämer: Ich kann das vorschlagen. Bitte schicken Sie Ihren Vergleich bis Freitag an die Nummer 0221 408 617.",
+    "Elif: Ich wiederhole: 0221 408 617, und die Unterlagen kommen bis Freitag. Vielen Dank, auf Wiederhören."
+   ],
+   "trans": [
+    {
+     "tr": "Frau Krämer: Rheinblick apartman yönetimi, Krämer ben. İyi günler Frau Yılmaz.",
+     "en": "Frau Krämer: Rheinblick property management, Krämer speaking. Good afternoon, Ms Yılmaz."
+    },
+    {
+     "tr": "Elif: İyi günler Frau Krämer. 12 Mart tarihli yazınız hakkında arıyorum.",
+     "en": "Elif: Good afternoon, Ms Krämer. I'm calling about your letter dated 12 March."
+    },
+    {
+     "tr": "Frau Krämer: 850 avrodan 940 avroya yapılacağı bildirilen net kira artışını mı kastediyorsunuz?",
+     "en": "Frau Krämer: Do you mean the announced increase in the net rent from 850 to 940 euros?"
+    },
+    {
+     "tr": "Elif: Aynen. Hesaplamayı ve karşılaştırma dairelerini yazılı olarak gönderebilir misiniz?",
+     "en": "Elif: Exactly. Could you send me the calculation and the comparable apartments in writing?"
+    },
+    {
+     "tr": "Frau Krämer: Düzenleme kira endeksine dayanıyor ve artan maliyetler nedeniyle incelendi.",
+     "en": "Frau Krämer: The adjustment is based on the rent index and was reviewed because of rising costs."
+    },
+    {
+     "tr": "Elif: Efendim, nisandan itibaren 940 avro mu? Ben 1 Mayıs olarak not etmiştim.",
+     "en": "Elif: Sorry, 940 euros starting in April? I had noted 1 May."
+    },
+    {
+     "tr": "Frau Krämer: Haklısınız: artış 1 Nisan'da değil, 1 Mayıs'ta yürürlüğe giriyor.",
+     "en": "Frau Krämer: You're right: the increase takes effect on 1 May, not 1 April."
+    },
+    {
+     "tr": "Elif: Teşekkürler. İlandaki benzer daireler burada 880 ile 910 avro arasında.",
+     "en": "Elif: Thank you. According to the listing, comparable apartments here cost between 880 and 910 euros."
+    },
+    {
+     "tr": "Frau Krämer: Değerlendirmede donanım ve yakın zamanda yenilenen pencereler de dikkate alındı.",
+     "en": "Frau Krämer: The furnishings and recently replaced windows were also taken into account in the assessment."
+    },
+    {
+     "tr": "Elif: Düzenlemeyi temelden reddetmek istemiyorum, ancak 940 avro ödemek zorlayıcı.",
+     "en": "Elif: I don't want to reject the adjustment outright, but 940 euros would be difficult to manage."
+    },
+    {
+     "tr": "Frau Krämer: Hangi tutarı düşünebilirsiniz? Önerinizi ev sahibine iletebilirim.",
+     "en": "Frau Krämer: What amount could you consider? I can present your proposal to the owner."
+    },
+    {
+     "tr": "Elif: Mayıs'tan itibaren 900 avro ve altı ay sonra yeniden değerlendirme mümkün olur mu?",
+     "en": "Elif: Would 900 euros from May, with a review after six months, be possible?"
+    },
+    {
+     "tr": "Frau Krämer: Bunu önerebilirim. Lütfen karşılaştırmanızı cuma gününe kadar 0221 408 617 numarasına gönderin.",
+     "en": "Frau Krämer: I can propose that. Please send your comparison to 0221 408 617 by Friday."
+    },
+    {
+     "tr": "Elif: Tekrar ediyorum: 0221 408 617; belgeler cuma gününe kadar gelecek. Çok teşekkürler, hoşça kalın.",
+     "en": "Elif: Let me repeat: 0221 408 617, and the documents will arrive by Friday. Thank you, goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Ab wann soll die Mieterhöhung gelten?",
+     "options": [
+      "Ab dem ersten April.",
+      "Ab dem ersten Mai.",
+      "Ab dem ersten Juni."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Welchen Betrag schlägt Elif vor?",
+     "options": [
+      "900 Euro.",
+      "910 Euro.",
+      "940 Euro."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Hausverwaltung berücksichtigt die erneuerten Fenster bei der Bewertung.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif soll ihre Unterlagen bis Montag schicken.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-b2-t02",
+   "level": "B2",
+   "topic": "call",
+   "title": "Eine Vertragsverlängerung anfechten",
+   "paragraphs": [
+    "Herr Vogel: Kundenservice NordMobil, Vogel am Apparat. Guten Tag.",
+    "Elif: Guten Tag, hier ist Elif Yılmaz. Meine Kundennummer lautet 583 194 27.",
+    "Herr Vogel: Einen Augenblick. Ich sehe eine Verlängerung Ihres Vertrags bis zum 31. März nächsten Jahres.",
+    "Elif: Das überrascht mich. Ich habe am 14. Januar online gekündigt und eine Bestätigung erhalten.",
+    "Herr Vogel: Im System ist keine Kündigung hinterlegt. Können Sie mir die Bestätigungsnummer nennen?",
+    "Elif: Ja, bitte notieren Sie K, sieben, vier, zwei, neun. Soll ich sie wiederholen?",
+    "Herr Vogel: Danke, jetzt habe ich die Nachricht gefunden. Sie wurde am 14. Januar um 16 Uhr 08 bestätigt.",
+    "Elif: Dann widerspreche ich der Verlängerung. Die Kündigung erfolgte fristgerecht, das ist dokumentiert.",
+    "Herr Vogel: Sie haben recht. Die Vertragslaufzeit wird korrigiert; Ihr ursprüngliches Ende ist der 30. April.",
+    "Elif: Außerdem wurden im März 29 Euro 90 abgebucht. Wird dieser Betrag erstattet?",
+    "Herr Vogel: Die Rückzahlung wird innerhalb von fünf Werktagen veranlasst. Sie erhalten eine schriftliche Bestätigung.",
+    "Elif: Könnten Sie mir die Bestätigung bitte auch an elif.yilmaz@example.de senden?",
+    "Herr Vogel: Gern. Ich wiederhole: 29 Euro 90 werden erstattet, Vertragsende ist der 30. April.",
+    "Elif: Vielen Dank für die Klärung. Dann warte ich auf Ihre Nachricht. Auf Wiederhören."
+   ],
+   "trans": [
+    {
+     "tr": "Herr Vogel: NordMobil müşteri hizmetleri, Vogel ben. İyi günler.",
+     "en": "Herr Vogel: NordMobil customer service, Vogel speaking. Good afternoon."
+    },
+    {
+     "tr": "Elif: İyi günler, ben Elif Yılmaz. Müşteri numaram 583 194 27.",
+     "en": "Elif: Good afternoon, this is Elif Yılmaz. My customer number is 583 194 27."
+    },
+    {
+     "tr": "Herr Vogel: Bir dakika. Sözleşmenizin gelecek yılın 31 Mart'ına kadar uzatıldığını görüyorum.",
+     "en": "Herr Vogel: One moment. I see that your contract was extended until 31 March next year."
+    },
+    {
+     "tr": "Elif: Bu beni şaşırttı. 14 Ocak'ta internetten feshettim ve onay aldım.",
+     "en": "Elif: That's surprising. I cancelled online on 14 January and received a confirmation."
+    },
+    {
+     "tr": "Herr Vogel: Sistemde fesih kaydı yok. Onay numarasını söyleyebilir misiniz?",
+     "en": "Herr Vogel: There is no cancellation recorded in the system. Can you give me the confirmation number?"
+    },
+    {
+     "tr": "Elif: Evet, lütfen K, yedi, dört, iki, dokuz diye not edin. Tekrarlayayım mı?",
+     "en": "Elif: Yes, please note K, seven, four, two, nine. Shall I repeat it?"
+    },
+    {
+     "tr": "Herr Vogel: Teşekkürler, mesajı buldum. 14 Ocak saat 16.08'de onaylanmış.",
+     "en": "Herr Vogel: Thank you, I've found the message. It was confirmed on 14 January at 4:08 p.m."
+    },
+    {
+     "tr": "Elif: O halde uzatmaya itiraz ediyorum. Fesih zamanında yapıldı ve belgelenmiş durumda.",
+     "en": "Elif: Then I dispute the extension. The cancellation was made on time, and that is documented."
+    },
+    {
+     "tr": "Herr Vogel: Haklısınız. Sözleşme süresi düzeltilecek; ilk bitiş tarihiniz 30 Nisan.",
+     "en": "Herr Vogel: You're right. The contract term will be corrected; your original end date is 30 April."
+    },
+    {
+     "tr": "Elif: Ayrıca mart ayında 29 avro 90 sent çekildi. Bu tutar iade edilecek mi?",
+     "en": "Elif: Also, 29 euros and 90 cents were debited in March. Will that amount be refunded?"
+    },
+    {
+     "tr": "Herr Vogel: İade beş iş günü içinde başlatılacak. Yazılı bir onay alacaksınız.",
+     "en": "Herr Vogel: The refund will be initiated within five working days. You'll receive written confirmation."
+    },
+    {
+     "tr": "Elif: Onayı elif.yilmaz@example.de adresine de gönderebilir misiniz?",
+     "en": "Elif: Could you also send the confirmation to elif.yilmaz@example.de, please?"
+    },
+    {
+     "tr": "Herr Vogel: Tabii. Tekrar ediyorum: 29 avro 90 sent iade edilecek, sözleşme 30 Nisan'da bitecek.",
+     "en": "Herr Vogel: Certainly. To repeat: 29 euros and 90 cents will be refunded, and the contract ends on 30 April."
+    },
+    {
+     "tr": "Elif: Açıklığa kavuşturduğunuz için teşekkürler. Mesajınızı bekliyorum. Hoşça kalın.",
+     "en": "Elif: Thank you for clearing that up. I'll wait for your message. Goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "An welchem Tag hat Elif online gekündigt?",
+     "options": [
+      "Am 4. Januar.",
+      "Am 14. Januar.",
+      "Am 24. Januar."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wann soll die Rückzahlung erfolgen?",
+     "options": [
+      "Innerhalb von fünf Werktagen.",
+      "Innerhalb von zehn Werktagen.",
+      "Am 30. April."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Kündigung wurde am 14. Januar um 16:08 Uhr bestätigt.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elifs Vertrag endet nun am 31. März nächsten Jahres.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-b2-t03",
+   "level": "B2",
+   "topic": "call",
+   "title": "Das Vorstellungsgespräch am Telefon",
+   "paragraphs": [
+    "Frau Berger: Guten Tag, Berger von der Agentur Rheinblick. Spreche ich mit Elif Yılmaz?",
+    "Elif: Ja, guten Tag. Danke für Ihren Anruf zur Stelle als Projektkoordinatorin.",
+    "Frau Berger: Gern. Welche Erfahrungen bringen Sie für die Koordination internationaler Teams mit?",
+    "Elif: Seit drei Jahren plane ich Termine und begleite Projekte mit Partnern in Deutschland und der Türkei.",
+    "Frau Berger: Welche Stärke hilft Ihnen besonders, wenn mehrere Fristen gleichzeitig einzuhalten sind?",
+    "Elif: Ich priorisiere transparent und spreche Verzögerungen früh an, statt sie zu verschweigen.",
+    "Frau Berger: Das klingt überzeugend. Welche Gehaltsvorstellung haben Sie für eine Vollzeitstelle?",
+    "Elif: Ich stelle mir 48.000 Euro brutto jährlich vor, abhängig vom Gesamtpaket und den Aufgaben.",
+    "Frau Berger: Unser vorgesehener Rahmen liegt zunächst bei 46.000 Euro. Wäre das für Sie verhandelbar?",
+    "Elif: Bei einem Entwicklungsgespräch nach sechs Monaten könnte ich mir 46.500 Euro vorstellen.",
+    "Frau Berger: Das halte ich fest. Ab wann könnten Sie anfangen?",
+    "Elif: Mein Arbeitsverhältnis endet am 30. April; ab dem ersten Mai wäre ich verfügbar.",
+    "Frau Berger: Vielen Dank. Wir melden uns bis Freitag, dem 21. März, mit den nächsten Schritten.",
+    "Elif: Danke für das Gespräch. Ich wiederhole: Rückmeldung bis zum 21. März. Auf Wiederhören."
+   ],
+   "trans": [
+    {
+     "tr": "Frau Berger: İyi günler, Rheinblick Ajansı'ndan Berger ben. Elif Yılmaz ile mi görüşüyorum?",
+     "en": "Frau Berger: Good afternoon, Berger from Rheinblick Agency. Am I speaking with Elif Yılmaz?"
+    },
+    {
+     "tr": "Elif: Evet, iyi günler. Proje koordinatörlüğü pozisyonu için aradığınız için teşekkürler.",
+     "en": "Elif: Yes, good afternoon. Thank you for calling about the project coordinator position."
+    },
+    {
+     "tr": "Frau Berger: Memnuniyetle. Uluslararası ekiplerin koordinasyonu konusunda ne tür deneyiminiz var?",
+     "en": "Frau Berger: Of course. What experience do you bring in coordinating international teams?"
+    },
+    {
+     "tr": "Elif: Üç yıldır Almanya ve Türkiye'deki ortaklarla yürütülen projelerde takvim planlıyor ve sürece eşlik ediyorum.",
+     "en": "Elif: For three years, I've planned schedules and supported projects with partners in Germany and Turkey."
+    },
+    {
+     "tr": "Frau Berger: Birden fazla son tarihe aynı anda uyulması gerektiğinde hangi güçlü yanınız özellikle işe yarıyor?",
+     "en": "Frau Berger: Which strength helps you most when several deadlines have to be met at once?"
+    },
+    {
+     "tr": "Elif: Öncelikleri şeffaf biçimde belirler, gecikmeleri gizlemek yerine erkenden dile getiririm.",
+     "en": "Elif: I set priorities transparently and raise delays early instead of concealing them."
+    },
+    {
+     "tr": "Frau Berger: İkna edici görünüyor. Tam zamanlı bir pozisyon için maaş beklentiniz nedir?",
+     "en": "Frau Berger: That sounds convincing. What salary do you expect for a full-time position?"
+    },
+    {
+     "tr": "Elif: Toplam yan haklara ve görevlere bağlı olarak yıllık brüt 48.000 avro düşünüyorum.",
+     "en": "Elif: I have 48,000 euros gross per year in mind, depending on the overall package and responsibilities."
+    },
+    {
+     "tr": "Frau Berger: Öngördüğümüz aralık başlangıçta 46.000 avro. Bu tutar sizin için müzakereye açık mı?",
+     "en": "Frau Berger: Our planned range is initially 46,000 euros. Would that be negotiable for you?"
+    },
+    {
+     "tr": "Elif: Altı ay sonra gelişim değerlendirmesi yapılırsa 46.500 avroyu düşünebilirim.",
+     "en": "Elif: I could consider 46,500 euros if there is a performance review after six months."
+    },
+    {
+     "tr": "Frau Berger: Bunu not ediyorum. Ne zaman başlayabilirsiniz?",
+     "en": "Frau Berger: I'll make a note of that. When could you start?"
+    },
+    {
+     "tr": "Elif: Mevcut iş ilişkim 30 Nisan'da sona eriyor; 1 Mayıs'tan itibaren müsaitim.",
+     "en": "Elif: My current employment ends on 30 April; I would be available from 1 May."
+    },
+    {
+     "tr": "Frau Berger: Teşekkürler. Sonraki adımlar için 21 Mart Cuma gününe kadar size döneceğiz.",
+     "en": "Frau Berger: Thank you. We'll contact you with the next steps by Friday, 21 March."
+    },
+    {
+     "tr": "Elif: Görüşme için teşekkürler. Tekrar ediyorum: 21 Mart'a kadar yanıt. Hoşça kalın.",
+     "en": "Elif: Thank you for the conversation. Let me repeat: a response by 21 March. Goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie lange arbeitet Elif bereits in der Projektkoordination?",
+     "options": [
+      "Seit einem Jahr.",
+      "Seit drei Jahren.",
+      "Seit fünf Jahren."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Welche Gehaltsvorstellung nennt Elif zuerst?",
+     "options": [
+      "46.000 Euro brutto.",
+      "46.500 Euro brutto.",
+      "48.000 Euro brutto."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Elif könnte ab dem ersten Mai anfangen.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Agentur verspricht eine Rückmeldung bis Ende April.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-b2-t04",
+   "level": "B2",
+   "topic": "call",
+   "title": "Eine verschobene Operation klären",
+   "paragraphs": [
+    "Frau Neumann: Patientenservice des St.-Marien-Klinikums, Neumann am Apparat. Guten Tag.",
+    "Elif: Guten Tag, mein Name ist Elif Yılmaz. Die Operation meiner Mutter wurde verschoben.",
+    "Frau Neumann: Wie lautet bitte der Name Ihrer Mutter und ihr Geburtsdatum?",
+    "Elif: Aylin Yılmaz, geboren am 3. Februar 1962. Ich habe die Vollmacht bereits eingereicht.",
+    "Frau Neumann: Danke, ich sehe den Vorgang. Der Eingriff am 7. Mai kann wegen eines Notfalls nicht stattfinden.",
+    "Elif: Das verstehe ich, aber die Mitteilung kam sehr kurzfristig. Gibt es einen Ersatztermin?",
+    "Frau Neumann: Vorgesehen ist Mittwoch, der 21. Mai. Ihre Mutter soll um sechs Uhr morgens eintreffen.",
+    "Elif: Könnten Sie das bitte wiederholen: am einundzwanzigsten Mai um sechs Uhr?",
+    "Frau Neumann: Genau. Die Aufnahme erfolgt am Haupteingang, Haus B. Ab Mitternacht muss sie nüchtern bleiben.",
+    "Elif: Welche Erklärung können Sie zur Verschiebung geben? Wir müssen die Betreuung neu organisieren.",
+    "Frau Neumann: Die ärztliche Leitung informiert Sie heute schriftlich; medizinische Einzelheiten darf ich telefonisch nicht nennen.",
+    "Elif: Bitte senden Sie die Information an die hinterlegte Adresse. Unter welcher Nummer erreiche ich Sie?",
+    "Frau Neumann: Unter 0221 730 481. Ich wiederhole: 0221 730 481, Patientenservice Haus B.",
+    "Elif: Vielen Dank für die Auskunft. Wir warten auf das Schreiben und kommen am 21. Mai. Auf Wiederhören."
+   ],
+   "trans": [
+    {
+     "tr": "Frau Neumann: St. Marien Kliniği hasta hizmetleri, Neumann ben. İyi günler.",
+     "en": "Frau Neumann: Patient services at St. Marien Hospital, Neumann speaking. Good afternoon."
+    },
+    {
+     "tr": "Elif: İyi günler, adım Elif Yılmaz. Annemin ameliyatı ertelendi.",
+     "en": "Elif: Good afternoon, my name is Elif Yılmaz. My mother's operation was postponed."
+    },
+    {
+     "tr": "Frau Neumann: Annenizin adını ve doğum tarihini alabilir miyim?",
+     "en": "Frau Neumann: May I have your mother's name and date of birth, please?"
+    },
+    {
+     "tr": "Elif: Aylin Yılmaz, 3 Şubat 1962 doğumlu. Yetki belgesini daha önce sundum.",
+     "en": "Elif: Aylin Yılmaz, born on 3 February 1962. I have already submitted the authorization."
+    },
+    {
+     "tr": "Frau Neumann: Teşekkürler, kaydı görüyorum. 7 Mayıs'taki ameliyat acil bir durum nedeniyle yapılamıyor.",
+     "en": "Frau Neumann: Thank you, I see the record. The operation on 7 May cannot take place because of an emergency."
+    },
+    {
+     "tr": "Elif: Bunu anlıyorum ama bildirim çok kısa süre önce geldi. Yeni bir tarih var mı?",
+     "en": "Elif: I understand, but the notice came at very short notice. Is there a replacement date?"
+    },
+    {
+     "tr": "Frau Neumann: Planlanan tarih 21 Mayıs Çarşamba. Annenizin sabah saat altıda gelmesi gerekiyor.",
+     "en": "Frau Neumann: The proposed date is Wednesday, 21 May. Your mother should arrive at six in the morning."
+    },
+    {
+     "tr": "Elif: Tekrar eder misiniz lütfen: 21 Mayıs saat altıda mı?",
+     "en": "Elif: Could you repeat that, please: 21 May at six o'clock?"
+    },
+    {
+     "tr": "Frau Neumann: Aynen. Kayıt ana girişte, B binasında yapılacak. Gece yarısından itibaren aç kalması gerekiyor.",
+     "en": "Frau Neumann: Exactly. Admission is at the main entrance, Building B. She must fast from midnight."
+    },
+    {
+     "tr": "Elif: Ertelemeyle ilgili nasıl bir açıklama verebilirsiniz? Bakım düzenini yeniden ayarlamamız gerekiyor.",
+     "en": "Elif: What explanation can you give for the postponement? We need to reorganize her care."
+    },
+    {
+     "tr": "Frau Neumann: Tıbbi yönetim bugün size yazılı bilgi verecek; tıbbi ayrıntıları telefonda açıklayamam.",
+     "en": "Frau Neumann: The medical director will inform you in writing today; I cannot give medical details by phone."
+    },
+    {
+     "tr": "Elif: Lütfen bilgiyi kayıtlı adrese gönderin. Size hangi numaradan ulaşabilirim?",
+     "en": "Elif: Please send the information to the address on file. What number can I reach you at?"
+    },
+    {
+     "tr": "Frau Neumann: 0221 730 481 numarasından. Tekrar ediyorum: 0221 730 481, B binası hasta hizmetleri.",
+     "en": "Frau Neumann: At 0221 730 481. To repeat: 0221 730 481, patient services, Building B."
+    },
+    {
+     "tr": "Elif: Bilgi için teşekkürler. Yazıyı bekleyeceğiz ve 21 Mayıs'ta geleceğiz. Hoşça kalın.",
+     "en": "Elif: Thank you for the information. We'll wait for the letter and come on 21 May. Goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann soll Elifs Mutter zur Aufnahme erscheinen?",
+     "options": [
+      "Am 7. Mai um 6 Uhr.",
+      "Am 21. Mai um 6 Uhr.",
+      "Am 21. Mai um 7 Uhr."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wo findet die Aufnahme statt?",
+     "options": [
+      "Am Haupteingang, Haus B.",
+      "Am Seiteneingang, Haus A.",
+      "In der Notaufnahme, Haus C."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Eingriff am 7. Mai wurde wegen eines Notfalls verschoben.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif soll die medizinischen Einzelheiten sofort telefonisch erhalten.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-b2-t05",
+   "level": "B2",
+   "topic": "call",
+   "title": "Raum und Haftung für ein Projekt klären",
+   "paragraphs": [
+    "Herr Lehmann: Kulturverein Miteinander, Vorsitzender Lehmann. Guten Tag, wie kann ich Ihnen helfen?",
+    "Elif: Guten Tag, hier ist Elif Yılmaz. Ich plane ein ehrenamtliches Sprachcafé für unsere Nachbarschaft.",
+    "Herr Lehmann: Das klingt interessant. An welchem Tag und für wie viele Personen benötigen Sie einen Raum?",
+    "Elif: Donnerstags von 18 bis 20 Uhr, ab dem 4. Juni. Wir rechnen mit ungefähr zwölf Teilnehmenden.",
+    "Herr Lehmann: Der Gruppenraum ist dann frei. Die Miete beträgt 35 Euro pro Abend, inklusive Heizung.",
+    "Elif: Für ein freiwilliges Projekt ist das auf Dauer schwierig. Wäre bei zwölf Terminen ein Nachlass möglich?",
+    "Herr Lehmann: Wenn Sie den Raum regelmäßig buchen, könnte ich 28 Euro pro Abend anbieten.",
+    "Elif: Das wäre hilfreich. Wie ist die Haftung geregelt, falls jemand im Raum stürzt?",
+    "Herr Lehmann: Unsere Gebäudeversicherung deckt Schäden am Haus; für Personenschäden brauchen die Veranstalter eine Haftpflichtversicherung.",
+    "Elif: Wir haben eine Vereinsversicherung. Ich lasse mir schriftlich bestätigen, dass das Sprachcafé eingeschlossen ist.",
+    "Herr Lehmann: Bitte senden Sie den Nachweis bis zum 20. Mai. Die Schlüsselübergabe wäre jeweils um 17 Uhr 45.",
+    "Elif: Und die Reinigung? Wir würden aufräumen und den Raum bis 20 Uhr 15 verlassen.",
+    "Herr Lehmann: Einverstanden. Ich notiere zwölf Abende zu 28 Euro und schicke Ihnen den Vertrag morgen.",
+    "Elif: Vielen Dank. Ich wiederhole: Versicherungsnachweis bis zum 20. Mai, Schlüssel um 17 Uhr 45. Auf Wiederhören."
+   ],
+   "trans": [
+    {
+     "tr": "Herr Lehmann: Miteinander Kültür Derneği, başkan Lehmann ben. İyi günler, nasıl yardımcı olabilirim?",
+     "en": "Herr Lehmann: Miteinander Cultural Association, chair Lehmann speaking. Good afternoon, how can I help?"
+    },
+    {
+     "tr": "Elif: İyi günler, ben Elif Yılmaz. Mahallemiz için gönüllü bir dil kafesi planlıyorum.",
+     "en": "Elif: Good afternoon, this is Elif Yılmaz. I'm planning a volunteer language café for our neighborhood."
+    },
+    {
+     "tr": "Herr Lehmann: Kulağa ilginç geliyor. Hangi gün ve kaç kişi için odaya ihtiyacınız var?",
+     "en": "Herr Lehmann: That sounds interesting. Which day and for how many people do you need a room?"
+    },
+    {
+     "tr": "Elif: 4 Haziran'dan başlayarak perşembe günleri 18.00-20.00 arası. Yaklaşık on iki katılımcı bekliyoruz.",
+     "en": "Elif: Thursdays from 6 to 8 p.m., starting 4 June. We expect about twelve participants."
+    },
+    {
+     "tr": "Herr Lehmann: Grup odası o saatlerde boş. Isıtma dahil, akşam başına kira 35 avro.",
+     "en": "Herr Lehmann: The group room is available then. Rent is 35 euros per evening, including heating."
+    },
+    {
+     "tr": "Elif: Gönüllü bir proje için bu tutar uzun vadede zorlayıcı. On iki buluşmada indirim mümkün mü?",
+     "en": "Elif: For a volunteer project, that is difficult over time. Could you offer a discount for twelve sessions?"
+    },
+    {
+     "tr": "Herr Lehmann: Odayı düzenli rezerve ederseniz akşam başına 28 avro önerebilirim.",
+     "en": "Herr Lehmann: If you book the room regularly, I could offer 28 euros per evening."
+    },
+    {
+     "tr": "Elif: Bu yardımcı olur. Odada biri düşerse sorumluluk nasıl düzenleniyor?",
+     "en": "Elif: That would help. How is liability handled if someone falls in the room?"
+    },
+    {
+     "tr": "Herr Lehmann: Bina sigortamız binadaki hasarı kapsıyor; kişisel yaralanmalarda organizatörlerin sorumluluk sigortası gerekir.",
+     "en": "Herr Lehmann: Our building insurance covers damage to the property; organizers need liability insurance for personal injuries."
+    },
+    {
+     "tr": "Elif: Dernek sigortamız var. Dil kafesinin kapsamda olduğunu yazılı olarak teyit ettireceğim.",
+     "en": "Elif: We have association insurance. I'll get written confirmation that the language café is covered."
+    },
+    {
+     "tr": "Herr Lehmann: Lütfen belgeyi 20 Mayıs'a kadar gönderin. Anahtarlar her seferinde saat 17.45'te teslim edilebilir.",
+     "en": "Herr Lehmann: Please send proof by 20 May. The keys could be handed over at 5:45 p.m. each time."
+    },
+    {
+     "tr": "Elif: Temizlik nasıl olacak? Toparlayıp odayı 20.15'e kadar boşaltabiliriz.",
+     "en": "Elif: And what about cleaning? We would tidy up and leave the room by 8:15 p.m."
+    },
+    {
+     "tr": "Herr Lehmann: Anlaştık. 28 avrodan on iki akşam olarak not ediyorum ve sözleşmeyi yarın gönderiyorum.",
+     "en": "Herr Lehmann: Agreed. I'll note twelve evenings at 28 euros and send you the contract tomorrow."
+    },
+    {
+     "tr": "Elif: Teşekkürler. Tekrar ediyorum: sigorta belgesi 20 Mayıs'a kadar, anahtar 17.45'te. Hoşça kalın.",
+     "en": "Elif: Thank you. To repeat: proof of insurance by 20 May, keys at 5:45 p.m. Goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie hoch ist die vereinbarte Raummiete pro Abend?",
+     "options": [
+      "28 Euro.",
+      "35 Euro.",
+      "40 Euro."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Bis wann soll Elif den Versicherungsnachweis schicken?",
+     "options": [
+      "Bis zum 4. Juni.",
+      "Bis zum 20. Mai.",
+      "Bis zum 20. Juni."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Gebäudeversicherung deckt laut Herrn Lehmann auch Personenschäden der Teilnehmenden.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Schlüsselübergabe ist jeweils um 17:45 Uhr.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-b2-t06",
+   "level": "B2",
+   "topic": "call",
+   "title": "Die Abbuchung prüfen",
+   "paragraphs": [
+    "Frau Berger: Kreissparkasse Köln, Frau Berger. Guten Tag.",
+    "Elif: Hier ist Elif Yılmaz. Am 18. November wurden 86,40 Euro abgebucht.",
+    "Frau Berger: Nennen Sie bitte die letzten vier Ziffern Ihrer Karte.",
+    "Elif: 4, 2, 7, 1. Mein Nachname wird Y-ı-l-m-a-z geschrieben.",
+    "Frau Berger: Die Zahlung ging an Nordlicht Media. Kennen Sie diesen Händler?",
+    "Elif: Nein, ich habe dort nichts bestellt und kein Abonnement abgeschlossen.",
+    "Frau Berger: Ich nehme eine Reklamation auf. Die Prüfung dauert bis zu 14 Tage.",
+    "Elif: Wird der Betrag vorläufig zurückgebucht?",
+    "Frau Berger: Das ist möglich, sobald Sie unser Formular unterschrieben einreichen.",
+    "Elif: Bitte senden Sie es heute an elif.yilmaz@mail.de.",
+    "Frau Berger: Gern, innerhalb einer Stunde. Schreiben Sie Datum und Betrag dazu.",
+    "Elif: Also 18. November und 86,40 Euro. Vielen Dank, auf Wiederhören."
+   ],
+   "trans": [
+    {
+     "tr": "Frau Berger: Kreissparkasse Köln, Frau Berger. İyi günler.",
+     "en": "Frau Berger: Kreissparkasse Köln, Frau Berger speaking. Good afternoon."
+    },
+    {
+     "tr": "Elif: Ben Elif Yılmaz. 18 Kasım'da 86,40 avro çekilmiş.",
+     "en": "Elif: This is Elif Yılmaz. 86.40 euros were charged on 18 November."
+    },
+    {
+     "tr": "Frau Berger: Kartınızın son dört hanesini söyler misiniz?",
+     "en": "Frau Berger: Please give me the last four digits of your card."
+    },
+    {
+     "tr": "Elif: 4, 2, 7, 1. Soyadım Y-ı-l-m-a-z diye yazılıyor.",
+     "en": "Elif: 4, 2, 7, 1. My surname is spelled Y-ı-l-m-a-z."
+    },
+    {
+     "tr": "Frau Berger: Ödeme Nordlicht Media'ya gitmiş. Bu satıcıyı tanıyor musunuz?",
+     "en": "Frau Berger: The payment went to Nordlicht Media. Do you know this merchant?"
+    },
+    {
+     "tr": "Elif: Hayır, oradan sipariş vermedim ve abonelik açmadım.",
+     "en": "Elif: No, I ordered nothing there and took out no subscription."
+    },
+    {
+     "tr": "Frau Berger: İtirazınızı kayda alıyorum. İnceleme 14 güne kadar sürer.",
+     "en": "Frau Berger: I'll register a dispute. The review takes up to 14 days."
+    },
+    {
+     "tr": "Elif: Tutar geçici olarak geri yatırılacak mı?",
+     "en": "Elif: Will the amount be provisionally credited back?"
+    },
+    {
+     "tr": "Frau Berger: Formumuzu imzalayıp sunduğunuzda bu mümkün.",
+     "en": "Frau Berger: That's possible once you submit our signed form."
+    },
+    {
+     "tr": "Elif: Lütfen bugün elif.yilmaz@mail.de adresine gönderin.",
+     "en": "Elif: Please send it today to elif.yilmaz@mail.de."
+    },
+    {
+     "tr": "Frau Berger: Tabii, bir saat içinde. Tarih ve tutarı da yazın.",
+     "en": "Frau Berger: Certainly, within an hour. Include the date and amount."
+    },
+    {
+     "tr": "Elif: Yani 18 Kasım ve 86,40 avro. Teşekkürler, hoşça kalın.",
+     "en": "Elif: So, 18 November and 86.40 euros. Thank you, goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie hoch war die Abbuchung?",
+     "options": [
+      "68,40 Euro",
+      "86,40 Euro",
+      "96,40 Euro"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wie lange dauert die Prüfung?",
+     "options": [
+      "7 Tage",
+      "14 Tage",
+      "4 Wochen"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat ein Abonnement abgeschlossen.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Eine vorläufige Rückbuchung ist möglich.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-b2-t07",
+   "level": "B2",
+   "topic": "call",
+   "title": "Das Umweltprojekt im Viertel",
+   "paragraphs": [
+    "Elif: Elif Yılmaz, hallo?",
+    "Frau König: König von der Kölner Stadtzeitung. Passt ein kurzes Interview?",
+    "Elif: Ja, gern. Worum geht es genau?",
+    "Frau König: Um das Umweltprojekt am Eigelstein. Helfen Sie bei der Aufräumaktion?",
+    "Elif: Ja, aber die Initiative kam von unserem Nachbarschaftsverein.",
+    "Frau König: Wie viele Freiwillige nehmen teil?",
+    "Elif: Etwa 15 bis 20. Am 6. Dezember treffen wir uns um zehn vor der Stadtbibliothek.",
+    "Frau König: War das der 16. Dezember? Die Leitung ist schlecht.",
+    "Elif: Nein, der Sechste, sechs und nicht sechzehn. Ich maile Ihnen die Details.",
+    "Frau König: Was ist das Ziel der Aktion?",
+    "Elif: Wir sammeln Müll und bitten Geschäfte, weniger Einwegverpackungen zu verwenden.",
+    "Frau König: Darf ich Sie mit vollem Namen zitieren? Der Artikel erscheint Freitag.",
+    "Elif: Ja, aber bitte veröffentlichen Sie meine private Nummer nicht. Danke."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Elif Yılmaz, alo?",
+     "en": "Elif: Elif Yılmaz speaking, hello?"
+    },
+    {
+     "tr": "Frau König: Kölner Stadtzeitung'dan König ben. Kısa bir röportaj uygun mu?",
+     "en": "Frau König: König from the Kölner Stadtzeitung. Is a short interview convenient?"
+    },
+    {
+     "tr": "Elif: Evet, memnuniyetle. Konu tam olarak nedir?",
+     "en": "Elif: Yes, gladly. What exactly is it about?"
+    },
+    {
+     "tr": "Frau König: Eigelstein çevre projesiyle ilgili. Temizlik etkinliğine yardım ediyor musunuz?",
+     "en": "Frau König: It's about the Eigelstein project. Do you help with the clean-up?"
+    },
+    {
+     "tr": "Elif: Evet, ama girişim mahalle derneğimizden geldi.",
+     "en": "Elif: Yes, but the initiative came from our neighborhood association."
+    },
+    {
+     "tr": "Frau König: Kaç gönüllü katılıyor?",
+     "en": "Frau König: How many volunteers take part?"
+    },
+    {
+     "tr": "Elif: Yaklaşık 15-20. 6 Aralık saat onda şehir kütüphanesi önünde buluşuyoruz.",
+     "en": "Elif: About 15 to 20. We meet outside the city library at ten on 6 December."
+    },
+    {
+     "tr": "Frau König: 16 Aralık mıydı? Hat kötü.",
+     "en": "Frau König: Was that 16 December? The line is poor."
+    },
+    {
+     "tr": "Elif: Hayır, altısı, on altı değil. Detayları e-postalarım.",
+     "en": "Elif: No, the sixth, six and not sixteen. I'll email you the details."
+    },
+    {
+     "tr": "Frau König: Etkinliğin amacı nedir?",
+     "en": "Frau König: What's the aim of the event?"
+    },
+    {
+     "tr": "Elif: Çöp topluyor ve dükkânlardan daha az tek kullanımlık ambalaj istiyoruz.",
+     "en": "Elif: We collect litter and ask shops to use fewer disposable packages."
+    },
+    {
+     "tr": "Frau König: Tam adınızla alıntı yapabilir miyim? Yazı cuma yayımlanacak.",
+     "en": "Frau König: May I quote your full name? The article appears Friday."
+    },
+    {
+     "tr": "Elif: Evet, ama özel numaramı yayımlamayın lütfen. Teşekkürler.",
+     "en": "Elif: Yes, but please don't publish my private number. Thank you."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann treffen sich die Freiwilligen?",
+     "options": [
+      "6. Dezember um zehn",
+      "16. Dezember um zehn",
+      "6. Dezember um elf"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo treffen sie sich?",
+     "options": [
+      "Vor der Stadtbibliothek",
+      "Vor dem Rathaus",
+      "Am Bahnhof"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif allein gründete die Initiative.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die private Telefonnummer soll nicht erscheinen.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-b2-t08",
+   "level": "B2",
+   "topic": "call",
+   "title": "Eine Beschwerde über das Hotel",
+   "paragraphs": [
+    "Frau Hartmann: Reisebüro Sonnenweg, Hartmann. Guten Tag.",
+    "Elif: Elif Yılmaz hier, wegen Buchung R-90418. Ich möchte mich beschweren.",
+    "Frau Hartmann: Um Ihren Aufenthalt in Antalya vom 3. bis 10. Oktober?",
+    "Elif: Ja. Das Hotel lag nicht am Strand, obwohl die Anzeige das versprach.",
+    "Frau Hartmann: Die Anzeige nannte 300 Meter. Wie weit war es wirklich?",
+    "Elif: Laut Hotel 1,4 Kilometer. Der Pool war die ganze Woche gesperrt.",
+    "Frau Hartmann: Haben Sie dafür Nachweise?",
+    "Elif: Fotos und eine Hotelnachricht vom 4. Oktober. Soll ich alles senden?",
+    "Frau Hartmann: Bitte an service@sonnenweg.de, mit Buchungsnummer im Betreff.",
+    "Elif: Der Reisepreis war 1.120 Euro. Eine teilweise Erstattung wäre angemessen.",
+    "Frau Hartmann: Ich kann bis zum 2. Dezember antworten, sobald alles geprüft ist.",
+    "Elif: Einverstanden. Bitte bestätigen Sie den Eingang kurz. Vielen Dank."
+   ],
+   "trans": [
+    {
+     "tr": "Frau Hartmann: Sonnenweg Seyahat, Hartmann. İyi günler.",
+     "en": "Frau Hartmann: Sonnenweg Travel, Hartmann speaking. Good afternoon."
+    },
+    {
+     "tr": "Elif: R-90418 için Elif Yılmaz arıyor. Şikâyet etmek istiyorum.",
+     "en": "Elif: Elif Yılmaz calling about booking R-90418. I'd like to complain."
+    },
+    {
+     "tr": "Frau Hartmann: Antalya'da 3-10 Ekim konaklamanızla mı ilgili?",
+     "en": "Frau Hartmann: About your Antalya stay from 3 to 10 October?"
+    },
+    {
+     "tr": "Elif: Evet. İlan öyle dese de otel sahilde değildi.",
+     "en": "Elif: Yes. The hotel wasn't by the beach, although the listing promised that."
+    },
+    {
+     "tr": "Frau Hartmann: İlanda 300 metre denmiş. Gerçekte ne kadardı?",
+     "en": "Frau Hartmann: The listing said 300 meters. How far was it really?"
+    },
+    {
+     "tr": "Elif: Otele göre 1,4 kilometre. Havuz tüm hafta kapalıydı.",
+     "en": "Elif: According to the hotel, 1.4 kilometers. The pool was closed all week."
+    },
+    {
+     "tr": "Frau Hartmann: Bunun için kanıtınız var mı?",
+     "en": "Frau Hartmann: Do you have evidence?"
+    },
+    {
+     "tr": "Elif: Fotoğraflar ve 4 Ekim tarihli otel mesajı var. Hepsini göndereyim mi?",
+     "en": "Elif: Photos and a hotel message dated 4 October. Should I send everything?"
+    },
+    {
+     "tr": "Frau Hartmann: Lütfen service@sonnenweg.de adresine, konuya rezervasyon numarasıyla gönderin.",
+     "en": "Frau Hartmann: Please send it to service@sonnenweg.de, with the booking number in the subject."
+    },
+    {
+     "tr": "Elif: Seyahat 1.120 avroydu. Kısmi iade uygun olur.",
+     "en": "Elif: The trip cost 1,120 euros. A partial refund would be reasonable."
+    },
+    {
+     "tr": "Frau Hartmann: Her şey incelenince 2 Aralık'a kadar yanıt verebilirim.",
+     "en": "Frau Hartmann: I can respond by 2 December once everything has been reviewed."
+    },
+    {
+     "tr": "Elif: Anlaştık. Ulaştığını kısaca teyit edin lütfen. Teşekkürler.",
+     "en": "Elif: Agreed. Please briefly confirm receipt. Thank you."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie weit war das Hotel vom Strand entfernt?",
+     "options": [
+      "300 Meter",
+      "1,4 Kilometer",
+      "3 Kilometer"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Bis wann kommt die Antwort?",
+     "options": [
+      "2. Dezember",
+      "4. Dezember",
+      "10. Dezember"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Pool war nur einen Tag geschlossen.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif soll die Buchungsnummer im Betreff angeben.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-b2-t09",
+   "level": "B2",
+   "topic": "call",
+   "title": "Der Abschluss aus der Türkei",
+   "paragraphs": [
+    "Frau Seidel: Universität Köln, Studierendenservice, Frau Seidel. Guten Tag.",
+    "Elif: Elif Yılmaz hier. Ich möchte meinen türkischen Bachelorabschluss anerkennen lassen.",
+    "Frau Seidel: Für einen Master oder eine berufliche Anerkennung?",
+    "Elif: Für den Master in Umweltwissenschaften. Die Frist endet am 15. Januar.",
+    "Frau Seidel: Wir brauchen Zeugnis, Fächerübersicht und beglaubigte Übersetzungen.",
+    "Elif: Müssen auch Modulbeschreibungen übersetzt sein?",
+    "Frau Seidel: Ja, falls daraus Inhalte hervorgehen. Die Originale behalten Sie.",
+    "Elif: Wie lange dauert die Prüfung?",
+    "Frau Seidel: Bei vollständigen Unterlagen etwa sechs Wochen. Im Dezember eventuell länger.",
+    "Elif: Kann ich erst Scans schicken und Kopien nachreichen?",
+    "Frau Seidel: Für eine Vorprüfung ja. Die endgültige Entscheidung braucht beglaubigte Kopien.",
+    "Elif: An welche Adresse? Bitte langsam buchstabieren.",
+    "Frau Seidel: Anerkennung, Bindestrich, master, at uni-koeln.de. Wiederholt: anerkennung-master@uni-koeln.de.",
+    "Elif: Danke. Ich sende die Scans heute und Kopien bis Ende November. Auf Wiederhören."
+   ],
+   "trans": [
+    {
+     "tr": "Frau Seidel: Köln Üniversitesi Öğrenci Hizmetleri, Frau Seidel. İyi günler.",
+     "en": "Frau Seidel: University of Cologne Student Services, Frau Seidel. Good afternoon."
+    },
+    {
+     "tr": "Elif: Ben Elif Yılmaz. Türkiye lisans diplomamı tanıtmak istiyorum.",
+     "en": "Elif: Elif Yılmaz speaking. I'd like my Turkish bachelor's degree recognized."
+    },
+    {
+     "tr": "Frau Seidel: Yüksek lisans için mi, mesleki tanınma mı?",
+     "en": "Frau Seidel: For a master's or professional recognition?"
+    },
+    {
+     "tr": "Elif: Çevre Bilimleri yüksek lisansına. Son tarih 15 Ocak.",
+     "en": "Elif: For the master's in Environmental Sciences. The deadline is 15 January."
+    },
+    {
+     "tr": "Frau Seidel: Diploma, ders dökümü ve onaylı çeviriler gerekiyor.",
+     "en": "Frau Seidel: We need the certificate, course list, and certified translations."
+    },
+    {
+     "tr": "Elif: Ders tanımları da çevrilmeli mi?",
+     "en": "Elif: Do module descriptions also need translation?"
+    },
+    {
+     "tr": "Frau Seidel: Evet, içerikler anlaşılacaksa. Orijinaller sizde kalır.",
+     "en": "Frau Seidel: Yes, if their content needs to be clear. You keep the originals."
+    },
+    {
+     "tr": "Elif: İnceleme ne kadar sürüyor?",
+     "en": "Elif: How long does the review take?"
+    },
+    {
+     "tr": "Frau Seidel: Belgeler tam ise yaklaşık altı hafta. Aralıkta daha uzun olabilir.",
+     "en": "Frau Seidel: About six weeks with complete documents. Possibly longer in December."
+    },
+    {
+     "tr": "Elif: Önce taramalar gönderip kopyaları sonra sunabilir miyim?",
+     "en": "Elif: Can I send scans first and submit copies later?"
+    },
+    {
+     "tr": "Frau Seidel: Ön inceleme için evet. Kesin karar için onaylı kopyalar gerekir.",
+     "en": "Frau Seidel: For a preliminary review, yes. The final decision requires certified copies."
+    },
+    {
+     "tr": "Elif: Hangi adres? Yavaşça heceleyin lütfen.",
+     "en": "Elif: What address? Please spell it slowly."
+    },
+    {
+     "tr": "Frau Seidel: Anerkennung, tire, master, uni-koeln.de. Tekrar: anerkennung-master@uni-koeln.de.",
+     "en": "Frau Seidel: Anerkennung, hyphen, master, at uni-koeln.de. Again: anerkennung-master@uni-koeln.de."
+    },
+    {
+     "tr": "Elif: Teşekkürler. Taramaları bugün, kopyaları kasım sonuna kadar gönderirim. Hoşça kalın.",
+     "en": "Elif: Thanks. I'll send scans today and copies by the end of November. Goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann endet die Bewerbungsfrist?",
+     "options": [
+      "15. Januar",
+      "15. Dezember",
+      "31. Januar"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie lange dauert die Prüfung?",
+     "options": [
+      "Vier Wochen",
+      "Sechs Wochen",
+      "Acht Wochen"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif braucht eine berufliche Anerkennung.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Scans genügen für eine Vorprüfung.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-b2-t10",
+   "level": "B2",
+   "topic": "call",
+   "title": "Die Nachzahlung in Raten",
+   "paragraphs": [
+    "Herr Weber: RheinEnergie Kundenservice, Weber. Guten Tag.",
+    "Elif: Elif Yılmaz hier, wegen meiner Jahresabrechnung.",
+    "Herr Weber: Nennen Sie bitte Ihre Vertragskontonummer. Sie steht oben rechts.",
+    "Elif: 731-408-26. Die Nachzahlung beträgt 642 Euro und ist am 12. Dezember fällig.",
+    "Herr Weber: Das stimmt. Ihr Verbrauch lag über dem Vorjahr, vor allem im Januar.",
+    "Elif: Prüfen Sie bitte, ob der Zählerstand korrekt übermittelt wurde.",
+    "Herr Weber: Der Stand vom 30. September wurde bestätigt. Ein Fehler ist unwahrscheinlich.",
+    "Elif: Ich kann nicht alles auf einmal zahlen. Sind vier Monatsraten möglich?",
+    "Herr Weber: Ja, dreimal 160 Euro und eine Schlussrate von 162 Euro.",
+    "Elif: Wann wird die erste Rate fällig? Ich möchte Mahngebühren vermeiden.",
+    "Herr Weber: Am 12. Dezember. Danach jeweils am Zwölften des Folgemonats.",
+    "Elif: Bitte bestätigen Sie die Vereinbarung schriftlich, bevor ich zustimme.",
+    "Herr Weber: Natürlich. Die Bestätigung geht heute an Ihre gespeicherte E-Mail-Adresse.",
+    "Elif: Dann bin ich einverstanden. Vielen Dank, auf Wiederhören."
+   ],
+   "trans": [
+    {
+     "tr": "Herr Weber: RheinEnergie Müşteri Hizmetleri, Weber. İyi günler.",
+     "en": "Herr Weber: RheinEnergie customer service, Weber speaking. Good afternoon."
+    },
+    {
+     "tr": "Elif: Yıllık faturam için Elif Yılmaz arıyor.",
+     "en": "Elif: Elif Yılmaz calling about my annual bill."
+    },
+    {
+     "tr": "Herr Weber: Lütfen müşteri hesap numaranızı söyleyin. Sağ üstte.",
+     "en": "Herr Weber: Please give me your account number. It's at the top right."
+    },
+    {
+     "tr": "Elif: 731-408-26. Ek ödeme 642 avro, vadesi 12 Aralık.",
+     "en": "Elif: 731-408-26. The balance is 642 euros, due 12 December."
+    },
+    {
+     "tr": "Herr Weber: Doğru. Tüketiminiz geçen yıldan yüksekti, özellikle ocakta.",
+     "en": "Herr Weber: That's right. Your consumption was higher than last year, especially in January."
+    },
+    {
+     "tr": "Elif: Sayaç değerinin doğru iletilip iletilmediğini kontrol edin lütfen.",
+     "en": "Elif: Please check whether the meter reading was transmitted correctly."
+    },
+    {
+     "tr": "Herr Weber: 30 Eylül değeri doğrulandı. Hata olasılığı düşük.",
+     "en": "Herr Weber: The 30 September reading was confirmed. An error is unlikely."
+    },
+    {
+     "tr": "Elif: Hepsini bir anda ödeyemem. Dört aylık taksit olur mu?",
+     "en": "Elif: I can't pay it all at once. Are four monthly installments possible?"
+    },
+    {
+     "tr": "Herr Weber: Evet, üç kez 160 avro ve son taksit 162 avro.",
+     "en": "Herr Weber: Yes, three installments of 160 euros and a final payment of 162 euros."
+    },
+    {
+     "tr": "Elif: İlk taksit ne zaman vadesi gelir? Gecikme ücretini önlemek istiyorum.",
+     "en": "Elif: When is the first installment due? I want to avoid late fees."
+    },
+    {
+     "tr": "Herr Weber: 12 Aralık'ta. Sonrasında takip eden ayın on ikisinde.",
+     "en": "Herr Weber: On 12 December. Then on the twelfth of each following month."
+    },
+    {
+     "tr": "Elif: Kabul etmeden önce anlaşmayı yazılı teyit edin lütfen.",
+     "en": "Elif: Please confirm the arrangement in writing before I agree."
+    },
+    {
+     "tr": "Herr Weber: Tabii. Onay bugün kayıtlı e-posta adresinize gider.",
+     "en": "Herr Weber: Of course. The confirmation will go to your saved email address today."
+    },
+    {
+     "tr": "Elif: O halde kabul ediyorum. Teşekkürler, hoşça kalın.",
+     "en": "Elif: Then I agree. Thank you, goodbye."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie hoch ist die Nachzahlung?",
+     "options": [
+      "624 Euro",
+      "642 Euro",
+      "662 Euro"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wie hoch ist die Schlussrate?",
+     "options": [
+      "160 Euro",
+      "162 Euro",
+      "164 Euro"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Der Zählerstand wurde bestätigt.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Alle Raten sind gleich hoch.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-b2-m01",
+   "level": "B2",
+   "topic": "message",
+   "title": "Gespräch wegen der Mieterhöhung",
+   "paragraphs": [
+    "Guten Tag, Frau Y?lmaz, hier ist Frau Weber von der Kanzlei K?nig.",
+    "Wir haben Ihre Unterlagen zur Mieterh?hung gepr?ft und k?nnten Dienstag, den 14. Mai, um 16 Uhr anbieten.",
+    "Bitte bringen Sie den Mietvertrag und das Erh?hungsschreiben mit.",
+    "Der Termin dauert 45 Minuten. Unsere Nummer lautet 0221 458 73 20, nochmals: 0221 458 73 20.",
+    "Bitte best?tigen Sie bis Freitag. Wir pr?fen dann die rechtliche Begr?ndung. Auf Wiederh?ren."
+   ],
+   "trans": [
+    {
+     "tr": "İyi günler Frau Yılmaz, König Hukuk Bürosu'ndan Frau Weber. Kira artışıyla ilgili belgelerinizi inceledik.",
+     "en": "Good afternoon, Ms Yılmaz, this is Ms Weber from König law office. We have reviewed your documents about the rent increase."
+    },
+    {
+     "tr": "Görüşme için size 14 Mayıs Salı günü saat 16.00'yı önerebilirim. Lütfen kira sözleşmesini yanınızda getirin.",
+     "en": "I could offer you a consultation on Tuesday, 14 May, at 4 p.m. Please bring your rental contract."
+    },
+    {
+     "tr": "Artış mektubu ve mahallenizdeki karşılaştırmalı kira bilgilerini de bulduysanız getirmeniz yararlı olur.",
+     "en": "The increase notice and comparable rents in your neighborhood would also help, if you have already found them."
+    },
+    {
+     "tr": "Görüşme yaklaşık 45 dakika sürer. Sorularınız için bize 0221 458 73 20 numarasından ulaşabilirsiniz; tekrarlıyorum: 0221 458 73 20.",
+     "en": "The appointment takes about 45 minutes. For questions, call 0221 458 73 20; I repeat: 0221 458 73 20."
+    },
+    {
+     "tr": "Lütfen randevuyu cumaya kadar onaylayın. Ardından istenen artışın hukuken gerekçeli olup olmadığını inceleyeceğiz. Hoşça kalın.",
+     "en": "Please confirm the appointment by Friday. We will then check whether the requested increase is legally justified. Goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Vergleichsmiete",
+     "lemma": "Vergleichsmiete",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "karşılaştırmalı kira",
+      "en": "comparable rent"
+     }
+    },
+    {
+     "form": "begründet",
+     "lemma": "begründen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "gerekçelendirilmiş",
+      "en": "justified"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann ist das Beratungsgespräch?",
+     "options": [
+      "Am Dienstag um 16 Uhr",
+      "Am Freitag um 16 Uhr",
+      "Am Dienstag um 14 Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Yılmaz soll den Mietvertrag mitbringen.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-b2-m02",
+   "level": "B2",
+   "topic": "message",
+   "title": "Vertragsverlängerung im Gespräch",
+   "paragraphs": [
+    "Guten Tag, Frau Y?lmaz, Herr Brandt aus der Personalabteilung. Wir m?chten Ihren Vertrag um ein Jahr verl?ngern.",
+    "Das Angebot umfasst 3.200 Euro brutto und zwei zus?tzliche Urlaubstage. Es gilt ab dem 1. Juli.",
+    "Die Personalchefin erl?utert Ihnen die Aufgaben vor der Unterschrift.",
+    "Kommen Sie am 6. Juni um 10.30 Uhr in Raum 214? Bitte melden Sie sich am Empfang.",
+    "Passt es nicht, erreichen Sie mich unter 0221 610 42 18. Nochmals: 0221 610 42 18. Auf Wiederh?ren."
+   ],
+   "trans": [
+    {
+     "tr": "İyi günler Frau Yılmaz, İnsan Kaynakları'ndan Herr Brandt. Sözleşmenizi bir yıl uzatmak isteriz.",
+     "en": "Good afternoon, Ms Yılmaz, this is Mr Brandt from Human Resources. We would like to extend your contract by one year."
+    },
+    {
+     "tr": "Yeni teklif aylık brüt 3.200 avro ve iki ek izin günü içeriyor. Düzenleme 1 Temmuz'dan itibaren geçerli olacak.",
+     "en": "The new offer provides a gross monthly salary of 3,200 euros and two extra vacation days. The change takes effect on 1 July."
+    },
+    {
+     "tr": "İnsan Kaynakları müdürü, ek sözleşme imzalanmadan önce görevleri bizzat açıklamak istiyor.",
+     "en": "The head of Human Resources would like to explain the duties in person before the addendum is signed."
+    },
+    {
+     "tr": "6 Haziran Perşembe günü saat 10.30'da 214 numaralı odadaki ofisimize gelir misiniz? Lütfen resepsiyona bildirin.",
+     "en": "Could you come to our office, room 214, on Thursday, 6 June, at 10:30? Please check in at reception."
+    },
+    {
+     "tr": "Saat uygun değilse bana 0221 610 42 18 numarasından ulaşabilirsiniz. Tekrar ediyorum: 0221 610 42 18. Hoşça kalın.",
+     "en": "If the time does not suit you, reach me at 0221 610 42 18. I repeat: 0221 610 42 18. Goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Nachtrag",
+     "lemma": "Nachtrag",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "ek sözleşme",
+      "en": "addendum"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Ab wann gilt die Gehaltsanpassung?",
+     "options": [
+      "Ab dem 1. Juli",
+      "Ab dem 6. Juni",
+      "Ab dem 1. August"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der neue Vertrag läuft nur sechs Monate.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-b2-m03",
+   "level": "B2",
+   "topic": "message",
+   "title": "Ein neuer Operationstermin",
+   "paragraphs": [
+    "Guten Tag, Frau Y?lmaz, Frau Neumann von der chirurgischen Ambulanz der Uniklinik K?ln. Ich rufe wegen Ihrer Operation an.",
+    "Ihr Termin am 18. Juni muss wegen eines nicht verf?gbaren Operationssaals verschoben werden.",
+    "Wir nehmen Sie am 24. Juni um 7.15 Uhr auf. Bitte kommen Sie n?chtern zum Haupteingang.",
+    "Besprechen Sie Ihre Medikamente vorher mit der Haus?rztin. Die Unterlagen kommen bis Freitag per Post.",
+    "Bei Fragen: 0221 478 61 90, nochmals: 0221 478 61 90. Gute Besserung und auf Wiederh?ren."
+   ],
+   "trans": [
+    {
+     "tr": "İyi günler Frau Yılmaz, Köln Üniversite Hastanesi cerrahi polikliniğinden Frau Neumann. Ameliyatınız için arıyorum.",
+     "en": "Good afternoon, Ms Yılmaz, this is Ms Neumann from the surgical outpatient clinic at Cologne University Hospital. I am calling about your operation."
+    },
+    {
+     "tr": "Ameliyathane kısa sürede kullanılamaz hâle geldiği için 18 Haziran'daki randevunun ertelenmesi gerekiyor.",
+     "en": "Unfortunately, the appointment on 18 June must be postponed because the operating room has become unavailable at short notice."
+    },
+    {
+     "tr": "Sizi 24 Haziran Pazartesi günü saat 7.15'te kabul edebiliriz. Lütfen aç gelin ve ana girişte kayıt yaptırın.",
+     "en": "We could admit you on Monday, 24 June, at 7:15. Please arrive fasting and check in at the main entrance."
+    },
+    {
+     "tr": "İlaçlarınızı önceden aile hekiminizle görüşün. Yatış belgeleri en geç cuma günü postayla elinize ulaşacak.",
+     "en": "Please discuss your medication with your family doctor beforehand. Your admission papers will arrive by post by Friday at the latest."
+    },
+    {
+     "tr": "Sorularınız için lütfen 0221 478 61 90 numarasını arayın; tekrar ediyorum: 0221 478 61 90. Geçmiş olsun, hoşça kalın.",
+     "en": "For questions, please call 0221 478 61 90; again: 0221 478 61 90. Get well soon, goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "nüchtern",
+     "lemma": "nüchtern",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "aç karnına",
+      "en": "fasting"
+     }
+    },
+    {
+     "form": "Aufnahmeunterlagen",
+     "lemma": "Aufnahmeunterlage",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "yatış belgeleri",
+      "en": "admission papers"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann soll Frau Yılmaz in der Klinik sein?",
+     "options": [
+      "Am 24. Juni um 7.15 Uhr",
+      "Am 18. Juni um 7.15 Uhr",
+      "Am 24. Juni um 8.15 Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Yılmaz soll vor der Operation frühstücken.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-b2-m04",
+   "level": "B2",
+   "topic": "message",
+   "title": "Förderung für das Stadtteilprojekt",
+   "paragraphs": [
+    "Guten Tag, Frau Y?lmaz, Frau Peters vom Bezirksamt Ehrenfeld. Ihr Projektantrag wurde bewilligt.",
+    "Die F?rderung betr?gt 4.800 Euro; h?chstens 600 Euro sind f?r Werbung vorgesehen.",
+    "Reichen Sie bitte bis zum 30. August den Kostenplan und die unterschriebene Vereinbarung ein.",
+    "Nach Pr?fung wird binnen zehn Werktagen gezahlt. Belege sind bis Ende Februar aufzubewahren.",
+    "Bei Fragen: 0221 221 87 40, nochmals: 0221 221 87 40. Gl?ckwunsch und auf Wiederh?ren."
+   ],
+   "trans": [
+    {
+     "tr": "İyi günler Frau Yılmaz, Ehrenfeld İlçe Belediyesi'nden Frau Peters. Mahalle projesi başvurunuz kabul edildi.",
+     "en": "Good afternoon, Ms Yılmaz, this is Ms Peters from the Ehrenfeld district office. Your application for the neighborhood project has been approved."
+    },
+    {
+     "tr": "Hibe miktarı 4.800 avrodur. Bunun en fazla 600 avrosu tanıtım çalışmaları için kullanılabilir.",
+     "en": "The grant amounts to 4,800 euros. No more than 600 euros may be used for public relations."
+    },
+    {
+     "tr": "Lütfen 30 Ağustos'a kadar bir maliyet planı ve imzalı sözleşmeyi teslim edin.",
+     "en": "Please submit a budget plan and the signed agreement by 30 August."
+    },
+    {
+     "tr": "Ödeme, incelemenin ardından on iş günü içinde başlatılacak. Belgeler şubat sonuna kadar saklanmalıdır.",
+     "en": "Payment will be arranged within ten working days after review. Receipts must be kept until the end of February."
+    },
+    {
+     "tr": "Sorularınız için bana 0221 221 87 40 numarasından ulaşabilirsiniz. Numarayı tekrarlıyorum: 0221 221 87 40. Tebrikler, hoşça kalın.",
+     "en": "For questions, reach me at 0221 221 87 40. I repeat the number: 0221 221 87 40. Congratulations, goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "bewilligen",
+     "lemma": "bewilligen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "onaylamak",
+      "en": "to approve"
+     }
+    },
+    {
+     "form": "Beleg",
+     "lemma": "Beleg",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "belge, makbuz",
+      "en": "receipt"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Bis wann müssen die Unterlagen eingereicht werden?",
+     "options": [
+      "Bis zum 30. August",
+      "Bis Ende Februar",
+      "Bis zum 30. September"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die gesamte Förderung ist für Werbung vorgesehen.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-b2-m05",
+   "level": "B2",
+   "topic": "message",
+   "title": "Angebot nach Ihrer Beschwerde",
+   "paragraphs": [
+    "Guten Tag, Frau Y?lmaz, Frau Roth vom Reiseb?ro Sonnenweg. Ihre Beschwerde zur Reise vom 3. bis 10. Oktober wurde gepr?ft.",
+    "F?r den ausgefallenen Ausflug und zwei Tage ohne Warmwasser bieten wir 180 Euro Erstattung an.",
+    "Die Erstattung wird binnen sieben Werktagen auf Ihr urspr?ngliches Zahlungsmittel ?berwiesen.",
+    "Bitte antworten Sie bis 12. November. Ihre ?brigen Anspr?che bleiben unber?hrt.",
+    "Sie erreichen mich unter 0221 390 56 12, nochmals: 0221 390 56 12. Danke und auf Wiederh?ren."
+   ],
+   "trans": [
+    {
+     "tr": "İyi günler Frau Yılmaz, Sonnenweg Seyahat Acentesi'nden Frau Roth. 3–10 Ekim arasındaki paket turla ilgili şikâyetinizi inceledik.",
+     "en": "Good afternoon, Ms Yılmaz, this is Ms Roth from Sonnenweg Travel. We have reviewed your complaint about the package tour from 3 to 10 October."
+    },
+    {
+     "tr": "İptal edilen gezi ve iki gün sıcak su olmaması nedeniyle size 180 avro iade teklif ediyoruz.",
+     "en": "Because the excursion was cancelled and there was no hot water for two days, we are offering you a refund of 180 euros."
+    },
+    {
+     "tr": "Tutar, yedi iş günü içinde ilk kullandığınız ödeme yöntemine aktarılabilir.",
+     "en": "The amount could be refunded to your original payment method within seven working days."
+    },
+    {
+     "tr": "Lütfen teklifi kabul edip etmediğinizi 12 Kasım'a kadar bize bildirin. Diğer talepleriniz bundan etkilenmez.",
+     "en": "Please let us know by 12 November whether you accept the offer. Your other claims remain unaffected."
+    },
+    {
+     "tr": "Bana 0221 390 56 12 numarasından ulaşabilirsiniz; tekrarlıyorum: 0221 390 56 12. Geri dönüşünüz için teşekkürler. Hoşça kalın.",
+     "en": "You can reach me at 0221 390 56 12; I repeat: 0221 390 56 12. Thank you for your response. Goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Erstattung",
+     "lemma": "Erstattung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "geri ödeme",
+      "en": "refund"
+     }
+    },
+    {
+     "form": "unberührt",
+     "lemma": "unberührt",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "etkilenmemiş",
+      "en": "unaffected"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie hoch ist die angebotene Erstattung?",
+     "options": [
+      "180 Euro",
+      "80 Euro",
+      "280 Euro"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Yılmaz muss bis zum 12. November antworten.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-b2-m06",
+   "level": "B2",
+   "topic": "message",
+   "title": "Verschobener Sendetermin",
+   "paragraphs": [
+    "Guten Tag, Frau Y?lmaz, Herr Fischer von Radio K?ln. Ihr Interview wird sp?ter ausgestrahlt.",
+    "Wegen einer Sondersendung l?uft der Beitrag statt Mittwoch um 18 Uhr nun Donnerstag um 19.30 Uhr.",
+    "Die Aufnahme bleibt unver?ndert. Sie m?ssen nicht erneut ins Studio kommen.",
+    "Die Sendung dauert zw?lf Minuten. Bitte nennen Sie den 13. Juni als Sendetermin.",
+    "Fragen? Die Redaktion: 0221 500 31 77, nochmals: 0221 500 31 77. Danke f?r Ihre Zeit. Auf Wiederh?ren."
+   ],
+   "trans": [
+    {
+     "tr": "İyi günler Frau Yılmaz, Radio Köln'den Herr Fischer. Mahalle projesi hakkındaki röportajınız daha geç yayınlanacak.",
+     "en": "Good afternoon, Ms Yılmaz, this is Mr Fischer from Radio Cologne. Your interview about the neighborhood project will be broadcast later."
+    },
+    {
+     "tr": "Güncel bir özel yayın nedeniyle program çarşamba saat 18.00'den perşembe 19.30'a ertelendi.",
+     "en": "Due to a current special broadcast, the segment is moving from Wednesday at 6 p.m. to Thursday at 7:30 p.m."
+    },
+    {
+     "tr": "Kayıt değişmiyor; yani yeniden stüdyoya gelmeniz gerekmiyor.",
+     "en": "The recording remains unchanged, so you do not need to come to the studio again."
+    },
+    {
+     "tr": "Program on iki dakika sürüyor. Yayın saatinden söz ederseniz lütfen 13 Haziran Perşembe deyin.",
+     "en": "The program lasts twelve minutes. If you mention the broadcast, please say Thursday, 13 June."
+    },
+    {
+     "tr": "Sorularınız için yayın kuruluna 0221 500 31 77 numarasından ulaşabilirsiniz; tekrar ediyorum: 0221 500 31 77. Zaman ayırdığınız için teşekkürler. Hoşça kalın.",
+     "en": "For questions, call the newsroom at 0221 500 31 77, again 0221 500 31 77. Thank you for your time. Goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "ausstrahlen",
+     "lemma": "ausstrahlen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "yayınlamak",
+      "en": "to broadcast"
+     }
+    },
+    {
+     "form": "Sondersendung",
+     "lemma": "Sondersendung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "özel yayın",
+      "en": "special broadcast"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann wird das Interview ausgestrahlt?",
+     "options": [
+      "Am Donnerstag um 19.30 Uhr",
+      "Am Mittwoch um 18 Uhr",
+      "Am Donnerstag um 18 Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Yılmaz muss die Aufnahme im Studio wiederholen.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  }
+ ]
+}
