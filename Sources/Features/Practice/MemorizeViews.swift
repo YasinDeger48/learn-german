@@ -123,22 +123,26 @@ struct MemorizeSheetView: View {
                 VStack(spacing: 0) {
                     ForEach(Array(sheet.rows.enumerated()), id: \.offset) { index, row in
                         if index > 0 { Divider() }
-                        HStack(alignment: .top, spacing: 10) {
-                            Text(row.q.text).font(DS.text(14)).foregroundColor(DS.muted)
-                                .frame(width: sheet.kind == "rules" ? 120 : 130, alignment: .leading)
-                            VStack(alignment: .leading, spacing: 2) {
-                                Text(row.a).font(DS.text(16, .semibold)).foregroundColor(DS.ink)
-                                if let x = row.x { Text(x).font(.caption).italic().foregroundColor(DS.muted) }
-                            }
-                            Spacer(minLength: 0)
-                            Button { A1Speaker.shared.say(row.x ?? row.a) } label: {
+                        // The whole row plays it, not only the speaker icon at the end (owner's request 2026-11-26).
+                        Button { A1Speaker.shared.say(row.x ?? row.a) } label: {
+                            HStack(alignment: .top, spacing: 10) {
+                                Text(row.q.text).font(DS.text(14)).foregroundColor(DS.muted)
+                                    .frame(width: sheet.kind == "rules" ? 120 : 130, alignment: .leading)
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(row.a).font(DS.text(16, .semibold)).foregroundColor(DS.ink)
+                                    if let x = row.x { Text(x).font(.caption).italic().foregroundColor(DS.muted) }
+                                }
+                                .multilineTextAlignment(.leading)
+                                Spacer(minLength: 0)
                                 Image(systemName: "speaker.wave.2").font(.subheadline).foregroundColor(DS.muted)
                                     .frame(width: 36, height: 36)
                             }
-                            .buttonStyle(.plain)
-                            .accessibilityLabel(t("common.listen"))
+                            .padding(.vertical, 9)
+                            .contentShape(Rectangle())
                         }
-                        .padding(.vertical, 9)
+                        .buttonStyle(.pressable)
+                        .accessibilityElement(children: .combine)
+                        .accessibilityHint(t("common.listen"))
                     }
                 }
                 .padding(.horizontal, 14)
