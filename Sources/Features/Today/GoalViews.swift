@@ -108,26 +108,28 @@ struct DailyGoalCard: View {
     }
 }
 
-/// Word of the day: a noun with an example from the learner's level. A new one every day and never
-/// yesterday's word again (also when the level changed); the choice is kept for the whole day.
+/// The word in the island: a noun with an example from the learner's level. A new one each time Today is shown
+/// (`round` changes: the app comes back, the user returns to Today), never the same word twice in a row; within
+/// one round it stays the same while the page redraws.
 enum WordOfDay {
-    private static let dayKey = "wordOfDay.day"
     private static let idKey = "wordOfDay.id"
+    private static var roundKey: String?
+    private static var roundID: String?
 
-    static func pick(from words: [A1Word], level: String) -> A1Word? {
+    static func pick(from words: [A1Word], level: String, round: Int) -> A1Word? {
         let nouns = words.filter { $0.isNoun && !$0.ex.isEmpty && $0.theme != A1BankBuilder.coreTheme }
         guard !nouns.isEmpty else { return nil }
-        let defaults = UserDefaults.standard
-        let today = A1Model.dayString(Date())
-        let stored = defaults.string(forKey: idKey)
-        if defaults.string(forKey: dayKey) == today, let word = nouns.first(where: { "\(level)-\($0.id)" == stored }) {
+        let key = "\(level)#\(round)"
+        if roundKey == key, let word = nouns.first(where: { "\(level)-\($0.id)" == roundID }) {
             return word
         }
-        var index = (DailyModel.dayNumber(Date()) * 37 + 11) % nouns.count
-        if nouns.count > 1 && "\(level)-\(nouns[index].id)" == stored { index = (index + 1) % nouns.count }
-        defaults.set(today, forKey: dayKey)
-        defaults.set("\(level)-\(nouns[index].id)", forKey: idKey)
-        return nouns[index]
+        let last = UserDefaults.standard.string(forKey: idKey)
+        let choices = nouns.count > 1 ? nouns.filter { "\(level)-\($0.id)" != last } : nouns
+        guard let word = choices.randomElement() else { return nil }
+        roundKey = key
+        roundID = "\(level)-\(word.id)"
+        UserDefaults.standard.set(roundID, forKey: idKey)
+        return word
     }
 }
 

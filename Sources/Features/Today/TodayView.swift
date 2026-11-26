@@ -11,6 +11,11 @@ struct TodayView: View {
     /// Height of the islands at the bottom (pills or an open card), so the page leaves just enough room under the
     /// last card to scroll it above them, and no empty space when they are small or closed.
     @State private var islandsHeight: CGFloat = 90
+    /// A new word in the island each time Today comes back (owner's request): after another page or the app
+    /// returning from the background.
+    @State private var wordRound = 0
+    @State private var appeared = false
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
         ScrollView {
@@ -44,7 +49,14 @@ struct TodayView: View {
             })
         }
         .navigationTitle(t("tab.today"))
-        .onAppear { levels.active = practiceModel.level }
+        .onAppear {
+            levels.active = practiceModel.level
+            if appeared { wordRound += 1 }
+            appeared = true
+        }
+        .onChange(of: scenePhase) { phase in
+            if phase == .active, appeared { wordRound += 1 }
+        }
         .onChange(of: daily.level) { _ in levels.active = practiceModel.level }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
@@ -104,7 +116,7 @@ struct TodayView: View {
     private var wordOfDay: A1Word? {
         let model = practiceModel
         guard let words = (model.content ?? a1.content)?.words else { return nil }
-        return WordOfDay.pick(from: words, level: model.content == nil ? "A1" : model.level)
+        return WordOfDay.pick(from: words, level: model.content == nil ? "A1" : model.level, round: wordRound)
     }
 
     private func wordCard(_ word: A1Word) -> some View {
