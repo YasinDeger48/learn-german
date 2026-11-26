@@ -71,10 +71,22 @@ Kurallar:
 '''
 
 
+def priority(level, word):
+    """A1: the "important verbs" theme first (sein, haben, modal verbs …), then the verbs of the path's themes,
+    then the long frequency list (the last theme). Other levels keep the file order. Used for the requests and
+    for the order in the app. (File order had put sein / haben far back.)"""
+    if level.lower() != 'a1':
+        return 0
+    themes = json.load(open(os.path.join(CONTENT, 'a1.json'), encoding='utf-8'))['themes']
+    core, important = max(t['id'] for t in themes), 12
+    return 0 if word['theme'] == important else (2 if word['theme'] == core else 1)
+
+
 def export(level):
     level = level.lower()
     done = {v['v'].lower() for v in load(level)}
     verbs = [w for w in verbs_by_level()[level] if w['de'].lower() not in done]
+    verbs.sort(key=lambda w: priority(level, w))
     os.makedirs(FOLDER, exist_ok=True)
     for old in glob.glob(os.path.join(FOLDER, f'{level.upper()}_fiil_istek_*.txt')):
         os.remove(old)
@@ -214,7 +226,8 @@ def import_answers(level):
             e['reflexiv'] = bool(e.get('reflexiv'))
             verbs[e['v'].lower()] = e
             added += 1
-    ordered = [verbs[w] for w in known if w in verbs]
+    ranked = sorted(known, key=lambda w: priority(level, known[w]))  # stable: file order inside a group
+    ordered = [verbs[w] for w in ranked if w in verbs]
     with open(out_path(level), 'w', encoding='utf-8', newline='\n') as f:
         json.dump({'level': level.upper(), 'verbs': ordered}, f, ensure_ascii=False, separators=(',', ':'))
     print(f'{level.upper()}: read {added}, skipped {len(skipped)}; {len(ordered)}/{len(known)} verbs ready')
