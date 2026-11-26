@@ -9,6 +9,9 @@ struct Certificate: Codable, Identifiable, Hashable {
     let date: Date
     /// ExamModule raw value → points out of 25.
     let scores: [String: Int]
+    /// ExamModule raw value → [right answers, questions] (Sprechen: [content points covered, content points]).
+    /// Missing in certificates saved before this was added.
+    var counts: [String: [Int]]? = nil
 
     var total: Int { scores.values.reduce(0, +) }
     func score(_ module: ExamModule) -> Int? { scores[module.rawValue] }
@@ -19,8 +22,15 @@ struct ExamAttempt: Codable, Hashable {
     let level: String
     let date: Date
     let scores: [String: Int]
+    var counts: [String: [Int]]? = nil
     var total: Int { scores.values.reduce(0, +) }
     var passed: Bool { total >= ExamStore.passMark }
+}
+
+/// "12/15" for a module's right answers, or nil when they were not saved.
+func examCount(_ counts: [String: [Int]]?, _ module: ExamModule) -> String? {
+    guard let pair = counts?[module.rawValue], pair.count == 2 else { return nil }
+    return "\(pair[0])/\(pair[1])"
 }
 
 enum ExamStore {
@@ -45,7 +55,8 @@ enum ExamStore {
         guard attempt.passed else { return nil }
         var certificates = certificates()
         if let old = certificates.first(where: { $0.level == attempt.level }), old.total >= attempt.total { return old }
-        let certificate = Certificate(id: newID(attempt.level), level: attempt.level, date: attempt.date, scores: attempt.scores)
+        let certificate = Certificate(id: newID(attempt.level), level: attempt.level, date: attempt.date, scores: attempt.scores,
+                                      counts: attempt.counts)
         certificates.removeAll { $0.level == attempt.level }
         certificates.append(certificate)
         certificates.sort { $0.level < $1.level }
@@ -180,7 +191,7 @@ struct ExamHomeView: View {
                     .padding(.horizontal, 9).padding(.vertical, 3)
                     .background(attempt.passed ? DS.success : DS.error, in: Capsule())
             }
-            ScoreGrid(scores: attempt.scores)
+            ScoreGrid(scores: attempt.scores, counts: attempt.counts)
             Text(t("exam.total", attempt.total)).font(.footnote).foregroundColor(DS.ink)
         }
         .padding(14)
@@ -188,18 +199,25 @@ struct ExamHomeView: View {
     }
 }
 
-/// Points per module in four boxes.
+/// Points per module in four boxes: "18/25", the right answers ("12/15 ✓") and the module.
 struct ScoreGrid: View {
     let scores: [String: Int]
+    var counts: [String: [Int]]? = nil
     var light = true
 
     var body: some View {
         HStack(spacing: 8) {
             ForEach(ExamModule.allCases) { module in
                 VStack(spacing: 2) {
-                    Text(scores[module.rawValue].map { "\($0)" } ?? "–").font(.system(size: 17, weight: .heavy)).foregroundColor(DS.ink)
+                    (Text(scores[module.rawValue].map { "\($0)" } ?? "–").font(.system(size: 17, weight: .heavy)).foregroundColor(DS.ink)
+                        + Text("/25").font(.system(size: 12, weight: .semibold)).foregroundColor(DS.muted))
+                        .monospacedDigit()
+                    if let count = examCount(counts, module) {
+                        Text("\(count) ✓").font(.caption2.monospacedDigit().weight(.semibold)).foregroundColor(DS.success)
+                    }
                     Text(module.title).font(.caption2).foregroundColor(DS.muted)
                 }
+                .accessibilityElement(children: .combine)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 8)
                 .background(DS.ground, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
@@ -215,6 +233,7 @@ struct ExamRunView: View {
     @EnvironmentObject private var model: A1Model
     @EnvironmentObject private var daily: DailyModel
     @State private var scores: [String: Int] = [:]
+    @State private var counts: [String: [Int]] = [:]
     @State private var speakingTask: SpeakingTask?
     @State private var result: (attempt: ExamAttempt, certificate: Certificate?)?
     @Environment(\.dismiss) private var dismiss
@@ -266,7 +285,13 @@ struct ExamRunView: View {
             }
             Spacer()
             if let done {
-                Text("\(done)/25").font(.subheadline.monospacedDigit().weight(.bold)).foregroundColor(DS.ink)
+                VStack(alignment: .trailing, spacing: 1) {
+                    Text("\(done)/25").font(.subheadline.monospacedDigit().weight(.bold)).foregroundColor(DS.ink)
+                    if let count = examCount(counts, module) {
+                        Text(t(module == .sprechen ? "exam.countSpeak" : "exam.countRight", count))
+                            .font(.caption2.monospacedDigit()).foregroundColor(DS.muted)
+                    }
+                }
             } else {
                 Image(systemName: enabled ? "chevron.right" : "lock.fill").font(.caption.weight(.bold)).foregroundColor(DS.muted)
             }
@@ -289,11 +314,13 @@ struct ExamRunView: View {
         case .sprechen:
             if let task = speakingTask {
                 SpeakTaskView(task: task) { covered, total in
+                    counts[module.rawValue] = [covered, total]
                     scores[module.rawValue] = points(covered, total)
                 }
             }
         default:
-            A1QuizView(title: module.title, exam: true, free: true, onFinish: { correct, total in
+            A1QuizView(title: module.title, exam: true, free: true, partPoints: 25, onFinish: { correct, total in
+                counts[module.rawValue] = [correct, total]
                 scores[module.rawValue] = points(correct, total)
             }) {
                 questions(module)
@@ -329,7 +356,7 @@ struct ExamRunView: View {
 
     private func finishIfDone() {
         guard result == nil, ExamModule.allCases.allSatisfy({ scores[$0.rawValue] != nil }) else { return }
-        let attempt = ExamAttempt(level: model.level, date: Date(), scores: scores)
+        let attempt = ExamAttempt(level: model.level, date: Date(), scores: scores, counts: counts)
         let certificate = ExamStore.record(attempt)
         StreakStore.shared.record()
         StreakStore.shared.addXP(attempt.passed ? 50 : 20)
@@ -340,7 +367,7 @@ struct ExamRunView: View {
     private func resultCard(_ attempt: ExamAttempt, _ certificate: Certificate?) -> some View {
         VStack(alignment: .leading, spacing: 12) {
             Text(attempt.passed ? t("exam.resultPassed") : t("exam.resultFailed")).font(DS.display(26)).foregroundColor(DS.ink)
-            ScoreGrid(scores: attempt.scores)
+            ScoreGrid(scores: attempt.scores, counts: attempt.counts)
             Text(t("exam.total", attempt.total)).font(.subheadline.weight(.semibold))
             if let certificate {
                 NavigationLink(value: AppRoute.certificate(certificate.id)) {
@@ -399,6 +426,11 @@ struct CertificateCard: View {
                         VStack(spacing: 2) {
                             Text("\(certificate.score(module) ?? 0)/25").font(.system(size: 22, weight: .bold)).foregroundColor(.black)
                             Text(module.title).font(.system(size: 12)).foregroundColor(.black.opacity(0.6))
+                            if let count = examCount(certificate.counts, module) {
+                                // The certificate is German on purpose (like its other texts).
+                                Text("\(count) " + (module == .sprechen ? "Inhaltspunkte" : "richtig"))
+                                    .font(.system(size: 10)).foregroundColor(.black.opacity(0.5))
+                            }
                         }
                     }
                     VStack(spacing: 2) {

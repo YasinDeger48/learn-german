@@ -14,12 +14,16 @@ struct A1QuizView: View {
     var onFinish: ((Int, Int) -> Void)? = nil
     /// Reading quizzes are always free: they do not count toward the daily limit.
     var free = false
+    /// One module of the mock exam (ExamRunView): the summary shows its points out of this (25) and the right
+    /// answers, without a pass mark of its own, and the module cannot be taken again from the summary.
+    var partPoints: Int? = nil
     let makeSession: () -> [A1Question]
 
     init(title: String, exam: Bool = false, review: Bool = false, resetMode: A1Mode? = nil, free: Bool = false,
-         onFinish: ((Int, Int) -> Void)? = nil, makeSession: @escaping () -> [A1Question]) {
+         partPoints: Int? = nil, onFinish: ((Int, Int) -> Void)? = nil, makeSession: @escaping () -> [A1Question]) {
         self.title = title
         self.free = free
+        self.partPoints = partPoints
         self.exam = exam
         self.review = review
         self.resetMode = resetMode
@@ -137,9 +141,9 @@ struct A1QuizView: View {
                 Text(summaryTitle(points: points, total: total))
                     .font(DS.display(30))
                     .multilineTextAlignment(.center)
-                Text(summarySubtitle(points: points))
+                Text(summarySubtitle(points: points, total: total))
                     .font(.subheadline)
-                    .foregroundColor(exam ? (points >= 60 ? DS.success : DS.error) : DS.muted)
+                    .foregroundColor(exam && partPoints == nil ? (points >= 60 ? DS.success : DS.error) : DS.muted)
                     .multilineTextAlignment(.center)
                 HStack(spacing: 8) {
                     summaryTile("+\(sessionXP)", "XP", DS.accent)
@@ -174,14 +178,16 @@ struct A1QuizView: View {
                     }
                 }
                 VStack(spacing: 10) {
-                    Button {
-                        restart()
-                    } label: {
-                        Text(onFinish == nil ? t("quiz.continueNew") : t("quiz.again"))
-                            .font(.system(size: 17, weight: .bold))
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity, minHeight: 54)
-                            .background(DS.accent, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    if partPoints == nil {
+                        Button {
+                            restart()
+                        } label: {
+                            Text(onFinish == nil ? t("quiz.continueNew") : t("quiz.again"))
+                                .font(.system(size: 17, weight: .bold))
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity, minHeight: 54)
+                                .background(DS.accent, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                        }
                     }
                     Button(t("done.finish")) { dismiss() }
                         .font(.system(size: 16, weight: .semibold))
@@ -198,7 +204,7 @@ struct A1QuizView: View {
         .onAppear {
             if !examSaved {
                 examSaved = true
-                if exam { model.saveExam(points) }
+                if exam && partPoints == nil { model.saveExam(points) }
                 if perfect {
                     StreakStore.shared.addXP(XP.perfectBonus)
                     StreakStore.shared.addPerfectRound()
@@ -217,13 +223,18 @@ struct A1QuizView: View {
     }
 
     private func summaryTitle(points: Int, total: Int) -> String {
+        if let partPoints {
+            let part = total == 0 ? 0 : Int((Double(score) / Double(total) * Double(partPoints)).rounded())
+            return t("exam.partPoints", part, partPoints)
+        }
         if exam { return t("quiz.points", points) }
         if perfect { return "Perfekt! \(score)/\(total)" }
         if points >= 70 { return "Gut gemacht! \(score)/\(total)" }
         return "Weiter so! \(score)/\(total)"
     }
 
-    private func summarySubtitle(points: Int) -> String {
+    private func summarySubtitle(points: Int, total: Int) -> String {
+        if partPoints != nil { return t("exam.partCorrect", score, total) }
         if exam { return points >= 60 ? t("quiz.passed") : t("quiz.notPassed") }
         if perfect { return t("done.perfectSub", XP.perfectBonus) }
         return missed.isEmpty ? t("done.sub") : t("done.subMistakes", missed.count)
