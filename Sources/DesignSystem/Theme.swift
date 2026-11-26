@@ -189,6 +189,11 @@ enum Covers {
     private static var missing = Set<String>()
     private static let lock = NSLock()
 
+    /// Whether a picture exists, without decoding it (for choosing many words at once).
+    static func exists(_ id: String) -> Bool {
+        ContentStore.cached("covers/\(id).jpg") != nil || Bundle.main.path(forResource: id, ofType: "jpg") != nil
+    }
+
     static func image(_ id: String) -> UIImage? {
         lock.lock()
         let known = cache.object(forKey: id as NSString)

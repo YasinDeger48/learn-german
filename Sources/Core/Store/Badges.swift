@@ -3,7 +3,8 @@ import SwiftUI
 /// One achievement. Values come from data the app already keeps; only the earned ids are stored.
 struct Badge: Identifiable, Hashable {
     /// `welcome`: "Curious about German", earned by starting the app.
-    enum Kind: String { case welcome, streak, xp, correct, perfect, reading, goal }
+    /// `match`: finished word matching games (MatchGameView).
+    enum Kind: String { case welcome, streak, xp, correct, perfect, reading, goal, match }
 
     let kind: Kind
     let target: Int
@@ -19,6 +20,7 @@ struct Badge: Identifiable, Hashable {
         case .perfect: return "sparkles"
         case .reading: return "book.fill"
         case .goal: return "target"
+        case .match: return "square.grid.2x2.fill"
         }
     }
 
@@ -31,6 +33,7 @@ struct Badge: Identifiable, Hashable {
         case .perfect: return [Color(red: 0.72, green: 0.61, blue: 1), Color(red: 0.36, green: 0.25, blue: 0.84)]
         case .reading: return [Color(red: 1, green: 0.88, blue: 0.54), Color(red: 0.95, green: 0.76, blue: 0.19)]
         case .goal: return [Color(red: 0.55, green: 0.84, blue: 0.91), Color(red: 0.05, green: 0.58, blue: 0.53)]
+        case .match: return [Color(red: 1, green: 0.62, blue: 0.43), Color(red: 0.85, green: 0.33, blue: 0.16)]
         }
     }
 
@@ -49,7 +52,11 @@ final class BadgeStore: ObservableObject {
         (.perfect, [1, 10, 50]),
         (.reading, [1, 10, 30, 100]),
         (.goal, [1, 7, 30]),
+        (.match, [1, 10, 50]),
     ]
+
+    /// Finished word matching games (5 rounds each), counted by MatchGameView.
+    static let matchGamesKey = "matchGamesFinished"
 
     static let all: [Badge] = {
         var badges: [Badge] = []
@@ -96,6 +103,7 @@ final class BadgeStore: ObservableObject {
         case .perfect: return streak.state.perfectRounds
         case .reading: return DailySavedState.load().quizzes.values.filter { $0 >= 100 }.count
         case .goal: return streak.goalDays
+        case .match: return UserDefaults.standard.integer(forKey: BadgeStore.matchGamesKey)
         }
     }
 

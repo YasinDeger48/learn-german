@@ -93,91 +93,9 @@ struct A1SprintView: View {
     }
 }
 
+/// Word matching (route .match): the game in MatchGameView.swift.
 struct A1MatchView: View {
-    @EnvironmentObject private var model: A1Model
     let theme: Int?
-    @State private var pairs: [A1Word] = []
-    @State private var right: [A1Word] = []
-    @State private var selectedLeft: Int?
-    @State private var done: Set<Int> = []
-    @State private var wrongFlash: Int?
-    @State private var rounds = 0
-    @State private var errors = 0
 
-    var body: some View {
-        VStack(spacing: 16) {
-            Text(t("games.matchHint")).font(.subheadline).foregroundStyle(.secondary)
-            HStack(alignment: .top, spacing: 12) {
-                VStack(spacing: 10) {
-                    ForEach(pairs) { word in
-                        tile(word.withArticle, active: selectedLeft == word.id, gone: done.contains(word.id), color: a1ArticleColor(word.type)) {
-                            selectedLeft = word.id
-                            A1Speaker.shared.say(word.withArticle)
-                        }
-                    }
-                }
-                VStack(spacing: 10) {
-                    ForEach(right) { word in
-                        tile(word.mean.text, active: wrongFlash == word.id, gone: done.contains(word.id), color: .primary) {
-                            match(word)
-                        }
-                    }
-                }
-            }
-            Text(t("games.matchStats", rounds, errors)).font(.footnote.monospacedDigit()).foregroundStyle(.secondary)
-            Spacer()
-        }
-        .padding(16)
-        .navigationTitle(t("practice.match"))
-        .navigationBarTitleDisplayMode(.inline)
-        .onAppear { if pairs.isEmpty { newRound() } }
-    }
-
-    private func tile(_ text: String, active: Bool, gone: Bool, color: Color, action: @escaping () -> Void) -> some View {
-        Button(action: action) {
-            Text(text)
-                .font(.callout.weight(.medium))
-                .foregroundStyle(color)
-                .multilineTextAlignment(.center)
-                .minimumScaleFactor(0.6)
-                .frame(maxWidth: .infinity, minHeight: 56)
-                .padding(.horizontal, 6)
-                .background(active ? a1Accent.opacity(0.3) : Color(.secondarySystemBackground), in: RoundedRectangle(cornerRadius: 12))
-        }
-        .buttonStyle(.plain)
-        .opacity(gone ? 0.15 : 1)
-        .disabled(gone)
-    }
-
-    private func match(_ word: A1Word) {
-        guard let left = selectedLeft else { return }
-        if left == word.id {
-            done.insert(word.id)
-            selectedLeft = nil
-            if done.count == pairs.count {
-                rounds += 1
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { newRound() }
-            }
-        } else {
-            errors += 1
-            wrongFlash = word.id
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { wrongFlash = nil }
-        }
-    }
-
-    private func newRound() {
-        guard let words = model.content?.words else { return }
-        let pool = words.filter { theme == nil || $0.theme == theme }
-        var seenMeanings: Set<String> = []
-        var picked: [A1Word] = []
-        for word in pool.shuffled() where !seenMeanings.contains(word.mean.text) {
-            seenMeanings.insert(word.mean.text)
-            picked.append(word)
-            if picked.count == 5 { break }
-        }
-        pairs = picked
-        right = picked.shuffled()
-        done = []
-        selectedLeft = nil
-    }
+    var body: some View { MatchGameView(theme: theme) }
 }
