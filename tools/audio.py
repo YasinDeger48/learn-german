@@ -3,6 +3,7 @@ In dialogues ("Lina: Hallo!") every speaker has an own voice and the name is not
 
     python -I -X utf8 tools/audio.py A1            makes the missing or changed MP3s of A1
     python -I -X utf8 tools/audio.py A1 --dry      only counts the characters
+    python -I -X utf8 tools/audio.py A2 --phone-only   only the phone calls and voicemail (tools/phone.py)
 
 Files go to ../deschly-site/audio/<voice>/<text id>.mp3 (voice f = woman, m = man); the app downloads them
 when the learner taps play and keeps them. audio/index.json records a hash of every text, so a text is only
@@ -236,6 +237,8 @@ def main():
                 jobs.append((text['id'], short, content, plan, digest, path))
 
     calls = [job for level in levels for job in phone_jobs(level, index)]
+    if '--phone-only' in sys.argv:  # only the phone calls and voicemail of these levels
+        jobs = []
 
     # Dialogue lines in the same voice are recorded once for both versions.
     pieces = {(VOICES[j[1]], j[2]) for j in jobs if j[3] is None} | {piece for j in jobs if j[3] for piece in j[3]}

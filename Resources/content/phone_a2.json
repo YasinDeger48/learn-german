@@ -1,0 +1,3956 @@
+{
+ "level": "A2",
+ "items": [
+  {
+   "id": "a2-t01",
+   "level": "A2",
+   "kind": "call",
+   "place": "office",
+   "title": "Die neue Adresse anmelden",
+   "title_tr": "Yeni adresi kaydettirme",
+   "title_en": "Registering a new address",
+   "lines": [
+    {
+     "who": "Frau Roth",
+     "de": "Bürgeramt Ehrenfeld, Roth am Apparat. Guten Tag!",
+     "tr": "Ehrenfeld belediye hizmet bürosu, ben Roth. İyi günler!",
+     "en": "Ehrenfeld Citizens' Office, Ms. Roth speaking. Hello!"
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag, Elif Yılmaz hier. Ich bin letzte Woche umgezogen und möchte meine neue Adresse anmelden.",
+     "tr": "İyi günler, ben Elif Yılmaz. Geçen hafta taşındım, yeni adresimi kaydettirmek istiyorum.",
+     "en": "Hello, this is Elif Yılmaz. I moved last week and I'd like to register my new address."
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Natürlich. Wir haben am Donnerstag um zehn Uhr zwanzig einen Termin frei.",
+     "tr": "Tabii. Perşembe günü saat on yirmide boş randevumuz var.",
+     "en": "Of course. We have an appointment available at ten twenty on Thursday."
+    },
+    {
+     "who": "Elif",
+     "de": "Habe ich Sie richtig verstanden? Zehn Uhr zwanzig?",
+     "tr": "Doğru mu anladım? Saat on yirmi mi?",
+     "en": "Did I hear you right? Ten twenty?"
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Genau. Passt Ihnen der Termin?",
+     "tr": "Evet. Randevu size uygun mu?",
+     "en": "That's right. Does that appointment work for you?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, ich habe frei. Was muss ich mitbringen?",
+     "tr": "Evet, o gün izinliyim. Yanımda ne getirmem gerekiyor?",
+     "en": "Yes, I have the day off. What do I need to bring?"
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Bitte bringen Sie Ihren Reisepass und die Wohnungsgeberbestätigung mit.",
+     "tr": "Lütfen pasaportunuzu ve ev sahibinizin verdiği oturma belgesini getirin.",
+     "en": "Please bring your passport and the confirmation from your landlord."
+    },
+    {
+     "who": "Elif",
+     "de": "Wie bitte? Das letzte Wort habe ich nicht verstanden.",
+     "tr": "Efendim? Son kelimeyi anlamadım.",
+     "en": "Sorry? I didn't catch that last word."
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Die Wohnungsgeberbestätigung. Ihr Vermieter bestätigt damit, dass Sie jetzt in der Wohnung wohnen.",
+     "tr": "Ev sahibinin verdiği belge. Ev sahibiniz bu belgeyle artık o dairede oturduğunuzu doğruluyor.",
+     "en": "The landlord confirmation. With it, your landlord confirms that you now live in the apartment."
+    },
+    {
+     "who": "Elif",
+     "de": "Ah, das Papier habe ich schon. Wo genau muss ich hin?",
+     "tr": "Aa, o belge bende var. Tam olarak nereye gitmem gerekiyor?",
+     "en": "Oh, I already have that document. Where exactly do I need to go?"
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Kommen Sie bitte ins Bürgeramt Ehrenfeld. Ihr Termin ist in Zimmer zwölf.",
+     "tr": "Lütfen Ehrenfeld belediye hizmet bürosuna gelin. Randevunuz 12 numaralı odada.",
+     "en": "Please come to the Ehrenfeld Citizens' Office. Your appointment is in room twelve."
+    },
+    {
+     "who": "Elif",
+     "de": "Zimmer zwölf. Alles klar, vielen Dank. Auf Wiederhören!",
+     "tr": "12 numaralı oda. Tamamdır, çok teşekkürler. Hoşça kalın!",
+     "en": "Room twelve. Got it, thank you very much. Goodbye!"
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Gerne. Auf Wiederhören!",
+     "tr": "Rica ederim. Hoşça kalın!",
+     "en": "You're welcome. Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Bürgeramt",
+     "lemma": "Bürgeramt",
+     "art": "das",
+     "tr": "belediye hizmet bürosu",
+     "en": "citizens' office"
+    },
+    {
+     "form": "Wohnungsgeberbestätigung",
+     "lemma": "Wohnungsgeberbestätigung",
+     "art": "die",
+     "tr": "ev sahibinin verdiği oturma belgesi",
+     "en": "landlord's confirmation of residence"
+    },
+    {
+     "form": "bestätigt",
+     "lemma": "bestätigen",
+     "art": null,
+     "tr": "doğrulamak",
+     "en": "to confirm"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann hat Elif den Termin?",
+     "options": [
+      "Am Donnerstag um 10:20 Uhr",
+      "Am Donnerstag um 12:00 Uhr",
+      "Am Freitag um 10:20 Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was soll Elif zusammen mit dem Reisepass mitbringen?",
+     "options": [
+      "Ein Foto",
+      "Die Wohnungsgeberbestätigung",
+      "Eine Fahrkarte"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif ist letzte Woche umgezogen.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Termin ist in Zimmer zwanzig.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-t02",
+   "level": "A2",
+   "kind": "call",
+   "place": "office",
+   "title": "Die verlorene Bankkarte",
+   "title_tr": "Kayıp banka kartı",
+   "title_en": "The lost bank card",
+   "lines": [
+    {
+     "who": "Herr Weber",
+     "de": "Rheinbank, Kartenservice, Weber hier. Wie kann ich Ihnen helfen?",
+     "tr": "Rheinbank kart hizmetleri, ben Weber. Nasıl yardımcı olabilirim?",
+     "en": "Rheinbank card services, Mr. Weber speaking. How can I help you?"
+    },
+    {
+     "who": "Elif",
+     "de": "Hallo, ich habe meine Bankkarte verloren. Bitte sperren Sie die Karte sofort.",
+     "tr": "Merhaba, banka kartımı kaybettim. Lütfen kartı hemen kullanıma kapatın.",
+     "en": "Hello, I've lost my bank card. Please block it right away."
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Das machen wir. Wie lautet Ihr Name?",
+     "tr": "Tabii, hemen yapalım. Adınız nedir?",
+     "en": "We can do that. What's your name?"
+    },
+    {
+     "who": "Elif",
+     "de": "Elif Yılmaz. Der Nachname beginnt mit einem Y.",
+     "tr": "Elif Yılmaz. Soyadım Y harfiyle başlıyor.",
+     "en": "Elif Yılmaz. My last name starts with a Y."
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Danke. Welche Karte fehlt, die rote oder die blaue?",
+     "tr": "Teşekkürler. Hangi kart kayıp, kırmızı mı, mavi mi?",
+     "en": "Thank you. Which card is missing, the red one or the blue one?"
+    },
+    {
+     "who": "Elif",
+     "de": "Die rote Karte. Damit habe ich heute Morgen im Supermarkt bezahlt.",
+     "tr": "Kırmızı kart. Bu sabah süpermarkette onunla ödeme yaptım.",
+     "en": "The red card. I used it to pay at the supermarket this morning."
+    },
+    {
+     "who": "Herr Weber",
+     "de": "So, die rote Karte ist jetzt gesperrt.",
+     "tr": "Tamam, kırmızı kartınız artık kullanıma kapalı.",
+     "en": "All right, the red card is blocked now."
+    },
+    {
+     "who": "Elif",
+     "de": "Danke. Können Sie mir bitte eine neue Karte schicken?",
+     "tr": "Teşekkürler. Bana yeni bir kart gönderebilir misiniz?",
+     "en": "Thank you. Could you send me a new card, please?"
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Ja. Die neue Karte kommt per Post in etwa fünf Werktagen.",
+     "tr": "Evet. Yeni kartınız yaklaşık beş iş günü içinde postayla gelir.",
+     "en": "Yes. The new card will arrive by mail in about five working days."
+    },
+    {
+     "who": "Elif",
+     "de": "Habe ich richtig gehört? Fünf Werktage?",
+     "tr": "Doğru mu duydum? Beş iş günü mü?",
+     "en": "Did I hear that right? Five working days?"
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Genau. Bis dahin können Sie die blaue Karte benutzen.",
+     "tr": "Evet. O zamana kadar mavi kartı kullanabilirsiniz.",
+     "en": "That's right. You can use the blue card until then."
+    },
+    {
+     "who": "Elif",
+     "de": "Gut, vielen Dank für Ihre Hilfe. Auf Wiederhören!",
+     "tr": "Peki, yardımınız için çok teşekkürler. Hoşça kalın!",
+     "en": "Great, thanks very much for your help. Goodbye!"
+    },
+    {
+     "who": "Herr Weber",
+     "de": "Gerne. Auf Wiederhören!",
+     "tr": "Rica ederim. Hoşça kalın!",
+     "en": "You're welcome. Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "sperren",
+     "lemma": "sperren",
+     "art": null,
+     "tr": "kullanıma kapatmak",
+     "en": "to block"
+    },
+    {
+     "form": "Werktagen",
+     "lemma": "Werktag",
+     "art": "der",
+     "tr": "iş günü",
+     "en": "working day"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Welche Karte hat Elif verloren?",
+     "options": [
+      "Die blaue Karte",
+      "Die rote Karte",
+      "Die grüne Karte"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wie kommt die neue Karte zu Elif?",
+     "options": [
+      "Per E-Mail",
+      "Mit einem Taxi",
+      "Per Post"
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Elif kann ihre blaue Karte weiter benutzen.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die neue Karte kommt schon morgen.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-t03",
+   "level": "A2",
+   "kind": "call",
+   "place": "office",
+   "title": "Kein Internet zu Hause",
+   "title_tr": "Evde internet yok",
+   "title_en": "No internet at home",
+   "lines": [
+    {
+     "who": "Herr Vogt",
+     "de": "StadtTel, technischer Service, Vogt am Apparat. Guten Tag!",
+     "tr": "StadtTel teknik servis, ben Vogt. İyi günler!",
+     "en": "StadtTel technical support, Mr. Vogt speaking. Hello!"
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag, hier ist Elif Yılmaz. Mein Internet funktioniert seit gestern Abend nicht mehr.",
+     "tr": "İyi günler, ben Elif Yılmaz. İnternetim dün akşamdan beri çalışmıyor.",
+     "en": "Hello, this is Elif Yılmaz. My internet has been down since last night."
+    },
+    {
+     "who": "Herr Vogt",
+     "de": "Haben Sie den Router schon aus- und wieder eingeschaltet?",
+     "tr": "Modemi kapatıp tekrar açtınız mı?",
+     "en": "Have you tried turning the router off and on again?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, schon zweimal. Die rote Lampe blinkt immer noch.",
+     "tr": "Evet, iki kez yaptım. Kırmızı ışık hâlâ yanıp sönüyor.",
+     "en": "Yes, twice already. The red light is still flashing."
+    },
+    {
+     "who": "Herr Vogt",
+     "de": "Einen Moment. Können Sie mir bitte Ihre Kundennummer sagen?",
+     "tr": "Bir dakika lütfen. Müşteri numaranızı söyler misiniz?",
+     "en": "One moment. Could you give me your customer number, please?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, vier, sieben, zwei, neun, eins.",
+     "tr": "Evet, dört, yedi, iki, dokuz, bir.",
+     "en": "Yes, four, seven, two, nine, one."
+    },
+    {
+     "who": "Herr Vogt",
+     "de": "Vier, sieben, zwei, neun, eins. Danke, ich habe Ihre Daten gefunden.",
+     "tr": "Dört, yedi, iki, dokuz, bir. Teşekkürler, bilgilerinizi buldum.",
+     "en": "Four, seven, two, nine, one. Thanks, I've found your account."
+    },
+    {
+     "who": "Elif",
+     "de": "Muss jemand vorbeikommen?",
+     "tr": "Birinin gelip bakması gerekiyor mu?",
+     "en": "Does someone need to come out?"
+    },
+    {
+     "who": "Herr Vogt",
+     "de": "Ja, ein Techniker kann morgen zwischen acht und zehn Uhr kommen.",
+     "tr": "Evet, bir teknisyen yarın saat sekizle on arasında gelebilir.",
+     "en": "Yes, a technician can come tomorrow between eight and ten."
+    },
+    {
+     "who": "Elif",
+     "de": "Geht es später? Ich bin vormittags nicht zu Hause.",
+     "tr": "Daha geç olabilir mi? Sabah evde olmayacağım.",
+     "en": "Could it be later? I won't be home in the morning."
+    },
+    {
+     "who": "Herr Vogt",
+     "de": "Dann morgen zwischen vierzehn und sechzehn Uhr. Der Techniker ruft vorher an.",
+     "tr": "O zaman yarın saat ikiyle dört arasında. Teknisyen gelmeden önce sizi arar.",
+     "en": "Then tomorrow between two and four p.m. The technician will call first."
+    },
+    {
+     "who": "Elif",
+     "de": "Das passt. Danke für Ihre Hilfe. Auf Wiederhören!",
+     "tr": "Bu saatler uygun. Yardımınız için teşekkürler. Hoşça kalın!",
+     "en": "That works. Thanks for your help. Goodbye!"
+    },
+    {
+     "who": "Herr Vogt",
+     "de": "Gerne. Auf Wiederhören, Frau Yılmaz!",
+     "tr": "Rica ederim. Hoşça kalın, Elif Hanım!",
+     "en": "You're welcome. Goodbye, Ms. Yılmaz!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Router",
+     "lemma": "Router",
+     "art": "der",
+     "tr": "modem, yönlendirici",
+     "en": "router"
+    },
+    {
+     "form": "blinkt",
+     "lemma": "blinken",
+     "art": null,
+     "tr": "yanıp sönmek",
+     "en": "to flash"
+    },
+    {
+     "form": "Kundennummer",
+     "lemma": "Kundennummer",
+     "art": "die",
+     "tr": "müşteri numarası",
+     "en": "customer number"
+    },
+    {
+     "form": "Techniker",
+     "lemma": "Techniker",
+     "art": "der",
+     "tr": "teknisyen",
+     "en": "technician"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Seit wann funktioniert Elifs Internet nicht?",
+     "options": [
+      "Seit heute Morgen",
+      "Seit gestern Abend",
+      "Seit letzter Woche"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wann kommt der Techniker?",
+     "options": [
+      "Morgen zwischen 8 und 10 Uhr",
+      "Heute zwischen 14 und 16 Uhr",
+      "Morgen zwischen 14 und 16 Uhr"
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat den Router schon zweimal neu gestartet.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Techniker kommt ohne Anruf.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-t04",
+   "level": "A2",
+   "kind": "call",
+   "place": "home",
+   "title": "Eine Wohnung in Ehrenfeld",
+   "title_tr": "Ehrenfeld'de bir daire",
+   "title_en": "An apartment in Ehrenfeld",
+   "lines": [
+    {
+     "who": "Herr Berger",
+     "de": "Berger, hallo?",
+     "tr": "Efendim, ben Berger?",
+     "en": "Hello, Berger speaking."
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag, hier ist Elif Yılmaz. Ich rufe wegen Ihrer Wohnungsanzeige an.",
+     "tr": "İyi günler, ben Elif Yılmaz. Daire ilanınız için arıyorum.",
+     "en": "Hello, this is Elif Yılmaz. I'm calling about your apartment listing."
+    },
+    {
+     "who": "Herr Berger",
+     "de": "Meinen Sie die Wohnung in Ehrenfeld? Die ist noch frei.",
+     "tr": "Ehrenfeld'deki daireyi mi diyorsunuz? O hâlâ boş.",
+     "en": "Do you mean the apartment in Ehrenfeld? It's still available."
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, genau. Hat sie zwei oder drei Zimmer?",
+     "tr": "Evet, tam olarak o. İki odalı mı, üç odalı mı?",
+     "en": "Yes, that's the one. Does it have two rooms or three?"
+    },
+    {
+     "who": "Herr Berger",
+     "de": "Zwei Zimmer. Dazu kommen eine kleine Küche und ein Bad.",
+     "tr": "İki oda. Ayrıca küçük bir mutfak ve banyo var.",
+     "en": "Two rooms, plus a small kitchen and a bathroom."
+    },
+    {
+     "who": "Elif",
+     "de": "Und wie hoch ist die Miete mit Heizung?",
+     "tr": "Peki ısınma dahil kira ne kadar?",
+     "en": "And how much is the rent including heating?"
+    },
+    {
+     "who": "Herr Berger",
+     "de": "Mit Heizung kostet die Wohnung achthundertfünfzig Euro im Monat.",
+     "tr": "Dairenin aylık kirası ısınma dahil sekiz yüz elli avro.",
+     "en": "With heating, the apartment costs eight hundred and fifty euros a month."
+    },
+    {
+     "who": "Elif",
+     "de": "Achthundertfünfzig, richtig? Kann ich die Wohnung diese Woche sehen?",
+     "tr": "Sekiz yüz elli, doğru mu? Daireyi bu hafta görebilir miyim?",
+     "en": "Eight hundred and fifty, right? Can I see the apartment this week?"
+    },
+    {
+     "who": "Herr Berger",
+     "de": "Ja, genau. Am Freitag um siebzehn Uhr bin ich dort.",
+     "tr": "Evet, doğru. Cuma günü saat beşte orada olurum.",
+     "en": "That's right. I'll be there at five p.m. on Friday."
+    },
+    {
+     "who": "Elif",
+     "de": "Freitag passt gut. Warten Sie vor dem Haus?",
+     "tr": "Cuma bana uygun. Evin önünde mi bekleyeceksiniz?",
+     "en": "Friday works well. Will you be waiting in front of the building?"
+    },
+    {
+     "who": "Herr Berger",
+     "de": "Nein, klingeln Sie bitte bei Berger. Ich mache Ihnen dann auf.",
+     "tr": "Hayır, lütfen üzerinde Berger yazan zile basın. Size kapıyı açarım.",
+     "en": "No, please ring the bell marked Berger. I'll open the door for you."
+    },
+    {
+     "who": "Elif",
+     "de": "Alles klar. Vielen Dank, bis Freitag!",
+     "tr": "Tamamdır. Çok teşekkürler, cuma görüşürüz!",
+     "en": "Got it. Thank you, see you Friday!"
+    },
+    {
+     "who": "Herr Berger",
+     "de": "Bis Freitag, Frau Yılmaz!",
+     "tr": "Cuma görüşürüz, Elif Hanım!",
+     "en": "See you Friday, Ms. Yılmaz!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Wohnungsanzeige",
+     "lemma": "Wohnungsanzeige",
+     "art": "die",
+     "tr": "daire ilanı",
+     "en": "apartment listing"
+    },
+    {
+     "form": "Heizung",
+     "lemma": "Heizung",
+     "art": "die",
+     "tr": "ısınma, ısıtma",
+     "en": "heating"
+    },
+    {
+     "form": "klingeln",
+     "lemma": "klingeln",
+     "art": null,
+     "tr": "zile basmak",
+     "en": "to ring the doorbell"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie viel kostet die Wohnung im Monat mit Heizung?",
+     "options": [
+      "750 Euro",
+      "850 Euro",
+      "950 Euro"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wann sieht Elif die Wohnung?",
+     "options": [
+      "Am Donnerstag um 17 Uhr",
+      "Am Freitag um 15 Uhr",
+      "Am Freitag um 17 Uhr"
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Die Wohnung hat zwei Zimmer.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Herr Berger wartet vor dem Haus.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-t05",
+   "level": "A2",
+   "kind": "call",
+   "place": "office",
+   "title": "Die falsche Schuhgröße",
+   "title_tr": "Yanlış numara ayakkabı",
+   "title_en": "The wrong shoe size",
+   "lines": [
+    {
+     "who": "Frau Krüger",
+     "de": "Kundenservice von Schuhwelt, Krüger hier. Was kann ich für Sie tun?",
+     "tr": "Schuhwelt müşteri hizmetleri, ben Krüger. Size nasıl yardımcı olabilirim?",
+     "en": "Schuhwelt customer service, Ms. Krüger speaking. How can I help you?"
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag. Meine Schuhe sind heute angekommen, aber die Größe ist falsch.",
+     "tr": "İyi günler. Ayakkabılarım bugün geldi ama numarası yanlış.",
+     "en": "Hello. My shoes arrived today, but they're the wrong size."
+    },
+    {
+     "who": "Frau Krüger",
+     "de": "Welche Größe haben Sie bekommen?",
+     "tr": "Size kaç numara geldi?",
+     "en": "What size did you receive?"
+    },
+    {
+     "who": "Elif",
+     "de": "Neununddreißig. Ich habe aber Größe achtunddreißig bestellt.",
+     "tr": "Otuz dokuz. Ama ben otuz sekiz numara sipariş ettim.",
+     "en": "Thirty-nine. But I ordered size thirty-eight."
+    },
+    {
+     "who": "Frau Krüger",
+     "de": "Verstehe. Möchten Sie die Schuhe zurückgeben oder umtauschen?",
+     "tr": "Anladım. Ayakkabıları iade etmek mi, değiştirmek mi istiyorsunuz?",
+     "en": "I see. Would you like to return the shoes or exchange them?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ich möchte sie umtauschen, weil mir das Modell gut gefällt.",
+     "tr": "Modeli beğendiğim için değiştirmek istiyorum.",
+     "en": "I'd like to exchange them because I really like this style."
+    },
+    {
+     "who": "Frau Krüger",
+     "de": "Geben Sie mir bitte die Bestellnummer. Sie steht oben auf der Rechnung.",
+     "tr": "Sipariş numaranızı söyler misiniz lütfen? Faturanın üst kısmında yazıyor.",
+     "en": "Could you give me your order number, please? It's at the top of the invoice."
+    },
+    {
+     "who": "Elif",
+     "de": "Moment, ich habe die Rechnung hier. Die Nummer ist sechs, drei, zwei, fünf.",
+     "tr": "Bir saniye, fatura yanımda. Numara altı, üç, iki, beş.",
+     "en": "One moment, I have the invoice here. The number is six, three, two, five."
+    },
+    {
+     "who": "Frau Krüger",
+     "de": "Sechs, drei, zwei, fünf. Danke. Ich schicke Ihnen ein Rücksendeetikett per E-Mail.",
+     "tr": "Altı, üç, iki, beş. Teşekkürler. İade gönderim etiketini e-postayla yolluyorum.",
+     "en": "Six, three, two, five. Thank you. I'll email you a return label."
+    },
+    {
+     "who": "Elif",
+     "de": "Muss ich für die Rücksendung etwas bezahlen?",
+     "tr": "İade gönderimi için ücret ödemem gerekiyor mu?",
+     "en": "Do I have to pay anything to send them back?"
+    },
+    {
+     "who": "Frau Krüger",
+     "de": "Nein. Wenn das Paket hier ist, schicken wir Ihnen Größe achtunddreißig.",
+     "tr": "Hayır. Paket bize ulaşınca otuz sekiz numarayı göndeririz.",
+     "en": "No. Once we get the package, we'll send you size thirty-eight."
+    },
+    {
+     "who": "Elif",
+     "de": "Prima, dann bringe ich das Paket morgen zur Post. Vielen Dank!",
+     "tr": "Harika, o zaman paketi yarın postaneye götürürüm. Çok teşekkürler!",
+     "en": "Great, then I'll take the package to the post office tomorrow. Thank you!"
+    },
+    {
+     "who": "Frau Krüger",
+     "de": "Gerne. Auf Wiederhören, Frau Yılmaz!",
+     "tr": "Rica ederim. Hoşça kalın, Elif Hanım!",
+     "en": "You're welcome. Goodbye, Ms. Yılmaz!"
+    },
+    {
+     "who": "Elif",
+     "de": "Auf Wiederhören!",
+     "tr": "Hoşça kalın!",
+     "en": "Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "umtauschen",
+     "lemma": "umtauschen",
+     "art": null,
+     "tr": "değiştirmek",
+     "en": "to exchange"
+    },
+    {
+     "form": "Bestellnummer",
+     "lemma": "Bestellnummer",
+     "art": "die",
+     "tr": "sipariş numarası",
+     "en": "order number"
+    },
+    {
+     "form": "Rücksendeetikett",
+     "lemma": "Rücksendeetikett",
+     "art": "das",
+     "tr": "iade gönderim etiketi",
+     "en": "return label"
+    },
+    {
+     "form": "Rücksendung",
+     "lemma": "Rücksendung",
+     "art": "die",
+     "tr": "iade gönderimi",
+     "en": "return shipment"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Welche Schuhgröße hat Elif bestellt?",
+     "options": [
+      "Größe 38",
+      "Größe 39",
+      "Größe 40"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo steht die Bestellnummer?",
+     "options": [
+      "Auf dem Paket",
+      "Auf der Rechnung",
+      "Im Schuh"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif möchte die Schuhe umtauschen.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif muss für die Rücksendung bezahlen.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-t06",
+   "level": "A2",
+   "kind": "call",
+   "place": "shop",
+   "title": "Das Medikament abholen",
+   "title_tr": "İlacı almak",
+   "title_en": "Picking up the medicine",
+   "lines": [
+    {
+     "who": "Frau Seidel",
+     "de": "Park-Apotheke, Seidel am Apparat. Guten Tag!",
+     "tr": "Park Eczanesi, ben Seidel. İyi günler!",
+     "en": "Park Pharmacy, Seidel speaking. Hello!"
+    },
+    {
+     "who": "Elif",
+     "de": "Hier ist Elif Yılmaz. Ist mein Medikament schon da?",
+     "tr": "Ben Elif Yılmaz. İlacım geldi mi?",
+     "en": "This is Elif Yılmaz. Has my medicine arrived yet?"
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Können Sie bitte Ihren Nachnamen buchstabieren?",
+     "tr": "Soyadınızı harf harf söyler misiniz?",
+     "en": "Could you spell your last name, please?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, Ypsilon, I ohne Punkt, El, Em, A, Zett.",
+     "tr": "Tabii, Y, noktasız ı, L, M, A, Z.",
+     "en": "Yes, Y, dotless I, L, M, A, Z."
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Danke. Ja, es ist heute Morgen angekommen.",
+     "tr": "Teşekkürler. Evet, bu sabah geldi.",
+     "en": "Thank you. Yes, it arrived this morning."
+    },
+    {
+     "who": "Elif",
+     "de": "Brauche ich ein Rezept, wenn ich das Medikament abhole?",
+     "tr": "İlacı almaya geldiğimde reçete gerekiyor mu?",
+     "en": "Do I need a prescription to pick up the medicine?"
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Ja, bringen Sie bitte das Rezept mit.",
+     "tr": "Evet, lütfen reçeteyi yanınıza alın.",
+     "en": "Yes, please bring the prescription with you."
+    },
+    {
+     "who": "Elif",
+     "de": "Wie lange haben Sie heute geöffnet?",
+     "tr": "Bugün saat kaça kadar açıksınız?",
+     "en": "What time are you open until today?"
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Heute bis achtzehn Uhr. Morgen öffnen wir um neun.",
+     "tr": "Bugün saat on sekize kadar. Yarın dokuzda açıyoruz.",
+     "en": "Until six p.m. today. Tomorrow we open at nine."
+    },
+    {
+     "who": "Elif",
+     "de": "Dann komme ich heute kurz nach fünf.",
+     "tr": "O zaman bugün beşi biraz geçe gelirim.",
+     "en": "Then I'll come just after five today."
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Gut, das Medikament liegt für Sie bereit.",
+     "tr": "Peki, ilacınız sizin için hazır.",
+     "en": "All right, the medicine is ready for you."
+    },
+    {
+     "who": "Elif",
+     "de": "Danke für die Auskunft. Auf Wiederhören!",
+     "tr": "Bilgi için teşekkürler. Hoşça kalın!",
+     "en": "Thanks for the information. Goodbye!"
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Auf Wiederhören, Frau Yılmaz!",
+     "tr": "Hoşça kalın Bayan Yılmaz!",
+     "en": "Goodbye, Ms Yılmaz!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Rezept",
+     "lemma": "Rezept",
+     "art": "das",
+     "tr": "reçete",
+     "en": "prescription"
+    },
+    {
+     "form": "liegt … bereit",
+     "lemma": "bereitliegen",
+     "art": null,
+     "tr": "hazır beklemek",
+     "en": "to be ready for pickup"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann ist das Medikament angekommen?",
+     "options": [
+      "Gestern Abend.",
+      "Heute Morgen.",
+      "Heute Nachmittag."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Bis wann ist die Apotheke heute geöffnet?",
+     "options": [
+      "Bis siebzehn Uhr.",
+      "Bis neunzehn Uhr.",
+      "Bis achtzehn Uhr."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Elif muss das Rezept mitbringen.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Apotheke öffnet morgen um acht Uhr.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-t07",
+   "level": "A2",
+   "kind": "call",
+   "place": "office",
+   "title": "Die Schicht tauschen",
+   "title_tr": "Vardiyayı değiştirmek",
+   "title_en": "Swapping a shift",
+   "lines": [
+    {
+     "who": "Herr Beck",
+     "de": "Café am Rhein, Beck hier.",
+     "tr": "Café am Rhein, ben Beck.",
+     "en": "Café am Rhein, Beck speaking."
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Morgen, Herr Beck. Hier ist Elif. Haben Sie kurz Zeit?",
+     "tr": "Günaydın Bay Beck. Ben Elif. Bir dakikanız var mı?",
+     "en": "Good morning, Mr Beck. It's Elif. Do you have a minute?"
+    },
+    {
+     "who": "Herr Beck",
+     "de": "Ja, natürlich. Geht es um den Dienstplan?",
+     "tr": "Evet, tabii. Konu vardiya çizelgesi mi?",
+     "en": "Yes, of course. Is it about the rota?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja. Kann ich nächsten Mittwoch von der Frühschicht in die Spätschicht wechseln?",
+     "tr": "Evet. Gelecek çarşamba sabah vardiyasından akşam vardiyasına geçebilir miyim?",
+     "en": "Yes. Can I switch from the early shift to the late shift next Wednesday?"
+    },
+    {
+     "who": "Herr Beck",
+     "de": "Was ist denn am Mittwoch?",
+     "tr": "Çarşamba ne var?",
+     "en": "What's happening on Wednesday?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ich habe um neun einen Termin beim Zahnarzt.",
+     "tr": "Saat dokuzda dişçi randevum var.",
+     "en": "I have a dentist appointment at nine."
+    },
+    {
+     "who": "Herr Beck",
+     "de": "Ah, verstehe. Kann Frau Weber am Morgen arbeiten?",
+     "tr": "Anladım. Bayan Weber sabah çalışabilir mi?",
+     "en": "I see. Can Ms Weber work in the morning?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, ich habe sie gefragt. Sie kann die Frühschicht übernehmen.",
+     "tr": "Evet, ona sordum. Sabah vardiyasını o alabilir.",
+     "en": "Yes, I asked her. She can take the early shift."
+    },
+    {
+     "who": "Herr Beck",
+     "de": "Gut. Dann fangen Sie am Mittwoch um vierzehn Uhr an.",
+     "tr": "Peki. O zaman çarşamba saat on dörtte başlayın.",
+     "en": "All right. Then you'll start at two p.m. on Wednesday."
+    },
+    {
+     "who": "Elif",
+     "de": "Vierzehn Uhr, richtig?",
+     "tr": "Saat on dört, doğru mu?",
+     "en": "Two p.m., right?"
+    },
+    {
+     "who": "Herr Beck",
+     "de": "Genau. Ich ändere den Plan gleich.",
+     "tr": "Aynen. Çizelgeyi hemen değiştiriyorum.",
+     "en": "That's right. I'll change the rota now."
+    },
+    {
+     "who": "Elif",
+     "de": "Vielen Dank, Herr Beck. Bis morgen!",
+     "tr": "Çok teşekkürler Bay Beck. Yarın görüşürüz!",
+     "en": "Thank you, Mr Beck. See you tomorrow!"
+    },
+    {
+     "who": "Herr Beck",
+     "de": "Bis morgen, Elif!",
+     "tr": "Yarın görüşürüz Elif!",
+     "en": "See you tomorrow, Elif!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Dienstplan",
+     "lemma": "Dienstplan",
+     "art": "der",
+     "tr": "vardiya çizelgesi",
+     "en": "rota"
+    },
+    {
+     "form": "Frühschicht",
+     "lemma": "Frühschicht",
+     "art": "die",
+     "tr": "sabah vardiyası",
+     "en": "early shift"
+    },
+    {
+     "form": "Spätschicht",
+     "lemma": "Spätschicht",
+     "art": "die",
+     "tr": "akşam vardiyası",
+     "en": "late shift"
+    },
+    {
+     "form": "übernehmen",
+     "lemma": "übernehmen",
+     "art": null,
+     "tr": "üstlenmek",
+     "en": "to take over"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "An welchem Tag möchte Elif die Schicht tauschen?",
+     "options": [
+      "Am Dienstag.",
+      "Am Donnerstag.",
+      "Am Mittwoch."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "mc",
+     "q": "Warum möchte Elif tauschen?",
+     "options": [
+      "Sie hat einen Zahnarzttermin.",
+      "Sie muss zur Sprachschule.",
+      "Sie besucht ihre Familie."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif fängt am Mittwoch um vierzehn Uhr an.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Weber kann am Mittwochmorgen nicht arbeiten.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-t08",
+   "level": "A2",
+   "kind": "call",
+   "place": "office",
+   "title": "Das Fahrrad ist weg",
+   "title_tr": "Bisiklet ortada yok",
+   "title_en": "The bicycle is gone",
+   "lines": [
+    {
+     "who": "Herr Klein",
+     "de": "Rhein-Versicherung. Klein am Apparat, guten Tag.",
+     "tr": "Ren Sigorta. Ben Klein, iyi günler.",
+     "en": "Rhein Insurance, Klein speaking. Hello."
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag, hier ist Elif Yılmaz. Jemand hat mein Fahrrad gestohlen.",
+     "tr": "İyi günler, ben Elif Yılmaz. Biri bisikletimi çaldı.",
+     "en": "Hello, this is Elif Yılmaz. Someone stole my bicycle."
+    },
+    {
+     "who": "Herr Klein",
+     "de": "Das tut mir leid. Wo stand das Fahrrad?",
+     "tr": "Üzüldüm. Bisiklet neredeydi?",
+     "en": "I'm sorry to hear that. Where was the bike?"
+    },
+    {
+     "who": "Elif",
+     "de": "Vor der Bibliothek. Das Schloss lag noch auf dem Boden.",
+     "tr": "Kütüphanenin önündeydi. Kilidi hâlâ yerdeydi.",
+     "en": "Outside the library. The lock was still on the ground."
+    },
+    {
+     "who": "Herr Klein",
+     "de": "Waren Sie schon bei der Polizei?",
+     "tr": "Polise gittiniz mi?",
+     "en": "Have you been to the police yet?"
+    },
+    {
+     "who": "Elif",
+     "de": "Nein. Was brauche ich für die Versicherung?",
+     "tr": "Hayır. Sigorta için ne gerekiyor?",
+     "en": "No. What do I need for the insurance claim?"
+    },
+    {
+     "who": "Herr Klein",
+     "de": "Gehen Sie zuerst zur Polizei und melden Sie den Diebstahl.",
+     "tr": "Önce polise gidip hırsızlığı bildirin.",
+     "en": "First, go to the police and report the theft."
+    },
+    {
+     "who": "Elif",
+     "de": "Gut. Welche Unterlagen brauchen Sie danach?",
+     "tr": "Peki. Ondan sonra hangi belgeler gerekiyor?",
+     "en": "All right. What documents do you need after that?"
+    },
+    {
+     "who": "Herr Klein",
+     "de": "Schicken Sie uns die Bestätigung der Polizei und die Rechnung für das Fahrrad.",
+     "tr": "Polisin verdiği belgeyi ve bisikletin faturasını bize gönderin.",
+     "en": "Send us the confirmation from the police and the receipt for the bike."
+    },
+    {
+     "who": "Elif",
+     "de": "Können Sie das noch einmal sagen? Ich schreibe mit.",
+     "tr": "Bir daha söyler misiniz? Not alıyorum.",
+     "en": "Could you say that again? I'm writing it down."
+    },
+    {
+     "who": "Herr Klein",
+     "de": "Die Bestätigung und die Rechnung. Per E-Mail reicht.",
+     "tr": "Polisten aldığınız belge ve fatura. E-postayla göndermeniz yeterli.",
+     "en": "The confirmation and the receipt. Email is fine."
+    },
+    {
+     "who": "Elif",
+     "de": "Alles klar, danke. Auf Wiederhören!",
+     "tr": "Anladım, teşekkürler. Hoşça kalın!",
+     "en": "Got it, thanks. Goodbye!"
+    },
+    {
+     "who": "Herr Klein",
+     "de": "Auf Wiederhören, Frau Yılmaz!",
+     "tr": "Hoşça kalın Bayan Yılmaz!",
+     "en": "Goodbye, Ms Yılmaz!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Diebstahl",
+     "lemma": "Diebstahl",
+     "art": "der",
+     "tr": "hırsızlık",
+     "en": "theft"
+    },
+    {
+     "form": "Bestätigung",
+     "lemma": "Bestätigung",
+     "art": "die",
+     "tr": "onay belgesi",
+     "en": "confirmation"
+    },
+    {
+     "form": "Unterlagen",
+     "lemma": "Unterlage",
+     "art": "die",
+     "tr": "belgeler",
+     "en": "documents"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo stand das Fahrrad?",
+     "options": [
+      "Vor der Bibliothek.",
+      "Hinter der Schule.",
+      "Am Bahnhof."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was soll Elif zuerst tun?",
+     "options": [
+      "Die Rechnung suchen.",
+      "Zur Polizei gehen.",
+      "Ein neues Schloss kaufen."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif kann die Unterlagen per E-Mail schicken.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Das Schloss war zusammen mit dem Fahrrad weg.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-t09",
+   "level": "A2",
+   "kind": "call",
+   "place": "school",
+   "title": "Mia ist krank",
+   "title_tr": "Mia hasta",
+   "title_en": "Mia is sick",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Elif Yılmaz, hallo?",
+     "tr": "Alo, ben Elif Yılmaz.",
+     "en": "Hello, Elif Yılmaz speaking."
+    },
+    {
+     "who": "Frau Vogel",
+     "de": "Guten Tag, hier ist Vogel von der Grundschule am Park.",
+     "tr": "İyi günler, ben Park İlkokulundan Vogel.",
+     "en": "Hello, this is Vogel from Am Park Primary School."
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag. Geht es um Mia Schmidt?",
+     "tr": "İyi günler. Mia Schmidt'le mi ilgili?",
+     "en": "Hello. Is this about Mia Schmidt?"
+    },
+    {
+     "who": "Frau Vogel",
+     "de": "Ja. Mia hat Fieber. Ihre Mutter hat uns Ihre Nummer gegeben.",
+     "tr": "Evet. Mia'nın ateşi var. Annesi bize numaranızı vermişti.",
+     "en": "Yes. Mia has a fever. Her mother gave us your number."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich wohne nebenan. Kann Frau Schmidt gerade nicht kommen?",
+     "tr": "Yan dairede oturuyorum. Bayan Schmidt şu anda gelemiyor mu?",
+     "en": "I live next door. Is Ms Schmidt unable to come right now?"
+    },
+    {
+     "who": "Frau Vogel",
+     "de": "Wir haben sie angerufen, aber sie ist nicht ans Telefon gegangen.",
+     "tr": "Onu aradık ama telefonu açmadı.",
+     "en": "We called her, but she didn't answer."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich kann Mia sofort abholen. Wo wartet sie?",
+     "tr": "Mia'yı hemen alabilirim. Nerede bekliyor?",
+     "en": "I can pick Mia up straight away. Where is she waiting?"
+    },
+    {
+     "who": "Frau Vogel",
+     "de": "Bei mir im Sekretariat. Können Sie in zwanzig Minuten hier sein?",
+     "tr": "Benim yanımda, okul idaresinde. Yirmi dakikaya burada olur musunuz?",
+     "en": "With me in the school office. Can you be here in twenty minutes?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, in zwanzig Minuten. Ich nehme meinen Ausweis mit.",
+     "tr": "Evet, yirmi dakikaya oradayım. Kimliğimi de yanıma alıyorum.",
+     "en": "Yes, in twenty minutes. I'll bring my ID."
+    },
+    {
+     "who": "Frau Vogel",
+     "de": "Danke. Benutzen Sie bitte den Haupteingang an der Parkstraße.",
+     "tr": "Teşekkürler. Lütfen Parkstraße'deki ana girişi kullanın.",
+     "en": "Thank you. Please use the main entrance on Parkstraße."
+    },
+    {
+     "who": "Elif",
+     "de": "Gut. Ich sage Frau Schmidt auch noch Bescheid.",
+     "tr": "Peki. Bayan Schmidt'e de haber vereceğim.",
+     "en": "All right. I'll let Ms Schmidt know too."
+    },
+    {
+     "who": "Frau Vogel",
+     "de": "Danke, Frau Yılmaz. Bis gleich!",
+     "tr": "Teşekkürler Bayan Yılmaz. Birazdan görüşürüz!",
+     "en": "Thanks, Ms Yılmaz. See you soon!"
+    },
+    {
+     "who": "Elif",
+     "de": "Bis gleich.",
+     "tr": "Görüşürüz.",
+     "en": "See you soon."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Sekretariat",
+     "lemma": "Sekretariat",
+     "art": "das",
+     "tr": "okul idaresi",
+     "en": "school office"
+    },
+    {
+     "form": "Ausweis",
+     "lemma": "Ausweis",
+     "art": "der",
+     "tr": "kimlik",
+     "en": "ID"
+    },
+    {
+     "form": "Haupteingang",
+     "lemma": "Haupteingang",
+     "art": "der",
+     "tr": "ana giriş",
+     "en": "main entrance"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Warum soll Elif Mia abholen?",
+     "options": [
+      "Mia hat ihre Tasche vergessen.",
+      "Mia hat Fieber.",
+      "Mia hat früher Schluss."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wo wartet Mia?",
+     "options": [
+      "Vor der Schule.",
+      "In der Turnhalle.",
+      "Im Sekretariat."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Die Schule hat Mias Mutter am Telefon erreicht.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif ist in zwanzig Minuten da.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "a2-t10",
+   "level": "A2",
+   "kind": "call",
+   "place": "school",
+   "title": "Anmeldung zur A2-Prüfung",
+   "title_tr": "A2 sınavına kayıt",
+   "title_en": "Registering for the A2 exam",
+   "lines": [
+    {
+     "who": "Frau Roth",
+     "de": "Sprachschule am Ring, Roth. Guten Tag!",
+     "tr": "Sprachschule am Ring, ben Roth. İyi günler!",
+     "en": "Sprachschule am Ring, Roth speaking. Hello!"
+    },
+    {
+     "who": "Elif",
+     "de": "Guten Tag, hier ist Elif Yılmaz. Ich möchte mich zur Goethe-A2-Prüfung anmelden.",
+     "tr": "İyi günler, ben Elif Yılmaz. Goethe A2 sınavına kaydolmak istiyorum.",
+     "en": "Hello, this is Elif Yılmaz. I'd like to register for the Goethe A2 exam."
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Für den nächsten Termin sind noch Plätze frei.",
+     "tr": "Bir sonraki sınav için hâlâ boş yer var.",
+     "en": "There are still places available for the next exam."
+    },
+    {
+     "who": "Elif",
+     "de": "Wann ist denn die Prüfung?",
+     "tr": "Sınav ne zaman peki?",
+     "en": "When is the exam?"
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Am zweiundzwanzigsten Juni um neun Uhr.",
+     "tr": "22 Haziran'da saat dokuzda.",
+     "en": "On June twenty-second at nine a.m."
+    },
+    {
+     "who": "Elif",
+     "de": "Bis wann kann ich mich anmelden?",
+     "tr": "En geç ne zaman kaydolabilirim?",
+     "en": "What's the registration deadline?"
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Bis zum achten Juni. Das Formular finden Sie auf unserer Webseite.",
+     "tr": "8 Haziran'a kadar. Formu internet sitemizde bulabilirsiniz.",
+     "en": "Until June eighth. You can find the form on our website."
+    },
+    {
+     "who": "Elif",
+     "de": "Habe ich richtig gehört? Bis zum achten, nicht bis zum achtzehnten?",
+     "tr": "Doğru mu duydum? On sekizine değil, sekizine kadar mı?",
+     "en": "Did I hear that right? Until the eighth, not the eighteenth?"
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Genau, bis zum achten Juni.",
+     "tr": "Aynen, 8 Haziran'a kadar.",
+     "en": "That's right, until June eighth."
+    },
+    {
+     "who": "Elif",
+     "de": "Und wie viel kostet die Prüfung?",
+     "tr": "Peki sınav ücreti ne kadar?",
+     "en": "And how much does the exam cost?"
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Sie kostet hundertdreißig Euro. Sie bekommen nach der Anmeldung eine E-Mail.",
+     "tr": "Ücreti yüz otuz avro. Kayıttan sonra size bir e-posta gelecek.",
+     "en": "It costs one hundred and thirty euros. You'll get an email after registering."
+    },
+    {
+     "who": "Elif",
+     "de": "Prima, dann fülle ich das Formular heute aus.",
+     "tr": "Harika, o zaman formu bugün doldururum.",
+     "en": "Great, then I'll fill in the form today."
+    },
+    {
+     "who": "Frau Roth",
+     "de": "Gut. Auf Wiederhören, Frau Yılmaz!",
+     "tr": "Peki. Hoşça kalın Bayan Yılmaz!",
+     "en": "All right. Goodbye, Ms Yılmaz!"
+    },
+    {
+     "who": "Elif",
+     "de": "Vielen Dank. Auf Wiederhören!",
+     "tr": "Çok teşekkürler. Hoşça kalın!",
+     "en": "Thank you very much. Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Anmeldung",
+     "lemma": "Anmeldung",
+     "art": "die",
+     "tr": "kayıt",
+     "en": "registration"
+    },
+    {
+     "form": "Formular",
+     "lemma": "Formular",
+     "art": "das",
+     "tr": "form",
+     "en": "form"
+    },
+    {
+     "form": "fülle … aus",
+     "lemma": "ausfüllen",
+     "art": null,
+     "tr": "doldurmak",
+     "en": "to fill in"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann ist die Prüfung?",
+     "options": [
+      "Am achten Juni.",
+      "Am achtzehnten Juni.",
+      "Am zweiundzwanzigsten Juni."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "mc",
+     "q": "Was kostet die Prüfung?",
+     "options": [
+      "Hundertdreißig Euro.",
+      "Hundertachtzig Euro.",
+      "Dreißig Euro."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif kann sich bis zum achten Juni anmelden.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Das Formular gibt es nur in der Schule.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-m01",
+   "level": "A2",
+   "kind": "message",
+   "place": "office",
+   "title": "Ein neuer Termin beim Bürgeramt",
+   "title_tr": "Belediye hizmet bürosunda yeni randevu",
+   "title_en": "A new appointment at the citizens' office",
+   "lines": [
+    {
+     "who": "Frau Neumann",
+     "de": "Guten Tag, Frau Yılmaz, hier ist Neumann vom Bürgeramt in Köln.",
+     "tr": "İyi günler Elif Hanım, Köln Belediye Hizmet Bürosundan Neumann ben.",
+     "en": "Hello, Ms Yılmaz, this is Neumann from the citizens' office in Cologne."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Ihr Termin am Dienstag um halb zehn fällt leider aus.",
+     "tr": "Salı günü saat dokuz buçuktaki randevunuz ne yazık ki iptal.",
+     "en": "Unfortunately, your appointment on Tuesday at half past nine is canceled."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Sie müssen einen neuen Termin auf unserer Internetseite buchen.",
+     "tr": "İnternet sitemizden yeni bir randevu almanız gerekiyor.",
+     "en": "You'll need to book a new appointment on our website."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Dort wählen Sie zuerst das Bürgeramt in Ihrem Stadtteil.",
+     "tr": "Sitede önce semtinizdeki belediye hizmet bürosunu seçin.",
+     "en": "First, select the citizens' office in your district."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Nach der Buchung bekommen Sie eine E-Mail mit Datum und Uhrzeit.",
+     "tr": "Randevu aldıktan sonra tarih ve saati içeren bir e-posta alacaksınız.",
+     "en": "After booking, you'll get an email with the date and time."
+    },
+    {
+     "who": "Frau Neumann",
+     "de": "Vielen Dank für Ihr Verständnis. Auf Wiederhören.",
+     "tr": "Anlayışınız için teşekkür ederim. Hoşça kalın.",
+     "en": "Thank you for your understanding. Goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Bürgeramt",
+     "lemma": "Bürgeramt",
+     "art": "das",
+     "tr": "belediye hizmet bürosu",
+     "en": "citizens' office"
+    },
+    {
+     "form": "fällt … aus",
+     "lemma": "ausfallen",
+     "art": null,
+     "tr": "iptal olmak",
+     "en": "to be canceled"
+    },
+    {
+     "form": "Buchung",
+     "lemma": "Buchung",
+     "art": "die",
+     "tr": "randevu alma, rezervasyon",
+     "en": "booking"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie soll Elif einen neuen Termin buchen?",
+     "options": [
+      "Am Telefon.",
+      "Auf der Internetseite.",
+      "Im Bürgeramt."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Nach der Buchung bekommt Elif eine E-Mail.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "a2-m02",
+   "level": "A2",
+   "kind": "message",
+   "place": "street",
+   "title": "Morgen kommt der Techniker",
+   "title_tr": "Teknisyen yarın geliyor",
+   "title_en": "The technician is coming tomorrow",
+   "lines": [
+    {
+     "who": "Herr Berger",
+     "de": "Guten Tag, Frau Yılmaz. Berger hier, vom Kundendienst der Firma Blum.",
+     "tr": "İyi günler Elif Hanım. Blum firmasının müşteri servisinden Berger ben.",
+     "en": "Hello, Ms Yılmaz. This is Berger from customer service at Blum."
+    },
+    {
+     "who": "Herr Berger",
+     "de": "Ich komme morgen zwischen acht und zwölf Uhr zu Ihnen.",
+     "tr": "Yarın saat sekizle on iki arasında size geleceğim.",
+     "en": "I'll come to your place tomorrow between eight and twelve."
+    },
+    {
+     "who": "Herr Berger",
+     "de": "Ich möchte mir Ihre kaputte Heizung ansehen.",
+     "tr": "Bozulan kaloriferinize bakmak istiyorum.",
+     "en": "I'd like to take a look at your broken heating system."
+    },
+    {
+     "who": "Herr Berger",
+     "de": "In dieser Zeit muss jemand zu Hause sein, weil ich in die Wohnung muss.",
+     "tr": "Daireye girmem gerektiği için o saatlerde evde birinin olması gerekiyor.",
+     "en": "Someone needs to be home during that time because I need to get into the apartment."
+    },
+    {
+     "who": "Herr Berger",
+     "de": "Falls das nicht geht, rufen Sie uns bitte noch heute an.",
+     "tr": "Bu mümkün değilse lütfen bizi bugün içinde arayın.",
+     "en": "If that doesn't work, please call us today."
+    },
+    {
+     "who": "Herr Berger",
+     "de": "Also morgen früh, zwischen acht und zwölf. Auf Wiederhören!",
+     "tr": "Yani yarın sabah sekizle on iki arasında. Hoşça kalın!",
+     "en": "So that's tomorrow morning, between eight and twelve. Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Kundendienst",
+     "lemma": "Kundendienst",
+     "art": "der",
+     "tr": "müşteri servisi",
+     "en": "customer service"
+    },
+    {
+     "form": "Heizung",
+     "lemma": "Heizung",
+     "art": "die",
+     "tr": "kalorifer, ısıtma sistemi",
+     "en": "heating system"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann kommt der Techniker?",
+     "options": [
+      "Heute zwischen acht und zwölf.",
+      "Morgen zwischen zehn und zwölf.",
+      "Morgen zwischen acht und zwölf."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Der Techniker kann kommen, wenn niemand zu Hause ist.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-m03",
+   "level": "A2",
+   "kind": "message",
+   "place": "office",
+   "title": "Ein Gespräch bei der Bäckerei",
+   "title_tr": "Fırında iş görüşmesi",
+   "title_en": "A job interview at the bakery",
+   "lines": [
+    {
+     "who": "Frau Seidel",
+     "de": "Hallo, Frau Yılmaz. Hier spricht Seidel von der Bäckerei Korn.",
+     "tr": "Merhaba Elif Hanım. Korn Fırınından Seidel ben.",
+     "en": "Hello, Ms Yılmaz. This is Seidel from Korn Bakery."
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Vielen Dank für Ihre Bewerbung. Wir möchten Sie gern persönlich kennenlernen.",
+     "tr": "Başvurunuz için çok teşekkürler. Sizinle yüz yüze tanışmak isteriz.",
+     "en": "Thank you for your application. We'd like to meet you in person."
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Können Sie am zwölften März um zehn Uhr zum Vorstellungsgespräch kommen?",
+     "tr": "12 Mart'ta saat onda iş görüşmesine gelebilir misiniz?",
+     "en": "Can you come in for an interview at ten on March 12?"
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Das Gespräch ist in unserer Filiale in der Gartenstraße vierzehn.",
+     "tr": "Görüşme Gartenstraße 14 numaradaki şubemizde.",
+     "en": "The interview is at our branch at 14 Gartenstraße."
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Bringen Sie bitte Ihren Lebenslauf und Ihr letztes Arbeitszeugnis mit.",
+     "tr": "Lütfen özgeçmişinizi ve son iş yerinizden aldığınız çalışma belgesini getirin.",
+     "en": "Please bring your résumé and the reference from your most recent employer."
+    },
+    {
+     "who": "Frau Seidel",
+     "de": "Eine kurze E-Mail zur Bestätigung reicht. Vielen Dank, auf Wiederhören!",
+     "tr": "Geleceğinizi bildiren kısa bir e-posta yeterli. Teşekkürler, hoşça kalın!",
+     "en": "A short email to confirm is enough. Thank you, and goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Vorstellungsgespräch",
+     "lemma": "Vorstellungsgespräch",
+     "art": "das",
+     "tr": "iş görüşmesi",
+     "en": "job interview"
+    },
+    {
+     "form": "Filiale",
+     "lemma": "Filiale",
+     "art": "die",
+     "tr": "şube",
+     "en": "branch"
+    },
+    {
+     "form": "Arbeitszeugnis",
+     "lemma": "Arbeitszeugnis",
+     "art": "das",
+     "tr": "iş yerinden alınan çalışma belgesi",
+     "en": "employment reference"
+    },
+    {
+     "form": "Bestätigung",
+     "lemma": "Bestätigung",
+     "art": "die",
+     "tr": "onay",
+     "en": "confirmation"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann ist das Vorstellungsgespräch?",
+     "options": [
+      "Am zwölften März um zehn Uhr.",
+      "Am zwölften März um vierzehn Uhr.",
+      "Am vierzehnten März um zehn Uhr."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif soll ihren Lebenslauf mitbringen.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "a2-m04",
+   "level": "A2",
+   "kind": "message",
+   "place": "office",
+   "title": "Noch einmal zur Blutabnahme",
+   "title_tr": "Yeniden kan tahlili",
+   "title_en": "Another blood test",
+   "lines": [
+    {
+     "who": "Frau Kaya",
+     "de": "Guten Tag, Frau Yılmaz. Hier spricht Frau Kaya aus der Praxis Dr. Wolf.",
+     "tr": "İyi günler Frau Yılmaz. Dr. Wolf’un muayenehanesinden Frau Kaya ben.",
+     "en": "Hello, Ms Yılmaz. This is Ms Kaya from Dr Wolf’s practice."
+    },
+    {
+     "who": "Frau Kaya",
+     "de": "Ihre Blutwerte sind da. Der Arzt möchte Ihnen noch einmal Blut abnehmen.",
+     "tr": "Kan tahlili sonuçlarınız geldi. Doktor sizden bir kez daha kan almak istiyor.",
+     "en": "Your blood test results are in. The doctor would like to take another blood sample."
+    },
+    {
+     "who": "Frau Kaya",
+     "de": "Können Sie am Mittwoch um acht Uhr kommen?",
+     "tr": "Çarşamba günü saat sekizde gelebilir misiniz?",
+     "en": "Can you come in on Wednesday at eight?"
+    },
+    {
+     "who": "Frau Kaya",
+     "de": "Bitte kommen Sie nüchtern. Das heißt, dass Sie vorher nichts essen sollen.",
+     "tr": "Lütfen aç karnına gelin. Yani gelmeden önce bir şey yemeyin.",
+     "en": "Please come on an empty stomach. That means you shouldn’t eat beforehand."
+    },
+    {
+     "who": "Frau Kaya",
+     "de": "Rufen Sie uns bitte zurück, wenn der Termin nicht passt. Auf Wiederhören!",
+     "tr": "Randevu size uymazsa lütfen bizi geri arayın. Hoşça kalın!",
+     "en": "Please call us back if the appointment doesn’t work for you. Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Blutwerte",
+     "lemma": "Blutwert",
+     "art": "der",
+     "tr": "kan değerleri",
+     "en": "blood test results"
+    },
+    {
+     "form": "Blut abnehmen",
+     "lemma": "Blut abnehmen",
+     "art": null,
+     "tr": "kan almak",
+     "en": "to take a blood sample"
+    },
+    {
+     "form": "nüchtern",
+     "lemma": "nüchtern",
+     "art": null,
+     "tr": "aç karnına",
+     "en": "on an empty stomach"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann soll Elif zur Praxis kommen?",
+     "options": [
+      "Am Mittwoch um acht.",
+      "Am Mittwoch um zehn.",
+      "Am Donnerstag um acht."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif soll vor dem Termin frühstücken.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-m05",
+   "level": "A2",
+   "kind": "message",
+   "place": "home",
+   "title": "Linas Geburtstag",
+   "title_tr": "Lina’nın doğum günü",
+   "title_en": "Lina’s birthday",
+   "lines": [
+    {
+     "who": "Lina",
+     "de": "Hi Elif, Lina hier! Ich feiere am Samstag meinen Geburtstag.",
+     "tr": "Selam Elif, Lina ben! Cumartesi doğum günümü kutluyorum.",
+     "en": "Hi Elif, it’s Lina! I’m celebrating my birthday on Saturday."
+    },
+    {
+     "who": "Lina",
+     "de": "Wir fangen um sieben Uhr abends bei mir an.",
+     "tr": "Akşam saat yedide benim evde başlıyoruz.",
+     "en": "We’re starting at seven in the evening at my place."
+    },
+    {
+     "who": "Lina",
+     "de": "Meine neue Adresse ist Lindenstraße zwölf. Klingel bitte bei Weber.",
+     "tr": "Yeni adresim Lindenstraße on iki. Lütfen Weber’in zilini çal.",
+     "en": "My new address is twelve Lindenstraße. Please ring the bell marked Weber."
+    },
+    {
+     "who": "Lina",
+     "de": "Kannst du Brot mitbringen? Tom macht schon einen Salat.",
+     "tr": "Ekmek getirebilir misin? Tom zaten salata yapıyor.",
+     "en": "Can you bring some bread? Tom’s already making a salad."
+    },
+    {
+     "who": "Lina",
+     "de": "Ich freue mich, dass du kommst. Bis Samstag!",
+     "tr": "Geleceğine sevindim. Cumartesi görüşürüz!",
+     "en": "I’m glad you’re coming. See you Saturday!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Klingel",
+     "lemma": "klingeln",
+     "art": null,
+     "tr": "zili çal",
+     "en": "ring the bell"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was soll Elif mitbringen?",
+     "options": [
+      "Einen Kuchen.",
+      "Einen Salat.",
+      "Brot."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Die Feier beginnt um sieben Uhr abends.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "a2-m06",
+   "level": "A2",
+   "kind": "message",
+   "place": "train",
+   "title": "Der Bus statt des Zuges",
+   "title_tr": "Tren yerine otobüs",
+   "title_en": "The bus instead of the train",
+   "lines": [
+    {
+     "who": "Herr König",
+     "de": "Guten Morgen, Frau Yılmaz. König vom Bahnservice hier.",
+     "tr": "Günaydın Frau Yılmaz. Tren müşteri hizmetlerinden König ben.",
+     "en": "Good morning, Ms Yılmaz. This is König from the rail service."
+    },
+    {
+     "who": "Herr König",
+     "de": "Ihr Zug nach Bonn fällt heute aus, weil die Strecke gesperrt ist.",
+     "tr": "Bugün Bonn treniniz hat kapalı olduğu için iptal edildi.",
+     "en": "Your train to Bonn is canceled today because the line is closed."
+    },
+    {
+     "who": "Herr König",
+     "de": "Der Ersatzbus fährt um neun Uhr zehn am Südeingang des Bahnhofs ab.",
+     "tr": "Yedek otobüs saat dokuzu on geçe istasyonun güney girişinden kalkıyor.",
+     "en": "The replacement bus leaves at nine ten from the station’s south entrance."
+    },
+    {
+     "who": "Herr König",
+     "de": "Sie können Ihre Zugfahrkarte einfach im Bus zeigen.",
+     "tr": "Otobüste tren biletinizi göstermeniz yeterli.",
+     "en": "Just show your train ticket on the bus."
+    },
+    {
+     "who": "Herr König",
+     "de": "Bitte gehen Sie direkt zum Südeingang. Gute Fahrt!",
+     "tr": "Lütfen doğrudan güney girişine gidin. İyi yolculuklar!",
+     "en": "Please go straight to the south entrance. Have a good trip!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "fällt aus",
+     "lemma": "ausfallen",
+     "art": null,
+     "tr": "iptal olmak",
+     "en": "to be canceled"
+    },
+    {
+     "form": "gesperrt",
+     "lemma": "gesperrt",
+     "art": null,
+     "tr": "ulaşıma kapalı",
+     "en": "closed"
+    },
+    {
+     "form": "Ersatzbus",
+     "lemma": "Ersatzbus",
+     "art": "der",
+     "tr": "yedek otobüs",
+     "en": "replacement bus"
+    },
+    {
+     "form": "Südeingang",
+     "lemma": "Südeingang",
+     "art": "der",
+     "tr": "güney girişi",
+     "en": "south entrance"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo fährt der Ersatzbus ab?",
+     "options": [
+      "Am Nordeingang.",
+      "Am Südeingang.",
+      "Vor der Touristeninformation."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif braucht eine neue Fahrkarte für den Bus.",
+     "answer": 1
+    }
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "t-a2-t01",
+   "level": "A2",
+   "topic": "call",
+   "title": "Die neue Adresse anmelden",
+   "paragraphs": [
+    "Frau Roth: Bürgeramt Ehrenfeld, Roth am Apparat. Guten Tag!",
+    "Elif: Guten Tag, Elif Yılmaz hier. Ich bin letzte Woche umgezogen und möchte meine neue Adresse anmelden.",
+    "Frau Roth: Natürlich. Wir haben am Donnerstag um zehn Uhr zwanzig einen Termin frei.",
+    "Elif: Habe ich Sie richtig verstanden? Zehn Uhr zwanzig?",
+    "Frau Roth: Genau. Passt Ihnen der Termin?",
+    "Elif: Ja, ich habe frei. Was muss ich mitbringen?",
+    "Frau Roth: Bitte bringen Sie Ihren Reisepass und die Wohnungsgeberbestätigung mit.",
+    "Elif: Wie bitte? Das letzte Wort habe ich nicht verstanden.",
+    "Frau Roth: Die Wohnungsgeberbestätigung. Ihr Vermieter bestätigt damit, dass Sie jetzt in der Wohnung wohnen.",
+    "Elif: Ah, das Papier habe ich schon. Wo genau muss ich hin?",
+    "Frau Roth: Kommen Sie bitte ins Bürgeramt Ehrenfeld. Ihr Termin ist in Zimmer zwölf.",
+    "Elif: Zimmer zwölf. Alles klar, vielen Dank. Auf Wiederhören!",
+    "Frau Roth: Gerne. Auf Wiederhören!"
+   ],
+   "trans": [
+    {
+     "tr": "Frau Roth: Ehrenfeld belediye hizmet bürosu, ben Roth. İyi günler!",
+     "en": "Frau Roth: Ehrenfeld Citizens' Office, Ms. Roth speaking. Hello!"
+    },
+    {
+     "tr": "Elif: İyi günler, ben Elif Yılmaz. Geçen hafta taşındım, yeni adresimi kaydettirmek istiyorum.",
+     "en": "Elif: Hello, this is Elif Yılmaz. I moved last week and I'd like to register my new address."
+    },
+    {
+     "tr": "Frau Roth: Tabii. Perşembe günü saat on yirmide boş randevumuz var.",
+     "en": "Frau Roth: Of course. We have an appointment available at ten twenty on Thursday."
+    },
+    {
+     "tr": "Elif: Doğru mu anladım? Saat on yirmi mi?",
+     "en": "Elif: Did I hear you right? Ten twenty?"
+    },
+    {
+     "tr": "Frau Roth: Evet. Randevu size uygun mu?",
+     "en": "Frau Roth: That's right. Does that appointment work for you?"
+    },
+    {
+     "tr": "Elif: Evet, o gün izinliyim. Yanımda ne getirmem gerekiyor?",
+     "en": "Elif: Yes, I have the day off. What do I need to bring?"
+    },
+    {
+     "tr": "Frau Roth: Lütfen pasaportunuzu ve ev sahibinizin verdiği oturma belgesini getirin.",
+     "en": "Frau Roth: Please bring your passport and the confirmation from your landlord."
+    },
+    {
+     "tr": "Elif: Efendim? Son kelimeyi anlamadım.",
+     "en": "Elif: Sorry? I didn't catch that last word."
+    },
+    {
+     "tr": "Frau Roth: Ev sahibinin verdiği belge. Ev sahibiniz bu belgeyle artık o dairede oturduğunuzu doğruluyor.",
+     "en": "Frau Roth: The landlord confirmation. With it, your landlord confirms that you now live in the apartment."
+    },
+    {
+     "tr": "Elif: Aa, o belge bende var. Tam olarak nereye gitmem gerekiyor?",
+     "en": "Elif: Oh, I already have that document. Where exactly do I need to go?"
+    },
+    {
+     "tr": "Frau Roth: Lütfen Ehrenfeld belediye hizmet bürosuna gelin. Randevunuz 12 numaralı odada.",
+     "en": "Frau Roth: Please come to the Ehrenfeld Citizens' Office. Your appointment is in room twelve."
+    },
+    {
+     "tr": "Elif: 12 numaralı oda. Tamamdır, çok teşekkürler. Hoşça kalın!",
+     "en": "Elif: Room twelve. Got it, thank you very much. Goodbye!"
+    },
+    {
+     "tr": "Frau Roth: Rica ederim. Hoşça kalın!",
+     "en": "Frau Roth: You're welcome. Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Bürgeramt",
+     "lemma": "Bürgeramt",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "belediye hizmet bürosu",
+      "en": "citizens' office"
+     }
+    },
+    {
+     "form": "Wohnungsgeberbestätigung",
+     "lemma": "Wohnungsgeberbestätigung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "ev sahibinin verdiği oturma belgesi",
+      "en": "landlord's confirmation of residence"
+     }
+    },
+    {
+     "form": "bestätigt",
+     "lemma": "bestätigen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "doğrulamak",
+      "en": "to confirm"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann hat Elif den Termin?",
+     "options": [
+      "Am Donnerstag um 10:20 Uhr",
+      "Am Donnerstag um 12:00 Uhr",
+      "Am Freitag um 10:20 Uhr"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was soll Elif zusammen mit dem Reisepass mitbringen?",
+     "options": [
+      "Ein Foto",
+      "Die Wohnungsgeberbestätigung",
+      "Eine Fahrkarte"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif ist letzte Woche umgezogen.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Termin ist in Zimmer zwanzig.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-t02",
+   "level": "A2",
+   "topic": "call",
+   "title": "Die verlorene Bankkarte",
+   "paragraphs": [
+    "Herr Weber: Rheinbank, Kartenservice, Weber hier. Wie kann ich Ihnen helfen?",
+    "Elif: Hallo, ich habe meine Bankkarte verloren. Bitte sperren Sie die Karte sofort.",
+    "Herr Weber: Das machen wir. Wie lautet Ihr Name?",
+    "Elif: Elif Yılmaz. Der Nachname beginnt mit einem Y.",
+    "Herr Weber: Danke. Welche Karte fehlt, die rote oder die blaue?",
+    "Elif: Die rote Karte. Damit habe ich heute Morgen im Supermarkt bezahlt.",
+    "Herr Weber: So, die rote Karte ist jetzt gesperrt.",
+    "Elif: Danke. Können Sie mir bitte eine neue Karte schicken?",
+    "Herr Weber: Ja. Die neue Karte kommt per Post in etwa fünf Werktagen.",
+    "Elif: Habe ich richtig gehört? Fünf Werktage?",
+    "Herr Weber: Genau. Bis dahin können Sie die blaue Karte benutzen.",
+    "Elif: Gut, vielen Dank für Ihre Hilfe. Auf Wiederhören!",
+    "Herr Weber: Gerne. Auf Wiederhören!"
+   ],
+   "trans": [
+    {
+     "tr": "Herr Weber: Rheinbank kart hizmetleri, ben Weber. Nasıl yardımcı olabilirim?",
+     "en": "Herr Weber: Rheinbank card services, Mr. Weber speaking. How can I help you?"
+    },
+    {
+     "tr": "Elif: Merhaba, banka kartımı kaybettim. Lütfen kartı hemen kullanıma kapatın.",
+     "en": "Elif: Hello, I've lost my bank card. Please block it right away."
+    },
+    {
+     "tr": "Herr Weber: Tabii, hemen yapalım. Adınız nedir?",
+     "en": "Herr Weber: We can do that. What's your name?"
+    },
+    {
+     "tr": "Elif: Elif Yılmaz. Soyadım Y harfiyle başlıyor.",
+     "en": "Elif: Elif Yılmaz. My last name starts with a Y."
+    },
+    {
+     "tr": "Herr Weber: Teşekkürler. Hangi kart kayıp, kırmızı mı, mavi mi?",
+     "en": "Herr Weber: Thank you. Which card is missing, the red one or the blue one?"
+    },
+    {
+     "tr": "Elif: Kırmızı kart. Bu sabah süpermarkette onunla ödeme yaptım.",
+     "en": "Elif: The red card. I used it to pay at the supermarket this morning."
+    },
+    {
+     "tr": "Herr Weber: Tamam, kırmızı kartınız artık kullanıma kapalı.",
+     "en": "Herr Weber: All right, the red card is blocked now."
+    },
+    {
+     "tr": "Elif: Teşekkürler. Bana yeni bir kart gönderebilir misiniz?",
+     "en": "Elif: Thank you. Could you send me a new card, please?"
+    },
+    {
+     "tr": "Herr Weber: Evet. Yeni kartınız yaklaşık beş iş günü içinde postayla gelir.",
+     "en": "Herr Weber: Yes. The new card will arrive by mail in about five working days."
+    },
+    {
+     "tr": "Elif: Doğru mu duydum? Beş iş günü mü?",
+     "en": "Elif: Did I hear that right? Five working days?"
+    },
+    {
+     "tr": "Herr Weber: Evet. O zamana kadar mavi kartı kullanabilirsiniz.",
+     "en": "Herr Weber: That's right. You can use the blue card until then."
+    },
+    {
+     "tr": "Elif: Peki, yardımınız için çok teşekkürler. Hoşça kalın!",
+     "en": "Elif: Great, thanks very much for your help. Goodbye!"
+    },
+    {
+     "tr": "Herr Weber: Rica ederim. Hoşça kalın!",
+     "en": "Herr Weber: You're welcome. Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "sperren",
+     "lemma": "sperren",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kullanıma kapatmak",
+      "en": "to block"
+     }
+    },
+    {
+     "form": "Werktagen",
+     "lemma": "Werktag",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "iş günü",
+      "en": "working day"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Welche Karte hat Elif verloren?",
+     "options": [
+      "Die blaue Karte",
+      "Die rote Karte",
+      "Die grüne Karte"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wie kommt die neue Karte zu Elif?",
+     "options": [
+      "Per E-Mail",
+      "Mit einem Taxi",
+      "Per Post"
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Elif kann ihre blaue Karte weiter benutzen.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die neue Karte kommt schon morgen.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-t03",
+   "level": "A2",
+   "topic": "call",
+   "title": "Kein Internet zu Hause",
+   "paragraphs": [
+    "Herr Vogt: StadtTel, technischer Service, Vogt am Apparat. Guten Tag!",
+    "Elif: Guten Tag, hier ist Elif Yılmaz. Mein Internet funktioniert seit gestern Abend nicht mehr.",
+    "Herr Vogt: Haben Sie den Router schon aus- und wieder eingeschaltet?",
+    "Elif: Ja, schon zweimal. Die rote Lampe blinkt immer noch.",
+    "Herr Vogt: Einen Moment. Können Sie mir bitte Ihre Kundennummer sagen?",
+    "Elif: Ja, vier, sieben, zwei, neun, eins.",
+    "Herr Vogt: Vier, sieben, zwei, neun, eins. Danke, ich habe Ihre Daten gefunden.",
+    "Elif: Muss jemand vorbeikommen?",
+    "Herr Vogt: Ja, ein Techniker kann morgen zwischen acht und zehn Uhr kommen.",
+    "Elif: Geht es später? Ich bin vormittags nicht zu Hause.",
+    "Herr Vogt: Dann morgen zwischen vierzehn und sechzehn Uhr. Der Techniker ruft vorher an.",
+    "Elif: Das passt. Danke für Ihre Hilfe. Auf Wiederhören!",
+    "Herr Vogt: Gerne. Auf Wiederhören, Frau Yılmaz!"
+   ],
+   "trans": [
+    {
+     "tr": "Herr Vogt: StadtTel teknik servis, ben Vogt. İyi günler!",
+     "en": "Herr Vogt: StadtTel technical support, Mr. Vogt speaking. Hello!"
+    },
+    {
+     "tr": "Elif: İyi günler, ben Elif Yılmaz. İnternetim dün akşamdan beri çalışmıyor.",
+     "en": "Elif: Hello, this is Elif Yılmaz. My internet has been down since last night."
+    },
+    {
+     "tr": "Herr Vogt: Modemi kapatıp tekrar açtınız mı?",
+     "en": "Herr Vogt: Have you tried turning the router off and on again?"
+    },
+    {
+     "tr": "Elif: Evet, iki kez yaptım. Kırmızı ışık hâlâ yanıp sönüyor.",
+     "en": "Elif: Yes, twice already. The red light is still flashing."
+    },
+    {
+     "tr": "Herr Vogt: Bir dakika lütfen. Müşteri numaranızı söyler misiniz?",
+     "en": "Herr Vogt: One moment. Could you give me your customer number, please?"
+    },
+    {
+     "tr": "Elif: Evet, dört, yedi, iki, dokuz, bir.",
+     "en": "Elif: Yes, four, seven, two, nine, one."
+    },
+    {
+     "tr": "Herr Vogt: Dört, yedi, iki, dokuz, bir. Teşekkürler, bilgilerinizi buldum.",
+     "en": "Herr Vogt: Four, seven, two, nine, one. Thanks, I've found your account."
+    },
+    {
+     "tr": "Elif: Birinin gelip bakması gerekiyor mu?",
+     "en": "Elif: Does someone need to come out?"
+    },
+    {
+     "tr": "Herr Vogt: Evet, bir teknisyen yarın saat sekizle on arasında gelebilir.",
+     "en": "Herr Vogt: Yes, a technician can come tomorrow between eight and ten."
+    },
+    {
+     "tr": "Elif: Daha geç olabilir mi? Sabah evde olmayacağım.",
+     "en": "Elif: Could it be later? I won't be home in the morning."
+    },
+    {
+     "tr": "Herr Vogt: O zaman yarın saat ikiyle dört arasında. Teknisyen gelmeden önce sizi arar.",
+     "en": "Herr Vogt: Then tomorrow between two and four p.m. The technician will call first."
+    },
+    {
+     "tr": "Elif: Bu saatler uygun. Yardımınız için teşekkürler. Hoşça kalın!",
+     "en": "Elif: That works. Thanks for your help. Goodbye!"
+    },
+    {
+     "tr": "Herr Vogt: Rica ederim. Hoşça kalın, Elif Hanım!",
+     "en": "Herr Vogt: You're welcome. Goodbye, Ms. Yılmaz!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Router",
+     "lemma": "Router",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "modem, yönlendirici",
+      "en": "router"
+     }
+    },
+    {
+     "form": "blinkt",
+     "lemma": "blinken",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "yanıp sönmek",
+      "en": "to flash"
+     }
+    },
+    {
+     "form": "Kundennummer",
+     "lemma": "Kundennummer",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "müşteri numarası",
+      "en": "customer number"
+     }
+    },
+    {
+     "form": "Techniker",
+     "lemma": "Techniker",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "teknisyen",
+      "en": "technician"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Seit wann funktioniert Elifs Internet nicht?",
+     "options": [
+      "Seit heute Morgen",
+      "Seit gestern Abend",
+      "Seit letzter Woche"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wann kommt der Techniker?",
+     "options": [
+      "Morgen zwischen 8 und 10 Uhr",
+      "Heute zwischen 14 und 16 Uhr",
+      "Morgen zwischen 14 und 16 Uhr"
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat den Router schon zweimal neu gestartet.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Techniker kommt ohne Anruf.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-t04",
+   "level": "A2",
+   "topic": "call",
+   "title": "Eine Wohnung in Ehrenfeld",
+   "paragraphs": [
+    "Herr Berger: Berger, hallo?",
+    "Elif: Guten Tag, hier ist Elif Yılmaz. Ich rufe wegen Ihrer Wohnungsanzeige an.",
+    "Herr Berger: Meinen Sie die Wohnung in Ehrenfeld? Die ist noch frei.",
+    "Elif: Ja, genau. Hat sie zwei oder drei Zimmer?",
+    "Herr Berger: Zwei Zimmer. Dazu kommen eine kleine Küche und ein Bad.",
+    "Elif: Und wie hoch ist die Miete mit Heizung?",
+    "Herr Berger: Mit Heizung kostet die Wohnung achthundertfünfzig Euro im Monat.",
+    "Elif: Achthundertfünfzig, richtig? Kann ich die Wohnung diese Woche sehen?",
+    "Herr Berger: Ja, genau. Am Freitag um siebzehn Uhr bin ich dort.",
+    "Elif: Freitag passt gut. Warten Sie vor dem Haus?",
+    "Herr Berger: Nein, klingeln Sie bitte bei Berger. Ich mache Ihnen dann auf.",
+    "Elif: Alles klar. Vielen Dank, bis Freitag!",
+    "Herr Berger: Bis Freitag, Frau Yılmaz!"
+   ],
+   "trans": [
+    {
+     "tr": "Herr Berger: Efendim, ben Berger?",
+     "en": "Herr Berger: Hello, Berger speaking."
+    },
+    {
+     "tr": "Elif: İyi günler, ben Elif Yılmaz. Daire ilanınız için arıyorum.",
+     "en": "Elif: Hello, this is Elif Yılmaz. I'm calling about your apartment listing."
+    },
+    {
+     "tr": "Herr Berger: Ehrenfeld'deki daireyi mi diyorsunuz? O hâlâ boş.",
+     "en": "Herr Berger: Do you mean the apartment in Ehrenfeld? It's still available."
+    },
+    {
+     "tr": "Elif: Evet, tam olarak o. İki odalı mı, üç odalı mı?",
+     "en": "Elif: Yes, that's the one. Does it have two rooms or three?"
+    },
+    {
+     "tr": "Herr Berger: İki oda. Ayrıca küçük bir mutfak ve banyo var.",
+     "en": "Herr Berger: Two rooms, plus a small kitchen and a bathroom."
+    },
+    {
+     "tr": "Elif: Peki ısınma dahil kira ne kadar?",
+     "en": "Elif: And how much is the rent including heating?"
+    },
+    {
+     "tr": "Herr Berger: Dairenin aylık kirası ısınma dahil sekiz yüz elli avro.",
+     "en": "Herr Berger: With heating, the apartment costs eight hundred and fifty euros a month."
+    },
+    {
+     "tr": "Elif: Sekiz yüz elli, doğru mu? Daireyi bu hafta görebilir miyim?",
+     "en": "Elif: Eight hundred and fifty, right? Can I see the apartment this week?"
+    },
+    {
+     "tr": "Herr Berger: Evet, doğru. Cuma günü saat beşte orada olurum.",
+     "en": "Herr Berger: That's right. I'll be there at five p.m. on Friday."
+    },
+    {
+     "tr": "Elif: Cuma bana uygun. Evin önünde mi bekleyeceksiniz?",
+     "en": "Elif: Friday works well. Will you be waiting in front of the building?"
+    },
+    {
+     "tr": "Herr Berger: Hayır, lütfen üzerinde Berger yazan zile basın. Size kapıyı açarım.",
+     "en": "Herr Berger: No, please ring the bell marked Berger. I'll open the door for you."
+    },
+    {
+     "tr": "Elif: Tamamdır. Çok teşekkürler, cuma görüşürüz!",
+     "en": "Elif: Got it. Thank you, see you Friday!"
+    },
+    {
+     "tr": "Herr Berger: Cuma görüşürüz, Elif Hanım!",
+     "en": "Herr Berger: See you Friday, Ms. Yılmaz!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Wohnungsanzeige",
+     "lemma": "Wohnungsanzeige",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "daire ilanı",
+      "en": "apartment listing"
+     }
+    },
+    {
+     "form": "Heizung",
+     "lemma": "Heizung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "ısınma, ısıtma",
+      "en": "heating"
+     }
+    },
+    {
+     "form": "klingeln",
+     "lemma": "klingeln",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "zile basmak",
+      "en": "to ring the doorbell"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie viel kostet die Wohnung im Monat mit Heizung?",
+     "options": [
+      "750 Euro",
+      "850 Euro",
+      "950 Euro"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wann sieht Elif die Wohnung?",
+     "options": [
+      "Am Donnerstag um 17 Uhr",
+      "Am Freitag um 15 Uhr",
+      "Am Freitag um 17 Uhr"
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Die Wohnung hat zwei Zimmer.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Herr Berger wartet vor dem Haus.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-t05",
+   "level": "A2",
+   "topic": "call",
+   "title": "Die falsche Schuhgröße",
+   "paragraphs": [
+    "Frau Krüger: Kundenservice von Schuhwelt, Krüger hier. Was kann ich für Sie tun?",
+    "Elif: Guten Tag. Meine Schuhe sind heute angekommen, aber die Größe ist falsch.",
+    "Frau Krüger: Welche Größe haben Sie bekommen?",
+    "Elif: Neununddreißig. Ich habe aber Größe achtunddreißig bestellt.",
+    "Frau Krüger: Verstehe. Möchten Sie die Schuhe zurückgeben oder umtauschen?",
+    "Elif: Ich möchte sie umtauschen, weil mir das Modell gut gefällt.",
+    "Frau Krüger: Geben Sie mir bitte die Bestellnummer. Sie steht oben auf der Rechnung.",
+    "Elif: Moment, ich habe die Rechnung hier. Die Nummer ist sechs, drei, zwei, fünf.",
+    "Frau Krüger: Sechs, drei, zwei, fünf. Danke. Ich schicke Ihnen ein Rücksendeetikett per E-Mail.",
+    "Elif: Muss ich für die Rücksendung etwas bezahlen?",
+    "Frau Krüger: Nein. Wenn das Paket hier ist, schicken wir Ihnen Größe achtunddreißig.",
+    "Elif: Prima, dann bringe ich das Paket morgen zur Post. Vielen Dank!",
+    "Frau Krüger: Gerne. Auf Wiederhören, Frau Yılmaz!",
+    "Elif: Auf Wiederhören!"
+   ],
+   "trans": [
+    {
+     "tr": "Frau Krüger: Schuhwelt müşteri hizmetleri, ben Krüger. Size nasıl yardımcı olabilirim?",
+     "en": "Frau Krüger: Schuhwelt customer service, Ms. Krüger speaking. How can I help you?"
+    },
+    {
+     "tr": "Elif: İyi günler. Ayakkabılarım bugün geldi ama numarası yanlış.",
+     "en": "Elif: Hello. My shoes arrived today, but they're the wrong size."
+    },
+    {
+     "tr": "Frau Krüger: Size kaç numara geldi?",
+     "en": "Frau Krüger: What size did you receive?"
+    },
+    {
+     "tr": "Elif: Otuz dokuz. Ama ben otuz sekiz numara sipariş ettim.",
+     "en": "Elif: Thirty-nine. But I ordered size thirty-eight."
+    },
+    {
+     "tr": "Frau Krüger: Anladım. Ayakkabıları iade etmek mi, değiştirmek mi istiyorsunuz?",
+     "en": "Frau Krüger: I see. Would you like to return the shoes or exchange them?"
+    },
+    {
+     "tr": "Elif: Modeli beğendiğim için değiştirmek istiyorum.",
+     "en": "Elif: I'd like to exchange them because I really like this style."
+    },
+    {
+     "tr": "Frau Krüger: Sipariş numaranızı söyler misiniz lütfen? Faturanın üst kısmında yazıyor.",
+     "en": "Frau Krüger: Could you give me your order number, please? It's at the top of the invoice."
+    },
+    {
+     "tr": "Elif: Bir saniye, fatura yanımda. Numara altı, üç, iki, beş.",
+     "en": "Elif: One moment, I have the invoice here. The number is six, three, two, five."
+    },
+    {
+     "tr": "Frau Krüger: Altı, üç, iki, beş. Teşekkürler. İade gönderim etiketini e-postayla yolluyorum.",
+     "en": "Frau Krüger: Six, three, two, five. Thank you. I'll email you a return label."
+    },
+    {
+     "tr": "Elif: İade gönderimi için ücret ödemem gerekiyor mu?",
+     "en": "Elif: Do I have to pay anything to send them back?"
+    },
+    {
+     "tr": "Frau Krüger: Hayır. Paket bize ulaşınca otuz sekiz numarayı göndeririz.",
+     "en": "Frau Krüger: No. Once we get the package, we'll send you size thirty-eight."
+    },
+    {
+     "tr": "Elif: Harika, o zaman paketi yarın postaneye götürürüm. Çok teşekkürler!",
+     "en": "Elif: Great, then I'll take the package to the post office tomorrow. Thank you!"
+    },
+    {
+     "tr": "Frau Krüger: Rica ederim. Hoşça kalın, Elif Hanım!",
+     "en": "Frau Krüger: You're welcome. Goodbye, Ms. Yılmaz!"
+    },
+    {
+     "tr": "Elif: Hoşça kalın!",
+     "en": "Elif: Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "umtauschen",
+     "lemma": "umtauschen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "değiştirmek",
+      "en": "to exchange"
+     }
+    },
+    {
+     "form": "Bestellnummer",
+     "lemma": "Bestellnummer",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "sipariş numarası",
+      "en": "order number"
+     }
+    },
+    {
+     "form": "Rücksendeetikett",
+     "lemma": "Rücksendeetikett",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "iade gönderim etiketi",
+      "en": "return label"
+     }
+    },
+    {
+     "form": "Rücksendung",
+     "lemma": "Rücksendung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "iade gönderimi",
+      "en": "return shipment"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Welche Schuhgröße hat Elif bestellt?",
+     "options": [
+      "Größe 38",
+      "Größe 39",
+      "Größe 40"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo steht die Bestellnummer?",
+     "options": [
+      "Auf dem Paket",
+      "Auf der Rechnung",
+      "Im Schuh"
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif möchte die Schuhe umtauschen.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif muss für die Rücksendung bezahlen.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-t06",
+   "level": "A2",
+   "topic": "call",
+   "title": "Das Medikament abholen",
+   "paragraphs": [
+    "Frau Seidel: Park-Apotheke, Seidel am Apparat. Guten Tag!",
+    "Elif: Hier ist Elif Yılmaz. Ist mein Medikament schon da?",
+    "Frau Seidel: Können Sie bitte Ihren Nachnamen buchstabieren?",
+    "Elif: Ja, Ypsilon, I ohne Punkt, El, Em, A, Zett.",
+    "Frau Seidel: Danke. Ja, es ist heute Morgen angekommen.",
+    "Elif: Brauche ich ein Rezept, wenn ich das Medikament abhole?",
+    "Frau Seidel: Ja, bringen Sie bitte das Rezept mit.",
+    "Elif: Wie lange haben Sie heute geöffnet?",
+    "Frau Seidel: Heute bis achtzehn Uhr. Morgen öffnen wir um neun.",
+    "Elif: Dann komme ich heute kurz nach fünf.",
+    "Frau Seidel: Gut, das Medikament liegt für Sie bereit.",
+    "Elif: Danke für die Auskunft. Auf Wiederhören!",
+    "Frau Seidel: Auf Wiederhören, Frau Yılmaz!"
+   ],
+   "trans": [
+    {
+     "tr": "Frau Seidel: Park Eczanesi, ben Seidel. İyi günler!",
+     "en": "Frau Seidel: Park Pharmacy, Seidel speaking. Hello!"
+    },
+    {
+     "tr": "Elif: Ben Elif Yılmaz. İlacım geldi mi?",
+     "en": "Elif: This is Elif Yılmaz. Has my medicine arrived yet?"
+    },
+    {
+     "tr": "Frau Seidel: Soyadınızı harf harf söyler misiniz?",
+     "en": "Frau Seidel: Could you spell your last name, please?"
+    },
+    {
+     "tr": "Elif: Tabii, Y, noktasız ı, L, M, A, Z.",
+     "en": "Elif: Yes, Y, dotless I, L, M, A, Z."
+    },
+    {
+     "tr": "Frau Seidel: Teşekkürler. Evet, bu sabah geldi.",
+     "en": "Frau Seidel: Thank you. Yes, it arrived this morning."
+    },
+    {
+     "tr": "Elif: İlacı almaya geldiğimde reçete gerekiyor mu?",
+     "en": "Elif: Do I need a prescription to pick up the medicine?"
+    },
+    {
+     "tr": "Frau Seidel: Evet, lütfen reçeteyi yanınıza alın.",
+     "en": "Frau Seidel: Yes, please bring the prescription with you."
+    },
+    {
+     "tr": "Elif: Bugün saat kaça kadar açıksınız?",
+     "en": "Elif: What time are you open until today?"
+    },
+    {
+     "tr": "Frau Seidel: Bugün saat on sekize kadar. Yarın dokuzda açıyoruz.",
+     "en": "Frau Seidel: Until six p.m. today. Tomorrow we open at nine."
+    },
+    {
+     "tr": "Elif: O zaman bugün beşi biraz geçe gelirim.",
+     "en": "Elif: Then I'll come just after five today."
+    },
+    {
+     "tr": "Frau Seidel: Peki, ilacınız sizin için hazır.",
+     "en": "Frau Seidel: All right, the medicine is ready for you."
+    },
+    {
+     "tr": "Elif: Bilgi için teşekkürler. Hoşça kalın!",
+     "en": "Elif: Thanks for the information. Goodbye!"
+    },
+    {
+     "tr": "Frau Seidel: Hoşça kalın Bayan Yılmaz!",
+     "en": "Frau Seidel: Goodbye, Ms Yılmaz!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Rezept",
+     "lemma": "Rezept",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "reçete",
+      "en": "prescription"
+     }
+    },
+    {
+     "form": "liegt … bereit",
+     "lemma": "bereitliegen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "hazır beklemek",
+      "en": "to be ready for pickup"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann ist das Medikament angekommen?",
+     "options": [
+      "Gestern Abend.",
+      "Heute Morgen.",
+      "Heute Nachmittag."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Bis wann ist die Apotheke heute geöffnet?",
+     "options": [
+      "Bis siebzehn Uhr.",
+      "Bis neunzehn Uhr.",
+      "Bis achtzehn Uhr."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Elif muss das Rezept mitbringen.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Apotheke öffnet morgen um acht Uhr.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-t07",
+   "level": "A2",
+   "topic": "call",
+   "title": "Die Schicht tauschen",
+   "paragraphs": [
+    "Herr Beck: Café am Rhein, Beck hier.",
+    "Elif: Guten Morgen, Herr Beck. Hier ist Elif. Haben Sie kurz Zeit?",
+    "Herr Beck: Ja, natürlich. Geht es um den Dienstplan?",
+    "Elif: Ja. Kann ich nächsten Mittwoch von der Frühschicht in die Spätschicht wechseln?",
+    "Herr Beck: Was ist denn am Mittwoch?",
+    "Elif: Ich habe um neun einen Termin beim Zahnarzt.",
+    "Herr Beck: Ah, verstehe. Kann Frau Weber am Morgen arbeiten?",
+    "Elif: Ja, ich habe sie gefragt. Sie kann die Frühschicht übernehmen.",
+    "Herr Beck: Gut. Dann fangen Sie am Mittwoch um vierzehn Uhr an.",
+    "Elif: Vierzehn Uhr, richtig?",
+    "Herr Beck: Genau. Ich ändere den Plan gleich.",
+    "Elif: Vielen Dank, Herr Beck. Bis morgen!",
+    "Herr Beck: Bis morgen, Elif!"
+   ],
+   "trans": [
+    {
+     "tr": "Herr Beck: Café am Rhein, ben Beck.",
+     "en": "Herr Beck: Café am Rhein, Beck speaking."
+    },
+    {
+     "tr": "Elif: Günaydın Bay Beck. Ben Elif. Bir dakikanız var mı?",
+     "en": "Elif: Good morning, Mr Beck. It's Elif. Do you have a minute?"
+    },
+    {
+     "tr": "Herr Beck: Evet, tabii. Konu vardiya çizelgesi mi?",
+     "en": "Herr Beck: Yes, of course. Is it about the rota?"
+    },
+    {
+     "tr": "Elif: Evet. Gelecek çarşamba sabah vardiyasından akşam vardiyasına geçebilir miyim?",
+     "en": "Elif: Yes. Can I switch from the early shift to the late shift next Wednesday?"
+    },
+    {
+     "tr": "Herr Beck: Çarşamba ne var?",
+     "en": "Herr Beck: What's happening on Wednesday?"
+    },
+    {
+     "tr": "Elif: Saat dokuzda dişçi randevum var.",
+     "en": "Elif: I have a dentist appointment at nine."
+    },
+    {
+     "tr": "Herr Beck: Anladım. Bayan Weber sabah çalışabilir mi?",
+     "en": "Herr Beck: I see. Can Ms Weber work in the morning?"
+    },
+    {
+     "tr": "Elif: Evet, ona sordum. Sabah vardiyasını o alabilir.",
+     "en": "Elif: Yes, I asked her. She can take the early shift."
+    },
+    {
+     "tr": "Herr Beck: Peki. O zaman çarşamba saat on dörtte başlayın.",
+     "en": "Herr Beck: All right. Then you'll start at two p.m. on Wednesday."
+    },
+    {
+     "tr": "Elif: Saat on dört, doğru mu?",
+     "en": "Elif: Two p.m., right?"
+    },
+    {
+     "tr": "Herr Beck: Aynen. Çizelgeyi hemen değiştiriyorum.",
+     "en": "Herr Beck: That's right. I'll change the rota now."
+    },
+    {
+     "tr": "Elif: Çok teşekkürler Bay Beck. Yarın görüşürüz!",
+     "en": "Elif: Thank you, Mr Beck. See you tomorrow!"
+    },
+    {
+     "tr": "Herr Beck: Yarın görüşürüz Elif!",
+     "en": "Herr Beck: See you tomorrow, Elif!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Dienstplan",
+     "lemma": "Dienstplan",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "vardiya çizelgesi",
+      "en": "rota"
+     }
+    },
+    {
+     "form": "Frühschicht",
+     "lemma": "Frühschicht",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "sabah vardiyası",
+      "en": "early shift"
+     }
+    },
+    {
+     "form": "Spätschicht",
+     "lemma": "Spätschicht",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "akşam vardiyası",
+      "en": "late shift"
+     }
+    },
+    {
+     "form": "übernehmen",
+     "lemma": "übernehmen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "üstlenmek",
+      "en": "to take over"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "An welchem Tag möchte Elif die Schicht tauschen?",
+     "options": [
+      "Am Dienstag.",
+      "Am Donnerstag.",
+      "Am Mittwoch."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "mc",
+     "q": "Warum möchte Elif tauschen?",
+     "options": [
+      "Sie hat einen Zahnarzttermin.",
+      "Sie muss zur Sprachschule.",
+      "Sie besucht ihre Familie."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif fängt am Mittwoch um vierzehn Uhr an.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Weber kann am Mittwochmorgen nicht arbeiten.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-t08",
+   "level": "A2",
+   "topic": "call",
+   "title": "Das Fahrrad ist weg",
+   "paragraphs": [
+    "Herr Klein: Rhein-Versicherung. Klein am Apparat, guten Tag.",
+    "Elif: Guten Tag, hier ist Elif Yılmaz. Jemand hat mein Fahrrad gestohlen.",
+    "Herr Klein: Das tut mir leid. Wo stand das Fahrrad?",
+    "Elif: Vor der Bibliothek. Das Schloss lag noch auf dem Boden.",
+    "Herr Klein: Waren Sie schon bei der Polizei?",
+    "Elif: Nein. Was brauche ich für die Versicherung?",
+    "Herr Klein: Gehen Sie zuerst zur Polizei und melden Sie den Diebstahl.",
+    "Elif: Gut. Welche Unterlagen brauchen Sie danach?",
+    "Herr Klein: Schicken Sie uns die Bestätigung der Polizei und die Rechnung für das Fahrrad.",
+    "Elif: Können Sie das noch einmal sagen? Ich schreibe mit.",
+    "Herr Klein: Die Bestätigung und die Rechnung. Per E-Mail reicht.",
+    "Elif: Alles klar, danke. Auf Wiederhören!",
+    "Herr Klein: Auf Wiederhören, Frau Yılmaz!"
+   ],
+   "trans": [
+    {
+     "tr": "Herr Klein: Ren Sigorta. Ben Klein, iyi günler.",
+     "en": "Herr Klein: Rhein Insurance, Klein speaking. Hello."
+    },
+    {
+     "tr": "Elif: İyi günler, ben Elif Yılmaz. Biri bisikletimi çaldı.",
+     "en": "Elif: Hello, this is Elif Yılmaz. Someone stole my bicycle."
+    },
+    {
+     "tr": "Herr Klein: Üzüldüm. Bisiklet neredeydi?",
+     "en": "Herr Klein: I'm sorry to hear that. Where was the bike?"
+    },
+    {
+     "tr": "Elif: Kütüphanenin önündeydi. Kilidi hâlâ yerdeydi.",
+     "en": "Elif: Outside the library. The lock was still on the ground."
+    },
+    {
+     "tr": "Herr Klein: Polise gittiniz mi?",
+     "en": "Herr Klein: Have you been to the police yet?"
+    },
+    {
+     "tr": "Elif: Hayır. Sigorta için ne gerekiyor?",
+     "en": "Elif: No. What do I need for the insurance claim?"
+    },
+    {
+     "tr": "Herr Klein: Önce polise gidip hırsızlığı bildirin.",
+     "en": "Herr Klein: First, go to the police and report the theft."
+    },
+    {
+     "tr": "Elif: Peki. Ondan sonra hangi belgeler gerekiyor?",
+     "en": "Elif: All right. What documents do you need after that?"
+    },
+    {
+     "tr": "Herr Klein: Polisin verdiği belgeyi ve bisikletin faturasını bize gönderin.",
+     "en": "Herr Klein: Send us the confirmation from the police and the receipt for the bike."
+    },
+    {
+     "tr": "Elif: Bir daha söyler misiniz? Not alıyorum.",
+     "en": "Elif: Could you say that again? I'm writing it down."
+    },
+    {
+     "tr": "Herr Klein: Polisten aldığınız belge ve fatura. E-postayla göndermeniz yeterli.",
+     "en": "Herr Klein: The confirmation and the receipt. Email is fine."
+    },
+    {
+     "tr": "Elif: Anladım, teşekkürler. Hoşça kalın!",
+     "en": "Elif: Got it, thanks. Goodbye!"
+    },
+    {
+     "tr": "Herr Klein: Hoşça kalın Bayan Yılmaz!",
+     "en": "Herr Klein: Goodbye, Ms Yılmaz!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Diebstahl",
+     "lemma": "Diebstahl",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "hırsızlık",
+      "en": "theft"
+     }
+    },
+    {
+     "form": "Bestätigung",
+     "lemma": "Bestätigung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "onay belgesi",
+      "en": "confirmation"
+     }
+    },
+    {
+     "form": "Unterlagen",
+     "lemma": "Unterlage",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "belgeler",
+      "en": "documents"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo stand das Fahrrad?",
+     "options": [
+      "Vor der Bibliothek.",
+      "Hinter der Schule.",
+      "Am Bahnhof."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was soll Elif zuerst tun?",
+     "options": [
+      "Die Rechnung suchen.",
+      "Zur Polizei gehen.",
+      "Ein neues Schloss kaufen."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif kann die Unterlagen per E-Mail schicken.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Das Schloss war zusammen mit dem Fahrrad weg.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-t09",
+   "level": "A2",
+   "topic": "call",
+   "title": "Mia ist krank",
+   "paragraphs": [
+    "Elif: Elif Yılmaz, hallo?",
+    "Frau Vogel: Guten Tag, hier ist Vogel von der Grundschule am Park.",
+    "Elif: Guten Tag. Geht es um Mia Schmidt?",
+    "Frau Vogel: Ja. Mia hat Fieber. Ihre Mutter hat uns Ihre Nummer gegeben.",
+    "Elif: Ich wohne nebenan. Kann Frau Schmidt gerade nicht kommen?",
+    "Frau Vogel: Wir haben sie angerufen, aber sie ist nicht ans Telefon gegangen.",
+    "Elif: Ich kann Mia sofort abholen. Wo wartet sie?",
+    "Frau Vogel: Bei mir im Sekretariat. Können Sie in zwanzig Minuten hier sein?",
+    "Elif: Ja, in zwanzig Minuten. Ich nehme meinen Ausweis mit.",
+    "Frau Vogel: Danke. Benutzen Sie bitte den Haupteingang an der Parkstraße.",
+    "Elif: Gut. Ich sage Frau Schmidt auch noch Bescheid.",
+    "Frau Vogel: Danke, Frau Yılmaz. Bis gleich!",
+    "Elif: Bis gleich."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Alo, ben Elif Yılmaz.",
+     "en": "Elif: Hello, Elif Yılmaz speaking."
+    },
+    {
+     "tr": "Frau Vogel: İyi günler, ben Park İlkokulundan Vogel.",
+     "en": "Frau Vogel: Hello, this is Vogel from Am Park Primary School."
+    },
+    {
+     "tr": "Elif: İyi günler. Mia Schmidt'le mi ilgili?",
+     "en": "Elif: Hello. Is this about Mia Schmidt?"
+    },
+    {
+     "tr": "Frau Vogel: Evet. Mia'nın ateşi var. Annesi bize numaranızı vermişti.",
+     "en": "Frau Vogel: Yes. Mia has a fever. Her mother gave us your number."
+    },
+    {
+     "tr": "Elif: Yan dairede oturuyorum. Bayan Schmidt şu anda gelemiyor mu?",
+     "en": "Elif: I live next door. Is Ms Schmidt unable to come right now?"
+    },
+    {
+     "tr": "Frau Vogel: Onu aradık ama telefonu açmadı.",
+     "en": "Frau Vogel: We called her, but she didn't answer."
+    },
+    {
+     "tr": "Elif: Mia'yı hemen alabilirim. Nerede bekliyor?",
+     "en": "Elif: I can pick Mia up straight away. Where is she waiting?"
+    },
+    {
+     "tr": "Frau Vogel: Benim yanımda, okul idaresinde. Yirmi dakikaya burada olur musunuz?",
+     "en": "Frau Vogel: With me in the school office. Can you be here in twenty minutes?"
+    },
+    {
+     "tr": "Elif: Evet, yirmi dakikaya oradayım. Kimliğimi de yanıma alıyorum.",
+     "en": "Elif: Yes, in twenty minutes. I'll bring my ID."
+    },
+    {
+     "tr": "Frau Vogel: Teşekkürler. Lütfen Parkstraße'deki ana girişi kullanın.",
+     "en": "Frau Vogel: Thank you. Please use the main entrance on Parkstraße."
+    },
+    {
+     "tr": "Elif: Peki. Bayan Schmidt'e de haber vereceğim.",
+     "en": "Elif: All right. I'll let Ms Schmidt know too."
+    },
+    {
+     "tr": "Frau Vogel: Teşekkürler Bayan Yılmaz. Birazdan görüşürüz!",
+     "en": "Frau Vogel: Thanks, Ms Yılmaz. See you soon!"
+    },
+    {
+     "tr": "Elif: Görüşürüz.",
+     "en": "Elif: See you soon."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Sekretariat",
+     "lemma": "Sekretariat",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "okul idaresi",
+      "en": "school office"
+     }
+    },
+    {
+     "form": "Ausweis",
+     "lemma": "Ausweis",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kimlik",
+      "en": "ID"
+     }
+    },
+    {
+     "form": "Haupteingang",
+     "lemma": "Haupteingang",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "ana giriş",
+      "en": "main entrance"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Warum soll Elif Mia abholen?",
+     "options": [
+      "Mia hat ihre Tasche vergessen.",
+      "Mia hat Fieber.",
+      "Mia hat früher Schluss."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wo wartet Mia?",
+     "options": [
+      "Vor der Schule.",
+      "In der Turnhalle.",
+      "Im Sekretariat."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Die Schule hat Mias Mutter am Telefon erreicht.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif ist in zwanzig Minuten da.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-a2-t10",
+   "level": "A2",
+   "topic": "call",
+   "title": "Anmeldung zur A2-Prüfung",
+   "paragraphs": [
+    "Frau Roth: Sprachschule am Ring, Roth. Guten Tag!",
+    "Elif: Guten Tag, hier ist Elif Yılmaz. Ich möchte mich zur Goethe-A2-Prüfung anmelden.",
+    "Frau Roth: Für den nächsten Termin sind noch Plätze frei.",
+    "Elif: Wann ist denn die Prüfung?",
+    "Frau Roth: Am zweiundzwanzigsten Juni um neun Uhr.",
+    "Elif: Bis wann kann ich mich anmelden?",
+    "Frau Roth: Bis zum achten Juni. Das Formular finden Sie auf unserer Webseite.",
+    "Elif: Habe ich richtig gehört? Bis zum achten, nicht bis zum achtzehnten?",
+    "Frau Roth: Genau, bis zum achten Juni.",
+    "Elif: Und wie viel kostet die Prüfung?",
+    "Frau Roth: Sie kostet hundertdreißig Euro. Sie bekommen nach der Anmeldung eine E-Mail.",
+    "Elif: Prima, dann fülle ich das Formular heute aus.",
+    "Frau Roth: Gut. Auf Wiederhören, Frau Yılmaz!",
+    "Elif: Vielen Dank. Auf Wiederhören!"
+   ],
+   "trans": [
+    {
+     "tr": "Frau Roth: Sprachschule am Ring, ben Roth. İyi günler!",
+     "en": "Frau Roth: Sprachschule am Ring, Roth speaking. Hello!"
+    },
+    {
+     "tr": "Elif: İyi günler, ben Elif Yılmaz. Goethe A2 sınavına kaydolmak istiyorum.",
+     "en": "Elif: Hello, this is Elif Yılmaz. I'd like to register for the Goethe A2 exam."
+    },
+    {
+     "tr": "Frau Roth: Bir sonraki sınav için hâlâ boş yer var.",
+     "en": "Frau Roth: There are still places available for the next exam."
+    },
+    {
+     "tr": "Elif: Sınav ne zaman peki?",
+     "en": "Elif: When is the exam?"
+    },
+    {
+     "tr": "Frau Roth: 22 Haziran'da saat dokuzda.",
+     "en": "Frau Roth: On June twenty-second at nine a.m."
+    },
+    {
+     "tr": "Elif: En geç ne zaman kaydolabilirim?",
+     "en": "Elif: What's the registration deadline?"
+    },
+    {
+     "tr": "Frau Roth: 8 Haziran'a kadar. Formu internet sitemizde bulabilirsiniz.",
+     "en": "Frau Roth: Until June eighth. You can find the form on our website."
+    },
+    {
+     "tr": "Elif: Doğru mu duydum? On sekizine değil, sekizine kadar mı?",
+     "en": "Elif: Did I hear that right? Until the eighth, not the eighteenth?"
+    },
+    {
+     "tr": "Frau Roth: Aynen, 8 Haziran'a kadar.",
+     "en": "Frau Roth: That's right, until June eighth."
+    },
+    {
+     "tr": "Elif: Peki sınav ücreti ne kadar?",
+     "en": "Elif: And how much does the exam cost?"
+    },
+    {
+     "tr": "Frau Roth: Ücreti yüz otuz avro. Kayıttan sonra size bir e-posta gelecek.",
+     "en": "Frau Roth: It costs one hundred and thirty euros. You'll get an email after registering."
+    },
+    {
+     "tr": "Elif: Harika, o zaman formu bugün doldururum.",
+     "en": "Elif: Great, then I'll fill in the form today."
+    },
+    {
+     "tr": "Frau Roth: Peki. Hoşça kalın Bayan Yılmaz!",
+     "en": "Frau Roth: All right. Goodbye, Ms Yılmaz!"
+    },
+    {
+     "tr": "Elif: Çok teşekkürler. Hoşça kalın!",
+     "en": "Elif: Thank you very much. Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Anmeldung",
+     "lemma": "Anmeldung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kayıt",
+      "en": "registration"
+     }
+    },
+    {
+     "form": "Formular",
+     "lemma": "Formular",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "form",
+      "en": "form"
+     }
+    },
+    {
+     "form": "fülle … aus",
+     "lemma": "ausfüllen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "doldurmak",
+      "en": "to fill in"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann ist die Prüfung?",
+     "options": [
+      "Am achten Juni.",
+      "Am achtzehnten Juni.",
+      "Am zweiundzwanzigsten Juni."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "mc",
+     "q": "Was kostet die Prüfung?",
+     "options": [
+      "Hundertdreißig Euro.",
+      "Hundertachtzig Euro.",
+      "Dreißig Euro."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif kann sich bis zum achten Juni anmelden.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Das Formular gibt es nur in der Schule.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-m01",
+   "level": "A2",
+   "topic": "message",
+   "title": "Ein neuer Termin beim Bürgeramt",
+   "paragraphs": [
+    "Guten Tag, Frau Yılmaz, hier ist Neumann vom Bürgeramt in Köln.",
+    "Ihr Termin am Dienstag um halb zehn fällt leider aus.",
+    "Sie müssen einen neuen Termin auf unserer Internetseite buchen.",
+    "Dort wählen Sie zuerst das Bürgeramt in Ihrem Stadtteil.",
+    "Nach der Buchung bekommen Sie eine E-Mail mit Datum und Uhrzeit.",
+    "Vielen Dank für Ihr Verständnis. Auf Wiederhören."
+   ],
+   "trans": [
+    {
+     "tr": "İyi günler Elif Hanım, Köln Belediye Hizmet Bürosundan Neumann ben.",
+     "en": "Hello, Ms Yılmaz, this is Neumann from the citizens' office in Cologne."
+    },
+    {
+     "tr": "Salı günü saat dokuz buçuktaki randevunuz ne yazık ki iptal.",
+     "en": "Unfortunately, your appointment on Tuesday at half past nine is canceled."
+    },
+    {
+     "tr": "İnternet sitemizden yeni bir randevu almanız gerekiyor.",
+     "en": "You'll need to book a new appointment on our website."
+    },
+    {
+     "tr": "Sitede önce semtinizdeki belediye hizmet bürosunu seçin.",
+     "en": "First, select the citizens' office in your district."
+    },
+    {
+     "tr": "Randevu aldıktan sonra tarih ve saati içeren bir e-posta alacaksınız.",
+     "en": "After booking, you'll get an email with the date and time."
+    },
+    {
+     "tr": "Anlayışınız için teşekkür ederim. Hoşça kalın.",
+     "en": "Thank you for your understanding. Goodbye."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Bürgeramt",
+     "lemma": "Bürgeramt",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "belediye hizmet bürosu",
+      "en": "citizens' office"
+     }
+    },
+    {
+     "form": "fällt … aus",
+     "lemma": "ausfallen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "iptal olmak",
+      "en": "to be canceled"
+     }
+    },
+    {
+     "form": "Buchung",
+     "lemma": "Buchung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "randevu alma, rezervasyon",
+      "en": "booking"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie soll Elif einen neuen Termin buchen?",
+     "options": [
+      "Am Telefon.",
+      "Auf der Internetseite.",
+      "Im Bürgeramt."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Nach der Buchung bekommt Elif eine E-Mail.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-a2-m02",
+   "level": "A2",
+   "topic": "message",
+   "title": "Morgen kommt der Techniker",
+   "paragraphs": [
+    "Guten Tag, Frau Yılmaz. Berger hier, vom Kundendienst der Firma Blum.",
+    "Ich komme morgen zwischen acht und zwölf Uhr zu Ihnen.",
+    "Ich möchte mir Ihre kaputte Heizung ansehen.",
+    "In dieser Zeit muss jemand zu Hause sein, weil ich in die Wohnung muss.",
+    "Falls das nicht geht, rufen Sie uns bitte noch heute an.",
+    "Also morgen früh, zwischen acht und zwölf. Auf Wiederhören!"
+   ],
+   "trans": [
+    {
+     "tr": "İyi günler Elif Hanım. Blum firmasının müşteri servisinden Berger ben.",
+     "en": "Hello, Ms Yılmaz. This is Berger from customer service at Blum."
+    },
+    {
+     "tr": "Yarın saat sekizle on iki arasında size geleceğim.",
+     "en": "I'll come to your place tomorrow between eight and twelve."
+    },
+    {
+     "tr": "Bozulan kaloriferinize bakmak istiyorum.",
+     "en": "I'd like to take a look at your broken heating system."
+    },
+    {
+     "tr": "Daireye girmem gerektiği için o saatlerde evde birinin olması gerekiyor.",
+     "en": "Someone needs to be home during that time because I need to get into the apartment."
+    },
+    {
+     "tr": "Bu mümkün değilse lütfen bizi bugün içinde arayın.",
+     "en": "If that doesn't work, please call us today."
+    },
+    {
+     "tr": "Yani yarın sabah sekizle on iki arasında. Hoşça kalın!",
+     "en": "So that's tomorrow morning, between eight and twelve. Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Kundendienst",
+     "lemma": "Kundendienst",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "müşteri servisi",
+      "en": "customer service"
+     }
+    },
+    {
+     "form": "Heizung",
+     "lemma": "Heizung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kalorifer, ısıtma sistemi",
+      "en": "heating system"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann kommt der Techniker?",
+     "options": [
+      "Heute zwischen acht und zwölf.",
+      "Morgen zwischen zehn und zwölf.",
+      "Morgen zwischen acht und zwölf."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Der Techniker kann kommen, wenn niemand zu Hause ist.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-m03",
+   "level": "A2",
+   "topic": "message",
+   "title": "Ein Gespräch bei der Bäckerei",
+   "paragraphs": [
+    "Hallo, Frau Yılmaz. Hier spricht Seidel von der Bäckerei Korn.",
+    "Vielen Dank für Ihre Bewerbung. Wir möchten Sie gern persönlich kennenlernen.",
+    "Können Sie am zwölften März um zehn Uhr zum Vorstellungsgespräch kommen?",
+    "Das Gespräch ist in unserer Filiale in der Gartenstraße vierzehn.",
+    "Bringen Sie bitte Ihren Lebenslauf und Ihr letztes Arbeitszeugnis mit.",
+    "Eine kurze E-Mail zur Bestätigung reicht. Vielen Dank, auf Wiederhören!"
+   ],
+   "trans": [
+    {
+     "tr": "Merhaba Elif Hanım. Korn Fırınından Seidel ben.",
+     "en": "Hello, Ms Yılmaz. This is Seidel from Korn Bakery."
+    },
+    {
+     "tr": "Başvurunuz için çok teşekkürler. Sizinle yüz yüze tanışmak isteriz.",
+     "en": "Thank you for your application. We'd like to meet you in person."
+    },
+    {
+     "tr": "12 Mart'ta saat onda iş görüşmesine gelebilir misiniz?",
+     "en": "Can you come in for an interview at ten on March 12?"
+    },
+    {
+     "tr": "Görüşme Gartenstraße 14 numaradaki şubemizde.",
+     "en": "The interview is at our branch at 14 Gartenstraße."
+    },
+    {
+     "tr": "Lütfen özgeçmişinizi ve son iş yerinizden aldığınız çalışma belgesini getirin.",
+     "en": "Please bring your résumé and the reference from your most recent employer."
+    },
+    {
+     "tr": "Geleceğinizi bildiren kısa bir e-posta yeterli. Teşekkürler, hoşça kalın!",
+     "en": "A short email to confirm is enough. Thank you, and goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Vorstellungsgespräch",
+     "lemma": "Vorstellungsgespräch",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "iş görüşmesi",
+      "en": "job interview"
+     }
+    },
+    {
+     "form": "Filiale",
+     "lemma": "Filiale",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "şube",
+      "en": "branch"
+     }
+    },
+    {
+     "form": "Arbeitszeugnis",
+     "lemma": "Arbeitszeugnis",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "iş yerinden alınan çalışma belgesi",
+      "en": "employment reference"
+     }
+    },
+    {
+     "form": "Bestätigung",
+     "lemma": "Bestätigung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "onay",
+      "en": "confirmation"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann ist das Vorstellungsgespräch?",
+     "options": [
+      "Am zwölften März um zehn Uhr.",
+      "Am zwölften März um vierzehn Uhr.",
+      "Am vierzehnten März um zehn Uhr."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif soll ihren Lebenslauf mitbringen.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-a2-m04",
+   "level": "A2",
+   "topic": "message",
+   "title": "Noch einmal zur Blutabnahme",
+   "paragraphs": [
+    "Guten Tag, Frau Yılmaz. Hier spricht Frau Kaya aus der Praxis Dr. Wolf.",
+    "Ihre Blutwerte sind da. Der Arzt möchte Ihnen noch einmal Blut abnehmen.",
+    "Können Sie am Mittwoch um acht Uhr kommen?",
+    "Bitte kommen Sie nüchtern. Das heißt, dass Sie vorher nichts essen sollen.",
+    "Rufen Sie uns bitte zurück, wenn der Termin nicht passt. Auf Wiederhören!"
+   ],
+   "trans": [
+    {
+     "tr": "İyi günler Frau Yılmaz. Dr. Wolf’un muayenehanesinden Frau Kaya ben.",
+     "en": "Hello, Ms Yılmaz. This is Ms Kaya from Dr Wolf’s practice."
+    },
+    {
+     "tr": "Kan tahlili sonuçlarınız geldi. Doktor sizden bir kez daha kan almak istiyor.",
+     "en": "Your blood test results are in. The doctor would like to take another blood sample."
+    },
+    {
+     "tr": "Çarşamba günü saat sekizde gelebilir misiniz?",
+     "en": "Can you come in on Wednesday at eight?"
+    },
+    {
+     "tr": "Lütfen aç karnına gelin. Yani gelmeden önce bir şey yemeyin.",
+     "en": "Please come on an empty stomach. That means you shouldn’t eat beforehand."
+    },
+    {
+     "tr": "Randevu size uymazsa lütfen bizi geri arayın. Hoşça kalın!",
+     "en": "Please call us back if the appointment doesn’t work for you. Goodbye!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Blutwerte",
+     "lemma": "Blutwert",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kan değerleri",
+      "en": "blood test results"
+     }
+    },
+    {
+     "form": "Blut abnehmen",
+     "lemma": "Blut abnehmen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "kan almak",
+      "en": "to take a blood sample"
+     }
+    },
+    {
+     "form": "nüchtern",
+     "lemma": "nüchtern",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "aç karnına",
+      "en": "on an empty stomach"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann soll Elif zur Praxis kommen?",
+     "options": [
+      "Am Mittwoch um acht.",
+      "Am Mittwoch um zehn.",
+      "Am Donnerstag um acht."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif soll vor dem Termin frühstücken.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "t-a2-m05",
+   "level": "A2",
+   "topic": "message",
+   "title": "Linas Geburtstag",
+   "paragraphs": [
+    "Hi Elif, Lina hier! Ich feiere am Samstag meinen Geburtstag.",
+    "Wir fangen um sieben Uhr abends bei mir an.",
+    "Meine neue Adresse ist Lindenstraße zwölf. Klingel bitte bei Weber.",
+    "Kannst du Brot mitbringen? Tom macht schon einen Salat.",
+    "Ich freue mich, dass du kommst. Bis Samstag!"
+   ],
+   "trans": [
+    {
+     "tr": "Selam Elif, Lina ben! Cumartesi doğum günümü kutluyorum.",
+     "en": "Hi Elif, it’s Lina! I’m celebrating my birthday on Saturday."
+    },
+    {
+     "tr": "Akşam saat yedide benim evde başlıyoruz.",
+     "en": "We’re starting at seven in the evening at my place."
+    },
+    {
+     "tr": "Yeni adresim Lindenstraße on iki. Lütfen Weber’in zilini çal.",
+     "en": "My new address is twelve Lindenstraße. Please ring the bell marked Weber."
+    },
+    {
+     "tr": "Ekmek getirebilir misin? Tom zaten salata yapıyor.",
+     "en": "Can you bring some bread? Tom’s already making a salad."
+    },
+    {
+     "tr": "Geleceğine sevindim. Cumartesi görüşürüz!",
+     "en": "I’m glad you’re coming. See you Saturday!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Klingel",
+     "lemma": "klingeln",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "zili çal",
+      "en": "ring the bell"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was soll Elif mitbringen?",
+     "options": [
+      "Einen Kuchen.",
+      "Einen Salat.",
+      "Brot."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "tf",
+     "q": "Die Feier beginnt um sieben Uhr abends.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "t-a2-m06",
+   "level": "A2",
+   "topic": "message",
+   "title": "Der Bus statt des Zuges",
+   "paragraphs": [
+    "Guten Morgen, Frau Yılmaz. König vom Bahnservice hier.",
+    "Ihr Zug nach Bonn fällt heute aus, weil die Strecke gesperrt ist.",
+    "Der Ersatzbus fährt um neun Uhr zehn am Südeingang des Bahnhofs ab.",
+    "Sie können Ihre Zugfahrkarte einfach im Bus zeigen.",
+    "Bitte gehen Sie direkt zum Südeingang. Gute Fahrt!"
+   ],
+   "trans": [
+    {
+     "tr": "Günaydın Frau Yılmaz. Tren müşteri hizmetlerinden König ben.",
+     "en": "Good morning, Ms Yılmaz. This is König from the rail service."
+    },
+    {
+     "tr": "Bugün Bonn treniniz hat kapalı olduğu için iptal edildi.",
+     "en": "Your train to Bonn is canceled today because the line is closed."
+    },
+    {
+     "tr": "Yedek otobüs saat dokuzu on geçe istasyonun güney girişinden kalkıyor.",
+     "en": "The replacement bus leaves at nine ten from the station’s south entrance."
+    },
+    {
+     "tr": "Otobüste tren biletinizi göstermeniz yeterli.",
+     "en": "Just show your train ticket on the bus."
+    },
+    {
+     "tr": "Lütfen doğrudan güney girişine gidin. İyi yolculuklar!",
+     "en": "Please go straight to the south entrance. Have a good trip!"
+    }
+   ],
+   "glossary": [
+    {
+     "form": "fällt aus",
+     "lemma": "ausfallen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "iptal olmak",
+      "en": "to be canceled"
+     }
+    },
+    {
+     "form": "gesperrt",
+     "lemma": "gesperrt",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "ulaşıma kapalı",
+      "en": "closed"
+     }
+    },
+    {
+     "form": "Ersatzbus",
+     "lemma": "Ersatzbus",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "yedek otobüs",
+      "en": "replacement bus"
+     }
+    },
+    {
+     "form": "Südeingang",
+     "lemma": "Südeingang",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "güney girişi",
+      "en": "south entrance"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo fährt der Ersatzbus ab?",
+     "options": [
+      "Am Nordeingang.",
+      "Am Südeingang.",
+      "Vor der Touristeninformation."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif braucht eine neue Fahrkarte für den Bus.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  }
+ ]
+}
