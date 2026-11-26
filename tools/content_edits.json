@@ -1,0 +1,992 @@
+[
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 1,
+  "path": "rule.tr",
+  "value": "Her cümlenin bir öznesi vardır: ich (ben), du (sen), er (o, erkek), sie (o, kadın), es (o, nötr), wir (biz), ihr (siz), sie (onlar), Sie (siz, resmî).\nEn sık iki fiil sein (olmak) ve haben (sahip olmak). Bunları ezberle:\nich bin · du bist · er/sie/es ist · wir sind · ihr seid · sie/Sie sind\nich habe · du hast · er/sie/es hat · wir haben · ihr habt · sie/Sie haben\nBüyük harfle „Sie“ = resmî „Siz“: tanımadığın biriyle böyle konuşursun.",
+  "original": "ich bin / habe · du bist / hast · er-sie-es ist / hat · wir sind / haben · ihr seid / habt · sie-Sie sind / haben. Büyük harfli „Sie“ resmî „Siz“ demektir.",
+  "at": "2026-11-26T10:14:11"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 1,
+  "path": "rule.en",
+  "value": "Every sentence has a subject: ich (I), du (you), er (he), sie (she), es (it), wir (we), ihr (you, plural), sie (they), Sie (you, polite).\nThe two most common verbs are sein (to be) and haben (to have). Learn them by heart:\nich bin · du bist · er/sie/es ist · wir sind · ihr seid · sie/Sie sind\nich habe · du hast · er/sie/es hat · wir haben · ihr habt · sie/Sie haben\nCapital „Sie“ is the polite \"you\" for people you don't know well.",
+  "original": "ich bin / habe · du bist / hast · er-sie-es ist / hat · wir sind / haben · ihr seid / habt · sie-Sie sind / haben. Capital „Sie“ is the polite \"you\".",
+  "at": "2026-11-26T10:14:11"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 2,
+  "path": "rule.tr",
+  "value": "Fiilin sözlükteki hâli -en ile biter: wohnen (oturmak). -en'i at, kökü bul: wohn-.\nKöke kişiye göre ek gelir:\nich wohne · du wohnst · er/sie/es wohnt · wir wohnen · ihr wohnt · sie/Sie wohnen\nKök -t ya da -d ile bitiyorsa araya e girer: du arbeitest, er arbeitet.\nKök -s, -ß ya da -z ile bitiyorsa du yalnızca -t alır: du heißt.",
+  "original": "Ekler: ich -e · du -st · er -t · wir -en · ihr -t · sie/Sie -en. Kök -t/-d ile bitiyorsa araya -e- girer (du arbeitest). Kök -s/-ß/-z ile bitiyorsa du + -t (du heißt).",
+  "at": "2026-11-26T10:14:11"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 2,
+  "path": "rule.en",
+  "value": "A verb in the dictionary ends in -en: wohnen (to live). Drop -en to get the stem: wohn-.\nAdd the ending for each person:\nich wohne · du wohnst · er/sie/es wohnt · wir wohnen · ihr wohnt · sie/Sie wohnen\nStem ending in -t or -d: add an e: du arbeitest, er arbeitet.\nStem ending in -s, -ß or -z: du only adds -t: du heißt.",
+  "original": "Endings: ich -e · du -st · er -t · wir -en · ihr -t · sie/Sie -en. If the stem ends in -t/-d, add -e- (du arbeitest). If it ends in -s/-ß/-z, du only takes -t (du heißt).",
+  "at": "2026-11-26T10:14:11"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 3,
+  "path": "rule.tr",
+  "value": "Bazı fiillerde yalnızca du ve er/sie/es hâlinde kökteki ünlü değişir; diğer kişiler normaldir.\ne → i: sprechen → du sprichst, er spricht · essen → du isst, er isst\ne → ie: sehen → du siehst, er sieht · lesen → du liest, er liest\na → ä: fahren → du fährst, er fährt · schlafen → du schläfst\nich ve wir değişmez: ich spreche, wir sprechen.",
+  "original": "Sadece du ve er/sie/es değişir: e→i (sprichst, isst, nimmst), e→ie (liest, siehst), a→ä (fährst, schläfst), au→äu (läufst). ich, wir, ihr, sie düzenli kalır.",
+  "at": "2026-11-26T10:14:11"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 3,
+  "path": "rule.en",
+  "value": "Some verbs change their vowel only for du and er/sie/es; the other persons are regular.\ne → i: sprechen → du sprichst, er spricht · essen → du isst, er isst\ne → ie: sehen → du siehst, er sieht · lesen → du liest, er liest\na → ä: fahren → du fährst, er fährt · schlafen → du schläfst\nich and wir stay the same: ich spreche, wir sprechen.",
+  "original": "Only du and er/sie/es change: e→i (sprichst, isst, nimmst), e→ie (liest, siehst), a→ä (fährst, schläfst), au→äu (läufst). ich, wir, ihr, sie stay regular.",
+  "at": "2026-11-26T10:14:11"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 4,
+  "path": "rule.tr",
+  "value": "Almancada her ismin bir cinsiyeti vardır ve önünde artikel durur:\nder (eril) · die (dişil) · das (nötr) · die (çoğul, hepsi için)\n„Bir“ demek için: ein (der ve das kelimelerinde) · eine (die kelimelerinde). Çoğulda „bir“ olmaz.\n„Hiç … yok / … değil“ için: kein · keine: Das ist kein Tisch. Das ist keine Lampe.\nİpucu: -ung, -heit, -keit, -ion ile bitenler die; -chen ile bitenler das. Gerisini kelimeyle birlikte öğren: der Tisch, die Lampe, das Buch.",
+  "original": "der/ein/kein (eril) · die/eine/keine (dişil) · das/ein/kein (nötr) · die/–/keine (çoğul). -ung, -heit, -keit, -ion → die · -chen, -lein → das · günler, aylar, mevsimler → der.",
+  "at": "2026-11-26T10:14:11"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 4,
+  "path": "rule.en",
+  "value": "Every German noun has a gender, shown by the article in front of it:\nder (masculine) · die (feminine) · das (neuter) · die (plural, for all)\n\"A/an\": ein (for der and das words) · eine (for die words). There is no \"a\" in the plural.\n\"Not a / no\": kein · keine: Das ist kein Tisch. Das ist keine Lampe.\nTip: words ending in -ung, -heit, -keit, -ion are die; -chen is das. Learn the rest with the word: der Tisch, die Lampe, das Buch.",
+  "original": "der/ein/kein (masculine) · die/eine/keine (feminine) · das/ein/kein (neuter) · die/–/keine (plural). -ung, -heit, -keit, -ion → die · -chen, -lein → das · days, months, seasons → der.",
+  "at": "2026-11-26T10:14:12"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 4,
+  "path": "examples.0.mean.tr",
+  "value": "Bu bir masa. Masa yeni.",
+  "original": "Das ist ein Tisch. Der Tisch ist neu.",
+  "at": "2026-11-26T10:14:12"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 4,
+  "path": "examples.1.mean.tr",
+  "value": "Bu bir lamba değil.",
+  "original": "Das ist keine Lampe.",
+  "at": "2026-11-26T10:14:12"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 4,
+  "path": "examples.2.mean.tr",
+  "value": "Çocuklar oynuyor.",
+  "original": "Die Kinder spielen.",
+  "at": "2026-11-26T10:14:12"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 5,
+  "path": "rule.tr",
+  "value": "Çoğulda artikel her zaman die'dır. Çoğul ekleri farklıdır, kelimeyle birlikte öğren:\n-e: der Tisch → die Tische · -en/-n: die Frau → die Frauen · -er: das Kind → die Kinder\n-s: das Auto → die Autos · ek yok: der Lehrer → die Lehrer\nBazen ünlü de değişir: der Apfel → die Äpfel, der Bruder → die Brüder, das Haus → die Häuser.",
+  "original": "Çoğulda artikel hep „die“. Ekler: -e, ¨e, -(e)n, -er, ¨er, -s veya değişmez. Dişil kelimelerin çoğu -(e)n alır; -er/-el ile biten eril kelimeler çoğunlukla değişmez.",
+  "at": "2026-11-26T10:14:12"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 5,
+  "path": "rule.en",
+  "value": "In the plural the article is always die. The plural endings differ, so learn them with the word:\n-e: der Tisch → die Tische · -en/-n: die Frau → die Frauen · -er: das Kind → die Kinder\n-s: das Auto → die Autos · no ending: der Lehrer → die Lehrer\nSometimes the vowel changes too: der Apfel → die Äpfel, der Bruder → die Brüder, das Haus → die Häuser.",
+  "original": "The plural article is always „die“. Endings: -e, ¨e, -(e)n, -er, ¨er, -s or no change. Most feminine nouns take -(e)n; masculine nouns ending in -er/-el usually don't change.",
+  "at": "2026-11-26T10:14:12"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 5,
+  "path": "examples.0.mean.tr",
+  "value": "İki erkek kardeşim var.",
+  "original": "Ich habe zwei Brüder.",
+  "at": "2026-11-26T10:14:12"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 5,
+  "path": "examples.1.mean.tr",
+  "value": "Evler eski.",
+  "original": "Die Häuser sind alt.",
+  "at": "2026-11-26T10:14:12"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 5,
+  "path": "examples.2.mean.tr",
+  "value": "Üç elma alıyoruz.",
+  "original": "Wir kaufen drei Äpfel.",
+  "at": "2026-11-26T10:14:12"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 6,
+  "path": "rule.tr",
+  "value": "Cümlede işi yapan öznedir (Nominativ). İşten etkilenen ise nesnedir (Akkusativ = -i hâli).\nDer Mann kauft einen Apfel. = Adam bir elma alıyor.\nSadece eril (der) kelimelerde artikel değişir: der → den · ein → einen · kein → keinen · mein → meinen.\ndie, das ve çoğul aynı kalır: Ich kaufe die Lampe, das Buch, die Äpfel.\nSoru: Wen? Was? (kimi? neyi?) Cevabı Akkusativ'dir.",
+  "original": "Sadece eril değişir: der → den, ein → einen, kein → keinen. Akkusativ isteyenler: haben, kaufen, brauchen, möchten, sehen, es gibt, für, ohne.",
+  "at": "2026-11-26T10:14:13"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 6,
+  "path": "rule.en",
+  "value": "The subject does the action (Nominativ). The object receives it (Akkusativ).\nDer Mann kauft einen Apfel. = The man buys an apple.\nOnly masculine (der) words change: der → den · ein → einen · kein → keinen · mein → meinen.\ndie, das and the plural stay the same: Ich kaufe die Lampe, das Buch, die Äpfel.\nQuestion: Wen? Was? (whom? what?) The answer is in the Akkusativ.",
+  "original": "Only the masculine changes: der → den, ein → einen, kein → keinen. These take the Akkusativ: haben, kaufen, brauchen, möchten, sehen, es gibt, für, ohne.",
+  "at": "2026-11-26T10:14:13"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 6,
+  "path": "examples.0.mean.tr",
+  "value": "Adam bir elma alıyor.",
+  "original": "Der Mann kauft einen Apfel.",
+  "at": "2026-11-26T10:14:13"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 6,
+  "path": "examples.1.mean.tr",
+  "value": "Köpeğim yok.",
+  "original": "Ich habe keinen Hund.",
+  "at": "2026-11-26T10:14:13"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 6,
+  "path": "examples.2.mean.tr",
+  "value": "Otobüsü görüyorum.",
+  "original": "Ich sehe den Bus.",
+  "at": "2026-11-26T10:14:13"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 7,
+  "path": "rule.tr",
+  "value": "Dativ = -e / -de hâli. Bu edatlardan sonra hep Dativ gelir: mit, bei, nach, von, zu, aus, seit.\nArtikel değişir: der → dem · das → dem · die → der · çoğul die → den (+n)\nmit dem Bus (otobüsle) · zu dem → zum Arzt · zu der → zur Arbeit · von dem → vom\nBazı fiiller de Dativ ister: gefallen, helfen, danken: Das Kleid gefällt mir.",
+  "original": "dem/einem (eril, nötr) · der/einer (dişil) · den + -n (çoğul). mit, bei, von, zu, aus, nach, seit, gegenüber hep Dativ ister. zu+dem=zum, zu+der=zur, bei+dem=beim, von+dem=vom.",
+  "at": "2026-11-26T10:14:13"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 7,
+  "path": "rule.en",
+  "value": "Dativ is the \"to/for\" case. These prepositions always take it: mit, bei, nach, von, zu, aus, seit.\nThe article changes: der → dem · das → dem · die → der · plural die → den (+n)\nmit dem Bus (by bus) · zu dem → zum Arzt · zu der → zur Arbeit · von dem → vom\nSome verbs take the Dativ too: gefallen, helfen, danken: Das Kleid gefällt mir.",
+  "original": "dem/einem (masculine, neuter) · der/einer (feminine) · den + -n (plural). mit, bei, von, zu, aus, nach, seit, gegenüber always take the Dativ. zu+dem=zum, zu+der=zur, bei+dem=beim, von+dem=vom.",
+  "at": "2026-11-26T10:14:13"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 7,
+  "path": "examples.0.mean.tr",
+  "value": "Otobüsle gidiyorum.",
+  "original": "Ich fahre mit dem Bus.",
+  "at": "2026-11-26T10:14:13"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 7,
+  "path": "examples.1.mean.tr",
+  "value": "Doktora gidiyorum.",
+  "original": "Ich gehe zum Arzt.",
+  "at": "2026-11-26T10:14:13"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 7,
+  "path": "examples.2.mean.tr",
+  "value": "Elbiseyi beğeniyorum.",
+  "original": "Das Kleid gefällt mir.",
+  "at": "2026-11-26T10:14:14"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 8,
+  "path": "rule.tr",
+  "value": "Zamirler de hâle göre değişir (Akkusativ: beni, seni … / Dativ: bana, sana …):\nich → mich / mir · du → dich / dir · er → ihn / ihm · sie → sie / ihr · es → es / ihm\nwir → uns / uns · ihr → euch / euch · sie/Sie → sie, Sie / ihnen, Ihnen\nIch liebe dich. (Akkusativ) · Kannst du mir helfen? (helfen + Dativ)",
+  "original": "Akk: mich, dich, ihn, sie, es, uns, euch, sie/Sie · Dat: mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. helfen, gefallen, gehören, danken, schmecken, passen → Dativ.",
+  "at": "2026-11-26T10:14:14"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 8,
+  "path": "rule.en",
+  "value": "Pronouns change with the case (Akkusativ: me, you … / Dativ: to me, to you …):\nich → mich / mir · du → dich / dir · er → ihn / ihm · sie → sie / ihr · es → es / ihm\nwir → uns / uns · ihr → euch / euch · sie/Sie → sie, Sie / ihnen, Ihnen\nIch liebe dich. (Akkusativ) · Kannst du mir helfen? (helfen + Dativ)",
+  "original": "Akk: mich, dich, ihn, sie, es, uns, euch, sie/Sie · Dat: mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen. helfen, gefallen, gehören, danken, schmecken, passen → Dativ.",
+  "at": "2026-11-26T10:14:14"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 8,
+  "path": "examples.0.mean.tr",
+  "value": "Seni seviyorum.",
+  "original": "Ich liebe dich.",
+  "at": "2026-11-26T10:14:14"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 8,
+  "path": "examples.1.mean.tr",
+  "value": "Bana yardım edebilir misin?",
+  "original": "Kannst du mir helfen?",
+  "at": "2026-11-26T10:14:14"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 8,
+  "path": "examples.2.mean.tr",
+  "value": "Onu yarın arayacağım.",
+  "original": "Ich rufe ihn morgen an.",
+  "at": "2026-11-26T10:14:14"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 9,
+  "path": "rule.tr",
+  "value": "„Benim, senin …“ demek için:\nich → mein · du → dein · er/es → sein · sie → ihr · wir → unser · ihr → euer · sie/Sie → ihr/Ihr\n„ein“ gibi davranır: die kelimelerinde ve çoğulda sonuna -e gelir.\nmein Bruder (der) · meine Schwester (die) · mein Kind (das) · meine Eltern (çoğul)\nWie ist Ihre Adresse? = Adresiniz nedir? (resmî)",
+  "original": "mein, dein, sein, ihr, unser, euer, ihr/Ihr. „ein“ gibi çekimlenir: mein Bruder, meine Schwester, meinen Bruder (Akk.), meine Eltern.",
+  "at": "2026-11-26T10:14:14"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 9,
+  "path": "rule.en",
+  "value": "To say \"my, your …\":\nich → mein · du → dein · er/es → sein · sie → ihr · wir → unser · ihr → euer · sie/Sie → ihr/Ihr\nThey work like „ein“: die words and the plural add -e.\nmein Bruder (der) · meine Schwester (die) · mein Kind (das) · meine Eltern (plural)\nWie ist Ihre Adresse? = What is your address? (polite)",
+  "original": "mein, dein, sein, ihr, unser, euer, ihr/Ihr. They change like „ein“: mein Bruder, meine Schwester, meinen Bruder (Akk.), meine Eltern.",
+  "at": "2026-11-26T10:14:14"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 9,
+  "path": "examples.0.mean.tr",
+  "value": "Bu benim erkek kardeşim.",
+  "original": "Das ist mein Bruder.",
+  "at": "2026-11-26T10:14:14"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 9,
+  "path": "examples.1.mean.tr",
+  "value": "Adresiniz nedir?",
+  "original": "Wie ist Ihre Adresse?",
+  "at": "2026-11-26T10:14:15"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 9,
+  "path": "examples.2.mean.tr",
+  "value": "Annemle babamı ziyaret ediyorum.",
+  "original": "Ich besuche meine Eltern.",
+  "at": "2026-11-26T10:14:15"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 10,
+  "path": "rule.tr",
+  "value": "Normal cümlede çekimli fiil hep 2. sıradadır:\nIch gehe heute zum Arzt. · Heute gehe ich zum Arzt. (başa başka bir şey gelince özne fiilden sonraya geçer)\nW-sorularında soru kelimesi 1., fiil 2. sıradadır: Wo wohnen Sie?\nEvet/hayır sorularında fiil en başa geçer: Hast du Zeit?",
+  "original": "Düz cümlede çekimli fiil 2. sıradadır. Başa zaman/yer gelirse özne fiilden sonra gelir: Heute lerne ich Deutsch. Evet/hayır sorusunda fiil 1. sıradadır. Modal ve ayrılan fiilde ikinci parça sona gider.",
+  "at": "2026-11-26T10:14:15"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 10,
+  "path": "rule.en",
+  "value": "In a normal sentence the conjugated verb is always in position 2:\nIch gehe heute zum Arzt. · Heute gehe ich zum Arzt. (when something else comes first, the subject moves after the verb)\nW-questions: question word first, verb second: Wo wohnen Sie?\nYes/no questions: the verb goes first: Hast du Zeit?",
+  "original": "In a statement the conjugated verb is in position 2. If a time or place comes first, the subject follows the verb: Heute lerne ich Deutsch. In yes/no questions the verb comes first. With modal and separable verbs the second part goes to the end.",
+  "at": "2026-11-26T10:14:15"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 10,
+  "path": "examples.0.mean.tr",
+  "value": "Pazartesi doktora gidiyorum.",
+  "original": "Am Montag gehe ich zum Arzt.",
+  "at": "2026-11-26T10:14:15"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 10,
+  "path": "examples.1.mean.tr",
+  "value": "Nerede oturuyorsunuz?",
+  "original": "Wo wohnen Sie?",
+  "at": "2026-11-26T10:14:15"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 10,
+  "path": "examples.2.mean.tr",
+  "value": "Vaktin var mı?",
+  "original": "Hast du Zeit?",
+  "at": "2026-11-26T10:14:15"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 11,
+  "path": "rule.tr",
+  "value": "İki olumsuzluk sözü var:\nkein / keine: artikelsiz ya da ein'li isimleri olumsuz yapar: Ich habe kein Auto. Ich trinke keinen Kaffee.\nnicht: fiili, sıfatı ve belirli şeyleri olumsuz yapar: Er arbeitet heute nicht. Das ist nicht gut.\nKısaca: „hiç … yok“ ise kein, geri kalan her şey nicht.",
+  "original": "kein: ein'li veya artikelsiz ismi olumsuz yapar (kein Auto, keine Kinder). nicht: fiil, sıfat, belirli isim, yer ve zamanı olumsuz yapar. Olumsuz soruya olumlu cevap „doch“.",
+  "at": "2026-11-26T10:14:15"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 11,
+  "path": "rule.en",
+  "value": "There are two words for \"not\":\nkein / keine: for nouns without an article or with ein: Ich habe kein Auto. Ich trinke keinen Kaffee.\nnicht: for verbs, adjectives and definite things: Er arbeitet heute nicht. Das ist nicht gut.\nIn short: \"no …\" is kein, everything else is nicht.",
+  "original": "kein negates nouns with ein or without an article (kein Auto, keine Kinder). nicht negates verbs, adjectives, definite nouns, places and times. A \"yes\" to a negative question is „doch“.",
+  "at": "2026-11-26T10:14:15"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 11,
+  "path": "examples.0.mean.tr",
+  "value": "Kahve içmiyorum.",
+  "original": "Ich trinke keinen Kaffee.",
+  "at": "2026-11-26T10:14:16"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 11,
+  "path": "examples.1.mean.tr",
+  "value": "Bugün çalışmıyor.",
+  "original": "Er arbeitet heute nicht.",
+  "at": "2026-11-26T10:14:16"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 12,
+  "path": "rule.tr",
+  "value": "Kip fiilleri: können (-ebilmek), müssen (zorunda olmak), wollen (istemek), möchten (istemek, kibar), dürfen (izinli olmak), sollen (-meli).\nKip fiili 2. sırada çekimlenir, asıl fiil mastar olarak en sona gider:\nIch kann gut kochen. · Du musst heute lernen. · Hier darf man nicht rauchen.\nich ve er/sie/es hâli aynıdır ve ek almaz: ich kann, er kann · ich muss, er muss.",
+  "original": "können, müssen, wollen, dürfen, sollen, möchten. Çekimli kip fiil 2. sırada, asıl fiil mastar halinde en sonda. ich ve er aynıdır ve ek almaz: ich kann, er kann.",
+  "at": "2026-11-26T10:14:16"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 12,
+  "path": "rule.en",
+  "value": "Modal verbs: können (can), müssen (must), wollen (want), möchten (would like), dürfen (may), sollen (should).\nThe modal verb is in position 2, the main verb goes to the end in its infinitive form:\nIch kann gut kochen. · Du musst heute lernen. · Hier darf man nicht rauchen.\nich and er/sie/es are the same, with no ending: ich kann, er kann · ich muss, er muss.",
+  "original": "können, müssen, wollen, dürfen, sollen, möchten. The modal verb is in position 2, the main verb goes to the end as an infinitive. ich and er are the same and have no ending: ich kann, er kann.",
+  "at": "2026-11-26T10:14:16"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 12,
+  "path": "examples.0.mean.tr",
+  "value": "İyi yemek yapabilirim.",
+  "original": "Ich kann gut kochen.",
+  "at": "2026-11-26T10:14:16"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 12,
+  "path": "examples.1.mean.tr",
+  "value": "Bugün ders çalışmalısın.",
+  "original": "Du musst heute lernen.",
+  "at": "2026-11-26T10:14:16"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 12,
+  "path": "examples.2.mean.tr",
+  "value": "Burada sigara içilmez.",
+  "original": "Hier darf man nicht rauchen.",
+  "at": "2026-11-26T10:14:16"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 13,
+  "path": "rule.tr",
+  "value": "Bazı fiillerin ön eki ayrılır: aufstehen, einkaufen, anrufen, mitkommen.\nCümlede fiilin kendisi 2. sıraya, ön ek en sona gider:\nIch stehe um 7 Uhr auf. · Ich rufe dich morgen an.\nKip fiiliyle kullanınca ayrılmaz, sonda bütün kalır: Ich möchte heute einkaufen.\nPerfekt'te ge ortaya girer: angerufen, eingekauft.",
+  "original": "Ön ek (an-, auf-, aus-, ein-, mit-, ab-, zu-, fern-) cümlenin sonuna gider: Ich stehe um 6 Uhr auf. Kip fiilde ve Perfekt'te birleşik kalır: Ich möchte einkaufen. / Ich habe angerufen.",
+  "at": "2026-11-26T10:14:16"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 13,
+  "path": "rule.en",
+  "value": "Some verbs have a prefix that splits off: aufstehen, einkaufen, anrufen, mitkommen.\nThe verb goes to position 2 and the prefix to the end:\nIch stehe um 7 Uhr auf. · Ich rufe dich morgen an.\nWith a modal verb it stays whole at the end: Ich möchte heute einkaufen.\nIn the Perfekt, ge goes in the middle: angerufen, eingekauft.",
+  "original": "The prefix (an-, auf-, aus-, ein-, mit-, ab-, zu-, fern-) goes to the end of the sentence: Ich stehe um 6 Uhr auf. With modal verbs and in the Perfekt it stays joined: Ich möchte einkaufen. / Ich habe angerufen.",
+  "at": "2026-11-26T10:14:17"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 13,
+  "path": "examples.0.mean.tr",
+  "value": "Bugün alışveriş yapmak istiyorum.",
+  "original": "Ich möchte heute einkaufen.",
+  "at": "2026-11-26T10:14:17"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 13,
+  "path": "examples.1.mean.tr",
+  "value": "Seni aradım.",
+  "original": "Ich habe dich angerufen.",
+  "at": "2026-11-26T10:14:17"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 13,
+  "path": "examples.2.mean.tr",
+  "value": "Lütfen kalk!",
+  "original": "Steh bitte auf!",
+  "at": "2026-11-26T10:14:17"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 14,
+  "path": "rule.tr",
+  "value": "Rica ve emir için:\ndu: fiilin kökü, du olmadan: Komm! Ruf mich an! Sprich langsam!\nihr: ihr hâli, ihr olmadan: Kommt!\nSie: fiil başta, sonra Sie: Kommen Sie bitte!\n„bitte“ eklemek kibar yapar.",
+  "original": "du: kommst → Komm! (e→i kalır: Nimm!, a→ä düşer: Fahr!) · ihr: Kommt! · Sie: Kommen Sie! „bitte“ kibarlaştırır. sein: Sei! / Seid! / Seien Sie!",
+  "at": "2026-11-26T10:14:17"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 14,
+  "path": "rule.en",
+  "value": "For requests and orders:\ndu: the verb stem, without du: Komm! Ruf mich an! Sprich langsam!\nihr: the ihr form, without ihr: Kommt!\nSie: verb first, then Sie: Kommen Sie bitte!\nAdding „bitte“ makes it polite.",
+  "original": "du: kommst → Komm! (e→i stays: Nimm!, a→ä is dropped: Fahr!) · ihr: Kommt! · Sie: Kommen Sie! „bitte“ makes it polite. sein: Sei! / Seid! / Seien Sie!",
+  "at": "2026-11-26T10:14:17"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 14,
+  "path": "examples.0.mean.tr",
+  "value": "Lütfen yarın gel!",
+  "original": "Komm bitte morgen!",
+  "at": "2026-11-26T10:14:17"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 14,
+  "path": "examples.1.mean.tr",
+  "value": "Lütfen yavaş konuşun.",
+  "original": "Sprechen Sie bitte langsam.",
+  "at": "2026-11-26T10:14:17"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 14,
+  "path": "examples.2.mean.tr",
+  "value": "Beni ara!",
+  "original": "Ruf mich an!",
+  "at": "2026-11-26T10:14:17"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 15,
+  "path": "rule.tr",
+  "value": "Konuşmada geçmiş zaman (Perfekt): haben ya da sein 2. sırada, Partizip II en sonda.\nIch habe Pizza gegessen. · Wir sind nach Köln gefahren.\nDüzenli fiillerde Partizip: ge + kök + t: machen → gemacht. Düzensizlerde çoğunlukla -en: essen → gegessen.\nsein ile kurulanlar: yer değiştirme (gehen, fahren, kommen) ve değişim (aufstehen). Diğerleri haben ile.",
+  "original": "haben/sein + Partizip II (sonda). ge-…-t (gemacht), ge-…-en (geschrieben), ayrılan: ein-ge-kauft, -ieren ve be-/ver-/er- ge- almaz. Hareket/değişim ve bleiben → sein.",
+  "at": "2026-11-26T10:14:18"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 15,
+  "path": "rule.en",
+  "value": "The spoken past (Perfekt): haben or sein in position 2, the Partizip II at the end.\nIch habe Pizza gegessen. · Wir sind nach Köln gefahren.\nRegular verbs: ge + stem + t: machen → gemacht. Irregular ones mostly end in -en: essen → gegessen.\nVerbs of movement (gehen, fahren, kommen) and change (aufstehen) take sein; the others haben.",
+  "original": "haben/sein + Partizip II (at the end). ge-…-t (gemacht), ge-…-en (geschrieben), separable: ein-ge-kauft; -ieren and be-/ver-/er- verbs have no ge-. Movement/change and bleiben → sein.",
+  "at": "2026-11-26T10:14:18"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 15,
+  "path": "examples.0.mean.tr",
+  "value": "Pizza yedim.",
+  "original": "Ich habe Pizza gegessen.",
+  "at": "2026-11-26T10:14:18"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 15,
+  "path": "examples.1.mean.tr",
+  "value": "Köln'e gittik.",
+  "original": "Wir sind nach Köln gefahren.",
+  "at": "2026-11-26T10:14:18"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 15,
+  "path": "examples.2.mean.tr",
+  "value": "Dün ne yaptın?",
+  "original": "Was hast du gestern gemacht?",
+  "at": "2026-11-26T10:14:18"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 16,
+  "path": "rule.tr",
+  "value": "sein ve haben'in geçmişi konuşmada da kısa hâliyle söylenir:\nich war · du warst · er/sie/es war · wir waren · ihr wart · sie/Sie waren\nich hatte · du hattest · er/sie/es hatte · wir hatten · ihr hattet · sie/Sie hatten\nGestern war ich krank. · Wir hatten keine Zeit.",
+  "original": "war, warst, war, waren, wart, waren · hatte, hattest, hatte, hatten, hattet, hatten. Konuşmada „ich bin gewesen“ yerine „ich war“ denir.",
+  "at": "2026-11-26T10:14:18"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 16,
+  "path": "rule.en",
+  "value": "The past of sein and haben is used in speaking too, in this short form:\nich war · du warst · er/sie/es war · wir waren · ihr wart · sie/Sie waren\nich hatte · du hattest · er/sie/es hatte · wir hatten · ihr hattet · sie/Sie hatten\nGestern war ich krank. · Wir hatten keine Zeit.",
+  "original": "war, warst, war, waren, wart, waren · hatte, hattest, hatte, hatten, hattet, hatten. In speech people say „ich war“ rather than „ich bin gewesen“.",
+  "at": "2026-11-26T10:14:18"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 16,
+  "path": "examples.0.mean.tr",
+  "value": "Dün hastaydım.",
+  "original": "Gestern war ich krank.",
+  "at": "2026-11-26T10:14:18"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 16,
+  "path": "examples.1.mean.tr",
+  "value": "Vaktimiz yoktu.",
+  "original": "Wir hatten keine Zeit.",
+  "at": "2026-11-26T10:14:19"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 16,
+  "path": "examples.2.mean.tr",
+  "value": "Neredeydin?",
+  "original": "Wo warst du?",
+  "at": "2026-11-26T10:14:19"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 17,
+  "path": "rule.tr",
+  "value": "Zaman söylerken:\nam + günler ve gün bölümleri: am Montag, am Abend (ama gece: in der Nacht)\num + saat: um 9 Uhr\nim + aylar ve mevsimler: im Mai, im Sommer\nseit + hâlâ süren zaman: seit drei Monaten · von … bis: von 8 bis 16 Uhr",
+  "original": "um + saat · am + gün / gün bölümü / tarih · im + ay / mevsim · in der Nacht / Woche · von … bis · seit (hâlâ devam) · vor / nach. Yıl edatsız: Ich bin 1998 geboren.",
+  "at": "2026-11-26T10:14:19"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 17,
+  "path": "rule.en",
+  "value": "Saying when:\nam + days and parts of the day: am Montag, am Abend (but: in der Nacht)\num + clock time: um 9 Uhr\nim + months and seasons: im Mai, im Sommer\nseit + a time that still goes on: seit drei Monaten · von … bis: von 8 bis 16 Uhr",
+  "original": "um + clock time · am + day / part of the day / date · im + month / season · in der Nacht / Woche · von … bis · seit (still going on) · vor / nach. Years without a preposition: Ich bin 1998 geboren.",
+  "at": "2026-11-26T10:14:19"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 17,
+  "path": "examples.0.mean.tr",
+  "value": "Kurs pazartesi saat 9'da başlıyor.",
+  "original": "Der Kurs beginnt am Montag um 9 Uhr.",
+  "at": "2026-11-26T10:14:19"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 17,
+  "path": "examples.1.mean.tr",
+  "value": "Yazın denize gidiyoruz.",
+  "original": "Im Sommer fahren wir ans Meer.",
+  "at": "2026-11-26T10:14:19"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 17,
+  "path": "examples.2.mean.tr",
+  "value": "Üç aydır Almanca öğreniyorum.",
+  "original": "Ich lerne seit drei Monaten Deutsch.",
+  "at": "2026-11-26T10:14:19"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 18,
+  "path": "rule.tr",
+  "value": "wo? (nerede) → Dativ: Ich wohne in der Türkei. Ich bin im Kino.\nwohin? (nereye) → Akkusativ ya da zu / nach: Wir fahren in die Türkei. Ich gehe zur Arbeit. Ich fahre nach Berlin.\nnach: artikelsiz şehir ve ülke adlarıyla. zu: kişilere ve yerlere.\nwoher? (nereden) → aus / von: Ich komme aus der Türkei.\nKısaltmalar: in dem → im · in das → ins · zu dem → zum · zu der → zur.",
+  "original": "wo? in/an/auf + Dativ (im Park) · wohin? in/an/auf + Akk. (in den Park) · şehir/ülke: nach Berlin · kişi/kurum: zum Arzt, zur Post · bei + kişi · aus/von = nereden · zu Hause (evde) ↔ nach Hause (eve).",
+  "at": "2026-11-26T10:14:19"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 18,
+  "path": "rule.en",
+  "value": "wo? (where) → Dativ: Ich wohne in der Türkei. Ich bin im Kino.\nwohin? (where to) → Akkusativ or zu / nach: Wir fahren in die Türkei. Ich gehe zur Arbeit. Ich fahre nach Berlin.\nnach: with city and country names without an article. zu: to people and places.\nwoher? (where from) → aus / von: Ich komme aus der Türkei.\nShort forms: in dem → im · in das → ins · zu dem → zum · zu der → zur.",
+  "original": "wo? in/an/auf + Dativ (im Park) · wohin? in/an/auf + Akk. (in den Park) · cities/countries: nach Berlin · people/places: zum Arzt, zur Post · bei + person · aus/von = from · zu Hause (at home) ↔ nach Hause (home, direction).",
+  "at": "2026-11-26T10:14:19"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 18,
+  "path": "examples.0.mean.tr",
+  "value": "Türkiye'de yaşıyorum.",
+  "original": "Ich wohne in der Türkei.",
+  "at": "2026-11-26T10:14:20"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 18,
+  "path": "examples.1.mean.tr",
+  "value": "Türkiye'ye gidiyoruz.",
+  "original": "Wir fahren in die Türkei.",
+  "at": "2026-11-26T10:14:20"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 18,
+  "path": "examples.2.mean.tr",
+  "value": "İşe gidiyorum.",
+  "original": "Ich gehe zur Arbeit.",
+  "at": "2026-11-26T10:14:20"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 19,
+  "path": "rule.tr",
+  "value": "Saat: Es ist acht Uhr. · halb neun = 8:30 (dokuzun yarısı!) · Viertel nach acht = 8:15 · Viertel vor neun = 8:45\nResmî söyleyiş: acht Uhr dreißig.\nTarih sıra sayısıyla söylenir: der erste Mai, der dritte Juni.\n„… günü“ için am: am ersten Mai, am 12. (zwölften) Juni.",
+  "original": "Günlük: Viertel nach acht (8:15), halb neun (8:30!), Viertel vor neun (8:45), zehn vor neun (8:50). Resmî: acht Uhr dreißig. Sıra sayıları: der erste, zweite, dritte, siebte, zwanzigste.",
+  "at": "2026-11-26T10:14:20"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 19,
+  "path": "rule.en",
+  "value": "Time: Es ist acht Uhr. · halb neun = 8:30 (half way to nine!) · Viertel nach acht = 8:15 · Viertel vor neun = 8:45\nOfficial: acht Uhr dreißig.\nDates use ordinal numbers: der erste Mai, der dritte Juni.\n\"On …\": am ersten Mai, am 12. (zwölften) Juni.",
+  "original": "Everyday: Viertel nach acht (8:15), halb neun (8:30!), Viertel vor neun (8:45), zehn vor neun (8:50). Official: acht Uhr dreißig. Ordinals: der erste, zweite, dritte, siebte, zwanzigste.",
+  "at": "2026-11-26T10:14:20"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 19,
+  "path": "examples.1.mean.tr",
+  "value": "Bugün bir mayıs.",
+  "original": "Heute ist der erste Mai.",
+  "at": "2026-11-26T10:14:20"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 19,
+  "path": "examples.2.mean.tr",
+  "value": "12 Haziran doğum günüm.",
+  "original": "Ich habe am 12. Juni Geburtstag.",
+  "at": "2026-11-26T10:14:20"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 20,
+  "path": "rule.tr",
+  "value": "und (ve), oder (veya), aber (ama), denn (çünkü), sondern (… değil, …): bunlardan sonra cümle normal devam eder, fiil 2. sırada kalır.\nIch bin müde, aber ich gehe ins Kino. · Ich trinke nicht Tee, sondern Kaffee.\nKısa cevaplar: Ja. / Nein. / Doch! (olumsuz soruya „hayır, öyle değil, evet“): Kommst du nicht? – Doch!",
+  "original": "und, oder, aber, denn, sondern fiilin yerini değiştirmez (Pozisyon 0). sondern: nicht/kein'den sonra „bilakis“. Olumsuz soruya evet: doch.",
+  "at": "2026-11-26T10:14:20"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 20,
+  "path": "rule.en",
+  "value": "und (and), oder (or), aber (but), denn (because), sondern (not … but …): the sentence goes on normally, the verb stays in position 2.\nIch bin müde, aber ich gehe ins Kino. · Ich trinke nicht Tee, sondern Kaffee.\nShort answers: Ja. / Nein. / Doch! (\"yes, I do\" to a negative question): Kommst du nicht? – Doch!",
+  "original": "und, oder, aber, denn, sondern don't change the verb position (position 0). sondern: \"but rather\", after nicht/kein. \"Yes\" to a negative question: doch.",
+  "at": "2026-11-26T10:14:21"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 20,
+  "path": "examples.0.mean.tr",
+  "value": "Yorgunum ama sinemaya gidiyorum.",
+  "original": "Ich bin müde, aber ich gehe ins Kino.",
+  "at": "2026-11-26T10:14:21"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 20,
+  "path": "examples.1.mean.tr",
+  "value": "Çok çalışıyor, çünkü sınavı var.",
+  "original": "Er lernt viel, denn er hat eine Prüfung.",
+  "at": "2026-11-26T10:14:21"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 20,
+  "path": "examples.2.mean.tr",
+  "value": "Çay değil, kahve içiyorum.",
+  "original": "Ich trinke nicht Tee, sondern Kaffee.",
+  "at": "2026-11-26T10:14:21"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 21,
+  "path": "rule.tr",
+  "value": "Bir şeyi sevdiğini fiil + gern ile söylersin: Ich trinke gern Tee.\nDaha çok: lieber · en çok: am liebsten: Ich trinke lieber Kaffee. Am liebsten esse ich Pizza.\nKarşılaştırma: sıfat + -er + als: älter als ich, größer als er. En: am ältesten.",
+  "original": "gern → lieber → am liebsten · gut → besser → am besten · viel → mehr → am meisten · groß → größer · alt → älter. Karşılaştırmada „als“, eşitlikte „so … wie“.",
+  "at": "2026-11-26T10:14:21"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 21,
+  "path": "rule.en",
+  "value": "To say you like doing something: verb + gern: Ich trinke gern Tee.\nMore: lieber · most: am liebsten: Ich trinke lieber Kaffee. Am liebsten esse ich Pizza.\nComparing: adjective + -er + als: älter als ich, größer als er. The most: am ältesten.",
+  "original": "gern → lieber → am liebsten · gut → besser → am besten · viel → mehr → am meisten · groß → größer · alt → älter. Comparison with „als“, equality with „so … wie“.",
+  "at": "2026-11-26T10:14:21"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 21,
+  "path": "examples.0.mean.tr",
+  "value": "Çayı severim ama kahveyi daha çok severim.",
+  "original": "Ich trinke gern Tee, aber lieber Kaffee.",
+  "at": "2026-11-26T10:14:21"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 21,
+  "path": "examples.1.mean.tr",
+  "value": "En çok pizza yemeyi severim.",
+  "original": "Am liebsten esse ich Pizza.",
+  "at": "2026-11-26T10:14:21"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 21,
+  "path": "examples.2.mean.tr",
+  "value": "Erkek kardeşim benden büyük.",
+  "original": "Mein Bruder ist älter als ich.",
+  "at": "2026-11-26T10:14:21"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 22,
+  "path": "rule.tr",
+  "value": "Sınavda ve günlük hayatta işe yarayan kalıplar:\nGibt es hier …? (Burada … var mı?) · Ich möchte … (… istiyorum, kibar)\nKönnen Sie das bitte wiederholen? · Wie bitte? · Ich verstehe das nicht.\nWie viel kostet …? · Entschuldigung, wo ist …?",
+  "original": "Ich möchte … / Ich hätte gern … · Es gibt + Akk. · man + 3. tekil · Können Sie …? · Wie viel kostet …? · Ich finde … + sıfat. Anlamadığında: Wie bitte? / Langsamer, bitte.",
+  "at": "2026-11-26T10:14:22"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 22,
+  "path": "rule.en",
+  "value": "Useful phrases for the exam and everyday life:\nGibt es hier …? (Is there … here?) · Ich möchte … (I'd like …)\nKönnen Sie das bitte wiederholen? · Wie bitte? · Ich verstehe das nicht.\nWie viel kostet …? · Entschuldigung, wo ist …?",
+  "original": "Ich möchte … / Ich hätte gern … · Es gibt + Akk. · man + 3rd person singular · Können Sie …? · Wie viel kostet …? · Ich finde … + adjective. When you don't understand: Wie bitte? / Langsamer, bitte.",
+  "at": "2026-11-26T10:14:22"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 22,
+  "path": "examples.0.mean.tr",
+  "value": "Affedersiniz, burada eczane var mı?",
+  "original": "Entschuldigung, gibt es hier eine Apotheke?",
+  "at": "2026-11-26T10:14:22"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 22,
+  "path": "examples.1.mean.tr",
+  "value": "Randevu almak istiyorum.",
+  "original": "Ich möchte einen Termin machen.",
+  "at": "2026-11-26T10:14:22"
+ },
+ {
+  "file": "a1.json",
+  "collection": "grammar",
+  "keyField": "id",
+  "key": 22,
+  "path": "examples.2.mean.tr",
+  "value": "Bunu tekrar edebilir misiniz lütfen?",
+  "original": "Können Sie das bitte wiederholen?",
+  "at": "2026-11-26T10:14:22"
+ }
+]
