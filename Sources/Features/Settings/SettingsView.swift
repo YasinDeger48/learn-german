@@ -139,8 +139,12 @@ struct AboutAppView: View {
     @State private var status: String?
     @ObservedObject private var ads = AdsManager.shared
 
+    /// "1.0.14": the version and the build number. CI sets the build number from the GitHub run
+    /// (ci/prepare_project.sh), the same number App Store Connect / TestFlight shows, so every build shows its own.
     static var version: String {
-        Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"
+        let short = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"
+        let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? ""
+        return build.isEmpty ? short : "\(short).\(build)"
     }
 
     var body: some View {
