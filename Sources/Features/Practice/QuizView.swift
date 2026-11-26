@@ -41,7 +41,8 @@ struct A1QuizView: View {
     @State private var wasCorrect = false
     @State private var score = 0
     @State private var missed: [A1Question] = []
-    @State private var showText = false
+    /// The reading text of a question starts open on every question (it stayed closed from the second one).
+    @State private var showText = true
     @State private var examSaved = false
     @State private var combo = 0
     @State private var bestCombo = 0
@@ -308,7 +309,7 @@ struct A1QuizView: View {
         order = []
         revealed = false
         wasCorrect = false
-        showText = false
+        showText = true
         linaText = []
         linaBusy = false
         linaFailed = false
@@ -443,7 +444,6 @@ struct A1QuizView: View {
                 } label: {
                     Label(t("quiz.readText"), systemImage: "doc.text")
                 }
-                .onAppear { showText = true }
             }
             if q.dialog != nil || q.speakFirst != nil {
                 HStack {
