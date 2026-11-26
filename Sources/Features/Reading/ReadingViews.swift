@@ -48,6 +48,8 @@ struct DailyReadingView: View {
     /// The iPhone voice is reading (the recorded voices report their own state).
     @State private var deviceReading = false
     @State private var speedIndex = 0
+    /// The starting speed is set once per opened text (A1 starts at 0.8; the learner's later choice stays).
+    @State private var speedSet = false
     @AppStorage(ReadingVoice.storageKey) private var voiceRaw = ReadingVoice.female.rawValue
     @ObservedObject private var audio = TextAudioPlayer.shared
     @ObservedObject private var ambience = AmbiencePlayer.shared
@@ -150,6 +152,11 @@ struct DailyReadingView: View {
             DispatchQueue.global(qos: .userInitiated).async { WordLookup.shared.prepare() }
         }
         .onDisappear { stopReading() }
+        .onAppear {
+            guard !speedSet else { return }
+            speedSet = true
+            if text.level == "A1", let slower = speeds.firstIndex(of: 0.8) { speedIndex = slower }  // beginners: 0.8 by default
+        }
         .onChange(of: audio.playing) { playing in
             if !playing && !deviceReading && !audio.loading { ambience.stop() }
         }
