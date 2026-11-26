@@ -52,6 +52,7 @@ struct SettingsView: View {
                     }
                     .pickerStyle(.navigationLink)
                 }
+                AppearanceSettingsSection()
                 Section {
                     Picker(t("voice.choose"), selection: Binding(get: { ReadingVoice.from(voiceRaw) }, set: { voiceRaw = $0.rawValue })) {
                         ForEach(ReadingVoice.choices) { voice in

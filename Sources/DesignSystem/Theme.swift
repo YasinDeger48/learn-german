@@ -4,7 +4,7 @@ import UIKit
 /// Deschly design tokens. Mirrors the mockup: ink, gold, warm white, article colours.
 /// Keep these values in sync with docs/ARCHITECTURE.md so web and Android can reuse them.
 enum DS {
-    private static func dynamic(_ light: UInt32, _ dark: UInt32) -> Color {
+    static func dynamic(_ light: UInt32, _ dark: UInt32) -> Color {
         Color(UIColor { traits in
             let hex = traits.userInterfaceStyle == .dark ? dark : light
             return UIColor(red: CGFloat((hex >> 16) & 0xFF) / 255, green: CGFloat((hex >> 8) & 0xFF) / 255,
@@ -18,15 +18,16 @@ enum DS {
     static let ink = Color(UIColor.label)
     static let muted = Color(UIColor.secondaryLabel)
     static let hairline = Color(UIColor.separator)
+    // Palette colours (AppTheme.swift, Settings → Appearance); the classic palette is black, gold and blue.
     /// Dark feature cards (daily text, feedback sheet). Slightly lifted in dark mode.
-    static let night = dynamic(0x0E0F0C, 0x23251F)
+    static var night: Color { AppPalette.colors.night }
     static let onNight = Color(red: 0.969, green: 0.969, blue: 0.957)
     static let onNightMuted = Color(red: 0.663, green: 0.671, blue: 0.639)
     /// Tint for links, toggles and system buttons.
-    static let accent = dynamic(0x2F5BEA, 0x8FA9FF)
-    static let gold = Color(red: 0.949, green: 0.761, blue: 0.188)
-    static let goldDeep = dynamic(0x9A6F00, 0xF2C230)
-    static let onGold = Color(red: 0.055, green: 0.059, blue: 0.047)
+    static var accent: Color { AppPalette.colors.accent }
+    static var gold: Color { AppPalette.colors.gold }
+    static var goldDeep: Color { AppPalette.colors.goldDeep }
+    static var onGold: Color { AppPalette.colors.onGold }
     static let der = dynamic(0x2F5BEA, 0x8FA9FF)
     static let die = dynamic(0xC8323A, 0xFF8A8E)
     static let das = dynamic(0x157A41, 0x5FD08A)
@@ -34,7 +35,7 @@ enum DS {
     static let successSoft = dynamic(0xE5F3EA, 0x17301F)
     static let error = dynamic(0xC8323A, 0xFF8A8E)
     static let errorSoft = dynamic(0xFBEAEA, 0x3A1C1D)
-    static let chip = dynamic(0xEEEEE9, 0x23251F)
+    static var chip: Color { AppPalette.colors.chip }
 
     /// System font (SF Pro), like Apple's own apps. Sizes scale with Dynamic Type through `relativeTo`.
     static func display(_ size: CGFloat, heavy: Bool = true) -> Font {

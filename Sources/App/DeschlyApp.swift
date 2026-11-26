@@ -18,6 +18,8 @@ struct DeschlyApp: App {
     @StateObject private var pro = ProStore()
     @ObservedObject private var localizer = Localizer.shared
     @Environment(\.scenePhase) private var scenePhase
+    /// Colour palette (Settings → Appearance): a new one rebuilds every screen, like a new language.
+    @AppStorage(AppPalette.storageKey) private var paletteRaw = AppPalette.classic.rawValue
 
     var body: some Scene {
         WindowGroup {
@@ -30,6 +32,7 @@ struct DeschlyApp: App {
             }
             // Rebuild every screen in the new language.
             .id(localizer.language)
+            .id(paletteRaw)
             .environment(\.layoutDirection, localizer.language.isRightToLeft ? .rightToLeft : .leftToRight)
             .environmentObject(levels)
             .environmentObject(levels.a1)
@@ -37,8 +40,10 @@ struct DeschlyApp: App {
             .environmentObject(pro)
             .environmentObject(localizer)
             .tint(DS.accent)
+            .onAppear { AppAppearance.apply() }
             .onChange(of: scenePhase) { phase in
                 if phase == .active {
+                    AppAppearance.apply()
                     Reminders.refresh(daily)
                     ContentUpdater.shared.checkIfDue()
                 }
@@ -110,9 +115,14 @@ struct RootView: View {
     @State private var celebration: Celebration?
     @ObservedObject private var notifications = NotificationHandler.shared
     @State private var goalToast = false
-    @State private var tab: AppTab = .today
+    // After a palette change the screens are rebuilt: open Settings again (Profile → Settings).
+    @State private var tab: AppTab = AppPalette.reopenSettings ? .profile : .today
     @State private var todayPath = NavigationPath()
-    @State private var profilePath = NavigationPath()
+    @State private var profilePath: NavigationPath = {
+        guard AppPalette.reopenSettings else { return NavigationPath() }
+        AppPalette.reopenSettings = false
+        return NavigationPath([AppRoute.settings])
+    }()
 
     var body: some View {
         TabView(selection: $tab) {
