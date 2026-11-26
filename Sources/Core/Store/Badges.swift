@@ -4,7 +4,8 @@ import SwiftUI
 struct Badge: Identifiable, Hashable {
     /// `welcome`: "Curious about German", earned by starting the app.
     /// `match`: finished word matching games (MatchGameView).
-    enum Kind: String { case welcome, streak, xp, correct, perfect, reading, goal, match }
+    /// `song`: songs sung to the end (SongPlayerView).
+    enum Kind: String { case welcome, streak, xp, correct, perfect, reading, goal, match, song }
 
     let kind: Kind
     let target: Int
@@ -21,6 +22,7 @@ struct Badge: Identifiable, Hashable {
         case .reading: return "book.fill"
         case .goal: return "target"
         case .match: return "square.grid.2x2.fill"
+        case .song: return "music.note"
         }
     }
 
@@ -34,6 +36,7 @@ struct Badge: Identifiable, Hashable {
         case .reading: return [Color(red: 1, green: 0.88, blue: 0.54), Color(red: 0.95, green: 0.76, blue: 0.19)]
         case .goal: return [Color(red: 0.55, green: 0.84, blue: 0.91), Color(red: 0.05, green: 0.58, blue: 0.53)]
         case .match: return [Color(red: 1, green: 0.62, blue: 0.43), Color(red: 0.85, green: 0.33, blue: 0.16)]
+        case .song: return [Color(red: 0.62, green: 0.48, blue: 1), Color(red: 0.36, green: 0.20, blue: 0.80)]
         }
     }
 
@@ -53,6 +56,7 @@ final class BadgeStore: ObservableObject {
         (.reading, [1, 10, 30, 100]),
         (.goal, [1, 7, 30]),
         (.match, [1, 10, 50]),
+        (.song, [1, 5, 12]),
     ]
 
     /// Finished word matching games (5 rounds each), counted by MatchGameView.
@@ -104,6 +108,7 @@ final class BadgeStore: ObservableObject {
         case .reading: return DailySavedState.load().quizzes.values.filter { $0 >= 100 }.count
         case .goal: return streak.goalDays
         case .match: return UserDefaults.standard.integer(forKey: BadgeStore.matchGamesKey)
+        case .song: return SongBank.finished.count
         }
     }
 

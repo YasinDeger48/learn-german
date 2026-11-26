@@ -19,7 +19,9 @@ REPO = os.path.dirname(os.path.dirname(HERE))
 IMAGES = os.path.join(REPO, 'Resources', 'Images')
 KEEP = os.path.join(os.path.dirname(REPO), 'icerik', 'gorseller', '_orijinal', 'kosu')
 SQUARES = ['lina-run-1', 'lina-run-2', 'lina-run-3', 'lina-run-4', 'lina-jump', 'lina-stumble', 'lina-finish',
-           'kosu-kutu', 'kosu-bayrak']
+           'kosu-kutu', 'kosu-bayrak',
+           # Song dance frames (icerik/gorseller/LINA_DANS.txt), same square so the frames line up.
+           'lina-dance-1', 'lina-dance-2', 'lina-dance-3', 'lina-dance-4', 'lina-dance-5', 'lina-dance-6']
 
 
 def backup(name):
@@ -34,7 +36,12 @@ def backup(name):
 def main():
     for name in SQUARES:
         original = backup(name + '.png')
-        img = Image.open(original).convert('RGBA').resize((512, 512), Image.LANCZOS)
+        img = Image.open(original).convert('RGBA')
+        if img.getpixel((2, 2))[3] == 255:  # not transparent: cut the flat background away first
+            subprocess.run([sys.executable, '-I', os.path.join(HERE, 'cutout.py'), original, original + '.cut.png', '--keep-size'], check=True)
+            img = Image.open(original + '.cut.png').convert('RGBA')
+            os.remove(original + '.cut.png')
+        img = img.resize((512, 512), Image.LANCZOS)
         img.save(os.path.join(IMAGES, name + '.png'), optimize=True)
     far = backup('kosu-uzak.png')
     Image.open(far).convert('RGB').resize((1600, 800), Image.LANCZOS).save(os.path.join(IMAGES, 'kosu-uzak.jpg'), quality=84)

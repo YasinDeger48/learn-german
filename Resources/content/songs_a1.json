@@ -1,0 +1,1682 @@
+{
+ "level": "A1",
+ "songs": [
+  {
+   "id": "a1-song-01",
+   "title": "Hallo, wie geht's?",
+   "title_tr": "Merhaba, nasılsın?",
+   "title_en": "Hello, how are you?",
+   "bpm": 100,
+   "mood": "happy",
+   "lines": [
+    {
+     "part": "intro",
+     "who": "Lina",
+     "de": "Hallo, Lina ist da!",
+     "tr": "Merhaba, Lina geldi!",
+     "en": "Hello, Lina is here!"
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Hallo, wie geht's dir?",
+     "tr": "Merhaba, nasılsın?",
+     "en": "Hello, how are you?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Danke, gut! Und dir?",
+     "tr": "İyiyim, teşekkürler! Ya sen?",
+     "en": "I'm good, thanks! And you?"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mir geht's gut, ja, mir geht's gut!",
+     "tr": "İyiyim, evet, çok iyiyim!",
+     "en": "I'm feeling good, yes, I'm feeling good!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mir geht's gut, ja, mir geht's gut!",
+     "tr": "İyiyim, evet, çok iyiyim!",
+     "en": "I'm feeling good, yes, I'm feeling good!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Tom ist müde, gähnt ganz laut.",
+     "tr": "Tom yorgun, yüksek sesle esniyor.",
+     "en": "Tom is tired and yawns out loud."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Tom, wie geht's? Bist du fit?",
+     "tr": "Tom, nasılsın? Dinç misin?",
+     "en": "Tom, how are you? Are you feeling fit?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Nein, nicht gut. Ich bin müde.",
+     "tr": "Hayır, iyi değilim. Yorgunum.",
+     "en": "No, not well. I'm tired."
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Eine Katze schläft auf Toms Schuh.",
+     "tr": "Bir kedi Tom’un ayakkabısında uyuyor.",
+     "en": "A cat is sleeping on Tom's shoe."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Katze, wie geht's?",
+     "tr": "Kedi, nasılsın?",
+     "en": "Cat, how are you?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Miau, mir geht's gut!",
+     "tr": "Miyav, iyiyim!",
+     "en": "Meow, I'm fine!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mir geht's gut, ja, mir geht's gut!",
+     "tr": "İyiyim, evet, çok iyiyim!",
+     "en": "I'm feeling good, yes, I'm feeling good!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mir geht's gut, ja, mir geht's gut!",
+     "tr": "İyiyim, evet, çok iyiyim!",
+     "en": "I'm feeling good, yes, I'm feeling good!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Tom hebt die Katze, lacht dabei.",
+     "tr": "Tom kediyi kaldırıyor, bu sırada gülüyor.",
+     "en": "Tom picks up the cat and laughs."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Und du, wie geht's? Sag es laut!",
+     "tr": "Peki sen nasılsın? Yüksek sesle söyle!",
+     "en": "And you, how are you? Say it out loud!"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Mir geht's gut! Ich bin jetzt fit!",
+     "tr": "İyiyim! Şimdi kendimi dinç hissediyorum!",
+     "en": "I'm feeling good! I'm full of energy now!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mir geht's gut, ja, mir geht's gut!",
+     "tr": "İyiyim, evet, çok iyiyim!",
+     "en": "I'm feeling good, yes, I'm feeling good!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mir geht's gut, ja, mir geht's gut!",
+     "tr": "İyiyim, evet, çok iyiyim!",
+     "en": "I'm feeling good, yes, I'm feeling good!"
+    },
+    {
+     "part": "outro",
+     "who": "Lina",
+     "de": "Tschüs, ihr zwei! Bis morgen früh!",
+     "tr": "Hoşça kalın ikiniz! Yarın sabah görüşürüz!",
+     "en": "Bye, you two! See you tomorrow morning!"
+    }
+   ],
+   "vocab": [
+    {
+     "de": "Hallo",
+     "art": null,
+     "tr": "merhaba",
+     "en": "hello"
+    },
+    {
+     "de": "gut",
+     "art": null,
+     "tr": "iyi",
+     "en": "well"
+    },
+    {
+     "de": "müde",
+     "art": null,
+     "tr": "yorgun",
+     "en": "tired"
+    },
+    {
+     "de": "fit",
+     "art": null,
+     "tr": "dinç",
+     "en": "fit"
+    },
+    {
+     "de": "die Katze",
+     "art": "die",
+     "tr": "kedi",
+     "en": "cat"
+    },
+    {
+     "de": "der Schuh",
+     "art": "der",
+     "tr": "ayakkabı",
+     "en": "shoe"
+    },
+    {
+     "de": "gähnen",
+     "art": null,
+     "tr": "esnemek",
+     "en": "to yawn"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wer ist müde?",
+     "options": [
+      "Tom.",
+      "Lina.",
+      "Die Katze."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo schläft die Katze?",
+     "options": [
+      "Auf dem Tisch.",
+      "Auf Toms Schuh.",
+      "Im Zug."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Katze sagt: Mir geht's gut.",
+     "answer": 0
+    }
+   ],
+   "timeline": [
+    {
+     "start": 2.4,
+     "end": 4.128
+    },
+    {
+     "start": 4.8,
+     "end": 7.2
+    },
+    {
+     "start": 9.6,
+     "end": 11.568,
+     "echo": [
+      12.0,
+      14.568
+     ]
+    },
+    {
+     "start": 16.8,
+     "end": 20.448
+    },
+    {
+     "start": 21.6,
+     "end": 25.248
+    },
+    {
+     "start": 26.4,
+     "end": 29.208
+    },
+    {
+     "start": 31.2,
+     "end": 34.8
+    },
+    {
+     "start": 36.0,
+     "end": 38.64,
+     "echo": [
+      40.8,
+      44.04
+     ]
+    },
+    {
+     "start": 45.6,
+     "end": 48.0
+    },
+    {
+     "start": 50.4,
+     "end": 52.56
+    },
+    {
+     "start": 52.8,
+     "end": 55.08,
+     "echo": [
+      57.6,
+      60.48
+     ]
+    },
+    {
+     "start": 62.4,
+     "end": 66.048
+    },
+    {
+     "start": 67.2,
+     "end": 70.848
+    },
+    {
+     "start": 72.0,
+     "end": 76.2
+    },
+    {
+     "start": 76.8,
+     "end": 80.448
+    },
+    {
+     "start": 81.6,
+     "end": 84.648,
+     "echo": [
+      86.4,
+      90.048
+     ]
+    },
+    {
+     "start": 91.2,
+     "end": 94.848
+    },
+    {
+     "start": 96.0,
+     "end": 99.648
+    },
+    {
+     "start": 100.8,
+     "end": 104.688
+    }
+   ],
+   "duration": 108.0,
+   "audio": "songs/a1-song-01.mp3",
+   "hash": "f85bfa14c7d20bee"
+  },
+  {
+   "id": "a1-song-02",
+   "title": "Das ist meine Familie",
+   "title_tr": "İşte benim ailem",
+   "title_en": "This Is My Family",
+   "bpm": 102,
+   "mood": "happy",
+   "lines": [
+    {
+     "part": "intro",
+     "who": "Lina",
+     "de": "Meine Familie ist heute hier.",
+     "tr": "Ailem bugün burada.",
+     "en": "My family is here today."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Wer ist das?",
+     "tr": "Bu kim?",
+     "en": "Who is that?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Das ist Mama!",
+     "tr": "Bu anne!",
+     "en": "That is Mom!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mama, Papa, alle sind da!",
+     "tr": "Anne, baba, herkes burada!",
+     "en": "Mom, Dad, everyone is here!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mama, Papa, alle sind da!",
+     "tr": "Anne, baba, herkes burada!",
+     "en": "Mom, Dad, everyone is here!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Oma bringt einen großen Kuchen.",
+     "tr": "Büyükanne büyük bir kek getiriyor.",
+     "en": "Grandma brings a big cake."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Wer ist das?",
+     "tr": "Bu kim?",
+     "en": "Who is that?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Das ist Oma!",
+     "tr": "Bu büyükanne!",
+     "en": "That is Grandma!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Opa tanzt mit dem Besen.",
+     "tr": "Büyükbaba süpürgeyle dans ediyor.",
+     "en": "Grandpa dances with the broom."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Wer ist das?",
+     "tr": "Bu kim?",
+     "en": "Who is that?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Das ist Opa!",
+     "tr": "Bu büyükbaba!",
+     "en": "That is Grandpa!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mama, Papa, alle sind da!",
+     "tr": "Anne, baba, herkes burada!",
+     "en": "Mom, Dad, everyone is here!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mama, Papa, alle sind da!",
+     "tr": "Anne, baba, herkes burada!",
+     "en": "Mom, Dad, everyone is here!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Mein Bruder sucht den Kuchen.",
+     "tr": "Erkek kardeşim keki arıyor.",
+     "en": "My brother is looking for the cake."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Wer ist das?",
+     "tr": "Bu kim?",
+     "en": "Who is that?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Das ist meine Schwester!",
+     "tr": "Bu kız kardeşim!",
+     "en": "That is my sister!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Sie sitzt schon auf dem Kuchen.",
+     "tr": "O çoktan kekin üzerine oturmuş.",
+     "en": "She is already sitting on the cake."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Und wer lacht jetzt?",
+     "tr": "Peki şimdi kim gülüyor?",
+     "en": "And who is laughing now?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Die ganze Familie!",
+     "tr": "Bütün aile!",
+     "en": "The whole family!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Mama, Papa, alle sind da!",
+     "tr": "Anne, baba, herkes burada!",
+     "en": "Mom, Dad, everyone is here!"
+    },
+    {
+     "part": "outro",
+     "who": "Lina",
+     "de": "Wir essen Brot. Der Kuchen lacht!",
+     "tr": "Ekmek yiyoruz. Kek gülüyor!",
+     "en": "We eat bread. The cake is laughing!"
+    }
+   ],
+   "vocab": [
+    {
+     "de": "die Familie",
+     "art": "die",
+     "tr": "aile",
+     "en": "family"
+    },
+    {
+     "de": "die Mama",
+     "art": "die",
+     "tr": "anne",
+     "en": "mom"
+    },
+    {
+     "de": "der Papa",
+     "art": "der",
+     "tr": "baba",
+     "en": "dad"
+    },
+    {
+     "de": "die Oma",
+     "art": "die",
+     "tr": "büyükanne",
+     "en": "grandma"
+    },
+    {
+     "de": "der Opa",
+     "art": "der",
+     "tr": "büyükbaba",
+     "en": "grandpa"
+    },
+    {
+     "de": "der Bruder",
+     "art": "der",
+     "tr": "erkek kardeş",
+     "en": "brother"
+    },
+    {
+     "de": "die Schwester",
+     "art": "die",
+     "tr": "kız kardeş",
+     "en": "sister"
+    },
+    {
+     "de": "der Kuchen",
+     "art": "der",
+     "tr": "kek",
+     "en": "cake"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wer bringt einen Kuchen?",
+     "options": [
+      "Oma.",
+      "Opa.",
+      "Der Bruder."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was macht Opa?",
+     "options": [
+      "Er tanzt.",
+      "Er schläft.",
+      "Er singt."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Schwester sitzt auf dem Kuchen.",
+     "answer": 1
+    }
+   ],
+   "timeline": [
+    {
+     "start": 2.353,
+     "end": 4.801
+    },
+    {
+     "start": 7.059,
+     "end": 8.619
+    },
+    {
+     "start": 9.412,
+     "end": 10.78,
+     "echo": [
+      11.765,
+      14.118
+     ]
+    },
+    {
+     "start": 14.118,
+     "end": 17.526
+    },
+    {
+     "start": 18.824,
+     "end": 22.232
+    },
+    {
+     "start": 23.529,
+     "end": 26.577
+    },
+    {
+     "start": 28.235,
+     "end": 29.795
+    },
+    {
+     "start": 30.588,
+     "end": 31.836,
+     "echo": [
+      32.941,
+      35.294
+     ]
+    },
+    {
+     "start": 35.294,
+     "end": 37.334
+    },
+    {
+     "start": 37.647,
+     "end": 39.207
+    },
+    {
+     "start": 40.0,
+     "end": 41.488,
+     "echo": [
+      42.353,
+      44.706
+     ]
+    },
+    {
+     "start": 44.706,
+     "end": 48.114
+    },
+    {
+     "start": 49.412,
+     "end": 52.82
+    },
+    {
+     "start": 54.118,
+     "end": 56.518
+    },
+    {
+     "start": 58.824,
+     "end": 60.384
+    },
+    {
+     "start": 61.176,
+     "end": 62.976,
+     "echo": [
+      63.529,
+      65.929
+     ]
+    },
+    {
+     "start": 68.235,
+     "end": 69.963
+    },
+    {
+     "start": 70.588,
+     "end": 72.436
+    },
+    {
+     "start": 72.941,
+     "end": 75.269,
+     "echo": [
+      77.647,
+      80.575
+     ]
+    },
+    {
+     "start": 82.353,
+     "end": 85.761
+    },
+    {
+     "start": 87.059,
+     "end": 90.059
+    }
+   ],
+   "duration": 94.118,
+   "audio": "songs/a1-song-02.mp3",
+   "hash": "8d023e03872f8d57"
+  },
+  {
+   "id": "a1-song-03",
+   "title": "Der, die, das",
+   "title_tr": "Der, die, das",
+   "title_en": "Der, die, das",
+   "bpm": 104,
+   "mood": "funny",
+   "lines": [
+    {
+     "part": "intro",
+     "who": "Lina",
+     "de": "Artikel-Spiel, bist du bereit?",
+     "tr": "Artikel oyunu, hazır mısın?",
+     "en": "Article game, are you ready?"
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Hund: der, die oder das?",
+     "tr": "Hund: der, die yoksa das mı?",
+     "en": "Dog: der, die, or das?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Der Hund!",
+     "tr": "Der Hund!",
+     "en": "Der Hund!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Der Hund bellt: Wau, wau, wau!",
+     "tr": "Köpek havlar: Hav, hav, hav!",
+     "en": "The dog barks: Woof, woof, woof!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Der Hund bellt: Wau, wau, wau!",
+     "tr": "Köpek havlar: Hav, hav, hav!",
+     "en": "The dog barks: Woof, woof, woof!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Katze trägt den Hut verkehrt.",
+     "tr": "Kedi şapkayı ters takıyor.",
+     "en": "The cat wears the hat backwards."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Katze: der, die oder das?",
+     "tr": "Katze: der, die yoksa das mı?",
+     "en": "Cat: der, die, or das?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Die Katze!",
+     "tr": "Die Katze!",
+     "en": "Die Katze!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Der Hut fällt in den Topf.",
+     "tr": "Şapka tencereye düşüyor.",
+     "en": "The hat falls into the pot."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Haus: der, die oder das?",
+     "tr": "Haus: der, die yoksa das mı?",
+     "en": "House: der, die, or das?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Das Haus!",
+     "tr": "Das Haus!",
+     "en": "Das Haus!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Der Hund bellt: Wau, wau, wau!",
+     "tr": "Köpek havlar: Hav, hav, hav!",
+     "en": "The dog barks: Woof, woof, woof!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Der Hund bellt: Wau, wau, wau!",
+     "tr": "Köpek havlar: Hav, hav, hav!",
+     "en": "The dog barks: Woof, woof, woof!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Im Haus wohnt auch ein Fisch.",
+     "tr": "Evde bir balık da yaşıyor.",
+     "en": "A fish also lives in the house."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Fisch: der, die oder das?",
+     "tr": "Fisch: der, die yoksa das mı?",
+     "en": "Fish: der, die, or das?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Der Fisch!",
+     "tr": "Der Fisch!",
+     "en": "Der Fisch!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Er schwimmt im alten Hut.",
+     "tr": "Eski şapkanın içinde yüzüyor.",
+     "en": "It swims in the old hat."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Und der Hut?",
+     "tr": "Peki ya şapka?",
+     "en": "And the hat?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Der Hut!",
+     "tr": "Der Hut!",
+     "en": "Der Hut!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Der Hund bellt: Wau, wau, wau!",
+     "tr": "Köpek havlar: Hav, hav, hav!",
+     "en": "The dog barks: Woof, woof, woof!"
+    },
+    {
+     "part": "outro",
+     "who": "Lina",
+     "de": "Der Hut ist jetzt ein Boot!",
+     "tr": "Şapka şimdi bir tekne!",
+     "en": "The hat is a boat now!"
+    }
+   ],
+   "vocab": [
+    {
+     "de": "der Hund",
+     "art": "der",
+     "tr": "köpek",
+     "en": "dog"
+    },
+    {
+     "de": "die Katze",
+     "art": "die",
+     "tr": "kedi",
+     "en": "cat"
+    },
+    {
+     "de": "das Haus",
+     "art": "das",
+     "tr": "ev",
+     "en": "house"
+    },
+    {
+     "de": "der Fisch",
+     "art": "der",
+     "tr": "balık",
+     "en": "fish"
+    },
+    {
+     "de": "der Hut",
+     "art": "der",
+     "tr": "şapka",
+     "en": "hat"
+    },
+    {
+     "de": "der Topf",
+     "art": "der",
+     "tr": "tencere",
+     "en": "pot"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Welches Tier bellt?",
+     "options": [
+      "Der Hund.",
+      "Die Katze.",
+      "Der Fisch."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo schwimmt der Fisch?",
+     "options": [
+      "Im Hut.",
+      "Im Zug.",
+      "Im Bett."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Katze trägt einen Hut.",
+     "answer": 0
+    }
+   ],
+   "timeline": [
+    {
+     "start": 2.308,
+     "end": 4.708
+    },
+    {
+     "start": 6.923,
+     "end": 10.451
+    },
+    {
+     "start": 11.538,
+     "end": 13.098,
+     "echo": [
+      13.846,
+      16.154
+     ]
+    },
+    {
+     "start": 16.154,
+     "end": 19.802
+    },
+    {
+     "start": 20.769,
+     "end": 24.417
+    },
+    {
+     "start": 25.385,
+     "end": 28.193
+    },
+    {
+     "start": 30.0,
+     "end": 34.08
+    },
+    {
+     "start": 34.615,
+     "end": 35.935,
+     "echo": [
+      36.923,
+      39.231
+     ]
+    },
+    {
+     "start": 39.231,
+     "end": 41.919
+    },
+    {
+     "start": 43.846,
+     "end": 48.046
+    },
+    {
+     "start": 48.462,
+     "end": 49.23,
+     "echo": [
+      50.769,
+      53.077
+     ]
+    },
+    {
+     "start": 53.077,
+     "end": 56.725
+    },
+    {
+     "start": 57.692,
+     "end": 61.34
+    },
+    {
+     "start": 62.308,
+     "end": 64.348
+    },
+    {
+     "start": 64.615,
+     "end": 69.223
+    },
+    {
+     "start": 71.538,
+     "end": 72.618,
+     "echo": [
+      73.846,
+      76.154
+     ]
+    },
+    {
+     "start": 76.154,
+     "end": 77.882
+    },
+    {
+     "start": 78.462,
+     "end": 79.71
+    },
+    {
+     "start": 80.769,
+     "end": 82.017,
+     "echo": [
+      83.077,
+      85.385
+     ]
+    },
+    {
+     "start": 85.385,
+     "end": 89.033
+    },
+    {
+     "start": 90.0,
+     "end": 91.92
+    }
+   ],
+   "duration": 94.615,
+   "audio": "songs/a1-song-03.mp3",
+   "hash": "e6d710c7e1e85cbd"
+  },
+  {
+   "id": "a1-song-04",
+   "title": "Zahlen, Zahlen",
+   "title_tr": "Sayılar, sayılar",
+   "title_en": "Numbers, numbers",
+   "bpm": 108,
+   "mood": "happy",
+   "lines": [
+    {
+     "part": "intro",
+     "who": "Lina",
+     "de": "Zähl mit mir, eins, zwei!",
+     "tr": "Benimle say, bir, iki!",
+     "en": "Count with me, one, two!"
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Wie viele Äpfel siehst du?",
+     "tr": "Kaç elma görüyorsun?",
+     "en": "How many apples do you see?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Drei Äpfel!",
+     "tr": "Üç elma!",
+     "en": "Three apples!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Eins, zwei, drei, wir zählen!",
+     "tr": "Bir, iki, üç, sayıyoruz!",
+     "en": "One, two, three, we count!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Eins, zwei, drei, wir zählen!",
+     "tr": "Bir, iki, üç, sayıyoruz!",
+     "en": "One, two, three, we count!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Drei rote Äpfel liegen hier.",
+     "tr": "Üç kırmızı elma burada duruyor.",
+     "en": "Four red apples are lying here."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Und wie viele Bananen?",
+     "tr": "Peki kaç muz?",
+     "en": "And how many bananas?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Fünf Bananen!",
+     "tr": "Beş muz!",
+     "en": "Five bananas!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Sechs Bananen rutschen weg.",
+     "tr": "Altı muz kayıp gidiyor.",
+     "en": "Six bananas slide away."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Wie viele liegen dort?",
+     "tr": "Orada kaç tane duruyor?",
+     "en": "How many are lying there?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Sieben Bananen!",
+     "tr": "Yedi muz!",
+     "en": "Seven bananas!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Eins, zwei, drei, wir zählen!",
+     "tr": "Bir, iki, üç, sayıyoruz!",
+     "en": "One, two, three, we count!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Eins, zwei, drei, wir zählen!",
+     "tr": "Bir, iki, üç, sayıyoruz!",
+     "en": "One, two, three, we count!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Acht, neun, zehn: Der Hund zählt.",
+     "tr": "Sekiz, dokuz, on: Köpek sayıyor.",
+     "en": "Eight, nine, ten: The dog counts."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Wie viele Schuhe hat er?",
+     "tr": "Kaç ayakkabısı var?",
+     "en": "How many shoes does he have?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Zwei Schuhe!",
+     "tr": "İki ayakkabı!",
+     "en": "Two shoes!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Elf bis zwanzig bellt er laut.",
+     "tr": "On birden yirmiye kadar yüksek sesle havlıyor.",
+     "en": "He barks loudly from eleven to twenty."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Kann der Hund gut zählen?",
+     "tr": "Köpek iyi sayabiliyor mu?",
+     "en": "Can the dog count well?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Ja, bis zwanzig!",
+     "tr": "Evet, yirmiye kadar!",
+     "en": "Yes, up to twenty!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Eins, zwei, drei, wir zählen!",
+     "tr": "Bir, iki, üç, sayıyoruz!",
+     "en": "One, two, three, we count!"
+    },
+    {
+     "part": "outro",
+     "who": "Lina",
+     "de": "Der Hund zählt seine Pfoten!",
+     "tr": "Köpek patilerini sayıyor!",
+     "en": "The dog counts his paws!"
+    }
+   ],
+   "vocab": [
+    {
+     "de": "die Zahl",
+     "art": "die",
+     "tr": "sayı",
+     "en": "number"
+    },
+    {
+     "de": "der Apfel",
+     "art": "der",
+     "tr": "elma",
+     "en": "apple"
+    },
+    {
+     "de": "die Banane",
+     "art": "die",
+     "tr": "muz",
+     "en": "banana"
+    },
+    {
+     "de": "rot",
+     "art": null,
+     "tr": "kırmızı",
+     "en": "red"
+    },
+    {
+     "de": "zählen",
+     "art": null,
+     "tr": "saymak",
+     "en": "to count"
+    },
+    {
+     "de": "der Hund",
+     "art": "der",
+     "tr": "köpek",
+     "en": "dog"
+    },
+    {
+     "de": "der Schuh",
+     "art": "der",
+     "tr": "ayakkabı",
+     "en": "shoe"
+    },
+    {
+     "de": "die Pfote",
+     "art": "die",
+     "tr": "pati",
+     "en": "paw"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Welche Farbe haben die Äpfel?",
+     "options": [
+      "Rot.",
+      "Blau.",
+      "Grün."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie viele Schuhe hat der Hund?",
+     "options": [
+      "Zwei.",
+      "Vier.",
+      "Acht."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Hund zählt seine Pfoten.",
+     "answer": 0
+    }
+   ],
+   "timeline": [
+    {
+     "start": 2.222,
+     "end": 5.99
+    },
+    {
+     "start": 6.667,
+     "end": 8.347
+    },
+    {
+     "start": 8.889,
+     "end": 10.449,
+     "echo": [
+      11.111,
+      13.333
+     ]
+    },
+    {
+     "start": 13.333,
+     "end": 17.653
+    },
+    {
+     "start": 20.0,
+     "end": 24.32
+    },
+    {
+     "start": 26.667,
+     "end": 29.307
+    },
+    {
+     "start": 31.111,
+     "end": 33.031
+    },
+    {
+     "start": 33.333,
+     "end": 34.701,
+     "echo": [
+      35.556,
+      37.778
+     ]
+    },
+    {
+     "start": 37.778,
+     "end": 40.586
+    },
+    {
+     "start": 42.222,
+     "end": 44.502
+    },
+    {
+     "start": 46.667,
+     "end": 48.227,
+     "echo": [
+      48.889,
+      51.111
+     ]
+    },
+    {
+     "start": 51.111,
+     "end": 55.431
+    },
+    {
+     "start": 57.778,
+     "end": 62.098
+    },
+    {
+     "start": 64.444,
+     "end": 70.444
+    },
+    {
+     "start": 71.111,
+     "end": 72.839
+    },
+    {
+     "start": 73.333,
+     "end": 74.701,
+     "echo": [
+      75.556,
+      77.778
+     ]
+    },
+    {
+     "start": 77.778,
+     "end": 80.826
+    },
+    {
+     "start": 82.222,
+     "end": 84.67
+    },
+    {
+     "start": 86.667,
+     "end": 88.827,
+     "echo": [
+      91.111,
+      93.871
+     ]
+    },
+    {
+     "start": 95.556,
+     "end": 99.876
+    },
+    {
+     "start": 102.222,
+     "end": 104.262
+    }
+   ],
+   "duration": 106.667,
+   "audio": "songs/a1-song-04.mp3",
+   "hash": "df20e66dd36bc79d"
+  },
+  {
+   "id": "a1-song-05",
+   "title": "Die Wochentage",
+   "title_tr": "Haftanın günleri",
+   "title_en": "The days of the week",
+   "bpm": 96,
+   "mood": "funny",
+   "lines": [
+    {
+     "part": "intro",
+     "who": "Lina",
+     "de": "Sieben Tage, komm, wir gehen!",
+     "tr": "Yedi gün, haydi gidelim!",
+     "en": "Seven days, come, let's go!"
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Was machst du am Montag?",
+     "tr": "Pazartesi ne yapıyorsun?",
+     "en": "What do you do on Monday?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Ich male einen großen Mond.",
+     "tr": "Büyük bir ay çiziyorum.",
+     "en": "I paint a big moon."
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Montag, Dienstag, alle Tage!",
+     "tr": "Pazartesi, salı, bütün günler!",
+     "en": "Monday, Tuesday, every day!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Montag, Dienstag, alle Tage!",
+     "tr": "Pazartesi, salı, bütün günler!",
+     "en": "Monday, Tuesday, every day!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Mittwoch fährt mein Teddy Zug.",
+     "tr": "Çarşamba ayıcığım tren kullanıyor.",
+     "en": "On Wednesday my teddy drives a train."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Was machst du am Donnerstag?",
+     "tr": "Perşembe ne yapıyorsun?",
+     "en": "What do you do on Thursday?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Ich singe mit dem Teddy.",
+     "tr": "Ayıcıkla şarkı söylüyorum.",
+     "en": "I sing with the teddy."
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Freitag tanzt die kleine Maus.",
+     "tr": "Cuma küçük fare dans ediyor.",
+     "en": "On Friday the little mouse dances."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Was machst du am Samstag?",
+     "tr": "Cumartesi ne yapıyorsun?",
+     "en": "What do you do on Saturday?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Ich esse Käse mit der Maus.",
+     "tr": "Fareyle peynir yiyorum.",
+     "en": "I eat cheese with the mouse."
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Montag, Dienstag, alle Tage!",
+     "tr": "Pazartesi, salı, bütün günler!",
+     "en": "Monday, Tuesday, every day!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Montag, Dienstag, alle Tage!",
+     "tr": "Pazartesi, salı, bütün günler!",
+     "en": "Monday, Tuesday, every day!"
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Sonntag schläft der Teddy ein.",
+     "tr": "Pazar günü ayıcık uyuyakalıyor.",
+     "en": "On Sunday the teddy falls asleep."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Und was machst du am Sonntag?",
+     "tr": "Peki pazar günü ne yapıyorsun?",
+     "en": "And what do you do on Sunday?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Ich wecke ihn mit Musik.",
+     "tr": "Onu müzikle uyandırıyorum.",
+     "en": "I wake him with music."
+    },
+    {
+     "part": "verse",
+     "who": "Lina",
+     "de": "Der Teddy tanzt im Schlaf.",
+     "tr": "Ayıcık uykusunda dans ediyor.",
+     "en": "The teddy dances in his sleep."
+    },
+    {
+     "part": "call",
+     "who": "Lina",
+     "de": "Welcher Tag kommt nach Sonntag?",
+     "tr": "Pazardan sonra hangi gün gelir?",
+     "en": "Which day comes after Sunday?"
+    },
+    {
+     "part": "answer",
+     "who": "Du",
+     "de": "Montag, noch einmal!",
+     "tr": "Pazartesi, bir daha!",
+     "en": "Monday, once again!"
+    },
+    {
+     "part": "chorus",
+     "who": "Alle",
+     "de": "Montag, Dienstag, alle Tage!",
+     "tr": "Pazartesi, salı, bütün günler!",
+     "en": "Monday, Tuesday, every day!"
+    },
+    {
+     "part": "outro",
+     "who": "Lina",
+     "de": "Sieben Tage, Teddy tanzt!",
+     "tr": "Yedi gün, ayıcık dans ediyor!",
+     "en": "Seven days, the teddy dances!"
+    }
+   ],
+   "vocab": [
+    {
+     "de": "der Montag",
+     "art": "der",
+     "tr": "pazartesi",
+     "en": "Monday"
+    },
+    {
+     "de": "der Dienstag",
+     "art": "der",
+     "tr": "salı",
+     "en": "Tuesday"
+    },
+    {
+     "de": "der Mittwoch",
+     "art": "der",
+     "tr": "çarşamba",
+     "en": "Wednesday"
+    },
+    {
+     "de": "der Donnerstag",
+     "art": "der",
+     "tr": "perşembe",
+     "en": "Thursday"
+    },
+    {
+     "de": "der Freitag",
+     "art": "der",
+     "tr": "cuma",
+     "en": "Friday"
+    },
+    {
+     "de": "der Samstag",
+     "art": "der",
+     "tr": "cumartesi",
+     "en": "Saturday"
+    },
+    {
+     "de": "der Sonntag",
+     "art": "der",
+     "tr": "pazar",
+     "en": "Sunday"
+    },
+    {
+     "de": "der Teddy",
+     "art": "der",
+     "tr": "oyuncak ayı",
+     "en": "teddy bear"
+    },
+    {
+     "de": "die Maus",
+     "art": "die",
+     "tr": "fare",
+     "en": "mouse"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was macht der Teddy am Mittwoch?",
+     "options": [
+      "Er fährt Zug.",
+      "Er kocht.",
+      "Er schwimmt."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was isst du mit der Maus?",
+     "options": [
+      "Käse.",
+      "Kuchen.",
+      "Brot."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Teddy schläft am Sonntag ein.",
+     "answer": 0
+    }
+   ],
+   "timeline": [
+    {
+     "start": 2.5,
+     "end": 5.308
+    },
+    {
+     "start": 7.5,
+     "end": 9.54
+    },
+    {
+     "start": 10.0,
+     "end": 12.64,
+     "echo": [
+      15.0,
+      18.24
+     ]
+    },
+    {
+     "start": 20.0,
+     "end": 23.648
+    },
+    {
+     "start": 25.0,
+     "end": 28.648
+    },
+    {
+     "start": 30.0,
+     "end": 32.088
+    },
+    {
+     "start": 32.5,
+     "end": 34.708
+    },
+    {
+     "start": 35.0,
+     "end": 37.4,
+     "echo": [
+      40.0,
+      43.0
+     ]
+    },
+    {
+     "start": 45.0,
+     "end": 47.688
+    },
+    {
+     "start": 50.0,
+     "end": 52.328
+    },
+    {
+     "start": 52.5,
+     "end": 54.78,
+     "echo": [
+      55.0,
+      57.88
+     ]
+    },
+    {
+     "start": 60.0,
+     "end": 63.648
+    },
+    {
+     "start": 65.0,
+     "end": 68.648
+    },
+    {
+     "start": 70.0,
+     "end": 72.688
+    },
+    {
+     "start": 75.0,
+     "end": 76.848
+    },
+    {
+     "start": 77.5,
+     "end": 79.228,
+     "echo": [
+      80.0,
+      82.5
+     ]
+    },
+    {
+     "start": 82.5,
+     "end": 84.828
+    },
+    {
+     "start": 85.0,
+     "end": 87.52
+    },
+    {
+     "start": 90.0,
+     "end": 91.8,
+     "echo": [
+      92.5,
+      95.0
+     ]
+    },
+    {
+     "start": 95.0,
+     "end": 98.648
+    },
+    {
+     "start": 100.0,
+     "end": 102.808
+    }
+   ],
+   "duration": 107.5,
+   "audio": "songs/a1-song-05.mp3",
+   "hash": "41e59fe1b73014b7"
+  }
+ ]
+}

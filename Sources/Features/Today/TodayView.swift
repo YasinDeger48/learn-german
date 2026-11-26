@@ -163,6 +163,11 @@ struct TodayPractice: View {
             // The word run game, in the space under the tiles (owner's request 2026-11-27).
             NavigationLink(value: A1Route.wordRun) { WordRunCard() }
                 .buttonStyle(.pressable)
+            let songs = SongBank.songs(model.level).count
+            if songs > 0 {
+                NavigationLink(value: A1Route.songs) { SongsCard(count: songs) }
+                    .buttonStyle(.pressable)
+            }
         }
         .disabled(!model.ready)
     }
