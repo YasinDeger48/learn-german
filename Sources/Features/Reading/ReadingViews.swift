@@ -189,9 +189,18 @@ struct DailyReadingView: View {
     }
 
     private func readWithDevice() {
-        A1Speaker.shared.read(text.fullText, speed: speeds[speedIndex])
+        deviceRead()
         deviceStarted = Date()
         deviceReading = true
+    }
+
+    /// The iPhone voice; a dialogue is read with one voice per speaker and without the names.
+    private func deviceRead() {
+        if let lines = Dialogue.lines(text.paragraphs) {
+            A1Speaker.shared.readDialogue(lines, speed: speeds[speedIndex])
+        } else {
+            A1Speaker.shared.read(text.fullText, speed: speeds[speedIndex])
+        }
     }
 
     private func stopReading() {
@@ -288,7 +297,7 @@ struct DailyReadingView: View {
                     if audio.playing {
                         audio.setSpeed(speeds[speedIndex])
                     } else if deviceReading {
-                        A1Speaker.shared.read(text.fullText, speed: speeds[speedIndex])
+                        deviceRead()
                     }
                 }
                 .font(DS.text(12, .semibold))

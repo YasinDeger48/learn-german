@@ -87,11 +87,90 @@ final class A1Speaker {
         synth.speak(utterance)
     }
 
+    /// Reads a dialogue: every speaker in an own voice and the names are not read; narration in the reading voice.
+    func readDialogue(_ lines: [Dialogue.Line], speed: Float) {
+        WordAudio.shared.stop()
+        let session = AVAudioSession.sharedInstance()
+        try? session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
+        try? session.setActive(true)
+        synth.stopSpeaking(at: .immediate)
+        let females = germanVoices.filter { $0.gender == .female }
+        let males = germanVoices.filter { $0.gender == .male }
+        var assigned: [String: (AVSpeechSynthesisVoice?, Float)] = [:]
+        var femaleCount = 0
+        var maleCount = 0
+        func speakerVoice(_ name: String) -> (AVSpeechSynthesisVoice?, Float) {
+            if let known = assigned[name] { return known }
+            let male = Dialogue.isMale(name)
+            let n = male ? maleCount : femaleCount
+            let pool = male ? males : females
+            let base = voice(for: male ? 1 : 0)
+            // A second speaker of the same gender: the next voice, or the same voice a bit higher.
+            let chosen: (AVSpeechSynthesisVoice?, Float) = n < pool.count
+                ? (pool[n], 1.0)
+                : (base.0, base.1 * (1 + 0.12 * Float(n - pool.count)))
+            if male { maleCount += 1 } else { femaleCount += 1 }
+            assigned[name] = chosen
+            return chosen
+        }
+        for line in lines {
+            let utterance = AVSpeechUtterance(string: line.words)
+            var chosen = voice(for: 0)
+            if let name = line.name { chosen = speakerVoice(name) }
+            let (chosenVoice, pitch) = chosen
+            utterance.voice = chosenVoice
+            utterance.pitchMultiplier = pitch
+            utterance.rate = 0.46 * speed
+            utterance.postUtteranceDelay = 0.45
+            synth.speak(utterance)
+        }
+    }
+
     var isSpeaking: Bool { synth.isSpeaking }
 
     func stop() {
         synth.stopSpeaking(at: .immediate)
         WordAudio.shared.stop()
+    }
+}
+
+/// Dialogue texts ("Lina: Hallo!"): who says what. Same rules as dialogue_plan in tools/audio.py, which records
+/// them with one voice per speaker; "Sie sagt: …" and "Der Mann antwortet: …" are narration, not speakers.
+enum Dialogue {
+    struct Line {
+        let name: String?  // nil = narration
+        let words: String
+    }
+
+    private static let notAName: Set<String> = ["Der", "Die", "Das", "Ein", "Eine", "Sie", "Er", "Es", "Ich", "Wir", "Aber", "Und", "Dann"]
+    private static let male: Set<String> = [
+        "Tom", "Max", "Ben", "Paul", "Jan", "Lukas", "Felix", "Leon", "David", "Ali", "Mehmet", "Ahmet", "Murat",
+        "Emre", "Peter", "Thomas", "Michael", "Stefan", "Jonas", "Mann", "Kellner", "Arzt", "Lehrer", "Verkäufer",
+        "Chef", "Vater", "Opa", "Junge", "Polizist", "Fahrer", "Nachbar", "Kollege", "Freund", "Busfahrer",
+    ]
+
+    /// The speaker and the words of one paragraph, or nil when it is not a dialogue line.
+    static func speaker(_ paragraph: String) -> Line? {
+        let text = paragraph.trimmingCharacters(in: .whitespaces)
+        guard let colon = text.range(of: ": ") else { return nil }
+        let name = String(text[..<colon.lowerBound])
+        let words = text[colon.upperBound...].trimmingCharacters(in: .whitespaces)
+        let parts = name.split(separator: " ")
+        guard (1...2).contains(parts.count), !words.isEmpty, !notAName.contains(String(parts[0])),
+              parts.allSatisfy({ part in
+                  part.count > 1 && part.first?.isUppercase == true && part.dropFirst().allSatisfy { $0.isLowercase }
+              }) else { return nil }
+        return Line(name: name, words: words)
+    }
+
+    static func isMale(_ name: String) -> Bool {
+        name.hasPrefix("Herr ") || male.contains(String(name.split(separator: " ").first ?? ""))
+    }
+
+    /// The lines of a dialogue text, or nil when fewer than two paragraphs have a speaker.
+    static func lines(_ paragraphs: [String]) -> [Line]? {
+        let lines = paragraphs.map { speaker($0) ?? Line(name: nil, words: $0) }
+        return lines.filter { $0.name != nil }.count >= 2 ? lines : nil
     }
 }
 
