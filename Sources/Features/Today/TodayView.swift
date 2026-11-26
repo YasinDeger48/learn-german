@@ -123,55 +123,75 @@ struct TodayView: View {
     }
 }
 
-/// "Keep going" rows for one level. Observes that level's model so the counts stay current.
+/// "Keep going" for one level: four coloured tiles (articles, listening or gap filling, grammar, mistakes) with a
+/// progress ring or a count. Observes that level's model so the numbers stay current.
 struct TodayPractice: View {
     @ObservedObject var model: A1Model
 
+    private func seenShare(_ mode: A1Mode) -> Double {
+        let total = model.totalFor(mode)
+        return total == 0 ? 0 : Double(min(model.seenCount(mode), total)) / Double(total)
+    }
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
+        VStack(alignment: .leading, spacing: 10) {
             HStack(alignment: .firstTextBaseline) {
-                Text(t("today.continue").uppercased() + " · " + model.level).font(.footnote).foregroundStyle(.secondary)
+                Text(t("today.continue").uppercased() + " · " + model.level).font(.footnote.weight(.semibold)).foregroundStyle(.secondary)
                 Spacer()
                 Text(t("today.levelNote", Int((model.readiness * 100).rounded()), model.state.wrong.count))
                     .font(.footnote).foregroundStyle(.secondary)
             }
-            .padding(.horizontal, 16)
-            VStack(spacing: 0) {
-                row(.mode(.artikel), "Artikel", t("today.left", max(0, model.totalFor(.artikel) - model.seenCount(.artikel))), "textformat", DS.die)
-                Divider().padding(.leading, 58)
+            LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
+                tile(.mode(.artikel), "Artikel", t("today.left", max(0, model.totalFor(.artikel) - model.seenCount(.artikel))),
+                     "textformat", DS.die, progress: seenShare(.artikel))
                 if model.totalFor(.hoeren) > 0 {
-                    row(.mode(.hoeren), "Hören", t("today.hoerenNote"), "headphones", .orange)
+                    tile(.mode(.hoeren), "Hören", t("today.hoerenNote"), "headphones", .orange, progress: seenShare(.hoeren))
                 } else {
-                    row(.mode(.cloze), t("mode.cloze.title"), t("today.left", max(0, model.totalFor(.cloze) - model.seenCount(.cloze))), "square.dashed", .teal)
+                    tile(.mode(.cloze), t("mode.cloze.title"), t("today.left", max(0, model.totalFor(.cloze) - model.seenCount(.cloze))),
+                         "square.dashed", .teal, progress: seenShare(.cloze))
                 }
-                Divider().padding(.leading, 58)
-                row(.grammarList, "Grammatik", t("practice.grammarTopics", model.content?.grammar.count ?? 0), "books.vertical.fill", .indigo)
-                Divider().padding(.leading, 58)
-                row(.mistakes, t("practice.mistakes"), "\(model.state.wrong.count)", "arrow.uturn.backward", .red)
+                tile(.grammarList, "Grammatik", t("practice.grammarTopics", model.content?.grammar.count ?? 0),
+                     "books.vertical.fill", .indigo, progress: nil)
+                tile(.mistakes, t("practice.mistakes"), t("today.mistakesNote"), "arrow.uturn.backward", .red,
+                     progress: nil, badge: model.state.wrong.count)
                     .disabled(model.state.wrong.isEmpty)
+                    .opacity(model.state.wrong.isEmpty ? 0.55 : 1)
             }
-            .background(DS.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
         }
         .disabled(!model.ready)
     }
 
-    /// Settings-style row: coloured icon square, title, value, chevron.
-    private func row(_ route: A1Route, _ title: String, _ value: String, _ icon: String, _ color: Color) -> some View {
+    private func tile(_ route: A1Route, _ title: String, _ value: String, _ icon: String, _ color: Color,
+                      progress: Double?, badge: Int = 0) -> some View {
         NavigationLink(value: route) {
-            HStack(spacing: 12) {
-                Image(systemName: icon)
-                    .font(.system(size: 15, weight: .semibold))
-                    .foregroundColor(.white)
-                    .frame(width: 30, height: 30)
-                    .background(color, in: RoundedRectangle(cornerRadius: 7, style: .continuous))
-                Text(title).foregroundColor(DS.ink)
-                Spacer()
-                Text(value).font(.subheadline).foregroundStyle(.secondary).lineLimit(1)
-                Image(systemName: "chevron.right").font(.footnote.weight(.semibold)).foregroundStyle(.tertiary)
+            VStack(alignment: .leading, spacing: 10) {
+                HStack(alignment: .top) {
+                    Image(systemName: icon)
+                        .font(.system(size: 17, weight: .bold))
+                        .foregroundColor(.white)
+                        .frame(width: 40, height: 40)
+                        .background(color, in: RoundedRectangle(cornerRadius: 13, style: .continuous))
+                    Spacer(minLength: 0)
+                    if let progress {
+                        GoalRing(progress: progress, size: 32, lineWidth: 4, color: color) {
+                            Text("\(Int((progress * 100).rounded()))").font(.system(size: 9, weight: .heavy)).foregroundColor(DS.ink)
+                        }
+                    } else if badge > 0 {
+                        Text("\(badge)")
+                            .font(.system(size: 13, weight: .heavy).monospacedDigit())
+                            .foregroundColor(.white)
+                            .padding(.horizontal, 9).padding(.vertical, 4)
+                            .background(color, in: Capsule())
+                    }
+                }
+                Text(title).font(.system(size: 16, weight: .bold)).foregroundColor(DS.ink)
+                Text(value).font(.caption).foregroundColor(DS.muted).lineLimit(2).multilineTextAlignment(.leading)
             }
-            .padding(.horizontal, 16)
-            .frame(minHeight: 50)
-            .contentShape(Rectangle())
+            .padding(14)
+            .frame(maxWidth: .infinity, minHeight: 132, alignment: .topLeading)
+            .background(LinearGradient(colors: [color.opacity(0.16), color.opacity(0.04)], startPoint: .topLeading, endPoint: .bottomTrailing),
+                        in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(color.opacity(0.18), lineWidth: 1))
         }
         .buttonStyle(.pressable)
     }
