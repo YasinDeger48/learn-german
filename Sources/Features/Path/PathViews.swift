@@ -223,6 +223,15 @@ struct PathView: View {
                         .buttonStyle(.plain)
                     }
                 }
+                // Unit 0 for complete beginners: alphabet, sounds, numbers, greetings.
+                if level == "A1" && StarterContent.shared != nil {
+                    NavigationLink {
+                        StarterView().environmentObject(levels.a1)
+                    } label: {
+                        StarterCard()
+                    }
+                    .buttonStyle(.pressable)
+                }
                 if units.isEmpty {
                     VStack(alignment: .leading, spacing: 6) {
                         Text(t("path.soon", level)).font(.headline)

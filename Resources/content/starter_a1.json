@@ -1,0 +1,476 @@
+{
+ "letters": [
+  {
+   "letter": "A",
+   "name": "a",
+   "word": "Apfel"
+  },
+  {
+   "letter": "B",
+   "name": "be",
+   "word": "Ball"
+  },
+  {
+   "letter": "C",
+   "name": "ce",
+   "word": "Computer"
+  },
+  {
+   "letter": "D",
+   "name": "de",
+   "word": "Dach"
+  },
+  {
+   "letter": "E",
+   "name": "e",
+   "word": "Esel"
+  },
+  {
+   "letter": "F",
+   "name": "ef",
+   "word": "Fisch"
+  },
+  {
+   "letter": "G",
+   "name": "ge",
+   "word": "Garten"
+  },
+  {
+   "letter": "H",
+   "name": "ha",
+   "word": "Haus"
+  },
+  {
+   "letter": "I",
+   "name": "i",
+   "word": "Igel"
+  },
+  {
+   "letter": "J",
+   "name": "jott",
+   "word": "Jacke"
+  },
+  {
+   "letter": "K",
+   "name": "ka",
+   "word": "Katze"
+  },
+  {
+   "letter": "L",
+   "name": "el",
+   "word": "Lampe"
+  },
+  {
+   "letter": "M",
+   "name": "em",
+   "word": "Mutter"
+  },
+  {
+   "letter": "N",
+   "name": "en",
+   "word": "Name"
+  },
+  {
+   "letter": "O",
+   "name": "o",
+   "word": "Oma"
+  },
+  {
+   "letter": "P",
+   "name": "pe",
+   "word": "Pizza"
+  },
+  {
+   "letter": "Q",
+   "name": "ku",
+   "word": "Quiz"
+  },
+  {
+   "letter": "R",
+   "name": "er",
+   "word": "Rad"
+  },
+  {
+   "letter": "S",
+   "name": "es",
+   "word": "Sonne"
+  },
+  {
+   "letter": "T",
+   "name": "te",
+   "word": "Tisch"
+  },
+  {
+   "letter": "U",
+   "name": "u",
+   "word": "Uhr"
+  },
+  {
+   "letter": "V",
+   "name": "fau",
+   "word": "Vogel"
+  },
+  {
+   "letter": "W",
+   "name": "we",
+   "word": "Wasser"
+  },
+  {
+   "letter": "X",
+   "name": "iks",
+   "word": "Taxi"
+  },
+  {
+   "letter": "Y",
+   "name": "üpsilon",
+   "word": "Yoga"
+  },
+  {
+   "letter": "Z",
+   "name": "zett",
+   "word": "Zug"
+  },
+  {
+   "letter": "Ä",
+   "name": "ä",
+   "word": "Käse"
+  },
+  {
+   "letter": "Ö",
+   "name": "ö",
+   "word": "Öl"
+  },
+  {
+   "letter": "Ü",
+   "name": "ü",
+   "word": "Tür"
+  },
+  {
+   "letter": "ß",
+   "name": "eszett",
+   "word": "Straße"
+  }
+ ],
+ "sounds": [
+  {
+   "spelling": "ä",
+   "say": {
+    "tr": "Açık bir „e“ gibi.",
+    "en": "Like the \"e\" in \"bed\"."
+   },
+   "examples": [
+    "Käse",
+    "Mädchen"
+   ]
+  },
+  {
+   "spelling": "ö",
+   "say": {
+    "tr": "Türkçedeki „ö“ gibi.",
+    "en": "Round your lips and say \"e\"."
+   },
+   "examples": [
+    "schön",
+    "hören"
+   ]
+  },
+  {
+   "spelling": "ü",
+   "say": {
+    "tr": "Türkçedeki „ü“ gibi.",
+    "en": "Round your lips and say \"i\"."
+   },
+   "examples": [
+    "Tür",
+    "müde"
+   ]
+  },
+  {
+   "spelling": "ß",
+   "say": {
+    "tr": "Çift „s“ gibi: ss.",
+    "en": "A sharp \"ss\"."
+   },
+   "examples": [
+    "Straße",
+    "groß"
+   ]
+  },
+  {
+   "spelling": "ei",
+   "say": {
+    "tr": "„ay“ diye okunur: drei → dray.",
+    "en": "Says \"eye\": drei → \"dry\"."
+   },
+   "examples": [
+    "drei",
+    "mein",
+    "Ei"
+   ]
+  },
+  {
+   "spelling": "ie",
+   "say": {
+    "tr": "Uzun „i“: Liebe → liibe.",
+    "en": "A long \"ee\": Liebe."
+   },
+   "examples": [
+    "Liebe",
+    "vier",
+    "sie"
+   ]
+  },
+  {
+   "spelling": "eu / äu",
+   "say": {
+    "tr": "„oy“ diye okunur: heute → hoyte.",
+    "en": "Says \"oy\": heute → \"hoy-te\"."
+   },
+   "examples": [
+    "heute",
+    "neu",
+    "Häuser"
+   ]
+  },
+  {
+   "spelling": "au",
+   "say": {
+    "tr": "„av“ diye okunur: Haus → havs.",
+    "en": "Says \"ow\" as in \"house\"."
+   },
+   "examples": [
+    "Haus",
+    "Frau"
+   ]
+  },
+  {
+   "spelling": "sch",
+   "say": {
+    "tr": "„ş“ diye okunur.",
+    "en": "Says \"sh\"."
+   },
+   "examples": [
+    "Schule",
+    "Tisch"
+   ]
+  },
+  {
+   "spelling": "ch",
+   "say": {
+    "tr": "a, o, u’dan sonra boğazdan hırıltılı „h“ (Buch); başka yerlerde yumuşak „h“ (ich).",
+    "en": "After a, o, u a throaty sound (Buch); elsewhere a soft hiss (ich)."
+   },
+   "examples": [
+    "Buch",
+    "ich",
+    "Milch"
+   ]
+  },
+  {
+   "spelling": "st / sp",
+   "say": {
+    "tr": "Kelime başında „şt / şp“: Straße → ştrase.",
+    "en": "At the start of a word \"sht / shp\"."
+   },
+   "examples": [
+    "Straße",
+    "sprechen"
+   ]
+  },
+  {
+   "spelling": "z",
+   "say": {
+    "tr": "„ts“ diye okunur: Zug → tsuk.",
+    "en": "Says \"ts\": Zug → \"tsook\"."
+   },
+   "examples": [
+    "Zug",
+    "zehn"
+   ]
+  },
+  {
+   "spelling": "v",
+   "say": {
+    "tr": "Çoğunlukla „f“ diye okunur: Vater → fater.",
+    "en": "Usually says \"f\": Vater."
+   },
+   "examples": [
+    "Vater",
+    "viel"
+   ]
+  },
+  {
+   "spelling": "w",
+   "say": {
+    "tr": "„v“ diye okunur: Wasser → vasser.",
+    "en": "Says \"v\": Wasser."
+   },
+   "examples": [
+    "Wasser",
+    "wo"
+   ]
+  },
+  {
+   "spelling": "j",
+   "say": {
+    "tr": "„y“ diye okunur: ja → ya.",
+    "en": "Says \"y\": ja → \"yah\"."
+   },
+   "examples": [
+    "ja",
+    "Jahr"
+   ]
+  },
+  {
+   "spelling": "h",
+   "say": {
+    "tr": "Ünlüden sonra okunmaz, ünlüyü uzatır: Uhr → uur.",
+    "en": "After a vowel it is silent and makes the vowel long."
+   },
+   "examples": [
+    "Uhr",
+    "gehen"
+   ]
+  },
+  {
+   "spelling": "-er",
+   "say": {
+    "tr": "Kelime sonunda hafif bir „a“ gibi: Mutter → mutta.",
+    "en": "At the end of a word like a soft \"a\"."
+   },
+   "examples": [
+    "Mutter",
+    "Lehrer"
+   ]
+  },
+  {
+   "spelling": "-ig",
+   "say": {
+    "tr": "Kelime sonunda „-iş“ gibi (ich’teki ses).",
+    "en": "At the end like the \"ch\" in ich."
+   },
+   "examples": [
+    "zwanzig",
+    "richtig"
+   ]
+  },
+  {
+   "spelling": "e",
+   "say": {
+    "tr": "Kelime sonundaki „e“ de okunur: Name → naame.",
+    "en": "A final \"e\" is spoken too: Name."
+   },
+   "examples": [
+    "Name",
+    "bitte"
+   ]
+  }
+ ],
+ "greetings": [
+  {
+   "de": "Hallo!",
+   "mean": {
+    "tr": "Merhaba!",
+    "en": "Hello!"
+   }
+  },
+  {
+   "de": "Guten Morgen!",
+   "mean": {
+    "tr": "Günaydın!",
+    "en": "Good morning!"
+   }
+  },
+  {
+   "de": "Guten Tag!",
+   "mean": {
+    "tr": "İyi günler! / Merhaba!",
+    "en": "Good day! / Hello!"
+   }
+  },
+  {
+   "de": "Guten Abend!",
+   "mean": {
+    "tr": "İyi akşamlar!",
+    "en": "Good evening!"
+   }
+  },
+  {
+   "de": "Gute Nacht!",
+   "mean": {
+    "tr": "İyi geceler!",
+    "en": "Good night!"
+   }
+  },
+  {
+   "de": "Tschüss!",
+   "mean": {
+    "tr": "Hoşça kal!",
+    "en": "Bye!"
+   }
+  },
+  {
+   "de": "Auf Wiedersehen!",
+   "mean": {
+    "tr": "Görüşmek üzere! (resmî)",
+    "en": "Goodbye! (formal)"
+   }
+  },
+  {
+   "de": "Danke!",
+   "mean": {
+    "tr": "Teşekkürler!",
+    "en": "Thank you!"
+   }
+  },
+  {
+   "de": "Bitte!",
+   "mean": {
+    "tr": "Lütfen! / Rica ederim!",
+    "en": "Please! / You are welcome!"
+   }
+  },
+  {
+   "de": "Entschuldigung!",
+   "mean": {
+    "tr": "Affedersiniz!",
+    "en": "Excuse me!"
+   }
+  },
+  {
+   "de": "Wie geht’s?",
+   "mean": {
+    "tr": "Nasılsın?",
+    "en": "How are you?"
+   }
+  },
+  {
+   "de": "Gut, danke. Und dir?",
+   "mean": {
+    "tr": "İyiyim, teşekkürler. Ya sen?",
+    "en": "Fine, thanks. And you?"
+   }
+  },
+  {
+   "de": "Ja. / Nein.",
+   "mean": {
+    "tr": "Evet. / Hayır.",
+    "en": "Yes. / No."
+   }
+  },
+  {
+   "de": "Ich verstehe nicht.",
+   "mean": {
+    "tr": "Anlamıyorum.",
+    "en": "I don't understand."
+   }
+  },
+  {
+   "de": "Noch einmal, bitte.",
+   "mean": {
+    "tr": "Bir kez daha, lütfen.",
+    "en": "Once more, please."
+   }
+  }
+ ]
+}
