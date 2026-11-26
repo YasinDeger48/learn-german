@@ -988,5 +988,649 @@
   "value": "Bunu tekrar edebilir misiniz lütfen?",
   "original": "Können Sie das bitte wiederholen?",
   "at": "2026-11-26T10:14:22"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammar",
+  "parent": null,
+  "item": {
+   "id": 23,
+   "de": "Präpositionen mit Akkusativ",
+   "name": {
+    "tr": "Akkusativ alan edatlar",
+    "en": "Prepositions with the accusative"
+   },
+   "rule": {
+    "tr": "Bu edatlardan sonra hep Akkusativ gelir:\nfür (için) · ohne (-sız, olmadan) · durch (içinden) · um (etrafında; saatle: -de) · gegen (karşı)\nEril kelimelerde artikel değişir: für den Vater · ohne meinen Bruder · durch den Park\nZamirler de Akkusativ olur: für dich · ohne mich · für Sie",
+    "en": "These prepositions always take the accusative:\nfür (for) · ohne (without) · durch (through) · um (around; with time: at) · gegen (against)\nMasculine words change: für den Vater · ohne meinen Bruder · durch den Park\nPronouns are accusative too: für dich · ohne mich · für Sie"
+   },
+   "examples": [
+    {
+     "de": "Das Geschenk ist für dich.",
+     "mean": {
+      "tr": "Hediye senin için.",
+      "en": "The present is for you."
+     }
+    },
+    {
+     "de": "Ich trinke Kaffee ohne Zucker.",
+     "mean": {
+      "tr": "Kahveyi şekersiz içerim.",
+      "en": "I drink coffee without sugar."
+     }
+    },
+    {
+     "de": "Wir gehen durch den Park.",
+     "mean": {
+      "tr": "Parkın içinden geçiyoruz.",
+      "en": "We walk through the park."
+     }
+    }
+   ]
+  },
+  "at": "2026-11-26T10:31:33"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammar",
+  "parent": null,
+  "item": {
+   "id": 24,
+   "de": "es gibt & man",
+   "name": {
+    "tr": "es gibt (var) ve man (insan, biri)",
+    "en": "es gibt (there is) and man (one, people)"
+   },
+   "rule": {
+    "tr": "es gibt = var. Ardından gelen isim Akkusativ olur:\nes gibt einen Tisch · eine Lampe · ein Bett · keine Toilette\nSoru için fiil başa geçer: Gibt es hier eine Apotheke?\nman = insan, biri, genel olarak herkes. Fiil er/sie/es gibi çekimlenir:\nman kann · man muss · man darf · man spricht\nHier darf man nicht rauchen. = Burada sigara içilmez.",
+    "en": "es gibt = there is / there are. The noun after it is in the accusative:\nes gibt einen Tisch · eine Lampe · ein Bett · keine Toilette\nFor a question the verb goes first: Gibt es hier eine Apotheke?\nman = one, people, you in general. The verb is like er/sie/es:\nman kann · man muss · man darf · man spricht\nHier darf man nicht rauchen. = You may not smoke here."
+   },
+   "examples": [
+    {
+     "de": "In der Küche gibt es einen Tisch.",
+     "mean": {
+      "tr": "Mutfakta bir masa var.",
+      "en": "There is a table in the kitchen."
+     }
+    },
+    {
+     "de": "Gibt es hier eine Bank?",
+     "mean": {
+      "tr": "Burada banka var mı?",
+      "en": "Is there a bank here?"
+     }
+    },
+    {
+     "de": "Hier darf man nicht parken.",
+     "mean": {
+      "tr": "Buraya park edilmez.",
+      "en": "You can't park here."
+     }
+    }
+   ]
+  },
+  "at": "2026-11-26T10:31:33"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Das Geschenk ist ___ meine Mutter.",
+   "options": [
+    "für",
+    "mit",
+    "von"
+   ],
+   "why": {
+    "tr": "für = için; für + Akkusativ.",
+    "en": "für = for; für + accusative."
+   }
+  },
+  "at": "2026-11-26T10:31:33"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Ich trinke Kaffee ___ Zucker.",
+   "options": [
+    "ohne",
+    "mit",
+    "für"
+   ],
+   "why": {
+    "tr": "ohne = -sız: şekersiz.",
+    "en": "ohne = without."
+   }
+  },
+  "at": "2026-11-26T10:31:33"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Wir gehen ___ den Park.",
+   "options": [
+    "durch",
+    "ohne",
+    "für"
+   ],
+   "why": {
+    "tr": "durch = içinden (geçmek).",
+    "en": "durch = through."
+   }
+  },
+  "at": "2026-11-26T10:31:34"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Das ist für ___ Bruder.",
+   "options": [
+    "meinen",
+    "mein",
+    "meinem"
+   ],
+   "why": {
+    "tr": "für + Akkusativ; der Bruder → meinen Bruder.",
+    "en": "für + accusative; der Bruder → meinen Bruder."
+   }
+  },
+  "at": "2026-11-26T10:31:34"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Ohne ___ Jacke ist es kalt.",
+   "options": [
+    "meine",
+    "meiner",
+    "meinen"
+   ],
+   "why": {
+    "tr": "ohne + Akkusativ; die Jacke → meine Jacke (dişil değişmez).",
+    "en": "ohne + accusative; die Jacke stays meine Jacke."
+   }
+  },
+  "at": "2026-11-26T10:31:34"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Er fährt mit dem Rad ___ die Stadt.",
+   "options": [
+    "durch",
+    "für",
+    "ohne"
+   ],
+   "why": {
+    "tr": "durch die Stadt = şehrin içinden.",
+    "en": "durch die Stadt = through the town."
+   }
+  },
+  "at": "2026-11-26T10:31:34"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Ich habe ein Buch für ___.",
+   "options": [
+    "dich",
+    "dir",
+    "du"
+   ],
+   "why": {
+    "tr": "für + Akkusativ: du → dich.",
+    "en": "für + accusative: du → dich."
+   }
+  },
+  "at": "2026-11-26T10:31:34"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Heute spielt Köln ___ Berlin.",
+   "options": [
+    "gegen",
+    "für",
+    "durch"
+   ],
+   "why": {
+    "tr": "gegen = karşı (maçta).",
+    "en": "gegen = against (in a match)."
+   }
+  },
+  "at": "2026-11-26T10:31:34"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Gehen Sie hier ___ die Ecke.",
+   "options": [
+    "um",
+    "durch",
+    "für"
+   ],
+   "why": {
+    "tr": "um die Ecke = köşeyi dönünce.",
+    "en": "um die Ecke = round the corner."
+   }
+  },
+  "at": "2026-11-26T10:31:34"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Ohne ___ Handy kann ich nicht arbeiten.",
+   "options": [
+    "mein",
+    "meinen",
+    "meine"
+   ],
+   "why": {
+    "tr": "das Handy nötr: ohne mein Handy.",
+    "en": "das Handy is neuter: ohne mein Handy."
+   }
+  },
+  "at": "2026-11-26T10:31:34"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Der Brief ist für ___, Frau Weber.",
+   "options": [
+    "Sie",
+    "Ihnen",
+    "Ihr"
+   ],
+   "why": {
+    "tr": "für + Akkusativ: Sie → Sie.",
+    "en": "für + accusative: Sie stays Sie."
+   }
+  },
+  "at": "2026-11-26T10:31:34"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Sie geht ohne ___ Mann ins Kino.",
+   "options": [
+    "ihren",
+    "ihr",
+    "ihrem"
+   ],
+   "why": {
+    "tr": "ohne + Akkusativ; der Mann → ihren Mann.",
+    "en": "ohne + accusative; der Mann → ihren Mann."
+   }
+  },
+  "at": "2026-11-26T10:31:35"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Wir laufen jeden Morgen ___ den Wald.",
+   "options": [
+    "durch",
+    "um",
+    "ohne"
+   ],
+   "why": {
+    "tr": "durch den Wald = ormanın içinden.",
+    "en": "durch den Wald = through the forest."
+   }
+  },
+  "at": "2026-11-26T10:31:35"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 23,
+   "q": "Das ist ein Tisch ___ die Küche.",
+   "options": [
+    "für",
+    "ohne",
+    "gegen"
+   ],
+   "why": {
+    "tr": "für die Küche = mutfak için.",
+    "en": "für die Küche = for the kitchen."
+   }
+  },
+  "at": "2026-11-26T10:31:35"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "In der Küche ___ es einen Tisch.",
+   "options": [
+    "gibt",
+    "ist",
+    "hat"
+   ],
+   "why": {
+    "tr": "es gibt = var.",
+    "en": "es gibt = there is."
+   }
+  },
+  "at": "2026-11-26T10:31:35"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Gibt es hier ___ Bank?",
+   "options": [
+    "eine",
+    "ein",
+    "einen"
+   ],
+   "why": {
+    "tr": "es gibt + Akkusativ; die Bank → eine Bank.",
+    "en": "es gibt + accusative; die Bank → eine Bank."
+   }
+  },
+  "at": "2026-11-26T10:31:35"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Im Café ___ es heute keinen Kuchen.",
+   "options": [
+    "gibt",
+    "hat",
+    "ist"
+   ],
+   "why": {
+    "tr": "es gibt keinen … = hiç … yok.",
+    "en": "es gibt keinen … = there is no …"
+   }
+  },
+  "at": "2026-11-26T10:31:35"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Es gibt ___ Supermarkt in der Straße.",
+   "options": [
+    "einen",
+    "ein",
+    "eine"
+   ],
+   "why": {
+    "tr": "es gibt + Akkusativ; der Supermarkt → einen Supermarkt.",
+    "en": "es gibt + accusative; der Supermarkt → einen Supermarkt."
+   }
+  },
+  "at": "2026-11-26T10:31:35"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Hier ___ man gut essen.",
+   "options": [
+    "kann",
+    "können",
+    "kannst"
+   ],
+   "why": {
+    "tr": "man + er/sie/es çekimi: man kann.",
+    "en": "man takes the er/sie/es form: man kann."
+   }
+  },
+  "at": "2026-11-26T10:31:35"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "___ es hier ein Café?",
+   "options": [
+    "Gibt",
+    "Ist",
+    "Hat"
+   ],
+   "why": {
+    "tr": "Soru: Gibt es …? = … var mı?",
+    "en": "Question: Gibt es …? = Is there …?"
+   }
+  },
+  "at": "2026-11-26T10:31:35"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "In Deutschland ___ man viel Brot.",
+   "options": [
+    "isst",
+    "essen",
+    "esst"
+   ],
+   "why": {
+    "tr": "man + er/sie/es çekimi: man isst.",
+    "en": "man takes the er/sie/es form: man isst."
+   }
+  },
+  "at": "2026-11-26T10:31:36"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Heute ___ es Fisch und Salat.",
+   "options": [
+    "gibt",
+    "ist",
+    "hat"
+   ],
+   "why": {
+    "tr": "es gibt = var (yemekte).",
+    "en": "es gibt = there is (on the menu)."
+   }
+  },
+  "at": "2026-11-26T10:31:36"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Wo kann ___ hier Fahrkarten kaufen?",
+   "options": [
+    "man",
+    "es",
+    "wir"
+   ],
+   "why": {
+    "tr": "man = biri, insan: bilet nereden alınır?",
+    "en": "man = one: where can you buy tickets here?"
+   }
+  },
+  "at": "2026-11-26T10:31:36"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Es gibt zwei Zimmer und ___ Bad.",
+   "options": [
+    "ein",
+    "einen",
+    "eine"
+   ],
+   "why": {
+    "tr": "das Bad nötr: ein Bad (Akkusativ’ta değişmez).",
+    "en": "das Bad is neuter: ein Bad."
+   }
+  },
+  "at": "2026-11-26T10:31:36"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Am Samstag ___ es ein Konzert im Park.",
+   "options": [
+    "gibt",
+    "hat",
+    "ist"
+   ],
+   "why": {
+    "tr": "es gibt = var (etkinlik).",
+    "en": "es gibt = there is (an event)."
+   }
+  },
+  "at": "2026-11-26T10:31:36"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Hier ___ man links fahren.",
+   "options": [
+    "muss",
+    "müssen",
+    "musst"
+   ],
+   "why": {
+    "tr": "man + er/sie/es çekimi: man muss.",
+    "en": "man takes the er/sie/es form: man muss."
+   }
+  },
+  "at": "2026-11-26T10:31:36"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Gibt es hier ___ Toilette?",
+   "options": [
+    "eine",
+    "ein",
+    "einen"
+   ],
+   "why": {
+    "tr": "die Toilette → eine Toilette.",
+    "en": "die Toilette → eine Toilette."
+   }
+  },
+  "at": "2026-11-26T10:31:36"
+ },
+ {
+  "op": "add",
+  "file": "a1.json",
+  "collection": "grammarItems",
+  "parent": null,
+  "item": {
+   "topic": 24,
+   "q": "Was ___ es heute zum Essen?",
+   "options": [
+    "gibt",
+    "ist",
+    "hat"
+   ],
+   "why": {
+    "tr": "Was gibt es …? = … ne var?",
+    "en": "Was gibt es …? = What is there …?"
+   }
+  },
+  "at": "2026-11-26T10:31:36"
  }
 ]

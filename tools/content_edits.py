@@ -59,7 +59,7 @@ LANGS = ('tr', 'en', 'es', 'fr', 'it', 'ku', 'ar')
 
 
 # What makes an added item the same item again (after a file was regenerated).
-IDENTITY = {'words': ('de', 'type'), 'grammarItems': ('q',), 'phrases': ('de',)}
+IDENTITY = {'words': ('de', 'type'), 'grammarItems': ('q',), 'phrases': ('de',), 'grammar': ('id',)}
 
 
 def same(a, b, fields):
