@@ -144,6 +144,9 @@ struct WordRunView: View {
                 .clipped()
             }
         }
+        // The world always runs left to right (the art faces right); in Arabic the layout would mirror it and
+        // Lina would run backwards. The HUD and the answers keep the user's direction.
+        .environment(\.layoutDirection, .leftToRight)
         .modifier(RunShake(amount: shake))
         .overlay(alignment: .top) { hud }
     }
