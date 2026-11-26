@@ -234,57 +234,298 @@ struct A1GrammarView: View {
     }
 }
 
-struct A1TextsView: View {
-    @EnvironmentObject private var model: A1Model
+/// Look of the short practice texts (a1.json "texts"): an icon and a colour per text, and which ones were listened to.
+enum PracticeTextStyle {
+    private static let palette: [Color] = [DS.der, DS.das, DS.die, DS.goldDeep, .indigo, .teal, .orange, .pink]
+    private static let icons: [String: String] = [
+        "vorstellen": "person.crop.circle", "familie": "figure.2.and.child.holdinghands", "tag": "sun.max",
+        "wohnung": "house", "frühstück": "cup.and.saucer", "supermarkt": "cart", "wochenende": "calendar",
+        "wetter": "cloud.sun", "arzt": "cross.case", "beruf": "briefcase", "stadt": "building.2",
+        "meer": "beach.umbrella", "geburtstag": "gift", "hobbys": "paintpalette", "restaurant": "fork.knife",
+        "hotel": "bed.double", "haustier": "pawprint", "deutschkurs": "book", "zug": "tram", "nachbar": "person.2",
+    ]
 
-    var body: some View {
-        List(model.content?.texts ?? []) { text in
-            NavigationLink(value: A1Route.text(text.id)) {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Text \(text.id): \(text.title)")
-                    Text(text.titleL.text).font(.caption).foregroundStyle(.secondary)
-                }
-            }
-        }
-        .navigationTitle(t("workbook.textsTitle"))
+    static func color(_ index: Int) -> Color { palette[abs(index) % palette.count] }
+
+    static func icon(_ title: String) -> String {
+        let lower = title.lowercased()
+        return icons.first { lower.contains($0.key) }?.value ?? "doc.text"
+    }
+
+    private static let listenedKey = "practiceTexts.listened"
+
+    static func listened(_ level: String, _ id: Int) -> Bool {
+        (UserDefaults.standard.stringArray(forKey: listenedKey) ?? []).contains("\(level)-\(id)")
+    }
+
+    static func markListened(_ level: String, _ id: Int) {
+        var all = UserDefaults.standard.stringArray(forKey: listenedKey) ?? []
+        guard !all.contains("\(level)-\(id)") else { return }
+        all.append("\(level)-\(id)")
+        UserDefaults.standard.set(all, forKey: listenedKey)
     }
 }
 
+struct A1TextsView: View {
+    @EnvironmentObject private var model: A1Model
+    @State private var refresh = 0  // listened marks are read again when the list comes back
+
+    var body: some View {
+        let texts = model.content?.texts ?? []
+        let done = texts.filter { PracticeTextStyle.listened(model.level, $0.id) }.count
+        ScrollView {
+            VStack(alignment: .leading, spacing: 12) {
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(t("workbook.textsIntro")).font(.subheadline).foregroundColor(DS.muted)
+                    HStack(spacing: 10) {
+                        ProgressView(value: texts.isEmpty ? 0 : Double(done) / Double(texts.count)).tint(DS.gold)
+                        Text("\(done)/\(texts.count)").font(.caption.monospacedDigit().weight(.semibold)).foregroundColor(DS.ink)
+                    }
+                }
+                .padding(.bottom, 4)
+                ForEach(Array(texts.enumerated()), id: \.element.id) { index, text in
+                    NavigationLink(value: A1Route.text(text.id)) { card(text, index: index) }
+                        .buttonStyle(.pressable)
+                }
+            }
+            .padding(.horizontal, DS.gutter)
+            .padding(.bottom, 24)
+            .id(refresh)
+        }
+        .background(DS.ground.ignoresSafeArea())
+        .navigationTitle(t("workbook.textsTitle"))
+        .onAppear { refresh += 1 }
+    }
+
+    private func card(_ text: A1Text, index: Int) -> some View {
+        let color = PracticeTextStyle.color(index)
+        let listened = PracticeTextStyle.listened(model.level, text.id)
+        return HStack(spacing: 14) {
+            ZStack(alignment: .bottomTrailing) {
+                Image(systemName: PracticeTextStyle.icon(text.title))
+                    .font(.system(size: 19, weight: .semibold))
+                    .foregroundColor(.white)
+                    .frame(width: 50, height: 50)
+                    .background(LinearGradient(colors: [color, color.opacity(0.75)], startPoint: .topLeading, endPoint: .bottomTrailing),
+                                in: RoundedRectangle(cornerRadius: 15, style: .continuous))
+                if listened {
+                    Image(systemName: "checkmark.circle.fill")
+                        .font(.system(size: 17, weight: .bold))
+                        .foregroundStyle(.white, DS.success)
+                        .offset(x: 6, y: 6)
+                }
+            }
+            VStack(alignment: .leading, spacing: 3) {
+                Text(t("workbook.textNumber", index + 1).uppercased())
+                    .font(.caption2.weight(.bold)).foregroundColor(color)
+                Text(text.title).font(.system(size: 17, weight: .bold)).foregroundColor(DS.ink).lineLimit(1)
+                Text(text.titleL.text).font(.caption).foregroundColor(DS.muted).lineLimit(1)
+            }
+            Spacer(minLength: 4)
+            VStack(alignment: .trailing, spacing: 4) {
+                Text(t("workbook.sentences", text.de.count)).font(.caption2.weight(.semibold)).foregroundColor(DS.muted)
+                Image(systemName: "chevron.right").font(.caption.weight(.bold)).foregroundColor(DS.muted.opacity(0.6))
+            }
+        }
+        .padding(14)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(color.opacity(listened ? 0.35 : 0.12), lineWidth: 1))
+    }
+}
+
+/// One short practice text: a header, a player that reads sentence by sentence with the recorded voice
+/// (the sentence being read is highlighted), every sentence on its own card to tap and hear, the translation
+/// and the reading quiz. Leaving the page stops the voice.
 struct A1TextView: View {
     @EnvironmentObject private var model: A1Model
     let textID: Int
-    @State private var showTurkish = false
+    @State private var showTranslation = false
+    @State private var playing = false
+    @State private var slow = false
+    @State private var current: Int?
+    @State private var ended = false       // the player said "no more lines" (or the iPhone voice took over)
+    @State private var endedAt = Date()
+    private let clock = Timer.publish(every: 0.4, on: .main, in: .common).autoconnect()
 
     var body: some View {
-        if let text = model.content?.texts.first(where: { $0.id == textID }) {
-            List {
-                Section {
-                    Button {
-                        A1Speaker.shared.say(text.de.joined(separator: " "))
-                    } label: {
-                        Label(t("workbook.listenAll"), systemImage: "speaker.wave.2.fill")
-                    }
-                    ForEach(Array(text.de.enumerated()), id: \.offset) { item in
-                        HStack {
-                            Text(item.element)
-                            Spacer()
-                            A1SpeakButton(text: item.element)
+        let texts = model.content?.texts ?? []
+        if let index = texts.firstIndex(where: { $0.id == textID }) {
+            let text = texts[index]
+            let color = PracticeTextStyle.color(index)
+            ScrollView {
+                VStack(alignment: .leading, spacing: 14) {
+                    header(text, index: index, color: color)
+                    player(text, color: color)
+                    VStack(spacing: 8) {
+                        ForEach(Array(text.de.enumerated()), id: \.offset) { line, sentence in
+                            sentenceCard(sentence, number: line + 1, active: current == line, color: color)
                         }
                     }
-                }
-                Section {
-                    Toggle(t("workbook.showTranslation"), isOn: $showTurkish)
-                    if showTurkish { Text(text.trans.text).foregroundStyle(.secondary) }
-                }
-                Section {
+                    translation(text)
                     NavigationLink(value: A1Route.mode(.reading)) {
-                        Label(t("workbook.readingQuiz"), systemImage: "play.circle.fill")
+                        Label(t("workbook.readingQuiz"), systemImage: "checkmark.bubble.fill")
+                            .font(DS.text(16, .semibold))
+                            .foregroundColor(DS.onGold)
+                            .frame(maxWidth: .infinity, minHeight: 54)
+                            .background(DS.gold, in: Capsule())
                     }
+                    .buttonStyle(.pressable)
+                    .padding(.top, 4)
                 }
+                .padding(.horizontal, DS.gutter)
+                .padding(.bottom, 28)
             }
+            .background(DS.ground.ignoresSafeArea())
             .navigationTitle(text.title)
             .navigationBarTitleDisplayMode(.inline)
+            .onDisappear { stop() }
+            .onReceive(clock) { _ in
+                // Finished: the recorded lines are over, or the iPhone voice stopped speaking.
+                if playing, ended, Date().timeIntervalSince(endedAt) > 1.0, !A1Speaker.shared.isSpeaking {
+                    playing = false
+                    current = nil
+                    PracticeTextStyle.markListened(model.level, textID)
+                }
+            }
         }
+    }
+
+    private func header(_ text: A1Text, index: Int, color: Color) -> some View {
+        HStack(alignment: .top, spacing: 14) {
+            VStack(alignment: .leading, spacing: 6) {
+                Text("\(model.level) · " + t("workbook.textNumber", index + 1))
+                    .font(.caption.weight(.bold)).foregroundColor(.white.opacity(0.75))
+                Text(text.title).font(DS.display(28)).foregroundColor(.white).fixedSize(horizontal: false, vertical: true)
+                Text(text.titleL.text).font(.subheadline).foregroundColor(.white.opacity(0.85))
+                Text(t("workbook.sentences", text.de.count)).font(.caption.weight(.semibold))
+                    .foregroundColor(.white)
+                    .padding(.horizontal, 10).padding(.vertical, 4)
+                    .background(Color.white.opacity(0.18), in: Capsule())
+                    .padding(.top, 2)
+            }
+            Spacer(minLength: 0)
+            Image(systemName: PracticeTextStyle.icon(text.title))
+                .font(.system(size: 26, weight: .semibold))
+                .foregroundColor(color)
+                .frame(width: 60, height: 60)
+                .background(Color.white, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+        }
+        .padding(18)
+        .background(LinearGradient(colors: [color, color.opacity(0.78)], startPoint: .topLeading, endPoint: .bottomTrailing),
+                    in: RoundedRectangle(cornerRadius: 24, style: .continuous))
+        .padding(.top, 4)
+    }
+
+    private func player(_ text: A1Text, color: Color) -> some View {
+        HStack(spacing: 12) {
+            Button { playing ? stop() : playAll(text) } label: {
+                Image(systemName: playing ? "stop.fill" : "play.fill")
+                    .font(.system(size: 18, weight: .bold))
+                    .foregroundColor(DS.ground)
+                    .frame(width: 52, height: 52)
+                    .background(DS.ink, in: Circle())
+            }
+            .buttonStyle(.pressable)
+            .accessibilityLabel(playing ? t("reading.stop") : t("workbook.listenAll"))
+            VStack(alignment: .leading, spacing: 4) {
+                Text(playing ? t("reading.playing") : t("workbook.listenAll")).font(DS.text(15, .semibold)).foregroundColor(DS.ink)
+                if playing, let current {
+                    ProgressView(value: Double(current + 1), total: Double(max(1, text.de.count))).tint(color)
+                } else {
+                    Text(t("workbook.tapSentence")).font(.caption).foregroundColor(DS.muted).lineLimit(1)
+                }
+            }
+            Spacer(minLength: 4)
+            Button {
+                slow.toggle()
+                if playing { playAll(text) }
+            } label: {
+                Image(systemName: "tortoise.fill")
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundColor(slow ? DS.onGold : DS.ink)
+                    .frame(width: 40, height: 34)
+                    .background(slow ? DS.gold : Color.clear, in: Capsule())
+                    .overlay(Capsule().stroke(DS.hairline, lineWidth: slow ? 0 : 1))
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(t("common.listenSlow"))
+            .accessibilityAddTraits(slow ? .isSelected : [])
+        }
+        .padding(12)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+    }
+
+    private func sentenceCard(_ sentence: String, number: Int, active: Bool, color: Color) -> some View {
+        Button {
+            stop()
+            A1Speaker.shared.say(sentence, slow: slow)
+        } label: {
+            HStack(alignment: .top, spacing: 12) {
+                Text("\(number)")
+                    .font(.system(size: 12, weight: .heavy).monospacedDigit())
+                    .foregroundColor(active ? .white : color)
+                    .frame(width: 26, height: 26)
+                    .background(active ? color : color.opacity(0.13), in: Circle())
+                Text(sentence)
+                    .font(.system(size: 17, weight: active ? .semibold : .regular))
+                    .foregroundColor(DS.ink)
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+                Spacer(minLength: 4)
+                Image(systemName: "speaker.wave.2.fill")
+                    .font(.system(size: 13))
+                    .foregroundColor(active ? color : DS.muted.opacity(0.7))
+                    .padding(.top, 3)
+            }
+            .padding(14)
+            .background(active ? color.opacity(0.12) : DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(active ? color.opacity(0.5) : Color.clear, lineWidth: 1.5))
+            .animation(.easeOut(duration: 0.2), value: active)
+        }
+        .buttonStyle(.pressable)
+    }
+
+    private func translation(_ text: A1Text) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Button {
+                withAnimation(.easeOut(duration: 0.2)) { showTranslation.toggle() }
+            } label: {
+                HStack {
+                    Label(t("workbook.showTranslation"), systemImage: "character.bubble")
+                        .font(DS.text(15, .semibold)).foregroundColor(DS.ink)
+                    Spacer()
+                    Image(systemName: "chevron.down")
+                        .font(.caption.weight(.bold)).foregroundColor(DS.muted)
+                        .rotationEffect(.degrees(showTranslation ? 180 : 0))
+                }
+            }
+            .buttonStyle(.plain)
+            if showTranslation {
+                Text(text.trans.text).font(.callout).foregroundColor(DS.muted).fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .padding(14)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+    }
+
+    private func playAll(_ text: A1Text) {
+        stop()
+        playing = true
+        ended = false
+        A1Speaker.shared.play(text.de.map { A1Line(s: -1, t: $0) }, slow: slow) { line in
+            current = line
+            if line == nil {
+                ended = true
+                endedAt = Date()
+            }
+        }
+    }
+
+    private func stop() {
+        A1Speaker.shared.stop()
+        playing = false
+        current = nil
+        ended = false
     }
 }
 

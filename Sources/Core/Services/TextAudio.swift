@@ -321,7 +321,9 @@ final class WordAudio {
 
     /// Plays recorded lines one after the other (0.5 s between lines, 2 s between rounds, like the iPhone voice did).
     /// Returns false when one of the lines has no recording; `fallback` runs when a download fails.
-    func play(lines: [A1Line], slow: Bool, times: Int, fallback: @escaping () -> Void) -> Bool {
+    /// `onLine` gets the index of the line that starts, and nil when the last one has finished.
+    func play(lines: [A1Line], slow: Bool, times: Int, onLine: ((Int?) -> Void)? = nil,
+              fallback: @escaping () -> Void) -> Bool {
         load()
         let hashes = lines.compactMap { items[Self.lineKey($0)] }
         guard !lines.isEmpty, hashes.count == lines.count else { return false }
@@ -347,26 +349,37 @@ final class WordAudio {
                 fallback()
                 return
             }
-            var queue: [(url: URL, gap: Double)] = []
+            var queue: [QueuedLine] = []
             let rounds = max(1, times)
             for round in 0..<rounds {
                 for (index, hash) in hashes.enumerated() {
                     let last = index == hashes.count - 1
                     let gap: Double = last ? (round < rounds - 1 ? 2.0 : 0) : 0.5
-                    queue.append((url: Self.local(hash), gap: gap))
+                    queue.append(QueuedLine(url: Self.local(hash), gap: gap, index: index))
                 }
             }
-            self.playNext(queue, slow: slow, token: token)
+            self.playNext(queue, slow: slow, token: token, onLine: onLine)
         }
         return true
     }
 
-    private func playNext(_ queue: [(url: URL, gap: Double)], slow: Bool, token: Int) {
-        guard sequence == token, let first = queue.first else { return }
+    private struct QueuedLine {
+        let url: URL
+        let gap: Double
+        let index: Int
+    }
+
+    private func playNext(_ queue: [QueuedLine], slow: Bool, token: Int, onLine: ((Int?) -> Void)?) {
+        guard sequence == token else { return }
+        guard let first = queue.first else {
+            onLine?(nil)
+            return
+        }
+        onLine?(first.index)
         start(first.url, slow: slow)
         let length = (player?.duration ?? 0) / (slow ? 0.7 : 1)
         DispatchQueue.main.asyncAfter(deadline: .now() + length + first.gap) { [weak self] in
-            self?.playNext(Array(queue.dropFirst()), slow: slow, token: token)
+            self?.playNext(Array(queue.dropFirst()), slow: slow, token: token, onLine: onLine)
         }
     }
 

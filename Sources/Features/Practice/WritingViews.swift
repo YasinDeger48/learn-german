@@ -308,6 +308,7 @@ struct WritingMessageView: View {
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(task.title.text)
         .navigationBarTitleDisplayMode(.inline)
+        .onDisappear { A1Speaker.shared.stop() }  // the sample text must not go on reading on the next page
         .toolbar {
             ToolbarItemGroup(placement: .keyboard) {
                 Spacer()
