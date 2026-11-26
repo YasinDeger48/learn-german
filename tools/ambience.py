@@ -1,6 +1,7 @@
-"""Background sounds (Ortam sesi) for the daily texts: a bus, a café, an office… played softly under the voice.
+"""Background sounds (Ortam sesi) for the daily texts and path stories: a bus, a café, an office… played softly under the voice.
 
     python -I -X utf8 tools/ambience.py assign     which sound each text gets (no key needed), prints a summary
+    python -I -X utf8 tools/ambience.py write      writes ambience.json with the sounds already made (no download)
     python -I -X utf8 tools/ambience.py sounds     downloads CC0 recordings from Freesound and makes the loops
 
 Output in ../deschly-site/audio/:
@@ -45,22 +46,32 @@ TAGGED = {'rain'}
 OVERRIDES = {'a1-001': 'street'}
 
 
+def all_texts():
+    """The daily texts and the path stories of every level."""
+    out = []
+    for level in ['a1', 'a2', 'b1', 'b2']:
+        for name in (f'daily_{level}.json', f'stories_{level}.json'):
+            path = os.path.join(REPO, 'Resources', 'content', name)
+            if os.path.exists(path):
+                out += json.load(open(path, encoding='utf-8'))['texts']
+    return out
+
+
 def assign():
     texts = {}
     counts = {k: 0 for k in KINDS}
-    for level in ['a1', 'a2', 'b1', 'b2']:
-        for t in json.load(open(os.path.join(REPO, 'Resources', 'content', f'daily_{level}.json'), encoding='utf-8'))['texts']:
-            words = re.findall(r'[\wäöüß-]+', (t['title'] + ' ' + ' '.join(t['paragraphs'])).lower())
-            score = {k: sum(1 for w in words for s in stems if w.startswith(s)) for k, (_, stems) in KINDS.items()}
-            best = max(score, key=score.get)
-            if t['id'] in OVERRIDES:
-                best = OVERRIDES[t['id']]
-            elif score[best] < MIN_HITS:
-                continue
-            texts[t['id']] = best
-            counts[best] += 1
-    total = sum(len(json.load(open(os.path.join(REPO, 'Resources', 'content', f'daily_{lv}.json'), encoding='utf-8'))['texts'])
-                for lv in ['a1', 'a2', 'b1', 'b2'])
+    every = all_texts()
+    for t in every:
+        words = re.findall(r'[\wäöüß-]+', (t['title'] + ' ' + ' '.join(t['paragraphs'])).lower())
+        score = {k: sum(1 for w in words for s in stems if w.startswith(s)) for k, (_, stems) in KINDS.items()}
+        best = max(score, key=score.get)
+        if t['id'] in OVERRIDES:
+            best = OVERRIDES[t['id']]
+        elif score[best] < MIN_HITS:
+            continue
+        texts[t['id']] = best
+        counts[best] += 1
+    total = len(every)
     print(f'{len(texts)}/{total} texts get a background sound: ' + ', '.join(f'{k} {n}' for k, n in counts.items()))
     return texts
 
@@ -138,5 +149,7 @@ if __name__ == '__main__':
     command = sys.argv[1] if len(sys.argv) > 1 else 'assign'
     if command == 'assign':
         assign()
+    elif command == 'write':  # new texts or stories: rewrite ambience.json with the sounds already made
+        write_json(assign(), {})
     elif command == 'sounds':
         sounds()

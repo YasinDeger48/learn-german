@@ -16,7 +16,6 @@ import base64
 import hashlib
 import json
 import os
-import re
 import shutil
 import subprocess
 import sys
@@ -50,7 +49,6 @@ def spoken(text):
 
 # Dialogues ("Lina: Hallo!"): every speaker has an own voice and the name is not read.
 # Same rules as Dialogue in Sources/Core/Services/Speech.swift.
-LABEL = re.compile(r'^([A-ZÄÖÜ][a-zäöüß]+(?: [A-ZÄÖÜ][a-zäöüß]+)?):\s+(\S.*)$')
 NOT_A_NAME = {'Der', 'Die', 'Das', 'Ein', 'Eine', 'Sie', 'Er', 'Es', 'Ich', 'Wir', 'Aber', 'Und', 'Dann'}
 MALE = {'Tom', 'Max', 'Ben', 'Paul', 'Jan', 'Lukas', 'Felix', 'Leon', 'David', 'Ali', 'Mehmet', 'Ahmet', 'Murat',
         'Emre', 'Peter', 'Thomas', 'Michael', 'Stefan', 'Jonas', 'Mann', 'Kellner', 'Arzt', 'Lehrer', 'Verkäufer',
@@ -61,12 +59,19 @@ FIXED = {'Lina': FEMALE_POOL[0], 'Elif': FEMALE_POOL[1]}  # the two heroines of 
 GAP = 0.45  # seconds of silence between two lines
 
 
+def is_name(name):
+    """1–2 words, each a capital letter and then small letters only (Frau Çelik, Lina); no dots or digits."""
+    parts = name.split(' ')
+    return (1 <= len(parts) <= 2 and parts[0] not in NOT_A_NAME and
+            all(len(p) > 1 and p[0].isupper() and all(c.islower() for c in p[1:]) for p in parts))
+
+
 def speaker(paragraph):
     """(name, words) when the paragraph is a dialogue line, else None."""
-    match = LABEL.match(paragraph.strip())
-    if not match or match.group(1).split()[0] in NOT_A_NAME:
+    name, colon, words = paragraph.strip().partition(': ')
+    if not colon or not words.strip() or not is_name(name):
         return None
-    return match.group(1), match.group(2)
+    return name, words.strip()
 
 
 def is_male(name):
@@ -93,6 +98,84 @@ def dialogue_plan(text, narrator):
     for paragraph, x in zip(text['paragraphs'], lines):
         plan.append((voices[x[0]], x[1]) if x else (narrator, paragraph))
     return plan
+
+
+# Phone calls and voicemail (tools/phone.py -> phone_<level>.json): the other side sounds like a phone line, with the
+# background of its place (audio/ambience/<kind>.m4a) behind it; Elif's side is clear. One file serves both voices.
+PHONE_LINE = 'highpass=f=300,lowpass=f=3400,acompressor=threshold=0.125:ratio=3:attack=5:release=50,volume=1.6'
+PHONE_BED = 'highpass=f=300,lowpass=f=3400,volume=0.2'
+PHONE_GAP = 0.35
+FORMAT = 'aformat=sample_fmts=fltp:sample_rates=24000:channel_layouts=mono'
+# Made with ffmpeg, no files: German ringback tone (425 Hz, Elif calls), a ringing phone (Elif is called) and the
+# pickup click, the voicemail beep. (expression, seconds)
+INTROS = {
+    'out': ("0.22*sin(2*PI*425*t)*lt(mod(t,2.5),1)*lt(t,3.5)+0.35*between(t,4.05,4.08)*(random(0)-0.5)", 4.3),
+    'in': ("0.12*(sin(2*PI*1000*t)+sin(2*PI*1250*t))*lt(mod(t,0.25),0.12)*lt(mod(t,1.6),0.9)*lt(t,2.5)"
+           "+0.35*between(t,2.9,2.93)*(random(0)-0.5)", 3.2),
+    'message': ("0.25*sin(2*PI*1000*t)*lt(t,0.45)", 0.8),
+}
+NEAR = 'Elif'
+
+
+def phone_plan(item):
+    """(intro, [(voice, words, far)]) for a call or a voicemail message."""
+    voices = {NEAR: FIXED[NEAR]}
+    for line in item['lines']:
+        name = line['who'].strip()
+        if name in voices:
+            continue
+        pool = MALE_POOL if is_male(name) else FEMALE_POOL
+        voices[name] = FIXED.get(name) or next(v for v in pool if v not in voices.values())
+    lines = [(voices[l['who'].strip()], l['de'].strip(), l['who'].strip() != NEAR) for l in item['lines']]
+    if item['kind'] == 'message':
+        return 'message', lines
+    return ('in' if not lines[0][2] else 'out'), lines  # Elif speaks first: her phone rang
+
+
+def render_phone(item, intro, lines, recorded, path):
+    tool = audio_pad.ffmpeg()
+    folder = tempfile.mkdtemp()
+    try:
+        expression, seconds = INTROS[intro]
+        inputs = ['-f', 'lavfi', '-i', f"aevalsrc=exprs='{expression}':s=24000:d={seconds}"]
+        chains = [f'[0:a]{FORMAT}[i]']
+        for n, (voice, words, far) in enumerate(lines, 1):
+            part = os.path.join(folder, f'{n}.mp3')
+            open(part, 'wb').write(recorded[(voice, words)])
+            inputs += ['-i', part]
+            chains.append(f'[{n}:a]aresample=24000,{FORMAT},' + (PHONE_LINE + ',' if far else '') + f'apad=pad_dur={PHONE_GAP}[s{n}]')
+        chains.append('[i]' + ''.join(f'[s{n}]' for n in range(1, len(lines) + 1)) + f'concat=n={len(lines) + 1}:v=0:a=1[v]')
+        bed = os.path.join(SITE_AUDIO, 'ambience', f"{item.get('place')}.m4a")
+        if item.get('place') and os.path.exists(bed):
+            b = len(lines) + 1
+            inputs += ['-stream_loop', '-1', '-i', bed]
+            chains.append(f'[{b}:a]aresample=24000,{FORMAT},{PHONE_BED},adelay={int(seconds * 1000)}:all=1[bed]')
+            chains.append('[v][bed]amix=inputs=2:duration=first:normalize=0[out]')
+        else:
+            chains.append('[v]anull[out]')
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        subprocess.run([tool, '-y', '-loglevel', 'error', *inputs, '-filter_complex', ';'.join(chains), '-map', '[out]',
+                        '-ac', '1', '-ar', '24000', '-c:a', 'libmp3lame', '-b:a', '64k', path], check=True)
+    finally:
+        shutil.rmtree(folder, ignore_errors=True)
+
+
+def phone_jobs(level, index):
+    """[(text id, plan, digest, [paths])] for the phone items of a level that are new or changed."""
+    source = os.path.join(REPO, 'Resources', 'content', f'phone_{level}.json')
+    if not os.path.exists(source):
+        return []
+    out = []
+    for item in json.load(open(source, encoding='utf-8'))['items']:
+        text_id = 't-' + item['id']
+        intro, lines = phone_plan(item)
+        digest = hashlib.sha256(json.dumps([intro, item.get('place'), lines, PHONE_LINE, PHONE_BED], ensure_ascii=False)
+                                .encode('utf-8')).hexdigest()[:16]
+        paths = [os.path.join(SITE_AUDIO, short, f'{text_id}.mp3') for short in VOICES]
+        if all(index.get(text_id, {}).get(short) == digest and os.path.exists(p) for short, p in zip(VOICES, paths)):
+            continue
+        out.append((text_id, item, intro, lines, digest, paths))
+    return out
 
 
 def join(parts, path):
@@ -152,11 +235,15 @@ def main():
                     continue
                 jobs.append((text['id'], short, content, plan, digest, path))
 
+    calls = [job for level in levels for job in phone_jobs(level, index)]
+
     # Dialogue lines in the same voice are recorded once for both versions.
     pieces = {(VOICES[j[1]], j[2]) for j in jobs if j[3] is None} | {piece for j in jobs if j[3] for piece in j[3]}
+    pieces |= {(voice, words) for call in calls for voice, words, _ in call[3]}
     total = sum(len(words) for _, words in pieces)
-    print(f'{len(jobs)} files to make ({sum(1 for j in jobs if j[3])} dialogues), {total:,} characters (limit {max_chars:,})')
-    if dry or not jobs:
+    print(f'{len(jobs)} files to make ({sum(1 for j in jobs if j[3])} dialogues) and {len(calls)} phone calls, '
+          f'{total:,} characters (limit {max_chars:,})')
+    if dry or not (jobs or calls):
         return
     if total > max_chars:
         sys.exit('Over the limit: run fewer levels or pass --max-chars=N')
@@ -188,6 +275,23 @@ def main():
         if made % 10 == 0:
             print(f'  {made}/{len(jobs)}')
             json.dump(index, open(index_path, 'w', encoding='utf-8'), indent=1, sort_keys=True)
+    for text_id, item, intro, lines, digest, paths in calls:
+        try:
+            for voice, words, _ in lines:
+                if (voice, words) not in recorded:
+                    recorded[(voice, words)] = synthesize(key, voice, words)
+        except urllib.error.HTTPError as e:
+            print(f'  {text_id}: error {e.code} {e.read()[:160]!r}')
+            continue
+        render_phone(item, intro, lines, recorded, paths[0])
+        audio_pad.pad(paths[0])
+        for other in paths[1:]:  # the same call for both voice choices
+            os.makedirs(os.path.dirname(other), exist_ok=True)
+            shutil.copyfile(paths[0], other)
+        audio_pad.mark(paths)
+        for short in VOICES:
+            index.setdefault(text_id, {})[short] = digest
+        made += 1
     json.dump(index, open(index_path, 'w', encoding='utf-8'), indent=1, sort_keys=True)
     size = sum(os.path.getsize(os.path.join(dp, f)) for dp, _, fs in os.walk(SITE_AUDIO) for f in fs if f.endswith('.mp3'))
     print(f'made {made} files; audio folder {size / 1e6:.1f} MB')

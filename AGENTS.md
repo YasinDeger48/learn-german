@@ -54,6 +54,7 @@ The owner talks to agents in Turkish: answer him in Turkish. Code, comments, com
 | Broken umlauts (`w??rde`) in content | `tools/fix_broken_text.py` |
 | `memorize.json` (Mutlaka bil) | `tools/memorize.py` |
 | `verbs_<level>.json` (verb lab) | `tools/verblab.py` |
+| `phone_<level>.json` (Telefonda: calls, voicemail; phone sound made by `tools/audio.py`) | `tools/phone.py` |
 | Reading / word audio, background sounds | `tools/audio.py`, `tools/word_audio.py`, `tools/audio_pad.py`, `tools/ambience.py` |
 
 ## Content jobs list (Codex)
@@ -72,7 +73,7 @@ The owner says "ChatGPT" for Codex. The jobs Codex does for the content (picture
 - **Complete answers only:** a verb request with 15 verbs needs all 15 in the answer (cevap_04 and cevap_06 were cut
   off after 5). If an answer gets long, split it (`A1_fiil_cevap_07a.txt`, `…07b.txt`) rather than stopping halfway.
 - Pictures: follow the STYLE paragraph of the prompt file; save under the exact name it gives.
-- Do not import answers or change `Resources/`: Claude imports them (`tools/verblab.py`, `tools/stories.py`,
+- Do not import answers or change `Resources/`: Claude imports them (`tools/verblab.py`, `tools/stories.py`, `tools/phone.py`,
   `tools/word_pictures.py`, `tools/vocab_pictures.py`), then removes the finished job from the list.
 - When a job is done, write one line under it: `Durum: [HAZIR] <what is ready>`; do not delete or reorder the list.
 

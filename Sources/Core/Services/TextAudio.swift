@@ -165,7 +165,8 @@ final class AmbiencePlayer: ObservableObject {
     private static let enabledKey = "ambienceOn"
     private static let volume: Float = 0.22
 
-    @Published var enabled: Bool = UserDefaults.standard.bool(forKey: AmbiencePlayer.enabledKey) {
+    /// On by default (owner's choice 2026-11-26); the learner can turn it off on the reading screen.
+    @Published var enabled: Bool = UserDefaults.standard.object(forKey: AmbiencePlayer.enabledKey) as? Bool ?? true {
         didSet { UserDefaults.standard.set(enabled, forKey: Self.enabledKey) }
     }
     /// Text id → kind ("bus", "cafe", …).

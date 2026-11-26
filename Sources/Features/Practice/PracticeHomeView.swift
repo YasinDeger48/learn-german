@@ -21,6 +21,7 @@ enum A1Route: Hashable {
     case speaking
     case speakRepeat
     case speakTask(String)
+    case phone
 }
 
 /// Every practice screen, reachable from any tab's NavigationStack.
@@ -70,6 +71,8 @@ struct A1Destination: View {
             SpeakRepeatView()
         case .speakTask(let id):
             if let task = SpeakingBank.task(id) { SpeakTaskView(task: task) }
+        case .phone:
+            PhoneCallsView(level: model.level)
         }
     }
 }
@@ -95,6 +98,7 @@ struct PracticeHomeView: View {
     @EnvironmentObject private var model: A1Model
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var pro: ProStore
+    @EnvironmentObject private var daily: DailyModel
     @State private var showPaywall = false
     private var isA1: Bool { model.level == "A1" }
 
@@ -310,6 +314,11 @@ struct PracticeHomeView: View {
             if !(model.content?.texts.isEmpty ?? true) {
                 Divider().padding(.leading, 52)
                 row(.texts, "doc.richtext.fill", .cyan, t("practice.texts", model.content?.texts.count ?? 0), nil)
+            }
+            let calls = PhoneBank.texts(model.level)
+            if !calls.isEmpty {
+                Divider().padding(.leading, 52)
+                row(.phone, "phone.fill", .green, t("phone.title"), "\(calls.filter { daily.isCompleted($0) }.count)/\(calls.count)")
             }
             if isA1 {
                 Divider().padding(.leading, 52)
