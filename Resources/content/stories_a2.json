@@ -1,0 +1,4258 @@
+{
+ "stories": [
+  {
+   "id": "a2-01-1",
+   "unit": "a2-01",
+   "kind": "dialog",
+   "title": "Ein Montag im Buchladen",
+   "title_tr": "Kitapçıda bir pazartesi",
+   "title_en": "A Monday at the bookshop",
+   "lines": [
+    {
+     "who": "Lina",
+     "de": "Was hast du am Wochenende gemacht?",
+     "tr": "Hafta sonu ne yaptın?",
+     "en": "What did you do at the weekend?"
+    },
+    {
+     "who": "Elif",
+     "de": "Am Samstag bin ich mit Tom zum Flohmarkt gefahren.",
+     "tr": "Cumartesi Tom’la bit pazarına gittim.",
+     "en": "On Saturday I went to the flea market with Tom."
+    },
+    {
+     "who": "Lina",
+     "de": "Habt ihr dort etwas Schönes gefunden?",
+     "tr": "Orada güzel bir şey buldunuz mu?",
+     "en": "Did you find anything nice there?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, Tom kaufte eine Zeichnung für seine Mutter.",
+     "tr": "Evet, Tom annesi için bir çizim aldı.",
+     "en": "Yes, Tom bought a drawing for his mother."
+    },
+    {
+     "who": "Elif",
+     "de": "Danach habe ich an einem Gemüsestand frische Erdbeeren gekauft.",
+     "tr": "Sonra bir sebze tezgâhından taze çilek aldım.",
+     "en": "After that I bought fresh strawberries at a vegetable stall."
+    },
+    {
+     "who": "Lina",
+     "de": "Und was machst du heute im Buchladen?",
+     "tr": "Peki bugün kitapçıda ne yapıyorsun?",
+     "en": "And what are you doing at the bookshop today?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ich stehe um sieben Uhr auf und fahre mit der Bahn.",
+     "tr": "Saat yedide kalkıp trenle gidiyorum.",
+     "en": "I get up at seven and take the train."
+    },
+    {
+     "who": "Elif",
+     "de": "Nach der Arbeit kaufe ich noch schnell Brot ein.",
+     "tr": "İşten sonra hızlıca ekmek alıyorum.",
+     "en": "After work, I quickly buy some bread."
+    },
+    {
+     "who": "Lina",
+     "de": "Räumst du am Abend die Küche auf?",
+     "tr": "Akşam mutfağı topluyor musun?",
+     "en": "Are you tidying the kitchen this evening?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, aber zuerst muss die Kuchenglasur abkühlen.",
+     "tr": "Evet ama önce kekin üzerindeki şekerleme soğumalı.",
+     "en": "Yes, but first the cake icing has to cool."
+    },
+    {
+     "who": "Lina",
+     "de": "Dann bringe ich Tee mit. Bis später!",
+     "tr": "O zaman çay getiririm. Sonra görüşürüz!",
+     "en": "Then I'll bring tea. See you later!"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin fuhr Elif am Samstag?",
+     "options": [
+      "Zum Flohmarkt.",
+      "Zum Bahnhof.",
+      "Zum Büro."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was kaufte Elif am Gemüsestand?",
+     "options": [
+      "Äpfel.",
+      "Erdbeeren.",
+      "Brot."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Tom kaufte eine Zeichnung für seine Mutter.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif steht normalerweise um neun Uhr auf.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-01-2",
+   "unit": "a2-01",
+   "kind": "story",
+   "title": "Ein voller Alltag",
+   "title_tr": "Yoğun bir günlük hayat",
+   "title_en": "A busy daily routine",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif lebt seit einem Jahr in Köln und arbeitet halbtags in einer Buchhandlung.",
+     "tr": "Elif bir yıldır Köln’de yaşıyor ve bir kitapçıda yarı zamanlı çalışıyor.",
+     "en": "Elif has lived in Cologne for a year and works part-time in a bookshop."
+    },
+    {
+     "who": "",
+     "de": "Am Samstag lief sie mit Lina durch die Altstadt und entdeckte einen Flohmarkt.",
+     "tr": "Cumartesi Lina’yla eski şehirde yürüdü ve küçük bir bit pazarı keşfetti.",
+     "en": "On Saturday she walked through the old town with Lina and discovered a small flea market."
+    },
+    {
+     "who": "",
+     "de": "Dort kaufte Lina eine blaue Leine, denn ihr Anhänger war zu Hause liegen geblieben.",
+     "tr": "Lina orada mavi bir tasma aldı çünkü rozeti evde kalmıştı.",
+     "en": "Lina bought a blue lead there because her tag had been left at home."
+    },
+    {
+     "who": "",
+     "de": "Am Sonntag besuchten sie Frau Schmidt und halfen ihrem Enkel beim Zeichnen.",
+     "tr": "Pazar günü Frau Schmidt’i ziyaret edip torununa resim çizmesinde yardım ettiler.",
+     "en": "On Sunday they visited Ms Schmidt and helped her grandson draw."
+    },
+    {
+     "who": "",
+     "de": "Heute steht Elif früh auf, macht Kaffee und öffnet das Fenster im Schlafzimmer.",
+     "tr": "Bugün Elif erken kalkıyor, kahve yapıyor ve yatak odasının penceresini açıyor.",
+     "en": "Today Elif gets up early, makes coffee, and opens the bedroom window."
+    },
+    {
+     "who": "",
+     "de": "Vor der Arbeit kauft sie Brot ein und hängt ihre Jacke an die Klingel.",
+     "tr": "İşten önce ekmek alıyor ve ceketini zilin yanındaki askıya asıyor.",
+     "en": "Before work she buys bread and hangs her jacket beside the doorbell."
+    },
+    {
+     "who": "",
+     "de": "Im Laden berät sie Kunden und schneidet Geschenkband vorsichtig ab.",
+     "tr": "Dükkânda müşterilere yardım edip hediye kurdelesini dikkatlice kesiyor.",
+     "en": "At the shop she advises customers and carefully cuts the gift ribbon."
+    },
+    {
+     "who": "",
+     "de": "Am Abend räumt sie die Küche auf und stellt Erdbeeren auf das Fensterbrett.",
+     "tr": "Akşam mutfağı topluyor ve çilekleri pencere pervazına koyuyor.",
+     "en": "In the evening she tidies the kitchen and puts strawberries on the windowsill."
+    },
+    {
+     "who": "",
+     "de": "Lina kommt vorbei, und beide trinken Tee, während die Glasur abkühlt.",
+     "tr": "Lina uğruyor, şekerleme soğurken ikisi çay içiyor.",
+     "en": "Lina visits, and they drink tea while the icing cools."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo arbeitet Elif?",
+     "options": [
+      "In einer Buchhandlung.",
+      "In einer Bäckerei.",
+      "In einer Praxis."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was schneidet Elif im Laden ab?",
+     "options": [
+      "Ein Stück Brot.",
+      "Geschenkband.",
+      "Eine Leine."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif lebt seit einem Jahr in Köln.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina kaufte am Flohmarkt eine rote Jacke.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-02-1",
+   "unit": "a2-02",
+   "kind": "dialog",
+   "title": "Ein ruhiger Abend",
+   "title_tr": "Sakin bir akşam",
+   "title_en": "A quiet evening",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Herr Brandt, Ihre Musik ist nachts sehr laut.",
+     "tr": "Herr Brandt, müziğiniz geceleri çok yüksek.",
+     "en": "Mr Brandt, your music is very loud at night."
+    },
+    {
+     "who": "Herr Brandt",
+     "de": "Oh, das wusste ich nicht. Entschuldigung!",
+     "tr": "Aa, bunu bilmiyordum. Özür dilerim!",
+     "en": "Oh, I didn't know that. I'm sorry!"
+    },
+    {
+     "who": "Elif",
+     "de": "Können Sie bitte nach zehn Uhr leiser sein?",
+     "tr": "Saat ondan sonra biraz daha sessiz olabilir misiniz?",
+     "en": "Could you please be quieter after ten?"
+    },
+    {
+     "who": "Herr Brandt",
+     "de": "Natürlich. Ich höre heute mit Kopfhörern.",
+     "tr": "Elbette. Bugün kulaklıkla dinlerim.",
+     "en": "Of course. I'll listen with headphones today."
+    },
+    {
+     "who": "Elif",
+     "de": "Danke. Unsere Nachbarn sind sonst sehr nett.",
+     "tr": "Teşekkürler. Diğer komşularımız çok iyi.",
+     "en": "Thank you. Our other neighbors are very nice."
+    },
+    {
+     "who": "Frau Schmidt",
+     "de": "Elif, kannst du mir beim Umzug helfen?",
+     "tr": "Elif, taşınmama yardım eder misin?",
+     "en": "Elif, can you help me move?"
+    },
+    {
+     "who": "Elif",
+     "de": "Gern. Wohin soll der Karton?",
+     "tr": "Tabii. Kutuyu nereye koyayım?",
+     "en": "Gladly. Where should the box go?"
+    },
+    {
+     "who": "Frau Schmidt",
+     "de": "Stell ihn bitte neben das Sofa.",
+     "tr": "Lütfen onu kanepenin yanına koy.",
+     "en": "Please put it next to the sofa."
+    },
+    {
+     "who": "Elif",
+     "de": "Und die Kissen lege ich auf die Bank im Hof.",
+     "tr": "Yastıkları avludaki banka koyuyorum.",
+     "en": "And I'll put the cushions on the bench in the courtyard."
+    },
+    {
+     "who": "Frau Schmidt",
+     "de": "Danke! Der Kinderwagen steht schon im Treppenhaus.",
+     "tr": "Teşekkürler! Bebek arabası zaten merdiven boşluğunda.",
+     "en": "Thanks! The pram is already in the stairwell."
+    },
+    {
+     "who": "Elif",
+     "de": "Dann falte ich das Band zusammen und komme gleich.",
+     "tr": "O zaman kurdeleyi katlayıp hemen geliyorum.",
+     "en": "Then I'll fold the ribbon and come right over."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann soll Herr Brandt leiser sein?",
+     "options": [
+      "Nach zehn Uhr.",
+      "Vor acht Uhr.",
+      "Am Morgen."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wohin stellt Elif den Karton?",
+     "options": [
+      "Neben das Sofa.",
+      "In den Hof.",
+      "Ins Treppenhaus."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Herr Brandt hört danach mit Kopfhörern.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Kinderwagen steht in der Küche.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-02-2",
+   "unit": "a2-02",
+   "kind": "story",
+   "title": "Hilfe im Treppenhaus",
+   "title_tr": "Merdiven boşluğunda yardım",
+   "title_en": "Help in the stairwell",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif hat am Samstag frei und hört im Hof laute Musik.",
+     "tr": "Elif cumartesi izinli ve avluda yüksek müzik duyuyor.",
+     "en": "Elif has Saturday off and hears loud music in the courtyard."
+    },
+    {
+     "who": "",
+     "de": "Herr Brandt sitzt am Fenster und singt aus Spaß mit.",
+     "tr": "Herr Brandt pencerede oturuyor ve eğlencesine eşlik ediyor.",
+     "en": "Mr Brandt sits by the window and sings along for fun."
+    },
+    {
+     "who": "",
+     "de": "Elif klingelt freundlich und bittet ihn, nachts leiser zu sein.",
+     "tr": "Elif nazikçe zili çalıp geceleri daha sessiz olmasını rica ediyor.",
+     "en": "Elif rings politely and asks him to be quieter at night."
+    },
+    {
+     "who": "",
+     "de": "Er entschuldigt sich und verspricht, die Musik abends auszumachen.",
+     "tr": "Özür diliyor ve akşamları müziği kapatacağına söz veriyor.",
+     "en": "He apologizes and promises to turn off the music in the evening."
+    },
+    {
+     "who": "",
+     "de": "Danach hilft Elif Frau Schmidt, die neue Wohnung einzurichten.",
+     "tr": "Sonra Elif, Frau Schmidt’e yeni dairesini yerleştirmesinde yardım ediyor.",
+     "en": "Afterwards Elif helps Ms Schmidt set up her new apartment."
+    },
+    {
+     "who": "",
+     "de": "Ein Karton steht noch im Treppenhaus, und die Bank ist sehr eng.",
+     "tr": "Bir kutu hâlâ merdiven boşluğunda ve bank çok dar.",
+     "en": "A box is still in the stairwell, and the bench is very narrow."
+    },
+    {
+     "who": "",
+     "de": "Sie stellen den Tisch ans Fenster und legen Kissen auf das Sofa.",
+     "tr": "Masayı pencerenin önüne koyup yastıkları kanepenin üzerine yerleştiriyorlar.",
+     "en": "They put the table by the window and place cushions on the sofa."
+    },
+    {
+     "who": "",
+     "de": "Frau Schmidt hängt den Mantel an einen Haken im Flur.",
+     "tr": "Frau Schmidt paltoyu koridordaki bir kancaya asıyor.",
+     "en": "Ms Schmidt hangs her coat on a hook in the hallway."
+    },
+    {
+     "who": "",
+     "de": "Am Abend sind alle müde, aber die Nachbarn verstehen sich gut. Sie planen schon ein gemeinsames Essen für nächste Woche.",
+     "tr": "Akşam herkes yorgun ama komşular iyi anlaşıyor. Gelecek hafta birlikte yemek yemeyi şimdiden planlıyorlar.",
+     "en": "In the evening everyone is tired, but the neighbors get along well. They are already planning a meal together for next week."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo hängt Frau Schmidt den Mantel auf?",
+     "options": [
+      "An einem Haken im Flur.",
+      "Über dem Sofa.",
+      "Im Treppenhaus."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was stellen sie ans Fenster?",
+     "options": [
+      "Das Bett.",
+      "Den Tisch.",
+      "Die Bank."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif bittet Herr Brandt höflich um Ruhe.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Bank im Treppenhaus ist sehr breit.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-03-1",
+   "unit": "a2-03",
+   "kind": "dialog",
+   "title": "Die falsche Jacke",
+   "title_tr": "Yanlış ceket",
+   "title_en": "The wrong jacket",
+   "lines": [
+    {
+     "who": "Lina",
+     "de": "Ist das die Jacke, die du online bestellt hast?",
+     "tr": "Bu internetten sipariş ettiğin ceket mi?",
+     "en": "Is that the jacket you ordered online?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, aber sie ist dunkelblau. Ich wollte eine rote Jacke.",
+     "tr": "Evet ama koyu mavi. Kırmızı bir ceket istemiştim.",
+     "en": "Yes, but it's dark blue. I wanted a red jacket."
+    },
+    {
+     "who": "Lina",
+     "de": "Hast du den Kassenbon in der Verpackung gefunden?",
+     "tr": "Fişi paketin içinde buldun mu?",
+     "en": "Did you find the receipt in the package?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, ich nehme die Jacke und den Bon mit.",
+     "tr": "Evet, ceketi ve fişi yanıma alıyorum.",
+     "en": "Yes, I'll take the jacket and receipt with me."
+    },
+    {
+     "who": "Verkäufer",
+     "de": "Guten Tag. Haben Sie die Jacke bei uns gekauft?",
+     "tr": "İyi günler. Ceketi bizden mi aldınız?",
+     "en": "Hello. Did you buy the jacket here?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja. Kann ich das umtauschen? Die Farbe ist leider falsch.",
+     "tr": "Evet. Bunu değiştirebilir miyim? Rengi maalesef yanlış.",
+     "en": "Yes. Can I exchange it? The color is unfortunately wrong."
+    },
+    {
+     "who": "Verkäufer",
+     "de": "Haben Sie den Kassenbon noch?",
+     "tr": "Fişiniz duruyor mu?",
+     "en": "Do you still have the receipt?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, hier ist er. Ich suche außerdem einen warmen Pullover.",
+     "tr": "Evet, burada. Ayrıca sıcak bir kazak arıyorum.",
+     "en": "Yes, here it is. I'm also looking for a warm sweater."
+    },
+    {
+     "who": "Verkäufer",
+     "de": "Wir haben einen hellbraunen Pullover. Er kostet dreißig Euro.",
+     "tr": "Açık kahverengi bir kazağımız var. Otuz avro.",
+     "en": "We have a light brown sweater. It costs thirty euros."
+    },
+    {
+     "who": "Elif",
+     "de": "Der passt gut. Ich nehme ihn und die rote Jacke.",
+     "tr": "Güzel oldu. Kazağı ve kırmızı ceketi alıyorum.",
+     "en": "It fits well. I'll take it and the red jacket."
+    },
+    {
+     "who": "Lina",
+     "de": "Das war ein guter Tausch. Gehen wir jetzt nach Hause?",
+     "tr": "İyi bir değiş tokuş oldu. Şimdi eve gidelim mi?",
+     "en": "That was a good exchange. Shall we go home now?"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Welche Farbe hatte die bestellte Jacke?",
+     "options": [
+      "Rot.",
+      "Dunkelblau.",
+      "Hellbraun."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was nimmt Elif zusätzlich?",
+     "options": [
+      "Einen warmen Pullover.",
+      "Eine Tasche.",
+      "Ein Kilo Erdbeeren."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat den Kassenbon dabei.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Pullover kostet zwanzig Euro.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-03-2",
+   "unit": "a2-03",
+   "kind": "story",
+   "title": "Ein warmer Pullover",
+   "title_tr": "Sıcak bir kazak",
+   "title_en": "A warm sweater",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif bestellte letzte Woche online eine rote Jacke für den Herbst.",
+     "tr": "Elif geçen hafta sonbahar için internetten kırmızı bir ceket sipariş etti.",
+     "en": "Last week Elif ordered a red jacket online for autumn."
+    },
+    {
+     "who": "",
+     "de": "Als das Paket kam, war die Jacke dunkelblau und die Verpackung beschädigt.",
+     "tr": "Paket geldiğinde ceket koyu maviydi ve ambalaj hasarlıydı.",
+     "en": "When the parcel arrived, the jacket was dark blue and the packaging was damaged."
+    },
+    {
+     "who": "",
+     "de": "Zum Glück hatte Elif den Kassenbon noch in ihrer E-Mail.",
+     "tr": "Neyse ki Elif’in fişi e-postasında duruyordu.",
+     "en": "Luckily, Elif still had the receipt in her email."
+    },
+    {
+     "who": "",
+     "de": "Sie fuhr mit der Bahn zum Geschäft und erklärte das Problem.",
+     "tr": "Trenle mağazaya gidip sorunu anlattı.",
+     "en": "She took the train to the shop and explained the problem."
+    },
+    {
+     "who": "",
+     "de": "Die Verkäuferin tauschte die blaue Jacke kostenlos gegen eine rote.",
+     "tr": "Satış görevlisi mavi ceketi ücretsiz olarak kırmızıyla değiştirdi.",
+     "en": "The sales assistant exchanged the blue jacket for a red one free of charge."
+    },
+    {
+     "who": "",
+     "de": "Elif suchte außerdem einen warmen Pullover für kalte Tage.",
+     "tr": "Elif soğuk günler için sıcak bir kazak da aradı.",
+     "en": "Elif also looked for a warm sweater for cold days."
+    },
+    {
+     "who": "",
+     "de": "Sie probierte einen hellbraunen Pullover an und sah in den Spiegel.",
+     "tr": "Açık kahverengi bir kazağı deneyip aynada kendine baktı.",
+     "en": "She tried on a light brown sweater and looked in the mirror."
+    },
+    {
+     "who": "",
+     "de": "Der Pullover passte gut, deshalb kaufte sie ihn ebenfalls.",
+     "tr": "Kazak güzel oldu, bu yüzden onu da aldı.",
+     "en": "The sweater fit well, so she bought it too."
+    },
+    {
+     "who": "",
+     "de": "Zu Hause legte Elif die neue Jacke auf das Sofa und rief Lina an. Sie erzählte ihr von der schnellen und freundlichen Hilfe im Geschäft.",
+     "tr": "Elif evde yeni ceketi kanepenin üzerine koyup Lina’yı aradı.",
+     "en": "At home Elif put the new jacket on the sofa and called Lina."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Welche Farbe hatte die Jacke im Paket?",
+     "options": [
+      "Rot.",
+      "Hellbraun.",
+      "Dunkelblau."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "mc",
+     "q": "Wie viel kostete der Tausch?",
+     "options": [
+      "Nichts.",
+      "Zehn Euro.",
+      "Dreißig Euro."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif hatte den Kassenbon noch.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Pullover war zu klein.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-04-1",
+   "unit": "a2-04",
+   "kind": "dialog",
+   "title": "Ein Umweg in Köln",
+   "title_tr": "Köln’de dolambaçlı bir yol",
+   "title_en": "A detour in Cologne",
+   "lines": [
+    {
+     "who": "Lina",
+     "de": "Der Zug hat zwanzig Minuten Verspätung. Hast du das gesehen?",
+     "tr": "Trenin yirmi dakika rötarı var. Gördün mü?",
+     "en": "The train is twenty minutes late. Did you see that?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, ich habe meinen Anschluss verpasst. Der Bus fährt gleich.",
+     "tr": "Evet, aktarmamı kaçırdım. Otobüs birazdan kalkıyor.",
+     "en": "Yes, I missed my connection. The bus leaves soon."
+    },
+    {
+     "who": "Lina",
+     "de": "Dann steigen wir an der nächsten Haltestelle aus.",
+     "tr": "O zaman bir sonraki durakta inelim.",
+     "en": "Then let's get off at the next stop."
+    },
+    {
+     "who": "Elif",
+     "de": "Könnten Sie uns bitte den Weg zum Leihrad zeigen?",
+     "tr": "Bize kiralık bisikletin yolunu gösterebilir misiniz?",
+     "en": "Could you please show us the way to the rental bike?"
+    },
+    {
+     "who": "Herr Braun",
+     "de": "Gehen Sie geradeaus und biegen Sie am Hügel links ab.",
+     "tr": "Dümdüz gidin ve tepede sola dönün.",
+     "en": "Go straight and turn left at the hill."
+    },
+    {
+     "who": "Lina",
+     "de": "Der Akku ist voll. Ich nehme den Stadtplan aus der Tasche.",
+     "tr": "Pil dolu. Çantamdan şehir haritasını çıkarıyorum.",
+     "en": "The battery is full. I'm taking the city map from my bag."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich stelle das Rad hier ab und helfe dir mit dem Koffer.",
+     "tr": "Bisikleti burada bırakıp bavulunda sana yardım edeceğim.",
+     "en": "I'll leave the bike here and help you with your suitcase."
+    },
+    {
+     "who": "Lina",
+     "de": "Der Weg ist gesperrt. Wir müssen das Rad ein Stück schieben.",
+     "tr": "Yol kapalı. Bisikleti biraz itmemiz gerekiyor.",
+     "en": "The road is closed. We have to push the bike for a bit."
+    },
+    {
+     "who": "Elif",
+     "de": "Folgen wir dem Schild zur Straßenbahn. Dort fragen wir noch einmal.",
+     "tr": "Tramvay tabelasını takip edelim. Orada tekrar sorarız.",
+     "en": "Let's follow the sign to the tram. We'll ask again there."
+    },
+    {
+     "who": "Lina",
+     "de": "Gute Idee. Fahr bitte langsamer, der Weg ist nass!",
+     "tr": "İyi fikir. Lütfen daha yavaş sür, yol ıslak!",
+     "en": "Good idea. Please ride more slowly, the path is wet!"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Warum nehmen Elif und Lina Fahrräder?",
+     "options": [
+      "Der Zug hat Verspätung.",
+      "Das Museum ist geschlossen.",
+      "Es regnet stark."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wohin folgen sie dem Weg?",
+     "options": [
+      "Zum Bahnhof.",
+      "Zur Brücke.",
+      "Zum Markt."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Straße ist offen.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif stellt das Fahrrad vorsichtig ab.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "a2-04-2",
+   "unit": "a2-04",
+   "kind": "story",
+   "title": "Mit dem Rad zum Museum",
+   "title_tr": "Bisikletle müzeye",
+   "title_en": "By bike to the museum",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif und Lina fahren am Samstag mit der Straßenbahn nach Ehrenfeld.",
+     "tr": "Elif ve Lina cumartesi tramvayla Ehrenfeld’e gidiyor.",
+     "en": "Elif and Lina take the tram to Ehrenfeld on Saturday."
+    },
+    {
+     "who": "",
+     "de": "Ihr Zug hatte zwanzig Minuten Verspätung, deshalb verpassen sie den Anschluss.",
+     "tr": "Trenleri yirmi dakika gecikiyor, bu yüzden aktarmayı kaçırıyorlar.",
+     "en": "Their train was twenty minutes late, so they miss their connection."
+    },
+    {
+     "who": "",
+     "de": "An der Haltestelle zeigt die Anzeige einen Bus zum Stadtzentrum.",
+     "tr": "Durakta ekran şehir merkezine giden bir otobüs gösteriyor.",
+     "en": "At the stop, the display shows a bus to the city center."
+    },
+    {
+     "who": "",
+     "de": "Sie steigen ein und steigen später an der nächsten Haltestelle aus.",
+     "tr": "Otobüse biniyor ve sonra bir sonraki durakta iniyorlar.",
+     "en": "They get on and later get off at the next stop."
+    },
+    {
+     "who": "",
+     "de": "Dort leihen sie zwei Fahrräder; Elifs Akku ist ganz voll.",
+     "tr": "Orada iki bisiklet kiralıyorlar; Elif’in pili tamamen dolu.",
+     "en": "There they rent two bikes; Elif’s battery is fully charged."
+    },
+    {
+     "who": "",
+     "de": "Lina nimmt den Stadtplan und sucht den Weg zum Museum.",
+     "tr": "Lina şehir haritasını alıp müzeye giden yolu arıyor.",
+     "en": "Lina takes the city map and looks for the way to the museum."
+    },
+    {
+     "who": "",
+     "de": "Eine Straße ist gesperrt, also schieben sie die Räder über den Platz.",
+     "tr": "Bir sokak kapalı, bu yüzden bisikletleri meydandan iterek geçiriyorlar.",
+     "en": "One street is closed, so they push the bikes across the square."
+    },
+    {
+     "who": "",
+     "de": "Ein Mann sagt: Folgen Sie dem Weg bis zur Brücke!",
+     "tr": "Bir adam, köprüye kadar yolu takip edin, diyor.",
+     "en": "A man says, “Follow the path to the bridge!”"
+    },
+    {
+     "who": "",
+     "de": "Elif biegt dort links ab und stellt die Fahrräder vorsichtig ab.",
+     "tr": "Elif orada sola dönüp bisikletleri dikkatlice bırakıyor.",
+     "en": "Elif turns left there and carefully parks the bikes."
+    },
+    {
+     "who": "",
+     "de": "Nach dem Besuch fahren sie mit der Straßenbahn zurück und kaufen Brot ein.",
+     "tr": "Geziden sonra tramvayla dönüp ekmek alıyorlar.",
+     "en": "After their visit, they take the tram back and buy bread."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was zeigt die Anzeige?",
+     "options": [
+      "Einen Bus zum Stadtzentrum.",
+      "Einen Zug nach Bonn.",
+      "Ein Leihrad am Museum."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was machen sie nach dem Besuch?",
+     "options": [
+      "Sie gehen zu Fuß nach Hause.",
+      "Sie fahren mit der Straßenbahn zurück.",
+      "Sie nehmen ein Taxi."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elifs Akku ist leer.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Sie kaufen auf dem Rückweg Brot.",
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "a2-05-1",
+   "unit": "a2-05",
+   "kind": "dialog",
+   "title": "Ein Besuch beim Arzt",
+   "title_tr": "Doktor ziyareti",
+   "title_en": "A visit to the doctor",
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was tut Elif weh?",
+     "options": [
+      "Ihr Knie.",
+      "Ihr Finger.",
+      "Ihr Rücken."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie oft soll Elif eine Tablette nehmen?",
+     "options": [
+      "Einmal am Tag.",
+      "Dreimal am Tag.",
+      "Zweimal am Tag."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat seit gestern Schmerzen.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif muss morgen unbedingt wiederkommen.",
+     "answer": 1
+    }
+   ],
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Ich fühle mich nicht gut. Mein Knie tut weh.",
+     "tr": "Kendimi iyi hissetmiyorum. Dizim ağrıyor.",
+     "en": "I don't feel well. My knee hurts."
+    },
+    {
+     "who": "Lina",
+     "de": "Seit wann hast du Schmerzen? Bist du gestern gefallen?",
+     "tr": "Ne zamandır ağrın var? Dün düştün mü?",
+     "en": "How long have you been in pain? Did you fall yesterday?"
+    },
+    {
+     "who": "Elif",
+     "de": "Seit gestern. Ich bin aus Versehen in eine Pfütze getreten.",
+     "tr": "Dünden beri. Yanlışlıkla bir su birikintisine bastım.",
+     "en": "Since yesterday. I accidentally stepped into a puddle."
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Guten Morgen. Setzen Sie sich bitte hier an die Stelle.",
+     "tr": "Günaydın. Lütfen şuraya oturun.",
+     "en": "Good morning. Please sit here."
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Ich muss Ihr Knie kurz untersuchen. Haben Sie Fieber?",
+     "tr": "Dizinizi kısaca muayene etmem gerekiyor. Ateşiniz var mı?",
+     "en": "I need to examine your knee briefly. Do you have a fever?"
+    },
+    {
+     "who": "Elif",
+     "de": "Nein, aber ich kann kaum gehen. Es tut beim Schritt weh.",
+     "tr": "Hayır ama neredeyse yürüyemiyorum. Adım atınca ağrıyor.",
+     "en": "No, but I can hardly walk. It hurts when I step."
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Der Spiegel ist besetzt. Ich schaue zuerst Ihren Finger an.",
+     "tr": "Muayene odası dolu. Önce parmağınıza bakacağım.",
+     "en": "The examination room is occupied. I'll look at your finger first."
+    },
+    {
+     "who": "Lina",
+     "de": "Könnten Sie bitte auch nach der Physiotherapie fragen?",
+     "tr": "Fizyoterapiyi de sorabilir misiniz lütfen?",
+     "en": "Could you also ask about physiotherapy, please?"
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Sie müssen sich heute ausruhen und dreimal eine Tablette nehmen.",
+     "tr": "Bugün dinlenmeniz ve günde üç kez tablet almanız gerekiyor.",
+     "en": "You need to rest today and take one tablet three times."
+    },
+    {
+     "who": "Elif",
+     "de": "Muss ich morgen wiederkommen?",
+     "tr": "Yarın tekrar gelmem gerekiyor mu?",
+     "en": "Do I have to come back tomorrow?"
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Nein, Sie müssen nicht kommen, wenn es besser wird.",
+     "tr": "Hayır, iyileşirseniz gelmeniz gerekmiyor.",
+     "en": "No, you don't have to come if it gets better."
+    },
+    {
+     "who": "Lina",
+     "de": "Trink viel Wasser! Ich bringe dir später eine Brezel.",
+     "tr": "Bol su iç! Sana sonra bir brezel getiririm.",
+     "en": "Drink plenty of water! I'll bring you a pretzel later."
+    }
+   ]
+  },
+  {
+   "id": "a2-05-2",
+   "unit": "a2-05",
+   "kind": "story",
+   "title": "Elif passt auf sich auf",
+   "title_tr": "Elif kendine dikkat ediyor",
+   "title_en": "Elif takes care of herself",
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Warum schmerzt Elifs Knie?",
+     "options": [
+      "Sie ist in eine Pfütze getreten.",
+      "Sie hat Fußball gespielt.",
+      "Sie ist lange gelaufen."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was bringt Lina mit?",
+     "options": [
+      "Eine Suppe.",
+      "Eine Brezel.",
+      "Einen Tee."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat Fieber.",
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif nimmt die Tablette nach dem Essen.",
+     "answer": 0
+    }
+   ],
+   "lines": [
+    {
+     "who": "",
+     "de": "Am Montag fühlt Elif sich nicht gut und ruft in der Praxis an.",
+     "tr": "Pazartesi Elif kendini iyi hissetmiyor ve muayenehaneyi arıyor.",
+     "en": "On Monday Elif doesn't feel well and calls the doctor's office."
+    },
+    {
+     "who": "",
+     "de": "Ihr Knie schmerzt, weil sie am Sonntag in eine Pfütze getreten ist.",
+     "tr": "Dizinin ağrımasının nedeni pazar günü su birikintisine basmış olması.",
+     "en": "Her knee hurts because she stepped in a puddle on Sunday."
+    },
+    {
+     "who": "",
+     "de": "Frau Wolf untersucht sie und fragt nach Fieber und anderen Schmerzen.",
+     "tr": "Frau Wolf onu muayene edip ateşi ve başka ağrıları soruyor.",
+     "en": "Ms Wolf examines her and asks about fever and other pain."
+    },
+    {
+     "who": "",
+     "de": "Elif hat kein Fieber, aber sie kann kaum die Treppe steigen.",
+     "tr": "Elif’in ateşi yok ama merdivenleri neredeyse çıkamıyor.",
+     "en": "Elif has no fever, but can hardly climb the stairs."
+    },
+    {
+     "who": "",
+     "de": "Die Ärztin sagt, dass Elif sich ausruhen und Wasser trinken muss.",
+     "tr": "Doktor Elif’in dinlenmesi ve su içmesi gerektiğini söylüyor.",
+     "en": "The doctor says Elif needs to rest and drink water."
+    },
+    {
+     "who": "",
+     "de": "Dreimal am Tag nimmt sie eine Tablette nach dem Essen.",
+     "tr": "Günde üç kez yemekten sonra bir tablet alıyor.",
+     "en": "She takes a tablet three times a day after meals."
+    },
+    {
+     "who": "",
+     "de": "Lina bringt eine Brezel vorbei und stellt sie auf den Tisch.",
+     "tr": "Lina uğrayıp bir brezel getirerek masaya koyuyor.",
+     "en": "Lina visits and puts a pretzel on the table."
+    },
+    {
+     "who": "",
+     "de": "Am Nachmittag macht Elif nur wenige Schritte im Zimmer.",
+     "tr": "Öğleden sonra Elif odada yalnızca birkaç adım atıyor.",
+     "en": "In the afternoon Elif takes just a few steps in the room."
+    },
+    {
+     "who": "",
+     "de": "Ihr Knie tut weniger weh, und sie fühlt sich schon besser.",
+     "tr": "Dizi daha az ağrıyor ve kendini daha iyi hissediyor.",
+     "en": "Her knee hurts less, and she already feels better."
+    },
+    {
+     "who": "",
+     "de": "Am nächsten Morgen ruft Elif die Praxis an und sagt den Termin ab.",
+     "tr": "Ertesi sabah Elif muayenehaneyi arayıp randevuyu iptal ediyor.",
+     "en": "The next morning Elif calls the office and cancels the appointment."
+    }
+   ]
+  },
+  {
+   "id": "a2-06-1",
+   "unit": "a2-06",
+   "kind": "dialog",
+   "title": "Elifs erster Arbeitstag",
+   "title_tr": "Elif’in ilk iş günü",
+   "title_en": "Elif’s first day at work",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Guten Morgen, Frau Wolf. Die Besprechung beginnt um zehn, richtig?",
+     "tr": "Günaydın Frau Wolf. Toplantı onda başlıyor, değil mi?",
+     "en": "Good morning, Ms Wolf. The meeting starts at ten, right?"
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Ja. Bitte tragen Sie Ihren Namen in diese Liste ein.",
+     "tr": "Evet. Lütfen adınızı bu listeye yazın.",
+     "en": "Yes. Please enter your name on this list."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich arbeite gern im Team. Wo ist mein Schreibtisch?",
+     "tr": "Ekipte çalışmayı severim. Masam nerede?",
+     "en": "I enjoy working in a team. Where is my desk?"
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Neben dem Fenster. Die Reinigungskraft kommt heute später.",
+     "tr": "Pencerenin yanında. Temizlik görevlisi bugün daha geç gelecek.",
+     "en": "By the window. The cleaner is coming later today."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich komme später, weil der Bus nicht fährt.",
+     "tr": "Otobüs çalışmadığı için geç geldim.",
+     "en": "I came late because the bus isn't running."
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Kein Problem. Könnten Sie mir bitte mit dem Kabel helfen?",
+     "tr": "Sorun değil. Kablo konusunda bana yardım edebilir misiniz?",
+     "en": "No problem. Could you help me with the cable, please?"
+    },
+    {
+     "who": "Elif",
+     "de": "Natürlich. Ich glaube, dass wir mehr Zeit brauchen.",
+     "tr": "Tabii. Bence daha fazla zamana ihtiyacımız var.",
+     "en": "Of course. I think we need more time."
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Der Kühlschrank macht ein Geräusch. Können Sie ihn prüfen?",
+     "tr": "Buzdolabı ses çıkarıyor. Kontrol edebilir misiniz?",
+     "en": "The refrigerator is making a noise. Can you check it?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja. Ich unterscheide zuerst die Kabel und stecke es richtig an.",
+     "tr": "Evet. Önce kabloları ayırt edip doğru şekilde takıyorum.",
+     "en": "Yes. I'll identify the cables first and connect it properly."
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Danke. Danach gießen wir die Pflanze zusammen.",
+     "tr": "Teşekkürler. Sonra bitkiyi birlikte sularız.",
+     "en": "Thanks. After that we'll water the plant together."
+    },
+    {
+     "who": "Elif",
+     "de": "Die Gießkanne steht neben dem Topf.",
+     "tr": "Sulama kabı saksının yanında.",
+     "en": "The watering can is beside the pot."
+    },
+    {
+     "who": "Frau Wolf",
+     "de": "Gut. Holen Sie bitte auch die Zutaten aus der Küche.",
+     "tr": "Güzel. Lütfen malzemeleri de mutfaktan alın.",
+     "en": "Good. Please also fetch the ingredients from the kitchen."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann beginnt die Besprechung?",
+     "options": [
+      "Um neun.",
+      "Um zehn.",
+      "Um elf."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Was macht das Geräusch?",
+     "options": [
+      "Der Kühlschrank.",
+      "Der Drucker.",
+      "Die Straßenbahn."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif arbeitet gern im Team.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Gießkanne steht im Büro.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-06-2",
+   "unit": "a2-06",
+   "kind": "story",
+   "title": "Ein guter Anfang im Büro",
+   "title_tr": "Ofiste güzel bir başlangıç",
+   "title_en": "A good start at the office",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif kommt am Montag zu ihrem Vorstellungsgespräch in ein Büro in Köln.",
+     "tr": "Elif pazartesi Köln’deki bir ofiste iş görüşmesine geliyor.",
+     "en": "Elif comes to an office in Cologne for her interview on Monday."
+    },
+    {
+     "who": "",
+     "de": "Der Bus ist ausgefallen, weil eine Straße gesperrt war.",
+     "tr": "Bir sokak kapalı olduğu için otobüs çalışmamış.",
+     "en": "The bus was out of service because a street was closed."
+    },
+    {
+     "who": "",
+     "de": "Trotzdem ist Elif pünktlich, denn sie ist früh losgegangen.",
+     "tr": "Yine de Elif zamanında geliyor çünkü erkenden yola çıkmış.",
+     "en": "Still, Elif is on time because she left early."
+    },
+    {
+     "who": "",
+     "de": "Frau Wolf begrüßt sie freundlich und zeigt ihr den Schreibtisch am Fenster.",
+     "tr": "Frau Wolf onu güler yüzle karşılayıp pencere yanındaki masayı gösteriyor.",
+     "en": "Ms Wolf greets her warmly and shows her the desk by the window."
+    },
+    {
+     "who": "",
+     "de": "Elif sagt, dass sie gern im Team arbeitet.",
+     "tr": "Elif ekipte çalışmayı sevdiğini söylüyor.",
+     "en": "Elif says that she enjoys working in a team."
+    },
+    {
+     "who": "",
+     "de": "Die Besprechung beginnt um zehn, und alle tragen ihre Namen ein.",
+     "tr": "Toplantı onda başlıyor ve herkes adını listeye yazıyor.",
+     "en": "The meeting starts at ten, and everyone enters their name."
+    },
+    {
+     "who": "",
+     "de": "Ein Kabel liegt neben dem Kühlschrank, der ein lautes Geräusch macht.",
+     "tr": "Yüksek ses çıkaran buzdolabının yanında bir kablo duruyor.",
+     "en": "A cable lies beside the refrigerator, which is making a loud noise."
+    },
+    {
+     "who": "",
+     "de": "Elif unterscheidet die Stecker und schließt den Kühlschrank wieder an.",
+     "tr": "Elif fişleri ayırt edip buzdolabını yeniden bağlıyor.",
+     "en": "Elif identifies the plugs and reconnects the refrigerator."
+    },
+    {
+     "who": "",
+     "de": "Danach holt sie Zutaten aus der Küche und gießt die Pflanze.",
+     "tr": "Sonra mutfaktan malzemeleri alıp bitkiyi suluyor.",
+     "en": "Afterward she fetches ingredients from the kitchen and waters the plant."
+    },
+    {
+     "who": "",
+     "de": "Frau Wolf sagt, dass Elif am nächsten Tag wiederkommen soll.",
+     "tr": "Frau Wolf, Elif’in ertesi gün tekrar gelmesini istediğini söylüyor.",
+     "en": "Ms Wolf says Elif should come back the next day."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Warum fährt der Bus nicht?",
+     "options": [
+      "Eine Straße ist gesperrt.",
+      "Der Fahrer ist krank.",
+      "Es gibt keinen Fahrplan."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo steht Elifs Schreibtisch?",
+     "options": [
+      "Neben der Tür.",
+      "Am Fenster.",
+      "In der Küche."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Besprechung beginnt um zehn.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Wolf bittet Elif, nie wiederzukommen.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-07-1",
+   "unit": "a2-07",
+   "kind": "dialog",
+   "title": "Fotos auf der Wiese",
+   "title_tr": "Çayırdaki fotoğraflar",
+   "title_en": "Photos in the meadow",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Was hast du als Kind am liebsten gemacht?",
+     "tr": "Çocukken en çok ne yapmayı severdin?",
+     "en": "What did you like doing most as a child?"
+    },
+    {
+     "who": "Lina",
+     "de": "Als ich klein war, hatte ich einen roten Drachen.",
+     "tr": "Küçükken kırmızı bir uçurtmam vardı.",
+     "en": "When I was little, I had a red kite."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich hatte auch einen. Meine Mutter konnte ihn gut reparieren.",
+     "tr": "Benim de vardı. Annem onu iyi tamir edebilirdi.",
+     "en": "I had one too. My mother could repair it well."
+    },
+    {
+     "who": "Lina",
+     "de": "Hier ist ein Foto von unserer Wiese.",
+     "tr": "İşte çayırımızın bir fotoğrafı.",
+     "en": "Here is a photo of our meadow."
+    },
+    {
+     "who": "Elif",
+     "de": "Als das Wetter schön war, waren wir immer draußen.",
+     "tr": "Hava güzel olduğunda hep dışarıdaydık.",
+     "en": "When the weather was nice, we were always outside."
+    },
+    {
+     "who": "Lina",
+     "de": "Wir haben die Schnur geteilt und den Drachen zusammen steigen lassen.",
+     "tr": "İpi paylaşıp uçurtmayı birlikte uçururduk.",
+     "en": "We shared the string and flew the kite together."
+    },
+    {
+     "who": "Elif",
+     "de": "Hast du Lust, am Sonntag mitzukommen?",
+     "tr": "Pazar günü bizimle gelmek ister misin?",
+     "en": "Would you like to come along on Sunday?"
+    },
+    {
+     "who": "Lina",
+     "de": "Gern. Wenn es nicht regnet, gehen wir wieder auf die Wiese.",
+     "tr": "Memnuniyetle. Yağmur yağmazsa yine çayıra gideriz.",
+     "en": "Gladly. If it doesn’t rain, we’ll go to the meadow again."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich leihe mir einen Drachen aus. Das macht Spaß!",
+     "tr": "Bir uçurtma ödünç alırım. Eğlenceli!",
+     "en": "I’ll borrow a kite. That sounds fun!"
+    },
+    {
+     "who": "Lina",
+     "de": "Tom kann den Stock mitbringen. Dann klappt es bestimmt.",
+     "tr": "Tom sopayı getirebilir. O zaman kesin başarırız.",
+     "en": "Tom can bring the stick. Then it will surely work."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was hatte Lina als Kind?",
+     "options": [
+      "Einen roten Drachen.",
+      "Eine Gitarre.",
+      "Ein blaues Trikot."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann wollen Elif und Lina auf die Wiese gehen?",
+     "options": [
+      "Am Samstag.",
+      "Am Sonntag.",
+      "Am Montag."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elifs Mutter konnte den Drachen reparieren.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina möchte am Sonntag nicht mitkommen.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-07-2",
+   "unit": "a2-07",
+   "kind": "story",
+   "title": "Ein Konzert im Hof",
+   "title_tr": "Avluda bir konser",
+   "title_en": "A concert in the courtyard",
+   "lines": [
+    {
+     "who": "",
+     "de": "Als Elif zwölf war, probte sie jeden Mittwoch mit ihrer Freundin Gitarre. Elif spielte auch im Schultheater und lernte dort viele Lieder.",
+     "tr": "Elif on iki yaşındayken her çarşamba arkadaşıyla gitar çalışırdı. Elif okul tiyatrosunda da ?ald? ve orada bir?ok ?ark? ??rendi.",
+     "en": "When Elif was twelve, she rehearsed guitar with her friend every Wednesday. Elif also played in the school theater and learned many songs there."
+    },
+    {
+     "who": "",
+     "de": "Sie stellte sich oft unter das Dach, wenn es draußen regnete.",
+     "tr": "Dışarıda yağmur yağınca sık sık çatının altına geçerdi.",
+     "en": "She often stood under the roof when it rained outside."
+    },
+    {
+     "who": "",
+     "de": "Damals hatte Elif ein altes Trikot und einen kleinen Bogen.",
+     "tr": "O zamanlar Elif’in eski bir forması ve küçük bir yayı vardı.",
+     "en": "Back then Elif had an old sports shirt and a small bow."
+    },
+    {
+     "who": "",
+     "de": "Einmal blieb ihre Schnur an einem Ast hängen.",
+     "tr": "Bir keresinde ipi bir dala takıldı.",
+     "en": "Once her string got caught on a branch."
+    },
+    {
+     "who": "",
+     "de": "Ihre Freundin konnte den Drachen vorsichtig mit einem Stock lösen. Ihre Mutter machte damals oft Fotos von den Proben.",
+     "tr": "Arkadaşı uçurtmayı bir sopayla dikkatlice kurtarabildi. Annesi o zamanlar provalarda s?k s?k foto?raf ?ekiyordu.",
+     "en": "Her friend could carefully free the kite with a stick. Her mother often took photos at rehearsals back then."
+    },
+    {
+     "who": "",
+     "de": "Später spielten die beiden leise Musik für ihre Nachbarn.",
+     "tr": "Daha sonra ikisi komşuları için sessizce müzik çaldı.",
+     "en": "Later, the two played quiet music for their neighbors."
+    },
+    {
+     "who": "",
+     "de": "Als das Konzert endete, klatschten alle im Hof.",
+     "tr": "Konser bittiğinde avludaki herkes alkışladı.",
+     "en": "When the concert ended, everyone in the courtyard applauded."
+    },
+    {
+     "who": "",
+     "de": "Elif hatte ein Taschentuch dabei, denn sie war sehr gerührt. Danach lachten sie zusammen.",
+     "tr": "Elif yanında mendil taşıyordu çünkü çok duygulanmıştı. Sonra birlikte g?ld?ler.",
+     "en": "Elif had a tissue with her because she was very moved. Afterwards they laughed together."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann probte Elif Gitarre?",
+     "options": [
+      "Jeden Mittwoch.",
+      "Jeden Freitag.",
+      "Jeden Sonntag."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Woran blieb die Schnur hängen?",
+     "options": [
+      "An einer Tür.",
+      "An einem Ast.",
+      "Am Dach."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif spielte früher Gitarre.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Nachbarn klatschten nicht.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-08-1",
+   "unit": "a2-08",
+   "kind": "dialog",
+   "title": "Das Handy ist kaputt",
+   "title_tr": "Telefon bozuldu",
+   "title_en": "The phone is broken",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Mein Handy funktioniert nicht mehr.",
+     "tr": "Telefonum artık çalışmıyor.",
+     "en": "My phone doesn’t work anymore."
+    },
+    {
+     "who": "Tom",
+     "de": "Der Bildschirm bleibt schwarz. Ist der Akku leer?",
+     "tr": "Ekran siyah kalıyor. Şarjı mı bitti?",
+     "en": "The screen stays black. Is the battery empty?"
+    },
+    {
+     "who": "Elif",
+     "de": "Nein, ich habe den Akku gestern geladen.",
+     "tr": "Hayır, pili dün şarj ettim.",
+     "en": "No, I charged the battery yesterday."
+    },
+    {
+     "who": "Tom",
+     "de": "Vielleicht hast du aus Versehen die falsche Taste gedrückt.",
+     "tr": "Belki yanlışlıkla yanlış tuşa bastın.",
+     "en": "Maybe you pressed the wrong button by accident."
+    },
+    {
+     "who": "Elif",
+     "de": "Kannst du den Fehler auf dem Bildschirm sehen?",
+     "tr": "Ekrandaki hatayı görebiliyor musun?",
+     "en": "Can you see the error on the screen?"
+    },
+    {
+     "who": "Tom",
+     "de": "Ja. Ich glaube, dass die App das Handy blockiert.",
+     "tr": "Evet. Uygulamanın telefonu kilitlediğini düşünüyorum.",
+     "en": "Yes. I think the app has blocked the phone."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich schicke dir das Foto per Nachricht.",
+     "tr": "Fotoğrafı sana mesajla gönderiyorum.",
+     "en": "I’m sending you the photo by message."
+    },
+    {
+     "who": "Tom",
+     "de": "Weißt du, wie das WLAN-Passwort lautet?",
+     "tr": "Wi-Fi şifresinin ne olduğunu biliyor musun?",
+     "en": "Do you know what the Wi-Fi password is?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja, ich schreibe es lieber auf. Der Akku ist fast leer.",
+     "tr": "Evet, not etmeyi tercih ederim. Şarjım neredeyse bitti.",
+     "en": "Yes, I’d rather write it down. The battery is almost empty."
+    },
+    {
+     "who": "Tom",
+     "de": "Ich habe die App heruntergeladen. Wir buchen jetzt einen Termin.",
+     "tr": "Uygulamayı indirdim. Şimdi randevu alıyoruz.",
+     "en": "I downloaded the app. We’ll book an appointment now."
+    },
+    {
+     "who": "Elif",
+     "de": "Danke! Bitte schick mir die Bestätigung per Nachricht.",
+     "tr": "Teşekkürler! Lütfen onayı bana mesajla gönder.",
+     "en": "Thanks! Please send me the confirmation by message."
+    },
+    {
+     "who": "Tom",
+     "de": "Gern. Ich schreibe dir auch jeden Schritt auf.",
+     "tr": "Tabii. Her adımı da sana yazarım.",
+     "en": "Sure. I’ll write down every step for you too."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "blockieren",
+     "lemma": "blockieren",
+     "art": null,
+     "tr": "engellemek",
+     "en": "to block"
+    },
+    {
+     "form": "Bestätigung",
+     "lemma": "Bestätigung",
+     "art": "die",
+     "tr": "onay",
+     "en": "confirmation"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was ist mit Elifs Handy?",
+     "options": [
+      "Der Bildschirm bleibt schwarz.",
+      "Der Lautsprecher ist kaputt.",
+      "Die Kamera fehlt."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie wollen sie den Termin buchen?",
+     "options": [
+      "Mit einer App.",
+      "Am Schalter.",
+      "Per Brief."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat den Akku gestern geladen.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Tom schickt Elif keine Bestätigung.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-08-2",
+   "unit": "a2-08",
+   "kind": "story",
+   "title": "Ein Termin mit dem Handy",
+   "title_tr": "Telefonla randevu",
+   "title_en": "An appointment on the phone",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elifs Handy funktionierte am Morgen plötzlich nicht mehr.",
+     "tr": "Elif’in telefonu sabah aniden çalışmamaya başladı.",
+     "en": "Elif’s phone suddenly stopped working in the morning."
+    },
+    {
+     "who": "",
+     "de": "Der Bildschirm blieb schwarz, obwohl der Akku fast voll war. Sie startete das Ger?t neu, aber der Bildschirm blieb dunkel.",
+     "tr": "Şarjı neredeyse dolu olmasına rağmen ekran siyah kaldı. Cihaz? yeniden ba?latt? ama ekran karanl?k kald?.",
+     "en": "The screen stayed black even though the battery was almost full. She restarted the device, but the screen stayed dark."
+    },
+    {
+     "who": "",
+     "de": "Tom sah den Fehler und sagte, dass eine Taste klemmte.",
+     "tr": "Tom hatayı gördü ve bir tuşun sıkıştığını söyledi.",
+     "en": "Tom saw the error and said a button was stuck."
+    },
+    {
+     "who": "",
+     "de": "Elif schickte ihm ein Foto per Nachricht von Linas Tablet.",
+     "tr": "Elif ona Lina’nın tabletinden mesajla bir fotoğraf gönderdi.",
+     "en": "Elif sent him a photo by message from Lina’s tablet."
+    },
+    {
+     "who": "",
+     "de": "Sie öffneten die Wetter-App und suchten die Adresse der Werkstatt.",
+     "tr": "Hava durumu uygulamasını açıp tamirhanenin adresini aradılar.",
+     "en": "They opened the weather app and looked for the repair shop’s address."
+    },
+    {
+     "who": "",
+     "de": "Tom lud die Termin-App herunter und füllte das Formular aus.",
+     "tr": "Tom randevu uygulamasını indirdi ve formu doldurdu.",
+     "en": "Tom downloaded the appointment app and filled out the form."
+    },
+    {
+     "who": "",
+     "de": "Elif las jeden Schritt mit und schrieb die Bestätigung auf.",
+     "tr": "Elif her adımı takip etti ve onay bilgisini not aldı.",
+     "en": "Elif followed each step and wrote down the confirmation."
+    },
+    {
+     "who": "",
+     "de": "Tom erklärte, dass sie das Handy am nächsten Tag abholen konnten. Am Abend bedankte sie sich bei Tom f?r seine schnelle Hilfe.",
+     "tr": "Tom telefonu ertesi gün alabileceklerini açıkladı. Ak?am Tom?a h?zl? yard?m? i?in te?ekk?r etti.",
+     "en": "Tom explained that they could pick up the phone the next day. In the evening she thanked Tom for his quick help."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "klemmte",
+     "lemma": "klemmen",
+     "art": null,
+     "tr": "sıkışmak",
+     "en": "to get stuck"
+    },
+    {
+     "form": "Formular",
+     "lemma": "Formular",
+     "art": "das",
+     "tr": "form",
+     "en": "form"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was blieb schwarz?",
+     "options": [
+      "Der Bildschirm.",
+      "Die Wetter-App.",
+      "Das Tablet."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann konnten sie das Handy abholen?",
+     "options": [
+      "Am selben Abend.",
+      "Am nächsten Tag.",
+      "Am Freitag."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Tom füllte ein Formular aus.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif fand die Bestätigung nicht.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-09-1",
+   "unit": "a2-09",
+   "kind": "dialog",
+   "title": "Der Lernplan steht",
+   "title_tr": "Çalışma planı hazır",
+   "title_en": "The study plan is ready",
+   "lines": [
+    {
+     "who": "Lina",
+     "de": "Wann machst du die Prüfung?",
+     "tr": "Sınava ne zaman gireceksin?",
+     "en": "When are you taking the exam?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ich mache im Mai eine Prüfung. Ich muss regelmäßig lernen.",
+     "tr": "Mayısta sınava gireceğim. Düzenli çalışmalıyım.",
+     "en": "I’m taking an exam in May. I need to study regularly."
+    },
+    {
+     "who": "Lina",
+     "de": "Ich versuche, jeden Tag zu lernen. Wann hast du Zeit?",
+     "tr": "Her gün çalışmaya çalışıyorum. Ne zaman vaktin var?",
+     "en": "I try to study every day. When do you have time?"
+    },
+    {
+     "who": "Elif",
+     "de": "Nach der Arbeit kann ich eine Stunde lernen.",
+     "tr": "İşten sonra bir saat çalışabilirim.",
+     "en": "I can study for an hour after work."
+    },
+    {
+     "who": "Lina",
+     "de": "Wir können am Dienstag zusammen neue Wörter üben.",
+     "tr": "Salı günü birlikte yeni kelimeler çalışabiliriz.",
+     "en": "We can practice new words together on Tuesday."
+    },
+    {
+     "who": "Elif",
+     "de": "Was bedeutet dieses Wort im Kursbuch?",
+     "tr": "Kurs kitabındaki bu kelime ne anlama geliyor?",
+     "en": "What does this word in the coursebook mean?"
+    },
+    {
+     "who": "Lina",
+     "de": "Es bedeutet „Prüfung“. Schreib das Stichwort in dein Heft.",
+     "tr": "“Sınav” demek. Anahtar kelimeyi defterine yaz.",
+     "en": "It means “exam.” Write the keyword in your notebook."
+    },
+    {
+     "who": "Elif",
+     "de": "Ich habe vergessen, die Hausaufgaben zu machen.",
+     "tr": "Ödevleri yapmayı unuttum.",
+     "en": "I forgot to do the homework."
+    },
+    {
+     "who": "Lina",
+     "de": "Dann machen wir sie heute. Das macht bestimmt Spaß.",
+     "tr": "O zaman bugün yaparız. Kesin eğlenceli olur.",
+     "en": "Then we’ll do them today. It’ll certainly be fun."
+    },
+    {
+     "who": "Elif",
+     "de": "Gut. Ich habe vor, jeden Tag zu lernen.",
+     "tr": "Güzel. Her gün çalışmayı planlıyorum.",
+     "en": "Good. I plan to study every day."
+    },
+    {
+     "who": "Lina",
+     "de": "Am Prüfungstag stehe ich früh auf und begleite dich.",
+     "tr": "Sınav günü erken kalkıp sana eşlik edeceğim.",
+     "en": "On exam day, I’ll get up early and go with you."
+    },
+    {
+     "who": "Elif",
+     "de": "Danke! Danach lernen wir neue Leute kennen.",
+     "tr": "Teşekkürler! Sonra yeni insanlarla tanışacağız.",
+     "en": "Thanks! Afterwards, we’ll meet new people."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Stichwort",
+     "lemma": "Stichwort",
+     "art": "das",
+     "tr": "anahtar kelime",
+     "en": "keyword"
+    },
+    {
+     "form": "begleiten",
+     "lemma": "begleiten",
+     "art": null,
+     "tr": "eşlik etmek",
+     "en": "to accompany"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "In welchem Monat macht Elif die Prüfung?",
+     "options": [
+      "Im März.",
+      "Im Mai.",
+      "Im Juli."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wann kann Elif eine Stunde lernen?",
+     "options": [
+      "Vor der Arbeit.",
+      "Nach der Arbeit.",
+      "Am Morgen."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif plant, jeden Tag zu lernen.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina will Elif am Prüfungstag nicht begleiten.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-09-2",
+   "unit": "a2-09",
+   "kind": "story",
+   "title": "Elifs Prüfungstag",
+   "title_tr": "Elif’in sınav günü",
+   "title_en": "Elif’s exam day",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif bereitete sich im Frühling auf ihre Goethe-A2-Prüfung vor.",
+     "tr": "Elif ilkbaharda Goethe A2 sınavına hazırlandı.",
+     "en": "Elif prepared for her Goethe A2 exam in spring."
+    },
+    {
+     "who": "",
+     "de": "Sie hatte vor, jeden Abend nach der Arbeit eine Stunde zu lernen.",
+     "tr": "Her akşam işten sonra bir saat çalışmayı planlıyordu.",
+     "en": "She planned to study for an hour every evening after work."
+    },
+    {
+     "who": "",
+     "de": "Zuerst wiederholte sie neue Wörter und schrieb jedes Stichwort auf. Danach las sie einen Text laut und markierte wichtige W?rter.",
+     "tr": "Önce yeni kelimeleri tekrar etti ve her anahtar kelimeyi yazdı. Ard?ndan bir metni sesli okudu ve ?nemli s?zc?kleri i?aretledi.",
+     "en": "First, she reviewed new words and wrote down each keyword. Then she read a text aloud and marked important words."
+    },
+    {
+     "who": "",
+     "de": "Wenn sie ein Wort nicht verstand, fragte sie Lina um Hilfe.",
+     "tr": "Bir kelimeyi anlamadığında Lina’dan yardım istedi.",
+     "en": "If she didn’t understand a word, she asked Lina for help."
+    },
+    {
+     "who": "",
+     "de": "Tom übte mit ihr, kurze Antworten zu geben und deutlich zu sprechen.",
+     "tr": "Tom onunla kısa cevaplar vermeyi ve anlaşılır konuşmayı çalıştı.",
+     "en": "Tom practiced giving short answers and speaking clearly with her."
+    },
+    {
+     "who": "",
+     "de": "Am Prüfungstag klingelte ihr Wecker um sechs Uhr.",
+     "tr": "Sınav günü saati altıda çaldı.",
+     "en": "On exam day, her alarm rang at six."
+    },
+    {
+     "who": "",
+     "de": "Lina begleitete Elif zur Schule, und beide waren pünktlich dort. Vor dem Geb?ude atmete Elif tief durch und l?chelte.",
+     "tr": "Lina Elif’e okula kadar eşlik etti ve ikisi de zamanında oradaydı. Binan?n ?n?nde Elif derin bir nefes ald? ve g?l?msedi.",
+     "en": "Lina accompanied Elif to the school, and both arrived on time. Outside the building Elif took a deep breath and smiled."
+    },
+    {
+     "who": "",
+     "de": "Nach der Prüfung sagte Elif, dass die Aufgaben leichter waren als erwartet.",
+     "tr": "Sınavdan sonra Elif soruların beklediğinden daha kolay olduğunu söyledi.",
+     "en": "After the exam, Elif said the tasks were easier than expected."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "sich vorbereiten auf",
+     "lemma": "sich vorbereiten",
+     "art": null,
+     "tr": "… için hazırlanmak",
+     "en": "to prepare for"
+    },
+    {
+     "form": "deutlich",
+     "lemma": "deutlich",
+     "art": null,
+     "tr": "anlaşılır",
+     "en": "clearly"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie lange lernte Elif abends?",
+     "options": [
+      "Eine Stunde.",
+      "Zwei Stunden.",
+      "Drei Stunden."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann klingelte der Wecker?",
+     "options": [
+      "Um fünf Uhr.",
+      "Um sechs Uhr.",
+      "Um sieben Uhr."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Tom übte mit Elif kurze Antworten.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif kam zu spät zur Prüfung.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-10-1",
+   "unit": "a2-10",
+   "kind": "dialog",
+   "title": "Der Umwelttag im Innenhof",
+   "title_tr": "Avluda çevre günü",
+   "title_en": "Environment day in the courtyard",
+   "lines": [
+    {
+     "who": "Elif",
+     "de": "Am Samstag machen wir einen Umwelttag im Innenhof.",
+     "tr": "Cumartesi avluda çevre günü düzenliyoruz.",
+     "en": "We’re holding an environment day in the courtyard on Saturday."
+    },
+    {
+     "who": "Lina",
+     "de": "Gute Idee! Ich trenne den Müll und bringe die Eimer.",
+     "tr": "Güzel fikir! Çöpleri ayırıp kovaları getiririm.",
+     "en": "Good idea! I’ll sort the rubbish and bring the buckets."
+    },
+    {
+     "who": "Elif",
+     "de": "Das Fahrrad ist besser als das Auto für kurze Wege.",
+     "tr": "Kısa mesafelerde bisiklet arabadan daha iyidir.",
+     "en": "A bike is better than a car for short trips."
+    },
+    {
+     "who": "Lina",
+     "de": "Wir kaufen am liebsten regionales Gemüse für unser Picknick.",
+     "tr": "Pikniğimiz için en çok yöresel sebze almayı seviyoruz.",
+     "en": "We prefer to buy local vegetables for our picnic."
+    },
+    {
+     "who": "Elif",
+     "de": "Bring die Flaschen bitte zum Container.",
+     "tr": "Şişeleri lütfen konteynere götür.",
+     "en": "Please take the bottles to the recycling bin."
+    },
+    {
+     "who": "Lina",
+     "de": "Ich kann auch die Regentonne neben den Abfluss stellen.",
+     "tr": "Yağmur suyu varilini giderin yanına koyabilirim.",
+     "en": "I can also put the rain barrel beside the drain."
+    },
+    {
+     "who": "Elif",
+     "de": "Dann sammeln wir Wasser für die Pflanzen.",
+     "tr": "O zaman bitkiler için su biriktiririz.",
+     "en": "Then we’ll collect water for the plants."
+    },
+    {
+     "who": "Lina",
+     "de": "Im Park ist es am ruhigsten. Wollen wir dort aufräumen?",
+     "tr": "Park en sakin yer. Orada temizlik yapalım mı?",
+     "en": "The park is quietest. Shall we clean up there?"
+    },
+    {
+     "who": "Elif",
+     "de": "Ja. Ich bringe Eimer und eine Taschenlampe.",
+     "tr": "Evet. Kova ve el feneri getiriyorum.",
+     "en": "Yes. I’ll bring a bucket and a flashlight."
+    },
+    {
+     "who": "Lina",
+     "de": "Die Lichterkette leuchtet abends mit wenig Strom.",
+     "tr": "Işık zinciri akşamları az elektrikle yanıyor.",
+     "en": "The string lights shine in the evening using little electricity."
+    },
+    {
+     "who": "Elif",
+     "de": "Super. Danach kommen alle wieder in den Innenhof.",
+     "tr": "Harika. Sonra herkes avluya geri geliyor.",
+     "en": "Great. Afterwards everyone comes back to the courtyard."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Umwelttag",
+     "lemma": "Umwelttag",
+     "art": "der",
+     "tr": "çevre günü",
+     "en": "environment day"
+    },
+    {
+     "form": "regional",
+     "lemma": "regional",
+     "art": null,
+     "tr": "yöresel",
+     "en": "local"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin sollen die Flaschen?",
+     "options": [
+      "Zum Container.",
+      "Zur Regentonne.",
+      "In den Park."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was sammeln sie für die Pflanzen?",
+     "options": [
+      "Sand.",
+      "Wasser.",
+      "Papier."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif findet das Fahrrad für kurze Wege besser.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Lichterkette braucht sehr viel Strom.",
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "a2-10-2",
+   "unit": "a2-10",
+   "kind": "story",
+   "title": "Ein sauberer Innenhof",
+   "title_tr": "Temiz bir avlu",
+   "title_en": "A clean courtyard",
+   "lines": [
+    {
+     "who": "",
+     "de": "Elif und Lina planten einen Umwelttag für ihre Nachbarschaft. Sie teilten die Aufgaben auf und machten einen einfachen Plan.",
+     "tr": "Elif ve Lina mahalleleri için çevre günü planladı. G?revleri b?l???p basit bir plan yapt?lar.",
+     "en": "Elif and Lina planned an environment day for their neighborhood. They divided the tasks and made a simple plan."
+    },
+    {
+     "who": "",
+     "de": "Am Samstag kamen viele Helfer mit Eimern und Handschuhen.",
+     "tr": "Cumartesi birçok yardımcı kova ve eldivenlerle geldi.",
+     "en": "On Saturday, many helpers came with buckets and gloves."
+    },
+    {
+     "who": "",
+     "de": "Zuerst trennten sie Glas, Papier und anderen Müll.",
+     "tr": "Önce camı, kâğıdı ve diğer çöpleri ayırdılar.",
+     "en": "First, they sorted glass, paper, and other rubbish."
+    },
+    {
+     "who": "",
+     "de": "Das Fahrrad war für kurze Wege besser als das Auto.",
+     "tr": "Kısa mesafelerde bisiklet arabadan daha iyiydi.",
+     "en": "The bike was better than the car for short journeys."
+    },
+    {
+     "who": "",
+     "de": "Frau Schmidt brachte regionales Gemüse und frisches Brot.",
+     "tr": "Frau Schmidt yöresel sebze ve taze ekmek getirdi.",
+     "en": "Ms Schmidt brought local vegetables and fresh bread."
+    },
+    {
+     "who": "",
+     "de": "Tom stellte eine Regentonne unter die Regenrinne, damit sie Wasser sammeln konnten.",
+     "tr": "Tom su biriktirebilmeleri için yağmur oluğunu altına bir varil koydu.",
+     "en": "Tom put a rain barrel under the gutter so they could collect water."
+    },
+    {
+     "who": "",
+     "de": "Die Kinder reinigten den Abfluss und schraubten einen lockeren Griff fest.",
+     "tr": "Çocuklar gideri temizledi ve gevşek bir kolu vidaladı.",
+     "en": "The children cleaned the drain and tightened a loose handle."
+    },
+    {
+     "who": "",
+     "de": "Am Abend leuchtete eine Lichterkette, doch die Kerzen blieben aus.",
+     "tr": "Akşam bir ışık zinciri yandı ama mumlar yakılmadı.",
+     "en": "In the evening, a string of lights shone, while the candles stayed unlit."
+    },
+    {
+     "who": "",
+     "de": "Alle fanden den Park am ruhigsten und gingen gemeinsam dorthin zurück. Die Nachbarn lobten die Idee und versprachen, n?chstes Jahr mitzuhelfen.",
+     "tr": "Herkes parkı en sakin yer buldu ve birlikte oraya geri döndü. Kom?ular bu fikri ?vd? ve gelecek y?l yard?m s?z? verdi.",
+     "en": "Everyone found the park quietest and went back there together. The neighbors praised the idea and promised to help next year."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Handschuh",
+     "lemma": "Handschuh",
+     "art": "der",
+     "tr": "eldiven",
+     "en": "glove"
+    },
+    {
+     "form": "festschrauben",
+     "lemma": "festschrauben",
+     "art": null,
+     "tr": "vidalayarak sıkıştırmak",
+     "en": "to screw tight"
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was brachte Frau Schmidt mit?",
+     "options": [
+      "Regionalgemüse und Brot.",
+      "Kerzen und Kuchen.",
+      "Werkzeug und Farbe."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wohin stellte Tom die Regentonne?",
+     "options": [
+      "Unter die Regenrinne.",
+      "Neben den Park.",
+      "Auf das Dach."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Nachbarn sammelten Glas und Papier getrennt.",
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Am Abend brannten Kerzen im Hof.",
+     "answer": 1
+    }
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "s-a2-01-1",
+   "level": "A2",
+   "topic": "Günlük hayat",
+   "title": "Ein Montag im Buchladen",
+   "paragraphs": [
+    "Lina: Was hast du am Wochenende gemacht?",
+    "Elif: Am Samstag bin ich mit Tom zum Flohmarkt gefahren.",
+    "Lina: Habt ihr dort etwas Schönes gefunden?",
+    "Elif: Ja, Tom kaufte eine Zeichnung für seine Mutter.",
+    "Elif: Danach habe ich an einem Gemüsestand frische Erdbeeren gekauft.",
+    "Lina: Und was machst du heute im Buchladen?",
+    "Elif: Ich stehe um sieben Uhr auf und fahre mit der Bahn.",
+    "Elif: Nach der Arbeit kaufe ich noch schnell Brot ein.",
+    "Lina: Räumst du am Abend die Küche auf?",
+    "Elif: Ja, aber zuerst muss die Kuchenglasur abkühlen.",
+    "Lina: Dann bringe ich Tee mit. Bis später!"
+   ],
+   "trans": [
+    {
+     "tr": "Lina: Hafta sonu ne yaptın?",
+     "en": "Lina: What did you do at the weekend?"
+    },
+    {
+     "tr": "Elif: Cumartesi Tom’la bit pazarına gittim.",
+     "en": "Elif: On Saturday I went to the flea market with Tom."
+    },
+    {
+     "tr": "Lina: Orada güzel bir şey buldunuz mu?",
+     "en": "Lina: Did you find anything nice there?"
+    },
+    {
+     "tr": "Elif: Evet, Tom annesi için bir çizim aldı.",
+     "en": "Elif: Yes, Tom bought a drawing for his mother."
+    },
+    {
+     "tr": "Elif: Sonra bir sebze tezgâhından taze çilek aldım.",
+     "en": "Elif: After that I bought fresh strawberries at a vegetable stall."
+    },
+    {
+     "tr": "Lina: Peki bugün kitapçıda ne yapıyorsun?",
+     "en": "Lina: And what are you doing at the bookshop today?"
+    },
+    {
+     "tr": "Elif: Saat yedide kalkıp trenle gidiyorum.",
+     "en": "Elif: I get up at seven and take the train."
+    },
+    {
+     "tr": "Elif: İşten sonra hızlıca ekmek alıyorum.",
+     "en": "Elif: After work, I quickly buy some bread."
+    },
+    {
+     "tr": "Lina: Akşam mutfağı topluyor musun?",
+     "en": "Lina: Are you tidying the kitchen this evening?"
+    },
+    {
+     "tr": "Elif: Evet ama önce kekin üzerindeki şekerleme soğumalı.",
+     "en": "Elif: Yes, but first the cake icing has to cool."
+    },
+    {
+     "tr": "Lina: O zaman çay getiririm. Sonra görüşürüz!",
+     "en": "Lina: Then I'll bring tea. See you later!"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin fuhr Elif am Samstag?",
+     "options": [
+      "Zum Flohmarkt.",
+      "Zum Bahnhof.",
+      "Zum Büro."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was kaufte Elif am Gemüsestand?",
+     "options": [
+      "Äpfel.",
+      "Erdbeeren.",
+      "Brot."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Tom kaufte eine Zeichnung für seine Mutter.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif steht normalerweise um neun Uhr auf.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-01-2",
+   "level": "A2",
+   "topic": "Günlük hayat",
+   "title": "Ein voller Alltag",
+   "paragraphs": [
+    "Elif lebt seit einem Jahr in Köln und arbeitet halbtags in einer Buchhandlung.",
+    "Am Samstag lief sie mit Lina durch die Altstadt und entdeckte einen Flohmarkt.",
+    "Dort kaufte Lina eine blaue Leine, denn ihr Anhänger war zu Hause liegen geblieben.",
+    "Am Sonntag besuchten sie Frau Schmidt und halfen ihrem Enkel beim Zeichnen.",
+    "Heute steht Elif früh auf, macht Kaffee und öffnet das Fenster im Schlafzimmer.",
+    "Vor der Arbeit kauft sie Brot ein und hängt ihre Jacke an die Klingel.",
+    "Im Laden berät sie Kunden und schneidet Geschenkband vorsichtig ab.",
+    "Am Abend räumt sie die Küche auf und stellt Erdbeeren auf das Fensterbrett.",
+    "Lina kommt vorbei, und beide trinken Tee, während die Glasur abkühlt."
+   ],
+   "trans": [
+    {
+     "tr": "Elif bir yıldır Köln’de yaşıyor ve bir kitapçıda yarı zamanlı çalışıyor.",
+     "en": "Elif has lived in Cologne for a year and works part-time in a bookshop."
+    },
+    {
+     "tr": "Cumartesi Lina’yla eski şehirde yürüdü ve küçük bir bit pazarı keşfetti.",
+     "en": "On Saturday she walked through the old town with Lina and discovered a small flea market."
+    },
+    {
+     "tr": "Lina orada mavi bir tasma aldı çünkü rozeti evde kalmıştı.",
+     "en": "Lina bought a blue lead there because her tag had been left at home."
+    },
+    {
+     "tr": "Pazar günü Frau Schmidt’i ziyaret edip torununa resim çizmesinde yardım ettiler.",
+     "en": "On Sunday they visited Ms Schmidt and helped her grandson draw."
+    },
+    {
+     "tr": "Bugün Elif erken kalkıyor, kahve yapıyor ve yatak odasının penceresini açıyor.",
+     "en": "Today Elif gets up early, makes coffee, and opens the bedroom window."
+    },
+    {
+     "tr": "İşten önce ekmek alıyor ve ceketini zilin yanındaki askıya asıyor.",
+     "en": "Before work she buys bread and hangs her jacket beside the doorbell."
+    },
+    {
+     "tr": "Dükkânda müşterilere yardım edip hediye kurdelesini dikkatlice kesiyor.",
+     "en": "At the shop she advises customers and carefully cuts the gift ribbon."
+    },
+    {
+     "tr": "Akşam mutfağı topluyor ve çilekleri pencere pervazına koyuyor.",
+     "en": "In the evening she tidies the kitchen and puts strawberries on the windowsill."
+    },
+    {
+     "tr": "Lina uğruyor, şekerleme soğurken ikisi çay içiyor.",
+     "en": "Lina visits, and they drink tea while the icing cools."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo arbeitet Elif?",
+     "options": [
+      "In einer Buchhandlung.",
+      "In einer Bäckerei.",
+      "In einer Praxis."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was schneidet Elif im Laden ab?",
+     "options": [
+      "Ein Stück Brot.",
+      "Geschenkband.",
+      "Eine Leine."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif lebt seit einem Jahr in Köln.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina kaufte am Flohmarkt eine rote Jacke.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-02-1",
+   "level": "A2",
+   "topic": "Evde ve komşularla",
+   "title": "Ein ruhiger Abend",
+   "paragraphs": [
+    "Elif: Herr Brandt, Ihre Musik ist nachts sehr laut.",
+    "Herr Brandt: Oh, das wusste ich nicht. Entschuldigung!",
+    "Elif: Können Sie bitte nach zehn Uhr leiser sein?",
+    "Herr Brandt: Natürlich. Ich höre heute mit Kopfhörern.",
+    "Elif: Danke. Unsere Nachbarn sind sonst sehr nett.",
+    "Frau Schmidt: Elif, kannst du mir beim Umzug helfen?",
+    "Elif: Gern. Wohin soll der Karton?",
+    "Frau Schmidt: Stell ihn bitte neben das Sofa.",
+    "Elif: Und die Kissen lege ich auf die Bank im Hof.",
+    "Frau Schmidt: Danke! Der Kinderwagen steht schon im Treppenhaus.",
+    "Elif: Dann falte ich das Band zusammen und komme gleich."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Herr Brandt, müziğiniz geceleri çok yüksek.",
+     "en": "Elif: Mr Brandt, your music is very loud at night."
+    },
+    {
+     "tr": "Herr Brandt: Aa, bunu bilmiyordum. Özür dilerim!",
+     "en": "Herr Brandt: Oh, I didn't know that. I'm sorry!"
+    },
+    {
+     "tr": "Elif: Saat ondan sonra biraz daha sessiz olabilir misiniz?",
+     "en": "Elif: Could you please be quieter after ten?"
+    },
+    {
+     "tr": "Herr Brandt: Elbette. Bugün kulaklıkla dinlerim.",
+     "en": "Herr Brandt: Of course. I'll listen with headphones today."
+    },
+    {
+     "tr": "Elif: Teşekkürler. Diğer komşularımız çok iyi.",
+     "en": "Elif: Thank you. Our other neighbors are very nice."
+    },
+    {
+     "tr": "Frau Schmidt: Elif, taşınmama yardım eder misin?",
+     "en": "Frau Schmidt: Elif, can you help me move?"
+    },
+    {
+     "tr": "Elif: Tabii. Kutuyu nereye koyayım?",
+     "en": "Elif: Gladly. Where should the box go?"
+    },
+    {
+     "tr": "Frau Schmidt: Lütfen onu kanepenin yanına koy.",
+     "en": "Frau Schmidt: Please put it next to the sofa."
+    },
+    {
+     "tr": "Elif: Yastıkları avludaki banka koyuyorum.",
+     "en": "Elif: And I'll put the cushions on the bench in the courtyard."
+    },
+    {
+     "tr": "Frau Schmidt: Teşekkürler! Bebek arabası zaten merdiven boşluğunda.",
+     "en": "Frau Schmidt: Thanks! The pram is already in the stairwell."
+    },
+    {
+     "tr": "Elif: O zaman kurdeleyi katlayıp hemen geliyorum.",
+     "en": "Elif: Then I'll fold the ribbon and come right over."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann soll Herr Brandt leiser sein?",
+     "options": [
+      "Nach zehn Uhr.",
+      "Vor acht Uhr.",
+      "Am Morgen."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wohin stellt Elif den Karton?",
+     "options": [
+      "Neben das Sofa.",
+      "In den Hof.",
+      "Ins Treppenhaus."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Herr Brandt hört danach mit Kopfhörern.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Kinderwagen steht in der Küche.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-02-2",
+   "level": "A2",
+   "topic": "Evde ve komşularla",
+   "title": "Hilfe im Treppenhaus",
+   "paragraphs": [
+    "Elif hat am Samstag frei und hört im Hof laute Musik.",
+    "Herr Brandt sitzt am Fenster und singt aus Spaß mit.",
+    "Elif klingelt freundlich und bittet ihn, nachts leiser zu sein.",
+    "Er entschuldigt sich und verspricht, die Musik abends auszumachen.",
+    "Danach hilft Elif Frau Schmidt, die neue Wohnung einzurichten.",
+    "Ein Karton steht noch im Treppenhaus, und die Bank ist sehr eng.",
+    "Sie stellen den Tisch ans Fenster und legen Kissen auf das Sofa.",
+    "Frau Schmidt hängt den Mantel an einen Haken im Flur.",
+    "Am Abend sind alle müde, aber die Nachbarn verstehen sich gut. Sie planen schon ein gemeinsames Essen für nächste Woche."
+   ],
+   "trans": [
+    {
+     "tr": "Elif cumartesi izinli ve avluda yüksek müzik duyuyor.",
+     "en": "Elif has Saturday off and hears loud music in the courtyard."
+    },
+    {
+     "tr": "Herr Brandt pencerede oturuyor ve eğlencesine eşlik ediyor.",
+     "en": "Mr Brandt sits by the window and sings along for fun."
+    },
+    {
+     "tr": "Elif nazikçe zili çalıp geceleri daha sessiz olmasını rica ediyor.",
+     "en": "Elif rings politely and asks him to be quieter at night."
+    },
+    {
+     "tr": "Özür diliyor ve akşamları müziği kapatacağına söz veriyor.",
+     "en": "He apologizes and promises to turn off the music in the evening."
+    },
+    {
+     "tr": "Sonra Elif, Frau Schmidt’e yeni dairesini yerleştirmesinde yardım ediyor.",
+     "en": "Afterwards Elif helps Ms Schmidt set up her new apartment."
+    },
+    {
+     "tr": "Bir kutu hâlâ merdiven boşluğunda ve bank çok dar.",
+     "en": "A box is still in the stairwell, and the bench is very narrow."
+    },
+    {
+     "tr": "Masayı pencerenin önüne koyup yastıkları kanepenin üzerine yerleştiriyorlar.",
+     "en": "They put the table by the window and place cushions on the sofa."
+    },
+    {
+     "tr": "Frau Schmidt paltoyu koridordaki bir kancaya asıyor.",
+     "en": "Ms Schmidt hangs her coat on a hook in the hallway."
+    },
+    {
+     "tr": "Akşam herkes yorgun ama komşular iyi anlaşıyor. Gelecek hafta birlikte yemek yemeyi şimdiden planlıyorlar.",
+     "en": "In the evening everyone is tired, but the neighbors get along well. They are already planning a meal together for next week."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wo hängt Frau Schmidt den Mantel auf?",
+     "options": [
+      "An einem Haken im Flur.",
+      "Über dem Sofa.",
+      "Im Treppenhaus."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was stellen sie ans Fenster?",
+     "options": [
+      "Das Bett.",
+      "Den Tisch.",
+      "Die Bank."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif bittet Herr Brandt höflich um Ruhe.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Bank im Treppenhaus ist sehr breit.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-03-1",
+   "level": "A2",
+   "topic": "Alışveriş ve değişim",
+   "title": "Die falsche Jacke",
+   "paragraphs": [
+    "Lina: Ist das die Jacke, die du online bestellt hast?",
+    "Elif: Ja, aber sie ist dunkelblau. Ich wollte eine rote Jacke.",
+    "Lina: Hast du den Kassenbon in der Verpackung gefunden?",
+    "Elif: Ja, ich nehme die Jacke und den Bon mit.",
+    "Verkäufer: Guten Tag. Haben Sie die Jacke bei uns gekauft?",
+    "Elif: Ja. Kann ich das umtauschen? Die Farbe ist leider falsch.",
+    "Verkäufer: Haben Sie den Kassenbon noch?",
+    "Elif: Ja, hier ist er. Ich suche außerdem einen warmen Pullover.",
+    "Verkäufer: Wir haben einen hellbraunen Pullover. Er kostet dreißig Euro.",
+    "Elif: Der passt gut. Ich nehme ihn und die rote Jacke.",
+    "Lina: Das war ein guter Tausch. Gehen wir jetzt nach Hause?"
+   ],
+   "trans": [
+    {
+     "tr": "Lina: Bu internetten sipariş ettiğin ceket mi?",
+     "en": "Lina: Is that the jacket you ordered online?"
+    },
+    {
+     "tr": "Elif: Evet ama koyu mavi. Kırmızı bir ceket istemiştim.",
+     "en": "Elif: Yes, but it's dark blue. I wanted a red jacket."
+    },
+    {
+     "tr": "Lina: Fişi paketin içinde buldun mu?",
+     "en": "Lina: Did you find the receipt in the package?"
+    },
+    {
+     "tr": "Elif: Evet, ceketi ve fişi yanıma alıyorum.",
+     "en": "Elif: Yes, I'll take the jacket and receipt with me."
+    },
+    {
+     "tr": "Verkäufer: İyi günler. Ceketi bizden mi aldınız?",
+     "en": "Verkäufer: Hello. Did you buy the jacket here?"
+    },
+    {
+     "tr": "Elif: Evet. Bunu değiştirebilir miyim? Rengi maalesef yanlış.",
+     "en": "Elif: Yes. Can I exchange it? The color is unfortunately wrong."
+    },
+    {
+     "tr": "Verkäufer: Fişiniz duruyor mu?",
+     "en": "Verkäufer: Do you still have the receipt?"
+    },
+    {
+     "tr": "Elif: Evet, burada. Ayrıca sıcak bir kazak arıyorum.",
+     "en": "Elif: Yes, here it is. I'm also looking for a warm sweater."
+    },
+    {
+     "tr": "Verkäufer: Açık kahverengi bir kazağımız var. Otuz avro.",
+     "en": "Verkäufer: We have a light brown sweater. It costs thirty euros."
+    },
+    {
+     "tr": "Elif: Güzel oldu. Kazağı ve kırmızı ceketi alıyorum.",
+     "en": "Elif: It fits well. I'll take it and the red jacket."
+    },
+    {
+     "tr": "Lina: İyi bir değiş tokuş oldu. Şimdi eve gidelim mi?",
+     "en": "Lina: That was a good exchange. Shall we go home now?"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Welche Farbe hatte die bestellte Jacke?",
+     "options": [
+      "Rot.",
+      "Dunkelblau.",
+      "Hellbraun."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was nimmt Elif zusätzlich?",
+     "options": [
+      "Einen warmen Pullover.",
+      "Eine Tasche.",
+      "Ein Kilo Erdbeeren."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat den Kassenbon dabei.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Pullover kostet zwanzig Euro.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-03-2",
+   "level": "A2",
+   "topic": "Alışveriş ve değişim",
+   "title": "Ein warmer Pullover",
+   "paragraphs": [
+    "Elif bestellte letzte Woche online eine rote Jacke für den Herbst.",
+    "Als das Paket kam, war die Jacke dunkelblau und die Verpackung beschädigt.",
+    "Zum Glück hatte Elif den Kassenbon noch in ihrer E-Mail.",
+    "Sie fuhr mit der Bahn zum Geschäft und erklärte das Problem.",
+    "Die Verkäuferin tauschte die blaue Jacke kostenlos gegen eine rote.",
+    "Elif suchte außerdem einen warmen Pullover für kalte Tage.",
+    "Sie probierte einen hellbraunen Pullover an und sah in den Spiegel.",
+    "Der Pullover passte gut, deshalb kaufte sie ihn ebenfalls.",
+    "Zu Hause legte Elif die neue Jacke auf das Sofa und rief Lina an. Sie erzählte ihr von der schnellen und freundlichen Hilfe im Geschäft."
+   ],
+   "trans": [
+    {
+     "tr": "Elif geçen hafta sonbahar için internetten kırmızı bir ceket sipariş etti.",
+     "en": "Last week Elif ordered a red jacket online for autumn."
+    },
+    {
+     "tr": "Paket geldiğinde ceket koyu maviydi ve ambalaj hasarlıydı.",
+     "en": "When the parcel arrived, the jacket was dark blue and the packaging was damaged."
+    },
+    {
+     "tr": "Neyse ki Elif’in fişi e-postasında duruyordu.",
+     "en": "Luckily, Elif still had the receipt in her email."
+    },
+    {
+     "tr": "Trenle mağazaya gidip sorunu anlattı.",
+     "en": "She took the train to the shop and explained the problem."
+    },
+    {
+     "tr": "Satış görevlisi mavi ceketi ücretsiz olarak kırmızıyla değiştirdi.",
+     "en": "The sales assistant exchanged the blue jacket for a red one free of charge."
+    },
+    {
+     "tr": "Elif soğuk günler için sıcak bir kazak da aradı.",
+     "en": "Elif also looked for a warm sweater for cold days."
+    },
+    {
+     "tr": "Açık kahverengi bir kazağı deneyip aynada kendine baktı.",
+     "en": "She tried on a light brown sweater and looked in the mirror."
+    },
+    {
+     "tr": "Kazak güzel oldu, bu yüzden onu da aldı.",
+     "en": "The sweater fit well, so she bought it too."
+    },
+    {
+     "tr": "Elif evde yeni ceketi kanepenin üzerine koyup Lina’yı aradı.",
+     "en": "At home Elif put the new jacket on the sofa and called Lina."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Welche Farbe hatte die Jacke im Paket?",
+     "options": [
+      "Rot.",
+      "Hellbraun.",
+      "Dunkelblau."
+     ],
+     "answer": 2
+    },
+    {
+     "type": "mc",
+     "q": "Wie viel kostete der Tausch?",
+     "options": [
+      "Nichts.",
+      "Zehn Euro.",
+      "Dreißig Euro."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif hatte den Kassenbon noch.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Der Pullover war zu klein.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-04-1",
+   "level": "A2",
+   "topic": "Yolda",
+   "title": "Ein Umweg in Köln",
+   "paragraphs": [
+    "Lina: Der Zug hat zwanzig Minuten Verspätung. Hast du das gesehen?",
+    "Elif: Ja, ich habe meinen Anschluss verpasst. Der Bus fährt gleich.",
+    "Lina: Dann steigen wir an der nächsten Haltestelle aus.",
+    "Elif: Könnten Sie uns bitte den Weg zum Leihrad zeigen?",
+    "Herr Braun: Gehen Sie geradeaus und biegen Sie am Hügel links ab.",
+    "Lina: Der Akku ist voll. Ich nehme den Stadtplan aus der Tasche.",
+    "Elif: Ich stelle das Rad hier ab und helfe dir mit dem Koffer.",
+    "Lina: Der Weg ist gesperrt. Wir müssen das Rad ein Stück schieben.",
+    "Elif: Folgen wir dem Schild zur Straßenbahn. Dort fragen wir noch einmal.",
+    "Lina: Gute Idee. Fahr bitte langsamer, der Weg ist nass!"
+   ],
+   "trans": [
+    {
+     "tr": "Lina: Trenin yirmi dakika rötarı var. Gördün mü?",
+     "en": "Lina: The train is twenty minutes late. Did you see that?"
+    },
+    {
+     "tr": "Elif: Evet, aktarmamı kaçırdım. Otobüs birazdan kalkıyor.",
+     "en": "Elif: Yes, I missed my connection. The bus leaves soon."
+    },
+    {
+     "tr": "Lina: O zaman bir sonraki durakta inelim.",
+     "en": "Lina: Then let's get off at the next stop."
+    },
+    {
+     "tr": "Elif: Bize kiralık bisikletin yolunu gösterebilir misiniz?",
+     "en": "Elif: Could you please show us the way to the rental bike?"
+    },
+    {
+     "tr": "Herr Braun: Dümdüz gidin ve tepede sola dönün.",
+     "en": "Herr Braun: Go straight and turn left at the hill."
+    },
+    {
+     "tr": "Lina: Pil dolu. Çantamdan şehir haritasını çıkarıyorum.",
+     "en": "Lina: The battery is full. I'm taking the city map from my bag."
+    },
+    {
+     "tr": "Elif: Bisikleti burada bırakıp bavulunda sana yardım edeceğim.",
+     "en": "Elif: I'll leave the bike here and help you with your suitcase."
+    },
+    {
+     "tr": "Lina: Yol kapalı. Bisikleti biraz itmemiz gerekiyor.",
+     "en": "Lina: The road is closed. We have to push the bike for a bit."
+    },
+    {
+     "tr": "Elif: Tramvay tabelasını takip edelim. Orada tekrar sorarız.",
+     "en": "Elif: Let's follow the sign to the tram. We'll ask again there."
+    },
+    {
+     "tr": "Lina: İyi fikir. Lütfen daha yavaş sür, yol ıslak!",
+     "en": "Lina: Good idea. Please ride more slowly, the path is wet!"
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Warum nehmen Elif und Lina Fahrräder?",
+     "options": [
+      "Der Zug hat Verspätung.",
+      "Das Museum ist geschlossen.",
+      "Es regnet stark."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wohin folgen sie dem Weg?",
+     "options": [
+      "Zum Bahnhof.",
+      "Zur Brücke.",
+      "Zum Markt."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Straße ist offen.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif stellt das Fahrrad vorsichtig ab.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "s-a2-04-2",
+   "level": "A2",
+   "topic": "Yolda",
+   "title": "Mit dem Rad zum Museum",
+   "paragraphs": [
+    "Elif und Lina fahren am Samstag mit der Straßenbahn nach Ehrenfeld.",
+    "Ihr Zug hatte zwanzig Minuten Verspätung, deshalb verpassen sie den Anschluss.",
+    "An der Haltestelle zeigt die Anzeige einen Bus zum Stadtzentrum.",
+    "Sie steigen ein und steigen später an der nächsten Haltestelle aus.",
+    "Dort leihen sie zwei Fahrräder; Elifs Akku ist ganz voll.",
+    "Lina nimmt den Stadtplan und sucht den Weg zum Museum.",
+    "Eine Straße ist gesperrt, also schieben sie die Räder über den Platz.",
+    "Ein Mann sagt: Folgen Sie dem Weg bis zur Brücke!",
+    "Elif biegt dort links ab und stellt die Fahrräder vorsichtig ab.",
+    "Nach dem Besuch fahren sie mit der Straßenbahn zurück und kaufen Brot ein."
+   ],
+   "trans": [
+    {
+     "tr": "Elif ve Lina cumartesi tramvayla Ehrenfeld’e gidiyor.",
+     "en": "Elif and Lina take the tram to Ehrenfeld on Saturday."
+    },
+    {
+     "tr": "Trenleri yirmi dakika gecikiyor, bu yüzden aktarmayı kaçırıyorlar.",
+     "en": "Their train was twenty minutes late, so they miss their connection."
+    },
+    {
+     "tr": "Durakta ekran şehir merkezine giden bir otobüs gösteriyor.",
+     "en": "At the stop, the display shows a bus to the city center."
+    },
+    {
+     "tr": "Otobüse biniyor ve sonra bir sonraki durakta iniyorlar.",
+     "en": "They get on and later get off at the next stop."
+    },
+    {
+     "tr": "Orada iki bisiklet kiralıyorlar; Elif’in pili tamamen dolu.",
+     "en": "There they rent two bikes; Elif’s battery is fully charged."
+    },
+    {
+     "tr": "Lina şehir haritasını alıp müzeye giden yolu arıyor.",
+     "en": "Lina takes the city map and looks for the way to the museum."
+    },
+    {
+     "tr": "Bir sokak kapalı, bu yüzden bisikletleri meydandan iterek geçiriyorlar.",
+     "en": "One street is closed, so they push the bikes across the square."
+    },
+    {
+     "tr": "Bir adam, köprüye kadar yolu takip edin, diyor.",
+     "en": "A man says, “Follow the path to the bridge!”"
+    },
+    {
+     "tr": "Elif orada sola dönüp bisikletleri dikkatlice bırakıyor.",
+     "en": "Elif turns left there and carefully parks the bikes."
+    },
+    {
+     "tr": "Geziden sonra tramvayla dönüp ekmek alıyorlar.",
+     "en": "After their visit, they take the tram back and buy bread."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was zeigt die Anzeige?",
+     "options": [
+      "Einen Bus zum Stadtzentrum.",
+      "Einen Zug nach Bonn.",
+      "Ein Leihrad am Museum."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was machen sie nach dem Besuch?",
+     "options": [
+      "Sie gehen zu Fuß nach Hause.",
+      "Sie fahren mit der Straßenbahn zurück.",
+      "Sie nehmen ein Taxi."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elifs Akku ist leer.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Sie kaufen auf dem Rückweg Brot.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "s-a2-05-1",
+   "level": "A2",
+   "topic": "Sağlık",
+   "title": "Ein Besuch beim Arzt",
+   "paragraphs": [
+    "Elif: Ich fühle mich nicht gut. Mein Knie tut weh.",
+    "Lina: Seit wann hast du Schmerzen? Bist du gestern gefallen?",
+    "Elif: Seit gestern. Ich bin aus Versehen in eine Pfütze getreten.",
+    "Frau Wolf: Guten Morgen. Setzen Sie sich bitte hier an die Stelle.",
+    "Frau Wolf: Ich muss Ihr Knie kurz untersuchen. Haben Sie Fieber?",
+    "Elif: Nein, aber ich kann kaum gehen. Es tut beim Schritt weh.",
+    "Frau Wolf: Der Spiegel ist besetzt. Ich schaue zuerst Ihren Finger an.",
+    "Lina: Könnten Sie bitte auch nach der Physiotherapie fragen?",
+    "Frau Wolf: Sie müssen sich heute ausruhen und dreimal eine Tablette nehmen.",
+    "Elif: Muss ich morgen wiederkommen?",
+    "Frau Wolf: Nein, Sie müssen nicht kommen, wenn es besser wird.",
+    "Lina: Trink viel Wasser! Ich bringe dir später eine Brezel."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Kendimi iyi hissetmiyorum. Dizim ağrıyor.",
+     "en": "Elif: I don't feel well. My knee hurts."
+    },
+    {
+     "tr": "Lina: Ne zamandır ağrın var? Dün düştün mü?",
+     "en": "Lina: How long have you been in pain? Did you fall yesterday?"
+    },
+    {
+     "tr": "Elif: Dünden beri. Yanlışlıkla bir su birikintisine bastım.",
+     "en": "Elif: Since yesterday. I accidentally stepped into a puddle."
+    },
+    {
+     "tr": "Frau Wolf: Günaydın. Lütfen şuraya oturun.",
+     "en": "Frau Wolf: Good morning. Please sit here."
+    },
+    {
+     "tr": "Frau Wolf: Dizinizi kısaca muayene etmem gerekiyor. Ateşiniz var mı?",
+     "en": "Frau Wolf: I need to examine your knee briefly. Do you have a fever?"
+    },
+    {
+     "tr": "Elif: Hayır ama neredeyse yürüyemiyorum. Adım atınca ağrıyor.",
+     "en": "Elif: No, but I can hardly walk. It hurts when I step."
+    },
+    {
+     "tr": "Frau Wolf: Muayene odası dolu. Önce parmağınıza bakacağım.",
+     "en": "Frau Wolf: The examination room is occupied. I'll look at your finger first."
+    },
+    {
+     "tr": "Lina: Fizyoterapiyi de sorabilir misiniz lütfen?",
+     "en": "Lina: Could you also ask about physiotherapy, please?"
+    },
+    {
+     "tr": "Frau Wolf: Bugün dinlenmeniz ve günde üç kez tablet almanız gerekiyor.",
+     "en": "Frau Wolf: You need to rest today and take one tablet three times."
+    },
+    {
+     "tr": "Elif: Yarın tekrar gelmem gerekiyor mu?",
+     "en": "Elif: Do I have to come back tomorrow?"
+    },
+    {
+     "tr": "Frau Wolf: Hayır, iyileşirseniz gelmeniz gerekmiyor.",
+     "en": "Frau Wolf: No, you don't have to come if it gets better."
+    },
+    {
+     "tr": "Lina: Bol su iç! Sana sonra bir brezel getiririm.",
+     "en": "Lina: Drink plenty of water! I'll bring you a pretzel later."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was tut Elif weh?",
+     "options": [
+      "Ihr Knie.",
+      "Ihr Finger.",
+      "Ihr Rücken."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie oft soll Elif eine Tablette nehmen?",
+     "options": [
+      "Einmal am Tag.",
+      "Dreimal am Tag.",
+      "Zweimal am Tag."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat seit gestern Schmerzen.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif muss morgen unbedingt wiederkommen.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-05-2",
+   "level": "A2",
+   "topic": "Sağlık",
+   "title": "Elif passt auf sich auf",
+   "paragraphs": [
+    "Am Montag fühlt Elif sich nicht gut und ruft in der Praxis an.",
+    "Ihr Knie schmerzt, weil sie am Sonntag in eine Pfütze getreten ist.",
+    "Frau Wolf untersucht sie und fragt nach Fieber und anderen Schmerzen.",
+    "Elif hat kein Fieber, aber sie kann kaum die Treppe steigen.",
+    "Die Ärztin sagt, dass Elif sich ausruhen und Wasser trinken muss.",
+    "Dreimal am Tag nimmt sie eine Tablette nach dem Essen.",
+    "Lina bringt eine Brezel vorbei und stellt sie auf den Tisch.",
+    "Am Nachmittag macht Elif nur wenige Schritte im Zimmer.",
+    "Ihr Knie tut weniger weh, und sie fühlt sich schon besser.",
+    "Am nächsten Morgen ruft Elif die Praxis an und sagt den Termin ab."
+   ],
+   "trans": [
+    {
+     "tr": "Pazartesi Elif kendini iyi hissetmiyor ve muayenehaneyi arıyor.",
+     "en": "On Monday Elif doesn't feel well and calls the doctor's office."
+    },
+    {
+     "tr": "Dizinin ağrımasının nedeni pazar günü su birikintisine basmış olması.",
+     "en": "Her knee hurts because she stepped in a puddle on Sunday."
+    },
+    {
+     "tr": "Frau Wolf onu muayene edip ateşi ve başka ağrıları soruyor.",
+     "en": "Ms Wolf examines her and asks about fever and other pain."
+    },
+    {
+     "tr": "Elif’in ateşi yok ama merdivenleri neredeyse çıkamıyor.",
+     "en": "Elif has no fever, but can hardly climb the stairs."
+    },
+    {
+     "tr": "Doktor Elif’in dinlenmesi ve su içmesi gerektiğini söylüyor.",
+     "en": "The doctor says Elif needs to rest and drink water."
+    },
+    {
+     "tr": "Günde üç kez yemekten sonra bir tablet alıyor.",
+     "en": "She takes a tablet three times a day after meals."
+    },
+    {
+     "tr": "Lina uğrayıp bir brezel getirerek masaya koyuyor.",
+     "en": "Lina visits and puts a pretzel on the table."
+    },
+    {
+     "tr": "Öğleden sonra Elif odada yalnızca birkaç adım atıyor.",
+     "en": "In the afternoon Elif takes just a few steps in the room."
+    },
+    {
+     "tr": "Dizi daha az ağrıyor ve kendini daha iyi hissediyor.",
+     "en": "Her knee hurts less, and she already feels better."
+    },
+    {
+     "tr": "Ertesi sabah Elif muayenehaneyi arayıp randevuyu iptal ediyor.",
+     "en": "The next morning Elif calls the office and cancels the appointment."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Warum schmerzt Elifs Knie?",
+     "options": [
+      "Sie ist in eine Pfütze getreten.",
+      "Sie hat Fußball gespielt.",
+      "Sie ist lange gelaufen."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was bringt Lina mit?",
+     "options": [
+      "Eine Suppe.",
+      "Eine Brezel.",
+      "Einen Tee."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat Fieber.",
+     "options": null,
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif nimmt die Tablette nach dem Essen.",
+     "options": null,
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "s-a2-06-1",
+   "level": "A2",
+   "topic": "İş hayatı",
+   "title": "Elifs erster Arbeitstag",
+   "paragraphs": [
+    "Elif: Guten Morgen, Frau Wolf. Die Besprechung beginnt um zehn, richtig?",
+    "Frau Wolf: Ja. Bitte tragen Sie Ihren Namen in diese Liste ein.",
+    "Elif: Ich arbeite gern im Team. Wo ist mein Schreibtisch?",
+    "Frau Wolf: Neben dem Fenster. Die Reinigungskraft kommt heute später.",
+    "Elif: Ich komme später, weil der Bus nicht fährt.",
+    "Frau Wolf: Kein Problem. Könnten Sie mir bitte mit dem Kabel helfen?",
+    "Elif: Natürlich. Ich glaube, dass wir mehr Zeit brauchen.",
+    "Frau Wolf: Der Kühlschrank macht ein Geräusch. Können Sie ihn prüfen?",
+    "Elif: Ja. Ich unterscheide zuerst die Kabel und stecke es richtig an.",
+    "Frau Wolf: Danke. Danach gießen wir die Pflanze zusammen.",
+    "Elif: Die Gießkanne steht neben dem Topf.",
+    "Frau Wolf: Gut. Holen Sie bitte auch die Zutaten aus der Küche."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Günaydın Frau Wolf. Toplantı onda başlıyor, değil mi?",
+     "en": "Elif: Good morning, Ms Wolf. The meeting starts at ten, right?"
+    },
+    {
+     "tr": "Frau Wolf: Evet. Lütfen adınızı bu listeye yazın.",
+     "en": "Frau Wolf: Yes. Please enter your name on this list."
+    },
+    {
+     "tr": "Elif: Ekipte çalışmayı severim. Masam nerede?",
+     "en": "Elif: I enjoy working in a team. Where is my desk?"
+    },
+    {
+     "tr": "Frau Wolf: Pencerenin yanında. Temizlik görevlisi bugün daha geç gelecek.",
+     "en": "Frau Wolf: By the window. The cleaner is coming later today."
+    },
+    {
+     "tr": "Elif: Otobüs çalışmadığı için geç geldim.",
+     "en": "Elif: I came late because the bus isn't running."
+    },
+    {
+     "tr": "Frau Wolf: Sorun değil. Kablo konusunda bana yardım edebilir misiniz?",
+     "en": "Frau Wolf: No problem. Could you help me with the cable, please?"
+    },
+    {
+     "tr": "Elif: Tabii. Bence daha fazla zamana ihtiyacımız var.",
+     "en": "Elif: Of course. I think we need more time."
+    },
+    {
+     "tr": "Frau Wolf: Buzdolabı ses çıkarıyor. Kontrol edebilir misiniz?",
+     "en": "Frau Wolf: The refrigerator is making a noise. Can you check it?"
+    },
+    {
+     "tr": "Elif: Evet. Önce kabloları ayırt edip doğru şekilde takıyorum.",
+     "en": "Elif: Yes. I'll identify the cables first and connect it properly."
+    },
+    {
+     "tr": "Frau Wolf: Teşekkürler. Sonra bitkiyi birlikte sularız.",
+     "en": "Frau Wolf: Thanks. After that we'll water the plant together."
+    },
+    {
+     "tr": "Elif: Sulama kabı saksının yanında.",
+     "en": "Elif: The watering can is beside the pot."
+    },
+    {
+     "tr": "Frau Wolf: Güzel. Lütfen malzemeleri de mutfaktan alın.",
+     "en": "Frau Wolf: Good. Please also fetch the ingredients from the kitchen."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann beginnt die Besprechung?",
+     "options": [
+      "Um neun.",
+      "Um zehn.",
+      "Um elf."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Was macht das Geräusch?",
+     "options": [
+      "Der Kühlschrank.",
+      "Der Drucker.",
+      "Die Straßenbahn."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif arbeitet gern im Team.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Gießkanne steht im Büro.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-06-2",
+   "level": "A2",
+   "topic": "İş hayatı",
+   "title": "Ein guter Anfang im Büro",
+   "paragraphs": [
+    "Elif kommt am Montag zu ihrem Vorstellungsgespräch in ein Büro in Köln.",
+    "Der Bus ist ausgefallen, weil eine Straße gesperrt war.",
+    "Trotzdem ist Elif pünktlich, denn sie ist früh losgegangen.",
+    "Frau Wolf begrüßt sie freundlich und zeigt ihr den Schreibtisch am Fenster.",
+    "Elif sagt, dass sie gern im Team arbeitet.",
+    "Die Besprechung beginnt um zehn, und alle tragen ihre Namen ein.",
+    "Ein Kabel liegt neben dem Kühlschrank, der ein lautes Geräusch macht.",
+    "Elif unterscheidet die Stecker und schließt den Kühlschrank wieder an.",
+    "Danach holt sie Zutaten aus der Küche und gießt die Pflanze.",
+    "Frau Wolf sagt, dass Elif am nächsten Tag wiederkommen soll."
+   ],
+   "trans": [
+    {
+     "tr": "Elif pazartesi Köln’deki bir ofiste iş görüşmesine geliyor.",
+     "en": "Elif comes to an office in Cologne for her interview on Monday."
+    },
+    {
+     "tr": "Bir sokak kapalı olduğu için otobüs çalışmamış.",
+     "en": "The bus was out of service because a street was closed."
+    },
+    {
+     "tr": "Yine de Elif zamanında geliyor çünkü erkenden yola çıkmış.",
+     "en": "Still, Elif is on time because she left early."
+    },
+    {
+     "tr": "Frau Wolf onu güler yüzle karşılayıp pencere yanındaki masayı gösteriyor.",
+     "en": "Ms Wolf greets her warmly and shows her the desk by the window."
+    },
+    {
+     "tr": "Elif ekipte çalışmayı sevdiğini söylüyor.",
+     "en": "Elif says that she enjoys working in a team."
+    },
+    {
+     "tr": "Toplantı onda başlıyor ve herkes adını listeye yazıyor.",
+     "en": "The meeting starts at ten, and everyone enters their name."
+    },
+    {
+     "tr": "Yüksek ses çıkaran buzdolabının yanında bir kablo duruyor.",
+     "en": "A cable lies beside the refrigerator, which is making a loud noise."
+    },
+    {
+     "tr": "Elif fişleri ayırt edip buzdolabını yeniden bağlıyor.",
+     "en": "Elif identifies the plugs and reconnects the refrigerator."
+    },
+    {
+     "tr": "Sonra mutfaktan malzemeleri alıp bitkiyi suluyor.",
+     "en": "Afterward she fetches ingredients from the kitchen and waters the plant."
+    },
+    {
+     "tr": "Frau Wolf, Elif’in ertesi gün tekrar gelmesini istediğini söylüyor.",
+     "en": "Ms Wolf says Elif should come back the next day."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Warum fährt der Bus nicht?",
+     "options": [
+      "Eine Straße ist gesperrt.",
+      "Der Fahrer ist krank.",
+      "Es gibt keinen Fahrplan."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wo steht Elifs Schreibtisch?",
+     "options": [
+      "Neben der Tür.",
+      "Am Fenster.",
+      "In der Küche."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Die Besprechung beginnt um zehn.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Frau Wolf bittet Elif, nie wiederzukommen.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-07-1",
+   "level": "A2",
+   "topic": "Boş zaman ve anılar",
+   "title": "Fotos auf der Wiese",
+   "paragraphs": [
+    "Elif: Was hast du als Kind am liebsten gemacht?",
+    "Lina: Als ich klein war, hatte ich einen roten Drachen.",
+    "Elif: Ich hatte auch einen. Meine Mutter konnte ihn gut reparieren.",
+    "Lina: Hier ist ein Foto von unserer Wiese.",
+    "Elif: Als das Wetter schön war, waren wir immer draußen.",
+    "Lina: Wir haben die Schnur geteilt und den Drachen zusammen steigen lassen.",
+    "Elif: Hast du Lust, am Sonntag mitzukommen?",
+    "Lina: Gern. Wenn es nicht regnet, gehen wir wieder auf die Wiese.",
+    "Elif: Ich leihe mir einen Drachen aus. Das macht Spaß!",
+    "Lina: Tom kann den Stock mitbringen. Dann klappt es bestimmt."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Çocukken en çok ne yapmayı severdin?",
+     "en": "Elif: What did you like doing most as a child?"
+    },
+    {
+     "tr": "Lina: Küçükken kırmızı bir uçurtmam vardı.",
+     "en": "Lina: When I was little, I had a red kite."
+    },
+    {
+     "tr": "Elif: Benim de vardı. Annem onu iyi tamir edebilirdi.",
+     "en": "Elif: I had one too. My mother could repair it well."
+    },
+    {
+     "tr": "Lina: İşte çayırımızın bir fotoğrafı.",
+     "en": "Lina: Here is a photo of our meadow."
+    },
+    {
+     "tr": "Elif: Hava güzel olduğunda hep dışarıdaydık.",
+     "en": "Elif: When the weather was nice, we were always outside."
+    },
+    {
+     "tr": "Lina: İpi paylaşıp uçurtmayı birlikte uçururduk.",
+     "en": "Lina: We shared the string and flew the kite together."
+    },
+    {
+     "tr": "Elif: Pazar günü bizimle gelmek ister misin?",
+     "en": "Elif: Would you like to come along on Sunday?"
+    },
+    {
+     "tr": "Lina: Memnuniyetle. Yağmur yağmazsa yine çayıra gideriz.",
+     "en": "Lina: Gladly. If it doesn’t rain, we’ll go to the meadow again."
+    },
+    {
+     "tr": "Elif: Bir uçurtma ödünç alırım. Eğlenceli!",
+     "en": "Elif: I’ll borrow a kite. That sounds fun!"
+    },
+    {
+     "tr": "Lina: Tom sopayı getirebilir. O zaman kesin başarırız.",
+     "en": "Lina: Tom can bring the stick. Then it will surely work."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was hatte Lina als Kind?",
+     "options": [
+      "Einen roten Drachen.",
+      "Eine Gitarre.",
+      "Ein blaues Trikot."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann wollen Elif und Lina auf die Wiese gehen?",
+     "options": [
+      "Am Samstag.",
+      "Am Sonntag.",
+      "Am Montag."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elifs Mutter konnte den Drachen reparieren.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina möchte am Sonntag nicht mitkommen.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-07-2",
+   "level": "A2",
+   "topic": "Boş zaman ve anılar",
+   "title": "Ein Konzert im Hof",
+   "paragraphs": [
+    "Als Elif zwölf war, probte sie jeden Mittwoch mit ihrer Freundin Gitarre. Elif spielte auch im Schultheater und lernte dort viele Lieder.",
+    "Sie stellte sich oft unter das Dach, wenn es draußen regnete.",
+    "Damals hatte Elif ein altes Trikot und einen kleinen Bogen.",
+    "Einmal blieb ihre Schnur an einem Ast hängen.",
+    "Ihre Freundin konnte den Drachen vorsichtig mit einem Stock lösen. Ihre Mutter machte damals oft Fotos von den Proben.",
+    "Später spielten die beiden leise Musik für ihre Nachbarn.",
+    "Als das Konzert endete, klatschten alle im Hof.",
+    "Elif hatte ein Taschentuch dabei, denn sie war sehr gerührt. Danach lachten sie zusammen."
+   ],
+   "trans": [
+    {
+     "tr": "Elif on iki yaşındayken her çarşamba arkadaşıyla gitar çalışırdı. Elif okul tiyatrosunda da ?ald? ve orada bir?ok ?ark? ??rendi.",
+     "en": "When Elif was twelve, she rehearsed guitar with her friend every Wednesday. Elif also played in the school theater and learned many songs there."
+    },
+    {
+     "tr": "Dışarıda yağmur yağınca sık sık çatının altına geçerdi.",
+     "en": "She often stood under the roof when it rained outside."
+    },
+    {
+     "tr": "O zamanlar Elif’in eski bir forması ve küçük bir yayı vardı.",
+     "en": "Back then Elif had an old sports shirt and a small bow."
+    },
+    {
+     "tr": "Bir keresinde ipi bir dala takıldı.",
+     "en": "Once her string got caught on a branch."
+    },
+    {
+     "tr": "Arkadaşı uçurtmayı bir sopayla dikkatlice kurtarabildi. Annesi o zamanlar provalarda s?k s?k foto?raf ?ekiyordu.",
+     "en": "Her friend could carefully free the kite with a stick. Her mother often took photos at rehearsals back then."
+    },
+    {
+     "tr": "Daha sonra ikisi komşuları için sessizce müzik çaldı.",
+     "en": "Later, the two played quiet music for their neighbors."
+    },
+    {
+     "tr": "Konser bittiğinde avludaki herkes alkışladı.",
+     "en": "When the concert ended, everyone in the courtyard applauded."
+    },
+    {
+     "tr": "Elif yanında mendil taşıyordu çünkü çok duygulanmıştı. Sonra birlikte g?ld?ler.",
+     "en": "Elif had a tissue with her because she was very moved. Afterwards they laughed together."
+    }
+   ],
+   "glossary": [],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wann probte Elif Gitarre?",
+     "options": [
+      "Jeden Mittwoch.",
+      "Jeden Freitag.",
+      "Jeden Sonntag."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Woran blieb die Schnur hängen?",
+     "options": [
+      "An einer Tür.",
+      "An einem Ast.",
+      "Am Dach."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif spielte früher Gitarre.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Nachbarn klatschten nicht.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-08-1",
+   "level": "A2",
+   "topic": "Dijital hayat",
+   "title": "Das Handy ist kaputt",
+   "paragraphs": [
+    "Elif: Mein Handy funktioniert nicht mehr.",
+    "Tom: Der Bildschirm bleibt schwarz. Ist der Akku leer?",
+    "Elif: Nein, ich habe den Akku gestern geladen.",
+    "Tom: Vielleicht hast du aus Versehen die falsche Taste gedrückt.",
+    "Elif: Kannst du den Fehler auf dem Bildschirm sehen?",
+    "Tom: Ja. Ich glaube, dass die App das Handy blockiert.",
+    "Elif: Ich schicke dir das Foto per Nachricht.",
+    "Tom: Weißt du, wie das WLAN-Passwort lautet?",
+    "Elif: Ja, ich schreibe es lieber auf. Der Akku ist fast leer.",
+    "Tom: Ich habe die App heruntergeladen. Wir buchen jetzt einen Termin.",
+    "Elif: Danke! Bitte schick mir die Bestätigung per Nachricht.",
+    "Tom: Gern. Ich schreibe dir auch jeden Schritt auf."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Telefonum artık çalışmıyor.",
+     "en": "Elif: My phone doesn’t work anymore."
+    },
+    {
+     "tr": "Tom: Ekran siyah kalıyor. Şarjı mı bitti?",
+     "en": "Tom: The screen stays black. Is the battery empty?"
+    },
+    {
+     "tr": "Elif: Hayır, pili dün şarj ettim.",
+     "en": "Elif: No, I charged the battery yesterday."
+    },
+    {
+     "tr": "Tom: Belki yanlışlıkla yanlış tuşa bastın.",
+     "en": "Tom: Maybe you pressed the wrong button by accident."
+    },
+    {
+     "tr": "Elif: Ekrandaki hatayı görebiliyor musun?",
+     "en": "Elif: Can you see the error on the screen?"
+    },
+    {
+     "tr": "Tom: Evet. Uygulamanın telefonu kilitlediğini düşünüyorum.",
+     "en": "Tom: Yes. I think the app has blocked the phone."
+    },
+    {
+     "tr": "Elif: Fotoğrafı sana mesajla gönderiyorum.",
+     "en": "Elif: I’m sending you the photo by message."
+    },
+    {
+     "tr": "Tom: Wi-Fi şifresinin ne olduğunu biliyor musun?",
+     "en": "Tom: Do you know what the Wi-Fi password is?"
+    },
+    {
+     "tr": "Elif: Evet, not etmeyi tercih ederim. Şarjım neredeyse bitti.",
+     "en": "Elif: Yes, I’d rather write it down. The battery is almost empty."
+    },
+    {
+     "tr": "Tom: Uygulamayı indirdim. Şimdi randevu alıyoruz.",
+     "en": "Tom: I downloaded the app. We’ll book an appointment now."
+    },
+    {
+     "tr": "Elif: Teşekkürler! Lütfen onayı bana mesajla gönder.",
+     "en": "Elif: Thanks! Please send me the confirmation by message."
+    },
+    {
+     "tr": "Tom: Tabii. Her adımı da sana yazarım.",
+     "en": "Tom: Sure. I’ll write down every step for you too."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "blockieren",
+     "lemma": "blockieren",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "engellemek",
+      "en": "to block"
+     }
+    },
+    {
+     "form": "Bestätigung",
+     "lemma": "Bestätigung",
+     "art": "die",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "onay",
+      "en": "confirmation"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was ist mit Elifs Handy?",
+     "options": [
+      "Der Bildschirm bleibt schwarz.",
+      "Der Lautsprecher ist kaputt.",
+      "Die Kamera fehlt."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wie wollen sie den Termin buchen?",
+     "options": [
+      "Mit einer App.",
+      "Am Schalter.",
+      "Per Brief."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif hat den Akku gestern geladen.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Tom schickt Elif keine Bestätigung.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-08-2",
+   "level": "A2",
+   "topic": "Dijital hayat",
+   "title": "Ein Termin mit dem Handy",
+   "paragraphs": [
+    "Elifs Handy funktionierte am Morgen plötzlich nicht mehr.",
+    "Der Bildschirm blieb schwarz, obwohl der Akku fast voll war. Sie startete das Ger?t neu, aber der Bildschirm blieb dunkel.",
+    "Tom sah den Fehler und sagte, dass eine Taste klemmte.",
+    "Elif schickte ihm ein Foto per Nachricht von Linas Tablet.",
+    "Sie öffneten die Wetter-App und suchten die Adresse der Werkstatt.",
+    "Tom lud die Termin-App herunter und füllte das Formular aus.",
+    "Elif las jeden Schritt mit und schrieb die Bestätigung auf.",
+    "Tom erklärte, dass sie das Handy am nächsten Tag abholen konnten. Am Abend bedankte sie sich bei Tom f?r seine schnelle Hilfe."
+   ],
+   "trans": [
+    {
+     "tr": "Elif’in telefonu sabah aniden çalışmamaya başladı.",
+     "en": "Elif’s phone suddenly stopped working in the morning."
+    },
+    {
+     "tr": "Şarjı neredeyse dolu olmasına rağmen ekran siyah kaldı. Cihaz? yeniden ba?latt? ama ekran karanl?k kald?.",
+     "en": "The screen stayed black even though the battery was almost full. She restarted the device, but the screen stayed dark."
+    },
+    {
+     "tr": "Tom hatayı gördü ve bir tuşun sıkıştığını söyledi.",
+     "en": "Tom saw the error and said a button was stuck."
+    },
+    {
+     "tr": "Elif ona Lina’nın tabletinden mesajla bir fotoğraf gönderdi.",
+     "en": "Elif sent him a photo by message from Lina’s tablet."
+    },
+    {
+     "tr": "Hava durumu uygulamasını açıp tamirhanenin adresini aradılar.",
+     "en": "They opened the weather app and looked for the repair shop’s address."
+    },
+    {
+     "tr": "Tom randevu uygulamasını indirdi ve formu doldurdu.",
+     "en": "Tom downloaded the appointment app and filled out the form."
+    },
+    {
+     "tr": "Elif her adımı takip etti ve onay bilgisini not aldı.",
+     "en": "Elif followed each step and wrote down the confirmation."
+    },
+    {
+     "tr": "Tom telefonu ertesi gün alabileceklerini açıkladı. Ak?am Tom?a h?zl? yard?m? i?in te?ekk?r etti.",
+     "en": "Tom explained that they could pick up the phone the next day. In the evening she thanked Tom for his quick help."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "klemmte",
+     "lemma": "klemmen",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "sıkışmak",
+      "en": "to get stuck"
+     }
+    },
+    {
+     "form": "Formular",
+     "lemma": "Formular",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "form",
+      "en": "form"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was blieb schwarz?",
+     "options": [
+      "Der Bildschirm.",
+      "Die Wetter-App.",
+      "Das Tablet."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann konnten sie das Handy abholen?",
+     "options": [
+      "Am selben Abend.",
+      "Am nächsten Tag.",
+      "Am Freitag."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Tom füllte ein Formular aus.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif fand die Bestätigung nicht.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-09-1",
+   "level": "A2",
+   "topic": "Öğrenmek",
+   "title": "Der Lernplan steht",
+   "paragraphs": [
+    "Lina: Wann machst du die Prüfung?",
+    "Elif: Ich mache im Mai eine Prüfung. Ich muss regelmäßig lernen.",
+    "Lina: Ich versuche, jeden Tag zu lernen. Wann hast du Zeit?",
+    "Elif: Nach der Arbeit kann ich eine Stunde lernen.",
+    "Lina: Wir können am Dienstag zusammen neue Wörter üben.",
+    "Elif: Was bedeutet dieses Wort im Kursbuch?",
+    "Lina: Es bedeutet „Prüfung“. Schreib das Stichwort in dein Heft.",
+    "Elif: Ich habe vergessen, die Hausaufgaben zu machen.",
+    "Lina: Dann machen wir sie heute. Das macht bestimmt Spaß.",
+    "Elif: Gut. Ich habe vor, jeden Tag zu lernen.",
+    "Lina: Am Prüfungstag stehe ich früh auf und begleite dich.",
+    "Elif: Danke! Danach lernen wir neue Leute kennen."
+   ],
+   "trans": [
+    {
+     "tr": "Lina: Sınava ne zaman gireceksin?",
+     "en": "Lina: When are you taking the exam?"
+    },
+    {
+     "tr": "Elif: Mayısta sınava gireceğim. Düzenli çalışmalıyım.",
+     "en": "Elif: I’m taking an exam in May. I need to study regularly."
+    },
+    {
+     "tr": "Lina: Her gün çalışmaya çalışıyorum. Ne zaman vaktin var?",
+     "en": "Lina: I try to study every day. When do you have time?"
+    },
+    {
+     "tr": "Elif: İşten sonra bir saat çalışabilirim.",
+     "en": "Elif: I can study for an hour after work."
+    },
+    {
+     "tr": "Lina: Salı günü birlikte yeni kelimeler çalışabiliriz.",
+     "en": "Lina: We can practice new words together on Tuesday."
+    },
+    {
+     "tr": "Elif: Kurs kitabındaki bu kelime ne anlama geliyor?",
+     "en": "Elif: What does this word in the coursebook mean?"
+    },
+    {
+     "tr": "Lina: “Sınav” demek. Anahtar kelimeyi defterine yaz.",
+     "en": "Lina: It means “exam.” Write the keyword in your notebook."
+    },
+    {
+     "tr": "Elif: Ödevleri yapmayı unuttum.",
+     "en": "Elif: I forgot to do the homework."
+    },
+    {
+     "tr": "Lina: O zaman bugün yaparız. Kesin eğlenceli olur.",
+     "en": "Lina: Then we’ll do them today. It’ll certainly be fun."
+    },
+    {
+     "tr": "Elif: Güzel. Her gün çalışmayı planlıyorum.",
+     "en": "Elif: Good. I plan to study every day."
+    },
+    {
+     "tr": "Lina: Sınav günü erken kalkıp sana eşlik edeceğim.",
+     "en": "Lina: On exam day, I’ll get up early and go with you."
+    },
+    {
+     "tr": "Elif: Teşekkürler! Sonra yeni insanlarla tanışacağız.",
+     "en": "Elif: Thanks! Afterwards, we’ll meet new people."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Stichwort",
+     "lemma": "Stichwort",
+     "art": "das",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "anahtar kelime",
+      "en": "keyword"
+     }
+    },
+    {
+     "form": "begleiten",
+     "lemma": "begleiten",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "eşlik etmek",
+      "en": "to accompany"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "In welchem Monat macht Elif die Prüfung?",
+     "options": [
+      "Im März.",
+      "Im Mai.",
+      "Im Juli."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "mc",
+     "q": "Wann kann Elif eine Stunde lernen?",
+     "options": [
+      "Vor der Arbeit.",
+      "Nach der Arbeit.",
+      "Am Morgen."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif plant, jeden Tag zu lernen.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Lina will Elif am Prüfungstag nicht begleiten.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-09-2",
+   "level": "A2",
+   "topic": "Öğrenmek",
+   "title": "Elifs Prüfungstag",
+   "paragraphs": [
+    "Elif bereitete sich im Frühling auf ihre Goethe-A2-Prüfung vor.",
+    "Sie hatte vor, jeden Abend nach der Arbeit eine Stunde zu lernen.",
+    "Zuerst wiederholte sie neue Wörter und schrieb jedes Stichwort auf. Danach las sie einen Text laut und markierte wichtige W?rter.",
+    "Wenn sie ein Wort nicht verstand, fragte sie Lina um Hilfe.",
+    "Tom übte mit ihr, kurze Antworten zu geben und deutlich zu sprechen.",
+    "Am Prüfungstag klingelte ihr Wecker um sechs Uhr.",
+    "Lina begleitete Elif zur Schule, und beide waren pünktlich dort. Vor dem Geb?ude atmete Elif tief durch und l?chelte.",
+    "Nach der Prüfung sagte Elif, dass die Aufgaben leichter waren als erwartet."
+   ],
+   "trans": [
+    {
+     "tr": "Elif ilkbaharda Goethe A2 sınavına hazırlandı.",
+     "en": "Elif prepared for her Goethe A2 exam in spring."
+    },
+    {
+     "tr": "Her akşam işten sonra bir saat çalışmayı planlıyordu.",
+     "en": "She planned to study for an hour every evening after work."
+    },
+    {
+     "tr": "Önce yeni kelimeleri tekrar etti ve her anahtar kelimeyi yazdı. Ard?ndan bir metni sesli okudu ve ?nemli s?zc?kleri i?aretledi.",
+     "en": "First, she reviewed new words and wrote down each keyword. Then she read a text aloud and marked important words."
+    },
+    {
+     "tr": "Bir kelimeyi anlamadığında Lina’dan yardım istedi.",
+     "en": "If she didn’t understand a word, she asked Lina for help."
+    },
+    {
+     "tr": "Tom onunla kısa cevaplar vermeyi ve anlaşılır konuşmayı çalıştı.",
+     "en": "Tom practiced giving short answers and speaking clearly with her."
+    },
+    {
+     "tr": "Sınav günü saati altıda çaldı.",
+     "en": "On exam day, her alarm rang at six."
+    },
+    {
+     "tr": "Lina Elif’e okula kadar eşlik etti ve ikisi de zamanında oradaydı. Binan?n ?n?nde Elif derin bir nefes ald? ve g?l?msedi.",
+     "en": "Lina accompanied Elif to the school, and both arrived on time. Outside the building Elif took a deep breath and smiled."
+    },
+    {
+     "tr": "Sınavdan sonra Elif soruların beklediğinden daha kolay olduğunu söyledi.",
+     "en": "After the exam, Elif said the tasks were easier than expected."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "sich vorbereiten auf",
+     "lemma": "sich vorbereiten",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "… için hazırlanmak",
+      "en": "to prepare for"
+     }
+    },
+    {
+     "form": "deutlich",
+     "lemma": "deutlich",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "anlaşılır",
+      "en": "clearly"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wie lange lernte Elif abends?",
+     "options": [
+      "Eine Stunde.",
+      "Zwei Stunden.",
+      "Drei Stunden."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wann klingelte der Wecker?",
+     "options": [
+      "Um fünf Uhr.",
+      "Um sechs Uhr.",
+      "Um sieben Uhr."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Tom übte mit Elif kurze Antworten.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Elif kam zu spät zur Prüfung.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-10-1",
+   "level": "A2",
+   "topic": "Çevre",
+   "title": "Der Umwelttag im Innenhof",
+   "paragraphs": [
+    "Elif: Am Samstag machen wir einen Umwelttag im Innenhof.",
+    "Lina: Gute Idee! Ich trenne den Müll und bringe die Eimer.",
+    "Elif: Das Fahrrad ist besser als das Auto für kurze Wege.",
+    "Lina: Wir kaufen am liebsten regionales Gemüse für unser Picknick.",
+    "Elif: Bring die Flaschen bitte zum Container.",
+    "Lina: Ich kann auch die Regentonne neben den Abfluss stellen.",
+    "Elif: Dann sammeln wir Wasser für die Pflanzen.",
+    "Lina: Im Park ist es am ruhigsten. Wollen wir dort aufräumen?",
+    "Elif: Ja. Ich bringe Eimer und eine Taschenlampe.",
+    "Lina: Die Lichterkette leuchtet abends mit wenig Strom.",
+    "Elif: Super. Danach kommen alle wieder in den Innenhof."
+   ],
+   "trans": [
+    {
+     "tr": "Elif: Cumartesi avluda çevre günü düzenliyoruz.",
+     "en": "Elif: We’re holding an environment day in the courtyard on Saturday."
+    },
+    {
+     "tr": "Lina: Güzel fikir! Çöpleri ayırıp kovaları getiririm.",
+     "en": "Lina: Good idea! I’ll sort the rubbish and bring the buckets."
+    },
+    {
+     "tr": "Elif: Kısa mesafelerde bisiklet arabadan daha iyidir.",
+     "en": "Elif: A bike is better than a car for short trips."
+    },
+    {
+     "tr": "Lina: Pikniğimiz için en çok yöresel sebze almayı seviyoruz.",
+     "en": "Lina: We prefer to buy local vegetables for our picnic."
+    },
+    {
+     "tr": "Elif: Şişeleri lütfen konteynere götür.",
+     "en": "Elif: Please take the bottles to the recycling bin."
+    },
+    {
+     "tr": "Lina: Yağmur suyu varilini giderin yanına koyabilirim.",
+     "en": "Lina: I can also put the rain barrel beside the drain."
+    },
+    {
+     "tr": "Elif: O zaman bitkiler için su biriktiririz.",
+     "en": "Elif: Then we’ll collect water for the plants."
+    },
+    {
+     "tr": "Lina: Park en sakin yer. Orada temizlik yapalım mı?",
+     "en": "Lina: The park is quietest. Shall we clean up there?"
+    },
+    {
+     "tr": "Elif: Evet. Kova ve el feneri getiriyorum.",
+     "en": "Elif: Yes. I’ll bring a bucket and a flashlight."
+    },
+    {
+     "tr": "Lina: Işık zinciri akşamları az elektrikle yanıyor.",
+     "en": "Lina: The string lights shine in the evening using little electricity."
+    },
+    {
+     "tr": "Elif: Harika. Sonra herkes avluya geri geliyor.",
+     "en": "Elif: Great. Afterwards everyone comes back to the courtyard."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Umwelttag",
+     "lemma": "Umwelttag",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "çevre günü",
+      "en": "environment day"
+     }
+    },
+    {
+     "form": "regional",
+     "lemma": "regional",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "yöresel",
+      "en": "local"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Wohin sollen die Flaschen?",
+     "options": [
+      "Zum Container.",
+      "Zur Regentonne.",
+      "In den Park."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Was sammeln sie für die Pflanzen?",
+     "options": [
+      "Sand.",
+      "Wasser.",
+      "Papier."
+     ],
+     "answer": 1
+    },
+    {
+     "type": "tf",
+     "q": "Elif findet das Fahrrad für kurze Wege besser.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Lichterkette braucht sehr viel Strom.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "s-a2-10-2",
+   "level": "A2",
+   "topic": "Çevre",
+   "title": "Ein sauberer Innenhof",
+   "paragraphs": [
+    "Elif und Lina planten einen Umwelttag für ihre Nachbarschaft. Sie teilten die Aufgaben auf und machten einen einfachen Plan.",
+    "Am Samstag kamen viele Helfer mit Eimern und Handschuhen.",
+    "Zuerst trennten sie Glas, Papier und anderen Müll.",
+    "Das Fahrrad war für kurze Wege besser als das Auto.",
+    "Frau Schmidt brachte regionales Gemüse und frisches Brot.",
+    "Tom stellte eine Regentonne unter die Regenrinne, damit sie Wasser sammeln konnten.",
+    "Die Kinder reinigten den Abfluss und schraubten einen lockeren Griff fest.",
+    "Am Abend leuchtete eine Lichterkette, doch die Kerzen blieben aus.",
+    "Alle fanden den Park am ruhigsten und gingen gemeinsam dorthin zurück. Die Nachbarn lobten die Idee und versprachen, n?chstes Jahr mitzuhelfen."
+   ],
+   "trans": [
+    {
+     "tr": "Elif ve Lina mahalleleri için çevre günü planladı. G?revleri b?l???p basit bir plan yapt?lar.",
+     "en": "Elif and Lina planned an environment day for their neighborhood. They divided the tasks and made a simple plan."
+    },
+    {
+     "tr": "Cumartesi birçok yardımcı kova ve eldivenlerle geldi.",
+     "en": "On Saturday, many helpers came with buckets and gloves."
+    },
+    {
+     "tr": "Önce camı, kâğıdı ve diğer çöpleri ayırdılar.",
+     "en": "First, they sorted glass, paper, and other rubbish."
+    },
+    {
+     "tr": "Kısa mesafelerde bisiklet arabadan daha iyiydi.",
+     "en": "The bike was better than the car for short journeys."
+    },
+    {
+     "tr": "Frau Schmidt yöresel sebze ve taze ekmek getirdi.",
+     "en": "Ms Schmidt brought local vegetables and fresh bread."
+    },
+    {
+     "tr": "Tom su biriktirebilmeleri için yağmur oluğunu altına bir varil koydu.",
+     "en": "Tom put a rain barrel under the gutter so they could collect water."
+    },
+    {
+     "tr": "Çocuklar gideri temizledi ve gevşek bir kolu vidaladı.",
+     "en": "The children cleaned the drain and tightened a loose handle."
+    },
+    {
+     "tr": "Akşam bir ışık zinciri yandı ama mumlar yakılmadı.",
+     "en": "In the evening, a string of lights shone, while the candles stayed unlit."
+    },
+    {
+     "tr": "Herkes parkı en sakin yer buldu ve birlikte oraya geri döndü. Kom?ular bu fikri ?vd? ve gelecek y?l yard?m s?z? verdi.",
+     "en": "Everyone found the park quietest and went back there together. The neighbors praised the idea and promised to help next year."
+    }
+   ],
+   "glossary": [
+    {
+     "form": "Handschuh",
+     "lemma": "Handschuh",
+     "art": "der",
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "eldiven",
+      "en": "glove"
+     }
+    },
+    {
+     "form": "festschrauben",
+     "lemma": "festschrauben",
+     "art": null,
+     "pron": null,
+     "extra": null,
+     "mean": {
+      "tr": "vidalayarak sıkıştırmak",
+      "en": "to screw tight"
+     }
+    }
+   ],
+   "questions": [
+    {
+     "type": "mc",
+     "q": "Was brachte Frau Schmidt mit?",
+     "options": [
+      "Regionalgemüse und Brot.",
+      "Kerzen und Kuchen.",
+      "Werkzeug und Farbe."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Wohin stellte Tom die Regentonne?",
+     "options": [
+      "Unter die Regenrinne.",
+      "Neben den Park.",
+      "Auf das Dach."
+     ],
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Die Nachbarn sammelten Glas und Papier getrennt.",
+     "options": null,
+     "answer": 0
+    },
+    {
+     "type": "tf",
+     "q": "Am Abend brannten Kerzen im Hof.",
+     "options": null,
+     "answer": 1
+    }
+   ]
+  }
+ ],
+ "units": {
+  "a2-01": [
+   "s-a2-01-1",
+   "s-a2-01-2"
+  ],
+  "a2-02": [
+   "s-a2-02-1",
+   "s-a2-02-2"
+  ],
+  "a2-03": [
+   "s-a2-03-1",
+   "s-a2-03-2"
+  ],
+  "a2-04": [
+   "s-a2-04-1",
+   "s-a2-04-2"
+  ],
+  "a2-05": [
+   "s-a2-05-1",
+   "s-a2-05-2"
+  ],
+  "a2-06": [
+   "s-a2-06-1",
+   "s-a2-06-2"
+  ],
+  "a2-07": [
+   "s-a2-07-1",
+   "s-a2-07-2"
+  ],
+  "a2-08": [
+   "s-a2-08-1",
+   "s-a2-08-2"
+  ],
+  "a2-09": [
+   "s-a2-09-1",
+   "s-a2-09-2"
+  ],
+  "a2-10": [
+   "s-a2-10-1",
+   "s-a2-10-2"
+  ]
+ }
+}
