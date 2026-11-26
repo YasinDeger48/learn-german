@@ -193,6 +193,9 @@ struct TodayPractice: View {
             // The word run game, in the space under the tiles (owner's request 2026-11-27).
             NavigationLink(value: A1Route.wordRun) { WordRunCard() }
                 .buttonStyle(.pressable)
+            // Word matching, moved up from Practice to Today (owner's request).
+            NavigationLink(value: A1Route.match(nil)) { MatchGameCard() }
+                .buttonStyle(.pressable)
             let songs = SongBank.songs(model.level).count
             if songs > 0 {
                 NavigationLink(value: A1Route.songs) { SongsCard(count: songs) }
