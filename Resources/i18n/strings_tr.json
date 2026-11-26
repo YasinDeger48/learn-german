@@ -685,6 +685,8 @@
  "exam.passed": "Geçti",
  "exam.notPassed": "Henüz değil",
  "exam.total": "100 üzerinden {0} puan",
+ "exam.rulesModule": "B1 ve B2’de ayrıca her modülden en az {0} puan gerekir.",
+ "exam.moduleBelow": "Her modülde en az {0} puan gerekir. Eksik kalan: {1}",
  "exam.partPoints": "{0} / {1} puan",
  "exam.partCorrect": "{1} sorudan {0} doğru",
  "exam.countRight": "{0} doğru",

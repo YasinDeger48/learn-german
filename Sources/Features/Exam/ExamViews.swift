@@ -24,7 +24,12 @@ struct ExamAttempt: Codable, Hashable {
     let scores: [String: Int]
     var counts: [String: [Int]]? = nil
     var total: Int { scores.values.reduce(0, +) }
-    var passed: Bool { total >= ExamStore.passMark }
+    var passed: Bool { total >= ExamStore.passMark && weakModules.isEmpty }
+    /// B1/B2 (like Goethe B1/B2): every module needs 60 % (15 of 25) too; these are the ones below it.
+    var weakModules: [ExamModule] {
+        guard ExamStore.modular(level) else { return [] }
+        return ExamModule.allCases.filter { (scores[$0.rawValue] ?? 0) < ExamStore.moduleMark }
+    }
 }
 
 /// "12/15" for a module's right answers, or nil when they were not saved.
@@ -35,6 +40,9 @@ func examCount(_ counts: [String: [Int]]?, _ module: ExamModule) -> String? {
 
 enum ExamStore {
     static let passMark = 60
+    /// Minimum points per module (of 25) where the levels ask for it.
+    static let moduleMark = 15
+    static func modular(_ level: String) -> Bool { ["B1", "B2"].contains(level.uppercased()) }
     static let changed = Notification.Name("ExamStoreChanged")
     private static let certificatesKey = "certificates"
     private static let attemptsKey = "examAttempts"
@@ -156,7 +164,9 @@ struct ExamHomeView: View {
                     .buttonStyle(.pressable)
                 }
 
-                Text(t("exam.rules", ExamStore.passMark)).font(.footnote).foregroundColor(DS.muted)
+                Text(t("exam.rules", ExamStore.passMark)
+                     + (ExamStore.modular(level) ? " " + t("exam.rulesModule", ExamStore.moduleMark) : ""))
+                    .font(.footnote).foregroundColor(DS.muted)
 
                 NavigationLink(value: AppRoute.examRun) {
                     Text(t("exam.start", ExamModule.allCases.map(\.minutes).reduce(0, +)))
@@ -379,6 +389,10 @@ struct ExamRunView: View {
                 }
                 .buttonStyle(.pressable)
             } else if !attempt.passed {
+                if !attempt.weakModules.isEmpty {
+                    Text(t("exam.moduleBelow", ExamStore.moduleMark, attempt.weakModules.map(\.title).joined(separator: ", ")))
+                        .font(.footnote.weight(.semibold)).foregroundColor(DS.error)
+                }
                 Text(t("exam.tryAgain", ExamStore.passMark)).font(.footnote).foregroundColor(DS.muted)
             }
         }

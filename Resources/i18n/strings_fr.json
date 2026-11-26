@@ -685,6 +685,8 @@
  "exam.passed": "Réussi",
  "exam.notPassed": "Pas encore",
  "exam.total": "{0} sur 100 points",
+ "exam.rulesModule": "At B1 and B2 you also need at least {0} points in every module.",
+ "exam.moduleBelow": "Every module needs at least {0} points. Below it: {1}",
  "exam.partPoints": "{0} / {1} points",
  "exam.partCorrect": "{0} of {1} answers right",
  "exam.countRight": "{0} right",
