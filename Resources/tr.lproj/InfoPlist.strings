@@ -1,3 +1,4 @@
 "NSUserTrackingUsageDescription" = "Seçimin, ücretsiz sürümdeki reklamların sana göre kişiselleştirilip kişiselleştirilemeyeceğini belirler. Deschly her iki durumda da aynı çalışır.";
 "NSMicrophoneUsageDescription" = "Konuşma alıştırması, telaffuzunu puanlamak için söylediklerini dinler. Hiçbir şey kaydedilmez veya saklanmaz.";
 "NSSpeechRecognitionUsageDescription" = "Konuşma alıştırması, kontrol etmek için Almancanı yazıya çevirir. Hiçbir şey saklanmaz.";
+"NSCameraUsageDescription" = "Kamerayla öğren, Almanca yazıları okur ve nesneleri tanır; kelimeleri göstermek için telefonunda çalışır. Fotoğraflar kaydedilmez veya gönderilmez.";

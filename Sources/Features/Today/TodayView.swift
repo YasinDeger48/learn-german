@@ -200,6 +200,11 @@ struct TodayPractice: View {
                 NavigationLink(value: A1Route.linaChat) { LinaChatCard() }
                     .buttonStyle(.pressable)
             }
+            // Learn with the camera: scan German text, name objects, the "Evde bul" game.
+            if PhotoCapture.available {
+                NavigationLink(value: A1Route.camera) { CameraLearnCard() }
+                    .buttonStyle(.pressable)
+            }
             // Word matching, moved up from Practice to Today (owner's request).
             NavigationLink(value: A1Route.match(nil)) { MatchGameCard() }
                 .buttonStyle(.pressable)

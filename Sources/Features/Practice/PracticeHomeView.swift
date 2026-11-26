@@ -26,6 +26,7 @@ enum A1Route: Hashable {
     case wordRun
     case songs
     case linaChat
+    case camera
 }
 
 /// Every practice screen, reachable from any tab's NavigationStack.
@@ -85,6 +86,8 @@ struct A1Destination: View {
             SongsHomeView(level: model.level)
         case .linaChat:
             LinaChatHomeView(level: model.level)
+        case .camera:
+            CameraLearnView()
         }
     }
 }

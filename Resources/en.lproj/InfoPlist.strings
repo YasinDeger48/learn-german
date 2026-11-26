@@ -1,3 +1,4 @@
 "NSUserTrackingUsageDescription" = "Your choice decides whether ads in the free version can be personalised. Deschly works the same either way.";
 "NSMicrophoneUsageDescription" = "Speaking practice listens to what you say to score your pronunciation. Nothing is recorded or kept.";
 "NSSpeechRecognitionUsageDescription" = "Speaking practice turns your German into text to check it. Nothing is stored.";
+"NSCameraUsageDescription" = "Learn with the camera reads German text and recognises objects on your phone to show the words. Pictures are not saved or sent.";
