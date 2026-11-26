@@ -144,14 +144,17 @@ struct TodayPractice: View {
             LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
                 tile(.mode(.artikel), "Artikel", t("today.left", max(0, model.totalFor(.artikel) - model.seenCount(.artikel))),
                      "textformat", DS.die, progress: seenShare(.artikel))
+                    .overlay(alignment: .bottomTrailing) { MistakeGroupBadge(model: model, group: .artikel) }
                 if model.totalFor(.hoeren) > 0 {
                     tile(.mode(.hoeren), "Hören", t("today.hoerenNote"), "headphones", .orange, progress: seenShare(.hoeren))
+                        .overlay(alignment: .bottomTrailing) { MistakeGroupBadge(model: model, group: .hoeren) }
                 } else {
                     tile(.mode(.cloze), t("mode.cloze.title"), t("today.left", max(0, model.totalFor(.cloze) - model.seenCount(.cloze))),
                          "square.dashed", .teal, progress: seenShare(.cloze))
                 }
                 tile(.grammarList, "Grammatik", t("practice.grammarTopics", model.content?.grammar.count ?? 0),
                      "books.vertical.fill", .indigo, progress: nil)
+                    .overlay(alignment: .bottomTrailing) { MistakeGroupBadge(model: model, group: .grammar) }
                 tile(.mistakes, t("practice.mistakes"), t("today.mistakesNote"), "arrow.uturn.backward", .red,
                      progress: nil, badge: model.state.wrong.count)
                     .disabled(model.state.wrong.isEmpty)

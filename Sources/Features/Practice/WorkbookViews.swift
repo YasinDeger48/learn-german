@@ -98,6 +98,7 @@ struct A1GrammarListView: View {
             VStack(alignment: .leading, spacing: 10) {
                 Text(withMistakes > 0 ? t("grammar.summaryMistakes", done, withMistakes) : t("grammar.summary", done, all.count))
                     .font(.subheadline).foregroundColor(DS.muted)
+                MistakeGroupRow(model: model, group: .grammar)
                 HStack(spacing: 8) {
                     chip(.all, t("grammar.filterAll"))
                     chip(.open, t("grammar.filterOpen"))

@@ -290,6 +290,7 @@ struct ModuleView: View {
                 .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
 
                 Text(t("modules.practice")).font(.title3.weight(.bold)).padding(.top, 4)
+                if module == .hoeren { MistakeGroupRow(model: model, group: .hoeren) }
                 VStack(spacing: 0) {
                     ForEach(Array(rows.enumerated()), id: \.offset) { index, row in
                         if index > 0 { Divider().padding(.leading, 56) }
@@ -372,6 +373,7 @@ struct WordsBasicsView: View {
         let modes: [A1Mode] = [.artikel, .wordToTr, .trToWord, .plural, .verbs, .numbers].filter { model.totalFor($0) > 0 }
         ScrollView {
             VStack(spacing: 14) {
+                MistakeGroupRow(model: model, group: .artikel)
                 VStack(spacing: 0) {
                     NavigationLink(value: A1Route.wordList) {
                         ModuleRow(icon: "textformat.abc", color: .blue, title: t("practice.wordList"), subtitle: nil,

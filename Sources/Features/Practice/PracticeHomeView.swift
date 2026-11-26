@@ -22,6 +22,7 @@ enum A1Route: Hashable {
     case speakRepeat
     case speakTask(String)
     case phone
+    case mistakesOf(MistakeGroup)
 }
 
 /// Every practice screen, reachable from any tab's NavigationStack.
@@ -73,6 +74,8 @@ struct A1Destination: View {
             if let task = SpeakingBank.task(id) { SpeakTaskView(task: task) }
         case .phone:
             PhoneCallsView(level: model.level)
+        case .mistakesOf(let group):
+            A1QuizView(title: group.title, review: true) { model.mistakeSession(group) }
         }
     }
 }
