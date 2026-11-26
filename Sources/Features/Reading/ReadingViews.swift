@@ -225,7 +225,8 @@ struct DailyReadingView: View {
                 Image(systemName: ambience.enabled ? "waveform.circle.fill" : "waveform.circle")
                     .font(.system(size: 22, weight: .semibold))
                     .foregroundColor(ambience.enabled ? DS.goldDeep : DS.muted)
-                    .frame(width: 36, height: 36)
+                    .frame(width: 44, height: 44)
+                    .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
             .accessibilityLabel(t("ambience.toggle"))
@@ -500,6 +501,8 @@ struct DailyReadingView: View {
                         .foregroundColor(DS.onNight)
                         .frame(width: 36, height: 36)
                         .background(Color.white.opacity(0.12), in: Circle())
+                        .frame(width: 44, height: 44)
+                        .contentShape(Rectangle())
                 }
                 .buttonStyle(.pressable)
                 .accessibilityLabel(t("common.close"))
@@ -795,6 +798,7 @@ struct SavedWordsView: View {
                             Spacer()
                             A1SpeakButton(text: item.gloss.display)
                         }
+                        .speaksOnTap(item.gloss.display)
                     }
                     .onDelete { offsets in
                         for i in offsets { daily.removeSaved(items[i].gloss.display) }

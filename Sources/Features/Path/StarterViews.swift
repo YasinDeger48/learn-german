@@ -193,6 +193,7 @@ struct StarterGreetingsView: View {
                 Spacer()
                 A1SpeakButton(text: phrase.de)
             }
+            .speaksOnTap(phrase.de)
         }
         .navigationTitle(t("starter.greetings"))
         .navigationBarTitleDisplayMode(.inline)

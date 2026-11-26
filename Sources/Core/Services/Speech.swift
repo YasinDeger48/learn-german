@@ -180,6 +180,14 @@ enum Dialogue {
     }
 }
 
+extension View {
+    /// The whole row reads `text` aloud, not only the small speaker icon on it. The buttons on the row
+    /// (A1SpeakButton, the slow one) keep their own taps. VoiceOver users keep using those buttons.
+    func speaksOnTap(_ text: String, slow: Bool = false) -> some View {
+        contentShape(Rectangle()).onTapGesture { A1Speaker.shared.say(text, slow: slow) }
+    }
+}
+
 struct A1SpeakButton: View {
     let text: String
     var slow = false

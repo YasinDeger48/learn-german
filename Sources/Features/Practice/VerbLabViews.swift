@@ -212,6 +212,7 @@ struct VerbDetailView: View {
             Spacer(minLength: 0)
             A1SpeakButton(text: verb.v)
         }
+        .speaksOnTap(verb.v)
     }
 
     private func chip(_ text: String) -> some View {
@@ -259,6 +260,7 @@ struct VerbDetailView: View {
             A1SpeakButton(text: sentence.de)
         }
         .padding(14)
+        .speaksOnTap(sentence.de)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
     }

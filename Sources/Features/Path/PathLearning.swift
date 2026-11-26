@@ -462,6 +462,7 @@ struct GrammarRuleCard: View {
                             Spacer(minLength: 0)
                             A1SpeakButton(text: example.de)
                         }
+                        .speaksOnTap(example.de)
                     }
                 }
                 .padding(12)

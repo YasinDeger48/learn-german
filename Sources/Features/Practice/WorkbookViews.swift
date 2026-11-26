@@ -50,6 +50,7 @@ struct A1ThemeView: View {
                                 Spacer()
                                 A1SpeakButton(text: item.element.de)
                             }
+                            .speaksOnTap(item.element.de)
                         }
                         if let er = word.er {
                             Text("\(er) · \(word.perfekt ?? "")").font(.caption)
@@ -446,6 +447,8 @@ struct A1TextView: View {
                     .frame(width: 40, height: 34)
                     .background(slow ? DS.gold : Color.clear, in: Capsule())
                     .overlay(Capsule().stroke(DS.hairline, lineWidth: slow ? 0 : 1))
+                    .frame(width: 44, height: 44)
+                    .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
             .accessibilityLabel(t("common.listenSlow"))
@@ -603,6 +606,7 @@ struct A1WordRow: View {
                 }
             }
         }
+        .speaksOnTap(word.withArticle)
     }
 }
 
@@ -667,6 +671,7 @@ struct NumberQuizSection: View {
                     A1SpeakButton(text: a1GermanNumber(n))
                     A1SpeakButton(text: a1GermanNumber(n), slow: true)
                 }
+                .speaksOnTap(a1GermanNumber(n))
                 LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
                     ForEach(options, id: \.self) { option in
                         Button { choose(option) } label: {
@@ -762,6 +767,7 @@ struct A1NumbersLearnView: View {
                         A1SpeakButton(text: a1GermanNumber(n))
                         A1SpeakButton(text: a1GermanNumber(n), slow: true)
                     }
+                    .speaksOnTap(a1GermanNumber(n))
                     if n < 1000 {
                         Text(a1NumberPieces(n).joined(separator: " · ")).font(.callout).foregroundStyle(.secondary)
                     }
@@ -834,6 +840,7 @@ struct A1NumbersLearnView: View {
             Spacer()
             A1SpeakButton(text: right)
         }
+        .speaksOnTap(right)
     }
 }
 

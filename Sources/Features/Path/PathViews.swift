@@ -706,6 +706,7 @@ struct UnitPhrasesView: View {
                         A1SpeakButton(text: phrase.de, slow: true)
                     }
                     .padding(14)
+                    .speaksOnTap(phrase.de)
                     .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                 }
                 NavigationLink {

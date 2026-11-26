@@ -320,6 +320,8 @@ struct SpeakRepeatView: View {
                             .foregroundColor(useHints ? DS.goldDeep : DS.muted)
                             .frame(width: 34, height: 34)
                             .background(useHints ? DS.gold.opacity(0.2) : DS.chip, in: Circle())
+                            .frame(width: 44, height: 44)
+                            .contentShape(Rectangle())
                     }
                     .buttonStyle(.plain)
                     .accessibilityLabel(useHints ? t("speak.hintOn") : t("speak.hintOff"))
@@ -494,12 +496,16 @@ struct SpeakTaskView: View {
                                 .foregroundColor(useHints ? DS.onGold : .white)
                                 .frame(width: 34, height: 34)
                                 .background(useHints ? DS.gold : Color.white.opacity(0.2), in: Circle())
+                                .frame(width: 44, height: 44)
+                                .contentShape(Rectangle())
                         }
                         .buttonStyle(.plain)
                         .accessibilityLabel(useHints ? t("speak.hintOn") : t("speak.hintOff"))
                         Button { A1Speaker.shared.say(task.prompt) } label: {
                             Image(systemName: "speaker.wave.2.fill").foregroundColor(DS.onGold)
                                 .frame(width: 34, height: 34).background(DS.gold, in: Circle())
+                                .frame(width: 44, height: 44)
+                                .contentShape(Rectangle())
                         }
                         .buttonStyle(.plain)
                         .accessibilityLabel(t("common.listen"))

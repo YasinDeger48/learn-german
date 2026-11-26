@@ -201,6 +201,8 @@ struct TodayIsland<Pill: View, Card: View>: View {
         Button { withAnimation(spring) { action() } } label: {
             Image(systemName: icon).font(.system(size: 12, weight: .bold)).foregroundColor(.white)
                 .frame(width: 28, height: 28).background(Color.white.opacity(0.12), in: Circle())
+                .frame(width: 44, height: 44)  // the circle stays small, the finger target is 44 pt
+                .contentShape(Rectangle())
         }
         .accessibilityLabel(t("common.close"))
     }

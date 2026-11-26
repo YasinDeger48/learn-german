@@ -132,6 +132,7 @@ struct WritingFormView: View {
                     A1SpeakButton(text: task.text ?? "")
                 }
                 .padding(16)
+                .speaksOnTap(task.text ?? "")
                 .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
 
                 VStack(spacing: 0) {
