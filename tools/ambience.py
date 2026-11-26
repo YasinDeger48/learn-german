@@ -42,8 +42,29 @@ KINDS = {
 MIN_HITS = 2
 # Kinds whose search also needs the Freesound tag (plain searches find other sounds first).
 TAGGED = {'rain'}
-# Hand-picked where the word count chooses badly.
-OVERRIDES = {'a1-001': 'street'}
+# Hand-picked where the word count chooses badly or finds too few words (chosen by reading the texts, 2026-11-26).
+# Texts left out on purpose: no fitting place (plane, silent cinema, orchestra or theatre rehearsal, gym).
+OVERRIDES = {
+    'a1-001': 'street',
+    'a1-005': 'train', 'a1-006': 'office', 'a1-007': 'home', 'a1-008': 'home', 'a1-011': 'home', 'a1-015': 'home',
+    'a1-017': 'home', 'a1-019': 'office', 'a1-021': 'home', 'a1-024': 'home', 'a1-026': 'home', 'a1-028': 'office',
+    'a1-029': 'cafe', 'a1-033': 'home', 'a1-034': 'home', 'a1-036': 'office', 'a1-037': 'nature', 'a1-038': 'home',
+    'a1-040': 'school', 'a1-043': 'office', 'a1-045': 'shop', 'a1-047': 'nature', 'a1-048': 'home', 'a1-050': 'school',
+    'a1-052': 'street', 'a1-054': 'home', 'a1-055': 'home', 'a1-056': 'home', 'a1-057': 'home', 'a1-059': 'home',
+    'a1-060': 'street',
+    's-a1-01-1': 'school', 's-a1-02-1': 'school', 's-a1-04-1': 'shop', 's-a1-08-1': 'office', 's-a1-08-2': 'home',
+    's-a1-10-2': 'school', 's-a1-12-1': 'office', 's-a1-12-2': 'office',
+    'a2-002': 'office', 'a2-007': 'office', 'a2-010': 'home', 'a2-013': 'home', 'a2-016': 'home', 'a2-017': 'office',
+    'a2-022': 'home', 'a2-023': 'home', 'a2-024': 'street', 'a2-025': 'shop', 'a2-026': 'nature', 'a2-029': 'school',
+    'a2-042': 'home', 'a2-043': 'home', 'a2-044': 'street', 'a2-047': 'shop', 'a2-057': 'school', 'a2-060': 'home',
+    'b1-005': 'office', 'b1-006': 'office', 'b1-009': 'home', 'b1-010': 'school', 'b1-015': 'home', 'b1-020': 'home',
+    'b1-023': 'nature', 'b1-024': 'office', 'b1-026': 'nature', 'b1-031': 'office', 'b1-034': 'school',
+    'b1-037': 'office', 'b1-040': 'nature', 'b1-047': 'school', 'b1-050': 'street', 'b1-060': 'home',
+    'b2-006': 'cafe', 'b2-008': 'home', 'b2-011': 'shop', 'b2-015': 'office', 'b2-016': 'home', 'b2-022': 'office',
+    'b2-027': 'nature', 'b2-029': 'office', 'b2-031': 'office', 'b2-032': 'office', 'b2-043': 'office',
+    'b2-045': 'office', 'b2-046': 'office', 'b2-052': 'home', 'b2-054': 'office', 'b2-056': 'office',
+    'b2-058': 'office',
+}
 
 
 def all_texts():
