@@ -56,6 +56,10 @@ struct A1QuizView: View {
     @State private var askFinish = false
     /// Questions left unanswered when the round was finished early (they give no XP).
     @State private var skipped = 0
+    /// "Lina, neden?": her explanations of the current question (and more examples), cleared on the next one.
+    @State private var linaText: [String] = []
+    @State private var linaBusy = false
+    @State private var linaFailed = false
     @FocusState private var typingFocused: Bool
 
     var body: some View {
@@ -305,6 +309,9 @@ struct A1QuizView: View {
         revealed = false
         wasCorrect = false
         showText = false
+        linaText = []
+        linaBusy = false
+        linaFailed = false
     }
 
     private func playIfNeeded() {
@@ -629,6 +636,7 @@ struct A1QuizView: View {
                 Text(explanation).font(.callout).foregroundStyle(.secondary)
             }
             if !wasCorrect { ruleReminder(q) }
+            if !wasCorrect && LinaAI.isAvailable { linaWhy(q) }
             HStack {
                 if q.dialog != nil || q.speakAfter != nil || q.speakFirst != nil {
                     Button {
@@ -682,6 +690,72 @@ struct A1QuizView: View {
             .padding(12)
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(DS.surface.opacity(0.85), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        }
+    }
+
+    /// "Lina, neden?" (Apple's on-device model, iOS 26+): why the answer was wrong, then more examples on request.
+    @ViewBuilder
+    private func linaWhy(_ q: A1Question) -> some View {
+        if linaText.isEmpty && !linaBusy {
+            Button { askLina(q, again: false) } label: {
+                Label(t("lina.why"), systemImage: "sparkles")
+                    .font(.system(size: 15, weight: .semibold))
+                    .frame(maxWidth: .infinity, minHeight: 44)
+            }
+            .buttonStyle(.bordered)
+            .tint(DS.goldDeep)
+        } else {
+            VStack(alignment: .leading, spacing: 10) {
+                HStack(alignment: .top, spacing: 10) {
+                    LinaAvatar(size: 36, mood: .curious)
+                    VStack(alignment: .leading, spacing: 8) {
+                        ForEach(Array(linaText.enumerated()), id: \.offset) { _, part in
+                            Text(part).font(.callout).foregroundColor(DS.ink).fixedSize(horizontal: false, vertical: true)
+                        }
+                        if linaBusy {
+                            HStack(spacing: 8) {
+                                ProgressView()
+                                Text(t("lina.thinking")).font(.footnote).foregroundColor(DS.muted)
+                            }
+                        }
+                        if linaFailed {
+                            Text(t("lina.failed")).font(.footnote).foregroundColor(DS.error)
+                        }
+                    }
+                }
+                if !linaBusy && !linaText.isEmpty && linaText.count < 4 {
+                    Button { askLina(q, again: true) } label: {
+                        Label(t("lina.anotherExample"), systemImage: "plus.bubble")
+                            .font(.system(size: 14, weight: .semibold))
+                            .frame(minHeight: 40)
+                    }
+                    .buttonStyle(.bordered)
+                }
+            }
+            .padding(12)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(DS.gold.opacity(0.14), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        }
+    }
+
+    private func askLina(_ q: A1Question, again: Bool) {
+        let given: String
+        switch q.kind {
+        case .choice: given = picked ?? ""
+        case .typing: given = typed
+        case .order: given = order.map { q.options[$0] }.joined(separator: " ")
+        }
+        let rule = q.topic.flatMap { id in model.content?.grammar.first(where: { $0.id == id })?.rule.values["en"] }
+        let question = [q.prompt, q.detail].compactMap { $0 }.joined(separator: " · ")
+        let asked = q.id
+        linaBusy = true
+        linaFailed = false
+        Task {
+            let answer = await LinaAI.explainMistake(question: question, given: given, answer: q.answer, rule: rule,
+                                                     level: model.level, again: again)
+            guard session.indices.contains(index), session[index].id == asked else { return }  // moved on meanwhile
+            linaBusy = false
+            if let answer { linaText.append(answer) } else { linaFailed = true }
         }
     }
 

@@ -25,6 +25,7 @@ enum A1Route: Hashable {
     case mistakesOf(MistakeGroup)
     case wordRun
     case songs
+    case linaChat
 }
 
 /// Every practice screen, reachable from any tab's NavigationStack.
@@ -82,6 +83,8 @@ struct A1Destination: View {
             WordRunView()
         case .songs:
             SongsHomeView(level: model.level)
+        case .linaChat:
+            LinaChatHomeView(level: model.level)
         }
     }
 }

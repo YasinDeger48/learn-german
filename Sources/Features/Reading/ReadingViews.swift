@@ -64,6 +64,7 @@ struct DailyReadingView: View {
     /// Where the pressed word is on screen and how big the bubble is, to keep the bubble inside the screen.
     @State private var bubbleAnchor: CGRect = .zero
     @State private var bubbleSize: CGSize = .zero
+    @State private var showLina = false
     @Environment(\.dismiss) private var dismiss
 
     private let speeds: [Float] = [1.0, 0.8, 0.6]
@@ -145,6 +146,17 @@ struct DailyReadingView: View {
                 }
                 .font(DS.text(14, .semibold))
             }
+            // "Lina'ya sor" (Apple's on-device model, iOS 26+).
+            ToolbarItem(placement: .navigationBarTrailing) {
+                if LinaAI.isAvailable {
+                    Button { showLina = true } label: { Image(systemName: "sparkles") }
+                        .accessibilityLabel(t("lina.ask"))
+                }
+            }
+        }
+        .sheet(isPresented: $showLina) {
+            LinaAskView(title: text.title, text: text.paragraphs.joined(separator: "\n"), level: text.level)
+                .presentationDetents([.medium, .large])
         }
         .onAppear {
             daily.markRead(text)

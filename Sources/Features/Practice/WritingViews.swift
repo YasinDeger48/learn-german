@@ -294,6 +294,13 @@ struct WritingMessageView: View {
                     .background(DS.chip, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
                 }
 
+                // "Lina değerlendirsin" (Apple's on-device model, iOS 26+).
+                if checked && LinaAI.isAvailable {
+                    LinaReviewCard(task: task.prompt ?? task.title.text,
+                                   points: (task.points ?? []).map { $0.label.values["en"] ?? $0.say },
+                                   text: text, level: task.level)
+                }
+
                 Button(checked ? t("write.again") : t("write.check")) {
                     if checked {
                         checked = false
