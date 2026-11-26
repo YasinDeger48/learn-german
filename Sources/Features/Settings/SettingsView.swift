@@ -180,7 +180,7 @@ struct AboutAppView: View {
                     }
                 }
                 HStack {
-                    Label(t("settings.version"), systemImage: "number")
+                    Text(t("settings.version"))
                     Spacer()
                     Text(Self.version).foregroundStyle(.secondary)
                 }
