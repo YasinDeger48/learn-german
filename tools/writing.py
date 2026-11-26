@@ -411,6 +411,10 @@ PATTERN = {
 
 
 def main():
+    # The B2 tasks Codex wrote (tools/tasks_upper.py import keeps them in tools/tasks_extra.json).
+    extra = os.path.join(REPO, 'tools', 'tasks_extra.json')
+    if os.path.exists(extra):
+        TASKS.extend(t for t in json.load(open(extra, encoding='utf-8'))['writing'] if t['id'] not in {x['id'] for x in TASKS})
     ids = [t['id'] for t in TASKS]
     assert len(ids) == len(set(ids))
     for t in TASKS:

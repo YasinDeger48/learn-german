@@ -55,6 +55,9 @@ The owner talks to agents in Turkish: answer him in Turkish. Code, comments, com
 | `memorize.json` (Mutlaka bil) | `tools/memorize.py` |
 | `verbs_<level>.json` (verb lab) | `tools/verblab.py` |
 | `phone_<level>.json` (Telefonda: calls, voicemail; phone sound made by `tools/audio.py`) | `tools/phone.py` |
+| `stories_<level>.json` (path stories; A1 `tools/stories.py`) | `tools/stories_upper.py` (A2, B1, B2) |
+| More B2 tasks in `writing.json` / `speaking.json` | `tools/tasks_upper.py` (kept in `tools/tasks_extra.json`) |
+| `songs_a1.json` (karaoke, public-domain songs, our music) | `tools/karaoke.py` |
 | Reading / word audio, background sounds | `tools/audio.py`, `tools/word_audio.py`, `tools/audio_pad.py`, `tools/ambience.py` |
 
 ## Content jobs list (Codex)

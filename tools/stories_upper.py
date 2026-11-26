@@ -1,4 +1,4 @@
-"""Path stories for A2 and up: per unit a dialogue and a short narrative, with the unit's words, phrases and grammar.
+"""Path stories for A2, B1 and B2: per unit a dialogue and a short narrative, with the unit's words, phrases and grammar.
 The A1 stories have their own tool with a strict word list (tools/stories.py); from A2 on the learner knows the
 A1 words, so the request lists the unit's words and grammar and the import checks the shape only.
 
@@ -39,6 +39,50 @@ STORYLINE = {
     'a2-09': 'Elif Goethe A2 sınavına hazırlanır; Lina ile çalışma planı yaparlar, sınav günü. zu + Infinitiv '
              '("Ich habe vor, jeden Tag zu lernen").',
     'a2-10': 'Mahallede çevre günü: çöp toplama, geri dönüşüm, enerji tasarrufu. Karşılaştırma (besser, am besten).',
+    # B1: Elif's third year; she works in an office now, lives in a shared flat and wants to stay in Germany.
+    'b1-01': 'Elif Ehrenfeld\'de yeni bir paylaşımlı daireye (WG) taşınır; ev arkadaşlarını ve mahalleyi anlatır, '
+             'çöp ve gürültü konusunda ev toplantısı yapılır. Relativsätze: "die Nachbarin, die …", "das Café, wo …".',
+    'b1-02': 'Elif ofiste daha fazla sorumluluk ister; Frau Wolf ile toplantıda kibarca konuşur. Konjunktiv II ile rica ve '
+             'tavsiye ("Könnten Sie …?", "An Ihrer Stelle würde ich …") ve dolaylı sorular ("Ich wollte fragen, ob …").',
+    'b1-03': 'Elif\'in annesi Köln\'e ilk kez gelir; birlikte ailenin göç hikâyesini ve dedenin 1970\'lerde Almanya\'da '
+             'çalıştığı yılları konuşurlar. Präteritum ve Plusquamperfekt ("Nachdem er angekommen war, …").',
+    'b1-04': 'Elif bir kahve makinesi alır, makine bozuk çıkar; mağazayla şikâyet görüşmesi yapar, Lina ile tüketim ve '
+             'ikinci el üzerine konuşur. Sıfat çekimi ve iki parçalı bağlaçlar (sowohl … als auch, weder … noch).',
+    'b1-05': 'Elif çok stresli; uykusu kaçar. Doktor ona rahatlama tavsiyeleri verir, Lina ile yogaya başlar. '
+             'Dativ ile dönüşlü fiiller ("Ich putze mir die Zähne", "Ich habe mir den Fuß verletzt") ve lassen.',
+    'b1-06': 'Elif oturum iznini uzatmak için Ausländerbehörde\'ye gider: form doldurulur, belgeler kontrol edilir, '
+             'randevu alınır. Passiv ("Der Antrag wird geprüft", "Die Unterlagen wurden geschickt").',
+    'b1-07': 'Tom\'un sosyal medyadaki bir haberi yanlış çıkar; Elif, Lina ve Tom sahte haberler, medya ve gizlilik '
+             'üzerine tartışır. Modal fiilli Passiv ("Das muss geprüft werden") ve Genitiv edatları (wegen, trotz, während).',
+    'b1-08': 'Elif ve Lina Viyana\'ya trenle bir hafta sonu gezisi planlar; grev yüzünden tren iptal olur, yeni plan '
+             'yaparlar. obwohl, bevor, damit, falls yan cümleleri ve Futur I.',
+    'b1-09': 'Elif akşamları bir meslek kursuna (Weiterbildung) başlamak ister; kurs danışmanıyla konuşur, hedeflerini '
+             'anlatır. um … zu / statt … zu ve edatlı fiiller ("sich interessieren für", "Worauf freust du dich?").',
+    'b1-10': 'Mahallede iklim ve gelecek üzerine bir panel; Elif "Wenn ich Bürgermeisterin wäre, …" diye hayal kurar, '
+             'Herr Brandt ile tartışır. Konjunktiv II irreale Bedingung ve n-Deklination (der Kollege, den Kollegen).',
+    'b1-11': 'Elif bir mülteci yardım derneğinde gönüllü olur; çocuklara kitap okur, bir mahalle festivali '
+             'düzenlenir. Präteritum ile anlatım ve edatlı fiiller (sich engagieren für, teilnehmen an).',
+    # B2: Elif's fourth year; she has a new job as a project assistant and takes part in public life.
+    'b2-01': 'Elif yeni şirketinde proje asistanı olur; çalışma saatleri ve evden çalışma üzerine resmî bir toplantı. '
+             'İsim-fiil kalıpları (eine Entscheidung treffen, in Frage kommen) ve da, zumal, obgleich, dennoch.',
+    'b2-02': 'Köln\'de yeni bir bisiklet yolu ve araçsız bölge planı; Elif mahalle toplantısında görüş bildirir. '
+             'Zustandspassiv ("Die Straße ist gesperrt") ve Passiversatz ("Das lässt sich lösen", "ist zu klären").',
+    'b2-03': 'Şirkette yeni bir yazılım kurulur; Elif yaşlı komşusu Frau Schmidt\'e akıllı telefon kullanmayı öğretir. '
+             'indem, dadurch dass, wodurch ve Partizipialattribute ("die neu installierte Software").',
+    'b2-04': 'Elif bir haber sitesinde şirketiyle ilgili bir haber okur ve ekibine aktarır; kaynaklar tartışılır. '
+             'Konjunktiv I ile dolaylı anlatım ("Der Sprecher sagte, das Unternehmen sei …").',
+    'b2-05': 'Lina\'nın kız kardeşi bebek bekliyor; aile hastane ve doğum izni üzerine konuşur, tahminler yapılır. '
+             'Öznel modal fiiller ("Sie dürfte bald kommen", "Er soll sehr nett sein") ve Futur II.',
+    'b2-06': 'Elif bir ay boyunca hiç yeni giysi almamaya karar verir; Tom ile tüketim ve sürdürülebilirlik tartışılır. '
+             'sofern, falls, während, wohingegen ve ohne dass / statt … zu.',
+    'b2-07': 'İş yerinde bir eşitsizlik sorunu: bir meslektaşa daha az ücret ödeniyor; işçi temsilcisiyle konuşulur. '
+             'wer/was/wo(r)- ile Relativsätze, Genitiv ile Relativsatz ("deren Vertrag") ve es Korrelat.',
+    'b2-08': 'Elif\'in banka kartı kopyalanır; bankayla ve müşteri hizmetleriyle resmî görüşmeler yapılır. '
+             'Genitiv edatları (aufgrund, hinsichtlich, mittels) ve Nominalisierung ("die Sperrung der Karte").',
+    'b2-09': 'Elif bir üniversitede dil ve göç üzerine bir araştırmaya katılır; sonuçlar bir sunumda anlatılır. '
+             'Verbalisierung ("nach der Auswertung" → "nachdem ausgewertet wurde") ve edatlı fiil/sıfatlar.',
+    'b2-10': 'Elif Almanya\'daki dört yılına bakar; Lina ile neyi farklı yapardı, neye pişman, ne gurur verici konuşur. '
+             'Konjunktiv II der Vergangenheit ("Ich hätte früher …"), als ob ve Infinitiv Perfekt.',
 }
 CAST = ('Kişiler: Elif (Türkiye\'den, 25 yaşında, Köln\'de bir yıldır), Lina (Deschly\'nin maskotu, Elif\'in neşeli '
         'arkadaşı), Tom (Lina\'nın arkadaşı), Frau Schmidt (komşu), Herr Brandt (yeni komşu), Frau Wolf (şef). '
@@ -47,6 +91,21 @@ LEVEL_RULES = {
     'A2': 'Seviye A2 (Goethe A2): cümleler en fazla 14 kelime; A1 kelimelerini öğrenci biliyor. Ünitenin kelimelerinden '
           'en az 5\'ini ve gramer konularını doğal biçimde kullan. Listede ve A1\'de olmayan zor kelime gerekiyorsa '
           'hikaye başına EN FAZLA 4 tane, hepsi "glossary"de.',
+    'B1': 'Seviye B1 (Goethe B1): cümleler en fazla 18 kelime; A1–A2 kelimelerini öğrenci biliyor. Ünitenin kelimelerinden '
+          'en az 6\'sını ve iki gramer konusunu doğal biçimde kullan (her biri en az 2 kez). Zor kelime gerekiyorsa hikaye '
+          'başına EN FAZLA 5 tane, hepsi "glossary"de. Konuşma dili doğal olsun, ders kitabı gibi yapay değil.',
+    'B2': 'Seviye B2 (Goethe B2): cümleler en fazla 22 kelime, yan cümleler ve bağlaçlar zengin; A1–B1 kelimelerini öğrenci '
+          'biliyor. Ünitenin kelimelerinden en az 6\'sını ve gramer konularını doğal biçimde kullan (her biri en az 2 kez). '
+          'Resmî ve günlük dil yerine göre değişsin. Zor kelime gerekiyorsa hikaye başına EN FAZLA 6 tane, hepsi "glossary"de.',
+}
+LEVEL_CAST = {
+    'A2': CAST,
+    'B1': ('Kişiler: Elif (Türkiye\'den, 26 yaşında, Köln\'de üçüncü yılı, bir ofiste çalışıyor), Lina (Deschly\'nin maskotu, '
+           'Elif\'in neşeli arkadaşı), Tom (Lina\'nın arkadaşı), Frau Wolf (şef), Herr Brandt (komşu), Frau Schmidt (yaşlı komşu); '
+           'gerekirse yeni kişiler (ev arkadaşları, danışman, doktor). Hikayeler A2\'nin devamı; her ünite bir sonrakine bağlanır.'),
+    'B2': ('Kişiler: Elif (Türkiye\'den, 27 yaşında, Köln\'de dördüncü yılı, bir şirkette proje asistanı), Lina (Deschly\'nin '
+           'maskotu), Tom, Frau Schmidt (yaşlı komşu), Herr Brandt; gerekirse yeni kişiler (meslektaşlar, banka görevlisi, '
+           'araştırmacı). Hikayeler B1\'in devamı; her ünite bir sonrakine bağlanır.'),
 }
 
 PROMPT = '''Sen deneyimli bir Almanca (DaF) ders kitabı yazarısın. Deschly uygulamasının {LEVEL} yolunda, ünite
@@ -99,7 +158,7 @@ def export(level):
     level_units = units(level)
     for index, unit in enumerate(level_units):
         words = ', '.join(f"{w['art']} {w['de']}" if w.get('art') else w['de'] for w in unit.get('vocab') or [])
-        body = PROMPT.format(LEVEL=level, TITLE=f"{unit['number']}. {unit['title']['tr']}", CAST=CAST,
+        body = PROMPT.format(LEVEL=level, TITLE=f"{unit['number']}. {unit['title']['tr']}", CAST=LEVEL_CAST[level],
                              STORY=STORYLINE[unit['id']], RULES=LEVEL_RULES[level], UNIT=unit['id'],
                              PHRASES='\n'.join(f"- {p['de']} ({p['tr']})" for p in unit.get('phrases') or []),
                              GRAMMAR='\n'.join(f"- {grammar[g]['de']} ({grammar[g]['name']['tr']})" for g in unit['grammar']),
@@ -190,7 +249,7 @@ def status():
         print(f'{level}: {len(have)}/{len(units(level))} units')
 
 
-STORY_LEVELS = ['A2']
+STORY_LEVELS = ['A2', 'B1', 'B2']
 
 if __name__ == '__main__':
     command = sys.argv[1] if len(sys.argv) > 1 else 'status'
