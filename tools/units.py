@@ -437,6 +437,25 @@ def fill_a2(units, level='a2'):
         assert len(u['vocab']) >= 12, u['id']
 
 
+def fill_a1_extra(units, a1, per=12):
+    """12 more words per A1 unit, besides its 16 picture cards: from the unit's themes, words no unit shows on a card
+    and no earlier unit took (units sharing a theme split it), only words with an example sentence. About 8 nouns and
+    4 verbs / adjectives / small words, in the file's order (simple words come first there). The app shows them as
+    letter cards after the pictures, and the unit's practice and test use them too."""
+    core = max(t['id'] for t in a1['themes'])  # the extra frequency list is the last theme
+    taken = {wid for u in units for wid in u['pictures']}
+    # Single words only: no number lists like "null, eins, zwei, drei" or "dreizehn … neunzehn".
+    words = [w for w in a1['words'] if w['theme'] != core and w.get('ex') and ',' not in w['de'] and '…' not in w['de']]
+    for u in units:
+        pool = [w for w in words if w['theme'] in u['themes'] and w['id'] not in taken]
+        nouns = [w for w in pool if w['type'] in ('der', 'die', 'das')]
+        others = [w for w in pool if w['type'] not in ('der', 'die', 'das')]
+        pick = nouns[:8] + others[:4]
+        pick += [w for w in nouns[8:] + others[4:]][:per - len(pick)]
+        u['extra'] = [w['id'] for w in pick]
+        taken.update(u['extra'])
+
+
 def main():
     import sys
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -449,7 +468,9 @@ def main():
     texts = {t['id'] for t in json.load(open(os.path.join(REPO, 'Resources', 'content', 'daily_a1.json'), encoding='utf-8'))['texts']}
     speaking = {t['id'] for t in json.load(open(os.path.join(REPO, 'Resources', 'content', 'speaking.json'), encoding='utf-8'))['tasks']}
     writing = {t['id'] for t in json.load(open(os.path.join(REPO, 'Resources', 'content', 'writing.json'), encoding='utf-8'))['tasks']}
+    fill_a1_extra(UNITS, a1)
     for u in UNITS:
+        assert len(u['extra']) >= 8, (u['id'], len(u['extra']))
         assert set(u['themes']) <= themes, u['id']
         assert set(u['grammar']) <= topics, u['id']
         assert set(u['texts']) <= texts, (u['id'], set(u['texts']) - texts)

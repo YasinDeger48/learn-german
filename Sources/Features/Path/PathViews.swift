@@ -37,6 +37,8 @@ struct LearningUnit: Decodable, Identifiable, Hashable {
     let phrases: [UnitPhrase]
     /// Word ids with a picture card (Resources/Covers/wp-<level>-<id>.jpg, made by tools/word_pictures.py).
     let pictures: [Int]?
+    /// A1: more words of the unit (from its themes, shown as letter cards after the pictures; tools/units.py).
+    let extra: [Int]?
     /// Words from the unit's texts, used instead of themes when present.
     let vocab: [UnitWord]?
 
@@ -135,6 +137,7 @@ extension A1Model {
         let byID = Dictionary(all.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
         var picked = (unit.pictures ?? []).compactMap { byID[$0] }
         if picked.isEmpty { picked = Array(all.filter { unit.themes.contains($0.theme) && $0.isNoun }.prefix(16)) }
+        picked += (unit.extra ?? []).compactMap { byID[$0] }
         return picked.map { UnitDrillWord(de: $0.de, art: $0.isNoun ? $0.type : nil, meaning: $0.mean.text) }
     }
 
@@ -176,7 +179,24 @@ extension A1Model {
 
     func unitGrammarSession(_ unit: LearningUnit, count: Int = 8) -> [A1Question] {
         let per = max(2, count / max(1, unit.grammar.count))
-        return Array(unit.grammar.flatMap { session(topic: $0, count: per) }.shuffled().prefix(count))
+        let early = Self.beforeAccusative(unit)
+        return Array(unit.grammar.flatMap { topic in
+            session(topic: topic, count: per * 4)
+                .filter { !early || !Self.accusativeAnswers.contains($0.answer.lowercased()) }
+                .prefix(per)
+        }.shuffled().prefix(count))
+    }
+
+    /// A1 topic "Nominativ & Akkusativ" (a1.json grammar id 6): units before the one that teaches it get no
+    /// questions whose answer is an accusative form ("seinen Onkel" in unit 2 came before the accusative).
+    private static let accusativeTopic = 6
+    private static let accusativeAnswers: Set<String> = ["einen", "keinen", "meinen", "deinen", "seinen", "ihren",
+                                                          "unseren", "euren", "den", "ihn"]
+
+    private static func beforeAccusative(_ unit: LearningUnit) -> Bool {
+        guard unit.level == "A1",
+              let teaching = UnitBank.units("A1").first(where: { $0.grammar.contains(accusativeTopic) }) else { return false }
+        return unit.number < teaching.number
     }
 
     /// Meaning of each phrase, and two phrases to put in order.
@@ -586,6 +606,7 @@ struct UnitWordsView: View {
         let byID = Dictionary(all.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
         var picked = (unit.pictures ?? []).compactMap { byID[$0] }
         if picked.isEmpty { picked = Array(all.filter { unit.themes.contains($0.theme) && $0.isNoun }.prefix(16)) }
+        picked += (unit.extra ?? []).compactMap { byID[$0] }  // no picture: shown as a letter card
         return picked.map { word in
             Card(id: "w\(word.id)", article: word.isNoun ? word.type : nil, de: word.de, meaning: word.mean.text,
                  picture: "wp-\(unit.level.lowercased())-\(word.id)")
