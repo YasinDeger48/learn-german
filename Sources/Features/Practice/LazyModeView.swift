@@ -614,7 +614,7 @@ struct LazyPlayerView: View {
                 Text(sheet.title.text).font(.subheadline.weight(.semibold)).foregroundColor(Self.soft)
                 Text(row.a).font(.system(size: 32, weight: .heavy)).foregroundColor(Self.ink).multilineTextAlignment(.center)
                 if showTranslation { Text(row.q.text).font(.title3).foregroundColor(Color(red: 0.23, green: 0.23, blue: 0.21)).multilineTextAlignment(.center) }
-                if let x = row.x, !x.isEmpty { exampleBox(x, nil).padding(.top, 8) }
+                if let x = row.x, !x.isEmpty { exampleBox(x, showTranslation ? row.xm?.text : nil).padding(.top, 8) }
             }
             .frame(maxWidth: .infinity)
         }

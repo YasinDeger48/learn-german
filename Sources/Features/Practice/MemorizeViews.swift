@@ -6,6 +6,8 @@ struct MemorizeRow: Decodable, Hashable {
     let q: LocText
     let a: String
     let x: String?
+    /// The example's meaning in the learner's language.
+    let xm: LocText?
 }
 
 struct MemorizeSheet: Decodable, Identifiable, Hashable {
@@ -131,6 +133,10 @@ struct MemorizeSheetView: View {
                                 VStack(alignment: .leading, spacing: 2) {
                                     Text(row.a).font(DS.text(16, .semibold)).foregroundColor(DS.ink)
                                     if let x = row.x { Text(x).font(.caption).italic().foregroundColor(DS.muted) }
+                                    // Its meaning under it, in the same type (owner's request).
+                                    if let meaning = row.xm?.text, !meaning.isEmpty {
+                                        Text(meaning).font(.caption).italic().foregroundColor(DS.muted)
+                                    }
                                 }
                                 .multilineTextAlignment(.leading)
                                 Spacer(minLength: 0)

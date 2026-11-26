@@ -1,6 +1,7 @@
 """Builds Resources/content/memorize.json: the "must know by heart" sheets (Mutlaka bil) with a drill each.
 
-    python -I -X utf8 tools/memorize.py
+    python -I -X utf8 tools/memorize.py              rebuilds the file (drops content translations: re-apply them)
+    python -I -X utf8 tools/memorize.py meanings     only adds the example meanings (xm) to the existing file
 
 A sheet has rows q → a (q may be {"tr","en"} or plain German) and an optional example x. The drill asks
 `ask` with {q} filled in and offers the sheet's other answers as wrong options. kind "rules" sheets are
@@ -24,7 +25,115 @@ def row(q, a, x=None):
     r = {'q': q, 'a': a}
     if x:
         r['x'] = x
+        if x in EXAMPLE_MEANINGS:
+            r['xm'] = tr(*EXAMPLE_MEANINGS[x])
     return r
+
+
+# The meaning of every example x (shown under it in the learner's language; es/fr/it/ku/ar come from the content
+# translations, tools/translate.py).
+EXAMPLE_MEANINGS = {
+    'Ich bin müde.': ('Yorgunum.', 'I am tired.'),
+    'Bist du zu Hause?': ('Evde misin?', 'Are you at home?'),
+    'Er ist Lehrer.': ('O öğretmen.', 'He is a teacher.'),
+    'Wir sind aus der Türkei.': ('Türkiyeliyiz.', 'We are from Turkey.'),
+    'Ihr seid nett.': ('Siz çok naziksiniz.', 'You are nice.'),
+    'Sind Sie Frau Kaya?': ('Siz Kaya Hanım mısınız?', 'Are you Ms Kaya?'),
+    'Ich habe Hunger.': ('Acıktım.', 'I am hungry.'),
+    'Hast du Zeit?': ('Vaktin var mı?', 'Do you have time?'),
+    'Sie hat zwei Kinder.': ('Onun iki çocuğu var.', 'She has two children.'),
+    'Wir haben ein Auto.': ('Bir arabamız var.', 'We have a car.'),
+    'Habt ihr Fragen?': ('Sorunuz var mı?', 'Do you have questions?'),
+    'Haben Sie Wasser?': ('Suyunuz var mı?', 'Do you have water?'),
+    'Ich kann schwimmen.': ('Yüzebilirim.', 'I can swim.'),
+    'Ich muss arbeiten.': ('Çalışmam lazım.', 'I have to work.'),
+    'Ich will nach Hause.': ('Eve gitmek istiyorum.', 'I want to go home.'),
+    'Ich möchte einen Kaffee.': ('Bir kahve istiyorum.', 'I would like a coffee.'),
+    'Darf ich fragen?': ('Sorabilir miyim?', 'May I ask?'),
+    'Der Mann ist hier.': ('Adam burada.', 'The man is here.'),
+    'Ich sehe den Mann.': ('Adamı görüyorum.', 'I see the man.'),
+    'Ich helfe dem Mann.': ('Adama yardım ediyorum.', 'I help the man.'),
+    'Die Frau ist hier.': ('Kadın burada.', 'The woman is here.'),
+    'Ich sehe die Frau.': ('Kadını görüyorum.', 'I see the woman.'),
+    'Ich helfe der Frau.': ('Kadına yardım ediyorum.', 'I help the woman.'),
+    'Das Kind ist hier.': ('Çocuk burada.', 'The child is here.'),
+    'Ich sehe das Kind.': ('Çocuğu görüyorum.', 'I see the child.'),
+    'Ich helfe dem Kind.': ('Çocuğa yardım ediyorum.', 'I help the child.'),
+    'Die Kinder sind hier.': ('Çocuklar burada.', 'The children are here.'),
+    'Ich sehe die Kinder.': ('Çocukları görüyorum.', 'I see the children.'),
+    'Ich helfe den Kindern.': ('Çocuklara yardım ediyorum.', 'I help the children.'),
+    'Das ist ein Tisch.': ('Bu bir masa.', 'This is a table.'),
+    'Ich habe einen Bruder.': ('Bir erkek kardeşim var.', 'I have a brother.'),
+    'mit einem Freund': ('bir arkadaşla (erkek)', 'with a friend (male)'),
+    'Das ist eine Lampe.': ('Bu bir lamba.', 'This is a lamp.'),
+    'Ich kaufe eine Jacke.': ('Bir ceket alıyorum.', 'I am buying a jacket.'),
+    'mit einer Freundin': ('bir arkadaşla (kadın)', 'with a friend (female)'),
+    'Das ist ein Haus.': ('Bu bir ev.', 'This is a house.'),
+    'Ich habe ein Auto.': ('Bir arabam var.', 'I have a car.'),
+    'Ich habe keine Kinder.': ('Çocuğum yok.', 'I have no children.'),
+    'Ich habe keinen Hunger.': ('Aç değilim.', 'I am not hungry.'),
+    'mein Vater': ('babam', 'my father'),
+    'dein Handy': ('senin telefonun', 'your phone'),
+    'sein Auto': ('onun arabası (erkek)', 'his car'),
+    'ihr Bruder': ('onun erkek kardeşi (kadın)', 'her brother'),
+    'sein Spielzeug': ('onun oyuncağı (çocuk)', 'its toy'),
+    'unser Haus': ('bizim evimiz', 'our house'),
+    'euer Garten': ('sizin bahçeniz', 'your garden (you all)'),
+    'ihr Hund': ('onların köpeği', 'their dog'),
+    'Ihr Pass': ('sizin pasaportunuz (resmî)', 'your passport (formal)'),
+    'aus der Türkei': ('Türkiye\'den', 'from Turkey'),
+    'beim Arzt': ('doktorda', 'at the doctor\'s'),
+    'mit dem Bus': ('otobüsle', 'by bus'),
+    'nach der Arbeit': ('işten sonra', 'after work'),
+    'seit einem Jahr': ('bir yıldır', 'for a year'),
+    'vom Bahnhof': ('istasyondan', 'from the station'),
+    'zum Supermarkt': ('süpermarkete', 'to the supermarket'),
+    'durch den Park': ('parkın içinden', 'through the park'),
+    'für dich': ('senin için', 'for you'),
+    'gegen den Baum': ('ağaca (çarpmak)', 'against the tree'),
+    'ohne Zucker': ('şekersiz', 'without sugar'),
+    'um den Tisch': ('masanın etrafında', 'around the table'),
+    'im Kino / ins Kino': ('sinemada / sinemaya', 'at the cinema / to the cinema'),
+    'am Fenster / ans Fenster': ('pencerede / pencereye', 'at the window / to the window'),
+    'auf dem Tisch / auf den Tisch': ('masanın üstünde / masanın üstüne', 'on the table / onto the table'),
+    'neben dem Bett': ('yatağın yanında', 'next to the bed'),
+    'unter dem Stuhl': ('sandalyenin altında', 'under the chair'),
+    'über dem Sofa': ('kanepenin üstünde (yukarıda)', 'above the sofa'),
+    'vor dem Haus': ('evin önünde', 'in front of the house'),
+    'hinter der Tür': ('kapının arkasında', 'behind the door'),
+    'zwischen den Häusern': ('evlerin arasında', 'between the houses'),
+    'Wer ist das?': ('Bu kim?', 'Who is that?'),
+    'Was machst du?': ('Ne yapıyorsun?', 'What are you doing?'),
+    'Wo wohnst du?': ('Nerede oturuyorsun?', 'Where do you live?'),
+    'Wohin fährst du?': ('Nereye gidiyorsun?', 'Where are you going?'),
+    'Woher kommst du?': ('Nerelisin?', 'Where are you from?'),
+    'Wann beginnt der Kurs?': ('Kurs ne zaman başlıyor?', 'When does the course start?'),
+    'Wie heißt du?': ('Adın ne?', 'What is your name?'),
+    'Warum lernst du Deutsch?': ('Neden Almanca öğreniyorsun?', 'Why are you learning German?'),
+    'Wie viele Kinder hast du?': ('Kaç çocuğun var?', 'How many children do you have?'),
+    'Wie viel kostet das?': ('Bu ne kadar?', 'How much is it?'),
+    'Welche Farbe magst du?': ('Hangi rengi seversin?', 'Which colour do you like?'),
+    'Wen besuchst du?': ('Kimi ziyaret ediyorsun?', 'Whom are you visiting?'),
+    'Wem gehört das?': ('Bu kimin?', 'Whose is this?'),
+}
+
+
+def add_meanings(path):
+    """Puts the meanings into the existing memorize.json without rebuilding it (keeps the content translations)."""
+    data = json.load(open(path, encoding='utf-8'))
+    added = 0
+    for s in data['sheets']:
+        for r in s['rows']:
+            x = r.get('x')
+            if x in EXAMPLE_MEANINGS:
+                old = r.get('xm') or {}
+                r['xm'] = {**old, **tr(*EXAMPLE_MEANINGS[x])}
+                added += 1
+    with open(path, 'w', encoding='utf-8', newline='\n') as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+        f.write('\n')
+    missing = sorted({r['x'] for s in data['sheets'] for r in s['rows'] if r.get('x') and r['x'] not in EXAMPLE_MEANINGS})
+    print(f'{added} example meanings in {path}; without a meaning: {missing}')
 
 
 def conj(verb, forms, examples=()):
@@ -195,6 +304,10 @@ SHEETS = [
 
 
 def main():
+    import sys
+    if 'meanings' in sys.argv:
+        add_meanings(OUT)
+        return
     ids = [s['id'] for s in SHEETS]
     assert len(ids) == len(set(ids))
     with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
