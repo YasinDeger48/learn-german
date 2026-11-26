@@ -355,6 +355,18 @@ struct A1QuizView: View {
                 .font(DS.text(13).monospacedDigit())
                 .foregroundStyle(.secondary)
             Spacer()
+            // Skip: graded rounds put the question at the end (come back to it, like in the exam);
+            // practice drops it (not counted). Hidden once answered; in a graded round the last open one can't move.
+            if !revealed && index < session.count && (!graded || index < session.count - 1) {
+                Button { skip() } label: {
+                    Label(t("quiz.skip"), systemImage: "forward.fill")
+                        .font(.system(size: 15, weight: .semibold))
+                        .padding(.horizontal, 6)
+                        .frame(minHeight: 36)
+                }
+                .buttonStyle(.bordered)
+                .accessibilityHint(graded ? t("quiz.skipLater") : t("quiz.skipPractice"))
+            }
             Button(role: .destructive) {
                 askFinish = true
             } label: {
@@ -375,6 +387,24 @@ struct A1QuizView: View {
         .padding(.vertical, 8)
         .background(.bar)
         .overlay(alignment: .top) { Divider() }
+    }
+
+    /// Exams and graded rounds (unit test, reading quiz, memorize …): every question counts.
+    private var graded: Bool { exam || onFinish != nil }
+
+    private func skip() {
+        guard index < session.count else { return }
+        A1Speaker.shared.stop()
+        typingFocused = false
+        let q = session.remove(at: index)
+        if graded {
+            session.append(q)  // comes again at the end
+        } else if session.isEmpty {
+            dismiss()
+            return
+        }
+        resetAnswer()
+        playIfNeeded()
     }
 
     /// Ends the round early. In an exam, and in every graded round (onFinish: unit test, reading quiz, memorize…),
