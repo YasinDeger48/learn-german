@@ -52,6 +52,8 @@ struct MatchGameView: View {
     @State private var startedAt = Date()
     @State private var result: MatchResult?
     @State private var pictureAvailable = false
+    /// Meaning or picture is chosen on a start screen, not inside the game (owner's request).
+    @State private var modeChosen = false
     private let screenID = UUID()
 
     private static let ink = Color(red: 0.055, green: 0.059, blue: 0.047)
@@ -67,6 +69,8 @@ struct MatchGameView: View {
             if let result {
                 MatchResultView(result: result, finish: { dismiss() }, again: { newGame() })
                     .transition(.opacity)
+            } else if pictureAvailable && !modeChosen {
+                chooser.transition(.opacity)
             } else {
                 game
             }
@@ -100,7 +104,6 @@ struct MatchGameView: View {
                     VStack(spacing: 12) { ForEach(answers) { answerCard($0) } }
                 }
                 .padding(.top, 2)
-                if pictureAvailable { modePicker.padding(.top, 8) }
             }
             .padding(.horizontal, 16)
             .padding(.bottom, 24)
@@ -145,7 +148,7 @@ struct MatchGameView: View {
             .background(
                 UnevenRoundedBubble()
                     .fill(Color.white)
-                    .shadow(color: Self.edge, radius: 0, y: 3)
+                    .overlay(UnevenRoundedBubble().stroke(Self.edge, lineWidth: 1.5))
             )
             .padding(.bottom, 24)
             Spacer(minLength: 0)
@@ -253,30 +256,52 @@ struct MatchGameView: View {
         .accessibilityAddTraits(state == .selected ? .isSelected : [])
     }
 
-    private var modePicker: some View {
-        HStack(spacing: 6) {
-            modeButton(.meaning, t("match.mode.meaning"))
-            modeButton(.picture, t("match.mode.picture"))
+    /// The start screen: Lina asks how to play, two big choices.
+    private var chooser: some View {
+        ScrollView {
+            VStack(spacing: 16) {
+                LinaAvatar(size: 110, mood: .happy, variant: 0)
+                    .padding(.top, 12)
+                Text(t("match.chooseTitle"))
+                    .font(.system(size: 24, weight: .heavy, design: .rounded))
+                    .foregroundColor(Self.ink)
+                    .multilineTextAlignment(.center)
+                modeChoice(.meaning, icon: "character.bubble.fill", title: t("match.mode.meaning"), sub: t("match.chooseMeaning"),
+                           color: Color(red: 0.36, green: 0.55, blue: 0.96))
+                modeChoice(.picture, icon: "photo.fill", title: t("match.mode.picture"), sub: t("match.choosePicture"),
+                           color: Color(red: 1, green: 0.48, blue: 0.27))
+            }
+            .padding(.horizontal, 20)
+            .padding(.bottom, 24)
         }
-        .padding(5)
-        .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Color.white))
-        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Self.edge, lineWidth: 1.5))
     }
 
-    private func modeButton(_ value: MatchMode, _ title: String) -> some View {
+    private func modeChoice(_ value: MatchMode, icon: String, title: String, sub: String, color: Color) -> some View {
         Button {
-            guard mode != value else { return }
             mode = value
             newGame()
+            withAnimation(.easeOut(duration: 0.25)) { modeChosen = true }
         } label: {
-            Text(title)
-                .font(.system(size: 15, weight: .bold, design: .rounded))
-                .foregroundColor(mode == value ? .white : Self.ink)
-                .frame(maxWidth: .infinity, minHeight: 46)
-                .background(mode == value ? Self.ink : Color.clear, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+            HStack(spacing: 14) {
+                Image(systemName: icon)
+                    .font(.system(size: 24, weight: .bold))
+                    .foregroundColor(.white)
+                    .frame(width: 58, height: 58)
+                    .background(color, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(title).font(.system(size: 19, weight: .heavy, design: .rounded)).foregroundColor(Self.ink)
+                    Text(sub).font(.system(size: 14, design: .rounded)).foregroundColor(Self.soft)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right").font(.system(size: 15, weight: .bold)).foregroundColor(Self.soft)
+            }
+            .padding(14)
+            .frame(maxWidth: .infinity, minHeight: 88)
+            .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Color.white))
+            .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Self.edge, lineWidth: 1.5))
         }
-        .buttonStyle(.plain)
-        .accessibilityAddTraits(mode == value ? .isSelected : [])
+        .buttonStyle(.pressable)
     }
 
     // MARK: Lina
@@ -542,19 +567,21 @@ private struct MatchResultView: View {
                         Spacer(minLength: 0)
                     }
                     .padding(12)
-                    .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Color.white).shadow(color: Self.edge, radius: 0, y: 4))
+                    .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Color.white))
+                    .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Self.edge, lineWidth: 1.5))
                 }
 
                 HStack(spacing: 10) {
                     Button(action: finish) {
                         Text(t("match.finish")).font(.system(size: 16, weight: .bold, design: .rounded)).foregroundColor(Self.ink)
                             .frame(maxWidth: .infinity, minHeight: 56)
-                            .background(Capsule().fill(Color.white).shadow(color: Self.edge, radius: 0, y: 4))
+                            .background(Capsule().fill(Color.white))
+                            .overlay(Capsule().stroke(Self.edge, lineWidth: 1.5))
                     }
                     Button(action: again) {
                         Text(t("match.again")).font(.system(size: 16, weight: .heavy, design: .rounded)).foregroundColor(Self.ink)
                             .frame(maxWidth: .infinity, minHeight: 56)
-                            .background(Capsule().fill(DS.gold).shadow(color: Color(red: 0.79, green: 0.60, blue: 0.12), radius: 0, y: 4))
+                            .background(Capsule().fill(DS.gold))
                     }
                 }
                 .buttonStyle(.pressable)
@@ -575,8 +602,8 @@ private struct MatchResultView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(14)
-        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(dark ? Self.ink : Color.white)
-            .shadow(color: dark ? Color(red: 0.23, green: 0.23, blue: 0.21) : Self.edge, radius: 0, y: 4))
+        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(dark ? Self.ink : Color.white))
+        .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(dark ? Color.clear : Self.edge, lineWidth: 1.5))
         .accessibilityElement(children: .combine)
     }
 
