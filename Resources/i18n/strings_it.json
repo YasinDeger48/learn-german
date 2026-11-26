@@ -679,6 +679,8 @@
  "unit.practisePhrases": "Esercitati con le frasi",
  "unit.wordsIntro": "Tocca una scheda per ascoltare la parola con il suo articolo. Colore = articolo: blu der, rosso die, verde das.",
  "unit.practiseWords": "Esercitati con le parole",
+ "path.review": "Ripasso: unità {0}–{1}",
+ "path.reviewSub": "Parole, grammatica e frasi di queste unità, insieme",
  "starter.title": "Inizio: alfabeto, suoni, numeri",
  "starter.sub": "Inizi il tedesco da zero? Comincia da qui: le lettere, i suoni tipici del tedesco, i numeri e i primi saluti.",
  "starter.progress": "{0} / 5 fatto",

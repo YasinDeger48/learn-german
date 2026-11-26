@@ -253,6 +253,7 @@ struct PathView: View {
                     }
                 }
                 if !units.isEmpty {
+                    reviewCards(units)
                     NavigationLink(value: AppRoute.examHome) {
                         HStack(spacing: 12) {
                             Image(systemName: "rosette").font(.system(size: 17, weight: .bold)).foregroundColor(DS.goldDeep)
@@ -331,6 +332,38 @@ struct PathView: View {
         }
         .background(DS.night, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
         .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+    }
+
+    /// A review after every four units, open once one unit of the block is passed.
+    @ViewBuilder
+    private func reviewCards(_ units: [LearningUnit]) -> some View {
+        let blocks = stride(from: 0, to: units.count, by: 4).map { Array(units[$0..<min($0 + 4, units.count)]) }
+        ForEach(Array(blocks.enumerated()), id: \.offset) { _, block in
+            if block.contains(where: { UnitStore.passed($0.id) }), let first = block.first, let last = block.last {
+                NavigationLink {
+                    A1QuizView(title: t("path.review", first.number, last.number)) {
+                        levels.model(level).blockReviewSession(block)
+                    }
+                    .environmentObject(levels.model(level))
+                } label: {
+                    HStack(spacing: 12) {
+                        Image(systemName: "arrow.triangle.2.circlepath")
+                            .font(.system(size: 16, weight: .bold)).foregroundColor(.white)
+                            .frame(width: 38, height: 38)
+                            .background(DS.accent, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                        VStack(alignment: .leading, spacing: 1) {
+                            Text(t("path.review", first.number, last.number)).font(.system(size: 15, weight: .bold)).foregroundColor(DS.ink)
+                            Text(t("path.reviewSub")).font(.caption).foregroundColor(DS.muted)
+                        }
+                        Spacer(minLength: 0)
+                        Image(systemName: "chevron.right").font(.footnote.weight(.bold)).foregroundStyle(.tertiary)
+                    }
+                    .padding(12)
+                    .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                }
+                .buttonStyle(.pressable)
+            }
+        }
     }
 
     @ViewBuilder

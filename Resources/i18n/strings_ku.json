@@ -679,6 +679,8 @@
  "unit.practisePhrases": "Bi îfadeyan pratîkê bike",
  "unit.wordsIntro": "Li ser kartê bitikîne da ku peyvê bi artikela xwe re bibihîze. Reng = artikel: şîn der, sor die, kesk das.",
  "unit.practiseWords": "Bi peyvan pratîkê bike",
+ "path.review": "Dubarekirin: yekîne {0}–{1}",
+ "path.reviewSub": "Peyv, rêziman û hevokên van yekîneyan, tevlihev",
  "starter.title": "Destpêk: alfabe, deng, hejmar",
  "starter.sub": "Tu ji sifirê dest bi Almanî dikî? Ji vir dest pê bike: tîp, dengên taybet ên Almanî, hejmar û silavên pêşîn.",
  "starter.progress": "{0} / 5 qediya",

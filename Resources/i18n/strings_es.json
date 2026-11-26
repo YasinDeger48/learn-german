@@ -679,6 +679,8 @@
  "unit.practisePhrases": "Practicar las frases",
  "unit.wordsIntro": "Toca una tarjeta para oír la palabra con su artículo. Color = artículo: azul der, rojo die, verde das.",
  "unit.practiseWords": "Practicar las palabras",
+ "path.review": "Repaso: unidades {0}–{1}",
+ "path.reviewSub": "Palabras, gramática y frases de estas unidades, mezcladas",
  "starter.title": "Inicio: alfabeto, sonidos, números",
  "starter.sub": "¿Empiezas el alemán desde cero? Empieza aquí: las letras, los sonidos propios del alemán, los números y los primeros saludos.",
  "starter.progress": "{0} / 5 hecho",

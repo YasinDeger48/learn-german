@@ -679,6 +679,8 @@
  "unit.practisePhrases": "Kalıpları çalış",
  "unit.wordsIntro": "Kelimeyi artikeliyle duymak için karta dokun. Renk = artikel: mavi der, kırmızı die, yeşil das.",
  "unit.practiseWords": "Kelimeleri çalış",
+ "path.review": "Tekrar: Ünite {0}–{1}",
+ "path.reviewSub": "Bu ünitelerin kelimeleri, gramer ve kalıpları karışık",
  "starter.title": "Başlangıç: alfabe, sesler, sayılar",
  "starter.sub": "Almancaya sıfırdan başlıyorsan buradan başla: harfler, Almancaya özgü sesler, sayılar ve ilk selamlaşmalar.",
  "starter.progress": "{0} / 5 tamam",

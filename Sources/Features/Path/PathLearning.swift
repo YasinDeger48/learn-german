@@ -180,6 +180,21 @@ extension A1Model {
     }
 }
 
+// MARK: - Review blocks
+
+extension A1Model {
+    /// "Review: units 1–4": words (at their stage), grammar and phrases of each unit of the block, mixed.
+    func blockReviewSession(_ units: [LearningUnit]) -> [A1Question] {
+        var out: [A1Question] = []
+        for unit in units {
+            out += unitWordSession(unit, count: 3)
+            out += unitGrammarSession(unit, count: 2)
+            out += unitPhraseSession(unit).prefix(1)
+        }
+        return Array(out.shuffled().prefix(24))
+    }
+}
+
 // MARK: - Unit stories
 
 /// Path stories (Resources/content/stories_a1.json, made by tools/stories.py from ChatGPT answers): written with the

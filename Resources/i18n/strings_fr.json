@@ -679,6 +679,8 @@
  "unit.practisePhrases": "S’entraîner avec les expressions",
  "unit.wordsIntro": "Touche une carte pour entendre le mot avec son article. Couleur = article : bleu der, rouge die, vert das.",
  "unit.practiseWords": "S’entraîner avec les mots",
+ "path.review": "Révision : unités {0}–{1}",
+ "path.reviewSub": "Mots, grammaire et phrases de ces unités, mélangés",
  "starter.title": "Départ : alphabet, sons, nombres",
  "starter.sub": "Tu commences l'allemand de zéro ? Commence ici : les lettres, les sons propres à l'allemand, les nombres et les premières salutations.",
  "starter.progress": "{0} / 5 terminé",
