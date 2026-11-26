@@ -178,6 +178,7 @@
  "lazy.start": "Start",
  "lazy.kind.word": "WORD",
  "lazy.kind.verb": "VERB · EVERY TENSE",
+ "lazy.kind.examples": "EXAMPLE SENTENCES",
  "lazy.kind.question": "QUESTION",
  "lazy.kind.must": "MUST KNOW",
  "lazy.plural": "plural: {0}",

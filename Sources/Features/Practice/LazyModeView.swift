@@ -23,8 +23,10 @@ struct LazyConfig: Identifiable {
 
 enum LazySlide {
     case noun(A1Word, picture: String?)
+    case examples(A1Word)
     case verb(VerbEntry)
-    case article(A1Word)
+    case verbExamples(VerbEntry)
+    case article(A1Word, picture: String?)
     case question(VerbSentence, verb: VerbEntry)
     case must(MemorizeSheet, MemorizeRow)
 
@@ -34,17 +36,19 @@ enum LazySlide {
         case .noun(let word, _):
             var out = [word.withArticle]
             if let plural = word.plural, !plural.isEmpty { out.append("die \(plural)") }
-            if let ex = word.ex.first { out.append(ex.de) }
             return out
+        case .examples(let word):
+            return word.ex.prefix(3).map(\.de)
         case .verb(let verb):
             var out = [verb.v]
             for (person, form) in zip(["ich", "du", "er"], verb.praesens) { out.append("\(person) \(form)") }
             if let past = verb.praeteritum.first { out.append("ich \(past)") }
             out.append("er \(verb.perfekt)")
             out.append("er \(verb.futur)")
-            if let ex = verb.examples.first { out.append(ex.de) }
             return out
-        case .article(let word):
+        case .verbExamples(let verb):
+            return verb.examples.prefix(4).map(\.de)
+        case .article(let word, _):
             return [word.withArticle]  // read when the answer shows
         case .question(let sentence, _):
             return [sentence.de]
@@ -58,12 +62,14 @@ enum LazySlide {
         let chars: Int
         switch self {
         case .noun(let word, _):
-            chars = word.withArticle.count + (word.plural?.count ?? 0) + word.mean.text.count
-                + (word.ex.first.map { $0.de.count + $0.mean.text.count } ?? 0)
+            chars = word.withArticle.count + (word.plural?.count ?? 0) + word.mean.text.count + 20
+        case .examples(let word):
+            chars = word.ex.prefix(3).reduce(0) { $0 + $1.de.count + $1.mean.text.count }
         case .verb(let verb):
             chars = verb.v.count + verb.meaning.count + verb.praesens.joined().count + 60
-                + (verb.examples.first.map { $0.de.count + $0.meaning.count } ?? 0)
-        case .article(let word):
+        case .verbExamples(let verb):
+            chars = verb.examples.prefix(4).reduce(0) { $0 + $1.de.count + $1.meaning.count }
+        case .article(let word, _):
             chars = word.de.count + word.mean.text.count + 40
         case .question(let sentence, let verb):
             chars = sentence.de.count + sentence.meaning.count + verb.v.count + verb.meaning.count
@@ -74,34 +80,74 @@ enum LazySlide {
     }
 }
 
-/// Builds the slides of a level from what the app already has: level words (with pictures where there are),
-/// the verb lab, the verbs' questions and the "Mutlaka bil" sheets, mixed in turn.
+/// One slide and the word it belongs to: Tembel Mod stays on one word for a few slides (owner's feedback: no
+/// jumping from one thing to another), e.g. die Kerze: guess the article → the word → its sentences.
+struct LazyCard {
+    let slide: LazySlide
+    let focus: String
+    let step: Int
+    let steps: Int
+}
+
+/// Builds the session from what the app already has: level nouns (with pictures where there are), the verb lab
+/// and the "Mutlaka bil" sheets. Each word is a block of slides; nouns and verbs take turns.
 enum LazyDeck {
-    static func make(_ config: LazyConfig, content: A1Content?) -> [LazySlide] {
+    static func make(_ config: LazyConfig, content: A1Content?) -> [LazyCard] {
         let level = config.level
-        let nouns = (content?.words ?? []).filter(\.isNoun).shuffled()
-        let verbs = VerbBank.verbs(level).shuffled()
-        var groups: [[LazySlide]] = []
-        if config.topics.contains(.words) {
-            groups.append(nouns.prefix(120).map { LazySlide.noun($0, picture: picture(for: $0, level: level)) })
+        let topics = config.topics
+        var nounBlocks: [[LazySlide]] = []
+        if topics.contains(.words) || topics.contains(.articles) {
+            for word in (content?.words ?? []).filter(\.isNoun).shuffled().prefix(120) {
+                let picture = picture(for: word, level: level)
+                var block: [LazySlide] = []
+                if topics.contains(.articles) { block.append(.article(word, picture: picture)) }
+                if topics.contains(.words) {
+                    block.append(.noun(word, picture: picture))
+                    if !word.ex.isEmpty { block.append(.examples(word)) }
+                }
+                nounBlocks.append(block)
+            }
         }
-        if config.topics.contains(.verbs) { groups.append(verbs.prefix(80).map { LazySlide.verb($0) }) }
-        if config.topics.contains(.articles) { groups.append(nouns.suffix(80).shuffled().map { LazySlide.article($0) }) }
-        if config.topics.contains(.questions) {
-            groups.append(verbs.flatMap { verb in verb.questions.map { LazySlide.question($0, verb: verb) } }.shuffled().prefix(80).map { $0 })
+        var verbBlocks: [[LazySlide]] = []
+        if topics.contains(.verbs) || topics.contains(.questions) {
+            for verb in VerbBank.verbs(level).shuffled().prefix(80) {
+                var block: [LazySlide] = []
+                if topics.contains(.verbs) {
+                    block.append(.verb(verb))
+                    if !verb.examples.isEmpty { block.append(.verbExamples(verb)) }
+                }
+                if topics.contains(.questions), let question = verb.questions.first {
+                    block.append(.question(question, verb: verb))
+                }
+                if !block.isEmpty { verbBlocks.append(block) }
+            }
         }
-        if config.topics.contains(.must) {
-            let rows = MemorizeBank.sheets(upTo: level).flatMap { sheet in sheet.rows.map { LazySlide.must(sheet, $0) } }
-            groups.append(Array(rows.shuffled().prefix(60)))
+        var mustBlocks: [[LazySlide]] = []
+        if topics.contains(.must) {
+            mustBlocks = MemorizeBank.sheets(upTo: level).flatMap { sheet in sheet.rows.map { [LazySlide.must(sheet, $0)] } }
+                .shuffled().prefix(40).map { $0 }
         }
-        // One of each kind in turn, so it never feels like a list.
-        var out: [LazySlide] = []
-        var index = 0
-        while groups.contains(where: { index < $0.count }) {
-            for group in groups.shuffled() where index < group.count { out.append(group[index]) }
-            index += 1
+        // Nouns and verbs take turns; a must-know phrase after every third word.
+        var blocks: [[LazySlide]] = []
+        var n = 0, v = 0, m = 0
+        while n < nounBlocks.count || v < verbBlocks.count || m < mustBlocks.count {
+            if n < nounBlocks.count { blocks.append(nounBlocks[n]); n += 1 }
+            if v < verbBlocks.count { blocks.append(verbBlocks[v]); v += 1 }
+            if m < mustBlocks.count, blocks.count % 3 == 0 || (n >= nounBlocks.count && v >= verbBlocks.count) {
+                blocks.append(mustBlocks[m]); m += 1
+            }
         }
-        return out
+        return blocks.flatMap { block in
+            block.enumerated().map { step, slide in LazyCard(slide: slide, focus: focus(of: block[0]), step: step, steps: block.count) }
+        }
+    }
+
+    private static func focus(of slide: LazySlide) -> String {
+        switch slide {
+        case .noun(let word, _), .examples(let word), .article(let word, _): return word.withArticle
+        case .verb(let verb), .verbExamples(let verb), .question(_, let verb): return verb.v
+        case .must(let sheet, _): return sheet.title.text
+        }
     }
 
     private static func picture(for word: A1Word, level: String) -> String? {
@@ -218,7 +264,7 @@ struct LazyPlayerView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
-    @State private var deck: [LazySlide] = []
+    @State private var deck: [LazyCard] = []
     @State private var index = 0
     @State private var elapsed: Double = 0          // on this slide
     @State private var watched: Double = 0          // whole session, seconds
@@ -239,7 +285,8 @@ struct LazyPlayerView: View {
     private static let paper = Color(red: 1, green: 0.992, blue: 0.965)
     private static let sand = Color(red: 0.957, green: 0.937, blue: 0.878)
 
-    private var slide: LazySlide? { deck.indices.contains(index) ? deck[index] : nil }
+    private var card: LazyCard? { deck.indices.contains(index) ? deck[index] : nil }
+    private var slide: LazySlide? { card?.slide }
     private var speed: Double { Self.speeds[speedIndex] }
 
     var body: some View {
@@ -292,9 +339,18 @@ struct LazyPlayerView: View {
             .frame(height: 4)
             HStack(spacing: 10) {
                 LinaAvatar(size: 38, mood: .calm)
-                VStack(alignment: .leading, spacing: 1) {
-                    Text(t("lazy.title")).font(.system(size: 16, weight: .heavy)).foregroundColor(Self.ink)
-                    Text(statusLine).font(.caption).foregroundColor(Self.soft)
+                VStack(alignment: .leading, spacing: 2) {
+                    // The word this block is about, and which of its slides this is.
+                    Text(card?.focus ?? t("lazy.title")).font(.system(size: 17, weight: .heavy)).foregroundColor(Self.ink).lineLimit(1)
+                    HStack(spacing: 4) {
+                        if let card, card.steps > 1 {
+                            ForEach(0..<card.steps, id: \.self) { step in
+                                Capsule().fill(step <= card.step ? DS.gold : Color(red: 0.88, green: 0.85, blue: 0.77))
+                                    .frame(width: step == card.step ? 16 : 8, height: 6)
+                            }
+                        }
+                        Text(statusLine).font(.caption).foregroundColor(Self.soft).lineLimit(1)
+                    }
                 }
                 Spacer()
                 Button { dismiss() } label: {
@@ -430,12 +486,39 @@ struct LazyPlayerView: View {
                 if showTranslation {
                     Text(word.mean.text).font(.system(size: 22, weight: .semibold)).foregroundColor(Color(red: 0.23, green: 0.23, blue: 0.21))
                 }
-                if let ex = word.ex.first {
-                    exampleBox(ex.de, ex.mean.text).padding(.top, 10)
-                }
             }
             .frame(maxWidth: .infinity)
             .multilineTextAlignment(.center)
+
+        case .examples(let word):
+            VStack(spacing: 10) {
+                kind(t("lazy.kind.examples"))
+                HStack(spacing: 8) {
+                    Text(word.type).font(.system(size: 14, weight: .heavy)).foregroundColor(.white)
+                        .padding(.horizontal, 10).padding(.vertical, 3)
+                        .background(a1ArticleColor(word.type), in: Capsule())
+                    Text(word.de).font(.system(size: 26, weight: .heavy)).foregroundColor(Self.ink)
+                }
+                ForEach(Array(word.ex.prefix(3).enumerated()), id: \.offset) { _, ex in
+                    exampleBox(ex.de, ex.mean.text)
+                }
+            }
+            .frame(maxWidth: .infinity)
+
+        case .verbExamples(let verb):
+            VStack(spacing: 10) {
+                kind(t("lazy.kind.examples"))
+                Text(verb.v).font(.system(size: 26, weight: .heavy)).foregroundColor(Self.ink)
+                ForEach(Array(verb.examples.prefix(4).enumerated()), id: \.offset) { _, ex in
+                    VStack(alignment: .leading, spacing: 4) {
+                        if let tense = ex.t {
+                            Text(tense.uppercased()).font(.system(size: 10, weight: .heavy)).tracking(1.2).foregroundColor(DS.goldDeep)
+                        }
+                        exampleBox(ex.de, ex.meaning)
+                    }
+                }
+            }
+            .frame(maxWidth: .infinity)
 
         case .verb(let verb):
             VStack(spacing: 10) {
@@ -461,13 +544,18 @@ struct LazyPlayerView: View {
                 tenseBox("FUTUR", color: Color(red: 0.42, green: 0.25, blue: 0.77), fill: Color(red: 0.953, green: 0.918, blue: 0.996)) {
                     Text(verb.futur).font(.system(size: 16, weight: .bold)).foregroundColor(Self.ink)
                 }
-                if let ex = verb.examples.first { exampleBox(ex.de, ex.meaning) }
             }
             .frame(maxWidth: .infinity)
 
-        case .article(let word):
+        case .article(let word, let picture):
             VStack(spacing: 10) {
                 kind("DER, DIE ODER DAS?")
+                if let picture, let image = Covers.image(picture) {
+                    Image(uiImage: image).resizable().scaledToFill()
+                        .frame(width: 130, height: 130)
+                        .clipShape(RoundedRectangle(cornerRadius: 26, style: .continuous))
+                        .padding(.top, 6)
+                }
                 HStack(spacing: 10) {
                     Text(revealed ? word.type : "___")
                         .font(.system(size: 42, weight: .heavy))
