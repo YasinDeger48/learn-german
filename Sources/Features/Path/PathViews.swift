@@ -20,6 +20,18 @@ struct UnitWord: Decodable, Hashable {
     var es: String?, fr: String?, it: String?, ku: String?, ar: String?
     var meaning: String { localText(tr: tr, en: en, es: es, fr: fr, it: it, ku: ku, ar: ar) }
     var full: String { art.map { "\($0) \(de)" } ?? de }
+
+    /// Nouns may have a picture: Resources/Covers (or site covers/) wv-<slug>.jpg, made by tools/vocab_pictures.py.
+    /// Same slug rule as there: lower case, ä→ae ö→oe ü→ue ß→ss, other characters become "-".
+    var picture: String? {
+        guard art != nil else { return nil }
+        var s = de.lowercased()
+        for (from, to) in [("ä", "ae"), ("ö", "oe"), ("ü", "ue"), ("ß", "ss")] {
+            s = s.replacingOccurrences(of: from, with: to)
+        }
+        let parts = s.split { !($0.isASCII && ($0.isLetter || $0.isNumber)) }
+        return "wv-" + parts.joined(separator: "-")
+    }
 }
 
 struct LearningUnit: Decodable, Identifiable, Hashable {
@@ -563,7 +575,7 @@ struct UnitWordsView: View {
     private var cards: [Card] {
         if let vocab = unit.vocab, !vocab.isEmpty {
             return vocab.enumerated().map { index, word in
-                Card(id: "v\(index)", article: word.art, de: word.de, meaning: word.meaning, picture: nil)
+                Card(id: "v\(index)", article: word.art, de: word.de, meaning: word.meaning, picture: word.picture)
             }
         }
         let all = model.content?.words ?? []

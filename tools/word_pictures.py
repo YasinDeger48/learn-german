@@ -199,8 +199,15 @@ def prompts_extra():
 def cut(unit_id, path):
     """Finds the 16 stickers by the empty background between them (ChatGPT's grids are not exactly even),
     so no sticker is cut off and no piece of a neighbour comes along; falls back to equal cells."""
-    from PIL import Image, ImageChops
     ids = PICTURE_WORDS.get(unit_id) or EXTRA_GRIDS[unit_id]
+    cut_grid(unit_id, path, [f'wp-a1-{wid}' for wid in ids])
+
+
+def cut_grid(label, path, names):
+    """Cuts a 4×4 sticker grid into Resources/Covers/<name>.jpg, one name per sticker in reading order
+    (fewer than 16 names: the rest of the cells are ignored). Also used by tools/vocab_pictures.py."""
+    from PIL import Image, ImageChops
+    unit_id, ids = label, names
     img = Image.open(path).convert('RGB')
     w, h = img.size
     background = img.getpixel((3, 3))
@@ -239,9 +246,9 @@ def cut(unit_id, path):
         side = int(max(sticker.size) * 1.3)
         square = Image.new('RGB', (side, side), background)
         square.paste(sticker, ((side - sticker.width) // 2, (side - sticker.height) // 2))
-        square.resize((SIZE, SIZE), Image.LANCZOS).save(os.path.join(COVERS, f'wp-a1-{wid}.jpg'), quality=85)
+        square.resize((SIZE, SIZE), Image.LANCZOS).save(os.path.join(COVERS, f'{wid}.jpg'), quality=85)
         saved += 1
-    print(f'{unit_id}: {saved}/16 pictures saved')
+    print(f'{unit_id}: {saved}/{len(ids)} pictures saved')
 
 
 def cut_all():
