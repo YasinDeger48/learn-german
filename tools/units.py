@@ -51,7 +51,7 @@ UNITS = [
           ph('Guten Appetit!', 'Afiyet olsun!', 'Enjoy your meal!')]),
     unit(4, ('Alışveriş', 'Shopping'),
          ('Fiyat sorar, beden ve renk söyler, alışveriş yaparsın.', 'Ask prices, say sizes and colours, buy things.'),
-         [5], [3, 5, 11], [4, 20, 31, 45, 49], ['a1-4', 'a1-11'], [],
+         [5], [3, 5, 11], [4, 20, 31, 45, 49], ['a1-4', 'a1-11'], ['a1-m7'],
          [ph('Was kostet das?', 'Bu ne kadar?', 'How much is this?'),
           ph('Haben Sie das in Größe M?', 'Bunun M bedeni var mı?', 'Do you have this in size M?'),
           ph('Ich nehme die blaue Jacke.', 'Mavi ceketi alıyorum.', "I'll take the blue jacket."),

@@ -115,6 +115,15 @@ TASKS = [
              point('Davet', 'Invitation', 'Kommst du am Sonntag zum Essen?', 'essen', 'einladen', 'kommst du', 'besuch')],
             'Liebe Tante Ayşe, vielen Dank für das Geschenk! Der Schal ist sehr schön und warm, er gefällt mir sehr. '
             'Möchtest du am Sonntag zum Essen kommen? Ich koche für dich. Viele Grüße, deine Selin'),
+    message('a1-m7', ('Mesaj: Marketten ne alalım?', 'Message: what shall we buy?'),
+            'Sie gehen heute einkaufen. Schreiben Sie Ihrem Mitbewohner Jonas eine Nachricht.',
+            ('Ne alacağını yaz, ona bir şey isteyip istemediğini sor ve ne zaman eve döneceğini söyle.',
+             'Say what you will buy, ask if he wants something and say when you are back.'),
+            [point('Ne alacaksın', 'What you buy', 'Ich kaufe Brot, Milch und Käse.', 'kaufe', 'brot', 'milch', 'käse', 'äpfel', 'eier', 'supermarkt'),
+             point('Ona soru', 'Ask him', 'Brauchst du auch etwas?', 'brauchst', 'möchtest', 'willst', 'etwas'),
+             point('Ne zaman dönüyorsun', 'When you are back', 'Ich bin um 18 Uhr zu Hause.', 'uhr', 'zu hause', 'zurück', 'später')],
+            'Hallo Jonas, ich gehe heute in den Supermarkt. Ich kaufe Brot, Milch und Käse. Brauchst du auch etwas? '
+            'Vielleicht Äpfel oder Kaffee? Ich bin um 18 Uhr wieder zu Hause. Viele Grüße, Elif'),
     message('a1-m6', ('E-posta: Otelden bilgi iste', 'E-mail: ask a hotel'),
             'Sie möchten im Juli drei Nächte in Hamburg bleiben. Schreiben Sie dem Hotel Hafenblick eine E-Mail.',
             ('Boş oda olup olmadığını, fiyatı ve kahvaltıyı sor.', 'Ask if there is a free room, the price and about breakfast.'),
