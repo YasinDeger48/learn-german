@@ -56,6 +56,27 @@ The owner talks to agents in Turkish: answer him in Turkish. Code, comments, com
 | `verbs_<level>.json` (verb lab) | `tools/verblab.py` |
 | Reading / word audio, background sounds | `tools/audio.py`, `tools/word_audio.py`, `tools/audio_pad.py`, `tools/ambience.py` |
 
+## Content translations (the agent that translates them, e.g. Codex)
+
+One agent translates the learner-language content at a time; the owner chose Codex for it (2026-11-26).
+Claude does not touch these translations meanwhile.
+
+- **Where:** `tools/i18n/content_<lang>.json` (English text → translation) is the memory; write new entries there
+  and put them into the content files with `tools/translate.py` (its `apply()`; `status` shows what is left).
+  `python -I -X utf8 tools/translate.py status` lists the missing texts per language and level.
+- **Order** (after Spanish B1): Spanish B2 → Kurmancî B1 → Kurmancî B2 → French, Italian, Arabic A2 →
+  their B1 → their B2. Keep finishing one language/level before the next.
+- **Rules** (same as the ChatGPT requests, `tools/translate.py rules()`): translate from the English; the Turkish is
+  only context. Keep German words and sentences, grammar terms (Akkusativ, Perfekt, der/die/das), placeholders
+  `{0}`, emoji and line breaks unchanged. Short and natural, informal "you" (tú / tu / tu / tu / أنت).
+  Kurmancî: Latin script (Hawar: ç ê î ş û), not Sorani, not Arabic script. Arabic: Modern Standard Arabic,
+  digits 0-9.
+- **Do not** run `tools/gtranslate.py` (the owner's Google quota) and do not change other files.
+- **Progress:** after each language/level, add one line at the end of `../icerik/CHATGPT_YAPILACAKLAR.txt`
+  (append only). When everything is done, write "[OK] Tüm çeviriler bitti" there and tell the owner.
+- After a level is finished, `python -I -X utf8 tools/publish_content.py` puts it on the website folder (it signs
+  the manifest); the owner uploads the site. Commit only when the owner asks.
+
 ## When you are done
 
 Tell the owner, in Turkish and in a few lines: what you changed (files), what you did not do, and what still needs
