@@ -104,6 +104,9 @@ def spoken_sentences():
         # Heard before answering first (Hören, dictation), then everything spoken after an answer.
         for item in data.get('hoeren', []):
             out += [(line['s'], line['t']) for line in item['lines']]
+        # Song lines: Lina reads a line when it is tapped in the karaoke (SongPlayerView).
+        for song in (load(f'songs_{level}.json') or {}).get('songs', []):
+            out += [(-1, line['de']) for line in song['lines']]
         for text in data.get('texts', []):
             out += [(-1, line) for line in text['de']]
         out += [(-1, p['de']) for u in units if u['level'] == level_up for p in u['phrases']]

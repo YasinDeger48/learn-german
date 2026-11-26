@@ -2,10 +2,18 @@ import AVFoundation
 import SwiftUI
 
 // MARK: - Şarkılar (songs)
-// Rhythmic chants over a generated beat (tools/songs.py), lyrics by Codex. Karaoke: the words light up with the
-// voice, Lina dances to the beat (Codex frames lina-dance-1…6, frame 6 with the microphone for "Du" lines),
-// "Du" lines leave a bar to sing back. After the song: a 3-question mini quiz. Design:
-// https://claude.ai/artifact/FSbTPDqXpBwpSFzBpq83JE
+// Real karaoke: traditional German children's songs (public domain), our instrumental made from the notes
+// (tools/karaoke.py). Every syllable lights up on its note and the child sings; tapping the line lets Lina read it
+// (recorded natural voice). Lina dances to the beat (Codex frames lina-dance-1…6). After the song: a 3-question
+// mini quiz. Design: https://claude.ai/artifact/FSbTPDqXpBwpSFzBpq83JE
+
+/// One sung syllable; `join` = the next syllable belongs to the same word ("Al" + "le").
+struct SongSyllable: Decodable, Hashable {
+    let text: String
+    let join: Bool
+    let start: Double
+    let end: Double
+}
 
 struct SongLine: Decodable, Hashable {
     let part: String
@@ -13,6 +21,7 @@ struct SongLine: Decodable, Hashable {
     let de: String
     let tr: String
     let en: String
+    let syl: [SongSyllable]?
     var meaning: String { localText(tr: tr, en: en, es: nil, fr: nil, it: nil, ku: nil, ar: nil) }
 }
 
@@ -34,6 +43,8 @@ struct Song: Decodable, Identifiable, Hashable {
     let timeline: [SongTiming]?
     let duration: Double?
     let audio: String?
+    /// Changes when the music is made again, so the cached file is replaced.
+    let hash: String?
 
     var meaning: String { localText(tr: title_tr ?? "", en: title_en ?? "", es: nil, fr: nil, it: nil, ku: nil, ar: nil) }
     var ready: Bool { audio != nil && (timeline?.count ?? 0) == lines.count }
@@ -83,7 +94,7 @@ final class SongPlayer: ObservableObject {
 
     func load(_ song: Song, then start: @escaping () -> Void) {
         guard let path = song.audio else { return }
-        let local = Self.folder.appendingPathComponent("\(song.id).mp3")
+        let local = Self.folder.appendingPathComponent("\(song.id)-\(song.hash ?? "1").mp3")
         if FileManager.default.fileExists(atPath: local.path) {
             prepare(local)
             start()
@@ -211,12 +222,8 @@ struct SongPlayerView: View {
     private var timeline: [SongTiming] { song.timeline ?? [] }
     private var beat: Double { 60.0 / Double(max(60, song.bpm)) }
 
-    /// The line being sung: the last one that has started (or whose sing-back bar is on).
-    private var lineIndex: Int { timeline.lastIndex { $0.start <= time } ?? 0 }
-    private var inEcho: Bool {
-        guard timeline.indices.contains(lineIndex), let echo = timeline[lineIndex].echo, echo.count == 2 else { return false }
-        return time >= echo[0] && time <= echo[1]
-    }
+    /// The line being sung: the last one that has started; the next one shows a moment early to read ahead.
+    private var lineIndex: Int { timeline.lastIndex { $0.start - 0.35 <= time } ?? 0 }
 
     var body: some View {
         ZStack {
@@ -269,7 +276,6 @@ struct SongPlayerView: View {
                 .frame(width: 220, height: 34)
             if !Self.dance.isEmpty {
                 let frame: Int = {
-                    if inEcho, Self.dance.count >= 6 { return 5 }
                     guard player.playing, !reduceMotion else { return 0 }
                     return Int(time / beat) % min(5, Self.dance.count)
                 }()
@@ -288,30 +294,37 @@ struct SongPlayerView: View {
             Text(index > 0 ? song.lines[index - 1].de : " ")
                 .font(.system(size: 15, design: .rounded)).foregroundColor(.white.opacity(0.4)).lineLimit(1)
             if let line {
+                let recorded = WordAudio.shared.isRecorded(A1Line(s: -1, t: line.de))
                 VStack(spacing: 8) {
-                    if line.who == "Du" {
-                        Label(t("song.singAlong"), systemImage: "mic.fill")
-                            .font(.system(size: 13, weight: .heavy, design: .rounded))
-                            .foregroundColor(.white)
-                            .padding(.horizontal, 12).padding(.vertical, 5)
-                            .background(Color(red: 1, green: 0.36, blue: 0.54), in: Capsule())
-                            .scaleEffect(inEcho && !reduceMotion ? 1.08 : 1)
-                            .animation(.easeInOut(duration: 0.4), value: inEcho)
-                    } else if line.who == "Alle" {
-                        Text(t("song.together")).font(.system(size: 12, weight: .heavy)).tracking(1.2).foregroundColor(Self.gold)
-                            .padding(.horizontal, 12).padding(.vertical, 5)
-                            .background(Self.gold.opacity(0.2), in: Capsule())
-                    }
+                    Label(t("song.singAlong"), systemImage: "mic.fill")
+                        .font(.system(size: 13, weight: .heavy, design: .rounded))
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 12).padding(.vertical, 5)
+                        .background(Color(red: 1, green: 0.36, blue: 0.54), in: Capsule())
                     karaokeText(line, index: index)
                     if showTranslation {
                         Text(line.meaning).font(.system(size: 15, design: .rounded)).foregroundColor(.white.opacity(0.75))
                             .multilineTextAlignment(.center)
+                    }
+                    if recorded {
+                        Label(t("song.tapToHear"), systemImage: "speaker.wave.2.fill")
+                            .font(.system(size: 12, weight: .semibold, design: .rounded))
+                            .foregroundColor(.white.opacity(0.6))
                     }
                 }
                 .padding(16)
                 .frame(maxWidth: .infinity)
                 .background(Color.white.opacity(0.10), in: RoundedRectangle(cornerRadius: 24, style: .continuous))
                 .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).stroke(Color.white.opacity(0.14), lineWidth: 1))
+                .contentShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                .onTapGesture {
+                    // Lina reads the line slowly (natural voice only); the song waits meanwhile.
+                    guard recorded else { return }
+                    player.pause()
+                    A1Speaker.shared.play([A1Line(s: -1, t: line.de)], slow: true, deviceVoice: false)
+                }
+                .accessibilityAddTraits(recorded ? .isButton : [])
+                .accessibilityHint(recorded ? t("song.tapToHear") : "")
             }
             Text(song.lines.indices.contains(index + 1) ? song.lines[index + 1].de : " ")
                 .font(.system(size: 15, design: .rounded)).foregroundColor(.white.opacity(0.55)).lineLimit(1)
@@ -319,26 +332,24 @@ struct SongPlayerView: View {
         .accessibilityElement(children: .combine)
     }
 
-    /// The words light up one by one while the voice sings them (shared out by length over the line's time).
+    /// Each syllable lights up when its note starts: gold once sung, pink while it is being sung.
     private func karaokeText(_ line: SongLine, index: Int) -> some View {
-        let words = line.de.split(separator: " ").map(String.init)
-        let timing = timeline.indices.contains(index) ? timeline[index] : SongTiming(start: 0, end: 1, echo: nil)
-        let fraction = inEcho ? 1 : max(0, min(1, (time - timing.start) / max(0.1, timing.end - timing.start)))
-        let total = words.reduce(0) { $0 + $1.count + 1 }
-        var lit = 0
-        var running = 0
-        for word in words {
-            running += word.count + 1
-            if Double(running) <= fraction * Double(total) + 0.5 { lit += 1 }
+        let syllables = line.syl ?? []
+        let text: Text
+        if syllables.isEmpty {
+            text = Text(line.de).foregroundColor(.white)
+        } else {
+            text = syllables.enumerated().reduce(Text("")) { result, item in
+                let (i, syllable) = item
+                let space = i + 1 < syllables.count && !syllable.join ? " " : ""
+                let color: Color = time >= syllable.end ? Self.gold : (time >= syllable.start ? Self.pink : .white.opacity(0.45))
+                return result + Text(syllable.text + space).foregroundColor(color)
+            }
         }
-        let color = line.who == "Du" ? Self.pink : Self.gold
-        return words.enumerated().reduce(Text("")) { text, item in
-            let (i, word) = item
-            return text + Text(i == 0 ? word : " " + word).foregroundColor(i < lit ? color : .white.opacity(0.45))
-        }
-        .font(.system(size: 30, weight: .heavy, design: .rounded))
-        .multilineTextAlignment(.center)
-        .minimumScaleFactor(0.6)
+        return text
+            .font(.system(size: 30, weight: .heavy, design: .rounded))
+            .multilineTextAlignment(.center)
+            .minimumScaleFactor(0.6)
     }
 
     private var progress: some View {
