@@ -5,7 +5,8 @@ struct Badge: Identifiable, Hashable {
     /// `welcome`: "Curious about German", earned by starting the app.
     /// `match`: finished word matching games (MatchGameView).
     /// `song`: songs sung to the end (SongPlayerView).
-    enum Kind: String { case welcome, streak, xp, correct, perfect, reading, goal, match, song }
+    /// `fixed`: mistakes made good (a question from the mistakes list answered right), 3 levels with own names.
+    enum Kind: String { case welcome, streak, xp, correct, perfect, reading, goal, match, song, fixed }
 
     let kind: Kind
     let target: Int
@@ -23,6 +24,7 @@ struct Badge: Identifiable, Hashable {
         case .goal: return "target"
         case .match: return "square.grid.2x2.fill"
         case .song: return "music.note"
+        case .fixed: return "arrow.uturn.backward.circle.fill"
         }
     }
 
@@ -37,10 +39,12 @@ struct Badge: Identifiable, Hashable {
         case .goal: return [Color(red: 0.55, green: 0.84, blue: 0.91), Color(red: 0.05, green: 0.58, blue: 0.53)]
         case .match: return [Color(red: 1, green: 0.62, blue: 0.43), Color(red: 0.85, green: 0.33, blue: 0.16)]
         case .song: return [Color(red: 0.62, green: 0.48, blue: 1), Color(red: 0.36, green: 0.20, blue: 0.80)]
+        case .fixed: return [Color(red: 0.98, green: 0.52, blue: 0.52), Color(red: 0.80, green: 0.18, blue: 0.30)]
         }
     }
 
-    var title: String { t("badge.\(kind.rawValue)", target) }
+    /// The mistake badges have a name per level ("Hatasını telafi eden", "Hata avcısı", "Hata ustası").
+    var title: String { kind == .fixed ? t("badge.fixed.\(target)") : t("badge.\(kind.rawValue)", target) }
 }
 
 final class BadgeStore: ObservableObject {
@@ -57,10 +61,13 @@ final class BadgeStore: ObservableObject {
         (.goal, [1, 7, 30]),
         (.match, [1, 10, 50]),
         (.song, [1, 5, 12]),
+        (.fixed, [10, 50, 200]),
     ]
 
     /// Finished word matching games (5 rounds each), counted by MatchGameView.
     static let matchGamesKey = "matchGamesFinished"
+    /// Mistakes made good, counted by A1Model.record when a question on the mistakes list is answered right.
+    static let fixedMistakesKey = "mistakesFixed"
 
     static let all: [Badge] = {
         var badges: [Badge] = []
@@ -109,6 +116,7 @@ final class BadgeStore: ObservableObject {
         case .goal: return streak.goalDays
         case .match: return UserDefaults.standard.integer(forKey: BadgeStore.matchGamesKey)
         case .song: return SongBank.finished.count
+        case .fixed: return UserDefaults.standard.integer(forKey: BadgeStore.fixedMistakesKey)
         }
     }
 

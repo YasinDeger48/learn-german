@@ -54,7 +54,7 @@ struct BadgesView: View {
     }
 
     private var page: some View {
-        let values = Dictionary(uniqueKeysWithValues: [Badge.Kind.welcome, .streak, .xp, .correct, .perfect, .reading, .goal, .match, .song]
+        let values = Dictionary(uniqueKeysWithValues: [Badge.Kind.welcome, .streak, .xp, .correct, .perfect, .reading, .goal, .match, .song, .fixed]
             .map { ($0, badges.value($0)) })
         return ScrollView {
                 VStack(alignment: .leading, spacing: 14) {
@@ -228,6 +228,17 @@ struct CelebrationView: View {
                         .padding(.horizontal, 14).padding(.vertical, 10)
                         .background(Color(red: 0.89, green: 0.95, blue: 1), in: Capsule())
                 }
+            } else if let fixed = badges.first(where: { $0.kind == .fixed }) {
+                // Mistakes made good: Lina cheers ("Super gemacht!", recorded voice only).
+                ZStack(alignment: .bottomTrailing) {
+                    LinaAvatar(size: 150, mood: .happy).clipShape(Circle())
+                    BadgeIcon(badge: fixed, earned: true, size: 56)
+                        .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                }
+                Text("Super gemacht!").font(DS.display(32))
+                Text(fixed.title).font(.title3.weight(.semibold))
+                Text(t("badge.fixedSub", fixed.target)).foregroundColor(DS.muted).multilineTextAlignment(.center)
+                    .onAppear { A1Speaker.shared.play([A1Line(s: -1, t: "Super gemacht!")], deviceVoice: false) }
             } else if let first = badges.first, first.kind == .welcome {
                 ZStack(alignment: .bottomTrailing) {
                     LinaAvatar(size: 150, mood: .curious).clipShape(Circle())
@@ -245,7 +256,7 @@ struct CelebrationView: View {
                     Text(t("badge.welcomeSub")).foregroundColor(DS.muted).multilineTextAlignment(.center)
                 }
             }
-            let others = badges.filter { $0.id != (milestone ?? badges.first)?.id }
+            let others = badges.filter { $0.id != (milestone ?? badges.first(where: { $0.kind == .fixed }) ?? badges.first)?.id }
             if !others.isEmpty {
                 HStack(spacing: 10) {
                     ForEach(others.prefix(4)) { badge in

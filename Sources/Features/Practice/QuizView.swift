@@ -213,7 +213,8 @@ struct A1QuizView: View {
                 BadgeStore.shared.refresh()
                 newBadges = BadgeStore.shared.takePending()
                 // A streak milestone gets the big celebration; other badges stay on this screen.
-                if newBadges.contains(where: { $0.kind == .streak && BadgeStore.milestones.contains($0.target) }) {
+                // A mistake badge gets it too, with Lina (owner's request).
+                if newBadges.contains(where: { ($0.kind == .streak && BadgeStore.milestones.contains($0.target)) || $0.kind == .fixed }) {
                     celebration = Celebration(badges: newBadges)
                 } else {
                     ads.quizFinished(isPro: pro.isPro)

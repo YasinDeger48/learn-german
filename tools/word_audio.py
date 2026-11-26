@@ -97,7 +97,8 @@ def spoken_sentences():
     units = (load('units.json') or {}).get('units', [])
     memorize = (load('memorize.json') or {}).get('sheets', [])
     speaking = (load('speaking.json') or {}).get('tasks', [])
-    out = []
+    # Lina's praise (QuizView.linaPraise, the mistake badge celebration): first, it is short and heard often.
+    out = [(-1, p) for p in ['Super gemacht!', 'Richtig!', 'Sehr gut!', 'Genau!', 'Toll!']]
     for level in ['a1', 'a2', 'b1', 'b2']:
         data = load(f'{level}.json') or {}
         level_up = level.upper()

@@ -221,6 +221,10 @@ final class A1Model: ObservableObject {
         s.seen.insert(q.id)
         if correct {
             s.correct.insert(q.id)
+            if s.wrong.contains(q.id) {  // a mistake made good: counts for the mistake badges
+                let key = BadgeStore.fixedMistakesKey
+                UserDefaults.standard.set(UserDefaults.standard.integer(forKey: key) + 1, forKey: key)
+            }
             s.wrong.removeAll { $0 == q.id }
         } else if !s.wrong.contains(q.id) {
             s.wrong.append(q.id)
