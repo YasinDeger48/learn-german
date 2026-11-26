@@ -63,6 +63,10 @@ The owner says "ChatGPT" for Codex. The jobs Codex does for the content (picture
 
 - Work the list **top to bottom**: it comes before the content translations below. Continue the translations when
   the list is empty or the next job is blocked.
+- **Work in parallel whenever you can:** jobs that do not depend on each other (different request files, pictures
+  next to verb answers, the translations next to the list) run at the same time (parallel tasks / sub-agents),
+  still started in list order. Each parallel task writes only its own answer files; only one task at a time edits
+  `CHATGPT_YAPILACAKLAR.txt` or a translation memory file (`tools/i18n/content_<lang>.json`).
 - Each job names its request file(s) and where to save the answer. Write the answer exactly in the format the request
   asks for; nothing else in the file.
 - **Complete answers only:** a verb request with 15 verbs needs all 15 in the answer (cevap_04 and cevap_06 were cut
