@@ -7,8 +7,11 @@ import UIKit
 enum AnswerSound {
     static let storageKey = "answerSounds"
     static let vibrateKey = "wrongVibration"
+    /// Settings → Vibrate on right answers (the owner asked for a way to turn it off, 2026-11-26).
+    static let rightVibrateKey = "rightVibration"
     static var isOn: Bool { UserDefaults.standard.object(forKey: storageKey) as? Bool ?? true }
     static var vibrates: Bool { UserDefaults.standard.object(forKey: vibrateKey) as? Bool ?? true }
+    static var vibratesOnRight: Bool { UserDefaults.standard.object(forKey: rightVibrateKey) as? Bool ?? true }
 
     private static var player: AVAudioPlayer?
     /// A soft rising "ding-ding" and a low falling "dum-dum".
@@ -17,7 +20,7 @@ enum AnswerSound {
 
     static func play(correct: Bool) {
         if correct {
-            UINotificationFeedbackGenerator().notificationOccurred(.success)
+            if vibratesOnRight { UINotificationFeedbackGenerator().notificationOccurred(.success) }
         } else if vibrates {
             UINotificationFeedbackGenerator().notificationOccurred(.error)
         }

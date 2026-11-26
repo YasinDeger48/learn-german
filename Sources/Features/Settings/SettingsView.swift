@@ -13,6 +13,7 @@ struct SettingsView: View {
     @ObservedObject private var ambience = AmbiencePlayer.shared
     @AppStorage(AnswerSound.storageKey) private var answerSounds = true
     @AppStorage(AnswerSound.vibrateKey) private var wrongVibration = true
+    @AppStorage(AnswerSound.rightVibrateKey) private var rightVibration = true
 
     private var reminderTime: Binding<Date> {
         Binding(get: {
@@ -76,6 +77,10 @@ struct SettingsView: View {
                     .onChange(of: answerSounds) { on in
                         if on { AnswerSound.play(correct: true) }
                     }
+                    Toggle(t("sounds.vibrateRight"), isOn: $rightVibration)
+                        .onChange(of: rightVibration) { on in
+                            if on { UINotificationFeedbackGenerator().notificationOccurred(.success) }
+                        }
                     Toggle(t("sounds.vibrate"), isOn: $wrongVibration)
                         .onChange(of: wrongVibration) { on in
                             if on { UINotificationFeedbackGenerator().notificationOccurred(.error) }

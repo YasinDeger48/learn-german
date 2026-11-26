@@ -531,6 +531,7 @@
  "voice.footer": "Les textes de lecture utilisent la voix choisie. Les mots et les phrases sont dits avec une voix naturelle.",
  "sounds.answers": "Sons des réponses",
  "sounds.answersSub": "Un son très doux et bref pour les bonnes et les mauvaises réponses.",
+ "sounds.vibrateRight": "Vibrate on right answers",
  "sounds.vibrate": "Vibrer en cas de mauvaise réponse",
  "ambience.setting": "Sons d'ambiance",
  "ambience.settingSub": "Pendant la lecture à voix haute du texte du jour, café, train, pluie et autres sons en fond.",
