@@ -14,6 +14,8 @@ struct TodayView: View {
     /// A new word in the island each time Today comes back (owner's request): after another page or the app
     /// returning from the background.
     @State private var wordRound = 0
+    /// Today's lesson is finished: its card goes away until the next day (owner's request).
+    @State private var lessonDone = LessonStore.allDone
     @State private var appeared = false
     @Environment(\.scenePhase) private var scenePhase
 
@@ -22,7 +24,9 @@ struct TodayView: View {
             VStack(alignment: .leading, spacing: 0) {
                 greeting.padding(.top, 4)
                 PathContinueCard().padding(.top, 16)
-                LessonCard().padding(.top, 12)
+                if !lessonDone {
+                    LessonCard().padding(.top, 12).transition(.opacity)
+                }
                 ReviewCard(model: practiceModel).padding(.top, 12)
                 TodayPractice(model: practiceModel).padding(.top, 22)
             }
@@ -53,9 +57,15 @@ struct TodayView: View {
             levels.active = practiceModel.level
             if appeared { wordRound += 1 }
             appeared = true
+            lessonDone = LessonStore.allDone
         }
         .onChange(of: scenePhase) { phase in
-            if phase == .active, appeared { wordRound += 1 }
+            guard phase == .active else { return }
+            if appeared { wordRound += 1 }
+            lessonDone = LessonStore.allDone  // a new day brings the card back
+        }
+        .onReceive(NotificationCenter.default.publisher(for: LessonStore.changed)) { _ in
+            withAnimation { lessonDone = LessonStore.allDone }
         }
         .onChange(of: daily.level) { _ in levels.active = practiceModel.level }
         .toolbar {

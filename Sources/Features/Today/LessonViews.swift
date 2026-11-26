@@ -23,6 +23,9 @@ enum LessonStore {
 
     static func done() -> Set<String> { Set(UserDefaults.standard.stringArray(forKey: key()) ?? []) }
 
+    /// All of today's steps are done: Today hides the lesson card until tomorrow.
+    static var allDone: Bool { done().count == LessonStep.allCases.count }
+
     /// Marks a step; when the third step is done the bonus XP is given once.
     static func mark(_ step: LessonStep) {
         var steps = done()
