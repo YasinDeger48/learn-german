@@ -116,89 +116,9 @@ enum UnitStore {
 }
 
 // MARK: - Questions made from a unit
-
-/// One word a unit teaches: A1 the words on the unit's picture cards, A2+ the unit's own word list.
-struct UnitDrillWord {
-    let de: String
-    let art: String?
-    let meaning: String
-    var full: String { art.map { "\($0) \(de)" } ?? de }
-}
+// Words (stages, UnitDrillWord) and grammar (rule first, known words): PathLearning.swift.
 
 extension A1Model {
-    /// Exactly the words the unit's Words page shows (the same choice as UnitWordsView), so practice and the
-    /// unit test never ask words the learner has not met in this unit. (Before, A1 drew from the whole theme:
-    /// 40–67 words and every kind of exercise; unit 12's theme was not even about its cards.)
-    func unitDrillWords(_ unit: LearningUnit) -> [UnitDrillWord] {
-        if let vocab = unit.vocab, vocab.count >= 4 {
-            return vocab.map { UnitDrillWord(de: $0.de, art: $0.art, meaning: $0.meaning) }
-        }
-        let all = content?.words ?? []
-        let byID = Dictionary(all.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
-        var picked = (unit.pictures ?? []).compactMap { byID[$0] }
-        if picked.isEmpty { picked = Array(all.filter { unit.themes.contains($0.theme) && $0.isNoun }.prefix(16)) }
-        picked += (unit.extra ?? []).compactMap { byID[$0] }
-        return picked.map { UnitDrillWord(de: $0.de, art: $0.isNoun ? $0.type : nil, meaning: $0.mean.text) }
-    }
-
-    /// Every word of the unit once (up to `count`), each with a different kind of question in turn:
-    /// meaning, the German word, the article (nouns), listening. Wrong options come from the same unit.
-    func unitWordSession(_ unit: LearningUnit, count: Int = 16) -> [A1Question] {
-        let words = unitDrillWords(unit)
-        guard words.count >= 4 else { return [] }
-        let label = unit.title.text
-        var out: [A1Question] = []
-        for (index, word) in words.shuffled().prefix(count).enumerated() {
-            let key = "\(unit.id)-\(word.de)"
-            let others = words.filter { $0.de != word.de }
-            let kinds = word.art != nil ? 4 : 3
-            switch (index + Int.random(in: 0..<kinds)) % kinds {
-            case 0:
-                let wrong = others.map(\.meaning).filter { $0 != word.meaning }.shuffled().prefix(3)
-                out.append(A1Question(id: "uw-\(key)", mode: .wordToTr, kind: .choice, label: label, prompt: word.full,
-                                      speakAfter: word.full, options: ([word.meaning] + wrong).shuffled(), answer: word.meaning,
-                                      explanation: "\(word.full) = \(word.meaning)"))
-            case 1:
-                let wrong = others.map(\.full).shuffled().prefix(3)
-                out.append(A1Question(id: "uwt-\(key)", mode: .trToWord, kind: .choice, label: label, prompt: word.meaning,
-                                      speakAfter: word.full, options: ([word.full] + wrong).shuffled(), answer: word.full,
-                                      explanation: "\(word.full) = \(word.meaning)"))
-            case 2:
-                let wrong = others.map(\.full).shuffled().prefix(3)
-                out.append(A1Question(id: "uwl-\(key)", mode: .listen, kind: .choice, label: label, prompt: t("q.listenWord"),
-                                      speakFirst: word.full, options: ([word.full] + wrong).shuffled(), answer: word.full,
-                                      explanation: "\(word.full) = \(word.meaning)"))
-            default:
-                out.append(A1Question(id: "uwa-\(key)", mode: .artikel, kind: .choice, label: label,
-                                      prompt: "___ \(word.de)", detail: word.meaning, speakAfter: word.full,
-                                      options: ["der", "die", "das"], answer: word.art ?? "der", explanation: word.full))
-            }
-        }
-        return out
-    }
-
-    func unitGrammarSession(_ unit: LearningUnit, count: Int = 8) -> [A1Question] {
-        let per = max(2, count / max(1, unit.grammar.count))
-        let early = Self.beforeAccusative(unit)
-        return Array(unit.grammar.flatMap { topic in
-            session(topic: topic, count: per * 4)
-                .filter { !early || !Self.accusativeAnswers.contains($0.answer.lowercased()) }
-                .prefix(per)
-        }.shuffled().prefix(count))
-    }
-
-    /// A1 topic "Nominativ & Akkusativ" (a1.json grammar id 6): units before the one that teaches it get no
-    /// questions whose answer is an accusative form ("seinen Onkel" in unit 2 came before the accusative).
-    private static let accusativeTopic = 6
-    private static let accusativeAnswers: Set<String> = ["einen", "keinen", "meinen", "deinen", "seinen", "ihren",
-                                                          "unseren", "euren", "den", "ihn"]
-
-    private static func beforeAccusative(_ unit: LearningUnit) -> Bool {
-        guard unit.level == "A1",
-              let teaching = UnitBank.units("A1").first(where: { $0.grammar.contains(accusativeTopic) }) else { return false }
-        return unit.number < teaching.number
-    }
-
     /// Meaning of each phrase, and two phrases to put in order.
     func unitPhraseSession(_ unit: LearningUnit) -> [A1Question] {
         let label = unit.title.text
@@ -557,9 +477,7 @@ struct UnitView: View {
         case .phrases:
             UnitPhrasesView(unit: unit)
         case .grammar:
-            A1QuizView(title: step.title, onFinish: { _, _ in UnitStore.mark(.grammar, unit.id) }) {
-                model.unitGrammarSession(unit)
-            }
+            UnitGrammarIntroView(unit: unit)
         case .text:
             if let text = readingText {
                 DailyReadingView(text: text).onAppear { UnitStore.mark(.text, unit.id) }
@@ -586,6 +504,8 @@ struct UnitView: View {
 struct UnitWordsView: View {
     @EnvironmentObject private var model: A1Model
     let unit: LearningUnit
+    /// Redraws the stage dots when a practice round changed them.
+    @State private var masteryTick = 0
 
     private struct Card: Identifiable {
         let id: String
@@ -617,12 +537,16 @@ struct UnitWordsView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 14) {
                 Text(t("unit.wordsIntro")).font(.subheadline).foregroundColor(DS.muted)
+                masteryHeader
                 LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)],
                           spacing: 12) {
                     ForEach(cards) { word in card(word) }
                 }
                 NavigationLink {
-                    A1QuizView(title: t("unit.step.words"), onFinish: { _, _ in UnitStore.mark(.words, unit.id) }) {
+                    A1QuizView(title: t("unit.step.words"), onFinish: { _, _ in
+                        // Done when most words reached the "written" stage, not after one round.
+                        if WordMastery.unitDone(unit.level, model.unitDrillWords(unit)) { UnitStore.mark(.words, unit.id) }
+                    }) {
                         model.unitWordSession(unit)
                     }
                 } label: {
@@ -639,6 +563,37 @@ struct UnitWordsView: View {
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("unit.step.words"))
         .navigationBarTitleDisplayMode(.inline)
+        .onReceive(NotificationCenter.default.publisher(for: WordMastery.changed)) { _ in masteryTick += 1 }
+    }
+
+    /// "12 / 28 words learned" with a bar, and how the steps work.
+    private var masteryHeader: some View {
+        let words = model.unitDrillWords(unit)
+        let progress = WordMastery.progress(unit.level, words)
+        return VStack(alignment: .leading, spacing: 6) {
+            HStack {
+                Text(t("unit.mastery", progress.learned, progress.total)).font(.system(size: 15, weight: .bold)).foregroundColor(DS.ink)
+                Spacer()
+                Text("\(progress.total == 0 ? 0 : progress.learned * 100 / progress.total)%")
+                    .font(.footnote.monospacedDigit().weight(.semibold)).foregroundColor(DS.muted)
+            }
+            ProgressView(value: Double(progress.learned), total: Double(max(1, progress.total))).tint(DS.success)
+            Text(t("unit.masteryNote")).font(.footnote).foregroundColor(DS.muted).fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(14)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .id(masteryTick)
+    }
+
+    /// Four dots: recognised, recalled, written, used in a sentence.
+    private func stageDots(_ stage: Int) -> some View {
+        HStack(spacing: 3) {
+            ForEach(1...4, id: \.self) { step in
+                Circle().fill(step <= stage ? (stage >= 4 ? DS.success : DS.gold) : DS.hairline).frame(width: 6, height: 6)
+            }
+        }
+        .id(masteryTick)
+        .accessibilityLabel("\(stage)/4")
     }
 
     private func card(_ word: Card) -> some View {
@@ -667,6 +622,7 @@ struct UnitWordsView: View {
                     .lineLimit(1)
                     .minimumScaleFactor(0.7)
                 Text(word.meaning).font(.caption2).foregroundColor(DS.muted).lineLimit(1)
+                stageDots(WordMastery.stage(unit.level, word.full))
             }
         }
         .buttonStyle(.plain)

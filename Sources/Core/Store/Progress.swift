@@ -177,6 +177,7 @@ final class A1Model: ObservableObject {
     }
 
     func record(_ q: A1Question, correct: Bool) {
+        WordMastery.record(q.id, correct: correct)  // path word practice: the word moves a step
         var s = state
         countToday(&s)
         s.seen.insert(q.id)
