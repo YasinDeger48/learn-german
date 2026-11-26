@@ -6,10 +6,39 @@ import SwiftUI
 // Design: https://claude.ai/artifact/6zFB7bGLPD61mYDWeeKBKs (owner's choice: name "Tembel Mod", the whole level).
 
 enum LazyTopic: String, CaseIterable, Identifiable {
-    case words, verbs, articles, questions, must
+    case words, articles, meaning, plural, verbs, questions, must
 
     var id: String { rawValue }
     var title: String { t("lazy.topic.\(rawValue)") }
+    var sub: String { t("lazy.topicSub.\(rawValue)") }
+    /// The guessing games: the answer shows after a pause.
+    var isGame: Bool { self == .articles || self == .meaning || self == .plural }
+    /// Topics built from the level's nouns (the word pool applies to them).
+    var usesNouns: Bool { self == .words || isGame }
+
+    var icon: String {
+        switch self {
+        case .words: return "character.book.closed.fill"
+        case .articles: return "questionmark.bubble.fill"
+        case .meaning: return "lightbulb.fill"
+        case .plural: return "square.on.square.fill"
+        case .verbs: return "bolt.fill"
+        case .questions: return "bubble.left.and.bubble.right.fill"
+        case .must: return "star.fill"
+        }
+    }
+
+    var color: Color {
+        switch self {
+        case .words: return Color(red: 0.36, green: 0.55, blue: 0.96)
+        case .articles: return Color(red: 0.94, green: 0.36, blue: 0.40)
+        case .meaning: return Color(red: 0.98, green: 0.66, blue: 0.13)
+        case .plural: return Color(red: 0.13, green: 0.71, blue: 0.62)
+        case .verbs: return Color(red: 0.55, green: 0.36, blue: 0.94)
+        case .questions: return Color(red: 0.11, green: 0.62, blue: 0.86)
+        case .must: return Color(red: 0.85, green: 0.47, blue: 0.13)
+        }
+    }
 }
 
 /// What the learner chose in the setup sheet.
@@ -19,6 +48,19 @@ struct LazyConfig: Identifiable {
     let topics: Set<LazyTopic>
     /// 0 = endless.
     let minutes: Int
+    /// The learner's own word pool (word ids) for the noun topics; nil = all nouns of the level.
+    var pool: Set<Int>? = nil
+}
+
+/// The learner's own word pool per level (Tembel Mod → "My pool"), kept on the phone.
+enum LazyPool {
+    private static func key(_ level: String) -> String { "lazy.pool.\(level.uppercased())" }
+    private static func useKey(_ level: String) -> String { "lazy.usePool.\(level.uppercased())" }
+
+    static func ids(_ level: String) -> Set<Int> { Set(UserDefaults.standard.array(forKey: key(level)) as? [Int] ?? []) }
+    static func save(_ ids: Set<Int>, level: String) { UserDefaults.standard.set(Array(ids).sorted(), forKey: key(level)) }
+    static func isOn(_ level: String) -> Bool { UserDefaults.standard.bool(forKey: useKey(level)) }
+    static func setOn(_ on: Bool, level: String) { UserDefaults.standard.set(on, forKey: useKey(level)) }
 }
 
 enum LazySlide {
@@ -27,8 +69,28 @@ enum LazySlide {
     case verb(VerbEntry)
     case verbExamples(VerbEntry)
     case article(A1Word, picture: String?)
+    /// Guess what the word means; the meaning shows after a pause.
+    case meaning(A1Word, picture: String?)
+    /// Guess the plural; it shows after a pause.
+    case plural(A1Word, picture: String?)
     case question(VerbSentence, verb: VerbEntry)
     case must(MemorizeSheet, MemorizeRow)
+
+    /// A guessing slide: the answer shows after a pause.
+    var isGuess: Bool {
+        switch self {
+        case .article, .meaning, .plural: return true
+        default: return false
+        }
+    }
+
+    /// Lina reads it only when the answer shows (reading it first would give the answer away).
+    var readsAtReveal: Bool {
+        switch self {
+        case .article, .plural: return true
+        default: return false
+        }
+    }
 
     /// German lines Lina reads (the translations are on screen; the reading voice is German).
     var lines: [String] {
@@ -50,6 +112,10 @@ enum LazySlide {
             return verb.examples.prefix(4).map(\.de)
         case .article(let word, _):
             return [word.withArticle]  // read when the answer shows
+        case .meaning(let word, _):
+            return [word.withArticle]
+        case .plural(let word, _):
+            return ["die \(word.plural ?? "")"]  // read when the answer shows
         case .question(let sentence, _):
             return [sentence.de]
         case .must(_, let row):
@@ -69,8 +135,10 @@ enum LazySlide {
             chars = verb.v.count + verb.meaning.count + verb.praesens.joined().count + 60
         case .verbExamples(let verb):
             chars = verb.examples.prefix(4).reduce(0) { $0 + $1.de.count + $1.meaning.count }
-        case .article(let word, _):
+        case .article(let word, _), .meaning(let word, _):
             chars = word.de.count + word.mean.text.count + 40
+        case .plural(let word, _):
+            chars = word.de.count + (word.plural?.count ?? 0) + word.mean.text.count + 40
         case .question(let sentence, let verb):
             chars = sentence.de.count + sentence.meaning.count + verb.v.count + verb.meaning.count
         case .must(let sheet, let row):
@@ -96,16 +164,21 @@ enum LazyDeck {
         let level = config.level
         let topics = config.topics
         var nounBlocks: [[LazySlide]] = []
-        if topics.contains(.words) || topics.contains(.articles) {
-            for word in (content?.words ?? []).filter(\.isNoun).shuffled().prefix(120) {
+        if topics.contains(where: \.usesNouns) {
+            var nouns = (content?.words ?? []).filter(\.isNoun)
+            if let pool = config.pool, !pool.isEmpty { nouns = nouns.filter { pool.contains($0.id) } }
+            // One word, several steps: der/die/das? → what does it mean? → the word → its plural? → its sentences.
+            for word in nouns.shuffled().prefix(120) {
                 let picture = picture(for: word, level: level)
                 var block: [LazySlide] = []
                 if topics.contains(.articles) { block.append(.article(word, picture: picture)) }
-                if topics.contains(.words) {
-                    block.append(.noun(word, picture: picture))
-                    if !word.ex.isEmpty { block.append(.examples(word)) }
+                if topics.contains(.meaning) { block.append(.meaning(word, picture: picture)) }
+                if topics.contains(.words) { block.append(.noun(word, picture: picture)) }
+                if topics.contains(.plural), let plural = word.plural, !plural.isEmpty, plural != "-" {
+                    block.append(.plural(word, picture: picture))
                 }
-                nounBlocks.append(block)
+                if topics.contains(.words), !word.ex.isEmpty { block.append(.examples(word)) }
+                if !block.isEmpty { nounBlocks.append(block) }
             }
         }
         var verbBlocks: [[LazySlide]] = []
@@ -145,6 +218,7 @@ enum LazyDeck {
     private static func focus(of slide: LazySlide) -> String {
         switch slide {
         case .noun(let word, _), .examples(let word), .article(let word, _): return word.withArticle
+        case .meaning(let word, _), .plural(let word, _): return word.withArticle
         case .verb(let verb), .verbExamples(let verb), .question(_, let verb): return verb.v
         case .must(let sheet, _): return sheet.title.text
         }
@@ -195,64 +269,306 @@ struct LazyModeCard: View {
     }
 }
 
+/// The setup sheet: what to watch (big tiles in the middle, the guessing games first), how long (a slider), and
+/// which words (all nouns of the level or the learner's own pool).
 struct LazySetupView: View {
     let level: String
+    let words: [A1Word]
+    let themes: [A1Theme]
     let start: (LazyConfig) -> Void
-    @AppStorage("lazy.topics") private var topicsRaw = LazyTopic.allCases.map(\.rawValue).joined(separator: ",")
+    @AppStorage("lazy.topics") private var topicsRaw = "articles,meaning,words,verbs"
     @AppStorage("lazy.minutes") private var minutes = 10
+    @State private var pool: Set<Int> = []
+    @State private var usePool = false
 
     private var topics: Set<LazyTopic> { Set(topicsRaw.split(separator: ",").compactMap { LazyTopic(rawValue: String($0)) }) }
+    private var nouns: [A1Word] { words.filter(\.isNoun) }
+    private var poolActive: Bool { usePool && !pool.isEmpty }
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 10) {
-                Text(t("lazy.setupTitle")).font(.system(size: 22, weight: .heavy))
-                Text(t("lazy.setupSub")).font(.subheadline).foregroundColor(DS.muted)
-                VStack(spacing: 8) {
-                    ForEach(LazyTopic.allCases) { topic in
-                        Toggle(topic.title, isOn: Binding(get: { topics.contains(topic) }, set: { on in
-                            var set = topics
-                            if on { set.insert(topic) } else { set.remove(topic) }
-                            topicsRaw = LazyTopic.allCases.filter { set.contains($0) }.map(\.rawValue).joined(separator: ",")
-                        }))
-                        .font(.system(size: 15, weight: .semibold))
-                        .padding(.horizontal, 14)
-                        .frame(minHeight: 50)
-                        .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        NavigationStack {
+            ScrollView {
+                VStack(spacing: 18) {
+                    VStack(spacing: 6) {
+                        LinaAvatar(size: 84, mood: .happy)
+                        Text(t("lazy.setupTitle")).font(.system(size: 24, weight: .heavy, design: .rounded)).foregroundColor(DS.ink)
+                        Text(t("lazy.setupSub")).font(.subheadline).foregroundColor(DS.muted).multilineTextAlignment(.center)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(.top, 4)
+
+                    section(t("lazy.games")) {
+                        topicGrid(LazyTopic.allCases.filter(\.isGame))
+                    }
+                    section(t("lazy.watch")) {
+                        topicGrid(LazyTopic.allCases.filter { !$0.isGame })
+                    }
+                    section(t("lazy.duration")) { durationCard }
+                    if topics.contains(where: \.usesNouns) {
+                        section(t("lazy.poolTitle")) { poolCard }
                     }
                 }
-                .padding(.top, 6)
-                Text(t("lazy.duration")).font(.caption.weight(.heavy)).foregroundColor(DS.muted).padding(.top, 10)
-                HStack(spacing: 6) {
-                    ForEach([5, 10, 20, 0], id: \.self) { value in
-                        Button { minutes = value } label: {
-                            Text(value == 0 ? t("lazy.endless") : t("lazy.minutes", value))
-                                .font(.system(size: 14, weight: .bold))
-                                .foregroundColor(minutes == value ? DS.ground : DS.ink)
-                                .frame(maxWidth: .infinity, minHeight: 44)
-                                .background(minutes == value ? DS.ink : DS.chip, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-                        }
-                        .buttonStyle(.plain)
-                        .accessibilityAddTraits(minutes == value ? .isSelected : [])
-                    }
-                }
-                Button {
-                    start(LazyConfig(level: level, topics: topics, minutes: minutes))
-                } label: {
-                    Label(t("lazy.start"), systemImage: "play.fill")
-                        .font(.system(size: 17, weight: .heavy))
-                        .foregroundColor(DS.onGold)
-                        .frame(maxWidth: .infinity, minHeight: 56)
-                        .background(DS.gold, in: Capsule())
-                }
-                .buttonStyle(.pressable)
-                .disabled(topics.isEmpty)
-                .opacity(topics.isEmpty ? 0.5 : 1)
-                .padding(.top, 14)
+                .padding(.horizontal, 20)
+                .padding(.bottom, 110)
             }
-            .padding(20)
+            .background(DS.ground.ignoresSafeArea())
+            .safeAreaInset(edge: .bottom) { startButton }
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle(t("lazy.title"))
         }
-        .background(DS.ground.ignoresSafeArea())
+        .onAppear {
+            pool = LazyPool.ids(level)
+            usePool = LazyPool.isOn(level)
+        }
+    }
+
+    private func section<Content: View>(_ title: String, @ViewBuilder content: () -> Content) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(title.uppercased()).font(.system(size: 12, weight: .heavy)).tracking(1.4).foregroundColor(DS.muted)
+            content()
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    private func topicGrid(_ list: [LazyTopic]) -> some View {
+        LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
+            ForEach(list) { topicTile($0) }
+        }
+    }
+
+    private func topicTile(_ topic: LazyTopic) -> some View {
+        let on = topics.contains(topic)
+        return Button {
+            var set = topics
+            if on { set.remove(topic) } else { set.insert(topic) }
+            topicsRaw = LazyTopic.allCases.filter { set.contains($0) }.map(\.rawValue).joined(separator: ",")
+        } label: {
+            VStack(alignment: .leading, spacing: 8) {
+                HStack(alignment: .top) {
+                    Image(systemName: topic.icon)
+                        .font(.system(size: 18, weight: .bold))
+                        .foregroundColor(on ? .white : topic.color)
+                        .frame(width: 42, height: 42)
+                        .background(on ? topic.color : topic.color.opacity(0.14), in: RoundedRectangle(cornerRadius: 13, style: .continuous))
+                    Spacer(minLength: 0)
+                    Image(systemName: on ? "checkmark.circle.fill" : "circle")
+                        .font(.system(size: 22))
+                        .foregroundColor(on ? topic.color : DS.hairline)
+                }
+                Text(topic.title).font(.system(size: 15, weight: .heavy, design: .rounded)).foregroundColor(DS.ink)
+                    .lineLimit(2).multilineTextAlignment(.leading)
+                Text(topic.sub).font(.caption).foregroundColor(DS.muted)
+                    .lineLimit(3).multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+                Spacer(minLength: 0)
+            }
+            .padding(14)
+            .frame(maxWidth: .infinity, minHeight: 150, alignment: .topLeading)
+            .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(on ? topic.color : Color.clear, lineWidth: 2))
+        }
+        .buttonStyle(.pressable)
+        .accessibilityAddTraits(on ? .isSelected : [])
+    }
+
+    /// Any number of minutes (1–60) with a slider, or endless.
+    private var durationCard: some View {
+        VStack(spacing: 12) {
+            HStack(alignment: .firstTextBaseline) {
+                Text(minutes == 0 ? "∞" : "\(minutes)")
+                    .font(.system(size: 44, weight: .heavy, design: .rounded).monospacedDigit())
+                    .foregroundColor(DS.ink)
+                Text(minutes == 0 ? t("lazy.endless") : t("lazy.minuteUnit")).font(.headline).foregroundColor(DS.muted)
+                Spacer()
+                Button {
+                    minutes = minutes == 0 ? 10 : 0
+                } label: {
+                    Label(t("lazy.endless"), systemImage: "infinity")
+                        .font(.system(size: 14, weight: .bold))
+                        .foregroundColor(minutes == 0 ? DS.ground : DS.ink)
+                        .padding(.horizontal, 14)
+                        .frame(minHeight: 40)
+                        .background(minutes == 0 ? DS.ink : DS.chip, in: Capsule())
+                }
+                .buttonStyle(.plain)
+                .accessibilityAddTraits(minutes == 0 ? .isSelected : [])
+            }
+            Slider(value: Binding(get: { Double(max(1, minutes)) }, set: { minutes = Int($0.rounded()) }), in: 1...60, step: 1)
+                .tint(DS.gold)
+                .disabled(minutes == 0)
+                .opacity(minutes == 0 ? 0.4 : 1)
+                .accessibilityLabel(t("lazy.duration"))
+                .accessibilityValue(t("lazy.minutes", max(1, minutes)))
+            HStack {
+                Text(t("lazy.minutes", 1)); Spacer(); Text(t("lazy.minutes", 30)); Spacer(); Text(t("lazy.minutes", 60))
+            }
+            .font(.caption2).foregroundColor(DS.muted)
+        }
+        .padding(16)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+    }
+
+    /// All nouns of the level, or the learner's own pool (picked word by word).
+    private var poolCard: some View {
+        VStack(spacing: 10) {
+            HStack(spacing: 8) {
+                poolChoice(false, t("lazy.poolAll", level), "\(nouns.count)")
+                poolChoice(true, t("lazy.poolMine"), "\(pool.count)")
+            }
+            NavigationLink {
+                LazyPoolView(level: level, nouns: nouns, themes: themes, pool: $pool)
+                    .onDisappear {
+                        LazyPool.save(pool, level: level)
+                        if !pool.isEmpty { usePool = true; LazyPool.setOn(true, level: level) }
+                    }
+            } label: {
+                HStack {
+                    Image(systemName: "slider.horizontal.3")
+                    Text(pool.isEmpty ? t("lazy.poolCreate") : t("lazy.poolEdit"))
+                    Spacer()
+                    Image(systemName: "chevron.right").font(.caption.weight(.bold))
+                }
+                .font(.system(size: 15, weight: .semibold))
+                .foregroundColor(DS.ink)
+                .padding(.horizontal, 14)
+                .frame(minHeight: 48)
+                .background(DS.chip, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+            }
+            .buttonStyle(.plain)
+            if usePool && pool.isEmpty {
+                Text(t("lazy.poolEmpty")).font(.caption).foregroundColor(DS.error)
+            }
+        }
+        .padding(16)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+    }
+
+    private func poolChoice(_ mine: Bool, _ title: String, _ count: String) -> some View {
+        let on = usePool == mine
+        return Button {
+            usePool = mine
+            LazyPool.setOn(mine, level: level)
+        } label: {
+            VStack(spacing: 2) {
+                Text(count).font(.system(size: 22, weight: .heavy, design: .rounded).monospacedDigit())
+                Text(title).font(.caption.weight(.semibold)).multilineTextAlignment(.center).lineLimit(2)
+            }
+            .foregroundColor(on ? DS.ground : DS.ink)
+            .frame(maxWidth: .infinity, minHeight: 72)
+            .background(on ? DS.ink : DS.chip, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        }
+        .buttonStyle(.plain)
+        .accessibilityAddTraits(on ? .isSelected : [])
+    }
+
+    private var startButton: some View {
+        Button {
+            start(LazyConfig(level: level, topics: topics, minutes: minutes, pool: poolActive ? pool : nil))
+        } label: {
+            Label(t("lazy.start"), systemImage: "play.fill")
+                .font(.system(size: 17, weight: .heavy))
+                .foregroundColor(DS.onGold)
+                .frame(maxWidth: .infinity, minHeight: 56)
+                .background(DS.gold, in: Capsule())
+        }
+        .buttonStyle(.pressable)
+        .disabled(topics.isEmpty)
+        .opacity(topics.isEmpty ? 0.5 : 1)
+        .padding(.horizontal, 20)
+        .padding(.top, 10)
+        .padding(.bottom, 8)
+        .background(DS.ground.opacity(0.96).ignoresSafeArea())
+    }
+}
+
+/// Picking the learner's own pool: every noun of the level, searchable, by theme, tap to add or remove.
+struct LazyPoolView: View {
+    let level: String
+    let nouns: [A1Word]
+    let themes: [A1Theme]
+    @Binding var pool: Set<Int>
+    @State private var search = ""
+    @State private var theme: Int?
+    @State private var article: String?
+
+    private var shown: [A1Word] {
+        let query = search.trimmingCharacters(in: .whitespaces).lowercased()
+        return nouns.filter { word in
+            (theme == nil || word.theme == theme)
+                && (article == nil || word.type == article)
+                && (query.isEmpty || word.de.lowercased().contains(query) || word.mean.text.lowercased().contains(query))
+        }
+    }
+
+    private var usedThemes: [A1Theme] {
+        let ids = Set(nouns.map(\.theme))
+        return themes.filter { ids.contains($0.id) }
+    }
+
+    var body: some View {
+        List {
+            Section {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 6) {
+                        chip(t("lazy.poolAllThemes"), on: theme == nil && article == nil) { theme = nil; article = nil }
+                        ForEach(["der", "die", "das"], id: \.self) { art in
+                            chip(art, on: article == art, color: a1ArticleColor(art)) { article = article == art ? nil : art }
+                        }
+                        ForEach(usedThemes) { item in
+                            chip(item.name.text, on: theme == item.id) { theme = theme == item.id ? nil : item.id }
+                        }
+                    }
+                    .padding(.vertical, 4)
+                }
+                .listRowInsets(EdgeInsets(top: 4, leading: 12, bottom: 4, trailing: 12))
+                HStack {
+                    Button(t("lazy.poolAddShown", shown.count)) { pool.formUnion(shown.map(\.id)) }
+                    Spacer()
+                    Button(t("lazy.poolRemoveShown"), role: .destructive) { pool.subtract(shown.map(\.id)) }
+                }
+                .font(.subheadline.weight(.semibold))
+                .buttonStyle(.borderless)
+            }
+            Section(t("lazy.poolCount", pool.count)) {
+                ForEach(shown) { word in
+                    let on = pool.contains(word.id)
+                    Button {
+                        if on { pool.remove(word.id) } else { pool.insert(word.id) }
+                    } label: {
+                        HStack(spacing: 10) {
+                            Text(word.type).font(.system(size: 12, weight: .heavy)).foregroundColor(.white)
+                                .frame(minWidth: 36, minHeight: 24)
+                                .background(a1ArticleColor(word.type), in: Capsule())
+                            VStack(alignment: .leading, spacing: 1) {
+                                Text(word.de).font(.system(size: 16, weight: .semibold)).foregroundColor(DS.ink)
+                                Text(word.mean.text).font(.caption).foregroundColor(DS.muted).lineLimit(1)
+                            }
+                            Spacer()
+                            Image(systemName: on ? "checkmark.circle.fill" : "circle")
+                                .font(.system(size: 22))
+                                .foregroundColor(on ? DS.success : DS.hairline)
+                        }
+                        .contentShape(Rectangle())
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityAddTraits(on ? .isSelected : [])
+                }
+            }
+        }
+        .searchable(text: $search, prompt: t("lazy.poolSearch"))
+        .navigationTitle(t("lazy.poolMine"))
+        .navigationBarTitleDisplayMode(.inline)
+    }
+
+    private func chip(_ title: String, on: Bool, color: Color = DS.ink, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Text(title).font(.system(size: 13, weight: .bold))
+                .foregroundColor(on ? .white : DS.ink)
+                .padding(.horizontal, 12)
+                .frame(minHeight: 34)
+                .background(on ? color : DS.chip, in: Capsule())
+        }
+        .buttonStyle(.borderless)
     }
 }
 
@@ -581,6 +897,58 @@ struct LazyPlayerView: View {
             }
             .frame(maxWidth: .infinity)
 
+        case .meaning(let word, let picture):
+            VStack(spacing: 10) {
+                kind(t("lazy.kind.meaning"))
+                if let picture, revealed, let image = Covers.image(picture) {
+                    Image(uiImage: image).resizable().scaledToFill()
+                        .frame(width: 130, height: 130)
+                        .clipShape(RoundedRectangle(cornerRadius: 26, style: .continuous))
+                        .padding(.top, 6)
+                        .transition(.scale.combined(with: .opacity))
+                }
+                HStack(spacing: 10) {
+                    Text(word.type).font(.system(size: 16, weight: .heavy)).foregroundColor(.white)
+                        .padding(.horizontal, 12).padding(.vertical, 4)
+                        .background(a1ArticleColor(word.type), in: Capsule())
+                    Text(word.de).font(.system(size: 40, weight: .heavy)).foregroundColor(Self.ink).minimumScaleFactor(0.5).lineLimit(1)
+                }
+                .padding(.top, revealed ? 10 : 40)
+                guessAnswer(word.mean.text)
+                Text(t("lazy.guessMeaning")).font(.subheadline).foregroundColor(Self.soft).multilineTextAlignment(.center).padding(.top, 10)
+            }
+            .frame(maxWidth: .infinity)
+            .animation(reduceMotion ? nil : .spring(response: 0.4, dampingFraction: 0.75), value: revealed)
+
+        case .plural(let word, let picture):
+            VStack(spacing: 10) {
+                kind(t("lazy.kind.plural"))
+                if let picture, let image = Covers.image(picture) {
+                    Image(uiImage: image).resizable().scaledToFill()
+                        .frame(width: 110, height: 110)
+                        .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+                        .padding(.top, 6)
+                }
+                HStack(spacing: 10) {
+                    Text(word.type).font(.system(size: 22, weight: .heavy)).foregroundColor(a1ArticleColor(word.type))
+                    Text(word.de).font(.system(size: 30, weight: .heavy)).foregroundColor(Self.ink).minimumScaleFactor(0.5).lineLimit(1)
+                }
+                .padding(.top, 10)
+                if showTranslation { Text(word.mean.text).font(.title3).foregroundColor(Color(red: 0.23, green: 0.23, blue: 0.21)) }
+                Image(systemName: "arrow.down").font(.system(size: 18, weight: .bold)).foregroundColor(Self.soft).padding(.vertical, 4)
+                HStack(spacing: 10) {
+                    Text("die").font(.system(size: 30, weight: .heavy)).foregroundColor(a1ArticleColor("die"))
+                    Text(revealed ? (word.plural ?? "") : "_____")
+                        .font(.system(size: 34, weight: .heavy))
+                        .foregroundColor(revealed ? Self.ink : Color(red: 0.79, green: 0.76, blue: 0.67))
+                        .minimumScaleFactor(0.5).lineLimit(1)
+                        .scaleEffect(revealed && !reduceMotion ? 1.05 : 1)
+                }
+                .animation(.spring(response: 0.35, dampingFraction: 0.5), value: revealed)
+                Text(t("lazy.guess")).font(.subheadline).foregroundColor(Self.soft).multilineTextAlignment(.center).padding(.top, 10)
+            }
+            .frame(maxWidth: .infinity)
+
         case .question(let sentence, let verb):
             VStack(alignment: .leading, spacing: 12) {
                 kind(t("lazy.kind.question")).frame(maxWidth: .infinity)
@@ -618,6 +986,25 @@ struct LazyPlayerView: View {
             }
             .frame(maxWidth: .infinity)
         }
+    }
+
+    /// The hidden answer of the meaning game: a dashed box with "?" that turns into the meaning.
+    private func guessAnswer(_ answer: String) -> some View {
+        ZStack {
+            if revealed {
+                Text(answer).font(.system(size: 26, weight: .heavy)).foregroundColor(Self.ink)
+                    .multilineTextAlignment(.center)
+                    .transition(.scale.combined(with: .opacity))
+            } else {
+                Text("?").font(.system(size: 30, weight: .heavy)).foregroundColor(Color(red: 0.79, green: 0.76, blue: 0.67))
+            }
+        }
+        .frame(maxWidth: .infinity, minHeight: 70)
+        .padding(.horizontal, 14)
+        .background(revealed ? Color(red: 1, green: 0.94, blue: 0.70) : Self.sand, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous)
+            .stroke(Color(red: 0.79, green: 0.76, blue: 0.67), style: StrokeStyle(lineWidth: revealed ? 0 : 2, dash: [7, 6])))
+        .padding(.top, 14)
     }
 
     private func kind(_ text: String) -> some View {
@@ -668,7 +1055,7 @@ struct LazyPlayerView: View {
         revealed = false
         narrationEnded = false
         caption = ""
-        if case .article = slide {
+        if slide.readsAtReveal {
             caption = "…"
             return  // Lina reads it when the answer shows
         }
@@ -706,9 +1093,10 @@ struct LazyPlayerView: View {
         guard playing, !finished, slide != nil else { return }
         elapsed += 0.25
         watched += 0.25
-        if case .article = slide!, !revealed, elapsed >= readingTime * 0.45 {
+        // Guessing slides (article, meaning, plural): the answer shows by itself after a pause.
+        if slide!.isGuess, !revealed, elapsed >= readingTime * 0.45 {
             revealed = true
-            narrate(slide!.lines)
+            if slide!.readsAtReveal { narrate(slide!.lines) }
         }
         let doneSpeaking = narrationEnded && !A1Speaker.shared.isSpeaking
         guard elapsed >= readingTime, doneSpeaking else { return }

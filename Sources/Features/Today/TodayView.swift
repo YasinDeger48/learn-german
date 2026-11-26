@@ -157,6 +157,8 @@ struct TodayView: View {
 /// progress ring or a count. Observes that level's model so the numbers stay current.
 struct TodayPractice: View {
     @ObservedObject var model: A1Model
+    @State private var showLazySetup = false
+    @State private var lazyConfig: LazyConfig?
 
     private func seenShare(_ mode: A1Mode) -> Double {
         let total = model.totalFor(mode)
@@ -201,8 +203,23 @@ struct TodayPractice: View {
                 NavigationLink(value: A1Route.songs) { SongsCard(count: songs) }
                     .buttonStyle(.pressable)
             }
+            // Tembel Mod, moved here from Practice (owner's request): the last card on Today.
+            LazyModeCard(level: model.level) { showLazySetup = true }
         }
         .disabled(!model.ready)
+        .sheet(isPresented: $showLazySetup) {
+            LazySetupView(level: model.level, words: model.content?.words ?? [], themes: model.content?.themes ?? []) { config in
+                showLazySetup = false
+                // The player opens after the sheet has gone (two presentations at once are refused).
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) { lazyConfig = config }
+            }
+            .presentationDetents([.large])
+        }
+        .fullScreenCover(item: $lazyConfig) { config in
+            LazyPlayerView(config: config)
+                .environmentObject(model)
+                .modifier(ClearCoverBackground())
+        }
     }
 
     private func tile(_ route: A1Route, _ title: String, _ value: String, _ icon: String, _ color: Color,

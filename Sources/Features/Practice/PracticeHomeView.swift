@@ -109,8 +109,6 @@ struct PracticeHomeView: View {
     @EnvironmentObject private var pro: ProStore
     @EnvironmentObject private var daily: DailyModel
     @State private var showPaywall = false
-    @State private var showLazySetup = false
-    @State private var lazyConfig: LazyConfig?
     private var isA1: Bool { model.level == "A1" }
 
     var body: some View {
@@ -126,7 +124,7 @@ struct PracticeHomeView: View {
                     Text(t("practice.loadFailed"))
                 } else {
                     hero
-                    LazyModeCard(level: model.level) { showLazySetup = true }
+                    // Tembel Mod moved to Today (owner's request).
                     if !pro.isPro { FreeQuestionsBanner { showPaywall = true } }
                     speakingCard
                     modeGrid
@@ -144,19 +142,6 @@ struct PracticeHomeView: View {
             pro.refreshQuota()
         }
         .sheet(isPresented: $showPaywall) { PaywallView().environmentObject(pro) }
-        .sheet(isPresented: $showLazySetup) {
-            LazySetupView(level: model.level) { config in
-                showLazySetup = false
-                // The player opens after the sheet has gone (two presentations at once are refused).
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) { lazyConfig = config }
-            }
-            .presentationDetents([.large])
-        }
-        .fullScreenCover(item: $lazyConfig) { config in
-            LazyPlayerView(config: config)
-                .environmentObject(model)
-                .modifier(ClearCoverBackground())
-        }
         .safeAreaInset(edge: .bottom) { AdBanner() }
     }
 
