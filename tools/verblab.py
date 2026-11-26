@@ -98,7 +98,8 @@ def export(level):
     print(f'{level.upper()}: {len(verbs)} verbs -> {len(batches)} lists in {FOLDER}')
 
 
-# Spot checks for common irregular verbs: ich-form Präteritum and Perfekt (er).
+# Spot checks for common irregular verbs: ich-form Präteritum and Perfekt (er); a tuple lists every valid Perfekt
+# (ziehen: "hat gezogen" = to pull, "ist gezogen" = to move house).
 IRREGULAR = {
     'sein': ('war', 'ist gewesen'), 'haben': ('hatte', 'hat gehabt'), 'werden': ('wurde', 'ist geworden'),
     'gehen': ('ging', 'ist gegangen'), 'kommen': ('kam', 'ist gekommen'), 'fahren': ('fuhr', 'ist gefahren'),
@@ -112,7 +113,7 @@ IRREGULAR = {
     'verlieren': ('verlor', 'hat verloren'), 'liegen': ('lag', 'hat gelegen'), 'sitzen': ('saß', 'hat gesessen'),
     'stehen': ('stand', 'hat gestanden'), 'rufen': ('rief', 'hat gerufen'), 'heißen': ('hieß', 'hat geheißen'),
     'beginnen': ('begann', 'hat begonnen'), 'fliegen': ('flog', 'ist geflogen'), 'waschen': ('wusch', 'hat gewaschen'),
-    'tun': ('tat', 'hat getan'), 'ziehen': ('zog', 'ist gezogen'), 'singen': ('sang', 'hat gesungen'), 'sterben': ('starb', 'ist gestorben'),
+    'tun': ('tat', 'hat getan'), 'ziehen': ('zog', ('hat gezogen', 'ist gezogen')), 'singen': ('sang', 'hat gesungen'), 'sterben': ('starb', 'ist gestorben'),
 }
 
 
@@ -148,7 +149,8 @@ def valid(e):
     known = IRREGULAR.get(str(e.get('v', '')).lower())
     if known and isinstance(e.get('praeteritum'), list) and e['praeteritum']:
         if str(e['praeteritum'][0]).strip() != known[0] or not str(e.get('perfekt', '')).strip().startswith(known[1]):
-            problems.append(f'wrong forms (expected {known[0]}, {known[1]})')
+            perfekt = known[1] if isinstance(known[1], str) else ' / '.join(known[1])
+            problems.append(f'wrong forms (expected {known[0]}, {perfekt})')
     tenses = {x.get('t') for x in e.get('examples', []) if isinstance(x, dict)}
     if not {'praesens', 'praeteritum', 'perfekt', 'futur'} <= tenses:
         problems.append('examples miss a tense')
