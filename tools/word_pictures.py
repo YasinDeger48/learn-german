@@ -55,6 +55,72 @@ DRAW = {
     92: 'a paper form with lines and boxes', 95: 'a pen signing a line', 1844: 'a sticking plaster', 1014: 'an ambulance',
 }
 
+# The 12 extra words per A1 unit (tools/units.py fill_a1_extra), 16 per grid, in unit order. Left out on purpose
+# (no picture can show them without misleading): the question words of unit 12, heute / morgen / gestern, das Alter.
+EXTRA_GRIDS = {
+    'a1-ek-01': [17, 18, 29, 30, 32, 86, 90, 91, 1, 2, 3, 4, 59, 60, 62, 71],
+    'a1-ek-02': [72, 73, 74, 46, 53, 54, 61, 169, 174, 175, 176, 177, 179, 180, 182, 170],
+    'a1-ek-03': [171, 173, 196, 236, 237, 241, 242, 244, 245, 249, 259, 233, 234, 235, 243, 282],
+    'a1-ek-04': [285, 290, 292, 300, 301, 303, 304, 296, 307, 308, 309, 110, 111, 114, 115, 116],
+    'a1-ek-05': [118, 119, 124, 117, 325, 330, 345, 349, 356, 362, 367, 369, 337, 338, 339, 340],
+    'a1-ek-06': [486, 494, 498, 499, 502, 505, 506, 507, 500, 501, 503, 504, 391, 393, 398, 400],
+    'a1-ek-07': [403, 405, 406, 409, 392, 407, 408, 424, 447, 448, 449, 465, 466, 471, 472, 478],
+    'a1-ek-08': [451, 452, 453, 454, 372, 374, 375, 377, 378, 382, 383, 384, 341, 342, 343, 352],
+}
+
+DRAW_EXTRA = {
+    17: 'a name badge with a small smiling face and one short blank line', 18: 'a door name plate on a family house',
+    29: 'a speech bubble with one short bar', 30: 'a speech bubble with a long row of small bars',
+    32: 'a speech bubble with a big check mark', 86: 'an envelope with a row of five small empty boxes',
+    90: 'a traveller with a suitcase and a passport', 91: 'a small house with a red heart above it',
+    1: 'a hand waving hello', 2: 'two people shaking hands in daylight', 3: 'a rising sun next to a cup of coffee',
+    4: 'a moon and stars over a lit window', 59: 'a smiling young woman (a female friend)',
+    60: 'two people holding hands', 62: 'one simple standing person', 71: 'a man working at a desk with a laptop',
+    72: 'a woman working at a desk with a laptop', 73: 'a man waving over a garden fence',
+    74: 'an aunt hugging a small child', 46: 'a mother and a father together', 53: 'a brother and a sister',
+    54: 'a grandmother and a grandfather', 61: 'a small group of different people', 169: 'a plate with a warm meal',
+    174: 'a lunch plate with the sun high above', 175: 'a dinner plate with a candle',
+    176: 'a person holding their stomach next to an empty plate', 177: 'an empty glass and a thirsty face',
+    179: 'a bread roll', 180: 'a butter dish with butter', 182: 'sausages', 170: 'a person eating with a fork',
+    171: 'a person drinking a glass of water', 173: 'a person eating breakfast at a table', 196: 'a bowl of pasta',
+    236: 'a small shop front', 237: 'a little corner store with an open door', 241: 'a street kiosk with newspapers',
+    242: 'a price tag', 244: 'a coin with the euro sign', 245: 'small copper coins',
+    249: 'a red sale tag with a percent sign', 259: 'a customer with a shopping basket',
+    233: 'a hand paying with a card at a till', 234: 'a person pushing a shopping cart',
+    235: 'a seller handing a bag over a counter', 243: 'a price tag next to a few coins',
+    282: 'a simple room with a bed and a window', 285: 'a toilet', 290: 'stairs going down into a cellar with boxes',
+    292: 'a building with one floor highlighted', 300: 'a wardrobe', 301: 'a sofa', 303: 'a fridge',
+    304: 'a kitchen stove', 296: 'a chair, a table and a lamp together', 307: 'a person in a shower',
+    308: 'washing hands with soap', 309: 'a person cleaning the floor with a mop', 110: 'an abacus',
+    111: 'a waiting ticket coming out of a ticket machine', 114: 'a wall clock', 115: 'an hourglass',
+    116: 'a stopwatch', 118: 'a clock face with one quarter coloured in', 119: 'a clock next to a calendar',
+    124: 'the sun halfway up the morning sky over a house', 117: 'a clock showing half past (long hand pointing down)',
+    325: 'a train on a railway track', 330: 'a green suburban train at a platform', 345: 'a ticket',
+    349: 'a train arriving at a platform and a person waving', 356: 'a street corner',
+    362: 'a town centre seen from above', 367: 'a hospital building with a red cross', 369: 'a police car',
+    337: 'a plane flying', 338: 'a person driving a car', 339: 'a train leaving with motion lines',
+    340: 'a traveller with a suitcase arriving at a door', 486: 'a simple human body outline', 494: 'an arm',
+    498: "a person's back", 499: 'long hair', 502: 'a green heart with a plus sign',
+    505: 'a thermometer next to a hot red face', 506: 'a person sneezing into a tissue',
+    507: "a doctor's practice door with a medical cross", 500: 'a person in bed with a thermometer',
+    501: 'a happy person jogging with an apple', 503: 'a person holding their head in pain',
+    504: 'a hurting knee with a plaster', 391: 'a person working at a desk', 393: 'a briefcase',
+    398: 'a female teacher at a board', 400: 'a female doctor with a stethoscope',
+    403: 'a schoolboy with a backpack', 405: 'a small group class around a table',
+    406: 'a teacher pointing at a board for pupils', 409: 'a university building',
+    392: 'hands typing on a laptop', 407: 'a person reading with a notebook',
+    408: 'a student with books and a graduation cap', 424: 'a person talking on a phone',
+    447: 'a paint palette and a guitar', 448: 'a person reading in a garden chair', 449: 'sports balls',
+    465: 'a festive table with garlands', 466: 'an invitation card with a balloon', 471: 'two friends laughing',
+    472: 'a family with backpacks on a trip', 478: 'a lake with trees', 451: 'children playing with a ball',
+    452: 'a person swimming', 453: 'a dancing couple', 454: 'a person singing with music notes',
+    372: 'a swimming pool', 374: 'a theatre stage with red curtains', 375: 'a suitcase with a map',
+    377: 'a beach chair under an umbrella', 378: 'several suitcases', 382: 'an info desk with an information symbol',
+    383: 'an open door with a green arrow pointing in', 384: 'a door with a green exit sign',
+    341: 'a person walking from one train to another', 342: 'a person stepping into a bus',
+    343: 'a person stepping out of a train', 352: 'a road sign arrow pointing left',
+}
+
 STYLE = ('A 4×4 grid of 16 separate square stickers on a plain warm off-white background (#F7F7F4), all the same size, '
          'with equal wide gaps between them. Each sticker shows ONE simple object, centred, flat minimal style matching the '
          'Deschly app icon, soft colours from the palette ink #0E0F0C, gold #F2C230, blue #2F5BEA, red #C8323A, green #157A41. '
@@ -110,11 +176,31 @@ def four(parts, length):
     return parts
 
 
+def prompts_extra():
+    lookup = words()
+    lines = ['A1 EK KELİMELER — 8 resim (ünite başına eklenen 12 kelimenin resmi)',
+             'Her istek: aşağıdaki ÜSLUP paragrafı + o resmin 16 maddelik listesi.',
+             'Kaydet: words-a1-ek-01.jpg … words-a1-ek-08.jpg (bu klasöre). Sonra Claude\'a "ek kelime resimleri hazır" de.',
+             'Not: €, % ve bilgi (i) gibi simgeler serbest; yazı ve rakam yine olmasın.', '',
+             'ÜSLUP:', STYLE, '']
+    for gid, ids in EXTRA_GRIDS.items():
+        lines.append(f'--- words-{gid}.jpg ---')
+        for n, wid in enumerate(ids, 1):
+            w = lookup[wid]
+            what = DRAW_EXTRA.get(wid) or ('a ' + w['mean']['en'].split(';')[0].split(',')[0].strip())
+            lines.append(f'{n}. {what}   [{w["type"]} {w["de"]}]')
+        lines.append('')
+    os.makedirs(GORSELLER, exist_ok=True)
+    out = os.path.join(GORSELLER, 'KELIME_IZGARALARI_A1_EK.txt')
+    open(out, 'w', encoding='utf-8', newline='\r\n').write('\n'.join(lines))
+    print('->', out)
+
+
 def cut(unit_id, path):
     """Finds the 16 stickers by the empty background between them (ChatGPT's grids are not exactly even),
     so no sticker is cut off and no piece of a neighbour comes along; falls back to equal cells."""
     from PIL import Image, ImageChops
-    ids = PICTURE_WORDS[unit_id]
+    ids = PICTURE_WORDS.get(unit_id) or EXTRA_GRIDS[unit_id]
     img = Image.open(path).convert('RGB')
     w, h = img.size
     background = img.getpixel((3, 3))
@@ -159,7 +245,7 @@ def cut(unit_id, path):
 
 
 def cut_all():
-    for uid in PICTURE_WORDS:
+    for uid in list(PICTURE_WORDS) + list(EXTRA_GRIDS):
         found = [p for ext in ('jpg', 'jpeg', 'png', 'webp') for p in glob.glob(os.path.join(GORSELLER, f'words-{uid}.{ext}'))]
         if found:
             cut(uid, found[0])
@@ -175,6 +261,8 @@ if __name__ == '__main__':
     command = sys.argv[1] if len(sys.argv) > 1 else 'status'
     if command == 'prompts':
         prompts()
+    elif command == 'prompts-extra':
+        prompts_extra()
     elif command == 'cut':
         cut(sys.argv[2], sys.argv[3])
     elif command == 'cut-all':
