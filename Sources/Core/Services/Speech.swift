@@ -47,15 +47,17 @@ final class A1Speaker {
     /// Plays the lines in order; `times: 2` repeats everything like in the exam.
     /// `onLine` (recorded voice only) gets the index of the line that starts and nil at the end; with the iPhone
     /// voice it gets nil at once, and the caller watches `isSpeaking`.
-    func play(_ lines: [A1Line], slow: Bool = false, times: Int = 1, onLine: ((Int?) -> Void)? = nil) {
+    /// `deviceVoice: false`: only the recorded natural voice; lines without a recording stay silent (Tembel Mod,
+    /// where the owner did not want the iPhone voice).
+    func play(_ lines: [A1Line], slow: Bool = false, times: Int = 1, deviceVoice: Bool = true, onLine: ((Int?) -> Void)? = nil) {
         synth.stopSpeaking(at: .immediate)
         let recorded = WordAudio.shared.play(lines: lines, slow: slow, times: times, onLine: onLine) { [weak self] in
             onLine?(nil)
-            self?.speak(lines, slow: slow, times: times)
+            if deviceVoice { self?.speak(lines, slow: slow, times: times) }
         }
         if !recorded {
             onLine?(nil)
-            speak(lines, slow: slow, times: times)
+            if deviceVoice { speak(lines, slow: slow, times: times) }
         }
     }
 

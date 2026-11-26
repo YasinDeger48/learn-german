@@ -114,8 +114,18 @@ def spoken_sentences():
         verbs = load(f'verbs_{level}.json') or {}
         for v in verbs.get('verbs', []):
             out += [(-1, e['de'] if isinstance(e, dict) else e) for e in v.get('examples', [])]
+            # Tembel Mod reads the forms too (LazySlide.lines in the app): infinitive, ich/du/er, past, perfect,
+            # future, and the verb's questions.
+            out.append((-1, v['v']))
+            out += [(-1, f'{p} {f}') for p, f in zip(['ich', 'du', 'er'], v.get('praesens', []))]
+            if v.get('praeteritum'):
+                out.append((-1, f"ich {v['praeteritum'][0]}"))
+            out += [(-1, f"er {v['perfekt']}"), (-1, f"er {v['futur']}")]
+            out += [(-1, q['de']) for q in v.get('questions', [])]
         for w in data.get('words', []):
             out += [(-1, ex['de']) for ex in w.get('ex', [])]
+            if w.get('type') in ('der', 'die', 'das') and w.get('plural'):
+                out.append((-1, f"die {w['plural']}"))  # Tembel Mod says the plural
         for g in data.get('grammarItems', []):
             if g['options']:
                 out.append((-1, g['q'].replace('___', g['options'][0].replace(' … ', ' '))))

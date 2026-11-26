@@ -186,6 +186,8 @@
  "lazy.left": "{0} dk kaldı",
  "lazy.slide": "{0}. slayt",
  "lazy.speed": "Hız",
+ "lazy.mute": "Sesi kapat",
+ "lazy.unmute": "Sesi aç",
  "lazy.prev": "Önceki",
  "lazy.next": "Sonraki",
  "lazy.pause": "Duraklat",

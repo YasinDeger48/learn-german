@@ -230,6 +230,7 @@ struct LazyPlayerView: View {
     @State private var revealed = false
     @State private var finished = false
     @State private var slidesSeen = 0
+    @AppStorage("lazy.muted") private var muted = false
     private let clock = Timer.publish(every: 0.25, on: .main, in: .common).autoconnect()
     private static let speeds: [Double] = [0.8, 1, 1.25]
 
@@ -332,7 +333,16 @@ struct LazyPlayerView: View {
     }
 
     private var controls: some View {
-        HStack(spacing: 16) {
+        HStack(spacing: 10) {
+            roundButton(Image(systemName: muted ? "speaker.slash.fill" : "speaker.wave.2.fill").font(.system(size: 15, weight: .bold)),
+                        muted ? t("lazy.unmute") : t("lazy.mute")) {
+                muted.toggle()
+                if muted {
+                    A1Speaker.shared.stop()
+                    narrationEnded = true
+                }
+            }
+            .accessibilityAddTraits(muted ? .isSelected : [])
             roundButton(Text(["0.8x", "1x", "1.25x"][speedIndex]).font(.system(size: 14, weight: .bold)), t("lazy.speed")) {
                 speedIndex = (speedIndex + 1) % Self.speeds.count
             }
@@ -341,7 +351,7 @@ struct LazyPlayerView: View {
                 Image(systemName: playing ? "pause.fill" : "play.fill")
                     .font(.system(size: 24, weight: .bold))
                     .foregroundColor(Self.ink)
-                    .frame(width: 68, height: 68)
+                    .frame(width: 64, height: 64)
                     .background(DS.gold, in: Circle())
                     .shadow(color: Color(red: 0.79, green: 0.60, blue: 0.12), radius: 0, y: 5)
             }
@@ -358,7 +368,7 @@ struct LazyPlayerView: View {
     private func roundButton<Face: View>(_ label: Face, _ name: String, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             label.foregroundColor(Self.ink)
-                .frame(width: 50, height: 46)
+                .frame(width: 46, height: 46)
                 .background(Self.sand, in: Capsule())
         }
         .buttonStyle(.pressable)
@@ -583,11 +593,21 @@ struct LazyPlayerView: View {
             return
         }
         caption = lines[0]
+        if muted {
+            narrationEnded = true
+            return
+        }
         let current = index
-        A1Speaker.shared.play(lines.map { A1Line(s: -1, t: $0) }, slow: speed < 1) { line in
+        // Only the recorded natural voice (no iPhone voice): lines without a recording are shown, not read.
+        let recorded = lines.filter { WordAudio.shared.isRecorded(A1Line(s: -1, t: $0)) }
+        guard !recorded.isEmpty else {
+            narrationEnded = true
+            return
+        }
+        A1Speaker.shared.play(recorded.map { A1Line(s: -1, t: $0) }, slow: speed < 1, deviceVoice: false) { line in
             guard current == index else { return }
-            if let line, lines.indices.contains(line) {
-                caption = lines[line]
+            if let line, recorded.indices.contains(line) {
+                caption = recorded[line]
             } else {
                 narrationEnded = true
             }

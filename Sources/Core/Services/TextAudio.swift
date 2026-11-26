@@ -316,6 +316,12 @@ final class WordAudio {
 
     private static func local(_ hash: String) -> URL { folder.appendingPathComponent("w-\(hash).mp3") }
 
+    /// Whether the natural voice has this line (Tembel Mod reads only those).
+    func isRecorded(_ line: A1Line) -> Bool {
+        load()
+        return items[Self.lineKey(line)] != nil
+    }
+
     /// Bumped by every start and stop, so an older line sequence stops going on.
     private var sequence = 0
 

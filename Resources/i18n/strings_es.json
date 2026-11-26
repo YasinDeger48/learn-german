@@ -186,6 +186,8 @@
  "lazy.left": "{0} min left",
  "lazy.slide": "Slide {0}",
  "lazy.speed": "Speed",
+ "lazy.mute": "Mute",
+ "lazy.unmute": "Unmute",
  "lazy.prev": "Previous",
  "lazy.next": "Next",
  "lazy.pause": "Pause",
