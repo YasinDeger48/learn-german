@@ -11,7 +11,7 @@
     "ku": "tîpa A",
     "fr": "lettre A",
     "it": "lettera A",
-    "ar": "الحرف أ"
+    "ar": "الحرف A"
    }
   },
   {
@@ -25,7 +25,7 @@
     "ku": "asta A1",
     "fr": "niveau A1",
     "it": "livello A1",
-    "ar": "المستوى A1"
+    "ar": "مستوى A1"
    }
   },
   {
@@ -55,7 +55,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -100,7 +100,7 @@
     "ku": "radest kir",
     "fr": "remis, rendu",
     "it": "consegnato",
-    "ar": "تم التسليم"
+    "ar": "سُلِّم"
    }
   },
   {
@@ -115,7 +115,7 @@
     "ku": "şandin",
     "fr": "expédié",
     "it": "spedito",
-    "ar": "مُرسَل"
+    "ar": "أُرسل"
    }
   },
   {
@@ -130,7 +130,7 @@
     "ku": "asteng kir",
     "fr": "empêché, retenu",
     "it": "impedito",
-    "ar": "ممنوع من"
+    "ar": "منع، حال دون"
    }
   },
   {
@@ -145,7 +145,7 @@
     "ku": "agahiya ji bo wergirtinê",
     "fr": "notification de retrait",
     "it": "avviso di ritiro",
-    "ar": "إشعار الاستلام"
+    "ar": "إشعار جاهزية الاستلام"
    }
   },
   {
@@ -220,7 +220,7 @@
     "ku": "tez",
     "fr": "mémoire de fin d'études",
     "it": "tesi",
-    "ar": "أُطرُوحَة"
+    "ar": "أطروحة"
    }
   },
   {
@@ -235,7 +235,7 @@
     "ku": "rapora dawî",
     "fr": "rapport final",
     "it": "relazione finale",
-    "ar": "التقرير النهائي"
+    "ar": "تقرير نهائي"
    }
   },
   {
@@ -250,7 +250,7 @@
     "ku": "îmtîhana dawî",
     "fr": "examen final",
     "it": "esame finale",
-    "ar": "الامتحان النهائي"
+    "ar": "امتحان نهائي"
    }
   },
   {
@@ -266,7 +266,7 @@
     "ku": "radestkirin",
     "fr": "soumission, remise",
     "it": "consegna",
-    "ar": "استسلام"
+    "ar": "تسليم"
    }
   },
   {
@@ -280,7 +280,7 @@
     "ku": "bi qest",
     "fr": "intentionnellement",
     "it": "intenzionalmente",
-    "ar": "عمدا"
+    "ar": "عن قصد"
    }
   },
   {
@@ -295,7 +295,7 @@
     "ku": "lîstik, lîstin",
     "fr": "jeu",
     "it": "suonare",
-    "ar": "يلعب"
+    "ar": "لعبة"
    }
   },
   {
@@ -325,7 +325,7 @@
     "ku": "cihê hilanînê",
     "fr": "espace de rangement",
     "it": "ripostiglio",
-    "ar": "منطقة التخزين"
+    "ar": "منطقة تخزين"
    }
   },
   {
@@ -340,7 +340,7 @@
     "ku": "ji cihê xwe hilanîn",
     "fr": "récupérer",
     "it": "ritirare",
-    "ar": "يلتقط"
+    "ar": "يستلم"
    }
   },
   {
@@ -355,7 +355,7 @@
     "ku": "girtin, vemirandin",
     "fr": "éteindre",
     "it": "spegnere",
-    "ar": "لإيقاف التشغيل"
+    "ar": "يطفئ"
    }
   },
   {
@@ -370,7 +370,7 @@
     "ku": "lîstik, lîstin",
     "fr": "jeu",
     "it": "suonare",
-    "ar": "يلعب"
+    "ar": "لعبة"
    }
   },
   {
@@ -445,7 +445,7 @@
     "ku": "rêveber",
     "fr": "administrateur",
     "it": "amministratore",
-    "ar": "مسؤول النظام"
+    "ar": "مسؤول إداري"
    }
   },
   {
@@ -460,7 +460,7 @@
     "ku": "hatibû navnîşan kirin",
     "fr": "avait été adressé",
     "it": "era indirizzato",
-    "ar": "تمت معالجة الأمر"
+    "ar": "تمت مخاطبته"
    }
   },
   {
@@ -536,7 +536,7 @@
     "ku": "nûve kir",
     "fr": "mis à jour",
     "it": "aggiornato",
-    "ar": "تم التحديث"
+    "ar": "محدَّث"
    }
   },
   {
@@ -551,7 +551,7 @@
     "ku": "nûve kir",
     "fr": "mis à jour",
     "it": "aggiornato",
-    "ar": "تم التحديث"
+    "ar": "محدَّث"
    }
   },
   {
@@ -581,7 +581,7 @@
     "ku": "ya Alan",
     "fr": "de Alan",
     "it": "di Alan",
-    "ar": "آلان"
+    "ar": "خاص بألان"
    }
   },
   {
@@ -596,7 +596,7 @@
     "ku": "alarm",
     "fr": "alarme",
     "it": "sveglia",
-    "ar": "إنذار"
+    "ar": "منبّه"
    }
   },
   {
@@ -686,7 +686,7 @@
     "ku": "hemû",
     "fr": "tout, tous",
     "it": "tutto",
-    "ar": "الجميع"
+    "ar": "الكل"
    }
   },
   {
@@ -729,7 +729,7 @@
     "ku": "giştîtir",
     "fr": "plus général",
     "it": "più generale",
-    "ar": "بشكل عام"
+    "ar": "أكثر عمومية"
    }
   },
   {
@@ -745,7 +745,7 @@
     "ku": "alternatîf",
     "fr": "alternatives",
     "it": "alternative",
-    "ar": "البدائل"
+    "ar": "بدائل"
    }
   },
   {
@@ -760,7 +760,7 @@
     "ku": "li ser (an dem)",
     "fr": "sur le, au (an dem)",
     "it": "sul, sulla (an dem)",
-    "ar": "على"
+    "ar": "على الـ (an dem)"
    }
   },
   {
@@ -775,7 +775,7 @@
     "ku": "komika şanoya amator",
     "fr": "troupe de théâtre amateur",
     "it": "compagnia teatrale amatoriale",
-    "ar": "فرقة مسرحية هواة"
+    "ar": "فرقة مسرح هواة"
    }
   },
   {
@@ -835,7 +835,7 @@
     "ku": "ya Ana",
     "fr": "de Ana",
     "it": "di Ana",
-    "ar": "آنا"
+    "ar": "خاص بآنا"
    }
   },
   {
@@ -850,7 +850,7 @@
     "ku": "pêşkêş kir",
     "fr": "proposé",
     "it": "offerto",
-    "ar": "عرض"
+    "ar": "قدّم"
    }
   },
   {
@@ -865,7 +865,7 @@
     "ku": "ya din (Nominativ, nêrer)",
     "fr": "un autre (féminin, nominatif)",
     "it": "un altro, un’altra",
-    "ar": "آخر"
+    "ar": "آخر، أخرى"
    }
   },
   {
@@ -895,7 +895,7 @@
     "ku": "ya din (Nominativ, nêrer)",
     "fr": "un autre (féminin, nominatif)",
     "it": "un altro, un’altra",
-    "ar": "آخر"
+    "ar": "آخر، أخرى"
    }
   },
   {
@@ -909,7 +909,7 @@
     "ku": "ya din (Nominativ, nêrer)",
     "fr": "un autre (féminin, nominatif)",
     "it": "un altro, un’altra",
-    "ar": "آخر"
+    "ar": "آخر، أخرى"
    }
   },
   {
@@ -924,7 +924,7 @@
     "ku": "ya din (Nominativ, nêrer)",
     "fr": "un autre (féminin, nominatif)",
     "it": "un altro, un’altra",
-    "ar": "آخر"
+    "ar": "آخر، أخرى"
    }
   },
   {
@@ -938,7 +938,7 @@
     "ku": "li cihê din",
     "fr": "ailleurs",
     "it": "altrove",
-    "ar": "في أماكن أخرى"
+    "ar": "في مكان آخر"
    }
   },
   {
@@ -953,7 +953,7 @@
     "ku": "derket holê",
     "fr": "est apparu",
     "it": "è sorto",
-    "ar": "نشأت"
+    "ar": "نشأ، ظهر"
    }
   },
   {
@@ -983,7 +983,7 @@
     "ku": "serdana dike",
     "fr": "passe par",
     "it": "serve",
-    "ar": "يقدم"
+    "ar": "يخدم"
    }
   },
   {
@@ -1029,7 +1029,7 @@
     "ku": "guhdarî kir",
     "fr": "a écouté",
     "it": "ascoltato",
-    "ar": "استمعت إلى"
+    "ar": "استمع إلى"
    }
   },
   {
@@ -1044,7 +1044,7 @@
     "ku": "girêdabû",
     "fr": "avait relié",
     "it": "collegato",
-    "ar": "متصل"
+    "ar": "ربط"
    }
   },
   {
@@ -1059,7 +1059,7 @@
     "ku": "di rêzê de sekinî",
     "fr": "a fait la queue",
     "it": "si è messo in coda",
-    "ar": "في قائمة الانتظار"
+    "ar": "اصطفّ في طابور"
    }
   },
   {
@@ -1074,7 +1074,7 @@
     "ku": "hat nîşandan",
     "fr": "affiché",
     "it": "mostrato",
-    "ar": "عرض"
+    "ar": "عُرض"
    }
   },
   {
@@ -1090,7 +1090,7 @@
     "ku": "guhdarîkirin",
     "fr": "écoute",
     "it": "ascolto",
-    "ar": "الاستماع"
+    "ar": "استماع"
    }
   },
   {
@@ -1166,7 +1166,7 @@
     "ku": "ragihandin",
     "fr": "annonces",
     "it": "annunci",
-    "ar": "الإعلانات"
+    "ar": "إعلانات"
    }
   },
   {
@@ -1211,7 +1211,7 @@
     "ku": "qeyd bû",
     "fr": "s'est inscrit",
     "it": "registrato",
-    "ar": "مسجل"
+    "ar": "سجّل"
    }
   },
   {
@@ -1226,7 +1226,7 @@
     "ku": "qeyd bû",
     "fr": "s'est inscrit",
     "it": "registrato",
-    "ar": "مسجل"
+    "ar": "سجّل"
    }
   },
   {
@@ -1241,7 +1241,7 @@
     "ku": "not",
     "fr": "note",
     "it": "nota",
-    "ar": "ملحوظة"
+    "ar": "ملاحظة"
    }
   },
   {
@@ -1272,7 +1272,7 @@
     "ku": "Kolana Annen",
     "fr": "rue Annen",
     "it": "via Annen",
-    "ar": "شارع أنين"
+    "ar": "شارع أنن"
    }
   },
   {
@@ -1302,7 +1302,7 @@
     "ku": "telefon kir",
     "fr": "a appelé",
     "it": "chiamato",
-    "ar": "مُسَمًّى"
+    "ar": "اتصل"
    }
   },
   {
@@ -1317,7 +1317,7 @@
     "ku": "bo (an das)",
     "fr": "vers le, au (an das)",
     "it": "al, alla (an das)",
-    "ar": "إلى"
+    "ar": "إلى الـ (an das)"
    }
   },
   {
@@ -1346,7 +1346,7 @@
     "ku": "beşdar bûn",
     "fr": "rejoindre",
     "it": "unirsi",
-    "ar": "للانضمام"
+    "ar": "ينضم"
    }
   },
   {
@@ -1360,7 +1360,7 @@
     "ku": "balkêşî kirin",
     "fr": "plaire à, attirer",
     "it": "attirare",
-    "ar": "للتوجه إلى"
+    "ar": "يجذب اهتمام"
    }
   },
   {
@@ -1389,7 +1389,7 @@
     "ku": "bajar (Tirkiye)",
     "fr": "ville (Turquie)",
     "it": "città (in Turchia)",
-    "ar": "مدينة (تركيا)"
+    "ar": "مدينة (في تركيا)"
    }
   },
   {
@@ -1421,7 +1421,7 @@
     "ku": "niştecihên jin",
     "fr": "habitantes du quartier",
     "it": "residenti donne",
-    "ar": "المقيمات"
+    "ar": "السكان المحليّات"
    }
   },
   {
@@ -1467,7 +1467,7 @@
     "ku": "sazkirin",
     "fr": "installer",
     "it": "installare",
-    "ar": "ثَبَّتَ"
+    "ar": "يثبّت"
    }
   },
   {
@@ -1482,7 +1482,7 @@
     "ku": "diyar kirin",
     "fr": "indiquer",
     "it": "indicare",
-    "ar": "للتصريح"
+    "ar": "يذكر"
    }
   },
   {
@@ -1497,7 +1497,7 @@
     "ku": "ragihandin",
     "fr": "annoncer",
     "it": "annunciare",
-    "ar": "أعلن"
+    "ar": "يعلن"
    }
   },
   {
@@ -1512,7 +1512,7 @@
     "ku": "çêkirin",
     "fr": "créer",
     "it": "creare",
-    "ar": "يخلق"
+    "ar": "ينشئ"
    }
   },
   {
@@ -1542,7 +1542,7 @@
     "ku": "bang kirin",
     "fr": "appel",
     "it": "chiamare",
-    "ar": "يتصل"
+    "ar": "مكالمة"
    }
   },
   {
@@ -1557,7 +1557,7 @@
     "ku": "demjimêr danîn",
     "fr": "planifier",
     "it": "programmare",
-    "ar": "لتحديد موعد"
+    "ar": "يحدد موعدًا"
    }
   },
   {
@@ -1572,7 +1572,7 @@
     "ku": "nîşan dan",
     "fr": "afficher",
     "it": "mostrare",
-    "ar": "لعرض"
+    "ar": "يعرض"
    }
   },
   {
@@ -1617,7 +1617,7 @@
     "ku": "gava karê",
     "fr": "étape de travail",
     "it": "fase di lavoro",
-    "ar": "خطوة العمل"
+    "ar": "خطوة عمل"
    }
   },
   {
@@ -1709,7 +1709,7 @@
     "ku": "arşîvkar (jin)",
     "fr": "archiviste",
     "it": "archivista",
-    "ar": "أمينة أرشيف أنثى"
+    "ar": "أمينة أرشيف"
    }
   },
   {
@@ -1724,7 +1724,7 @@
     "ku": "nîqaş",
     "fr": "argument",
     "it": "argomento",
-    "ar": "دعوى"
+    "ar": "حجة"
    }
   },
   {
@@ -1740,7 +1740,7 @@
     "ku": "nîqaşan",
     "fr": "arguments",
     "it": "argomenti",
-    "ar": "الحجج"
+    "ar": "حجج"
    }
   },
   {
@@ -1801,7 +1801,7 @@
     "ku": "sazkirin",
     "fr": "installation",
     "it": "struttura",
-    "ar": "يثبت"
+    "ar": "إعداد"
    }
   },
   {
@@ -1815,7 +1815,7 @@
     "ku": "balkêş",
     "fr": "remarquable",
     "it": "evidente",
-    "ar": "واضح"
+    "ar": "لافت"
    }
   },
   {
@@ -1845,7 +1845,7 @@
     "ku": "pêşandan",
     "fr": "représentation",
     "it": "spettacolo",
-    "ar": "أداء"
+    "ar": "عرض، أداء"
    }
   },
   {
@@ -1875,7 +1875,7 @@
     "ku": "xwaribû",
     "fr": "avait été mangé",
     "it": "consumato",
-    "ar": "أُكل"
+    "ar": "أُكل بالكامل"
    }
   },
   {
@@ -1890,7 +1890,7 @@
     "ku": "hat tomar kirin (Akkusativ, nêrer)",
     "fr": "enregistrée (accusatif, féminin)",
     "it": "registrato",
-    "ar": "مسجلة"
+    "ar": "مسجّل"
    }
   },
   {
@@ -1905,7 +1905,7 @@
     "ku": "hat tomar kirin (Akkusativ, nêrer)",
     "fr": "enregistrée (accusatif, féminin)",
     "it": "registrato",
-    "ar": "مسجلة"
+    "ar": "مسجّل"
    }
   },
   {
@@ -1951,7 +1951,7 @@
     "ku": "tomaran",
     "fr": "enregistrements",
     "it": "registrazioni",
-    "ar": "التسجيلات"
+    "ar": "تسجيلات"
    }
   },
   {
@@ -1966,7 +1966,7 @@
     "ku": "nivîsand",
     "fr": "a noté",
     "it": "annotò",
-    "ar": "كتب"
+    "ar": "دوّن"
    }
   },
   {
@@ -1981,7 +1981,7 @@
     "ku": "rabû",
     "fr": "s'est levé",
     "it": "si alzò",
-    "ar": "وقف"
+    "ar": "نهض"
    }
   },
   {
@@ -1996,7 +1996,7 @@
     "ku": "saz kir",
     "fr": "a installé",
     "it": "organizzato",
-    "ar": "يثبت"
+    "ar": "أعدّ، جهّز"
    }
   },
   {
@@ -2010,7 +2010,7 @@
     "ku": "derketin",
     "fr": "survenir",
     "it": "sorgere",
-    "ar": "أن ينشأ"
+    "ar": "ينشأ"
    }
   },
   {
@@ -2040,7 +2040,7 @@
     "ku": "fermana karê",
     "fr": "ordre de travail",
     "it": "ordine di lavoro",
-    "ar": "طلب عمل"
+    "ar": "أمر عمل"
    }
   },
   {
@@ -2055,7 +2055,7 @@
     "ku": "qewimî",
     "fr": "s'est produit",
     "it": "si verificò",
-    "ar": "حصل"
+    "ar": "حدث"
    }
   },
   {
@@ -2070,7 +2070,7 @@
     "ku": "pêşandan",
     "fr": "représentation",
     "it": "spettacolo",
-    "ar": "أداء"
+    "ar": "عرض، أداء"
    }
   },
   {
@@ -2116,7 +2116,7 @@
     "ku": "balkêş xuya bûn",
     "fr": "se faire remarquer",
     "it": "risaltare",
-    "ar": "دافع عن كرامته"
+    "ar": "يبرز"
    }
   },
   {
@@ -2131,7 +2131,7 @@
     "ku": "kar kirin",
     "fr": "fonctionner",
     "it": "funzionare",
-    "ar": "اكتشف - حل"
+    "ar": "ينجح، يعمل"
    }
   },
   {
@@ -2146,7 +2146,7 @@
     "ku": "parastin",
     "fr": "garder",
     "it": "tenere",
-    "ar": "يحفظ"
+    "ar": "يحتفظ"
    }
   },
   {
@@ -2161,7 +2161,7 @@
     "ku": "tomar kirin",
     "fr": "enregistrer",
     "it": "registrare",
-    "ar": "سِجِلّ"
+    "ar": "يسجل"
    }
   },
   {
@@ -2176,7 +2176,7 @@
     "ku": "nivîsandin",
     "fr": "noter",
     "it": "annotare",
-    "ar": "اكتب"
+    "ar": "يدوّن"
    }
   },
   {
@@ -2191,7 +2191,7 @@
     "ku": "amadekirin",
     "fr": "rédiger",
     "it": "redigere",
-    "ar": "رسم"
+    "ar": "يعدّ"
    }
   },
   {
@@ -2206,7 +2206,7 @@
     "ku": "dabeşkirin",
     "fr": "répartir",
     "it": "dividere",
-    "ar": "للتقسيم"
+    "ar": "يقسم"
    }
   },
   {
@@ -2236,7 +2236,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -2267,7 +2267,7 @@
     "ku": "çap",
     "fr": "impression",
     "it": "stampa",
-    "ar": "اطبع"
+    "ar": "نسخة مطبوعة"
    }
   },
   {
@@ -2283,7 +2283,7 @@
     "ku": "îfadeyên",
     "fr": "expressions",
     "it": "espressioni",
-    "ar": "تعابير"
+    "ar": "تعبيرات"
    }
   },
   {
@@ -2297,7 +2297,7 @@
     "ku": "parçe parçe",
     "fr": "séparément",
     "it": "separato",
-    "ar": "منفصل"
+    "ar": "منفصلًا"
    }
   },
   {
@@ -2312,7 +2312,7 @@
     "ku": "xerabî",
     "fr": "panne",
     "it": "fallimento",
-    "ar": "فشل"
+    "ar": "عطل"
    }
   },
   {
@@ -2327,7 +2327,7 @@
     "ku": "hat betalkirin",
     "fr": "a été annulé",
     "it": "è stato annullato",
-    "ar": "تم إلغاؤه"
+    "ar": "أُلغي"
    }
   },
   {
@@ -2372,7 +2372,7 @@
     "ku": "bi hûrgulî hat amadekirin",
     "fr": "développé",
     "it": "sviluppato",
-    "ar": "متطور"
+    "ar": "أُعدّ بالتفصيل"
    }
   },
   {
@@ -2387,7 +2387,7 @@
     "ku": "hat radestkirin",
     "fr": "remis",
     "it": "consegnato",
-    "ar": "تم التسليم"
+    "ar": "سُلّم"
    }
   },
   {
@@ -2402,7 +2402,7 @@
     "ku": "têra xwe bû",
     "fr": "avoir suffi",
     "it": "è bastato",
-    "ar": "كان كافياً"
+    "ar": "كان كافيًا"
    }
   },
   {
@@ -2432,7 +2432,7 @@
     "ku": "ragihandin",
     "fr": "avis",
     "it": "avviso",
-    "ar": "يلاحظ"
+    "ar": "إشعار"
    }
   },
   {
@@ -2447,7 +2447,7 @@
     "ku": "dest pê kir",
     "fr": "a déclenché",
     "it": "innescato",
-    "ar": "تم تشغيله"
+    "ar": "سبّب"
    }
   },
   {
@@ -2476,7 +2476,7 @@
     "ku": "têra xwe bû",
     "fr": "suffisait",
     "it": "è bastato",
-    "ar": "كان ذلك كافياً"
+    "ar": "كان كافيًا"
    }
   },
   {
@@ -2491,7 +2491,7 @@
     "ku": "têra wan bû",
     "fr": "ont suffi",
     "it": "sono bastati",
-    "ar": "كانت كافية"
+    "ar": "كانوا كافيين"
    }
   },
   {
@@ -2506,7 +2506,7 @@
     "ku": "rêberî",
     "fr": "orientation",
     "it": "allineamento",
-    "ar": "تنسيق"
+    "ar": "محاذاة"
    }
   },
   {
@@ -2522,7 +2522,7 @@
     "ku": "gotin",
     "fr": "déclarations",
     "it": "dichiarazioni",
-    "ar": "البيانات"
+    "ar": "تصريحات"
    }
   },
   {
@@ -2566,7 +2566,7 @@
     "ku": "xwedî dîmen",
     "fr": "d'apparence",
     "it": "guardando",
-    "ar": "البحث"
+    "ar": "ذو مظهر"
    }
   },
   {
@@ -2597,7 +2597,7 @@
     "ku": "nîşan dida",
     "fr": "indiquait",
     "it": "indicato",
-    "ar": "مبين"
+    "ar": "أشار إلى"
    }
   },
   {
@@ -2612,7 +2612,7 @@
     "ku": "firehkirin",
     "fr": "agrandir",
     "it": "ampliare",
-    "ar": "للتوسع"
+    "ar": "يوسّع"
    }
   },
   {
@@ -2627,7 +2627,7 @@
     "ku": "xwendekarên pîşeyî",
     "fr": "apprentis",
     "it": "tirocinanti",
-    "ar": "المتدربين"
+    "ar": "متدربون"
    }
   },
   {
@@ -2642,7 +2642,7 @@
     "ku": "xwendekarên pîşeyî",
     "fr": "apprentis",
     "it": "tirocinanti",
-    "ar": "المتدربين"
+    "ar": "متدربون"
    }
   },
   {
@@ -2657,7 +2657,7 @@
     "ku": "çapkirin",
     "fr": "imprimer",
     "it": "stampare",
-    "ar": "اطبع"
+    "ar": "يطبع"
    }
   },
   {
@@ -2672,7 +2672,7 @@
     "ku": "derketina ji xanî",
     "fr": "déménagement",
     "it": "trasloco",
-    "ar": "الانتقال من المنزل"
+    "ar": "إخلاء المنزل عند الانتقال"
    }
   },
   {
@@ -2716,7 +2716,7 @@
     "ku": "bixweber",
     "fr": "automatiquement",
     "it": "automaticamente",
-    "ar": "تلقائياً"
+    "ar": "تلقائيًا"
    }
   },
   {
@@ -2731,7 +2731,7 @@
     "ku": "otomatîk (Nominativ, nêrer)",
     "fr": "automatique (nominatif, féminin)",
     "it": "automatico",
-    "ar": "أوتوماتيكي"
+    "ar": "تلقائي"
    }
   },
   {
@@ -2746,7 +2746,7 @@
     "ku": "nivîskar (jin)",
     "fr": "auteure",
     "it": "autrice",
-    "ar": "كاتبة"
+    "ar": "مؤلفة"
    }
   },
   {
@@ -2776,7 +2776,7 @@
     "ku": "ronahiyên derve",
     "fr": "éclairages extérieurs",
     "it": "luci esterne",
-    "ar": "إضاءة خارجية"
+    "ar": "أضواء خارجية"
    }
   },
   {
@@ -2791,7 +2791,7 @@
     "ku": "deriyê derve",
     "fr": "porte extérieure",
     "it": "porta esterna",
-    "ar": "الباب الخارجي"
+    "ar": "باب خارجي"
    }
   },
   {
@@ -2836,7 +2836,7 @@
     "ku": "ya Aylin",
     "fr": "de Aylin",
     "it": "di Aylin",
-    "ar": "أيلين"
+    "ar": "خاص بأيلين"
    }
   },
   {
@@ -2880,7 +2880,7 @@
     "ku": "tîpa B",
     "fr": "lettre B",
     "it": "lettera B",
-    "ar": "الحرف ب"
+    "ar": "الحرف B"
    }
   },
   {
@@ -2942,7 +2942,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -2957,7 +2957,7 @@
     "ku": "pirsî",
     "fr": "a demandé",
     "it": "ha chiesto",
-    "ar": "سأل"
+    "ar": "طلب"
    }
   },
   {
@@ -2972,7 +2972,7 @@
     "ku": "pirsî",
     "fr": "a demandé",
     "it": "ha chiesto",
-    "ar": "سأل"
+    "ar": "طلب"
    }
   },
   {
@@ -3017,7 +3017,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -3061,7 +3061,7 @@
     "ku": "pêvajokirin",
     "fr": "traiter",
     "it": "procedura",
-    "ar": "عملية"
+    "ar": "يعالج"
    }
   },
   {
@@ -3076,7 +3076,7 @@
     "ku": "pêvajokirin",
     "fr": "traitement",
     "it": "elaborazione",
-    "ar": "يعالج"
+    "ar": "معالجة"
    }
   },
   {
@@ -3091,7 +3091,7 @@
     "ku": "hewcedarî",
     "fr": "besoin",
     "it": "necessità",
-    "ar": "يحتاج"
+    "ar": "حاجة"
    }
   },
   {
@@ -3105,7 +3105,7 @@
     "ku": "nîşan dan",
     "fr": "signaler",
     "it": "segnalare",
-    "ar": "للإشارة إلى"
+    "ar": "يشير إلى"
    }
   },
   {
@@ -3119,7 +3119,7 @@
     "ku": "diqedîne",
     "fr": "se termine",
     "it": "termina",
-    "ar": "نهاية"
+    "ar": "ينتهي"
    }
   },
   {
@@ -3134,7 +3134,7 @@
     "ku": "nivîna baxçeyê",
     "fr": "potager",
     "it": "aiuola",
-    "ar": "حوض الحديقة"
+    "ar": "حوض زراعة"
    }
   },
   {
@@ -3150,7 +3150,7 @@
     "ku": "nivînên baxçeyê",
     "fr": "potagers",
     "it": "aiuole",
-    "ar": "أحواض الحديقة"
+    "ar": "أحواض زراعة"
    }
   },
   {
@@ -3179,7 +3179,7 @@
     "ku": "li wir bû",
     "fr": "était situé",
     "it": "era situato",
-    "ar": "تم تحديد الموقع"
+    "ar": "كان يقع"
    }
   },
   {
@@ -3223,7 +3223,7 @@
     "ku": "rastî hev tê",
     "fr": "rencontre",
     "it": "si incontra",
-    "ar": "يلتقِ"
+    "ar": "يلتقي"
    }
   },
   {
@@ -3238,7 +3238,7 @@
     "ku": "term",
     "fr": "terme",
     "it": "termine",
-    "ar": "شرط"
+    "ar": "مصطلح"
    }
   },
   {
@@ -3254,7 +3254,7 @@
     "ku": "bi terman",
     "fr": "termes",
     "it": "termini",
-    "ar": "شروط"
+    "ar": "مصطلحات"
    }
   },
   {
@@ -3269,7 +3269,7 @@
     "ku": "sedem nîşan da",
     "fr": "a justifié",
     "it": "giustificato",
-    "ar": "مبرر"
+    "ar": "برّر"
    }
   },
   {
@@ -3298,7 +3298,7 @@
     "ku": "parastin",
     "fr": "garder",
     "it": "tenere",
-    "ar": "يحفظ"
+    "ar": "يحتفظ"
    }
   },
   {
@@ -3313,7 +3313,7 @@
     "ku": "parast",
     "fr": "a gardé",
     "it": "tenuto",
-    "ar": "تم الاحتفاظ به"
+    "ar": "احتفظ بـ"
    }
   },
   {
@@ -3328,7 +3328,7 @@
     "ku": "parast",
     "fr": "a gardé",
     "it": "tenuto",
-    "ar": "تم الاحتفاظ به"
+    "ar": "احتفظ بـ"
    }
   },
   {
@@ -3359,7 +3359,7 @@
     "ku": "serdanên daîreyên fermî",
     "fr": "démarches administratives",
     "it": "commissioni negli uffici pubblici",
-    "ar": "رحلات إلى المكاتب الحكومية"
+    "ar": "مراجعات الدوائر الحكومية"
    }
   },
   {
@@ -3374,7 +3374,7 @@
     "ku": "li (bei dem)",
     "fr": "à, chez (bei dem)",
     "it": "al, alla",
-    "ar": "في"
+    "ar": "عند (bei dem)"
    }
   },
   {
@@ -3389,7 +3389,7 @@
     "ku": "dan aliyekî",
     "fr": "mettre de côté",
     "it": "messo da parte",
-    "ar": "خصص جانبا"
+    "ar": "وضع جانبًا"
    }
   },
   {
@@ -3404,7 +3404,7 @@
     "ku": "parastin",
     "fr": "garder",
     "it": "tenere",
-    "ar": "يحفظ"
+    "ar": "يحتفظ"
    }
   },
   {
@@ -3419,7 +3419,7 @@
     "ku": "girt",
     "fr": "a obtenu",
     "it": "ottenuto",
-    "ar": "يملك"
+    "ar": "حصل على"
    }
   },
   {
@@ -3434,7 +3434,7 @@
     "ku": "wergirtin",
     "fr": "ont reçu",
     "it": "ricevuto",
-    "ar": "تلقى"
+    "ar": "استلموا"
    }
   },
   {
@@ -3449,7 +3449,7 @@
     "ku": "dê wergirtana",
     "fr": "recevrait",
     "it": "avrebbe ricevuto",
-    "ar": "سوف يتلقى"
+    "ar": "كان سيحصل على"
    }
   },
   {
@@ -3479,7 +3479,7 @@
     "ku": "herî populer (Nominativ, pirjimar)",
     "fr": "les plus populaires (nominatif, pluriel)",
     "it": "più popolare",
-    "ar": "الأكثر شعبية"
+    "ar": "الأكثر شعبية (Nominativ، جمع)"
    }
   },
   {
@@ -3524,7 +3524,7 @@
     "ku": "bi nav kir",
     "fr": "nommé",
     "it": "chiamato",
-    "ar": "اسم"
+    "ar": "مسمّى"
    }
   },
   {
@@ -3539,7 +3539,7 @@
     "ku": "bi nav kir",
     "fr": "nommé",
     "it": "chiamato",
-    "ar": "اسم"
+    "ar": "مسمّى"
    }
   },
   {
@@ -3553,7 +3553,7 @@
     "ku": "diyar kirin",
     "fr": "préciser",
     "it": "specificare",
-    "ar": "حدد"
+    "ar": "يحدّد"
    }
   },
   {
@@ -3568,7 +3568,7 @@
     "ku": "dikare were temaşekirin (Dativ, pirjimar)",
     "fr": "observable (datif, pluriel)",
     "it": "osservabile",
-    "ar": "قابل للملاحظة"
+    "ar": "قابل للملاحظة (Dativ، جمع)"
    }
   },
   {
@@ -3598,7 +3598,7 @@
     "ku": "şêwirmend (jin)",
     "fr": "conseillère",
     "it": "consulente",
-    "ar": "مستشارة نسائية"
+    "ar": "مستشارة"
    }
   },
   {
@@ -3627,7 +3627,7 @@
     "ku": "hat hesabkirin",
     "fr": "calculé",
     "it": "calcolato",
-    "ar": "محسوب"
+    "ar": "حُسب"
    }
   },
   {
@@ -3642,7 +3642,7 @@
     "ku": "hat hesabkirin",
     "fr": "calculé",
     "it": "calcolato",
-    "ar": "محسوب"
+    "ar": "حُسب"
    }
   },
   {
@@ -3673,7 +3673,7 @@
     "ku": "qadên",
     "fr": "zones",
     "it": "zone",
-    "ar": "المناطق"
+    "ar": "مناطق"
    }
   },
   {
@@ -3688,7 +3688,7 @@
     "ku": "amadekir",
     "fr": "a préparé",
     "it": "preparato",
-    "ar": "مُعد"
+    "ar": "أعدّ"
    }
   },
   {
@@ -3703,7 +3703,7 @@
     "ku": "bû sedem",
     "fr": "a provoqué",
     "it": "causato",
-    "ar": "تسبب"
+    "ar": "تسبّب في"
    }
   },
   {
@@ -3718,7 +3718,7 @@
     "ku": "penîrê çiya",
     "fr": "fromage de montagne",
     "it": "formaggio di montagna",
-    "ar": "جبن الجبل"
+    "ar": "جبن جبلي"
    }
   },
   {
@@ -3733,7 +3733,7 @@
     "ku": "nîqaş kir",
     "fr": "a discuté",
     "it": "discusso",
-    "ar": "مناقشة"
+    "ar": "ناقش"
    }
   },
   {
@@ -3748,7 +3748,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -3793,7 +3793,7 @@
     "ku": "dest lê dan",
     "fr": "contact",
     "it": "toccare",
-    "ar": "يلمس"
+    "ar": "لمس"
    }
   },
   {
@@ -3808,7 +3808,7 @@
     "ku": "xwedî bû",
     "fr": "possédait",
     "it": "posseduto",
-    "ar": "مملوكة"
+    "ar": "كان يملك"
    }
   },
   {
@@ -3823,7 +3823,7 @@
     "ku": "roj li ser dibiriqî",
     "fr": "le soleil brillait sur",
     "it": "illuminato da",
-    "ar": "كان يضيء"
+    "ar": "كانت الشمس تسطع عليه"
    }
   },
   {
@@ -3838,7 +3838,7 @@
     "ku": "nîşankirin",
     "fr": "panneaux indicateurs",
     "it": "segnaletica",
-    "ar": "اللافتات"
+    "ar": "لافتات إرشادية"
    }
   },
   {
@@ -3853,7 +3853,7 @@
     "ku": "biryar da",
     "fr": "a décidé",
     "it": "deciso",
-    "ar": "مقرر"
+    "ar": "قرّر"
    }
   },
   {
@@ -3868,7 +3868,7 @@
     "ku": "biryar",
     "fr": "résolution",
     "it": "decisione",
-    "ar": "دقة"
+    "ar": "قرار"
    }
   },
   {
@@ -3913,7 +3913,7 @@
     "ku": "etiket",
     "fr": "étiquette",
     "it": "etichetta",
-    "ar": "ملصق"
+    "ar": "ملصق؛ بطاقة"
    }
   },
   {
@@ -3942,7 +3942,7 @@
     "ku": "karmend",
     "fr": "personnel",
     "it": "personale",
-    "ar": "طاقم عمل"
+    "ar": "الموظفون"
    }
   },
   {
@@ -3957,7 +3957,7 @@
     "ku": "gerîna kontrolê",
     "fr": "visite d'inspection",
     "it": "ispezione",
-    "ar": "تقتيش"
+    "ar": "جولة تفتيشية"
    }
   },
   {
@@ -3972,7 +3972,7 @@
     "ku": "taybet (Akkusativ, nêrer)",
     "fr": "spécial (accusatif, féminin)",
     "it": "speciale",
-    "ar": "خاص"
+    "ar": "خاصّة (Akkusativ، مؤنث)"
    }
   },
   {
@@ -3987,7 +3987,7 @@
     "ku": "taybet (Akkusativ, nêrer)",
     "fr": "spécial (accusatif, féminin)",
     "it": "speciale",
-    "ar": "خاص"
+    "ar": "خاصّة (Akkusativ، مؤنث)"
    }
   },
   {
@@ -4002,7 +4002,7 @@
     "ku": "nîqaş kir",
     "fr": "a discuté",
     "it": "discusso",
-    "ar": "مناقشة"
+    "ar": "ناقش"
    }
   },
   {
@@ -4017,7 +4017,7 @@
     "ku": "nîqaş kir",
     "fr": "a discuté",
     "it": "discusso",
-    "ar": "مناقشة"
+    "ar": "ناقش"
    }
   },
   {
@@ -4046,7 +4046,7 @@
     "ku": "odeya civînê",
     "fr": "salle de réunion",
     "it": "sala riunioni",
-    "ar": "غرفة الاجتماعات"
+    "ar": "قاعة اجتماعات"
    }
   },
   {
@@ -4061,7 +4061,7 @@
     "ku": "nîqaş kir",
     "fr": "a discuté",
     "it": "discusso",
-    "ar": "مناقشة"
+    "ar": "ناقش"
    }
   },
   {
@@ -4076,7 +4076,7 @@
     "ku": "ne baştir bû",
     "fr": "ne s'est pas amélioré",
     "it": "non è migliorato",
-    "ar": "لم يتحسن الوضع"
+    "ar": "لم يتحسّن"
    }
   },
   {
@@ -4091,7 +4091,7 @@
     "ku": "israr kir",
     "fr": "a insisté",
     "it": "ha insistito",
-    "ar": "أصر"
+    "ar": "أصرّ"
    }
   },
   {
@@ -4166,7 +4166,7 @@
     "ku": "diyar kirin",
     "fr": "déterminer",
     "it": "determinare",
-    "ar": "لتحديد"
+    "ar": "يحدّد"
    }
   },
   {
@@ -4212,7 +4212,7 @@
     "ku": "mêvan",
     "fr": "visiteurs",
     "it": "visitatori",
-    "ar": "الزوار"
+    "ar": "زوار"
    }
   },
   {
@@ -4243,7 +4243,7 @@
     "ku": "mêvan (jin)",
     "fr": "visiteuse",
     "it": "visitatrice",
-    "ar": "زائرة أنثى"
+    "ar": "زائرة"
    }
   },
   {
@@ -4259,7 +4259,7 @@
     "ku": "mêvanên jin",
     "fr": "visiteuses",
     "it": "visitatrici",
-    "ar": "الزائرات"
+    "ar": "زائرات"
    }
   },
   {
@@ -4275,7 +4275,7 @@
     "ku": "mêvan",
     "fr": "visiteurs",
     "it": "visitatori",
-    "ar": "الزوار"
+    "ar": "زوار"
    }
   },
   {
@@ -4304,7 +4304,7 @@
     "ku": "bifikire",
     "fr": "considérer",
     "it": "considerare",
-    "ar": "يعتبر"
+    "ar": "يأخذ في الاعتبار"
    }
   },
   {
@@ -4319,7 +4319,7 @@
     "ku": "hat nirxandin",
     "fr": "examiné",
     "it": "considerato",
-    "ar": "تمت المشاهدة"
+    "ar": "تمت معاينته"
    }
   },
   {
@@ -4334,7 +4334,7 @@
     "ku": "girîng (Akkusativ, bêalî)",
     "fr": "pertinent (accusatif, neutre)",
     "it": "pertinente",
-    "ar": "مناسب"
+    "ar": "ذو صلة (Akkusativ، محايد)"
    }
   },
   {
@@ -4348,7 +4348,7 @@
     "ku": "girîng (Akkusativ, bêalî)",
     "fr": "pertinent (accusatif, neutre)",
     "it": "pertinente",
-    "ar": "مناسب"
+    "ar": "ذو صلة (Akkusativ، محايد)"
    }
   },
   {
@@ -4363,7 +4363,7 @@
     "ku": "karûbar (jin)",
     "fr": "exploitante",
     "it": "operatrice",
-    "ar": "مشغلة أنثى"
+    "ar": "مشغّلة"
    }
   },
   {
@@ -4378,7 +4378,7 @@
     "ku": "serperişt (jin)",
     "fr": "superviseuse",
     "it": "supervisora",
-    "ar": "مشرفة أنثى"
+    "ar": "مشرفة"
    }
   },
   {
@@ -4393,7 +4393,7 @@
     "ku": "çarşefên nivînan",
     "fr": "linge de lit",
     "it": "biancheria da letto",
-    "ar": "بياضات الأسرّة"
+    "ar": "أغطية الأسرّة"
    }
   },
   {
@@ -4422,7 +4422,7 @@
     "ku": "tevgerandin",
     "fr": "déplacer",
     "it": "spostare",
-    "ar": "يتحرك"
+    "ar": "يحرّك"
    }
   },
   {
@@ -4436,7 +4436,7 @@
     "ku": "tevger dike",
     "fr": "se déplace",
     "it": "si sposta",
-    "ar": "تحركات"
+    "ar": "يتحرّك"
    }
   },
   {
@@ -4452,7 +4452,7 @@
     "ku": "tevger",
     "fr": "mouvements",
     "it": "movimenti",
-    "ar": "كتب"
+    "ar": "حركات"
    }
   },
   {
@@ -4481,7 +4481,7 @@
     "ku": "pêşvebirin",
     "fr": "promouvoir",
     "it": "promuovere",
-    "ar": "لتعزيز"
+    "ar": "يروّج لـ"
    }
   },
   {
@@ -4497,7 +4497,7 @@
     "ku": "serlêder",
     "fr": "candidats",
     "it": "candidati",
-    "ar": "المتقدمين"
+    "ar": "المتقدمون"
    }
   },
   {
@@ -4527,7 +4527,7 @@
     "ku": "niştecih (jin)",
     "fr": "habitante",
     "it": "residente",
-    "ar": "مقيمة أنثى"
+    "ar": "ساكنة"
    }
   },
   {
@@ -4542,7 +4542,7 @@
     "ku": "telefon kir",
     "fr": "a appelé",
     "it": "chiamato",
-    "ar": "مُسَمًّى"
+    "ar": "اتصل"
    }
   },
   {
@@ -4558,7 +4558,7 @@
     "ku": "bi terman",
     "fr": "termes",
     "it": "termini",
-    "ar": "شروط"
+    "ar": "مصطلحات"
    }
   },
   {
@@ -4573,7 +4573,7 @@
     "ku": "pişta xwe dabû",
     "fr": "faisait référence à",
     "it": "si riferiva a",
-    "ar": "المشار إليه"
+    "ar": "أشار إلى"
    }
   },
   {
@@ -4603,7 +4603,7 @@
     "ku": "galeriya wêneyan",
     "fr": "galerie de photos",
     "it": "galleria fotografica",
-    "ar": "معرض الصور"
+    "ar": "معرض صور"
    }
   },
   {
@@ -4617,7 +4617,7 @@
     "ku": "im",
     "fr": "suis",
     "it": "sì, ehm",
-    "ar": "am"
+    "ar": "أكون"
    }
   },
   {
@@ -4631,7 +4631,7 @@
     "ku": "girêdide",
     "fr": "attache",
     "it": "legami",
-    "ar": "العلاقات"
+    "ar": "يربط"
    }
   },
   {
@@ -4646,7 +4646,7 @@
     "ku": "çopa organîk",
     "fr": "déchets organiques",
     "it": "rifiuti organici",
-    "ar": "النفايات العضوية"
+    "ar": "نفايات عضوية"
    }
   },
   {
@@ -4780,7 +4780,7 @@
     "ku": "nêrîn",
     "fr": "coup d'œil",
     "it": "sguardo",
-    "ar": "يلمح"
+    "ar": "لمحة"
    }
   },
   {
@@ -4810,7 +4810,7 @@
     "ku": "ma",
     "fr": "est resté",
     "it": "è rimasto",
-    "ar": "مكث"
+    "ar": "بقي"
    }
   },
   {
@@ -4825,7 +4825,7 @@
     "ku": "dê bimaya",
     "fr": "resterait",
     "it": "resterebbe",
-    "ar": "سيبقى"
+    "ar": "كان سيبقى"
    }
   },
   {
@@ -4840,7 +4840,7 @@
     "ku": "ma",
     "fr": "est resté",
     "it": "è rimasto",
-    "ar": "يبقى"
+    "ar": "بقي"
    }
   },
   {
@@ -4854,7 +4854,7 @@
     "ku": "dibiriqe",
     "fr": "clignote",
     "it": "lampeggia",
-    "ar": "ومضات"
+    "ar": "يومض"
    }
   },
   {
@@ -4869,7 +4869,7 @@
     "ku": "hat astengkirin",
     "fr": "a été bloqué",
     "it": "è stato bloccato",
-    "ar": "تم حظره"
+    "ar": "كان محجوبًا"
    }
   },
   {
@@ -4884,7 +4884,7 @@
     "ku": "dikana kulîlkan",
     "fr": "fleuriste",
     "it": "fioraio",
-    "ar": "محل زهور"
+    "ar": "متجر زهور"
    }
   },
   {
@@ -4899,7 +4899,7 @@
     "ku": "guldeste",
     "fr": "bouquet",
     "it": "mazzo",
-    "ar": "باقة"
+    "ar": "باقة زهور"
    }
   },
   {
@@ -4915,7 +4915,7 @@
     "ku": "bin saksiyan (Dativ, pirjimar)",
     "fr": "sous les pots de fleurs (datif, pluriel)",
     "it": "sotto i vasi",
-    "ar": "تحت أصص الزهور"
+    "ar": "تحت أواني الزهور (Dativ، جمع)"
    }
   },
   {
@@ -4977,7 +4977,7 @@
     "ku": "pel",
     "fr": "feuille",
     "it": "foglio",
-    "ar": "ملزمة"
+    "ar": "ورقة"
    }
   },
   {
@@ -4992,7 +4992,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -5022,7 +5022,7 @@
     "ku": "ya Bora",
     "fr": "de Bora",
     "it": "di Bora",
-    "ar": "بورا"
+    "ar": "لبورا"
    }
   },
   {
@@ -5052,7 +5052,7 @@
     "ku": "pêşkêş kir",
     "fr": "proposé",
     "it": "offerto",
-    "ar": "عرض"
+    "ar": "قدّم"
    }
   },
   {
@@ -5067,7 +5067,7 @@
     "ku": "botanîkî (Akkusativ, mêzker)",
     "fr": "botanique (accusatif, masculin)",
     "it": "botanico",
-    "ar": "نباتي"
+    "ar": "نباتي (Akkusativ، مذكر)"
    }
   },
   {
@@ -5082,7 +5082,7 @@
     "ku": "rawestand",
     "fr": "a arrêté",
     "it": "si è fermato",
-    "ar": "توقف"
+    "ar": "توقّف"
    }
   },
   {
@@ -5276,7 +5276,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -5291,7 +5291,7 @@
     "ku": "fren",
     "fr": "frein",
     "it": "freno",
-    "ar": "الفرامل"
+    "ar": "فرامل"
    }
   },
   {
@@ -5337,7 +5337,7 @@
     "ku": "standa nan",
     "fr": "stand de pain",
     "it": "banco del pane",
-    "ar": "كشك الخبز"
+    "ar": "كشك خبز"
    }
   },
   {
@@ -5352,7 +5352,7 @@
     "ku": "hesabdar (jin)",
     "fr": "comptable",
     "it": "contabile",
-    "ar": "محاسبة أنثى"
+    "ar": "محاسبة"
    }
   },
   {
@@ -5368,7 +5368,7 @@
     "ku": "bi tîpan (Dativ, pirjimar)",
     "fr": "lettres (datif, pluriel)",
     "it": "lettere",
-    "ar": "رسائل"
+    "ar": "حروف (Dativ، جمع)"
    }
   },
   {
@@ -5399,7 +5399,7 @@
     "ku": "veqetandin",
     "fr": "réservations",
     "it": "prenotazioni",
-    "ar": "الحجوزات"
+    "ar": "حجوزات"
    }
   },
   {
@@ -5444,7 +5444,7 @@
     "ku": "kêmkirina budceyê",
     "fr": "réduction budgétaire",
     "it": "tagli al budget",
-    "ar": "تخفيضات الميزانية"
+    "ar": "خفض الميزانية"
    }
   },
   {
@@ -5490,7 +5490,7 @@
     "ku": "ya Burak",
     "fr": "de Burak",
     "it": "di Burak",
-    "ar": "بوراك"
+    "ar": "لبوراك"
    }
   },
   {
@@ -5506,7 +5506,7 @@
     "ku": "xebatkarê otobûsê",
     "fr": "exploitant de bus",
     "it": "azienda di trasporto pubblico",
-    "ar": "مشغل الحافلات"
+    "ar": "شركة تشغيل الحافلات"
    }
   },
   {
@@ -5521,7 +5521,7 @@
     "ku": "bilêta otobûsê",
     "fr": "billet de bus",
     "it": "biglietto dell’autobus",
-    "ar": "تذكرة الحافلة"
+    "ar": "تذكرة حافلة"
    }
   },
   {
@@ -5551,7 +5551,7 @@
     "ku": "rawestgeha otobûsê",
     "fr": "arrêt de bus",
     "it": "fermata dell’autobus",
-    "ar": "موقف الحافلات"
+    "ar": "موقف حافلات"
    }
   },
   {
@@ -5583,7 +5583,7 @@
     "ku": "girêdanên otobûsan",
     "fr": "correspondances de bus",
     "it": "collegamenti degli autobus",
-    "ar": "مواصلات الحافلات"
+    "ar": "وصلات الحافلات"
    }
   },
   {
@@ -5599,7 +5599,7 @@
     "ku": "cild",
     "fr": "volumes",
     "it": "volumi",
-    "ar": "المجلدات"
+    "ar": "مجلدات"
    }
   },
   {
@@ -5615,7 +5615,7 @@
     "ku": "kaset",
     "fr": "cassettes",
     "it": "nastri",
-    "ar": "أشرطة"
+    "ar": "أشرطة كاسيت"
    }
   },
   {
@@ -5647,7 +5647,7 @@
     "ku": "li ser kursiyan (Dativ, pirjimar)",
     "fr": "sur les bancs (datif, pluriel)",
     "it": "sulle panchine",
-    "ar": "على المقاعد"
+    "ar": "على المقاعد (Dativ، جمع)"
    }
   },
   {
@@ -5693,7 +5693,7 @@
     "ku": "kasên pirtûkan",
     "fr": "caisses de livres",
     "it": "casse di libri",
-    "ar": "صناديق الكتب"
+    "ar": "صناديق كتب"
    }
   },
   {
@@ -5768,7 +5768,7 @@
     "ku": "koma welatiyan",
     "fr": "groupe de citoyens",
     "it": "gruppo di cittadini",
-    "ar": "مجموعة المواطنين"
+    "ar": "مجموعة مواطنين"
    }
   },
   {
@@ -5783,7 +5783,7 @@
     "ku": "komeleya sivîl",
     "fr": "association citoyenne",
     "it": "associazione civica",
-    "ar": "الجمعية المدنية"
+    "ar": "جمعية مدنية"
    }
   },
   {
@@ -5828,7 +5828,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -5873,7 +5873,7 @@
     "ku": "axaftin",
     "fr": "discussion",
     "it": "chat",
-    "ar": "محادثة"
+    "ar": "دردشة"
    }
   },
   {
@@ -5888,7 +5888,7 @@
     "ku": "qeyd bûn",
     "fr": "enregistrement",
     "it": "check-in",
-    "ar": "تحقق في"
+    "ar": "تسجيل الوصول"
    }
   },
   {
@@ -5918,7 +5918,7 @@
     "ku": "patron (jin)",
     "fr": "patronne",
     "it": "responsabile",
-    "ar": "سيدة أعمال"
+    "ar": "مديرة"
    }
   },
   {
@@ -5933,7 +5933,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -5994,7 +5994,7 @@
     "ku": "ya koroyê",
     "fr": "de la chorale",
     "it": "del coro",
-    "ar": "من الجوقة"
+    "ar": "للجوقة"
    }
   },
   {
@@ -6024,7 +6024,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -6039,7 +6039,7 @@
     "ku": "kod",
     "fr": "code",
     "it": "codice",
-    "ar": "شفرة"
+    "ar": "رمز"
    }
   },
   {
@@ -6054,7 +6054,7 @@
     "ku": "pergala komputerê",
     "fr": "système informatique",
     "it": "sistema informatico",
-    "ar": "أنظمة الحاسوب"
+    "ar": "نظام حاسوب"
    }
   },
   {
@@ -6084,7 +6084,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -6114,7 +6114,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -6129,7 +6129,7 @@
     "ku": "berdewam kirin",
     "fr": "rester à côté",
     "it": "continuare",
-    "ar": "استمر في ذلك"
+    "ar": "يواصل ذلك"
    }
   },
   {
@@ -6174,7 +6174,7 @@
     "ku": "fikir kir",
     "fr": "a pensé",
     "it": "pensato",
-    "ar": "معتقد"
+    "ar": "فكّر"
    }
   },
   {
@@ -6189,7 +6189,7 @@
     "ku": "fikir kir",
     "fr": "a pensé",
     "it": "pensato",
-    "ar": "معتقد"
+    "ar": "فكّر"
    }
   },
   {
@@ -6204,7 +6204,7 @@
     "ku": "wekî encam",
     "fr": "ainsi, par conséquent",
     "it": "di conseguenza",
-    "ar": "نتيجة ل"
+    "ar": "نتيجة لذلك"
    }
   },
   {
@@ -6443,7 +6443,7 @@
     "ku": "li dijî wê",
     "fr": "contre cela",
     "it": "contro questo",
-    "ar": "ضد ذلك"
+    "ar": "ضدّه؛ معارض له"
    }
   },
   {
@@ -6725,7 +6725,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -7784,7 +7784,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -8340,7 +8340,7 @@
     "ku": "saz kir",
     "fr": "a installé",
     "it": "organizzato",
-    "ar": "يثبت"
+    "ar": "أعدّ، جهّز"
    }
   },
   {
@@ -8677,7 +8677,7 @@
     "ku": "saz kir",
     "fr": "a installé",
     "it": "organizzato",
-    "ar": "يثبت"
+    "ar": "أعدّ، جهّز"
    }
   },
   {
@@ -8692,7 +8692,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -9263,7 +9263,7 @@
     "ku": "biryar da",
     "fr": "a décidé",
     "it": "deciso",
-    "ar": "مقرر"
+    "ar": "قرّر"
    }
   },
   {
@@ -9424,7 +9424,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -9469,7 +9469,7 @@
     "ku": "wergirtin",
     "fr": "ont reçu",
     "it": "ricevuto",
-    "ar": "تلقى"
+    "ar": "استلموا"
    }
   },
   {
@@ -9484,7 +9484,7 @@
     "ku": "wergirtin",
     "fr": "ont reçu",
     "it": "ricevuto",
-    "ar": "تلقى"
+    "ar": "استلموا"
    }
   },
   {
@@ -9928,7 +9928,7 @@
     "ku": "etiket",
     "fr": "étiquette",
     "it": "etichetta",
-    "ar": "ملصق"
+    "ar": "ملصق؛ بطاقة"
    }
   },
   {
@@ -10776,7 +10776,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -10837,7 +10837,7 @@
     "ku": "qadên",
     "fr": "zones",
     "it": "zone",
-    "ar": "المناطق"
+    "ar": "مناطق"
    }
   },
   {
@@ -11005,7 +11005,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -11020,7 +11020,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -11080,7 +11080,7 @@
     "es": "el viernes al mediodía",
     "ku": "nîvroya Înê",
     "fr": "vendredi à midi",
-    "it": "Venerdì a mezzogiorno",
+    "it": "venerdì a mezzogiorno",
     "ar": "ظهر يوم الجمعة"
    }
   },
@@ -11111,7 +11111,7 @@
     "es": "mantener libre",
     "ku": "vala bihêle",
     "fr": "garder libre",
-    "it": "mantenere libero",
+    "it": "tenere libero",
     "ar": "احتفظ مجاناً"
    }
   },
@@ -11126,7 +11126,7 @@
     "es": "está contento/a",
     "ku": "kêfxweş e",
     "fr": "est content",
-    "it": "è felice",
+    "it": "è contento",
     "ar": "سعيد"
    }
   },
@@ -11201,7 +11201,7 @@
     "es": "frutas",
     "ku": "fêkiyan",
     "fr": "fruits",
-    "it": "frutta",
+    "it": "frutti",
     "ar": "الفواكه"
    }
   },
@@ -11231,7 +11231,7 @@
     "es": "anterior (Genitiv, femenino)",
     "ku": "berê (Genitiv, mêzker)",
     "fr": "ancienne",
-    "it": "ex",
+    "it": "precedente",
     "ar": "سابق"
    }
   },
@@ -11245,7 +11245,7 @@
     "es": "anterior (Genitiv, femenino)",
     "ku": "berê (Genitiv, mêzker)",
     "fr": "ancienne",
-    "it": "ex",
+    "it": "precedente",
     "ar": "سابق"
    }
   },
@@ -11275,7 +11275,7 @@
     "es": "funcionó",
     "ku": "xebitî",
     "fr": "a couru",
-    "it": "corso",
+    "it": "corse",
     "ar": "ركض"
    }
   },
@@ -11291,7 +11291,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -11306,7 +11306,7 @@
     "es": "objetos perdidos",
     "ku": "tiştên winda",
     "fr": "objets trouvés",
-    "it": "oggetti trovati",
+    "it": "oggetti smarriti",
     "ar": "الأشياء التي تم العثور عليها"
    }
   },
@@ -11336,7 +11336,7 @@
     "es": "en funcionamiento (Akkusativ, femenino)",
     "ku": "dixebite (Akkusativ, nêrer)",
     "fr": "qui travaille",
-    "it": "lavorando",
+    "it": "funzionante",
     "ar": "عمل"
    }
   },
@@ -11351,7 +11351,7 @@
     "es": "en funcionamiento (Akkusativ, femenino)",
     "ku": "dixebite (Akkusativ, nêrer)",
     "fr": "qui travaille",
-    "it": "lavorando",
+    "it": "funzionante",
     "ar": "عمل"
    }
   },
@@ -11413,7 +11413,7 @@
     "es": "casos",
     "ku": "rewş",
     "fr": "cas",
-    "it": "casi",
+    "it": "valigie",
     "ar": "حالات"
    }
   },
@@ -11622,7 +11622,7 @@
     "ku": "garantî",
     "fr": "garantie",
     "it": "garanzia",
-    "ar": "يضمن"
+    "ar": "ضمان"
    }
   },
   {
@@ -11636,7 +11636,7 @@
     "es": "cobertizo de jardín",
     "ku": "şanoya baxçeyê",
     "fr": "abri de jardin",
-    "it": "casetta da giardino",
+    "it": "capanno da giardino",
     "ar": "سقيفة الحديقة"
    }
   },
@@ -11652,7 +11652,7 @@
     "es": "calle Garten",
     "ku": "Kolana Garten",
     "fr": "rue Garten",
-    "it": "Garden Street",
+    "it": "via Gartenstraße",
     "ar": "شارع الحديقة"
    }
   },
@@ -11667,7 +11667,7 @@
     "es": "puerta del jardín",
     "ku": "deriyê baxçeyê",
     "fr": "portail du jardin",
-    "it": "cancello da giardino",
+    "it": "cancello del giardino",
     "ar": "بوابة الحديقة"
    }
   },
@@ -11697,7 +11697,7 @@
     "es": "había mordido",
     "ku": "hez kiribû",
     "fr": "mordu",
-    "it": "morso",
+    "it": "chiesto",
     "ar": "لدغة"
    }
   },
@@ -11712,7 +11712,7 @@
     "es": "comida de cumpleaños",
     "ku": "xwarina rojbûnê",
     "fr": "repas d'anniversaire",
-    "it": "torta di compleanno",
+    "it": "cena di compleanno",
     "ar": "وجبة عيد ميلاد"
    }
   },
@@ -11802,7 +11802,7 @@
     "es": "cavado/a",
     "ku": "koland",
     "fr": "creusé",
-    "it": "duf",
+    "it": "scavato",
     "ar": "حفر"
    }
   },
@@ -11817,7 +11817,7 @@
     "es": "había colgado",
     "ku": "daleqandibû",
     "fr": "accroché",
-    "it": "sospeso",
+    "it": "appeso",
     "ar": "معلق"
    }
   },
@@ -11846,7 +11846,7 @@
     "es": "alcanzar",
     "ku": "gihîştin",
     "fr": "atteindre",
-    "it": "portata",
+    "it": "raggiungere",
     "ar": "يصل"
    }
   },
@@ -11950,7 +11950,7 @@
     "es": "ocasionalmente",
     "ku": "carinan",
     "fr": "de temps en temps",
-    "it": "occasionalmente",
+    "it": "di tanto in tanto",
     "ar": "أحياناً"
    }
   },
@@ -11980,7 +11980,7 @@
     "es": "plano del recinto",
     "ku": "plana erdê",
     "fr": "plan du site",
-    "it": "planimetria del sito",
+    "it": "planimetria",
     "ar": "مخطط الموقع"
    }
   },
@@ -11995,7 +11995,7 @@
     "es": "soltarse",
     "ku": "xweş bûn",
     "fr": "se détacher",
-    "it": "venire sciolti",
+    "it": "allentarsi",
     "ar": "انفك"
    }
   },
@@ -12025,7 +12025,7 @@
     "es": "consulta en grupo",
     "ku": "muayenexaneya hevpar",
     "fr": "cabinet de groupe",
-    "it": "pratica di gruppo",
+    "it": "allenamento di gruppo",
     "ar": "ممارسة جماعية"
    }
   },
@@ -12055,7 +12055,7 @@
     "es": "segado/a",
     "ku": "hat çêrandin",
     "fr": "tondu",
-    "it": "falciato",
+    "it": "tagliato l’erba",
     "ar": "تم قص العشب"
    }
   },
@@ -12070,7 +12070,7 @@
     "es": "segado/a",
     "ku": "hat çêrandin",
     "fr": "tondu",
-    "it": "falciato",
+    "it": "tagliato l’erba",
     "ar": "تم قص العشب"
    }
   },
@@ -12116,7 +12116,7 @@
     "es": "se utilizó",
     "ku": "hat bikaranîn",
     "fr": "a été utilisé",
-    "it": "è stato utilizzato",
+    "it": "è stato usato",
     "ar": "تم استخدام"
    }
   },
@@ -12161,7 +12161,7 @@
     "es": "bastó",
     "ku": "têra xwe bû",
     "fr": "suffisait",
-    "it": "era sufficiente",
+    "it": "è bastato",
     "ar": "كان ذلك كافياً"
    }
   },
@@ -12176,7 +12176,7 @@
     "es": "pavimentado/a",
     "ku": "bi kevir hat rûxandin",
     "fr": "pavé",
-    "it": "pavimentato",
+    "it": "asfaltato",
     "ar": "معبد"
    }
   },
@@ -12206,7 +12206,7 @@
     "es": "portaequipajes",
     "ku": "rawestgeha bagajê",
     "fr": "porte-bagages",
-    "it": "portaoggetti",
+    "it": "portabagagli",
     "ar": "رف الأمتعة"
    }
   },
@@ -12222,7 +12222,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -12235,7 +12235,7 @@
     "es": "justo a tiempo",
     "ku": "tam",
     "fr": "juste",
-    "it": "Appena",
+    "it": "appena",
     "ar": "فقط"
    }
   },
@@ -12265,7 +12265,7 @@
     "es": "se convirtió",
     "ku": "bû",
     "fr": "est devenu",
-    "it": "divenne",
+    "it": "è diventato",
     "ar": "أصبح"
    }
   },
@@ -12358,7 +12358,7 @@
     "es": "costes totales",
     "ku": "mesrefên tevahî",
     "fr": "coûts totaux",
-    "it": "costi totali",
+    "it": "costo totale",
     "ar": "إجمالي التكاليف"
    }
   },
@@ -12373,7 +12373,7 @@
     "es": "escuela integral",
     "ku": "dibistana berfireh",
     "fr": "établissement polyvalent",
-    "it": "scuola comprensiva",
+    "it": "scuola secondaria",
     "ar": "مدرسة شاملة"
    }
   },
@@ -12403,7 +12403,7 @@
     "es": "director general",
     "ku": "rêveberê giştî",
     "fr": "directeur général",
-    "it": "consigliere delegato",
+    "it": "amministratore delegato",
     "ar": "المدير العام"
    }
   },
@@ -12434,7 +12434,7 @@
     "es": "interlocutora",
     "ku": "hevaxêv (jin)",
     "fr": "interlocutrice",
-    "it": "interlocutrice femminile",
+    "it": "interlocutrice",
     "ar": "شريكة محادثة أنثى"
    }
   },
@@ -12478,7 +12478,7 @@
     "es": "diseñadora",
     "ku": "sêwirîner (jin)",
     "fr": "conceptrice",
-    "it": "stilista donna",
+    "it": "progettista",
     "ar": "مصممة أزياء"
    }
   },
@@ -12596,7 +12596,7 @@
     "es": "fue",
     "ku": "çû",
     "fr": "est allé",
-    "it": "andato",
+    "it": "è andato",
     "ar": "ذهب"
    }
   },
@@ -12611,7 +12611,7 @@
     "es": "fue",
     "ku": "çû",
     "fr": "est allé",
-    "it": "andato",
+    "it": "è andato",
     "ar": "ذهب"
    }
   },
@@ -12654,7 +12654,7 @@
     "es": "número de vía",
     "ku": "jimara peronê",
     "fr": "numéro de voie",
-    "it": "numero di tracciamento",
+    "it": "numero del binario",
     "ar": "رقم التتبع"
    }
   },
@@ -12745,7 +12745,7 @@
     "es": "ciudad (Austria)",
     "ku": "bajar (Awisturya)",
     "fr": "ville (Autriche)",
-    "it": "città (Austria)",
+    "it": "città (in Austria)",
     "ar": "مدينة (النمسا)"
    }
   },
@@ -12926,7 +12926,7 @@
     "es": "el/la mayor (Akkusativ, masculino)",
     "ku": "herî mezin (Akkusativ, mêzker)",
     "fr": "le plus grand",
-    "it": "massimo",
+    "it": "il più grande",
     "ar": "أعظم"
    }
   },
@@ -13015,7 +13015,7 @@
     "es": "franja de césped",
     "ku": "rêça giya",
     "fr": "bande de gazon",
-    "it": "striscia d'erba",
+    "it": "striscia d’erba",
     "ar": "شريط من العشب"
    }
   },
@@ -13122,7 +13122,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -13181,7 +13181,7 @@
     "es": "barrio portuario",
     "ku": "taxa benderê",
     "fr": "quartier du port",
-    "it": "distretto portuale",
+    "it": "quartiere del porto",
     "ar": "منطقة الميناء"
    }
   },
@@ -13225,7 +13225,7 @@
     "es": "medio terminado",
     "ku": "nîv-çêkirî",
     "fr": "à moitié terminé",
-    "it": "incompiuto",
+    "it": "completato a metà",
     "ar": "نصف مكتمل"
    }
   },
@@ -13300,7 +13300,7 @@
     "es": "parada",
     "ku": "rawestgeh",
     "fr": "arrêt",
-    "it": "fermare",
+    "it": "fermarsi",
     "ar": "قف"
    }
   },
@@ -13315,7 +13315,7 @@
     "es": "soporte",
     "ku": "girêker",
     "fr": "support",
-    "it": "titolare",
+    "it": "supporto",
     "ar": "حامل"
    }
   },
@@ -13331,7 +13331,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -13375,7 +13375,7 @@
     "es": "de Hana",
     "ku": "ya Hana",
     "fr": "de Hana",
-    "it": "Hana's",
+    "it": "di Hana",
     "ar": "هانا"
    }
   },
@@ -13420,7 +13420,7 @@
     "es": "argumento; trama",
     "ku": "rêça bûyerê",
     "fr": "intrigue",
-    "it": "complotto",
+    "it": "appezzamento",
     "ar": "حبكة"
    }
   },
@@ -13434,7 +13434,7 @@
     "es": "relacionado con la artesanía",
     "ku": "têkildarî hunerê",
     "fr": "lié à l'artisanat",
-    "it": "legato all'artigianato",
+    "it": "artigianale",
     "ar": "الحرف اليدوية"
    }
   },
@@ -13494,7 +13494,7 @@
     "es": "de Hannah",
     "ku": "ya Hannah",
     "fr": "de Hannah",
-    "it": "Hannah",
+    "it": "di Hannah",
     "ar": "هانا"
    }
   },
@@ -13510,7 +13510,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -13538,7 +13538,7 @@
     "es": "tenía",
     "ku": "hebû",
     "fr": "avait",
-    "it": "avevo",
+    "it": "aveva",
     "ar": "ملك"
    }
   },
@@ -13553,7 +13553,7 @@
     "es": "tenía",
     "ku": "hebû",
     "fr": "avait",
-    "it": "avevo",
+    "it": "aveva",
     "ar": "ملك"
    }
   },
@@ -13614,7 +13614,7 @@
     "es": "conserje",
     "ku": "parêzger (jin)",
     "fr": "gardienne",
-    "it": "badante donna",
+    "it": "custode",
     "ar": "مربية"
    }
   },
@@ -13629,7 +13629,7 @@
     "es": "administración del edificio",
     "ku": "rêveberiya avahiyê",
     "fr": "syndic de l'immeuble",
-    "it": "gestione dell'edificio",
+    "it": "amministrazione dell’edificio",
     "ar": "إدارة المباني"
    }
   },
@@ -13705,7 +13705,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -13750,7 +13750,7 @@
     "es": "gastos de calefacción",
     "ku": "mesrefên germkirinê",
     "fr": "frais de chauffage",
-    "it": "costi di riscaldamento",
+    "it": "spese di riscaldamento",
     "ar": "تكاليف التدفئة"
    }
   },
@@ -13766,7 +13766,7 @@
     "es": "ayudantes",
     "ku": "alîkarên jin",
     "fr": "aides",
-    "it": "aiutanti femminili",
+    "it": "aiutanti",
     "ar": "المساعدات النسائية"
    }
   },
@@ -13781,7 +13781,7 @@
     "es": "el/la más brillante",
     "ku": "herî ronahî",
     "fr": "le plus lumineux",
-    "it": "più brillante",
+    "it": "il più luminoso",
     "ar": "الأكثر سطوعًا"
    }
   },
@@ -13796,7 +13796,7 @@
     "es": "entraría",
     "ku": "dê tê hundir",
     "fr": "entrerait",
-    "it": "verrebbe",
+    "it": "entrerebbe",
     "ar": "سيدخل"
    }
   },
@@ -13811,7 +13811,7 @@
     "es": "dar una vuelta",
     "ku": "dora wê gerîn",
     "fr": "faire le tour",
-    "it": "fare una passeggiata",
+    "it": "passeggiare",
     "ar": "تجول في الأنحاء"
    }
   },
@@ -13826,7 +13826,7 @@
     "es": "bajar",
     "ku": "xwarê anîn",
     "fr": "faire descendre",
-    "it": "abbattere",
+    "it": "abbassare",
     "ar": "إسقاط"
    }
   },
@@ -13856,7 +13856,7 @@
     "es": "de hoy (Akkusativ, masculino)",
     "ku": "ya îro (Akkusativ, mêzker)",
     "fr": "d'aujourd'hui",
-    "it": "oggi",
+    "it": "di oggi",
     "ar": "اليوم"
    }
   },
@@ -13872,7 +13872,7 @@
     "ku": "rawestand",
     "fr": "a arrêté",
     "it": "si è fermato",
-    "ar": "توقف"
+    "ar": "توقّف"
    }
   },
   {
@@ -13917,7 +13917,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -13947,7 +13947,7 @@
     "es": "servicios de asistencia",
     "ku": "karûbarên piştgiriyê",
     "fr": "services d'aide",
-    "it": "servizi di supporto",
+    "it": "servizi di assistenza",
     "ar": "خدمات الدعم"
    }
   },
@@ -14049,7 +14049,7 @@
     "es": "poner fuera",
     "ku": "li derve danîn",
     "fr": "mettre dehors",
-    "it": "messo fuori",
+    "it": "mettere fuori",
     "ar": "ضع في الخارج"
    }
   },
@@ -14079,7 +14079,7 @@
     "es": "sentarse",
     "ku": "rûniştin",
     "fr": "s'asseoir",
-    "it": "sedere",
+    "it": "sedersi",
     "ar": "اجلس"
    }
   },
@@ -14093,7 +14093,7 @@
     "es": "en fila",
     "ku": "li pey hev",
     "fr": "à la suite",
-    "it": "in fila",
+    "it": "di fila",
     "ar": "على التوالي"
    }
   },
@@ -14153,7 +14153,7 @@
     "ku": "ragihandin",
     "fr": "avis",
     "it": "avviso",
-    "ar": "يلاحظ"
+    "ar": "إشعار"
    }
   },
   {
@@ -14167,7 +14167,7 @@
     "es": "poner delante",
     "ku": "li pêş danîn",
     "fr": "poser",
-    "it": "abbassare",
+    "it": "posato",
     "ar": "ضع أرضا"
    }
   },
@@ -14212,7 +14212,7 @@
     "es": "costurero/a aficionado/a",
     "ku": "dirûnkarê hobiyê",
     "fr": "couturière amateur",
-    "it": "cucito per hobby",
+    "it": "appassionato di cucito",
     "ar": "خياط هاوي"
    }
   },
@@ -14227,7 +14227,7 @@
     "es": "pleno verano",
     "ku": "nîvê havînê",
     "fr": "au milieu de l'été",
-    "it": "mezza estate",
+    "it": "metà estate",
     "ar": "منتصف الصيف"
    }
   },
@@ -14286,7 +14286,7 @@
     "es": "madera",
     "ku": "dar",
     "fr": "bois",
-    "it": "legna",
+    "it": "legno",
     "ar": "خشب"
    }
   },
@@ -14302,7 +14302,7 @@
     "es": "instrumentos de viento de madera",
     "ku": "amûrên nefesê yên darîn",
     "fr": "instruments à vent en bois",
-    "it": "strumenti a fiato",
+    "it": "strumenti a fiato in legno",
     "ar": "آلات النفخ الخشبية"
    }
   },
@@ -14333,7 +14333,7 @@
     "es": "mesa de madera",
     "ku": "maseya darîn",
     "fr": "table en bois",
-    "it": "tavolo silenzioso",
+    "it": "tavolo di legno",
     "ar": "طاولة خشبية"
    }
   },
@@ -14348,7 +14348,7 @@
     "es": "gerente de hotel",
     "ku": "rêveberê otêlê",
     "fr": "directeur d'hôtel",
-    "it": "direttore dell'hotel",
+    "it": "direttore d’albergo",
     "ar": "مدير الفندق"
    }
   },
@@ -14440,7 +14440,7 @@
     "es": "los/las más altos/as (Nominativ, plural)",
     "ku": "herî bilind (Nominativ, pirjimar)",
     "fr": "les plus hauts",
-    "it": "più alto",
+    "it": "il più alto",
     "ar": "أعلى مستوى"
    }
   },
@@ -14515,7 +14515,7 @@
     "es": "yo",
     "ku": "ez",
     "fr": "je",
-    "it": "I",
+    "it": "io",
     "ar": "I"
    }
   },
@@ -14605,7 +14605,7 @@
     "es": "en el (in dem)",
     "ku": "di ... de (in dem)",
     "fr": "dans le",
-    "it": "nel",
+    "it": "nel, nella",
     "ar": "في"
    }
   },
@@ -14634,7 +14634,7 @@
     "es": "mediante; al",
     "ku": "bi ... re",
     "fr": "en faisant",
-    "it": "by",
+    "it": "da, per mezzo di",
     "ar": "by"
    }
   },
@@ -14694,7 +14694,7 @@
     "es": "propietaria",
     "ku": "xwediyê karsaziyê (jin)",
     "fr": "propriétaire",
-    "it": "proprietaria donna",
+    "it": "proprietaria",
     "ar": "مالكة"
    }
   },
@@ -14709,7 +14709,7 @@
     "es": "contenido",
     "ku": "naverok",
     "fr": "contenu",
-    "it": "contenuto",
+    "it": "contenuti",
     "ar": "محتويات"
    }
   },
@@ -14768,7 +14768,7 @@
     "es": "al interior del (in das)",
     "ku": "bo hundirê ... (in das)",
     "fr": "dans le",
-    "it": "nel",
+    "it": "dentro",
     "ar": "إلى"
    }
   },
@@ -14798,7 +14798,7 @@
     "es": "en total",
     "ku": "bi tevahî",
     "fr": "au total",
-    "it": "complessivamente",
+    "it": "complessivo",
     "ar": "إجمالي"
    }
   },
@@ -14888,7 +14888,7 @@
     "es": "entrevistas",
     "ku": "hevpeyvînan",
     "fr": "entretiens",
-    "it": "interviste",
+    "it": "colloqui",
     "ar": "المقابلات"
    }
   },
@@ -14949,7 +14949,7 @@
     "ku": "bajar (Tirkiye)",
     "fr": "ville (Turquie)",
     "it": "città (in Turchia)",
-    "ar": "مدينة (تركيا)"
+    "ar": "مدينة (في تركيا)"
    }
   },
   {
@@ -14963,7 +14963,7 @@
     "es": "italiano",
     "ku": "Îtalyanî",
     "fr": "italien",
-    "it": "Italiano",
+    "it": "italiano",
     "ar": "إيطالي"
    }
   },
@@ -14979,7 +14979,7 @@
     "ku": "bajar (Tirkiye)",
     "fr": "ville (Turquie)",
     "it": "città (in Turchia)",
-    "ar": "مدينة (تركيا)"
+    "ar": "مدينة (في تركيا)"
    }
   },
   {
@@ -15008,7 +15008,7 @@
     "es": "principios de año",
     "ku": "destpêka salê",
     "fr": "début de l'année",
-    "it": "inizio dell'anno",
+    "it": "inizio dell’anno",
     "ar": "بداية العام"
    }
   },
@@ -15085,7 +15085,7 @@
     "es": "enero",
     "ku": "Çile",
     "fr": "janvier",
-    "it": "Gennaio",
+    "it": "gennaio",
     "ar": "يناير"
    }
   },
@@ -15129,7 +15129,7 @@
     "es": "cada uno/a",
     "ku": "her yek",
     "fr": "chacun",
-    "it": "ogni",
+    "it": "ciascuno",
     "ar": "كل"
    }
   },
@@ -15202,7 +15202,7 @@
     "es": "sin embargo",
     "ku": "lêbelê",
     "fr": "cependant",
-    "it": "Tuttavia",
+    "it": "tuttavia",
     "ar": "لكن"
    }
   },
@@ -15218,7 +15218,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -15321,7 +15321,7 @@
     "es": "vitorear",
     "ku": "bi kêfxweşî qîrîn",
     "fr": "acclament",
-    "it": "allegria",
+    "it": "fare il tifo",
     "ar": "هتاف"
    }
   },
@@ -15430,7 +15430,7 @@
     "es": "julio",
     "ku": "Tîrmeh",
     "fr": "juillet",
-    "it": "Luglio",
+    "it": "luglio",
     "ar": "يوليو"
    }
   },
@@ -15476,7 +15476,7 @@
     "es": "junio",
     "ku": "Hezîran",
     "fr": "juin",
-    "it": "Giugno",
+    "it": "giugno",
     "ar": "يونيو"
    }
   },
@@ -15506,7 +15506,7 @@
     "es": "más joven (Akkusativ, femenino)",
     "ku": "ciwantir (Akkusativ, nêrer)",
     "fr": "plus jeune",
-    "it": "piccolo",
+    "it": "più giovane",
     "ar": "أصغر سناً"
    }
   },
@@ -15521,7 +15521,7 @@
     "es": "más joven (Akkusativ, femenino)",
     "ku": "ciwantir (Akkusativ, nêrer)",
     "fr": "plus jeune",
-    "it": "piccolo",
+    "it": "più giovane",
     "ar": "أصغر سناً"
    }
   },
@@ -15536,7 +15536,7 @@
     "es": "más joven (Akkusativ, femenino)",
     "ku": "ciwantir (Akkusativ, nêrer)",
     "fr": "plus jeune",
-    "it": "piccolo",
+    "it": "più giovane",
     "ar": "أصغر سناً"
    }
   },
@@ -15551,7 +15551,7 @@
     "es": "el/la más joven (Genitiv, masculino)",
     "ku": "herî biçûk (Genitiv, mêzker)",
     "fr": "le plus jeune",
-    "it": "minore",
+    "it": "il più giovane",
     "ar": "الأصغر سناً"
    }
   },
@@ -15581,7 +15581,7 @@
     "es": "llegó",
     "ku": "hat",
     "fr": "est venu",
-    "it": "venni",
+    "it": "è arrivato",
     "ar": "أتى"
    }
   },
@@ -15596,7 +15596,7 @@
     "es": "llegó",
     "ku": "hat",
     "fr": "est venu",
-    "it": "venni",
+    "it": "è arrivato",
     "ar": "أتى"
    }
   },
@@ -15626,7 +15626,7 @@
     "es": "conocía",
     "ku": "dizanî",
     "fr": "connaissait",
-    "it": "sapevo",
+    "it": "sapeva",
     "ar": "كان يعلم"
    }
   },
@@ -15641,7 +15641,7 @@
     "es": "conocía",
     "ku": "dizanî",
     "fr": "connaissait",
-    "it": "sapevo",
+    "it": "sapeva",
     "ar": "كان يعلم"
    }
   },
@@ -15765,7 +15765,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -15779,7 +15779,7 @@
     "es": "reproductor de casetes",
     "ku": "kasetxwîner",
     "fr": "lecteur de cassettes",
-    "it": "lettore di cassette",
+    "it": "mangianastri",
     "ar": "مشغل أشرطة الكاسيت"
    }
   },
@@ -15809,7 +15809,7 @@
     "es": "catálogo",
     "ku": "katalog",
     "fr": "catalogue",
-    "it": "catalogare",
+    "it": "catalogo",
     "ar": "الكتالوج"
    }
   },
@@ -15853,7 +15853,7 @@
     "es": "compra",
     "ku": "kirîn",
     "fr": "achat",
-    "it": "acquistare",
+    "it": "acquisto",
     "ar": "شراء"
    }
   },
@@ -15913,7 +15913,7 @@
     "es": "ningún/a (Dativ, masculino)",
     "ku": "tu (Dativ, mêzker)",
     "fr": "aucun",
-    "it": "Qualunque",
+    "it": "qualsiasi",
     "ar": "أي"
    }
   },
@@ -16062,7 +16062,7 @@
     "es": "que traquetea (Akkusativ, neutro)",
     "ku": "bi dengê tik-tik (Akkusativ, bêalî)",
     "fr": "qui cliquette",
-    "it": "sferragliante",
+    "it": "sferragliamento",
     "ar": "خشخشة"
    }
   },
@@ -16077,7 +16077,7 @@
     "es": "aula",
     "ku": "pol",
     "fr": "salle de classe",
-    "it": "classe",
+    "it": "aula",
     "ar": "الفصل الدراسي"
    }
   },
@@ -16106,7 +16106,7 @@
     "es": "aplaudió",
     "ku": "çepik kirin",
     "fr": "ont applaudi",
-    "it": "applaudito",
+    "it": "ha applaudito",
     "ar": "صفق"
    }
   },
@@ -16135,7 +16135,7 @@
     "es": "pegar",
     "ku": "dineqişînin",
     "fr": "collent",
-    "it": "bastone",
+    "it": "attaccare",
     "ar": "يلزق"
    }
   },
@@ -16164,7 +16164,7 @@
     "es": "se había quedado atascado",
     "ku": "li hev veqetîbû",
     "fr": "était collé",
-    "it": "era bloccato",
+    "it": "era incastrato",
     "ar": "كان عالقًا"
    }
   },
@@ -16179,7 +16179,7 @@
     "es": "pegado",
     "ku": "veqetandin",
     "fr": "ont collé",
-    "it": "incollato",
+    "it": "incastrato",
     "ar": "عالق"
    }
   },
@@ -16239,7 +16239,7 @@
     "es": "clic",
     "ku": "klîk",
     "fr": "clic",
-    "it": "clic",
+    "it": "cliccare",
     "ar": "انقر"
    }
   },
@@ -16254,7 +16254,7 @@
     "es": "placa del timbre",
     "ku": "plakaya navê zengilê derî",
     "fr": "plaque de sonnette",
-    "it": "Targhetta del campanello",
+    "it": "targhetta del campanello",
     "ar": "لوحة اسم جرس الباب"
    }
   },
@@ -16269,7 +16269,7 @@
     "es": "pulsación de un botón",
     "ku": "pêl li bişkoka",
     "fr": "pression d'un bouton",
-    "it": "premere un pulsante",
+    "it": "pressione di un pulsante",
     "ar": "بضغطة زر"
    }
   },
@@ -16284,7 +16284,7 @@
     "es": "correa de la maleta",
     "ku": "kayişa cemadanê",
     "fr": "sangle de valise",
-    "it": "cinghia per valigia",
+    "it": "cinghia della valigia",
     "ar": "حزام حقيبة السفر"
    }
   },
@@ -16314,7 +16314,7 @@
     "es": "próximos/as (Akkusativ, plural)",
     "ku": "ya pêşerojê (Akkusativ, pirjimar)",
     "fr": "à venir",
-    "it": "in arrivo",
+    "it": "imminente",
     "ar": "قريباً"
    }
   },
@@ -16329,7 +16329,7 @@
     "es": "próximos/as (Akkusativ, plural)",
     "ku": "ya pêşerojê (Akkusativ, pirjimar)",
     "fr": "à venir",
-    "it": "in arrivo",
+    "it": "imminente",
     "ar": "قريباً"
    }
   },
@@ -16343,7 +16343,7 @@
     "es": "concretamente",
     "ku": "bi taybetî",
     "fr": "précisément",
-    "it": "nello specifico",
+    "it": "in particolare",
     "ar": "خاصة"
    }
   },
@@ -16358,7 +16358,7 @@
     "es": "concreto/a (Akkusativ, plural)",
     "ku": "zelal (Akkusativ, pirjimar)",
     "fr": "concret",
-    "it": "calcestruzzo",
+    "it": "concreto",
     "ar": "أسمنت"
    }
   },
@@ -16372,7 +16372,7 @@
     "es": "concreto/a (Akkusativ, plural)",
     "ku": "zelal (Akkusativ, pirjimar)",
     "fr": "concret",
-    "it": "calcestruzzo",
+    "it": "concreto",
     "ar": "أسمنت"
    }
   },
@@ -16418,7 +16418,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -16506,7 +16506,7 @@
     "es": "auricular",
     "ku": "guhî",
     "fr": "casque audio",
-    "it": "cuffie",
+    "it": "cuffia",
     "ar": "سماعات الرأس"
    }
   },
@@ -16643,7 +16643,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -16718,7 +16718,7 @@
     "es": "oficina de cultura",
     "ku": "daîreya karûbarên çandê",
     "fr": "service des affaires culturelles",
-    "it": "ufficio affari culturali",
+    "it": "ufficio per gli affari culturali",
     "ar": "مكتب الشؤون الثقافية"
    }
   },
@@ -16765,7 +16765,7 @@
     "es": "obra de arte",
     "ku": "berhema hunerî",
     "fr": "œuvre d'art",
-    "it": "opera d'arte",
+    "it": "opera d’arte",
     "ar": "عمل فني"
    }
   },
@@ -16780,7 +16780,7 @@
     "es": "centro de arte",
     "ku": "navenda hunerê",
     "fr": "centre d'art",
-    "it": "centro artistico",
+    "it": "centro d’arte",
     "ar": "مركز الفنون"
    }
   },
@@ -16795,7 +16795,7 @@
     "es": "comisaria de arte",
     "ku": "kurator (jin)",
     "fr": "commissaire d'exposition",
-    "it": "curatrice donna",
+    "it": "curatrice",
     "ar": "أمينة متحف نسائية"
    }
   },
@@ -16810,7 +16810,7 @@
     "es": "libro del curso",
     "ku": "pirtûka dersê",
     "fr": "manuel de cours",
-    "it": "libro di testo",
+    "it": "libro del corso",
     "ar": "كتاب المقرر الدراسي"
    }
   },
@@ -16825,7 +16825,7 @@
     "es": "instructor/a del curso",
     "ku": "rêveberê kursê",
     "fr": "responsable de cours",
-    "it": "docente del corso",
+    "it": "insegnante del corso",
     "ar": "مُدرّس الدورة"
    }
   },
@@ -16840,7 +16840,7 @@
     "es": "instructora del curso",
     "ku": "rêvebera kursê",
     "fr": "responsable de cours",
-    "it": "docente donna del corso",
+    "it": "insegnante del corso",
     "ar": "مدربة دورة نسائية"
    }
   },
@@ -16855,7 +16855,7 @@
     "es": "plan del curso",
     "ku": "plana kursê",
     "fr": "programme du cours",
-    "it": "piano di corso",
+    "it": "programma del corso",
     "ar": "خطة الدورة"
    }
   },
@@ -16900,7 +16900,7 @@
     "es": "puesto de queso",
     "ku": "standa penîrê",
     "fr": "étal de fromages",
-    "it": "bancarella di formaggi",
+    "it": "banco dei formaggi",
     "ar": "كشك الجبن"
    }
   },
@@ -16915,7 +16915,7 @@
     "es": "compradora",
     "ku": "kiryar (jin)",
     "fr": "acheteuse",
-    "it": "acquisto femminile",
+    "it": "acquirente",
     "ar": "مشترية أنثى"
    }
   },
@@ -16931,7 +16931,7 @@
     "es": "compradoras",
     "ku": "kiryarên jin",
     "fr": "acheteuses",
-    "it": "acquirenti donne",
+    "it": "acquirenti",
     "ar": "المشتريات النسائية"
    }
   },
@@ -16947,7 +16947,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -17006,7 +17006,7 @@
     "es": "mesa de cocina",
     "ku": "maseya metbexê",
     "fr": "table de cuisine",
-    "it": "tavolo da cucina",
+    "it": "tavolo della cucina",
     "ar": "طاولة المطبخ"
    }
   },
@@ -17036,7 +17036,7 @@
     "es": "cuidar",
     "ku": "lênihêrîn",
     "fr": "s'occuper de",
-    "it": "Stai attento",
+    "it": "prendersi cura",
     "ar": "يعتني"
    }
   },
@@ -17096,7 +17096,7 @@
     "es": "el/la más corto/a (Akkusativ, masculino)",
     "ku": "herî kurt (Akkusativ, mêzker)",
     "fr": "le plus court",
-    "it": "più breve",
+    "it": "il più corto",
     "ar": "أقصر"
    }
   },
@@ -17126,7 +17126,7 @@
     "es": "local comercial",
     "ku": "cihê dikanê",
     "fr": "local commercial",
-    "it": "unità di vendita al dettaglio",
+    "it": "negozio al dettaglio",
     "ar": "وحدة بيع بالتجزئة"
    }
   },
@@ -17186,7 +17186,7 @@
     "es": "estaba tumbado",
     "ku": "radizê",
     "fr": "était posé",
-    "it": "stava mentendo",
+    "it": "era sdraiato",
     "ar": "كان يكذب"
    }
   },
@@ -17274,7 +17274,7 @@
     "es": "más lento/a (Akkusativ, femenino)",
     "ku": "hêdîtir (Akkusativ, nêrer)",
     "fr": "plus lente",
-    "it": "Più lentamente",
+    "it": "più lento",
     "ar": "أبطأ"
    }
   },
@@ -17304,7 +17304,7 @@
     "es": "de Lara",
     "ku": "ya Lara",
     "fr": "de Lara",
-    "it": "Di Lara",
+    "it": "di Lara",
     "ar": "لارا"
    }
   },
@@ -17319,7 +17319,7 @@
     "es": "leyó",
     "ku": "xwend",
     "fr": "a lu",
-    "it": "Leggere",
+    "it": "letto",
     "ar": "يقرأ"
    }
   },
@@ -17394,7 +17394,7 @@
     "es": "el más ruidoso",
     "ku": "herî dengbilind",
     "fr": "le plus bruyant",
-    "it": "più forte",
+    "it": "più rumoroso",
     "ar": "أعلى صوت"
    }
   },
@@ -17409,7 +17409,7 @@
     "es": "leyó",
     "ku": "xwend",
     "fr": "a lu",
-    "it": "Leggere",
+    "it": "letto",
     "ar": "يقرأ"
    }
   },
@@ -17515,7 +17515,7 @@
     "es": "rechazaron",
     "ku": "red kirin",
     "fr": "ont refusé",
-    "it": "respinto",
+    "it": "rifiutato",
     "ar": "مرفوض"
    }
   },
@@ -17529,7 +17529,7 @@
     "es": "lo siento",
     "ku": "mixabin",
     "fr": "désolé",
-    "it": "Scusa",
+    "it": "spiacente",
     "ar": "آسف"
    }
   },
@@ -17544,7 +17544,7 @@
     "es": "batería prestada",
     "ku": "batariya deyn",
     "fr": "batterie de prêt",
-    "it": "batteria di prestito",
+    "it": "batteria a noleggio",
     "ar": "بطارية بديلة"
    }
   },
@@ -17560,7 +17560,7 @@
     "es": "bicicletas de alquiler",
     "ku": "bisîkletên kirê",
     "fr": "vélos de location",
-    "it": "noleggio biciclette",
+    "it": "biciclette a noleggio",
     "ar": "دراجات للإيجار"
    }
   },
@@ -17576,7 +17576,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -17605,7 +17605,7 @@
     "es": "regleta",
     "ku": "prîza piralî",
     "fr": "multiprise",
-    "it": "ciabatta multipresa",
+    "it": "ciabatta elettrica",
     "ar": "موسيقى الباور"
    }
   },
@@ -17650,7 +17650,7 @@
     "es": "gerente",
     "ku": "rêveber (jin)",
     "fr": "responsable",
-    "it": "manager donna",
+    "it": "responsabile",
     "ar": "مديرة"
    }
   },
@@ -17665,7 +17665,7 @@
     "es": "gestión",
     "ku": "rêveberî",
     "fr": "direction",
-    "it": "gestione",
+    "it": "direzione",
     "ar": "إدارة"
    }
   },
@@ -17697,7 +17697,7 @@
     "es": "planos de instalaciones",
     "ku": "planên şebekeya karûbaran",
     "fr": "plans des installations",
-    "it": "piani di utilità",
+    "it": "schemi degli impianti",
     "ar": "خطط المرافق"
    }
   },
@@ -17727,7 +17727,7 @@
     "es": "de Lena",
     "ku": "ya Lena",
     "fr": "de Lena",
-    "it": "Di Lena",
+    "it": "di Lena",
     "ar": "لينا"
    }
   },
@@ -17787,7 +17787,7 @@
     "es": "de Leon",
     "ku": "ya Leon",
     "fr": "de Leon",
-    "it": "Di Leone",
+    "it": "di Leon",
     "ar": "ليونز"
    }
   },
@@ -17910,7 +17910,7 @@
     "es": "de Leyla",
     "ku": "ya Leyla",
     "fr": "de Leyla",
-    "it": "Di Leyla",
+    "it": "di Leyla",
     "ar": "ليلى"
    }
   },
@@ -17956,7 +17956,7 @@
     "es": "banda favorita",
     "ku": "koma muzîkê ya bijartî",
     "fr": "groupe préféré",
-    "it": "gruppo preferito",
+    "it": "band preferita",
     "ar": "الفرقة المفضلة"
    }
   },
@@ -17971,7 +17971,7 @@
     "es": "funcionó",
     "ku": "xebitî",
     "fr": "a couru",
-    "it": "corso",
+    "it": "corse",
     "ar": "ركض"
    }
   },
@@ -17986,7 +17986,7 @@
     "es": "funcionó",
     "ku": "xebitî",
     "fr": "a couru",
-    "it": "corso",
+    "it": "corse",
     "ar": "ركض"
    }
   },
@@ -18063,7 +18063,7 @@
     "es": "furgoneta de reparto",
     "ku": "erebeya radestkirinê",
     "fr": "camionnette de livraison",
-    "it": "furgone per le consegne",
+    "it": "furgone delle consegne",
     "ar": "شاحنة توصيل"
    }
   },
@@ -18093,7 +18093,7 @@
     "es": "hizo que él leyera",
     "ku": "xwendinê jê kir",
     "fr": "l'a fait lire",
-    "it": "gli fece leggere",
+    "it": "gli ha fatto leggere",
     "ar": "جعله يقرأ"
    }
   },
@@ -18108,7 +18108,7 @@
     "es": "podría permitir",
     "ku": "dikarî bihêla",
     "fr": "aurait pu permettre",
-    "it": "potrebbe consentire",
+    "it": "potrebbe permettere",
     "ar": "قد يسمح"
    }
   },
@@ -18274,7 +18274,7 @@
     "es": "ciudad (Portugal)",
     "ku": "bajar (Portekîz)",
     "fr": "ville (Portugal)",
-    "it": "città (Portogallo)",
+    "it": "città (in Portogallo)",
     "ar": "مدينة (البرتغال)"
    }
   },
@@ -18305,7 +18305,7 @@
     "es": "listas",
     "ku": "lîste",
     "fr": "listes",
-    "it": "elenchi",
+    "it": "liste",
     "ar": "القوائم"
    }
   },
@@ -18350,7 +18350,7 @@
     "ku": "qulik, kêran",
     "fr": "trou, carie",
     "it": "carie, buco",
-    "ar": "فتحة"
+    "ar": "ثقب، تسوس"
    }
   },
   {
@@ -18393,7 +18393,7 @@
     "es": "echaron a correr",
     "ku": "dest bi bezê kirin",
     "fr": "se sont mis à courir",
-    "it": "partire correndo",
+    "it": "partire di corsa",
     "ar": "انطلق في الجري"
    }
   },
@@ -18634,7 +18634,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -18649,7 +18649,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -18664,7 +18664,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -18679,7 +18679,7 @@
     "es": "mayo",
     "ku": "Gulan",
     "fr": "mai",
-    "it": "Maggio",
+    "it": "maggio",
     "ar": "يمكن"
    }
   },
@@ -18695,7 +18695,7 @@
     "es": "isla Mainau",
     "ku": "Girava Mainau",
     "fr": "île Mainau",
-    "it": "Isola Mainau",
+    "it": "isola di Mainau",
     "ar": "جزيرة ماينو"
    }
   },
@@ -18711,7 +18711,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -18755,7 +18755,7 @@
     "es": "de Malik",
     "ku": "ya Malik",
     "fr": "de Malik",
-    "it": "Di Malik",
+    "it": "di Malik",
     "ar": "مالك"
    }
   },
@@ -18785,7 +18785,7 @@
     "es": "isla (España)",
     "ku": "girav (Spanya)",
     "fr": "île (Espagne)",
-    "it": "isola (Spagna)",
+    "it": "isola (in Spagna)",
     "ar": "جزيرة (إسبانيا)"
    }
   },
@@ -18800,7 +18800,7 @@
     "es": "mamá",
     "ku": "dayik",
     "fr": "maman",
-    "it": "Mamma",
+    "it": "mamma",
     "ar": "ماما"
    }
   },
@@ -18815,7 +18815,7 @@
     "es": "gerente",
     "ku": "rêveber",
     "fr": "responsable",
-    "it": "manager",
+    "it": "responsabile",
     "ar": "مدير"
    }
   },
@@ -18831,7 +18831,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -18877,7 +18877,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -18966,7 +18966,7 @@
     "es": "marcado",
     "ku": "nîşankirin",
     "fr": "marquage",
-    "it": "marcatura",
+    "it": "segnatura",
     "ar": "وضع العلامات"
    }
   },
@@ -19072,7 +19072,7 @@
     "es": "máquinas",
     "ku": "makîne",
     "fr": "machines",
-    "it": "computer",
+    "it": "macchine",
     "ar": "الآلات"
    }
   },
@@ -19119,7 +19119,7 @@
     "es": "restos de material",
     "ku": "bermahiyên materyalê",
     "fr": "chutes de matériaux",
-    "it": "scarti di materiale",
+    "it": "ritagli di materiale",
     "ar": "قصاصات المواد"
    }
   },
@@ -19150,7 +19150,7 @@
     "es": "colchoneta",
     "ku": "mat",
     "fr": "tapis",
-    "it": "stuoia",
+    "it": "tappetino",
     "ar": "حصيرة"
    }
   },
@@ -19287,7 +19287,7 @@
     "es": "de varias semanas (Genitiv, femenino)",
     "ku": "çend hefteyî (Genitiv, nêrer)",
     "fr": "de plusieurs semaines",
-    "it": "diverse settimane",
+    "it": "di diverse settimane",
     "ar": "عدة أسابيع"
    }
   },
@@ -19316,7 +19316,7 @@
     "es": "normalmente",
     "ku": "bi gelemperî",
     "fr": "habituellement",
-    "it": "Generalmente",
+    "it": "di solito",
     "ar": "عادة"
    }
   },
@@ -19331,7 +19331,7 @@
     "es": "la mayoría",
     "ku": "herî zêde",
     "fr": "la plupart",
-    "it": "maggior parte",
+    "it": "la maggior parte",
     "ar": "معظم"
    }
   },
@@ -19361,7 +19361,7 @@
     "es": "certificado de empadronamiento",
     "ku": "belgeya qeydkirina niştecihbûnê",
     "fr": "certificat d'inscription au domicile",
-    "it": "certificato di registrazione della residenza",
+    "it": "certificato di residenza",
     "ar": "شهادة تسجيل الإقامة"
    }
   },
@@ -19393,7 +19393,7 @@
     "ku": "ragihandin",
     "fr": "annonces",
     "it": "annunci",
-    "ar": "الإعلانات"
+    "ar": "إعلانات"
    }
   },
   {
@@ -19467,7 +19467,7 @@
     "es": "comedor",
     "ku": "xwaringeha dibistanê",
     "fr": "cantine scolaire",
-    "it": "caffetteria",
+    "it": "mensa",
     "ar": "كافتيريا"
    }
   },
@@ -19542,7 +19542,7 @@
     "es": "se dieron cuenta",
     "ku": "tê gihîştin",
     "fr": "ont remarqué",
-    "it": "realizzato",
+    "it": "si è accorto",
     "ar": "أدرك"
    }
   },
@@ -19572,7 +19572,7 @@
     "es": "de Mert",
     "ku": "ya Mert",
     "fr": "de Mert",
-    "it": "Mert's",
+    "it": "di Mert",
     "ar": "ميرت"
    }
   },
@@ -19602,7 +19602,7 @@
     "es": "dispositivos de medición",
     "ku": "amûrên pîvandinê",
     "fr": "appareils de mesure",
-    "it": "dispositivi di misurazione",
+    "it": "strumenti di misura",
     "ar": "أجهزة القياس"
    }
   },
@@ -19617,7 +19617,7 @@
     "es": "altura de medición",
     "ku": "bilindahiya pîvandinê",
     "fr": "hauteur de mesure",
-    "it": "altezza di misurazione",
+    "it": "altezza misurata",
     "ar": "قياس الطول"
    }
   },
@@ -19632,7 +19632,7 @@
     "es": "medición",
     "ku": "pîvandin",
     "fr": "mesure",
-    "it": "interazione",
+    "it": "misurazione",
     "ar": "قياس"
    }
   },
@@ -19648,7 +19648,7 @@
     "es": "mediciones",
     "ku": "pîvan",
     "fr": "mesures",
-    "it": "misurazioni",
+    "it": "misure",
     "ar": "القياسات"
    }
   },
@@ -19664,7 +19664,7 @@
     "es": "mediciones",
     "ku": "pîvan",
     "fr": "mesures",
-    "it": "misurazioni",
+    "it": "misure",
     "ar": "القياسات"
    }
   },
@@ -19680,7 +19680,7 @@
     "es": "a las mediciones (Dativ, plural)",
     "ku": "li pîvanan (Dativ, pirjimar)",
     "fr": "aux mesures",
-    "it": "alle misure",
+    "it": "secondo le misure",
     "ar": "بالنسبة للقياسات"
    }
   },
@@ -19696,7 +19696,7 @@
     "es": "horas de medición",
     "ku": "demên pîvandinê",
     "fr": "heures de mesure",
-    "it": "tempi di campionamento",
+    "it": "orari delle misurazioni",
     "ar": "أوقات القياس"
    }
   },
@@ -19741,7 +19741,7 @@
     "es": "a mí mismo (Akkusativ)",
     "ku": "xwe (Akkusativ)",
     "fr": "moi-même",
-    "it": "me stessa",
+    "it": "me stesso",
     "ar": "نفسي"
    }
   },
@@ -19756,7 +19756,7 @@
     "es": "cuenta del alquiler",
     "ku": "hesabê kirêyê",
     "fr": "compte de loyer",
-    "it": "conto affitto",
+    "it": "conto dell’affitto",
     "ar": "حساب الإيجار"
    }
   },
@@ -19966,7 +19966,7 @@
     "es": "empleada",
     "ku": "xebatkar (jin)",
     "fr": "employée",
-    "it": "impiegata donna",
+    "it": "dipendente",
     "ar": "موظفة أنثى"
    }
   },
@@ -20010,7 +20010,7 @@
     "es": "entre sí",
     "ku": "bi hev re",
     "fr": "l'un avec l'autre",
-    "it": "l'uno con l'altro",
+    "it": "insieme",
     "ar": "مع بعضهم البعض"
    }
   },
@@ -20025,7 +20025,7 @@
     "es": "contó al ritmo",
     "ku": "bi hev re hejmart",
     "fr": "a compté avec eux",
-    "it": "contando insieme",
+    "it": "conteggiato anche",
     "ar": "تم العد على طول"
    }
   },
@@ -20071,7 +20071,7 @@
     "es": "reunión de miembros",
     "ku": "civîna endaman",
     "fr": "réunion des membres",
-    "it": "riunione dei membri",
+    "it": "assemblea dei membri",
     "ar": "اجتماع الأعضاء"
    }
   },
@@ -20086,7 +20086,7 @@
     "es": "ayudar",
     "ku": "alîkarî kirin",
     "fr": "donner un coup de main",
-    "it": "aiutare",
+    "it": "dare una mano",
     "ar": "ساعدنا"
    }
   },
@@ -20116,7 +20116,7 @@
     "es": "llevando",
     "ku": "girtin",
     "fr": "action de prendre",
-    "it": "prendendo",
+    "it": "portare",
     "ar": "أخذ"
    }
   },
@@ -20131,7 +20131,7 @@
     "es": "cantó también",
     "ku": "bi wan re stran got",
     "fr": "a chanté avec eux",
-    "it": "cantavano insieme",
+    "it": "cantato insieme",
     "ar": "غنت معه"
    }
   },
@@ -20191,7 +20191,7 @@
     "es": "de tamaño mediano (Genitiv, femenino)",
     "ku": "mezinahî-navîn (Genitiv, nêrer)",
     "fr": "de taille moyenne",
-    "it": "di medie dimensioni",
+    "it": "di media grandezza",
     "ar": "متوسط الحجم"
    }
   },
@@ -20207,7 +20207,7 @@
     "es": "miércoles",
     "ku": "Çarşem",
     "fr": "mercredi",
-    "it": "Mercoledì",
+    "it": "mercoledì",
     "ar": "الأربعاء"
    }
   },
@@ -20297,7 +20297,7 @@
     "es": "lunes",
     "ku": "Duşem",
     "fr": "lundi",
-    "it": "Lunedi",
+    "it": "lunedì",
     "ar": "الاثنين"
    }
   },
@@ -20357,7 +20357,7 @@
     "es": "empleada del museo",
     "ku": "xebatkara muzeyê",
     "fr": "employée du musée",
-    "it": "impiegata del museo",
+    "it": "addetta del museo",
     "ar": "موظفة متحف أنثى"
    }
   },
@@ -20474,7 +20474,7 @@
     "es": "posiblemente",
     "ku": "belkî",
     "fr": "éventuellement",
-    "it": "forse",
+    "it": "possibilmente",
     "ar": "ربما"
    }
   },
@@ -20490,7 +20490,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -20534,7 +20534,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -20548,7 +20548,7 @@
     "es": "debería",
     "ku": "divê",
     "fr": "devrait",
-    "it": "Dovrebbe",
+    "it": "dovrebbe",
     "ar": "يجب"
    }
   },
@@ -20578,7 +20578,7 @@
     "es": "vecina",
     "ku": "cîrana jin",
     "fr": "voisine",
-    "it": "personaggio femminile",
+    "it": "vicina",
     "ar": "جارة"
    }
   },
@@ -20609,7 +20609,7 @@
     "es": "con los hijos de los vecinos (Dativ, plural)",
     "ku": "bi zarokên cîran re (Dativ, pirjimar)",
     "fr": "avec les enfants des voisins",
-    "it": "con i figli dei vicini",
+    "it": "con i bambini dei vicini",
     "ar": "مع أطفال الجيران"
    }
   },
@@ -20713,7 +20713,7 @@
     "es": "llevó",
     "ku": "bir",
     "fr": "a emmené",
-    "it": "preso",
+    "it": "ha preso",
     "ar": "أخذ"
    }
   },
@@ -20759,7 +20759,7 @@
     "es": "indicó",
     "ku": "diyar kir",
     "fr": "a indiqué",
-    "it": "affermato",
+    "it": "dichiarato",
     "ar": "مفتوح"
    }
   },
@@ -20775,7 +20775,7 @@
     "ku": "bi nav kir",
     "fr": "nommé",
     "it": "chiamato",
-    "ar": "اسم"
+    "ar": "مسمّى"
    }
   },
   {
@@ -20804,7 +20804,7 @@
     "es": "conservación de la naturaleza",
     "ku": "parastina xwezayê",
     "fr": "protection de la nature",
-    "it": "conservazione della natura",
+    "it": "tutela della natura",
     "ar": "حماية الطبيعة"
    }
   },
@@ -20832,7 +20832,7 @@
     "es": "uno al lado del otro",
     "ku": "li kêleka hev",
     "fr": "côte à côte",
-    "it": "uno accanto all'altro",
+    "it": "uno accanto all’altro",
     "ar": "بجانب بعضهما البعض"
    }
   },
@@ -20938,7 +20938,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -20982,7 +20982,7 @@
     "es": "más bajo/a",
     "ku": "nizimtîr",
     "fr": "plus bas",
-    "it": "inferiore",
+    "it": "più basso",
     "ar": "أدنى"
    }
   },
@@ -20997,7 +20997,7 @@
     "es": "más bajo/a",
     "ku": "nizimtîr",
     "fr": "plus bas",
-    "it": "inferiore",
+    "it": "più basso",
     "ar": "أدنى"
    }
   },
@@ -21012,7 +21012,7 @@
     "es": "el/la más bajo/a",
     "ku": "herî nizm",
     "fr": "le plus bas",
-    "it": "più basso",
+    "it": "il più basso",
     "ar": "الأدنى"
    }
   },
@@ -21192,7 +21192,7 @@
     "ku": "not",
     "fr": "note",
     "it": "nota",
-    "ar": "ملحوظة"
+    "ar": "ملاحظة"
    }
   },
   {
@@ -21207,7 +21207,7 @@
     "es": "notas",
     "ku": "not",
     "fr": "notes",
-    "it": "attori",
+    "it": "note",
     "ar": "ملحوظات"
    }
   },
@@ -21281,7 +21281,7 @@
     "es": "usar",
     "ku": "bikaranîn",
     "fr": "utiliser",
-    "it": "utilizzo",
+    "it": "usare",
     "ar": "يستخدم"
    }
   },
@@ -21342,7 +21342,7 @@
     "es": "opciones de uso",
     "ku": "vebijarkên bikaranînê",
     "fr": "options d'utilisation",
-    "it": "opzioni di utilizzo",
+    "it": "opzioni d’uso",
     "ar": "خيارات الاستخدام"
    }
   },
@@ -21477,7 +21477,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -21491,7 +21491,7 @@
     "es": "siguió sin aclararse",
     "ku": "nenas ma",
     "fr": "est resté inconnu",
-    "it": "rimase sconosciuto",
+    "it": "è rimasto sconosciuto",
     "ar": "بقي الأمر مجهولاً"
    }
   },
@@ -21552,7 +21552,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -21611,7 +21611,7 @@
     "ku": "serhêl",
     "fr": "en ligne",
     "it": "online",
-    "ar": "متصل"
+    "ar": "عبر الإنترنت"
    }
   },
   {
@@ -21685,7 +21685,7 @@
     "es": "organizadora",
     "ku": "organîzator (jin)",
     "fr": "organisatrice",
-    "it": "organizzatrice donna",
+    "it": "organizzatrice",
     "ar": "المنظمات النسائية"
    }
   },
@@ -21701,7 +21701,7 @@
     "es": "asuntos administrativos",
     "ku": "karên îdarî",
     "fr": "questions administratives",
-    "it": "questioni amministrative",
+    "it": "pratiche amministrative",
     "ar": "الشؤون الإدارية"
    }
   },
@@ -21748,7 +21748,7 @@
     "es": "lugar",
     "ku": "cih",
     "fr": "lieu",
-    "it": "posto",
+    "it": "luogo",
     "ar": "مكان"
    }
   },
@@ -21780,7 +21780,7 @@
     "es": "en lugares (Dativ, plural)",
     "ku": "li cihan (Dativ, pirjimar)",
     "fr": "dans les lieux",
-    "it": "in località",
+    "it": "nei luoghi",
     "ar": "في المواقع"
    }
   },
@@ -21810,7 +21810,7 @@
     "es": "de Oskar",
     "ku": "ya Oskar",
     "fr": "d'Oskar",
-    "it": "Oskar's",
+    "it": "di Oskar",
     "ar": "أوسكار"
    }
   },
@@ -21826,7 +21826,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -21870,7 +21870,7 @@
     "es": "punto de recogida de paquetes",
     "ku": "şaxa pakêtê",
     "fr": "agence de colis",
-    "it": "negozio di pacchi",
+    "it": "punto di ritiro pacchi",
     "ar": "متجر الطرود"
    }
   },
@@ -21885,7 +21885,7 @@
     "es": "papá",
     "ku": "bav",
     "fr": "papa",
-    "it": "Papà",
+    "it": "papà",
     "ar": "أب"
    }
   },
@@ -21916,7 +21916,7 @@
     "es": "coche de papel",
     "ku": "erebeya kaxezî",
     "fr": "voiture en papier",
-    "it": "macchina di carta",
+    "it": "auto di carta",
     "ar": "سيارة ورقية"
    }
   },
@@ -21961,7 +21961,7 @@
     "es": "precio del papel",
     "ku": "bihayê kaxezê",
     "fr": "prix du papier",
-    "it": "prezzo della carta",
+    "it": "prezzo indicato sulla carta",
     "ar": "سعر الورق"
    }
   },
@@ -22021,7 +22021,7 @@
     "es": "compañera",
     "ku": "heval (jin)",
     "fr": "partenaire",
-    "it": "partner femminile",
+    "it": "compagna",
     "ar": "الشريكة الأنثوية"
    }
   },
@@ -22037,7 +22037,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -22066,7 +22066,7 @@
     "es": "paciente",
     "ku": "nexweş (jin)",
     "fr": "patiente",
-    "it": "paziente femminile",
+    "it": "paziente",
     "ar": "مريضة أنثى"
    }
   },
@@ -22082,7 +22082,7 @@
     "es": "pacientes",
     "ku": "nexweş (jin)",
     "fr": "patientes",
-    "it": "pazienti di sesso femminile",
+    "it": "pazienti",
     "ar": "المريضات الإناث"
    }
   },
@@ -22112,7 +22112,7 @@
     "es": "de Patrick",
     "ku": "ya Patrick",
     "fr": "de Patrick",
-    "it": "Di Patrick",
+    "it": "di Patrick",
     "ar": "باتريك"
    }
   },
@@ -22157,7 +22157,7 @@
     "es": "de Paula",
     "ku": "ya Paula",
     "fr": "de Paula",
-    "it": "Di Paula",
+    "it": "di Paula",
     "ar": "باولا"
    }
   },
@@ -22202,7 +22202,7 @@
     "es": "jubilada (Nominativ, femenino)",
     "ku": "teqawî (Nominativ, nêrer)",
     "fr": "retraitée",
-    "it": "pensionato",
+    "it": "in pensione",
     "ar": "متقاعد"
    }
   },
@@ -22218,7 +22218,7 @@
     "ku": "karmend",
     "fr": "personnel",
     "it": "personale",
-    "ar": "طاقم عمل"
+    "ar": "الموظفون"
    }
   },
   {
@@ -22322,7 +22322,7 @@
     "es": "siguió las flechas (Dativ, plural)",
     "ku": "tîran şopand (Dativ, pirjimar)",
     "fr": "a suivi les flèches",
-    "it": "segui le frecce",
+    "it": "ha seguito le frecce",
     "ar": "اتبع الأسهم"
    }
   },
@@ -22353,7 +22353,7 @@
     "es": "juego de caballos",
     "ku": "lîstika hespan",
     "fr": "jeu de chevaux",
-    "it": "gioco a cavallo",
+    "it": "gioco dei cavalli",
     "ar": "لعبة الخيل"
    }
   },
@@ -22383,7 +22383,7 @@
     "es": "clínica de fisioterapia",
     "ku": "klînîka fîzyoterapî",
     "fr": "cabinet de kinésithérapie",
-    "it": "clinica di fisioterapia",
+    "it": "centro di fisioterapia",
     "ar": "عيادة العلاج الطبيعي"
    }
   },
@@ -22429,7 +22429,7 @@
     "es": "PIN",
     "ku": "PIN",
     "fr": "code PIN",
-    "it": "SPILLO",
+    "it": "PIN",
     "ar": "دبوس"
    }
   },
@@ -22459,7 +22459,7 @@
     "es": "planificadora",
     "ku": "planker (jin)",
     "fr": "planificatrice",
-    "it": "pianificatrice donna",
+    "it": "pianificatrice",
     "ar": "مخططة أعمال نسائية"
    }
   },
@@ -22505,7 +22505,7 @@
     "ku": "plastîk",
     "fr": "plastique",
     "it": "plastica",
-    "ar": "البلاستيك"
+    "ar": "بلاستيك"
    }
   },
   {
@@ -22535,7 +22535,7 @@
     "es": "encargado/a del recinto",
     "ku": "karûbarê qadan",
     "fr": "gardien des terrains",
-    "it": "giardiniere",
+    "it": "custode",
     "ar": "عامل صيانة الحدائق"
    }
   },
@@ -22550,7 +22550,7 @@
     "es": "palomitas de maíz",
     "ku": "popcorn",
     "fr": "pop-corn",
-    "it": "Popcorn",
+    "it": "popcorn",
     "ar": "الفشار"
    }
   },
@@ -22596,7 +22596,7 @@
     "es": "artículos",
     "ku": "tişt",
     "fr": "articles",
-    "it": "elementi",
+    "it": "oggetti",
     "ar": "أغراض"
    }
   },
@@ -22656,7 +22656,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -22700,7 +22700,7 @@
     "es": "modelo de precios",
     "ku": "modela bihayê",
     "fr": "modèle tarifaire",
-    "it": "modello di prezzo",
+    "it": "modello di tariffazione",
     "ar": "نموذج التسعير"
    }
   },
@@ -22746,7 +22746,7 @@
     "es": "público del ensayo",
     "ku": "temaşevanên rehearsalê",
     "fr": "spectateurs de la répétition",
-    "it": "visitatori delle prove",
+    "it": "visitatori alle prove",
     "ar": "زوار البروفات"
    }
   },
@@ -22777,7 +22777,7 @@
     "es": "ronda de prueba",
     "ku": "gêra ceribandinê",
     "fr": "tour d'essai",
-    "it": "giro di prova",
+    "it": "turno di prova",
     "ar": "جولة تدريبية"
    }
   },
@@ -22836,7 +22836,7 @@
     "es": "cine de autor",
     "ku": "sînemaya hunerî",
     "fr": "cinéma d'art et d'essai",
-    "it": "cinema d'autore",
+    "it": "cinema d’essai",
     "ar": "سينما فنية"
    }
   },
@@ -22926,7 +22926,7 @@
     "es": "centro de pruebas",
     "ku": "stasyona ceribandinê",
     "fr": "poste de contrôle",
-    "it": "stazione di collaudo",
+    "it": "stazione di prova",
     "ar": "محطة اختبار"
    }
   },
@@ -22972,7 +22972,7 @@
     "es": "paquete pequeño",
     "ku": "pakêteke biçûk",
     "fr": "petit colis",
-    "it": "piccolo pacco",
+    "it": "pacco piccolo",
     "ar": "طرد صغير"
    }
   },
@@ -23033,7 +23033,7 @@
     "es": "club de radio",
     "ku": "komeleya radyoyê",
     "fr": "club de radio",
-    "it": "club radiofonico",
+    "it": "circolo radiofonico",
     "ar": "نادي الراديو"
    }
   },
@@ -23048,7 +23048,7 @@
     "es": "ruta en bicicleta",
     "ku": "gerîna bisîkletê",
     "fr": "excursion à vélo",
-    "it": "tour in bicicletta",
+    "it": "giro in bicicletta",
     "ar": "جولة بالدراجة"
    }
   },
@@ -23109,7 +23109,7 @@
     "es": "asientos laterales",
     "ku": "kursiyên kêlekan",
     "fr": "sièges latéraux",
-    "it": "sedili laterali",
+    "it": "posti laterali",
     "ar": "المقاعد الجانبية"
    }
   },
@@ -23138,7 +23138,7 @@
     "es": "rápidamente",
     "ku": "zû",
     "fr": "rapidement",
-    "it": "velocemente",
+    "it": "rapidamente",
     "ar": "بسرعة"
    }
   },
@@ -23154,7 +23154,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -23181,7 +23181,7 @@
     "es": "responde",
     "ku": "bersiv dide",
     "fr": "répond",
-    "it": "valutati",
+    "it": "risponde",
     "ar": "يرد"
    }
   },
@@ -23271,7 +23271,7 @@
     "es": "compañero de edición",
     "ku": "hevalê edîtorê",
     "fr": "collègue rédacteur",
-    "it": "colleghi redattori",
+    "it": "collega redattore",
     "ar": "زميل محرر"
    }
   },
@@ -23333,7 +23333,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -23420,7 +23420,7 @@
     "es": "directora",
     "ku": "derhêner (jin)",
     "fr": "réalisatrice",
-    "it": "regista donna",
+    "it": "direttrice",
     "ar": "مخرجة"
    }
   },
@@ -23450,7 +23450,7 @@
     "es": "clínica de rehabilitación",
     "ku": "klînîka rehabilîtasyonê",
     "fr": "centre de rééducation",
-    "it": "clinica di riabilitazione",
+    "it": "centro di riabilitazione",
     "ar": "عيادة إعادة التأهيل"
    }
   },
@@ -23586,7 +23586,7 @@
     "es": "café de reparaciones",
     "ku": "kafeya tamîrê",
     "fr": "café de réparation",
-    "it": "bar di riparazione",
+    "it": "caffè di riparazione",
     "ar": "مقهى إصلاح"
    }
   },
@@ -23632,7 +23632,7 @@
     "es": "restauradora",
     "ku": "restorator (jin)",
     "fr": "restauratrice",
-    "it": "restauratrice femminile",
+    "it": "restauratrice",
     "ar": "مُرمِّمة"
    }
   },
@@ -23678,7 +23678,7 @@
     "es": "río Rin",
     "ku": "çemê Rhine",
     "fr": "Rhin",
-    "it": "Fiume Aran",
+    "it": "fiume Reno",
     "ar": "نهر الراين"
    }
   },
@@ -23709,7 +23709,7 @@
     "ku": "saz kir",
     "fr": "a installé",
     "it": "organizzato",
-    "ar": "يثبت"
+    "ar": "أعدّ، جهّز"
    }
   },
   {
@@ -23739,7 +23739,7 @@
     "ku": "telefon kir",
     "fr": "a appelé",
     "it": "chiamato",
-    "ar": "مُسَمًّى"
+    "ar": "اتصل"
    }
   },
   {
@@ -23754,7 +23754,7 @@
     "ku": "telefon kir",
     "fr": "a appelé",
     "it": "chiamato",
-    "ar": "مُسَمًّى"
+    "ar": "اتصل"
    }
   },
   {
@@ -23811,7 +23811,7 @@
     "es": "arriesgar",
     "ku": "metirsiyê girtin",
     "fr": "risquer",
-    "it": "rischio",
+    "it": "rischiare",
     "ar": "للمخاطرة"
    }
   },
@@ -23933,7 +23933,7 @@
     "es": "calle Rosa",
     "ku": "Kolana Rosen",
     "fr": "rue des Roses",
-    "it": "Via delle Rose",
+    "it": "via Rose",
     "ar": "شارع روز"
    }
   },
@@ -23949,7 +23949,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -24022,7 +24022,7 @@
     "es": "ruta",
     "ku": "rê",
     "fr": "itinéraire",
-    "it": "itinerario",
+    "it": "percorso",
     "ar": "طريق"
    }
   },
@@ -24052,7 +24052,7 @@
     "es": "recorrido",
     "ku": "rêwîtiyê",
     "fr": "circuit",
-    "it": "tour",
+    "it": "giro turistico",
     "ar": "رحلة"
    }
   },
@@ -24082,7 +24082,7 @@
     "es": "de Ruth",
     "ku": "ya Ruth",
     "fr": "de Ruth",
-    "it": "Di Ruth",
+    "it": "di Ruth",
     "ar": "روث"
    }
   },
@@ -24097,7 +24097,7 @@
     "es": "vaciaron",
     "ku": "vala kirin",
     "fr": "ont vidé",
-    "it": "sgomberato",
+    "it": "svuotato",
     "ar": "تم إخلاء المكان"
    }
   },
@@ -24113,7 +24113,7 @@
     "es": "devoluciones",
     "ku": "vegerandin",
     "fr": "retours",
-    "it": "resi",
+    "it": "ritorna",
     "ar": "عمليات الإرجاع"
    }
   },
@@ -24143,7 +24143,7 @@
     "es": "pasó a primer plano",
     "ku": "bala xwe kişand",
     "fr": "a été mis en avant",
-    "it": "messo a fuoco",
+    "it": "è diventato il fulcro",
     "ar": "تم التركيز عليه"
    }
   },
@@ -24189,7 +24189,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -24218,7 +24218,7 @@
     "es": "tramitación de solicitudes",
     "ku": "pêvajoya daxwazê",
     "fr": "traitement des dossiers",
-    "it": "gestione dei casi",
+    "it": "elaborazione del caso",
     "ar": "معالجة القضايا"
    }
   },
@@ -24354,7 +24354,7 @@
     "es": "de Samet",
     "ku": "ya Samet",
     "fr": "de Samet",
-    "it": "Di Samet",
+    "it": "di Samet",
     "ar": "ساميت"
    }
   },
@@ -24430,7 +24430,7 @@
     "es": "fechas de recogida por lotes",
     "ku": "rojên randevûyên komî",
     "fr": "dates des rendez-vous groupés",
-    "it": "date di lotto",
+    "it": "date dei lotti",
     "ar": "تواريخ الدفعات"
    }
   },
@@ -24445,7 +24445,7 @@
     "es": "colección",
     "ku": "komkirin",
     "fr": "collection",
-    "it": "collezione",
+    "it": "raccolta",
     "ar": "مجموعة"
    }
   },
@@ -24461,7 +24461,7 @@
     "es": "sábado",
     "ku": "Şemî",
     "fr": "samedi",
-    "it": "Sabato",
+    "it": "sabato",
     "ar": "السبت"
    }
   },
@@ -24476,7 +24476,7 @@
     "es": "el sábado por la mañana",
     "ku": "sibê roja Şemiyê",
     "fr": "samedi matin",
-    "it": "Sabato mattina",
+    "it": "sabato mattina",
     "ar": "صباح السبت"
    }
   },
@@ -24505,7 +24505,7 @@
     "es": "sándwich",
     "ku": "sandwîç",
     "fr": "sandwich",
-    "it": "sandwich",
+    "it": "panino",
     "ar": "شطيرة"
    }
   },
@@ -24520,7 +24520,7 @@
     "es": "cantaba",
     "ku": "distrî",
     "fr": "chantait",
-    "it": "cantato",
+    "it": "ha cantato",
     "ar": "غنى"
    }
   },
@@ -24535,7 +24535,7 @@
     "es": "cayó",
     "ku": "kêm bû",
     "fr": "est tombé",
-    "it": "caduto",
+    "it": "è caduto",
     "ar": "يسقط"
    }
   },
@@ -24580,7 +24580,7 @@
     "es": "de Sarah",
     "ku": "ya Sarah",
     "fr": "de Sarah",
-    "it": "Di Sara",
+    "it": "di Sarah",
     "ar": "سارة"
    }
   },
@@ -24610,7 +24610,7 @@
     "es": "se sentaron",
     "ku": "rûniştin",
     "fr": "se sont assis",
-    "it": "sab",
+    "it": "si è seduto",
     "ar": "قعد"
    }
   },
@@ -24624,7 +24624,7 @@
     "es": "escanear",
     "ku": "scan kirin",
     "fr": "scanner",
-    "it": "scansione",
+    "it": "scansionare",
     "ar": "مسح ضوئي"
    }
   },
@@ -24654,7 +24654,7 @@
     "es": "vestíbulo de taquillas",
     "ku": "salona bilêtan",
     "fr": "hall de billetterie",
-    "it": "biglietteria",
+    "it": "atrio della biglietteria",
     "ar": "صالة التذاكر"
    }
   },
@@ -24684,7 +24684,7 @@
     "es": "con sombra (Akkusativ, masculino)",
     "ku": "sîberdar (Akkusativ, mêzker)",
     "fr": "ombragé",
-    "it": "ombroso",
+    "it": "ombreggiato",
     "ar": "مشبوه"
    }
   },
@@ -24714,7 +24714,7 @@
     "es": "fin del turno",
     "ku": "dawiya şiftê",
     "fr": "fin de service",
-    "it": "fine turno",
+    "it": "fine del turno",
     "ar": "نهاية الوردية"
    }
   },
@@ -24729,7 +24729,7 @@
     "es": "supervisora de turno",
     "ku": "serperişta şiftê (jin)",
     "fr": "cheffe d'équipe",
-    "it": "supervisore di turno donna",
+    "it": "responsabile del turno",
     "ar": "مشرفة وردية أنثى"
    }
   },
@@ -25449,7 +25449,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -26019,7 +26019,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -26752,7 +26752,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -27475,7 +27475,7 @@
     "es": "ruta",
     "ku": "rê",
     "fr": "itinéraire",
-    "it": "itinerario",
+    "it": "percorso",
     "ar": "طريق"
    }
   },
@@ -27613,7 +27613,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -27812,7 +27812,7 @@
     "ku": "hemû",
     "fr": "tout, tous",
     "it": "tutto",
-    "ar": "الجميع"
+    "ar": "الكل"
    }
   },
   {
@@ -27827,7 +27827,7 @@
     "ku": "hemû",
     "fr": "tout, tous",
     "it": "tutto",
-    "ar": "الجميع"
+    "ar": "الكل"
    }
   },
   {
@@ -28914,7 +28914,7 @@
     "ku": "qewimî",
     "fr": "s'est produit",
     "it": "si verificò",
-    "ar": "حصل"
+    "ar": "حدث"
    }
   },
   {
@@ -29005,7 +29005,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -29231,7 +29231,7 @@
     "es": "notas",
     "ku": "not",
     "fr": "notes",
-    "it": "attori",
+    "it": "note",
     "ar": "ملحوظات"
    }
   },
@@ -29247,7 +29247,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -29277,7 +29277,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -29308,7 +29308,7 @@
     "ku": "di nav de",
     "fr": "inclus",
     "it": "incluso",
-    "ar": "متضمن"
+    "ar": "مشمول"
    }
   },
   {
@@ -29369,7 +29369,7 @@
     "ku": "tevgerandin",
     "fr": "déplacer",
     "it": "spostare",
-    "ar": "يتحرك"
+    "ar": "يحرّك"
    }
   },
   {
@@ -30092,7 +30092,7 @@
     "es": "organizadora",
     "ku": "organîzator (jin)",
     "fr": "organisatrice",
-    "it": "organizzatrice donna",
+    "it": "organizzatrice",
     "ar": "المنظمات النسائية"
    }
   },
@@ -30138,7 +30138,7 @@
     "ku": "pêvajokirin",
     "fr": "traitement",
     "it": "elaborazione",
-    "ar": "يعالج"
+    "ar": "معالجة"
    }
   },
   {
@@ -30167,7 +30167,7 @@
     "es": "ruta",
     "ku": "rê",
     "fr": "itinéraire",
-    "it": "itinerario",
+    "it": "percorso",
     "ar": "طريق"
    }
   },
@@ -30511,7 +30511,7 @@
     "es": "funcionó",
     "ku": "xebitî",
     "fr": "a couru",
-    "it": "corso",
+    "it": "corse",
     "ar": "ركض"
    }
   },
@@ -30955,7 +30955,7 @@
     "ku": "bû sedem",
     "fr": "a provoqué",
     "it": "causato",
-    "ar": "تسبب"
+    "ar": "تسبّب في"
    }
   },
   {
@@ -31557,7 +31557,7 @@
     "ku": "qewimî",
     "fr": "s'est produit",
     "it": "si verificò",
-    "ar": "حصل"
+    "ar": "حدث"
    }
   },
   {
@@ -31572,7 +31572,7 @@
     "ku": "qewimî",
     "fr": "s'est produit",
     "it": "si verificò",
-    "ar": "حصل"
+    "ar": "حدث"
    }
   },
   {
@@ -31633,7 +31633,7 @@
     "ku": "pêşandan",
     "fr": "représentation",
     "it": "spettacolo",
-    "ar": "أداء"
+    "ar": "عرض، أداء"
    }
   },
   {
@@ -32112,7 +32112,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -32976,7 +32976,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -33021,7 +33021,7 @@
     "ku": "bajar (Almanya)",
     "fr": "ville (Allemagne)",
     "it": "città (in Germania)",
-    "ar": "مدينة (ألمانيا)"
+    "ar": "مدينة (في ألمانيا)"
    }
   },
   {
@@ -33065,7 +33065,7 @@
     "es": "conocía",
     "ku": "dizanî",
     "fr": "connaissait",
-    "it": "sapevo",
+    "it": "sapeva",
     "ar": "كان يعلم"
    }
   },
@@ -33080,7 +33080,7 @@
     "es": "conocía",
     "ku": "dizanî",
     "fr": "connaissait",
-    "it": "sapevo",
+    "it": "sapeva",
     "ar": "كان يعلم"
    }
   },
@@ -33518,7 +33518,7 @@
     "ku": "not",
     "fr": "note",
     "it": "nota",
-    "ar": "ملحوظة"
+    "ar": "ملاحظة"
    }
   },
   {
@@ -33863,7 +33863,7 @@
     "ku": "bo (an das)",
     "fr": "vers le, au (an das)",
     "it": "al, alla (an das)",
-    "ar": "إلى"
+    "ar": "إلى الـ (an das)"
    }
   },
   {
@@ -33892,7 +33892,7 @@
     "ku": "bo (an das)",
     "fr": "vers le, au (an das)",
     "it": "al, alla (an das)",
-    "ar": "إلى"
+    "ar": "إلى الـ (an das)"
    }
   },
   {
@@ -34845,7 +34845,7 @@
     "es": "titulares",
     "ku": "sernivîs",
     "it": "titoli",
-    "fr": "titres",
+    "fr": "gros titres",
     "ar": "عناوين الأخبار"
    }
   },
@@ -34960,7 +34960,7 @@
     "es": "restante (Nominativ, plural)",
     "ku": "mayî",
     "it": "rimanente",
-    "fr": "restant",
+    "fr": "restants",
     "ar": "متبقي"
    }
   }

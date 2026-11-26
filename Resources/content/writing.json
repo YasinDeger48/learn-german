@@ -41,7 +41,7 @@
      "en": "2 · Opening",
      "es": "2 · Introducción",
      "ku": "2 · Destpêk",
-     "fr": "2 · Ouverture",
+     "fr": "2 · Introduction",
      "it": "2 · Apertura",
      "ar": "2 · الافتتاح"
     },
@@ -57,7 +57,7 @@
      "en": "3 · The reason",
      "es": "3 · Motivo",
      "ku": "3 · Sedem",
-     "fr": "3 · La raison",
+     "fr": "3 · Motif",
      "it": "3 · Il motivo",
      "ar": "3- السبب"
     },
@@ -94,7 +94,7 @@
      "es": "5 · Hora y lugar",
      "ku": "5 · Dem û cih",
      "fr": "5 · Heure et lieu",
-     "it": "5 · Tempo e luogo",
+     "it": "5 · Ora e luogo",
      "ar": "5- الزمان والمكان"
     },
     "phrases": [
@@ -109,7 +109,7 @@
      "en": "6 · Closing",
      "es": "6 · Despedida",
      "ku": "6 · Dawîkirin",
-     "fr": "6 · Clôture",
+     "fr": "6 · Conclusion",
      "it": "6 · Chiusura",
      "ar": "6 · الإغلاق"
     },
@@ -125,8 +125,8 @@
      "en": "7 · Sign-off",
      "es": "7 · Fórmula de despedida",
      "ku": "7 · Bi xatirê te",
-     "fr": "7 · Signature",
-     "it": "7 · Firma",
+     "fr": "7 · Formule de politesse",
+     "it": "7 · Saluti finali",
      "ar": "7 · التوقيع"
     },
     "phrases": [
@@ -159,7 +159,7 @@
      "en": "2 · Opening",
      "es": "2 · Introducción",
      "ku": "2 · Destpêk",
-     "fr": "2 · Ouverture",
+     "fr": "2 · Introduction",
      "it": "2 · Apertura",
      "ar": "2 · الافتتاح"
     },
@@ -174,7 +174,7 @@
      "en": "3 · The reason",
      "es": "3 · Motivo",
      "ku": "3 · Sedem",
-     "fr": "3 · La raison",
+     "fr": "3 · Motif",
      "it": "3 · Il motivo",
      "ar": "3- السبب"
     },
@@ -211,7 +211,7 @@
      "es": "5 · Hora y lugar",
      "ku": "5 · Dem û cih",
      "fr": "5 · Heure et lieu",
-     "it": "5 · Tempo e luogo",
+     "it": "5 · Ora e luogo",
      "ar": "5- الزمان والمكان"
     },
     "phrases": [
@@ -226,7 +226,7 @@
      "en": "6 · Closing",
      "es": "6 · Despedida",
      "ku": "6 · Dawîkirin",
-     "fr": "6 · Clôture",
+     "fr": "6 · Conclusion",
      "it": "6 · Chiusura",
      "ar": "6 · الإغلاق"
     },
@@ -241,8 +241,8 @@
      "en": "7 · Sign-off",
      "es": "7 · Fórmula de despedida",
      "ku": "7 · Bi xatirê te",
-     "fr": "7 · Signature",
-     "it": "7 · Firma",
+     "fr": "7 · Formule de politesse",
+     "it": "7 · Saluti finali",
      "ar": "7 · التوقيع"
     },
     "phrases": [
@@ -262,8 +262,8 @@
     "en": "Form: language course",
     "es": "Formulario: curso de idiomas",
     "ku": "Form: kursa zimanan",
-    "fr": "Forme : cours de langue",
-    "it": "Formato: corso di lingua",
+    "fr": "Formulaire : cours de langue",
+    "it": "Modulo: corso di lingua",
     "ar": "الشكل: دورة لغة"
    },
    "text": "Maria López kommt aus Spanien. Sie ist 34 Jahre alt und wohnt in der Gartenstraße 5 in 80331 München. Sie möchte einen Deutschkurs am Abend machen, weil sie am Tag arbeitet. Sie bezahlt bar.",
@@ -389,8 +389,8 @@
     "en": "Form: gym membership",
     "es": "Formulario: abono del gimnasio",
     "ku": "Form: endamtiya klûba werzîşê",
-    "fr": "Formulaire : abonnement à une salle de sport",
-    "it": "Modulo: abbonamento in palestra",
+    "fr": "Formulaire : abonnement à la salle de sport",
+    "it": "Modulo: iscrizione in palestra",
     "ar": "نموذج: عضوية في صالة الألعاب الرياضية"
    },
    "text": "Lea Schmidt ist Studentin. Sie ist am 3. April 2001 geboren. Sie möchte zweimal pro Woche trainieren, am liebsten am Morgen. Ihre E-Mail-Adresse ist lea.schmidt@web.de.",
@@ -511,8 +511,8 @@
     "en": "E-mail: I cannot come to class",
     "es": "Correo: no puedo ir a clase",
     "ku": "E-name: nikarim bêjim polê",
-    "fr": "Courriel : Je ne peux pas venir en classe",
-    "it": "E-mail: Non posso venire a lezione",
+    "fr": "E-mail : je ne peux pas venir en cours",
+    "it": "E-mail: non posso venire a lezione",
     "ar": "البريد الإلكتروني: لا أستطيع الحضور إلى الصف"
    },
    "prompt": "Sie können morgen nicht zum Deutschkurs kommen. Schreiben Sie Ihrer Lehrerin, Frau Weber, eine E-Mail.",
@@ -521,8 +521,8 @@
     "en": "Say why you cannot come, ask about the homework, say when you come again.",
     "es": "Explica por qué no puedes ir, pregunta por los deberes y di cuándo volverás.",
     "ku": "Bibêje çima nikarî werî, derbarê erkên malê de bipirse û bibêje kengî dê vegerî.",
-    "fr": "Expliquez pourquoi vous ne pouvez pas venir, demandez des précisions sur les devoirs, dites quand vous reviendrez.",
-    "it": "Spiega perché non puoi venire, chiedi informazioni sui compiti e comunica quando tornerai.",
+    "fr": "Explique pourquoi tu ne peux pas venir, demande les devoirs et indique quand tu reviendras.",
+    "it": "Spiega perché non puoi venire, chiedi i compiti e di’ quando tornerai.",
     "ar": "أخبرنا لماذا لا يمكنك الحضور، واسأل عن الواجب المنزلي، وأخبرنا متى ستعود مرة أخرى."
    },
    "points": [
@@ -532,7 +532,7 @@
       "en": "Why not",
       "es": "Por qué no puedes ir",
       "ku": "Çima na",
-      "fr": "Pourquoi pas",
+      "fr": "Pourquoi tu ne peux pas venir",
       "it": "Perché no",
       "ar": "ولم لا"
      },
@@ -552,8 +552,8 @@
       "en": "Ask about homework",
       "es": "Pregunta por los deberes",
       "ku": "Derbarê erkên malê de bipirse",
-      "fr": "Demandez des nouvelles des devoirs",
-      "it": "Chiedi informazioni sui compiti a casa.",
+      "fr": "Demander les devoirs",
+      "it": "Chiedere i compiti",
       "ar": "اسأل عن الواجبات المنزلية"
      },
      "say": "Was sind die Hausaufgaben?",
@@ -567,8 +567,8 @@
       "en": "When you come back",
       "es": "Cuándo vuelves",
       "ku": "Dema vegera te",
-      "fr": "Quand tu reviendras",
-      "it": "Quando tornerai",
+      "fr": "Quand tu reviens",
+      "it": "Quando torni",
       "ar": "عندما تعود"
      },
      "say": "Am Donnerstag komme ich wieder.",
@@ -606,8 +606,8 @@
     "en": "Say when, where and what he should bring.",
     "es": "Di cuándo y dónde será, y qué debería traer.",
     "ku": "Bibêje kengî û li ku ye, û divê ew çi bîne.",
-    "fr": "Indiquez-lui quand, où et ce qu'il doit apporter.",
-    "it": "Indica quando, dove e cosa dovrebbe portare.",
+    "fr": "Indique quand et où, et ce qu'il doit apporter.",
+    "it": "Di’ quando e dove si svolge e che cosa dovrebbe portare.",
     "ar": "حدد متى وأين وماذا يجب أن يحضر."
    },
    "points": [
@@ -654,8 +654,8 @@
       "en": "What to bring",
       "es": "Qué traer",
       "ku": "Çi bîne",
-      "fr": "Que faut-il apporter ?",
-      "it": "Cosa portare",
+      "fr": "À apporter",
+      "it": "Che cosa portare",
       "ar": "ما الذي يجب إحضاره؟"
      },
      "say": "Kannst du einen Salat mitbringen?",
@@ -682,8 +682,8 @@
     "en": "E-mail: the heating is broken",
     "es": "Correo: la calefacción está averiada",
     "ku": "E-name: germahî xera bûye",
-    "fr": "Courriel : le chauffage est en panne",
-    "it": "E-mail: il riscaldamento è rotto",
+    "fr": "E-mail : le chauffage est en panne",
+    "it": "E-mail: il riscaldamento è guasto",
     "ar": "البريد الإلكتروني: التدفئة معطلة"
    },
    "prompt": "Die Heizung in Ihrer Wohnung ist kaputt. Schreiben Sie dem Hausmeister, Herrn Braun, eine E-Mail.",
@@ -692,8 +692,8 @@
     "en": "Describe the problem, since when, and when you are at home.",
     "es": "Describe el problema, desde cuándo ocurre y cuándo estás en casa.",
     "ku": "Pirsgirêkê rave bike, ji kengî ve heye û kengî tu li malê yî.",
-    "fr": "Décrivez le problème, depuis quand, et quand vous êtes chez vous.",
-    "it": "Descrivi il problema, da quando si presenta e quando ti trovi a casa.",
+    "fr": "Décris le problème, précise depuis quand il dure et quand tu es chez toi.",
+    "it": "Descrivi il problema, da quando c’è e quando sei a casa.",
     "ar": "صف المشكلة، منذ متى، ومتى كنت في المنزل."
    },
    "points": [
@@ -736,7 +736,7 @@
       "en": "When you are at home",
       "es": "Cuándo estás en casa",
       "ku": "Kengî tu li malê yî",
-      "fr": "Lorsque vous êtes à la maison",
+      "fr": "Quand tu es chez toi",
       "it": "Quando sei a casa",
       "ar": "عندما تكون في المنزل"
      },
@@ -774,8 +774,8 @@
     "en": "Say which film, when, and where you meet.",
     "es": "Di qué película, cuándo y dónde quedáis.",
     "ku": "Bibêje kîjan fîlm, kengî û li ku hev dibînin.",
-    "fr": "Précisez le film, la date et le lieu de votre rencontre.",
-    "it": "Indica quale film, quando e dove vi incontrate.",
+    "fr": "Indique quel film, à quelle heure et où vous vous retrouvez.",
+    "it": "Di’ quale film, quando e dove vi incontrate.",
     "ar": "حدد الفيلم، والزمان، والمكان الذي ستلتقيان فيه."
    },
    "points": [
@@ -819,7 +819,7 @@
       "en": "Where to meet",
       "es": "Dónde quedar",
       "ku": "Cihê civînê",
-      "fr": "Lieu de rencontre",
+      "fr": "Lieu de rendez-vous",
       "it": "Dove incontrarsi",
       "ar": "مكان اللقاء"
      },
@@ -846,8 +846,8 @@
     "en": "Card: thanks for a present",
     "es": "Tarjeta: gracias por un regalo",
     "ku": "Kart: spas ji bo diyariyekê",
-    "fr": "Carte : merci pour le cadeau",
-    "it": "Biglietto: grazie per il regalo",
+    "fr": "Carte : merci pour un cadeau",
+    "it": "Biglietto: ringraziare per un regalo",
     "ar": "بطاقة: شكرًا على الهدية"
    },
    "prompt": "Ihre Tante hat Ihnen ein Geschenk geschickt. Schreiben Sie ihr eine kurze Karte.",
@@ -856,8 +856,8 @@
     "en": "Thank her, say why you like the present, invite her for a meal.",
     "es": "Dale las gracias, di por qué te gusta el regalo e invítala a comer.",
     "ku": "Spasiya wê bike, bibêje çima tu ji diyariyê hez dikî û wê vexwîne xwarinekê.",
-    "fr": "Remerciez-la, expliquez-lui pourquoi vous aimez le cadeau, invitez-la à déjeuner.",
-    "it": "Ringraziala, spiegale perché ti è piaciuto il regalo e invitala a cena.",
+    "fr": "Remercie-la, explique pourquoi le cadeau te plaît et invite-la à manger.",
+    "it": "Ringraziala, spiega perché ti piace il regalo e invitala a mangiare.",
     "ar": "اشكرها، واشرح لها سبب إعجابك بالهدية، وادعوها لتناول وجبة."
    },
    "points": [
@@ -867,8 +867,8 @@
       "en": "Thank you",
       "es": "Agradecimiento",
       "ku": "Spas",
-      "fr": "Merci",
-      "it": "Grazie",
+      "fr": "Remerciements",
+      "it": "Ringraziamento",
       "ar": "شكرًا لك"
      },
      "say": "Vielen Dank für das Geschenk!",
@@ -883,7 +883,7 @@
       "en": "Why you like it",
       "es": "Por qué te gusta",
       "ku": "Çima tu jê hez dikî",
-      "fr": "Pourquoi vous l'aimez",
+      "fr": "Pourquoi tu l'aimes",
       "it": "Perché ti piace",
       "ar": "لماذا يعجبك؟"
      },
@@ -929,8 +929,8 @@
     "en": "E-mail: ask a hotel",
     "es": "Correo: consulta a un hotel",
     "ku": "E-name: derbarê otêlekê de bipirse",
-    "fr": "Courriel : demander à un hôtel",
-    "it": "E-mail: chiedi a un hotel",
+    "fr": "E-mail : demande de renseignements à un hôtel",
+    "it": "E-mail: chiedere informazioni a un hotel",
     "ar": "البريد الإلكتروني: اسأل الفندق"
    },
    "prompt": "Sie möchten im Juli drei Nächte in Hamburg bleiben. Schreiben Sie dem Hotel Hafenblick eine E-Mail.",
@@ -939,8 +939,8 @@
     "en": "Ask if there is a free room, the price and about breakfast.",
     "es": "Pregunta si hay una habitación libre, cuál es el precio y si hay desayuno.",
     "ku": "Bipirse odeyek vala heye, biha çiqas e û taştê heye an na.",
-    "fr": "Demandez s'il y a une chambre libre, le prix et les informations concernant le petit-déjeuner.",
-    "it": "Chiedete se c'è una camera libera, il prezzo e informazioni sulla colazione.",
+    "fr": "Demande s'il y a une chambre libre, quel est le prix et si le petit-déjeuner est inclus.",
+    "it": "Chiedi se c’è una camera libera, il prezzo e se è inclusa la colazione.",
     "ar": "اسأل عما إذا كانت هناك غرفة شاغرة، والسعر، ومعلومات عن وجبة الإفطار."
    },
    "points": [
@@ -985,7 +985,7 @@
       "ku": "Taştê",
       "fr": "Petit-déjeuner",
       "it": "Colazione",
-      "ar": "إفطار"
+      "ar": "الفطور"
      },
      "say": "Ist das Frühstück inklusive?",
      "keys": [
@@ -1006,8 +1006,8 @@
     "en": "Message: I'm late for dinner",
     "es": "Mensaje: llegaré tarde a cenar",
     "ku": "Peyam: ez ji bo şîvê dereng im",
-    "fr": "Message : Je suis en retard pour le dîner",
-    "it": "Messaggio: Sono in ritardo per cena",
+    "fr": "Message : je suis en retard pour le dîner",
+    "it": "Messaggio: sono in ritardo per cena",
     "ar": "رسالة: لقد تأخرت عن العشاء"
    },
    "prompt": "Sie sind heute Abend bei Ihrer Freundin Julia zum Essen eingeladen, aber Sie kommen später. Schreiben Sie Julia eine Nachricht.",
@@ -1016,8 +1016,8 @@
     "en": "Say why you are late and when you will come, and ask if you should bring something.",
     "es": "Di por qué llegarás tarde y cuándo vendrás, y pregunta si debes traer algo.",
     "ku": "Bibêje çima dereng î û kengî dê werî, û bipirse gelo divê tu tiştekî bînî.",
-    "fr": "Expliquez la raison de votre retard et l'heure à laquelle vous comptez arriver, et demandez si vous devez apporter quelque chose.",
-    "it": "Spiega il motivo del ritardo e l'orario previsto di arrivo, e chiedi se devi portare qualcosa.",
+    "fr": "Explique pourquoi tu es en retard et quand tu arriveras, et demande si tu dois apporter quelque chose.",
+    "it": "Di’ perché sei in ritardo, quando arriverai e chiedi se devi portare qualcosa.",
     "ar": "أخبرنا عن سبب تأخرك ومتى ستأتي، واسأل عما إذا كان عليك إحضار شيء ما."
    },
    "points": [
@@ -1027,8 +1027,8 @@
       "en": "Why late",
       "es": "Por qué llegas tarde",
       "ku": "Çima dereng",
-      "fr": "Pourquoi tard ?",
-      "it": "Perché tardi?",
+      "fr": "Pourquoi tu es en retard",
+      "it": "Perché sei in ritardo",
       "ar": "لماذا التأخير؟"
      },
      "say": "Ich komme später, weil ich länger arbeiten muss.",
@@ -1063,7 +1063,7 @@
       "en": "Shall I bring something",
       "es": "¿Llevo algo?",
       "ku": "Ma divê tiştekî bînim?",
-      "fr": "Dois-je apporter quelque chose ?",
+      "fr": "Est-ce que j'apporte quelque chose ?",
       "it": "Devo portare qualcosa?",
       "ar": "هل أحضر شيئاً؟"
      },
@@ -1088,8 +1088,8 @@
     "en": "E-mail: telling the neighbours about a party",
     "es": "Correo: avisar a los vecinos de una fiesta",
     "ku": "E-name: agahdarkirina cîranan derbarê şahiyê de",
-    "fr": "Courriel : annoncer une fête aux voisins",
-    "it": "E-mail: informare i vicini di una festa",
+    "fr": "E-mail : prévenir les voisins d'une fête",
+    "it": "E-mail: avvisare i vicini di una festa",
     "ar": "البريد الإلكتروني: إخبار الجيران عن حفلة"
    },
    "prompt": "Sie machen am Samstag eine Party in Ihrer Wohnung. Schreiben Sie Ihrer Nachbarin, Frau Klein, eine E-Mail.",
@@ -1098,8 +1098,8 @@
     "en": "Tell her about the party, apologise for the noise and invite her too.",
     "es": "Cuéntale sobre la fiesta, discúlpate por el ruido e invítala también.",
     "ku": "Derbarê şahiyê de ji wê re bêje, ji bo dengê bibore û wê jî vexwîne.",
-    "fr": "Parle-lui de la fête, excuse-toi pour le bruit et invite-la aussi.",
-    "it": "Parlale della festa, scusati per il rumore e invita anche lei.",
+    "fr": "Informe-la de la fête, excuse-toi pour le bruit et invite-la aussi.",
+    "it": "Parlale della festa, scusati per il rumore e invitala.",
     "ar": "أخبرها عن الحفلة، واعتذر عن الضوضاء، وادعوها أيضاً."
    },
    "points": [
@@ -1172,7 +1172,7 @@
     "en": "E-mail: the wrong product arrived",
     "es": "Correo: llegó el producto equivocado",
     "ku": "E-name: berhemê şaş hat",
-    "fr": "Courriel : le mauvais produit est arrivé",
+    "fr": "E-mail : le mauvais produit est arrivé",
     "it": "E-mail: è arrivato il prodotto sbagliato",
     "ar": "البريد الإلكتروني: وصل المنتج الخطأ"
    },
@@ -1182,8 +1182,8 @@
     "en": "Say what you ordered and what arrived, and what you want (an exchange or your money back).",
     "es": "Di qué pediste, qué llegó y qué quieres (un cambio o que te devuelvan el dinero).",
     "ku": "Bibêje te çi siparîş kiriye û çi hatiye, û tu çi dixwazî (guhertin an vegerandina pereyê xwe).",
-    "fr": "Indiquez ce que vous avez commandé, ce qui est arrivé et ce que vous souhaitez (un échange ou un remboursement).",
-    "it": "Descrivi cosa hai ordinato e cosa ti è arrivato, e cosa desideri (un cambio o il rimborso).",
+    "fr": "Indique ce que tu as commandé, ce que tu as reçu et ce que tu souhaites : un échange ou un remboursement.",
+    "it": "Di’ che cosa hai ordinato e che cosa è arrivato, e che cosa desideri (un cambio o il rimborso).",
     "ar": "أخبرنا بما طلبته وما وصلك، وماذا تريد (استبدال أو استرداد أموالك)."
    },
    "points": [
@@ -1193,7 +1193,7 @@
       "en": "Your order",
       "es": "Tu pedido",
       "ku": "Siparîşa te",
-      "fr": "Votre commande",
+      "fr": "Ta commande",
       "it": "Il tuo ordine",
       "ar": "طلبك"
      },
@@ -1227,8 +1227,8 @@
       "en": "What you want",
       "es": "Qué quieres",
       "ku": "Tu çi dixwazî",
-      "fr": "Ce que vous voulez",
-      "it": "Ciò che vuoi",
+      "fr": "Ce que tu souhaites",
+      "it": "Che cosa desideri",
       "ar": "ما تريد"
      },
      "say": "Ich möchte die Jacke umtauschen.",
@@ -1263,8 +1263,8 @@
     "en": "Say what happened and when you will arrive, and ask him for a favour.",
     "es": "Di qué pasó y cuándo llegarás, y pídele un favor.",
     "ku": "Bibêje çi bûye û tu kengî dê bigihîjî, û ji wî alîkariyekê bixwaze.",
-    "fr": "Racontez-lui ce qui s'est passé, dites-lui quand vous arriverez et demandez-lui une faveur.",
-    "it": "Racconta cos'è successo e quando arriverai, e chiedigli un favore.",
+    "fr": "Explique ce qui s'est passé et quand tu arriveras, puis demande-lui un service.",
+    "it": "Di’ che cosa è successo, quando arriverai e chiedigli un favore.",
     "ar": "أخبره بما حدث ومتى ستصل، واطلب منه معروفاً."
    },
    "points": [
@@ -1275,7 +1275,7 @@
       "es": "Qué pasó",
       "ku": "Çi bû",
       "fr": "Ce qui s'est passé",
-      "it": "Quello che è successo",
+      "it": "Che cosa è successo",
       "ar": "ماذا حدث"
      },
      "say": "Mein Zug hat Verspätung.",
@@ -1293,7 +1293,7 @@
       "en": "When you arrive",
       "es": "Cuándo llegas",
       "ku": "Dema gihîştina te",
-      "fr": "À votre arrivée",
+      "fr": "Quand tu arrives",
       "it": "Quando arrivi",
       "ar": "عند وصولك"
      },
@@ -1310,7 +1310,7 @@
       "en": "A favour",
       "es": "Un favor",
       "ku": "Alîkarîyek",
-      "fr": "Une faveur",
+      "fr": "Un service",
       "it": "Un favore",
       "ar": "معروف"
      },
@@ -1335,8 +1335,8 @@
     "en": "E-mail: I'm ill and can't come to work",
     "es": "Correo: estoy enfermo y no puedo ir al trabajo",
     "ku": "E-name: nexweş im û nikarim biçim kar",
-    "fr": "Courriel : Je suis malade et ne peux pas venir travailler",
-    "it": "E-mail: Sono malato/a e non posso venire al lavoro",
+    "fr": "E-mail : je suis malade et ne peux pas venir travailler",
+    "it": "E-mail: sono malato e non posso andare al lavoro",
     "ar": "البريد الإلكتروني: أنا مريض ولا أستطيع الحضور إلى العمل"
    },
    "prompt": "Sie sind krank und können nicht zur Arbeit gehen. Schreiben Sie Ihrem Chef, Herrn Hoffmann, eine E-Mail.",
@@ -1345,8 +1345,8 @@
     "en": "Say what is wrong, what the doctor said and when you will be back.",
     "es": "Di qué te pasa, qué dijo el médico y cuándo volverás.",
     "ku": "Bibêje pirsgirêka te çi ye, bijîşk çi got û tu kengî dê vegerî.",
-    "fr": "Dites-nous ce qui ne va pas, ce qu'a dit le médecin et quand vous comptez revenir.",
-    "it": "Spiega qual è il problema, cosa ha detto il medico e quando potrai tornare.",
+    "fr": "Explique ce que tu as, ce que le médecin a dit et quand tu reviendras.",
+    "it": "Di’ che cosa hai, che cosa ha detto il medico e quando tornerai.",
     "ar": "أخبرنا بما هو الخطأ، وماذا قال الطبيب، ومتى ستعود."
    },
    "points": [
@@ -1356,8 +1356,8 @@
       "en": "What's wrong",
       "es": "Qué te pasa",
       "ku": "Pirsgirêk çi ye",
-      "fr": "Qu'est-ce qui ne va pas",
-      "it": "Cosa c'è che non va?",
+      "fr": "Ce que tu as",
+      "it": "Che cosa hai",
       "ar": "ما هو الخطأ"
      },
      "say": "Ich habe Fieber und Halsschmerzen.",
@@ -1376,7 +1376,7 @@
       "es": "El médico",
       "ku": "Bijîşk",
       "fr": "Le médecin",
-      "it": "Il dottore",
+      "it": "Il medico",
       "ar": "الطبيب"
      },
      "say": "Der Arzt hat gesagt, dass ich zu Hause bleiben muss.",
@@ -1393,7 +1393,7 @@
       "en": "When you are back",
       "es": "Cuándo vuelves",
       "ku": "Dema vegera te",
-      "fr": "Quand vous serez de retour",
+      "fr": "Quand tu reviens",
       "it": "Quando torni",
       "ar": "عندما تعود"
      },
@@ -1422,8 +1422,8 @@
     "en": "E-mail: asking about an internship",
     "es": "Correo: consulta sobre unas prácticas",
     "ku": "E-name: derbarê stajê de bipirse",
-    "fr": "Courriel : demande de renseignements concernant un stage",
-    "it": "E-mail: richiesta di informazioni su uno stage",
+    "fr": "E-mail : demande au sujet d'un stage",
+    "it": "E-mail: chiedere informazioni su un tirocinio",
     "ar": "البريد الإلكتروني: للاستفسار عن فرصة تدريب"
    },
    "prompt": "Sie haben eine Anzeige für ein Praktikum in einem Hotel gelesen. Schreiben Sie Frau Schulz von der Firma eine E-Mail.",
@@ -1432,8 +1432,8 @@
     "en": "Introduce yourself briefly, ask about the working hours and say why you are interested.",
     "es": "Preséntate brevemente, pregunta por el horario y explica por qué te interesa.",
     "ku": "Bi kurtî xwe nas bike, derbarê demjimêrên karê bipirse û bibêje çima ev yek bi te re eleqedar e.",
-    "fr": "Présentez-vous brièvement, renseignez-vous sur les horaires de travail et expliquez votre intérêt.",
-    "it": "Presentati brevemente, informati sugli orari di lavoro e spiega perché sei interessato.",
+    "fr": "Présente-toi brièvement, demande quels sont les horaires de travail et explique pourquoi ce stage t'intéresse.",
+    "it": "Presentati brevemente, chiedi gli orari di lavoro e spiega perché ti interessa.",
     "ar": "قدّم نفسك بإيجاز، واسأل عن ساعات العمل، واذكر سبب اهتمامك."
    },
    "points": [
@@ -1443,8 +1443,8 @@
       "en": "About you",
       "es": "Sobre ti",
       "ku": "Derbarê te de",
-      "fr": "Au propos de vous",
-      "it": "A proposito di te",
+      "fr": "À propos de toi",
+      "it": "Su di te",
       "ar": "نبذة عنك"
      },
      "say": "Ich bin 22 Jahre alt und lerne Deutsch.",
@@ -1461,8 +1461,8 @@
       "en": "Working hours",
       "es": "Horario laboral",
       "ku": "Demjimêrên karê",
-      "fr": "Heures de travail",
-      "it": "Orario di lavoro",
+      "fr": "Horaires de travail",
+      "it": "Orari di lavoro",
       "ar": "ساعات العمل"
      },
      "say": "Wie sind die Arbeitszeiten?",
@@ -1503,8 +1503,8 @@
     "en": "E-mail: I was at a concert at the weekend",
     "es": "Correo: estuve en un concierto el fin de semana",
     "ku": "E-name: dawiya hefteyê ez li konserê bûm",
-    "fr": "Courriel : J’étais à un concert ce week-end",
-    "it": "E-mail: Sono stato a un concerto nel fine settimana",
+    "fr": "E-mail : j'étais à un concert ce week-end",
+    "it": "E-mail: sono stato a un concerto nel fine settimana",
     "ar": "البريد الإلكتروني: كنت في حفل موسيقي في نهاية الأسبوع"
    },
    "prompt": "Sie waren am Wochenende auf einem Konzert. Schreiben Sie Ihrem Freund Max eine E-Mail.",
@@ -1513,8 +1513,8 @@
     "en": "Say where you were and how it was, and invite him to the next concert.",
     "es": "Di dónde estuviste y cómo fue, e invítalo al próximo concierto.",
     "ku": "Bibêje tu li ku bûyî û çawa bû, û wî vexwîne konsera din.",
-    "fr": "Dis-lui où tu étais et comment c'était, et invite-le au prochain concert.",
-    "it": "Digli dove eri e com'è andata, e invitalo al prossimo concerto.",
+    "fr": "Dis où tu étais et comment c'était, puis invite-le au prochain concert.",
+    "it": "Di’ dov’eri e com’è andata e invitalo al prossimo concerto.",
     "ar": "أخبره أين كنت وكيف كان الوضع، وادعوه إلى الحفل الموسيقي القادم."
    },
    "points": [
@@ -1543,7 +1543,7 @@
       "es": "Cómo fue",
       "ku": "Çawa bû",
       "fr": "Comment c'était",
-      "it": "Com'era",
+      "it": "Com’è andata",
       "ar": "كيف كان الأمر"
      },
      "say": "Die Musik war super und es hat viel Spaß gemacht.",
@@ -1597,8 +1597,8 @@
     "en": "Say what happened, give your new number and ask her to send the photos again.",
     "es": "Explica qué pasó, da tu nuevo número y pídele que vuelva a enviar las fotos.",
     "ku": "Bibêje çi bûye, jimara xwe ya nû bide û ji wê bixwaze wêneyan dîsa bişîne.",
-    "fr": "Expliquez-lui ce qui s'est passé, donnez-lui votre nouveau numéro et demandez-lui de renvoyer les photos.",
-    "it": "Spiega cos'è successo, dai il tuo nuovo numero e chiedile di inviarti di nuovo le foto.",
+    "fr": "Explique ce qui s'est passé, donne ton nouveau numéro et demande-lui de renvoyer les photos.",
+    "it": "Di’ che cosa è successo, comunica il tuo nuovo numero e chiedile di inviare di nuovo le foto.",
     "ar": "أخبرها بما حدث، وأعطها رقمك الجديد، واطلب منها إرسال الصور مرة أخرى."
    },
    "points": [
@@ -1609,7 +1609,7 @@
       "es": "Qué pasó",
       "ku": "Çi bû",
       "fr": "Ce qui s'est passé",
-      "it": "Quello che è successo",
+      "it": "Che cosa è successo",
       "ar": "ماذا حدث"
      },
      "say": "Mein Handy ist kaputt.",
@@ -1666,8 +1666,8 @@
     "en": "E-mail: asking about a language course",
     "es": "Correo: consulta sobre un curso de idiomas",
     "ku": "E-name: derbarê kursa zimanan de bipirse",
-    "fr": "Courriel : demande de renseignements sur un cours de langue",
-    "it": "E-mail: richiesta di informazioni su un corso di lingua",
+    "fr": "E-mail : demande de renseignements sur un cours de langue",
+    "it": "E-mail: chiedere informazioni su un corso di lingua",
     "ar": "البريد الإلكتروني: للاستفسار عن دورة لغة"
    },
    "prompt": "Sie möchten einen B1-Kurs an der Sprachschule „Lingua“ machen. Schreiben Sie der Sprachschule eine E-Mail.",
@@ -1676,8 +1676,8 @@
     "en": "Say which course you want and ask about the times and the price.",
     "es": "Di qué curso quieres y pregunta por los horarios y el precio.",
     "ku": "Bibêje tu kîjan kursê dixwazî û derbarê deman û bihayê bipirse.",
-    "fr": "Indiquez le cours que vous souhaitez suivre et renseignez-vous sur les horaires et le prix.",
-    "it": "Indica il corso che desideri frequentare e chiedi informazioni su orari e prezzi.",
+    "fr": "Indique le cours que tu souhaites suivre et demande les horaires et le prix.",
+    "it": "Di’ quale corso ti interessa e chiedi gli orari e il prezzo.",
     "ar": "حدد الدورة التي تريدها واسأل عن المواعيد والسعر."
    },
    "points": [
@@ -1703,8 +1703,8 @@
       "en": "Times",
       "es": "Horarios",
       "ku": "Deman",
-      "fr": "Fois",
-      "it": "Volte",
+      "fr": "Horaires",
+      "it": "Orari",
       "ar": "تايمز"
      },
      "say": "Wann findet der Kurs statt?",
@@ -1749,8 +1749,8 @@
     "en": "Message: let's clean the park together",
     "es": "Mensaje: limpiemos juntos el parque",
     "ku": "Peyam: em bi hev re parkê paqij bikin",
-    "fr": "Message : Nettoyons le parc ensemble",
-    "it": "Messaggio: puliamo il parco insieme",
+    "fr": "Message : nettoyons le parc ensemble",
+    "it": "Messaggio: puliamo insieme il parco",
     "ar": "رسالة: لننظف الحديقة معًا"
    },
    "prompt": "In Ihrem Viertel gibt es am Samstag einen Aufräumtag im Park. Schreiben Sie Ihrem Freund Paul eine Nachricht.",
@@ -1759,8 +1759,8 @@
     "en": "Say what it is and when it starts, and what he should bring.",
     "es": "Di de qué se trata, cuándo empieza y qué debería traer.",
     "ku": "Bibêje çi ye û kengî dest pê dike, û divê ew çi bîne.",
-    "fr": "Dites-lui de quoi il s'agit, quand cela commence et ce qu'il doit apporter.",
-    "it": "Spiega di cosa si tratta, quando inizia e cosa dovrebbe portare.",
+    "fr": "Explique de quoi il s'agit, quand cela commence et ce qu'il doit apporter.",
+    "it": "Di’ di che cosa si tratta, quando inizia e che cosa dovrebbe portare.",
     "ar": "قل ما هو ومتى يبدأ، وماذا يجب أن يحضر."
    },
    "points": [
@@ -1805,8 +1805,8 @@
       "en": "What to bring",
       "es": "Qué traer",
       "ku": "Çi bîne",
-      "fr": "Que faut-il apporter ?",
-      "it": "Cosa portare",
+      "fr": "À apporter",
+      "it": "Che cosa portare",
       "ar": "ما الذي يجب إحضاره؟"
      },
      "say": "Bring bitte Handschuhe mit.",
@@ -1831,8 +1831,8 @@
     "en": "E-mail: I have moved",
     "es": "Correo: me he mudado",
     "ku": "E-name: ez bar kirim",
-    "fr": "Courriel : J'ai déménagé",
-    "it": "E-mail: Mi sono trasferito",
+    "fr": "E-mail : j'ai déménagé",
+    "it": "E-mail: mi sono trasferito",
     "ar": "البريد الإلكتروني: لقد انتقلت"
    },
    "prompt": "Sie sind vor kurzem umgezogen. Schreiben Sie Ihrer Freundin Hanna eine E-Mail.",
@@ -1841,8 +1841,8 @@
     "en": "Describe your new home, say how the move went and invite her to visit; suggest a date.",
     "es": "Describe tu nueva casa, cuenta cómo fue la mudanza e invítala a visitarte; sugiere una fecha.",
     "ku": "Mala xwe ya nû rave bike, bibêje bar kirin çawa derbas bû û wê vexwîne; rojekê pêşniyar bike.",
-    "fr": "Décrivez votre nouvelle maison, racontez comment s'est passé le déménagement et invitez-la à venir la visiter ; proposez une date.",
-    "it": "Descrivi la tua nuova casa, racconta com'è andato il trasloco e invitala a venire a trovarti; proponi una data.",
+    "fr": "Décris ton nouveau logement, raconte comment s'est passé le déménagement, invite-la à te rendre visite et propose une date.",
+    "it": "Descrivi la nuova casa, racconta com’è andato il trasloco e invitala a farti visita; proponi una data.",
     "ar": "صف منزلك الجديد، واشرح كيف سارت عملية الانتقال، وادعوها لزيارتك؛ واقترح موعداً."
    },
    "points": [
@@ -1852,7 +1852,7 @@
       "en": "The new home",
       "es": "La nueva casa",
       "ku": "Mala nû",
-      "fr": "La nouvelle maison",
+      "fr": "Le nouveau logement",
       "it": "La nuova casa",
       "ar": "المنزل الجديد"
      },
@@ -1916,8 +1916,8 @@
     "en": "E-mail: greetings from my holiday",
     "es": "Correo: saludos desde mis vacaciones",
     "ku": "E-name: silavên ji betlaneya min",
-    "fr": "Courriel : salutations de mes vacances",
-    "it": "E-mail: saluti dalle mie vacanze",
+    "fr": "E-mail : salutations de vacances",
+    "it": "E-mail: saluti dalle vacanze",
     "ar": "البريد الإلكتروني: تحياتي من عطلتي"
    },
    "prompt": "Sie haben eine Reise gemacht, aber nicht alles hat geklappt. Schreiben Sie Ihrem Freund Lukas eine E-Mail.",
@@ -1926,8 +1926,8 @@
     "en": "Say where you went, what went well and what went wrong, and suggest the next trip together.",
     "es": "Di adónde fuiste, qué salió bien y qué salió mal, y propón hacer juntos el próximo viaje.",
     "ku": "Bibêje tu çûyî ku derê, çi baş bû û çi xerab bû, û rêwîtiya din bi hev re pêşniyar bike.",
-    "fr": "Racontez où vous êtes allés, ce qui s'est bien passé et ce qui s'est mal passé, et proposez un prochain voyage ensemble.",
-    "it": "Racconta dove siete stati, cosa è andato bene e cosa è andato storto, e proponi di organizzare un altro viaggio insieme.",
+    "fr": "Dis où tu es allé, ce qui s'est bien ou mal passé et propose un prochain voyage ensemble.",
+    "it": "Di’ dove sei andato, che cosa è andato bene o male e proponi il prossimo viaggio insieme.",
     "ar": "أخبرنا أين ذهبتم، وما الذي سار على ما يرام وما الذي لم يسر على ما يرام، واقترح الرحلة القادمة معاً."
    },
    "points": [
@@ -1957,7 +1957,7 @@
       "es": "Lo bueno y lo malo",
       "ku": "Baş û xirab",
       "fr": "Le bon et le mauvais",
-      "it": "Buono e cattivo",
+      "it": "Aspetti positivi e negativi",
       "ar": "الجيد والسيئ"
      },
      "say": "Obwohl der Zug Verspätung hatte, war die Stadt wunderschön.",
@@ -1976,7 +1976,7 @@
       "es": "Propuesta",
       "ku": "Pêşniyar",
       "fr": "Suggestion",
-      "it": "Suggerimento",
+      "it": "Proposta",
       "ar": "اقتراح"
      },
      "say": "Nächstes Mal könnten wir zusammen fahren.",
@@ -2001,7 +2001,7 @@
     "en": "Forum: working from home",
     "es": "Foro: trabajar desde casa",
     "ku": "Forum: kar ji malê",
-    "fr": "Forum : télétravail",
+    "fr": "Forum : travailler à domicile",
     "it": "Forum: lavorare da casa",
     "ar": "منتدى: العمل من المنزل"
    },
@@ -2011,8 +2011,8 @@
     "en": "Give your opinion, give reasons and add an example from your own experience.",
     "es": "Expresa tu opinión, da razones y añade un ejemplo de tu propia experiencia.",
     "ku": "Raya xwe bibêje, sedeman bide û mînakek ji tecrûbeya xwe zêde bike.",
-    "fr": "Donnez votre avis, justifiez-le et ajoutez un exemple tiré de votre propre expérience.",
-    "it": "Esprimi la tua opinione, motivala e aggiungi un esempio tratto dalla tua esperienza personale.",
+    "fr": "Donne ton avis, explique tes raisons et ajoute un exemple tiré de ton expérience.",
+    "it": "Esprimi la tua opinione, spiega i motivi e aggiungi un esempio della tua esperienza.",
     "ar": "أعطِ رأيك، واذكر الأسباب، وأضف مثالاً من تجربتك الشخصية."
    },
    "points": [
@@ -2061,7 +2061,7 @@
       "en": "Your experience",
       "es": "Tu experiencia",
       "ku": "Tecrûbeya te",
-      "fr": "Votre expérience",
+      "fr": "Ton expérience",
       "it": "La tua esperienza",
       "ar": "تجربتك"
      },
@@ -2087,7 +2087,7 @@
     "en": "Forum: children and smartphones",
     "es": "Foro: niños y teléfonos inteligentes",
     "ku": "Forum: zarok û telefonên jîr",
-    "fr": "Forum : enfants et smartphones",
+    "fr": "Forum : les enfants et les smartphones",
     "it": "Forum: bambini e smartphone",
     "ar": "منتدى: الأطفال والهواتف الذكية"
    },
@@ -2097,8 +2097,8 @@
     "en": "Give your opinion, name advantages and disadvantages, make a suggestion.",
     "es": "Expresa tu opinión, indica ventajas y desventajas, y haz una propuesta.",
     "ku": "Raya xwe bibêje, avantaj û dezavantajan binav bike û pêşniyarekê bike.",
-    "fr": "Donnez votre avis, citez les avantages et les inconvénients, faites une suggestion.",
-    "it": "Esprimi la tua opinione, elenca vantaggi e svantaggi e fai un suggerimento.",
+    "fr": "Donne ton avis, cite les avantages et les inconvénients et fais une suggestion.",
+    "it": "Esprimi la tua opinione, indica vantaggi e svantaggi e fai una proposta.",
     "ar": "أبدي رأيك، واذكر المزايا والعيوب، وقدم اقتراحاً."
    },
    "points": [
@@ -2146,7 +2146,7 @@
       "es": "Propuesta",
       "ku": "Pêşniyar",
       "fr": "Suggestion",
-      "it": "Suggerimento",
+      "it": "Proposta",
       "ar": "اقتراح"
      },
      "say": "Eltern sollten klare Regeln machen.",
@@ -2171,8 +2171,8 @@
     "en": "E-mail: I can't come to the meeting",
     "es": "Correo: no puedo asistir a la reunión",
     "ku": "E-name: nikarim werim civînê",
-    "fr": "Courriel : Je ne peux pas assister à la réunion",
-    "it": "E-mail: Non posso partecipare alla riunione",
+    "fr": "E-mail : je ne peux pas venir à la réunion",
+    "it": "E-mail: non posso venire alla riunione",
     "ar": "البريد الإلكتروني: لا أستطيع الحضور إلى الاجتماع"
    },
    "prompt": "Sie können nicht zu einem wichtigen Termin mit Ihrer Kursleiterin, Frau Dr. Neumann, kommen. Schreiben Sie ihr eine E-Mail.",
@@ -2181,8 +2181,8 @@
     "en": "Apologise politely, give the reason and suggest a new date.",
     "es": "Discúlpate amablemente, da el motivo y propón otra fecha.",
     "ku": "Bi rêz bibore, sedemê bêje û rojeke nû pêşniyar bike.",
-    "fr": "Présentez vos excuses poliment, donnez la raison et proposez une nouvelle date.",
-    "it": "Chiedi scusa gentilmente, spiega il motivo e proponi una nuova data.",
+    "fr": "Excuse-toi poliment, donne la raison et propose une nouvelle date.",
+    "it": "Scusati cortesemente, spiega il motivo e proponi una nuova data.",
     "ar": "اعتذر بأدب، واذكر السبب، واقترح موعداً جديداً."
    },
    "points": [
@@ -2254,8 +2254,8 @@
     "en": "E-mail: I would like to volunteer",
     "es": "Correo: me gustaría hacer voluntariado",
     "ku": "E-name: dixwazim bibim dilxwaz",
-    "fr": "Courriel : Je souhaite faire du bénévolat",
-    "it": "E-mail: Vorrei fare volontariato",
+    "fr": "E-mail : je voudrais faire du bénévolat",
+    "it": "E-mail: vorrei fare volontariato",
     "ar": "البريد الإلكتروني: أود التطوع"
    },
    "prompt": "Ein Verein sucht Freiwillige für ein Stadtfest. Schreiben Sie Herrn Becker vom Verein eine E-Mail.",
@@ -2264,8 +2264,8 @@
     "en": "Introduce yourself, say why you want to take part and ask a question.",
     "es": "Preséntate, explica por qué quieres participar y haz una pregunta.",
     "ku": "Xwe nas bike, bibêje çima dixwazî beşdar bibî û pirsêkê bipirse.",
-    "fr": "Présentez-vous, expliquez pourquoi vous souhaitez participer et posez une question.",
-    "it": "Presentati, spiega perché vuoi partecipare e poni una domanda.",
+    "fr": "Présente-toi, explique pourquoi tu veux participer et pose une question.",
+    "it": "Presentati, spiega perché vuoi partecipare e fai una domanda.",
     "ar": "عرّف بنفسك، واشرح سبب رغبتك في المشاركة، ثم اطرح سؤالاً."
    },
    "points": [
@@ -2275,8 +2275,8 @@
       "en": "About you",
       "es": "Sobre ti",
       "ku": "Derbarê te de",
-      "fr": "Au propos de vous",
-      "it": "A proposito di te",
+      "fr": "À propos de toi",
+      "it": "Su di te",
       "ar": "نبذة عنك"
      },
      "say": "Ich heiße … und wohne seit zwei Jahren in der Stadt.",
@@ -2338,8 +2338,8 @@
     "en": "Forum: a car ban in the city centre",
     "es": "Foro: prohibir los coches en el centro de la ciudad",
     "ku": "Forum: qedexekirina erebeyan li navenda bajêr",
-    "fr": "Forum : une interdiction de la circulation automobile en centre-ville",
-    "it": "Forum: divieto di circolazione delle auto in centro città",
+    "fr": "Forum : interdire les voitures en centre-ville",
+    "it": "Forum: vietare le auto nel centro città",
     "ar": "منتدى: حظر السيارات في وسط المدينة"
    },
    "prompt": "In einem Online-Forum wird diskutiert: „Sollten Autos aus den Innenstädten verbannt werden?“ Schreiben Sie einen Beitrag.",
@@ -2348,8 +2348,8 @@
     "en": "Argue your view, weigh pros and cons, give an example from other cities and write a conclusion.",
     "es": "Defiende tu opinión, sopesa las ventajas y desventajas, da un ejemplo de otras ciudades y escribe una conclusión.",
     "ku": "Raya xwe bi argumanan piştgirî bike, avantaj û dezavantajan nirx bike, ji bajarekî din mînak bide û encamekê binivîse.",
-    "fr": "Argumentez votre point de vue, pesez le pour et le contre, donnez un exemple tiré d'autres villes et rédigez une conclusion.",
-    "it": "Argomenta la tua opinione, valuta i pro e i contro, fornisci un esempio tratto da altre città e scrivi una conclusione.",
+    "fr": "Défends ton avis, pèse le pour et le contre, donne un exemple d'autres villes et rédige une conclusion.",
+    "it": "Sostieni la tua opinione, valuta pro e contro, fai un esempio di altre città e scrivi una conclusione.",
     "ar": "ناقش وجهة نظرك، ووازن بين الإيجابيات والسلبيات، وقدم مثالاً من مدن أخرى، واكتب خاتمة."
    },
    "points": [
@@ -2441,7 +2441,7 @@
     "es": "Foro: la semana laboral de cuatro días",
     "ku": "Forum: hefteya çar rojî",
     "fr": "Forum : la semaine de quatre jours",
-    "it": "Forum: la settimana di quattro giorni",
+    "it": "Forum: settimana lavorativa di quattro giorni",
     "ar": "المنتدى: أسبوع العمل لأربعة أيام"
    },
    "prompt": "In einem Forum wird gefragt: „Ist die Vier-Tage-Woche ein Modell für die Zukunft?“ Schreiben Sie einen Beitrag.",
@@ -2450,8 +2450,8 @@
     "en": "Argue your view, discuss it for employees and companies, add your experience and write a conclusion.",
     "es": "Defiende tu opinión, habla de las consecuencias para empleados y empresas, añade tu experiencia y escribe una conclusión.",
     "ku": "Raya xwe bi argumanan piştgirî bike, bandora wê li karmendan û pargîdaniyan nîqaş bike, tecrûbeya xwe zêde bike û encamekê binivîse.",
-    "fr": "Défendez votre point de vue, discutez-en avec les employés et les entreprises, ajoutez votre expérience et rédigez une conclusion.",
-    "it": "Esponete il vostro punto di vista, discutetene con dipendenti e aziende, condividete la vostra esperienza e scrivete una conclusione.",
+    "fr": "Défends ton avis, discute des effets pour les salariés et les entreprises, ajoute ton expérience et conclus.",
+    "it": "Sostieni la tua opinione, discuti gli effetti su dipendenti e aziende, aggiungi la tua esperienza e scrivi una conclusione.",
     "ar": "دافع عن وجهة نظرك، وناقشها مع الموظفين والشركات، وأضف تجربتك واكتب خاتمة."
    },
    "points": [
@@ -2480,7 +2480,7 @@
       "en": "Employees and companies",
       "es": "Empleados y empresas",
       "ku": "Karmend û pargîdanî",
-      "fr": "Employés et entreprises",
+      "fr": "Salariés et entreprises",
       "it": "Dipendenti e aziende",
       "ar": "الموظفون والشركات"
      },
@@ -2543,8 +2543,8 @@
     "en": "Formal: complaint about a wrong bill",
     "es": "Formal: reclamación por una factura incorrecta",
     "ku": "Fermî: gilî li ser fatûreyeke şaş",
-    "fr": "Formelle : plainte concernant une facture erronée",
-    "it": "Formale: reclamo per una fattura errata",
+    "fr": "Formel : réclamation au sujet d'une facture erronée",
+    "it": "Formalità: reclamo per una fattura errata",
     "ar": "رسمي: شكوى بشأن فاتورة خاطئة"
    },
    "prompt": "Ihr Internetanbieter hat Ihnen im letzten Monat einen zu hohen Betrag berechnet. Schreiben Sie dem Kundenservice.",
@@ -2553,8 +2553,8 @@
     "en": "Explain the problem, say what you expect, set a deadline; be polite but firm.",
     "es": "Explica el problema, di qué esperas y fija un plazo; sé amable pero firme.",
     "ku": "Pirsgirêkê rave bike, bibêje tu çi hêvî dikî, demekê diyar bike; bi rêz lê bi eşkere biaxive.",
-    "fr": "Expliquez le problème, indiquez vos attentes, fixez une date limite ; soyez poli mais ferme.",
-    "it": "Spiega il problema, indica cosa ti aspetti, fissa una scadenza; sii gentile ma fermo.",
+    "fr": "Explique le problème, précise ce que tu attends et fixe un délai. Reste poli mais ferme.",
+    "it": "Spiega il problema, indica che cosa ti aspetti e stabilisci una scadenza; sii cortese ma deciso.",
     "ar": "اشرح المشكلة، وحدد ما تتوقعه، وحدد موعداً نهائياً؛ كن مهذباً ولكن حازماً."
    },
    "points": [
@@ -2582,8 +2582,8 @@
       "en": "What you expect",
       "es": "Qué esperas",
       "ku": "Tu çi hêvî dikî",
-      "fr": "Ce à quoi vous vous attendez",
-      "it": "Cosa ti aspetti",
+      "fr": "Ce que tu attends",
+      "it": "Che cosa ti aspetti",
       "ar": "ما تتوقعه"
      },
      "say": "Ich bitte Sie, mir die Differenz zu erstatten.",
@@ -2600,7 +2600,7 @@
       "en": "Deadline",
       "es": "Plazo",
       "ku": "Demê dawîn",
-      "fr": "Date limite",
+      "fr": "Délai",
       "it": "Scadenza",
       "ar": "موعد التسليم"
      },
@@ -2625,8 +2625,8 @@
     "en": "Formal: asking for further training",
     "es": "Formal: solicitud de formación continua",
     "ku": "Fermî: daxwaza perwerdeya zêde",
-    "fr": "Formelle : demander une formation complémentaire",
-    "it": "Formale: richiesta di ulteriore formazione",
+    "fr": "Formel : demande de formation continue",
+    "it": "Formalità: chiedere un corso di aggiornamento",
     "ar": "رسمي: طلب المزيد من التدريب"
    },
    "prompt": "Sie möchten an einer Weiterbildung teilnehmen. Schreiben Sie Ihrer Vorgesetzten, Frau Lorenz, eine E-Mail.",
@@ -2635,8 +2635,8 @@
     "en": "Describe the course, explain the benefit for the company, say how your work will be covered and ask for a meeting.",
     "es": "Describe el curso, explica su beneficio para la empresa, di cómo se cubrirá tu trabajo y pide una reunión.",
     "ku": "Kursê rave bike, berjewendiya wê ji pargîdaniyê re rave bike, bibêje dê karê te çawa were dîtin û civînekê bixwaze.",
-    "fr": "Décrivez la formation, expliquez les avantages pour l'entreprise, indiquez comment votre travail sera pris en charge et demandez une réunion.",
-    "it": "Descrivi il corso, spiega i vantaggi per l'azienda, indica in che modo il tuo lavoro verrà coperto e chiedi un incontro.",
+    "fr": "Présente la formation, explique son intérêt pour l'entreprise, indique comment ton travail sera couvert et demande un entretien.",
+    "it": "Descrivi il corso, spiega i vantaggi per l’azienda, di’ come verrà coperto il tuo lavoro e chiedi un incontro.",
     "ar": "صف الدورة التدريبية، واشرح الفائدة التي ستعود على الشركة، واذكر كيف سيتم تغطية عملك، واطلب عقد اجتماع."
    },
    "points": [
@@ -2646,7 +2646,7 @@
       "en": "The course",
       "es": "El curso",
       "ku": "Kurs",
-      "fr": "Le cours",
+      "fr": "La formation",
       "it": "Il corso",
       "ar": "الدورة"
      },
@@ -2665,7 +2665,7 @@
       "es": "Beneficio",
       "ku": "Berjewendî",
       "fr": "Avantage",
-      "it": "Beneficio",
+      "it": "Vantaggio",
       "ar": "فائدة"
      },
      "say": "Davon würde auch unser Team profitieren.",
@@ -2682,7 +2682,7 @@
       "en": "Your work",
       "es": "Tu trabajo",
       "ku": "Karê te",
-      "fr": "Votre travail",
+      "fr": "Ton travail",
       "it": "Il tuo lavoro",
       "ar": "عملك"
      },
@@ -2700,7 +2700,7 @@
       "en": "Meeting",
       "es": "Reunión",
       "ku": "Civîn",
-      "fr": "Réunion",
+      "fr": "Entretien",
       "it": "Incontro",
       "ar": "مقابلة"
      },
