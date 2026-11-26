@@ -212,28 +212,21 @@ struct A1GrammarView: View {
 
     var body: some View {
         if let topic = model.content?.grammar.first(where: { $0.id == topicID }) {
-            List {
-                Section(t("workbook.rule")) {
-                    Text(topic.rule.text)
-                }
-                Section(t("workbook.examples")) {
-                    ForEach(topic.examples, id: \.self) { example in
-                        HStack {
-                            VStack(alignment: .leading, spacing: 2) {
-                                Text(example.de)
-                                Text(example.mean.text).font(.caption).foregroundStyle(.secondary)
-                            }
-                            Spacer()
-                            A1SpeakButton(text: example.de)
-                        }
-                    }
-                }
-                Section {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 16) {
+                    GrammarRuleCard(topic: topic)
                     NavigationLink(value: A1Route.grammarQuiz(topicID)) {
-                        Label(t("workbook.topicQuiz", model.questions.filter { $0.topic == topicID }.count), systemImage: "play.circle.fill")
+                        Label(t("workbook.topicQuiz", model.topicProgress(topicID).total), systemImage: "play.fill")
+                            .font(DS.text(16, .semibold))
+                            .foregroundColor(DS.onGold)
+                            .frame(maxWidth: .infinity, minHeight: 54)
+                            .background(DS.gold, in: Capsule())
                     }
+                    .buttonStyle(.pressable)
                 }
+                .padding(DS.gutter)
             }
+            .background(DS.ground.ignoresSafeArea())
             .navigationTitle(topic.de)
             .navigationBarTitleDisplayMode(.inline)
         }

@@ -382,27 +382,7 @@ struct UnitGrammarIntroView: View {
             VStack(alignment: .leading, spacing: 16) {
                 Text(t("unit.grammarIntro")).font(.subheadline).foregroundColor(DS.muted)
                 ForEach(topics, id: \.id) { topic in
-                    VStack(alignment: .leading, spacing: 10) {
-                        Text(topic.name.text).font(.system(size: 19, weight: .bold)).foregroundColor(DS.ink)
-                        Text(topic.de).font(.caption.weight(.semibold)).foregroundColor(DS.muted)
-                        Text(topic.rule.text).font(.system(size: 16)).foregroundColor(DS.ink)
-                            .fixedSize(horizontal: false, vertical: true)
-                            .padding(12)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .background(DS.gold.opacity(0.14), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
-                        ForEach(topic.examples, id: \.self) { example in
-                            HStack(alignment: .top, spacing: 8) {
-                                VStack(alignment: .leading, spacing: 2) {
-                                    Text(example.de).font(.system(size: 16, weight: .semibold)).foregroundColor(DS.ink)
-                                    Text(example.mean.text).font(.footnote).foregroundColor(DS.muted)
-                                }
-                                Spacer(minLength: 0)
-                                A1SpeakButton(text: example.de)
-                            }
-                        }
-                    }
-                    .padding(16)
-                    .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+                    GrammarRuleCard(topic: topic)
                 }
                 NavigationLink {
                     A1QuizView(title: t("unit.step.grammar"), onFinish: { _, _ in UnitStore.mark(.grammar, unit.id) }) {
@@ -422,5 +402,83 @@ struct UnitGrammarIntroView: View {
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("unit.step.grammar"))
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+/// A grammar topic explained: title, then the rule line by line — a line of "a · b · c" (a small table such as
+/// "ich bin · du bist …") becomes a row of chips, with any lead text before its colon kept as text — and the
+/// examples to listen to. Used on the path's grammar step and in Practice → Grammar.
+struct GrammarRuleCard: View {
+    let topic: A1GrammarTopic
+
+    private var lines: [String] {
+        topic.rule.text.components(separatedBy: "\n").map { $0.trimmingCharacters(in: .whitespaces) }.filter { !$0.isEmpty }
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack(spacing: 10) {
+                Image(systemName: "books.vertical.fill")
+                    .font(.system(size: 15, weight: .bold))
+                    .foregroundColor(DS.onGold)
+                    .frame(width: 36, height: 36)
+                    .background(DS.gold, in: RoundedRectangle(cornerRadius: 11, style: .continuous))
+                VStack(alignment: .leading, spacing: 1) {
+                    Text(topic.name.text).font(.system(size: 18, weight: .bold)).foregroundColor(DS.ink)
+                    Text(topic.de).font(.caption.weight(.semibold)).foregroundColor(DS.muted)
+                }
+            }
+            ForEach(Array(lines.enumerated()), id: \.offset) { _, line in
+                ruleLine(line)
+            }
+            if !topic.examples.isEmpty {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(t("workbook.examples").uppercased()).font(.caption2.weight(.bold)).foregroundColor(DS.muted)
+                    ForEach(topic.examples, id: \.self) { example in
+                        HStack(alignment: .top, spacing: 8) {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(example.de).font(.system(size: 16, weight: .semibold)).foregroundColor(DS.ink)
+                                Text(example.mean.text).font(.footnote).foregroundColor(DS.muted)
+                            }
+                            Spacer(minLength: 0)
+                            A1SpeakButton(text: example.de)
+                        }
+                    }
+                }
+                .padding(12)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(DS.ground, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+            }
+        }
+        .padding(16)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+    }
+
+    @ViewBuilder
+    private func ruleLine(_ line: String) -> some View {
+        if line.contains(" · ") {
+            let colon = line.range(of: ": ")
+            let firstDot = line.range(of: " · ")
+            let hasLead = colon != nil && firstDot != nil && colon!.lowerBound < firstDot!.lowerBound
+            let lead = hasLead ? String(line[..<colon!.lowerBound]) : nil
+            let table = hasLead ? String(line[colon!.upperBound...]) : line
+            VStack(alignment: .leading, spacing: 6) {
+                if let lead {
+                    Text(lead + ":").font(.system(size: 15)).foregroundColor(DS.ink).fixedSize(horizontal: false, vertical: true)
+                }
+                FlowLayout(spacing: 6, lineSpacing: 6) {
+                    ForEach(Array(table.components(separatedBy: " · ").enumerated()), id: \.offset) { _, part in
+                        Text(part)
+                            .font(.system(size: 14, weight: .semibold, design: .rounded))
+                            .foregroundColor(DS.ink)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 6)
+                            .background(DS.gold.opacity(0.18), in: Capsule())
+                    }
+                }
+            }
+        } else {
+            Text(line).font(.system(size: 15)).foregroundColor(DS.ink).fixedSize(horizontal: false, vertical: true)
+        }
     }
 }
