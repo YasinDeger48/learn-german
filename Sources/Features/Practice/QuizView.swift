@@ -586,6 +586,7 @@ struct A1QuizView: View {
             if let explanation = q.explanation {
                 Text(explanation).font(.callout).foregroundStyle(.secondary)
             }
+            if !wasCorrect { ruleReminder(q) }
             HStack {
                 if q.dialog != nil || q.speakAfter != nil || q.speakFirst != nil {
                     Button {
@@ -618,6 +619,28 @@ struct A1QuizView: View {
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(wasCorrect ? DS.successSoft : DS.errorSoft, in: RoundedRectangle(cornerRadius: DS.radius, style: .continuous))
+    }
+
+    /// After a wrong answer to a grammar question: the topic's short rule and an example, so the mistake is explained
+    /// right where it happened (in practice, the path and the exam).
+    @ViewBuilder
+    private func ruleReminder(_ q: A1Question) -> some View {
+        if let id = q.topic, let topic = model.content?.grammar.first(where: { $0.id == id }) {
+            VStack(alignment: .leading, spacing: 6) {
+                Label(t("quiz.ruleReminder") + " · " + topic.name.text, systemImage: "lightbulb.fill")
+                    .font(.footnote.weight(.bold))
+                    .foregroundColor(DS.goldDeep)
+                Text(topic.rule.text).font(.callout).foregroundColor(DS.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                if let example = topic.examples.first {
+                    Text("„\(example.de)“ · \(example.mean.text)").font(.footnote).foregroundColor(DS.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+            .padding(12)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(DS.surface.opacity(0.85), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        }
     }
 
     /// Lina's short German praise, varied so it does not feel robotic.

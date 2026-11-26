@@ -189,6 +189,7 @@
  "quiz.reset": "Reiniciar este juego",
  "quiz.resetHint": "Puedes reiniciar este juego y empezar de nuevo. Tus errores siguen en «Mis errores».",
  "quiz.result": "Ver resultado",
+ "quiz.ruleReminder": "Recuerda la regla",
  "quiz.finishAsk": "¿Terminar ahora?",
  "quiz.finishExamNote": "Las preguntas sin responder cuentan como incorrectas.",
  "quiz.finishNote": "Verás el resultado de las preguntas que respondiste.",

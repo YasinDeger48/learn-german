@@ -189,6 +189,7 @@
  "quiz.reset": "Reset this game and start again",
  "quiz.resetHint": "You can reset this game and start again. Your mistakes stay in “My mistakes”.",
  "quiz.result": "See result",
+ "quiz.ruleReminder": "Remember the rule",
  "quiz.finishAsk": "Finish now?",
  "quiz.finishExamNote": "Unanswered questions count as wrong.",
  "quiz.finishNote": "You will see the result for the questions you answered.",
