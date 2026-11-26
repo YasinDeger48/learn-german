@@ -186,11 +186,6 @@ struct AboutAppView: View {
                 }
             }
             Section {
-                ThanksCinemaView()
-                    .listRowInsets(EdgeInsets())
-                    .listRowBackground(Color.clear)
-            }
-            Section {
                 Text(t("settings.credits")).font(.footnote).foregroundStyle(.secondary)
             }
         }
