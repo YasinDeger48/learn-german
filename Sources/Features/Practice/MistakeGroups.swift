@@ -18,7 +18,7 @@ enum MistakeGroup: String, CaseIterable, Hashable {
 
 extension A1Model {
     private func mistakes(_ group: MistakeGroup) -> [A1Question] {
-        state.wrong.compactMap { byID[$0] }.filter { group.modes.contains($0.mode) }
+        state.wrong.compactMap { question($0) }.filter { group.modes.contains($0.mode) }
     }
 
     func mistakeCount(_ group: MistakeGroup) -> Int { mistakes(group).count }

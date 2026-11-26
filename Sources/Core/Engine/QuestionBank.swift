@@ -2,7 +2,7 @@ import Foundation
 
 // MARK: - Questions
 
-enum A1Mode: String, CaseIterable, Identifiable, Hashable {
+enum A1Mode: String, CaseIterable, Identifiable, Hashable, Codable {
     case artikel, wordToTr, trToWord, sentence, cloze, order, listen, hoeren, write, plural, verbs, grammar, numbers, reading, daily
 
     var id: String { rawValue }
@@ -32,13 +32,15 @@ enum A1Mode: String, CaseIterable, Identifiable, Hashable {
     }
 }
 
-enum A1Kind {
+enum A1Kind: String, Codable {
     case choice
     case order
     case typing
 }
 
-struct A1Question: Identifiable {
+/// Codable so a question made on the spot (path units, case drills) can be kept while it is a mistake
+/// (GeneratedMistakes in Progress.swift).
+struct A1Question: Identifiable, Codable {
     let id: String
     let mode: A1Mode
     let kind: A1Kind

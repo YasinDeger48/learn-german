@@ -42,6 +42,41 @@ struct A1SavedState: Codable {
     }
 }
 
+/// Questions made on the spot (path unit words and grammar, case drills) are not in the question bank, so a wrong
+/// answer kept only its id and the mistakes lists could not ask it again. The question itself is kept here per level
+/// while it is a mistake; a right answer removes it.
+enum GeneratedMistakes {
+    private static var cache: [String: [String: A1Question]] = [:]
+    private static func key(_ level: String) -> String { "\(level.lowercased())GeneratedMistakes" }
+
+    private static func load(_ level: String) -> [String: A1Question] {
+        if let known = cache[level] { return known }
+        let saved = UserDefaults.standard.data(forKey: key(level))
+            .flatMap { try? JSONDecoder().decode([String: A1Question].self, from: $0) } ?? [:]
+        cache[level] = saved
+        return saved
+    }
+
+    private static func save(_ items: [String: A1Question], _ level: String) {
+        cache[level] = items
+        if let data = try? JSONEncoder().encode(items) { UserDefaults.standard.set(data, forKey: key(level)) }
+    }
+
+    static func question(_ id: String, _ level: String) -> A1Question? { load(level)[id] }
+
+    static func keep(_ q: A1Question, _ level: String) {
+        var items = load(level)
+        items[q.id] = q
+        save(items, level)
+    }
+
+    static func remove(_ id: String, _ level: String) {
+        var items = load(level)
+        guard items.removeValue(forKey: id) != nil else { return }
+        save(items, level)
+    }
+}
+
 final class A1Model: ObservableObject {
     @Published private(set) var content: A1Content?
     @Published private(set) var questions: [A1Question] = []
@@ -178,6 +213,9 @@ final class A1Model: ObservableObject {
 
     func record(_ q: A1Question, correct: Bool) {
         WordMastery.record(q.id, correct: correct)  // path word practice: the word moves a step
+        if byID[q.id] == nil {  // made on the spot (path, case drills): keep it while it is a mistake
+            if correct { GeneratedMistakes.remove(q.id, level) } else { GeneratedMistakes.keep(q, level) }
+        }
         var s = state
         countToday(&s)
         s.seen.insert(q.id)
@@ -257,8 +295,11 @@ final class A1Model: ObservableObject {
         return result.shuffled()
     }
 
+    /// A question of the bank, or one made on the spot that is kept as a mistake.
+    func question(_ id: String) -> A1Question? { byID[id] ?? GeneratedMistakes.question(id, level) }
+
     func mistakeSession(count: Int = 20) -> [A1Question] {
-        Array(state.wrong.compactMap { byID[$0] }.shuffled().prefix(count))
+        Array(state.wrong.compactMap { question($0) }.shuffled().prefix(count))
     }
 
     /// Exam rehearsal: listening, reading, writing and grammar like the Goethe/telc A1 modules.
