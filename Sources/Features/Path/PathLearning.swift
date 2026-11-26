@@ -180,6 +180,64 @@ extension A1Model {
     }
 }
 
+// MARK: - Unit stories
+
+/// Path stories (Resources/content/stories_a1.json, made by tools/stories.py from ChatGPT answers): written with the
+/// unit's words only. Stored like daily texts, so the reading screen, its quiz and the word bubble work the same.
+enum StoryBank {
+    private struct File: Decodable {
+        let texts: [DailyText]
+        let units: [String: [String]]
+    }
+
+    private static let file: File? = Bundled.decode(File.self, "stories_a1")
+
+    static func stories(_ unit: String) -> [DailyText] {
+        (file?.units[unit] ?? []).compactMap { id in file?.texts.first { $0.id == id } }
+    }
+
+    static func text(id: String) -> DailyText? { file?.texts.first { $0.id == id } }
+}
+
+/// The unit's reading step when it has stories: its stories first (made for this unit), then the daily text.
+struct UnitStoriesView: View {
+    @EnvironmentObject private var daily: DailyModel
+    let unit: LearningUnit
+    let stories: [DailyText]
+    let dailyText: DailyText?
+
+    var body: some View {
+        List {
+            Section {
+                ForEach(stories) { story in row(story, icon: story.paragraphs.first?.contains(": ") == true ? "bubble.left.and.bubble.right.fill" : "book.fill") }
+            } footer: {
+                Text(t("unit.storiesNote"))
+            }
+            if let dailyText {
+                Section { row(dailyText, icon: "newspaper.fill") }
+            }
+        }
+        .navigationTitle(t("unit.step.text"))
+        .navigationBarTitleDisplayMode(.inline)
+    }
+
+    private func row(_ text: DailyText, icon: String) -> some View {
+        NavigationLink {
+            DailyReadingView(text: text).onAppear { UnitStore.mark(.text, unit.id) }
+        } label: {
+            HStack(spacing: 12) {
+                Image(systemName: daily.isCompleted(text) ? "checkmark.circle.fill" : icon)
+                    .foregroundColor(daily.isCompleted(text) ? DS.success : DS.goldDeep)
+                    .frame(width: 28)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(text.title).font(.headline)
+                    Text("\(text.level) · " + t("exam.minutes", text.minutes)).font(.caption).foregroundColor(DS.muted)
+                }
+            }
+        }
+    }
+}
+
 // MARK: - Unit grammar
 
 extension A1Model {
@@ -208,8 +266,62 @@ extension A1Model {
                 }
                 out.append(q)
             }
+            // Case drills with the unit's own picture words, so the rule is practised on words the learner knows.
+            out += caseDrills(topic: topic, nouns: cardNouns(upTo: unit), count: per)
         }
-        return Array(out.shuffled().prefix(count))
+        return Array(out.shuffled().prefix(count + 4))
+    }
+
+    /// Concrete nouns (the picture-card words) of this and earlier units: safe in "Ich sehe …" / "neben …" sentences.
+    private func cardNouns(upTo unit: LearningUnit) -> [UnitDrillWord] {
+        let all = content?.words ?? []
+        let byID = Dictionary(all.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
+        return UnitBank.units(unit.level).filter { $0.number <= unit.number }
+            .flatMap { ($0.pictures ?? []).compactMap { byID[$0] } }
+            .filter { $0.isNoun && !$0.de.contains(" ") }
+            .map { UnitDrillWord(de: $0.de, art: $0.type, meaning: $0.mean.text) }
+    }
+
+    /// Generated drills for the A1 case topics: articles (4), Nominativ & Akkusativ (6), Dativ (7), possessives (9).
+    /// Each question names the rule in a short formula ("sehen + Akkusativ: der → den").
+    private func caseDrills(topic: Int, nouns: [UnitDrillWord], count: Int) -> [A1Question] {
+        guard [4, 6, 7, 9].contains(topic), nouns.count >= 3 else { return [] }
+        let label = content?.grammar.first { $0.id == topic }?.de ?? ""
+        var out: [A1Question] = []
+        for word in nouns.shuffled().prefix(count) {
+            guard let art = word.art else { continue }
+            func question(_ kind: String, _ prompt: String, _ options: [String], _ answer: String, _ rule: String) -> A1Question {
+                A1Question(id: "gc\(topic)\(kind)-\(word.de)", mode: .grammar, kind: .choice, label: label, topic: topic,
+                           prompt: prompt, detail: word.meaning, speakAfter: prompt.replacingOccurrences(of: "___", with: answer),
+                           options: options.shuffled(), answer: answer, explanation: "\(word.full) · \(rule)")
+            }
+            let indefinite = art == "die" ? "eine" : "ein"
+            switch (topic, Bool.random()) {
+            case (4, true):
+                out.append(question("n", "___ \(word.de) ist neu.", ["Der", "Die", "Das"], art.capitalized,
+                                    "Nominativ: der · die · das"))
+            case (4, false):
+                out.append(question("i", "Das ist ___ \(word.de).", ["ein", "eine", "einen"], indefinite,
+                                    "ein (der, das) · eine (die)"))
+            case (6, true):
+                let akk = art == "der" ? "den" : art
+                out.append(question("a", "Ich sehe ___ \(word.de).", ["der", "den", "die", "das"], akk,
+                                    "sehen + Akkusativ (Wen? Was?): der → den · die → die · das → das"))
+            case (6, false):
+                let akk = art == "der" ? "einen" : indefinite
+                out.append(question("b", "Ich brauche ___ \(word.de).", ["ein", "einen", "eine"], akk,
+                                    "brauchen + Akkusativ: ein → einen (der) · eine · ein"))
+            case (7, _):
+                let dat = art == "die" ? "der" : "dem"
+                out.append(question("d", "Die Tasche ist neben ___ \(word.de).", ["dem", "den", "der", "die"], dat,
+                                    "neben (Wo?) + Dativ: der → dem · das → dem · die → der"))
+            default:
+                let poss = art == "die" ? "meine" : "mein"
+                out.append(question("p", "Das ist ___ \(word.de).", ["mein", "meine", "meinen"], poss,
+                                    "mein (der, das) · meine (die)"))
+            }
+        }
+        return out
     }
 
     /// Lower-case German words the learner has met by this unit.

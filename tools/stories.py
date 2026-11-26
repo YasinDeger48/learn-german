@@ -194,12 +194,38 @@ def import_answers():
                 problems.append(f'{name} words not in the lists (check): {", ".join(unknown[:12])}')
             stories[s['id']] = s
     ordered = sorted(stories.values(), key=lambda s: (by_unit.get(s['unit'], 99), s['id']))
+    unit_titles = {u['id']: u['title']['tr'] for u in all_units}
+    texts, per_unit = [], {}
+    for s in ordered:
+        text = as_daily_text(s, unit_titles.get(s['unit'], ''))
+        texts.append(text)
+        per_unit.setdefault(s['unit'], []).append(text['id'])
     with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
-        json.dump({'stories': ordered}, f, ensure_ascii=False, indent=1)
+        # "stories": the answers as written (re-imported next time); "texts" + "units": what the app reads.
+        json.dump({'stories': ordered, 'texts': texts, 'units': per_unit}, f, ensure_ascii=False, indent=1)
         f.write('\n')
     print(f'{len(ordered)} stories in {OUT}')
     for p in problems[:40]:
         print('  ', p)
+
+
+def as_daily_text(s, unit_title):
+    """The shape of a daily text (DailyText in the app): the reading screen, its quiz and the word bubble work as is.
+    Dialogue lines become "Name: text" paragraphs."""
+    def line_de(l):
+        return f"{l['who']}: {l['de']}" if l['who'] else l['de']
+    def line_tr(l, lang):
+        return f"{l['who']}: {l[lang]}" if l['who'] else l[lang]
+    return {
+        'id': 's-' + s['id'], 'level': 'A1', 'topic': unit_title, 'title': s['title'],
+        'paragraphs': [line_de(l) for l in s['lines']],
+        'trans': [{'tr': line_tr(l, 'tr'), 'en': line_tr(l, 'en')} for l in s['lines']],
+        'glossary': [{'form': g.get('form', ''), 'lemma': g.get('lemma') or g.get('form', ''), 'art': g.get('art') or None,
+                      'pron': None, 'extra': None, 'mean': {'tr': g.get('tr', ''), 'en': g.get('en', '')}}
+                     for g in s.get('glossary', []) if g.get('form')],
+        'questions': [{'type': q['type'], 'q': q['q'], 'options': q.get('options'), 'answer': q['answer']}
+                      for q in s.get('questions', [])],
+    }
 
 
 def status():

@@ -233,7 +233,7 @@ final class DailyModel: ObservableObject {
     }
 
     func text(id: String) -> DailyText? {
-        texts.values.lazy.flatMap { $0 }.first { $0.id == id }
+        texts.values.lazy.flatMap { $0 }.first { $0.id == id } ?? StoryBank.text(id: id)  // path stories too
     }
 
     /// Texts shown on earlier days (and finished today's texts), newest first, each text once.

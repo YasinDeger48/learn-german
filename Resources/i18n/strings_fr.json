@@ -678,6 +678,7 @@
  "unit.practisePhrases": "S’entraîner avec les expressions",
  "unit.wordsIntro": "Touche une carte pour entendre le mot avec son article. Couleur = article : bleu der, rouge die, vert das.",
  "unit.practiseWords": "S’entraîner avec les mots",
+ "unit.storiesNote": "Des histoires écrites avec les mots de cette unité : écoute d'abord, puis lis et réponds.",
  "unit.mastery": "{0} / {1} mots appris",
  "unit.masteryNote": "Chaque bonne réponse fait monter le mot d'une étape : reconnaître → se rappeler → écrire → utiliser dans une phrase. L'étape est terminée quand 70 % des mots arrivent à l'écriture.",
  "unit.grammarIntro": "Lis d'abord la règle courte et écoute les exemples, puis commence l'exercice.",

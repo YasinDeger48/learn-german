@@ -678,6 +678,7 @@
  "unit.practisePhrases": "Kalıpları çalış",
  "unit.wordsIntro": "Kelimeyi artikeliyle duymak için karta dokun. Renk = artikel: mavi der, kırmızı die, yeşil das.",
  "unit.practiseWords": "Kelimeleri çalış",
+ "unit.storiesNote": "Bu ünitenin kelimeleriyle yazılmış hikayeler: önce dinle, sonra oku ve soruları cevapla.",
  "unit.mastery": "{0} / {1} kelime öğrenildi",
  "unit.masteryNote": "Her doğru cevap kelimeyi bir basamak ilerletir: tanı → hatırla → yaz → cümlede kullan. Kelimelerin %70'i yazma basamağına gelince bu adım tamamlanır.",
  "unit.grammarIntro": "Önce kısa kuralı oku ve örnekleri dinle, sonra alıştırmaya geç.",

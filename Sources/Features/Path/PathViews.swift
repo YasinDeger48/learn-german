@@ -479,7 +479,9 @@ struct UnitView: View {
         case .grammar:
             UnitGrammarIntroView(unit: unit)
         case .text:
-            if let text = readingText {
+            if !StoryBank.stories(unit.id).isEmpty {
+                UnitStoriesView(unit: unit, stories: StoryBank.stories(unit.id), dailyText: readingText)
+            } else if let text = readingText {
                 DailyReadingView(text: text).onAppear { UnitStore.mark(.text, unit.id) }
             }
         case .speak:

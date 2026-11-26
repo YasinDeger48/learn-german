@@ -678,6 +678,7 @@
  "unit.practisePhrases": "Practicar las frases",
  "unit.wordsIntro": "Toca una tarjeta para oír la palabra con su artículo. Color = artículo: azul der, rojo die, verde das.",
  "unit.practiseWords": "Practicar las palabras",
+ "unit.storiesNote": "Historias escritas con las palabras de esta unidad: primero escucha, luego lee y responde.",
  "unit.mastery": "{0} / {1} palabras aprendidas",
  "unit.masteryNote": "Cada respuesta correcta sube la palabra un paso: reconocer → recordar → escribir → usar en una frase. El paso se completa cuando el 70 % llega a escribir.",
  "unit.grammarIntro": "Primero lee la regla corta y escucha los ejemplos; luego empieza la práctica.",
