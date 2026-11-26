@@ -235,6 +235,8 @@ def import_answers(level):
                   f, ensure_ascii=False, indent=1)
         f.write('\n')
     print(f'{level.upper()}: {len(ordered)}/{len(TOPICS[level])} phone items in {path}')
+    import content_edits  # hand edits made in Deschly Studio survive the rewrite
+    content_edits.apply_all(quiet=True)
     for p in problems:
         print('  ', p)
 

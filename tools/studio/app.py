@@ -703,6 +703,66 @@ def commit():
         return classic.commit()
 
 
+# ---------------------------------------------------------------- more content (phone, stories, songs, must know)
+
+EXTRA_LEVELS = ('A1', 'A2', 'B1', 'B2')
+
+
+@app.get('/api/extra/{kind}')
+def extra(kind: str, level: str = 'A1'):
+    """The content the app has besides texts, words and grammar, with what the Editable needs to change a field:
+    phone calls and voicemail (phone_<level>.json texts), stories (stories_<level>.json texts), songs
+    (songs_<level>.json) and the "Mutlaka bil" sheets (memorize.json)."""
+    level = level.upper()
+    if level not in EXTRA_LEVELS:
+        bad('unknown level')
+    if kind in ('phone', 'stories'):
+        name = f'{kind}_{level.lower()}.json'
+        if not os.path.exists(os.path.join(CONTENT, name)):
+            return {'file': name, 'collection': 'texts', 'keyField': 'id', 'items': []}
+        texts = load(name).get('texts', [])
+        for t in texts:
+            t['audio'] = [v for v in ('f', 'm') if os.path.exists(os.path.join(SITE, 'audio', v, f"{t['id']}.mp3"))]
+        return {'file': name, 'collection': 'texts', 'keyField': 'id', 'items': texts}
+    if kind == 'songs':
+        name = f'songs_{level.lower()}.json'
+        if not os.path.exists(os.path.join(CONTENT, name)):
+            return {'file': name, 'collection': 'songs', 'keyField': 'id', 'items': []}
+        songs = load(name).get('songs', [])
+        for s in songs:
+            s['hasAudio'] = os.path.exists(os.path.join(SITE, 'audio', 'songs', f"{s['id']}.mp3"))
+            for line in s.get('lines', []):
+                line.pop('syl', None)  # the timings are made by tools/karaoke.py; not shown
+        return {'file': name, 'collection': 'songs', 'keyField': 'id', 'items': songs}
+    if kind == 'must':
+        sheets = [s for s in load('memorize.json').get('sheets', []) if s.get('level') == level]
+        return {'file': 'memorize.json', 'collection': 'sheets', 'keyField': 'id', 'items': sheets}
+    bad('unknown kind')
+
+
+@app.get('/audio-extra/{voice}/{tid}.mp3')
+def extra_audio(voice: str, tid: str):
+    """Recorded phone calls (t-a1-t01) and stories (s-a2-01-1)."""
+    import re
+    if voice not in ('f', 'm') or not re.fullmatch(r'[ts]-[ab][12]-[a-z0-9-]{1,12}', tid or ''):
+        raise HTTPException(404, 'no audio')
+    path = os.path.join(SITE, 'audio', voice, f'{tid}.mp3')
+    if not os.path.exists(path):
+        raise HTTPException(404, 'no audio')
+    return FileResponse(path, media_type='audio/mpeg')
+
+
+@app.get('/audio-song/{sid}.mp3')
+def song_audio(sid: str):
+    import re
+    if not re.fullmatch(r'[ab][12]-lied-\d{2}', sid or ''):
+        raise HTTPException(404, 'no audio')
+    path = os.path.join(SITE, 'audio', 'songs', f'{sid}.mp3')
+    if not os.path.exists(path):
+        raise HTTPException(404, 'no audio')
+    return FileResponse(path, media_type='audio/mpeg')
+
+
 # ---------------------------------------------------------------- pages
 
 @app.get('/classic')

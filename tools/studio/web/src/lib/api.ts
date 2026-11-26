@@ -198,6 +198,44 @@ export type TranslationStats = {
   sample?: { en: string; tr: string; text: string; where: 'app' | 'content' }[]
 }
 
+export type ExtraKind = 'phone' | 'stories' | 'songs' | 'must'
+
+/** A list from a content file with what an edit needs (file, collection, keyField). */
+export type ExtraList<T> = { file: string; collection: string; keyField: string; items: T[] }
+
+/** A phone call / voicemail or a story, stored like a daily text. */
+export type ExtraText = {
+  id: string
+  level: string
+  topic: string
+  title: string
+  paragraphs: string[]
+  trans?: Partial<Langs>[]
+  questions: Question[]
+  audio: ('f' | 'm')[]
+}
+
+export type Song = {
+  id: string
+  title: string
+  title_tr: string
+  title_en: string
+  bpm: number
+  duration?: number
+  hasAudio: boolean
+  lines: { de: string; tr: string; en: string }[]
+  questions: Question[]
+}
+
+export type MustSheet = {
+  id: string
+  level: string
+  kind: string
+  title: Langs
+  intro: Langs
+  rows: { q: string | Langs; a: string; x?: string; xm?: Langs }[]
+}
+
 /** Where an editable text lives: an item of a list in a content file, and a dotted path inside it. */
 export type EditTarget = { file: string; collection: string; keyField: string; key: string | number; path: string }
 
@@ -259,6 +297,9 @@ export const api = {
     call<{ ok: boolean }>('/api/add', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }),
   remove: (body: { file: string; collection: string; item: Record<string, unknown>; parent?: { keyField: string; key: string; path: string } }) =>
     call<{ ok: boolean }>('/api/remove', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }),
+
+  // More content: phone calls, stories, songs, must know
+  extra: <T,>(kind: ExtraKind, level: string) => call<ExtraList<T>>(`/api/extra/${kind}?level=${level}`),
 
   // Media
   covers: () => call<CoverRow[]>('/api/media/covers'),

@@ -8,6 +8,7 @@ import {
   LayoutDashboard,
   ListChecks,
   Map,
+  Music,
   PenLine,
   Rocket,
   Type,
@@ -64,6 +65,7 @@ export function AppShell() {
     { to: '/grammar', label: 'Grammar', icon: BookOpen, count: grammar ? fmt(grammar) : undefined },
     { to: '/verbs', label: 'Verb lab', icon: ListChecks, count: data ? fmt(data.verbs.ready) : undefined },
     { to: '/tasks', label: 'Writing & speaking', icon: PenLine, count: tasks ? String(tasks) : undefined },
+    { to: '/more', label: 'Phone, stories, songs', icon: Music },
   ]
   const workflow: Item[] = [
     { to: '/inbox', label: 'ChatGPT inbox', icon: Inbox, count: data ? fmt(data.waiting) : undefined, badge: true },

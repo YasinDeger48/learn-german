@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { AppShell } from '@/components/layout/AppShell'
+import { Extra } from '@/pages/Extra'
 import { Grammar } from '@/pages/Grammar'
 import { Inbox } from '@/pages/Inbox'
 import { Media } from '@/pages/Media'
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="verbs/:level" element={<Verbs />} />
         <Route path="verbs/:level/:verb" element={<Verbs />} />
         <Route path="tasks" element={<Tasks />} />
+        <Route path="more" element={<Extra />} />
         <Route path="translations" element={<Translations />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>

@@ -400,6 +400,8 @@ def main():
         json.dump({'level': 'A1', 'songs': out}, f, ensure_ascii=False, indent=1)
         f.write('\n')
     print(f'{len(out)} songs in {OUT_JSON}')
+    import content_edits  # hand edits made in Deschly Studio (translations, quiz) survive the rewrite
+    content_edits.apply_all(quiet=True)
 
 
 if __name__ == '__main__':

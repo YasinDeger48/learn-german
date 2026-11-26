@@ -314,6 +314,9 @@ def main():
         json.dump({'sheets': SHEETS}, f, ensure_ascii=False, indent=1)
         f.write('\n')
     print(f'{len(SHEETS)} sheets, {sum(len(s["rows"]) for s in SHEETS)} rows -> {OUT}')
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import content_edits  # hand edits made in Deschly Studio survive the rewrite
+    content_edits.apply_all(quiet=True)
 
 
 if __name__ == '__main__':
