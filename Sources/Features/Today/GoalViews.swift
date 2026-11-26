@@ -131,99 +131,163 @@ enum WordOfDay {
     }
 }
 
-/// Open / closed state of the word island. Not saved on purpose: every app start shows the word again, open.
-final class WordIslandState: ObservableObject {
-    static let shared = WordIslandState()
-    @Published var open = true
-    @Published var closed = false
+/// The islands on Today (today's text, word of the day), stacked at the bottom left. Only one is open at a time:
+/// opening one folds the other into its pill, so they never cover each other. Not saved on purpose: every app
+/// start shows today's text open and the word as a pill again.
+final class TodayIslands: ObservableObject {
+    enum Mode { case open, pill, closed }
+    enum Island { case text, word }
+
+    static let shared = TodayIslands()
+    @Published var text: Mode = .open
+    @Published var word: Mode = .pill
+
+    func mode(_ island: Island) -> Mode { island == .text ? text : word }
+
+    func set(_ island: Island, _ mode: Mode) {
+        if mode == .open {
+            if island == .text, word == .open { word = .pill }
+            if island == .word, text == .open { text = .pill }
+        }
+        if island == .text { text = mode } else { word = mode }
+    }
 }
 
-/// The word of the day as a small black island at the bottom left of Today. Open: the word, its meaning and an
-/// example with a listen button; the arrow folds it into a small pill at the edge, the cross closes it until the
-/// app starts again.
-struct WordIsland: View {
-    let word: A1Word
-    @ObservedObject private var state = WordIslandState.shared
+/// A black island: a pill tucked into the left edge, or the open card with ⌄ (fold) and ✕ (close until the next start).
+struct TodayIsland<Pill: View, Card: View>: View {
+    let island: TodayIslands.Island
+    let title: String
+    @ViewBuilder var pill: () -> Pill
+    @ViewBuilder var card: () -> Card
+    @ObservedObject private var state = TodayIslands.shared
     private let spring = Animation.spring(response: 0.42, dampingFraction: 0.8)
 
     var body: some View {
-        ZStack(alignment: .bottomLeading) {
-            Color.clear
-            if !state.closed {
-                Group {
-                    if state.open { card } else { pill }
+        let mode = state.mode(island)
+        if mode != .closed {
+            Group {
+                if mode == .open {
+                    VStack(alignment: .leading, spacing: 8) {
+                        HStack(spacing: 6) {
+                            Text(title.uppercased()).font(.caption2.weight(.bold)).foregroundColor(.white.opacity(0.6)).lineLimit(1)
+                            Spacer()
+                            roundButton("chevron.down") { state.set(island, .pill) }
+                            roundButton("xmark") { state.set(island, .closed) }
+                        }
+                        card()
+                    }
+                    .padding(16)
+                    .frame(width: 300)
+                } else {
+                    pill()
+                        .padding(.vertical, 10)
+                        .padding(.leading, 24)
+                        .padding(.trailing, 12)
+                        .contentShape(Rectangle())
+                        .onTapGesture { withAnimation(spring) { state.set(island, .open) } }
+                        .accessibilityElement(children: .combine)
+                        .accessibilityAddTraits(.isButton)
+                        .accessibilityLabel(title)
                 }
-                .background(Color.black, in: RoundedRectangle(cornerRadius: state.open ? 28 : 22, style: .continuous))
-                .shadow(color: .black.opacity(0.22), radius: state.open ? 18 : 8, y: 5)
-                .offset(x: offsetX)
-                .padding(.bottom, 12)
-                .transition(.move(edge: .leading).combined(with: .opacity))
             }
+            .background(Color.black, in: RoundedRectangle(cornerRadius: mode == .open ? 28 : 22, style: .continuous))
+            .shadow(color: .black.opacity(0.22), radius: mode == .open ? 18 : 8, y: 5)
+            .offset(x: mode == .open ? 12 : -14)
+            .transition(.move(edge: .leading).combined(with: .opacity))
         }
     }
 
-    private var offsetX: CGFloat { state.open ? 12 : -14 }
-
-    private var pill: some View {
-        HStack(spacing: 6) {
-            Image(systemName: "character.book.closed.fill").font(.system(size: 14, weight: .bold)).foregroundColor(DS.gold)
-            Text(word.de).font(.system(size: 14, weight: .bold)).foregroundColor(.white).lineLimit(1)
+    private func roundButton(_ icon: String, _ action: @escaping () -> Void) -> some View {
+        Button { withAnimation(spring) { action() } } label: {
+            Image(systemName: icon).font(.system(size: 12, weight: .bold)).foregroundColor(.white)
+                .frame(width: 28, height: 28).background(Color.white.opacity(0.12), in: Circle())
         }
-        .padding(.vertical, 10)
-        .padding(.leading, 24)
-        .padding(.trailing, 12)
-        .contentShape(Rectangle())
-        .onTapGesture { withAnimation(spring) { state.open = true } }
-        .accessibilityElement(children: .combine)
-        .accessibilityAddTraits(.isButton)
-        .accessibilityLabel(t("today.wordOfDay") + ": " + word.withArticle)
+        .accessibilityLabel(t("common.close"))
     }
+}
 
-    private var card: some View {
-        VStack(alignment: .leading, spacing: 8) {
+/// The word of the day: the word, its meaning and an example with a listen button.
+struct WordIsland: View {
+    let word: A1Word
+
+    var body: some View {
+        TodayIsland(island: .word, title: t("today.wordOfDay")) {
             HStack(spacing: 6) {
-                Text(t("today.wordOfDay").uppercased()).font(.caption2.weight(.bold)).foregroundColor(.white.opacity(0.6))
-                Spacer()
-                Button { withAnimation(spring) { state.open = false } } label: {
-                    Image(systemName: "chevron.down").font(.system(size: 12, weight: .bold))
-                        .frame(width: 28, height: 28).background(Color.white.opacity(0.12), in: Circle())
+                Image(systemName: "character.book.closed.fill").font(.system(size: 14, weight: .bold)).foregroundColor(DS.gold)
+                Text(word.de).font(.system(size: 14, weight: .bold)).foregroundColor(.white).lineLimit(1)
+            }
+        } card: {
+            VStack(alignment: .leading, spacing: 8) {
+                HStack(alignment: .firstTextBaseline, spacing: 6) {
+                    if word.isNoun {
+                        Text(word.type).font(.system(size: 13, weight: .heavy)).foregroundColor(.white)
+                            .padding(.horizontal, 6).padding(.vertical, 1)
+                            .background(a1ArticleColor(word.type), in: Capsule())
+                    }
+                    Text(word.de).font(.system(size: 22, weight: .heavy)).foregroundColor(.white)
                 }
-                .accessibilityLabel(t("common.close"))
-                Button { withAnimation(spring) { state.closed = true } } label: {
-                    Image(systemName: "xmark").font(.system(size: 12, weight: .bold))
-                        .frame(width: 28, height: 28).background(Color.white.opacity(0.12), in: Circle())
+                Text(a1PronLead(word.pron) + word.mean.text).font(.system(size: 14, weight: .semibold)).foregroundColor(DS.gold)
+                    .fixedSize(horizontal: false, vertical: true)
+                if let example = word.ex.first {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("„\(example.de)“").font(.system(size: 14)).italic().foregroundColor(.white.opacity(0.9))
+                        Text(example.mean.text).font(.footnote).foregroundColor(.white.opacity(0.6))
+                    }
+                    .fixedSize(horizontal: false, vertical: true)
                 }
-                .accessibilityLabel(t("common.close"))
-            }
-            .foregroundColor(.white)
-            HStack(alignment: .firstTextBaseline, spacing: 6) {
-                Text(word.type).font(.system(size: 13, weight: .heavy)).foregroundColor(.white)
-                    .padding(.horizontal, 6).padding(.vertical, 1)
-                    .background(a1ArticleColor(word.type), in: Capsule())
-                Text(word.de).font(.system(size: 22, weight: .heavy)).foregroundColor(.white)
-            }
-            Text(a1PronLead(word.pron) + word.mean.text).font(.system(size: 14, weight: .semibold)).foregroundColor(DS.gold)
-                .fixedSize(horizontal: false, vertical: true)
-            if let example = word.ex.first {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("„\(example.de)“").font(.system(size: 14)).italic().foregroundColor(.white.opacity(0.9))
-                    Text(example.mean.text).font(.footnote).foregroundColor(.white.opacity(0.6))
+                Button {
+                    A1Speaker.shared.play([A1Line(s: -1, t: word.withArticle)] + word.ex.prefix(1).map { A1Line(s: -1, t: $0.de) })
+                } label: {
+                    Label(t("common.listen"), systemImage: "speaker.wave.2.fill")
+                        .font(.system(size: 14, weight: .semibold))
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity, minHeight: 36)
+                        .background(Color.white.opacity(0.14), in: Capsule())
                 }
-                .fixedSize(horizontal: false, vertical: true)
+                .buttonStyle(.plain)
             }
-            Button {
-                A1Speaker.shared.play([A1Line(s: -1, t: word.withArticle)] + word.ex.prefix(1).map { A1Line(s: -1, t: $0.de) })
-            } label: {
-                Label(t("common.listen"), systemImage: "speaker.wave.2.fill")
-                    .font(.system(size: 14, weight: .semibold))
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity, minHeight: 36)
-                    .background(Color.white.opacity(0.14), in: Capsule())
-            }
-            .buttonStyle(.plain)
         }
-        .padding(16)
-        .frame(width: 300)
+    }
+}
+
+/// Today's text: its picture, title and quiz state, and a button to read it.
+struct TextIsland: View {
+    let text: DailyText
+    /// "Quiz 100 %", "Try the quiz again", … (from Today).
+    let note: String
+    let readLabel: String
+    let read: () -> Void
+
+    var body: some View {
+        TodayIsland(island: .text, title: t("today.dailyMeta", text.level, text.minutes)) {
+            HStack(spacing: 6) {
+                Image(systemName: "book.fill").font(.system(size: 14, weight: .bold)).foregroundColor(DS.gold)
+                Text(text.title).font(.system(size: 14, weight: .bold)).foregroundColor(.white).lineLimit(1)
+                    .frame(maxWidth: 190, alignment: .leading)
+            }
+        } card: {
+            VStack(alignment: .leading, spacing: 10) {
+                if let cover = Covers.image(text.id) {
+                    Image(uiImage: cover).resizable().scaledToFill()
+                        .frame(width: 268, height: 120)
+                        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                }
+                Text(text.title).font(.system(size: 21, weight: .heavy)).foregroundColor(.white)
+                    .fixedSize(horizontal: false, vertical: true)
+                Text(note).font(.footnote).foregroundColor(.white.opacity(0.7))
+                Button(action: read) {
+                    HStack(spacing: 8) {
+                        Text(readLabel)
+                        Image(systemName: "arrow.right")
+                    }
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundColor(DS.onGold)
+                    .frame(maxWidth: .infinity, minHeight: 42)
+                    .background(DS.gold, in: Capsule())
+                }
+                .buttonStyle(.plain)
+            }
+        }
     }
 }
 

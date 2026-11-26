@@ -16,15 +16,24 @@ struct TodayView: View {
                 PathContinueCard().padding(.top, 16)
                 LessonCard().padding(.top, 12)
                 ReviewCard(model: practiceModel).padding(.top, 12)
-                dailyCard.padding(.top, 16)
                 TodayPractice(model: practiceModel).padding(.top, 22)
             }
             .padding(.horizontal, DS.gutter)
-            .padding(.bottom, 110)  // room to scroll the last rows above the word island
+            .padding(.bottom, 190)  // room to scroll the last rows above the islands
         }
         .deschlyPage()
-        .overlay {
-            if let word = wordOfDay { WordIsland(word: word) }
+        .overlay(alignment: .bottomLeading) {
+            // Today's text and the word of the day, stacked; only one is open at a time.
+            VStack(alignment: .leading, spacing: 8) {
+                if let text = daily.today {
+                    TextIsland(text: text, note: dailyNote(text),
+                               readLabel: daily.isRead(text) ? t("today.readAgain") : t("today.read")) {
+                        open(.reading(text.id))
+                    }
+                }
+                if let word = wordOfDay { WordIsland(word: word) }
+            }
+            .padding(.bottom, 12)
         }
         .navigationTitle(t("tab.today"))
         .onAppear { levels.active = practiceModel.level }
@@ -76,72 +85,11 @@ struct TodayView: View {
         return "Lina: Bereit für deinen Text?"
     }
 
-    @ViewBuilder
-    private var dailyCard: some View {
-        if let text = daily.today {
-            Button { open(.reading(text.id)) } label: {
-                VStack(alignment: .leading, spacing: 14) {
-                    if let cover = Covers.image(text.id) {
-                        CoverImage(image: cover, height: 160, radius: 18)
-                    }
-                    Text(t("today.dailyMeta", text.level, text.minutes)).font(DS.text(13)).foregroundColor(DS.onNightMuted)
-                    Text(text.title)
-                        .font(DS.display(34, heavy: false))
-                        .tracking(-1.2)
-                        .foregroundColor(DS.onNight)
-                        .frame(maxWidth: 250, alignment: .leading)
-                        .multilineTextAlignment(.leading)
-                    HStack {
-                        HStack(spacing: 8) {
-                            Text(daily.isRead(text) ? t("today.readAgain") : t("today.read"))
-                            Image(systemName: "arrow.right")
-                        }
-                        .font(DS.text(15, .semibold))
-                        .foregroundColor(DS.onGold)
-                        .padding(.horizontal, 18)
-                        .frame(minHeight: 46)
-                        .background(DS.gold, in: Capsule())
-                        Spacer()
-                        if daily.isCompleted(text) {
-                            Label(t("today.quizDone", 100), systemImage: "checkmark.circle.fill")
-                                .font(DS.text(13, .medium))
-                                .foregroundColor(DS.onNight)
-                        } else if let score = daily.quizScore(text) {
-                            Label(t("today.quizRetry", score), systemImage: "arrow.clockwise")
-                                .font(DS.text(13, .medium))
-                                .foregroundColor(DS.gold)
-                        } else {
-                            Text(t("today.withQuiz")).font(DS.text(13)).foregroundColor(DS.onNightMuted)
-                        }
-                    }
-                }
-                .padding(.horizontal, 22)
-                .padding(.vertical, 20)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(alignment: .topTrailing) {
-                    ZStack(alignment: .topTrailing) {
-                        Circle().fill(DS.gold).frame(width: 150, height: 150).offset(x: 36, y: -36)
-                        Text(dateStamp)
-                            .font(DS.text(13, .semibold))
-                            .foregroundColor(DS.onGold)
-                            .multilineTextAlignment(.trailing)
-                            .padding(.top, 22)
-                            .padding(.trailing, 24)
-                    }
-                    .accessibilityHidden(true)
-                }
-                .background(DS.night)
-                .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
-            }
-            .buttonStyle(.pressable)
-        }
-    }
-
-    private var dateStamp: String {
-        let f = DateFormatter()
-        f.locale = Locale(identifier: "de_DE")
-        f.dateFormat = "dd.MM."
-        return "HEUTE\n" + f.string(from: Date())
+    /// The quiz state of today's text, for its island.
+    private func dailyNote(_ text: DailyText) -> String {
+        if daily.isCompleted(text) { return t("today.quizDone", 100) }
+        if let score = daily.quizScore(text) { return t("today.quizRetry", score) }
+        return t("today.withQuiz")
     }
 
     /// A noun with an example from the learner's level, new every day (WordOfDay).
