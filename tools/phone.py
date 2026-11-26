@@ -59,6 +59,42 @@ TOPICS = {
         ('m05', 'message', 'Telesekreter: Lina\'nın doğum günü partisi; ne getirmeli, adres, saat.', 'home'),
         ('m06', 'message', 'Telesekreter: tren şirketi, tren iptal; yedek otobüs nereden kalkıyor.', 'train'),
     ],
+    'b1': [
+        ('t01', 'call', 'Elif ev yönetimini arar: üst kattan su sızıyor; ne zaman biri gelir, sigorta, fotoğraf göndermesi.', 'office'),
+        ('t02', 'call', 'Elif internet şirketine şikâyet eder: üç haftadır bağlantı kopuyor; indirim ister, sözleşmeyi bitirmekle tehdit eder.', 'office'),
+        ('t03', 'call', 'Elif iş başvurusundan sonra şirketi arar: başvurusunun durumu, görüşme tarihi, getirmesi gerekenler.', 'office'),
+        ('t04', 'call', 'Elif uzman doktordan randevu almak ister; ilk tarih çok geç, sevk (Überweisung), bekleme listesi.', 'office'),
+        ('t05', 'call', 'Elif Volkshochschule\'yi arar: B1 kursuna kayıt, kurs saatleri işle çakışıyor, başka seçenek.', 'school'),
+        ('t06', 'call', 'Elif bir kargo şirketine kayıp paket için şikâyet eder; takip numarası, sorumluluk, tazminat.', 'office'),
+        ('t07', 'call', 'Arkadaşı Tom Elif\'i arar: taşınmasına yardım isteği; Elif başka bir gün önerir (Elif telefonu açar).', 'home'),
+        ('t08', 'call', 'Elif kreşi (Kita) arar: komşunun çocuğu için yer var mı, başvuru, bekleme süresi.', 'school'),
+        ('t09', 'call', 'Elif bir otelde yanlış faturalandırılmış; oteli arayıp düzeltme ister.', 'office'),
+        ('t10', 'call', 'İşvereni Frau Wolf Elif\'i arar: yarın vardiyayı değiştirebilir mi; Elif şartlarını söyler (Elif telefonu açar).', 'office'),
+        ('m01', 'message', 'Telesekreter: ev yönetimi, yarın su kesilecek; saatler, ne yapmalı.', 'office'),
+        ('m02', 'message', 'Telesekreter: sigorta şirketi, hasar bildirimi için eksik belge; ne zamana kadar göndermeli.', 'office'),
+        ('m03', 'message', 'Telesekreter: Volkshochschule, kurs öğretmeni hasta; ders başka güne alındı ve yerine ne var.', 'school'),
+        ('m04', 'message', 'Telesekreter: araba tamircisi, beklenmeyen ek masraf; onay vermesi gerekiyor.', 'street'),
+        ('m05', 'message', 'Telesekreter: Lina, sürpriz parti planı; kimseye söylememeli, ne getirmeli.', 'cafe'),
+        ('m06', 'message', 'Telesekreter: belediye (Ausländerbehörde), oturum izni randevusu; getirilecek belgeler listesi.', 'office'),
+    ],
+    'b2': [
+        ('t01', 'call', 'Elif ev sahibiyle kira artışı hakkında konuşur; gerekçe ister, karşılaştırma yapar, uzlaşma önerir.', 'office'),
+        ('t02', 'call', 'Elif bir müşteri hizmetleri hattında yanlış uzatılan aboneliği iptal ettirir; tüketici hakları.', 'office'),
+        ('t03', 'call', 'Elif telefonda iş görüşmesi yapar: deneyimi, güçlü yanları, maaş beklentisi, başlama tarihi.', 'office'),
+        ('t04', 'call', 'Elif bir hastanenin hasta hizmetlerini arar: annesinin ameliyatı ertelendi; bilgi ve açıklama ister.', 'office'),
+        ('t05', 'call', 'Elif bir derneğin başkanını arar: gönüllü proje için oda kiralama, sigorta, sorumluluk.', 'office'),
+        ('t06', 'call', 'Elif bankayla hesabında açıklanamayan bir ödeme hakkında konuşur; itiraz süreci.', 'office'),
+        ('t07', 'call', 'Bir gazeteci Elif\'i arar: mahalledeki çevre projesi hakkında kısa röportaj (Elif telefonu açar).', 'street'),
+        ('t08', 'call', 'Elif seyahat şirketine şikâyet eder: otel ilanla uyuşmuyordu; kısmi iade ister.', 'office'),
+        ('t09', 'call', 'Elif üniversitenin öğrenci bürosunu arar: diplomasının tanınması (Anerkennung), belgeler, süreler.', 'school'),
+        ('t10', 'call', 'Elif enerji şirketiyle yüksek kesin hesap (Nachzahlung) hakkında konuşur; taksit ister.', 'office'),
+        ('m01', 'message', 'Telesekreter: avukat bürosu, kira itirazı için görüşme önerisi ve hazırlanması gerekenler.', 'office'),
+        ('m02', 'message', 'Telesekreter: işyeri insan kaynakları, sözleşme uzatma ve yeni şartlar.', 'office'),
+        ('m03', 'message', 'Telesekreter: hastane, ameliyat için yeni tarih ve önceden yapılacaklar.', 'office'),
+        ('m04', 'message', 'Telesekreter: belediye, mahalle projesi için hibe başvurusu kabul edildi; sonraki adımlar.', 'office'),
+        ('m05', 'message', 'Telesekreter: seyahat şirketi, şikâyete cevap ve teklif edilen tazminat.', 'office'),
+        ('m06', 'message', 'Telesekreter: radyo, röportaj yayın saati değişti; kısa açıklama.', 'street'),
+    ],
 }
 
 LEVEL_RULES = {
@@ -67,6 +103,12 @@ LEVEL_RULES = {
           '"Hier ist …", "Ich möchte einen Termin.", "Auf Wiederhören!".',
     'a2': 'Seviye A2 (Goethe A2): cümleler en fazla 14 kelime; Präsens, Perfekt, Präteritum (war/hatte), modal fiiller, '
           'weil/dass/wenn yan cümleleri. Resmî telefon dili (Sie) ve günlük dil (du) duruma göre.',
+    'b1': 'Seviye B1 (Goethe B1): doğal konuşma hızı ve uzunluğu, cümleler en fazla 18 kelime; Konjunktiv II ile kibar '
+          'rica (Könnten Sie …, Ich hätte gern …), obwohl/damit/nachdem, Passiv yer yer. Şikâyet etme, öneri yapma, '
+          'uzlaşma. Resmî dilde Sie.',
+    'b2': 'Seviye B2 (Goethe B2): akıcı ve resmî telefon dili; gerekçelendirme, itiraz, uzlaşma, haklarını savunma. '
+          'Konjunktiv II, Passiv, Nominalstil ölçülü; cümleler en fazla 22 kelime. Gerçekçi ayrıntılar (tarih, tutar, '
+          'süre, numara).',
 }
 
 PROMPT = '''Sen deneyimli bir Almanca (DaF) ders kitabı yazarısın ve Goethe sınavının Hören bölümünü iyi biliyorsun.

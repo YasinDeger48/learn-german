@@ -197,21 +197,25 @@ extension A1Model {
 
 // MARK: - Unit stories
 
-/// Path stories (Resources/content/stories_a1.json, made by tools/stories.py from ChatGPT answers): written with the
-/// unit's words only. Stored like daily texts, so the reading screen, its quiz and the word bubble work the same.
+/// Path stories (Resources/content/stories_<level>.json, made by tools/stories.py for A1 and tools/stories_upper.py
+/// from A2 on, from Codex answers): written with the unit's words. Stored like daily texts, so the reading screen, its quiz and the word bubble work the same.
 enum StoryBank {
     private struct File: Decodable {
         let texts: [DailyText]
         let units: [String: [String]]
     }
 
-    private static let file: File? = Bundled.decode(File.self, "stories_a1")
+    /// stories_a1.json (tools/stories.py) and stories_a2.json … (tools/stories_upper.py); a level without a file has none.
+    private static let files: [File] = ["a1", "a2", "b1", "b2"].compactMap { Bundled.decode(File.self, "stories_\($0)") }
 
     static func stories(_ unit: String) -> [DailyText] {
-        (file?.units[unit] ?? []).compactMap { id in file?.texts.first { $0.id == id } }
+        for file in files {
+            if let ids = file.units[unit] { return ids.compactMap { id in file.texts.first { $0.id == id } } }
+        }
+        return []
     }
 
-    static func text(id: String) -> DailyText? { file?.texts.first { $0.id == id } }
+    static func text(id: String) -> DailyText? { files.lazy.flatMap { $0.texts }.first { $0.id == id } }
 }
 
 /// The unit's reading step when it has stories: its stories first (made for this unit), then the daily text.
