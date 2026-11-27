@@ -97,30 +97,21 @@ struct ModulesHomeView: View {
     @EnvironmentObject private var daily: DailyModel
     /// Opened for one level (Profile → Levels, the "Practise" notification); nil = the Practice tab.
     var startLevel: String? = nil
+    /// The exam details (four modules and the mock exam) in a sheet from the goal card at the top.
+    @State private var showExam = false
 
     var body: some View {
         let model = levels.current
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
                 if model.ready {
+                    // The certificate goal first; its details open from below, like the Lazy mode setup.
+                    Button { showExam = true } label: { hero(model) }
+                        .buttonStyle(.pressable)
                     group(t("practice.group.words"), wordRows(model))
                     group(t("practice.group.grammar"), grammarRows(model))
                     group(t("practice.group.listenRead"), listenReadRows(model))
                     group(t("practice.group.speakWrite"), speakWriteRows(model))
-                    VStack(alignment: .leading, spacing: 10) {
-                        Text(t("practice.group.exam")).font(.title3.weight(.bold))
-                        hero(model)
-                        LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
-                            ForEach(ExamModule.allCases) { module in
-                                NavigationLink(value: AppRoute.module(module.rawValue)) { moduleCard(module, model) }
-                                    .buttonStyle(.pressable)
-                            }
-                        }
-                        rowList([
-                            row(AppRoute.examHome, "checkmark.seal.fill", DS.ink, t("exam.title", model.level), t("exam.format"),
-                                gate: .exam),
-                        ])
-                    }
                 } else {
                     HStack(spacing: 12) {
                         ProgressView()
@@ -138,6 +129,40 @@ struct ModulesHomeView: View {
         .onAppear(perform: followLevel)
         .onChange(of: daily.level) { _ in followLevel() }
         .safeAreaInset(edge: .bottom) { AdBanner() }
+        .sheet(isPresented: $showExam) {
+            NavigationStack {
+                examDetails(levels.current)
+                    .appRoutes()
+                    .toolbar {
+                        ToolbarItem(placement: .confirmationAction) { Button(t("common.done")) { showExam = false } }
+                    }
+            }
+            .presentationDetents([.medium, .large])
+            .presentationDragIndicator(.visible)
+        }
+    }
+
+    /// Inside the exam sheet: the four modules with their progress, then the mock exam.
+    private func examDetails(_ model: A1Model) -> some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 10) {
+                LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
+                    ForEach(ExamModule.allCases) { module in
+                        NavigationLink(value: AppRoute.module(module.rawValue)) { moduleCard(module, model) }
+                            .buttonStyle(.pressable)
+                    }
+                }
+                rowList([
+                    row(AppRoute.examHome, "checkmark.seal.fill", DS.ink, t("exam.title", model.level), t("exam.format"),
+                        gate: .exam),
+                ])
+            }
+            .padding(.horizontal, DS.gutter)
+            .padding(.vertical, 8)
+        }
+        .background(DS.ground.ignoresSafeArea())
+        .navigationTitle(t("practice.group.exam"))
+        .navigationBarTitleDisplayMode(.inline)
     }
 
     // MARK: Groups: every exercise has one place here, sorted by skill
@@ -239,6 +264,7 @@ struct ModulesHomeView: View {
                 Text(t("modules.goalNote")).font(.footnote).foregroundColor(.white.opacity(0.7))
             }
             Spacer(minLength: 0)
+            Image(systemName: "chevron.up").font(.system(size: 14, weight: .bold)).foregroundColor(.white.opacity(0.6))
         }
         .padding(18)
         .background(DS.night, in: RoundedRectangle(cornerRadius: 22, style: .continuous))

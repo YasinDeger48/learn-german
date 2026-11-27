@@ -49,7 +49,10 @@ struct TodayView: View {
                     .onChange(of: proxy.size.height) { islandsHeight = $0 }
             })
         }
+        // No big "Today" title (the tab says it): the date on the left, streak and XP on the right, in one row.
+        // The title stays for the back button of pages opened from here.
         .navigationTitle(t("tab.today"))
+        .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             levels.active = practiceModel.level
             if appeared { wordRound += 1 }
@@ -61,6 +64,10 @@ struct TodayView: View {
         }
         .onChange(of: daily.level) { _ in levels.active = practiceModel.level }
         .toolbar {
+            ToolbarItem(placement: .principal) { Color.clear.frame(width: 1, height: 1) }
+            ToolbarItem(placement: .navigationBarLeading) {
+                Text(todayDate).font(.subheadline.weight(.semibold)).foregroundColor(DS.muted)
+            }
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack(spacing: 8) {
                     StreakButton { showStreak = true }
@@ -97,6 +104,14 @@ struct TodayView: View {
                 Text(linaLine).font(DS.text(14)).foregroundColor(DS.muted)
             }
         }
+    }
+
+    /// "27 Kasım Cuma", in the app's language.
+    private var todayDate: String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: Localizer.shared.language.rawValue)
+        formatter.setLocalizedDateFormatFromTemplate("EEEEdMMMM")
+        return formatter.string(from: Date())
     }
 
     private var greetingText: String {
