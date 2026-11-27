@@ -793,6 +793,7 @@
  "modules.listenTextsSub": "Doğal sesler, yavaşlatma, ortam sesi",
  "exam.format": "Goethe sınavı formatında",
  "exam.title": "Deneme sınavı {0}",
+ "exam.skipModule": "Mikrofon yok mu? Bu modülü atla (0 puan)",
  "score.why": "Neden bu puan?",
  "score.content": "Görevi yerine getirme",
  "score.form": "Biçim",

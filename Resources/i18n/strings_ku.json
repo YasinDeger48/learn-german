@@ -793,6 +793,7 @@
  "modules.listenTextsSub": "Dengên xwezayî, hêdîtir, bi dengên paşperdeyê",
  "exam.format": "Di forma îmtîhana Goethe de",
  "exam.title": "Îmtîhana ceribandinê {0}",
+ "exam.skipModule": "No microphone? Skip this module (0 points)",
  "score.why": "Why this score?",
  "score.content": "Task done",
  "score.form": "Form",

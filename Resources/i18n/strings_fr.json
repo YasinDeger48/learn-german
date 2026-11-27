@@ -793,6 +793,7 @@
  "modules.listenTextsSub": "Voix naturelles, plus lentes, avec sons d’ambiance",
  "exam.format": "Au format de l’examen Goethe",
  "exam.title": "Examen blanc {0}",
+ "exam.skipModule": "No microphone? Skip this module (0 points)",
  "score.why": "Why this score?",
  "score.content": "Task done",
  "score.form": "Form",
