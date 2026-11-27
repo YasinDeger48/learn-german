@@ -676,7 +676,12 @@ struct LazyPlayerView: View {
             }
             .frame(height: 4)
             HStack(spacing: 10) {
-                LinaAvatar(size: 38, mood: .calm)
+                // Just Lina, no circle behind her (the same picture as the Today greeting).
+                if let hello = UIImage(named: "lina-hello") {
+                    Image(uiImage: hello).resizable().scaledToFit().frame(height: 46).accessibilityHidden(true)
+                } else {
+                    LinaAvatar(size: 38, mood: .calm)
+                }
                 VStack(alignment: .leading, spacing: 2) {
                     // The word this block is about, and which of its slides this is.
                     Text(topTitle).font(.system(size: 17, weight: .heavy)).foregroundColor(Self.ink).lineLimit(1)
@@ -719,10 +724,8 @@ struct LazyPlayerView: View {
     private var captionStrip: some View {
         HStack(spacing: 12) {
             SoundBars(active: playing && !narrationEnded && !reduceMotion)
-            VStack(alignment: .leading, spacing: 1) {
-                Text(t("lazy.reading")).font(.system(size: 11, weight: .bold)).tracking(1.4).foregroundColor(DS.gold)
-                Text(caption).font(.system(size: 14)).foregroundColor(.white).lineLimit(1)
-            }
+            // Only "Lina is reading": the line itself is already on the slide.
+            Text(t("lazy.reading")).font(.system(size: 12, weight: .bold)).tracking(1.4).foregroundColor(DS.gold)
             Spacer(minLength: 0)
         }
         .padding(.horizontal, 14)
