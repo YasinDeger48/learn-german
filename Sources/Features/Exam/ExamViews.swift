@@ -47,6 +47,17 @@ enum ExamStore {
     private static let certificatesKey = "certificates"
     private static let attemptsKey = "examAttempts"
     static let nameKey = "certificateName"
+    private static let candidateKey = "examCandidate"
+
+    /// "DS-0427": the learner's candidate number on the exam ticket and the result sheet, made once.
+    static var candidateNumber: String {
+        var number = UserDefaults.standard.integer(forKey: candidateKey)
+        if number == 0 {
+            number = Int.random(in: 1000...9999)
+            UserDefaults.standard.set(number, forKey: candidateKey)
+        }
+        return "DS-\(number)"
+    }
 
     static func certificates() -> [Certificate] { load(certificatesKey) ?? [] }
     static func attempts() -> [ExamAttempt] { load(attemptsKey) ?? [] }
@@ -102,11 +113,15 @@ enum ExamStore {
 
 // MARK: - Exam tab
 
+/// The exam as an exam hall (design: https://claude.ai/artifact/NQ2HHKrJvwcEqNS54SG74g): an admission ticket,
+/// how ready each module is, the last attempt and the way in.
 struct ExamHomeView: View {
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var daily: DailyModel
     @State private var attempts = ExamStore.attempts()
     @State private var certificates = ExamStore.certificates()
+
+    private let columns = [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)]
 
     var body: some View {
         let level = levels.active
@@ -115,61 +130,27 @@ struct ExamHomeView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 14) {
                 LevelChips()
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(t("exam.format")).font(.subheadline).foregroundColor(DS.muted)
-                    Text(t("exam.title", level)).font(DS.display(30)).foregroundColor(DS.ink)
-                }
-                VStack(spacing: 0) {
-                    ForEach(Array(ExamModule.allCases.enumerated()), id: \.element) { index, module in
-                        if index > 0 { Divider().padding(.leading, 56) }
-                        HStack(spacing: 12) {
-                            Image(systemName: module.icon)
-                                .font(.system(size: 15, weight: .semibold))
-                                .foregroundColor(module.color)
-                                .frame(width: 32, height: 32)
-                                .background(module.color.opacity(0.13), in: RoundedRectangle(cornerRadius: 9, style: .continuous))
-                            VStack(alignment: .leading, spacing: 1) {
-                                Text(module.title).font(.system(size: 15, weight: .semibold))
-                                Text(t("exam.part.\(module.rawValue)")).font(.caption).foregroundColor(DS.muted)
-                            }
-                            Spacer()
-                            Text(t("exam.minutes", module.minutes)).font(.subheadline.weight(.semibold))
+                ExamTicket(level: level)
+
+                if levels.hasPractice(level) {
+                    Text(t("exam.readyTitle")).font(.footnote.weight(.bold)).foregroundColor(DS.muted)
+                    let model = levels.model(level)
+                    LazyVGrid(columns: columns, spacing: 10) {
+                        ForEach(ExamModule.allCases) { module in
+                            readiness(module, module.progress(model, daily: daily))
                         }
-                        .padding(.horizontal, 12)
-                        .padding(.vertical, 10)
                     }
                 }
-                .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
 
-                if let last { lastCard(last) }
-
-                if let certificate {
-                    NavigationLink(value: AppRoute.certificate(certificate.id)) {
-                        HStack(spacing: 12) {
-                            Image(systemName: "rosette")
-                                .font(.system(size: 18, weight: .bold))
-                                .foregroundColor(DS.onGold)
-                                .frame(width: 40, height: 40)
-                                .background(DS.gold, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
-                            VStack(alignment: .leading, spacing: 1) {
-                                Text(t("exam.certReady", level)).font(.system(size: 15, weight: .bold)).foregroundColor(DS.onNight)
-                                Text(t("exam.certReadySub")).font(.caption).foregroundColor(DS.onNightMuted)
-                            }
-                            Spacer()
-                            Image(systemName: "chevron.right").font(.caption.weight(.bold)).foregroundColor(DS.onNightMuted)
-                        }
-                        .padding(14)
-                        .background(DS.night, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-                    }
-                    .buttonStyle(.pressable)
-                }
+                if let last { lastCard(last, certificate) }
 
                 Text(t("exam.rules", ExamStore.passMark)
                      + (ExamStore.modular(level) ? " " + t("exam.rulesModule", ExamStore.moduleMark) : ""))
                     .font(.footnote).foregroundColor(DS.muted)
+                    .fixedSize(horizontal: false, vertical: true)
 
                 NavigationLink(value: AppRoute.examRun) {
-                    Text(t("exam.start", ExamModule.allCases.map(\.minutes).reduce(0, +)))
+                    Text(t("exam.enter", ExamModule.totalMinutes))
                         .font(DS.text(16, .semibold))
                         .foregroundColor(DS.onGold)
                         .frame(maxWidth: .infinity, minHeight: 54)
@@ -189,23 +170,107 @@ struct ExamHomeView: View {
         }
     }
 
-    private func lastCard(_ attempt: ExamAttempt) -> some View {
-        VStack(alignment: .leading, spacing: 10) {
-            HStack {
-                Text(t("exam.last", attempt.date.formatted(.dateTime.day().month(.abbreviated))).uppercased())
-                    .font(.caption.weight(.bold)).foregroundColor(DS.muted)
-                Spacer()
-                Text(attempt.passed ? t("exam.passed") : t("exam.notPassed"))
-                    .font(.caption.weight(.bold))
-                    .foregroundColor(.white)
-                    .padding(.horizontal, 9).padding(.vertical, 3)
-                    .background(attempt.passed ? DS.success : DS.error, in: Capsule())
+    private func readiness(_ module: ExamModule, _ progress: Double) -> some View {
+        let percent = Int((progress * 100).rounded())
+        return VStack(alignment: .leading, spacing: 8) {
+            HStack(alignment: .firstTextBaseline) {
+                Text(module.title).font(.system(size: 15, weight: .bold)).foregroundColor(DS.ink)
+                Spacer(minLength: 4)
+                Text(t("exam.minutes", module.minutes)).font(.caption.monospacedDigit()).foregroundColor(DS.muted)
             }
-            ScoreGrid(scores: attempt.scores, counts: attempt.counts)
-            Text(t("exam.total", attempt.total)).font(.footnote).foregroundColor(DS.ink)
+            ProgressView(value: min(1, max(0, progress))).tint(module.color)
+            Text(t(percent < 60 ? "exam.readyStudy" : "exam.readyPct", percent))
+                .font(.caption).foregroundColor(percent < 60 ? DS.error : DS.muted)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .accessibilityElement(children: .combine)
+    }
+
+    @ViewBuilder
+    private func lastCard(_ attempt: ExamAttempt, _ certificate: Certificate?) -> some View {
+        let content = HStack(spacing: 12) {
+            GoalRing(progress: Double(attempt.total) / 100, size: 52, lineWidth: 6,
+                     color: attempt.passed ? DS.success : DS.error) {
+                Text("\(attempt.total)").font(.system(size: 15, weight: .heavy).monospacedDigit()).foregroundColor(DS.ink)
+            }
+            VStack(alignment: .leading, spacing: 2) {
+                Text(t("exam.last", attempt.date.formatted(.dateTime.day().month(.abbreviated))))
+                    .font(.caption).foregroundColor(DS.muted)
+                Text(t("exam.total", attempt.total) + " · " + (attempt.passed ? t("exam.passed") : t("exam.notPassed")))
+                    .font(.system(size: 15, weight: .bold)).foregroundColor(DS.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            Spacer(minLength: 0)
+            if certificate != nil {
+                Image(systemName: "rosette").font(.system(size: 18, weight: .bold)).foregroundColor(DS.goldDeep)
+            }
         }
         .padding(14)
         .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        if let certificate {
+            NavigationLink(value: AppRoute.certificate(certificate.id)) { content }.buttonStyle(.pressable)
+        } else {
+            content
+        }
+    }
+}
+
+/// The admission ticket on the exam page: level, candidate number, total time and the pass mark.
+struct ExamTicket: View {
+    let level: String
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text(t("exam.format").uppercased())
+                    .font(.caption.weight(.bold)).kerning(0.6)
+                    .foregroundColor(DS.onNightMuted)
+                (Text(level).foregroundColor(DS.onNight) + Text(".").foregroundColor(DS.gold))
+                    .font(.system(size: 48, weight: .heavy))
+                Text(t("exam.title", level)).font(.subheadline).foregroundColor(DS.onNightMuted)
+            }
+            .padding(16)
+            DashLine()
+                .stroke(DS.onNightMuted.opacity(0.45), style: StrokeStyle(lineWidth: 1.5, dash: [5, 4]))
+                .frame(height: 1)
+                .padding(.horizontal, 14)
+            HStack(alignment: .top, spacing: 10) {
+                field(t("exam.candidate"), ExamStore.candidateNumber)
+                field(t("exam.time"), t("exam.minutes", ExamModule.totalMinutes))
+                field(t("exam.passLine"), "\(ExamStore.passMark)/100")
+            }
+            .padding(16)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(DS.night, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+    }
+
+    private func field(_ label: String, _ value: String) -> some View {
+        VStack(alignment: .leading, spacing: 3) {
+            Text(label)
+                .font(.footnote.weight(.medium))
+                .foregroundColor(DS.onNightMuted)
+                .fixedSize(horizontal: false, vertical: true)
+            Text(value)
+                .font(.system(.subheadline, design: .monospaced).weight(.bold))
+                .foregroundColor(DS.onNight)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .accessibilityElement(children: .combine)
+    }
+}
+
+private struct DashLine: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        path.move(to: CGPoint(x: 0, y: rect.midY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.midY))
+        return path
     }
 }
 
@@ -238,34 +303,34 @@ struct ScoreGrid: View {
 
 // MARK: - Taking the exam
 
-/// The four modules one after the other. Each module's round is scored out of 25.
+/// The exam: the rules first, then the four modules one after the other (each timed and scored out of 25),
+/// a short break between them, and at the end the result sheet.
 struct ExamRunView: View {
     @EnvironmentObject private var model: A1Model
     @EnvironmentObject private var daily: DailyModel
+    @AppStorage(ExamStore.nameKey) private var name = ""
+    @State private var begun = false
     @State private var scores: [String: Int] = [:]
     @State private var counts: [String: [Int]] = [:]
     @State private var speakingTask: SpeakingTask?
+    /// The module on screen. Kept apart from "the next module", which changes as soon as a module is scored.
+    @State private var running: ExamModule?
     @State private var result: (attempt: ExamAttempt, certificate: Certificate?)?
     @Environment(\.dismiss) private var dismiss
+
+    private var next: ExamModule? { ExamModule.allCases.first { scores[$0.rawValue] == nil } }
+    private var lastDone: ExamModule? { ExamModule.allCases.last { scores[$0.rawValue] != nil } }
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 14) {
-                Text(t("exam.runNote")).font(.subheadline).foregroundColor(DS.muted)
-                VStack(spacing: 0) {
-                    ForEach(Array(ExamModule.allCases.enumerated()), id: \.element) { index, module in
-                        if index > 0 { Divider().padding(.leading, 56) }
-                        row(module, enabled: index == 0 || scores[ExamModule.allCases[index - 1].rawValue] != nil)
-                    }
-                }
-                .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-
                 if let result {
-                    resultCard(result.attempt, result.certificate)
-                    Button(t("done.finish")) { dismiss() }
-                        .font(.system(size: 16, weight: .semibold))
-                        .frame(maxWidth: .infinity, minHeight: 48)
-                        .buttonStyle(.bordered)
+                    resultSheet(result.attempt, result.certificate)
+                } else if !begun {
+                    rules
+                } else if let next {
+                    if let lastDone { breakCard(lastDone) }
+                    nextCard(next)
                 }
             }
             .padding(.horizontal, DS.gutter)
@@ -274,47 +339,121 @@ struct ExamRunView: View {
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("exam.title", model.level))
         .navigationBarTitleDisplayMode(.inline)
+        .navigationDestination(isPresented: Binding(get: { running != nil }, set: { if !$0 { running = nil } })) {
+            if let running { destination(running) }
+        }
         .onAppear {
             if speakingTask == nil { speakingTask = SpeakingBank.tasks(model.level).randomElement() }
         }
         .onChange(of: scores) { _ in finishIfDone() }
     }
 
-    @ViewBuilder
-    private func row(_ module: ExamModule, enabled: Bool) -> some View {
-        let done = scores[module.rawValue]
-        let label = HStack(spacing: 12) {
-            Image(systemName: done != nil ? "checkmark" : module.icon)
-                .font(.system(size: 15, weight: .bold))
-                .foregroundColor(done != nil ? .white : module.color)
-                .frame(width: 32, height: 32)
-                .background(done != nil ? DS.success : module.color.opacity(0.13), in: Circle())
-            VStack(alignment: .leading, spacing: 1) {
-                Text(module.title).font(.system(size: 15, weight: .semibold)).foregroundColor(DS.ink)
-                Text(t("exam.minutes", module.minutes) + " · " + t("exam.part.\(module.rawValue)")).font(.caption).foregroundColor(DS.muted)
-            }
-            Spacer()
-            if let done {
-                VStack(alignment: .trailing, spacing: 1) {
-                    Text("\(done)/25").font(.subheadline.monospacedDigit().weight(.bold)).foregroundColor(DS.ink)
-                    if let count = examCount(counts, module) {
-                        Text(t(module == .sprechen ? "exam.countSpeak" : "exam.countRight", count))
-                            .font(.caption2.monospacedDigit()).foregroundColor(DS.muted)
-                    }
-                }
-            } else {
-                Image(systemName: enabled ? "chevron.right" : "lock.fill").font(.caption.weight(.bold)).foregroundColor(DS.muted)
-            }
-        }
-        .padding(.horizontal, 12)
-        .padding(.vertical, 10)
-        .contentShape(Rectangle())
+    // MARK: Rules
 
-        if done != nil || !enabled {
-            label.opacity(enabled ? 1 : 0.5)
-        } else {
-            NavigationLink { destination(module) } label: { label }
-                .buttonStyle(.plain)
+    private var rules: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text(t("exam.rulesTitle")).font(DS.display(28)).foregroundColor(DS.ink)
+            VStack(spacing: 8) {
+                rule("headphones", t("exam.rule.headphones"))
+                rule("timer", t("exam.rule.timer"))
+                rule("arrow.uturn.forward", t("exam.rule.skip"))
+                rule("nosign", t("exam.rule.noHelp"))
+            }
+            Text(t("exam.order")).font(.footnote.weight(.bold)).foregroundColor(DS.muted).padding(.top, 4)
+            VStack(spacing: 0) {
+                ForEach(Array(ExamModule.allCases.enumerated()), id: \.element) { index, module in
+                    if index > 0 { Divider().padding(.leading, 28) }
+                    HStack(spacing: 12) {
+                        RoundedRectangle(cornerRadius: 3, style: .continuous).fill(module.color).frame(width: 10, height: 10)
+                        Text(module.title).font(.system(size: 15, weight: .semibold)).foregroundColor(DS.ink)
+                        Spacer()
+                        Text(t("exam.minutes", module.minutes)).font(.subheadline.monospacedDigit()).foregroundColor(DS.muted)
+                    }
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 11)
+                }
+            }
+            .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            Button {
+                withAnimation { begun = true }
+                running = ExamModule.allCases.first
+            } label: {
+                Text(t("exam.readyGo"))
+                    .font(DS.text(16, .semibold))
+                    .foregroundColor(DS.onGold)
+                    .frame(maxWidth: .infinity, minHeight: 54)
+                    .background(DS.gold, in: Capsule())
+            }
+            .buttonStyle(.pressable)
+        }
+    }
+
+    private func rule(_ icon: String, _ text: String) -> some View {
+        HStack(spacing: 12) {
+            Image(systemName: icon)
+                .font(.system(size: 15, weight: .semibold))
+                .foregroundColor(DS.ink)
+                .frame(width: 36, height: 36)
+                .background(DS.chip, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+            Text(text).font(.subheadline).foregroundColor(DS.ink).fixedSize(horizontal: false, vertical: true)
+            Spacer(minLength: 0)
+        }
+        .padding(10)
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+    }
+
+    // MARK: Between modules
+
+    private func breakCard(_ module: ExamModule) -> some View {
+        let points = scores[module.rawValue] ?? 0
+        return VStack(spacing: 10) {
+            GoalRing(progress: Double(points) / 25, size: 116, lineWidth: 10, color: module.color) {
+                Text("\(points)").font(.system(size: 32, weight: .heavy).monospacedDigit()).foregroundColor(DS.ink)
+            }
+            Text(t("exam.moduleDone", module.title)).font(.footnote.weight(.bold)).foregroundColor(DS.muted)
+            if let count = examCount(counts, module) {
+                Text(t(module == .sprechen ? "exam.countSpeak" : "exam.countRight", count))
+                    .font(.caption.monospacedDigit()).foregroundColor(DS.muted)
+            }
+            Text(t("exam.breakTitle")).font(DS.display(24)).foregroundColor(DS.ink)
+            Text(t("exam.breakSub")).font(.subheadline).foregroundColor(DS.muted)
+                .multilineTextAlignment(.center).fixedSize(horizontal: false, vertical: true)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.top, 12)
+    }
+
+    private func nextCard(_ module: ExamModule) -> some View {
+        VStack(spacing: 12) {
+            HStack(spacing: 12) {
+                RoundedRectangle(cornerRadius: 4, style: .continuous).fill(module.color).frame(width: 8, height: 44)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(t("exam.next").uppercased()).font(.caption.weight(.bold)).foregroundColor(DS.muted)
+                    Text(module.title + " · " + t("exam.minutes", module.minutes))
+                        .font(.system(size: 17, weight: .bold)).foregroundColor(DS.ink)
+                    Text(t("exam.part.\(module.rawValue)")).font(.caption).foregroundColor(DS.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                Spacer(minLength: 0)
+            }
+            .padding(14)
+            .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            HStack(spacing: 6) {
+                ForEach(ExamModule.allCases) { item in
+                    Capsule()
+                        .fill(scores[item.rawValue] != nil ? item.color : (item == module ? item.color.opacity(0.35) : DS.chip))
+                        .frame(height: 6)
+                }
+            }
+            .accessibilityHidden(true)
+            Button { running = module } label: {
+                Text(t("exam.startModule", module.title))
+                    .font(DS.text(16, .semibold))
+                    .foregroundColor(DS.onGold)
+                    .frame(maxWidth: .infinity, minHeight: 54)
+                    .background(DS.gold, in: Capsule())
+            }
+            .buttonStyle(.pressable)
         }
     }
 
@@ -329,7 +468,8 @@ struct ExamRunView: View {
                 }
             }
         default:
-            A1QuizView(title: module.title, exam: true, free: true, partPoints: 25, onFinish: { correct, total in
+            A1QuizView(title: module.title, exam: true, free: true, partPoints: 25, timeLimit: module.minutes * 60,
+                       onFinish: { correct, total in
                 counts[module.rawValue] = [correct, total]
                 scores[module.rawValue] = points(correct, total)
             }) {
@@ -374,11 +514,67 @@ struct ExamRunView: View {
         UINotificationFeedbackGenerator().notificationOccurred(attempt.passed ? .success : .warning)
     }
 
-    private func resultCard(_ attempt: ExamAttempt, _ certificate: Certificate?) -> some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text(attempt.passed ? t("exam.resultPassed") : t("exam.resultFailed")).font(DS.display(26)).foregroundColor(DS.ink)
-            ScoreGrid(scores: attempt.scores, counts: attempt.counts)
-            Text(t("exam.total", attempt.total)).font(.subheadline.weight(.semibold))
+    // MARK: Result sheet
+
+    private func resultSheet(_ attempt: ExamAttempt, _ certificate: Certificate?) -> some View {
+        let weakest = ExamModule.allCases.min { (attempt.scores[$0.rawValue] ?? 0) < (attempt.scores[$1.rawValue] ?? 0) }
+        let weakestPoints = weakest.flatMap { attempt.scores[$0.rawValue] } ?? 25
+        return VStack(alignment: .leading, spacing: 14) {
+            VStack(alignment: .leading, spacing: 10) {
+                // The result sheet is German on purpose, like the certificate.
+                VStack(alignment: .leading, spacing: 3) {
+                    Text("ERGEBNIS · PRÜFUNG \(attempt.level)").font(.caption.weight(.bold)).kerning(0.6).foregroundColor(DS.muted)
+                    if !name.trimmingCharacters(in: .whitespaces).isEmpty {
+                        Text(name).font(.system(size: 19, weight: .bold)).foregroundColor(DS.ink)
+                    }
+                    Text("\(ExamStore.candidateNumber) · \(attempt.date.formatted(.dateTime.day().month(.twoDigits).year()))")
+                        .font(.caption.monospacedDigit()).foregroundColor(DS.muted)
+                }
+                Rectangle().fill(DS.ink).frame(height: 2)
+                ForEach(ExamModule.allCases) { module in
+                    resultRow(module, attempt)
+                }
+                HStack {
+                    Text("Gesamt").font(.system(size: 16, weight: .heavy))
+                    Spacer()
+                    Text("\(attempt.total)/100").font(.system(size: 16, weight: .heavy).monospacedDigit())
+                }
+                .foregroundColor(DS.ink)
+                .padding(.top, 2)
+                Text(t("exam.passLineNote", ExamStore.passMark)).font(.caption).foregroundColor(DS.muted)
+            }
+            .padding(16)
+            .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+            .overlay(alignment: .topTrailing) {
+                Text(attempt.passed ? "BESTANDEN" : "NOCH NICHT")
+                    .font(.system(size: 16, weight: .heavy)).kerning(1.4)
+                    .foregroundColor(attempt.passed ? DS.success : DS.error)
+                    .padding(.horizontal, 10).padding(.vertical, 5)
+                    .overlay(RoundedRectangle(cornerRadius: 9, style: .continuous)
+                        .stroke(attempt.passed ? DS.success : DS.error, lineWidth: 3))
+                    .rotationEffect(.degrees(-12))
+                    .padding(.top, 20)
+                    .padding(.trailing, 14)
+                    .accessibilityLabel(attempt.passed ? t("exam.resultPassed") : t("exam.resultFailed"))
+            }
+
+            if let weakest, weakestPoints < 20 {
+                Text(t("exam.weakTip", weakest.title, weakestPoints))
+                    .font(.subheadline).foregroundColor(DS.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(12)
+                    .background(DS.errorSoft, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+            }
+            if !attempt.passed {
+                if !attempt.weakModules.isEmpty {
+                    Text(t("exam.moduleBelow", ExamStore.moduleMark, attempt.weakModules.map(\.title).joined(separator: ", ")))
+                        .font(.footnote.weight(.semibold)).foregroundColor(DS.error)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                Text(t("exam.tryAgain", ExamStore.passMark)).font(.footnote).foregroundColor(DS.muted)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
             if let certificate {
                 NavigationLink(value: AppRoute.certificate(certificate.id)) {
                     Label(t("exam.openCert"), systemImage: "rosette")
@@ -388,16 +584,31 @@ struct ExamRunView: View {
                         .background(DS.gold, in: Capsule())
                 }
                 .buttonStyle(.pressable)
-            } else if !attempt.passed {
-                if !attempt.weakModules.isEmpty {
-                    Text(t("exam.moduleBelow", ExamStore.moduleMark, attempt.weakModules.map(\.title).joined(separator: ", ")))
-                        .font(.footnote.weight(.semibold)).foregroundColor(DS.error)
-                }
-                Text(t("exam.tryAgain", ExamStore.passMark)).font(.footnote).foregroundColor(DS.muted)
             }
+            Button(t("done.finish")) { dismiss() }
+                .font(.system(size: 16, weight: .semibold))
+                .frame(maxWidth: .infinity, minHeight: 48)
+                .buttonStyle(.bordered)
         }
-        .padding(16)
-        .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+    }
+
+    private func resultRow(_ module: ExamModule, _ attempt: ExamAttempt) -> some View {
+        let points = attempt.scores[module.rawValue] ?? 0
+        let weak = attempt.weakModules.contains(module)
+        return VStack(alignment: .leading, spacing: 5) {
+            HStack(alignment: .firstTextBaseline) {
+                Text(module.title).font(.system(size: 15, weight: .semibold)).foregroundColor(DS.ink)
+                if let count = examCount(attempt.counts, module) {
+                    Text(t(module == .sprechen ? "exam.countSpeak" : "exam.countRight", count))
+                        .font(.caption.monospacedDigit()).foregroundColor(DS.muted)
+                }
+                Spacer()
+                Text("\(points)/25").font(.system(size: 15, weight: .bold).monospacedDigit())
+                    .foregroundColor(weak ? DS.error : DS.ink)
+            }
+            ProgressView(value: Double(points), total: 25).tint(weak ? DS.error : module.color)
+        }
+        .accessibilityElement(children: .combine)
     }
 }
 

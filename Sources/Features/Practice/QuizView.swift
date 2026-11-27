@@ -17,13 +17,17 @@ struct A1QuizView: View {
     /// One module of the mock exam (ExamRunView): the summary shows its points out of this (25) and the right
     /// answers, without a pass mark of its own, and the module cannot be taken again from the summary.
     var partPoints: Int? = nil
+    /// Mock exam modules: seconds for the round. A timer counts down in the navigation bar; at zero the round
+    /// ends and the unanswered questions count as wrong.
+    var timeLimit: Int? = nil
     let makeSession: () -> [A1Question]
 
     init(title: String, exam: Bool = false, review: Bool = false, resetMode: A1Mode? = nil, free: Bool = false,
-         partPoints: Int? = nil, onFinish: ((Int, Int) -> Void)? = nil, makeSession: @escaping () -> [A1Question]) {
+         partPoints: Int? = nil, timeLimit: Int? = nil, onFinish: ((Int, Int) -> Void)? = nil, makeSession: @escaping () -> [A1Question]) {
         self.title = title
         self.free = free
         self.partPoints = partPoints
+        self.timeLimit = timeLimit
         self.exam = exam
         self.review = review
         self.resetMode = resetMode
@@ -62,6 +66,9 @@ struct A1QuizView: View {
     @State private var linaBusy = false
     @State private var linaFailed = false
     @FocusState private var typingFocused: Bool
+    @State private var now = Date()
+    @State private var timeUp = false
+    private let clock = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
     var body: some View {
         Group {
@@ -88,11 +95,32 @@ struct A1QuizView: View {
             BadgeStore.shared.quizHidden(screenID)
         }
         .sheet(item: $celebration) { CelebrationView(badges: $0.badges) }
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                if let left = secondsLeft, started, index < session.count {
+                    Label(String(format: "%02d:%02d", left / 60, left % 60), systemImage: "timer")
+                        .labelStyle(.titleAndIcon)
+                        .font(.system(.subheadline, design: .monospaced).weight(.bold))
+                        .foregroundColor(left < 300 ? DS.error : DS.ink)
+                        .accessibilityLabel(t("exam.timeLeft", left / 60))
+                }
+            }
+        }
+        .onReceive(clock) { date in
+            guard let timeLimit, started, !session.isEmpty, index < session.count, !timeUp else { return }
+            now = date
+            if Int(date.timeIntervalSince(startedAt)) >= timeLimit {
+                timeUp = true
+                UINotificationFeedbackGenerator().notificationOccurred(.warning)
+                finishNow()
+            }
+        }
         .onAppear {
             BadgeStore.shared.quizShown(screenID)
             if !started {
                 session = makeSession()
                 startedAt = Date()
+                now = startedAt
                 started = true
                 pro.refreshQuota()
                 limitReached = !free && !pro.canPractice
@@ -105,6 +133,12 @@ struct A1QuizView: View {
                 playIfNeeded()
             }
         }
+    }
+
+    /// Seconds left in a timed round (nil when the round has no time limit).
+    private var secondsLeft: Int? {
+        guard let timeLimit else { return nil }
+        return max(0, timeLimit - Int(now.timeIntervalSince(startedAt)))
     }
 
     private var emptyState: some View {
@@ -150,6 +184,13 @@ struct A1QuizView: View {
                     .font(.subheadline)
                     .foregroundColor(exam && partPoints == nil ? (points >= 60 ? DS.success : DS.error) : DS.muted)
                     .multilineTextAlignment(.center)
+                if timeUp {
+                    Label(t("exam.timeUp"), systemImage: "timer")
+                        .font(.footnote.weight(.semibold))
+                        .foregroundColor(DS.error)
+                        .multilineTextAlignment(.center)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
                 HStack(spacing: 8) {
                     summaryTile("+\(sessionXP)", "XP", DS.accent)
                     summaryTile("\(bestCombo)×", t("done.combo"), .orange)
@@ -289,6 +330,8 @@ struct A1QuizView: View {
         combo = 0
         bestCombo = 0
         startedAt = Date()
+        now = Date()
+        timeUp = false
         resetAnswer()
         limitReached = !free && !pro.canPractice
         if !limitReached { playIfNeeded() }
@@ -636,7 +679,7 @@ struct A1QuizView: View {
                 Text(explanation).font(.callout).foregroundStyle(.secondary)
             }
             if !wasCorrect { ruleReminder(q) }
-            if !wasCorrect && LinaAI.isAvailable { linaWhy(q) }
+            if !wasCorrect && !exam && LinaAI.isAvailable { linaWhy(q) }
             HStack {
                 if q.dialog != nil || q.speakAfter != nil || q.speakFirst != nil {
                     Button {

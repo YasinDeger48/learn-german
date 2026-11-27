@@ -48,6 +48,9 @@ enum ExamModule: String, CaseIterable, Identifiable, Hashable {
     }
 
     /// Minutes in the exam (Goethe A1 timing; the mock exam uses the same).
+    /// All four modules together (the exam ticket, the start button).
+    static var totalMinutes: Int { allCases.map(\.minutes).reduce(0, +) }
+
     var minutes: Int {
         switch self {
         case .lesen: return 25
