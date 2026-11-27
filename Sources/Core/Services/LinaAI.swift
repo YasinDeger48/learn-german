@@ -37,6 +37,24 @@ enum LinaAI {
         return false
     }
 
+    /// What Apple says about the model on this phone, for Settings (why Lina chat is hidden).
+    static var statusText: String {
+        #if canImport(FoundationModels)
+        if #available(iOS 26.0, *) {
+            // `if case` instead of a switch: Apple may add new reasons.
+            let availability = SystemLanguageModel.default.availability
+            if case .available = availability { return t("ai.status.ready") }
+            if case .unavailable(.deviceNotEligible) = availability { return t("ai.status.device") }
+            if case .unavailable(.appleIntelligenceNotEnabled) = availability { return t("ai.status.off") }
+            if case .unavailable(.modelNotReady) = availability { return t("ai.status.loading") }
+            return t("ai.status.other")
+        }
+        return t("ai.status.ios")
+        #else
+        return t("ai.status.ios")
+        #endif
+    }
+
     private static let languageNames = ["tr": "Turkish", "en": "English", "es": "Spanish", "fr": "French",
                                         "it": "Italian", "ku": "Kurmanji Kurdish (Latin script)", "ar": "Arabic"]
 

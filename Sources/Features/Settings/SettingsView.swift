@@ -186,6 +186,12 @@ struct AboutAppView: View {
                     Spacer()
                     Text(Self.version).foregroundStyle(.secondary)
                 }
+                // Why Lina chat and the AI help are hidden on this phone (Apple tells the reason).
+                HStack(alignment: .firstTextBaseline) {
+                    Text("Apple Intelligence")
+                    Spacer()
+                    Text(LinaAI.statusText).foregroundStyle(.secondary).multilineTextAlignment(.trailing)
+                }
             }
             Section {
                 Text(t("settings.credits")).font(.footnote).foregroundStyle(.secondary)
