@@ -208,10 +208,10 @@ struct TodayGames: View {
             list.append(Game(feature: .camera, title: t("cam.title"), color: Color(red: 0.05, green: 0.49, blue: 0.53), picture: "lina-photo"))
         }
         // Two per row: with an odd number "My mistakes" fills the last place (no half-empty row).
-        // lina-fix.png comes from Codex (job 14); until then the jumping Lina.
+        // lina-fix.png (an "oops", a little sad Lina) comes from Codex (job 14); until then the stumbling Lina.
         if !list.count.isMultiple(of: 2) {
             list.append(Game(feature: nil, title: t("practice.mistakes"), color: Color(red: 0.84, green: 0.27, blue: 0.42),
-                             picture: UIImage(named: "lina-fix") != nil ? "lina-fix" : "lina-jump"))
+                             picture: UIImage(named: "lina-fix") != nil ? "lina-fix" : "lina-stumble"))
         }
         // Open ones first, the order otherwise kept.
         let open = list.filter { $0.feature.map(Unlocks.isOpen) ?? true }
@@ -364,11 +364,11 @@ private struct GameCard: View {
                 .overlay(alignment: .topTrailing) { recordingDot.padding(7) }
                 .padding(.bottom, side * 0.20)
         case nil:
-            // My mistakes: a crossed-out mark turned into a tick.
+            // My mistakes: a mistake and "try again".
             ZStack {
-                Image(systemName: "xmark.circle.fill").font(.system(size: 20, weight: .bold)).foregroundColor(.white.opacity(0.55))
+                Image(systemName: "xmark.circle.fill").font(.system(size: 24, weight: .bold)).foregroundColor(.white)
                     .offset(x: -side * 0.34, y: -side * 0.40)
-                Image(systemName: "checkmark.circle.fill").font(.system(size: 24, weight: .bold)).foregroundColor(.white)
+                Image(systemName: "arrow.counterclockwise.circle.fill").font(.system(size: 22, weight: .bold)).foregroundColor(.white.opacity(0.8))
                     .offset(x: side * 0.33, y: -side * 0.48)
             }
             .frame(width: side, height: side, alignment: .bottom)
