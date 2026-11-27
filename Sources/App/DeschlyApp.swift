@@ -170,7 +170,7 @@ struct RootView: View {
         .onReceive(NotificationCenter.default.publisher(for: BadgeStore.recheck)) { _ in
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { checkBadges() }  // after the sheet is gone
         }
-        .sheet(item: $celebration) { CelebrationView(badges: $0.badges) }
+        .sheet(item: $celebration) { CelebrationView(badges: $0.badges).environmentObject(pro) }
         // Daily goal reached: a short success haptic and a banner at the top, like system confirmations.
         .onReceive(NotificationCenter.default.publisher(for: StreakStore.goalReached)) { _ in
             UINotificationFeedbackGenerator().notificationOccurred(.success)

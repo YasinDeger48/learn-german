@@ -195,8 +195,31 @@ struct BadgesView: View {
 /// Shown once when something new was earned: a streak milestone gets the big flame, other badges the badge.
 struct CelebrationView: View {
     let badges: [Badge]
+    @EnvironmentObject private var pro: ProStore
     @ObservedObject private var streak = StreakStore.shared
     @Environment(\.dismiss) private var dismiss
+    @State private var showPaywall = false
+
+    private var streakOffer: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack(spacing: 6) {
+                ProChip()
+                Text(t("offer.streakTitle")).font(.subheadline.weight(.bold)).foregroundColor(DS.ink)
+            }
+            Text(t("offer.streakBody")).font(.footnote).foregroundColor(DS.muted).fixedSize(horizontal: false, vertical: true)
+            Button { showPaywall = true } label: {
+                Text(pro.trialDays.map { t("pro.startTrial", $0) } ?? t("offer.streakButton"))
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundColor(DS.onGold)
+                    .frame(maxWidth: .infinity, minHeight: 44)
+                    .background(DS.gold, in: Capsule())
+            }
+            .buttonStyle(.pressable)
+        }
+        .padding(14)
+        .background(DS.gold.opacity(0.14), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .sheet(isPresented: $showPaywall) { PaywallView().environmentObject(pro) }
+    }
 
     private var milestone: Badge? {
         badges.filter { $0.kind == .streak && BadgeStore.milestones.contains($0.target) }.max { $0.target < $1.target }
@@ -221,6 +244,8 @@ struct CelebrationView: View {
                 }
                 Text(milestoneTitle(milestone.target)).font(DS.display(32)).multilineTextAlignment(.center)
                 Text(t("celebrate.streakBody", milestone.target)).foregroundColor(DS.muted).multilineTextAlignment(.center)
+                // A week every day: the moment the habit is there, a soft offer (no paywall pops up by itself).
+                if milestone.target == 7 && !pro.isPro { streakOffer }
                 if streak.state.freezes > 0 {
                     Label(t("celebrate.freezes", streak.state.freezes), systemImage: "snowflake")
                         .font(.subheadline.weight(.semibold))

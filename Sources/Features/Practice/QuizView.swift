@@ -95,7 +95,7 @@ struct A1QuizView: View {
             if exam { AmbiencePlayer.shared.stop() }
             BadgeStore.shared.quizHidden(screenID)
         }
-        .sheet(item: $celebration) { CelebrationView(badges: $0.badges) }
+        .sheet(item: $celebration) { CelebrationView(badges: $0.badges).environmentObject(pro) }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 if let left = secondsLeft, started, index < session.count {
