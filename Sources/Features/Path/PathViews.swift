@@ -102,12 +102,17 @@ enum UnitStore {
         guard !steps.contains(step.rawValue) else { return }
         steps.insert(step.rawValue)
         UserDefaults.standard.set(Array(steps), forKey: key(unit))
+        UserDefaults.standard.set(A1Model.dayString(Date()), forKey: lastDayKey)
         StreakStore.shared.record()
         if step == .test { StreakStore.shared.addXP(XP.perfectBonus * 2) }
         NotificationCenter.default.post(name: changed, object: nil)
     }
 
     static func passed(_ unit: String) -> Bool { done(unit).contains(UnitStep.test.rawValue) }
+
+    private static let lastDayKey = "unit.lastStepDay"
+    /// A unit step was finished today (the first step of Today's plan).
+    static var steppedToday: Bool { UserDefaults.standard.string(forKey: lastDayKey) == A1Model.dayString(Date()) }
 
     static func unlocked(_ unit: LearningUnit) -> Bool {
         let list = UnitBank.units(unit.level)
@@ -727,97 +732,5 @@ struct UnitPhrasesView: View {
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("unit.step.phrases"))
         .navigationBarTitleDisplayMode(.inline)
-    }
-}
-
-// MARK: - Today: continue the path
-
-/// The unit card on Today. Closed it shows only the picture and the six step circles; a tap opens the texts
-/// (continue, unit, next step) and a Continue button (owner's request: the texts only when the card is tapped).
-struct PathContinueCard: View {
-    @EnvironmentObject private var daily: DailyModel
-    @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    @State private var refresh = 0
-    @State private var open = false
-
-    var body: some View {
-        let level = UnitBank.levels.contains(daily.level) ? daily.level : (UnitBank.levels.first ?? "A1")
-        if let unit = UnitStore.current(level) {
-            let done = UnitStore.done(unit.id)
-            let next = UnitStore.nextStep(unit.id)
-            VStack(alignment: .leading, spacing: 12) {
-                Button {
-                    withAnimation(reduceMotion ? nil : .spring(response: 0.38, dampingFraction: 0.85)) { open.toggle() }
-                } label: {
-                    VStack(alignment: .leading, spacing: 12) {
-                        UnitPicture(unit: unit, height: 120)
-                            .overlay(alignment: .topTrailing) {
-                                Image(systemName: open ? "chevron.up" : "chevron.down")
-                                    .font(.system(size: 12, weight: .heavy))
-                                    .foregroundColor(.white)
-                                    .frame(width: 30, height: 30)
-                                    .background(Color.black.opacity(0.35), in: Circle())
-                                    .padding(10)
-                            }
-                        // The six steps: done = green tick, next = gold ring, the rest faint.
-                        HStack(spacing: 0) {
-                            ForEach(UnitStep.allCases) { step in
-                                stepDot(step, done: done.contains(step.rawValue), next: next == step)
-                                    .frame(maxWidth: .infinity)
-                            }
-                        }
-                        .padding(.horizontal, 12)
-                        .padding(.bottom, open ? 0 : 16)
-                    }
-                    .contentShape(Rectangle())
-                }
-                .buttonStyle(.plain)
-                .accessibilityElement(children: .combine)
-                .accessibilityLabel("\(unit.level) · " + t("path.unit", unit.number) + ", " + unit.title.text)
-                .accessibilityHint(t("path.continue"))
-
-                if open {
-                    VStack(alignment: .leading, spacing: 3) {
-                        Text("\(unit.level) · " + t("path.unit", unit.number)).font(.footnote.weight(.bold)).foregroundColor(DS.gold)
-                        Text(unit.title.text).font(.system(size: 22, weight: .heavy)).foregroundColor(DS.onNight)
-                        if let next {
-                            Text(t("path.nextStep", next.title)).font(.footnote).foregroundColor(DS.onNightMuted)
-                        }
-                        NavigationLink(value: AppRoute.unit(unit.id)) {
-                            HStack(spacing: 8) {
-                                Text(t("path.continue"))
-                                Image(systemName: "arrow.right")
-                            }
-                            .font(.system(size: 15, weight: .semibold))
-                            .foregroundColor(DS.onGold)
-                            .frame(maxWidth: .infinity, minHeight: 46)
-                            .background(DS.gold, in: Capsule())
-                        }
-                        .buttonStyle(.pressable)
-                        .padding(.top, 10)
-                    }
-                    .padding(.horizontal, 16)
-                    .padding(.bottom, 16)
-                    .transition(.opacity.combined(with: .move(edge: .top)))
-                }
-            }
-            .background(DS.night, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
-            .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
-            .id(refresh)
-            .onReceive(NotificationCenter.default.publisher(for: UnitStore.changed)) { _ in refresh += 1 }
-        }
-    }
-
-    private func stepDot(_ step: UnitStep, done: Bool, next: Bool) -> some View {
-        ZStack {
-            Circle().fill(done ? DS.success : Color.white.opacity(next ? 0.16 : 0.08))
-            if next { Circle().stroke(DS.gold, lineWidth: 2) }
-            Image(systemName: done ? "checkmark" : step.icon)
-                .font(.system(size: done ? 13 : 11, weight: .heavy))
-                .foregroundColor(done ? .white : (next ? DS.gold : Color.white.opacity(0.4)))
-        }
-        .frame(width: 30, height: 30)
-        .accessibilityElement()
-        .accessibilityLabel(step.title + (done ? ", ✓" : ""))
     }
 }

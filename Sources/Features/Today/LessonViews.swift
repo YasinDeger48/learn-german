@@ -59,57 +59,6 @@ extension A1Model {
     }
 }
 
-/// The card on the Today screen.
-struct LessonCard: View {
-    @EnvironmentObject private var daily: DailyModel
-    @State private var done = LessonStore.done()
-
-    var body: some View {
-        let all = done.count == LessonStep.allCases.count
-        NavigationLink(value: AppRoute.lesson) {
-            VStack(alignment: .leading, spacing: 14) {
-                HStack(alignment: .top) {
-                    VStack(alignment: .leading, spacing: 3) {
-                        Text(t("lesson.title").uppercased()).font(.caption.weight(.bold)).foregroundColor(DS.onNightMuted)
-                        Text(all ? t("lesson.doneTitle") : t("lesson.headline")).font(.system(size: 20, weight: .bold)).foregroundColor(DS.onNight)
-                        Text(all ? t("lesson.doneSub") : t("lesson.sub")).font(.footnote).foregroundColor(DS.onNightMuted)
-                    }
-                    Spacer(minLength: 8)
-                    Image(systemName: all ? "checkmark" : "play.fill")
-                        .font(.system(size: 17, weight: .bold))
-                        .foregroundColor(DS.onGold)
-                        .frame(width: 46, height: 46)
-                        .background(DS.gold, in: Circle())
-                }
-                HStack(spacing: 8) {
-                    ForEach(LessonStep.allCases) { step in
-                        let finished = done.contains(step.rawValue)
-                        Label(t("lesson.step.\(step.rawValue)"), systemImage: finished ? "checkmark.circle.fill" : step.icon)
-                            .font(.caption.weight(.semibold))
-                            .foregroundColor(finished ? DS.night : DS.onNight)
-                            .lineLimit(1)
-                            .padding(.horizontal, 10)
-                            .frame(height: 30)
-                            .background(finished ? DS.gold : Color.white.opacity(0.12), in: Capsule())
-                    }
-                }
-            }
-            .padding(18)
-            .background(DS.night, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
-        }
-        .buttonStyle(.pressable)
-        .onAppear { done = LessonStore.done() }
-        .onReceive(NotificationCenter.default.publisher(for: LessonStore.changed)) { _ in done = LessonStore.done() }
-        .onReceive(NotificationCenter.default.publisher(for: DailySavedState.changed)) { _ in markTextIfRead() }
-        .onAppear { markTextIfRead() }
-    }
-
-    /// The text step counts once today's text was opened.
-    private func markTextIfRead() {
-        if let text = daily.today, daily.isRead(text) { LessonStore.mark(.text) }
-    }
-}
-
 /// The lesson page: the three steps in order.
 struct LessonView: View {
     @EnvironmentObject private var model: A1Model

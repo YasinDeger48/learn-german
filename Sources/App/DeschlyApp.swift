@@ -64,6 +64,8 @@ enum AppRoute: Hashable {
     case unit(String)
     case examHome
     case lesson
+    /// One step of today's lesson (LessonStep raw value), from the plan card on Today.
+    case lessonStep(String)
     case writing
     case verbLab
     case memorize
@@ -294,6 +296,10 @@ struct AppDestination: View {
             }
         case .lesson:
             LessonView().environmentObject(levels.hasPractice(daily.level) ? levels.model(daily.level) : levels.a1)
+        case .lessonStep(let raw):
+            if let step = LessonStep(rawValue: raw) {
+                LessonStepView(step: step).environmentObject(levels.hasPractice(daily.level) ? levels.model(daily.level) : levels.a1)
+            }
         case .module(let raw):
             if let module = ExamModule(rawValue: raw) { ModuleView(module: module).environmentObject(levels.current) }
         case .basics:
