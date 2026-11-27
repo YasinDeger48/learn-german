@@ -781,7 +781,12 @@ struct LazyPlayerView: View {
     private var endCard: some View {
         VStack(spacing: 12) {
             Spacer()
-            LinaAvatar(size: 120, mood: .happy)
+            // Lina making a heart, on the card itself (no circle behind her).
+            if let finish = UIImage(named: "lina-finish") {
+                Image(uiImage: finish).resizable().scaledToFit().frame(maxHeight: 210).accessibilityHidden(true)
+            } else {
+                LinaAvatar(size: 120, mood: .happy)
+            }
             Text(t("lazy.done")).font(.system(size: 28, weight: .heavy)).foregroundColor(Self.ink)
             Text(t("lazy.doneSub", slidesSeen)).font(.body).foregroundColor(Self.soft)
             HStack(spacing: 10) {
