@@ -50,6 +50,34 @@ enum DailyQuota {
     }
 }
 
+/// A thank-you for people who used Deschly while it was free for everyone: 30 days of Pro, counted from the first
+/// launch of a version with sales on. Decided once on that launch: someone who had already picked a language used an
+/// earlier version; a new install does not get it.
+enum ProGift {
+    static let days = 30
+    private static let untilKey = "pro.giftUntil"
+    private static let checkedKey = "pro.giftChecked"
+    private static let welcomedKey = "pro.giftWelcomed"
+    private static var defaults: UserDefaults { .standard }
+
+    static func grantIfEarlyUser() {
+        // Not in the owner's preview IPA (sample prices): there the free version itself is being tested.
+        guard !ProStore.freeForAll, !ProPreview.enabled, !defaults.bool(forKey: checkedKey) else { return }
+        defaults.set(true, forKey: checkedKey)
+        guard defaults.bool(forKey: Localizer.chosenKey) else { return }
+        let end = Date().addingTimeInterval(Double(days) * 86_400)
+        defaults.set(end, forKey: untilKey)
+        Reminders.scheduleGiftEnding(end)
+    }
+
+    static var until: Date? { defaults.object(forKey: untilKey) as? Date }
+    static var isActive: Bool { until.map { $0 > Date() } ?? false }
+
+    /// The gift screen, once, right after it was granted.
+    static var shouldWelcome: Bool { isActive && !defaults.bool(forKey: welcomedKey) }
+    static func markWelcomed() { defaults.set(true, forKey: welcomedKey) }
+}
+
 /// Deschly Pro: purchases with StoreKit 2 (no account, Apple keeps the receipts) and the free daily limit.
 @MainActor
 final class ProStore: ObservableObject {
@@ -67,18 +95,23 @@ final class ProStore: ObservableObject {
     @Published private(set) var trialDays: Int?
     /// End of the running free trial, if any.
     @Published private(set) var trialEnds: Date?
+    /// A verified purchase or subscription (not the gift, not free-for-all).
+    @Published private(set) var purchased: Bool
     /// Set after a purchase in this session: the paywall shows the welcome screen.
     @Published var showWelcome = false
 
     private let cacheKey = "proActive"
 
     /// Pro as last known (also inside sheets): free-for-all or a purchase StoreKit confirmed earlier.
-    nonisolated static var isProNow: Bool { freeForAll || UserDefaults.standard.bool(forKey: "proActive") }
+    nonisolated static var isProNow: Bool { freeForAll || ProGift.isActive || UserDefaults.standard.bool(forKey: "proActive") }
     private var updates: Task<Void, Never>?
 
     init() {
+        ProGift.grantIfEarlyUser()
         // Last known state, so the app does not flash the limit while StoreKit answers.
-        isPro = ProStore.freeForAll || UserDefaults.standard.bool(forKey: cacheKey)
+        let bought = UserDefaults.standard.bool(forKey: "proActive")
+        purchased = bought
+        isPro = ProStore.freeForAll || ProGift.isActive || bought
         remaining = DailyQuota.remaining
         updates = Task { [weak self] in
             for await result in Transaction.updates {
@@ -152,7 +185,8 @@ final class ProStore: ObservableObject {
             }
         }
         trialEnds = trialEnd
-        isPro = active || ProStore.freeForAll
+        purchased = active
+        isPro = active || ProStore.freeForAll || ProGift.isActive
         UserDefaults.standard.set(active, forKey: cacheKey)
     }
 

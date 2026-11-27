@@ -118,6 +118,10 @@ struct RootView: View {
     @State private var celebration: Celebration?
     @ObservedObject private var notifications = NotificationHandler.shared
     @State private var goalToast = false
+    /// The early users' thank-you gift, once.
+    @State private var showGift = false
+    /// The Pro offer, from the "gift ends soon" reminder.
+    @State private var showOffer = false
     // After a palette change the screens are rebuilt: open Settings again (Profile → Settings).
     @State private var tab: AppTab = AppPalette.reopenSettings ? .profile : .today
     @State private var todayPath = NavigationPath()
@@ -156,9 +160,17 @@ struct RootView: View {
             // Consent and ads only for the free version, after onboarding.
             if !pro.isPro { AdsManager.shared.start() }
             checkProgress()
+            // After a badge celebration could have started, so two sheets never compete. Gift users are Pro,
+            // so no ad consent form starts at the same time.
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                if ProGift.shouldWelcome && celebration == nil { showGift = true }
+            }
         }
         .onChange(of: scenePhase) { phase in
-            if phase == .active { checkProgress() }
+            guard phase == .active else { return }
+            checkProgress()
+            // A subscription or the gift may have ended while the app was in the background.
+            Task { await pro.refreshEntitlements() }
         }
         // Another tab: whatever was reading or playing stops (a text kept reading on after leaving its tab).
         .onChange(of: tab) { _ in TextAudioPlayer.stopEverything() }
@@ -171,6 +183,13 @@ struct RootView: View {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { checkBadges() }  // after the sheet is gone
         }
         .sheet(item: $celebration) { CelebrationView(badges: $0.badges).environmentObject(pro) }
+        .fullScreenCover(isPresented: $showGift) {
+            ProGiftView {
+                ProGift.markWelcomed()
+                showGift = false
+            }
+        }
+        .sheet(isPresented: $showOffer) { PaywallView().environmentObject(pro) }
         // Daily goal reached: a short success haptic and a banner at the top, like system confirmations.
         .onReceive(NotificationCenter.default.publisher(for: StreakStore.goalReached)) { _ in
             UINotificationFeedbackGenerator().notificationOccurred(.success)
@@ -199,6 +218,11 @@ struct RootView: View {
             todayPath = NavigationPath()
             todayPath.append(AppRoute.reading(id))
             notifications.openTextID = nil
+        }
+        .onReceive(notifications.$openPro.filter { $0 }) { _ in
+            notifications.openPro = false
+            // Only while the gift runs: later the ad consent form may be starting at this launch.
+            if ProGift.isActive && !pro.purchased && celebration == nil && !showGift { showOffer = true }
         }
         .onReceive(notifications.$openPractice.compactMap { $0 }) { level in
             tab = .today

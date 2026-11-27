@@ -5,7 +5,9 @@ struct TodayView: View {
     @EnvironmentObject private var a1: A1Model
     @EnvironmentObject private var daily: DailyModel
     @EnvironmentObject private var levels: LevelModels
+    @EnvironmentObject private var pro: ProStore
     let open: (AppRoute) -> Void
+    @State private var showPaywall = false
     @State private var showStreak = false
     /// Height of the islands at the bottom (pills or an open card), so the page leaves just enough room under the
     /// last card to scroll it above them, and no empty space when they are small or closed.
@@ -24,6 +26,10 @@ struct TodayView: View {
             VStack(alignment: .leading, spacing: 0) {
                 topRow.padding(.top, 8)
                 greeting.padding(.top, 10)
+                // Free users: today's free questions left, opens the Pro offer.
+                if !pro.isPro {
+                    FreeQuestionsBanner { showPaywall = true }.padding(.top, 14)
+                }
                 // One plan for the day (unit step, words and review, text, speaking), then the games.
                 TodayPlanCard(model: practiceModel).padding(.top, 16)
                 TodayGames(model: practiceModel).padding(.top, 22)
@@ -58,6 +64,7 @@ struct TodayView: View {
         .toolbar(.hidden, for: .navigationBar)
         .onAppear {
             levels.active = practiceModel.level
+            pro.refreshQuota()
             if appeared { wordRound += 1 }
             appeared = true
         }
@@ -66,6 +73,7 @@ struct TodayView: View {
             if appeared { wordRound += 1 }
         }
         .onChange(of: daily.level) { _ in levels.active = practiceModel.level }
+        .sheet(isPresented: $showPaywall) { PaywallView().environmentObject(pro) }
         .sheet(isPresented: $showStreak) {
             StreakView(open: open).environmentObject(daily).presentationDragIndicator(.visible)
         }

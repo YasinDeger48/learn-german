@@ -161,6 +161,24 @@ enum Reminders {
         }
     }
 
+    /// Two days before the early users' Pro gift ends, at 18:00: a reminder whose tap opens the Pro offer.
+    /// Its own id, so `refresh` never removes it. Nothing without notification permission.
+    static func scheduleGiftEnding(_ end: Date) {
+        guard let day = Calendar.current.date(byAdding: .day, value: -2, to: end) else { return }
+        var parts = Calendar.current.dateComponents([.year, .month, .day], from: day)
+        parts.hour = 18
+        parts.minute = 0
+        guard let fire = Calendar.current.date(from: parts), fire > Date() else { return }
+        let content = UNMutableNotificationContent()
+        content.title = t("gift.endingTitle")
+        content.body = t("gift.endingBody")
+        content.sound = .default
+        content.userInfo = ["openPro": true]
+        if let picture = linaPicture("lina-wave") { content.attachments = [picture] }
+        let trigger = UNCalendarNotificationTrigger(dateMatching: parts, repeats: false)
+        UNUserNotificationCenter.current().add(UNNotificationRequest(identifier: "gift-ending", content: content, trigger: trigger))
+    }
+
     /// The first learning action of the day removes tonight's streak reminder.
     static func cancelTodayStreakReminder() {
         let parts = Calendar.current.dateComponents([.year, .month, .day], from: Date())
@@ -192,6 +210,8 @@ final class NotificationHandler: NSObject, ObservableObject, UNUserNotificationC
     @Published var openTextID: String?
     /// A level to practise (tap on "Practise" in the word notification).
     @Published var openPractice: String?
+    /// Tap on the "gift ends soon" reminder: show the Pro offer.
+    @Published var openPro = false
 
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
                                 withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -219,6 +239,8 @@ final class NotificationHandler: NSObject, ObservableObject, UNUserNotificationC
         }
         if action == "word.practice" || response.notification.request.content.categoryIdentifier == Reminders.wordCategory {
             DispatchQueue.main.async { self.openPractice = info["level"] as? String }
+        } else if info["openPro"] as? Bool == true {
+            DispatchQueue.main.async { self.openPro = true }
         } else if let id = info["textID"] as? String {
             DispatchQueue.main.async { self.openTextID = id }
         }

@@ -70,12 +70,12 @@ private struct ProWordmark: View {
 /// The preview IPA (CI sets DeschlyPreviewPrices in its Info.plist): sample prices when the store has none.
 enum ProPreview {
     static let enabled = Bundle.main.object(forInfoDictionaryKey: "DeschlyPreviewPrices") as? Bool ?? false
-    static let monthly = "4,99 $"
-    static let yearly = "29,99 $"
-    static let yearlyPerMonth = "2,49 $"
-    static let lifetime = "59,99 $"
+    static let monthly = "2,99 $"
+    static let yearly = "19,99 $"
+    static let yearlyPerMonth = "1,67 $"
+    static let lifetime = "39,99 $"
     static let trialDays = 7
-    static let saving = 50
+    static let saving = 44
 }
 
 struct PaywallView: View {
@@ -84,10 +84,12 @@ struct PaywallView: View {
     @State private var selected = ProProduct.yearly
     /// The store has no products and this is the preview IPA: sample prices are shown.
     private var previewing: Bool { pro.products.isEmpty && !pro.loading && ProPreview.enabled }
+    /// Nothing to sell: bought, or free for everyone. The 30-day gift still shows the plans, so it can be kept.
+    private var owned: Bool { pro.purchased || ProStore.freeForAll }
 
     var body: some View {
         Group {
-            if pro.showWelcome && pro.isPro {
+            if pro.showWelcome && owned {
                 WelcomeProView {
                     pro.showWelcome = false
                     dismiss()
@@ -97,9 +99,9 @@ struct PaywallView: View {
             }
         }
         .task { await pro.loadProducts() }
-        .onChange(of: pro.isPro) { isPro in
+        .onChange(of: pro.purchased) { bought in
             // Restored, or bought on another device: nothing to sell any more.
-            if isPro && !pro.showWelcome { dismiss() }
+            if bought && !pro.showWelcome { dismiss() }
         }
     }
 
@@ -190,7 +192,7 @@ struct PaywallView: View {
     }
 
     @ViewBuilder private var plans: some View {
-        if pro.isPro {
+        if owned {
             Label(t("pro.active"), systemImage: "checkmark.seal.fill")
                 .foregroundColor(DS.success)
                 .frame(maxWidth: .infinity, minHeight: 56)
@@ -303,7 +305,7 @@ struct PaywallView: View {
     }
 
     @ViewBuilder private var footer: some View {
-        if !pro.isPro {
+        if !owned {
             let product = pro.product(selected)
             let trial = selected == ProProduct.yearly ? (previewing ? ProPreview.trialDays : pro.trialDays) : nil
             VStack(spacing: 8) {
@@ -561,6 +563,39 @@ struct FreeQuestionsBanner: View {
     }
 }
 
+// MARK: - Gift
+
+/// Shown once when an early user gets the 30-day thank-you gift.
+struct ProGiftView: View {
+    let onDone: () -> Void
+
+    var body: some View {
+        VStack(spacing: 16) {
+            Spacer(minLength: 10)
+            LinaPro(size: 150)
+            Text(t("gift.title"))
+                .font(DS.display(28))
+                .multilineTextAlignment(.center)
+            Text(t("gift.body", ProGift.days, (ProGift.until ?? Date()).formatted(date: .long, time: .omitted)))
+                .multilineTextAlignment(.center)
+                .foregroundColor(.white.opacity(0.9))
+                .frame(maxWidth: 330)
+            Spacer(minLength: 10)
+            Button(action: onDone) {
+                Text("Danke, Lina!")
+                    .font(.system(size: 17, weight: .bold))
+                    .foregroundColor(DS.onGold)
+                    .frame(maxWidth: .infinity, minHeight: 54)
+                    .background(DS.gold, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            }
+        }
+        .foregroundColor(.white)
+        .padding(24)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(ProStyle.gradient.ignoresSafeArea())
+    }
+}
+
 // MARK: - Settings
 
 /// Settings: a Pro card (or the active state), restore and manage subscription.
@@ -574,6 +609,16 @@ struct ProSettingsSection: View {
             if ProStore.freeForAll {
                 // Everything is free for now: no Pro section at all.
                 EmptyView()
+            } else if let until = giftUntil {
+                // The thank-you gift: when it ends, and the offer to keep Pro.
+                Section {
+                    Label(t("gift.active", until.formatted(date: .long, time: .omitted)), systemImage: "gift.fill")
+                        .foregroundColor(DS.success)
+                    Button(t("gift.keep")) { showPaywall = true }
+                    Button(t("pro.restore")) { Task { await pro.restore() } }.disabled(pro.busy)
+                } footer: {
+                    if let message = pro.message { Text(message) }
+                }
             } else if pro.isPro {
                 Section {
                     Label(t("pro.active"), systemImage: "checkmark.seal.fill").foregroundColor(DS.success)
@@ -602,6 +647,11 @@ struct ProSettingsSection: View {
         .manageSubscriptionsSheet(isPresented: $manage)
         .onAppear { pro.refreshQuota() }
         .task { await pro.loadProducts() }
+    }
+
+    /// End of the thank-you gift, while it is what makes this user Pro.
+    private var giftUntil: Date? {
+        pro.isPro && !pro.purchased && ProGift.isActive ? ProGift.until : nil
     }
 
     private var card: some View {

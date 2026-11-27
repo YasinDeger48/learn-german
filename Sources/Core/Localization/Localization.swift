@@ -79,7 +79,7 @@ final class Localizer: ObservableObject {
     static let shared = Localizer()
 
     private static let languageKey = "appLanguage"
-    private static let chosenKey = "appLanguageChosen"
+    static let chosenKey = "appLanguageChosen"
 
     @Published private(set) var language: AppLanguage
     @Published private(set) var hasChosen: Bool
