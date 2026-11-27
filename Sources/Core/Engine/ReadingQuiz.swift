@@ -9,22 +9,20 @@ enum ReadingQuiz {
     /// recorded sentences are found).
     static func sentences(in paragraph: String) -> [String] {
         var result: [String] = []
-        do {
-            var current = ""
-            let chars = Array(paragraph)
-            for (i, ch) in chars.enumerated() {
-                current.append(ch)
-                let atEnd = i == chars.count - 1
-                let nextIsSpace = !atEnd && chars[i + 1] == " "
-                if (ch == "." || ch == "!" || ch == "?") && (atEnd || nextIsSpace) {
-                    let trimmed = current.trimmingCharacters(in: .whitespaces)
-                    if !trimmed.isEmpty { result.append(trimmed) }
-                    current = ""
-                }
+        var current = ""
+        let chars = Array(paragraph)
+        for (i, ch) in chars.enumerated() {
+            current.append(ch)
+            let atEnd = i == chars.count - 1
+            let nextIsSpace = !atEnd && chars[i + 1] == " "
+            if (ch == "." || ch == "!" || ch == "?") && (atEnd || nextIsSpace) {
+                let trimmed = current.trimmingCharacters(in: .whitespaces)
+                if !trimmed.isEmpty { result.append(trimmed) }
+                current = ""
             }
-            let rest = current.trimmingCharacters(in: .whitespaces)
-            if !rest.isEmpty { result.append(rest) }
         }
+        let rest = current.trimmingCharacters(in: .whitespaces)
+        if !rest.isEmpty { result.append(rest) }
         return result
     }
 

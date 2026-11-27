@@ -468,30 +468,3 @@ struct LinaReviewCard: View {
     }
 }
 
-/// The card on Today (only when the model is available).
-struct LinaChatCard: View {
-    var body: some View {
-        HStack(spacing: 14) {
-            LinaAvatar(size: 64, mood: .happy)
-            VStack(alignment: .leading, spacing: 3) {
-                Text(t("lina.badge")).font(.system(size: 11, weight: .heavy)).tracking(1.6).foregroundColor(DS.gold)
-                Text(t("lina.chatTitle")).font(.system(size: 21, weight: .heavy, design: .rounded)).foregroundColor(.white)
-                Text(t("lina.cardSub")).font(.footnote).foregroundColor(.white.opacity(0.85))
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-            Spacer(minLength: 0)
-            Image(systemName: "bubble.left.and.bubble.right.fill")
-                .font(.system(size: 16, weight: .bold))
-                .foregroundColor(DS.onGold)
-                .frame(width: 44, height: 44)
-                .background(DS.gold, in: Circle())
-        }
-        .padding(14)
-        .background(LinearGradient(colors: [Color(red: 0.98, green: 0.55, blue: 0.40), Color(red: 0.78, green: 0.25, blue: 0.42)],
-                                   startPoint: .topLeading, endPoint: .bottomTrailing),
-                    in: RoundedRectangle(cornerRadius: 20, style: .continuous))
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel(t("lina.chatTitle"))
-        .accessibilityHint(t("lina.cardSub"))
-    }
-}

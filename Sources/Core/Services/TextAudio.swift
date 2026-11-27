@@ -169,8 +169,12 @@ final class AmbiencePlayer: ObservableObject {
     @Published var enabled: Bool = UserDefaults.standard.object(forKey: AmbiencePlayer.enabledKey) as? Bool ?? true {
         didSet { UserDefaults.standard.set(enabled, forKey: Self.enabledKey) }
     }
-    /// Text id → kind ("bus", "cafe", …).
+    /// Text id → kind ("bus", "cafe", …). Only letters: the kind becomes a file name (the list is not signed).
     @Published private(set) var kinds: [String: String] = [:]
+
+    private static func safe(_ kinds: [String: String]) -> [String: String] {
+        kinds.filter { _, kind in !kind.isEmpty && kind.allSatisfy { $0.isLetter && $0.isASCII } }
+    }
 
     private var player: AVAudioPlayer?
     private var loaded = false
@@ -192,14 +196,14 @@ final class AmbiencePlayer: ObservableObject {
         loaded = true
         let cache = Self.folder.appendingPathComponent("ambience.json")
         if let data = try? Data(contentsOf: cache), let file = try? JSONDecoder().decode(File.self, from: data) {
-            kinds = file.texts
+            kinds = Self.safe(file.texts)
         }
         let url = TextAudioPlayer.base.appendingPathComponent("ambience.json")
         URLSession.shared.dataTask(with: url) { [weak self] data, response, _ in
             guard let data, (response as? HTTPURLResponse)?.statusCode == 200,
                   let file = try? JSONDecoder().decode(File.self, from: data) else { return }
             try? data.write(to: cache, options: .atomic)
-            DispatchQueue.main.async { self?.kinds = file.texts }
+            DispatchQueue.main.async { self?.kinds = Self.safe(file.texts) }
         }.resume()
     }
 
@@ -240,7 +244,7 @@ final class AmbiencePlayer: ObservableObject {
     /// Starts a loop of this kind ("bus", "cafe"…) if the learner turned background sound on.
     func start(kind: String, key: String) {
         stop()
-        guard enabled else { return }
+        guard enabled, !kind.isEmpty, kind.allSatisfy({ $0.isLetter && $0.isASCII }) else { return }
         let textID = key
         wanted = textID
         let local = Self.folder.appendingPathComponent("amb-\(kind).m4a")
@@ -315,7 +319,7 @@ final class WordAudio {
         DispatchQueue.global(qos: .userInitiated).async { [weak self] in
             let cache = Self.folder.appendingPathComponent("words.json")
             if let data = try? Data(contentsOf: cache), let file = try? JSONDecoder().decode(File.self, from: data) {
-                DispatchQueue.main.async { if self?.items.isEmpty == true { self?.items = file.items } }
+                DispatchQueue.main.async { if self?.items.isEmpty == true { self?.items = Self.safe(file.items) } }
             }
             let defaults = UserDefaults.standard
             let fresh = Date().timeIntervalSince1970 - defaults.double(forKey: "wordAudio.checked") < 12 * 3600
@@ -336,7 +340,7 @@ final class WordAudio {
                 try? data.write(to: cache, options: .atomic)
                 defaults.set(http.value(forHTTPHeaderField: "ETag"), forKey: "wordAudio.etag")
                 defaults.set(Date().timeIntervalSince1970, forKey: "wordAudio.checked")
-                DispatchQueue.main.async { self?.items = file.items }
+                DispatchQueue.main.async { self?.items = Self.safe(file.items) }
             }.resume()
         }
     }
@@ -348,6 +352,11 @@ final class WordAudio {
     }
 
     private static func local(_ hash: String) -> URL { folder.appendingPathComponent("w-\(hash).mp3") }
+
+    /// words.json is not signed: a file name must be a plain hash ("3fa9c01b2e4d"), never a path.
+    static func safe(_ items: [String: String]) -> [String: String] {
+        items.filter { _, hash in hash.count == 12 && hash.allSatisfy { $0.isHexDigit } }
+    }
 
     /// Whether the natural voice has this line (Tembel Mod reads only those).
     func isRecorded(_ line: A1Line) -> Bool {

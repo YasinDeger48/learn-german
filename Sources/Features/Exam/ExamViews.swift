@@ -15,6 +15,14 @@ struct Certificate: Codable, Identifiable, Hashable {
 
     var total: Int { scores.values.reduce(0, +) }
     func score(_ module: ExamModule) -> Int? { scores[module.rawValue] }
+
+    /// The points could come from a real exam: the four modules, each 0…25, passed by the rules of its level.
+    var followsRules: Bool {
+        let modules = Set(ExamModule.allCases.map(\.rawValue))
+        guard Set(scores.keys) == modules, scores.values.allSatisfy({ (0...25).contains($0) }),
+              ["A1", "A2", "B1", "B2"].contains(level.uppercased()) else { return false }
+        return ExamAttempt(level: level, date: date, scores: scores).passed
+    }
 }
 
 /// One finished mock exam.
@@ -86,7 +94,7 @@ enum ExamStore {
     /// From a backup: keeps the better certificate of each level.
     static func merge(_ other: [Certificate]) {
         var mine = certificates()
-        for certificate in other {
+        for certificate in other where certificate.followsRules {
             if let old = mine.first(where: { $0.level == certificate.level }), old.total >= certificate.total { continue }
             mine.removeAll { $0.level == certificate.level }
             mine.append(certificate)
@@ -317,6 +325,8 @@ struct ExamRunView: View {
     @State private var writingTasks: [WritingTask] = []
     /// The module on screen. Kept apart from "the next module", which changes as soon as a module is scored.
     @State private var running: ExamModule?
+    /// When each module was first opened: leaving and coming back does not give the full time again.
+    @State private var started: [String: Date] = [:]
     @State private var result: (attempt: ExamAttempt, certificate: Certificate?)?
     @Environment(\.dismiss) private var dismiss
 
@@ -386,7 +396,7 @@ struct ExamRunView: View {
             .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
             Button {
                 withAnimation { begun = true }
-                running = ExamModule.allCases.first
+                if let first = ExamModule.allCases.first { open(first) }
             } label: {
                 Text(t("exam.readyGo"))
                     .font(DS.text(16, .semibold))
@@ -456,7 +466,7 @@ struct ExamRunView: View {
                 }
             }
             .accessibilityHidden(true)
-            Button { running = module } label: {
+            Button { open(module) } label: {
                 Text(t("exam.startModule", module.title))
                     .font(DS.text(16, .semibold))
                     .foregroundColor(DS.onGold)
@@ -464,7 +474,28 @@ struct ExamRunView: View {
                     .background(DS.gold, in: Capsule())
             }
             .buttonStyle(.pressable)
+            // Without the microphone or speech recognition Sprechen cannot be done: the exam must still end.
+            if module == .sprechen {
+                Button(t("exam.skipModule")) {
+                    counts[module.rawValue] = [0, speakingTask?.points.count ?? 0]
+                    scores[module.rawValue] = 0
+                }
+                .font(.subheadline)
+                .foregroundColor(DS.muted)
+                .frame(maxWidth: .infinity, minHeight: 44)
+            }
         }
+    }
+
+    private func open(_ module: ExamModule) {
+        if started[module.rawValue] == nil { started[module.rawValue] = Date() }
+        running = module
+    }
+
+    /// Seconds left of a module's time (the clock runs from its first opening).
+    private func secondsLeft(_ module: ExamModule) -> Int {
+        let since = started[module.rawValue].map { Int(Date().timeIntervalSince($0)) } ?? 0
+        return max(0, module.minutes * 60 - since)
     }
 
     @ViewBuilder
@@ -478,12 +509,13 @@ struct ExamRunView: View {
                 }
             }
         case .schreiben where !writingTasks.isEmpty:
-            ExamWritingView(tasks: writingTasks, seconds: module.minutes * 60) { percent in
+            ExamWritingView(tasks: writingTasks, seconds: module.minutes * 60,
+                            startedAt: started[module.rawValue] ?? Date()) { percent in
                 counts[module.rawValue] = nil
                 scores[module.rawValue] = points(percent, 100)
             }
         default:
-            A1QuizView(title: module.title, exam: true, free: true, partPoints: 25, timeLimit: module.minutes * 60,
+            A1QuizView(title: module.title, exam: true, free: true, partPoints: 25, timeLimit: secondsLeft(module),
                        onFinish: { correct, total in
                 counts[module.rawValue] = [correct, total]
                 scores[module.rawValue] = points(correct, total)
@@ -632,10 +664,11 @@ struct ExamRunView: View {
 struct ExamWritingView: View {
     let tasks: [WritingTask]
     let seconds: Int
+    /// When the module was first opened (ExamRunView), so coming back does not restart the clock.
+    let startedAt: Date
     let onFinish: (Int) -> Void
     @State private var step = 0
     @State private var results: [Int] = []
-    @State private var startedAt = Date()
     @State private var now = Date()
     @State private var submit = 0
     @State private var timeUp = false

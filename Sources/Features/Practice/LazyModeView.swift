@@ -236,39 +236,6 @@ enum LazyDeck {
 
 // MARK: - Entry card and setup
 
-/// The card on the level's practice page.
-struct LazyModeCard: View {
-    let level: String
-    let open: () -> Void
-
-    var body: some View {
-        Button(action: open) {
-            HStack(spacing: 14) {
-                LinaAvatar(size: 64, mood: .calm)
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(t("lazy.badge")).font(.system(size: 11, weight: .heavy)).tracking(1.8).foregroundColor(DS.gold)
-                    Text(t("lazy.title")).font(.system(size: 21, weight: .heavy)).foregroundColor(.white)
-                    Text(t("lazy.cardSub", level)).font(.footnote).foregroundColor(Color(red: 0.81, green: 0.78, blue: 0.71))
-                        .multilineTextAlignment(.leading)
-                }
-                Spacer(minLength: 4)
-                Image(systemName: "play.fill")
-                    .font(.system(size: 16, weight: .bold))
-                    .foregroundColor(DS.onGold)
-                    .frame(width: 44, height: 44)
-                    .background(DS.gold, in: Circle())
-            }
-            .padding(16)
-            .background(LinearGradient(colors: [Color(red: 0.165, green: 0.149, blue: 0.078), Color(red: 0.055, green: 0.059, blue: 0.047)],
-                                       startPoint: .topLeading, endPoint: .bottomTrailing),
-                        in: RoundedRectangle(cornerRadius: 22, style: .continuous))
-        }
-        .buttonStyle(.pressable)
-        .accessibilityLabel(t("lazy.title"))
-        .accessibilityHint(t("lazy.cardSub", level))
-    }
-}
-
 /// The setup sheet: what to watch (big tiles in the middle, the guessing games first), how long (a slider), and
 /// which words (all nouns of the level or the learner's own pool).
 struct LazySetupView: View {

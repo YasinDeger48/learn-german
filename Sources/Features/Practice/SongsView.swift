@@ -429,33 +429,3 @@ private extension Song {
     var level: String { String(id.prefix(2)).uppercased() }
 }
 
-/// The card on Today, under the word run.
-struct SongsCard: View {
-    let count: Int
-
-    var body: some View {
-        HStack(spacing: 14) {
-            if let lina = UIImage(named: "lina-dance-3") {
-                Image(uiImage: lina).resizable().scaledToFit().frame(width: 92, height: 92)
-            }
-            VStack(alignment: .leading, spacing: 3) {
-                Text(t("song.badge")).font(.system(size: 11, weight: .heavy)).tracking(1.6).foregroundColor(Color(red: 1, green: 0.88, blue: 0.54))
-                Text(t("song.title")).font(.system(size: 22, weight: .heavy, design: .rounded)).foregroundColor(.white)
-                Text(t("song.cardSub", count)).font(.footnote).foregroundColor(.white.opacity(0.85))
-            }
-            Spacer(minLength: 0)
-            Image(systemName: "play.fill").font(.system(size: 16, weight: .bold))
-                .foregroundColor(Color(red: 0.10, green: 0.06, blue: 0.27))
-                .frame(width: 44, height: 44)
-                .background(Color(red: 1, green: 0.88, blue: 0.54), in: Circle())
-        }
-        .padding(.horizontal, 14)
-        .frame(height: 112)
-        .background(LinearGradient(colors: [Color(red: 0.42, green: 0.25, blue: 0.84), Color(red: 0.16, green: 0.09, blue: 0.40)],
-                                   startPoint: .topLeading, endPoint: .bottomTrailing),
-                    in: RoundedRectangle(cornerRadius: 20, style: .continuous))
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel(t("song.title"))
-        .accessibilityHint(t("song.cardSub", count))
-    }
-}

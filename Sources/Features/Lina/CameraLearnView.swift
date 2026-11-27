@@ -596,29 +596,3 @@ private struct FindGamePane: View {
     }
 }
 
-/// The card on Today (only on phones with a camera).
-struct CameraLearnCard: View {
-    var body: some View {
-        HStack(spacing: 14) {
-            Image(systemName: "camera.viewfinder")
-                .font(.system(size: 26, weight: .bold))
-                .foregroundColor(DS.onGold)
-                .frame(width: 60, height: 60)
-                .background(DS.gold, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-            VStack(alignment: .leading, spacing: 3) {
-                Text(t("cam.badge")).font(.system(size: 11, weight: .heavy)).tracking(1.6).foregroundColor(DS.gold)
-                Text(t("cam.title")).font(.system(size: 21, weight: .heavy, design: .rounded)).foregroundColor(.white)
-                Text(t("cam.cardSub")).font(.footnote).foregroundColor(.white.opacity(0.85))
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-            Spacer(minLength: 0)
-        }
-        .padding(14)
-        .background(LinearGradient(colors: [Color(red: 0.20, green: 0.22, blue: 0.28), Color(red: 0.06, green: 0.07, blue: 0.10)],
-                                   startPoint: .topLeading, endPoint: .bottomTrailing),
-                    in: RoundedRectangle(cornerRadius: 20, style: .continuous))
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel(t("cam.title"))
-        .accessibilityHint(t("cam.cardSub"))
-    }
-}

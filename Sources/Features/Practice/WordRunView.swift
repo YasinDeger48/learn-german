@@ -602,33 +602,3 @@ private struct RunShake: GeometryEffect {
     }
 }
 
-/// The card under the "keep going" tiles on Today.
-struct WordRunCard: View {
-    var body: some View {
-        ZStack(alignment: .leading) {
-            if let far = RunArt.far {
-                Image(uiImage: far).resizable().scaledToFill()
-                    .frame(height: 120)
-                    .clipped()
-            }
-            LinearGradient(colors: [Color.black.opacity(0.55), Color.black.opacity(0)], startPoint: .leading, endPoint: .trailing)
-            HStack(spacing: 0) {
-                VStack(alignment: .leading, spacing: 3) {
-                    Text(t("run.badge")).font(.system(size: 11, weight: .heavy)).tracking(1.6).foregroundColor(DS.gold)
-                    Text(t("run.title")).font(.system(size: 22, weight: .heavy, design: .rounded)).foregroundColor(.white)
-                    Text(t("run.cardSub")).font(.footnote).foregroundColor(.white.opacity(0.9))
-                }
-                .padding(.leading, 16)
-                Spacer(minLength: 0)
-                if let lina = RunArt.run.first {
-                    Image(uiImage: lina).resizable().scaledToFit().frame(width: 118, height: 118).offset(y: 6)
-                }
-            }
-        }
-        .frame(height: 120)
-        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel(t("run.title"))
-        .accessibilityHint(t("run.cardSub"))
-    }
-}
