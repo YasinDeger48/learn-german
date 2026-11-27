@@ -226,6 +226,9 @@ struct CelebrationView: View {
     }
 
     var body: some View {
+        // Scrolls when it does not fit (7-day streak with the offer on a small phone); otherwise it fills the sheet.
+        GeometryReader { proxy in
+        ScrollView {
         VStack(spacing: 16) {
             Spacer(minLength: 20)
             if let milestone {
@@ -305,6 +308,9 @@ struct CelebrationView: View {
         }
         .padding(.horizontal, 24)
         .padding(.bottom, 16)
+        .frame(minHeight: proxy.size.height)
+        }
+        }
         .background(LinearGradient(colors: [milestone == nil ? DS.accent.opacity(0.10) : Color.orange.opacity(0.14), DS.ground],
                                    startPoint: .top, endPoint: .center).ignoresSafeArea())
         .overlay { ConfettiBurst() }

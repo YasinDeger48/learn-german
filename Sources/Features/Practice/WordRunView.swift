@@ -77,6 +77,8 @@ struct WordRunView: View {
     /// Box counts to choose from before the run.
     private static let counts = [5, 10, 15, 20]
     private static let speed: Double = 170          // points per second on the near layer
+    /// Room the answers need under the scene: the question row, the 2×2 options and the meaning box.
+    private static let answersHeight: CGFloat = 340
 
     @State private var questions: [RunQuestion] = []
     /// Before the run: which words (all of the level or the learner's pool) and how many boxes.
@@ -116,9 +118,13 @@ struct WordRunView: View {
             } else if questions.isEmpty {
                 ProgressView()
             } else {
-                VStack(spacing: 0) {
-                    scene.frame(height: 400)
-                    answers
+                // The answers keep their size; the scene takes what is left, 400 at most (small phones: from 230).
+                GeometryReader { proxy in
+                    VStack(spacing: 0) {
+                        scene.frame(height: min(400, max(230, proxy.size.height - Self.answersHeight)))
+                        answers
+                        Spacer(minLength: 0)
+                    }
                 }
             }
             if phase == .finished { finishView.transition(.opacity) }

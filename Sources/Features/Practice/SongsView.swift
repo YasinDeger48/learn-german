@@ -234,9 +234,10 @@ struct SongPlayerView: View {
                 .ignoresSafeArea()
             VStack(spacing: 14) {
                 header
-                dancer.frame(height: 230)
+                // Lina dances in the room left over: smaller on small phones, so the controls always fit.
+                dancer.frame(minHeight: 110, maxHeight: 230)
                 lyrics
-                Spacer(minLength: 0)
+                Spacer(minLength: 0).layoutPriority(-1)
                 progress
                 controls
             }
@@ -281,7 +282,7 @@ struct SongPlayerView: View {
                     return Int(time / beat) % min(5, Self.dance.count)
                 }()
                 Image(uiImage: Self.dance[frame]).resizable().scaledToFit()
-                    .frame(height: 220)
+                    .frame(maxHeight: 220)
                     .shadow(color: .black.opacity(0.35), radius: 12, y: 8)
                     .accessibilityLabel(t("song.dancing"))
             }

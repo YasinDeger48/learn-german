@@ -312,7 +312,8 @@ private struct GameCard: View {
                         Image(uiImage: image)
                             .resizable()
                             .scaledToFit()
-                            .frame(height: side * (game == .lazy ? 0.70 : 0.74))
+                            // Under the name (two lines at most): on a small phone the card is ~166 pt wide.
+                            .frame(height: min(side * (game == .lazy ? 0.70 : 0.74), side - 58))
                             .shadow(color: .black.opacity(0.18), radius: 6, y: 5)
                     }
                 }
@@ -324,6 +325,7 @@ private struct GameCard: View {
                     .foregroundColor(.white)
                     .lineLimit(2)
                     .minimumScaleFactor(0.8)
+                    .shadow(color: .black.opacity(0.25), radius: 2, y: 1)
                     .multilineTextAlignment(.leading)
                 Spacer(minLength: 0)
                 if isNew {

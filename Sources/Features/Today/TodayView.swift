@@ -66,7 +66,12 @@ struct TodayView: View {
         .toolbar {
             ToolbarItem(placement: .principal) { Color.clear.frame(width: 1, height: 1) }
             ToolbarItem(placement: .navigationBarLeading) {
-                Text(todayDate).font(.subheadline.weight(.semibold)).foregroundColor(DS.muted)
+                // "Donnerstag, 31. Dezember" next to a long XP number does not fit a small phone: then "Do., 31. Dez.".
+                ViewThatFits(in: .horizontal) {
+                    Text(germanDate("EEEEdMMMM"))
+                    Text(germanDate("EEEdMMM"))
+                }
+                .font(.subheadline.weight(.semibold)).foregroundColor(DS.muted).lineLimit(1)
             }
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack(spacing: 8) {
@@ -107,10 +112,10 @@ struct TodayView: View {
     }
 
     /// "Freitag, 27. November": in German, a little reading every day.
-    private var todayDate: String {
+    private func germanDate(_ template: String) -> String {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "de_DE")
-        formatter.setLocalizedDateFormatFromTemplate("EEEEdMMMM")
+        formatter.setLocalizedDateFormatFromTemplate(template)
         return formatter.string(from: Date())
     }
 
