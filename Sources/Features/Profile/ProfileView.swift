@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Profile tab: certificates, badges, levels and settings. Every other screen has its one place elsewhere
+/// Profile tab: certificates, badges, levels, settings and about the app (backup, privacy, version). Every other screen has its one place elsewhere
 /// (mistakes and the exam in Practice). The streak calendar opens from the streak itself (here and on Today).
 struct ProfileView: View {
     @EnvironmentObject private var daily: DailyModel
@@ -50,6 +50,15 @@ struct ProfileView: View {
                 }
                 NavigationLink(value: AppRoute.settings) {
                     Label(t("tab.settings"), systemImage: "gearshape")
+                }
+                NavigationLink {
+                    AboutAppView()
+                } label: {
+                    HStack {
+                        Label(t("settings.appInfo"), systemImage: "info.circle")
+                        Spacer()
+                        Text(AboutAppView.version).foregroundStyle(.secondary)
+                    }
                 }
             }
         }

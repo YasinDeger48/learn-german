@@ -113,19 +113,7 @@ struct SettingsView: View {
                 } footer: {
                     Text(permissionDenied ? t("settings.permissionDenied") : t("settings.dailyFooter"))
                 }
-                Section {
-                    NavigationLink {
-                        AboutAppView()
-                    } label: {
-                        HStack {
-                            Label(t("settings.appInfo"), systemImage: "info.circle")
-                            Spacer()
-                            Text(AboutAppView.version).foregroundStyle(.secondary)
-                        }
-                    }
-                } footer: {
-                    Text(t("settings.appInfoFooter"))
-                }
+                // "About the app" has its own row in Profile, under Settings.
             }
             .scrollContentBackground(.hidden)
             .background(DS.ground.ignoresSafeArea())
