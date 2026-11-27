@@ -173,15 +173,33 @@ extension A1Model {
 
 // MARK: - Picture
 
+/// The unit's picture, moving very slowly (design: https://claude.ai/artifact/GD3yaP4B2FLQi3JAAvp2Cw): it zooms and
+/// drifts back and forth over about 20 s, in one of four directions so tiles side by side do not move together;
+/// big pictures also get a few soft rising lights. Still with Reduce Motion.
 struct UnitPicture: View {
     let unit: LearningUnit
     /// nil: the whole picture at its own shape (3:2). A height crops it from the top, so faces stay in view.
     var height: CGFloat? = nil
     var dimmed = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var moving = false
+
+    /// (start scale, end scale, start offset, end offset, seconds), picked by the unit number.
+    private var path: (CGFloat, CGFloat, CGSize, CGSize, Double) {
+        switch unit.number % 4 {
+        case 0: return (1, 1.14, .zero, CGSize(width: -10, height: 6), 18)
+        case 1: return (1.12, 1, CGSize(width: 10, height: 0), .zero, 20)
+        case 2: return (1, 1.12, .zero, CGSize(width: 10, height: -3), 17)
+        default: return (1.1, 1.02, CGSize(width: -7, height: 6), CGSize(width: 7, height: 0), 22)
+        }
+    }
+
+    private var big: Bool { !dimmed && (height ?? 200) >= 150 }
 
     var body: some View {
         frame
             .overlay(alignment: .top) { picture }
+            .overlay { if big && !reduceMotion { RisingLights() } }
             .clipped()
             .grayscale(dimmed ? 1 : 0)
             .opacity(dimmed ? 0.55 : 1)
@@ -200,10 +218,42 @@ struct UnitPicture: View {
     @ViewBuilder
     private var picture: some View {
         if let image = unit.image {
+            let path = self.path
             Image(uiImage: image).resizable().scaledToFill()
+                .scaleEffect(moving ? path.1 : path.0, anchor: UnitPoint(x: 0.5, y: 0.3))
+                .offset(moving ? path.3 : path.2)
+                .animation(reduceMotion ? nil : .easeInOut(duration: path.4).repeatForever(autoreverses: true), value: moving)
+                .onAppear {
+                    guard !reduceMotion else { return }
+                    DispatchQueue.main.async { moving = true }  // after the first frame, so the change animates
+                }
         } else {
             LinearGradient(colors: [DS.gold.opacity(0.6), DS.gold.opacity(0.25)], startPoint: .topLeading, endPoint: .bottomTrailing)
         }
+    }
+}
+
+/// Four soft lights rising over a big unit picture, each at its own speed, fading in and out.
+private struct RisingLights: View {
+    private static let lights: [(x: Double, delay: Double, duration: Double)] = [(0.18, 0, 7), (0.46, 2.4, 8.5), (0.72, 1.1, 6.5), (0.88, 4, 9)]
+
+    var body: some View {
+        TimelineView(.animation(minimumInterval: 1 / 30)) { timeline in
+            Canvas { context, size in
+                let now = timeline.date.timeIntervalSinceReferenceDate
+                for light in Self.lights {
+                    let phase = ((now + light.delay).truncatingRemainder(dividingBy: light.duration)) / light.duration
+                    let alpha = phase < 0.15 ? phase / 0.15 * 0.9 : 0.9 * (1 - phase) / 0.85
+                    let radius = 3 + 3 * phase
+                    let center = CGPoint(x: size.width * light.x, y: size.height + 8 - phase * min(160, size.height * 0.8))
+                    let rect = CGRect(x: center.x - radius * 2, y: center.y - radius * 2, width: radius * 4, height: radius * 4)
+                    context.fill(Path(ellipseIn: rect), with: .radialGradient(
+                        Gradient(colors: [Color(red: 1, green: 0.96, blue: 0.81).opacity(alpha), .clear]),
+                        center: center, startRadius: 0, endRadius: radius * 2))
+                }
+            }
+        }
+        .allowsHitTesting(false)
     }
 }
 
