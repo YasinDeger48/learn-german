@@ -6,15 +6,15 @@ import SwiftUI
 // Design: https://claude.ai/artifact/6zFB7bGLPD61mYDWeeKBKs (owner's choice: name "Tembel Mod", the whole level).
 
 enum LazyTopic: String, CaseIterable, Identifiable {
-    case words, articles, meaning, plural, verbs, questions, must
+    case words, articles, meaning, plural, conjugate, verbs, questions, must
 
     var id: String { rawValue }
     var title: String { t("lazy.topic.\(rawValue)") }
     var sub: String { t("lazy.topicSub.\(rawValue)") }
     /// The guessing games: the answer shows after a pause.
-    var isGame: Bool { self == .articles || self == .meaning || self == .plural }
+    var isGame: Bool { self == .articles || self == .meaning || self == .plural || self == .conjugate }
     /// Topics built from the level's nouns (the word pool applies to them).
-    var usesNouns: Bool { self == .words || isGame }
+    var usesNouns: Bool { self == .words || self == .articles || self == .meaning || self == .plural }
 
     var icon: String {
         switch self {
@@ -22,6 +22,7 @@ enum LazyTopic: String, CaseIterable, Identifiable {
         case .articles: return "questionmark.bubble.fill"
         case .meaning: return "lightbulb.fill"
         case .plural: return "square.on.square.fill"
+        case .conjugate: return "person.fill.questionmark"
         case .verbs: return "bolt.fill"
         case .questions: return "bubble.left.and.bubble.right.fill"
         case .must: return "star.fill"
@@ -34,6 +35,7 @@ enum LazyTopic: String, CaseIterable, Identifiable {
         case .articles: return Color(red: 0.94, green: 0.36, blue: 0.40)
         case .meaning: return Color(red: 0.98, green: 0.66, blue: 0.13)
         case .plural: return Color(red: 0.13, green: 0.71, blue: 0.62)
+        case .conjugate: return Color(red: 0.42, green: 0.25, blue: 0.77)
         case .verbs: return Color(red: 0.55, green: 0.36, blue: 0.94)
         case .questions: return Color(red: 0.11, green: 0.62, blue: 0.86)
         case .must: return Color(red: 0.85, green: 0.47, blue: 0.13)
@@ -73,13 +75,15 @@ enum LazySlide {
     case meaning(A1Word, picture: String?)
     /// Guess the plural; it shows after a pause.
     case plural(A1Word, picture: String?)
+    /// Guess a present form: "du ___ (fahren)" → fährst. person: 0 ich, 1 du, 2 er.
+    case conjugate(VerbEntry, person: Int)
     case question(VerbSentence, verb: VerbEntry)
     case must(MemorizeSheet, MemorizeRow)
 
     /// A guessing slide: the answer shows after a pause.
     var isGuess: Bool {
         switch self {
-        case .article, .meaning, .plural: return true
+        case .article, .meaning, .plural, .conjugate: return true
         default: return false
         }
     }
@@ -87,7 +91,7 @@ enum LazySlide {
     /// Lina reads it only when the answer shows (reading it first would give the answer away).
     var readsAtReveal: Bool {
         switch self {
-        case .article, .plural: return true
+        case .article, .plural, .conjugate: return true
         default: return false
         }
     }
@@ -116,12 +120,16 @@ enum LazySlide {
             return [word.withArticle]
         case .plural(let word, _):
             return ["die \(word.plural ?? "")"]  // read when the answer shows
+        case .conjugate(let verb, let person):
+            return ["\(LazySlide.persons[person]) \(verb.praesens[person])"]  // read when the answer shows
         case .question(let sentence, _):
             return [sentence.de]
         case .must(_, let row):
             return [row.x ?? row.a]
         }
     }
+
+    static let persons = ["ich", "du", "er"]
 
     /// Seconds to read everything on the slide at normal speed: longer slides stay longer (owner's feedback).
     var readingSeconds: Double {
@@ -139,6 +147,8 @@ enum LazySlide {
             chars = word.de.count + word.mean.text.count + 40
         case .plural(let word, _):
             chars = word.de.count + (word.plural?.count ?? 0) + word.mean.text.count + 40
+        case .conjugate(let verb, _):
+            chars = verb.v.count + verb.meaning.count + 40
         case .question(let sentence, let verb):
             chars = sentence.de.count + sentence.meaning.count + verb.v.count + verb.meaning.count
         case .must(let sheet, let row):
@@ -182,9 +192,14 @@ enum LazyDeck {
             }
         }
         var verbBlocks: [[LazySlide]] = []
-        if topics.contains(.verbs) || topics.contains(.questions) {
+        if topics.contains(.verbs) || topics.contains(.questions) || topics.contains(.conjugate) {
             for verb in VerbBank.verbs(level).shuffled().prefix(80) {
                 var block: [LazySlide] = []
+                // The guess comes first: the verb's table would give the answer away. du and er most often
+                // (where the irregular forms are: fahren → fährst, fährt).
+                if topics.contains(.conjugate), verb.praesens.count >= 3, let person = [1, 2, 1, 2, 0].randomElement() {
+                    block.append(.conjugate(verb, person: person))
+                }
                 if topics.contains(.verbs) {
                     block.append(.verb(verb))
                     if !verb.examples.isEmpty { block.append(.verbExamples(verb)) }
@@ -219,7 +234,7 @@ enum LazyDeck {
         switch slide {
         case .noun(let word, _), .examples(let word), .article(let word, _): return word.withArticle
         case .meaning(let word, _), .plural(let word, _): return word.withArticle
-        case .verb(let verb), .verbExamples(let verb), .question(_, let verb): return verb.v
+        case .verb(let verb), .verbExamples(let verb), .question(_, let verb), .conjugate(let verb, _): return verb.v
         case .must(let sheet, _): return sheet.title.text
         }
     }
@@ -952,6 +967,26 @@ struct LazyPlayerView: View {
                 HStack(spacing: 10) {
                     Text("die").font(.system(size: 30, weight: .heavy)).foregroundColor(a1ArticleColor("die"))
                     Text(revealed ? (word.plural ?? "") : "_____")
+                        .font(.system(size: 34, weight: .heavy))
+                        .foregroundColor(revealed ? Self.ink : Color(red: 0.79, green: 0.76, blue: 0.67))
+                        .minimumScaleFactor(0.5).lineLimit(1)
+                        .scaleEffect(revealed && !reduceMotion ? 1.05 : 1)
+                }
+                .animation(.spring(response: 0.35, dampingFraction: 0.5), value: revealed)
+                Text(t("lazy.guess")).font(.subheadline).foregroundColor(Self.soft).multilineTextAlignment(.center).padding(.top, 10)
+            }
+            .frame(maxWidth: .infinity)
+
+        case .conjugate(let verb, let person):
+            VStack(spacing: 10) {
+                kind(t("lazy.kind.conjugate"))
+                Text(verb.v).font(.system(size: 36, weight: .heavy)).foregroundColor(Self.ink)
+                    .minimumScaleFactor(0.5).lineLimit(1).padding(.top, 18)
+                if showTranslation { Text(verb.meaning).font(.title3).foregroundColor(Color(red: 0.23, green: 0.23, blue: 0.21)) }
+                Image(systemName: "arrow.down").font(.system(size: 18, weight: .bold)).foregroundColor(Self.soft).padding(.vertical, 4)
+                HStack(spacing: 10) {
+                    Text(LazySlide.persons[person]).font(.system(size: 30, weight: .heavy)).foregroundColor(DS.der)
+                    Text(revealed ? verb.praesens[person] : "_____")
                         .font(.system(size: 34, weight: .heavy))
                         .foregroundColor(revealed ? Self.ink : Color(red: 0.79, green: 0.76, blue: 0.67))
                         .minimumScaleFactor(0.5).lineLimit(1)
