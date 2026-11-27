@@ -12,7 +12,11 @@ enum Reminders {
     private static let wordPrefix = "word-"
     private static let quizPrefix = "quiz-"
     private static let streakPrefix = "streak-"
+    private static let awayPrefix = "away-"
     private static let days = 14
+    /// "Lina misses you": days after the last time the app was opened, with Lina's picture.
+    /// Every opening schedules them again from that day, so they only fire while the app stays closed.
+    private static let away: [(day: Int, picture: String)] = [(2, "lina-sad-3"), (4, "lina-sad-3"), (7, "lina-sad-2"), (14, "lina-sad-2")]
 
     static let quizCategory = "ARTICLE_QUIZ"
     static let wordCategory = "WORD"
@@ -83,6 +87,7 @@ enum Reminders {
             center.getPendingNotificationRequests { pending in
                 let ours = pending.map(\.identifier).filter {
                     $0.hasPrefix(dailyPrefix) || $0.hasPrefix(wordPrefix) || $0.hasPrefix(quizPrefix) || $0.hasPrefix(streakPrefix)
+                        || $0.hasPrefix(awayPrefix)
                 }
                 center.removePendingNotificationRequests(withIdentifiers: ours)
                 guard enabled else { return }
@@ -119,16 +124,40 @@ enum Reminders {
                                 c.userInfo = ["level": level]
                             }
                         }
-                        // Evening streak reminder; today's is skipped when the learner was already active.
-                        if streakOn && !(offset == 0 && activeToday) {
+                        // Evening streak reminder; today's is skipped when the learner was already active,
+                        // and on a "Lina misses you" day that one comes instead.
+                        if streakOn && !(offset == 0 && activeToday) && !away.contains(where: { $0.day == offset }) {
                             add(center, streakPrefix, date, streakTime) { c in
                                 c.title = t("notify.streakTitle")
                                 c.body = t("notify.streakBody")
                             }
                         }
                     }
+                    // "Lina misses you" while the app stays closed (same switch as the streak reminder).
+                    if streakOn {
+                        for (n, item) in away.enumerated() {
+                            guard let date = Calendar.current.date(byAdding: .day, value: item.day, to: Date()) else { continue }
+                            add(center, awayPrefix, date, streakTime) { c in
+                                c.title = t("notify.away\(n + 1)Title")
+                                c.body = t("notify.away\(n + 1)Body")
+                                if let picture = linaPicture(item.picture) { c.attachments = [picture] }
+                            }
+                        }
+                    }
                 }
             }
+        }
+    }
+
+    /// A copy of Lina's picture for a notification (the system moves the attached file into its own store).
+    private static func linaPicture(_ name: String) -> UNNotificationAttachment? {
+        guard let source = Bundle.main.url(forResource: name, withExtension: "png") else { return nil }
+        let copy = FileManager.default.temporaryDirectory.appendingPathComponent("\(UUID().uuidString)-\(name).png")
+        do {
+            try FileManager.default.copyItem(at: source, to: copy)
+            return try UNNotificationAttachment(identifier: name, url: copy, options: nil)
+        } catch {
+            return nil
         }
     }
 
