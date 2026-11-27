@@ -503,6 +503,7 @@ struct WordsBasicsView: View {
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle("Wortschatz")
+        .safeAreaInset(edge: .bottom) { AdBanner() }
         .navigationBarTitleDisplayMode(.inline)
     }
 }

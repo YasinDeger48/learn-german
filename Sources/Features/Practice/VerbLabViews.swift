@@ -139,6 +139,7 @@ struct VerbLabHomeView: View {
         }
         .searchable(text: $search, prompt: t("verb.search"))
         .navigationTitle(t("verb.title"))
+        .safeAreaInset(edge: .bottom) { AdBanner() }
     }
 }
 

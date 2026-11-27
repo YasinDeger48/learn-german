@@ -294,6 +294,7 @@ struct PathView: View {
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("tab.path"))
+        .safeAreaInset(edge: .bottom) { AdBanner() }
         .onAppear {
             // Only the first time: coming back from a unit keeps the level the learner picked here.
             guard !levelChosen else { return }

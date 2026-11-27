@@ -263,7 +263,7 @@ struct A1QuizView: View {
                 // A mistake badge gets it too, with Lina (owner's request).
                 if newBadges.contains(where: { ($0.kind == .streak && BadgeStore.milestones.contains($0.target)) || $0.kind == .fixed }) {
                     celebration = Celebration(badges: newBadges)
-                } else {
+                } else if !exam {
                     ads.quizFinished(isPro: pro.isPro)
                 }
             }

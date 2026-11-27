@@ -5,7 +5,17 @@ import SwiftUI
 enum ProLocks {
     static let freeUnits = 3
 
-    static func needsPro(_ unit: LearningUnit) -> Bool { unit.number > freeUnits }
+    static func needsPro(_ unit: LearningUnit) -> Bool { unit.number > freeUnits && !openedByAd(unit) }
+
+    private static func adKey(_ unit: LearningUnit) -> String { "pro.adUnlock.\(unit.id)" }
+
+    /// A rewarded ad opened this unit less than 24 hours ago.
+    static func openedByAd(_ unit: LearningUnit) -> Bool {
+        guard let date = UserDefaults.standard.object(forKey: adKey(unit)) as? Date else { return false }
+        return Date().timeIntervalSince(date) < 24 * 3600
+    }
+
+    static func openForADay(_ unit: LearningUnit) { UserDefaults.standard.set(Date(), forKey: adKey(unit)) }
 }
 
 /// A gold "PRO" chip for things that need Deschly Pro.
@@ -24,9 +34,21 @@ struct ProChip: View {
 struct ProLockedUnitView: View {
     let unit: LearningUnit
     @EnvironmentObject private var pro: ProStore
+    @EnvironmentObject private var levels: LevelModels
+    @ObservedObject private var ads = AdsManager.shared
     @State private var showPaywall = false
+    /// Opened for 24 hours with a rewarded ad: the unit itself is shown here.
+    @State private var opened = false
 
     var body: some View {
+        if opened {
+            UnitView(unit: unit).environmentObject(levels.model(unit.level))
+        } else {
+            preview
+        }
+    }
+
+    private var preview: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
                 UnitPicture(unit: unit, height: 180)
@@ -58,6 +80,19 @@ struct ProLockedUnitView: View {
                         .background(DS.gold, in: Capsule())
                 }
                 .buttonStyle(.pressable)
+                if ads.rewardedReady && !pro.isPro {
+                    Button {
+                        ads.showRewarded {
+                            ProLocks.openForADay(unit)
+                            withAnimation { opened = true }
+                        }
+                    } label: {
+                        Label(t("pro.unitByAd"), systemImage: "play.rectangle.fill")
+                            .font(DS.text(15, .semibold))
+                            .frame(maxWidth: .infinity, minHeight: 48)
+                    }
+                    .buttonStyle(.bordered)
+                }
             }
             .padding(DS.gutter)
         }

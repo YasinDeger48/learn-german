@@ -47,8 +47,9 @@ extension UIApplication {
 }
 
 /// Ads for the free version: consent (UMP, required in the EU/UK/CH), App Tracking Transparency, then
-/// a banner on list screens, an interstitial after every third finished quiz (at most every 3 minutes)
-/// and a rewarded ad for +10 questions when the daily limit is reached. Pro users never see ads.
+/// a banner on list screens, an interstitial after every third finished quiz, unit step or read text (at most
+/// every 3 minutes; never in the first 3 days, in exams, onboarding, Lina's chat or after games) and rewarded ads
+/// (+10 questions at the daily limit, one Pro unit for 24 hours). Pro users never see ads.
 @MainActor
 final class AdsManager: NSObject, ObservableObject {
     static let shared = AdsManager()
@@ -63,6 +64,17 @@ final class AdsManager: NSObject, ObservableObject {
     private var rewarded: RewardedAd?
     private var lastInterstitial = Date.distantPast
     private let quizCountKey = "adsQuizzesSinceInterstitial"
+    private let firstDayKey = "adsFirstDay"
+
+    /// No interstitials in the learner's first three days (owner's rule).
+    private var inFirstDays: Bool {
+        let defaults = UserDefaults.standard
+        guard let first = defaults.object(forKey: firstDayKey) as? Date else {
+            defaults.set(Date(), forKey: firstDayKey)
+            return true
+        }
+        return Date().timeIntervalSince(first) < 3 * 24 * 3600
+    }
 
     /// Once per launch, after onboarding, for free users.
     func start() {
@@ -130,9 +142,10 @@ final class AdsManager: NSObject, ObservableObject {
         }
     }
 
-    /// Call when a quiz result appears.
+    /// Call when a quiz result appears, a unit step is done or a text was read. Not for exams, onboarding,
+    /// Lina's chat or games.
     func quizFinished(isPro: Bool) {
-        guard !isPro, canShowAds else { return }
+        guard !isPro, canShowAds, !inFirstDays else { return }
         let count = UserDefaults.standard.integer(forKey: quizCountKey) + 1
         UserDefaults.standard.set(count, forKey: quizCountKey)
         guard count >= 3, Date().timeIntervalSince(lastInterstitial) > 180, let ad = interstitial else { return }
