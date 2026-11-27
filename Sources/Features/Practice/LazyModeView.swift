@@ -472,11 +472,17 @@ struct LazyPoolView: View {
     @State private var search = ""
     @State private var theme: Int?
     @State private var article: String?
+    /// true: only the words the learner added; false: every noun of the level, to add more.
+    @State private var onlyMine = true
+    /// The pool when "mine" was opened, so a word unticked by mistake stays on screen to tick again.
+    @State private var listed: Set<Int> = []
+    @State private var started = false
 
     private var shown: [A1Word] {
         let query = search.trimmingCharacters(in: .whitespaces).lowercased()
         return nouns.filter { word in
-            (theme == nil || word.theme == theme)
+            (!onlyMine || listed.contains(word.id))
+                && (theme == nil || word.theme == theme)
                 && (article == nil || word.type == article)
                 && (query.isEmpty || word.de.lowercased().contains(query) || word.mean.text.lowercased().contains(query))
         }
@@ -490,6 +496,12 @@ struct LazyPoolView: View {
     var body: some View {
         List {
             Section {
+                Picker("", selection: $onlyMine) {
+                    Text(t("lazy.poolShowMine", pool.count)).tag(true)
+                    Text(t("lazy.poolShowAll")).tag(false)
+                }
+                .pickerStyle(.segmented)
+                .onChange(of: onlyMine) { mine in if mine { listed = pool } }
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 6) {
                         chip(t("lazy.poolAllThemes"), on: theme == nil && article == nil) { theme = nil; article = nil }
@@ -503,15 +515,21 @@ struct LazyPoolView: View {
                     .padding(.vertical, 4)
                 }
                 .listRowInsets(EdgeInsets(top: 4, leading: 12, bottom: 4, trailing: 12))
-                HStack {
-                    Button(t("lazy.poolAddShown", shown.count)) { pool.formUnion(shown.map(\.id)) }
-                    Spacer()
-                    Button(t("lazy.poolRemoveShown"), role: .destructive) { pool.subtract(shown.map(\.id)) }
+                if !onlyMine {
+                    HStack {
+                        Button(t("lazy.poolAddShown", shown.count)) { pool.formUnion(shown.map(\.id)) }
+                        Spacer()
+                        Button(t("lazy.poolRemoveShown"), role: .destructive) { pool.subtract(shown.map(\.id)) }
+                    }
+                    .font(.subheadline.weight(.semibold))
+                    .buttonStyle(.borderless)
                 }
-                .font(.subheadline.weight(.semibold))
-                .buttonStyle(.borderless)
             }
             Section(t("lazy.poolCount", pool.count)) {
+                if onlyMine && listed.isEmpty {
+                    Text(t("lazy.poolNoneYet")).font(.subheadline).foregroundColor(DS.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
                 ForEach(shown) { word in
                     let on = pool.contains(word.id)
                     Button {
@@ -538,6 +556,13 @@ struct LazyPoolView: View {
             }
         }
         .searchable(text: $search, prompt: t("lazy.poolSearch"))
+        .onAppear {
+            // The first time: an empty pool opens on "add words", a filled one on the learner's own words.
+            guard !started else { return }
+            started = true
+            listed = pool
+            onlyMine = !pool.isEmpty
+        }
         .navigationTitle(t("lazy.poolMine"))
         .navigationBarTitleDisplayMode(.inline)
     }
