@@ -120,6 +120,8 @@ struct ModulesHomeView: View {
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var daily: DailyModel
     @State private var didPickLevel = false
+    /// Opened for one level (Profile → Levels, the "Practise" notification); nil = the Practice tab.
+    var startLevel: String? = nil
 
     var body: some View {
         let model = levels.current
@@ -143,8 +145,6 @@ struct ModulesHomeView: View {
                         rowList([
                             row(AppRoute.examHome, "checkmark.seal.fill", DS.ink, t("exam.title", model.level), t("exam.format"),
                                 gate: .exam),
-                            row(AppRoute.practice(model.level), "square.grid.2x2.fill", .orange, t("modules.allPractice"),
-                                t("modules.allPracticeSub")),
                         ])
                     }
                 } else {
@@ -164,7 +164,8 @@ struct ModulesHomeView: View {
             // Start on the learner's own level the first time.
             if !didPickLevel {
                 didPickLevel = true
-                if levels.hasPractice(daily.level) { levels.active = daily.level }
+                let level = startLevel ?? daily.level
+                if levels.hasPractice(level) { levels.active = level }
             }
         }
         .safeAreaInset(edge: .bottom) { AdBanner() }
@@ -203,9 +204,12 @@ struct ModulesHomeView: View {
             row(AppRoute.myWords, "character.book.closed.fill", DS.accent, t("words.title"), t("words.dueSub")),
             row(A1Route.mode(.artikel), "a.square.fill", DS.die, A1Mode.artikel.title, nil),
         ]
-        // Word run, matching, Lazy mode, songs and the camera are games: they live on the Today page only.
+        // Word run, matching, Lazy mode, songs, the camera and Lina chat are games: they live on the Today page only.
         rows.append(row(AppRoute.basics, "textformat.abc", .blue, "Wortschatz", t("modules.wordsSub"),
                         "\(model.content?.words.count ?? 0)"))
+        if model.level == "A1" {
+            rows.append(row(A1Route.numbersLearn, "number", .mint, t("practice.numbers"), nil))
+        }
         rows.append(row(AppRoute.memorize, "brain.head.profile", .pink, t("mem.title"), t("mem.sub"),
                         "\(MemorizeBank.sheets(upTo: model.level).count)"))
         rows.append(row(AppRoute.verbLab, "flask.fill", .indigo, t("verb.title"), t("verb.sub"),
@@ -239,10 +243,6 @@ struct ModulesHomeView: View {
 
     private func speakWriteRows(_ model: A1Model) -> [AnyView] {
         var rows: [AnyView] = []
-        if LinaAI.isAvailable {
-            rows.append(row(A1Route.linaChat, "bubble.left.and.bubble.right.fill", .purple, t("lina.chatTitle"), t("lina.cardSub"),
-                            gate: .linaChat))
-        }
         rows.append(row(A1Route.speaking, "mic.fill", DS.die, t("speak.title"), t("speak.sub")))
         let tasks = WritingBank.tasks(model.level)
         if !tasks.isEmpty {

@@ -1,11 +1,11 @@
 import SwiftUI
 
-/// Profile tab: certificates, badges, streak, levels and settings in one place.
+/// Profile tab: certificates, badges, levels and settings. Every other screen has its one place elsewhere
+/// (mistakes and the exam in Practice, the streak calendar behind the flame on Today).
 struct ProfileView: View {
     @EnvironmentObject private var daily: DailyModel
     @ObservedObject private var streak = StreakStore.shared
     @State private var certificates = ExamStore.certificates()
-    @State private var showStreak = false
     let open: (AppRoute) -> Void
 
     var body: some View {
@@ -35,24 +35,8 @@ struct ProfileView: View {
                 NavigationLink(value: AppRoute.badges) {
                     Label(t("profile.badges"), systemImage: "medal.fill")
                 }
-                Button { showStreak = true } label: {
-                    Label(t("profile.streakCalendar"), systemImage: "calendar")
-                }
-                .foregroundColor(DS.ink)
             } header: {
                 Text(t("profile.achievements"))
-            }
-
-            Section {
-                // "My words" lives in Practice → Words only.
-                NavigationLink(value: A1Route.mistakes) {
-                    Label(t("practice.mistakes"), systemImage: "arrow.uturn.backward")
-                }
-                UnlockGate(feature: .exam) {
-                    NavigationLink(value: AppRoute.examHome) {
-                        Label(t("tab.exam"), systemImage: "checkmark.seal")
-                    }
-                }
             }
 
             Section {
@@ -65,14 +49,6 @@ struct ProfileView: View {
             }
         }
         .navigationTitle(t("tab.profile"))
-        .sheet(isPresented: $showStreak) {
-            StreakView(open: { route in
-                showStreak = false
-                open(route)
-            })
-            .environmentObject(daily)
-            .presentationDragIndicator(.visible)
-        }
         .onReceive(NotificationCenter.default.publisher(for: ExamStore.changed)) { _ in certificates = ExamStore.certificates() }
     }
 

@@ -1,7 +1,8 @@
 import SwiftUI
 
 /// "Kelimelerim": the learner's own words in one place (design: https://claude.ai/artifact/UR4SupytQYdc9vFCF9RZgu):
-/// what is due for review first, then saved words, the hard ones, the Lazy mode pool and all words of the level.
+/// what is due for review first, then saved words and the learner's own pool. (Mistakes and Wortschatz have their
+/// own rows in Practice.)
 /// It only links the lists that already exist, so no saved data moves.
 struct MyWordsView: View {
     @EnvironmentObject private var daily: DailyModel
@@ -40,12 +41,6 @@ struct MyWordsView: View {
                                   value: "\(daily.state.savedWords.count)")
                     }
                     Divider().padding(.leading, 56)
-                    NavigationLink(value: A1Route.mistakes) {
-                        ModuleRow(icon: "exclamationmark.triangle.fill", color: DS.error, title: t("words.hard"),
-                                  subtitle: t("words.hardSub"), value: "\(model.state.wrong.count)")
-                    }
-                    .disabled(model.state.wrong.isEmpty)
-                    Divider().padding(.leading, 56)
                     NavigationLink {
                         LazyPoolView(level: model.level, nouns: (model.content?.words ?? []).filter(\.isNoun),
                                      themes: model.content?.themes ?? [], pool: $pool)
@@ -53,11 +48,6 @@ struct MyWordsView: View {
                     } label: {
                         ModuleRow(icon: "sofa.fill", color: DS.das, title: t("words.pool"), subtitle: t("words.poolSub"),
                                   value: "\(pool.count)")
-                    }
-                    Divider().padding(.leading, 56)
-                    NavigationLink(value: AppRoute.basics) {
-                        ModuleRow(icon: "textformat.abc", color: .blue, title: "Wortschatz", subtitle: t("modules.wordsSub"),
-                                  value: "\(model.content?.words.count ?? 0)")
                     }
                 }
                 .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))

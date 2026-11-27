@@ -258,8 +258,9 @@ struct AppDestination: View {
         case .savedWordsQuiz:
             A1QuizView(title: t("saved.title"), free: true) { daily.savedWordsQuiz() }
         case .practice(let level):
+            // The same practice page as the Practice tab, on that level (the old all-in-one page is gone).
             if levels.hasPractice(level) {
-                PracticeHomeView().environmentObject(levels.model(level))
+                ModulesHomeView(startLevel: level)
             } else {
                 ComingSoonView(level: level)
             }

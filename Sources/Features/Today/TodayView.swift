@@ -7,7 +7,6 @@ struct TodayView: View {
     @EnvironmentObject private var levels: LevelModels
     let open: (AppRoute) -> Void
     @State private var showStreak = false
-    @State private var showBadges = false
     /// Height of the islands at the bottom (pills or an open card), so the page leaves just enough room under the
     /// last card to scroll it above them, and no empty space when they are small or closed.
     @State private var islandsHeight: CGFloat = 90
@@ -65,15 +64,13 @@ struct TodayView: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack(spacing: 8) {
                     StreakButton { showStreak = true }
-                    Button { showBadges = true } label: { XPChip() }
-                        .accessibilityHint(t("badges.title"))
+                    XPChip()  // points only; badges have their place in Profile
                 }
             }
         }
         .sheet(isPresented: $showStreak) {
             StreakView(open: open).environmentObject(daily).presentationDragIndicator(.visible)
         }
-        .sheet(isPresented: $showBadges) { BadgesView(asSheet: true).presentationDragIndicator(.visible) }
     }
 
     /// Quick practice follows the level chosen above (A1, A2 …); levels without practice fall back to A1.
