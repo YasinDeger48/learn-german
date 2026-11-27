@@ -3,9 +3,13 @@ import Foundation
 /// Builds the quiz for a daily text: the comprehension questions from the content file
 /// plus questions made from the text itself (word meaning, gap fill, sentence order, dictation).
 enum ReadingQuiz {
-    static func sentences(of text: DailyText) -> [String] {
+    static func sentences(of text: DailyText) -> [String] { text.paragraphs.flatMap(sentences(in:)) }
+
+    /// One paragraph cut after . ! ? followed by a space (tools/word_audio.py split_sentences does the same, so the
+    /// recorded sentences are found).
+    static func sentences(in paragraph: String) -> [String] {
         var result: [String] = []
-        for paragraph in text.paragraphs {
+        do {
             var current = ""
             let chars = Array(paragraph)
             for (i, ch) in chars.enumerated() {

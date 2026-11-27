@@ -58,6 +58,18 @@ FEMALE_POOL = ['de-DE-Chirp3-HD-Achernar', 'de-DE-Chirp3-HD-Kore', 'de-DE-Chirp3
 MALE_POOL = ['de-DE-Chirp3-HD-Achird', 'de-DE-Chirp3-HD-Charon', 'de-DE-Chirp3-HD-Puck', 'de-DE-Chirp3-HD-Orus']
 FIXED = {'Lina': FEMALE_POOL[0], 'Elif': FEMALE_POOL[1]}  # the two heroines of the A1 stories
 GAP = 0.45  # seconds of silence between two lines
+# Older people (Oma, Opa, Rentner …): voices chosen by the owner 2026-11-27, made a little lower and slower here
+# (1.5 semitones, 8 %, formants kept) so they sound older. Samples: ../ses-ornek/yasli-*-yaslandirilmis.mp3.
+OLD_MAN = 'de-DE-Chirp3-HD-Iapetus'
+OLD_WOMAN = 'de-DE-Chirp3-HD-Gacrux'
+OLD_VOICES = {OLD_MAN, OLD_WOMAN}
+AGED = 'rubberband=pitch=0.917:tempo=0.92:formant=preserved'
+OLD_MALE = {'Opa', 'Großvater', 'Rentner', 'Senior', 'Herr Weber'}
+OLD_FEMALE = {'Oma', 'Großmutter', 'Rentnerin', 'Seniorin'}
+FEMALE_WORDS = {'Frau', 'Mutter', 'Mama', 'Schwester', 'Tochter', 'Tante', 'Freundin', 'Kollegin', 'Nachbarin',
+                'Ärztin', 'Lehrerin', 'Verkäuferin', 'Kellnerin', 'Chefin', 'Mädchen', 'Lina', 'Elif'}
+SAYING = ('sagt', 'fragt', 'ruft', 'antwortet', 'erklärt', 'meint', 'lacht', 'flüstert', 'sagte', 'fragte', 'rief',
+          'antwortete', 'erzählt', 'schreibt')
 
 
 def is_name(name):
@@ -79,6 +91,10 @@ def is_male(name):
     return name.startswith('Herr ') or name.split()[0] in MALE
 
 
+def is_old(name):
+    return name in OLD_MALE or name in OLD_FEMALE or name.split()[0] in OLD_MALE | OLD_FEMALE
+
+
 def dialogue_plan(text, narrator):
     """[(voice, words)] for a dialogue text (title and narration in the narrator's voice), or None."""
     lines = [speaker(p) for p in text['paragraphs']]
@@ -91,6 +107,8 @@ def dialogue_plan(text, narrator):
         name = x[0]
         pool = MALE_POOL if is_male(name) else FEMALE_POOL
         voice = FIXED.get(name)
+        if is_old(name):
+            voice = OLD_MAN if name.split()[0] in OLD_MALE or name in OLD_MALE else OLD_WOMAN
         if not voice or voice in used:
             voice = next((v for v in pool if v not in used), pool[len(voices) % len(pool)])
         voices[name] = voice
@@ -99,6 +117,91 @@ def dialogue_plan(text, narrator):
     for paragraph, x in zip(text['paragraphs'], lines):
         plan.append((voices[x[0]], x[1]) if x else (narrator, paragraph))
     return plan
+
+
+FEMALE_NAMES = {'Rosa', 'Ela', 'Laura', 'Sarah', 'Mia', 'Nora', 'Hanna', 'Paula', 'Marie', 'Nina', 'Kasia', 'Anna',
+                'Lena', 'Emma', 'Julia', 'Sophie', 'Lisa', 'Maria', 'Ayşe', 'Fatma', 'Zeynep', 'Sara', 'Lea', 'Clara',
+                'Amira', 'Yuki', 'Olga', 'Ana', 'Sofia', 'Jana', 'Katrin', 'Petra', 'Sabine', 'Monika', 'Lina', 'Elif'}
+MALE_NAMES = {'Pedro', 'Kenji', 'Lucas', 'Nils', 'Julian', 'Kerem', 'Omar', 'Luca', 'Marco', 'Carlos', 'Ivan', 'Tim',
+              'Simon', 'Noah', 'Elias', 'Finn', 'Can', 'Deniz', 'Yusuf', 'Hasan', 'Rafael', 'Mateo', 'Hiro'}
+MALE_ROLES = {'Mann', 'Mitarbeiter', 'Rezeptionist', 'Vermieter', 'Arzt', 'Lehrer', 'Kellner', 'Verkäufer', 'Chef',
+              'Vater', 'Papa', 'Bruder', 'Sohn', 'Onkel', 'Junge', 'Polizist', 'Fahrer', 'Busfahrer', 'Nachbar',
+              'Kollege', 'Freund', 'Herr', 'Mechaniker', 'Techniker', 'Trainer', 'Koch'}
+
+
+def speaker_kind(words):
+    """'old_m', 'old_f', 'f', 'm' or None for the words of "Die Ärztin sagt" / "fragt sie" (the first word that tells)."""
+    for raw in words:
+        word = raw.strip(',.;!?')
+        if word in OLD_MALE:
+            return 'old_m'
+        if word in OLD_FEMALE:
+            return 'old_f'
+        if word in ('sie', 'Sie'):
+            return 'f'
+        if word in ('er', 'Er'):
+            return 'm'
+        if word in FEMALE_NAMES or word in FEMALE_WORDS or (word[:1].isupper() and word.endswith('in') and len(word) > 5):
+            return 'f'
+        if word in MALE_NAMES or word in MALE_ROLES or word in MALE:
+            return 'm'
+    return None
+
+
+def quote_speaker(before, after):
+    """Who says a quote: "Die Ärztin sagt: „…“" (the clause right before the colon) or "„…“, sagt sie." (right after).
+    Only one person speaking ("sagt", not "sagen") counts; anything unclear is read by the narrator (None)."""
+    import re
+    verbs = '|'.join(SAYING)
+    clause = re.search(r'([^.!?„“–]*)\:\s*$', before)
+    if clause and re.search(r'\b(?:' + verbs + r')\b', clause.group(1)):
+        return speaker_kind(clause.group(1).split())
+    tail = re.match(r'\s*,\s*(?:' + verbs + r')\s+((?:\S+\s*){1,3})', after)
+    if tail:
+        return speaker_kind(tail.group(1).split())
+    return None
+
+
+def quote_plan(text, narrator):
+    """[(voice, words)] for a text with quoted speech („…“) whose speaker is clear, or None. The narrator keeps the
+    story; a quote is read by a voice of the speaker's kind that differs from the narrator, with the usual pause
+    (GAP) before and after it, like a dialogue line."""
+    import re
+    other = {'f': next(v for v in FEMALE_POOL if v != narrator), 'm': next(v for v in MALE_POOL if v != narrator),
+             'old_f': OLD_WOMAN, 'old_m': OLD_MAN}
+    plan = [(narrator, text['title'] + '.')]
+    quoted = False
+    for paragraph in text['paragraphs']:
+        pieces = re.split(r'(„[^“]+“)', paragraph)
+        if len(pieces) == 1:
+            plan.append((narrator, paragraph))
+            continue
+        parts = []
+        last = None  # who said the quote before in this paragraph
+        for index, piece in enumerate(pieces):
+            if not piece.strip():
+                continue
+            if piece.startswith('„'):
+                kind = quote_speaker(''.join(pieces[:index]), ''.join(pieces[index + 1:]))
+                # „…“, sagt sie. „…“: the second quote is the same person.
+                between = pieces[index - 1] if index > 0 else ''
+                if not kind and last and re.fullmatch(r'\s*,\s*(?:' + '|'.join(SAYING) + r')\b[^„“]{0,40}\.\s*', between):
+                    kind = last
+                last = kind
+                if kind:
+                    quoted = True
+                    parts.append((other[kind], piece.strip('„“ ')))
+                    continue
+            parts.append((narrator, piece.strip().lstrip(',').strip()))  # ", sagt sie." is read "sagt sie."
+        # Narration pieces next to each other are read in one go.
+        merged = []
+        for voice, words in parts:
+            if merged and merged[-1][0] == voice:
+                merged[-1] = (voice, merged[-1][1] + ' ' + words)
+            else:
+                merged.append((voice, words))
+        plan += merged
+    return plan if quoted else None
 
 
 # Phone calls and voicemail (tools/phone.py -> phone_<level>.json): the other side sounds like a phone line, with the
@@ -179,8 +282,9 @@ def phone_jobs(level, index):
     return out
 
 
-def join(parts, path):
-    """Joins MP3 parts into one file with GAP seconds of silence after each."""
+def join(parts, path, aged=None):
+    """Joins MP3 parts into one file with GAP seconds of silence after each; parts whose aged[n] is true are made
+    older (AGED)."""
     tool = audio_pad.ffmpeg()
     folder = tempfile.mkdtemp()
     try:
@@ -189,7 +293,8 @@ def join(parts, path):
             part = os.path.join(folder, f'{n}.mp3')
             open(part, 'wb').write(data)
             inputs += ['-i', part]
-            chains.append(f'[{n}:a]aresample=24000,aformat=channel_layouts=mono,apad=pad_dur={GAP}[a{n}]')
+            older = AGED + ',' if aged and aged[n] else ''
+            chains.append(f'[{n}:a]{older}aresample=24000,aformat=channel_layouts=mono,apad=pad_dur={GAP}[a{n}]')
         graph = ';'.join(chains) + ';' + ''.join(f'[a{n}]' for n in range(len(parts))) + f'concat=n={len(parts)}:v=0:a=1[out]'
         os.makedirs(os.path.dirname(path), exist_ok=True)
         subprocess.run([tool, '-y', '-loglevel', 'error', *inputs, '-filter_complex', graph, '-map', '[out]',
@@ -228,7 +333,7 @@ def main():
                 texts += json.load(open(source, encoding='utf-8'))['texts']
         for text in texts:
             for short in VOICES:
-                plan = dialogue_plan(text, VOICES[short])
+                plan = dialogue_plan(text, VOICES[short]) or quote_plan(text, VOICES[short])
                 content = spoken(text) if plan is None else json.dumps(plan, ensure_ascii=False)
                 digest = hashlib.sha256(content.encode('utf-8')).hexdigest()[:16]
                 path = os.path.join(SITE_AUDIO, short, f"{text['id']}.mp3")
@@ -270,7 +375,7 @@ def main():
             with open(path, 'wb') as f:
                 f.write(audio)
         else:
-            join([recorded[piece] for piece in plan], path)
+            join([recorded[piece] for piece in plan], path, aged=[voice in OLD_VOICES for voice, _ in plan])
         audio_pad.pad(path)
         audio_pad.mark([path])
         index.setdefault(text_id, {})[short] = digest

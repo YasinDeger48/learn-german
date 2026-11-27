@@ -97,6 +97,7 @@ def spoken_sentences():
     units = (load('units.json') or {}).get('units', [])
     memorize = (load('memorize.json') or {}).get('sheets', [])
     speaking = (load('speaking.json') or {}).get('tasks', [])
+    writing = (load('writing.json') or {}).get('tasks', [])
     # Lina's praise (QuizView.linaPraise, the mistake badge celebration): first, it is short and heard often.
     out = [(-1, p) for p in ['Super gemacht!', 'Richtig!', 'Sehr gut!', 'Genau!', 'Toll!']]
     for level in ['a1', 'a2', 'b1', 'b2']:
@@ -115,6 +116,10 @@ def spoken_sentences():
         out += [(-1, m['right']) for m in data.get('mistakes', [])]
         out += [(-1, r.get('x') or r.get('a')) for sh in memorize if sh['level'] == level_up for r in sh['rows']]
         out += [(-1, t['prompt']) for t in speaking if t['level'] == level_up]
+        # Sample answers of the speaking and writing tasks (A1Speaker.readSample: line by line, sentence by sentence).
+        samples = [t['sample'] for t in speaking if t['level'] == level_up and t.get('sample')]
+        samples += [t['sample'] for t in writing if t['level'] == level_up and t.get('sample')]
+        out += [(-1, sentence) for sample in samples for line in sample.split('\n') for sentence in split_sentences(line)]
         verbs = load(f'verbs_{level}.json') or {}
         for v in verbs.get('verbs', []):
             out += [(-1, e['de'] if isinstance(e, dict) else e) for e in v.get('examples', [])]

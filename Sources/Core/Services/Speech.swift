@@ -82,6 +82,13 @@ final class A1Speaker {
         }
     }
 
+    /// A sample answer (speaking and writing tasks): sentence by sentence in the recorded natural voice where
+    /// tools/word_audio.py made it, else the iPhone voice.
+    func readSample(_ text: String) {
+        let lines = text.components(separatedBy: "\n").flatMap { ReadingQuiz.sentences(in: $0) }
+        play(lines.map { A1Line(s: -1, t: $0) })
+    }
+
     /// Reads a longer text at a chosen speed (1.0 = normal, 0.8, 0.6).
     func read(_ text: String, speed: Float) {
         WordAudio.shared.stop()

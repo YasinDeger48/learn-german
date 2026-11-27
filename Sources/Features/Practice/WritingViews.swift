@@ -300,7 +300,7 @@ struct WritingMessageView: View {
                         HStack {
                             Text(t("speak.sample")).font(.caption.weight(.bold)).foregroundColor(DS.muted).textCase(.uppercase)
                             Spacer()
-                            Button { A1Speaker.shared.read(sample, speed: 0.9) } label: {
+                            Button { A1Speaker.shared.readSample(sample) } label: {
                                 Label(t("speak.listenSample"), systemImage: "speaker.wave.2.fill").font(DS.text(13, .semibold))
                             }
                         }
