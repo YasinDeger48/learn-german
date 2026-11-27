@@ -121,10 +121,13 @@ struct ModulesHomeView: View {
                 }
             }
             .padding(.horizontal, DS.gutter)
+            .padding(.top, startLevel == nil ? 8 : 0)
             .padding(.bottom, 24)
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("tab.modules"))
+        // No big "Pratik" title on the tab (the tab bar says it); opened for one level it keeps its bar and back button.
+        .toolbar(startLevel == nil ? .hidden : .visible, for: .navigationBar)
         // The learner's level (chosen only in Profile → Levels), or the level this page was opened for.
         .onAppear(perform: followLevel)
         .onChange(of: daily.level) { _ in followLevel() }

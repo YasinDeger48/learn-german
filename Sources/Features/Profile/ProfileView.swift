@@ -84,7 +84,8 @@ struct ProfileView: View {
                 }
             }
         }
-        .navigationTitle(t("tab.profile"))
+        .navigationTitle(t("tab.profile"))  // for the back button of pages opened from here
+        .toolbar(.hidden, for: .navigationBar)  // no big "Profil" title: the picture opens the page
         .sheet(isPresented: $showPicture) {
             ProfilePictureSheet { photo = ProfileStore.photo() }
                 .presentationDragIndicator(.visible)

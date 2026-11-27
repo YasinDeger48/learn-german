@@ -286,11 +286,13 @@ struct PathView: View {
                 }
             }
             .padding(.horizontal, DS.gutter)
+            .padding(.top, 8)
             .padding(.bottom, 24)
             .id(refresh)
         }
         .background(DS.ground.ignoresSafeArea())
-        .navigationTitle(t("tab.path"))
+        .navigationTitle(t("tab.path"))  // for the back button of pages opened from here
+        .toolbar(.hidden, for: .navigationBar)  // no big "Yol" title: the tab bar says it
         .safeAreaInset(edge: .bottom) { AdBanner() }
         .onAppear(perform: followLevel)
         .onChange(of: daily.level) { _ in followLevel() }
