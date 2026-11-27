@@ -214,9 +214,17 @@ struct TodayGames: View {
         VStack(alignment: .leading, spacing: 10) {
             if let fresh { UnlockedBanner(feature: fresh).transition(.opacity) }
             Text(t("plan.games").uppercased()).font(.footnote.weight(.semibold)).foregroundStyle(.secondary)
-            LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
-                ForEach(games) { game in
-                    UnlockGate(feature: game.feature) { link(game) }
+            // Two per row; with an odd number the last card spans the row, so no empty half stays.
+            let all = games
+            let paired = all.count.isMultiple(of: 2) ? all : Array(all.dropLast())
+            VStack(spacing: 10) {
+                LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
+                    ForEach(paired) { game in
+                        UnlockGate(feature: game.feature) { link(game, wide: false) }
+                    }
+                }
+                if let last = all.last, !all.count.isMultiple(of: 2) {
+                    UnlockGate(feature: last.feature) { link(last, wide: true) }
                 }
             }
             .buttonStyle(.pressable)
@@ -239,20 +247,21 @@ struct TodayGames: View {
     }
 
     @ViewBuilder
-    private func link(_ game: Game) -> some View {
+    private func link(_ game: Game, wide: Bool) -> some View {
         switch game.feature {
-        case .lazy: Button { showLazySetup = true } label: { GameCard(game: game.feature, title: game.title, color: game.color, picture: game.picture, isNew: fresh == game.feature) }
-        case .wordRun: NavigationLink(value: A1Route.wordRun) { card(game) }
-        case .match: NavigationLink(value: A1Route.match(nil)) { card(game) }
-        case .linaChat: NavigationLink(value: A1Route.linaChat) { card(game) }
-        case .songs: NavigationLink(value: A1Route.songs) { card(game) }
-        case .camera: NavigationLink(value: A1Route.camera) { card(game) }
+        case .lazy: Button { showLazySetup = true } label: { card(game, wide: wide) }
+        case .wordRun: NavigationLink(value: A1Route.wordRun) { card(game, wide: wide) }
+        case .match: NavigationLink(value: A1Route.match(nil)) { card(game, wide: wide) }
+        case .linaChat: NavigationLink(value: A1Route.linaChat) { card(game, wide: wide) }
+        case .songs: NavigationLink(value: A1Route.songs) { card(game, wide: wide) }
+        case .camera: NavigationLink(value: A1Route.camera) { card(game, wide: wide) }
         case .exam: EmptyView()
         }
     }
 
-    private func card(_ game: Game) -> GameCard {
-        GameCard(game: game.feature, title: game.title, color: game.color, picture: game.picture, isNew: fresh == game.feature)
+    private func card(_ game: Game, wide: Bool) -> GameCard {
+        GameCard(game: game.feature, title: game.title, color: game.color, picture: game.picture, isNew: fresh == game.feature,
+                 wide: wide)
     }
 }
 
@@ -263,6 +272,8 @@ private struct GameCard: View {
     let color: Color
     let picture: String
     let isNew: Bool
+    /// Spans both columns (the last of an odd number): the name on the left, the picture square on the right.
+    var wide = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var blink = false
 
@@ -270,7 +281,7 @@ private struct GameCard: View {
         ZStack(alignment: .bottom) {
             LinearGradient(colors: [color, color.opacity(0.82)], startPoint: .topLeading, endPoint: .bottomTrailing)
             GeometryReader { proxy in
-                let side = proxy.size.width
+                let side = wide ? proxy.size.height : proxy.size.width
                 ZStack(alignment: .bottom) {
                     decorations(side)
                     if let image = UIImage(named: picture) {
@@ -282,10 +293,12 @@ private struct GameCard: View {
                     }
                 }
                 .frame(width: side, height: side, alignment: .bottom)
+                .frame(maxWidth: .infinity, alignment: wide ? .trailing : .center)
+                .padding(.trailing, wide ? side * 0.12 : 0)
             }
             VStack(alignment: .leading) {
                 Text(title)
-                    .font(.system(size: 16, weight: .heavy))
+                    .font(.system(size: wide ? 19 : 16, weight: .heavy))
                     .foregroundColor(.white)
                     .lineLimit(2)
                     .minimumScaleFactor(0.8)
@@ -302,7 +315,8 @@ private struct GameCard: View {
             .padding(12)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         }
-        .aspectRatio(1, contentMode: .fit)
+        // Wide: as tall as a square card next to another one (two columns and the 10 pt gap).
+        .aspectRatio(wide ? 2.06 : 1, contentMode: .fit)
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(title)
