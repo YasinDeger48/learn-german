@@ -44,8 +44,8 @@ struct ProfileView: View {
             }
 
             Section {
-                NavigationLink(value: AppRoute.savedWords) {
-                    Label(t("saved.title"), systemImage: "bookmark.fill")
+                NavigationLink(value: AppRoute.myWords) {
+                    Label(t("words.title"), systemImage: "character.book.closed.fill")
                 }
                 NavigationLink(value: A1Route.mistakes) {
                     Label(t("practice.mistakes"), systemImage: "arrow.uturn.backward")

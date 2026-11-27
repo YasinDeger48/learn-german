@@ -58,6 +58,8 @@ enum AppRoute: Hashable {
     case readingQuiz(String)
     case practice(String)
     case savedWords
+    /// "Kelimelerim": due reviews, saved, hard words, the Lazy mode pool and all words.
+    case myWords
     case savedWordsQuiz
     case allTexts
     case readingHome
@@ -249,6 +251,8 @@ struct AppDestination: View {
             }
         case .savedWords:
             SavedWordsView()
+        case .myWords:
+            MyWordsView(model: levels.hasPractice(daily.level) ? levels.model(daily.level) : levels.a1)
         case .allTexts:
             AllTextsView()
         case .savedWordsQuiz:

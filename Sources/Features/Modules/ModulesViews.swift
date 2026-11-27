@@ -211,6 +211,7 @@ struct ModulesHomeView: View {
 
     private func wordRows(_ model: A1Model) -> [AnyView] {
         var rows = [
+            row(AppRoute.myWords, "character.book.closed.fill", DS.accent, t("words.title"), t("words.dueSub")),
             row(A1Route.mode(.artikel), "a.square.fill", DS.die, A1Mode.artikel.title, nil),
             row(A1Route.wordRun, "figure.run", DS.die, t("run.title"), t("run.cardSub")),
             row(A1Route.match(nil), "square.grid.3x3.fill", DS.der, t("practice.match"), t("match.cardSub")),
