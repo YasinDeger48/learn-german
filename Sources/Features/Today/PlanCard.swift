@@ -280,7 +280,6 @@ private struct GameCard: View {
                             .frame(height: side * (game == .lazy ? 0.70 : 0.74))
                             .shadow(color: .black.opacity(0.18), radius: 6, y: 5)
                     }
-                    if game == .camera { recChip(side) }
                 }
                 .frame(width: side, height: side, alignment: .bottom)
             }
@@ -346,8 +345,9 @@ private struct GameCard: View {
                 .frame(width: side, height: side, alignment: .bottom)
         case .camera:
             Viewfinder().stroke(Color.white, style: StrokeStyle(lineWidth: 3, lineCap: .round))
-                .frame(width: side * 0.72, height: side * 0.48)
-                .padding(.bottom, side * 0.18)
+                .frame(width: side * 0.56, height: side * 0.40)
+                .overlay(alignment: .topTrailing) { recordingDot.padding(7) }
+                .padding(.bottom, side * 0.20)
         case .exam:
             EmptyView()
         }
@@ -367,17 +367,12 @@ private struct GameCard: View {
             .background(fill, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 
-    private func recChip(_ side: CGFloat) -> some View {
-        HStack(spacing: 5) {
-            Circle().fill(Color(red: 1, green: 0.23, blue: 0.19)).frame(width: 8, height: 8)
-                .opacity(blink ? 0.25 : 1)
-                .animation(reduceMotion ? nil : .easeInOut(duration: 0.55).repeatForever(autoreverses: true), value: blink)
-            Text("REC 00:07").font(.system(size: 10, weight: .heavy).monospacedDigit()).foregroundColor(.white)
-        }
-        .padding(.horizontal, 8).padding(.vertical, 3)
-        .background(Color.black.opacity(0.4), in: Capsule())
-        .padding(.bottom, side * 0.06)
-        .accessibilityHidden(true)
+    /// A red recording dot that blinks (still with Reduce Motion).
+    private var recordingDot: some View {
+        Circle().fill(Color(red: 1, green: 0.23, blue: 0.19)).frame(width: 10, height: 10)
+            .opacity(blink ? 0.2 : 1)
+            .animation(reduceMotion ? nil : .easeInOut(duration: 0.55).repeatForever(autoreverses: true), value: blink)
+            .accessibilityHidden(true)
     }
 }
 
