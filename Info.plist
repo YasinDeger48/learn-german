@@ -27,22 +27,12 @@
     <string>DeschlyText-SemiBold.ttf</string>
   </array>
   <key>DeschlyFreeForAll</key><true/>
-  <key>GADApplicationIdentifier</key><string>ca-app-pub-2051677494226499~9239410708</string>
-  <key>DeschlyAdBanner</key><string>ca-app-pub-2051677494226499/6330623448</string>
-  <key>DeschlyAdInterstitial</key><string>ca-app-pub-2051677494226499/4114563184</string>
-  <key>DeschlyAdRewarded</key><string>ca-app-pub-2051677494226499/8856267329</string>
   <key>NSCameraUsageDescription</key>
   <string>Learn with the camera reads German text and recognises objects on your phone to show the words. Deschly does not save or send the pictures.</string>
   <key>NSMicrophoneUsageDescription</key>
   <string>Speaking practice listens to what you say to check your German. Deschly does not record or keep it.</string>
   <key>NSSpeechRecognitionUsageDescription</key>
   <string>Speaking practice turns your German into text with Apple speech recognition, which may process it on Apple's servers. Deschly does not store it.</string>
-  <key>NSUserTrackingUsageDescription</key>
-  <string>Your choice decides whether ads in the free version can be personalised. Deschly works the same either way.</string>
-  <key>SKAdNetworkItems</key>
-  <array>
-    <dict><key>SKAdNetworkIdentifier</key><string>cstr6suwn9.skadnetwork</string></dict>
-  </array>
   <key>CFBundleIcons</key>
   <dict>
     <key>CFBundlePrimaryIcon</key>

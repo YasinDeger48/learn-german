@@ -674,6 +674,7 @@
  "celebrate.shareBadge": "Deschly'de yeni rozet: {0}",
  "freeze.title": "Seri koruyucu: {0} / {1}",
  "freeze.body": "Bir gün kaçırırsan serini korur. Her ay 1 tane ücretsiz; Pro’da her hafta 1 tane.",
+ "freeze.bodyFree": "Bir gün kaçırırsan serini korur. Her hafta 1 tane yenisi gelir.",
  "pro.feature.freeze": "Her hafta bir seri koruyucu",
  "placement.title": "Seviye testi",
  "placement.wayTitle": "Almancan ne durumda?",

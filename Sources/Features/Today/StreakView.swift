@@ -146,7 +146,8 @@ struct StreakView: View {
                 .background(Self.ice, in: RoundedRectangle(cornerRadius: 13, style: .continuous))
             VStack(alignment: .leading, spacing: 2) {
                 Text(t("freeze.title", streak.state.freezes, XP.maxFreezes)).font(.headline)
-                Text(t("freeze.body")).font(.footnote).foregroundColor(DS.muted)
+                // While everything is free, no "Pro gets more" line.
+                Text(t(ProStore.freeForAll ? "freeze.bodyFree" : "freeze.body")).font(.footnote).foregroundColor(DS.muted)
             }
             Spacer(minLength: 0)
         }

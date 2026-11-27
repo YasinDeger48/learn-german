@@ -674,6 +674,7 @@
  "celebrate.shareBadge": "New badge in Deschly: {0}",
  "freeze.title": "Streak freezes: {0} / {1}",
  "freeze.body": "Protects your streak when you miss a day. One free each month; Pro gets one every week.",
+ "freeze.bodyFree": "Protects your streak when you miss a day. You get a new one every week.",
  "pro.feature.freeze": "A streak freeze every week",
  "placement.title": "Level test",
  "placement.wayTitle": "How good is your German?",

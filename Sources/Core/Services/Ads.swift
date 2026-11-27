@@ -1,7 +1,11 @@
-import AppTrackingTransparency
-import GoogleMobileAds
 import SwiftUI
 import UIKit
+
+// The whole ad code is compiled only while Google's packages are in project.yml (GoogleMobileAds and
+// GoogleUserMessagingPlatform). Without them the small stand-ins at the end are used.
+#if canImport(GoogleMobileAds) && canImport(UserMessagingPlatform)
+import AppTrackingTransparency
+import GoogleMobileAds
 import UserMessagingPlatform
 
 /// Ad unit ids. Real ids go into Info.plist (GADApplicationIdentifier, DeschlyAdBanner, DeschlyAdInterstitial,
@@ -228,3 +232,27 @@ private struct BannerRepresentable: UIViewRepresentable {
 
     func updateUIView(_ uiView: BannerView, context: Context) {}
 }
+
+#else
+
+// Ads are off: the Google packages are not in this build (project.yml). Same names as above, so the screens
+// compile unchanged; nothing is shown and nothing is loaded. PRO_AND_ADS.md says how to turn them back on.
+@MainActor
+final class AdsManager: ObservableObject {
+    static let shared = AdsManager()
+
+    @Published private(set) var canShowAds = false
+    @Published private(set) var rewardedReady = false
+    @Published private(set) var privacyOptionsRequired = false
+
+    func start() {}
+    func showPrivacyOptions() {}
+    func quizFinished(isPro: Bool) {}
+    func showRewarded(onReward: @escaping @MainActor () -> Void) {}
+}
+
+struct AdBanner: View {
+    var body: some View { EmptyView() }
+}
+
+#endif

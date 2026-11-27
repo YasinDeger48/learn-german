@@ -3,13 +3,7 @@ name: Almanca
 options:
   deploymentTarget:
     iOS: "16.0"
-packages:
-  GoogleMobileAds:
-    url: https://github.com/googleads/swift-package-manager-google-mobile-ads.git
-    from: 12.0.0
-  GoogleUserMessagingPlatform:
-    url: https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git
-    from: 3.0.0
+# Ads are off for the free release: the Google packages are left out (PRO_AND_ADS.md has the lines to put back).
 targets:
   Almanca:
     type: application
@@ -26,8 +20,6 @@ targets:
           - "Covers/b2-*.jpg"
       - path: Assets.xcassets
     dependencies:
-      - package: GoogleMobileAds
-      - package: GoogleUserMessagingPlatform
       - target: DeschlyWidgets
     settings:
       base:

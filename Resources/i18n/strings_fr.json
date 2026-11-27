@@ -674,6 +674,7 @@
  "celebrate.shareBadge": "Nouveau badge dans Deschly : {0}",
  "freeze.title": "Protège-séries : {0} / {1}",
  "freeze.body": "Protège ta série si tu rates un jour. Un gratuit par mois ; avec Pro, un chaque semaine.",
+ "freeze.bodyFree": "Protège ta série si tu rates un jour. Tu en reçois un nouveau chaque semaine.",
  "pro.feature.freeze": "Un protège-série chaque semaine",
  "placement.title": "Test de niveau",
  "placement.wayTitle": "Où en est ton allemand ?",
