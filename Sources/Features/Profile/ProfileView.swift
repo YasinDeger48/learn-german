@@ -50,8 +50,10 @@ struct ProfileView: View {
                 NavigationLink(value: A1Route.mistakes) {
                     Label(t("practice.mistakes"), systemImage: "arrow.uturn.backward")
                 }
-                NavigationLink(value: AppRoute.examHome) {
-                    Label(t("tab.exam"), systemImage: "checkmark.seal")
+                UnlockGate(feature: .exam) {
+                    NavigationLink(value: AppRoute.examHome) {
+                        Label(t("tab.exam"), systemImage: "checkmark.seal")
+                    }
                 }
             }
 

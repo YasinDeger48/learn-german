@@ -178,23 +178,39 @@ struct TodayGames: View {
     @ObservedObject var model: A1Model
     @State private var showLazySetup = false
     @State private var lazyConfig: LazyConfig?
+    /// Something opened since the last visit (slow opening for beginners): Lina says so once.
+    @State private var fresh: UnlockFeature?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
+            if let fresh { UnlockedBanner(feature: fresh).transition(.opacity) }
             Text(t("plan.games").uppercased()).font(.footnote.weight(.semibold)).foregroundStyle(.secondary)
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
-                    NavigationLink(value: A1Route.wordRun) { tile("figure.run", DS.die, t("run.title")) }
-                    NavigationLink(value: A1Route.match(nil)) { tile("square.grid.3x3.fill", DS.der, t("practice.match")) }
+                    // Open ones first; the rest show when they open (slow opening for beginners).
+                    UnlockGate(feature: .match) {
+                        NavigationLink(value: A1Route.match(nil)) { tile("square.grid.3x3.fill", DS.der, t("practice.match")) }
+                    }
+                    UnlockGate(feature: .wordRun) {
+                        NavigationLink(value: A1Route.wordRun) { tile("figure.run", DS.die, t("run.title")) }
+                    }
                     if LinaAI.isAvailable {
-                        NavigationLink(value: A1Route.linaChat) { tile("bubble.left.and.bubble.right.fill", .purple, t("lina.chatTitle")) }
+                        UnlockGate(feature: .linaChat) {
+                            NavigationLink(value: A1Route.linaChat) { tile("bubble.left.and.bubble.right.fill", .purple, t("lina.chatTitle")) }
+                        }
                     }
                     if !SongBank.songs(model.level).isEmpty {
-                        NavigationLink(value: A1Route.songs) { tile("music.mic", .orange, t("song.title")) }
+                        UnlockGate(feature: .songs) {
+                            NavigationLink(value: A1Route.songs) { tile("music.mic", .orange, t("song.title")) }
+                        }
                     }
-                    Button { showLazySetup = true } label: { tile("sofa.fill", DS.das, t("lazy.title")) }
+                    UnlockGate(feature: .lazy) {
+                        Button { showLazySetup = true } label: { tile("sofa.fill", DS.das, t("lazy.title")) }
+                    }
                     if PhotoCapture.available {
-                        NavigationLink(value: A1Route.camera) { tile("camera.fill", .teal, t("cam.title")) }
+                        UnlockGate(feature: .camera) {
+                            NavigationLink(value: A1Route.camera) { tile("camera.fill", .teal, t("cam.title")) }
+                        }
                     }
                 }
                 .buttonStyle(.pressable)
@@ -203,6 +219,7 @@ struct TodayGames: View {
             .padding(.horizontal, -DS.gutter)
         }
         .disabled(!model.ready)
+        .onAppear { if fresh == nil { fresh = Unlocks.takeNew() } }
         .sheet(isPresented: $showLazySetup) {
             LazySetupView(level: model.level, words: model.content?.words ?? [], themes: model.content?.themes ?? []) { config in
                 showLazySetup = false

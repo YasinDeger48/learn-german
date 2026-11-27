@@ -143,7 +143,8 @@ struct ModulesHomeView: View {
                             }
                         }
                         rowList([
-                            row(AppRoute.examHome, "checkmark.seal.fill", DS.ink, t("exam.title", model.level), t("exam.format")),
+                            row(AppRoute.examHome, "checkmark.seal.fill", DS.ink, t("exam.title", model.level), t("exam.format"),
+                                gate: .exam),
                             row(AppRoute.practice(model.level), "square.grid.2x2.fill", .orange, t("modules.allPractice"),
                                 t("modules.allPracticeSub")),
                         ])
@@ -203,22 +204,27 @@ struct ModulesHomeView: View {
     }
 
     private func row<V: Hashable>(_ value: V, _ icon: String, _ color: Color, _ title: String, _ subtitle: String?,
-                                  _ count: String? = nil) -> AnyView {
-        AnyView(NavigationLink(value: value) {
+                                  _ count: String? = nil, gate: UnlockFeature? = nil) -> AnyView {
+        let link = NavigationLink(value: value) {
             ModuleRow(icon: icon, color: color, title: title, subtitle: subtitle, value: count)
-        })
+        }
+        guard let gate else { return AnyView(link) }
+        return AnyView(UnlockGate(feature: gate) { link })
     }
 
     private func wordRows(_ model: A1Model) -> [AnyView] {
         var rows = [
             row(AppRoute.myWords, "character.book.closed.fill", DS.accent, t("words.title"), t("words.dueSub")),
             row(A1Route.mode(.artikel), "a.square.fill", DS.die, A1Mode.artikel.title, nil),
-            row(A1Route.wordRun, "figure.run", DS.die, t("run.title"), t("run.cardSub")),
-            row(A1Route.match(nil), "square.grid.3x3.fill", DS.der, t("practice.match"), t("match.cardSub")),
+            row(A1Route.wordRun, "figure.run", DS.die, t("run.title"), t("run.cardSub"), gate: .wordRun),
+            row(A1Route.match(nil), "square.grid.3x3.fill", DS.der, t("practice.match"), t("match.cardSub"), gate: .match),
         ]
-        rows.append(AnyView(Button { showLazySetup = true } label: {
-            ModuleRow(icon: "sofa.fill", color: DS.das, title: t("lazy.title"), subtitle: t("lazy.cardSub"), value: nil)
-        }.buttonStyle(.plain)))
+        rows.append(AnyView(UnlockGate(feature: .lazy) {
+            Button { showLazySetup = true } label: {
+                ModuleRow(icon: "sofa.fill", color: DS.das, title: t("lazy.title"), subtitle: t("lazy.cardSub"), value: nil)
+            }
+            .buttonStyle(.plain)
+        }))
         rows.append(row(AppRoute.basics, "textformat.abc", .blue, "Wortschatz", t("modules.wordsSub"),
                         "\(model.content?.words.count ?? 0)"))
         rows.append(row(AppRoute.memorize, "brain.head.profile", .pink, t("mem.title"), t("mem.sub"),
@@ -249,7 +255,7 @@ struct ModulesHomeView: View {
             rows.append(row(A1Route.mode(.hoeren), "headphones", .orange, A1Mode.hoeren.title, nil))
         }
         if !SongBank.songs(model.level).isEmpty {
-            rows.append(row(A1Route.songs, "music.mic", .orange, t("song.title"), t("song.cardSub")))
+            rows.append(row(A1Route.songs, "music.mic", .orange, t("song.title"), t("song.cardSub"), gate: .songs))
         }
         rows.append(row(A1Route.phone, "phone.fill", .orange, t("phone.title"), nil))
         return rows
@@ -258,7 +264,8 @@ struct ModulesHomeView: View {
     private func speakWriteRows(_ model: A1Model) -> [AnyView] {
         var rows: [AnyView] = []
         if LinaAI.isAvailable {
-            rows.append(row(A1Route.linaChat, "bubble.left.and.bubble.right.fill", .purple, t("lina.chatTitle"), t("lina.cardSub")))
+            rows.append(row(A1Route.linaChat, "bubble.left.and.bubble.right.fill", .purple, t("lina.chatTitle"), t("lina.cardSub"),
+                            gate: .linaChat))
         }
         rows.append(row(A1Route.speaking, "mic.fill", DS.die, t("speak.title"), t("speak.sub")))
         let tasks = WritingBank.tasks(model.level)
@@ -268,7 +275,7 @@ struct ModulesHomeView: View {
                             "\(done)/\(tasks.count)"))
         }
         if PhotoCapture.available {
-            rows.append(row(A1Route.camera, "camera.fill", .teal, t("cam.title"), t("cam.cardSub")))
+            rows.append(row(A1Route.camera, "camera.fill", .teal, t("cam.title"), t("cam.cardSub"), gate: .camera))
         }
         return rows
     }

@@ -53,6 +53,7 @@ struct SettingsView: View {
                     .pickerStyle(.navigationLink)
                 }
                 AppearanceSettingsSection()
+                if Unlocks.isBeginner { UnlockAllSection() }
                 Section {
                     Picker(t("voice.choose"), selection: Binding(get: { ReadingVoice.from(voiceRaw) }, set: { voiceRaw = $0.rawValue })) {
                         ForEach(ReadingVoice.choices) { voice in
@@ -201,5 +202,22 @@ struct AboutAppView: View {
             if case .success(let url) = result { status = t(BackupService.restore(from: url)) }
         }
         .tint(DS.accent)
+    }
+}
+
+/// Settings → "Open all features": ends the slow opening for beginners (Unlocks).
+private struct UnlockAllSection: View {
+    @State private var allOpen = !Unlocks.active
+
+    var body: some View {
+        Section {
+            Toggle(t("unlock.all"), isOn: Binding(get: { allOpen }, set: { on in
+                if on { Unlocks.openAll() }
+                allOpen = !Unlocks.active
+            }))
+            .disabled(allOpen)
+        } footer: {
+            Text(t("unlock.allFooter"))
+        }
     }
 }

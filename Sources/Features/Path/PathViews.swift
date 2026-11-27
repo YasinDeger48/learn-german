@@ -110,6 +110,13 @@ enum UnitStore {
 
     static func passed(_ unit: String) -> Bool { done(unit).contains(UnitStep.test.rawValue) }
 
+    /// Best unit test score in percent.
+    static func testScore(_ unit: String) -> Int? { UserDefaults.standard.object(forKey: "unit.test.\(unit)") as? Int }
+
+    static func saveTest(_ unit: String, percent: Int) {
+        if percent > (testScore(unit) ?? -1) { UserDefaults.standard.set(percent, forKey: "unit.test.\(unit)") }
+    }
+
     private static let lastDayKey = "unit.lastStepDay"
     /// A unit step was finished today (the first step of Today's plan).
     static var steppedToday: Bool { UserDefaults.standard.string(forKey: lastDayKey) == A1Model.dayString(Date()) }
@@ -272,7 +279,7 @@ struct PathView: View {
                 }
                 if !units.isEmpty {
                     reviewCards(units)
-                    NavigationLink(value: AppRoute.examHome) {
+                    UnlockGate(feature: .exam) { NavigationLink(value: AppRoute.examHome) {
                         HStack(spacing: 12) {
                             Image(systemName: "rosette").font(.system(size: 17, weight: .bold)).foregroundColor(DS.goldDeep)
                                 .frame(width: 38, height: 38).background(DS.gold.opacity(0.18), in: Circle())
@@ -285,7 +292,7 @@ struct PathView: View {
                         .padding(12)
                         .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(DS.hairline, style: StrokeStyle(lineWidth: 1.5, dash: [6, 4])))
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.plain) }
                 }
             }
             .padding(.horizontal, DS.gutter)
@@ -431,6 +438,9 @@ struct UnitView: View {
     let unit: LearningUnit
     @State private var done: Set<String> = []
     @State private var lastTest: Int?
+    /// The test was just passed: the recap opens when the learner is back on this page.
+    @State private var recapDue = false
+    @State private var showRecap = false
 
     var body: some View {
         ScrollView {
@@ -450,6 +460,13 @@ struct UnitView: View {
                 }
                 .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
 
+                if done.contains(UnitStep.test.rawValue) {
+                    Button { showRecap = true } label: {
+                        ModuleRow(icon: "sparkles", color: DS.goldDeep, title: t("recap.show"), subtitle: nil, value: nil)
+                            .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    }
+                    .buttonStyle(.pressable)
+                }
                 if let lastTest, lastTest < UnitStore.passMark, !done.contains(UnitStep.test.rawValue) {
                     Text(t("unit.testAgain", lastTest, UnitStore.passMark)).font(.footnote).foregroundColor(DS.error)
                 }
@@ -471,8 +488,15 @@ struct UnitView: View {
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(unit.title.text)
         .navigationBarTitleDisplayMode(.inline)
-        .onAppear { done = UnitStore.done(unit.id) }
+        .onAppear {
+            done = UnitStore.done(unit.id)
+            if recapDue {
+                recapDue = false
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { showRecap = true }
+            }
+        }
         .onReceive(NotificationCenter.default.publisher(for: UnitStore.changed)) { _ in done = UnitStore.done(unit.id) }
+        .sheet(isPresented: $showRecap) { UnitRecapView(unit: unit).presentationDragIndicator(.visible) }
     }
 
     private var nextStep: UnitStep? { UnitStep.allCases.first { !done.contains($0.rawValue) } }
@@ -557,7 +581,11 @@ struct UnitView: View {
             A1QuizView(title: t("unit.step.test"), onFinish: { correct, total in
                 let percent = total == 0 ? 0 : correct * 100 / total
                 lastTest = percent
-                if percent >= UnitStore.passMark { UnitStore.mark(.test, unit.id) }
+                UnitStore.saveTest(unit.id, percent: percent)
+                if percent >= UnitStore.passMark {
+                    if !UnitStore.passed(unit.id) { recapDue = true }
+                    UnitStore.mark(.test, unit.id)
+                }
             }) {
                 model.unitTestSession(unit)
             }
