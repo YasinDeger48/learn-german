@@ -16,6 +16,9 @@ struct TodayView: View {
     @State private var wordRound = 0
     @State private var appeared = false
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    /// Lina pops up a little the first time the greeting appears.
+    @State private var greeted = false
 
     var body: some View {
         ScrollView {
@@ -79,8 +82,19 @@ struct TodayView: View {
     }
 
     private var greeting: some View {
-        HStack(spacing: 14) {
-            LinaAvatar(size: 64)
+        HStack(spacing: 12) {
+            // Just Lina, clapping and laughing, on the page itself (no circle): lina-hello.png is the top of
+            // lina-dance-1 with a soft fade at the bottom.
+            if let hello = UIImage(named: "lina-hello") {
+                Image(uiImage: hello).resizable().scaledToFit()
+                    .frame(height: 84)
+                    .scaleEffect(greeted || reduceMotion ? 1 : 0.85, anchor: .bottom)
+                    .animation(reduceMotion ? nil : .spring(response: 0.45, dampingFraction: 0.55), value: greeted)
+                    .onAppear { greeted = true }
+                    .accessibilityHidden(true)
+            } else {
+                LinaAvatar(size: 64)
+            }
             VStack(alignment: .leading, spacing: 3) {
                 Text(greetingText).font(DS.display(32)).foregroundColor(DS.ink).tracking(-1)
                 Text(linaLine).font(DS.text(14)).foregroundColor(DS.muted)
