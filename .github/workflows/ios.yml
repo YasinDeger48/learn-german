@@ -10,6 +10,7 @@ on:
       - 'ci/**'
       - 'project.yml'
       - 'Sources/**'
+      - 'Tests/**'
       - 'Widgets/**'
       - 'Resources/**'
       - 'Info.plist'
@@ -65,3 +66,19 @@ jobs:
           name: Deschly-IPA
           path: Deschly.ipa
           if-no-files-found: error
+
+      # After the IPA, so a failing test never blocks it; the run still turns red.
+      - name: Tests (simulator)
+        shell: bash
+        run: |
+          set -euo pipefail
+          device=$(xcrun simctl list devices available -j | python3 -c "import json, sys; d = json.load(sys.stdin)['devices']; print(next(x['udid'] for k, v in d.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone')))")
+          echo "Simulator $device"
+          if ! xcodebuild test \
+            -project Almanca.xcodeproj -scheme Almanca -destination "id=$device" \
+            -derivedDataPath build-tests CODE_SIGNING_ALLOWED=NO > test.log 2>&1; then
+            echo "::group::Failures"; grep -E 'error:|failed|XCTAssert' test.log | sort -u | head -40 || true; echo "::endgroup::"
+            tail -n 40 test.log
+            exit 1
+          fi
+          grep -E 'Executed [0-9]+ test' test.log | tail -n 1

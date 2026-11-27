@@ -41,7 +41,23 @@ targets:
         CODE_SIGN_STYLE: Automatic
         ENABLE_BITCODE: NO
         OTHER_LDFLAGS: ["-ObjC"]
-    scheme: {}
+    scheme:
+      testTargets:
+        - AlmancaTests
+  AlmancaTests:
+    # Unit tests (Tests/), run on a simulator by .github/workflows/ios.yml after the IPA is made.
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests
+    dependencies:
+      - target: Almanca
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yasindeger.almanca.tests
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_STYLE: Automatic
   DeschlyWidgets:
     # Lock Screen and Home Screen widgets (iOS 17+; on iOS 16 the app works without them).
     type: app-extension
