@@ -120,8 +120,6 @@ struct ModulesHomeView: View {
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var daily: DailyModel
     @State private var didPickLevel = false
-    @State private var showLazySetup = false
-    @State private var lazyConfig: LazyConfig?
 
     var body: some View {
         let model = levels.current
@@ -169,18 +167,6 @@ struct ModulesHomeView: View {
                 if levels.hasPractice(daily.level) { levels.active = daily.level }
             }
         }
-        .sheet(isPresented: $showLazySetup) {
-            LazySetupView(level: model.level, words: model.content?.words ?? [], themes: model.content?.themes ?? []) { config in
-                showLazySetup = false
-                // The player opens after the sheet has gone (two presentations at once are refused).
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) { lazyConfig = config }
-            }
-            .presentationDetents([.large])
-        }
-        .fullScreenCover(item: $lazyConfig) { config in
-            LazyPlayerView(config: config)
-                .environmentObject(model)
-        }
         .safeAreaInset(edge: .bottom) { AdBanner() }
     }
 
@@ -216,15 +202,8 @@ struct ModulesHomeView: View {
         var rows = [
             row(AppRoute.myWords, "character.book.closed.fill", DS.accent, t("words.title"), t("words.dueSub")),
             row(A1Route.mode(.artikel), "a.square.fill", DS.die, A1Mode.artikel.title, nil),
-            row(A1Route.wordRun, "figure.run", DS.die, t("run.title"), t("run.cardSub"), gate: .wordRun),
-            row(A1Route.match(nil), "square.grid.3x3.fill", DS.der, t("practice.match"), t("match.cardSub"), gate: .match),
         ]
-        rows.append(AnyView(UnlockGate(feature: .lazy) {
-            Button { showLazySetup = true } label: {
-                ModuleRow(icon: "sofa.fill", color: DS.das, title: t("lazy.title"), subtitle: t("lazy.cardSub", model.level), value: nil)
-            }
-            .buttonStyle(.plain)
-        }))
+        // Word run, matching, Lazy mode, songs and the camera are games: they live on the Today page only.
         rows.append(row(AppRoute.basics, "textformat.abc", .blue, "Wortschatz", t("modules.wordsSub"),
                         "\(model.content?.words.count ?? 0)"))
         rows.append(row(AppRoute.memorize, "brain.head.profile", .pink, t("mem.title"), t("mem.sub"),
@@ -254,10 +233,6 @@ struct ModulesHomeView: View {
         if model.totalFor(.hoeren) > 0 {
             rows.append(row(A1Route.mode(.hoeren), "headphones", .orange, A1Mode.hoeren.title, nil))
         }
-        if !SongBank.songs(model.level).isEmpty {
-            rows.append(row(A1Route.songs, "music.mic", .orange, t("song.title"),
-                            t("song.cardSub", SongBank.songs(model.level).count), gate: .songs))
-        }
         rows.append(row(A1Route.phone, "phone.fill", .orange, t("phone.title"), nil))
         return rows
     }
@@ -274,9 +249,6 @@ struct ModulesHomeView: View {
             let done = tasks.filter { (WritingBank.best($0.id) ?? 0) >= 60 }.count
             rows.append(row(AppRoute.writing, "square.and.pencil", .pink, t("modules.writingTasks"), t("modules.writingTasksSub"),
                             "\(done)/\(tasks.count)"))
-        }
-        if PhotoCapture.available {
-            rows.append(row(A1Route.camera, "camera.fill", .teal, t("cam.title"), t("cam.cardSub"), gate: .camera))
         }
         return rows
     }
@@ -498,10 +470,6 @@ struct WordsBasicsView: View {
                 VStack(spacing: 0) {
                     NavigationLink(value: A1Route.sprint) {
                         ModuleRow(icon: "timer", color: .pink, title: t("practice.sprint"), subtitle: t("practice.record", model.state.bestSprint), value: nil)
-                    }
-                    Divider().padding(.leading, 56)
-                    NavigationLink(value: A1Route.match(nil)) {
-                        ModuleRow(icon: "square.grid.2x2.fill", color: .teal, title: t("practice.match"), subtitle: t("practice.matchSub"), value: nil)
                     }
                 }
                 .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
