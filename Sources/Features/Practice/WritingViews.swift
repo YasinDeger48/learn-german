@@ -117,6 +117,10 @@ struct WritingHomeView: View {
 
 struct WritingFormView: View {
     let task: WritingTask
+    /// Mock exam: the percent, once, when the form is handed in (no "again" then).
+    var onFinish: ((Int) -> Void)? = nil
+    /// Mock exam: a change hands the form in (the time is up).
+    var submitSignal = 0
     @State private var inputs: [String] = []
     @State private var checked = false
 
@@ -151,15 +155,17 @@ struct WritingFormView: View {
                         .foregroundColor(right == fields.count ? DS.success : DS.ink)
                 }
 
-                Button(checked ? t("write.again") : t("write.check")) {
-                    if checked {
-                        inputs = Array(repeating: "", count: fields.count)
-                        checked = false
-                    } else {
-                        check()
+                if onFinish == nil || !checked {
+                    Button(checked ? t("write.again") : (onFinish == nil ? t("write.check") : t("exam.handIn"))) {
+                        if checked {
+                            inputs = Array(repeating: "", count: fields.count)
+                            checked = false
+                        } else {
+                            check()
+                        }
                     }
+                    .buttonStyle(SpeakPrimaryButton())
                 }
-                .buttonStyle(SpeakPrimaryButton())
             }
             .padding(DS.gutter)
         }
@@ -167,6 +173,7 @@ struct WritingFormView: View {
         .navigationTitle(task.title.text)
         .navigationBarTitleDisplayMode(.inline)
         .onAppear { if inputs.count != fields.count { inputs = Array(repeating: "", count: fields.count) } }
+        .onChange(of: submitSignal) { _ in if !checked { check() } }
     }
 
     private func fieldRow(_ index: Int, _ field: WritingField) -> some View {
@@ -201,6 +208,7 @@ struct WritingFormView: View {
         StreakStore.shared.addXP(max(0, right - before * fields.count / 100) * XP.correct)
         UINotificationFeedbackGenerator().notificationOccurred(right == fields.count ? .success : .warning)
         withAnimation { checked = true }
+        onFinish?(percent)
     }
 }
 
@@ -208,8 +216,14 @@ struct WritingFormView: View {
 
 struct WritingMessageView: View {
     let task: WritingTask
+    /// Mock exam: the percent, once, when the text is handed in (after Lina's rating where she can).
+    var onFinish: ((Int) -> Void)? = nil
+    /// Mock exam: a change hands the text in (the time is up).
+    var submitSignal = 0
     @State private var text = ""
     @State private var checked = false
+    @State private var score: TaskScore?
+    @State private var rating = false
     @State private var showPattern = false
     @State private var formal: Bool?
     @FocusState private var focused: Bool
@@ -246,7 +260,7 @@ struct WritingMessageView: View {
                             Text(item.label).font(DS.text(15)).foregroundColor(DS.ink)
                         }
                     }
-                    if !checked {
+                    if !checked && onFinish == nil {  // the example phrases are help: not in the exam
                         ForEach(Array(points.enumerated()), id: \.offset) { _, point in
                             Text("• " + point.say).font(.caption).italic().foregroundColor(DS.muted)
                         }
@@ -270,7 +284,7 @@ struct WritingMessageView: View {
                 HStack {
                     Text(t("write.words", words)).font(.caption.monospacedDigit()).foregroundColor(DS.muted)
                     Spacer()
-                    if !checked {
+                    if !checked && onFinish == nil {
                         Button { withAnimation { showPattern.toggle() } } label: {
                             Label(showPattern ? t("write.hidePattern") : t("write.showPattern"), systemImage: "list.bullet.rectangle")
                                 .font(DS.text(13, .semibold))
@@ -279,7 +293,9 @@ struct WritingMessageView: View {
                 }
                 if showPattern && !checked { patternPanel }
 
-                if checked, let sample = task.sample {
+                if checked, let score { ScoreBreakdownView(score: score, busy: rating) }
+
+                if checked, onFinish == nil, let sample = task.sample {
                     VStack(alignment: .leading, spacing: 8) {
                         HStack {
                             Text(t("speak.sample")).font(.caption.weight(.bold)).foregroundColor(DS.muted).textCase(.uppercase)
@@ -295,21 +311,24 @@ struct WritingMessageView: View {
                 }
 
                 // "Lina değerlendirsin" (Apple's on-device model, iOS 26+).
-                if checked && LinaAI.isAvailable {
+                if checked && onFinish == nil && LinaAI.isAvailable {
                     LinaReviewCard(task: task.prompt ?? task.title.text,
                                    points: (task.points ?? []).map { $0.label.values["en"] ?? $0.say },
                                    text: text, level: task.level)
                 }
 
-                Button(checked ? t("write.again") : t("write.check")) {
-                    if checked {
-                        checked = false
-                    } else {
-                        check()
+                if onFinish == nil || !checked {
+                    Button(checked ? t("write.again") : (onFinish == nil ? t("write.check") : t("exam.handIn"))) {
+                        if checked {
+                            checked = false
+                            score = nil
+                        } else {
+                            check()
+                        }
                     }
+                    .buttonStyle(SpeakPrimaryButton())
+                    .disabled(!checked && words < 3 && onFinish == nil)
                 }
-                .buttonStyle(SpeakPrimaryButton())
-                .disabled(!checked && words < 3)
             }
             .padding(DS.gutter)
         }
@@ -317,6 +336,7 @@ struct WritingMessageView: View {
         .navigationTitle(task.title.text)
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear { A1Speaker.shared.stop() }  // the sample text must not go on reading on the next page
+        .onChange(of: submitSignal) { _ in if !checked { check() } }
         .toolbar {
             ToolbarItemGroup(placement: .keyboard) {
                 Spacer()
@@ -374,15 +394,41 @@ struct WritingMessageView: View {
         if signOff { text += ",\n" }
     }
 
+    /// Scores by the criteria (TaskScorer); Lina's rating follows where the phone has her and may add points
+    /// said in other words.
     private func check() {
         focused = false
-        let ok = checks.filter { $0.ok }.count
-        let percent = checks.isEmpty ? 0 : ok * 100 / checks.count
+        let rules = TaskScorer.writing(task, text: text)
+        score = rules
+        save(rules.percent)
+        UINotificationFeedbackGenerator().notificationOccurred(rules.percent >= 60 ? .success : .warning)
+        withAnimation { checked = true }
+        guard LinaAI.isAvailable, words >= 5 else {
+            onFinish?(rules.percent)
+            return
+        }
+        rating = true
+        let written = text
+        Task {
+            let result = await LinaAI.rate(task: task.prompt ?? task.title.text,
+                                           points: points.map { $0.label.values["en"] ?? $0.say },
+                                           text: written, level: task.level, spoken: false)
+            await MainActor.run {
+                rating = false
+                if let result {
+                    let better = TaskScorer.writing(task, text: written, rating: result)
+                    withAnimation { score = better }
+                    save(better.percent)
+                }
+                onFinish?(score?.percent ?? rules.percent)
+            }
+        }
+    }
+
+    private func save(_ percent: Int) {
         let before = WritingBank.best(task.id) ?? 0
         WritingBank.save(task.id, percent: percent)
         StreakStore.shared.record()
         if percent > before { StreakStore.shared.addXP((percent - before) / 10 * 2) }
-        UINotificationFeedbackGenerator().notificationOccurred(percent == 100 ? .success : .warning)
-        withAnimation { checked = true }
     }
 }

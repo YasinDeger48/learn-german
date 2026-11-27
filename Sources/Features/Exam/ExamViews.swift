@@ -313,6 +313,8 @@ struct ExamRunView: View {
     @State private var scores: [String: Int] = [:]
     @State private var counts: [String: [Int]] = [:]
     @State private var speakingTask: SpeakingTask?
+    /// Schreiben: a form (A1) or a message, then a message, like Goethe Teil 1 and 2. Empty: questions instead.
+    @State private var writingTasks: [WritingTask] = []
     /// The module on screen. Kept apart from "the next module", which changes as soon as a module is scored.
     @State private var running: ExamModule?
     @State private var result: (attempt: ExamAttempt, certificate: Certificate?)?
@@ -344,8 +346,16 @@ struct ExamRunView: View {
         }
         .onAppear {
             if speakingTask == nil { speakingTask = SpeakingBank.tasks(model.level).randomElement() }
+            if writingTasks.isEmpty { writingTasks = Self.pickWriting(model.level) }
         }
         .onChange(of: scores) { _ in finishIfDone() }
+    }
+
+    static func pickWriting(_ level: String) -> [WritingTask] {
+        let all = WritingBank.tasks(level).shuffled()
+        let messages = all.filter { $0.kind != "form" }
+        if let form = all.first(where: { $0.kind == "form" }), let message = messages.first { return [form, message] }
+        return Array(messages.prefix(2))
     }
 
     // MARK: Rules
@@ -462,10 +472,15 @@ struct ExamRunView: View {
         switch module {
         case .sprechen:
             if let task = speakingTask {
-                SpeakTaskView(task: task) { covered, total in
+                SpeakTaskView(task: task) { covered, total, percent in
                     counts[module.rawValue] = [covered, total]
-                    scores[module.rawValue] = points(covered, total)
+                    scores[module.rawValue] = points(percent, 100)
                 }
+            }
+        case .schreiben where !writingTasks.isEmpty:
+            ExamWritingView(tasks: writingTasks, seconds: module.minutes * 60) { percent in
+                counts[module.rawValue] = nil
+                scores[module.rawValue] = points(percent, 100)
             }
         default:
             A1QuizView(title: module.title, exam: true, free: true, partPoints: 25, timeLimit: module.minutes * 60,
@@ -609,6 +624,98 @@ struct ExamRunView: View {
             ProgressView(value: Double(points), total: 25).tint(weak ? DS.error : module.color)
         }
         .accessibilityElement(children: .combine)
+    }
+}
+
+/// Mock exam Schreiben: the tasks one after the other on one timer; at zero what is written is handed in.
+/// The form counts once, a message twice (Goethe A1: 5 and 10 points).
+struct ExamWritingView: View {
+    let tasks: [WritingTask]
+    let seconds: Int
+    let onFinish: (Int) -> Void
+    @State private var step = 0
+    @State private var results: [Int] = []
+    @State private var startedAt = Date()
+    @State private var now = Date()
+    @State private var submit = 0
+    @State private var timeUp = false
+    @State private var total: Int?
+    private let clock = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+
+    private var left: Int { max(0, seconds - Int(now.timeIntervalSince(startedAt))) }
+
+    var body: some View {
+        Group {
+            if let total {
+                VStack(spacing: 14) {
+                    GoalRing(progress: Double(total) / 100, size: 110, lineWidth: 10, color: ExamModule.schreiben.color) {
+                        Text("\(Int((Double(total) / 4).rounded()))").font(.system(size: 30, weight: .heavy).monospacedDigit())
+                    }
+                    Text(t("exam.moduleDone", ExamModule.schreiben.title)).font(.footnote.weight(.bold)).foregroundColor(DS.muted)
+                    if timeUp {
+                        Label(t("exam.timeUp"), systemImage: "timer").font(.footnote.weight(.semibold)).foregroundColor(DS.error)
+                            .multilineTextAlignment(.center)
+                    }
+                    Text(t("exam.backToExam")).font(.subheadline).foregroundColor(DS.muted).multilineTextAlignment(.center)
+                }
+                .padding(24)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(DS.ground.ignoresSafeArea())
+            } else if step < tasks.count {
+                let task = tasks[step]
+                Group {
+                    if task.kind == "form" {
+                        WritingFormView(task: task, onFinish: handIn, submitSignal: submit)
+                    } else {
+                        WritingMessageView(task: task, onFinish: handIn, submitSignal: submit)
+                    }
+                }
+                .id(step)
+                .safeAreaInset(edge: .top) {
+                    Text(t("exam.writingPart", step + 1, tasks.count))
+                        .font(.caption.weight(.bold)).foregroundColor(DS.muted)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 4)
+                        .background(DS.ground)
+                }
+            }
+        }
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                if total == nil {
+                    Label(String(format: "%02d:%02d", left / 60, left % 60), systemImage: "timer")
+                        .labelStyle(.titleAndIcon)
+                        .font(.system(.subheadline, design: .monospaced).weight(.bold))
+                        .foregroundColor(left < 300 ? DS.error : DS.ink)
+                        .accessibilityLabel(t("exam.timeLeft", left / 60))
+                }
+            }
+        }
+        .onAppear { now = Date() }
+        .onReceive(clock) { date in
+            guard total == nil else { return }
+            now = date
+            if left == 0 && !timeUp {
+                timeUp = true
+                submit += 1
+            }
+        }
+    }
+
+    private func handIn(_ percent: Int) {
+        guard results.count == step else { return }
+        results.append(percent)
+        if step + 1 < tasks.count && !timeUp {
+            step += 1
+        } else {
+            // Time is up: the tasks not reached give nothing.
+            while results.count < tasks.count { results.append(0) }
+            let weights = tasks.map { $0.kind == "form" ? 1.0 : 2.0 }
+            let sum = zip(results, weights).map { Double($0) * $1 }.reduce(0, +)
+            let value = Int((sum / weights.reduce(0, +)).rounded())
+            withAnimation { total = value }
+            onFinish(value)
+        }
     }
 }
 

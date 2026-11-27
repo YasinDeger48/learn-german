@@ -462,9 +462,12 @@ struct SpeakRepeatView: View {
 
 struct SpeakTaskView: View {
     let task: SpeakingTask
-    /// Mock exam: points covered and points in the task, called when an answer is finished.
-    var onFinish: ((Int, Int) -> Void)? = nil
+    /// Mock exam: points covered, points in the task and the score in percent, once, when an answer is finished
+    /// (after Lina's rating where the phone has her).
+    var onFinish: ((Int, Int, Int) -> Void)? = nil
     @StateObject private var listener = SpeechListener()
+    @State private var score: TaskScore?
+    @State private var rating = false
     @State private var answer = ""
     @State private var seconds = 0
     @State private var done = false
@@ -527,6 +530,7 @@ struct SpeakTaskView: View {
                 } else {
                     checklist
                     recorder
+                    if done, let score { ScoreBreakdownView(score: score, busy: rating) }
                     if done { results }
                 }
             }
@@ -627,6 +631,7 @@ struct SpeakTaskView: View {
         seconds = 0
         done = false
         earned = 0
+        score = nil
         let hints = useHints ? task.points.map(\.say) : []
         startFailed = !listener.start(hints: hints, pause: 5, maxSeconds: Double(max(60, task.seconds + 30))) { heard in
             finish(heard)
@@ -637,8 +642,29 @@ struct SpeakTaskView: View {
         answer = heard
         withAnimation { done = true }
         let count = task.points.filter { SpeechScore.mentions(heard, $0.keys) }.count
-        onFinish?(SpeechScore.split(heard).count >= 5 ? count : 0, task.points.count)
         let words = SpeechScore.split(heard).count
+        let spokenFor = seconds
+        let unsure = listener.unsureWords
+        let rules = TaskScorer.speaking(task, heard: heard, seconds: spokenFor, unsure: unsure)
+        score = rules
+        if LinaAI.isAvailable && words >= 5 {
+            rating = true
+            Task {
+                let result = await LinaAI.rate(task: task.prompt, points: task.points.map { $0.label.values["en"] ?? $0.say },
+                                               text: heard, level: task.level, spoken: true)
+                await MainActor.run {
+                    rating = false
+                    if let result {
+                        withAnimation {
+                            score = TaskScorer.speaking(task, heard: heard, seconds: spokenFor, unsure: unsure, rating: result)
+                        }
+                    }
+                    onFinish?(words >= 5 ? count : 0, task.points.count, score?.percent ?? rules.percent)
+                }
+            }
+        } else {
+            onFinish?(words >= 5 ? count : 0, task.points.count, rules.percent)
+        }
         guard words >= 5 else { return }
         let previous = SpeakingBank.best(task.id) ?? 0
         // XP for every point covered, once per point and task; a bonus for a full answer.

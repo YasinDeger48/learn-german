@@ -540,7 +540,7 @@ struct UnitView: View {
             }
         case .speak:
             if let task = unit.speaking.compactMap({ SpeakingBank.task($0) }).first {
-                SpeakTaskView(task: task) { covered, _ in
+                SpeakTaskView(task: task) { covered, _, _ in
                     if covered > 0 { UnitStore.mark(.speak, unit.id) }  // silence does not finish the step
                 }
             }

@@ -22,6 +22,12 @@ struct LinaReview: Hashable {
     let tip: String
 }
 
+/// Lina's help for a score (TaskScorer): which points the text covers in other words, and the language (0–4).
+struct LinaRating: Hashable {
+    let covered: Set<Int>
+    let language: Int
+}
+
 enum LinaAI {
     /// The model can be used now (iOS 26+, Apple Intelligence on and downloaded).
     static var isAvailable: Bool {
@@ -78,6 +84,30 @@ enum LinaAI {
                 return LinaReview(praise: result.praise,
                                   fixes: result.fixes.prefix(3).map { LinaFix(wrong: $0.wrong, right: $0.right, why: $0.why) },
                                   tip: result.tip)
+            } catch {
+                return nil
+            }
+        }
+        #endif
+        return nil
+    }
+
+    /// Scoring help for a written or spoken answer: the points it covers (also in other words) and the language
+    /// for the level, 0 (very poor) to 4 (very good). Spoken answers come from speech recognition.
+    static func rate(task: String, points: [String], text: String, level: String, spoken: Bool) async -> LinaRating? {
+        #if canImport(FoundationModels)
+        if #available(iOS 26.0, *), isAvailable {
+            let numbered = points.enumerated().map { "\($0.offset): \($0.element)" }.joined(separator: "\n")
+            let prompt = "Level \(level). Task: \(task)\nPoints (number: point):\n\(numbered)\n\n"
+                + (spoken ? "What the learner said (speech recognition, no punctuation):\n" : "The learner's text:\n")
+                + text + "\n\nList the numbers of the points the answer really covers, also when said in other words. "
+                + "Rate the German for this level from 0 (very poor, hard to understand) to 4 (very good, few mistakes)."
+                + (spoken ? " Ignore punctuation and capital letters." : "")
+            do {
+                let session = LanguageModelSession(instructions: teacher)
+                let result = try await session.respond(to: prompt, generating: GenRating.self).content
+                let covered = Set(result.coveredPoints.filter { points.indices.contains($0) })
+                return LinaRating(covered: covered, language: min(4, max(0, result.language)))
             } catch {
                 return nil
             }
@@ -266,6 +296,15 @@ struct GenFix {
     var right: String
     @Guide(description: "Very short reason in the learner's language")
     var why: String
+}
+
+@available(iOS 26.0, *)
+@Generable
+struct GenRating {
+    @Guide(description: "Numbers of the points the answer really covers")
+    var coveredPoints: [Int]
+    @Guide(description: "Language for the level: 0 very poor, 1 poor, 2 fair, 3 good, 4 very good")
+    var language: Int
 }
 
 @available(iOS 26.0, *)
