@@ -1,18 +1,23 @@
 import SwiftUI
 
 /// Profile tab: certificates, badges, levels and settings. Every other screen has its one place elsewhere
-/// (mistakes and the exam in Practice, the streak calendar behind the flame on Today).
+/// (mistakes and the exam in Practice). The streak calendar opens from the streak itself (here and on Today).
 struct ProfileView: View {
     @EnvironmentObject private var daily: DailyModel
     @ObservedObject private var streak = StreakStore.shared
     @State private var certificates = ExamStore.certificates()
+    @State private var showStreak = false
     let open: (AppRoute) -> Void
 
     var body: some View {
         List {
             Section {
                 HStack(spacing: 12) {
-                    stat("\(streak.current)", t("profile.streak"), "flame.fill", .orange)
+                    Button { showStreak = true } label: {
+                        stat("\(streak.current)", t("profile.streak"), "flame.fill", .orange)
+                    }
+                    .buttonStyle(.pressable)
+                    .accessibilityHint(t("profile.streakCalendar"))
                     stat("\(streak.state.totalXP)", "XP", "bolt.fill", DS.goldDeep)
                     stat(daily.level, t("profile.level"), "graduationcap.fill", DS.accent)
                 }
@@ -49,6 +54,14 @@ struct ProfileView: View {
             }
         }
         .navigationTitle(t("tab.profile"))
+        .sheet(isPresented: $showStreak) {
+            StreakView(open: { route in
+                showStreak = false
+                open(route)
+            })
+            .environmentObject(daily)
+            .presentationDragIndicator(.visible)
+        }
         .onReceive(NotificationCenter.default.publisher(for: ExamStore.changed)) { _ in certificates = ExamStore.certificates() }
     }
 
