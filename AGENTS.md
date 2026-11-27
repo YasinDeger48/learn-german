@@ -60,6 +60,7 @@ The owner talks to agents in Turkish: answer him in Turkish. Code, comments, com
 | `songs_a1.json` (karaoke, public-domain songs, our music) | `tools/karaoke.py` |
 | Pictures for the A1 nouns that still have none (Codex picks, then draws) | `tools/word_pictures_rest.py` |
 | Pictures for every unit word card still shown as a letter (abstract words, verbs, adjectives) | `tools/unit_pictures_rest.py` |
+| Missing words up to B2 against the official lists (Codex writes them, then checked) | `tools/word_gaps.py` |
 | Checking the writing / speaking score rules (`TaskScore.swift`) against graded samples | `tools/score_check.py` |
 | Unit tests (score rules first; run on a simulator by `.github/workflows/ios.yml`) | `Tests/` (target AlmancaTests in project.yml) |
 | Reading / word audio, background sounds | `tools/audio.py`, `tools/word_audio.py`, `tools/audio_pad.py`, `tools/ambience.py` |
