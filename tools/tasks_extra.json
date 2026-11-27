@@ -1,0 +1,1267 @@
+{
+ "writing": [
+  {
+   "id": "b2-m5",
+   "level": "B2",
+   "title": {
+    "tr": "Forum: Evden çalışma mı, ofis mi?",
+    "en": "Forum: Working from Home or the Office?"
+   },
+   "prompt": "In einem Online-Forum wird diskutiert, ob Beschäftigte lieber im Homeoffice oder im Büro arbeiten sollten. Schreiben Sie einen Forumsbeitrag. Äußern Sie Ihre Meinung, nennen Sie Vor- und Nachteile, geben Sie ein Beispiel aus Ihrem eigenen Land oder Ihrer Erfahrung und ziehen Sie ein Fazit.",
+   "help": {
+    "tr": "Görüşünü açıkla, iki çalışma biçiminin artılarını ve eksilerini karşılaştır, bir deneyim örneği ver ve sonuçla bitir.",
+    "en": "State your view, compare the advantages and disadvantages of both arrangements, give an example from experience, and conclude."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Meiner Meinung nach …",
+     "keys": [
+      "meiner meinung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj ve dezavantajlar",
+      "en": "Advantages and disadvantages"
+     },
+     "say": "Ein Vorteil ist …, während …",
+     "keys": [
+      "ein großer vorteil"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Örnek",
+      "en": "Example"
+     },
+     "say": "Aus eigener Erfahrung kann ich sagen, dass …",
+     "keys": [
+      "aus eigener erfahrung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Zusammenfassend bin ich dafür, dass …",
+     "keys": [
+      "zusammenfassend"
+     ]
+    }
+   ],
+   "sample": "Hallo zusammen,\n\nmeiner Meinung nach sollte man nicht grundsätzlich zwischen Homeoffice und Büro wählen müssen. Ein großer Vorteil der Arbeit zu Hause ist, dass man den Arbeitsweg spart und den Tag flexibler planen kann. Wer konzentriert arbeiten muss, findet dort oft mehr Ruhe. Allerdings fehlt manchmal der direkte Austausch, und technische Probleme lassen sich nicht immer schnell lösen. Im Büro kann man Fragen unmittelbar besprechen und gemeinsam Ideen entwickeln. Dafür kosten Pendeln und feste Arbeitsplätze Zeit und Geld.\n\nAus eigener Erfahrung weiß ich, dass eine Mischung am besten funktioniert. In meinem früheren Team arbeiteten wir an drei Tagen im Büro und an zwei Tagen zu Hause. Bei Besprechungen und neuen Projekten war die persönliche Zusammenarbeit hilfreich. Aufgaben, die viel Konzentration erforderten, erledigte ich lieber zu Hause. Wichtig waren klare Absprachen, damit niemand wichtige Informationen verpasste.\n\nZusammenfassend sollte jedes Unternehmen gemeinsam mit den Beschäftigten passende Regeln vereinbaren. Eine flexible Lösung berücksichtigt sowohl die Bedürfnisse des Teams als auch die Anforderungen der Arbeit.\n\nViele Grüße\nEmely",
+   "kind": "message",
+   "minWords": 150,
+   "formal": false
+  },
+  {
+   "id": "b2-m6",
+   "level": "B2",
+   "title": {
+    "tr": "Forum: Akıllı telefonlar okullarda yasaklanmalı mı?",
+    "en": "Forum: Should Smartphones Be Banned in Schools?"
+   },
+   "prompt": "In einem Online-Forum wird über ein mögliches Verbot von Smartphones an Schulen diskutiert. Schreiben Sie einen Forumsbeitrag. Äußern Sie Ihre Meinung, nennen Sie Vor- und Nachteile, geben Sie ein Beispiel aus Ihrem Land oder Ihrer Erfahrung und ziehen Sie ein Fazit.",
+   "help": {
+    "tr": "Yasağa dair tutumunu belirt; dikkat, öğrenme ve acil iletişim açısından artı ve eksileri örnekle değerlendir.",
+    "en": "Give your position on a ban and discuss its effects on attention, learning, and emergency communication with examples."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Ich bin der Ansicht, dass …",
+     "keys": [
+      "ich bin der ansicht"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj ve dezavantajlar",
+      "en": "Advantages and disadvantages"
+     },
+     "say": "Einerseits …, andererseits …",
+     "keys": [
+      "einerseits"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Örnek",
+      "en": "Example"
+     },
+     "say": "An meiner Schule …",
+     "keys": [
+      "an meiner schule"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Deshalb halte ich … für sinnvoll.",
+     "keys": [
+      "deshalb halte ich"
+     ]
+    }
+   ],
+   "sample": "Hallo zusammen,\n\nich bin der Ansicht, dass Smartphones im Unterricht nur dann erlaubt sein sollten, wenn sie wirklich für eine Aufgabe gebraucht werden. Einerseits lenken Nachrichten und soziale Medien viele Jugendliche ab. Wenn das Telefon während einer Erklärung ständig aufleuchtet, können sich Schülerinnen und Schüler schlechter konzentrieren. Außerdem entstehen leicht Streitigkeiten, wenn jemand ohne Erlaubnis fotografiert wird. Andererseits kann ein Smartphone beim Recherchieren, Übersetzen oder Lernen helfen. Auch für den Kontakt mit der Familie kann es wichtig sein, besonders wenn sich der Stundenplan kurzfristig ändert.\n\nAn meiner Schule mussten wir unsere Telefone während des Unterrichts in der Tasche lassen. Für Gruppenarbeiten durften wir sie nach Rücksprache mit der Lehrkraft benutzen. Das fand ich fair, weil wir digitale Werkzeuge sinnvoll einsetzen konnten, ohne ständig online zu sein. Ein vollständiges Verbot hätte dagegen auch nützliche Lernmöglichkeiten verhindert.\n\nDeshalb halte ich klare Regeln für besser als ein generelles Verbot. Die Schule sollte festlegen, wann die Geräte ausgeschaltet bleiben und wann sie beim Lernen helfen dürfen. So lernen Jugendliche zugleich, verantwortungsvoll mit Technik umzugehen.\n\nViele Grüße\nEmely",
+   "kind": "message",
+   "minWords": 150,
+   "formal": false
+  },
+  {
+   "id": "b2-m7",
+   "level": "B2",
+   "title": {
+    "tr": "Forum: Vergi et yemeklerini azaltabilir mi?",
+    "en": "Forum: Can a Tax Reduce Meat Consumption?"
+   },
+   "prompt": "In einem Online-Forum wird diskutiert, ob Fleisch stärker besteuert werden sollte, um den Konsum zu verringern. Schreiben Sie einen Forumsbeitrag. Äußern Sie Ihre Meinung, nennen Sie Vor- und Nachteile, geben Sie ein Beispiel aus Ihrem Land oder Ihrer Erfahrung und ziehen Sie ein Fazit.",
+   "help": {
+    "tr": "Et vergisini değerlendir; sağlık, çevre ve fiyatlar üzerindeki olası etkileri artı ve eksileriyle yaz.",
+    "en": "Evaluate a meat tax and discuss possible effects on health, the environment, and prices."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Ich halte es für sinnvoll, …",
+     "keys": [
+      "ich halte es für sinnvoll"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj ve dezavantajlar",
+      "en": "Advantages and disadvantages"
+     },
+     "say": "Ein möglicher Vorteil wäre …",
+     "keys": [
+      "ein möglicher vorteil"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Örnek",
+      "en": "Example"
+     },
+     "say": "In meinem Umfeld …",
+     "keys": [
+      "in meinem umfeld"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Letztlich kommt es darauf an, …",
+     "keys": [
+      "letztlich kommt es darauf an"
+     ]
+    }
+   ],
+   "sample": "Hallo zusammen,\n\nich halte es für sinnvoll, über eine höhere Steuer auf Fleisch nachzudenken, wenn dadurch bessere Tierhaltung und nachhaltige Landwirtschaft unterstützt werden. Ein möglicher Vorteil wäre, dass Verbraucherinnen und Verbraucher bewusster einkaufen. Wenn Fleisch teurer wird, könnten manche Menschen öfter pflanzliche Gerichte wählen. Das wäre auch gut für die Umwelt, sofern die Einnahmen gezielt eingesetzt werden. Allerdings darf eine solche Steuer gesunde Ernährung nicht für Familien mit wenig Geld unerschwinglich machen. Außerdem hängt die Qualität der Produkte nicht allein vom Preis ab.\n\nIn meinem Umfeld essen viele Menschen weniger Fleisch als früher, weil sie auf Gesundheit und Herkunft achten. Sie kaufen lieber kleinere Mengen aus regionaler Produktion. Eine Steuer könnte diesen Wandel beschleunigen, aber nur, wenn es gleichzeitig günstige und gute Alternativen gibt. Schulen und Kantinen könnten zudem abwechslungsreiche vegetarische Gerichte anbieten.\n\nLetztlich kommt es darauf an, wie die Einnahmen verwendet werden. Sie sollten kontrolliert in bessere Tierhaltung und Beratung fließen. Eine Steuer allein löst das Problem nicht, kann aber zusammen mit Aufklärung einen Beitrag leisten.\n\nViele Grüße\nEmely",
+   "kind": "message",
+   "minWords": 150,
+   "formal": false
+  },
+  {
+   "id": "b2-m8",
+   "level": "B2",
+   "title": {
+    "tr": "Forum: Yaşlılar için ortak konut projeleri",
+    "en": "Forum: Shared Housing Projects for Older People"
+   },
+   "prompt": "In einem Online-Forum wird über gemeinschaftliche Wohnprojekte für ältere Menschen diskutiert. Schreiben Sie einen Forumsbeitrag. Äußern Sie Ihre Meinung, nennen Sie Vor- und Nachteile, geben Sie ein Beispiel aus Ihrem Land oder Ihrer Erfahrung und ziehen Sie ein Fazit.",
+   "help": {
+    "tr": "Ortak yaşam modelinin sosyal ve pratik yönlerini değerlendir; avantaj, olası sorun, örnek ve sonuç ekle.",
+    "en": "Assess the social and practical sides of shared housing, including benefits, challenges, an example, and a conclusion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Ich finde, dass …",
+     "keys": [
+      "ich finde"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj ve dezavantajlar",
+      "en": "Advantages and disadvantages"
+     },
+     "say": "Besonders vorteilhaft ist …",
+     "keys": [
+      "besonders vorteilhaft"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Örnek",
+      "en": "Example"
+     },
+     "say": "Ein Beispiel dafür ist …",
+     "keys": [
+      "ein beispiel dafür"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Insgesamt überwiegen …",
+     "keys": [
+      "insgesamt überwiegen"
+     ]
+    }
+   ],
+   "sample": "Hallo zusammen,\n\nich finde, dass gemeinschaftliche Wohnprojekte für ältere Menschen eine gute Möglichkeit sein können, selbstständig und zugleich nicht allein zu leben. Besonders vorteilhaft ist der tägliche Kontakt zu anderen Bewohnerinnen und Bewohnern. Man kann gemeinsam kochen, sich bei kleinen Aufgaben helfen und Erfahrungen austauschen. Auch ein gemeinsamer Aufenthaltsraum oder Garten schafft Begegnungen. Trotzdem braucht jede Person einen privaten Rückzugsort. Unterschiedliche Gewohnheiten können zu Konflikten führen, wenn Regeln und Aufgaben nicht klar abgesprochen werden. Außerdem muss die Wohnung barrierefrei und für die Bewohner bezahlbar sein.\n\nEin Beispiel dafür habe ich bei einer Bekannten gesehen, deren Mutter in ein Mehrgenerationenhaus gezogen ist. Dort wohnen ältere und jüngere Menschen zusammen, aber jede Familie hat eine eigene Wohnung. Die Nachbarn helfen einander, ohne dass jemand ständig betreut wird. Für die Mutter wurde es dadurch leichter, aktiv zu bleiben und neue Kontakte zu knüpfen.\n\nInsgesamt überwiegen für mich die Vorteile, wenn das Projekt sorgfältig geplant wird. Interessierte sollten vor dem Einzug gemeinsame Regeln festlegen und die Kosten transparent besprechen. So kann eine Gemeinschaft entstehen, in der alle ihre Selbstständigkeit bewahren.\n\nViele Grüße\nEmely",
+   "kind": "message",
+   "minWords": 150,
+   "formal": false
+  },
+  {
+   "id": "b2-m9",
+   "level": "B2",
+   "title": {
+    "tr": "Resmî e-posta: Küf ve nem şikâyeti",
+    "en": "Formal Email: Complaint About Damp and Mold"
+   },
+   "prompt": "Sie wohnen seit mehreren Monaten in Ihrer Wohnung und haben Feuchtigkeit sowie Schimmel entdeckt. Schreiben Sie Ihrer Vermieterin oder Ihrem Vermieter. Beschreiben Sie das Problem und seine Folgen, bitten Sie um eine Reparatur und schlagen Sie einen Termin vor.",
+   "help": {
+    "tr": "Nem ve küfün nerede olduğunu ve ne zamandır sürdüğünü anlat; sağlık veya eşya üzerindeki etkisini belirt, onarım ve randevu iste.",
+    "en": "Describe where and how long the damp and mold have been present, explain the effects, and request repairs and an appointment."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Sorunun nedeni",
+      "en": "Cause of the problem"
+     },
+     "say": "Seit einigen Wochen …",
+     "keys": [
+      "seit einigen wochen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ayrıntı",
+      "en": "Details"
+     },
+     "say": "Besonders betroffen ist …",
+     "keys": [
+      "besonders betroffen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Talep",
+      "en": "Request"
+     },
+     "say": "Ich bitte Sie daher, …",
+     "keys": [
+      "ich bitte sie daher"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Süre ve öneri",
+      "en": "Timing and suggestion"
+     },
+     "say": "Bitte schlagen Sie … vor.",
+     "keys": [
+      "einen termin"
+     ]
+    }
+   ],
+   "sample": "Sehr geehrte Frau Schneider,\n\nseit einigen Wochen bemerke ich Feuchtigkeit und dunkle Flecken an der Wand im Schlafzimmer. Besonders betroffen ist die Ecke neben dem Fenster. Obwohl ich regelmäßig lüfte und heize, wird die Stelle größer. Inzwischen riecht der Raum unangenehm, und ich mache mir Sorgen, dass sich der Schimmel weiter ausbreitet.\n\nIch bitte Sie daher, die Ursache fachgerecht prüfen und den Schaden beseitigen zu lassen. Bitte lassen Sie auch kontrollieren, ob Wasser durch das Fenster oder die Außenwand eindringt. Ich habe Fotos gemacht und kann sie Ihnen bei Bedarf zusenden.\n\nDa ich werktags ab 16 Uhr zu Hause bin, könnte ein Handwerker in diesem Zeitraum kommen. Bitte nennen Sie mir einen Termin innerhalb der nächsten Woche und bestätigen Sie kurz, wie weiter verfahren wird.\n\nMit freundlichen Grüßen\nEmely Yılmaz",
+   "kind": "message",
+   "minWords": 100,
+   "formal": true
+  },
+  {
+   "id": "b2-m10",
+   "level": "B2",
+   "title": {
+    "tr": "Resmî e-posta: Dil kursunun iptali",
+    "en": "Formal Email: Cancellation of a Language Course"
+   },
+   "prompt": "Sie haben einen Sprachkurs gebucht, können aber wegen einer Änderung Ihrer beruflichen Situation nicht teilnehmen. Schreiben Sie der Sprachschule. Erklären Sie den Grund, nennen Sie die Kursdaten, bitten Sie um Stornierung und Rückerstattung und schlagen Sie eine Frist für die Antwort vor.",
+   "help": {
+    "tr": "İş durumundaki değişikliği açıkla; kurs tarihlerini ver, kaydın iptalini ve ücret iadesini iste, yanıt için makul bir süre belirt.",
+    "en": "Explain the change at work, give the course dates, request cancellation and a refund, and set a reasonable response deadline."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Neden",
+      "en": "Reason"
+     },
+     "say": "Aufgrund einer beruflichen Veränderung …",
+     "keys": [
+      "aufgrund einer beruflichen veränderung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kurs bilgileri",
+      "en": "Course details"
+     },
+     "say": "Ich habe mich für … angemeldet.",
+     "keys": [
+      "für den kurs"
+     ]
+    },
+    {
+     "label": {
+      "tr": "İptal ve iade talebi",
+      "en": "Cancellation and refund request"
+     },
+     "say": "Ich bitte Sie um …",
+     "keys": [
+      "um stornierung und rückerstattung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Süre",
+      "en": "Deadline"
+     },
+     "say": "Über eine Rückmeldung bis … würde ich mich freuen.",
+     "keys": [
+      "bis ende der woche"
+     ]
+    }
+   ],
+   "sample": "Sehr geehrte Damen und Herren,\n\naufgrund einer beruflichen Veränderung kann ich an dem B2-Abendkurs, der am 15. Mai beginnt, leider nicht teilnehmen. Ich habe mich für den Kurs im März angemeldet und die Kursgebühr bereits vollständig überwiesen. Mein Arbeitgeber hat meinen Dienstplan kurzfristig geändert, sodass ich künftig an den Kursabenden arbeiten muss.\n\nIch bitte Sie um Stornierung und Rückerstattung der bereits gezahlten Gebühr. Falls eine vollständige Rückzahlung laut Ihren Teilnahmebedingungen nicht möglich ist, teilen Sie mir bitte mit, welcher Betrag einbehalten würde. Als Nachweis kann ich Ihnen auf Wunsch eine Bestätigung meines Arbeitgebers zukommen lassen.\n\nBitte bestätigen Sie den Eingang meiner Nachricht und informieren Sie mich über die nächsten Schritte. Über eine Rückmeldung bis Ende der Woche würde ich mich freuen, damit ich meine weiteren Termine planen kann.\n\nMit freundlichen Grüßen\nEmely Yılmaz",
+   "kind": "message",
+   "minWords": 100,
+   "formal": true
+  },
+  {
+   "id": "b2-m11",
+   "level": "B2",
+   "title": {
+    "tr": "Resmî e-posta: Bir haftalık ücretsiz izin",
+    "en": "Formal Email: One Week of Unpaid Leave"
+   },
+   "prompt": "Sie möchten aus einem wichtigen persönlichen Grund eine Woche unbezahlten Urlaub nehmen. Schreiben Sie Ihrer Chefin oder Ihrem Chef. Erläutern Sie kurz den Grund, nennen Sie den gewünschten Zeitraum, erklären Sie die Übergabe Ihrer Aufgaben und bitten Sie um eine Rückmeldung.",
+   "help": {
+    "tr": "Kişisel gerekçeni ölçülü biçimde açıkla; tarihleri belirt, işlerin nasıl devredileceğini anlat ve onay iste.",
+    "en": "Briefly explain your personal reason, give the dates, describe the handover plan, and request approval."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Gerekçe",
+      "en": "Reason"
+     },
+     "say": "Aus persönlichen Gründen …",
+     "keys": [
+      "aus persönlichen gründen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "İzin dönemi",
+      "en": "Leave dates"
+     },
+     "say": "Ich möchte vom … bis …",
+     "keys": [
+      "vom 10. bis 14. juni"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Devir planı",
+      "en": "Handover plan"
+     },
+     "say": "Die laufenden Aufgaben …",
+     "keys": [
+      "die laufenden aufgaben"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Talep ve yanıt",
+      "en": "Request and response"
+     },
+     "say": "Ich bitte Sie um …",
+     "keys": [
+      "um ihre zustimmung"
+     ]
+    }
+   ],
+   "sample": "Sehr geehrte Frau Weber,\n\naus persönlichen Gründen möchte ich vom 10. bis 14. Juni eine Woche unbezahlten Urlaub nehmen. In diesem Zeitraum muss ich meine Mutter bei einem geplanten Umzug unterstützen. Ich habe die Termine bereits mit meiner Familie abgestimmt und kann die Reise nicht verschieben.\n\nDie laufenden Aufgaben werde ich vor meiner Abwesenheit möglichst abschließen. Für das Projekt Rheinblick bereite ich eine ausführliche Übergabe vor und bespreche offene Punkte mit meinem Kollegen Herrn Meier. Er hat bereits zugesagt, dringende Rückfragen zu übernehmen. Außerdem aktualisiere ich die Projektübersicht, damit das Team jederzeit den aktuellen Stand einsehen kann.\n\nIch bitte Sie um Ihre Zustimmung zu diesem Zeitraum. Sollte die vollständige Woche betrieblich schwierig sein, bin ich bereit, über eine alternative Lösung zu sprechen. Bitte geben Sie mir bis zum 20. Mai Bescheid, damit ich die Betreuung verbindlich organisieren kann.\n\nMit freundlichen Grüßen\nEmely Yılmaz",
+   "kind": "message",
+   "minWords": 100,
+   "formal": true
+  }
+ ],
+ "speaking": [
+  {
+   "id": "b2-7",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Sunum: Yapay zekâ okulda",
+    "en": "Presentation: Artificial Intelligence at School"
+   },
+   "prompt": "Halten Sie einen kurzen Vortrag zum Thema „Künstliche Intelligenz in der Schule“. Gehen Sie auf Vor- und Nachteile, ein Beispiel, die Situation in Ihrem Heimatland und Ihre eigene Meinung ein. Schließen Sie mit einem Fazit.",
+   "help": {
+    "tr": "Konuyu tanıt; öğrenmeye katkılarını ve riskleri açıkla, bir örnek ve ülkenin durumunu ver, görüşünle bitir.",
+    "en": "Introduce the topic, explain benefits and risks, give an example and describe your country, then conclude with your view."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Konu",
+      "en": "Topic"
+     },
+     "say": "Mein Thema ist …",
+     "keys": [
+      "künstliche intelligenz"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj ve dezavantajlar",
+      "en": "Advantages and disadvantages"
+     },
+     "say": "Ein Vorteil besteht darin, dass …",
+     "keys": [
+      "ein großer vorteil"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Örnek",
+      "en": "Example"
+     },
+     "say": "Ein Beispiel aus dem Unterricht …",
+     "keys": [
+      "ein beispiel"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülke ve görüş",
+      "en": "Country and opinion"
+     },
+     "say": "In meinem Heimatland …",
+     "keys": [
+      "in meinem heimatland"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Zusammenfassend …",
+     "keys": [
+      "zusammenfassend"
+     ]
+    }
+   ],
+   "sample": "Mein Thema ist künstliche Intelligenz in der Schule. Digitale Programme können Lernende unterstützen, wenn sie passende Übungen vorschlagen oder schwierige Inhalte anders erklären. Ein großer Vorteil ist, dass Schülerinnen und Schüler selbstständig in ihrem Tempo üben können. Lehrkräfte erhalten außerdem schneller einen Überblick darüber, wo jemand Hilfe braucht. Ein Beispiel wäre ein Sprachprogramm, das Aussprache erkennt und sofort Rückmeldung gibt.\n\nTrotzdem gibt es Risiken. Antworten können falsch sein, und persönliche Daten müssen geschützt werden. Wenn Jugendliche jede Aufgabe von einer Maschine erledigen lassen, lernen sie möglicherweise weniger, kritisch zu denken. Deshalb braucht es klare Regeln und eine Begleitung durch Lehrkräfte.\n\nIn meinem Heimatland nutzen einige Schulen bereits digitale Lernplattformen, aber der Zugang ist nicht überall gleich gut. Meiner Ansicht nach sollte KI den Unterricht ergänzen, nicht die Lehrkraft ersetzen. Zusammenfassend kann sie hilfreich sein, sofern Datenschutz, Chancengleichheit und selbstständiges Lernen berücksichtigt werden."
+  },
+  {
+   "id": "b2-8",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Sunum: Şehirde kiraların artması",
+    "en": "Presentation: Rising Rents in Cities"
+   },
+   "prompt": "Halten Sie einen kurzen Vortrag zum Thema „Steigende Mieten in der Stadt“. Beschreiben Sie Ursachen und Folgen, nennen Sie Vor- und Nachteile möglicher Maßnahmen, geben Sie ein Beispiel und erläutern Sie die Situation in Ihrem Heimatland. Formulieren Sie Ihre Meinung und ein Fazit.",
+   "help": {
+    "tr": "Kira artışının nedenlerini ve sonuçlarını, olası çözümleri, bir örneği ve ülkendeki durumu anlatıp sonuçlandır.",
+    "en": "Explain causes and effects of rising rents, possible measures, an example, and the situation in your country; then conclude."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Konuyu tanıt",
+      "en": "Introduce the topic"
+     },
+     "say": "Ich möchte heute über … sprechen.",
+     "keys": [
+      "steigende mieten"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Neden ve sonuç",
+      "en": "Causes and effects"
+     },
+     "say": "Ein Grund dafür ist …",
+     "keys": [
+      "ein grund"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Çözüm ve örnek",
+      "en": "Measures and example"
+     },
+     "say": "Eine mögliche Maßnahme wäre …",
+     "keys": [
+      "eine mögliche maßnahme"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülke ve görüş",
+      "en": "Country and opinion"
+     },
+     "say": "In meinem Heimatland …",
+     "keys": [
+      "in meinem heimatland"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Abschließend lässt sich sagen …",
+     "keys": [
+      "abschließend"
+     ]
+    }
+   ],
+   "sample": "Ich möchte heute über steigende Mieten in der Stadt sprechen. Viele Menschen ziehen in Großstädte, weil sie dort Arbeit, Ausbildung und kulturelle Angebote finden. Gleichzeitig entstehen zu wenige neue Wohnungen, weshalb die Nachfrage hoch bleibt. Ein Grund dafür ist auch, dass manche Wohnungen als Ferienunterkünfte genutzt werden. Für Familien und Studierende wird es dadurch immer schwieriger, eine bezahlbare Wohnung zu finden.\n\nEine mögliche Maßnahme wäre, mehr Sozialwohnungen zu bauen und vorhandene Gebäude besser zu nutzen. Das braucht jedoch Zeit und öffentliche Investitionen. Ein Beispiel aus Köln sind gemeinschaftliche Wohnprojekte, bei denen mehrere Generationen zusammenleben und Kosten teilen. Solche Modelle helfen, sind aber keine Lösung für alle.\n\nIn meinem Heimatland steigen die Mieten in den größeren Städten ebenfalls, während kleinere Orte oft günstiger sind. Ich finde, dass Städte langfristig planen und Mieter besser beraten sollten. Abschließend lässt sich sagen, dass ein vielfältiges Wohnungsangebot wichtig ist, damit Menschen mit unterschiedlichem Einkommen in der Stadt bleiben können."
+  },
+  {
+   "id": "b2-9",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Sunum: Gönüllü çalışma zorunlu olmalı mı?",
+    "en": "Presentation: Should Volunteering Be Compulsory?"
+   },
+   "prompt": "Halten Sie einen kurzen Vortrag zum Thema „Sollte ehrenamtliches Engagement verpflichtend sein?“. Nennen Sie mögliche Vorteile und Nachteile, führen Sie ein Beispiel an, beschreiben Sie die Lage in Ihrem Heimatland und begründen Sie Ihre Meinung. Schließen Sie mit einem Fazit.",
+   "help": {
+    "tr": "Zorunluluğun olası yarar ve sakıncalarını karşılaştır; örnek ve ülke durumunu ekleyip kendi görüşünle bitir.",
+    "en": "Compare possible benefits and drawbacks of compulsory volunteering, add an example and country context, and conclude with your opinion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Konu",
+      "en": "Topic"
+     },
+     "say": "Heute geht es um …",
+     "keys": [
+      "ehrenamtliches engagement"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj",
+      "en": "Benefit"
+     },
+     "say": "Dafür spricht, dass …",
+     "keys": [
+      "dafür spricht"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Dezavantaj",
+      "en": "Drawback"
+     },
+     "say": "Dagegen spricht allerdings …",
+     "keys": [
+      "dagegen spricht"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülke ve görüş",
+      "en": "Country and opinion"
+     },
+     "say": "Bei uns …",
+     "keys": [
+      "bei uns"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Mein Fazit lautet …",
+     "keys": [
+      "mein fazit"
+     ]
+    }
+   ],
+   "sample": "Heute geht es um die Frage, ob ehrenamtliches Engagement verpflichtend sein sollte. Dafür spricht, dass junge Menschen dadurch soziale Einrichtungen kennenlernen und Verantwortung übernehmen. Ein Einsatz in einem Pflegeheim oder Sportverein kann außerdem den Zusammenhalt stärken. Man entdeckt vielleicht Fähigkeiten, die im normalen Schulalltag kaum sichtbar werden.\n\nDagegen spricht, dass echte Freiwilligkeit verloren geht, wenn der Staat eine bestimmte Zahl an Stunden vorschreibt. Manche Jugendliche haben bereits familiäre Pflichten oder brauchen Zeit für Ausbildung und Arbeit. Ein verpflichtender Einsatz könnte dann als zusätzliche Belastung erlebt werden. Sinnvoller wäre es, verschiedene Projekte vorzustellen und die Teilnahme gut zu begleiten.\n\nBei uns engagieren sich viele Menschen in Vereinen, Nachbarschaftsgruppen oder Hilfsorganisationen. Ein Schüler könnte beispielsweise bei einer Hausaufgabenhilfe mitmachen und dabei selbst entscheiden, wie lange er sich beteiligen möchte. Ich bin gegen eine allgemeine Pflicht, aber für bessere Informationen und Anerkennung. Mein Fazit lautet: Freiwilliges Engagement wirkt am besten, wenn Menschen einen passenden Einsatz wählen können und ihre Arbeit wertgeschätzt wird."
+  },
+  {
+   "id": "b2-10",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Sunum: Yurt dışında okumak",
+    "en": "Presentation: Studying Abroad"
+   },
+   "prompt": "Halten Sie einen kurzen Vortrag zum Thema „Im Ausland studieren“. Sprechen Sie über Vorteile und Herausforderungen, nennen Sie ein Beispiel, berichten Sie über die Situation in Ihrem Heimatland und äußern Sie Ihre Meinung. Ziehen Sie abschließend ein Fazit.",
+   "help": {
+    "tr": "Yurt dışında eğitimin katkılarını ve zorluklarını karşılaştır; örnek, ülke bilgisi ve sonuç ekle.",
+    "en": "Compare the benefits and challenges of studying abroad, then give an example, country context, and conclusion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Konu",
+      "en": "Topic"
+     },
+     "say": "Mein Vortrag handelt von …",
+     "keys": [
+      "im ausland zu studieren"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantajlar",
+      "en": "Benefits"
+     },
+     "say": "Ein wichtiger Vorteil ist …",
+     "keys": [
+      "ein wichtiger vorteil"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Zorluklar ve örnek",
+      "en": "Challenges and example"
+     },
+     "say": "Eine Herausforderung ist …",
+     "keys": [
+      "eine herausforderung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülke ve görüş",
+      "en": "Country and opinion"
+     },
+     "say": "In meinem Heimatland …",
+     "keys": [
+      "in meinem heimatland"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Insgesamt bin ich der Meinung …",
+     "keys": [
+      "insgesamt bin ich der meinung"
+     ]
+    }
+   ],
+   "sample": "Mein Vortrag handelt von der Möglichkeit, im Ausland zu studieren. Ein wichtiger Vorteil ist, dass man eine Sprache täglich benutzt und eine andere Kultur unmittelbar erlebt. Außerdem lernen Studierende, selbstständiger zu werden und neue Kontakte zu knüpfen. Diese Erfahrungen können später auch bei der Arbeitssuche hilfreich sein.\n\nEine Herausforderung ist die Finanzierung. Miete, Versicherung und Fahrtkosten können sehr hoch sein. Auch Heimweh und komplizierte Behördengänge sollte man nicht unterschätzen. Ein Beispiel ist das Erasmus-Programm, das vielen jungen Menschen einen zeitlich begrenzten Austausch ermöglicht. Wer früh plant und sich beraten lässt, kann viele Schwierigkeiten vermeiden.\n\nIn meinem Heimatland interessieren sich zahlreiche Studierende für ein Auslandssemester, doch nicht alle können es bezahlen. Stipendien und verständliche Informationen wären deshalb wichtig. Insgesamt bin ich der Meinung, dass ein Auslandsaufenthalt eine wertvolle Chance ist, sofern er für Menschen aus verschiedenen finanziellen Verhältnissen erreichbar wird. Zusammenfassend erweitert er nicht nur die Sprachkenntnisse, sondern auch den eigenen Blick auf die Welt."
+  },
+  {
+   "id": "b2-11",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Sunum: Hızlı moda",
+    "en": "Presentation: Fast Fashion"
+   },
+   "prompt": "Halten Sie einen kurzen Vortrag zum Thema „Fast Fashion und ihre Folgen“. Gehen Sie auf Vor- und Nachteile ein, nennen Sie ein Beispiel, beschreiben Sie die Situation in Ihrem Heimatland und äußern Sie Ihre Meinung. Beenden Sie Ihren Vortrag mit einem Fazit.",
+   "help": {
+    "tr": "Hızlı modanın ucuzluk ve erişilebilirlik yönünü çevresel ve sosyal etkilerle karşılaştır; örnek ve sonuç ver.",
+    "en": "Balance the affordability and accessibility of fast fashion against its environmental and social impact, with an example and conclusion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Konuyu tanıt",
+      "en": "Introduce the topic"
+     },
+     "say": "Ich spreche heute über …",
+     "keys": [
+      "fast fashion"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj",
+      "en": "Benefit"
+     },
+     "say": "Ein Vorteil liegt darin, dass …",
+     "keys": [
+      "ein vorteil"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Dezavantaj",
+      "en": "Drawback"
+     },
+     "say": "Problematisch ist jedoch …",
+     "keys": [
+      "problematisch"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ülke ve örnek",
+      "en": "Country and example"
+     },
+     "say": "In meinem Heimatland …",
+     "keys": [
+      "in meinem heimatland"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Abschließend meine ich …",
+     "keys": [
+      "abschließend"
+     ]
+    }
+   ],
+   "sample": "Ich spreche heute über Fast Fashion und ihre Folgen. Ein Vorteil liegt darin, dass modische Kleidung zu niedrigen Preisen angeboten wird. Dadurch können auch Menschen mit kleinem Budget verschiedene Stile ausprobieren. Problematisch ist jedoch, dass viele Kleidungsstücke nur kurze Zeit getragen und schnell ersetzt werden. Ihre Herstellung verbraucht Wasser und Energie, während Beschäftigte in manchen Fabriken unter schlechten Bedingungen arbeiten.\n\nEin Beispiel aus meinem Alltag ist ein T-Shirt, das nach wenigen Wäschen seine Form verlor. Seitdem achte ich stärker auf Material und Verarbeitung und kaufe seltener spontan. In meinem Heimatland gibt es große Einkaufszentren mit günstigen Modeketten, aber auch kleine Initiativen für gebrauchte Kleidung. Solche Angebote machen nachhaltigere Entscheidungen einfacher, wenn sie gut erreichbar und bezahlbar sind.\n\nAbschließend meine ich, dass Verbraucher nicht allein für die gesamte Lieferkette verantwortlich sein können. Unternehmen sollten transparenter produzieren, und Kleidung sollte länger haltbar sein. Gleichzeitig können wir reparieren, tauschen und weniger kaufen. So wird Mode nicht nur günstiger, sondern auch fairer und umweltschonender."
+  },
+  {
+   "id": "b2-12",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Tartışma: Toplu taşıma ücretsiz olmalı mı?",
+    "en": "Discussion: Should Public Transport Be Free?"
+   },
+   "prompt": "Diskutieren Sie die Frage, ob öffentliche Verkehrsmittel kostenlos sein sollten. Äußern Sie Ihre Meinung, begründen Sie sie, reagieren Sie auf eine Gegenmeinung und schlagen Sie einen Kompromiss vor.",
+   "help": {
+    "tr": "Görüşünü gerekçelendir, olası karşı görüşü yanıtla ve uygulanabilir bir uzlaşma öner.",
+    "en": "Explain your position, respond to a possible counterargument, and suggest a practical compromise."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Ich bin dafür/dagegen, weil …",
+     "keys": [
+      "ich bin dafür"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Gerekçe",
+      "en": "Reason"
+     },
+     "say": "Ein wichtiger Grund ist …",
+     "keys": [
+      "ein wichtiger grund"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Karşı görüşe yanıt",
+      "en": "Response to counterargument"
+     },
+     "say": "Ich verstehe den Einwand, dass …",
+     "keys": [
+      "ich verstehe den einwand"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Uzlaşma",
+      "en": "Compromise"
+     },
+     "say": "Ein Kompromiss könnte …",
+     "keys": [
+      "ein kompromiss"
+     ]
+    }
+   ],
+   "sample": "Ich bin dafür, öffentliche Verkehrsmittel günstiger zu machen, weil viele Menschen auf Bus und Bahn angewiesen sind. Ein wichtiger Grund ist, dass niedrigere Preise den Umstieg vom Auto erleichtern könnten. Das wäre gut für die Luft und würde besonders Familien mit kleinem Einkommen entlasten. Ich verstehe den Einwand, dass ein kostenloses Angebot viel Geld kostet und die Fahrzeuge dadurch voller werden könnten. Trotzdem sollte man bedenken, dass auch Straßen und Parkplätze öffentlich finanziert werden. Ein Kompromiss wäre, zunächst Schülerinnen, Studierenden und Menschen mit geringem Einkommen ein kostenloses Ticket anzubieten. Zusätzlich könnte die Stadt die Verbindungen verbessern, damit mehr Menschen freiwillig umsteigen. So würde man die Kosten schrittweise prüfen und gleichzeitig konkrete Gruppen unterstützen."
+  },
+  {
+   "id": "b2-13",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Tartışma: Çocuklara harçlık",
+    "en": "Discussion: Pocket Money for Children"
+   },
+   "prompt": "Diskutieren Sie, ob Kinder regelmäßig Taschengeld bekommen sollten. Äußern Sie Ihre Meinung, nennen Sie Gründe, reagieren Sie auf eine Gegenmeinung und schlagen Sie einen Kompromiss vor.",
+   "help": {
+    "tr": "Harçlığın çocuklara kazandırdıklarını ve risklerini değerlendir; karşı görüşe yanıt verip yaşa uygun bir çözüm öner.",
+    "en": "Assess what pocket money teaches children and the possible risks, respond to a counterargument, and suggest an age-appropriate solution."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Meiner Ansicht nach …",
+     "keys": [
+      "meiner ansicht nach"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Gerekçe",
+      "en": "Reason"
+     },
+     "say": "Dadurch lernen Kinder …",
+     "keys": [
+      "geld einzuteilen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Karşı görüş",
+      "en": "Counterargument"
+     },
+     "say": "Manche Eltern befürchten, dass …",
+     "keys": [
+      "manche eltern befürchten"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Uzlaşma",
+      "en": "Compromise"
+     },
+     "say": "Ein sinnvoller Mittelweg wäre …",
+     "keys": [
+      "ein sinnvoller mittelweg"
+     ]
+    }
+   ],
+   "sample": "Meiner Ansicht nach sollten Kinder regelmäßig Taschengeld bekommen, sobald sie alt genug sind, kleine Entscheidungen selbst zu treffen. Dadurch lernen Kinder, Geld einzuteilen und zwischen Wünschen und notwendigen Ausgaben zu unterscheiden. Sie können auch erleben, dass man manchmal sparen muss, bevor man sich etwas Größeres kauft. Manche Eltern befürchten, dass Kinder das Geld sofort für Süßigkeiten oder Spiele ausgeben. Das kann passieren, gehört aber auch zum Lernprozess, solange der Betrag angemessen bleibt. Ein sinnvoller Mittelweg wäre, das Taschengeld nach Alter festzulegen und gemeinsam über Sparziele zu sprechen. Eltern sollten nicht jede Ausgabe kontrollieren, aber bei Fragen beratend helfen. So entwickeln Kinder Schritt für Schritt Verantwortung, ohne dass die Familie ihnen zu viel Geld geben muss."
+  },
+  {
+   "id": "b2-14",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Tartışma: Emeklilik yaşı yükseltilmeli mi?",
+    "en": "Discussion: Should the Retirement Age Rise?"
+   },
+   "prompt": "Diskutieren Sie, ob das Rentenalter erhöht werden sollte. Begründen Sie Ihre Meinung, gehen Sie auf eine Gegenposition ein und schlagen Sie einen Kompromiss vor.",
+   "help": {
+    "tr": "Emeklilik yaşı, sağlık ve meslek farklılıkları üzerine görüşünü açıkla; karşı argümanı değerlendir ve esnek bir çözüm öner.",
+    "en": "Discuss retirement age, health, and differences between occupations; address a counterargument and suggest a flexible solution."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Ich halte eine pauschale Erhöhung für …",
+     "keys": [
+      "pauschale erhöhung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Gerekçe",
+      "en": "Reason"
+     },
+     "say": "Dabei muss man berücksichtigen, dass …",
+     "keys": [
+      "berücksichtigen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Karşı görüş",
+      "en": "Counterargument"
+     },
+     "say": "Zwar …, aber …",
+     "keys": [
+      "zwar"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Uzlaşma",
+      "en": "Compromise"
+     },
+     "say": "Eine flexiblere Lösung wäre …",
+     "keys": [
+      "eine flexiblere lösung"
+     ]
+    }
+   ],
+   "sample": "Ich halte eine pauschale Erhöhung des Rentenalters für problematisch. Menschen arbeiten in sehr unterschiedlichen Berufen, und nicht jede Tätigkeit lässt sich bis ins hohe Alter ausüben. Dabei muss man berücksichtigen, dass körperlich belastende Arbeit oft früher zu gesundheitlichen Problemen führt. Zwar werden Menschen im Durchschnitt älter und das Rentensystem braucht verlässliche Einnahmen, aber eine einheitliche Regel wäre nicht für alle fair. Eine flexiblere Lösung wäre, das Rentenalter teilweise an Beruf und Gesundheit anzupassen. Wer länger arbeiten möchte und kann, sollte dafür einen finanziellen Vorteil erhalten. Gleichzeitig brauchen Beschäftigte in anstrengenden Berufen einen realistischen früheren Ausstieg. Auch Weiterbildung und altersgerechte Arbeitsplätze könnten helfen. So ließe sich die Finanzierung verbessern, ohne die Belastung allein auf ältere Arbeitnehmerinnen und Arbeitnehmer abzuwälzen."
+  },
+  {
+   "id": "b2-15",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Tartışma: Şirketlerde kadın kotası",
+    "en": "Discussion: Gender Quotas in Companies"
+   },
+   "prompt": "Diskutieren Sie, ob Unternehmen eine Frauenquote für Führungspositionen einführen sollten. Begründen Sie Ihre Position, reagieren Sie auf eine Gegenmeinung und schlagen Sie einen Kompromiss vor.",
+   "help": {
+    "tr": "Kadın kotasının eşit fırsatlara etkisini açıkla; liyakat itirazına yanıt ver ve somut bir uzlaşma öner.",
+    "en": "Explain how quotas affect equal opportunity, respond to concerns about merit, and propose a concrete compromise."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Ich unterstütze/lehne eine Quote ab, weil …",
+     "keys": [
+      "ich unterstütze eine quote"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Gerekçe",
+      "en": "Reason"
+     },
+     "say": "Entscheidend ist, dass …",
+     "keys": [
+      "gleiche chancen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Karşı görüş",
+      "en": "Counterargument"
+     },
+     "say": "Der Einwand, dass …, ist verständlich.",
+     "keys": [
+      "der einwand"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Uzlaşma",
+      "en": "Compromise"
+     },
+     "say": "Ein möglicher Kompromiss wäre …",
+     "keys": [
+      "ein möglicher kompromiss"
+     ]
+    }
+   ],
+   "sample": "Ich unterstütze eine Quote für Führungspositionen, solange sie transparent und zeitlich überprüfbar eingeführt wird. Entscheidend ist, dass gleiche Chancen nicht nur auf dem Papier bestehen. In vielen Unternehmen sind Frauen trotz passender Qualifikation in leitenden Funktionen unterrepräsentiert. Eine Quote kann dazu führen, dass Auswahlverfahren genauer geprüft und geeignete Kandidatinnen aktiv gesucht werden. Der Einwand, dass am Ende nur die Quote und nicht die Leistung zählt, ist verständlich. Deshalb müssen alle Bewerberinnen und Bewerber weiterhin nach klaren fachlichen Kriterien beurteilt werden. Ein möglicher Kompromiss wäre, zunächst konkrete Ziele festzulegen und regelmäßig über Fortschritte zu berichten. Zusätzlich sollten Firmen transparente Beförderungswege und bessere Möglichkeiten zur Vereinbarkeit von Beruf und Familie schaffen. So wird die Quote zu einem Instrument für faire Verfahren und nicht zu einem Ersatz für Qualifikation."
+  },
+  {
+   "id": "b2-16",
+   "level": "B2",
+   "seconds": 120,
+   "title": {
+    "tr": "Tartışma: Restoranlarda bahşiş",
+    "en": "Discussion: Tipping in Restaurants"
+   },
+   "prompt": "Diskutieren Sie, ob Gäste in Restaurants Trinkgeld geben sollten. Äußern Sie Ihre Meinung, nennen Sie Gründe, reagieren Sie auf eine Gegenmeinung und machen Sie einen Kompromissvorschlag.",
+   "help": {
+    "tr": "Bahşişin hizmet çalışanları için önemini ve adil ücret konusunu değerlendir; karşı görüşü ele alıp çözüm öner.",
+    "en": "Discuss the importance of tips for service workers and fair pay, address a counterargument, and suggest a solution."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Grundsätzlich finde ich …",
+     "keys": [
+      "grundsätzlich finde ich"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Gerekçe",
+      "en": "Reason"
+     },
+     "say": "Ein Trinkgeld kann …",
+     "keys": [
+      "gute leistung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Karşı görüş",
+      "en": "Counterargument"
+     },
+     "say": "Man darf jedoch nicht vergessen, dass …",
+     "keys": [
+      "nicht vergessen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Uzlaşma",
+      "en": "Compromise"
+     },
+     "say": "Eine faire Lösung wäre …",
+     "keys": [
+      "eine faire lösung"
+     ]
+    }
+   ],
+   "sample": "Grundsätzlich finde ich, dass Gäste freiwillig Trinkgeld geben können, wenn sie mit dem Service zufrieden sind. Ein Trinkgeld kann gute Leistung anerkennen und Beschäftigten im Restaurant direkt zugutekommen. Besonders bei niedrigem Grundlohn ist diese Unterstützung für manche wichtig. Man darf jedoch nicht vergessen, dass faire Löhne in erster Linie die Verantwortung des Arbeitgebers sind. Gäste sollten sich nicht verpflichtet fühlen, einen bestimmten Betrag zusätzlich zu zahlen, nur damit das Personal angemessen verdient. Eine faire Lösung wäre, angemessene Löhne fest einzuplanen und Trinkgeld als freiwillige Anerkennung zu behandeln. Restaurants könnten außerdem klar erklären, ob ein Servicebetrag bereits in der Rechnung enthalten ist. So bleibt die Entscheidung beim Gast, während Beschäftigte nicht allein von unregelmäßigen Zusatzzahlungen abhängig sind."
+  },
+  {
+   "id": "b2-17",
+   "level": "B2",
+   "seconds": 90,
+   "title": {
+    "tr": "İş görüşmesi: Kendini tanıtma",
+    "en": "Job Interview: Introducing Yourself"
+   },
+   "prompt": "Sie haben ein Vorstellungsgespräch für eine Stelle als Projektassistentin oder Projektassistent. Stellen Sie sich vor, beschreiben Sie Ihre bisherige Erfahrung, nennen Sie Ihre Stärken und erklären Sie, warum Sie sich bewerben.",
+   "help": {
+    "tr": "Kibarca selam ver; eğitimini ve deneyimini, güçlü yönlerini ve bu işe neden başvurduğunu kısa biçimde anlat.",
+    "en": "Greet the interviewer, briefly describe your education, experience, strengths, and reasons for applying."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Selamlama",
+      "en": "Greeting"
+     },
+     "say": "Guten Tag, vielen Dank für …",
+     "keys": [
+      "guten tag"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Deneyim",
+      "en": "Experience"
+     },
+     "say": "In meiner bisherigen Tätigkeit …",
+     "keys": [
+      "bisherigen tätigkeit"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Güçlü yönler",
+      "en": "Strengths"
+     },
+     "say": "Zu meinen Stärken gehört …",
+     "keys": [
+      "zu meinen stärken"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Başvuru nedeni",
+      "en": "Reason for applying"
+     },
+     "say": "Ich bewerbe mich bei Ihnen, weil …",
+     "keys": [
+      "ich bewerbe mich"
+     ]
+    }
+   ],
+   "sample": "Guten Tag, vielen Dank für die Einladung. Mein Name ist Elif Yılmaz, und ich arbeite seit drei Jahren als Projektassistentin in einem kleinen Unternehmen. Dort koordiniere ich Termine, bereite Unterlagen vor und unterstütze die Kommunikation zwischen verschiedenen Teams. Zu meinen Stärken gehören eine sorgfältige Arbeitsweise und ein guter Überblick, auch wenn mehrere Aufgaben gleichzeitig anfallen. Außerdem arbeite ich gern mit digitalen Werkzeugen und lerne neue Programme schnell. Ich bewerbe mich bei Ihnen, weil Ihr Unternehmen internationale Projekte betreut und ich meine Sprachkenntnisse stärker einsetzen möchte. Besonders interessiert mich die Zusammenarbeit mit unterschiedlichen Abteilungen. In meiner bisherigen Tätigkeit habe ich gelernt, auch unter Zeitdruck freundlich und zuverlässig zu bleiben. Ich freue mich darauf, mehr über die Aufgaben und Ihr Team zu erfahren."
+  },
+  {
+   "id": "b2-18",
+   "level": "B2",
+   "seconds": 90,
+   "title": {
+    "tr": "Bankayı arama: Kartı bloke ettirme",
+    "en": "Calling the Bank: Blocking a Card"
+   },
+   "prompt": "Sie bemerken unbekannte Abbuchungen auf Ihrem Konto und rufen Ihre Bank an. Erklären Sie das Problem, bitten Sie um die Sperrung Ihrer Karte und fragen Sie nach einer Ersatzkarte sowie den nächsten Schritten.",
+   "help": {
+    "tr": "Sorunu ve işlem tarihlerini belirt; kartı bloke ettir, yedek kartı ve sonraki adımları sor, görüşmeyi kibarca bitir.",
+    "en": "Describe the issue and transaction dates, request a card block and replacement, ask about next steps, and close politely."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Selamlama ve kimlik",
+      "en": "Greeting and identification"
+     },
+     "say": "Guten Tag, mein Name ist …",
+     "keys": [
+      "mein name ist"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sorun",
+      "en": "Problem"
+     },
+     "say": "Auf meinem Konto habe ich … entdeckt.",
+     "keys": [
+      "unbekannte abbuchungen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Talep",
+      "en": "Request"
+     },
+     "say": "Könnten Sie bitte …",
+     "keys": [
+      "karte sperren"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonraki adımlar",
+      "en": "Next steps"
+     },
+     "say": "Wie kann ich … erhalten?",
+     "keys": [
+      "ersatzkarte"
+     ]
+    }
+   ],
+   "sample": "Guten Tag, mein Name ist Elif Yılmaz. Ich rufe an, weil ich auf meinem Konto zwei unbekannte Abbuchungen entdeckt habe. Die Zahlungen wurden gestern gebucht und stammen von einem Geschäft, bei dem ich nicht eingekauft habe. Könnten Sie bitte sofort meine Karte sperren, damit keine weiteren Beträge abgebucht werden? Ich kann Ihnen gern die letzten Ziffern der Karte und die genaue Höhe der Zahlungen nennen. Außerdem möchte ich wissen, wie ich eine Ersatzkarte bekommen kann und wie lange die Ausstellung ungefähr dauert. Muss ich die Abbuchungen zusätzlich schriftlich melden oder ein Formular ausfüllen? Bitte sagen Sie mir auch, ob mein Online-Banking weiterhin funktioniert. Vielen Dank für Ihre Hilfe. Ich notiere mir die Vorgangsnummer und warte auf Ihre schriftliche Bestätigung. Auf Wiederhören."
+  },
+  {
+   "id": "b2-19",
+   "level": "B2",
+   "seconds": 90,
+   "title": {
+    "tr": "Toplantı: Proje özeti ve sonraki adımlar",
+    "en": "Meeting: Project Summary and Next Steps"
+   },
+   "prompt": "Fassen Sie in einer Besprechung ein Projekt kurz zusammen. Berichten Sie über den aktuellen Stand, nennen Sie einen offenen Punkt und schlagen Sie konkrete nächste Schritte mit Zuständigkeiten und Terminen vor.",
+   "help": {
+    "tr": "Projenin amacını ve mevcut durumunu özetle; açık konuyu belirt, sorumluları ve tarihleri içeren sonraki adımları öner.",
+    "en": "Summarize the project's goal and status, identify an open issue, and propose next steps with owners and dates."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Özet",
+      "en": "Summary"
+     },
+     "say": "Das Projekt hatte das Ziel, …",
+     "keys": [
+      "das projekt"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Mevcut durum",
+      "en": "Current status"
+     },
+     "say": "Derzeit haben wir …",
+     "keys": [
+      "derzeit"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Açık konu",
+      "en": "Open issue"
+     },
+     "say": "Noch offen ist …",
+     "keys": [
+      "noch offen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonraki adımlar",
+      "en": "Next steps"
+     },
+     "say": "Als nächsten Schritt schlage ich vor …",
+     "keys": [
+      "als nächsten schritt"
+     ]
+    }
+   ],
+   "sample": "Das Projekt hatte das Ziel, unsere interne Terminplanung zu vereinfachen. Derzeit haben wir die neue Software getestet und Rückmeldungen aus drei Abteilungen gesammelt. Insgesamt funktioniert das System zuverlässig, allerdings ist die Verbindung zum Kalender noch nicht stabil. Noch offen ist außerdem die kurze Schulung für Kolleginnen und Kollegen, die selten mit der Anwendung arbeiten. Als nächsten Schritt schlage ich vor, dass die IT-Abteilung das Kalenderproblem bis Freitag untersucht. Anschließend kann das Projektteam die aktualisierte Version erneut testen. Frau Demir könnte die Schulung vorbereiten, während ich eine verständliche Anleitung schreibe. Wenn alle Prüfungen erfolgreich sind, sollten wir das System ab dem ersten des nächsten Monats einführen. Bitte teilen Sie mir mit, ob diese Aufgabenverteilung für Sie passt. Dann halte ich die Beschlüsse im Protokoll fest."
+  },
+  {
+   "id": "b2-20",
+   "level": "B2",
+   "seconds": 90,
+   "title": {
+    "tr": "Komşuyla gürültü sorununu konuşma",
+    "en": "Discussing a Noise Problem with a Neighbor"
+   },
+   "prompt": "Sie möchten mit Ihrer Nachbarin oder Ihrem Nachbarn höflich über wiederholten Lärm am Abend sprechen. Beschreiben Sie die Situation, erklären Sie die Auswirkungen und suchen Sie gemeinsam nach einer Lösung.",
+   "help": {
+    "tr": "Nazikçe konuya gir; gürültünün ne zaman olduğunu ve etkisini açıkla, anlayış rica et ve ortak çözüm öner.",
+    "en": "Raise the issue politely, explain when the noise occurs and how it affects you, then ask for understanding and suggest a solution."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Kibar giriş",
+      "en": "Polite opening"
+     },
+     "say": "Entschuldigen Sie bitte, hätten Sie kurz Zeit?",
+     "keys": [
+      "entschuldigen sie bitte"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sorun ve etkisi",
+      "en": "Problem and effect"
+     },
+     "say": "In den letzten Tagen …",
+     "keys": [
+      "in den letzten tagen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Rica",
+      "en": "Request"
+     },
+     "say": "Wäre es möglich, …",
+     "keys": [
+      "etwas leiser"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Çözüm",
+      "en": "Solution"
+     },
+     "say": "Vielleicht könnten wir …",
+     "keys": [
+      "eine lösung finden"
+     ]
+    }
+   ],
+   "sample": "Entschuldigen Sie bitte, hätten Sie kurz Zeit? Ich möchte etwas ansprechen, das mir ein wenig unangenehm ist. In den letzten Tagen war abends nach zehn Uhr öfter laute Musik zu hören. Ich verstehe natürlich, dass man manchmal Besuch hat oder etwas feiern möchte. Leider kann ich wegen des Lärms nur schwer einschlafen, und ich muss morgens früh zur Arbeit. Wäre es möglich, die Musik ab zehn Uhr etwas leiser zu stellen oder die Fenster zu schließen? Ich möchte keinen Streit, sondern gern eine Lösung finden, die für uns beide passt. Wenn Sie vorher eine Feier planen, können Sie mir gern kurz Bescheid sagen. Dann kann ich mich darauf einstellen. Vielen Dank für Ihr Verständnis. Ich hoffe, dass wir das unkompliziert klären können, und bin selbstverständlich auch offen für Ihren Vorschlag."
+  }
+ ]
+}
