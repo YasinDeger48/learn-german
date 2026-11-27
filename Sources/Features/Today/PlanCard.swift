@@ -184,11 +184,12 @@ struct TodayGames: View {
     @State private var fresh: UnlockFeature?
 
     private struct Game: Identifiable {
-        let feature: UnlockFeature
+        /// nil: "My mistakes" (no slow-opening rule of its own).
+        let feature: UnlockFeature?
         let title: String
         let color: Color
         let picture: String
-        var id: String { feature.rawValue }
+        var id: String { feature?.rawValue ?? "mistakes" }
     }
 
     private var games: [Game] {
@@ -206,25 +207,28 @@ struct TodayGames: View {
         if PhotoCapture.available {
             list.append(Game(feature: .camera, title: t("cam.title"), color: Color(red: 0.05, green: 0.49, blue: 0.53), picture: "lina-photo"))
         }
+        // Two per row: with an odd number "My mistakes" fills the last place (no half-empty row).
+        // lina-fix.png comes from Codex (job 14); until then the jumping Lina.
+        if !list.count.isMultiple(of: 2) {
+            list.append(Game(feature: nil, title: t("practice.mistakes"), color: Color(red: 0.84, green: 0.27, blue: 0.42),
+                             picture: UIImage(named: "lina-fix") != nil ? "lina-fix" : "lina-jump"))
+        }
         // Open ones first, the order otherwise kept.
-        return list.filter { Unlocks.isOpen($0.feature) } + list.filter { !Unlocks.isOpen($0.feature) }
+        let open = list.filter { $0.feature.map(Unlocks.isOpen) ?? true }
+        return open + list.filter { !($0.feature.map(Unlocks.isOpen) ?? true) }
     }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             if let fresh { UnlockedBanner(feature: fresh).transition(.opacity) }
             Text(t("plan.games").uppercased()).font(.footnote.weight(.semibold)).foregroundStyle(.secondary)
-            // Two per row; with an odd number the last card spans the row, so no empty half stays.
-            let all = games
-            let paired = all.count.isMultiple(of: 2) ? all : Array(all.dropLast())
-            VStack(spacing: 10) {
-                LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
-                    ForEach(paired) { game in
-                        UnlockGate(feature: game.feature) { link(game, wide: false) }
+            LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
+                ForEach(games) { game in
+                    if let feature = game.feature {
+                        UnlockGate(feature: feature) { link(game) }
+                    } else {
+                        link(game)
                     }
-                }
-                if let last = all.last, !all.count.isMultiple(of: 2) {
-                    UnlockGate(feature: last.feature) { link(last, wide: true) }
                 }
             }
             .buttonStyle(.pressable)
@@ -247,33 +251,33 @@ struct TodayGames: View {
     }
 
     @ViewBuilder
-    private func link(_ game: Game, wide: Bool) -> some View {
+    private func link(_ game: Game) -> some View {
         switch game.feature {
-        case .lazy: Button { showLazySetup = true } label: { card(game, wide: wide) }
-        case .wordRun: NavigationLink(value: A1Route.wordRun) { card(game, wide: wide) }
-        case .match: NavigationLink(value: A1Route.match(nil)) { card(game, wide: wide) }
-        case .linaChat: NavigationLink(value: A1Route.linaChat) { card(game, wide: wide) }
-        case .songs: NavigationLink(value: A1Route.songs) { card(game, wide: wide) }
-        case .camera: NavigationLink(value: A1Route.camera) { card(game, wide: wide) }
+        case .lazy: Button { showLazySetup = true } label: { card(game) }
+        case .wordRun: NavigationLink(value: A1Route.wordRun) { card(game) }
+        case .match: NavigationLink(value: A1Route.match(nil)) { card(game) }
+        case .linaChat: NavigationLink(value: A1Route.linaChat) { card(game) }
+        case .songs: NavigationLink(value: A1Route.songs) { card(game) }
+        case .camera: NavigationLink(value: A1Route.camera) { card(game) }
         case .exam: EmptyView()
+        case nil: NavigationLink(value: A1Route.mistakes) { card(game) }
         }
     }
 
-    private func card(_ game: Game, wide: Bool) -> GameCard {
-        GameCard(game: game.feature, title: game.title, color: game.color, picture: game.picture, isNew: fresh == game.feature,
-                 wide: wide)
+    private func card(_ game: Game) -> GameCard {
+        GameCard(game: game.feature, title: game.title, color: game.color, picture: game.picture,
+                 isNew: game.feature != nil && fresh == game.feature)
     }
 }
 
 /// One square game card: the colour, Lina, the game's few decorations and its name.
 private struct GameCard: View {
-    let game: UnlockFeature
+    /// nil: the phone calls card.
+    let game: UnlockFeature?
     let title: String
     let color: Color
     let picture: String
     let isNew: Bool
-    /// Spans both columns (the last of an odd number): the name on the left, the picture square on the right.
-    var wide = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var blink = false
 
@@ -281,7 +285,7 @@ private struct GameCard: View {
         ZStack(alignment: .bottom) {
             LinearGradient(colors: [color, color.opacity(0.82)], startPoint: .topLeading, endPoint: .bottomTrailing)
             GeometryReader { proxy in
-                let side = wide ? proxy.size.height : proxy.size.width
+                let side = proxy.size.width
                 ZStack(alignment: .bottom) {
                     decorations(side)
                     if let image = UIImage(named: picture) {
@@ -293,12 +297,10 @@ private struct GameCard: View {
                     }
                 }
                 .frame(width: side, height: side, alignment: .bottom)
-                .frame(maxWidth: .infinity, alignment: wide ? .trailing : .center)
-                .padding(.trailing, wide ? side * 0.12 : 0)
             }
             VStack(alignment: .leading) {
                 Text(title)
-                    .font(.system(size: wide ? 19 : 16, weight: .heavy))
+                    .font(.system(size: 16, weight: .heavy))
                     .foregroundColor(.white)
                     .lineLimit(2)
                     .minimumScaleFactor(0.8)
@@ -315,8 +317,7 @@ private struct GameCard: View {
             .padding(12)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         }
-        // Wide: as tall as a square card next to another one (two columns and the 10 pt gap).
-        .aspectRatio(wide ? 2.06 : 1, contentMode: .fit)
+        .aspectRatio(1, contentMode: .fit)
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(title)
@@ -362,6 +363,15 @@ private struct GameCard: View {
                 .frame(width: side * 0.56, height: side * 0.40)
                 .overlay(alignment: .topTrailing) { recordingDot.padding(7) }
                 .padding(.bottom, side * 0.20)
+        case nil:
+            // My mistakes: a crossed-out mark turned into a tick.
+            ZStack {
+                Image(systemName: "xmark.circle.fill").font(.system(size: 20, weight: .bold)).foregroundColor(.white.opacity(0.55))
+                    .offset(x: -side * 0.34, y: -side * 0.40)
+                Image(systemName: "checkmark.circle.fill").font(.system(size: 24, weight: .bold)).foregroundColor(.white)
+                    .offset(x: side * 0.33, y: -side * 0.48)
+            }
+            .frame(width: side, height: side, alignment: .bottom)
         case .exam:
             EmptyView()
         }
