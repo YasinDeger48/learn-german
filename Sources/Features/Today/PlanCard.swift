@@ -173,7 +173,9 @@ struct TodayPlanCard: View {
     }
 }
 
-/// The games on Today as one row that scrolls sideways (all of them are also in Practice).
+/// The games on Today as a grid of square picture cards, two side by side (design:
+/// https://claude.ai/artifact/7FU2y3Sw4ewThDTzB3ruCg): one colour per game, Lina in the middle in a pose of the
+/// game (Resources/Images), only the game's name on top. Open games first (slow opening for beginners).
 struct TodayGames: View {
     @ObservedObject var model: A1Model
     @State private var showLazySetup = false
@@ -181,42 +183,43 @@ struct TodayGames: View {
     /// Something opened since the last visit (slow opening for beginners): Lina says so once.
     @State private var fresh: UnlockFeature?
 
+    private struct Game: Identifiable {
+        let feature: UnlockFeature
+        let title: String
+        let color: Color
+        let picture: String
+        var id: String { feature.rawValue }
+    }
+
+    private var games: [Game] {
+        var list = [
+            Game(feature: .wordRun, title: t("run.title"), color: Color(red: 0.78, green: 0.20, blue: 0.23), picture: "lina-run-2"),
+            Game(feature: .match, title: t("practice.match"), color: Color(red: 0.18, green: 0.36, blue: 0.92), picture: "lina-dance-4"),
+        ]
+        if LinaAI.isAvailable {
+            list.append(Game(feature: .linaChat, title: t("lina.chatTitle"), color: Color(red: 0.48, green: 0.31, blue: 0.84), picture: "lina-dance-5"))
+        }
+        if !SongBank.songs(model.level).isEmpty {
+            list.append(Game(feature: .songs, title: t("song.title"), color: Color(red: 0.76, green: 0.40, blue: 0.06), picture: "lina-dance-6"))
+        }
+        list.append(Game(feature: .lazy, title: t("lazy.title"), color: Color(red: 0.08, green: 0.48, blue: 0.25), picture: "lina-sleep"))
+        if PhotoCapture.available {
+            list.append(Game(feature: .camera, title: t("cam.title"), color: Color(red: 0.05, green: 0.49, blue: 0.53), picture: "lina-photo"))
+        }
+        // Open ones first, the order otherwise kept.
+        return list.filter { Unlocks.isOpen($0.feature) } + list.filter { !Unlocks.isOpen($0.feature) }
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             if let fresh { UnlockedBanner(feature: fresh).transition(.opacity) }
             Text(t("plan.games").uppercased()).font(.footnote.weight(.semibold)).foregroundStyle(.secondary)
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 10) {
-                    // Open ones first; the rest show when they open (slow opening for beginners).
-                    UnlockGate(feature: .match) {
-                        NavigationLink(value: A1Route.match(nil)) { tile("square.grid.3x3.fill", DS.der, t("practice.match")) }
-                    }
-                    UnlockGate(feature: .wordRun) {
-                        NavigationLink(value: A1Route.wordRun) { tile("figure.run", DS.die, t("run.title")) }
-                    }
-                    if LinaAI.isAvailable {
-                        UnlockGate(feature: .linaChat) {
-                            NavigationLink(value: A1Route.linaChat) { tile("bubble.left.and.bubble.right.fill", .purple, t("lina.chatTitle")) }
-                        }
-                    }
-                    if !SongBank.songs(model.level).isEmpty {
-                        UnlockGate(feature: .songs) {
-                            NavigationLink(value: A1Route.songs) { tile("music.mic", .orange, t("song.title")) }
-                        }
-                    }
-                    UnlockGate(feature: .lazy) {
-                        Button { showLazySetup = true } label: { tile("sofa.fill", DS.das, t("lazy.title")) }
-                    }
-                    if PhotoCapture.available {
-                        UnlockGate(feature: .camera) {
-                            NavigationLink(value: A1Route.camera) { tile("camera.fill", .teal, t("cam.title")) }
-                        }
-                    }
+            LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
+                ForEach(games) { game in
+                    UnlockGate(feature: game.feature) { link(game) }
                 }
-                .buttonStyle(.pressable)
-                .padding(.horizontal, DS.gutter)
             }
-            .padding(.horizontal, -DS.gutter)
+            .buttonStyle(.pressable)
         }
         .disabled(!model.ready)
         .onAppear { if fresh == nil { fresh = Unlocks.takeNew() } }
@@ -235,22 +238,160 @@ struct TodayGames: View {
         }
     }
 
-    private func tile(_ icon: String, _ color: Color, _ title: String) -> some View {
-        VStack(alignment: .leading, spacing: 0) {
-            Image(systemName: icon)
-                .font(.system(size: 18, weight: .bold))
-                .foregroundColor(.white)
-            Spacer(minLength: 16)
-            Text(title)
-                .font(.system(size: 14, weight: .bold))
-                .foregroundColor(.white)
-                .lineLimit(2)
-                .multilineTextAlignment(.leading)
-                .fixedSize(horizontal: false, vertical: true)
+    @ViewBuilder
+    private func link(_ game: Game) -> some View {
+        switch game.feature {
+        case .lazy: Button { showLazySetup = true } label: { GameCard(game: game.feature, title: game.title, color: game.color, picture: game.picture, isNew: fresh == game.feature) }
+        case .wordRun: NavigationLink(value: A1Route.wordRun) { card(game) }
+        case .match: NavigationLink(value: A1Route.match(nil)) { card(game) }
+        case .linaChat: NavigationLink(value: A1Route.linaChat) { card(game) }
+        case .songs: NavigationLink(value: A1Route.songs) { card(game) }
+        case .camera: NavigationLink(value: A1Route.camera) { card(game) }
+        case .exam: EmptyView()
         }
-        .padding(12)
-        .frame(width: 118, height: 112, alignment: .topLeading)
-        .background(LinearGradient(colors: [color, color.opacity(0.78)], startPoint: .topLeading, endPoint: .bottomTrailing),
-                    in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+    }
+
+    private func card(_ game: Game) -> GameCard {
+        GameCard(game: game.feature, title: game.title, color: game.color, picture: game.picture, isNew: fresh == game.feature)
+    }
+}
+
+/// One square game card: the colour, Lina, the game's few decorations and its name.
+private struct GameCard: View {
+    let game: UnlockFeature
+    let title: String
+    let color: Color
+    let picture: String
+    let isNew: Bool
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var blink = false
+
+    var body: some View {
+        ZStack(alignment: .bottom) {
+            LinearGradient(colors: [color, color.opacity(0.82)], startPoint: .topLeading, endPoint: .bottomTrailing)
+            GeometryReader { proxy in
+                let side = proxy.size.width
+                ZStack(alignment: .bottom) {
+                    decorations(side)
+                    if let image = UIImage(named: picture) {
+                        Image(uiImage: image)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: side * (game == .lazy ? 0.70 : 0.74))
+                            .shadow(color: .black.opacity(0.18), radius: 6, y: 5)
+                    }
+                    if game == .camera { recChip(side) }
+                }
+                .frame(width: side, height: side, alignment: .bottom)
+            }
+            VStack(alignment: .leading) {
+                Text(title)
+                    .font(.system(size: 16, weight: .heavy))
+                    .foregroundColor(.white)
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.8)
+                    .multilineTextAlignment(.leading)
+                Spacer(minLength: 0)
+                if isNew {
+                    Text(t("unlock.newChip"))
+                        .font(.system(size: 10, weight: .heavy)).kerning(0.6)
+                        .foregroundColor(DS.ink)
+                        .padding(.horizontal, 7).padding(.vertical, 3)
+                        .background(Color.white.opacity(0.92), in: Capsule())
+                }
+            }
+            .padding(12)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        }
+        .aspectRatio(1, contentMode: .fit)
+        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(title)
+        .accessibilityAddTraits(.isButton)
+        .onAppear { if game == .camera && !reduceMotion { blink = true } }
+    }
+
+    /// Small things that tell the game apart: a track, word cards, speech bubbles, notes, "z z", a viewfinder.
+    @ViewBuilder
+    private func decorations(_ side: CGFloat) -> some View {
+        switch game {
+        case .wordRun:
+            Capsule().fill(Color.white.opacity(0.4)).frame(width: side * 0.84, height: 3).padding(.bottom, side * 0.06)
+        case .match:
+            HStack {
+                miniCard(Text("der").foregroundColor(DS.der) + Text(" Tisch").foregroundColor(DS.ink), side: side)
+                    .rotationEffect(.degrees(-10))
+                Spacer()
+                miniCard(Text("die").foregroundColor(DS.die) + Text(" Uhr").foregroundColor(DS.ink), side: side)
+                    .rotationEffect(.degrees(9))
+            }
+            .padding(.horizontal, side * 0.05)
+            .padding(.bottom, side * 0.11)
+        case .linaChat:
+            ZStack {
+                bubble("Hallo!", fill: .white).offset(x: side * 0.27, y: -side * 0.36)
+                bubble("Wie geht's?", fill: DS.gold).offset(x: -side * 0.24, y: -side * 0.18)
+            }
+            .frame(width: side, height: side, alignment: .bottom)
+        case .songs:
+            ZStack {
+                Text("♪").offset(x: -side * 0.34, y: -side * 0.42)
+                Text("♫").offset(x: side * 0.34, y: -side * 0.52)
+            }
+            .font(.system(size: 19, weight: .heavy)).foregroundColor(.white.opacity(0.9))
+            .frame(width: side, height: side, alignment: .bottom)
+        case .lazy:
+            Text("z z").font(.system(size: 15, weight: .heavy)).foregroundColor(.white.opacity(0.9))
+                .offset(x: side * 0.30, y: -side * 0.48)
+                .frame(width: side, height: side, alignment: .bottom)
+        case .camera:
+            Viewfinder().stroke(Color.white, style: StrokeStyle(lineWidth: 3, lineCap: .round))
+                .frame(width: side * 0.72, height: side * 0.48)
+                .padding(.bottom, side * 0.18)
+        case .exam:
+            EmptyView()
+        }
+    }
+
+    private func miniCard(_ text: Text, side: CGFloat) -> some View {
+        text.font(.system(size: 10.5, weight: .heavy))
+            .lineLimit(1).minimumScaleFactor(0.7)
+            .frame(width: side * 0.28, height: side * 0.32)
+            .background(Color.white, in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+            .shadow(color: .black.opacity(0.18), radius: 4, y: 3)
+    }
+
+    private func bubble(_ text: String, fill: Color) -> some View {
+        Text(text).font(.system(size: 10.5, weight: .heavy)).foregroundColor(DS.ink)
+            .padding(.horizontal, 8).padding(.vertical, 5)
+            .background(fill, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+    }
+
+    private func recChip(_ side: CGFloat) -> some View {
+        HStack(spacing: 5) {
+            Circle().fill(Color(red: 1, green: 0.23, blue: 0.19)).frame(width: 8, height: 8)
+                .opacity(blink ? 0.25 : 1)
+                .animation(reduceMotion ? nil : .easeInOut(duration: 0.55).repeatForever(autoreverses: true), value: blink)
+            Text("REC 00:07").font(.system(size: 10, weight: .heavy).monospacedDigit()).foregroundColor(.white)
+        }
+        .padding(.horizontal, 8).padding(.vertical, 3)
+        .background(Color.black.opacity(0.4), in: Capsule())
+        .padding(.bottom, side * 0.06)
+        .accessibilityHidden(true)
+    }
+}
+
+/// The four corners of a camera viewfinder.
+private struct Viewfinder: Shape {
+    func path(in rect: CGRect) -> Path {
+        let arm = min(rect.width, rect.height) * 0.18
+        var path = Path()
+        for (corner, dx, dy) in [(CGPoint(x: rect.minX, y: rect.minY), 1.0, 1.0), (CGPoint(x: rect.maxX, y: rect.minY), -1.0, 1.0),
+                                 (CGPoint(x: rect.minX, y: rect.maxY), 1.0, -1.0), (CGPoint(x: rect.maxX, y: rect.maxY), -1.0, -1.0)] {
+            path.move(to: CGPoint(x: corner.x + dx * arm, y: corner.y))
+            path.addLine(to: corner)
+            path.addLine(to: CGPoint(x: corner.x, y: corner.y + dy * arm))
+        }
+        return path
     }
 }

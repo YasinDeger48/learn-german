@@ -876,6 +876,7 @@
  "unlock.day": "{0}. gün açılır",
  "unlock.unit": "{0}. ünite bitince açılır",
  "unlock.new": "Yeni açıldı: {0}! Bir dene, kısa sürer.",
+ "unlock.newChip": "YENİ",
  "unlock.all": "Tüm özellikleri aç",
  "unlock.allFooter": "Yeni başlayanlar için oyunlar ve özellikler gün gün açılır. Hepsini şimdi açabilirsin.",
  "recap.done": "Ünite {0} bitti",

@@ -876,6 +876,7 @@
  "unlock.day": "Opens on day {0}",
  "unlock.unit": "Opens after unit {0}",
  "unlock.new": "New for you: {0}! Give it a try, it is quick.",
+ "unlock.newChip": "NEW",
  "unlock.all": "Open all features",
  "unlock.allFooter": "For beginners, games and features open day by day. You can open all of them now.",
  "recap.done": "Unit {0} done",

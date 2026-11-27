@@ -99,7 +99,7 @@ struct UnlockGate<Content: View>: View {
             content()
                 .disabled(true)
                 .opacity(0.45)
-                .overlay(alignment: .topTrailing) {
+                .overlay(alignment: .bottomTrailing) {  // the name stays readable on top
                     Label(Unlocks.hint(feature), systemImage: "lock.fill")
                         .font(.caption2.weight(.bold))
                         .foregroundColor(DS.ink)
