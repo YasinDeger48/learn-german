@@ -12,67 +12,82 @@
      "who": "Lina",
      "de": "Was hast du am Wochenende gemacht?",
      "tr": "Hafta sonu ne yaptın?",
-     "en": "What did you do at the weekend?"
+     "en": "What did you do at the weekend?",
+     "es": "¿Qué hiciste el fin de semana?",
+     "fr": "Qu'as-tu fait le week-end ?",
+     "it": "Che cosa hai fatto nel fine settimana?",
+     "ku": "Te dawiya hefteyê çi kir?",
+     "ar": "ماذا فعلت في عطلة نهاية الأسبوع؟"
     },
     {
      "who": "Elif",
      "de": "Am Samstag bin ich mit Tom zum Flohmarkt gefahren.",
      "tr": "Cumartesi Tom’la bit pazarına gittim.",
-     "en": "On Saturday I went to the flea market with Tom."
+     "en": "On Saturday I went to the flea market with Tom.",
+     "es": "El s?bado fui al mercadillo con Tom."
     },
     {
      "who": "Lina",
      "de": "Habt ihr dort etwas Schönes gefunden?",
      "tr": "Orada güzel bir şey buldunuz mu?",
-     "en": "Did you find anything nice there?"
+     "en": "Did you find anything nice there?",
+     "es": "?Encontraste algo bonito all??"
     },
     {
      "who": "Elif",
      "de": "Ja, Tom kaufte eine Zeichnung für seine Mutter.",
      "tr": "Evet, Tom annesi için bir çizim aldı.",
-     "en": "Yes, Tom bought a drawing for his mother."
+     "en": "Yes, Tom bought a drawing for his mother.",
+     "es": "S?, Tom compr? un dibujo para su madre."
     },
     {
      "who": "Elif",
      "de": "Danach habe ich an einem Gemüsestand frische Erdbeeren gekauft.",
      "tr": "Sonra bir sebze tezgâhından taze çilek aldım.",
-     "en": "After that I bought fresh strawberries at a vegetable stall."
+     "en": "After that I bought fresh strawberries at a vegetable stall.",
+     "es": "Despu?s compr? fresas frescas en un puesto de verduras."
     },
     {
      "who": "Lina",
      "de": "Und was machst du heute im Buchladen?",
      "tr": "Peki bugün kitapçıda ne yapıyorsun?",
-     "en": "And what are you doing at the bookshop today?"
+     "en": "And what are you doing at the bookshop today?",
+     "es": "?Y qu? haces hoy en la librer?a?"
     },
     {
      "who": "Elif",
      "de": "Ich stehe um sieben Uhr auf und fahre mit der Bahn.",
      "tr": "Saat yedide kalkıp trenle gidiyorum.",
-     "en": "I get up at seven and take the train."
+     "en": "I get up at seven and take the train.",
+     "es": "Me levanto a las siete y cojo el tren."
     },
     {
      "who": "Elif",
      "de": "Nach der Arbeit kaufe ich noch schnell Brot ein.",
      "tr": "İşten sonra hızlıca ekmek alıyorum.",
-     "en": "After work, I quickly buy some bread."
+     "en": "After work, I quickly buy some bread.",
+     "es": "Despu?s del trabajo, compro pan r?pidamente."
     },
     {
      "who": "Lina",
      "de": "Räumst du am Abend die Küche auf?",
      "tr": "Akşam mutfağı topluyor musun?",
-     "en": "Are you tidying the kitchen this evening?"
+     "en": "Are you tidying the kitchen this evening?",
+     "es": "?Vas a ordenar la cocina esta tarde?"
     },
     {
      "who": "Elif",
      "de": "Ja, aber zuerst muss die Kuchenglasur abkühlen.",
      "tr": "Evet ama önce kekin üzerindeki şekerleme soğumalı.",
-     "en": "Yes, but first the cake icing has to cool."
+     "en": "Yes, but first the cake icing has to cool.",
+     "es": "S?, pero primero tiene que enfriarse el glaseado del pastel."
     },
     {
      "who": "Lina",
      "de": "Dann bringe ich Tee mit. Bis später!",
      "tr": "O zaman çay getiririm. Sonra görüşürüz!",
-     "en": "Then I'll bring tea. See you later!"
+     "en": "Then I'll bring tea. See you later!",
+     "es": "Luego traer? t?. ?Hasta luego!"
     }
    ],
    "glossary": [],
@@ -121,55 +136,64 @@
      "who": "",
      "de": "Elif lebt seit einem Jahr in Köln und arbeitet halbtags in einer Buchhandlung.",
      "tr": "Elif bir yıldır Köln’de yaşıyor ve bir kitapçıda yarı zamanlı çalışıyor.",
-     "en": "Elif has lived in Cologne for a year and works part-time in a bookshop."
+     "en": "Elif has lived in Cologne for a year and works part-time in a bookshop.",
+     "es": "Elif vive en Colonia desde hace un a?o y trabaja a tiempo parcial en una librer?a."
     },
     {
      "who": "",
      "de": "Am Samstag lief sie mit Lina durch die Altstadt und entdeckte einen Flohmarkt.",
      "tr": "Cumartesi Lina’yla eski şehirde yürüdü ve küçük bir bit pazarı keşfetti.",
-     "en": "On Saturday she walked through the old town with Lina and discovered a small flea market."
+     "en": "On Saturday she walked through the old town with Lina and discovered a small flea market.",
+     "es": "El s?bado pase? por el casco antiguo con Lina y descubri? un peque?o mercadillo."
     },
     {
      "who": "",
      "de": "Dort kaufte Lina eine blaue Leine, denn ihr Anhänger war zu Hause liegen geblieben.",
      "tr": "Lina orada mavi bir tasma aldı çünkü rozeti evde kalmıştı.",
-     "en": "Lina bought a blue lead there because her tag had been left at home."
+     "en": "Lina bought a blue lead there because her tag had been left at home.",
+     "es": "Lina compr? all? una correa azul porque se hab?a dejado la placa en casa."
     },
     {
      "who": "",
      "de": "Am Sonntag besuchten sie Frau Schmidt und halfen ihrem Enkel beim Zeichnen.",
      "tr": "Pazar günü Frau Schmidt’i ziyaret edip torununa resim çizmesinde yardım ettiler.",
-     "en": "On Sunday they visited Ms Schmidt and helped her grandson draw."
+     "en": "On Sunday they visited Ms Schmidt and helped her grandson draw.",
+     "es": "El domingo visitaron a la se?ora Schmidt y ayudaron a su nieto a dibujar."
     },
     {
      "who": "",
      "de": "Heute steht Elif früh auf, macht Kaffee und öffnet das Fenster im Schlafzimmer.",
      "tr": "Bugün Elif erken kalkıyor, kahve yapıyor ve yatak odasının penceresini açıyor.",
-     "en": "Today Elif gets up early, makes coffee, and opens the bedroom window."
+     "en": "Today Elif gets up early, makes coffee, and opens the bedroom window.",
+     "es": "Hoy Elif se levanta temprano, prepara caf? y abre la ventana del dormitorio."
     },
     {
      "who": "",
      "de": "Vor der Arbeit kauft sie Brot ein und hängt ihre Jacke an die Klingel.",
      "tr": "İşten önce ekmek alıyor ve ceketini zilin yanındaki askıya asıyor.",
-     "en": "Before work she buys bread and hangs her jacket beside the doorbell."
+     "en": "Before work she buys bread and hangs her jacket beside the doorbell.",
+     "es": "Antes del trabajo compra pan y cuelga su chaqueta junto al timbre."
     },
     {
      "who": "",
      "de": "Im Laden berät sie Kunden und schneidet Geschenkband vorsichtig ab.",
      "tr": "Dükkânda müşterilere yardım edip hediye kurdelesini dikkatlice kesiyor.",
-     "en": "At the shop she advises customers and carefully cuts the gift ribbon."
+     "en": "At the shop she advises customers and carefully cuts the gift ribbon.",
+     "es": "En la tienda atiende a los clientes y corta con cuidado la cinta del regalo."
     },
     {
      "who": "",
      "de": "Am Abend räumt sie die Küche auf und stellt Erdbeeren auf das Fensterbrett.",
      "tr": "Akşam mutfağı topluyor ve çilekleri pencere pervazına koyuyor.",
-     "en": "In the evening she tidies the kitchen and puts strawberries on the windowsill."
+     "en": "In the evening she tidies the kitchen and puts strawberries on the windowsill.",
+     "es": "Por la tarde ordena la cocina y pone fresas en el alf?izar."
     },
     {
      "who": "",
      "de": "Lina kommt vorbei, und beide trinken Tee, während die Glasur abkühlt.",
      "tr": "Lina uğruyor, şekerleme soğurken ikisi çay içiyor.",
-     "en": "Lina visits, and they drink tea while the icing cools."
+     "en": "Lina visits, and they drink tea while the icing cools.",
+     "es": "Lina viene de visita y toman t? mientras se enfr?a el glaseado."
     }
    ],
    "glossary": [],
@@ -218,67 +242,78 @@
      "who": "Elif",
      "de": "Herr Brandt, Ihre Musik ist nachts sehr laut.",
      "tr": "Herr Brandt, müziğiniz geceleri çok yüksek.",
-     "en": "Mr Brandt, your music is very loud at night."
+     "en": "Mr Brandt, your music is very loud at night.",
+     "es": "Se?or Brandt, su m?sica est? muy alta por la noche."
     },
     {
      "who": "Herr Brandt",
      "de": "Oh, das wusste ich nicht. Entschuldigung!",
      "tr": "Aa, bunu bilmiyordum. Özür dilerim!",
-     "en": "Oh, I didn't know that. I'm sorry!"
+     "en": "Oh, I didn't know that. I'm sorry!",
+     "es": "Ah, no lo sab?a. ?Lo siento!"
     },
     {
      "who": "Elif",
      "de": "Können Sie bitte nach zehn Uhr leiser sein?",
      "tr": "Saat ondan sonra biraz daha sessiz olabilir misiniz?",
-     "en": "Could you please be quieter after ten?"
+     "en": "Could you please be quieter after ten?",
+     "es": "?Podr?a hacer menos ruido despu?s de las diez, por favor?"
     },
     {
      "who": "Herr Brandt",
      "de": "Natürlich. Ich höre heute mit Kopfhörern.",
      "tr": "Elbette. Bugün kulaklıkla dinlerim.",
-     "en": "Of course. I'll listen with headphones today."
+     "en": "Of course. I'll listen with headphones today.",
+     "es": "Claro. Hoy escuchar? m?sica con auriculares."
     },
     {
      "who": "Elif",
      "de": "Danke. Unsere Nachbarn sind sonst sehr nett.",
      "tr": "Teşekkürler. Diğer komşularımız çok iyi.",
-     "en": "Thank you. Our other neighbors are very nice."
+     "en": "Thank you. Our other neighbors are very nice.",
+     "es": "Gracias. Nuestros otros vecinos son muy amables."
     },
     {
      "who": "Frau Schmidt",
      "de": "Elif, kannst du mir beim Umzug helfen?",
      "tr": "Elif, taşınmama yardım eder misin?",
-     "en": "Elif, can you help me move?"
+     "en": "Elif, can you help me move?",
+     "es": "Elif, ?puedes ayudarme con la mudanza?"
     },
     {
      "who": "Elif",
      "de": "Gern. Wohin soll der Karton?",
      "tr": "Tabii. Kutuyu nereye koyayım?",
-     "en": "Gladly. Where should the box go?"
+     "en": "Gladly. Where should the box go?",
+     "es": "Claro. ?D?nde dejo la caja?"
     },
     {
      "who": "Frau Schmidt",
      "de": "Stell ihn bitte neben das Sofa.",
      "tr": "Lütfen onu kanepenin yanına koy.",
-     "en": "Please put it next to the sofa."
+     "en": "Please put it next to the sofa.",
+     "es": "Ponla junto al sof?, por favor."
     },
     {
      "who": "Elif",
      "de": "Und die Kissen lege ich auf die Bank im Hof.",
      "tr": "Yastıkları avludaki banka koyuyorum.",
-     "en": "And I'll put the cushions on the bench in the courtyard."
+     "en": "And I'll put the cushions on the bench in the courtyard.",
+     "es": "Y yo pondr? los cojines en el banco del patio."
     },
     {
      "who": "Frau Schmidt",
      "de": "Danke! Der Kinderwagen steht schon im Treppenhaus.",
      "tr": "Teşekkürler! Bebek arabası zaten merdiven boşluğunda.",
-     "en": "Thanks! The pram is already in the stairwell."
+     "en": "Thanks! The pram is already in the stairwell.",
+     "es": "?Gracias! El cochecito ya est? en la escalera."
     },
     {
      "who": "Elif",
      "de": "Dann falte ich das Band zusammen und komme gleich.",
      "tr": "O zaman kurdeleyi katlayıp hemen geliyorum.",
-     "en": "Then I'll fold the ribbon and come right over."
+     "en": "Then I'll fold the ribbon and come right over.",
+     "es": "Entonces doblar? la cinta y voy enseguida."
     }
    ],
    "glossary": [],
@@ -327,55 +362,64 @@
      "who": "",
      "de": "Elif hat am Samstag frei und hört im Hof laute Musik.",
      "tr": "Elif cumartesi izinli ve avluda yüksek müzik duyuyor.",
-     "en": "Elif has Saturday off and hears loud music in the courtyard."
+     "en": "Elif has Saturday off and hears loud music in the courtyard.",
+     "es": "Elif tiene libre el s?bado y oye m?sica alta en el patio."
     },
     {
      "who": "",
      "de": "Herr Brandt sitzt am Fenster und singt aus Spaß mit.",
      "tr": "Herr Brandt pencerede oturuyor ve eğlencesine eşlik ediyor.",
-     "en": "Mr Brandt sits by the window and sings along for fun."
+     "en": "Mr Brandt sits by the window and sings along for fun.",
+     "es": "El se?or Brandt est? sentado junto a la ventana y canta por diversi?n."
     },
     {
      "who": "",
      "de": "Elif klingelt freundlich und bittet ihn, nachts leiser zu sein.",
      "tr": "Elif nazikçe zili çalıp geceleri daha sessiz olmasını rica ediyor.",
-     "en": "Elif rings politely and asks him to be quieter at night."
+     "en": "Elif rings politely and asks him to be quieter at night.",
+     "es": "Elif llama a la puerta con educaci?n y le pide que haga menos ruido por la noche."
     },
     {
      "who": "",
      "de": "Er entschuldigt sich und verspricht, die Musik abends auszumachen.",
      "tr": "Özür diliyor ve akşamları müziği kapatacağına söz veriyor.",
-     "en": "He apologizes and promises to turn off the music in the evening."
+     "en": "He apologizes and promises to turn off the music in the evening.",
+     "es": "?l se disculpa y promete apagar la m?sica por la tarde."
     },
     {
      "who": "",
      "de": "Danach hilft Elif Frau Schmidt, die neue Wohnung einzurichten.",
      "tr": "Sonra Elif, Frau Schmidt’e yeni dairesini yerleştirmesinde yardım ediyor.",
-     "en": "Afterwards Elif helps Ms Schmidt set up her new apartment."
+     "en": "Afterwards Elif helps Ms Schmidt set up her new apartment.",
+     "es": "Despu?s, Elif ayuda a la se?ora Schmidt a instalarse en su nuevo piso."
     },
     {
      "who": "",
      "de": "Ein Karton steht noch im Treppenhaus, und die Bank ist sehr eng.",
      "tr": "Bir kutu hâlâ merdiven boşluğunda ve bank çok dar.",
-     "en": "A box is still in the stairwell, and the bench is very narrow."
+     "en": "A box is still in the stairwell, and the bench is very narrow.",
+     "es": "Todav?a hay una caja en la escalera y el banco es muy estrecho."
     },
     {
      "who": "",
      "de": "Sie stellen den Tisch ans Fenster und legen Kissen auf das Sofa.",
      "tr": "Masayı pencerenin önüne koyup yastıkları kanepenin üzerine yerleştiriyorlar.",
-     "en": "They put the table by the window and place cushions on the sofa."
+     "en": "They put the table by the window and place cushions on the sofa.",
+     "es": "Ponen la mesa junto a la ventana y dejan los cojines en el sof?."
     },
     {
      "who": "",
      "de": "Frau Schmidt hängt den Mantel an einen Haken im Flur.",
      "tr": "Frau Schmidt paltoyu koridordaki bir kancaya asıyor.",
-     "en": "Ms Schmidt hangs her coat on a hook in the hallway."
+     "en": "Ms Schmidt hangs her coat on a hook in the hallway.",
+     "es": "La se?ora Schmidt cuelga su abrigo en una percha del recibidor."
     },
     {
      "who": "",
      "de": "Am Abend sind alle müde, aber die Nachbarn verstehen sich gut. Sie planen schon ein gemeinsames Essen für nächste Woche.",
      "tr": "Akşam herkes yorgun ama komşular iyi anlaşıyor. Gelecek hafta birlikte yemek yemeyi şimdiden planlıyorlar.",
-     "en": "In the evening everyone is tired, but the neighbors get along well. They are already planning a meal together for next week."
+     "en": "In the evening everyone is tired, but the neighbors get along well. They are already planning a meal together for next week.",
+     "es": "Por la tarde todos est?n cansados, pero los vecinos se llevan bien. Ya est?n planeando una comida juntos para la semana que viene."
     }
    ],
    "glossary": [],
@@ -424,67 +468,82 @@
      "who": "Lina",
      "de": "Ist das die Jacke, die du online bestellt hast?",
      "tr": "Bu internetten sipariş ettiğin ceket mi?",
-     "en": "Is that the jacket you ordered online?"
+     "en": "Is that the jacket you ordered online?",
+     "es": "?Es esa la chaqueta que pediste por internet?"
     },
     {
      "who": "Elif",
      "de": "Ja, aber sie ist dunkelblau. Ich wollte eine rote Jacke.",
      "tr": "Evet ama koyu mavi. Kırmızı bir ceket istemiştim.",
-     "en": "Yes, but it's dark blue. I wanted a red jacket."
+     "en": "Yes, but it's dark blue. I wanted a red jacket.",
+     "es": "S?, pero es azul oscuro. Quer?a una chaqueta roja."
     },
     {
      "who": "Lina",
      "de": "Hast du den Kassenbon in der Verpackung gefunden?",
      "tr": "Fişi paketin içinde buldun mu?",
-     "en": "Did you find the receipt in the package?"
+     "en": "Did you find the receipt in the package?",
+     "es": "?Encontraste el recibo dentro del paquete?"
     },
     {
      "who": "Elif",
      "de": "Ja, ich nehme die Jacke und den Bon mit.",
      "tr": "Evet, ceketi ve fişi yanıma alıyorum.",
-     "en": "Yes, I'll take the jacket and receipt with me."
+     "en": "Yes, I'll take the jacket and receipt with me.",
+     "es": "S?, me llevar? la chaqueta y el recibo."
     },
     {
      "who": "Verkäufer",
      "de": "Guten Tag. Haben Sie die Jacke bei uns gekauft?",
      "tr": "İyi günler. Ceketi bizden mi aldınız?",
-     "en": "Hello. Did you buy the jacket here?"
+     "en": "Hello. Did you buy the jacket here?",
+     "es": "Hola. ?Compraste la chaqueta aqu??"
     },
     {
      "who": "Elif",
      "de": "Ja. Kann ich das umtauschen? Die Farbe ist leider falsch.",
      "tr": "Evet. Bunu değiştirebilir miyim? Rengi maalesef yanlış.",
-     "en": "Yes. Can I exchange it? The color is unfortunately wrong."
+     "en": "Yes. Can I exchange it? The color is unfortunately wrong.",
+     "es": "S?. ?Puedo cambiarla? Por desgracia, el color no es el correcto."
     },
     {
      "who": "Verkäufer",
      "de": "Haben Sie den Kassenbon noch?",
      "tr": "Fişiniz duruyor mu?",
-     "en": "Do you still have the receipt?"
+     "en": "Do you still have the receipt?",
+     "es": "¿Todavía tienes el recibo?",
+     "fr": "Vous avez encore le ticket de caisse ?",
+     "it": "Ha ancora lo scontrino?",
+     "ku": "Ma fîşa kirînê hîn li cem te ye?",
+     "ar": "هل ما زلت تحتفظ بالإيصال؟"
     },
     {
      "who": "Elif",
      "de": "Ja, hier ist er. Ich suche außerdem einen warmen Pullover.",
      "tr": "Evet, burada. Ayrıca sıcak bir kazak arıyorum.",
-     "en": "Yes, here it is. I'm also looking for a warm sweater."
+     "en": "Yes, here it is. I'm also looking for a warm sweater.",
+     "es": "S?, aqu? la tienes. Tambi?n busco un jersey calentito."
     },
     {
      "who": "Verkäufer",
      "de": "Wir haben einen hellbraunen Pullover. Er kostet dreißig Euro.",
      "tr": "Açık kahverengi bir kazağımız var. Otuz avro.",
-     "en": "We have a light brown sweater. It costs thirty euros."
+     "en": "We have a light brown sweater. It costs thirty euros.",
+     "es": "Tenemos un jersey marr?n claro. Cuesta treinta euros."
     },
     {
      "who": "Elif",
      "de": "Der passt gut. Ich nehme ihn und die rote Jacke.",
      "tr": "Güzel oldu. Kazağı ve kırmızı ceketi alıyorum.",
-     "en": "It fits well. I'll take it and the red jacket."
+     "en": "It fits well. I'll take it and the red jacket.",
+     "es": "Me queda bien. Me lo llevo junto con la chaqueta roja."
     },
     {
      "who": "Lina",
      "de": "Das war ein guter Tausch. Gehen wir jetzt nach Hause?",
      "tr": "İyi bir değiş tokuş oldu. Şimdi eve gidelim mi?",
-     "en": "That was a good exchange. Shall we go home now?"
+     "en": "That was a good exchange. Shall we go home now?",
+     "es": "Ha sido un buen cambio. ?Nos vamos a casa ahora?"
     }
    ],
    "glossary": [],
@@ -533,55 +592,64 @@
      "who": "",
      "de": "Elif bestellte letzte Woche online eine rote Jacke für den Herbst.",
      "tr": "Elif geçen hafta sonbahar için internetten kırmızı bir ceket sipariş etti.",
-     "en": "Last week Elif ordered a red jacket online for autumn."
+     "en": "Last week Elif ordered a red jacket online for autumn.",
+     "es": "La semana pasada Elif pidi? por internet una chaqueta roja para el oto?o."
     },
     {
      "who": "",
      "de": "Als das Paket kam, war die Jacke dunkelblau und die Verpackung beschädigt.",
      "tr": "Paket geldiğinde ceket koyu maviydi ve ambalaj hasarlıydı.",
-     "en": "When the parcel arrived, the jacket was dark blue and the packaging was damaged."
+     "en": "When the parcel arrived, the jacket was dark blue and the packaging was damaged.",
+     "es": "Cuando lleg? el paquete, la chaqueta era azul oscuro y el embalaje estaba da?ado."
     },
     {
      "who": "",
      "de": "Zum Glück hatte Elif den Kassenbon noch in ihrer E-Mail.",
      "tr": "Neyse ki Elif’in fişi e-postasında duruyordu.",
-     "en": "Luckily, Elif still had the receipt in her email."
+     "en": "Luckily, Elif still had the receipt in her email.",
+     "es": "Por suerte, Elif a?n ten?a el recibo en su correo electr?nico."
     },
     {
      "who": "",
      "de": "Sie fuhr mit der Bahn zum Geschäft und erklärte das Problem.",
      "tr": "Trenle mağazaya gidip sorunu anlattı.",
-     "en": "She took the train to the shop and explained the problem."
+     "en": "She took the train to the shop and explained the problem.",
+     "es": "Fue en tren a la tienda y explic? el problema."
     },
     {
      "who": "",
      "de": "Die Verkäuferin tauschte die blaue Jacke kostenlos gegen eine rote.",
      "tr": "Satış görevlisi mavi ceketi ücretsiz olarak kırmızıyla değiştirdi.",
-     "en": "The sales assistant exchanged the blue jacket for a red one free of charge."
+     "en": "The sales assistant exchanged the blue jacket for a red one free of charge.",
+     "es": "El dependiente cambi? la chaqueta azul por una roja sin cobrarle nada."
     },
     {
      "who": "",
      "de": "Elif suchte außerdem einen warmen Pullover für kalte Tage.",
      "tr": "Elif soğuk günler için sıcak bir kazak da aradı.",
-     "en": "Elif also looked for a warm sweater for cold days."
+     "en": "Elif also looked for a warm sweater for cold days.",
+     "es": "Elif tambi?n busc? un jersey calentito para los d?as fr?os."
     },
     {
      "who": "",
      "de": "Sie probierte einen hellbraunen Pullover an und sah in den Spiegel.",
      "tr": "Açık kahverengi bir kazağı deneyip aynada kendine baktı.",
-     "en": "She tried on a light brown sweater and looked in the mirror."
+     "en": "She tried on a light brown sweater and looked in the mirror.",
+     "es": "Se prob? un jersey marr?n claro y se mir? al espejo."
     },
     {
      "who": "",
      "de": "Der Pullover passte gut, deshalb kaufte sie ihn ebenfalls.",
      "tr": "Kazak güzel oldu, bu yüzden onu da aldı.",
-     "en": "The sweater fit well, so she bought it too."
+     "en": "The sweater fit well, so she bought it too.",
+     "es": "El jersey le quedaba bien, as? que tambi?n lo compr?."
     },
     {
      "who": "",
      "de": "Zu Hause legte Elif die neue Jacke auf das Sofa und rief Lina an. Sie erzählte ihr von der schnellen und freundlichen Hilfe im Geschäft.",
      "tr": "Elif evde yeni ceketi kanepenin üzerine koyup Lina’yı aradı.",
-     "en": "At home Elif put the new jacket on the sofa and called Lina."
+     "en": "At home Elif put the new jacket on the sofa and called Lina.",
+     "es": "En casa, Elif puso la chaqueta nueva en el sof? y llam? a Lina."
     }
    ],
    "glossary": [],
@@ -630,61 +698,71 @@
      "who": "Lina",
      "de": "Der Zug hat zwanzig Minuten Verspätung. Hast du das gesehen?",
      "tr": "Trenin yirmi dakika rötarı var. Gördün mü?",
-     "en": "The train is twenty minutes late. Did you see that?"
+     "en": "The train is twenty minutes late. Did you see that?",
+     "es": "El tren lleva veinte minutos de retraso. ?Lo has visto?"
     },
     {
      "who": "Elif",
      "de": "Ja, ich habe meinen Anschluss verpasst. Der Bus fährt gleich.",
      "tr": "Evet, aktarmamı kaçırdım. Otobüs birazdan kalkıyor.",
-     "en": "Yes, I missed my connection. The bus leaves soon."
+     "en": "Yes, I missed my connection. The bus leaves soon.",
+     "es": "S?, he perdido el transbordo. El autob?s sale pronto."
     },
     {
      "who": "Lina",
      "de": "Dann steigen wir an der nächsten Haltestelle aus.",
      "tr": "O zaman bir sonraki durakta inelim.",
-     "en": "Then let's get off at the next stop."
+     "en": "Then let's get off at the next stop.",
+     "es": "Entonces bajemos en la pr?xima parada."
     },
     {
      "who": "Elif",
      "de": "Könnten Sie uns bitte den Weg zum Leihrad zeigen?",
      "tr": "Bize kiralık bisikletin yolunu gösterebilir misiniz?",
-     "en": "Could you please show us the way to the rental bike?"
+     "en": "Could you please show us the way to the rental bike?",
+     "es": "?Podr?as indicarnos c?mo llegar a las bicicletas de alquiler, por favor?"
     },
     {
      "who": "Herr Braun",
      "de": "Gehen Sie geradeaus und biegen Sie am Hügel links ab.",
      "tr": "Dümdüz gidin ve tepede sola dönün.",
-     "en": "Go straight and turn left at the hill."
+     "en": "Go straight and turn left at the hill.",
+     "es": "Sigue recto y gira a la izquierda al llegar a la colina."
     },
     {
      "who": "Lina",
      "de": "Der Akku ist voll. Ich nehme den Stadtplan aus der Tasche.",
      "tr": "Pil dolu. Çantamdan şehir haritasını çıkarıyorum.",
-     "en": "The battery is full. I'm taking the city map from my bag."
+     "en": "The battery is full. I'm taking the city map from my bag.",
+     "es": "La bater?a est? cargada. Voy a sacar el mapa de la ciudad de mi bolso."
     },
     {
      "who": "Elif",
      "de": "Ich stelle das Rad hier ab und helfe dir mit dem Koffer.",
      "tr": "Bisikleti burada bırakıp bavulunda sana yardım edeceğim.",
-     "en": "I'll leave the bike here and help you with your suitcase."
+     "en": "I'll leave the bike here and help you with your suitcase.",
+     "es": "Dejar? aqu? la bicicleta y te ayudar? con la maleta."
     },
     {
      "who": "Lina",
      "de": "Der Weg ist gesperrt. Wir müssen das Rad ein Stück schieben.",
      "tr": "Yol kapalı. Bisikleti biraz itmemiz gerekiyor.",
-     "en": "The road is closed. We have to push the bike for a bit."
+     "en": "The road is closed. We have to push the bike for a bit.",
+     "es": "La carretera est? cortada. Tenemos que empujar la bicicleta un rato."
     },
     {
      "who": "Elif",
      "de": "Folgen wir dem Schild zur Straßenbahn. Dort fragen wir noch einmal.",
      "tr": "Tramvay tabelasını takip edelim. Orada tekrar sorarız.",
-     "en": "Let's follow the sign to the tram. We'll ask again there."
+     "en": "Let's follow the sign to the tram. We'll ask again there.",
+     "es": "Sigamos la se?al del tranv?a. Preguntaremos all? otra vez."
     },
     {
      "who": "Lina",
      "de": "Gute Idee. Fahr bitte langsamer, der Weg ist nass!",
      "tr": "İyi fikir. Lütfen daha yavaş sür, yol ıslak!",
-     "en": "Good idea. Please ride more slowly, the path is wet!"
+     "en": "Good idea. Please ride more slowly, the path is wet!",
+     "es": "Buena idea. ?Ve m?s despacio, por favor, el camino est? mojado!"
     }
    ],
    "glossary": [],
@@ -733,61 +811,71 @@
      "who": "",
      "de": "Elif und Lina fahren am Samstag mit der Straßenbahn nach Ehrenfeld.",
      "tr": "Elif ve Lina cumartesi tramvayla Ehrenfeld’e gidiyor.",
-     "en": "Elif and Lina take the tram to Ehrenfeld on Saturday."
+     "en": "Elif and Lina take the tram to Ehrenfeld on Saturday.",
+     "es": "El s?bado, Elif y Lina van en tranv?a a Ehrenfeld."
     },
     {
      "who": "",
      "de": "Ihr Zug hatte zwanzig Minuten Verspätung, deshalb verpassen sie den Anschluss.",
      "tr": "Trenleri yirmi dakika gecikiyor, bu yüzden aktarmayı kaçırıyorlar.",
-     "en": "Their train was twenty minutes late, so they miss their connection."
+     "en": "Their train was twenty minutes late, so they miss their connection.",
+     "es": "Su tren llevaba veinte minutos de retraso, as? que pierden el transbordo."
     },
     {
      "who": "",
      "de": "An der Haltestelle zeigt die Anzeige einen Bus zum Stadtzentrum.",
      "tr": "Durakta ekran şehir merkezine giden bir otobüs gösteriyor.",
-     "en": "At the stop, the display shows a bus to the city center."
+     "en": "At the stop, the display shows a bus to the city center.",
+     "es": "En la parada, la pantalla muestra un autob?s al centro."
     },
     {
      "who": "",
      "de": "Sie steigen ein und steigen später an der nächsten Haltestelle aus.",
      "tr": "Otobüse biniyor ve sonra bir sonraki durakta iniyorlar.",
-     "en": "They get on and later get off at the next stop."
+     "en": "They get on and later get off at the next stop.",
+     "es": "Suben y m?s tarde bajan en la siguiente parada."
     },
     {
      "who": "",
      "de": "Dort leihen sie zwei Fahrräder; Elifs Akku ist ganz voll.",
      "tr": "Orada iki bisiklet kiralıyorlar; Elif’in pili tamamen dolu.",
-     "en": "There they rent two bikes; Elif’s battery is fully charged."
+     "en": "There they rent two bikes; Elif’s battery is fully charged.",
+     "es": "All? alquilan dos bicicletas; la bater?a de Elif est? completamente cargada."
     },
     {
      "who": "",
      "de": "Lina nimmt den Stadtplan und sucht den Weg zum Museum.",
      "tr": "Lina şehir haritasını alıp müzeye giden yolu arıyor.",
-     "en": "Lina takes the city map and looks for the way to the museum."
+     "en": "Lina takes the city map and looks for the way to the museum.",
+     "es": "Lina coge el mapa de la ciudad y busca el camino al museo."
     },
     {
      "who": "",
      "de": "Eine Straße ist gesperrt, also schieben sie die Räder über den Platz.",
      "tr": "Bir sokak kapalı, bu yüzden bisikletleri meydandan iterek geçiriyorlar.",
-     "en": "One street is closed, so they push the bikes across the square."
+     "en": "One street is closed, so they push the bikes across the square.",
+     "es": "Una calle est? cortada, as? que empujan las bicicletas por la plaza."
     },
     {
      "who": "",
      "de": "Ein Mann sagt: Folgen Sie dem Weg bis zur Brücke!",
      "tr": "Bir adam, köprüye kadar yolu takip edin, diyor.",
-     "en": "A man says, “Follow the path to the bridge!”"
+     "en": "A man says, “Follow the path to the bridge!”",
+     "es": "Un hombre dice: ??Sigue el camino hasta el puente!?"
     },
     {
      "who": "",
      "de": "Elif biegt dort links ab und stellt die Fahrräder vorsichtig ab.",
      "tr": "Elif orada sola dönüp bisikletleri dikkatlice bırakıyor.",
-     "en": "Elif turns left there and carefully parks the bikes."
+     "en": "Elif turns left there and carefully parks the bikes.",
+     "es": "All? Elif gira a la izquierda y aparca las bicicletas con cuidado."
     },
     {
      "who": "",
      "de": "Nach dem Besuch fahren sie mit der Straßenbahn zurück und kaufen Brot ein.",
      "tr": "Geziden sonra tramvayla dönüp ekmek alıyorlar.",
-     "en": "After their visit, they take the tram back and buy bread."
+     "en": "After their visit, they take the tram back and buy bread.",
+     "es": "Despu?s de la visita, vuelven en tranv?a y compran pan."
     }
    ],
    "glossary": [],
@@ -869,73 +957,85 @@
      "who": "Elif",
      "de": "Ich fühle mich nicht gut. Mein Knie tut weh.",
      "tr": "Kendimi iyi hissetmiyorum. Dizim ağrıyor.",
-     "en": "I don't feel well. My knee hurts."
+     "en": "I don't feel well. My knee hurts.",
+     "es": "No me encuentro bien. Me duele la rodilla."
     },
     {
      "who": "Lina",
      "de": "Seit wann hast du Schmerzen? Bist du gestern gefallen?",
      "tr": "Ne zamandır ağrın var? Dün düştün mü?",
-     "en": "How long have you been in pain? Did you fall yesterday?"
+     "en": "How long have you been in pain? Did you fall yesterday?",
+     "es": "?Desde cu?ndo te duele? ?Te ca?ste ayer?"
     },
     {
      "who": "Elif",
      "de": "Seit gestern. Ich bin aus Versehen in eine Pfütze getreten.",
      "tr": "Dünden beri. Yanlışlıkla bir su birikintisine bastım.",
-     "en": "Since yesterday. I accidentally stepped into a puddle."
+     "en": "Since yesterday. I accidentally stepped into a puddle.",
+     "es": "Desde ayer. Sin querer, pis? un charco."
     },
     {
      "who": "Frau Wolf",
      "de": "Guten Morgen. Setzen Sie sich bitte hier an die Stelle.",
      "tr": "Günaydın. Lütfen şuraya oturun.",
-     "en": "Good morning. Please sit here."
+     "en": "Good morning. Please sit here.",
+     "es": "Buenos d?as. Si?ntate aqu?, por favor."
     },
     {
      "who": "Frau Wolf",
      "de": "Ich muss Ihr Knie kurz untersuchen. Haben Sie Fieber?",
      "tr": "Dizinizi kısaca muayene etmem gerekiyor. Ateşiniz var mı?",
-     "en": "I need to examine your knee briefly. Do you have a fever?"
+     "en": "I need to examine your knee briefly. Do you have a fever?",
+     "es": "Tengo que examinarte la rodilla un momento. ?Tienes fiebre?"
     },
     {
      "who": "Elif",
      "de": "Nein, aber ich kann kaum gehen. Es tut beim Schritt weh.",
      "tr": "Hayır ama neredeyse yürüyemiyorum. Adım atınca ağrıyor.",
-     "en": "No, but I can hardly walk. It hurts when I step."
+     "en": "No, but I can hardly walk. It hurts when I step.",
+     "es": "No, pero casi no puedo caminar. Me duele al pisar."
     },
     {
      "who": "Frau Wolf",
      "de": "Der Spiegel ist besetzt. Ich schaue zuerst Ihren Finger an.",
      "tr": "Muayene odası dolu. Önce parmağınıza bakacağım.",
-     "en": "The examination room is occupied. I'll look at your finger first."
+     "en": "The examination room is occupied. I'll look at your finger first.",
+     "es": "La sala de exploraci?n est? ocupada. Primero voy a mirarte el dedo."
     },
     {
      "who": "Lina",
      "de": "Könnten Sie bitte auch nach der Physiotherapie fragen?",
      "tr": "Fizyoterapiyi de sorabilir misiniz lütfen?",
-     "en": "Could you also ask about physiotherapy, please?"
+     "en": "Could you also ask about physiotherapy, please?",
+     "es": "?Podr?as preguntar tambi?n por la fisioterapia, por favor?"
     },
     {
      "who": "Frau Wolf",
      "de": "Sie müssen sich heute ausruhen und dreimal eine Tablette nehmen.",
      "tr": "Bugün dinlenmeniz ve günde üç kez tablet almanız gerekiyor.",
-     "en": "You need to rest today and take one tablet three times."
+     "en": "You need to rest today and take one tablet three times.",
+     "es": "Hoy tienes que descansar y tomar un comprimido tres veces."
     },
     {
      "who": "Elif",
      "de": "Muss ich morgen wiederkommen?",
      "tr": "Yarın tekrar gelmem gerekiyor mu?",
-     "en": "Do I have to come back tomorrow?"
+     "en": "Do I have to come back tomorrow?",
+     "es": "?Tengo que volver ma?ana?"
     },
     {
      "who": "Frau Wolf",
      "de": "Nein, Sie müssen nicht kommen, wenn es besser wird.",
      "tr": "Hayır, iyileşirseniz gelmeniz gerekmiyor.",
-     "en": "No, you don't have to come if it gets better."
+     "en": "No, you don't have to come if it gets better.",
+     "es": "No, no tienes que venir si mejoras."
     },
     {
      "who": "Lina",
      "de": "Trink viel Wasser! Ich bringe dir später eine Brezel.",
      "tr": "Bol su iç! Sana sonra bir brezel getiririm.",
-     "en": "Drink plenty of water! I'll bring you a pretzel later."
+     "en": "Drink plenty of water! I'll bring you a pretzel later.",
+     "es": "?Bebe mucha agua! Luego te traer? un pretzel."
     }
    ]
   },
@@ -984,61 +1084,71 @@
      "who": "",
      "de": "Am Montag fühlt Elif sich nicht gut und ruft in der Praxis an.",
      "tr": "Pazartesi Elif kendini iyi hissetmiyor ve muayenehaneyi arıyor.",
-     "en": "On Monday Elif doesn't feel well and calls the doctor's office."
+     "en": "On Monday Elif doesn't feel well and calls the doctor's office.",
+     "es": "El lunes Elif se encuentra mal y llama a la consulta del m?dico."
     },
     {
      "who": "",
      "de": "Ihr Knie schmerzt, weil sie am Sonntag in eine Pfütze getreten ist.",
      "tr": "Dizinin ağrımasının nedeni pazar günü su birikintisine basmış olması.",
-     "en": "Her knee hurts because she stepped in a puddle on Sunday."
+     "en": "Her knee hurts because she stepped in a puddle on Sunday.",
+     "es": "Le duele la rodilla porque el domingo pis? un charco."
     },
     {
      "who": "",
      "de": "Frau Wolf untersucht sie und fragt nach Fieber und anderen Schmerzen.",
      "tr": "Frau Wolf onu muayene edip ateşi ve başka ağrıları soruyor.",
-     "en": "Ms Wolf examines her and asks about fever and other pain."
+     "en": "Ms Wolf examines her and asks about fever and other pain.",
+     "es": "La se?ora Wolf la examina y le pregunta si tiene fiebre y otros dolores."
     },
     {
      "who": "",
      "de": "Elif hat kein Fieber, aber sie kann kaum die Treppe steigen.",
      "tr": "Elif’in ateşi yok ama merdivenleri neredeyse çıkamıyor.",
-     "en": "Elif has no fever, but can hardly climb the stairs."
+     "en": "Elif has no fever, but can hardly climb the stairs.",
+     "es": "Elif no tiene fiebre, pero apenas puede subir las escaleras."
     },
     {
      "who": "",
      "de": "Die Ärztin sagt, dass Elif sich ausruhen und Wasser trinken muss.",
      "tr": "Doktor Elif’in dinlenmesi ve su içmesi gerektiğini söylüyor.",
-     "en": "The doctor says Elif needs to rest and drink water."
+     "en": "The doctor says Elif needs to rest and drink water.",
+     "es": "La m?dica dice que Elif tiene que descansar y beber agua."
     },
     {
      "who": "",
      "de": "Dreimal am Tag nimmt sie eine Tablette nach dem Essen.",
      "tr": "Günde üç kez yemekten sonra bir tablet alıyor.",
-     "en": "She takes a tablet three times a day after meals."
+     "en": "She takes a tablet three times a day after meals.",
+     "es": "Toma una pastilla tres veces al d?a despu?s de las comidas."
     },
     {
      "who": "",
      "de": "Lina bringt eine Brezel vorbei und stellt sie auf den Tisch.",
      "tr": "Lina uğrayıp bir brezel getirerek masaya koyuyor.",
-     "en": "Lina visits and puts a pretzel on the table."
+     "en": "Lina visits and puts a pretzel on the table.",
+     "es": "Lina viene de visita y deja un pretzel en la mesa."
     },
     {
      "who": "",
      "de": "Am Nachmittag macht Elif nur wenige Schritte im Zimmer.",
      "tr": "Öğleden sonra Elif odada yalnızca birkaç adım atıyor.",
-     "en": "In the afternoon Elif takes just a few steps in the room."
+     "en": "In the afternoon Elif takes just a few steps in the room.",
+     "es": "Por la tarde, Elif solo da unos pocos pasos por la habitaci?n."
     },
     {
      "who": "",
      "de": "Ihr Knie tut weniger weh, und sie fühlt sich schon besser.",
      "tr": "Dizi daha az ağrıyor ve kendini daha iyi hissediyor.",
-     "en": "Her knee hurts less, and she already feels better."
+     "en": "Her knee hurts less, and she already feels better.",
+     "es": "Le duele menos la rodilla y ya se encuentra mejor."
     },
     {
      "who": "",
      "de": "Am nächsten Morgen ruft Elif die Praxis an und sagt den Termin ab.",
      "tr": "Ertesi sabah Elif muayenehaneyi arayıp randevuyu iptal ediyor.",
-     "en": "The next morning Elif calls the office and cancels the appointment."
+     "en": "The next morning Elif calls the office and cancels the appointment.",
+     "es": "A la ma?ana siguiente, Elif llama a la consulta y cancela la cita."
     }
    ]
   },
@@ -1054,73 +1164,85 @@
      "who": "Elif",
      "de": "Guten Morgen, Frau Wolf. Die Besprechung beginnt um zehn, richtig?",
      "tr": "Günaydın Frau Wolf. Toplantı onda başlıyor, değil mi?",
-     "en": "Good morning, Ms Wolf. The meeting starts at ten, right?"
+     "en": "Good morning, Ms Wolf. The meeting starts at ten, right?",
+     "es": "Buenos d?as, se?ora Wolf. La reuni?n empieza a las diez, ?verdad?"
     },
     {
      "who": "Frau Wolf",
      "de": "Ja. Bitte tragen Sie Ihren Namen in diese Liste ein.",
      "tr": "Evet. Lütfen adınızı bu listeye yazın.",
-     "en": "Yes. Please enter your name on this list."
+     "en": "Yes. Please enter your name on this list.",
+     "es": "S?. Escribe tu nombre en esta lista, por favor."
     },
     {
      "who": "Elif",
      "de": "Ich arbeite gern im Team. Wo ist mein Schreibtisch?",
      "tr": "Ekipte çalışmayı severim. Masam nerede?",
-     "en": "I enjoy working in a team. Where is my desk?"
+     "en": "I enjoy working in a team. Where is my desk?",
+     "es": "Me gusta trabajar en equipo. ?D?nde est? mi escritorio?"
     },
     {
      "who": "Frau Wolf",
      "de": "Neben dem Fenster. Die Reinigungskraft kommt heute später.",
      "tr": "Pencerenin yanında. Temizlik görevlisi bugün daha geç gelecek.",
-     "en": "By the window. The cleaner is coming later today."
+     "en": "By the window. The cleaner is coming later today.",
+     "es": "Junto a la ventana. Hoy vendr? m?s tarde la persona de la limpieza."
     },
     {
      "who": "Elif",
      "de": "Ich komme später, weil der Bus nicht fährt.",
      "tr": "Otobüs çalışmadığı için geç geldim.",
-     "en": "I came late because the bus isn't running."
+     "en": "I came late because the bus isn't running.",
+     "es": "He llegado tarde porque el autob?s no circula."
     },
     {
      "who": "Frau Wolf",
      "de": "Kein Problem. Könnten Sie mir bitte mit dem Kabel helfen?",
      "tr": "Sorun değil. Kablo konusunda bana yardım edebilir misiniz?",
-     "en": "No problem. Could you help me with the cable, please?"
+     "en": "No problem. Could you help me with the cable, please?",
+     "es": "No pasa nada. ?Puedes ayudarme con el cable, por favor?"
     },
     {
      "who": "Elif",
      "de": "Natürlich. Ich glaube, dass wir mehr Zeit brauchen.",
      "tr": "Tabii. Bence daha fazla zamana ihtiyacımız var.",
-     "en": "Of course. I think we need more time."
+     "en": "Of course. I think we need more time.",
+     "es": "Claro. Creo que necesitamos m?s tiempo."
     },
     {
      "who": "Frau Wolf",
      "de": "Der Kühlschrank macht ein Geräusch. Können Sie ihn prüfen?",
      "tr": "Buzdolabı ses çıkarıyor. Kontrol edebilir misiniz?",
-     "en": "The refrigerator is making a noise. Can you check it?"
+     "en": "The refrigerator is making a noise. Can you check it?",
+     "es": "La nevera hace ruido. ?Puedes revisarla?"
     },
     {
      "who": "Elif",
      "de": "Ja. Ich unterscheide zuerst die Kabel und stecke es richtig an.",
      "tr": "Evet. Önce kabloları ayırt edip doğru şekilde takıyorum.",
-     "en": "Yes. I'll identify the cables first and connect it properly."
+     "en": "Yes. I'll identify the cables first and connect it properly.",
+     "es": "S?. Primero identificar? los cables y la conectar? bien."
     },
     {
      "who": "Frau Wolf",
      "de": "Danke. Danach gießen wir die Pflanze zusammen.",
      "tr": "Teşekkürler. Sonra bitkiyi birlikte sularız.",
-     "en": "Thanks. After that we'll water the plant together."
+     "en": "Thanks. After that we'll water the plant together.",
+     "es": "Gracias. Despu?s regaremos juntos la planta."
     },
     {
      "who": "Elif",
      "de": "Die Gießkanne steht neben dem Topf.",
      "tr": "Sulama kabı saksının yanında.",
-     "en": "The watering can is beside the pot."
+     "en": "The watering can is beside the pot.",
+     "es": "La regadera est? junto a la maceta."
     },
     {
      "who": "Frau Wolf",
      "de": "Gut. Holen Sie bitte auch die Zutaten aus der Küche.",
      "tr": "Güzel. Lütfen malzemeleri de mutfaktan alın.",
-     "en": "Good. Please also fetch the ingredients from the kitchen."
+     "en": "Good. Please also fetch the ingredients from the kitchen.",
+     "es": "Bien. Trae tambi?n los ingredientes de la cocina, por favor."
     }
    ],
    "glossary": [],
@@ -1169,61 +1291,71 @@
      "who": "",
      "de": "Elif kommt am Montag zu ihrem Vorstellungsgespräch in ein Büro in Köln.",
      "tr": "Elif pazartesi Köln’deki bir ofiste iş görüşmesine geliyor.",
-     "en": "Elif comes to an office in Cologne for her interview on Monday."
+     "en": "Elif comes to an office in Cologne for her interview on Monday.",
+     "es": "El lunes Elif va a una oficina de Colonia para una entrevista de trabajo."
     },
     {
      "who": "",
      "de": "Der Bus ist ausgefallen, weil eine Straße gesperrt war.",
      "tr": "Bir sokak kapalı olduğu için otobüs çalışmamış.",
-     "en": "The bus was out of service because a street was closed."
+     "en": "The bus was out of service because a street was closed.",
+     "es": "El autob?s no circulaba porque una calle estaba cortada."
     },
     {
      "who": "",
      "de": "Trotzdem ist Elif pünktlich, denn sie ist früh losgegangen.",
      "tr": "Yine de Elif zamanında geliyor çünkü erkenden yola çıkmış.",
-     "en": "Still, Elif is on time because she left early."
+     "en": "Still, Elif is on time because she left early.",
+     "es": "Aun as?, Elif llega a tiempo porque sali? temprano."
     },
     {
      "who": "",
      "de": "Frau Wolf begrüßt sie freundlich und zeigt ihr den Schreibtisch am Fenster.",
      "tr": "Frau Wolf onu güler yüzle karşılayıp pencere yanındaki masayı gösteriyor.",
-     "en": "Ms Wolf greets her warmly and shows her the desk by the window."
+     "en": "Ms Wolf greets her warmly and shows her the desk by the window.",
+     "es": "La se?ora Wolf la saluda con amabilidad y le ense?a el escritorio junto a la ventana."
     },
     {
      "who": "",
      "de": "Elif sagt, dass sie gern im Team arbeitet.",
      "tr": "Elif ekipte çalışmayı sevdiğini söylüyor.",
-     "en": "Elif says that she enjoys working in a team."
+     "en": "Elif says that she enjoys working in a team.",
+     "es": "Elif dice que le gusta trabajar en equipo."
     },
     {
      "who": "",
      "de": "Die Besprechung beginnt um zehn, und alle tragen ihre Namen ein.",
      "tr": "Toplantı onda başlıyor ve herkes adını listeye yazıyor.",
-     "en": "The meeting starts at ten, and everyone enters their name."
+     "en": "The meeting starts at ten, and everyone enters their name.",
+     "es": "La reuni?n empieza a las diez y todos escriben su nombre."
     },
     {
      "who": "",
      "de": "Ein Kabel liegt neben dem Kühlschrank, der ein lautes Geräusch macht.",
      "tr": "Yüksek ses çıkaran buzdolabının yanında bir kablo duruyor.",
-     "en": "A cable lies beside the refrigerator, which is making a loud noise."
+     "en": "A cable lies beside the refrigerator, which is making a loud noise.",
+     "es": "Hay un cable junto a la nevera, que hace mucho ruido."
     },
     {
      "who": "",
      "de": "Elif unterscheidet die Stecker und schließt den Kühlschrank wieder an.",
      "tr": "Elif fişleri ayırt edip buzdolabını yeniden bağlıyor.",
-     "en": "Elif identifies the plugs and reconnects the refrigerator."
+     "en": "Elif identifies the plugs and reconnects the refrigerator.",
+     "es": "Elif identifica los enchufes y vuelve a conectar la nevera."
     },
     {
      "who": "",
      "de": "Danach holt sie Zutaten aus der Küche und gießt die Pflanze.",
      "tr": "Sonra mutfaktan malzemeleri alıp bitkiyi suluyor.",
-     "en": "Afterward she fetches ingredients from the kitchen and waters the plant."
+     "en": "Afterward she fetches ingredients from the kitchen and waters the plant.",
+     "es": "Despu?s, trae ingredientes de la cocina y riega la planta."
     },
     {
      "who": "",
      "de": "Frau Wolf sagt, dass Elif am nächsten Tag wiederkommen soll.",
      "tr": "Frau Wolf, Elif’in ertesi gün tekrar gelmesini istediğini söylüyor.",
-     "en": "Ms Wolf says Elif should come back the next day."
+     "en": "Ms Wolf says Elif should come back the next day.",
+     "es": "La se?ora Wolf le dice a Elif que vuelva al d?a siguiente."
     }
    ],
    "glossary": [],
@@ -1272,61 +1404,71 @@
      "who": "Elif",
      "de": "Was hast du als Kind am liebsten gemacht?",
      "tr": "Çocukken en çok ne yapmayı severdin?",
-     "en": "What did you like doing most as a child?"
+     "en": "What did you like doing most as a child?",
+     "es": "?Qu? te gustaba hacer m?s de peque?o?"
     },
     {
      "who": "Lina",
      "de": "Als ich klein war, hatte ich einen roten Drachen.",
      "tr": "Küçükken kırmızı bir uçurtmam vardı.",
-     "en": "When I was little, I had a red kite."
+     "en": "When I was little, I had a red kite.",
+     "es": "Cuando era peque?o, ten?a una cometa roja."
     },
     {
      "who": "Elif",
      "de": "Ich hatte auch einen. Meine Mutter konnte ihn gut reparieren.",
      "tr": "Benim de vardı. Annem onu iyi tamir edebilirdi.",
-     "en": "I had one too. My mother could repair it well."
+     "en": "I had one too. My mother could repair it well.",
+     "es": "Yo tambi?n ten?a una. Mi madre sab?a repararla bien."
     },
     {
      "who": "Lina",
      "de": "Hier ist ein Foto von unserer Wiese.",
      "tr": "İşte çayırımızın bir fotoğrafı.",
-     "en": "Here is a photo of our meadow."
+     "en": "Here is a photo of our meadow.",
+     "es": "Aqu? tienes una foto de nuestro prado."
     },
     {
      "who": "Elif",
      "de": "Als das Wetter schön war, waren wir immer draußen.",
      "tr": "Hava güzel olduğunda hep dışarıdaydık.",
-     "en": "When the weather was nice, we were always outside."
+     "en": "When the weather was nice, we were always outside.",
+     "es": "Cuando hac?a buen tiempo, siempre est?bamos al aire libre."
     },
     {
      "who": "Lina",
      "de": "Wir haben die Schnur geteilt und den Drachen zusammen steigen lassen.",
      "tr": "İpi paylaşıp uçurtmayı birlikte uçururduk.",
-     "en": "We shared the string and flew the kite together."
+     "en": "We shared the string and flew the kite together.",
+     "es": "Compart?amos el hilo y hac?amos volar la cometa juntos."
     },
     {
      "who": "Elif",
      "de": "Hast du Lust, am Sonntag mitzukommen?",
      "tr": "Pazar günü bizimle gelmek ister misin?",
-     "en": "Would you like to come along on Sunday?"
+     "en": "Would you like to come along on Sunday?",
+     "es": "?Te apetece venir el domingo?"
     },
     {
      "who": "Lina",
      "de": "Gern. Wenn es nicht regnet, gehen wir wieder auf die Wiese.",
      "tr": "Memnuniyetle. Yağmur yağmazsa yine çayıra gideriz.",
-     "en": "Gladly. If it doesn’t rain, we’ll go to the meadow again."
+     "en": "Gladly. If it doesn’t rain, we’ll go to the meadow again.",
+     "es": "Encantada. Si no llueve, volveremos al prado."
     },
     {
      "who": "Elif",
      "de": "Ich leihe mir einen Drachen aus. Das macht Spaß!",
      "tr": "Bir uçurtma ödünç alırım. Eğlenceli!",
-     "en": "I’ll borrow a kite. That sounds fun!"
+     "en": "I’ll borrow a kite. That sounds fun!",
+     "es": "Pedir? prestada una cometa. ?Qu? divertido!"
     },
     {
      "who": "Lina",
      "de": "Tom kann den Stock mitbringen. Dann klappt es bestimmt.",
      "tr": "Tom sopayı getirebilir. O zaman kesin başarırız.",
-     "en": "Tom can bring the stick. Then it will surely work."
+     "en": "Tom can bring the stick. Then it will surely work.",
+     "es": "Tom puede traer la varilla. As? seguro que funcionar?."
     }
    ],
    "glossary": [],
@@ -1375,49 +1517,57 @@
      "who": "",
      "de": "Als Elif zwölf war, probte sie jeden Mittwoch mit ihrer Freundin Gitarre. Elif spielte auch im Schultheater und lernte dort viele Lieder.",
      "tr": "Elif on iki yaşındayken her çarşamba arkadaşıyla gitar çalışırdı. Elif okul tiyatrosunda da ?ald? ve orada bir?ok ?ark? ??rendi.",
-     "en": "When Elif was twelve, she rehearsed guitar with her friend every Wednesday. Elif also played in the school theater and learned many songs there."
+     "en": "When Elif was twelve, she rehearsed guitar with her friend every Wednesday. Elif also played in the school theater and learned many songs there.",
+     "es": "Cuando Elif ten?a doce a?os, ensayaba la guitarra con su amiga todos los mi?rcoles. Elif tambi?n actuaba en el teatro de la escuela y all? aprendi? muchas canciones."
     },
     {
      "who": "",
      "de": "Sie stellte sich oft unter das Dach, wenn es draußen regnete.",
      "tr": "Dışarıda yağmur yağınca sık sık çatının altına geçerdi.",
-     "en": "She often stood under the roof when it rained outside."
+     "en": "She often stood under the roof when it rained outside.",
+     "es": "A menudo se quedaba bajo el techo cuando llov?a fuera."
     },
     {
      "who": "",
      "de": "Damals hatte Elif ein altes Trikot und einen kleinen Bogen.",
      "tr": "O zamanlar Elif’in eski bir forması ve küçük bir yayı vardı.",
-     "en": "Back then Elif had an old sports shirt and a small bow."
+     "en": "Back then Elif had an old sports shirt and a small bow.",
+     "es": "En aquella ?poca Elif ten?a una camiseta deportiva vieja y un peque?o arco."
     },
     {
      "who": "",
      "de": "Einmal blieb ihre Schnur an einem Ast hängen.",
      "tr": "Bir keresinde ipi bir dala takıldı.",
-     "en": "Once her string got caught on a branch."
+     "en": "Once her string got caught on a branch.",
+     "es": "Una vez el hilo se le enganch? en una rama."
     },
     {
      "who": "",
      "de": "Ihre Freundin konnte den Drachen vorsichtig mit einem Stock lösen. Ihre Mutter machte damals oft Fotos von den Proben.",
      "tr": "Arkadaşı uçurtmayı bir sopayla dikkatlice kurtarabildi. Annesi o zamanlar provalarda s?k s?k foto?raf ?ekiyordu.",
-     "en": "Her friend could carefully free the kite with a stick. Her mother often took photos at rehearsals back then."
+     "en": "Her friend could carefully free the kite with a stick. Her mother often took photos at rehearsals back then.",
+     "es": "Su amiga pudo liberar la cometa con cuidado usando una varilla. En aquella ?poca, su madre sol?a hacer fotos en los ensayos."
     },
     {
      "who": "",
      "de": "Später spielten die beiden leise Musik für ihre Nachbarn.",
      "tr": "Daha sonra ikisi komşuları için sessizce müzik çaldı.",
-     "en": "Later, the two played quiet music for their neighbors."
+     "en": "Later, the two played quiet music for their neighbors.",
+     "es": "M?s tarde, las dos tocaron m?sica tranquila para sus vecinos."
     },
     {
      "who": "",
      "de": "Als das Konzert endete, klatschten alle im Hof.",
      "tr": "Konser bittiğinde avludaki herkes alkışladı.",
-     "en": "When the concert ended, everyone in the courtyard applauded."
+     "en": "When the concert ended, everyone in the courtyard applauded.",
+     "es": "Cuando termin? el concierto, todos aplaudieron en el patio."
     },
     {
      "who": "",
      "de": "Elif hatte ein Taschentuch dabei, denn sie war sehr gerührt. Danach lachten sie zusammen.",
      "tr": "Elif yanında mendil taşıyordu çünkü çok duygulanmıştı. Sonra birlikte g?ld?ler.",
-     "en": "Elif had a tissue with her because she was very moved. Afterwards they laughed together."
+     "en": "Elif had a tissue with her because she was very moved. Afterwards they laughed together.",
+     "es": "Elif llevaba un pa?uelo porque estaba muy emocionada. Despu?s se rieron juntas."
     }
    ],
    "glossary": [],
@@ -1466,73 +1616,89 @@
      "who": "Elif",
      "de": "Mein Handy funktioniert nicht mehr.",
      "tr": "Telefonum artık çalışmıyor.",
-     "en": "My phone doesn’t work anymore."
+     "en": "My phone doesn’t work anymore.",
+     "es": "Mi tel?fono ya no funciona."
     },
     {
      "who": "Tom",
      "de": "Der Bildschirm bleibt schwarz. Ist der Akku leer?",
      "tr": "Ekran siyah kalıyor. Şarjı mı bitti?",
-     "en": "The screen stays black. Is the battery empty?"
+     "en": "The screen stays black. Is the battery empty?",
+     "es": "La pantalla se queda negra. ?Se ha agotado la bater?a?"
     },
     {
      "who": "Elif",
      "de": "Nein, ich habe den Akku gestern geladen.",
      "tr": "Hayır, pili dün şarj ettim.",
-     "en": "No, I charged the battery yesterday."
+     "en": "No, I charged the battery yesterday.",
+     "es": "No, cargu? la bater?a ayer."
     },
     {
      "who": "Tom",
      "de": "Vielleicht hast du aus Versehen die falsche Taste gedrückt.",
      "tr": "Belki yanlışlıkla yanlış tuşa bastın.",
-     "en": "Maybe you pressed the wrong button by accident."
+     "en": "Maybe you pressed the wrong button by accident.",
+     "es": "Quiz? pulsaste el bot?n equivocado sin querer."
     },
     {
      "who": "Elif",
      "de": "Kannst du den Fehler auf dem Bildschirm sehen?",
      "tr": "Ekrandaki hatayı görebiliyor musun?",
-     "en": "Can you see the error on the screen?"
+     "en": "Can you see the error on the screen?",
+     "es": "?Puedes ver el error en la pantalla?"
     },
     {
      "who": "Tom",
      "de": "Ja. Ich glaube, dass die App das Handy blockiert.",
      "tr": "Evet. Uygulamanın telefonu kilitlediğini düşünüyorum.",
-     "en": "Yes. I think the app has blocked the phone."
+     "en": "Yes. I think the app has blocked the phone.",
+     "es": "S?. Creo que la aplicaci?n ha bloqueado el tel?fono."
     },
     {
      "who": "Elif",
      "de": "Ich schicke dir das Foto per Nachricht.",
      "tr": "Fotoğrafı sana mesajla gönderiyorum.",
-     "en": "I’m sending you the photo by message."
+     "en": "I’m sending you the photo by message.",
+     "es": "Te env?o la foto por mensaje."
     },
     {
      "who": "Tom",
      "de": "Weißt du, wie das WLAN-Passwort lautet?",
      "tr": "Wi-Fi şifresinin ne olduğunu biliyor musun?",
-     "en": "Do you know what the Wi-Fi password is?"
+     "en": "Do you know what the Wi-Fi password is?",
+     "es": "¿Sabes cuál es la contraseña del wifi?",
+     "fr": "Tu sais quel est le mot de passe du Wi-Fi ?",
+     "it": "Sai qual è la password del Wi-Fi?",
+     "ku": "Tu dizanî şîfreya Wi-Fi çi ye?",
+     "ar": "هل تعرف كلمة مرور شبكة الواي فاي؟"
     },
     {
      "who": "Elif",
      "de": "Ja, ich schreibe es lieber auf. Der Akku ist fast leer.",
      "tr": "Evet, not etmeyi tercih ederim. Şarjım neredeyse bitti.",
-     "en": "Yes, I’d rather write it down. The battery is almost empty."
+     "en": "Yes, I’d rather write it down. The battery is almost empty.",
+     "es": "S?, prefiero apuntarlo. La bater?a est? casi agotada."
     },
     {
      "who": "Tom",
      "de": "Ich habe die App heruntergeladen. Wir buchen jetzt einen Termin.",
      "tr": "Uygulamayı indirdim. Şimdi randevu alıyoruz.",
-     "en": "I downloaded the app. We’ll book an appointment now."
+     "en": "I downloaded the app. We’ll book an appointment now.",
+     "es": "Me he descargado la aplicaci?n. Ahora pediremos una cita."
     },
     {
      "who": "Elif",
      "de": "Danke! Bitte schick mir die Bestätigung per Nachricht.",
      "tr": "Teşekkürler! Lütfen onayı bana mesajla gönder.",
-     "en": "Thanks! Please send me the confirmation by message."
+     "en": "Thanks! Please send me the confirmation by message.",
+     "es": "?Gracias! Env?ame la confirmaci?n por mensaje, por favor."
     },
     {
      "who": "Tom",
      "de": "Gern. Ich schreibe dir auch jeden Schritt auf.",
      "tr": "Tabii. Her adımı da sana yazarım.",
-     "en": "Sure. I’ll write down every step for you too."
+     "en": "Sure. I’ll write down every step for you too.",
+     "es": "Claro. Tambi?n te apuntar? cada paso."
     }
    ],
    "glossary": [
@@ -1541,14 +1707,20 @@
      "lemma": "blockieren",
      "art": null,
      "tr": "engellemek",
-     "en": "to block"
+     "en": "to block",
+     "es": "bloquear"
     },
     {
      "form": "Bestätigung",
      "lemma": "Bestätigung",
      "art": "die",
      "tr": "onay",
-     "en": "confirmation"
+     "en": "confirmation",
+     "es": "confirmación",
+     "fr": "confirmation",
+     "it": "conferma",
+     "ku": "piştrastkirin",
+     "ar": "تأكيد"
     }
    ],
    "questions": [
@@ -1596,49 +1768,57 @@
      "who": "",
      "de": "Elifs Handy funktionierte am Morgen plötzlich nicht mehr.",
      "tr": "Elif’in telefonu sabah aniden çalışmamaya başladı.",
-     "en": "Elif’s phone suddenly stopped working in the morning."
+     "en": "Elif’s phone suddenly stopped working in the morning.",
+     "es": "El tel?fono de Elif dej? de funcionar de repente por la ma?ana."
     },
     {
      "who": "",
      "de": "Der Bildschirm blieb schwarz, obwohl der Akku fast voll war. Sie startete das Ger?t neu, aber der Bildschirm blieb dunkel.",
      "tr": "Şarjı neredeyse dolu olmasına rağmen ekran siyah kaldı. Cihaz? yeniden ba?latt? ama ekran karanl?k kald?.",
-     "en": "The screen stayed black even though the battery was almost full. She restarted the device, but the screen stayed dark."
+     "en": "The screen stayed black even though the battery was almost full. She restarted the device, but the screen stayed dark.",
+     "es": "La pantalla segu?a negra aunque la bater?a estaba casi llena. Reinici? el dispositivo, pero la pantalla segu?a oscura."
     },
     {
      "who": "",
      "de": "Tom sah den Fehler und sagte, dass eine Taste klemmte.",
      "tr": "Tom hatayı gördü ve bir tuşun sıkıştığını söyledi.",
-     "en": "Tom saw the error and said a button was stuck."
+     "en": "Tom saw the error and said a button was stuck.",
+     "es": "Tom vio el error y dijo que un bot?n estaba atascado."
     },
     {
      "who": "",
      "de": "Elif schickte ihm ein Foto per Nachricht von Linas Tablet.",
      "tr": "Elif ona Lina’nın tabletinden mesajla bir fotoğraf gönderdi.",
-     "en": "Elif sent him a photo by message from Lina’s tablet."
+     "en": "Elif sent him a photo by message from Lina’s tablet.",
+     "es": "Elif le envi? una foto por mensaje desde la tableta de Lina."
     },
     {
      "who": "",
      "de": "Sie öffneten die Wetter-App und suchten die Adresse der Werkstatt.",
      "tr": "Hava durumu uygulamasını açıp tamirhanenin adresini aradılar.",
-     "en": "They opened the weather app and looked for the repair shop’s address."
+     "en": "They opened the weather app and looked for the repair shop’s address.",
+     "es": "Abrieron la aplicaci?n del tiempo y buscaron la direcci?n del taller."
     },
     {
      "who": "",
      "de": "Tom lud die Termin-App herunter und füllte das Formular aus.",
      "tr": "Tom randevu uygulamasını indirdi ve formu doldurdu.",
-     "en": "Tom downloaded the appointment app and filled out the form."
+     "en": "Tom downloaded the appointment app and filled out the form.",
+     "es": "Tom se descarg? la aplicaci?n para pedir cita y rellen? el formulario."
     },
     {
      "who": "",
      "de": "Elif las jeden Schritt mit und schrieb die Bestätigung auf.",
      "tr": "Elif her adımı takip etti ve onay bilgisini not aldı.",
-     "en": "Elif followed each step and wrote down the confirmation."
+     "en": "Elif followed each step and wrote down the confirmation.",
+     "es": "Elif sigui? cada paso y apunt? la confirmaci?n."
     },
     {
      "who": "",
      "de": "Tom erklärte, dass sie das Handy am nächsten Tag abholen konnten. Am Abend bedankte sie sich bei Tom f?r seine schnelle Hilfe.",
      "tr": "Tom telefonu ertesi gün alabileceklerini açıkladı. Ak?am Tom?a h?zl? yard?m? i?in te?ekk?r etti.",
-     "en": "Tom explained that they could pick up the phone the next day. In the evening she thanked Tom for his quick help."
+     "en": "Tom explained that they could pick up the phone the next day. In the evening she thanked Tom for his quick help.",
+     "es": "Tom explic? que pod?an recoger el tel?fono al d?a siguiente. Por la tarde, ella le dio las gracias a Tom por su r?pida ayuda."
     }
    ],
    "glossary": [
@@ -1647,14 +1827,24 @@
      "lemma": "klemmen",
      "art": null,
      "tr": "sıkışmak",
-     "en": "to get stuck"
+     "en": "to get stuck",
+     "es": "quedarse atascado",
+     "fr": "se coincer",
+     "it": "rimanere incastrato",
+     "ku": "li cihê xwe zeliqîn",
+     "ar": "أن يعلق"
     },
     {
      "form": "Formular",
      "lemma": "Formular",
      "art": "das",
      "tr": "form",
-     "en": "form"
+     "en": "form",
+     "es": "formulario",
+     "fr": "formulaire",
+     "it": "modulo",
+     "ku": "form",
+     "ar": "استمارة"
     }
    ],
    "questions": [
@@ -1702,73 +1892,89 @@
      "who": "Lina",
      "de": "Wann machst du die Prüfung?",
      "tr": "Sınava ne zaman gireceksin?",
-     "en": "When are you taking the exam?"
+     "en": "When are you taking the exam?",
+     "es": "?Cu?ndo haces el examen?"
     },
     {
      "who": "Elif",
      "de": "Ich mache im Mai eine Prüfung. Ich muss regelmäßig lernen.",
      "tr": "Mayısta sınava gireceğim. Düzenli çalışmalıyım.",
-     "en": "I’m taking an exam in May. I need to study regularly."
+     "en": "I’m taking an exam in May. I need to study regularly.",
+     "es": "Me examino en mayo. Tengo que estudiar con regularidad."
     },
     {
      "who": "Lina",
      "de": "Ich versuche, jeden Tag zu lernen. Wann hast du Zeit?",
      "tr": "Her gün çalışmaya çalışıyorum. Ne zaman vaktin var?",
-     "en": "I try to study every day. When do you have time?"
+     "en": "I try to study every day. When do you have time?",
+     "es": "Intento estudiar todos los d?as. ?Cu?ndo tienes tiempo?"
     },
     {
      "who": "Elif",
      "de": "Nach der Arbeit kann ich eine Stunde lernen.",
      "tr": "İşten sonra bir saat çalışabilirim.",
-     "en": "I can study for an hour after work."
+     "en": "I can study for an hour after work.",
+     "es": "Puedo estudiar una hora despu?s del trabajo."
     },
     {
      "who": "Lina",
      "de": "Wir können am Dienstag zusammen neue Wörter üben.",
      "tr": "Salı günü birlikte yeni kelimeler çalışabiliriz.",
-     "en": "We can practice new words together on Tuesday."
+     "en": "We can practice new words together on Tuesday.",
+     "es": "El martes podemos practicar juntos palabras nuevas."
     },
     {
      "who": "Elif",
      "de": "Was bedeutet dieses Wort im Kursbuch?",
      "tr": "Kurs kitabındaki bu kelime ne anlama geliyor?",
-     "en": "What does this word in the coursebook mean?"
+     "en": "What does this word in the coursebook mean?",
+     "es": "?Qu? significa esta palabra del libro de curso?"
     },
     {
      "who": "Lina",
      "de": "Es bedeutet „Prüfung“. Schreib das Stichwort in dein Heft.",
      "tr": "“Sınav” demek. Anahtar kelimeyi defterine yaz.",
-     "en": "It means “exam.” Write the keyword in your notebook."
+     "en": "It means “exam.” Write the keyword in your notebook.",
+     "es": "Significa ?examen?. Escribe la palabra clave en tu cuaderno."
     },
     {
      "who": "Elif",
      "de": "Ich habe vergessen, die Hausaufgaben zu machen.",
      "tr": "Ödevleri yapmayı unuttum.",
-     "en": "I forgot to do the homework."
+     "en": "I forgot to do the homework.",
+     "es": "Se me olvidó hacer los deberes.",
+     "fr": "J'ai oublié de faire les devoirs.",
+     "it": "Ho dimenticato di fare i compiti.",
+     "ku": "Min ji bîr kir ku karê malê bikim.",
+     "ar": "نسيت أن أقوم بالواجب المنزلي."
     },
     {
      "who": "Lina",
      "de": "Dann machen wir sie heute. Das macht bestimmt Spaß.",
      "tr": "O zaman bugün yaparız. Kesin eğlenceli olur.",
-     "en": "Then we’ll do them today. It’ll certainly be fun."
+     "en": "Then we’ll do them today. It’ll certainly be fun.",
+     "es": "Entonces lo hacemos hoy. Seguro que ser? divertido."
     },
     {
      "who": "Elif",
      "de": "Gut. Ich habe vor, jeden Tag zu lernen.",
      "tr": "Güzel. Her gün çalışmayı planlıyorum.",
-     "en": "Good. I plan to study every day."
+     "en": "Good. I plan to study every day.",
+     "es": "Bien. Planeo estudiar todos los d?as."
     },
     {
      "who": "Lina",
      "de": "Am Prüfungstag stehe ich früh auf und begleite dich.",
      "tr": "Sınav günü erken kalkıp sana eşlik edeceğim.",
-     "en": "On exam day, I’ll get up early and go with you."
+     "en": "On exam day, I’ll get up early and go with you.",
+     "es": "El d?a del examen, me levantar? temprano y te acompa?ar?."
     },
     {
      "who": "Elif",
      "de": "Danke! Danach lernen wir neue Leute kennen.",
      "tr": "Teşekkürler! Sonra yeni insanlarla tanışacağız.",
-     "en": "Thanks! Afterwards, we’ll meet new people."
+     "en": "Thanks! Afterwards, we’ll meet new people.",
+     "es": "?Gracias! Despu?s conoceremos a gente nueva."
     }
    ],
    "glossary": [
@@ -1777,14 +1983,24 @@
      "lemma": "Stichwort",
      "art": "das",
      "tr": "anahtar kelime",
-     "en": "keyword"
+     "en": "keyword",
+     "es": "palabra clave",
+     "fr": "mot-clé",
+     "it": "parola chiave",
+     "ku": "peyva kilît",
+     "ar": "الكلمة المفتاحية"
     },
     {
      "form": "begleiten",
      "lemma": "begleiten",
      "art": null,
      "tr": "eşlik etmek",
-     "en": "to accompany"
+     "en": "to accompany",
+     "es": "acompañar",
+     "fr": "accompagner",
+     "it": "accompagnare",
+     "ku": "pê re çûn",
+     "ar": "يرافق"
     }
    ],
    "questions": [
@@ -1832,49 +2048,57 @@
      "who": "",
      "de": "Elif bereitete sich im Frühling auf ihre Goethe-A2-Prüfung vor.",
      "tr": "Elif ilkbaharda Goethe A2 sınavına hazırlandı.",
-     "en": "Elif prepared for her Goethe A2 exam in spring."
+     "en": "Elif prepared for her Goethe A2 exam in spring.",
+     "es": "Elif se prepar? para el examen Goethe A2 en primavera."
     },
     {
      "who": "",
      "de": "Sie hatte vor, jeden Abend nach der Arbeit eine Stunde zu lernen.",
      "tr": "Her akşam işten sonra bir saat çalışmayı planlıyordu.",
-     "en": "She planned to study for an hour every evening after work."
+     "en": "She planned to study for an hour every evening after work.",
+     "es": "Plane? estudiar una hora cada tarde despu?s del trabajo."
     },
     {
      "who": "",
      "de": "Zuerst wiederholte sie neue Wörter und schrieb jedes Stichwort auf. Danach las sie einen Text laut und markierte wichtige W?rter.",
      "tr": "Önce yeni kelimeleri tekrar etti ve her anahtar kelimeyi yazdı. Ard?ndan bir metni sesli okudu ve ?nemli s?zc?kleri i?aretledi.",
-     "en": "First, she reviewed new words and wrote down each keyword. Then she read a text aloud and marked important words."
+     "en": "First, she reviewed new words and wrote down each keyword. Then she read a text aloud and marked important words.",
+     "es": "Primero repas? palabras nuevas y apunt? cada palabra clave. Despu?s ley? un texto en voz alta y marc? las palabras importantes."
     },
     {
      "who": "",
      "de": "Wenn sie ein Wort nicht verstand, fragte sie Lina um Hilfe.",
      "tr": "Bir kelimeyi anlamadığında Lina’dan yardım istedi.",
-     "en": "If she didn’t understand a word, she asked Lina for help."
+     "en": "If she didn’t understand a word, she asked Lina for help.",
+     "es": "Si no entend?a una palabra, le ped?a ayuda a Lina."
     },
     {
      "who": "",
      "de": "Tom übte mit ihr, kurze Antworten zu geben und deutlich zu sprechen.",
      "tr": "Tom onunla kısa cevaplar vermeyi ve anlaşılır konuşmayı çalıştı.",
-     "en": "Tom practiced giving short answers and speaking clearly with her."
+     "en": "Tom practiced giving short answers and speaking clearly with her.",
+     "es": "Tom practic? con ella c?mo dar respuestas breves y hablar con claridad."
     },
     {
      "who": "",
      "de": "Am Prüfungstag klingelte ihr Wecker um sechs Uhr.",
      "tr": "Sınav günü saati altıda çaldı.",
-     "en": "On exam day, her alarm rang at six."
+     "en": "On exam day, her alarm rang at six.",
+     "es": "El d?a del examen, el despertador son? a las seis."
     },
     {
      "who": "",
      "de": "Lina begleitete Elif zur Schule, und beide waren pünktlich dort. Vor dem Geb?ude atmete Elif tief durch und l?chelte.",
      "tr": "Lina Elif’e okula kadar eşlik etti ve ikisi de zamanında oradaydı. Binan?n ?n?nde Elif derin bir nefes ald? ve g?l?msedi.",
-     "en": "Lina accompanied Elif to the school, and both arrived on time. Outside the building Elif took a deep breath and smiled."
+     "en": "Lina accompanied Elif to the school, and both arrived on time. Outside the building Elif took a deep breath and smiled.",
+     "es": "Lina acompa?? a Elif a la escuela y las dos llegaron a tiempo. Fuera del edificio, Elif respir? hondo y sonri?."
     },
     {
      "who": "",
      "de": "Nach der Prüfung sagte Elif, dass die Aufgaben leichter waren als erwartet.",
      "tr": "Sınavdan sonra Elif soruların beklediğinden daha kolay olduğunu söyledi.",
-     "en": "After the exam, Elif said the tasks were easier than expected."
+     "en": "After the exam, Elif said the tasks were easier than expected.",
+     "es": "Despu?s del examen, Elif dijo que las tareas eran m?s f?ciles de lo que esperaba."
     }
    ],
    "glossary": [
@@ -1883,14 +2107,16 @@
      "lemma": "sich vorbereiten",
      "art": null,
      "tr": "… için hazırlanmak",
-     "en": "to prepare for"
+     "en": "to prepare for",
+     "es": "prepararse para"
     },
     {
      "form": "deutlich",
      "lemma": "deutlich",
      "art": null,
      "tr": "anlaşılır",
-     "en": "clearly"
+     "en": "clearly",
+     "es": "con claridad"
     }
    ],
    "questions": [
@@ -1938,67 +2164,78 @@
      "who": "Elif",
      "de": "Am Samstag machen wir einen Umwelttag im Innenhof.",
      "tr": "Cumartesi avluda çevre günü düzenliyoruz.",
-     "en": "We’re holding an environment day in the courtyard on Saturday."
+     "en": "We’re holding an environment day in the courtyard on Saturday.",
+     "es": "El s?bado organizaremos una jornada medioambiental en el patio."
     },
     {
      "who": "Lina",
      "de": "Gute Idee! Ich trenne den Müll und bringe die Eimer.",
      "tr": "Güzel fikir! Çöpleri ayırıp kovaları getiririm.",
-     "en": "Good idea! I’ll sort the rubbish and bring the buckets."
+     "en": "Good idea! I’ll sort the rubbish and bring the buckets.",
+     "es": "?Buena idea! Separar? la basura y traer? los cubos."
     },
     {
      "who": "Elif",
      "de": "Das Fahrrad ist besser als das Auto für kurze Wege.",
      "tr": "Kısa mesafelerde bisiklet arabadan daha iyidir.",
-     "en": "A bike is better than a car for short trips."
+     "en": "A bike is better than a car for short trips.",
+     "es": "Para trayectos cortos, es mejor ir en bicicleta que en coche."
     },
     {
      "who": "Lina",
      "de": "Wir kaufen am liebsten regionales Gemüse für unser Picknick.",
      "tr": "Pikniğimiz için en çok yöresel sebze almayı seviyoruz.",
-     "en": "We prefer to buy local vegetables for our picnic."
+     "en": "We prefer to buy local vegetables for our picnic.",
+     "es": "Preferimos comprar verduras de la zona para nuestro p?cnic."
     },
     {
      "who": "Elif",
      "de": "Bring die Flaschen bitte zum Container.",
      "tr": "Şişeleri lütfen konteynere götür.",
-     "en": "Please take the bottles to the recycling bin."
+     "en": "Please take the bottles to the recycling bin.",
+     "es": "Lleva las botellas al contenedor de reciclaje, por favor."
     },
     {
      "who": "Lina",
      "de": "Ich kann auch die Regentonne neben den Abfluss stellen.",
      "tr": "Yağmur suyu varilini giderin yanına koyabilirim.",
-     "en": "I can also put the rain barrel beside the drain."
+     "en": "I can also put the rain barrel beside the drain.",
+     "es": "Tambi?n puedo poner el barril de lluvia junto al desag?e."
     },
     {
      "who": "Elif",
      "de": "Dann sammeln wir Wasser für die Pflanzen.",
      "tr": "O zaman bitkiler için su biriktiririz.",
-     "en": "Then we’ll collect water for the plants."
+     "en": "Then we’ll collect water for the plants.",
+     "es": "As? recogeremos agua para las plantas."
     },
     {
      "who": "Lina",
      "de": "Im Park ist es am ruhigsten. Wollen wir dort aufräumen?",
      "tr": "Park en sakin yer. Orada temizlik yapalım mı?",
-     "en": "The park is quietest. Shall we clean up there?"
+     "en": "The park is quietest. Shall we clean up there?",
+     "es": "El parque es el lugar m?s tranquilo. ?Lo limpiamos?"
     },
     {
      "who": "Elif",
      "de": "Ja. Ich bringe Eimer und eine Taschenlampe.",
      "tr": "Evet. Kova ve el feneri getiriyorum.",
-     "en": "Yes. I’ll bring a bucket and a flashlight."
+     "en": "Yes. I’ll bring a bucket and a flashlight.",
+     "es": "S?. Traer? un cubo y una linterna."
     },
     {
      "who": "Lina",
      "de": "Die Lichterkette leuchtet abends mit wenig Strom.",
      "tr": "Işık zinciri akşamları az elektrikle yanıyor.",
-     "en": "The string lights shine in the evening using little electricity."
+     "en": "The string lights shine in the evening using little electricity.",
+     "es": "Las guirnaldas de luces brillan por la noche y consumen poca electricidad."
     },
     {
      "who": "Elif",
      "de": "Super. Danach kommen alle wieder in den Innenhof.",
      "tr": "Harika. Sonra herkes avluya geri geliyor.",
-     "en": "Great. Afterwards everyone comes back to the courtyard."
+     "en": "Great. Afterwards everyone comes back to the courtyard.",
+     "es": "Genial. Despu?s todos volveremos al patio."
     }
    ],
    "glossary": [
@@ -2007,14 +2244,20 @@
      "lemma": "Umwelttag",
      "art": "der",
      "tr": "çevre günü",
-     "en": "environment day"
+     "en": "environment day",
+     "es": "jornada medioambiental"
     },
     {
      "form": "regional",
      "lemma": "regional",
      "art": null,
      "tr": "yöresel",
-     "en": "local"
+     "en": "local",
+     "es": "local",
+     "fr": "local",
+     "it": "locale",
+     "ku": "herêmî",
+     "ar": "محلي"
     }
    ],
    "questions": [
@@ -2062,55 +2305,64 @@
      "who": "",
      "de": "Elif und Lina planten einen Umwelttag für ihre Nachbarschaft. Sie teilten die Aufgaben auf und machten einen einfachen Plan.",
      "tr": "Elif ve Lina mahalleleri için çevre günü planladı. G?revleri b?l???p basit bir plan yapt?lar.",
-     "en": "Elif and Lina planned an environment day for their neighborhood. They divided the tasks and made a simple plan."
+     "en": "Elif and Lina planned an environment day for their neighborhood. They divided the tasks and made a simple plan.",
+     "es": "Elif y Lina organizaron una jornada medioambiental para su barrio. Repartieron las tareas e hicieron un plan sencillo."
     },
     {
      "who": "",
      "de": "Am Samstag kamen viele Helfer mit Eimern und Handschuhen.",
      "tr": "Cumartesi birçok yardımcı kova ve eldivenlerle geldi.",
-     "en": "On Saturday, many helpers came with buckets and gloves."
+     "en": "On Saturday, many helpers came with buckets and gloves.",
+     "es": "El s?bado llegaron muchos voluntarios con cubos y guantes."
     },
     {
      "who": "",
      "de": "Zuerst trennten sie Glas, Papier und anderen Müll.",
      "tr": "Önce camı, kâğıdı ve diğer çöpleri ayırdılar.",
-     "en": "First, they sorted glass, paper, and other rubbish."
+     "en": "First, they sorted glass, paper, and other rubbish.",
+     "es": "Primero separaron el vidrio, el papel y otros residuos."
     },
     {
      "who": "",
      "de": "Das Fahrrad war für kurze Wege besser als das Auto.",
      "tr": "Kısa mesafelerde bisiklet arabadan daha iyiydi.",
-     "en": "The bike was better than the car for short journeys."
+     "en": "The bike was better than the car for short journeys.",
+     "es": "Para los trayectos cortos, era mejor ir en bicicleta que en coche."
     },
     {
      "who": "",
      "de": "Frau Schmidt brachte regionales Gemüse und frisches Brot.",
      "tr": "Frau Schmidt yöresel sebze ve taze ekmek getirdi.",
-     "en": "Ms Schmidt brought local vegetables and fresh bread."
+     "en": "Ms Schmidt brought local vegetables and fresh bread.",
+     "es": "La se?ora Schmidt trajo verduras de la zona y pan fresco."
     },
     {
      "who": "",
      "de": "Tom stellte eine Regentonne unter die Regenrinne, damit sie Wasser sammeln konnten.",
      "tr": "Tom su biriktirebilmeleri için yağmur oluğunu altına bir varil koydu.",
-     "en": "Tom put a rain barrel under the gutter so they could collect water."
+     "en": "Tom put a rain barrel under the gutter so they could collect water.",
+     "es": "Tom puso un barril de lluvia bajo el canal?n para recoger agua."
     },
     {
      "who": "",
      "de": "Die Kinder reinigten den Abfluss und schraubten einen lockeren Griff fest.",
      "tr": "Çocuklar gideri temizledi ve gevşek bir kolu vidaladı.",
-     "en": "The children cleaned the drain and tightened a loose handle."
+     "en": "The children cleaned the drain and tightened a loose handle.",
+     "es": "Los ni?os limpiaron el desag?e y apretaron un asa que estaba floja."
     },
     {
      "who": "",
      "de": "Am Abend leuchtete eine Lichterkette, doch die Kerzen blieben aus.",
      "tr": "Akşam bir ışık zinciri yandı ama mumlar yakılmadı.",
-     "en": "In the evening, a string of lights shone, while the candles stayed unlit."
+     "en": "In the evening, a string of lights shone, while the candles stayed unlit.",
+     "es": "Por la tarde brill? una guirnalda de luces, mientras las velas permanec?an apagadas."
     },
     {
      "who": "",
      "de": "Alle fanden den Park am ruhigsten und gingen gemeinsam dorthin zurück. Die Nachbarn lobten die Idee und versprachen, n?chstes Jahr mitzuhelfen.",
      "tr": "Herkes parkı en sakin yer buldu ve birlikte oraya geri döndü. Kom?ular bu fikri ?vd? ve gelecek y?l yard?m s?z? verdi.",
-     "en": "Everyone found the park quietest and went back there together. The neighbors praised the idea and promised to help next year."
+     "en": "Everyone found the park quietest and went back there together. The neighbors praised the idea and promised to help next year.",
+     "es": "A todos les pareci? que el parque era el lugar m?s tranquilo y volvieron all? juntos. Los vecinos elogiaron la idea y prometieron ayudar el a?o que viene."
     }
    ],
    "glossary": [
@@ -2119,14 +2371,24 @@
      "lemma": "Handschuh",
      "art": "der",
      "tr": "eldiven",
-     "en": "glove"
+     "en": "glove",
+     "es": "guante",
+     "fr": "gant",
+     "it": "guanto",
+     "ku": "destik",
+     "ar": "قفاز"
     },
     {
      "form": "festschrauben",
      "lemma": "festschrauben",
      "art": null,
      "tr": "vidalayarak sıkıştırmak",
-     "en": "to screw tight"
+     "en": "to screw tight",
+     "es": "atornillar bien",
+     "ku": "bi tundî pêçandin",
+     "fr": "visser fermement",
+     "it": "avvitare bene",
+     "ar": "???? ??????"
     }
    ],
    "questions": [
@@ -2185,47 +2447,58 @@
    "trans": [
     {
      "tr": "Lina: Hafta sonu ne yaptın?",
-     "en": "Lina: What did you do at the weekend?"
+     "en": "Lina: What did you do at the weekend?",
+     "es": "Lina: ?Qu? hiciste el fin de semana?"
     },
     {
      "tr": "Elif: Cumartesi Tom’la bit pazarına gittim.",
-     "en": "Elif: On Saturday I went to the flea market with Tom."
+     "en": "Elif: On Saturday I went to the flea market with Tom.",
+     "es": "Elif: El s?bado fui al mercadillo con Tom."
     },
     {
      "tr": "Lina: Orada güzel bir şey buldunuz mu?",
-     "en": "Lina: Did you find anything nice there?"
+     "en": "Lina: Did you find anything nice there?",
+     "es": "Lina: ?Encontraste algo bonito all??"
     },
     {
      "tr": "Elif: Evet, Tom annesi için bir çizim aldı.",
-     "en": "Elif: Yes, Tom bought a drawing for his mother."
+     "en": "Elif: Yes, Tom bought a drawing for his mother.",
+     "es": "Elif: S?, Tom compr? un dibujo para su madre."
     },
     {
      "tr": "Elif: Sonra bir sebze tezgâhından taze çilek aldım.",
-     "en": "Elif: After that I bought fresh strawberries at a vegetable stall."
+     "en": "Elif: After that I bought fresh strawberries at a vegetable stall.",
+     "es": "Elif: Despu?s compr? fresas frescas en un puesto de verduras."
     },
     {
      "tr": "Lina: Peki bugün kitapçıda ne yapıyorsun?",
-     "en": "Lina: And what are you doing at the bookshop today?"
+     "en": "Lina: And what are you doing at the bookshop today?",
+     "es": "Lina: ?Y qu? haces hoy en la librer?a?"
     },
     {
      "tr": "Elif: Saat yedide kalkıp trenle gidiyorum.",
-     "en": "Elif: I get up at seven and take the train."
+     "en": "Elif: I get up at seven and take the train.",
+     "es": "Elif: Me levanto a las siete y cojo el tren."
     },
     {
      "tr": "Elif: İşten sonra hızlıca ekmek alıyorum.",
-     "en": "Elif: After work, I quickly buy some bread."
+     "en": "Elif: After work, I quickly buy some bread.",
+     "es": "Elif: Despu?s del trabajo, compro pan r?pidamente."
     },
     {
      "tr": "Lina: Akşam mutfağı topluyor musun?",
-     "en": "Lina: Are you tidying the kitchen this evening?"
+     "en": "Lina: Are you tidying the kitchen this evening?",
+     "es": "Lina: ?Vas a ordenar la cocina esta tarde?"
     },
     {
      "tr": "Elif: Evet ama önce kekin üzerindeki şekerleme soğumalı.",
-     "en": "Elif: Yes, but first the cake icing has to cool."
+     "en": "Elif: Yes, but first the cake icing has to cool.",
+     "es": "Elif: S?, pero primero tiene que enfriarse el glaseado del pastel."
     },
     {
      "tr": "Lina: O zaman çay getiririm. Sonra görüşürüz!",
-     "en": "Lina: Then I'll bring tea. See you later!"
+     "en": "Lina: Then I'll bring tea. See you later!",
+     "es": "Lina: Entonces traer? t?. ?Hasta luego!"
     }
    ],
    "glossary": [],
@@ -2283,39 +2556,48 @@
    "trans": [
     {
      "tr": "Elif bir yıldır Köln’de yaşıyor ve bir kitapçıda yarı zamanlı çalışıyor.",
-     "en": "Elif has lived in Cologne for a year and works part-time in a bookshop."
+     "en": "Elif has lived in Cologne for a year and works part-time in a bookshop.",
+     "es": "Elif vive en Colonia desde hace un a?o y trabaja a tiempo parcial en una librer?a."
     },
     {
      "tr": "Cumartesi Lina’yla eski şehirde yürüdü ve küçük bir bit pazarı keşfetti.",
-     "en": "On Saturday she walked through the old town with Lina and discovered a small flea market."
+     "en": "On Saturday she walked through the old town with Lina and discovered a small flea market.",
+     "es": "El s?bado pase? por el casco antiguo con Lina y descubri? un peque?o mercadillo."
     },
     {
      "tr": "Lina orada mavi bir tasma aldı çünkü rozeti evde kalmıştı.",
-     "en": "Lina bought a blue lead there because her tag had been left at home."
+     "en": "Lina bought a blue lead there because her tag had been left at home.",
+     "es": "Lina compr? all? una correa azul porque se hab?a dejado la placa en casa."
     },
     {
      "tr": "Pazar günü Frau Schmidt’i ziyaret edip torununa resim çizmesinde yardım ettiler.",
-     "en": "On Sunday they visited Ms Schmidt and helped her grandson draw."
+     "en": "On Sunday they visited Ms Schmidt and helped her grandson draw.",
+     "es": "El domingo visitaron a la se?ora Schmidt y ayudaron a su nieto a dibujar."
     },
     {
      "tr": "Bugün Elif erken kalkıyor, kahve yapıyor ve yatak odasının penceresini açıyor.",
-     "en": "Today Elif gets up early, makes coffee, and opens the bedroom window."
+     "en": "Today Elif gets up early, makes coffee, and opens the bedroom window.",
+     "es": "Hoy Elif se levanta temprano, prepara caf? y abre la ventana del dormitorio."
     },
     {
      "tr": "İşten önce ekmek alıyor ve ceketini zilin yanındaki askıya asıyor.",
-     "en": "Before work she buys bread and hangs her jacket beside the doorbell."
+     "en": "Before work she buys bread and hangs her jacket beside the doorbell.",
+     "es": "Antes del trabajo compra pan y cuelga su chaqueta junto al timbre."
     },
     {
      "tr": "Dükkânda müşterilere yardım edip hediye kurdelesini dikkatlice kesiyor.",
-     "en": "At the shop she advises customers and carefully cuts the gift ribbon."
+     "en": "At the shop she advises customers and carefully cuts the gift ribbon.",
+     "es": "En la tienda atiende a los clientes y corta con cuidado la cinta del regalo."
     },
     {
      "tr": "Akşam mutfağı topluyor ve çilekleri pencere pervazına koyuyor.",
-     "en": "In the evening she tidies the kitchen and puts strawberries on the windowsill."
+     "en": "In the evening she tidies the kitchen and puts strawberries on the windowsill.",
+     "es": "Por la tarde ordena la cocina y pone fresas en el alf?izar."
     },
     {
      "tr": "Lina uğruyor, şekerleme soğurken ikisi çay içiyor.",
-     "en": "Lina visits, and they drink tea while the icing cools."
+     "en": "Lina visits, and they drink tea while the icing cools.",
+     "es": "Lina viene de visita y toman t? mientras se enfr?a el glaseado."
     }
    ],
    "glossary": [],
@@ -2375,47 +2657,58 @@
    "trans": [
     {
      "tr": "Elif: Herr Brandt, müziğiniz geceleri çok yüksek.",
-     "en": "Elif: Mr Brandt, your music is very loud at night."
+     "en": "Elif: Mr Brandt, your music is very loud at night.",
+     "es": "Elif: Se?or Brandt, su m?sica est? muy alta por la noche."
     },
     {
      "tr": "Herr Brandt: Aa, bunu bilmiyordum. Özür dilerim!",
-     "en": "Herr Brandt: Oh, I didn't know that. I'm sorry!"
+     "en": "Herr Brandt: Oh, I didn't know that. I'm sorry!",
+     "es": "Herr Brandt: Ah, no lo sab?a. ?Lo siento!"
     },
     {
      "tr": "Elif: Saat ondan sonra biraz daha sessiz olabilir misiniz?",
-     "en": "Elif: Could you please be quieter after ten?"
+     "en": "Elif: Could you please be quieter after ten?",
+     "es": "Elif: ?Podr?a hacer menos ruido despu?s de las diez, por favor?"
     },
     {
      "tr": "Herr Brandt: Elbette. Bugün kulaklıkla dinlerim.",
-     "en": "Herr Brandt: Of course. I'll listen with headphones today."
+     "en": "Herr Brandt: Of course. I'll listen with headphones today.",
+     "es": "Herr Brandt: Claro. Hoy escuchar? m?sica con auriculares."
     },
     {
      "tr": "Elif: Teşekkürler. Diğer komşularımız çok iyi.",
-     "en": "Elif: Thank you. Our other neighbors are very nice."
+     "en": "Elif: Thank you. Our other neighbors are very nice.",
+     "es": "Elif: Gracias. Nuestros otros vecinos son muy amables."
     },
     {
      "tr": "Frau Schmidt: Elif, taşınmama yardım eder misin?",
-     "en": "Frau Schmidt: Elif, can you help me move?"
+     "en": "Frau Schmidt: Elif, can you help me move?",
+     "es": "Frau Schmidt: Elif, ?puedes ayudarme con la mudanza?"
     },
     {
      "tr": "Elif: Tabii. Kutuyu nereye koyayım?",
-     "en": "Elif: Gladly. Where should the box go?"
+     "en": "Elif: Gladly. Where should the box go?",
+     "es": "Elif: Claro. ?D?nde dejo la caja?"
     },
     {
      "tr": "Frau Schmidt: Lütfen onu kanepenin yanına koy.",
-     "en": "Frau Schmidt: Please put it next to the sofa."
+     "en": "Frau Schmidt: Please put it next to the sofa.",
+     "es": "Frau Schmidt: Ponla junto al sof?, por favor."
     },
     {
      "tr": "Elif: Yastıkları avludaki banka koyuyorum.",
-     "en": "Elif: And I'll put the cushions on the bench in the courtyard."
+     "en": "Elif: And I'll put the cushions on the bench in the courtyard.",
+     "es": "Elif: Y yo pondr? los cojines en el banco del patio."
     },
     {
      "tr": "Frau Schmidt: Teşekkürler! Bebek arabası zaten merdiven boşluğunda.",
-     "en": "Frau Schmidt: Thanks! The pram is already in the stairwell."
+     "en": "Frau Schmidt: Thanks! The pram is already in the stairwell.",
+     "es": "Frau Schmidt: ?Gracias! El cochecito ya est? en la escalera."
     },
     {
      "tr": "Elif: O zaman kurdeleyi katlayıp hemen geliyorum.",
-     "en": "Elif: Then I'll fold the ribbon and come right over."
+     "en": "Elif: Then I'll fold the ribbon and come right over.",
+     "es": "Elif: Entonces doblar? la cinta y voy enseguida."
     }
    ],
    "glossary": [],
@@ -2473,39 +2766,48 @@
    "trans": [
     {
      "tr": "Elif cumartesi izinli ve avluda yüksek müzik duyuyor.",
-     "en": "Elif has Saturday off and hears loud music in the courtyard."
+     "en": "Elif has Saturday off and hears loud music in the courtyard.",
+     "es": "Elif tiene libre el s?bado y oye m?sica alta en el patio."
     },
     {
      "tr": "Herr Brandt pencerede oturuyor ve eğlencesine eşlik ediyor.",
-     "en": "Mr Brandt sits by the window and sings along for fun."
+     "en": "Mr Brandt sits by the window and sings along for fun.",
+     "es": "El se?or Brandt est? sentado junto a la ventana y canta por diversi?n."
     },
     {
      "tr": "Elif nazikçe zili çalıp geceleri daha sessiz olmasını rica ediyor.",
-     "en": "Elif rings politely and asks him to be quieter at night."
+     "en": "Elif rings politely and asks him to be quieter at night.",
+     "es": "Elif llama a la puerta con educaci?n y le pide que haga menos ruido por la noche."
     },
     {
      "tr": "Özür diliyor ve akşamları müziği kapatacağına söz veriyor.",
-     "en": "He apologizes and promises to turn off the music in the evening."
+     "en": "He apologizes and promises to turn off the music in the evening.",
+     "es": "?l se disculpa y promete apagar la m?sica por la tarde."
     },
     {
      "tr": "Sonra Elif, Frau Schmidt’e yeni dairesini yerleştirmesinde yardım ediyor.",
-     "en": "Afterwards Elif helps Ms Schmidt set up her new apartment."
+     "en": "Afterwards Elif helps Ms Schmidt set up her new apartment.",
+     "es": "Despu?s, Elif ayuda a la se?ora Schmidt a instalarse en su nuevo piso."
     },
     {
      "tr": "Bir kutu hâlâ merdiven boşluğunda ve bank çok dar.",
-     "en": "A box is still in the stairwell, and the bench is very narrow."
+     "en": "A box is still in the stairwell, and the bench is very narrow.",
+     "es": "Todav?a hay una caja en la escalera y el banco es muy estrecho."
     },
     {
      "tr": "Masayı pencerenin önüne koyup yastıkları kanepenin üzerine yerleştiriyorlar.",
-     "en": "They put the table by the window and place cushions on the sofa."
+     "en": "They put the table by the window and place cushions on the sofa.",
+     "es": "Ponen la mesa junto a la ventana y dejan los cojines en el sof?."
     },
     {
      "tr": "Frau Schmidt paltoyu koridordaki bir kancaya asıyor.",
-     "en": "Ms Schmidt hangs her coat on a hook in the hallway."
+     "en": "Ms Schmidt hangs her coat on a hook in the hallway.",
+     "es": "La se?ora Schmidt cuelga su abrigo en una percha del recibidor."
     },
     {
      "tr": "Akşam herkes yorgun ama komşular iyi anlaşıyor. Gelecek hafta birlikte yemek yemeyi şimdiden planlıyorlar.",
-     "en": "In the evening everyone is tired, but the neighbors get along well. They are already planning a meal together for next week."
+     "en": "In the evening everyone is tired, but the neighbors get along well. They are already planning a meal together for next week.",
+     "es": "Por la tarde todos est?n cansados, pero los vecinos se llevan bien. Ya est?n planeando una comida juntos para la semana que viene."
     }
    ],
    "glossary": [],
@@ -2565,47 +2867,58 @@
    "trans": [
     {
      "tr": "Lina: Bu internetten sipariş ettiğin ceket mi?",
-     "en": "Lina: Is that the jacket you ordered online?"
+     "en": "Lina: Is that the jacket you ordered online?",
+     "es": "Lina: ?Es esa la chaqueta que pediste por internet?"
     },
     {
      "tr": "Elif: Evet ama koyu mavi. Kırmızı bir ceket istemiştim.",
-     "en": "Elif: Yes, but it's dark blue. I wanted a red jacket."
+     "en": "Elif: Yes, but it's dark blue. I wanted a red jacket.",
+     "es": "Elif: S?, pero es azul oscuro. Quer?a una chaqueta roja."
     },
     {
      "tr": "Lina: Fişi paketin içinde buldun mu?",
-     "en": "Lina: Did you find the receipt in the package?"
+     "en": "Lina: Did you find the receipt in the package?",
+     "es": "Lina: ?Encontraste el recibo dentro del paquete?"
     },
     {
      "tr": "Elif: Evet, ceketi ve fişi yanıma alıyorum.",
-     "en": "Elif: Yes, I'll take the jacket and receipt with me."
+     "en": "Elif: Yes, I'll take the jacket and receipt with me.",
+     "es": "Elif: S?, me llevar? la chaqueta y el recibo."
     },
     {
      "tr": "Verkäufer: İyi günler. Ceketi bizden mi aldınız?",
-     "en": "Verkäufer: Hello. Did you buy the jacket here?"
+     "en": "Verkäufer: Hello. Did you buy the jacket here?",
+     "es": "Verk?ufer: Hola. ?Compraste la chaqueta aqu??"
     },
     {
      "tr": "Elif: Evet. Bunu değiştirebilir miyim? Rengi maalesef yanlış.",
-     "en": "Elif: Yes. Can I exchange it? The color is unfortunately wrong."
+     "en": "Elif: Yes. Can I exchange it? The color is unfortunately wrong.",
+     "es": "Elif: S?. ?Puedo cambiarla? Por desgracia, el color no es el correcto."
     },
     {
      "tr": "Verkäufer: Fişiniz duruyor mu?",
-     "en": "Verkäufer: Do you still have the receipt?"
+     "en": "Verkäufer: Do you still have the receipt?",
+     "es": "Verk?ufer: ?Conservas el recibo?"
     },
     {
      "tr": "Elif: Evet, burada. Ayrıca sıcak bir kazak arıyorum.",
-     "en": "Elif: Yes, here it is. I'm also looking for a warm sweater."
+     "en": "Elif: Yes, here it is. I'm also looking for a warm sweater.",
+     "es": "Elif: S?, aqu? est?. Tambi?n busco un jersey calentito."
     },
     {
      "tr": "Verkäufer: Açık kahverengi bir kazağımız var. Otuz avro.",
-     "en": "Verkäufer: We have a light brown sweater. It costs thirty euros."
+     "en": "Verkäufer: We have a light brown sweater. It costs thirty euros.",
+     "es": "Verk?ufer: Tenemos un jersey marr?n claro. Cuesta treinta euros."
     },
     {
      "tr": "Elif: Güzel oldu. Kazağı ve kırmızı ceketi alıyorum.",
-     "en": "Elif: It fits well. I'll take it and the red jacket."
+     "en": "Elif: It fits well. I'll take it and the red jacket.",
+     "es": "Elif: Me queda bien. Me lo llevo junto con la chaqueta roja."
     },
     {
      "tr": "Lina: İyi bir değiş tokuş oldu. Şimdi eve gidelim mi?",
-     "en": "Lina: That was a good exchange. Shall we go home now?"
+     "en": "Lina: That was a good exchange. Shall we go home now?",
+     "es": "Lina: Ha sido un buen cambio. ?Nos vamos a casa ahora?"
     }
    ],
    "glossary": [],
@@ -2663,39 +2976,48 @@
    "trans": [
     {
      "tr": "Elif geçen hafta sonbahar için internetten kırmızı bir ceket sipariş etti.",
-     "en": "Last week Elif ordered a red jacket online for autumn."
+     "en": "Last week Elif ordered a red jacket online for autumn.",
+     "es": "La semana pasada Elif pidi? por internet una chaqueta roja para el oto?o."
     },
     {
      "tr": "Paket geldiğinde ceket koyu maviydi ve ambalaj hasarlıydı.",
-     "en": "When the parcel arrived, the jacket was dark blue and the packaging was damaged."
+     "en": "When the parcel arrived, the jacket was dark blue and the packaging was damaged.",
+     "es": "Cuando lleg? el paquete, la chaqueta era azul oscuro y el embalaje estaba da?ado."
     },
     {
      "tr": "Neyse ki Elif’in fişi e-postasında duruyordu.",
-     "en": "Luckily, Elif still had the receipt in her email."
+     "en": "Luckily, Elif still had the receipt in her email.",
+     "es": "Por suerte, Elif a?n ten?a el recibo en su correo electr?nico."
     },
     {
      "tr": "Trenle mağazaya gidip sorunu anlattı.",
-     "en": "She took the train to the shop and explained the problem."
+     "en": "She took the train to the shop and explained the problem.",
+     "es": "Fue en tren a la tienda y explic? el problema."
     },
     {
      "tr": "Satış görevlisi mavi ceketi ücretsiz olarak kırmızıyla değiştirdi.",
-     "en": "The sales assistant exchanged the blue jacket for a red one free of charge."
+     "en": "The sales assistant exchanged the blue jacket for a red one free of charge.",
+     "es": "El dependiente cambi? la chaqueta azul por una roja sin cobrarle nada."
     },
     {
      "tr": "Elif soğuk günler için sıcak bir kazak da aradı.",
-     "en": "Elif also looked for a warm sweater for cold days."
+     "en": "Elif also looked for a warm sweater for cold days.",
+     "es": "Elif tambi?n busc? un jersey calentito para los d?as fr?os."
     },
     {
      "tr": "Açık kahverengi bir kazağı deneyip aynada kendine baktı.",
-     "en": "She tried on a light brown sweater and looked in the mirror."
+     "en": "She tried on a light brown sweater and looked in the mirror.",
+     "es": "Se prob? un jersey marr?n claro y se mir? al espejo."
     },
     {
      "tr": "Kazak güzel oldu, bu yüzden onu da aldı.",
-     "en": "The sweater fit well, so she bought it too."
+     "en": "The sweater fit well, so she bought it too.",
+     "es": "El jersey le quedaba bien, as? que tambi?n lo compr?."
     },
     {
      "tr": "Elif evde yeni ceketi kanepenin üzerine koyup Lina’yı aradı.",
-     "en": "At home Elif put the new jacket on the sofa and called Lina."
+     "en": "At home Elif put the new jacket on the sofa and called Lina.",
+     "es": "En casa, Elif puso la chaqueta nueva en el sof? y llam? a Lina."
     }
    ],
    "glossary": [],
@@ -2754,43 +3076,53 @@
    "trans": [
     {
      "tr": "Lina: Trenin yirmi dakika rötarı var. Gördün mü?",
-     "en": "Lina: The train is twenty minutes late. Did you see that?"
+     "en": "Lina: The train is twenty minutes late. Did you see that?",
+     "es": "Lina: El tren lleva veinte minutos de retraso. ?Lo has visto?"
     },
     {
      "tr": "Elif: Evet, aktarmamı kaçırdım. Otobüs birazdan kalkıyor.",
-     "en": "Elif: Yes, I missed my connection. The bus leaves soon."
+     "en": "Elif: Yes, I missed my connection. The bus leaves soon.",
+     "es": "Elif: S?, he perdido el transbordo. El autob?s sale pronto."
     },
     {
      "tr": "Lina: O zaman bir sonraki durakta inelim.",
-     "en": "Lina: Then let's get off at the next stop."
+     "en": "Lina: Then let's get off at the next stop.",
+     "es": "Lina: Entonces bajemos en la pr?xima parada."
     },
     {
      "tr": "Elif: Bize kiralık bisikletin yolunu gösterebilir misiniz?",
-     "en": "Elif: Could you please show us the way to the rental bike?"
+     "en": "Elif: Could you please show us the way to the rental bike?",
+     "es": "Elif: ?Podr?as indicarnos c?mo llegar a las bicicletas de alquiler, por favor?"
     },
     {
      "tr": "Herr Braun: Dümdüz gidin ve tepede sola dönün.",
-     "en": "Herr Braun: Go straight and turn left at the hill."
+     "en": "Herr Braun: Go straight and turn left at the hill.",
+     "es": "Herr Braun: Sigue recto y gira a la izquierda al llegar a la colina."
     },
     {
      "tr": "Lina: Pil dolu. Çantamdan şehir haritasını çıkarıyorum.",
-     "en": "Lina: The battery is full. I'm taking the city map from my bag."
+     "en": "Lina: The battery is full. I'm taking the city map from my bag.",
+     "es": "Lina: La bater?a est? cargada. Voy a sacar el mapa de la ciudad de mi bolso."
     },
     {
      "tr": "Elif: Bisikleti burada bırakıp bavulunda sana yardım edeceğim.",
-     "en": "Elif: I'll leave the bike here and help you with your suitcase."
+     "en": "Elif: I'll leave the bike here and help you with your suitcase.",
+     "es": "Elif: Dejar? aqu? la bicicleta y te ayudar? con la maleta."
     },
     {
      "tr": "Lina: Yol kapalı. Bisikleti biraz itmemiz gerekiyor.",
-     "en": "Lina: The road is closed. We have to push the bike for a bit."
+     "en": "Lina: The road is closed. We have to push the bike for a bit.",
+     "es": "Lina: La carretera est? cortada. Tenemos que empujar la bicicleta un rato."
     },
     {
      "tr": "Elif: Tramvay tabelasını takip edelim. Orada tekrar sorarız.",
-     "en": "Elif: Let's follow the sign to the tram. We'll ask again there."
+     "en": "Elif: Let's follow the sign to the tram. We'll ask again there.",
+     "es": "Elif: Sigamos la se?al del tranv?a. Preguntaremos all? otra vez."
     },
     {
      "tr": "Lina: İyi fikir. Lütfen daha yavaş sür, yol ıslak!",
-     "en": "Lina: Good idea. Please ride more slowly, the path is wet!"
+     "en": "Lina: Good idea. Please ride more slowly, the path is wet!",
+     "es": "Lina: Buena idea. ?Ve m?s despacio, por favor, el camino est? mojado!"
     }
    ],
    "glossary": [],
@@ -2849,43 +3181,53 @@
    "trans": [
     {
      "tr": "Elif ve Lina cumartesi tramvayla Ehrenfeld’e gidiyor.",
-     "en": "Elif and Lina take the tram to Ehrenfeld on Saturday."
+     "en": "Elif and Lina take the tram to Ehrenfeld on Saturday.",
+     "es": "El s?bado, Elif y Lina van en tranv?a a Ehrenfeld."
     },
     {
      "tr": "Trenleri yirmi dakika gecikiyor, bu yüzden aktarmayı kaçırıyorlar.",
-     "en": "Their train was twenty minutes late, so they miss their connection."
+     "en": "Their train was twenty minutes late, so they miss their connection.",
+     "es": "Su tren llevaba veinte minutos de retraso, as? que pierden el transbordo."
     },
     {
      "tr": "Durakta ekran şehir merkezine giden bir otobüs gösteriyor.",
-     "en": "At the stop, the display shows a bus to the city center."
+     "en": "At the stop, the display shows a bus to the city center.",
+     "es": "En la parada, la pantalla muestra un autob?s al centro."
     },
     {
      "tr": "Otobüse biniyor ve sonra bir sonraki durakta iniyorlar.",
-     "en": "They get on and later get off at the next stop."
+     "en": "They get on and later get off at the next stop.",
+     "es": "Suben y m?s tarde bajan en la siguiente parada."
     },
     {
      "tr": "Orada iki bisiklet kiralıyorlar; Elif’in pili tamamen dolu.",
-     "en": "There they rent two bikes; Elif’s battery is fully charged."
+     "en": "There they rent two bikes; Elif’s battery is fully charged.",
+     "es": "All? alquilan dos bicicletas; la bater?a de Elif est? completamente cargada."
     },
     {
      "tr": "Lina şehir haritasını alıp müzeye giden yolu arıyor.",
-     "en": "Lina takes the city map and looks for the way to the museum."
+     "en": "Lina takes the city map and looks for the way to the museum.",
+     "es": "Lina coge el mapa de la ciudad y busca el camino al museo."
     },
     {
      "tr": "Bir sokak kapalı, bu yüzden bisikletleri meydandan iterek geçiriyorlar.",
-     "en": "One street is closed, so they push the bikes across the square."
+     "en": "One street is closed, so they push the bikes across the square.",
+     "es": "Una calle est? cortada, as? que empujan las bicicletas por la plaza."
     },
     {
      "tr": "Bir adam, köprüye kadar yolu takip edin, diyor.",
-     "en": "A man says, “Follow the path to the bridge!”"
+     "en": "A man says, “Follow the path to the bridge!”",
+     "es": "Un hombre dice: ??Sigue el camino hasta el puente!?"
     },
     {
      "tr": "Elif orada sola dönüp bisikletleri dikkatlice bırakıyor.",
-     "en": "Elif turns left there and carefully parks the bikes."
+     "en": "Elif turns left there and carefully parks the bikes.",
+     "es": "All? Elif gira a la izquierda y aparca las bicicletas con cuidado."
     },
     {
      "tr": "Geziden sonra tramvayla dönüp ekmek alıyorlar.",
-     "en": "After their visit, they take the tram back and buy bread."
+     "en": "After their visit, they take the tram back and buy bread.",
+     "es": "Despu?s de la visita, vuelven en tranv?a y compran pan."
     }
    ],
    "glossary": [],
@@ -2946,51 +3288,63 @@
    "trans": [
     {
      "tr": "Elif: Kendimi iyi hissetmiyorum. Dizim ağrıyor.",
-     "en": "Elif: I don't feel well. My knee hurts."
+     "en": "Elif: I don't feel well. My knee hurts.",
+     "es": "Elif: No me encuentro bien. Me duele la rodilla."
     },
     {
      "tr": "Lina: Ne zamandır ağrın var? Dün düştün mü?",
-     "en": "Lina: How long have you been in pain? Did you fall yesterday?"
+     "en": "Lina: How long have you been in pain? Did you fall yesterday?",
+     "es": "Lina: ?Desde cu?ndo te duele? ?Te ca?ste ayer?"
     },
     {
      "tr": "Elif: Dünden beri. Yanlışlıkla bir su birikintisine bastım.",
-     "en": "Elif: Since yesterday. I accidentally stepped into a puddle."
+     "en": "Elif: Since yesterday. I accidentally stepped into a puddle.",
+     "es": "Elif: Desde ayer. Sin querer, pis? un charco."
     },
     {
      "tr": "Frau Wolf: Günaydın. Lütfen şuraya oturun.",
-     "en": "Frau Wolf: Good morning. Please sit here."
+     "en": "Frau Wolf: Good morning. Please sit here.",
+     "es": "Frau Wolf: Buenos d?as. Si?ntate aqu?, por favor."
     },
     {
      "tr": "Frau Wolf: Dizinizi kısaca muayene etmem gerekiyor. Ateşiniz var mı?",
-     "en": "Frau Wolf: I need to examine your knee briefly. Do you have a fever?"
+     "en": "Frau Wolf: I need to examine your knee briefly. Do you have a fever?",
+     "es": "Frau Wolf: Tengo que examinarte la rodilla un momento. ?Tienes fiebre?"
     },
     {
      "tr": "Elif: Hayır ama neredeyse yürüyemiyorum. Adım atınca ağrıyor.",
-     "en": "Elif: No, but I can hardly walk. It hurts when I step."
+     "en": "Elif: No, but I can hardly walk. It hurts when I step.",
+     "es": "Elif: No, pero casi no puedo caminar. Me duele al pisar."
     },
     {
      "tr": "Frau Wolf: Muayene odası dolu. Önce parmağınıza bakacağım.",
-     "en": "Frau Wolf: The examination room is occupied. I'll look at your finger first."
+     "en": "Frau Wolf: The examination room is occupied. I'll look at your finger first.",
+     "es": "Frau Wolf: La sala de exploraci?n est? ocupada. Primero voy a mirarte el dedo."
     },
     {
      "tr": "Lina: Fizyoterapiyi de sorabilir misiniz lütfen?",
-     "en": "Lina: Could you also ask about physiotherapy, please?"
+     "en": "Lina: Could you also ask about physiotherapy, please?",
+     "es": "Lina: ?Podr?as preguntar tambi?n por la fisioterapia, por favor?"
     },
     {
      "tr": "Frau Wolf: Bugün dinlenmeniz ve günde üç kez tablet almanız gerekiyor.",
-     "en": "Frau Wolf: You need to rest today and take one tablet three times."
+     "en": "Frau Wolf: You need to rest today and take one tablet three times.",
+     "es": "Frau Wolf: Hoy tienes que descansar y tomar un comprimido tres veces."
     },
     {
      "tr": "Elif: Yarın tekrar gelmem gerekiyor mu?",
-     "en": "Elif: Do I have to come back tomorrow?"
+     "en": "Elif: Do I have to come back tomorrow?",
+     "es": "Elif: ?Tengo que volver ma?ana?"
     },
     {
      "tr": "Frau Wolf: Hayır, iyileşirseniz gelmeniz gerekmiyor.",
-     "en": "Frau Wolf: No, you don't have to come if it gets better."
+     "en": "Frau Wolf: No, you don't have to come if it gets better.",
+     "es": "Frau Wolf: No, no tienes que venir si mejoras."
     },
     {
      "tr": "Lina: Bol su iç! Sana sonra bir brezel getiririm.",
-     "en": "Lina: Drink plenty of water! I'll bring you a pretzel later."
+     "en": "Lina: Drink plenty of water! I'll bring you a pretzel later.",
+     "es": "Lina: ?Bebe mucha agua! Luego te traer? un pretzel."
     }
    ],
    "glossary": [],
@@ -3049,43 +3403,53 @@
    "trans": [
     {
      "tr": "Pazartesi Elif kendini iyi hissetmiyor ve muayenehaneyi arıyor.",
-     "en": "On Monday Elif doesn't feel well and calls the doctor's office."
+     "en": "On Monday Elif doesn't feel well and calls the doctor's office.",
+     "es": "El lunes Elif se encuentra mal y llama a la consulta del m?dico."
     },
     {
      "tr": "Dizinin ağrımasının nedeni pazar günü su birikintisine basmış olması.",
-     "en": "Her knee hurts because she stepped in a puddle on Sunday."
+     "en": "Her knee hurts because she stepped in a puddle on Sunday.",
+     "es": "Le duele la rodilla porque el domingo pis? un charco."
     },
     {
      "tr": "Frau Wolf onu muayene edip ateşi ve başka ağrıları soruyor.",
-     "en": "Ms Wolf examines her and asks about fever and other pain."
+     "en": "Ms Wolf examines her and asks about fever and other pain.",
+     "es": "La se?ora Wolf la examina y le pregunta si tiene fiebre y otros dolores."
     },
     {
      "tr": "Elif’in ateşi yok ama merdivenleri neredeyse çıkamıyor.",
-     "en": "Elif has no fever, but can hardly climb the stairs."
+     "en": "Elif has no fever, but can hardly climb the stairs.",
+     "es": "Elif no tiene fiebre, pero apenas puede subir las escaleras."
     },
     {
      "tr": "Doktor Elif’in dinlenmesi ve su içmesi gerektiğini söylüyor.",
-     "en": "The doctor says Elif needs to rest and drink water."
+     "en": "The doctor says Elif needs to rest and drink water.",
+     "es": "La m?dica dice que Elif tiene que descansar y beber agua."
     },
     {
      "tr": "Günde üç kez yemekten sonra bir tablet alıyor.",
-     "en": "She takes a tablet three times a day after meals."
+     "en": "She takes a tablet three times a day after meals.",
+     "es": "Toma una pastilla tres veces al d?a despu?s de las comidas."
     },
     {
      "tr": "Lina uğrayıp bir brezel getirerek masaya koyuyor.",
-     "en": "Lina visits and puts a pretzel on the table."
+     "en": "Lina visits and puts a pretzel on the table.",
+     "es": "Lina viene de visita y deja un pretzel en la mesa."
     },
     {
      "tr": "Öğleden sonra Elif odada yalnızca birkaç adım atıyor.",
-     "en": "In the afternoon Elif takes just a few steps in the room."
+     "en": "In the afternoon Elif takes just a few steps in the room.",
+     "es": "Por la tarde, Elif solo da unos pocos pasos por la habitaci?n."
     },
     {
      "tr": "Dizi daha az ağrıyor ve kendini daha iyi hissediyor.",
-     "en": "Her knee hurts less, and she already feels better."
+     "en": "Her knee hurts less, and she already feels better.",
+     "es": "Le duele menos la rodilla y ya se encuentra mejor."
     },
     {
      "tr": "Ertesi sabah Elif muayenehaneyi arayıp randevuyu iptal ediyor.",
-     "en": "The next morning Elif calls the office and cancels the appointment."
+     "en": "The next morning Elif calls the office and cancels the appointment.",
+     "es": "A la ma?ana siguiente, Elif llama a la consulta y cancela la cita."
     }
    ],
    "glossary": [],
@@ -3146,51 +3510,63 @@
    "trans": [
     {
      "tr": "Elif: Günaydın Frau Wolf. Toplantı onda başlıyor, değil mi?",
-     "en": "Elif: Good morning, Ms Wolf. The meeting starts at ten, right?"
+     "en": "Elif: Good morning, Ms Wolf. The meeting starts at ten, right?",
+     "es": "Elif: Buenos d?as, se?ora Wolf. La reuni?n empieza a las diez, ?verdad?"
     },
     {
      "tr": "Frau Wolf: Evet. Lütfen adınızı bu listeye yazın.",
-     "en": "Frau Wolf: Yes. Please enter your name on this list."
+     "en": "Frau Wolf: Yes. Please enter your name on this list.",
+     "es": "Frau Wolf: S?. Escribe tu nombre en esta lista, por favor."
     },
     {
      "tr": "Elif: Ekipte çalışmayı severim. Masam nerede?",
-     "en": "Elif: I enjoy working in a team. Where is my desk?"
+     "en": "Elif: I enjoy working in a team. Where is my desk?",
+     "es": "Elif: Me gusta trabajar en equipo. ?D?nde est? mi escritorio?"
     },
     {
      "tr": "Frau Wolf: Pencerenin yanında. Temizlik görevlisi bugün daha geç gelecek.",
-     "en": "Frau Wolf: By the window. The cleaner is coming later today."
+     "en": "Frau Wolf: By the window. The cleaner is coming later today.",
+     "es": "Frau Wolf: Junto a la ventana. Hoy vendr? m?s tarde la persona de la limpieza."
     },
     {
      "tr": "Elif: Otobüs çalışmadığı için geç geldim.",
-     "en": "Elif: I came late because the bus isn't running."
+     "en": "Elif: I came late because the bus isn't running.",
+     "es": "Elif: He llegado tarde porque el autob?s no circula."
     },
     {
      "tr": "Frau Wolf: Sorun değil. Kablo konusunda bana yardım edebilir misiniz?",
-     "en": "Frau Wolf: No problem. Could you help me with the cable, please?"
+     "en": "Frau Wolf: No problem. Could you help me with the cable, please?",
+     "es": "Frau Wolf: No pasa nada. ?Puedes ayudarme con el cable, por favor?"
     },
     {
      "tr": "Elif: Tabii. Bence daha fazla zamana ihtiyacımız var.",
-     "en": "Elif: Of course. I think we need more time."
+     "en": "Elif: Of course. I think we need more time.",
+     "es": "Elif: Claro. Creo que necesitamos m?s tiempo."
     },
     {
      "tr": "Frau Wolf: Buzdolabı ses çıkarıyor. Kontrol edebilir misiniz?",
-     "en": "Frau Wolf: The refrigerator is making a noise. Can you check it?"
+     "en": "Frau Wolf: The refrigerator is making a noise. Can you check it?",
+     "es": "Frau Wolf: La nevera hace ruido. ?Puedes revisarla?"
     },
     {
      "tr": "Elif: Evet. Önce kabloları ayırt edip doğru şekilde takıyorum.",
-     "en": "Elif: Yes. I'll identify the cables first and connect it properly."
+     "en": "Elif: Yes. I'll identify the cables first and connect it properly.",
+     "es": "Elif: S?. Primero identificar? los cables y la conectar? bien."
     },
     {
      "tr": "Frau Wolf: Teşekkürler. Sonra bitkiyi birlikte sularız.",
-     "en": "Frau Wolf: Thanks. After that we'll water the plant together."
+     "en": "Frau Wolf: Thanks. After that we'll water the plant together.",
+     "es": "Frau Wolf: Gracias. Despu?s regaremos juntos la planta."
     },
     {
      "tr": "Elif: Sulama kabı saksının yanında.",
-     "en": "Elif: The watering can is beside the pot."
+     "en": "Elif: The watering can is beside the pot.",
+     "es": "Elif: La regadera est? junto a la maceta."
     },
     {
      "tr": "Frau Wolf: Güzel. Lütfen malzemeleri de mutfaktan alın.",
-     "en": "Frau Wolf: Good. Please also fetch the ingredients from the kitchen."
+     "en": "Frau Wolf: Good. Please also fetch the ingredients from the kitchen.",
+     "es": "Frau Wolf: Bien. Trae tambi?n los ingredientes de la cocina, por favor."
     }
    ],
    "glossary": [],
@@ -3249,43 +3625,53 @@
    "trans": [
     {
      "tr": "Elif pazartesi Köln’deki bir ofiste iş görüşmesine geliyor.",
-     "en": "Elif comes to an office in Cologne for her interview on Monday."
+     "en": "Elif comes to an office in Cologne for her interview on Monday.",
+     "es": "El lunes Elif va a una oficina de Colonia para una entrevista de trabajo."
     },
     {
      "tr": "Bir sokak kapalı olduğu için otobüs çalışmamış.",
-     "en": "The bus was out of service because a street was closed."
+     "en": "The bus was out of service because a street was closed.",
+     "es": "El autob?s no circulaba porque una calle estaba cortada."
     },
     {
      "tr": "Yine de Elif zamanında geliyor çünkü erkenden yola çıkmış.",
-     "en": "Still, Elif is on time because she left early."
+     "en": "Still, Elif is on time because she left early.",
+     "es": "Aun as?, Elif llega a tiempo porque sali? temprano."
     },
     {
      "tr": "Frau Wolf onu güler yüzle karşılayıp pencere yanındaki masayı gösteriyor.",
-     "en": "Ms Wolf greets her warmly and shows her the desk by the window."
+     "en": "Ms Wolf greets her warmly and shows her the desk by the window.",
+     "es": "La se?ora Wolf la saluda con amabilidad y le ense?a el escritorio junto a la ventana."
     },
     {
      "tr": "Elif ekipte çalışmayı sevdiğini söylüyor.",
-     "en": "Elif says that she enjoys working in a team."
+     "en": "Elif says that she enjoys working in a team.",
+     "es": "Elif dice que le gusta trabajar en equipo."
     },
     {
      "tr": "Toplantı onda başlıyor ve herkes adını listeye yazıyor.",
-     "en": "The meeting starts at ten, and everyone enters their name."
+     "en": "The meeting starts at ten, and everyone enters their name.",
+     "es": "La reuni?n empieza a las diez y todos escriben su nombre."
     },
     {
      "tr": "Yüksek ses çıkaran buzdolabının yanında bir kablo duruyor.",
-     "en": "A cable lies beside the refrigerator, which is making a loud noise."
+     "en": "A cable lies beside the refrigerator, which is making a loud noise.",
+     "es": "Hay un cable junto a la nevera, que hace mucho ruido."
     },
     {
      "tr": "Elif fişleri ayırt edip buzdolabını yeniden bağlıyor.",
-     "en": "Elif identifies the plugs and reconnects the refrigerator."
+     "en": "Elif identifies the plugs and reconnects the refrigerator.",
+     "es": "Elif identifica los enchufes y vuelve a conectar la nevera."
     },
     {
      "tr": "Sonra mutfaktan malzemeleri alıp bitkiyi suluyor.",
-     "en": "Afterward she fetches ingredients from the kitchen and waters the plant."
+     "en": "Afterward she fetches ingredients from the kitchen and waters the plant.",
+     "es": "Despu?s, trae ingredientes de la cocina y riega la planta."
     },
     {
      "tr": "Frau Wolf, Elif’in ertesi gün tekrar gelmesini istediğini söylüyor.",
-     "en": "Ms Wolf says Elif should come back the next day."
+     "en": "Ms Wolf says Elif should come back the next day.",
+     "es": "La se?ora Wolf le dice a Elif que vuelva al d?a siguiente."
     }
    ],
    "glossary": [],
@@ -3344,43 +3730,53 @@
    "trans": [
     {
      "tr": "Elif: Çocukken en çok ne yapmayı severdin?",
-     "en": "Elif: What did you like doing most as a child?"
+     "en": "Elif: What did you like doing most as a child?",
+     "es": "Elif: ?Qu? te gustaba hacer m?s de peque?a?"
     },
     {
      "tr": "Lina: Küçükken kırmızı bir uçurtmam vardı.",
-     "en": "Lina: When I was little, I had a red kite."
+     "en": "Lina: When I was little, I had a red kite.",
+     "es": "Lina: Cuando era peque?a, ten?a una cometa roja."
     },
     {
      "tr": "Elif: Benim de vardı. Annem onu iyi tamir edebilirdi.",
-     "en": "Elif: I had one too. My mother could repair it well."
+     "en": "Elif: I had one too. My mother could repair it well.",
+     "es": "Elif: Yo tambi?n ten?a una. Mi madre sab?a repararla bien."
     },
     {
      "tr": "Lina: İşte çayırımızın bir fotoğrafı.",
-     "en": "Lina: Here is a photo of our meadow."
+     "en": "Lina: Here is a photo of our meadow.",
+     "es": "Lina: Aqu? tienes una foto de nuestro prado."
     },
     {
      "tr": "Elif: Hava güzel olduğunda hep dışarıdaydık.",
-     "en": "Elif: When the weather was nice, we were always outside."
+     "en": "Elif: When the weather was nice, we were always outside.",
+     "es": "Elif: Cuando hac?a buen tiempo, siempre est?bamos al aire libre."
     },
     {
      "tr": "Lina: İpi paylaşıp uçurtmayı birlikte uçururduk.",
-     "en": "Lina: We shared the string and flew the kite together."
+     "en": "Lina: We shared the string and flew the kite together.",
+     "es": "Lina: Compart?amos el hilo y hac?amos volar la cometa juntas."
     },
     {
      "tr": "Elif: Pazar günü bizimle gelmek ister misin?",
-     "en": "Elif: Would you like to come along on Sunday?"
+     "en": "Elif: Would you like to come along on Sunday?",
+     "es": "Elif: ?Te apetece venir el domingo?"
     },
     {
      "tr": "Lina: Memnuniyetle. Yağmur yağmazsa yine çayıra gideriz.",
-     "en": "Lina: Gladly. If it doesn’t rain, we’ll go to the meadow again."
+     "en": "Lina: Gladly. If it doesn’t rain, we’ll go to the meadow again.",
+     "es": "Lina: Encantada. Si no llueve, volveremos al prado."
     },
     {
      "tr": "Elif: Bir uçurtma ödünç alırım. Eğlenceli!",
-     "en": "Elif: I’ll borrow a kite. That sounds fun!"
+     "en": "Elif: I’ll borrow a kite. That sounds fun!",
+     "es": "Elif: Pedir? prestada una cometa. ?Qu? divertido!"
     },
     {
      "tr": "Lina: Tom sopayı getirebilir. O zaman kesin başarırız.",
-     "en": "Lina: Tom can bring the stick. Then it will surely work."
+     "en": "Lina: Tom can bring the stick. Then it will surely work.",
+     "es": "Lina: Tom puede traer la varilla. As? seguro que funcionar?."
     }
    ],
    "glossary": [],
@@ -3437,35 +3833,43 @@
    "trans": [
     {
      "tr": "Elif on iki yaşındayken her çarşamba arkadaşıyla gitar çalışırdı. Elif okul tiyatrosunda da ?ald? ve orada bir?ok ?ark? ??rendi.",
-     "en": "When Elif was twelve, she rehearsed guitar with her friend every Wednesday. Elif also played in the school theater and learned many songs there."
+     "en": "When Elif was twelve, she rehearsed guitar with her friend every Wednesday. Elif also played in the school theater and learned many songs there.",
+     "es": "Cuando Elif ten?a doce a?os, ensayaba la guitarra con su amiga todos los mi?rcoles. Elif tambi?n actuaba en el teatro de la escuela y all? aprendi? muchas canciones."
     },
     {
      "tr": "Dışarıda yağmur yağınca sık sık çatının altına geçerdi.",
-     "en": "She often stood under the roof when it rained outside."
+     "en": "She often stood under the roof when it rained outside.",
+     "es": "A menudo se quedaba bajo el techo cuando llov?a fuera."
     },
     {
      "tr": "O zamanlar Elif’in eski bir forması ve küçük bir yayı vardı.",
-     "en": "Back then Elif had an old sports shirt and a small bow."
+     "en": "Back then Elif had an old sports shirt and a small bow.",
+     "es": "En aquella ?poca Elif ten?a una camiseta deportiva vieja y un peque?o arco."
     },
     {
      "tr": "Bir keresinde ipi bir dala takıldı.",
-     "en": "Once her string got caught on a branch."
+     "en": "Once her string got caught on a branch.",
+     "es": "Una vez el hilo se le enganch? en una rama."
     },
     {
      "tr": "Arkadaşı uçurtmayı bir sopayla dikkatlice kurtarabildi. Annesi o zamanlar provalarda s?k s?k foto?raf ?ekiyordu.",
-     "en": "Her friend could carefully free the kite with a stick. Her mother often took photos at rehearsals back then."
+     "en": "Her friend could carefully free the kite with a stick. Her mother often took photos at rehearsals back then.",
+     "es": "Su amiga pudo liberar la cometa con cuidado usando una varilla. En aquella ?poca, su madre sol?a hacer fotos en los ensayos."
     },
     {
      "tr": "Daha sonra ikisi komşuları için sessizce müzik çaldı.",
-     "en": "Later, the two played quiet music for their neighbors."
+     "en": "Later, the two played quiet music for their neighbors.",
+     "es": "M?s tarde, las dos tocaron m?sica tranquila para sus vecinos."
     },
     {
      "tr": "Konser bittiğinde avludaki herkes alkışladı.",
-     "en": "When the concert ended, everyone in the courtyard applauded."
+     "en": "When the concert ended, everyone in the courtyard applauded.",
+     "es": "Cuando termin? el concierto, todos aplaudieron en el patio."
     },
     {
      "tr": "Elif yanında mendil taşıyordu çünkü çok duygulanmıştı. Sonra birlikte g?ld?ler.",
-     "en": "Elif had a tissue with her because she was very moved. Afterwards they laughed together."
+     "en": "Elif had a tissue with her because she was very moved. Afterwards they laughed together.",
+     "es": "Elif llevaba un pa?uelo porque estaba muy emocionada. Despu?s se rieron juntas."
     }
    ],
    "glossary": [],
@@ -3526,51 +3930,63 @@
    "trans": [
     {
      "tr": "Elif: Telefonum artık çalışmıyor.",
-     "en": "Elif: My phone doesn’t work anymore."
+     "en": "Elif: My phone doesn’t work anymore.",
+     "es": "Elif: Mi tel?fono ya no funciona."
     },
     {
      "tr": "Tom: Ekran siyah kalıyor. Şarjı mı bitti?",
-     "en": "Tom: The screen stays black. Is the battery empty?"
+     "en": "Tom: The screen stays black. Is the battery empty?",
+     "es": "Tom: La pantalla se queda negra. ?Se ha agotado la bater?a?"
     },
     {
      "tr": "Elif: Hayır, pili dün şarj ettim.",
-     "en": "Elif: No, I charged the battery yesterday."
+     "en": "Elif: No, I charged the battery yesterday.",
+     "es": "Elif: No, cargu? la bater?a ayer."
     },
     {
      "tr": "Tom: Belki yanlışlıkla yanlış tuşa bastın.",
-     "en": "Tom: Maybe you pressed the wrong button by accident."
+     "en": "Tom: Maybe you pressed the wrong button by accident.",
+     "es": "Tom: Quiz? pulsaste el bot?n equivocado sin querer."
     },
     {
      "tr": "Elif: Ekrandaki hatayı görebiliyor musun?",
-     "en": "Elif: Can you see the error on the screen?"
+     "en": "Elif: Can you see the error on the screen?",
+     "es": "Elif: ?Puedes ver el error en la pantalla?"
     },
     {
      "tr": "Tom: Evet. Uygulamanın telefonu kilitlediğini düşünüyorum.",
-     "en": "Tom: Yes. I think the app has blocked the phone."
+     "en": "Tom: Yes. I think the app has blocked the phone.",
+     "es": "Tom: S?. Creo que la aplicaci?n ha bloqueado el tel?fono."
     },
     {
      "tr": "Elif: Fotoğrafı sana mesajla gönderiyorum.",
-     "en": "Elif: I’m sending you the photo by message."
+     "en": "Elif: I’m sending you the photo by message.",
+     "es": "Elif: Te env?o la foto por mensaje."
     },
     {
      "tr": "Tom: Wi-Fi şifresinin ne olduğunu biliyor musun?",
-     "en": "Tom: Do you know what the Wi-Fi password is?"
+     "en": "Tom: Do you know what the Wi-Fi password is?",
+     "es": "Tom: ?Sabes cu?l es la contrase?a del wifi?"
     },
     {
      "tr": "Elif: Evet, not etmeyi tercih ederim. Şarjım neredeyse bitti.",
-     "en": "Elif: Yes, I’d rather write it down. The battery is almost empty."
+     "en": "Elif: Yes, I’d rather write it down. The battery is almost empty.",
+     "es": "Elif: S?, prefiero apuntarla. La bater?a est? casi agotada."
     },
     {
      "tr": "Tom: Uygulamayı indirdim. Şimdi randevu alıyoruz.",
-     "en": "Tom: I downloaded the app. We’ll book an appointment now."
+     "en": "Tom: I downloaded the app. We’ll book an appointment now.",
+     "es": "Tom: Me he descargado la aplicaci?n. Ahora pediremos una cita."
     },
     {
      "tr": "Elif: Teşekkürler! Lütfen onayı bana mesajla gönder.",
-     "en": "Elif: Thanks! Please send me the confirmation by message."
+     "en": "Elif: Thanks! Please send me the confirmation by message.",
+     "es": "Elif: ?Gracias! Env?ame la confirmaci?n por mensaje, por favor."
     },
     {
      "tr": "Tom: Tabii. Her adımı da sana yazarım.",
-     "en": "Tom: Sure. I’ll write down every step for you too."
+     "en": "Tom: Sure. I’ll write down every step for you too.",
+     "es": "Tom: Claro. Tambi?n te apuntar? cada paso."
     }
    ],
    "glossary": [
@@ -3582,7 +3998,8 @@
      "extra": null,
      "mean": {
       "tr": "engellemek",
-      "en": "to block"
+      "en": "to block",
+      "es": "bloquear"
      }
     },
     {
@@ -3593,7 +4010,12 @@
      "extra": null,
      "mean": {
       "tr": "onay",
-      "en": "confirmation"
+      "en": "confirmation",
+      "es": "confirmación",
+      "fr": "confirmation",
+      "it": "conferma",
+      "ku": "piştrastkirin",
+      "ar": "تأكيد"
      }
     }
    ],
@@ -3650,35 +4072,43 @@
    "trans": [
     {
      "tr": "Elif’in telefonu sabah aniden çalışmamaya başladı.",
-     "en": "Elif’s phone suddenly stopped working in the morning."
+     "en": "Elif’s phone suddenly stopped working in the morning.",
+     "es": "El tel?fono de Elif dej? de funcionar de repente por la ma?ana."
     },
     {
      "tr": "Şarjı neredeyse dolu olmasına rağmen ekran siyah kaldı. Cihaz? yeniden ba?latt? ama ekran karanl?k kald?.",
-     "en": "The screen stayed black even though the battery was almost full. She restarted the device, but the screen stayed dark."
+     "en": "The screen stayed black even though the battery was almost full. She restarted the device, but the screen stayed dark.",
+     "es": "La pantalla segu?a negra aunque la bater?a estaba casi llena. Reinici? el dispositivo, pero la pantalla segu?a oscura."
     },
     {
      "tr": "Tom hatayı gördü ve bir tuşun sıkıştığını söyledi.",
-     "en": "Tom saw the error and said a button was stuck."
+     "en": "Tom saw the error and said a button was stuck.",
+     "es": "Tom vio el error y dijo que un bot?n estaba atascado."
     },
     {
      "tr": "Elif ona Lina’nın tabletinden mesajla bir fotoğraf gönderdi.",
-     "en": "Elif sent him a photo by message from Lina’s tablet."
+     "en": "Elif sent him a photo by message from Lina’s tablet.",
+     "es": "Elif le envi? una foto por mensaje desde la tableta de Lina."
     },
     {
      "tr": "Hava durumu uygulamasını açıp tamirhanenin adresini aradılar.",
-     "en": "They opened the weather app and looked for the repair shop’s address."
+     "en": "They opened the weather app and looked for the repair shop’s address.",
+     "es": "Abrieron la aplicaci?n del tiempo y buscaron la direcci?n del taller."
     },
     {
      "tr": "Tom randevu uygulamasını indirdi ve formu doldurdu.",
-     "en": "Tom downloaded the appointment app and filled out the form."
+     "en": "Tom downloaded the appointment app and filled out the form.",
+     "es": "Tom se descarg? la aplicaci?n para pedir cita y rellen? el formulario."
     },
     {
      "tr": "Elif her adımı takip etti ve onay bilgisini not aldı.",
-     "en": "Elif followed each step and wrote down the confirmation."
+     "en": "Elif followed each step and wrote down the confirmation.",
+     "es": "Elif sigui? cada paso y apunt? la confirmaci?n."
     },
     {
      "tr": "Tom telefonu ertesi gün alabileceklerini açıkladı. Ak?am Tom?a h?zl? yard?m? i?in te?ekk?r etti.",
-     "en": "Tom explained that they could pick up the phone the next day. In the evening she thanked Tom for his quick help."
+     "en": "Tom explained that they could pick up the phone the next day. In the evening she thanked Tom for his quick help.",
+     "es": "Tom explic? que pod?an recoger el tel?fono al d?a siguiente. Por la tarde, ella le dio las gracias a Tom por su r?pida ayuda."
     }
    ],
    "glossary": [
@@ -3690,7 +4120,12 @@
      "extra": null,
      "mean": {
       "tr": "sıkışmak",
-      "en": "to get stuck"
+      "en": "to get stuck",
+      "es": "quedarse atascado",
+      "fr": "se coincer",
+      "it": "rimanere incastrato",
+      "ku": "li cihê xwe zeliqîn",
+      "ar": "أن يعلق"
      }
     },
     {
@@ -3701,7 +4136,12 @@
      "extra": null,
      "mean": {
       "tr": "form",
-      "en": "form"
+      "en": "form",
+      "es": "formulario",
+      "fr": "formulaire",
+      "it": "modulo",
+      "ku": "form",
+      "ar": "استمارة"
      }
     }
    ],
@@ -3762,51 +4202,63 @@
    "trans": [
     {
      "tr": "Lina: Sınava ne zaman gireceksin?",
-     "en": "Lina: When are you taking the exam?"
+     "en": "Lina: When are you taking the exam?",
+     "es": "Lina: ?Cu?ndo haces el examen?"
     },
     {
      "tr": "Elif: Mayısta sınava gireceğim. Düzenli çalışmalıyım.",
-     "en": "Elif: I’m taking an exam in May. I need to study regularly."
+     "en": "Elif: I’m taking an exam in May. I need to study regularly.",
+     "es": "Elif: Me examino en mayo. Tengo que estudiar con regularidad."
     },
     {
      "tr": "Lina: Her gün çalışmaya çalışıyorum. Ne zaman vaktin var?",
-     "en": "Lina: I try to study every day. When do you have time?"
+     "en": "Lina: I try to study every day. When do you have time?",
+     "es": "Lina: Intento estudiar todos los d?as. ?Cu?ndo tienes tiempo?"
     },
     {
      "tr": "Elif: İşten sonra bir saat çalışabilirim.",
-     "en": "Elif: I can study for an hour after work."
+     "en": "Elif: I can study for an hour after work.",
+     "es": "Elif: Puedo estudiar una hora despu?s del trabajo."
     },
     {
      "tr": "Lina: Salı günü birlikte yeni kelimeler çalışabiliriz.",
-     "en": "Lina: We can practice new words together on Tuesday."
+     "en": "Lina: We can practice new words together on Tuesday.",
+     "es": "Lina: El martes podemos practicar juntos palabras nuevas."
     },
     {
      "tr": "Elif: Kurs kitabındaki bu kelime ne anlama geliyor?",
-     "en": "Elif: What does this word in the coursebook mean?"
+     "en": "Elif: What does this word in the coursebook mean?",
+     "es": "Elif: ?Qu? significa esta palabra del libro de curso?"
     },
     {
      "tr": "Lina: “Sınav” demek. Anahtar kelimeyi defterine yaz.",
-     "en": "Lina: It means “exam.” Write the keyword in your notebook."
+     "en": "Lina: It means “exam.” Write the keyword in your notebook.",
+     "es": "Lina: Significa ?examen?. Escribe la palabra clave en tu cuaderno."
     },
     {
      "tr": "Elif: Ödevleri yapmayı unuttum.",
-     "en": "Elif: I forgot to do the homework."
+     "en": "Elif: I forgot to do the homework.",
+     "es": "Elif: Se me olvid? hacer los deberes."
     },
     {
      "tr": "Lina: O zaman bugün yaparız. Kesin eğlenceli olur.",
-     "en": "Lina: Then we’ll do them today. It’ll certainly be fun."
+     "en": "Lina: Then we’ll do them today. It’ll certainly be fun.",
+     "es": "Lina: Entonces los hacemos hoy. Seguro que ser? divertido."
     },
     {
      "tr": "Elif: Güzel. Her gün çalışmayı planlıyorum.",
-     "en": "Elif: Good. I plan to study every day."
+     "en": "Elif: Good. I plan to study every day.",
+     "es": "Elif: Bien. Planeo estudiar todos los d?as."
     },
     {
      "tr": "Lina: Sınav günü erken kalkıp sana eşlik edeceğim.",
-     "en": "Lina: On exam day, I’ll get up early and go with you."
+     "en": "Lina: On exam day, I’ll get up early and go with you.",
+     "es": "Lina: El d?a del examen, me levantar? temprano y te acompa?ar?."
     },
     {
      "tr": "Elif: Teşekkürler! Sonra yeni insanlarla tanışacağız.",
-     "en": "Elif: Thanks! Afterwards, we’ll meet new people."
+     "en": "Elif: Thanks! Afterwards, we’ll meet new people.",
+     "es": "Elif: ?Gracias! Despu?s conoceremos a gente nueva."
     }
    ],
    "glossary": [
@@ -3818,7 +4270,12 @@
      "extra": null,
      "mean": {
       "tr": "anahtar kelime",
-      "en": "keyword"
+      "en": "keyword",
+      "es": "palabra clave",
+      "fr": "mot-clé",
+      "it": "parola chiave",
+      "ku": "peyva kilît",
+      "ar": "الكلمة المفتاحية"
      }
     },
     {
@@ -3829,7 +4286,12 @@
      "extra": null,
      "mean": {
       "tr": "eşlik etmek",
-      "en": "to accompany"
+      "en": "to accompany",
+      "es": "acompañar",
+      "fr": "accompagner",
+      "it": "accompagnare",
+      "ku": "pê re çûn",
+      "ar": "يرافق"
      }
     }
    ],
@@ -3886,35 +4348,43 @@
    "trans": [
     {
      "tr": "Elif ilkbaharda Goethe A2 sınavına hazırlandı.",
-     "en": "Elif prepared for her Goethe A2 exam in spring."
+     "en": "Elif prepared for her Goethe A2 exam in spring.",
+     "es": "Elif se prepar? para el examen Goethe A2 en primavera."
     },
     {
      "tr": "Her akşam işten sonra bir saat çalışmayı planlıyordu.",
-     "en": "She planned to study for an hour every evening after work."
+     "en": "She planned to study for an hour every evening after work.",
+     "es": "Plane? estudiar una hora cada tarde despu?s del trabajo."
     },
     {
      "tr": "Önce yeni kelimeleri tekrar etti ve her anahtar kelimeyi yazdı. Ard?ndan bir metni sesli okudu ve ?nemli s?zc?kleri i?aretledi.",
-     "en": "First, she reviewed new words and wrote down each keyword. Then she read a text aloud and marked important words."
+     "en": "First, she reviewed new words and wrote down each keyword. Then she read a text aloud and marked important words.",
+     "es": "Primero repas? palabras nuevas y apunt? cada palabra clave. Despu?s ley? un texto en voz alta y marc? las palabras importantes."
     },
     {
      "tr": "Bir kelimeyi anlamadığında Lina’dan yardım istedi.",
-     "en": "If she didn’t understand a word, she asked Lina for help."
+     "en": "If she didn’t understand a word, she asked Lina for help.",
+     "es": "Si no entend?a una palabra, le ped?a ayuda a Lina."
     },
     {
      "tr": "Tom onunla kısa cevaplar vermeyi ve anlaşılır konuşmayı çalıştı.",
-     "en": "Tom practiced giving short answers and speaking clearly with her."
+     "en": "Tom practiced giving short answers and speaking clearly with her.",
+     "es": "Tom practic? con ella c?mo dar respuestas breves y hablar con claridad."
     },
     {
      "tr": "Sınav günü saati altıda çaldı.",
-     "en": "On exam day, her alarm rang at six."
+     "en": "On exam day, her alarm rang at six.",
+     "es": "El d?a del examen, el despertador son? a las seis."
     },
     {
      "tr": "Lina Elif’e okula kadar eşlik etti ve ikisi de zamanında oradaydı. Binan?n ?n?nde Elif derin bir nefes ald? ve g?l?msedi.",
-     "en": "Lina accompanied Elif to the school, and both arrived on time. Outside the building Elif took a deep breath and smiled."
+     "en": "Lina accompanied Elif to the school, and both arrived on time. Outside the building Elif took a deep breath and smiled.",
+     "es": "Lina acompa?? a Elif a la escuela y las dos llegaron a tiempo. Fuera del edificio, Elif respir? hondo y sonri?."
     },
     {
      "tr": "Sınavdan sonra Elif soruların beklediğinden daha kolay olduğunu söyledi.",
-     "en": "After the exam, Elif said the tasks were easier than expected."
+     "en": "After the exam, Elif said the tasks were easier than expected.",
+     "es": "Despu?s del examen, Elif dijo que las tareas eran m?s f?ciles de lo que esperaba."
     }
    ],
    "glossary": [
@@ -3926,7 +4396,8 @@
      "extra": null,
      "mean": {
       "tr": "… için hazırlanmak",
-      "en": "to prepare for"
+      "en": "to prepare for",
+      "es": "prepararse para"
      }
     },
     {
@@ -3937,7 +4408,8 @@
      "extra": null,
      "mean": {
       "tr": "anlaşılır",
-      "en": "clearly"
+      "en": "clearly",
+      "es": "con claridad"
      }
     }
    ],
@@ -3997,47 +4469,58 @@
    "trans": [
     {
      "tr": "Elif: Cumartesi avluda çevre günü düzenliyoruz.",
-     "en": "Elif: We’re holding an environment day in the courtyard on Saturday."
+     "en": "Elif: We’re holding an environment day in the courtyard on Saturday.",
+     "es": "Elif: El s?bado organizaremos una jornada medioambiental en el patio."
     },
     {
      "tr": "Lina: Güzel fikir! Çöpleri ayırıp kovaları getiririm.",
-     "en": "Lina: Good idea! I’ll sort the rubbish and bring the buckets."
+     "en": "Lina: Good idea! I’ll sort the rubbish and bring the buckets.",
+     "es": "Lina: ?Buena idea! Separar? la basura y traer? los cubos."
     },
     {
      "tr": "Elif: Kısa mesafelerde bisiklet arabadan daha iyidir.",
-     "en": "Elif: A bike is better than a car for short trips."
+     "en": "Elif: A bike is better than a car for short trips.",
+     "es": "Elif: Para trayectos cortos, es mejor ir en bicicleta que en coche."
     },
     {
      "tr": "Lina: Pikniğimiz için en çok yöresel sebze almayı seviyoruz.",
-     "en": "Lina: We prefer to buy local vegetables for our picnic."
+     "en": "Lina: We prefer to buy local vegetables for our picnic.",
+     "es": "Lina: Preferimos comprar verduras de la zona para nuestro p?cnic."
     },
     {
      "tr": "Elif: Şişeleri lütfen konteynere götür.",
-     "en": "Elif: Please take the bottles to the recycling bin."
+     "en": "Elif: Please take the bottles to the recycling bin.",
+     "es": "Elif: Lleva las botellas al contenedor de reciclaje, por favor."
     },
     {
      "tr": "Lina: Yağmur suyu varilini giderin yanına koyabilirim.",
-     "en": "Lina: I can also put the rain barrel beside the drain."
+     "en": "Lina: I can also put the rain barrel beside the drain.",
+     "es": "Lina: Tambi?n puedo poner el barril de lluvia junto al desag?e."
     },
     {
      "tr": "Elif: O zaman bitkiler için su biriktiririz.",
-     "en": "Elif: Then we’ll collect water for the plants."
+     "en": "Elif: Then we’ll collect water for the plants.",
+     "es": "Elif: As? recogeremos agua para las plantas."
     },
     {
      "tr": "Lina: Park en sakin yer. Orada temizlik yapalım mı?",
-     "en": "Lina: The park is quietest. Shall we clean up there?"
+     "en": "Lina: The park is quietest. Shall we clean up there?",
+     "es": "Lina: El parque es el lugar m?s tranquilo. ?Lo limpiamos?"
     },
     {
      "tr": "Elif: Evet. Kova ve el feneri getiriyorum.",
-     "en": "Elif: Yes. I’ll bring a bucket and a flashlight."
+     "en": "Elif: Yes. I’ll bring a bucket and a flashlight.",
+     "es": "Elif: S?. Traer? un cubo y una linterna."
     },
     {
      "tr": "Lina: Işık zinciri akşamları az elektrikle yanıyor.",
-     "en": "Lina: The string lights shine in the evening using little electricity."
+     "en": "Lina: The string lights shine in the evening using little electricity.",
+     "es": "Lina: Las guirnaldas de luces brillan por la noche y consumen poca electricidad."
     },
     {
      "tr": "Elif: Harika. Sonra herkes avluya geri geliyor.",
-     "en": "Elif: Great. Afterwards everyone comes back to the courtyard."
+     "en": "Elif: Great. Afterwards everyone comes back to the courtyard.",
+     "es": "Elif: Genial. Despu?s todos volveremos al patio."
     }
    ],
    "glossary": [
@@ -4049,7 +4532,8 @@
      "extra": null,
      "mean": {
       "tr": "çevre günü",
-      "en": "environment day"
+      "en": "environment day",
+      "es": "jornada medioambiental"
      }
     },
     {
@@ -4060,7 +4544,12 @@
      "extra": null,
      "mean": {
       "tr": "yöresel",
-      "en": "local"
+      "en": "local",
+      "es": "local",
+      "fr": "local",
+      "it": "locale",
+      "ku": "herêmî",
+      "ar": "محلي"
      }
     }
    ],
@@ -4118,39 +4607,48 @@
    "trans": [
     {
      "tr": "Elif ve Lina mahalleleri için çevre günü planladı. G?revleri b?l???p basit bir plan yapt?lar.",
-     "en": "Elif and Lina planned an environment day for their neighborhood. They divided the tasks and made a simple plan."
+     "en": "Elif and Lina planned an environment day for their neighborhood. They divided the tasks and made a simple plan.",
+     "es": "Elif y Lina organizaron una jornada medioambiental para su barrio. Repartieron las tareas e hicieron un plan sencillo."
     },
     {
      "tr": "Cumartesi birçok yardımcı kova ve eldivenlerle geldi.",
-     "en": "On Saturday, many helpers came with buckets and gloves."
+     "en": "On Saturday, many helpers came with buckets and gloves.",
+     "es": "El s?bado llegaron muchos voluntarios con cubos y guantes."
     },
     {
      "tr": "Önce camı, kâğıdı ve diğer çöpleri ayırdılar.",
-     "en": "First, they sorted glass, paper, and other rubbish."
+     "en": "First, they sorted glass, paper, and other rubbish.",
+     "es": "Primero separaron el vidrio, el papel y otros residuos."
     },
     {
      "tr": "Kısa mesafelerde bisiklet arabadan daha iyiydi.",
-     "en": "The bike was better than the car for short journeys."
+     "en": "The bike was better than the car for short journeys.",
+     "es": "Para los trayectos cortos, era mejor ir en bicicleta que en coche."
     },
     {
      "tr": "Frau Schmidt yöresel sebze ve taze ekmek getirdi.",
-     "en": "Ms Schmidt brought local vegetables and fresh bread."
+     "en": "Ms Schmidt brought local vegetables and fresh bread.",
+     "es": "La se?ora Schmidt trajo verduras de la zona y pan fresco."
     },
     {
      "tr": "Tom su biriktirebilmeleri için yağmur oluğunu altına bir varil koydu.",
-     "en": "Tom put a rain barrel under the gutter so they could collect water."
+     "en": "Tom put a rain barrel under the gutter so they could collect water.",
+     "es": "Tom puso un barril de lluvia bajo el canal?n para recoger agua."
     },
     {
      "tr": "Çocuklar gideri temizledi ve gevşek bir kolu vidaladı.",
-     "en": "The children cleaned the drain and tightened a loose handle."
+     "en": "The children cleaned the drain and tightened a loose handle.",
+     "es": "Los ni?os limpiaron el desag?e y apretaron un asa que estaba floja."
     },
     {
      "tr": "Akşam bir ışık zinciri yandı ama mumlar yakılmadı.",
-     "en": "In the evening, a string of lights shone, while the candles stayed unlit."
+     "en": "In the evening, a string of lights shone, while the candles stayed unlit.",
+     "es": "Por la tarde brill? una guirnalda de luces, mientras las velas permanec?an apagadas."
     },
     {
      "tr": "Herkes parkı en sakin yer buldu ve birlikte oraya geri döndü. Kom?ular bu fikri ?vd? ve gelecek y?l yard?m s?z? verdi.",
-     "en": "Everyone found the park quietest and went back there together. The neighbors praised the idea and promised to help next year."
+     "en": "Everyone found the park quietest and went back there together. The neighbors praised the idea and promised to help next year.",
+     "es": "A todos les pareci? que el parque era el lugar m?s tranquilo y volvieron all? juntos. Los vecinos elogiaron la idea y prometieron ayudar el a?o que viene."
     }
    ],
    "glossary": [
@@ -4162,7 +4660,12 @@
      "extra": null,
      "mean": {
       "tr": "eldiven",
-      "en": "glove"
+      "en": "glove",
+      "es": "guante",
+      "fr": "gant",
+      "it": "guanto",
+      "ku": "destik",
+      "ar": "قفاز"
      }
     },
     {
@@ -4173,7 +4676,12 @@
      "extra": null,
      "mean": {
       "tr": "vidalayarak sıkıştırmak",
-      "en": "to screw tight"
+      "en": "to screw tight",
+      "es": "atornillar bien",
+      "ku": "bi tundî pêçandin",
+      "fr": "visser fermement",
+      "it": "avvitare bene",
+      "ar": "???? ??????"
      }
     }
    ],

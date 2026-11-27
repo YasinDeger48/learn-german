@@ -926,18 +926,33 @@
    "kind": "message",
    "title": {
     "tr": "Mesaj: Marketten ne alalım?",
-    "en": "Message: what shall we buy?"
+    "en": "Message: what shall we buy?",
+    "es": "Mensaje: ¿qué vamos a comprar?",
+    "fr": "Message : qu’est-ce qu’on achète ?",
+    "it": "Messaggio: che cosa dobbiamo comprare?",
+    "ku": "Peyam: Em ê çi bikirin?",
+    "ar": "رسالة: ماذا نشتري؟"
    },
    "prompt": "Sie gehen heute einkaufen. Schreiben Sie Ihrem Mitbewohner Jonas eine Nachricht.",
    "help": {
     "tr": "Ne alacağını yaz, ona bir şey isteyip istemediğini sor ve ne zaman eve döneceğini söyle.",
-    "en": "Say what you will buy, ask if he wants something and say when you are back."
+    "en": "Say what you will buy, ask if he wants something and say when you are back.",
+    "es": "Di qué vas a comprar, pregúntale si quiere algo y dile cuándo vuelves.",
+    "fr": "Dis ce que tu vas acheter, demande-lui s’il veut quelque chose et dis quand tu reviens.",
+    "it": "Di’ che cosa comprerai, chiedigli se vuole qualcosa e digli quando torni.",
+    "ku": "Bibêje tu ê çi bikirî, bipirse gelo ew tiştekî dixwaze û bêje tu kengî vedigerî.",
+    "ar": "قل ماذا ستشتري، واسأله إن كان يريد شيئًا، وأخبره متى ستعود."
    },
    "points": [
     {
      "label": {
       "tr": "Ne alacaksın",
-      "en": "What you buy"
+      "en": "What you buy",
+      "es": "Qué compras",
+      "fr": "Ce que tu achètes",
+      "it": "Che cosa compri",
+      "ku": "Tiştê ku tu dikirî",
+      "ar": "ما ستشتريه"
      },
      "say": "Ich kaufe Brot, Milch und Käse.",
      "keys": [
@@ -953,7 +968,12 @@
     {
      "label": {
       "tr": "Ona soru",
-      "en": "Ask him"
+      "en": "Ask him",
+      "es": "Pregúntale",
+      "fr": "Demande-lui",
+      "it": "Chiedigli",
+      "ku": "Ji wî bipirse",
+      "ar": "اسأله"
      },
      "say": "Brauchst du auch etwas?",
      "keys": [
@@ -2780,6 +2800,419 @@
    ],
    "minWords": 100,
    "sample": "Sehr geehrte Frau Lorenz, ich möchte im Mai an einer zweitägigen Weiterbildung zum Thema Projektmanagement teilnehmen, die von der IHK angeboten wird. In den letzten Monaten habe ich zunehmend Projekte koordiniert, und der Kurs würde mir helfen, Termine und Budgets besser zu planen. Davon würde auch unser Team profitieren, da wir mehrere neue Kunden betreuen. Während meiner Abwesenheit übernimmt Herr Weber meine dringenden Aufgaben; das haben wir bereits abgesprochen. Die Kursgebühr beträgt 480 Euro; ich wäre auch bereit, einen Teil davon selbst zu übernehmen, falls das Budget begrenzt ist. Hätten Sie diese Woche Zeit für ein kurzes Gespräch, um die Details zu besprechen? Mit freundlichen Grüßen, Selin Arslan",
+   "formal": true
+  },
+  {
+   "id": "b2-m5",
+   "level": "B2",
+   "title": {
+    "tr": "Forum: Evden çalışma mı, ofis mi?",
+    "en": "Forum: Working from Home or the Office?"
+   },
+   "prompt": "In einem Online-Forum wird diskutiert, ob Beschäftigte lieber im Homeoffice oder im Büro arbeiten sollten. Schreiben Sie einen Forumsbeitrag. Äußern Sie Ihre Meinung, nennen Sie Vor- und Nachteile, geben Sie ein Beispiel aus Ihrem eigenen Land oder Ihrer Erfahrung und ziehen Sie ein Fazit.",
+   "help": {
+    "tr": "Görüşünü açıkla, iki çalışma biçiminin artılarını ve eksilerini karşılaştır, bir deneyim örneği ver ve sonuçla bitir.",
+    "en": "State your view, compare the advantages and disadvantages of both arrangements, give an example from experience, and conclude."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Meiner Meinung nach …",
+     "keys": [
+      "meiner meinung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj ve dezavantajlar",
+      "en": "Advantages and disadvantages"
+     },
+     "say": "Ein Vorteil ist …, während …",
+     "keys": [
+      "ein großer vorteil"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Örnek",
+      "en": "Example"
+     },
+     "say": "Aus eigener Erfahrung kann ich sagen, dass …",
+     "keys": [
+      "aus eigener erfahrung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Zusammenfassend bin ich dafür, dass …",
+     "keys": [
+      "zusammenfassend"
+     ]
+    }
+   ],
+   "sample": "Hallo zusammen,\n\nmeiner Meinung nach sollte man nicht grundsätzlich zwischen Homeoffice und Büro wählen müssen. Ein großer Vorteil der Arbeit zu Hause ist, dass man den Arbeitsweg spart und den Tag flexibler planen kann. Wer konzentriert arbeiten muss, findet dort oft mehr Ruhe. Allerdings fehlt manchmal der direkte Austausch, und technische Probleme lassen sich nicht immer schnell lösen. Im Büro kann man Fragen unmittelbar besprechen und gemeinsam Ideen entwickeln. Dafür kosten Pendeln und feste Arbeitsplätze Zeit und Geld.\n\nAus eigener Erfahrung weiß ich, dass eine Mischung am besten funktioniert. In meinem früheren Team arbeiteten wir an drei Tagen im Büro und an zwei Tagen zu Hause. Bei Besprechungen und neuen Projekten war die persönliche Zusammenarbeit hilfreich. Aufgaben, die viel Konzentration erforderten, erledigte ich lieber zu Hause. Wichtig waren klare Absprachen, damit niemand wichtige Informationen verpasste.\n\nZusammenfassend sollte jedes Unternehmen gemeinsam mit den Beschäftigten passende Regeln vereinbaren. Eine flexible Lösung berücksichtigt sowohl die Bedürfnisse des Teams als auch die Anforderungen der Arbeit.\n\nViele Grüße\nEmely",
+   "kind": "message",
+   "minWords": 150,
+   "formal": false
+  },
+  {
+   "id": "b2-m6",
+   "level": "B2",
+   "title": {
+    "tr": "Forum: Akıllı telefonlar okullarda yasaklanmalı mı?",
+    "en": "Forum: Should Smartphones Be Banned in Schools?"
+   },
+   "prompt": "In einem Online-Forum wird über ein mögliches Verbot von Smartphones an Schulen diskutiert. Schreiben Sie einen Forumsbeitrag. Äußern Sie Ihre Meinung, nennen Sie Vor- und Nachteile, geben Sie ein Beispiel aus Ihrem Land oder Ihrer Erfahrung und ziehen Sie ein Fazit.",
+   "help": {
+    "tr": "Yasağa dair tutumunu belirt; dikkat, öğrenme ve acil iletişim açısından artı ve eksileri örnekle değerlendir.",
+    "en": "Give your position on a ban and discuss its effects on attention, learning, and emergency communication with examples."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Ich bin der Ansicht, dass …",
+     "keys": [
+      "ich bin der ansicht"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj ve dezavantajlar",
+      "en": "Advantages and disadvantages"
+     },
+     "say": "Einerseits …, andererseits …",
+     "keys": [
+      "einerseits"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Örnek",
+      "en": "Example"
+     },
+     "say": "An meiner Schule …",
+     "keys": [
+      "an meiner schule"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Deshalb halte ich … für sinnvoll.",
+     "keys": [
+      "deshalb halte ich"
+     ]
+    }
+   ],
+   "sample": "Hallo zusammen,\n\nich bin der Ansicht, dass Smartphones im Unterricht nur dann erlaubt sein sollten, wenn sie wirklich für eine Aufgabe gebraucht werden. Einerseits lenken Nachrichten und soziale Medien viele Jugendliche ab. Wenn das Telefon während einer Erklärung ständig aufleuchtet, können sich Schülerinnen und Schüler schlechter konzentrieren. Außerdem entstehen leicht Streitigkeiten, wenn jemand ohne Erlaubnis fotografiert wird. Andererseits kann ein Smartphone beim Recherchieren, Übersetzen oder Lernen helfen. Auch für den Kontakt mit der Familie kann es wichtig sein, besonders wenn sich der Stundenplan kurzfristig ändert.\n\nAn meiner Schule mussten wir unsere Telefone während des Unterrichts in der Tasche lassen. Für Gruppenarbeiten durften wir sie nach Rücksprache mit der Lehrkraft benutzen. Das fand ich fair, weil wir digitale Werkzeuge sinnvoll einsetzen konnten, ohne ständig online zu sein. Ein vollständiges Verbot hätte dagegen auch nützliche Lernmöglichkeiten verhindert.\n\nDeshalb halte ich klare Regeln für besser als ein generelles Verbot. Die Schule sollte festlegen, wann die Geräte ausgeschaltet bleiben und wann sie beim Lernen helfen dürfen. So lernen Jugendliche zugleich, verantwortungsvoll mit Technik umzugehen.\n\nViele Grüße\nEmely",
+   "kind": "message",
+   "minWords": 150,
+   "formal": false
+  },
+  {
+   "id": "b2-m7",
+   "level": "B2",
+   "title": {
+    "tr": "Forum: Vergi et yemeklerini azaltabilir mi?",
+    "en": "Forum: Can a Tax Reduce Meat Consumption?"
+   },
+   "prompt": "In einem Online-Forum wird diskutiert, ob Fleisch stärker besteuert werden sollte, um den Konsum zu verringern. Schreiben Sie einen Forumsbeitrag. Äußern Sie Ihre Meinung, nennen Sie Vor- und Nachteile, geben Sie ein Beispiel aus Ihrem Land oder Ihrer Erfahrung und ziehen Sie ein Fazit.",
+   "help": {
+    "tr": "Et vergisini değerlendir; sağlık, çevre ve fiyatlar üzerindeki olası etkileri artı ve eksileriyle yaz.",
+    "en": "Evaluate a meat tax and discuss possible effects on health, the environment, and prices."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Ich halte es für sinnvoll, …",
+     "keys": [
+      "ich halte es für sinnvoll"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj ve dezavantajlar",
+      "en": "Advantages and disadvantages"
+     },
+     "say": "Ein möglicher Vorteil wäre …",
+     "keys": [
+      "ein möglicher vorteil"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Örnek",
+      "en": "Example"
+     },
+     "say": "In meinem Umfeld …",
+     "keys": [
+      "in meinem umfeld"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Letztlich kommt es darauf an, …",
+     "keys": [
+      "letztlich kommt es darauf an"
+     ]
+    }
+   ],
+   "sample": "Hallo zusammen,\n\nich halte es für sinnvoll, über eine höhere Steuer auf Fleisch nachzudenken, wenn dadurch bessere Tierhaltung und nachhaltige Landwirtschaft unterstützt werden. Ein möglicher Vorteil wäre, dass Verbraucherinnen und Verbraucher bewusster einkaufen. Wenn Fleisch teurer wird, könnten manche Menschen öfter pflanzliche Gerichte wählen. Das wäre auch gut für die Umwelt, sofern die Einnahmen gezielt eingesetzt werden. Allerdings darf eine solche Steuer gesunde Ernährung nicht für Familien mit wenig Geld unerschwinglich machen. Außerdem hängt die Qualität der Produkte nicht allein vom Preis ab.\n\nIn meinem Umfeld essen viele Menschen weniger Fleisch als früher, weil sie auf Gesundheit und Herkunft achten. Sie kaufen lieber kleinere Mengen aus regionaler Produktion. Eine Steuer könnte diesen Wandel beschleunigen, aber nur, wenn es gleichzeitig günstige und gute Alternativen gibt. Schulen und Kantinen könnten zudem abwechslungsreiche vegetarische Gerichte anbieten.\n\nLetztlich kommt es darauf an, wie die Einnahmen verwendet werden. Sie sollten kontrolliert in bessere Tierhaltung und Beratung fließen. Eine Steuer allein löst das Problem nicht, kann aber zusammen mit Aufklärung einen Beitrag leisten.\n\nViele Grüße\nEmely",
+   "kind": "message",
+   "minWords": 150,
+   "formal": false
+  },
+  {
+   "id": "b2-m8",
+   "level": "B2",
+   "title": {
+    "tr": "Forum: Yaşlılar için ortak konut projeleri",
+    "en": "Forum: Shared Housing Projects for Older People"
+   },
+   "prompt": "In einem Online-Forum wird über gemeinschaftliche Wohnprojekte für ältere Menschen diskutiert. Schreiben Sie einen Forumsbeitrag. Äußern Sie Ihre Meinung, nennen Sie Vor- und Nachteile, geben Sie ein Beispiel aus Ihrem Land oder Ihrer Erfahrung und ziehen Sie ein Fazit.",
+   "help": {
+    "tr": "Ortak yaşam modelinin sosyal ve pratik yönlerini değerlendir; avantaj, olası sorun, örnek ve sonuç ekle.",
+    "en": "Assess the social and practical sides of shared housing, including benefits, challenges, an example, and a conclusion."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Görüş",
+      "en": "Opinion"
+     },
+     "say": "Ich finde, dass …",
+     "keys": [
+      "ich finde"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Avantaj ve dezavantajlar",
+      "en": "Advantages and disadvantages"
+     },
+     "say": "Besonders vorteilhaft ist …",
+     "keys": [
+      "besonders vorteilhaft"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Örnek",
+      "en": "Example"
+     },
+     "say": "Ein Beispiel dafür ist …",
+     "keys": [
+      "ein beispiel dafür"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Sonuç",
+      "en": "Conclusion"
+     },
+     "say": "Insgesamt überwiegen …",
+     "keys": [
+      "insgesamt überwiegen"
+     ]
+    }
+   ],
+   "sample": "Hallo zusammen,\n\nich finde, dass gemeinschaftliche Wohnprojekte für ältere Menschen eine gute Möglichkeit sein können, selbstständig und zugleich nicht allein zu leben. Besonders vorteilhaft ist der tägliche Kontakt zu anderen Bewohnerinnen und Bewohnern. Man kann gemeinsam kochen, sich bei kleinen Aufgaben helfen und Erfahrungen austauschen. Auch ein gemeinsamer Aufenthaltsraum oder Garten schafft Begegnungen. Trotzdem braucht jede Person einen privaten Rückzugsort. Unterschiedliche Gewohnheiten können zu Konflikten führen, wenn Regeln und Aufgaben nicht klar abgesprochen werden. Außerdem muss die Wohnung barrierefrei und für die Bewohner bezahlbar sein.\n\nEin Beispiel dafür habe ich bei einer Bekannten gesehen, deren Mutter in ein Mehrgenerationenhaus gezogen ist. Dort wohnen ältere und jüngere Menschen zusammen, aber jede Familie hat eine eigene Wohnung. Die Nachbarn helfen einander, ohne dass jemand ständig betreut wird. Für die Mutter wurde es dadurch leichter, aktiv zu bleiben und neue Kontakte zu knüpfen.\n\nInsgesamt überwiegen für mich die Vorteile, wenn das Projekt sorgfältig geplant wird. Interessierte sollten vor dem Einzug gemeinsame Regeln festlegen und die Kosten transparent besprechen. So kann eine Gemeinschaft entstehen, in der alle ihre Selbstständigkeit bewahren.\n\nViele Grüße\nEmely",
+   "kind": "message",
+   "minWords": 150,
+   "formal": false
+  },
+  {
+   "id": "b2-m9",
+   "level": "B2",
+   "title": {
+    "tr": "Resmî e-posta: Küf ve nem şikâyeti",
+    "en": "Formal Email: Complaint About Damp and Mold"
+   },
+   "prompt": "Sie wohnen seit mehreren Monaten in Ihrer Wohnung und haben Feuchtigkeit sowie Schimmel entdeckt. Schreiben Sie Ihrer Vermieterin oder Ihrem Vermieter. Beschreiben Sie das Problem und seine Folgen, bitten Sie um eine Reparatur und schlagen Sie einen Termin vor.",
+   "help": {
+    "tr": "Nem ve küfün nerede olduğunu ve ne zamandır sürdüğünü anlat; sağlık veya eşya üzerindeki etkisini belirt, onarım ve randevu iste.",
+    "en": "Describe where and how long the damp and mold have been present, explain the effects, and request repairs and an appointment."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Sorunun nedeni",
+      "en": "Cause of the problem"
+     },
+     "say": "Seit einigen Wochen …",
+     "keys": [
+      "seit einigen wochen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Ayrıntı",
+      "en": "Details"
+     },
+     "say": "Besonders betroffen ist …",
+     "keys": [
+      "besonders betroffen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Talep",
+      "en": "Request"
+     },
+     "say": "Ich bitte Sie daher, …",
+     "keys": [
+      "ich bitte sie daher"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Süre ve öneri",
+      "en": "Timing and suggestion"
+     },
+     "say": "Bitte schlagen Sie … vor.",
+     "keys": [
+      "einen termin"
+     ]
+    }
+   ],
+   "sample": "Sehr geehrte Frau Schneider,\n\nseit einigen Wochen bemerke ich Feuchtigkeit und dunkle Flecken an der Wand im Schlafzimmer. Besonders betroffen ist die Ecke neben dem Fenster. Obwohl ich regelmäßig lüfte und heize, wird die Stelle größer. Inzwischen riecht der Raum unangenehm, und ich mache mir Sorgen, dass sich der Schimmel weiter ausbreitet.\n\nIch bitte Sie daher, die Ursache fachgerecht prüfen und den Schaden beseitigen zu lassen. Bitte lassen Sie auch kontrollieren, ob Wasser durch das Fenster oder die Außenwand eindringt. Ich habe Fotos gemacht und kann sie Ihnen bei Bedarf zusenden.\n\nDa ich werktags ab 16 Uhr zu Hause bin, könnte ein Handwerker in diesem Zeitraum kommen. Bitte nennen Sie mir einen Termin innerhalb der nächsten Woche und bestätigen Sie kurz, wie weiter verfahren wird.\n\nMit freundlichen Grüßen\nEmely Yılmaz",
+   "kind": "message",
+   "minWords": 100,
+   "formal": true
+  },
+  {
+   "id": "b2-m10",
+   "level": "B2",
+   "title": {
+    "tr": "Resmî e-posta: Dil kursunun iptali",
+    "en": "Formal Email: Cancellation of a Language Course"
+   },
+   "prompt": "Sie haben einen Sprachkurs gebucht, können aber wegen einer Änderung Ihrer beruflichen Situation nicht teilnehmen. Schreiben Sie der Sprachschule. Erklären Sie den Grund, nennen Sie die Kursdaten, bitten Sie um Stornierung und Rückerstattung und schlagen Sie eine Frist für die Antwort vor.",
+   "help": {
+    "tr": "İş durumundaki değişikliği açıkla; kurs tarihlerini ver, kaydın iptalini ve ücret iadesini iste, yanıt için makul bir süre belirt.",
+    "en": "Explain the change at work, give the course dates, request cancellation and a refund, and set a reasonable response deadline."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Neden",
+      "en": "Reason"
+     },
+     "say": "Aufgrund einer beruflichen Veränderung …",
+     "keys": [
+      "aufgrund einer beruflichen veränderung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Kurs bilgileri",
+      "en": "Course details"
+     },
+     "say": "Ich habe mich für … angemeldet.",
+     "keys": [
+      "für den kurs"
+     ]
+    },
+    {
+     "label": {
+      "tr": "İptal ve iade talebi",
+      "en": "Cancellation and refund request"
+     },
+     "say": "Ich bitte Sie um …",
+     "keys": [
+      "um stornierung und rückerstattung"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Süre",
+      "en": "Deadline"
+     },
+     "say": "Über eine Rückmeldung bis … würde ich mich freuen.",
+     "keys": [
+      "bis ende der woche"
+     ]
+    }
+   ],
+   "sample": "Sehr geehrte Damen und Herren,\n\naufgrund einer beruflichen Veränderung kann ich an dem B2-Abendkurs, der am 15. Mai beginnt, leider nicht teilnehmen. Ich habe mich für den Kurs im März angemeldet und die Kursgebühr bereits vollständig überwiesen. Mein Arbeitgeber hat meinen Dienstplan kurzfristig geändert, sodass ich künftig an den Kursabenden arbeiten muss.\n\nIch bitte Sie um Stornierung und Rückerstattung der bereits gezahlten Gebühr. Falls eine vollständige Rückzahlung laut Ihren Teilnahmebedingungen nicht möglich ist, teilen Sie mir bitte mit, welcher Betrag einbehalten würde. Als Nachweis kann ich Ihnen auf Wunsch eine Bestätigung meines Arbeitgebers zukommen lassen.\n\nBitte bestätigen Sie den Eingang meiner Nachricht und informieren Sie mich über die nächsten Schritte. Über eine Rückmeldung bis Ende der Woche würde ich mich freuen, damit ich meine weiteren Termine planen kann.\n\nMit freundlichen Grüßen\nEmely Yılmaz",
+   "kind": "message",
+   "minWords": 100,
+   "formal": true
+  },
+  {
+   "id": "b2-m11",
+   "level": "B2",
+   "title": {
+    "tr": "Resmî e-posta: Bir haftalık ücretsiz izin",
+    "en": "Formal Email: One Week of Unpaid Leave"
+   },
+   "prompt": "Sie möchten aus einem wichtigen persönlichen Grund eine Woche unbezahlten Urlaub nehmen. Schreiben Sie Ihrer Chefin oder Ihrem Chef. Erläutern Sie kurz den Grund, nennen Sie den gewünschten Zeitraum, erklären Sie die Übergabe Ihrer Aufgaben und bitten Sie um eine Rückmeldung.",
+   "help": {
+    "tr": "Kişisel gerekçeni ölçülü biçimde açıkla; tarihleri belirt, işlerin nasıl devredileceğini anlat ve onay iste.",
+    "en": "Briefly explain your personal reason, give the dates, describe the handover plan, and request approval."
+   },
+   "points": [
+    {
+     "label": {
+      "tr": "Gerekçe",
+      "en": "Reason"
+     },
+     "say": "Aus persönlichen Gründen …",
+     "keys": [
+      "aus persönlichen gründen"
+     ]
+    },
+    {
+     "label": {
+      "tr": "İzin dönemi",
+      "en": "Leave dates"
+     },
+     "say": "Ich möchte vom … bis …",
+     "keys": [
+      "vom 10. bis 14. juni"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Devir planı",
+      "en": "Handover plan"
+     },
+     "say": "Die laufenden Aufgaben …",
+     "keys": [
+      "die laufenden aufgaben"
+     ]
+    },
+    {
+     "label": {
+      "tr": "Talep ve yanıt",
+      "en": "Request and response"
+     },
+     "say": "Ich bitte Sie um …",
+     "keys": [
+      "um ihre zustimmung"
+     ]
+    }
+   ],
+   "sample": "Sehr geehrte Frau Weber,\n\naus persönlichen Gründen möchte ich vom 10. bis 14. Juni eine Woche unbezahlten Urlaub nehmen. In diesem Zeitraum muss ich meine Mutter bei einem geplanten Umzug unterstützen. Ich habe die Termine bereits mit meiner Familie abgestimmt und kann die Reise nicht verschieben.\n\nDie laufenden Aufgaben werde ich vor meiner Abwesenheit möglichst abschließen. Für das Projekt Rheinblick bereite ich eine ausführliche Übergabe vor und bespreche offene Punkte mit meinem Kollegen Herrn Meier. Er hat bereits zugesagt, dringende Rückfragen zu übernehmen. Außerdem aktualisiere ich die Projektübersicht, damit das Team jederzeit den aktuellen Stand einsehen kann.\n\nIch bitte Sie um Ihre Zustimmung zu diesem Zeitraum. Sollte die vollständige Woche betrieblich schwierig sein, bin ich bereit, über eine alternative Lösung zu sprechen. Bitte geben Sie mir bis zum 20. Mai Bescheid, damit ich die Betreuung verbindlich organisieren kann.\n\nMit freundlichen Grüßen\nEmely Yılmaz",
+   "kind": "message",
+   "minWords": 100,
    "formal": true
   }
  ]

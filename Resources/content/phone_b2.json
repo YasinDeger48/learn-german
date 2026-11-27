@@ -1304,7 +1304,12 @@
      "lemma": "begründen",
      "art": null,
      "tr": "gerekçelendirilmiş",
-     "en": "justified"
+     "en": "justified",
+     "es": "justificó",
+     "fr": "a justifié",
+     "it": "giustificato",
+     "ku": "sedem nîşan da",
+     "ar": "برّر"
     }
    ],
    "questions": [
@@ -1519,7 +1524,12 @@
      "lemma": "Beleg",
      "art": "der",
      "tr": "belge, makbuz",
-     "en": "receipt"
+     "en": "receipt",
+     "es": "recibo; ticket",
+     "fr": "reçu, ticket de caisse",
+     "it": "scontrino",
+     "ku": "makbuz, fiş",
+     "ar": "إيصال"
     }
    ],
    "questions": [
@@ -2869,7 +2879,12 @@
      "extra": null,
      "mean": {
       "tr": "gerekçelendirilmiş",
-      "en": "justified"
+      "en": "justified",
+      "es": "justificó",
+      "fr": "a justifié",
+      "it": "giustificato",
+      "ku": "sedem nîşan da",
+      "ar": "برّر"
      }
     }
    ],
@@ -3089,7 +3104,12 @@
      "extra": null,
      "mean": {
       "tr": "belge, makbuz",
-      "en": "receipt"
+      "en": "receipt",
+      "es": "recibo; ticket",
+      "fr": "reçu, ticket de caisse",
+      "it": "scontrino",
+      "ku": "makbuz, fiş",
+      "ar": "إيصال"
      }
     }
    ],
