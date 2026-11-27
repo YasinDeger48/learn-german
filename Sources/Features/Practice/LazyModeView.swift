@@ -624,7 +624,7 @@ struct LazyPlayerView: View {
                 LinaAvatar(size: 38, mood: .calm)
                 VStack(alignment: .leading, spacing: 2) {
                     // The word this block is about, and which of its slides this is.
-                    Text(card?.focus ?? t("lazy.title")).font(.system(size: 17, weight: .heavy)).foregroundColor(Self.ink).lineLimit(1)
+                    Text(topTitle).font(.system(size: 17, weight: .heavy)).foregroundColor(Self.ink).lineLimit(1)
                     HStack(spacing: 4) {
                         if let card, card.steps > 1 {
                             ForEach(0..<card.steps, id: \.self) { step in
@@ -645,6 +645,12 @@ struct LazyPlayerView: View {
         }
         .padding(.horizontal, 16)
         .padding(.top, 14)
+    }
+
+    /// The word of this block; on an article question only the noun until the answer shows (it gave it away).
+    private var topTitle: String {
+        if let slide, case .article(let word, _) = slide, !revealed { return word.de }
+        return card?.focus ?? t("lazy.title")
     }
 
     private var statusLine: String {
@@ -1089,7 +1095,8 @@ struct LazyPlayerView: View {
     private func togglePlay() {
         playing.toggle()
         if playing {
-            if !narrationEnded, let slide { narrate(slide.lines) }
+            // Not before the answer shows on article and plural questions (reading it would give it away).
+            if !narrationEnded, let slide, !(slide.readsAtReveal && !revealed) { narrate(slide.lines) }
         } else {
             A1Speaker.shared.stop()
         }
