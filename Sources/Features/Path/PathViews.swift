@@ -21,10 +21,10 @@ struct UnitWord: Decodable, Hashable {
     var meaning: String { localText(tr: tr, en: en, es: es, fr: fr, it: it, ku: ku, ar: ar) }
     var full: String { art.map { "\($0) \(de)" } ?? de }
 
-    /// Nouns may have a picture: Resources/Covers (or site covers/) wv-<slug>.jpg, made by tools/vocab_pictures.py.
+    /// A picture: Resources/Covers (or site covers/) wv-<slug>.jpg, made by tools/vocab_pictures.py (nouns) and
+    /// tools/unit_pictures_rest.py (the other words); without a file the card is a letter card.
     /// Same slug rule as there: lower case, ä→ae ö→oe ü→ue ß→ss, other characters become "-".
     var picture: String? {
-        guard art != nil else { return nil }
         var s = de.lowercased()
         for (from, to) in [("ä", "ae"), ("ö", "oe"), ("ü", "ue"), ("ß", "ss")] {
             s = s.replacingOccurrences(of: from, with: to)

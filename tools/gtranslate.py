@@ -36,7 +36,7 @@ USAGE = os.path.join(translate.MEMORY, 'gtranslate_usage.json')
 
 def usage():
     month = datetime.date.today().strftime('%Y-%m')
-    data = json.load(open(USAGE, encoding='utf-8')) if os.path.exists(USAGE) else {}
+    data = json.load(open(USAGE, encoding='utf-8-sig')) if os.path.exists(USAGE) else {}  # tolerate a BOM
     return month, data
 
 
