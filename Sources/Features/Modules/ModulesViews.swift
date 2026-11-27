@@ -221,7 +221,7 @@ struct ModulesHomeView: View {
         ]
         rows.append(AnyView(UnlockGate(feature: .lazy) {
             Button { showLazySetup = true } label: {
-                ModuleRow(icon: "sofa.fill", color: DS.das, title: t("lazy.title"), subtitle: t("lazy.cardSub"), value: nil)
+                ModuleRow(icon: "sofa.fill", color: DS.das, title: t("lazy.title"), subtitle: t("lazy.cardSub", model.level), value: nil)
             }
             .buttonStyle(.plain)
         }))
@@ -255,7 +255,8 @@ struct ModulesHomeView: View {
             rows.append(row(A1Route.mode(.hoeren), "headphones", .orange, A1Mode.hoeren.title, nil))
         }
         if !SongBank.songs(model.level).isEmpty {
-            rows.append(row(A1Route.songs, "music.mic", .orange, t("song.title"), t("song.cardSub"), gate: .songs))
+            rows.append(row(A1Route.songs, "music.mic", .orange, t("song.title"),
+                            t("song.cardSub", SongBank.songs(model.level).count), gate: .songs))
         }
         rows.append(row(A1Route.phone, "phone.fill", .orange, t("phone.title"), nil))
         return rows
