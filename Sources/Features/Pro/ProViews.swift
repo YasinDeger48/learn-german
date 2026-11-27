@@ -148,6 +148,8 @@ struct PaywallView: View {
             Divider().padding(.leading, 42)
             featureRow("chart.bar.fill", .purple, t("pro.feature.levels"))
             Divider().padding(.leading, 42)
+            featureRow("map.fill", .init(red: 0.082, green: 0.478, blue: 0.255), t("pro.feature.units"))
+            Divider().padding(.leading, 42)
             featureRow("nosign", .init(red: 0.784, green: 0.196, blue: 0.227), t("pro.feature.noAds"))
             Divider().padding(.leading, 42)
             featureRow("snowflake", .init(red: 0.36, green: 0.64, blue: 0.92), t("pro.feature.freeze"))
@@ -339,6 +341,8 @@ struct WelcomeProView: View {
                 check(t("pro.feature.noAds"))
                 Divider().padding(.leading, 40)
                 check(t("pro.feature.levels"))
+                Divider().padding(.leading, 40)
+                check(t("pro.feature.units"))
             }
             .padding(.horizontal, 14)
             .padding(.vertical, 4)

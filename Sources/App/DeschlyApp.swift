@@ -230,6 +230,7 @@ extension View {
 
 struct AppDestination: View {
     @EnvironmentObject private var daily: DailyModel
+    @EnvironmentObject private var pro: ProStore
     @EnvironmentObject private var a1: A1Model
     @EnvironmentObject private var levels: LevelModels
     let route: AppRoute
@@ -261,7 +262,14 @@ struct AppDestination: View {
         case .readingHome:
             ReadingHomeView()
         case .unit(let id):
-            if let unit = UnitBank.unit(id) { UnitView(unit: unit).environmentObject(levels.model(unit.level)) }
+            if let unit = UnitBank.unit(id) {
+                // Every way into a unit passes here, so the Pro lock cannot be skipped.
+                if ProLocks.needsPro(unit) && !pro.isPro {
+                    ProLockedUnitView(unit: unit)
+                } else {
+                    UnitView(unit: unit).environmentObject(levels.model(unit.level))
+                }
+            }
         case .examHome:
             ExamHomeView()
         case .memorize:

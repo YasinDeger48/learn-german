@@ -205,6 +205,7 @@ struct UnitPicture: View {
 struct PathView: View {
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var daily: DailyModel
+    @EnvironmentObject private var pro: ProStore
     @State private var level = "A1"
     @State private var levelChosen = false
     @State private var refresh = 0
@@ -390,7 +391,9 @@ struct PathView: View {
         let content = VStack(alignment: .leading, spacing: 0) {
             ZStack(alignment: .topTrailing) {
                 UnitPicture(unit: unit, height: 90, dimmed: !open)
-                if passed {
+                if ProLocks.needsPro(unit) && !pro.isPro {
+                    ProChip().padding(8)
+                } else if passed {
                     Image(systemName: "checkmark")
                         .font(.system(size: 12, weight: .heavy)).foregroundColor(.white)
                         .frame(width: 26, height: 26).background(DS.success, in: Circle()).padding(8)
