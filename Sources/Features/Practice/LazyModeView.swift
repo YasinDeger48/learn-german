@@ -1111,7 +1111,11 @@ struct LazyPlayerView: View {
             revealed = true
             if slide!.readsAtReveal { narrate(slide!.lines) }
         }
-        let doneSpeaking = narrationEnded && !A1Speaker.shared.isSpeaking
+        let audioBusy = A1Speaker.shared.isSpeaking || WordAudio.shared.isPlaying
+        // A reading cut off by something else, or a recording that does not download, never says it ended:
+        // the slide stood still for good. Nothing sounding 3 s after the reading time is up: go on.
+        let stalled = !narrationEnded && !audioBusy && elapsed >= readingTime + 3
+        let doneSpeaking = (narrationEnded && !audioBusy) || stalled
         guard elapsed >= readingTime, doneSpeaking else { return }
         if config.minutes > 0 && watched >= Double(config.minutes) * 60 {
             end()

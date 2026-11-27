@@ -472,4 +472,7 @@ final class WordAudio {
         player?.stop()
         player = nil
     }
+
+    /// A recorded line is sounding right now.
+    var isPlaying: Bool { player?.isPlaying ?? false }
 }
