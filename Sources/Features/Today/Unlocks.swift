@@ -27,15 +27,20 @@ enum Unlocks {
     private static let seenKey = "unlock.seen"
     private static var defaults: UserDefaults { .standard }
 
-    /// Decided once, on the first Today after onboarding.
-    static func decide(level: String) {
+    /// Decided once, the first time any screen asks (all of them come after onboarding), from the learner's level
+    /// (DailyModel's "dailyLevel"), so the very first drawing of Today already shows the locks.
+    private static func decideIfNeeded() {
         guard defaults.object(forKey: beginnerKey) == nil else { return }
+        let level = defaults.string(forKey: "dailyLevel") ?? "A1"
         defaults.set(level.uppercased() == "A1" && StreakStore.shared.state.totalXP == 0, forKey: beginnerKey)
         // What is open from the start is not "new".
         defaults.set(UnlockFeature.allCases.filter { isOpen($0) }.map(\.rawValue), forKey: seenKey)
     }
 
-    static var isBeginner: Bool { defaults.bool(forKey: beginnerKey) }
+    static var isBeginner: Bool {
+        decideIfNeeded()
+        return defaults.bool(forKey: beginnerKey)
+    }
     static var active: Bool { isBeginner && !defaults.bool(forKey: allKey) }
 
     static func openAll() {

@@ -49,7 +49,6 @@ struct TodayView: View {
         }
         .navigationTitle(t("tab.today"))
         .onAppear {
-            Unlocks.decide(level: daily.level)
             levels.active = practiceModel.level
             if appeared { wordRound += 1 }
             appeared = true
