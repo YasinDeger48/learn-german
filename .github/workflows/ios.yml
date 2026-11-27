@@ -72,6 +72,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          # Info.plist names iPhoneOS by hand; for the simulator Xcode would then refuse the embedded widget
+          # ("built for iOS but contains embedded content built for the iOS platform"). Only this runner's copy,
+          # after the IPA: Xcode fills the key itself for each platform.
+          /usr/libexec/PlistBuddy -c "Delete :CFBundleSupportedPlatforms" Info.plist || true
           device=$(xcrun simctl list devices available -j | python3 -c "import json, sys; d = json.load(sys.stdin)['devices']; print(next(x['udid'] for k, v in d.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone')))")
           echo "Simulator $device"
           if ! xcodebuild test \
