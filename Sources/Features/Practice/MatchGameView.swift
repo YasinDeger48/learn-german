@@ -15,7 +15,7 @@ enum MatchMode: String { case meaning, picture }
 private enum MatchSide { case word, answer }
 
 /// Word matching as a game for young and old (design: https://claude.ai/artifact/EqA2vZg3fVHXMn8KMNVnoi):
-/// 5 rounds of 5 pairs, a German word with its meaning or its picture. Lina reacts to every move, right answers in a
+/// Rounds of 5 pairs (the learner picks 10–40 words on the start screen, 25 at first), a German word with its meaning or its picture. Lina reacts to every move, right answers in a
 /// row build a streak that multiplies the points, the end screen shows stars, the round's numbers, XP and new badges
 /// (badge kind `match`). Bright colours in light and dark mode, rounded type, cards that press in like buttons.
 struct MatchGameView: View {
@@ -24,8 +24,11 @@ struct MatchGameView: View {
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     let theme: Int?
 
-    private static let rounds = 5
     private static let pairsPerRound = 5
+    /// Word counts on the start screen; every 5 words are one round.
+    private static let wordCounts = [10, 15, 25, 40]
+    @AppStorage("match.words") private var wordCount = 25
+    private var rounds: Int { max(1, wordCount / Self.pairsPerRound) }
 
     private enum Mood { case start, pick, right, wrong }
 
@@ -69,7 +72,7 @@ struct MatchGameView: View {
             if let result {
                 MatchResultView(result: result, finish: { dismiss() }, again: { newGame() })
                     .transition(.opacity)
-            } else if pictureAvailable && !modeChosen {
+            } else if !modeChosen {
                 chooser.transition(.opacity)
             } else {
                 game
@@ -113,7 +116,7 @@ struct MatchGameView: View {
     private var header: some View {
         HStack {
             HStack(spacing: 5) {
-                ForEach(1...Self.rounds, id: \.self) { index in
+                ForEach(1...rounds, id: \.self) { index in
                     Image(systemName: "star.fill")
                         .font(.system(size: 19))
                         .foregroundColor(index < round ? DS.gold
@@ -121,7 +124,7 @@ struct MatchGameView: View {
                 }
             }
             .accessibilityElement(children: .ignore)
-            .accessibilityLabel(t("match.round", round, Self.rounds))
+            .accessibilityLabel(t("match.round", round, rounds))
             Spacer()
             Text("\(score)")
                 .font(.system(size: 16, weight: .heavy, design: .rounded).monospacedDigit())
@@ -266,14 +269,40 @@ struct MatchGameView: View {
                     .font(.system(size: 24, weight: .heavy, design: .rounded))
                     .foregroundColor(Self.ink)
                     .multilineTextAlignment(.center)
+                countPicker
                 modeChoice(.meaning, icon: "character.bubble.fill", title: t("match.mode.meaning"), sub: t("match.chooseMeaning"),
                            color: Color(red: 0.36, green: 0.55, blue: 0.96))
-                modeChoice(.picture, icon: "photo.fill", title: t("match.mode.picture"), sub: t("match.choosePicture"),
-                           color: Color(red: 1, green: 0.48, blue: 0.27))
+                if pictureAvailable {
+                    modeChoice(.picture, icon: "photo.fill", title: t("match.mode.picture"), sub: t("match.choosePicture"),
+                               color: Color(red: 1, green: 0.48, blue: 0.27))
+                }
             }
             .padding(.horizontal, 20)
             .padding(.bottom, 24)
         }
+    }
+
+    /// How many words this game: 10, 15, 25 or 40 (kept for the next game).
+    private var countPicker: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text(t("match.chooseCount")).font(.system(size: 15, weight: .heavy, design: .rounded)).foregroundColor(Self.ink)
+            HStack(spacing: 8) {
+                ForEach(Self.wordCounts, id: \.self) { n in
+                    let on = n == wordCount
+                    Button { wordCount = n } label: {
+                        Text("\(n)").font(.system(size: 17, weight: .heavy, design: .rounded).monospacedDigit())
+                            .foregroundColor(Self.ink)
+                            .frame(maxWidth: .infinity, minHeight: 48)
+                            .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(on ? DS.gold : Color.white))
+                            .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).stroke(on ? Color.clear : Self.edge, lineWidth: 1.5))
+                    }
+                    .buttonStyle(.pressable)
+                    .accessibilityLabel(t("match.countLabel", n))
+                    .accessibilityAddTraits(on ? .isSelected : [])
+                }
+            }
+        }
+        .padding(.bottom, 4)
     }
 
     private func modeChoice(_ value: MatchMode, icon: String, title: String, sub: String, color: Color) -> some View {
@@ -376,7 +405,7 @@ struct MatchGameView: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.9) { if gainID == pair.id { withAnimation { gainID = nil } } }
         if done.count == pairs.count {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
-                if round < Self.rounds {
+                if round < rounds {
                     round += 1
                     newRound()
                 } else {
@@ -450,6 +479,7 @@ struct MatchGameView: View {
         }
         let defaults = UserDefaults.standard
         defaults.set(defaults.integer(forKey: BadgeStore.matchGamesKey) + 1, forKey: BadgeStore.matchGamesKey)
+        BadgeStore.countGame()
         BadgeStore.shared.refresh()
         let badges = BadgeStore.shared.takePending()
         let stars = errors == 0 ? 3 : (errors <= 3 ? 2 : 1)

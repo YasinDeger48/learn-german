@@ -74,10 +74,16 @@ struct WordRunView: View {
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private enum Phase { case arriving, waiting, jumping, stumbling, finished }
-    private static let boxes = 10
+    /// Box counts to choose from before the run.
+    private static let counts = [5, 10, 15, 20]
     private static let speed: Double = 170          // points per second on the near layer
 
     @State private var questions: [RunQuestion] = []
+    /// Before the run: which words (all of the level or the learner's pool) and how many boxes.
+    @State private var choosing = true
+    @AppStorage("run.usePool") private var usePool = false
+    @AppStorage("run.count") private var chosenCount = 10
+    @State private var boxes = 10
     @State private var index = 0
     @State private var phase: Phase = .arriving
     @State private var distanceBase: Double = 0
@@ -105,7 +111,9 @@ struct WordRunView: View {
     var body: some View {
         ZStack {
             Color(red: 0.992, green: 0.973, blue: 0.918).ignoresSafeArea()
-            if questions.isEmpty {
+            if choosing {
+                setup
+            } else if questions.isEmpty {
                 ProgressView()
             } else {
                 VStack(spacing: 0) {
@@ -118,8 +126,100 @@ struct WordRunView: View {
         .environment(\.colorScheme, .light)
         .navigationTitle(t("run.title"))
         .navigationBarTitleDisplayMode(.inline)
-        .onAppear(perform: start)
         .onDisappear { A1Speaker.shared.stop() }
+    }
+
+    // MARK: Setup
+
+    /// Every word with a picture in the level (wrong options always come from here).
+    private var levelItems: [WordPictureBank.Item] { WordPictureBank.items(level: model.level, content: model.content) }
+
+    /// The pictured words of the learner's pool (Kelimelerim → Havuzum; level words have the id "w<word id>").
+    private var poolItems: [WordPictureBank.Item] {
+        let pool = LazyPool.ids(model.level)
+        return levelItems.filter { $0.id.hasPrefix("w") && pool.contains(Int($0.id.dropFirst()) ?? -1) }
+    }
+
+    private var setup: some View {
+        let all = levelItems
+        let mine = poolItems
+        let fromPool = usePool && !mine.isEmpty
+        let counts = countChoices(fromPool ? mine.count : all.count)
+        let selected = boxCount(counts)
+        return ScrollView {
+            VStack(alignment: .leading, spacing: 14) {
+                if let image = RunArt.run.first {
+                    Image(uiImage: image).resizable().scaledToFit().frame(height: 150)
+                        .frame(maxWidth: .infinity).accessibilityHidden(true)
+                }
+                Text(t("run.setupWhich")).font(.system(size: 15, weight: .heavy, design: .rounded)).foregroundColor(Self.ink)
+                VStack(spacing: 8) {
+                    sourceRow(false, title: t("run.setupLevel", model.level), sub: t("run.setupLevelSub", all.count), enabled: true)
+                    sourceRow(true, title: t("run.setupPool"),
+                              sub: mine.isEmpty ? t("run.setupPoolEmpty") : t("run.setupPoolSub", mine.count), enabled: !mine.isEmpty)
+                }
+                Text(t("run.setupCount")).font(.system(size: 15, weight: .heavy, design: .rounded)).foregroundColor(Self.ink)
+                    .padding(.top, 6)
+                HStack(spacing: 8) {
+                    ForEach(counts, id: \.self) { n in
+                        let on = n == selected
+                        Button { chosenCount = n } label: {
+                            Text("\(n)").font(.system(size: 17, weight: .heavy, design: .rounded).monospacedDigit())
+                                .foregroundColor(Self.ink)
+                                .frame(maxWidth: .infinity, minHeight: 48)
+                                .background(on ? DS.gold : Color.white, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                                .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous)
+                                    .stroke(on ? Color.clear : Color.black.opacity(0.08)))
+                        }
+                        .buttonStyle(.pressable)
+                        .accessibilityAddTraits(on ? .isSelected : [])
+                    }
+                }
+                Button { restart() } label: {
+                    Text(t("run.setupStart")).font(.system(size: 17, weight: .heavy, design: .rounded)).foregroundColor(Self.ink)
+                        .frame(maxWidth: .infinity, minHeight: 56)
+                        .background(DS.gold, in: Capsule())
+                }
+                .buttonStyle(.pressable)
+                .disabled(all.count < 4)
+                .padding(.top, 10)
+            }
+            .padding(.horizontal, DS.gutter)
+            .padding(.vertical, 12)
+        }
+    }
+
+    /// 5, 10, 15, 20 as far as there are words; fewer than 5 words: just that number.
+    private func countChoices(_ available: Int) -> [Int] {
+        let fitting = Self.counts.filter { $0 <= available }
+        return fitting.isEmpty ? [max(1, available)] : fitting
+    }
+
+    /// The chosen count, or the biggest one that fits.
+    private func boxCount(_ counts: [Int]) -> Int { counts.contains(chosenCount) ? chosenCount : (counts.last ?? 10) }
+
+    private func sourceRow(_ pool: Bool, title: String, sub: String, enabled: Bool) -> some View {
+        let on = enabled && (usePool == pool)
+        return Button { usePool = pool } label: {
+            HStack(spacing: 12) {
+                Image(systemName: on ? "largecircle.fill.circle" : "circle")
+                    .font(.system(size: 22)).foregroundColor(on ? DS.goldDeep : Self.soft)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(title).font(.system(size: 16, weight: .bold, design: .rounded)).foregroundColor(Self.ink)
+                    Text(sub).font(.system(size: 13, design: .rounded)).foregroundColor(Self.soft)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                Spacer(minLength: 0)
+            }
+            .padding(14)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Color.white, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(on ? DS.gold : Color.black.opacity(0.06), lineWidth: on ? 2 : 1))
+            .opacity(enabled ? 1 : 0.55)
+        }
+        .buttonStyle(.plain)
+        .disabled(!enabled)
+        .accessibilityAddTraits(on ? .isSelected : [])
     }
 
     // MARK: Scene
@@ -229,14 +329,14 @@ struct WordRunView: View {
         HStack(spacing: 12) {
             HStack(spacing: 5) {
                 Image(systemName: "shippingbox.fill").font(.system(size: 13, weight: .bold)).foregroundColor(DS.gold)
-                Text("\(done)/\(Self.boxes)").font(.system(size: 15, weight: .heavy, design: .rounded).monospacedDigit())
+                Text("\(done)/\(boxes)").font(.system(size: 15, weight: .heavy, design: .rounded).monospacedDigit())
                     .foregroundColor(.white)
             }
             GeometryReader { proxy in
-                let fraction = CGFloat(done) / CGFloat(Self.boxes)
+                let fraction = CGFloat(done) / CGFloat(boxes)
                 ZStack(alignment: .leading) {
                     HStack(spacing: 3) {
-                        ForEach(0..<Self.boxes, id: \.self) { step in
+                        ForEach(0..<boxes, id: \.self) { step in
                             Capsule()
                                 .fill(step < done ? AnyShapeStyle(LinearGradient(colors: [Color(red: 1, green: 0.88, blue: 0.54), DS.gold],
                                                                                  startPoint: .top, endPoint: .bottom))
@@ -263,7 +363,7 @@ struct WordRunView: View {
             .padding(.trailing, 14)
             .animation(.spring(response: 0.5, dampingFraction: 0.8), value: done)
             .accessibilityElement(children: .ignore)
-            .accessibilityLabel(t("run.boxes", done, Self.boxes))
+            .accessibilityLabel(t("run.boxes", done, boxes))
             HStack(spacing: 4) {
                 Image(systemName: "star.fill").font(.system(size: 12, weight: .bold))
                 Text("\(score)").font(.system(size: 15, weight: .heavy, design: .rounded).monospacedDigit())
@@ -419,7 +519,7 @@ struct WordRunView: View {
                 }
                 VStack(spacing: 6) {
                     Text("Ziel erreicht!").font(.system(size: 30, weight: .heavy, design: .rounded)).foregroundColor(Self.ink)
-                    Text(t("run.finishSub", Self.boxes, score, max(1, bestStreak)))
+                    Text(t("run.finishSub", boxes, score, max(1, bestStreak)))
                         .font(.system(size: 15, design: .rounded)).foregroundColor(Self.soft).multilineTextAlignment(.center)
                     HStack(spacing: 10) {
                         Button { dismiss() } label: {
@@ -464,15 +564,15 @@ struct WordRunView: View {
         }
     }
 
-    private func start() {
-        guard questions.isEmpty else { return }
-        restart()
-    }
-
+    /// Starts a run with the choices of the setup ("Again" keeps them).
     private func restart() {
-        let pool = WordPictureBank.items(level: model.level, content: model.content)
+        let pool = levelItems
         guard pool.count >= 4 else { return }
-        questions = pool.shuffled().prefix(Self.boxes).map { item in
+        let mine = poolItems
+        let targets = usePool && !mine.isEmpty ? mine : pool
+        boxes = boxCount(countChoices(targets.count))
+        choosing = false
+        questions = targets.shuffled().prefix(boxes).map { item in
             let others = pool.filter { $0.id != item.id }.shuffled().prefix(3)
             return RunQuestion(item: item, options: ([item] + others).shuffled())
         }
@@ -532,7 +632,7 @@ struct WordRunView: View {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.95) {
                 rightID = nil
                 gain = ""
-                if done >= Self.boxes {
+                if done >= boxes {
                     setMoving(false)
                     finish()
                 } else {
@@ -559,6 +659,7 @@ struct WordRunView: View {
     }
 
     private func finish() {
+        BadgeStore.countGame()
         StreakStore.shared.record()
         StreakStore.shared.addXP(max(5, score / 10))
         withAnimation(.easeOut(duration: 0.3)) { phase = .finished }

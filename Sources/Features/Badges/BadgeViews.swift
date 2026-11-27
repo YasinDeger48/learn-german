@@ -54,7 +54,7 @@ struct BadgesView: View {
     }
 
     private var page: some View {
-        let values = Dictionary(uniqueKeysWithValues: [Badge.Kind.welcome, .streak, .xp, .correct, .perfect, .reading, .goal, .match, .song, .fixed]
+        let values = Dictionary(uniqueKeysWithValues: [Badge.Kind.welcome, .streak, .xp, .correct, .perfect, .reading, .goal, .match, .song, .fixed, .games]
             .map { ($0, badges.value($0)) })
         return ScrollView {
                 VStack(alignment: .leading, spacing: 14) {

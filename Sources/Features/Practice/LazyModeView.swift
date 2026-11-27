@@ -1144,6 +1144,7 @@ struct LazyPlayerView: View {
 
     private func end() {
         A1Speaker.shared.stop()
+        BadgeStore.countGame()
         StreakStore.shared.record()
         StreakStore.shared.addXP(max(5, slidesSeen / 3))
         withAnimation { finished = true }

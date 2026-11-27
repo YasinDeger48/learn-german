@@ -590,6 +590,7 @@ private struct FindGamePane: View {
         hint = false
         round += 1
         if round >= targets.count, found.contains(true) {
+            BadgeStore.countGame()
             StreakStore.shared.record()
             StreakStore.shared.addXP(found.filter { $0 }.count * 5)
         }
