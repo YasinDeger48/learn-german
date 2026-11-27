@@ -67,10 +67,23 @@ private struct ProWordmark: View {
 
 /// The Deschly Pro offer: features, plan choice with App Store prices, trial, restore and legal links.
 /// After a purchase the same sheet shows the welcome screen.
+/// The preview IPA (CI sets DeschlyPreviewPrices in its Info.plist): sample prices when the store has none.
+enum ProPreview {
+    static let enabled = Bundle.main.object(forInfoDictionaryKey: "DeschlyPreviewPrices") as? Bool ?? false
+    static let monthly = "4,99 $"
+    static let yearly = "29,99 $"
+    static let yearlyPerMonth = "2,49 $"
+    static let lifetime = "59,99 $"
+    static let trialDays = 7
+    static let saving = 50
+}
+
 struct PaywallView: View {
     @EnvironmentObject private var pro: ProStore
     @Environment(\.dismiss) private var dismiss
     @State private var selected = ProProduct.yearly
+    /// The store has no products and this is the preview IPA: sample prices are shown.
+    private var previewing: Bool { pro.products.isEmpty && !pro.loading && ProPreview.enabled }
 
     var body: some View {
         Group {
@@ -182,6 +195,14 @@ struct PaywallView: View {
                 .foregroundColor(DS.success)
                 .frame(maxWidth: .infinity, minHeight: 56)
                 .background(DS.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        } else if previewing {
+            yearlyCard(ProProduct.yearly, price: ProPreview.yearly,
+                       note: t("pro.trialThen", ProPreview.trialDays, ProPreview.yearlyPerMonth), saving: ProPreview.saving)
+            HStack(spacing: 10) {
+                smallCard(ProProduct.monthly, t("pro.monthly"), t("pro.perMonth", ProPreview.monthly))
+                smallCard(ProProduct.lifetime, t("pro.lifetime"), t("pro.once", ProPreview.lifetime))
+            }
+            Text(t("pro.previewNote")).font(.caption).foregroundColor(DS.muted).multilineTextAlignment(.center)
         } else if pro.products.isEmpty {
             HStack(spacing: 10) {
                 if pro.loading { ProgressView() }
@@ -190,27 +211,30 @@ struct PaywallView: View {
             .frame(maxWidth: .infinity, minHeight: 72)
             .background(DS.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
         } else {
-            if let yearly = pro.product(ProProduct.yearly) { yearlyCard(yearly) }
+            if let yearly = pro.product(ProProduct.yearly) {
+                yearlyCard(yearly.id, price: yearly.displayPrice, note: yearlyNote, saving: pro.yearlySaving)
+            }
             HStack(spacing: 10) {
                 if let monthly = pro.product(ProProduct.monthly) {
-                    smallCard(monthly, t("pro.monthly"), t("pro.perMonth", monthly.displayPrice))
+                    smallCard(monthly.id, t("pro.monthly"), t("pro.perMonth", monthly.displayPrice))
                 }
                 if let lifetime = pro.product(ProProduct.lifetime) {
-                    smallCard(lifetime, t("pro.lifetime"), t("pro.once", lifetime.displayPrice))
+                    smallCard(lifetime.id, t("pro.lifetime"), t("pro.once", lifetime.displayPrice))
                 }
             }
         }
     }
 
-    private func yearlyCard(_ product: Product) -> some View {
-        let isOn = selected == product.id
-        let note: String = {
-            if let days = pro.trialDays, let perMonth = pro.yearlyPerMonth { return t("pro.trialThen", days, perMonth) }
-            if let perMonth = pro.yearlyPerMonth { return t("pro.perMonthOnly", perMonth) }
-            return ""
-        }()
+    private var yearlyNote: String {
+        if let days = pro.trialDays, let perMonth = pro.yearlyPerMonth { return t("pro.trialThen", days, perMonth) }
+        if let perMonth = pro.yearlyPerMonth { return t("pro.perMonthOnly", perMonth) }
+        return ""
+    }
+
+    private func yearlyCard(_ id: String, price: String, note: String, saving: Int?) -> some View {
+        let isOn = selected == id
         return Button {
-            selected = product.id
+            selected = id
         } label: {
             HStack(spacing: 12) {
                 radio(isOn)
@@ -222,7 +246,7 @@ struct PaywallView: View {
                 }
                 Spacer(minLength: 8)
                 VStack(alignment: .trailing, spacing: 0) {
-                    Text(product.displayPrice).font(.system(size: 16, weight: .bold)).foregroundColor(DS.ink)
+                    Text(price).font(.system(size: 16, weight: .bold)).foregroundColor(DS.ink)
                     Text(t("pro.perYearShort")).font(.caption).foregroundColor(DS.muted)
                 }
             }
@@ -232,7 +256,7 @@ struct PaywallView: View {
             .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous)
                 .stroke(isOn ? DS.accent : DS.hairline, lineWidth: isOn ? 2 : 1))
             .overlay(alignment: .topTrailing) {
-                if let saving = pro.yearlySaving {
+                if let saving {
                     Text(t("pro.save", saving))
                         .font(.system(size: 11, weight: .heavy))
                         .foregroundColor(DS.onGold)
@@ -248,10 +272,10 @@ struct PaywallView: View {
         .accessibilityAddTraits(isOn ? .isSelected : [])
     }
 
-    private func smallCard(_ product: Product, _ title: String, _ price: String) -> some View {
-        let isOn = selected == product.id
+    private func smallCard(_ id: String, _ title: String, _ price: String) -> some View {
+        let isOn = selected == id
         return Button {
-            selected = product.id
+            selected = id
         } label: {
             VStack(alignment: .leading, spacing: 2) {
                 Text(title).font(.system(size: 15, weight: .bold)).foregroundColor(DS.ink)
@@ -281,10 +305,11 @@ struct PaywallView: View {
     @ViewBuilder private var footer: some View {
         if !pro.isPro {
             let product = pro.product(selected)
-            let trial = selected == ProProduct.yearly ? pro.trialDays : nil
+            let trial = selected == ProProduct.yearly ? (previewing ? ProPreview.trialDays : pro.trialDays) : nil
             VStack(spacing: 8) {
                 Button {
                     if let product { Task { await pro.buy(product) } }
+                    else if previewing { pro.message = t("pro.previewTap") }
                 } label: {
                     Group {
                         if pro.busy {
@@ -298,7 +323,7 @@ struct PaywallView: View {
                     .frame(maxWidth: .infinity, minHeight: 54)
                     .background(DS.accent, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                 }
-                .disabled(product == nil || pro.busy)
+                .disabled((product == nil && !previewing) || pro.busy)
                 Text(selected == ProProduct.lifetime ? t("pro.legalLifetime")
                      : (trial == nil ? "" : t("pro.legalTrial") + " ") + t("pro.legal"))
                     .font(.caption)

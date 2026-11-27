@@ -487,6 +487,8 @@
  "workbook.verb": "Fiil",
  "workbook.words": "Kelimeler",
  "pro.subtitle": "Sınavına hazırlan. Sınırsız alıştırma, reklam yok.",
+ "pro.previewNote": "Önizleme: örnek fiyatlar. Gerçek fiyatlar App Store'dan gelir.",
+ "pro.previewTap": "Bu bir önizleme. Satın alma, ürünler App Store Connect'te tanımlanınca çalışır.",
  "offer.streakTitle": "Bir haftadır her gün buradasın!",
  "offer.streakBody": "Böyle devam edenler için Deschly Pro: bütün üniteler, adına sertifika, sınırsız alıştırma ve reklamsız.",
  "offer.streakButton": "Pro'ya göz at",

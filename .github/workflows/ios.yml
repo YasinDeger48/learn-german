@@ -66,6 +66,8 @@ jobs:
           rm -rf pro && mkdir -p pro/Payload
           cp -R "$app" pro/Payload/
           /usr/libexec/PlistBuddy -c "Set :DeschlyFreeForAll false" pro/Payload/Almanca.app/Info.plist
+          # Sample prices on the paywall while App Store Connect has no products (ProPreview in ProViews.swift).
+          /usr/libexec/PlistBuddy -c "Add :DeschlyPreviewPrices bool true" pro/Payload/Almanca.app/Info.plist
           (cd pro && ditto -c -k --keepParent Payload ../Deschly-Pro-Reklam.ipa)
           unzip -t Deschly-Pro-Reklam.ipa > /dev/null
           du -h Deschly-Pro-Reklam.ipa
