@@ -78,8 +78,8 @@ struct ProfileAvatarView: View {
     var body: some View {
         ZStack {
             if let character = ProfileStore.avatar(avatar) {
-                Circle().fill(character.color)
-                Text(character.emoji).font(.system(size: size * 0.48))
+                // Just the character, big, no circle behind it (owner's wish).
+                Text(character.emoji).font(.system(size: size * 0.86))
             } else if let photo {
                 Image(uiImage: photo).resizable().scaledToFill().frame(width: size, height: size).clipShape(Circle())
             } else {
@@ -92,8 +92,8 @@ struct ProfileAvatarView: View {
             }
         }
         .frame(width: size, height: size)
-        .overlay(Circle().stroke(DS.surface, lineWidth: 4))
-        .shadow(color: .black.opacity(0.18), radius: 8, y: 5)
+        .overlay(Circle().stroke(DS.surface, lineWidth: ProfileStore.avatar(avatar) == nil ? 4 : 0))
+        .shadow(color: .black.opacity(ProfileStore.avatar(avatar) == nil ? 0.18 : 0), radius: 8, y: 5)
         .overlay(alignment: .topTrailing) {
             if showEdit {
                 Image(systemName: "pencil").font(.system(size: 12, weight: .bold)).foregroundColor(DS.onGold)
@@ -151,11 +151,12 @@ struct ProfilePictureSheet: View {
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 12), count: 4), spacing: 12) {
                         ForEach(ProfileStore.avatars) { character in
                             Button { avatar = character.id } label: {
-                                Text(character.emoji).font(.system(size: 30))
+                                // Big, no background; the chosen one sits on a soft gold circle.
+                                Text(character.emoji).font(.system(size: 50))
                                     .frame(maxWidth: .infinity)
                                     .aspectRatio(1, contentMode: .fit)
-                                    .background(character.color, in: Circle())
-                                    .overlay(Circle().stroke(DS.gold, lineWidth: avatar == character.id ? 3 : 0).padding(-4))
+                                    .background(DS.gold.opacity(avatar == character.id ? 0.28 : 0), in: Circle())
+                                    .overlay(Circle().stroke(DS.gold, lineWidth: avatar == character.id ? 3 : 0))
                             }
                             .buttonStyle(.pressable)
                             .accessibilityAddTraits(avatar == character.id ? .isSelected : [])
