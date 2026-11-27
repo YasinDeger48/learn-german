@@ -106,10 +106,10 @@ struct TodayView: View {
         }
     }
 
-    /// "27 Kasım Cuma", in the app's language.
+    /// "Freitag, 27. November": in German, a little reading every day.
     private var todayDate: String {
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: Localizer.shared.language.rawValue)
+        formatter.locale = Locale(identifier: "de_DE")
         formatter.setLocalizedDateFormatFromTemplate("EEEEdMMMM")
         return formatter.string(from: Date())
     }
