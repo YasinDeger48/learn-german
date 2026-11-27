@@ -92,6 +92,7 @@ struct A1QuizView: View {
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear {
             A1Speaker.shared.stop()
+            if exam { AmbiencePlayer.shared.stop() }
             BadgeStore.shared.quizHidden(screenID)
         }
         .sheet(item: $celebration) { CelebrationView(badges: $0.badges) }
@@ -347,6 +348,7 @@ struct A1QuizView: View {
     }
 
     private func resetAnswer() {
+        if exam { AmbiencePlayer.shared.stop() }
         picked = nil
         typed = ""
         order = []
@@ -368,6 +370,11 @@ struct A1QuizView: View {
 
     private func play(_ q: A1Question, slow: Bool = false, times: Int = 1) {
         if let dialog = q.dialog {
+            // Mock exam listening: a quiet background sound of the place, as in a real exam recording.
+            if exam, q.mode == .hoeren || q.mode == .listen,
+               let kind = AmbiencePlayer.kind(forScene: dialog.map(\.t).joined(separator: " ")) {
+                AmbiencePlayer.shared.start(kind: kind, key: q.id)
+            }
             A1Speaker.shared.play(dialog, slow: slow, times: times)
         } else if let text = q.speakFirst {
             A1Speaker.shared.say(text, slow: slow, times: times)

@@ -207,8 +207,41 @@ final class AmbiencePlayer: ObservableObject {
 
     /// Starts the text's loop if the learner turned background sound on.
     func start(textID: String) {
+        guard let kind = kinds[textID] else { stop(); return }
+        start(kind: kind, key: textID)
+    }
+
+    /// Mock exam listening: the place a short dialog happens in (a bus stop, a shop…), found with the same word
+    /// lists as tools/ambience.py. Short dialogs have few words, so one hit is enough; nil when nothing fits.
+    static func kind(forScene text: String) -> String? {
+        let words = text.lowercased().split { !$0.isLetter && $0 != "-" }.map(String.init)
+        var best: (kind: String, hits: Int)?
+        for (kind, stems) in sceneWords {
+            let hits = words.filter { word in stems.contains { word.hasPrefix($0) } }.count
+            if hits > 0, hits > (best?.hits ?? 0) { best = (kind, hits) }
+        }
+        return best?.kind
+    }
+
+    /// Kind → German word starts (kept in step with KINDS in tools/ambience.py).
+    private static let sceneWords: [(String, [String])] = [
+        ("bus", ["bus", "haltestelle", "straßenbahn", "tram", "u-bahn", "s-bahn"]),
+        ("train", ["zug", "züge", "bahnhof", "bahnsteig", "gleis", "ice", "fernzug", "regionalzug"]),
+        ("cafe", ["café", "cafe", "restaurant", "kantine", "kellner", "bäckerei", "imbiss", "mensa"]),
+        ("office", ["büro", "kollege", "kollegin", "besprechung", "meeting", "schreibtisch", "drucker", "firma", "abteilung"]),
+        ("shop", ["supermarkt", "markt", "kasse", "laden", "geschäft", "einkauf", "kunde", "kundin", "wochenmarkt"]),
+        ("home", ["küche", "wohnung", "wohnzimmer", "balkon", "zuhause"]),
+        ("nature", ["park", "garten", "wald", "spaziergang", "vögel", "wiese"]),
+        ("rain", ["regen", "regnet", "gewitter", "regenschirm", "unwetter"]),
+        ("school", ["schule", "klasse", "kurs", "lehrer", "lehrerin", "unterricht", "seminar"]),
+        ("street", ["straße", "kreuzung", "ampel", "verkehr", "innenstadt", "bürgersteig"]),
+    ]
+
+    /// Starts a loop of this kind ("bus", "cafe"…) if the learner turned background sound on.
+    func start(kind: String, key: String) {
         stop()
-        guard enabled, let kind = kinds[textID] else { return }
+        guard enabled else { return }
+        let textID = key
         wanted = textID
         let local = Self.folder.appendingPathComponent("amb-\(kind).m4a")
         if FileManager.default.fileExists(atPath: local.path) {
