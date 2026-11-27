@@ -229,7 +229,8 @@ struct TodayGames: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             if let fresh { UnlockedBanner(feature: fresh).transition(.opacity) }
-            Text(t("plan.games").uppercased()).font(.footnote.weight(.semibold)).foregroundStyle(.secondary)
+            // As written, not uppercased: "Lina ile oyna" would lose the Turkish İ.
+            Text(t("plan.games")).font(.subheadline.weight(.bold)).foregroundStyle(.secondary)
             LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
                 ForEach(games) { game in
                     if let feature = game.feature {
