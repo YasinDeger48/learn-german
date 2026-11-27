@@ -189,7 +189,9 @@ struct TodayGames: View {
         let title: String
         let color: Color
         let picture: String
-        var id: String { feature?.rawValue ?? "mistakes" }
+        /// The 60-second article race: fills the sixth place where a level has no songs.
+        var sprint = false
+        var id: String { sprint ? "sprint" : (feature?.rawValue ?? "mistakes") }
     }
 
     private var games: [Game] {
@@ -207,11 +209,17 @@ struct TodayGames: View {
         if PhotoCapture.available {
             list.append(Game(feature: .camera, title: t("cam.title"), color: Color(red: 0.05, green: 0.49, blue: 0.53), picture: "lina-photo"))
         }
-        // Two per row: with an odd number "My mistakes" fills the last place (no half-empty row).
+        // Six cards: "My mistakes" takes Lina chat's place when the phone has no Apple Intelligence, and it also
+        // fills the last place of an odd row (no half-empty row).
         // lina-fix.png (an "oops", a little sad Lina) comes from Codex (job 14); until then the stumbling Lina.
-        if !list.count.isMultiple(of: 2) {
+        if !LinaAI.isAvailable || !list.count.isMultiple(of: 2) {
             list.append(Game(feature: nil, title: t("practice.mistakes"), color: Color(red: 0.84, green: 0.27, blue: 0.42),
                              picture: UIImage(named: "lina-fix") != nil ? "lina-fix" : "lina-stumble"))
+        }
+        // Always six: a level without songs (A2–B2) gets the article race.
+        if list.count < 6 {
+            list.append(Game(feature: nil, title: t("practice.sprint"), color: Color(red: 0.85, green: 0.55, blue: 0.05),
+                             picture: "lina-dance-2", sprint: true))
         }
         // Open ones first, the order otherwise kept.
         let open = list.filter { $0.feature.map(Unlocks.isOpen) ?? true }
@@ -252,6 +260,15 @@ struct TodayGames: View {
 
     @ViewBuilder
     private func link(_ game: Game) -> some View {
+        if game.sprint {
+            NavigationLink(value: A1Route.sprint) { card(game) }
+        } else {
+            featureLink(game)
+        }
+    }
+
+    @ViewBuilder
+    private func featureLink(_ game: Game) -> some View {
         switch game.feature {
         case .lazy: Button { showLazySetup = true } label: { card(game) }
         case .wordRun: NavigationLink(value: A1Route.wordRun) { card(game) }
@@ -266,7 +283,7 @@ struct TodayGames: View {
 
     private func card(_ game: Game) -> GameCard {
         GameCard(game: game.feature, title: game.title, color: game.color, picture: game.picture,
-                 isNew: game.feature != nil && fresh == game.feature)
+                 isNew: game.feature != nil && fresh == game.feature, sprint: game.sprint)
     }
 }
 
@@ -278,6 +295,8 @@ private struct GameCard: View {
     let color: Color
     let picture: String
     let isNew: Bool
+    /// The article race card (game is nil for it too).
+    var sprint = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var blink = false
 
@@ -328,6 +347,22 @@ private struct GameCard: View {
     /// Small things that tell the game apart: a track, word cards, speech bubbles, notes, "z z", a viewfinder.
     @ViewBuilder
     private func decorations(_ side: CGFloat) -> some View {
+        if sprint {
+            // A stopwatch with its 60 seconds.
+            ZStack {
+                Image(systemName: "stopwatch.fill").font(.system(size: 22, weight: .bold)).foregroundColor(.white)
+                    .offset(x: -side * 0.33, y: -side * 0.42)
+                Text("60").font(.system(size: 15, weight: .heavy)).foregroundColor(.white.opacity(0.9))
+                    .offset(x: side * 0.33, y: -side * 0.50)
+            }
+            .frame(width: side, height: side, alignment: .bottom)
+        } else {
+            featureDecorations(side)
+        }
+    }
+
+    @ViewBuilder
+    private func featureDecorations(_ side: CGFloat) -> some View {
         switch game {
         case .wordRun:
             Capsule().fill(Color.white.opacity(0.4)).frame(width: side * 0.84, height: 3).padding(.bottom, side * 0.06)
