@@ -36,10 +36,10 @@ ALL_LANGS = {'tr', 'en', *LANGS}
 INFORMAL = {'es': 'tú', 'fr': 'tu', 'it': 'tu', 'ku': 'tu', 'ar': 'أنت'}
 SETS = {
     'a1': ['a1.json', 'daily_a1.json', 'lexicon.json', 'units.json', 'writing.json', 'speaking.json', 'memorize.json',
-           'verbs_a1.json', 'starter_a1.json', 'stories_a1.json'],
-    'a2': ['a2.json', 'daily_a2.json', 'verbs_a2.json'],
-    'b1': ['b1.json', 'daily_b1.json', 'verbs_b1.json'],
-    'b2': ['b2.json', 'daily_b2.json', 'verbs_b2.json'],
+           'verbs_a1.json', 'starter_a1.json', 'stories_a1.json', 'phone_a1.json', 'songs_a1.json'],
+    'a2': ['a2.json', 'daily_a2.json', 'verbs_a2.json', 'stories_a2.json', 'phone_a2.json'],
+    'b1': ['b1.json', 'daily_b1.json', 'verbs_b1.json', 'stories_b1.json', 'phone_b1.json'],
+    'b2': ['b2.json', 'daily_b2.json', 'verbs_b2.json', 'stories_b2.json', 'phone_b2.json'],
 }
 # Only files that exist (a level may have no verb lab yet); Deschly Studio reads these lists too.
 SETS = {name: [f for f in files if os.path.exists(os.path.join(CONTENT, f))] for name, files in SETS.items()}

@@ -54,7 +54,9 @@ NOT_A_NAME = {'Der', 'Die', 'Das', 'Ein', 'Eine', 'Sie', 'Er', 'Es', 'Ich', 'Wir
 MALE = {'Tom', 'Max', 'Ben', 'Paul', 'Jan', 'Lukas', 'Felix', 'Leon', 'David', 'Ali', 'Mehmet', 'Ahmet', 'Murat',
         'Emre', 'Peter', 'Thomas', 'Michael', 'Stefan', 'Jonas', 'Mann', 'Kellner', 'Arzt', 'Lehrer', 'Verkäufer',
         'Chef', 'Vater', 'Opa', 'Junge', 'Polizist', 'Fahrer', 'Nachbar', 'Kollege', 'Freund', 'Busfahrer'}
-FEMALE_POOL = ['de-DE-Chirp3-HD-Achernar', 'de-DE-Chirp3-HD-Kore', 'de-DE-Chirp3-HD-Aoede', 'de-DE-Chirp3-HD-Leda']
+# Lina = Achernar, Elif = Sulafat (owner's pick 2026-11-27: Kore sounded too much like Achernar). Voices in one
+# conversation must be clearly different, so look-alikes stay out of the pool.
+FEMALE_POOL = ['de-DE-Chirp3-HD-Achernar', 'de-DE-Chirp3-HD-Sulafat', 'de-DE-Chirp3-HD-Leda', 'de-DE-Chirp3-HD-Aoede']
 MALE_POOL = ['de-DE-Chirp3-HD-Achird', 'de-DE-Chirp3-HD-Charon', 'de-DE-Chirp3-HD-Puck', 'de-DE-Chirp3-HD-Orus']
 FIXED = {'Lina': FEMALE_POOL[0], 'Elif': FEMALE_POOL[1]}  # the two heroines of the A1 stories
 GAP = 0.45  # seconds of silence between two lines
@@ -113,7 +115,7 @@ def dialogue_plan(text, narrator):
             voice = next((v for v in pool if v not in used), pool[len(voices) % len(pool)])
         voices[name] = voice
         used.add(voice)
-    plan = [(narrator, text['title'] + '.')]
+    plan = [(narrator, text['title'] if text['title'][-1:] in '.!?' else text['title'] + '.')]
     for paragraph, x in zip(text['paragraphs'], lines):
         plan.append((voices[x[0]], x[1]) if x else (narrator, paragraph))
     return plan
@@ -169,7 +171,7 @@ def quote_plan(text, narrator):
     import re
     other = {'f': next(v for v in FEMALE_POOL if v != narrator), 'm': next(v for v in MALE_POOL if v != narrator),
              'old_f': OLD_WOMAN, 'old_m': OLD_MAN}
-    plan = [(narrator, text['title'] + '.')]
+    plan = [(narrator, text['title'] if text['title'][-1:] in '.!?' else text['title'] + '.')]
     quoted = False
     for paragraph in text['paragraphs']:
         pieces = re.split(r'(„[^“]+“)', paragraph)

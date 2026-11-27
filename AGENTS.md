@@ -58,6 +58,7 @@ The owner talks to agents in Turkish: answer him in Turkish. Code, comments, com
 | `stories_<level>.json` (path stories; A1 `tools/stories.py`) | `tools/stories_upper.py` (A2, B1, B2) |
 | More B2 tasks in `writing.json` / `speaking.json` | `tools/tasks_upper.py` (kept in `tools/tasks_extra.json`) |
 | `songs_a1.json` (karaoke, public-domain songs, our music) | `tools/karaoke.py` |
+| Pictures for the A1 nouns that still have none (Codex picks, then draws) | `tools/word_pictures_rest.py` |
 | Checking the writing / speaking score rules (`TaskScore.swift`) against graded samples | `tools/score_check.py` |
 | Reading / word audio, background sounds | `tools/audio.py`, `tools/word_audio.py`, `tools/audio_pad.py`, `tools/ambience.py` |
 
