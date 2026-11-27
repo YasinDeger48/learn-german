@@ -36,6 +36,8 @@ enum TaskScorer {
         "trotzdem", "außerdem", "ob", "während", "bevor", "nachdem", "zuerst", "danach", "schließlich", "jedoch",
         "allerdings", "daher", "einerseits", "andererseits",
     ]
+    /// The same words as SpeechScore keys ("außerdem" → "ausserdem", "während" → "wahrend").
+    private static let connectorKeys = Set(connectors.map { SpeechScore.key($0) })
 
     static func levelRank(_ level: String) -> Int { ["A1", "A2", "B1", "B2"].firstIndex(of: level.uppercased()) ?? 0 }
 
@@ -94,7 +96,7 @@ enum TaskScorer {
     }
 
     private static func connectorCount(_ text: String) -> Int {
-        SpeechScore.split(text).filter { connectors.contains(SpeechScore.key($0)) }.count
+        SpeechScore.split(text).filter { connectorKeys.contains(SpeechScore.key($0)) }.count
     }
 
     /// Spelling with the iPhone's German dictionary (UITextChecker), errors per word in bands; Lina's 0–4 judgement
