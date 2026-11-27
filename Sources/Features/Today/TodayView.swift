@@ -22,7 +22,8 @@ struct TodayView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                greeting.padding(.top, 4)
+                topRow.padding(.top, 8)
+                greeting.padding(.top, 10)
                 // One plan for the day (unit step, words and review, text, speaking), then the games.
                 TodayPlanCard(model: practiceModel).padding(.top, 16)
                 TodayGames(model: practiceModel).padding(.top, 22)
@@ -53,6 +54,8 @@ struct TodayView: View {
         // The title stays for the back button of pages opened from here.
         .navigationTitle(t("tab.today"))
         .navigationBarTitleDisplayMode(.inline)
+        // The page draws its own top row (the bar gave the date only a few letters: "Fr…").
+        .toolbar(.hidden, for: .navigationBar)
         .onAppear {
             levels.active = practiceModel.level
             if appeared { wordRound += 1 }
@@ -63,23 +66,6 @@ struct TodayView: View {
             if appeared { wordRound += 1 }
         }
         .onChange(of: daily.level) { _ in levels.active = practiceModel.level }
-        .toolbar {
-            ToolbarItem(placement: .principal) { Color.clear.frame(width: 1, height: 1) }
-            ToolbarItem(placement: .navigationBarLeading) {
-                // "Donnerstag, 31. Dezember" next to a long XP number does not fit a small phone: then "Do., 31. Dez.".
-                ViewThatFits(in: .horizontal) {
-                    Text(germanDate("EEEEdMMMM"))
-                    Text(germanDate("EEEdMMM"))
-                }
-                .font(.subheadline.weight(.semibold)).foregroundColor(DS.muted).lineLimit(1)
-            }
-            ToolbarItem(placement: .navigationBarTrailing) {
-                HStack(spacing: 8) {
-                    StreakButton { showStreak = true }
-                    XPChip()  // points only; badges have their place in Profile
-                }
-            }
-        }
         .sheet(isPresented: $showStreak) {
             StreakView(open: open).environmentObject(daily).presentationDragIndicator(.visible)
         }
@@ -88,6 +74,21 @@ struct TodayView: View {
     /// Quick practice follows the level chosen above (A1, A2 …); levels without practice fall back to A1.
     private var practiceModel: A1Model {
         levels.hasPractice(daily.level) ? levels.model(daily.level) : levels.a1
+    }
+
+    /// The German date on the left, the streak (opens the calendar) and XP on the right, in one row.
+    private var topRow: some View {
+        HStack(spacing: 8) {
+            // "Donnerstag, 31. Dezember" next to a long XP number may not fit a small phone: then "Do., 31. Dez.".
+            ViewThatFits(in: .horizontal) {
+                Text(germanDate("EEEEdMMMM"))
+                Text(germanDate("EEEdMMM"))
+            }
+            .font(.subheadline.weight(.semibold)).foregroundColor(DS.muted).lineLimit(1)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            StreakButton { showStreak = true }
+            XPChip()  // points only; badges have their place in Profile
+        }
     }
 
     private var greeting: some View {
