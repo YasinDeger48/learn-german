@@ -7,10 +7,32 @@ struct ProfileView: View {
     @ObservedObject private var streak = StreakStore.shared
     @State private var certificates = ExamStore.certificates()
     @State private var showStreak = false
+    @State private var showPicture = false
+    @State private var photo = ProfileStore.photo()
+    @AppStorage(ProfileStore.nameKey) private var name = ""
+    @AppStorage(ProfileStore.avatarKey) private var avatar = ""
     let open: (AppRoute) -> Void
 
     var body: some View {
         List {
+            // The learner's picture (the level as a badge) and name; a tap changes them.
+            Section {
+                Button { showPicture = true } label: {
+                    VStack(spacing: 8) {
+                        ProfileAvatarView(photo: photo, avatar: avatar, name: name, level: daily.level, showEdit: true)
+                        Text(name.isEmpty ? t("profile.addName") : name)
+                            .font(.system(size: 21, weight: .heavy))
+                            .foregroundColor(name.isEmpty ? DS.muted : DS.ink)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 4)
+                }
+                .buttonStyle(.pressable)
+                .accessibilityLabel(t("profile.pictureTitle"))
+                .listRowBackground(Color.clear)
+                .listRowInsets(EdgeInsets())
+            }
+
             Section {
                 HStack(spacing: 12) {
                     Button { showStreak = true } label: {
@@ -63,6 +85,10 @@ struct ProfileView: View {
             }
         }
         .navigationTitle(t("tab.profile"))
+        .sheet(isPresented: $showPicture) {
+            ProfilePictureSheet { photo = ProfileStore.photo() }
+                .presentationDragIndicator(.visible)
+        }
         .sheet(isPresented: $showStreak) {
             StreakView(open: { route in
                 showStreak = false
