@@ -49,6 +49,8 @@ enum AppPalette: String, CaseIterable, Identifiable {
     static let storageKey = "ui.palette"
     var id: String { rawValue }
     var titleKey: String { "theme.palette.\(rawValue)" }
+    /// Classic and black-and-white are free; the colour palettes come with Pro.
+    var needsPro: Bool { self != .classic && self != .mono }
 
     static private(set) var current: AppPalette =
         AppPalette(rawValue: UserDefaults.standard.string(forKey: storageKey) ?? "") ?? .classic
@@ -92,8 +94,10 @@ enum AppPalette: String, CaseIterable, Identifiable {
 
 /// Settings section: appearance (system / light / dark) and the colour palettes as swatches.
 struct AppearanceSettingsSection: View {
+    @EnvironmentObject private var pro: ProStore
     @AppStorage(AppAppearance.storageKey) private var appearanceRaw = AppAppearance.system.rawValue
     @AppStorage(AppPalette.storageKey) private var paletteRaw = AppPalette.classic.rawValue
+    @State private var showPaywall = false
 
     private let columns = [GridItem(.adaptive(minimum: 92), spacing: 12)]
 
@@ -115,13 +119,15 @@ struct AppearanceSettingsSection: View {
         } footer: {
             Text(t("theme.footer"))
         }
+        .sheet(isPresented: $showPaywall) { PaywallView().environmentObject(pro) }
     }
 
     private func swatch(_ palette: AppPalette) -> some View {
         let colors = palette.make()
         let chosen = (AppPalette(rawValue: paletteRaw) ?? .classic) == palette
+        let locked = palette.needsPro && !pro.isPro
         return Button {
-            AppPalette.choose(palette)
+            if locked { showPaywall = true } else { AppPalette.choose(palette) }
         } label: {
             VStack(spacing: 6) {
                 ZStack {
@@ -132,6 +138,7 @@ struct AppearanceSettingsSection: View {
                     }
                 }
                 .frame(height: 48)
+                .overlay(alignment: .topTrailing) { if locked { ProChip().scaleEffect(0.8).padding(3) } }
                 .overlay(
                     RoundedRectangle(cornerRadius: 14, style: .continuous)
                         .stroke(chosen ? colors.goldDeep : DS.hairline, lineWidth: chosen ? 3 : 1)

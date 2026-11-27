@@ -404,7 +404,7 @@ struct UnitGrammarIntroView: View {
                     GrammarRuleCard(topic: topic)
                 }
                 NavigationLink {
-                    A1QuizView(title: t("unit.step.grammar"), onFinish: { _, _ in UnitStore.mark(.grammar, unit.id) }) {
+                    A1QuizView(title: t("unit.step.grammar"), free: true, onFinish: { _, _ in UnitStore.mark(.grammar, unit.id) }) {
                         model.unitGrammarSession(unit)
                     }
                 } label: {

@@ -71,6 +71,9 @@ final class ProStore: ObservableObject {
     @Published var showWelcome = false
 
     private let cacheKey = "proActive"
+
+    /// Pro as last known (also inside sheets): free-for-all or a purchase StoreKit confirmed earlier.
+    nonisolated static var isProNow: Bool { freeForAll || UserDefaults.standard.bool(forKey: "proActive") }
     private var updates: Task<Void, Never>?
 
     init() {

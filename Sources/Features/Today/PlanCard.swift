@@ -9,7 +9,7 @@ struct LessonStepView: View {
     var body: some View {
         switch step {
         case .practice:
-            A1QuizView(title: t("lesson.step.practice"), onFinish: { _, _ in LessonStore.mark(.practice) }) {
+            A1QuizView(title: t("lesson.step.practice"), free: true, onFinish: { _, _ in LessonStore.mark(.practice) }) {
                 model.lessonSession()
             }
         case .text:

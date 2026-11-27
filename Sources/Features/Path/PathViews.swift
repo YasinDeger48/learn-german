@@ -367,7 +367,7 @@ struct PathView: View {
         ForEach(Array(blocks.enumerated()), id: \.offset) { _, block in
             if block.contains(where: { UnitStore.passed($0.id) }), let first = block.first, let last = block.last {
                 NavigationLink {
-                    A1QuizView(title: t("path.review", first.number, last.number)) {
+                    A1QuizView(title: t("path.review", first.number, last.number), free: true) {
                         levels.model(level).blockReviewSession(block)
                     }
                     .environmentObject(levels.model(level))
@@ -578,7 +578,7 @@ struct UnitView: View {
                 }
             }
         case .test:
-            A1QuizView(title: t("unit.step.test"), onFinish: { correct, total in
+            A1QuizView(title: t("unit.step.test"), free: true, onFinish: { correct, total in
                 let percent = total == 0 ? 0 : correct * 100 / total
                 lastTest = percent
                 UnitStore.saveTest(unit.id, percent: percent)
@@ -636,7 +636,7 @@ struct UnitWordsView: View {
                     ForEach(cards) { word in card(word) }
                 }
                 NavigationLink {
-                    A1QuizView(title: t("unit.step.words"), onFinish: { _, _ in
+                    A1QuizView(title: t("unit.step.words"), free: true, onFinish: { _, _ in
                         // Done when most words reached the "written" stage, not after one round.
                         if WordMastery.unitDone(unit.level, model.unitDrillWords(unit)) { UnitStore.mark(.words, unit.id) }
                     }) {
@@ -747,7 +747,7 @@ struct UnitPhrasesView: View {
                     .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                 }
                 NavigationLink {
-                    A1QuizView(title: t("unit.step.phrases"), onFinish: { _, _ in UnitStore.mark(.phrases, unit.id) }) {
+                    A1QuizView(title: t("unit.step.phrases"), free: true, onFinish: { _, _ in UnitStore.mark(.phrases, unit.id) }) {
                         model.unitPhraseSession(unit)
                     }
                 } label: {

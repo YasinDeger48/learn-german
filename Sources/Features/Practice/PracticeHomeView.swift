@@ -43,7 +43,7 @@ struct A1Destination: View {
         case .exam:
             A1QuizView(title: t("practice.exam"), exam: true) { model.examSession() }
         case .review:
-            A1QuizView(title: t("review.title")) { model.reviewSession() }
+            A1QuizView(title: t("review.title"), free: true) { model.reviewSession() }  // due words: never blocked
         case .mistakes:
             A1QuizView(title: t("practice.mistakes"), review: true) { model.mistakeSession() }
         case .sprint:

@@ -338,6 +338,9 @@ struct LazySetupView: View {
         .accessibilityAddTraits(on ? .isSelected : [])
     }
 
+    /// Free: up to 10 minutes; Pro: up to 60 or endless.
+    private var maxMinutes: Int { ProStore.isProNow ? 60 : 10 }
+
     /// Any number of minutes (1–60) with a slider, or endless.
     private var durationCard: some View {
         VStack(spacing: 12) {
@@ -350,7 +353,7 @@ struct LazySetupView: View {
                 Button {
                     minutes = minutes == 0 ? 10 : 0
                 } label: {
-                    Label(t("lazy.endless"), systemImage: "infinity")
+                    Label(t("lazy.endless"), systemImage: ProStore.isProNow ? "infinity" : "lock.fill")
                         .font(.system(size: 14, weight: .bold))
                         .foregroundColor(minutes == 0 ? DS.ground : DS.ink)
                         .padding(.horizontal, 14)
@@ -358,18 +361,28 @@ struct LazySetupView: View {
                         .background(minutes == 0 ? DS.ink : DS.chip, in: Capsule())
                 }
                 .buttonStyle(.plain)
+                .disabled(!ProStore.isProNow)
                 .accessibilityAddTraits(minutes == 0 ? .isSelected : [])
             }
-            Slider(value: Binding(get: { Double(max(1, minutes)) }, set: { minutes = Int($0.rounded()) }), in: 1...60, step: 1)
+            Slider(value: Binding(get: { Double(min(maxMinutes, max(1, minutes))) }, set: { minutes = Int($0.rounded()) }),
+                   in: 1...Double(maxMinutes), step: 1)
                 .tint(DS.gold)
                 .disabled(minutes == 0)
                 .opacity(minutes == 0 ? 0.4 : 1)
                 .accessibilityLabel(t("lazy.duration"))
                 .accessibilityValue(t("lazy.minutes", max(1, minutes)))
             HStack {
-                Text(t("lazy.minutes", 1)); Spacer(); Text(t("lazy.minutes", 30)); Spacer(); Text(t("lazy.minutes", 60))
+                Text(t("lazy.minutes", 1)); Spacer(); Text(t("lazy.minutes", maxMinutes / 2)); Spacer(); Text(t("lazy.minutes", maxMinutes))
             }
             .font(.caption2).foregroundColor(DS.muted)
+            if !ProStore.isProNow {
+                HStack(spacing: 6) {
+                    ProChip()
+                    Text(t("lazy.proLonger")).font(.caption).foregroundColor(DS.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Spacer(minLength: 0)
+                }
+            }
         }
         .padding(16)
         .background(DS.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
@@ -430,7 +443,9 @@ struct LazySetupView: View {
 
     private var startButton: some View {
         Button {
-            start(LazyConfig(level: level, topics: topics, minutes: minutes, pool: poolActive ? pool : nil))
+            // A choice made while Pro (or free for all) is kept to the free limit without it.
+            let allowed = ProStore.isProNow ? minutes : min(max(1, minutes), maxMinutes)
+            start(LazyConfig(level: level, topics: topics, minutes: allowed, pool: poolActive ? pool : nil))
         } label: {
             Label(t("lazy.start"), systemImage: "play.fill")
                 .font(.system(size: 17, weight: .heavy))

@@ -71,7 +71,7 @@ struct LessonView: View {
                 Text(t("lesson.intro")).font(.subheadline).foregroundColor(DS.muted)
                 VStack(spacing: 0) {
                     stepRow(.practice, subtitle: t("lesson.practiceSub")) {
-                        A1QuizView(title: t("lesson.step.practice"), onFinish: { _, _ in LessonStore.mark(.practice) }) {
+                        A1QuizView(title: t("lesson.step.practice"), free: true, onFinish: { _, _ in LessonStore.mark(.practice) }) {
                             model.lessonSession()
                         }
                     }

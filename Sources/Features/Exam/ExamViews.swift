@@ -823,8 +823,10 @@ struct CertificateCard: View {
 
 struct CertificateDetailView: View {
     let certificate: Certificate
+    @EnvironmentObject private var pro: ProStore
     @AppStorage(ExamStore.nameKey) private var name = ""
     @State private var pdf: URL?
+    @State private var showPaywall = false
 
     var body: some View {
         ScrollView {
@@ -835,8 +837,32 @@ struct CertificateDetailView: View {
                         .scaleEffect(scale, anchor: .topLeading)
                         .frame(width: geo.size.width, height: CertificateCard.size.height * scale, alignment: .topLeading)
                         .shadow(color: .black.opacity(0.12), radius: 14, y: 6)
+                        .blur(radius: pro.isPro ? 0 : 7)
                 }
                 .aspectRatio(CertificateCard.size.width / CertificateCard.size.height, contentMode: .fit)
+                .overlay {
+                    if !pro.isPro {
+                        VStack(spacing: 6) {
+                            ProChip()
+                            Text(t("cert.proTitle")).font(.headline).foregroundColor(DS.ink).multilineTextAlignment(.center)
+                        }
+                        .padding(14)
+                        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    }
+                }
+
+                if !pro.isPro {
+                    Text(t("cert.proBody", certificate.total)).font(.subheadline).foregroundColor(DS.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Button { showPaywall = true } label: {
+                        Label(t("cert.proButton"), systemImage: "rosette")
+                            .font(DS.text(16, .semibold))
+                            .foregroundColor(DS.onGold)
+                            .frame(maxWidth: .infinity, minHeight: 54)
+                            .background(DS.gold, in: Capsule())
+                    }
+                    .buttonStyle(.pressable)
+                } else {
 
                 VStack(alignment: .leading, spacing: 6) {
                     Text(t("cert.nameLabel")).font(.subheadline.weight(.semibold))
@@ -855,6 +881,7 @@ struct CertificateDetailView: View {
                             .background(DS.gold, in: Capsule())
                     }
                 }
+                }
                 Text(t("cert.note")).font(.footnote).foregroundColor(DS.muted)
             }
             .padding(DS.gutter)
@@ -862,6 +889,7 @@ struct CertificateDetailView: View {
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("cert.title", certificate.level))
         .navigationBarTitleDisplayMode(.inline)
+        .sheet(isPresented: $showPaywall) { PaywallView().environmentObject(pro) }
         .onAppear {
             // ImageRenderer works on the main thread: wait for the push animation to finish first.
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) { if pdf == nil { pdf = makePDF() } }
