@@ -120,21 +120,34 @@ struct ModulesHomeView: View {
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var daily: DailyModel
     @State private var didPickLevel = false
+    @State private var showLazySetup = false
+    @State private var lazyConfig: LazyConfig?
 
     var body: some View {
         let model = levels.current
         ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
+            VStack(alignment: .leading, spacing: 18) {
                 LevelChips()
                 if model.ready {
-                    hero(model)
-                    LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
-                        ForEach(ExamModule.allCases) { module in
-                            NavigationLink(value: AppRoute.module(module.rawValue)) { moduleCard(module, model) }
-                                .buttonStyle(.pressable)
+                    group(t("practice.group.words"), wordRows(model))
+                    group(t("practice.group.grammar"), grammarRows(model))
+                    group(t("practice.group.listenRead"), listenReadRows(model))
+                    group(t("practice.group.speakWrite"), speakWriteRows(model))
+                    VStack(alignment: .leading, spacing: 10) {
+                        Text(t("practice.group.exam")).font(.title3.weight(.bold))
+                        hero(model)
+                        LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
+                            ForEach(ExamModule.allCases) { module in
+                                NavigationLink(value: AppRoute.module(module.rawValue)) { moduleCard(module, model) }
+                                    .buttonStyle(.pressable)
+                            }
                         }
+                        rowList([
+                            row(AppRoute.examHome, "checkmark.seal.fill", DS.ink, t("exam.title", model.level), t("exam.format")),
+                            row(AppRoute.practice(model.level), "square.grid.2x2.fill", .orange, t("modules.allPractice"),
+                                t("modules.allPracticeSub")),
+                        ])
                     }
-                    basics(model)
                 } else {
                     HStack(spacing: 12) {
                         ProgressView()
@@ -155,7 +168,108 @@ struct ModulesHomeView: View {
                 if levels.hasPractice(daily.level) { levels.active = daily.level }
             }
         }
+        .sheet(isPresented: $showLazySetup) {
+            LazySetupView(level: model.level, words: model.content?.words ?? [], themes: model.content?.themes ?? []) { config in
+                showLazySetup = false
+                // The player opens after the sheet has gone (two presentations at once are refused).
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) { lazyConfig = config }
+            }
+            .presentationDetents([.large])
+        }
+        .fullScreenCover(item: $lazyConfig) { config in
+            LazyPlayerView(config: config)
+                .environmentObject(model)
+        }
         .safeAreaInset(edge: .bottom) { AdBanner() }
+    }
+
+    // MARK: Groups: every exercise has one place here, sorted by skill
+
+    private func group(_ title: String, _ rows: [AnyView]) -> some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text(title).font(.title3.weight(.bold))
+            rowList(rows)
+        }
+    }
+
+    private func rowList(_ rows: [AnyView]) -> some View {
+        VStack(spacing: 0) {
+            ForEach(Array(rows.enumerated()), id: \.offset) { index, row in
+                if index > 0 { Divider().padding(.leading, 56) }
+                row
+            }
+        }
+        .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+    }
+
+    private func row<V: Hashable>(_ value: V, _ icon: String, _ color: Color, _ title: String, _ subtitle: String?,
+                                  _ count: String? = nil) -> AnyView {
+        AnyView(NavigationLink(value: value) {
+            ModuleRow(icon: icon, color: color, title: title, subtitle: subtitle, value: count)
+        })
+    }
+
+    private func wordRows(_ model: A1Model) -> [AnyView] {
+        var rows = [
+            row(A1Route.mode(.artikel), "a.square.fill", DS.die, A1Mode.artikel.title, nil),
+            row(A1Route.wordRun, "figure.run", DS.die, t("run.title"), t("run.cardSub")),
+            row(A1Route.match(nil), "square.grid.3x3.fill", DS.der, t("practice.match"), t("match.cardSub")),
+        ]
+        rows.append(AnyView(Button { showLazySetup = true } label: {
+            ModuleRow(icon: "sofa.fill", color: DS.das, title: t("lazy.title"), subtitle: t("lazy.cardSub"), value: nil)
+        }.buttonStyle(.plain)))
+        rows.append(row(AppRoute.basics, "textformat.abc", .blue, "Wortschatz", t("modules.wordsSub"),
+                        "\(model.content?.words.count ?? 0)"))
+        rows.append(row(AppRoute.memorize, "brain.head.profile", .pink, t("mem.title"), t("mem.sub"),
+                        "\(MemorizeBank.sheets(upTo: model.level).count)"))
+        rows.append(row(AppRoute.verbLab, "flask.fill", .indigo, t("verb.title"), t("verb.sub"),
+                        VerbBank.verbs(model.level).isEmpty ? nil : "\(VerbBank.verbs(model.level).count)"))
+        return rows
+    }
+
+    private func grammarRows(_ model: A1Model) -> [AnyView] {
+        let topics = model.content?.grammar ?? []
+        let doneTopics = topics.filter { model.topicStatus($0.id) == .done }.count
+        var rows = [row(A1Route.grammarList, "books.vertical.fill", .purple, "Grammatik", t("modules.grammarSub"),
+                        "\(doneTopics)/\(topics.count)")]
+        if model.totalFor(.cloze) > 0 {
+            rows.append(row(A1Route.mode(.cloze), "text.insert", .teal, A1Mode.cloze.title, nil))
+        }
+        rows.append(row(A1Route.mistakes, "arrow.uturn.backward", DS.error, t("practice.mistakes"), nil,
+                        model.state.wrong.isEmpty ? nil : "\(model.state.wrong.count)"))
+        return rows
+    }
+
+    private func listenReadRows(_ model: A1Model) -> [AnyView] {
+        let texts = daily.texts[model.level] ?? []
+        var rows = [row(AppRoute.readingHome, "doc.richtext.fill", .green, t("modules.dailyTexts"), t("modules.dailyTextsSub"),
+                        "\(texts.filter { daily.isCompleted($0) }.count)/\(texts.count)")]
+        if model.totalFor(.hoeren) > 0 {
+            rows.append(row(A1Route.mode(.hoeren), "headphones", .orange, A1Mode.hoeren.title, nil))
+        }
+        if !SongBank.songs(model.level).isEmpty {
+            rows.append(row(A1Route.songs, "music.mic", .orange, t("song.title"), t("song.cardSub")))
+        }
+        rows.append(row(A1Route.phone, "phone.fill", .orange, t("phone.title"), nil))
+        return rows
+    }
+
+    private func speakWriteRows(_ model: A1Model) -> [AnyView] {
+        var rows: [AnyView] = []
+        if LinaAI.isAvailable {
+            rows.append(row(A1Route.linaChat, "bubble.left.and.bubble.right.fill", .purple, t("lina.chatTitle"), t("lina.cardSub")))
+        }
+        rows.append(row(A1Route.speaking, "mic.fill", DS.die, t("speak.title"), t("speak.sub")))
+        let tasks = WritingBank.tasks(model.level)
+        if !tasks.isEmpty {
+            let done = tasks.filter { (WritingBank.best($0.id) ?? 0) >= 60 }.count
+            rows.append(row(AppRoute.writing, "square.and.pencil", .pink, t("modules.writingTasks"), t("modules.writingTasksSub"),
+                            "\(done)/\(tasks.count)"))
+        }
+        if PhotoCapture.available {
+            rows.append(row(A1Route.camera, "camera.fill", .teal, t("cam.title"), t("cam.cardSub")))
+        }
+        return rows
     }
 
     private func hero(_ model: A1Model) -> some View {
@@ -195,41 +309,6 @@ struct ModulesHomeView: View {
         .frame(maxWidth: .infinity, minHeight: 120, alignment: .topLeading)
         .padding(14)
         .background(DS.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-    }
-
-    private func basics(_ model: A1Model) -> some View {
-        let topics = model.content?.grammar ?? []
-        let doneTopics = topics.filter { model.topicStatus($0.id) == .done }.count
-        return VStack(alignment: .leading, spacing: 8) {
-            Text(t("modules.basics")).font(.title3.weight(.bold)).padding(.top, 6)
-            VStack(spacing: 0) {
-                NavigationLink(value: AppRoute.basics) {
-                    ModuleRow(icon: "textformat.abc", color: .blue, title: "Wortschatz", subtitle: t("modules.wordsSub"),
-                              value: "\(model.content?.words.count ?? 0)")
-                }
-                Divider().padding(.leading, 56)
-                NavigationLink(value: A1Route.grammarList) {
-                    ModuleRow(icon: "books.vertical.fill", color: .purple, title: "Grammatik", subtitle: t("modules.grammarSub"),
-                              value: "\(doneTopics)/\(topics.count)")
-                }
-                Divider().padding(.leading, 56)
-                NavigationLink(value: AppRoute.memorize) {
-                    ModuleRow(icon: "brain.head.profile", color: .pink, title: t("mem.title"), subtitle: t("mem.sub"),
-                              value: "\(MemorizeBank.sheets(upTo: model.level).count)")
-                }
-                Divider().padding(.leading, 56)
-                NavigationLink(value: AppRoute.verbLab) {
-                    ModuleRow(icon: "flask.fill", color: .indigo, title: t("verb.title"), subtitle: t("verb.sub"),
-                              value: VerbBank.verbs(model.level).isEmpty ? nil : "\(VerbBank.verbs(model.level).count)")
-                }
-                Divider().padding(.leading, 56)
-                NavigationLink(value: AppRoute.practice(model.level)) {
-                    ModuleRow(icon: "square.grid.2x2.fill", color: .orange, title: t("modules.allPractice"),
-                              subtitle: t("modules.allPracticeSub"), value: nil)
-                }
-            }
-            .background(DS.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-        }
     }
 }
 

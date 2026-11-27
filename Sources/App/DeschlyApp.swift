@@ -83,16 +83,16 @@ enum AppRoute: Hashable {
     case settings
 }
 
-/// Tabs: today's learning, the step-by-step path, free practice (the four exam modules), the mock exam, the profile.
+/// Tabs: today's learning, the step-by-step path, practice by skill (with the exam), the profile.
+/// The mock exam is no tab of its own: it is the end of each level in Path and the last group in Practice.
 enum AppTab: Int, CaseIterable {
-    case today, path, modules, exam, profile
+    case today, path, modules, profile
 
     var titleKey: String {
         switch self {
         case .today: return "tab.today"
         case .path: return "tab.path"
         case .modules: return "tab.modules"
-        case .exam: return "tab.exam"
         case .profile: return "tab.profile"
         }
     }
@@ -102,7 +102,6 @@ enum AppTab: Int, CaseIterable {
         case .today: return "sun.max"
         case .path: return "map"
         case .modules: return "square.grid.2x2"
-        case .exam: return "checkmark.seal"
         case .profile: return "person.crop.circle"
         }
     }
@@ -139,10 +138,6 @@ struct RootView: View {
             NavigationStack { ModulesHomeView().appRoutes() }
                 .tabItem { Label(t(AppTab.modules.titleKey), systemImage: AppTab.modules.icon) }
                 .tag(AppTab.modules)
-
-            NavigationStack { ExamHomeView().appRoutes() }
-                .tabItem { Label(t(AppTab.exam.titleKey), systemImage: AppTab.exam.icon) }
-                .tag(AppTab.exam)
 
             NavigationStack(path: $profilePath) {
                 ProfileView(open: { route in

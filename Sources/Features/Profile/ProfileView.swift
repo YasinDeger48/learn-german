@@ -44,6 +44,18 @@ struct ProfileView: View {
             }
 
             Section {
+                NavigationLink(value: AppRoute.savedWords) {
+                    Label(t("saved.title"), systemImage: "bookmark.fill")
+                }
+                NavigationLink(value: A1Route.mistakes) {
+                    Label(t("practice.mistakes"), systemImage: "arrow.uturn.backward")
+                }
+                NavigationLink(value: AppRoute.examHome) {
+                    Label(t("tab.exam"), systemImage: "checkmark.seal")
+                }
+            }
+
+            Section {
                 NavigationLink(value: AppRoute.levels) {
                     Label(t("tab.levels"), systemImage: "chart.bar")
                 }
