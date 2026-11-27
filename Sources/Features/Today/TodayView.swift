@@ -107,7 +107,7 @@ struct TodayView: View {
             }
             VStack(alignment: .leading, spacing: 3) {
                 Text(greetingText).font(DS.display(32)).foregroundColor(DS.ink).tracking(-1)
-                Text(linaLine).font(DS.text(14)).foregroundColor(DS.muted)
+                LinaMoodCheck()
             }
         }
     }
@@ -125,16 +125,6 @@ struct TodayView: View {
         if hour < 11 { return "Guten Morgen!" }
         if hour < 18 { return "Guten Tag!" }
         return "Guten Abend!"
-    }
-
-    private var linaLine: String {
-        guard let text = daily.today else { return "Lina: Los geht's!" }
-        switch daily.status(text) {
-        case .done: return "Lina: Super, morgen geht's weiter!"
-        case .tried: return "Lina: Fast! Versuch das Quiz nochmal."
-        default: break
-        }
-        return "Lina: Bereit für deinen Text?"
     }
 
     /// The quiz state of today's text, for its island.
@@ -175,3 +165,57 @@ struct TodayView: View {
     }
 }
 
+/// Lina asks how the learner is, once a day: "Wie geht's dir heute?" with three answers in German, then her short
+/// German reply with its translation under it (the answer is kept for the day).
+private struct LinaMoodCheck: View {
+    @AppStorage("lina.moodDay") private var moodDay = -1
+    @AppStorage("lina.mood") private var mood = ""
+
+    private struct Answer {
+        let id: String
+        let label: String
+        let reply: String
+    }
+
+    private static let answers = [
+        Answer(id: "good", label: "😀 Gut", reply: "Super! Dann los!"),
+        Answer(id: "ok", label: "😐 Es geht", reply: "Kein Problem, heute machen wir es leicht."),
+        Answer(id: "tired", label: "😴 Müde", reply: "Dann nur fünf Minuten. Das reicht!"),
+    ]
+
+    private var today: Int { DailyModel.dayNumber(Date()) }
+
+    var body: some View {
+        if moodDay == today, let answer = Self.answers.first(where: { $0.id == mood }) {
+            VStack(alignment: .leading, spacing: 1) {
+                Text(answer.reply).font(DS.text(14, .semibold)).foregroundColor(DS.ink)
+                Text(t("mood.reply.\(answer.id)")).font(DS.text(12)).foregroundColor(DS.muted)
+            }
+            .fixedSize(horizontal: false, vertical: true)
+            .transition(.opacity)
+        } else {
+            VStack(alignment: .leading, spacing: 6) {
+                VStack(alignment: .leading, spacing: 0) {
+                    Text("Wie geht's dir heute?").font(DS.text(14, .semibold)).foregroundColor(DS.ink)
+                    Text(t("mood.question")).font(DS.text(12)).foregroundColor(DS.muted)
+                }
+                HStack(spacing: 6) {
+                    ForEach(Self.answers, id: \.id) { answer in
+                        Button {
+                            withAnimation(.easeOut(duration: 0.2)) {
+                                mood = answer.id
+                                moodDay = today
+                            }
+                        } label: {
+                            Text(answer.label).font(DS.text(13, .semibold)).foregroundColor(DS.ink)
+                                .lineLimit(1).minimumScaleFactor(0.8)
+                                .padding(.horizontal, 9).padding(.vertical, 6)
+                                .background(DS.chip, in: Capsule())
+                        }
+                        .buttonStyle(.pressable)
+                    }
+                }
+            }
+        }
+    }
+}
