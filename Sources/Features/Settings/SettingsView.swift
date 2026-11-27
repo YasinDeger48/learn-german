@@ -107,9 +107,6 @@ struct SettingsView: View {
                         Toggle(t("settings.notifyStreak"), isOn: $notifyStreak)
                             .onChange(of: notifyStreak) { _ in Reminders.refresh(daily) }
                     }
-                    Picker(t("settings.myLevel"), selection: $daily.level) {
-                        ForEach(DailyModel.levels.filter { daily.isAvailable($0) }, id: \.self) { Text($0).tag($0) }
-                    }
                     Button(t("placement.retake")) { showPlacement = true }
                 } header: {
                     Text(t("settings.daily"))

@@ -137,7 +137,6 @@ struct ExamHomeView: View {
         let certificate = certificates.first { $0.level == level }
         ScrollView {
             VStack(alignment: .leading, spacing: 14) {
-                LevelChips()
                 ExamTicket(level: level)
 
                 if levels.hasPractice(level) {

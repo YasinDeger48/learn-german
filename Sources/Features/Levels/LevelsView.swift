@@ -1,9 +1,12 @@
 import SwiftUI
 
 /// Levels A1–B2 as cards: colour band, readiness ring, what the level covers, and "your level".
+/// The only place to change the level: a tap asks first, then Today, the path, Practice and the exam move to it.
 struct LevelsView: View {
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var daily: DailyModel
+    /// The level the learner tapped, waiting for "are you sure?".
+    @State private var pending: String?
 
     private struct Level {
         let code: String
@@ -27,8 +30,11 @@ struct LevelsView: View {
         ScrollView {
             VStack(spacing: 12) {
                 ForEach(rows, id: \.code) { level in
-                    NavigationLink(value: AppRoute.practice(level.code)) { card(level) }
+                    Button {
+                        if level.code != daily.level { pending = level.code }
+                    } label: { card(level) }
                         .buttonStyle(.pressable)
+                        .disabled(!daily.isAvailable(level.code))
                 }
                 Text(t("levels.subtitle"))
                     .font(.footnote)
@@ -41,6 +47,19 @@ struct LevelsView: View {
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("tab.levels"))
+        .alert(t("levels.confirmTitle", pending ?? ""), isPresented: Binding(get: { pending != nil }, set: { if !$0 { pending = nil } }),
+               presenting: pending) { code in
+            Button(t("levels.confirmYes", code)) { choose(code) }
+            Button(t("common.cancel"), role: .cancel) { pending = nil }
+        } message: { _ in
+            Text(t("levels.confirmBody"))
+        }
+    }
+
+    private func choose(_ code: String) {
+        daily.level = code
+        if levels.hasPractice(code) { levels.active = code }
+        pending = nil
     }
 
     private func card(_ level: Level) -> some View {

@@ -213,8 +213,8 @@ struct PathView: View {
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var daily: DailyModel
     @EnvironmentObject private var pro: ProStore
+    /// The learner's level (chosen only in Profile → Levels).
     @State private var level = "A1"
-    @State private var levelChosen = false
     @State private var refresh = 0
 
     private enum Row: Identifiable {
@@ -237,16 +237,6 @@ struct PathView: View {
                 HStack {
                     Text(t("path.progress", level, passedCount, units.count)).font(.subheadline).foregroundColor(DS.muted)
                     Spacer()
-                    ForEach(LevelModels.practiceLevels, id: \.self) { code in
-                        Button { level = code } label: {
-                            Text(code)
-                                .font(DS.text(13, .bold))
-                                .foregroundColor(level == code ? DS.ground : DS.ink)
-                                .frame(minWidth: 44, minHeight: 32)
-                                .background(level == code ? DS.ink : DS.surface, in: Capsule())
-                        }
-                        .buttonStyle(.plain)
-                    }
                 }
                 // Unit 0 for complete beginners: alphabet, sounds, numbers, greetings.
                 if level == "A1" && StarterContent.shared != nil {
@@ -302,13 +292,13 @@ struct PathView: View {
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("tab.path"))
         .safeAreaInset(edge: .bottom) { AdBanner() }
-        .onAppear {
-            // Only the first time: coming back from a unit keeps the level the learner picked here.
-            guard !levelChosen else { return }
-            levelChosen = true
-            if UnitBank.levels.contains(daily.level) { level = daily.level }
-        }
+        .onAppear(perform: followLevel)
+        .onChange(of: daily.level) { _ in followLevel() }
         .onReceive(NotificationCenter.default.publisher(for: UnitStore.changed)) { _ in refresh += 1 }
+    }
+
+    private func followLevel() {
+        level = UnitBank.levels.contains(daily.level) ? daily.level : (UnitBank.levels.first ?? "A1")
     }
 
     private func rows(_ units: [LearningUnit], current: LearningUnit?) -> [Row] {

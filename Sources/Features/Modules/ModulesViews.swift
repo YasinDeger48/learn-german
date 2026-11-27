@@ -90,36 +90,11 @@ enum ExamModule: String, CaseIterable, Identifiable, Hashable {
     }
 }
 
-/// Level chips used on the Modules and Exam tabs; they change the level that practice screens use.
-struct LevelChips: View {
-    @EnvironmentObject private var levels: LevelModels
-
-    var body: some View {
-        HStack(spacing: 8) {
-            ForEach(LevelModels.practiceLevels, id: \.self) { level in
-                Button {
-                    levels.active = level
-                } label: {
-                    Text(level)
-                        .font(DS.text(14, .bold))
-                        .foregroundColor(levels.active == level ? DS.ground : DS.ink)
-                        .frame(minWidth: 52, minHeight: 36)
-                        .background(levels.active == level ? DS.ink : DS.surface, in: Capsule())
-                }
-                .buttonStyle(.plain)
-                .accessibilityAddTraits(levels.active == level ? .isSelected : [])
-            }
-            Spacer(minLength: 0)
-        }
-    }
-}
-
 // MARK: - Modules tab
 
 struct ModulesHomeView: View {
     @EnvironmentObject private var levels: LevelModels
     @EnvironmentObject private var daily: DailyModel
-    @State private var didPickLevel = false
     /// Opened for one level (Profile → Levels, the "Practise" notification); nil = the Practice tab.
     var startLevel: String? = nil
 
@@ -127,7 +102,6 @@ struct ModulesHomeView: View {
         let model = levels.current
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
-                LevelChips()
                 if model.ready {
                     group(t("practice.group.words"), wordRows(model))
                     group(t("practice.group.grammar"), grammarRows(model))
@@ -160,18 +134,18 @@ struct ModulesHomeView: View {
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("tab.modules"))
-        .onAppear {
-            // Start on the learner's own level the first time.
-            if !didPickLevel {
-                didPickLevel = true
-                let level = startLevel ?? daily.level
-                if levels.hasPractice(level) { levels.active = level }
-            }
-        }
+        // The learner's level (chosen only in Profile → Levels), or the level this page was opened for.
+        .onAppear(perform: followLevel)
+        .onChange(of: daily.level) { _ in followLevel() }
         .safeAreaInset(edge: .bottom) { AdBanner() }
     }
 
     // MARK: Groups: every exercise has one place here, sorted by skill
+
+    private func followLevel() {
+        let level = startLevel ?? daily.level
+        if levels.hasPractice(level) { levels.active = level }
+    }
 
     private func group(_ title: String, _ rows: [AnyView]) -> some View {
         VStack(alignment: .leading, spacing: 8) {
