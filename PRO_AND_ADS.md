@@ -29,6 +29,17 @@ Kararlaştırılan fiyatlar: aylık 2,99, yıllık 19,99 (7 gün ücretsiz denem
 4. App Store metni: `../AppStore-Sayfasi-Pro-yedek.md` içindeki "ÜCRETSİZ VE DESCHLY PRO" bölümleri (üç dil) ve
    App Review notları. Reklam cümlelerini çıkar ("Ücretsiz sürümde reklam gösterilir." vb.).
 5. Gizlilik sitesi: "Satın alımlar (Deschly Pro)" bölümünü geri koy (deschly-site git geçmişi, commit `c52fbf0e`).
+6. İstersen Pro ve reklamlı deneme IPA'sını CI'a geri koy (28 Kasım 2026'da kaldırıldı). `.github/workflows/ios.yml`
+   "Package IPA" adımında `du -h Deschly.ipa` satırının altına:
+   ```bash
+   rm -rf pro && mkdir -p pro/Payload
+   cp -R "$app" pro/Payload/
+   /usr/libexec/PlistBuddy -c "Set :DeschlyFreeForAll false" pro/Payload/Almanca.app/Info.plist
+   /usr/libexec/PlistBuddy -c "Add :DeschlyPreviewPrices bool true" pro/Payload/Almanca.app/Info.plist
+   (cd pro && ditto -c -k --keepParent Payload ../Deschly-Pro-Reklam.ipa)
+   unzip -t Deschly-Pro-Reklam.ipa > /dev/null
+   ```
+   ve yükleme adımı (`actions/upload-artifact@v4`, name `Deschly-Pro-Reklam-IPA`, path `Deschly-Pro-Reklam.ipa`).
 
 ### 2. Reklamlar da
 1. `project.yml` en üste, `targets:` satırından önce:
