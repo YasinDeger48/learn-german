@@ -37,10 +37,9 @@ enum Unlocks {
         defaults.set(UnlockFeature.allCases.filter { isOpen($0) }.map(\.rawValue), forKey: seenKey)
     }
 
-    static var isBeginner: Bool {
-        decideIfNeeded()
-        return defaults.bool(forKey: beginnerKey)
-    }
+    /// Off (owner's decision, 2026-11-28): everything is open from day 1, no "opens on day 3 / after unit 5" locks.
+    /// To bring the slow opening back, return `defaults.bool(forKey: beginnerKey)` after `decideIfNeeded()` again.
+    static var isBeginner: Bool { false }
     static var active: Bool { isBeginner && !defaults.bool(forKey: allKey) }
 
     static func openAll() {

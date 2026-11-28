@@ -35,7 +35,9 @@ struct TodayView: View {
                 TodayGames(model: practiceModel).padding(.top, 22)
             }
             .padding(.horizontal, DS.gutter)
-            .padding(.bottom, islandsHeight + 24)  // room to scroll the last rows above the islands
+            // Room to scroll the last rows above the folded islands. An open card can be 400 pt tall; reserving that
+            // left an empty screen at the end of the page, so at most the two pills' height is kept free.
+            .padding(.bottom, min(islandsHeight, 120) + 24)
         }
         .deschlyPage()
         .overlay(alignment: .bottomLeading) {

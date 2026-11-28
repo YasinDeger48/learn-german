@@ -121,11 +121,9 @@ enum UnitStore {
     /// A unit step was finished today (the first step of Today's plan).
     static var steppedToday: Bool { UserDefaults.standard.string(forKey: lastDayKey) == A1Model.dayString(Date()) }
 
-    static func unlocked(_ unit: LearningUnit) -> Bool {
-        let list = UnitBank.units(unit.level)
-        guard let index = list.firstIndex(of: unit), index > 0 else { return true }
-        return passed(list[index - 1].id)
-    }
+    /// Every unit is open (owner's decision, 2026-11-28); the path still suggests the order with "NOW".
+    /// The old rule opened a unit only after the one before it was passed.
+    static func unlocked(_ unit: LearningUnit) -> Bool { true }
 
     /// The first unit not passed yet (the last one when everything is passed).
     static func current(_ level: String) -> LearningUnit? {
