@@ -9,6 +9,8 @@ struct DeschlyApp: App {
         // Must run before any content is read: a new app version starts from its own bundled files.
         ContentStore.clearIfAppChanged()
         ContentStore.guardAgainstCrashLoop()
+        // Screenshot build only (Info.plist DeschlyDemoData): sample streak, units, exam and mistakes, once.
+        DemoData.seedIfRequested()
         UNUserNotificationCenter.current().delegate = NotificationHandler.shared
         Reminders.registerCategories()
     }

@@ -71,6 +71,14 @@ jobs:
           (cd pro && ditto -c -k --keepParent Payload ../Deschly-Pro-Reklam.ipa)
           unzip -t Deschly-Pro-Reklam.ipa > /dev/null
           du -h Deschly-Pro-Reklam.ipa
+          # A third IPA for App Store screenshots: the free build with sample progress filled at the first
+          # launch (5-day streak, A1 units 1-2, a passed A1 exam, a few mistakes; DemoData.swift).
+          rm -rf demo && mkdir -p demo/Payload
+          cp -R "$app" demo/Payload/
+          /usr/libexec/PlistBuddy -c "Add :DeschlyDemoData bool true" demo/Payload/Almanca.app/Info.plist
+          (cd demo && ditto -c -k --keepParent Payload ../Deschly-Ekran-Demo.ipa)
+          unzip -t Deschly-Ekran-Demo.ipa > /dev/null
+          du -h Deschly-Ekran-Demo.ipa
 
       - uses: actions/upload-artifact@v4
         with:
@@ -82,6 +90,12 @@ jobs:
         with:
           name: Deschly-Pro-Reklam-IPA
           path: Deschly-Pro-Reklam.ipa
+          if-no-files-found: error
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Deschly-Ekran-Demo-IPA
+          path: Deschly-Ekran-Demo.ipa
           if-no-files-found: error
 
       # After the IPA, so a failing test never blocks it; the run still turns red.
