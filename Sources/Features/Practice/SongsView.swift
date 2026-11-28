@@ -172,7 +172,7 @@ struct SongsHomeView: View {
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("song.title"))
-        .safeAreaInset(edge: .bottom) { AdBanner() }
+        .adBanner()
         .navigationBarTitleDisplayMode(.inline)
         .onAppear { finished = SongBank.finished }
     }

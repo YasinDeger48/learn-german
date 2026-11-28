@@ -120,7 +120,7 @@ struct A1GrammarListView: View {
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("workbook.grammarTitle"))
-        .safeAreaInset(edge: .bottom) { AdBanner() }
+        .adBanner()
     }
 
     private func chip(_ value: Filter, _ title: String) -> some View {

@@ -219,6 +219,25 @@ struct AdBanner: View {
     }
 }
 
+/// `.adBanner()`: the banner pinned under a page. The inset is added only while a banner can show; an inset
+/// with empty content still left an empty strip at the end of Path and Practice.
+private struct AdBannerInset: ViewModifier {
+    @EnvironmentObject private var pro: ProStore
+    @ObservedObject private var ads = AdsManager.shared
+
+    func body(content: Content) -> some View {
+        if !pro.isPro && ads.canShowAds {
+            content.safeAreaInset(edge: .bottom) { AdBanner() }
+        } else {
+            content
+        }
+    }
+}
+
+extension View {
+    func adBanner() -> some View { modifier(AdBannerInset()) }
+}
+
 private struct BannerRepresentable: UIViewRepresentable {
     let size: AdSize
 
@@ -253,6 +272,11 @@ final class AdsManager: ObservableObject {
 
 struct AdBanner: View {
     var body: some View { EmptyView() }
+}
+
+extension View {
+    /// No ads in this build: the page stays as it is (no empty inset at the bottom).
+    func adBanner() -> some View { self }
 }
 
 #endif

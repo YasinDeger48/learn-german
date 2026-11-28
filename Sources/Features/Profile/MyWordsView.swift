@@ -57,7 +57,7 @@ struct MyWordsView: View {
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("words.title"))
-        .safeAreaInset(edge: .bottom) { AdBanner() }
+        .adBanner()
         .onAppear { pool = LazyPool.ids(model.level) }
     }
 }

@@ -97,6 +97,10 @@ struct A1QuizView: View {
         }
         .sheet(item: $celebration) { CelebrationView(badges: $0.badges).environmentObject(pro) }
         .toolbar {
+            // One line: long titles ("What do you say? · Find the mistake") wrapped into two badly aligned lines.
+            ToolbarItem(placement: .principal) {
+                Text(title).font(.headline).lineLimit(1).minimumScaleFactor(0.75)
+            }
             ToolbarItem(placement: .navigationBarTrailing) {
                 if let left = secondsLeft, started, index < session.count {
                     Label(String(format: "%02d:%02d", left / 60, left % 60), systemImage: "timer")

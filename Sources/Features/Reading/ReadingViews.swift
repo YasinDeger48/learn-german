@@ -625,7 +625,7 @@ struct ReadingHomeView: View {
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle(t("reading.title"))
-        .safeAreaInset(edge: .bottom) { AdBanner() }
+        .adBanner()
     }
 
     private func todayCard(_ text: DailyText) -> some View {

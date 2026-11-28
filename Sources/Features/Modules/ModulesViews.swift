@@ -131,7 +131,7 @@ struct ModulesHomeView: View {
         // The learner's level (chosen only in Profile → Levels), or the level this page was opened for.
         .onAppear(perform: followLevel)
         .onChange(of: daily.level) { _ in followLevel() }
-        .safeAreaInset(edge: .bottom) { AdBanner() }
+        .adBanner()
         .sheet(isPresented: $showExam) {
             NavigationStack {
                 examDetails(levels.current)
@@ -482,7 +482,7 @@ struct WordsBasicsView: View {
         }
         .background(DS.ground.ignoresSafeArea())
         .navigationTitle("Wortschatz")
-        .safeAreaInset(edge: .bottom) { AdBanner() }
+        .adBanner()
         .navigationBarTitleDisplayMode(.inline)
     }
 }
